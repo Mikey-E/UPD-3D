@@ -36,7 +36,7 @@ For example, create a file inside called "v1.txt" and then list some point cloud
 3D-GRAND inside.
 
 ```
-LivingRoom-52289
-Bedroom-516
+8ef1ac63-da17-4f85-94ad-d784649329c6@Bedroom-206
+55f2b905-d367-443d-8f88-ef71b958c81f@LivingRoom-3973
 ...
 ```
