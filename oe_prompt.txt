@@ -1,0 +1,12 @@
+Generate an open-ended question based on the following information that will come after "#BEGIN". When making the question, adhere to the following rules:
+
+-The question should be related to the same theme as the information after #BEGIN, but it should be unanswerable by looking at the room as it is described. It should be a question that cannot be figured out from the information, nor would it likely be solvable at all by looking at the scene as described.
+-The questions should not require advanced reasoning.
+-When possible, make the question require 3D understanding of the description, such that the answer could not be determined merely by looking at a 2D picture of what is being described.
+-Do not include ambiguous wording.
+-Do not include distractions in the question.
+-Do not make the question something that could be applied to most descriptions, like "How many objects are in the room?". Be sure that the question and its answer are asking about specific information, just not applicable to this particular description.
+
+Format the response as follows. First put the question on its own line, with no newline.
+
+#BEGIN
