@@ -10,3 +10,10 @@ conda create -n upd-3d python=3.12
 ```
 conda activate upd-3d
 ```
+
+## Link the 3D-GRAND dataset
+Create a soft link to the 3D-GRAND dataset in the project directory. The link should be named `data`:
+```
+ln -s /path/to/3D-GRAND data
+```
+Replace `/path/to/3D-GRAND` with the actual path to the 3D-GRAND dataset on your system.
