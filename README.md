@@ -16,7 +16,7 @@ Create a soft link to the 3D-GRAND dataset in the project directory. The link sh
 ```
 ln -s /path/to/3D-GRAND data
 ```
-Replace `/path/to/3D-GRAND` with the actual path to the 3D-GRAND dataset on your system. The data link should point to the top level of 3D-GRAND that looks like this:
+Replace `/path/to/3D-GRAND` with the actual path to the 3D-GRAND dataset on your system. You can download the dataset from [Hugging Face](https://huggingface.co/datasets/sled-umich/3D-GRAND/tree/main). The data link should point to the top level of 3D-GRAND that looks like this:
 
 ```
 3d-grand/
