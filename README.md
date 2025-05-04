@@ -1,2 +1,7 @@
 # UPD-3D
-UPD samples for 3D-LLMs
+Code for generating samples to test 3D-LLM unsolvable problem detection capability.
+
+## Create a Conda environment
+```
+conda create -n upd-3d python=3.12
+```
