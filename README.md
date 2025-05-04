@@ -5,3 +5,8 @@ Code for generating samples to test 3D-LLM unsolvable problem detection capabili
 ```
 conda create -n upd-3d python=3.12
 ```
+
+## Activate the Conda environment
+```
+conda activate upd-3d
+```
