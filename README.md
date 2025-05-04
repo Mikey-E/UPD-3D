@@ -27,3 +27,5 @@ Replace `/path/to/3D-GRAND` with the actual path to the 3D-GRAND dataset on your
 ├── LICENSE
 └── README.md
 ```
+
+So if you cd into the soft-link "data", you should see .cache, code/, data/, etc.
