@@ -3,9 +3,9 @@ import os
 import openai
 
 # Set up argument parser
-parser = argparse.ArgumentParser(description="Take text_basis files and generate upd samples using OpenAI API.")
+parser = argparse.ArgumentParser(description="Take text_basis files and generate upd multiple-choice samples using OpenAI API.")
 parser.add_argument("folder", type=str, help="Name of the folder inside text_basis/")
-parser.add_argument("--prompt_file", type=str, default="upd_prompt.txt", help="Name of the .txt file containing the prompt.")
+parser.add_argument("--prompt_file", type=str, default="mc_prompt.txt", help="Name of the .txt file containing the prompt.")
 
 args = parser.parse_args()
 
