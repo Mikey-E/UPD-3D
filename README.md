@@ -29,3 +29,10 @@ Replace `/path/to/3D-GRAND` with the actual path to the 3D-GRAND dataset on your
 ```
 
 So if you cd into the soft-link "data", you should see .cache, code/, data/, etc.
+
+Inside the pcl/ folder, you can manually make subsets of point clouds for UPD question 
+generation.
+For example, create a file inside called "v1.txt" and then list some point clouds from 
+3D-GRAND inside.
+
+<pre> ```text #v1.txt apple banana carrot ``` </pre>
