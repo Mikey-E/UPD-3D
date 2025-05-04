@@ -35,4 +35,8 @@ generation.
 For example, create a file inside called "v1.txt" and then list some point clouds from 
 3D-GRAND inside.
 
-<pre> ```text #v1.txt apple banana carrot ``` </pre>
+```
+LivingRoom-52289
+Bedroom-516
+...
+```
