@@ -1,0 +1,16 @@
+Generate a multiple-choice question based on the following information that will come after "#BEGIN". When making the question, adhere to the following guidelines:
+
+1. All questions should have 4 options. 1 will be correct, and 3 will be incorrect.
+2. The questions should be answerable just by looking at the room as it is described. The questions should not require advanced reasoning.
+3. Do not make one of the answer choices "none of the above" or "all of the above" or any variations in wording that have the same essential meaning.
+4. Do not make answer choices that refer to other answers, like "(a) b and c".
+5. Do not make any subjective answer choices, like "(a) I can't judge" or similar.
+6. When possible, make the question require 3D understanding of the description, such that the answer could not be determined merely by looking at a 2D picture of what is being described.
+7. Do not include ambiguous wording.
+8. Do not include distractions in the question.
+9. Do not include answers that are too similar in meaning like "(a) friends", "(b) pals".
+10. Do not make the question something that could be applied to most descriptions, like "How many objects are in the room?". Be sure that the question and its answer are tied very tightly to the description, such that if a new description were substituted then the question and answers wouldn't apply at all.
+
+Format the response as follows. First put the question on its own line, then put a blank line, then put each answer choice on its own line, then put another blank line, then clearly indicate what the correct answer is at the end of the response: "Correct answer: a/b/c/d".
+
+#BEGIN
