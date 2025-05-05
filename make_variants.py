@@ -111,11 +111,64 @@ def make_iasd(input_folder=os.path.join("upd_text", args.folder, "standard")):
             new_sample = new_sample[:-1]
             new_sample.append("\n" + additional_instruction)
             outfile.writelines(new_sample)
-#------------------------------------
+
+def make_ivqd(input_folder=os.path.join("upd_text", args.folder, "standard")):
+    """Generate ivqd variants from the standard set"""
+    output_folder_base = os.path.join("upd_text", args.folder, "ivqd_base")
+    output_folder_ao = os.path.join("upd_text", args.folder, "ivqd_additional_option")
+    output_folder_ai = os.path.join("upd_text", args.folder, "ivqd_additional_instruction")
+    os.makedirs(output_folder_base, exist_ok=True)
+    os.makedirs(output_folder_ao, exist_ok=True)
+    os.makedirs(output_folder_ai, exist_ok=True)
+
+    filenames = os.listdir(input_folder)
+
+    for i in range(len(filenames)):
+        filename = filenames[i]
+        filename_new = filenames[i - 1]
+        os.system("cp " + os.path.join(input_folder, filename) + " " + os.path.join(output_folder_base, filename_new))
+
+    for filename in filenames:
+        input_file_path = os.path.join(output_folder_base, filename)
+        output_file_path_ao = os.path.join(output_folder_ao, filename)
+        output_file_path_ai = os.path.join(output_folder_ai, filename)
+
+        with open(input_file_path, 'r') as infile:
+            lines = infile.readlines()
+
+        with open(output_file_path_ao, 'w') as outfile:
+            lines.append("\ne) none of the above")
+            outfile.writelines(lines)
+        with open(output_file_path_ai, 'w') as outfile:
+            lines = lines[:-1]
+            lines.append("\n" + additional_instruction)
+            outfile.writelines(lines)
+    
+def make_open_ended_instruction(input_folder=os.path.join("upd_text", args.folder, "open_ended")):
+    """Generate open-ended instruction variants from the open-ended set."""
+    output_folder = os.path.join("upd_text", args.folder, "open_ended_additional_instruction")
+    os.makedirs(output_folder, exist_ok=True)
+
+    # Process each file in the input folder
+    for filename in os.listdir(input_folder):
+        input_file_path = os.path.join(input_folder, filename)
+        output_file_path = os.path.join(output_folder, filename)
+
+        # Read the contents of the current file
+        with open(input_file_path, 'r') as infile:
+            lines = infile.readlines()
+
+        # Write the remaining lines to the output file
+        with open(output_file_path, 'w') as outfile:
+            lines.append("\nIf the question is unanswerable, please answer: 'f'")
+            outfile.writelines(lines)
+
 def main():
-    # make_standard()
-    # make_aad()
+    make_standard()
+    make_aad()
     make_iasd()
+    make_ivqd()
+    make_open_ended_instruction()
 
 if __name__ == "__main__":
     main()
