@@ -58,7 +58,10 @@ def main():
     output_dir = "./scored_model_responses"
     os.makedirs(output_dir, exist_ok=True)
 
-    with open(os.path.join(output_dir, json_file.replace('.json', '') + '_scored.json'), 'w') as f:
+    #JSON file name with no path
+    json_file_no_path = os.path.basename(os.path.normpath(json_file))
+
+    with open(os.path.join(output_dir, json_file_no_path.replace('.json', '') + '_scored.json'), 'w') as f:
         json.dump(data, f, indent=4)
 
 if __name__ == "__main__":
