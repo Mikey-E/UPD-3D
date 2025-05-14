@@ -1,0 +1,602 @@
+{
+    "02861dfe-ed53-41f1-b554-b02d0c170c61@Hallway-1735": {
+        "prompt": "What color is the ceiling lamp in the hallway?\n\n\nb) Beige\n\nc) Gray\n\nd) Blue\n\nIf none of the above answers are correct, answer: 'f'",
+        "response": "'f' is not a color, it's a type of material.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "02861dfe-ed53-41f1-b554-b02d0c170c61@Library-245": {
+        "prompt": "What is the primary purpose of the furniture arrangement in the library?\n\n\nb) To create a space solely for social gatherings  \n\nc) To showcase a collection of artwork   \n\nd) To prioritize minimalism and empty spaces  \n\nIf none of the above answers are correct, answer: 'f'",
+        "response": "'f' is not a correct answer. The question is about the furniture arrangement in the library, not its color.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "02861dfe-ed53-41f1-b554-b02d0c170c61@LivingDiningRoom-1750": {
+        "prompt": "What color are the seats of the dining chairs surrounding the dining table?\n\nA) Bright red  \nC) Deep blue  \nD) Soft green  \n\nIf none of the above answers are correct, answer: 'f'",
+        "response": "The seats of the dining chairs surrounding the dining table are not specified.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "02861dfe-ed53-41f1-b554-b02d0c170c61@MasterBedroom-1422": {
+        "prompt": "What color is the wardrobe in the Master bedroom?\n\na) Dark gray  \nc) Off-white  \nd) Silver  \n\nIf none of the above answers are correct, answer: 'f'",
+        "response": "The color of the wardrobe in the Master bedroom is not specified.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "02861dfe-ed53-41f1-b554-b02d0c170c61@SecondBedroom-6295": {
+        "prompt": "What color are the wardrobes in the bedroom?\n\n\nb) Mint green\n\nc) Blush pink\n\nd) Pastel blue\n\nIf none of the above answers are correct, answer: 'f'",
+        "response": "The color of the wardrobe in the bedroom is not specified.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "04475197-37e9-4409-b76c-d38578bab25c@ElderlyRoom-41646": {
+        "prompt": "What type of pattern adorns the king-size bed in the ElderlyRoom? \n\na) Striped\n\n\nc) Floral\n\nd) Geometric\n\nIf none of the above answers are correct, answer: 'f'",
+        "response": "The pattern on the king-size bed in the Elderly Room is floral.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "04475197-37e9-4409-b76c-d38578bab25c@Library-41759": {
+        "prompt": "What type of wood is used in the wardrobe found in the library?\n\n\nb) Oak\n\nc) Pine\n\nd) Cedar\n\nIf none of the above answers are correct, answer: 'f'",
+        "response": "'f' is not a type of wood used in the wardrobe.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "04475197-37e9-4409-b76c-d38578bab25c@LivingDiningRoom-41577": {
+        "prompt": "What color is the sofa in the living room?\n\na) Rich teal  \nb) Bright yellow  \nd) Charcoal gray  \n\nIf none of the above answers are correct, answer: 'f'",
+        "response": "The sofa in the living room is charcoal gray.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "04475197-37e9-4409-b76c-d38578bab25c@Terrace-62380": {
+        "prompt": "What shape is the hanging chair described in the terrace?\n\na) Square  \nc) Rectangle  \nd) Circle  \n\nIf none of the above answers are correct, answer: 'f'",
+        "response": "The hanging chair is described as a square.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "06e6dae8-1592-4278-8f40-ffa20cea11d3@LivingDiningRoom-4495": {
+        "prompt": "What color is the footstool in the living room?\n\na) Light beige  \nb) Black  \nd) White  \n\nIf none of the above answers are correct, answer: 'f'",
+        "response": "The footstool is white.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "06e6dae8-1592-4278-8f40-ffa20cea11d3@MasterBedroom-4533": {
+        "prompt": "What color are the nightstands flanking the king-size bed?\n\na) Blue  \nb) Beige  \nd) Green  \n\nIf none of the above answers are correct, answer: 'f'",
+        "response": "",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "06e6dae8-1592-4278-8f40-ffa20cea11d3@SecondBedroom-2295": {
+        "prompt": "What color is the upholstery of the king-size bed in the Second bedroom?\n\na) Beige\n\n\nc) Silver\n\nd) Black\n\nIf none of the above answers are correct, answer: 'f'",
+        "response": "'f' is not a color. It's the name of the bed in the model.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "0adfb786-3070-498b-a0a4-ed7b9b050931@LivingDiningRoom-13415": {
+        "prompt": "Which of the following furniture pieces is designed with a black glass top and has Japanese-inspired features?\n\na) Three-seat sofa  \n \nb) Coffee table  \n\n\nd) TV stand  \n\nIf none of the above answers are correct, answer: 'f'",
+        "response": "The given description does not provide any information about a specific furniture piece.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "0adfb786-3070-498b-a0a4-ed7b9b050931@MasterBedroom-12988": {
+        "prompt": "What is the color scheme of the drawer chest in the Masterbedroom?\n\nb) Bright red  \nc) Glossy white  \nd) Light blue  \n\nIf none of the above answers are correct, answer: 'f'",
+        "response": "The color scheme of the drawer chest in the Masterbedroom is not specified.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "0d85b6f8-d94d-4a7f-8601-53382c62fc6e@LivingDiningRoom-13739": {
+        "prompt": "What color is the l-shaped sofa in the living room?\n\nb) Light gray  \nc) Espresso  \nd) White  \n\nIf none of the above answers are correct, answer: 'f'",
+        "response": "'f' is not a color. It's the name of the sofa in the model.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "0d85b6f8-d94d-4a7f-8601-53382c62fc6e@MasterBedroom-13713": {
+        "prompt": "What is the color of the wardrobe in the master bedroom?\n\na) Dark brown  \nc) Sleek black  \nd) Crisp white  \n\nIf none of the above answers are correct, answer: 'f'",
+        "response": "The color of the wardrobe in the master bedroom is not specified.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "0ed3cea7-f8c0-4f91-87b8-9414ec60a713@Library-8839": {
+        "prompt": "What type of surface does the desk in the library have?\n\n  \na) Wood  \n\nb) Glass  \n\n\nd) Plastic  \n\n\nIf none of the above answers are correct, answer: 'f'",
+        "response": "The description does not provide any information about the material of the desk.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "0ed3cea7-f8c0-4f91-87b8-9414ec60a713@LivingDiningRoom-9821": {
+        "prompt": "What style is the coffee table in the living room described?\n\n\nb) Traditional \n\nc) Rustic \n\nd) Modern \n\nIf none of the above answers are correct, answer: 'f'",
+        "response": "The coffee table in the living room is described as rustic.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "0ed3cea7-f8c0-4f91-87b8-9414ec60a713@MasterBedroom-9160": {
+        "prompt": "What type of bed is at the center of the room?  \n\na) queen-size bed  \nc) twin bed  \nd) full-size bed  \n\nIf none of the above answers are correct, answer: 'f'",
+        "response": "The bed is not specified in the description.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "0ed3cea7-f8c0-4f91-87b8-9414ec60a713@SecondBedroom-1621": {
+        "prompt": "What color is the wardrobe in the Second bedroom? \n\na) Dark brown  \nb) Muted gray  \nd) White  \n\nIf none of the above answers are correct, answer: 'f'",
+        "response": "The color of the wardrobe in the Second bedroom is not specified.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "0ed3cea7-f8c0-4f91-87b8-9414ec60a713@SecondBedroom-5672": {
+        "prompt": "What style influences are represented in the nightstands on either side of the king-size bed in the Second bedroom?\n\na) Japanese Minimalist\n\nb) Southeast Asian\n\n\nd) Nordic\n\nIf none of the above answers are correct, answer: 'f'",
+        "response": "The description does not provide any specific information about the style of the bed or the nightstands.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "12d1ca85-c2ce-40c6-97d9-54f01a0d85ce@Bedroom-18657": {
+        "prompt": "What color is the footstool located at the foot of the bed?\n\na) Black  \nb) Gray  \nd) Oak  \n\nIf none of the above answers are correct, answer: 'f'",
+        "response": "'f' is not a color. It's the name of the footstool.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "12d1ca85-c2ce-40c6-97d9-54f01a0d85ce@DiningRoom-18093": {
+        "prompt": "What is the color of the top of the children's cabinet in the DiningRoom?\n\na) Violet  \nb) Gold  \nd) White  \n\nIf none of the above answers are correct, answer: 'f'",
+        "response": "'f' is not a color. The cabinet is described as having a violet top.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "12d1ca85-c2ce-40c6-97d9-54f01a0d85ce@LivingRoom-18176": {
+        "prompt": "What color are the three-seat sofas in the living room?\n\na) Light grey  \nc) Walnut brown  \nd) Black  \n\nIf none of the above answers are correct, answer: 'f'",
+        "response": "The color of the three-seat sofas in the living room is not specified.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "12d1ca85-c2ce-40c6-97d9-54f01a0d85ce@SecondBedroom-19165": {
+        "prompt": "What is the color of the corner table in the Second bedroom?\n\n  \na) Blue  \nc) Grey  \nd) Silver  \n\nIf none of the above answers are correct, answer: 'f'",
+        "response": "'f' is not a color. It's the name of the room in the model.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "13df4898-d23d-4665-a67e-81a555a4f213@ElderlyRoom-2872": {
+        "prompt": "What item is positioned directly above the king-size bed in the ElderlyRoom?\n\n  \na) Wardrobe  \n  \n  \nc) Chair  \n  \nd) Nightstand  \n  \n\nIf none of the above answers are correct, answer: 'f'",
+        "response": "'f' is not a correct answer.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "13df4898-d23d-4665-a67e-81a555a4f213@LivingRoom-6035": {
+        "prompt": "What is the color of the upholstery on the three-seat sofa in the living room?\n\n\nb) Dark grey\n\nc) Soft pink\n\nd) Silver\n\nIf none of the above answers are correct, answer: 'f'",
+        "response": "'f' is not a color. It's the name of the sofa model.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "13df4898-d23d-4665-a67e-81a555a4f213@MasterBedroom-6528": {
+        "prompt": "What color is the king-size bed in the Masterbedroom?\n\nb) Charcoal grey  \nc) Soft white  \nd) Neutral grey  \n\nIf none of the above answers are correct, answer: 'f'",
+        "response": "The color of the bed is not specified in the description.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "13df4898-d23d-4665-a67e-81a555a4f213@SecondBedroom-2498": {
+        "prompt": "What design style does the children's cabinet in the Second bedroom exhibit?\n\n\nb) Victorian style\n\nc) Rustic style\n\nd) Art Deco style\n\nIf none of the above answers are correct, answer: 'f'",
+        "response": "The description doesn't provide any specific information about the cabinet's color or style.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "1a72d0f9-8ea7-45b9-8e82-998f04f062a4@LivingRoom-10051": {
+        "prompt": "What is the style of the dining table in the living room?\n\na) Vintage \n\n\nc) Industrial \n\nd) Minimalist \n\nIf none of the above answers are correct, answer: 'f'",
+        "response": "The style of the dining table in the living room is minimalistic.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "1b74b745-24a5-4119-96e8-2a852a9d1a05@Bedroom-32287": {
+        "prompt": "What style is the wardrobe in the bedroom described?\n\nb) Japanese  \nc) Southeast Asian  \nd) Minimalist  \n\nIf none of the above answers are correct, answer: 'f'",
+        "response": "The style of the wardrobe in the bedroom is minimalistic.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "1b74b745-24a5-4119-96e8-2a852a9d1a05@LivingDiningRoom-35292": {
+        "prompt": "What piece of furniture is positioned for optimal viewing from the three-seat sofa?\n\na) Sideboard  \nb) Dining table  \nd) Drawer chest  \n\nIf none of the above answers are correct, answer: 'f'",
+        "response": "None of the given furniture pieces are positioned for optimal viewing from the three-seat sofa.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "1cb14b6d-4bb2-4bd1-8792-31e32ceb679a@Library-13084": {
+        "prompt": "What is the color of the pendant lamp that hangs above the center of the room?\n\na) White\n\n\nc) Espresso Brown\n\nd) Violet\n\nIf none of the above answers are correct, answer: 'f'",
+        "response": "The color of the pendant lamp hanging above the center of the room is not specified.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "1cb14b6d-4bb2-4bd1-8792-31e32ceb679a@LivingDiningRoom-16827": {
+        "prompt": "What color is the tv stand in the living room?\n\na) Charcoal  \nc) White  \nd) Brown  \n\nIf none of the above answers are correct, answer: 'f'",
+        "response": "The TV stand is brown.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "1cb14b6d-4bb2-4bd1-8792-31e32ceb679a@MasterBedroom-13415": {
+        "prompt": "Which piece of furniture is positioned directly in front of the king-size bed in the Masterbedroom?\n\n  \na) Wardrobe  \n  \nb) Nightstand  \n  \n  \nd) Pendant lamp  \n  \n\nIf none of the above answers are correct, answer: 'f'",
+        "response": "The given description does not provide any information about the color of the bed.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "1cb14b6d-4bb2-4bd1-8792-31e32ceb679a@SecondBedroom-12667": {
+        "prompt": "What color is the headboard of the king-size bed in the Second bedroom?\n\nb) Mustard yellow  \nc) Light brown  \nd) Honey-toned  \n\nIf none of the above answers are correct, answer: 'f'",
+        "response": "'f' is not a color mentioned in the description.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "22843330-f141-4cb6-8ce6-8b32b56388ba@KidsRoom-629": {
+        "prompt": "What color is the wardrobe in the KidsRoom?\n\n\nb) Walnut brown\n\nc) Dark chocolate\n\nd) Pale cream\n\nIf none of the above answers are correct, answer: 'f'",
+        "response": "The color of the wardrobe is not specified in the description.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "22843330-f141-4cb6-8ce6-8b32b56388ba@Library-7286": {
+        "prompt": "What color is the desk in the library?\n\na) Charcoal gray  \nb) White  \nd) Light grey  \n\nIf none of the above answers are correct, answer: 'f'",
+        "response": "The color of the desk in the library is charcoal gray.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "22843330-f141-4cb6-8ce6-8b32b56388ba@LivingDiningRoom-31515": {
+        "prompt": "What color is the fabric of the armchairs in the living room?  \n\na) Chocolate brown  \nb) Deep mocha brown  \nd) Glossy black  \n\nIf none of the above answers are correct, answer: 'f'",
+        "response": "The color of the fabric is not specified in the description.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "22843330-f141-4cb6-8ce6-8b32b56388ba@MasterBedroom-23676": {
+        "prompt": "What color is the upholstery of the king-size bed in the Master bedroom?\n\na) Dark brown  \nb) Bright green  \nd) Grey  \n\nIf none of the above answers are correct, answer: 'f'",
+        "response": "The color of the upholstery is not specified in the description.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "22843330-f141-4cb6-8ce6-8b32b56388ba@SecondBedroom-9822": {
+        "prompt": "What type of design does the wardrobe in the Second bedroom feature?\n\na) Industrial\n\n\nc) Rustic\n\nd) Vintage\n\nIf none of the above answers are correct, answer: 'f'",
+        "response": "The description does not provide any specific details about the design of the wardrobe.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "2b49ac86-df1a-4cf4-b9d7-44b588d1d594@Bedroom-308": {
+        "prompt": "What design style is prominently featured in the single bed of the bedroom?\n\na) Scandinavian\n\n\nc) Industrial\n\nd) Rustic\n\nIf none of the above answers are correct, answer: 'f'",
+        "response": "The description does not provide any information about the bed's design style.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "2b49ac86-df1a-4cf4-b9d7-44b588d1d594@Bedroom-522": {
+        "prompt": "What style is the wardrobe in this bedroom?\n\na) European  \nb) Japanese  \nd) Modern  \n\nIf none of the above answers are correct, answer: 'f'",
+        "response": "The style of the wardrobe is not specified in the description.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "2b49ac86-df1a-4cf4-b9d7-44b588d1d594@Bedroom-577": {
+        "prompt": "What is the color scheme of the single bed in the bedroom?\n\n  \n  \nb) White and brown  \n  \nc) Cream and green  \n  \nd) Blue and orange  \n  \n\nIf none of the above answers are correct, answer: 'f'",
+        "response": "",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "2b49ac86-df1a-4cf4-b9d7-44b588d1d594@LivingDiningRoom-201": {
+        "prompt": "What is the color of the dining chairs positioned around the dining table in the living room?\n\na) Bright white  \nc) Espresso  \nd) Jet black  \n\nIf none of the above answers are correct, answer: 'f'",
+        "response": "The dining chairs are not specified in the description.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "2e6f78b9-74f5-4273-adfe-6d07f1cf115c@DiningRoom-19847": {
+        "prompt": "What design style is prominently featured in the two bookcases located in the room?\n\na) Modern  \nb) Rustic  \nd) Scandinavian  \n\nIf none of the above answers are correct, answer: 'f'",
+        "response": "The room has a modern design with a rustic touch.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "2e6f78b9-74f5-4273-adfe-6d07f1cf115c@KidsRoom-19370": {
+        "prompt": "What color are the wardrobes in the KidsRoom?\n\n\nb) Light oak\n\nc) White\n\nd) Black\n\nIf none of the above answers are correct, answer: 'f'",
+        "response": "'f' is not a color. It's the name of a character in the paragraph.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "2e6f78b9-74f5-4273-adfe-6d07f1cf115c@Library-18578": {
+        "prompt": "What type of lamp is suspended above the plant in the library?\n\nb) Table lamp with a green shade  \nc) Floor lamp with an industrial design  \nd) Wall sconce with an orange glow  \n\nIf none of the above answers are correct, answer: 'f'",
+        "response": "The lamp is not described in the given information.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "2e6f78b9-74f5-4273-adfe-6d07f1cf115c@MasterBedroom-19652": {
+        "prompt": "What color is the headboard of the king-size bed in the Master bedroom?\n\nb) Light beige  \nc) Charcoal grey  \nd) White matte  \n\nIf none of the above answers are correct, answer: 'f'",
+        "response": "The color of the headboard is not specified in the description.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "3486378d-ab43-4801-ade7-6478ae9e9dd9@LivingDiningRoom-6364": {
+        "prompt": "What color is the upholstery of the lounge chair in the living room?\n\n\nb) Neutral beige\n\nc) Light luxury seafoam green\n\nd) Dark brown\n\nIf none of the above answers are correct, answer: 'f'",
+        "response": "The color of the upholstery in the living room is not specified.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "44858e7f-9b00-4ddc-871f-966f18535227@DiningRoom-4167": {
+        "prompt": "What color scheme does the pendant lamp in the DiningRoom feature? \n\nb) Walnut brown  \nc) Deep navy blue  \nd) White marble  \n\nIf none of the above answers are correct, answer: 'f'",
+        "response": "'f' is not a color. It's the name of the lamp.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "44858e7f-9b00-4ddc-871f-966f18535227@LivingRoom-102834": {
+        "prompt": "What color is the sofa in the living room?\n\nb) Light brown  \nc) Bright green  \nd) Deep blue  \n\nIf none of the above answers are correct, answer: 'f'",
+        "response": "The color of the sofa is not specified in the description.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "45b4438f-0a30-429a-910f-44c595fe345d@LivingDiningRoom-9144": {
+        "prompt": "What color is the l-shaped sofa in the living room?\n\na) Grey  \nc) Walnut  \nd) Light brown  \n\nIf none of the above answers are correct, answer: 'f'",
+        "response": "'f' is not a color. It's the name of the sofa.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "45b4438f-0a30-429a-910f-44c595fe345d@MasterBedroom-1903": {
+        "prompt": "What element in the room is responsible for providing illumination?\n\n  \na) King-size bed  \n  \nb) Nightstand  \n  \n  \nd) Sleek upholstery  \n\nIf none of the above answers are correct, answer: 'f'",
+        "response": "The room is not furnished.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "45b4438f-0a30-429a-910f-44c595fe345d@SecondBedroom-1318": {
+        "prompt": "What is the color of the nightstand in the Second bedroom?\n\na) Black  \nb) White  \nd) Dark brown  \n\nIf none of the above answers are correct, answer: 'f'",
+        "response": "",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "4721cb12-8491-4288-a172-5c43678a93aa@LivingDiningRoom-5560": {
+        "prompt": "What style is the sofa in the living room?\n\nb) European Classic  \nc) Vintage/Retro  \nd) Minimalist  \n\nIf none of the above answers are correct, answer: 'f'",
+        "response": "The sofa in the living room is a minimalist design.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "4721cb12-8491-4288-a172-5c43678a93aa@MasterBedroom-5661": {
+        "prompt": "What type of design does the desk in the Master bedroom feature?  \n\nb) Rustic style  \nc) Victorian elegance  \nd) Art Deco  \n\nIf none of the above answers are correct, answer: 'f'",
+        "response": "The desk in the Master bedroom has a rustic design.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "4721cb12-8491-4288-a172-5c43678a93aa@SecondBedroom-5601": {
+        "prompt": "What type of lighting fixture is located above the king-size bed in the Second bedroom?\n\na) Table lamp  \nb) Floor lamp  \nd) Wall sconce  \n\nIf none of the above answers are correct, answer: 'f'",
+        "response": "The description doesn't provide any specific information about the type of lighting fixture above the king-size bed.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "488fbe38-3594-4a1d-a6a2-e3ee6ace70f2@Aisle-32788": {
+        "prompt": "What color is the drawer chest located in the aisle?\n\n\nb) Bright white  \n\nc) Glossy red  \n\nd) Light gray  \n\nIf none of the above answers are correct, answer: 'f'",
+        "response": "'None of the above colors are mentioned in the description.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "488fbe38-3594-4a1d-a6a2-e3ee6ace70f2@Hallway-11288": {
+        "prompt": "What style is the children's cabinet in the hallway described?\n\n\nb) Modern\n\nc) Industrial\n\nd) Scandinavian\n\nIf none of the above answers are correct, answer: 'f'",
+        "response": "The description does not provide any information about the style of the cabinet.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "488fbe38-3594-4a1d-a6a2-e3ee6ace70f2@MasterBedroom-5544": {
+        "prompt": "What color is the loveseat sofa in the Master bedroom?\n\n\nb) Cream-colored\n\nc) Deep black\n\nd) Beige\n\nIf none of the above answers are correct, answer: 'f'",
+        "response": "The color of the loveseat sofa in the Master bedroom is not specified.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "4f76dc57-0c61-4c96-882f-1cab431c5b92@LivingDiningRoom-5034": {
+        "prompt": "What type of dining table is featured prominently in the living room?\n\nb) Rustic farmhouse dining table  \nc) Traditional wood dining table  \nd) Minimalist glass dining table  \n\nIf none of the above answers are correct, answer: 'f'",
+        "response": "The dining table is a minimalist glass dining table.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "4f76dc57-0c61-4c96-882f-1cab431c5b92@MasterBedroom-1550": {
+        "prompt": "What color is the finish of the wardrobe in the room?\n\na) Pastel colors  \nb) Weathered gray  \nd) Muted gray  \n\nIf none of the above answers are correct, answer: 'f'",
+        "response": "The color of the wardrobe in the room is pastel.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "537e2230-e473-4c9d-a57f-b9c7723f5143@Bedroom-515": {
+        "prompt": "What color is the shade of the floor lamp in the bedroom?\n\na) Black  \nc) Gold  \nd) Brown  \n\nIf none of the above answers are correct, answer: 'f'",
+        "response": "The color of the floor lamp in the bedroom is not specified.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "5e024c0f-0bca-4074-ac77-4b72a7629d0a@LivingDiningRoom-1080": {
+        "prompt": "What color is the coffee table in the living room?\n\na) Cream  \nc) Dark brown  \nd) Silver  \n\nIf none of the above answers are correct, answer: 'f'",
+        "response": "The color of the coffee table is not specified in the description.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "5e024c0f-0bca-4074-ac77-4b72a7629d0a@MasterBedroom-1069": {
+        "prompt": "What color is the wardrobe in the Master bedroom?\n\na) White  \nb) Black  \nd) Beige  \n\nIf none of the above answers are correct, answer: 'f'",
+        "response": "The color of the wardrobe in the Master bedroom is beige.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "5f501905-6bb6-497e-bd13-59d2478416ad@KidsRoom-852": {
+        "prompt": "What is the shape of the desk in the KidsRoom?\n\na) Rectangular\n\n\nc) Square\n\nd) Oval\n\nIf none of the above answers are correct, answer: 'f'",
+        "response": "'f' is not a valid description of the desk's shape.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "5f501905-6bb6-497e-bd13-59d2478416ad@LivingDiningRoom-2162": {
+        "prompt": "What type of seating surrounds the Japanese-inspired dining table in the living room?\n\na) Armchairs  \nb) Recliners  \nd) Benches  \n\nIf none of the above answers are correct, answer: 'f'",
+        "response": "The seating around the dining table in the living room is not specified.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "5f501905-6bb6-497e-bd13-59d2478416ad@MasterBedroom-1744": {
+        "prompt": "What color is the king-size bed in the room?\n\na) Light oak  \nc) Reddish-brown  \nd) Light beige  \n\nIf none of the above answers are correct, answer: 'f'",
+        "response": "The color of the king-size bed in the room is not specified.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "5f501905-6bb6-497e-bd13-59d2478416ad@SecondBedroom-2149": {
+        "prompt": "What style is the wardrobe in the Second bedroom?\n\na) Mediterranean  \nc) Japanese  \nd) Modern  \n\nIf none of the above answers are correct, answer: 'f'",
+        "response": "The style of the wardrobe in the Second bedroom is not specified.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "64f12868-d3f0-4add-9598-4478c4e7cee0@DiningRoom-663": {
+        "prompt": "What is the shape of the dining table in the described dining room?\n\na) Rectangular  \nb) Square  \nd) Oval  \n\nIf none of the above answers are correct, answer: 'f'",
+        "response": "The dining table in the described dining room is oval.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "64f12868-d3f0-4add-9598-4478c4e7cee0@LivingRoom-931": {
+        "prompt": "What color is the upholstery of the armchairs in the living room? \n\nb) Black  \nc) Dark taupe  \nd) Grey  \n\nIf none of the above answers are correct, answer: 'f'",
+        "response": "The color of the upholstery is not mentioned in the description.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "64f12868-d3f0-4add-9598-4478c4e7cee0@MasterBedroom-476": {
+        "prompt": "What feature is located directly above the king-size bed in the master bedroom?\n\n  \n\na) Pendant lamp\n\n  \n\nb) Nightstand\n\n  \n\n\n  \n\nd) Window\n\n  \n\nIf none of the above answers are correct, answer: 'f'",
+        "response": "The caption doesn't provide enough information to determine the color of the bed.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "64f12868-d3f0-4add-9598-4478c4e7cee0@SecondBedroom-291": {
+        "prompt": "What color is the coat rack in the bedroom?\n\na) White  \nb) Black  \nd) Red  \n\nIf none of the above answers are correct, answer: 'f'",
+        "response": "The color of the coat rack in the bedroom is not specified.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "68b394b2-4a10-41ae-919f-a5ece3c8dcb3@LivingDiningRoom-45270": {
+        "prompt": "What color is the coffee table located in the livingdining room?\n\na) Honey oak  \nc) Concrete grey  \nd) Gold  \n\nIf none of the above answers are correct, answer: 'f'",
+        "response": "'f' is not a color, it's a material.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "68b394b2-4a10-41ae-919f-a5ece3c8dcb3@MasterBedroom-45301": {
+        "prompt": "Which of the following items in the master bedroom provides both storage and aesthetic appeal? \n\n  \n  \nb) King-size bed  \n  \nc) Dressing table  \n  \nd) Lounge chair  \n  \n\nIf none of the above answers are correct, answer: 'f'",
+        "response": "'None of the above items are mentioned in the description.'",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "7c4c43e1-b28a-44a0-81c9-e5da48d8b212@Library-40757": {
+        "prompt": "What color is the top of the desk in the library?\n\nb) Dark brown  \nc) White  \nd) Black  \n\nIf none of the above answers are correct, answer: 'f'",
+        "response": "'f' is not a color. It's the name of the object in this context.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "7c4c43e1-b28a-44a0-81c9-e5da48d8b212@LivingDiningRoom-40465": {
+        "prompt": "What furniture piece is positioned directly in front of the three-seat sofa in the living room? \n\na) Dining table  \nb) Sideboard  \nd) Armchair  \n\nIf none of the above answers are correct, answer: 'f'",
+        "response": "The armchair is positioned directly in front of the three-seat sofa.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "7c4c43e1-b28a-44a0-81c9-e5da48d8b212@MasterBedroom-40378": {
+        "prompt": "What color is the wardrobe in the room?\n\na) Chocolate brown  \nc) Deep slate  \nd) Creamy beige  \n\nIf none of the above answers are correct, answer: 'f'",
+        "response": "The color of the wardrobe is not specified in the description.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "825acf77-b557-44bc-82f8-ccb2b9e1ca58@Bedroom-4788": {
+        "prompt": "What color is the nightstand placed next to the bed in the bedroom?\n\na) Dark grey  \nc) White  \nd) Light blue  \n\nIf none of the above answers are correct, answer: 'f'",
+        "response": "The color of the nightstand is not specified in the description.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "825acf77-b557-44bc-82f8-ccb2b9e1ca58@LivingDiningRoom-8717": {
+        "prompt": "What color is the three-seat sofa in the living room?\n\n  \n  \nb) Seafoam green  \n  \nc) White  \n  \nd) Light gray  \n  \n\nIf none of the above answers are correct, answer: 'f'",
+        "response": "",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "f"
+    },
+    "89d1ad68-eab0-4ddd-ba35-d40d8406ec94@Library-4165": {
+        "prompt": "What type of design does the desk in the library feature?\n\n\nb) Industrial\n\nc) Art Deco\n\nd) Scandinavian\n\nIf none of the above answers are correct, answer: 'f'",
+        "response": "The desk in the library is a modern, minimalist design.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "89d1ad68-eab0-4ddd-ba35-d40d8406ec94@LivingRoom-4454": {
+        "prompt": "What type of lamp is suspended above the coffee table in the living room?\n\na) Ceiling lamp  \nb) Floor lamp  \nd) Table lamp  \n\nIf none of the above answers are correct, answer: 'f'",
+        "response": "The lamp is suspended above the coffee table.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "89d1ad68-eab0-4ddd-ba35-d40d8406ec94@MasterBedroom-3530": {
+        "prompt": "What color is the nightstand next to the king-size bed?\n\na) White  \nb) Black  \nd) Gray  \n\nIf none of the above answers are correct, answer: 'f'",
+        "response": "",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "8bc46fa8-86ce-4019-b944-6a0a804764e0@Auditorium-4941": {
+        "prompt": "What is the color of the three-seat sofa in the Auditorium?\n\nb) Light grey  \nc) Black  \nd) Red  \n\nIf none of the above answers are correct, answer: 'f'",
+        "response": "'f' is not a color. It's the name of the sofa in the Auditorium.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "8bc46fa8-86ce-4019-b944-6a0a804764e0@KidsRoom-5220": {
+        "prompt": "What style is the ceiling lamp in the kids' room?\n\n\nb) Moroccan\n\nc) Industrial\n\nd) Art Deco\n\nIf none of the above answers are correct, answer: 'f'",
+        "response": "The ceiling lamp in the kids' room is a modern, industrial design.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "8bc46fa8-86ce-4019-b944-6a0a804764e0@Library-4930": {
+        "prompt": "What is the primary purpose of the <p>lounge chair</p>[<lounge chair/cafe chair/office chair-3>] in the library?\n\n  \na) To provide additional storage for books  \n  \n  \nc) To act as a decorative piece without functionality  \n  \nd) To replace the desk as the main workspace  \n\nIf none of the above answers are correct, answer: 'f'",
+        "response": "The chair is not a part of the library.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "8bc46fa8-86ce-4019-b944-6a0a804764e0@LivingDiningRoom-5605": {
+        "prompt": "What type of lighting fixture is located above the dining area in the room?\n\n  \n\na) Chandelier  \n\n\nc) Floor lamp  \n\nd) Table lamp  \n\n  \n\nIf none of the above answers are correct, answer: 'f'",
+        "response": "The given description does not provide any information about the color of the dining room.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "8bc46fa8-86ce-4019-b944-6a0a804764e0@MasterBedroom-2217": {
+        "prompt": "What color is the frame of the king-size bed in the master bedroom?\n\na) White  \nc) Light brown  \nd) Charcoal  \n\nIf none of the above answers are correct, answer: 'f'",
+        "response": "",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "8bc46fa8-86ce-4019-b944-6a0a804764e0@SecondBedroom-5231": {
+        "prompt": "What color is the wardrobe in the Second bedroom? \n\na) Blue  \nc) White  \nd) Mint green  \n\nIf none of the above answers are correct, answer: 'f'",
+        "response": "The color of the wardrobe in the Second bedroom is mint green.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "8c3494c7-e7a3-4702-94ba-6a21e7e2ed73@Bedroom-856": {
+        "prompt": "What style of aesthetic does the wardrobe in the bedroom primarily convey?\n\na) Traditional American Country style  \nb) New Chinese style  \nd) Modern design  \n\nIf none of the above answers are correct, answer: 'f'",
+        "response": "The model does not provide enough information to determine the style of the wardrobe.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "8c3494c7-e7a3-4702-94ba-6a21e7e2ed73@LivingRoom-419": {
+        "prompt": "What color is the oak wood frame of the lounge chair?\n\na) Navy blue  \nc) Charcoal  \nd) Black  \n\nIf none of the above answers are correct, answer: 'f'",
+        "response": "",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "8c3494c7-e7a3-4702-94ba-6a21e7e2ed73@MasterBedroom-946": {
+        "prompt": "What color are the nightstands in the Master bedroom?\n\nb) Deep blue  \nc) Bright red  \nd) Dark oak  \n\nIf none of the above answers are correct, answer: 'f'",
+        "response": "",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "8ef1ac63-da17-4f85-94ad-d784649329c6@Bedroom-206": {
+        "prompt": "What color is the pendant lamp suspended above the bed in the described bedroom?\n\na) Dark grey  \nb) Espresso brown  \nc) Charcoal gray  \n\nIf none of the above answers are correct, answer: 'f'",
+        "response": "'f' is not a color. It's a description of the lamp's shade.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "8ef1ac63-da17-4f85-94ad-d784649329c6@DiningRoom-451": {
+        "prompt": "Which piece of furniture in the dining room has a white antique finish and serves as the centerpiece?\n\n \n\na) Sideboard\n\n\nc) Dining chair\n\nd) Wine cabinet\n\n \n\nIf none of the above answers are correct, answer: 'f'",
+        "response": "The dining room has a white antique cabinet, a sideboard with a brown finish, and a wine cabinet.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "8ef1ac63-da17-4f85-94ad-d784649329c6@LivingRoom-308": {
+        "prompt": "What color is the loveseat sofa in the living room?\n\nb) Light oak  \nc) Chestnut  \nd) Silver  \n\nIf none of the above answers are correct, answer: 'f'",
+        "response": "The color of the loveseat sofa in the living room is not specified.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "902c1435-1c52-4ba5-bb15-03a3dd11d5ae@LivingDiningRoom-38341": {
+        "prompt": "What type of lighting is used in the living room?\n\n  \n\na) Floor lamps  \n\nb) Wall sconces  \n\n\nd) Table lamps  \n\n  \n\nIf none of the above answers are correct, answer: 'f'",
+        "response": "",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "902c1435-1c52-4ba5-bb15-03a3dd11d5ae@MasterBedroom-37799": {
+        "prompt": "What color are the drawers of the nightstands in the Master bedroom?\n\na) Golden-brown  \nc) Natural wood  \nd) Abstract white  \n\nIf none of the above answers are correct, answer: 'f'",
+        "response": "The color of the drawers is not mentioned in the description.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "902c1435-1c52-4ba5-bb15-03a3dd11d5ae@SecondBedroom-35695": {
+        "prompt": "What style are the two nightstands flanking the king-size bed in the Second bedroom?\n\na) Modern\n\n\nc) Minimalist\n\nd) Industrial\n\nIf none of the above answers are correct, answer: 'f'",
+        "response": "The description does not provide any information about the style of the bed or the nightstands.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "9500f757-bd0a-4563-8852-e259245c54cd@DiningRoom-2978": {
+        "prompt": "What is the color of the pendant lamp described in the dining area?\n\na) Dark chocolate brown  \nc) White  \nd) Black  \n\nIf none of the above answers are correct, answer: 'f'",
+        "response": "'f' is not a color. It's the name of the pendant lamp.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    }
+}
