@@ -164,8 +164,8 @@ def upload_pc_v2(input_choice, Object_ID_input, point_cloud_input, text_input, c
             value="Start Chatting", interactive=False), chat_state, pc_list
 
 names_list = []
-upd_txt_file_list = []
-pc_ply_list = []
+# upd_txt_file_list = []
+# pc_ply_list = []
 upd_subset_type = None #string for writing the inference results file name
 upd_version_name = None #string for writing the inference results file name
 
@@ -175,23 +175,11 @@ class FakeUpload:
         self.hex = hex
         self.scene_name = scene_name
 
-def process_txt(file, pc_path, txt_path):
+def process_txt(file):
     global names_list
-    global upd_txt_file_list
-    global pc_ply_list
-    global upd_subset_type
     global upd_version_name
-    if not os.path.isdir(pc_path):
-        return f"Error: '{pc_path}' is not a valid folder path."
-    if not os.path.isdir(txt_path):
-        return f"Error: '{txt_path}' is not a valid folder path."
     with open(file.name, 'r') as f:
         names_list = f.read().splitlines()
-    pc_ply_list = make_named_ply_files(names_list, pc_path)
-    upd_txt_file_list = make_named_upd_txt_files(names_list, txt_path)
-    print(f"@@@{upd_txt_file_list[0:5]}")
-    print(f"@@@{pc_ply_list[0:5]}")
-    upd_subset_type = os.path.basename(os.path.normpath(txt_path))
     upd_version_name = os.path.basename(os.path.normpath(file.name)).replace('.txt', '')
     return "\n".join(names_list)
 
@@ -207,9 +195,20 @@ def make_named_ply_files(names, dir_path):
         results.append(FakeUpload(os.path.join(dir_path, folder, scene_name, scene_name + ".ply"), folder, scene_name))
     return results
 
-def inference():
-    global upd_txt_file_list
-    global pc_ply_list
+def inference(pc_path, txt_path):
+    global names_list
+    # global upd_txt_file_list
+    # global pc_ply_list
+    global upd_subset_type
+    if not os.path.isdir(pc_path):
+        return f"Error: '{pc_path}' is not a valid folder path."
+    if not os.path.isdir(txt_path):
+        return f"Error: '{txt_path}' is not a valid folder path."
+    pc_ply_list = make_named_ply_files(names_list, pc_path)
+    upd_txt_file_list = make_named_upd_txt_files(names_list, txt_path)
+    print(f"@@@{upd_txt_file_list[0:5]}")
+    print(f"@@@{pc_ply_list[0:5]}")
+    upd_subset_type = os.path.basename(os.path.normpath(txt_path))
 
     if not upd_txt_file_list or not pc_ply_list:
         print("[ERROR] upd_txt_file_list or pc_ply_list is empty. Please process the input files first.")
@@ -325,12 +324,13 @@ def start_chat():
                     #new
                     file_input = gr.File(label="Upload .txt with names", file_types=[".txt"])
                     output = gr.Textbox(label="Names parsed", lines=10)
-                    file_input.change(fn=process_txt, inputs=[file_input, pc_path_input, txt_path_input], outputs=output)
+                    # file_input.change(fn=process_txt, inputs=[file_input, pc_path_input, txt_path_input], outputs=output)
+                    file_input.change(fn=process_txt, inputs=file_input, outputs=output)
                     pc_path_input = gr.Textbox(label="Point Cloud Path", placeholder="Enter the absolute point cloud folder path", interactive=True)
                     txt_path_input = gr.Textbox(label="UPD Path", placeholder="Enter the absolute UPD folder path", interactive=True)
                     btn = gr.Button("Run Inference!")
                     out = gr.Textbox()
-                    btn.click(fn=inference, outputs=out)
+                    btn.click(fn=inference, inputs=[pc_path_input, txt_path_input], outputs=out)
 
             upload_button.click(upload_pc_v2, [input_choice, Object_ID_input, point_cloud_input, text_input, chat_state],
                                 [output, Object_ID_input, text_input, upload_button, chat_state, pc_list])
