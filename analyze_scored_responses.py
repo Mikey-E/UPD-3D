@@ -47,16 +47,24 @@ def main():
     x = [i * (1 + spacing) for i in range(len(standard_upd_accuracies))]  # Adjust x-coordinates with spacing
     
     # Plot standard accuracies
-    plt.bar([i for i in x], list(standard_upd_accuracies.values()), 
+    standard_values = list(standard_upd_accuracies.values())
+    plt.bar([i for i in x], standard_values, 
             bar_width, label='Standard or UPD Accuracy', color='blue')
-    
+
+    # Add numbers on top of standard accuracy bars
+    for i, value in enumerate(standard_values):
+        plt.text(x[i], value, str(value), ha='center', va='bottom')
+
     # Plot dual accuracies if they exist
     if dual_accuracies:
-        # Only plot for keys that have dual accuracies
         dual_values = [dual_accuracies.get(k, 0) for k in standard_upd_accuracies.keys()]
         plt.bar([i + bar_width for i in x], dual_values,
                 bar_width, label='Dual Accuracy', color='red')
-    
+
+        # Add numbers on top of dual accuracy bars
+        for i, value in enumerate(dual_values):
+            plt.text(x[i] + bar_width, value, str(value), ha='center', va='bottom')
+
     plt.xlabel("Category")
     plt.ylabel("Count")
     plt.title("Standard (or UPD) and Dual Accuracies in Scored Responses")
