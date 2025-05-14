@@ -5,6 +5,7 @@ This file takes a json file of model responses to a UPD subset, and has it get s
 import argparse
 import json
 import openai
+import os
 
 def main():
     parser = argparse.ArgumentParser(description="Score model responses using an existing-llm API.")
@@ -53,7 +54,11 @@ def main():
         data[point_cloud]["correct_answer"] = correct_answer.replace("\nCORRECT_ANSWER: ", "")
         data[point_cloud]["score"] = generated_text
 
-    with open(json_file.replace('.json', '') + '_scored.json', 'w') as f:
+    # Create the output directory if it doesn't exist
+    output_dir = "./scored_model_responses"
+    os.makedirs(output_dir, exist_ok=True)
+
+    with open(os.path.join(output_dir, json_file.replace('.json', '') + '_scored.json'), 'w') as f:
         json.dump(data, f, indent=4)
 
 if __name__ == "__main__":
