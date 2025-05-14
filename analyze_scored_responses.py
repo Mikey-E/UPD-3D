@@ -10,6 +10,7 @@ import os
 def main():
     parser = argparse.ArgumentParser(description="Analyze scored responses and create a bar graph.")
     parser.add_argument("folder_path", type=str, help="Path to the folder containing JSON files with scored responses.")
+    parser.add_argument("--naming_delim", type=str, help="Delimiter in the file names to separate out subset name.", default="_v1_")
     args = parser.parse_args()
 
     folder_path = args.folder_path
@@ -40,13 +41,14 @@ def main():
                     if standard_score_list[i] == 'T' and upd_score_list[i] == 'T':
                         dual_accuracies[json_file] = dual_accuracies.get(json_file, 0) + 1
 
-    plt.figure(figsize=(10, 5))
+    plt.figure(figsize=(10, 6))
     bar_width = 0.35
-    x = range(len(standard_upd_accuracies))
+    spacing = 0.00  # Add spacing between bar groups
+    x = [i * (1 + spacing) for i in range(len(standard_upd_accuracies))]  # Adjust x-coordinates with spacing
     
     # Plot standard accuracies
     plt.bar([i for i in x], list(standard_upd_accuracies.values()), 
-            bar_width, label='Standard Accuracy', color='blue')
+            bar_width, label='Standard or UPD Accuracy', color='blue')
     
     # Plot dual accuracies if they exist
     if dual_accuracies:
@@ -55,10 +57,17 @@ def main():
         plt.bar([i + bar_width for i in x], dual_values,
                 bar_width, label='Dual Accuracy', color='red')
     
-    plt.xlabel("JSON File")
+    plt.xlabel("Category")
     plt.ylabel("Count")
     plt.title("Standard (or UPD) and Dual Accuracies in Scored Responses")
-    plt.xticks([i + bar_width/2 for i in x], list(standard_upd_accuracies.keys()), rotation=45)
+    
+    #Must reduce length of x axis labels to fit
+    names_list = list(standard_upd_accuracies.keys())
+    names_list = [name.replace("_scored.json", "") for name in names_list]
+    names_list = [name.split(args.naming_delim)[1] for name in names_list]
+    names_list = [name.replace("_", " ") for name in names_list]
+    plt.xticks([i + bar_width/2 for i in x], names_list, rotation=45, ha='right', rotation_mode='anchor')
+
     plt.legend()
     plt.tight_layout()
 
@@ -66,7 +75,8 @@ def main():
     output_dir = "./results"
     os.makedirs(output_dir, exist_ok=True)
 
-    plt.savefig(os.path.join(output_dir, f"{folder_path}_bars.png"))
+    name_for_saving = os.path.basename(os.path.normpath(folder_path))
+    plt.savefig(os.path.join(output_dir, f"{name_for_saving}_bars.png"))
 
 if __name__ == "__main__":
     main()
