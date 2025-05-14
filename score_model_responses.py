@@ -53,7 +53,7 @@ def main():
         data[point_cloud]["correct_answer"] = correct_answer.replace("\nCORRECT_ANSWER: ", "")
         data[point_cloud]["score"] = generated_text
 
-    with open(json_file.replace('.json', '') + '_graded.json', 'w') as f:
+    with open(json_file.replace('.json', '') + '_scored.json', 'w') as f:
         json.dump(data, f, indent=4)
 
 if __name__ == "__main__":
