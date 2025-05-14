@@ -33,7 +33,12 @@ def main():
     plt.ylabel("Count of 'T'")
     plt.title("Count of 'T' in Scored Responses")
     plt.tight_layout()
-    plt.savefig("asdf.png")
+
+    # Create the output directory if it doesn't exist
+    output_dir = "./results"
+    os.makedirs(output_dir, exist_ok=True)
+
+    plt.savefig(os.path.join(output_dir, "asdf.png"))
 
 if __name__ == "__main__":
     main()
