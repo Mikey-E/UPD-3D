@@ -22,7 +22,7 @@ def main():
             with open(file_path, 'r') as f:
                 content = f.read()
                 if content:  # Ensure the file is not empty
-                    answer_key[filename] = content[-1]  # Last character of the file
+                    answer_key[filename.replace(".txt", "")] = content[-1]  # Last character of the file
 
     # Create the output directory if it doesn't exist
     output_dir = "./answer_keys"
