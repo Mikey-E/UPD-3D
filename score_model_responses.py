@@ -47,7 +47,7 @@ def main():
             )
             generated_text = response.choices[0].message.content.strip()
         except Exception as e:
-            print(f"Error processing file '{filename}': {str(e)}")
+            print(f"Error processing openai completion: {str(e)}")
             continue
 
         print(current_prompt)
