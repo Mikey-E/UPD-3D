@@ -1,5 +1,5 @@
 """
-This file takes a path to a version of the UPD dataset, where it will then create a dictionary of answers based on the standard_answer file
+This file takes a path to a version of the UPD dataset, where it will then create a dictionary of answers based on the standard_answer files
 """
 
 import argparse
