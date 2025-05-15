@@ -1,5 +1,5 @@
 """
-This file takes a folder of _graded json files of model responses to UPD subsets, and makes a graph of the scores
+This file takes a folder of _scored json files of model responses to UPD subsets, and makes a graph of the scores
 """
 
 import argparse
