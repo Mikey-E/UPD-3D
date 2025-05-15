@@ -1,6 +1,13 @@
 # UPD-3D
 Code for generating samples to test 3D-LLM unsolvable problem detection capability.
 
+## Clone
+
+```
+git clone https://github.com/Mikey-E/UPD-3D.git
+cd UPD-3D
+```
+
 ## Create a Conda environment
 ```
 conda create -n upd-3d python=3.12
@@ -9,6 +16,12 @@ conda create -n upd-3d python=3.12
 ## Activate the Conda environment
 ```
 conda activate upd-3d
+```
+
+## Install dependencies
+
+```
+conda install openai=1.60.1 matplotlib=3.10.0
 ```
 
 ## Link the 3D-GRAND dataset
