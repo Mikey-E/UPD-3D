@@ -35,6 +35,9 @@ def main():
         standard_score_list = results[standard_file]
         dual_accuracies = {}
         for json_file in json_files:
+            if "standard" in json_file or "open_ended" in json_file:
+                dual_accuracies[json_file] = 0
+                continue
             if json_file != standard_file:
                 upd_score_list = results[json_file]
                 for i in range(len(standard_score_list)):
@@ -62,8 +65,11 @@ def main():
                 bar_width, label='Dual Accuracy', color='red')
 
         # Add numbers on top of dual accuracy bars
-        for i, value in enumerate(dual_values):
-            plt.text(x[i] + bar_width, value, str(value), ha='center', va='bottom')
+        for i, (key, value) in enumerate(zip(standard_upd_accuracies.keys(), dual_values)):
+            if "standard" in key or "open_ended" in key:
+                plt.text(x[i] + bar_width, value, "N/A", ha='center', va='bottom')
+            else:
+                plt.text(x[i] + bar_width, value, str(value), ha='center', va='bottom')
 
     plt.xlabel("Category")
     plt.ylabel("Count")
