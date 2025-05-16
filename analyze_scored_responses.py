@@ -90,7 +90,7 @@ def main():
     os.makedirs(output_dir, exist_ok=True)
 
     name_for_saving = os.path.basename(os.path.normpath(folder_path))
-    plt.savefig(os.path.join(output_dir, f"{name_for_saving}_bars.png"))
+    plt.savefig(os.path.join(output_dir, f"{name_for_saving}_bars.png"), dpi=300)
 
 if __name__ == "__main__":
     main()
