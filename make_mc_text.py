@@ -52,6 +52,7 @@ for filename in os.listdir(input_folder):
         continue
 
     # Ensure there is a roughly equal distribution between A/B/C/D.
+    # Models tend to favor A, B, C but rarely make the answer D.
     lines = generated_text.split('\n')
     choices = {}
     choices['A'] = lines[2].strip().split(". ")[1]
