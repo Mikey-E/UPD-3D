@@ -6,6 +6,22 @@ import argparse
 import os
 import json
 
+def count_answer_values(data):
+    """
+    Counts the occurrences of each answer value (A, B, C, D) in a dictionary.
+
+    Args:
+        data (dict): A dictionary where keys are filenames and values are answers.
+
+    Returns:
+        dict: A dictionary containing the counts of each answer value.
+    """
+    counts = {'A': 0, 'B': 0, 'C': 0, 'D': 0}
+    for value in data.values():
+        if value in counts:
+            counts[value] += 1
+    return counts
+
 def main():
     # Parse only the folder name of the version
     parser = argparse.ArgumentParser(description="Create an answer key dictionary from the standard_answer subfolder.")
@@ -36,6 +52,12 @@ def main():
     # Dump the dictionary into the JSON file
     with open(output_file, 'w') as f:
         json.dump(answer_key, f, indent=4)
+
+    # Count and print the answer values
+    counts = count_answer_values(answer_key)
+    print("Counts of each answer value:")
+    for key, value in counts.items():
+        print(f"{key}: {value}")
 
 if __name__ == "__main__":
     main()
