@@ -1,6 +1,7 @@
 import argparse
 import os
 import openai
+import random
 
 # Set up argument parser
 parser = argparse.ArgumentParser(description="Take text_basis files and generate upd multiple-choice samples using OpenAI API.")
@@ -49,6 +50,39 @@ for filename in os.listdir(input_folder):
     except Exception as e:
         print(f"Error processing file '{filename}': {str(e)}")
         continue
+
+    # Ensure there is a roughly equal distribution between A/B/C/D.
+    lines = generated_text.split('\n')
+    choices = {}
+    choices['A'] = lines[2].strip().split(". ")[1]
+    choices['B'] = lines[3].strip().split(". ")[1]
+    choices['C'] = lines[4].strip().split(". ")[1]
+    choices['D'] = lines[5].strip().split(". ")[1]
+    correct_letter = lines[7][-1]
+    correct_answer = choices[correct_letter]
+    random_number = random.randint(1, 4)
+    if random_number == 1:
+        lines[7] = lines[7][:-1] + 'A'  # Update the correct letter in the last line
+        tmp = choices['A']
+        choices['A'] = correct_answer
+    elif random_number == 2:
+        lines[7] = lines[7][:-1] + 'B'
+        tmp = choices['B']
+        choices['B'] = correct_answer
+    elif random_number == 3:
+        lines[7] = lines[7][:-1] + 'C'
+        tmp = choices['C']
+        choices['C'] = correct_answer
+    elif random_number == 4:
+        lines[7] = lines[7][:-1] + 'D'
+        tmp = choices['D']
+        choices['D'] = correct_answer
+    choices[correct_letter] = tmp
+    lines[2] = f"A. {choices['A']}"
+    lines[3] = f"B. {choices['B']}"
+    lines[4] = f"C. {choices['C']}"
+    lines[5] = f"D. {choices['D']}"
+    generated_text = "\n".join(lines)
 
     # Write the response to the output file
     with open(output_file_path, 'w') as outfile:
