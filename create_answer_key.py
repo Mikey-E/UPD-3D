@@ -7,11 +7,13 @@ import os
 import json
 
 def main():
+    # Parse only the folder name of the version
     parser = argparse.ArgumentParser(description="Create an answer key dictionary from the standard_answer subfolder.")
-    parser.add_argument("version_path", type=str, help="Path to the version of the UPD dataset.")
+    parser.add_argument("version_folder", type=str, help="Name of the version folder of the UPD dataset.")
     args = parser.parse_args()
 
-    version_path = args.version_path
+    # Join the prefix "upd_text" with the version folder
+    version_path = os.path.join("upd_text", args.version_folder)
     standard_answer_path = os.path.join(version_path, "standard_answer")
     answer_key = {}
 
@@ -28,9 +30,8 @@ def main():
     output_dir = "./answer_keys"
     os.makedirs(output_dir, exist_ok=True)
 
-    # Determine the output JSON file name
-    folder_name = os.path.basename(os.path.normpath(version_path))
-    output_file = os.path.join(output_dir, f"{folder_name}.json")
+    # Determine the output JSON file name using the version folder name
+    output_file = os.path.join(output_dir, f"{args.version_folder}.json")
 
     # Dump the dictionary into the JSON file
     with open(output_file, 'w') as f:
