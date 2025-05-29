@@ -7,6 +7,7 @@ import random
 parser = argparse.ArgumentParser(description="Take text_basis files and generate upd multiple-choice samples using OpenAI API.")
 parser.add_argument("folder", type=str, help="Name of the folder inside text_basis/")
 parser.add_argument("--prompt_file", type=str, default="mc_prompt.txt", help="Name of the .txt file containing the prompt.")
+parser.add_argument("--triage_file", type=str, help="If set, will only reattempt scenes listed in this file.")
 
 args = parser.parse_args()
 
@@ -26,8 +27,19 @@ if not os.path.exists(prompt_file):
 with open(prompt_file, 'r') as pf:
     prompt_text = pf.read()
 
-# Process each file in the input folder
-for filename in os.listdir(input_folder):
+# Handle triage_file: get list of filenames to process
+if args.triage_file:
+    if not os.path.exists(args.triage_file):
+        print(f"Error: Triage file '{args.triage_file}' does not exist.")
+        exit(1)
+    with open(args.triage_file, 'r') as tf:
+        triage_filenames = [line.strip() for line in tf if line.strip()]
+    filenames_to_process = triage_filenames
+else:
+    filenames_to_process = os.listdir(input_folder)
+
+# Process each file in the input folder or triage list
+for filename in filenames_to_process:
     input_file_path = os.path.join(input_folder, filename)
     output_file_path = os.path.join(output_folder, filename)
 
