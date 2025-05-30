@@ -7,6 +7,8 @@ Generate an open-ended question based on the following information that will com
 -Do not include distractions in the question.
 -Do not make the question something that could be applied to most descriptions, like "How many objects are in the room?". Be sure that the question and its answer are asking about specific information, just not applicable to this particular description.
 
-Format the response as follows. First put the question on its own line, with no newline.
+Format the response as follows.
+-First put the question on its own line, with no newline.
+-Do not have any leading or trailing whitespace at the beginning or end of the response, nor each line.
 
-#BEGIN
+#BEGIN-DESCRIPTION
