@@ -94,7 +94,7 @@ for filename in filenames_to_process:
         lines[5] = f"D. {choices['D']}"
         generated_text = "\n".join(lines)
     except Exception as e:
-        print(f"Error processing file '{filename}': {str(e)}")
+        print(f"Error processing file '{filename}': {str(e)}\ngenerated_text = {generated_text}")
         continue
 
     # Write the response to the output file

@@ -47,7 +47,7 @@ for filename in os.listdir(input_folder):
         )
         generated_text = response.choices[0].message.content.strip()
     except Exception as e:
-        print(f"Error processing file '{filename}': {str(e)}")
+        print(f"Error processing file '{filename}': {str(e)}\ngenerated_text = {generated_text}")
         continue
 
     # Write the response to the output file
