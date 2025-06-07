@@ -26,10 +26,6 @@ def parse_args():
     args = parser.parse_args()
     return args
 
-# ========================================
-#             Model Initialization
-# ========================================
-
 conv_dict = {'pretrain_vicuna0': CONV_VISION_Vicuna0,
              'pretrain_llama2': CONV_VISION_LLama2,
              'pretrain': CONV_VISION}
