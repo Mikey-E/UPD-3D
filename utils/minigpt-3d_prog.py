@@ -30,6 +30,7 @@ def parse_args():
              "in xxx=yyy format will be merged into config file (deprecate), "
              "change to --cfg-options instead.",
     )
+    parser.add_argument("--folder", type=str, required=True, help="Folder name to run inference on")
     args = parser.parse_args()
     return args
 
@@ -207,11 +208,19 @@ def make_named_ply_files(names, dir_path):
         results.append(FakeUpload(os.path.join(dir_path, folder, scene_name, scene_name + ".ply"), folder, scene_name))
     return results
 
-def inference(pc_path, txt_path):
+def inference(pc_path, txt_path, pcl_list_path=None):
     global names_list
     # global upd_txt_file_list
     # global pc_ply_list
     global upd_subset_type
+
+    #@@@ may not actually be needed.
+    # If pcl_list_path is provided, use it to constrain the evaluation
+    # allowed_names = None
+    # if pcl_list_path is not None:
+        # with open(pcl_list_path, 'r') as f:
+            # allowed_names = set([line.strip() for line in f if line.strip()])
+
     if not os.path.isdir(pc_path):
         error_message = f"Error: '{pc_path}' is not a valid folder path."
         print(error_message)
@@ -232,7 +241,15 @@ def inference(pc_path, txt_path):
 
     results = {}  # List to store all results
 
+    # Only process pairs where the name is in allowed_names (if provided)
     for txt_file, ply_file in zip(upd_txt_file_list, pc_ply_list):
+
+        #@@@ May not actually be needed.
+        # Extract the name from the txt_file (without extension)
+        # name = os.path.splitext(os.path.basename(txt_file))[0]
+        # if allowed_names is not None and name not in allowed_names:
+            # continue
+
         try:
             with open(txt_file, 'r') as f:
                 prompt = f.read().strip()
@@ -260,7 +277,11 @@ def inference(pc_path, txt_path):
 
     # Write all results to a JSON file after the loop
     try:
-        with open('inference_results_MiniGPT-3D_' + upd_version_name + '_' + upd_subset_type + '.json', 'w') as f:
+        json_filename = 'inference_results_MiniGPT-3D_' + upd_version_name + '_' + upd_subset_type
+        # if pcl_list_path is not None:
+            # json_filename += '_' + os.path.basename(os.path.normpath(pcl_list_path)).replace('.txt', '')
+        # json_filename += '.json'
+        with open(json_filename, 'w') as f:
             json.dump(results, f, indent=4)
     except Exception as e:
         print(f"[ERROR] Failed to write results to JSON file: {e}")
@@ -375,16 +396,18 @@ def start_chat():
         demo.launch(share=False)
         demo.queue()
 
-def programmatic_run():
+def programmatic_run(folder):
     print("running programmatic inference...")
-    upd_text_path = "/project/3dllms/melgin/UPD-3D/upd_text/3D-FRONT/aad_additional_option/"
+    upd_text_path = os.path.join("/project/3dllms/melgin/UPD-3D/upd_text/3D-FRONT/", folder)
     # point_cloud_path = "/cluster/medbow/home/melgin/tmp_candelete/3D-Front_test"
     point_cloud_path = "/gscratch/melgin/3d-grand_unzipped/3D-FRONT"
-    pcl_list_path = "/project/3dllms/melgin/UPD-3D/pcl_lists/3D-FRONT.txt"
+    pcl_list_path = "/project/3dllms/melgin/UPD-3D/pcl_lists/3D-FRONT_test.txt"
     names_list = process_txt_from_path(pcl_list_path)
     print(f"Names list: {names_list}")
     inference(point_cloud_path, upd_text_path)
 
 if __name__ == "__main__":
-    programmatic_run()
+    folder = args.folder
+    print(f"Running inference for folder: {folder}")
+    programmatic_run(folder)
     # start_chat()
