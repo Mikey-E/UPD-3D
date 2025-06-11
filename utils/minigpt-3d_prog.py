@@ -277,7 +277,7 @@ def inference(pc_path, txt_path, pcl_list_path=None):
 
     # Write all results to a JSON file after the loop
     try:
-        json_filename = 'inference_results_MiniGPT-3D_' + upd_version_name + '_' + upd_subset_type
+        json_filename = 'inference_results_MiniGPT-3D_' + upd_version_name + '_' + upd_subset_type + '.json'
         # if pcl_list_path is not None:
             # json_filename += '_' + os.path.basename(os.path.normpath(pcl_list_path)).replace('.txt', '')
         # json_filename += '.json'
