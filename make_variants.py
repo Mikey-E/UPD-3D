@@ -11,7 +11,7 @@ args = parser.parse_args()
 
 standard_answer_folder = os.path.join("upd_text", args.folder, "standard_answer")
 
-additional_instruction = "If none of the above answers are correct, answer: 'f'"
+additional_instruction = "If none of the above answers are correct, answer: 'F'"
 
 def make_standard(input_folder=standard_answer_folder):
     """Generate standard variants from the standard_answer base set."""
@@ -105,7 +105,7 @@ def make_iasd(input_folder=os.path.join("upd_text", args.folder, "standard")):
         with open(output_file_path_base, 'w') as outfile:
             outfile.writelines(new_sample)
         with open(output_file_path_ao, 'w') as outfile:
-            new_sample.append("\ne) none of the above")
+            new_sample.append("\nE. none of the above")
             outfile.writelines(new_sample)
         with open(output_file_path_ai, 'w') as outfile:
             new_sample = new_sample[:-1]
@@ -137,7 +137,7 @@ def make_ivqd(input_folder=os.path.join("upd_text", args.folder, "standard")):
             lines = infile.readlines()
 
         with open(output_file_path_ao, 'w') as outfile:
-            lines.append("\ne) none of the above")
+            lines.append("\nE. none of the above")
             outfile.writelines(lines)
         with open(output_file_path_ai, 'w') as outfile:
             lines = lines[:-1]
