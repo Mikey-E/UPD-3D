@@ -1,5 +1,7 @@
 """
 This is generating multiple choice questions so the OPENAI_API_KEY must be set.
+This allows for parallel processing the 3D-FRONT_1, 3D-FRONT_2, ..., 3D-FRONT_79 folders
+to make the mc text for all scenes (if you have unpacked them that way)
 """
 
 import subprocess
