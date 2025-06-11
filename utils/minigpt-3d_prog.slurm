@@ -16,5 +16,6 @@ if [ "$#" -ne 1 ]; then
     exit 1
 fi
 
+conda init
 conda activate minigpt_3d
 python ./minigpt-3d_prog.py --folder "$1"
