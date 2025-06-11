@@ -32,12 +32,13 @@ def main(txt_path):
     counter = Counter(room_types)
 
     print(f"Total entries: {total}\n")
-    print(f"{'Room Type':<20} {'Count':>8} {'Percent':>10}")
+    print(f"{'Room Type':<20} {'Count (Percent)':>20}")
     print("-" * 40)
     for room in sorted(counter.keys()):
         count = counter[room]
         percent = (count / total) * 100 if total > 0 else 0
-        print(f"{room:<20} {count:>8} {percent:>9.2f}%")
+        count_percent = f"{count} ({percent:.2f}%)"
+        print(f"{room:<20} {count_percent:>20}")
 
 if __name__ == "__main__":
     if len(sys.argv) != 2:
