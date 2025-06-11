@@ -164,6 +164,19 @@ def make_open_ended_instruction(input_folder=os.path.join("upd_text", args.folde
             outfile.writelines(lines)
 
 def main():
+    # Check for required base sets
+    required_dirs = [
+        os.path.join("upd_text", args.folder, "standard_answer"),
+        os.path.join("upd_text", args.folder, "open_ended"),
+    ]
+    missing = [d for d in required_dirs if not os.path.isdir(d)]
+    if missing:
+        print("Error: The following required base set folders are missing:")
+        for d in missing:
+            print(f"  {d}")
+        print("Please generate the 'open_ended' and 'standard_answer' base sets first.")
+        return
+
     make_standard()
     make_aad()
     make_iasd()
