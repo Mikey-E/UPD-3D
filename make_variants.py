@@ -9,11 +9,11 @@ parser.add_argument("folder", type=str, help="Name of the folder inside upd_text
 
 args = parser.parse_args()
 
-input_folder = os.path.join("upd_text", args.folder, "standard_answer")
+standard_answer_folder = os.path.join("upd_text", args.folder, "standard_answer")
 
 additional_instruction = "If none of the above answers are correct, answer: 'f'"
 
-def make_standard(input_folder=input_folder):
+def make_standard(input_folder=standard_answer_folder):
     """Generate standard variants from the standard_answer base set."""
     output_folder = os.path.join("upd_text", args.folder, "standard")
     os.makedirs(output_folder, exist_ok=True)
@@ -34,7 +34,7 @@ def make_standard(input_folder=input_folder):
         with open(output_file_path, 'w') as outfile:
             outfile.writelines(lines)
 
-def make_aad(input_folder=input_folder):
+def make_aad(input_folder=standard_answer_folder):
     """Generate aad variants from the standard_answer base set."""
     output_folder_base = os.path.join("upd_text", args.folder, "aad_base")
     output_folder_ao = os.path.join("upd_text", args.folder, "aad_additional_option")
