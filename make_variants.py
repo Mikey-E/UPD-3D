@@ -55,7 +55,7 @@ def make_aad(input_folder=standard_answer_folder):
             lines = infile.readlines()
 
         correct_answer = lines[-1].strip().split(" ")[-1]
-        lines = [line for line in lines if correct_answer + ")" not in line]
+        lines = [line for line in lines if correct_answer + "." not in line]
 
         # Remove last 2 lines
         lines = lines[:-2]
@@ -64,7 +64,7 @@ def make_aad(input_folder=standard_answer_folder):
         with open(output_file_path_base, 'w') as outfile:
             outfile.writelines(lines)
         with open(output_file_path_ao, 'w') as outfile:
-            lines.append("\ne) none of the above")
+            lines.append("\nE. none of the above")
             outfile.writelines(lines)
         with open(output_file_path_ai, 'w') as outfile:
             lines = lines[:-1]
