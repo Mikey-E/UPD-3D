@@ -54,8 +54,8 @@ def make_aad(input_folder=standard_answer_folder):
         with open(input_file_path, 'r') as infile:
             lines = infile.readlines()
 
-        correct_answer = lines[-1].strip().split(" ")[-1]
-        lines = [line for line in lines if correct_answer + "." not in line]
+        correct_answer = lines[-1].strip().split(" ")[-1] #Correct answer is last char
+        lines = [line for line in lines if correct_answer + "." not in line[0:2]]
 
         # Remove last 2 lines
         lines = lines[:-2]
