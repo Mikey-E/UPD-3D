@@ -164,10 +164,14 @@ name and the rest of the file name. This helps to make clean labels on the graph
 The utils folder contains some scripts to do helpful things. This contains files to
 do things like programmatically run inference of the UPD dataset on various models,
 use SLURM to submit jobs to make the dataset or run inference, visualize model inference
-results in a web browser and reorganize the UPD dataset to have a better distribution.
+results in a web browser, and reorganize a UPD dataset with a train/test split
+to have as close as possible to an ideal ratio of each room type between each split.
 
 room_type_stats.py can show the counts of each room type in pcl list files. It can also
 rebalance the counts between the first 2 files passed according to a given ratio.
+For example, if file1 (a train split) has 2 scenes of room type A and file2 (a test split)
+has 2 scenes room type A, but the ideal ratio is 3:1, this file can rebalance file1 to have
+3 scenes of room type A and file2 to have 1 scene of room type A.
 
 room_type_point_stats.py can show the counts of average point count per scene for each
 room type. It can rebalance the point count averages to be as close to a 1:1 ratio
@@ -175,4 +179,5 @@ between the first 2 files passed. For a train/test split, it is recommended that
 first balance the ratio of scene counts for each room with room_type_stats.py, then
 afterward balance the point count averages with room_type_point_stats.py (otherwise
 you would have to redo balancing the point count averages after rebalancing room type
-counts).
+counts). Rebalancing gets the averages as close to 1:1 while preserving room type scene
+counts between each file.
