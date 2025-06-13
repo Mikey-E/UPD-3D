@@ -158,3 +158,21 @@ python analyze_scored_responses.py path/to/scored/json/files --naming_delim _v1_
 
 where --naming_delim specifices a delimiter in the file names between the subset 
 name and the rest of the file name. This helps to make clean labels on the graph.
+
+## Utilities
+
+The utils folder contains some scripts to do helpful things. This contains files to
+do things like programmatically run inference of the UPD dataset on various models,
+use SLURM to submit jobs to make the dataset or run inference, visualize model inference
+results in a web browser and reorganize the UPD dataset to have a better distribution.
+
+room_type_stats.py can show the counts of each room type in pcl list files. It can also
+rebalance the counts between the first 2 files passed according to a given ratio.
+
+room_type_point_stats.py can show the counts of average point count per scene for each
+room type. It can rebalance the point count averages to be as close to a 1:1 ratio
+between the first 2 files passed. For a train/test split, it is recommended that you
+first balance the ratio of scene counts for each room with room_type_stats.py, then
+afterward balance the point count averages with room_type_point_stats.py (otherwise
+you would have to redo balancing the point count averages after rebalancing room type
+counts).
