@@ -10,6 +10,7 @@ and reports the average points per point cloud for each room type (extracted fro
 The script also supports a --rebalance flag
 to move lines between the first two files to get closer to the ideal ratio.
 A mandatory flag --base-dir specifies the base directory for point cloud files.
+At this time they exist unzipped at /gscratch/melgin/3d-grand_unzipped/3D-FRONT. This is the --base-dir
 
 example usage:
     python utils/room_type_points_stats.py file1.txt file2.txt --base-dir /dir1/dir2 --rebalance
