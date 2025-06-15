@@ -6,6 +6,7 @@ unscored_model_responses
 scored_model_responses
 answer_keys
 .gradio
+__pycache__
 
 #HPC-specific files
 slurm-*
