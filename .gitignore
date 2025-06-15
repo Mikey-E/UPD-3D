@@ -5,6 +5,7 @@ upd_text
 unscored_model_responses
 scored_model_responses
 answer_keys
+.gradio
 
 #HPC-specific files
 slurm-*
