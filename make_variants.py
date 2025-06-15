@@ -60,6 +60,17 @@ def make_aad(input_folder=standard_answer_folder):
         # Remove last 2 lines
         lines = lines[:-2]
 
+        # Ensure the letters still go in order starting with A.
+        new_lines = []
+        letter = ord('A')
+        for line in lines:
+            if line.strip() and len(line) > 1 and line[1] == '.':
+                new_lines.append(chr(letter) + line[1:])
+                letter += 1
+            else:
+                new_lines.append(line)
+        lines = new_lines
+
         # Write the remaining lines to the output file
         with open(output_file_path_base, 'w') as outfile:
             outfile.writelines(lines)
