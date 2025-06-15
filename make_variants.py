@@ -75,7 +75,12 @@ def make_aad(input_folder=standard_answer_folder):
         with open(output_file_path_base, 'w') as outfile:
             outfile.writelines(lines)
         with open(output_file_path_ao, 'w') as outfile:
-            lines.append("\nE. none of the above")
+            # Remove trailing newline from the last line if present
+            if lines and lines[-1].endswith("\n"):
+                lines[-1] = lines[-1].rstrip("\n")
+            last_letter = lines[-1][0] if lines else 'A'
+            next_letter = chr(ord(last_letter) + 1)
+            lines.append(f"\n{next_letter}. none of the above")
             outfile.writelines(lines)
         with open(output_file_path_ai, 'w') as outfile:
             lines = lines[:-1]
@@ -111,17 +116,24 @@ def make_iasd(input_folder=os.path.join("upd_text", args.folder, "standard")):
             answers = lines_next[1:]
         
         new_sample = question + answers
-
-        # Write the remaining lines to the output file
+        # Write the base version using a copy of new_sample
+        base_sample = new_sample[:]
         with open(output_file_path_base, 'w') as outfile:
-            outfile.writelines(new_sample)
+            outfile.writelines(base_sample)
+        # Prepare additional option version using a copy
+        ao_sample = new_sample[:]
+        if ao_sample and ao_sample[-1].endswith("\n"):
+            ao_sample[-1] = ao_sample[-1].rstrip("\n")
+        last_letter = ao_sample[-1][0] if ao_sample else 'A'
+        next_letter = chr(ord(last_letter) + 1)
+        ao_sample.append(f"\n{next_letter}. none of the above")
         with open(output_file_path_ao, 'w') as outfile:
-            new_sample.append("\nE. none of the above")
-            outfile.writelines(new_sample)
+            outfile.writelines(ao_sample)
+        # Additional instruction version
+        ai_sample = new_sample[:]
+        ai_sample.append("\n" + additional_instruction)
         with open(output_file_path_ai, 'w') as outfile:
-            new_sample = new_sample[:-1]
-            new_sample.append("\n" + additional_instruction)
-            outfile.writelines(new_sample)
+            outfile.writelines(ai_sample)
 
 def make_ivqd(input_folder=os.path.join("upd_text", args.folder, "standard")):
     """Generate ivqd variants from the standard set"""
@@ -148,7 +160,11 @@ def make_ivqd(input_folder=os.path.join("upd_text", args.folder, "standard")):
             lines = infile.readlines()
 
         with open(output_file_path_ao, 'w') as outfile:
-            lines.append("\nE. none of the above")
+            if lines and lines[-1].endswith("\n"):
+                lines[-1] = lines[-1].rstrip("\n")
+            last_letter = lines[-1][0] if lines else 'A'
+            next_letter = chr(ord(last_letter) + 1)
+            lines.append(f"\n{next_letter}. none of the above")
             outfile.writelines(lines)
         with open(output_file_path_ai, 'w') as outfile:
             lines = lines[:-1]
