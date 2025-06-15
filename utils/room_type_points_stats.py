@@ -160,7 +160,7 @@ if __name__ == "__main__":
                 pts = get_point_count(ply_path)
                 mapping2[rt].append((idx, line, pts))
         
-        # For every room type present in both files, apply the new rebalancing algorithm.
+        # For every room type present in both files, apply the rebalancing algorithm.
         for rt in set(mapping1.keys()) & set(mapping2.keys()):
             list1 = mapping1[rt]  # from file1
             list2 = mapping2[rt]  # from file2
@@ -206,3 +206,7 @@ if __name__ == "__main__":
         with open(file2_path, 'w') as f:
             f.writelines(file2_lines)
         print("\nRebalancing complete. Files have been updated.")
+        
+        # Reprint the table to show new balances.
+        print("\nNew balance after rebalancing:")
+        main(args.files, args.base_dir)
