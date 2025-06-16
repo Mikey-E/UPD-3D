@@ -32,7 +32,10 @@ with open(prompt_file, 'r') as pf:
     prompt_text = pf.read()
 
 # Process each file in the input folder
-for filename in os.listdir(input_folder):
+filenames = os.listdir(input_folder)
+total_files = len(filenames)
+for i, filename in enumerate(filenames, start=1):
+    print(f"Processing file {i}/{total_files}: {filename}")
     input_file_path = os.path.join(input_folder, filename)
     output_file_path = os.path.join(output_folder, filename)
 
