@@ -1,0 +1,54 @@
+Generate a multiple-choice answer set for the question that will come after "#BEGIN-QUESTION". When making this answer set, adhere to the following guidelines:
+
+-The answer set should be completely off-topic from the question - none of the choices should apply to it. Use the question for inspiration of an irrelevant topic from which to generate these choices.
+-All questions should have 4 options.
+-Do not make one of the answer choices "none of the above" or "all of the above" or any variations in wording that have the same essential meaning.
+-Do not make answer choices that refer to other answers, like "A. B and C".
+-Do not make any subjective answer choices, like "A. I can't judge" or similar.
+-Do not include ambiguous wording.
+-Do not include distractions in the question.
+-Do not include answers that are too similar in meaning like "A. friends", "B. pals".
+
+Format the response as follows:
+
+Put each answer choice on its own line. Do not have extra blank lines between the choices. An example format is shown inbetween #BEGIN-FORMAT and #END-FORMAT.
+-Use only capital letters for the answer choices.
+-Always format the choice prefix as <capital letter><period><space><details> like: "A. Choice details". Never use other formats like "(A) choice details".
+-Do not have any leading or trailing whitespace at the beginning or end of the response, nor each line.
+-Make the first letter of each answer choice start with an uppercase letter. Only capitalize other words if it's grammatically correct (proper nouns, etc).
+-Do not include punctuation at the end of each answer choice unless it is a full sentence.
+
+#BEGIN-FORMAT
+A. Choice 1 text
+B. Choice 2 text
+C. Choice 3 text
+D. Choice 4 text
+#END-FORMAT
+
+Here are some examples of a questions and good off-topic reponses to them.
+
+QUESTION:
+What style is the dining table in the library?
+RESPONSE: 
+A. Obtuse angle
+B. Right angle
+C. Acute angle
+D. Straight angle
+
+QUESTION:
+What is the color of the pendant lamp hanging above the single bed in the Master bedroom?
+RESPONSE:
+A. Rainy
+B. Windy
+C. Sunny
+D. Snowy
+
+QUESTION:
+What type of lighting is present near the dining space in the living room?
+RESPONSE:
+A. Velocity
+B. Inertia
+C. Speed
+D. Momentum
+
+#BEGIN-QUESTION
