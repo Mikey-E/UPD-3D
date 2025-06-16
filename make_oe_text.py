@@ -2,16 +2,22 @@ import argparse
 import os
 import openai
 
-# Set up argument parser
+# Set up argument Parser
 parser = argparse.ArgumentParser(description="Take text_basis files and generate upd open-ended samples using OpenAI API.")
 parser.add_argument("folder", type=str, help="Name of the folder inside text_basis/")
 parser.add_argument("--prompt_file", type=str, default="oe_prompt.txt", help="Name of the .txt file containing the prompt.")
 
 args = parser.parse_args()
 
-# Define paths
-input_folder = os.path.join("text_basis", args.folder)
-output_folder = os.path.join("upd_text", args.folder, "open_ended")
+# Update: Handle folder input as absolute/relative path or simple name.
+if os.path.exists(args.folder):
+    input_folder = args.folder
+elif os.path.exists(os.path.join("text_basis", args.folder)):
+    input_folder = os.path.join("text_basis", args.folder)
+else:
+    raise FileNotFoundError(f"Input folder '{args.folder}' does not exist in 'text_basis' or as an absolute/relative path.")
+base_folder = os.path.basename(os.path.normpath(input_folder))
+output_folder = os.path.join("upd_text", base_folder, "open_ended")
 prompt_file = args.prompt_file
 
 # Ensure the output folder exists
