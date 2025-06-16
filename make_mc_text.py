@@ -11,9 +11,15 @@ parser.add_argument("--triage_file", type=str, help="If set, will only reattempt
 
 args = parser.parse_args()
 
-# Define paths
-input_folder = os.path.join("text_basis", args.folder)
-output_folder = os.path.join("upd_text", args.folder, "standard_answer")
+# Update: Handle folder input as absolute path, relative path, or simple name.
+if os.path.exists(args.folder):
+    input_folder = args.folder
+elif os.path.exists(os.path.join("text_basis", args.folder)):
+    input_folder = os.path.join("text_basis", args.folder)
+else:
+    raise FileNotFoundError(f"Input folder '{args.folder}' does not exist in 'text_basis' or as an absolute/relative path.")
+base_folder = os.path.basename(os.path.normpath(input_folder))
+output_folder = os.path.join("upd_text", base_folder, "standard_answer")
 prompt_file = args.prompt_file
 
 # Ensure the output folder exists
