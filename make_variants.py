@@ -79,7 +79,7 @@ def make_aad(input_folder=standard_answer_folder):
                 lines[-1] = lines[-1].rstrip("\n")
             last_letter = lines[-1][0] if lines else 'A'
             next_letter = chr(ord(last_letter) + 1)
-            lines.append(f"\n{next_letter}. none of the above")
+            lines.append(f"\n{next_letter}. None of the above")
             outfile.writelines(lines)
         with open(output_file_path_ai, 'w') as outfile:
             lines = lines[:-1]
@@ -113,7 +113,7 @@ def make_iasd(input_folder=os.path.join("upd_text", args.folder, "iasd_base")):
             ao_sample[-1] = ao_sample[-1].rstrip("\n")
         last_letter = ao_sample[-1][0] if ao_sample else 'A'
         next_letter = chr(ord(last_letter) + 1)
-        ao_sample.append(f"\n{next_letter}. none of the above")
+        ao_sample.append(f"\n{next_letter}. None of the above")
         with open(output_file_path_ao, 'w') as outfile:
             outfile.writelines(ao_sample)
         # Additional instruction version
@@ -146,7 +146,7 @@ def make_ivqd(input_folder=os.path.join("upd_text", args.folder, "ivqd_base")):
             ao_lines[-1] = ao_lines[-1].rstrip("\n")
         last_letter = ao_lines[-1][0] if ao_lines else 'A'
         next_letter = chr(ord(last_letter) + 1)
-        ao_lines.append(f"\n{next_letter}. none of the above")
+        ao_lines.append(f"\n{next_letter}. None of the above")
         with open(output_file_path_ao, 'w') as outfile:
             outfile.writelines(ao_lines)
         
