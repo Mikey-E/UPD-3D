@@ -8,16 +8,6 @@ parser = argparse.ArgumentParser(description="Generate upd variants based on the
 parser.add_argument("folder", type=str, help="Name of the folder inside upd_text/")
 args = parser.parse_args()
 
-if not os.path.exists(os.path.join("upd_text", args.folder)):
-    print(f"Error: The folder 'upd_text/{args.folder}' does not exist.")
-    exit(1)
-if not os.path.exists(os.path.join("upd_text", args.folder, "standard_answer")):
-    print(f"Error: The folder 'upd_text/{args.folder}/standard_answer' does not exist.")
-    exit(1)
-if not os.path.exists(os.path.join("upd_text", args.folder, "open_ended")):
-    print(f"Error: The folder 'upd_text/{args.folder}/open_ended' does not exist.")
-    exit(1)
-
 standard_answer_folder = os.path.join("upd_text", args.folder, "standard_answer")
 
 additional_instruction = "If none of the above answers are correct, answer: 'F'"
@@ -93,15 +83,15 @@ def make_aad(input_folder=standard_answer_folder):
             outfile.writelines(lines)
         with open(output_file_path_ai, 'w') as outfile:
             lines = lines[:-1]
+            if lines and lines[-1].endswith("\n"):
+                lines[-1] = lines[-1].rstrip("\n")
             lines.append("\n" + additional_instruction)
             outfile.writelines(lines)
 
-def make_iasd(input_folder=os.path.join("upd_text", args.folder, "standard")):
+def make_iasd(input_folder=os.path.join("upd_text", args.folder, "iasd_base")):
     """Generate iasd variants from the standard_answer base set."""
-    output_folder_base = os.path.join("upd_text", args.folder, "iasd_base")
     output_folder_ao = os.path.join("upd_text", args.folder, "iasd_additional_option")
     output_folder_ai = os.path.join("upd_text", args.folder, "iasd_additional_instruction")
-    os.makedirs(output_folder_base, exist_ok=True)
     os.makedirs(output_folder_ao, exist_ok=True)
     os.makedirs(output_folder_ai, exist_ok=True)
 
@@ -110,27 +100,15 @@ def make_iasd(input_folder=os.path.join("upd_text", args.folder, "standard")):
     for i in range(len(filenames)):
         filename = filenames[i]
         input_file_path = os.path.join(input_folder, filenames[i])
-        next_file_path = os.path.join(input_folder, filenames[i + 1]) if i + 1 < len(filenames) else os.path.join(input_folder, filenames[0])
-
-        output_file_path_base = os.path.join(output_folder_base, filename)
         output_file_path_ao = os.path.join(output_folder_ao, filename)
         output_file_path_ai = os.path.join(output_folder_ai, filename)
 
         # Read the contents of the current file
         with open(input_file_path, 'r') as infile:
             lines = infile.readlines()
-            question = [lines[0].strip()]
-        with open(next_file_path, 'r') as infile:
-            lines_next = infile.readlines()
-            answers = lines_next[1:]
         
-        new_sample = question + answers
-        # Write the base version using a copy of new_sample
-        base_sample = new_sample[:]
-        with open(output_file_path_base, 'w') as outfile:
-            outfile.writelines(base_sample)
         # Prepare additional option version using a copy
-        ao_sample = new_sample[:]
+        ao_sample = lines[:]
         if ao_sample and ao_sample[-1].endswith("\n"):
             ao_sample[-1] = ao_sample[-1].rstrip("\n")
         last_letter = ao_sample[-1][0] if ao_sample else 'A'
@@ -139,7 +117,9 @@ def make_iasd(input_folder=os.path.join("upd_text", args.folder, "standard")):
         with open(output_file_path_ao, 'w') as outfile:
             outfile.writelines(ao_sample)
         # Additional instruction version
-        ai_sample = new_sample[:]
+        ai_sample = lines[:]
+        if ai_sample and ai_sample[-1].endswith("\n"):
+            ai_sample[-1] = ai_sample[-1].rstrip("\n")
         ai_sample.append("\n" + additional_instruction)
         with open(output_file_path_ai, 'w') as outfile:
             outfile.writelines(ai_sample)
@@ -204,13 +184,13 @@ def main():
     required_dirs = [
         os.path.join("upd_text", args.folder, "standard_answer"),
         os.path.join("upd_text", args.folder, "open_ended"),
+        os.path.join("upd_text", args.folder, "iasd_base")  # New: iasd base set must exist
     ]
     missing = [d for d in required_dirs if not os.path.isdir(d)]
     if missing:
         print("Error: The following required base set folders are missing:")
         for d in missing:
             print(f"  {d}")
-        print("Please generate the 'open_ended' and 'standard_answer' base sets first.")
         return
 
     make_standard()
