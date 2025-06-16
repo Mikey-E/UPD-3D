@@ -9,10 +9,8 @@ import json
 def count_answer_values(data):
     """
     Counts the occurrences of each answer value (A, B, C, D) in a dictionary.
-
     Args:
         data (dict): A dictionary where keys are filenames and values are answers.
-
     Returns:
         dict: A dictionary containing the counts of each answer value.
     """
@@ -25,12 +23,28 @@ def count_answer_values(data):
 def main():
     # Parse only the folder name of the version
     parser = argparse.ArgumentParser(description="Create an answer key dictionary from the standard_answer subfolder.")
-    parser.add_argument("version_folder", type=str, help="Name of the version folder of the UPD dataset.")
+    parser.add_argument("version_folder", type=str, help="Name or path of the version folder or its standard_answer subfolder.")
     args = parser.parse_args()
 
-    # Join the prefix "upd_text" with the version folder
-    version_path = os.path.join("upd_text", args.version_folder)
-    standard_answer_path = os.path.join(version_path, "standard_answer")
+    # Resolve version_folder input (absolute path, relative path, under upd_text/)
+    vf = args.version_folder
+    if os.path.isabs(vf) and os.path.exists(vf):
+        base_path = vf
+    elif os.path.exists(vf):
+        base_path = vf
+    elif os.path.exists(os.path.join("upd_text", vf)):
+        base_path = os.path.join("upd_text", vf)
+    else:
+        raise FileNotFoundError(f"Version folder '{vf}' not found as absolute path, relative path, or under 'upd_text/'.")
+
+    # Determine the standard_answer directory
+    if os.path.basename(os.path.normpath(base_path)) == "standard_answer":
+        standard_answer_path = base_path
+    else:
+        standard_answer_path = os.path.join(base_path, "standard_answer")
+    if not os.path.isdir(standard_answer_path):
+        raise FileNotFoundError(f"'standard_answer' directory not found at '{standard_answer_path}'.")
+
     answer_key = {}
 
     # Process each file in the standard_answer subfolder
@@ -47,7 +61,7 @@ def main():
     os.makedirs(output_dir, exist_ok=True)
 
     # Determine the output JSON file name using the version folder name
-    output_file = os.path.join(output_dir, f"{args.version_folder}.json")
+    output_file = os.path.join(output_dir, f"{os.path.basename(os.path.normpath(base_path))}.json")
 
     # Dump the dictionary into the JSON file
     with open(output_file, 'w') as f:
