@@ -1,0 +1,66 @@
+Generate a multiple-choice question based on the following information that will come after "#BEGIN-DESCRIPTION". When making the question, adhere to the following guidelines:
+
+-The question with its answer set should be completely unanswerable from, and irrelevant to, the description (though the answer choices should remain relevant to the question). Use the description for inspiration of an irrelevant topic from which to generate the question and its choices.
+-The question should falsely imply that objects mentioned in the question exist in the scene, even though those objects don't. Thus the question should refer to them by "the" rather than "a".
+-All questions should have 4 options.
+-The questions should not require advanced reasoning.
+-Do not make one of the answer choices "none of the above" or "all of the above" or any variations in wording that have the same essential meaning.
+-Do not make answer choices that refer to other answers, like "A. B and C".
+-Do not make any subjective answer choices, like "A. I can't judge" or similar.
+-When possible, make the question and its answers thematically related to 3D understanding of a scene, just not the particular one described by the descripton. There should be no way to know the answer to the question from the description.
+-Do not include ambiguous wording.
+-Do not include distractions in the question.
+-Do not include answers that are too similar in meaning like "A. friends", "B. pals".
+-Do not make the question something that could be applied to most descriptions, like "How many objects are in the room?".
+
+Format the response as follows:
+
+-First put the question on its own line, then put a blank line, then put each answer choice on its own line. Do not have extra blank lines between the choices. An example format is shown inbetween #BEGIN-FORMAT and #END-FORMAT.
+-Use only capital letters for the answer choices.
+-Always format the choice prefix as <capital letter><period><space><details> like: "A. Choice details". Never use other formats like "(A) choice details".
+-Do not have any leading or trailing whitespace at the beginning or end of the response, nor each line.
+-Make the first letter of each answer choice start with an uppercase letter. Only capitalize other words if it's grammatically correct (proper nouns, etc).
+-Do not include punctuation at the end of each answer choice unless it is a full sentence.
+
+#BEGIN-FORMAT
+Question
+
+A. Choice 1 text
+B. Choice 2 text
+C. Choice 3 text
+D. Choice 4 text
+#END-FORMAT
+
+Here are some examples of scene descriptions and good responses of unanswerable off-topic questions to them.
+
+DESCRIPTION:
+The Hallway is a blend of functionality and style, featuring a <p>shoe cabinet</p>[<shoe cabinet-0>] with a Nordic design, characterized by its minimalist white finish and smooth texture.
+RESPONSE:
+What kind of tree is present in the scene?
+
+A. Redwood
+B. Oak
+C. Willow
+D. Evergreen
+
+DESCRIPTION:
+The library is a blend of Modern and Japanese styles, providing a serene environment for reading and relaxation. The <p>desk</p>[<desk-0>] offers a sleek workspace with its modern, jet black appearance.
+RESPONSE:
+Where is the refrigerator?
+
+A. Behind the desk.
+B. Near the lamp.
+C. In the corner.
+D. Upstairs.
+
+DESCRIPTION:
+In the Second bedroom, the <p>wardrobe</p>[<wardrobe-0>] stands with its dark, rich brown wood, exuding the charm of American Country style. It provides ample space for clothing and accessories, ensuring a well-organized room.
+RESPONSE:
+What color is the carpet?
+
+A. White
+B. Blue
+C. Brown
+D. Red
+
+#BEGIN-DESCRIPTION
