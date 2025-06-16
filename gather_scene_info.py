@@ -14,12 +14,10 @@ parser.add_argument("--json_file", type=str, default="grounded_scene_description
 # Parse arguments
 args = parser.parse_args()
 
-# Validate the file extension for the .txt file
+# Validate file extensions
 if not args.txt_file.endswith('.txt'):
     print("Error: The provided file must have a .txt extension.")
     exit(1)
-
-# Validate the file extension for the .json file
 if not args.json_file.endswith('.json'):
     print("Error: The provided file must have a .json extension.")
     exit(1)
@@ -27,23 +25,30 @@ if not args.json_file.endswith('.json'):
 txt_file = args.txt_file
 json_file = args.json_file
 
+# Determine the correct path for the txt file
+if os.path.isabs(txt_file):
+    text_file_path = txt_file
+elif os.path.exists(os.path.join("pcl_lists", txt_file)):
+    text_file_path = os.path.join("pcl_lists", txt_file)
+else:
+    text_file_path = txt_file  # assume relative path in current directory
+
+# Use the basename of the resolved text file for directory naming
+subdir_name = os.path.splitext(os.path.basename(text_file_path))[0]
 # Create the "text_basis" directory if it doesn't exist
 os.makedirs("text_basis", exist_ok=True)
-
 # Create a subdirectory inside "text_basis" named after the .txt file
-subdir_name = os.path.splitext(os.path.basename(txt_file))[0]
 subdir_path = os.path.join("text_basis", subdir_name)
 os.makedirs(subdir_path, exist_ok=True)
 
-# Open the JSON file and print the first item
+# Open the JSON file and process the txt file
 json_file_path = os.path.join("data", "data", "3D-FRONT", "text_annotation", json_file)
-text_file_path = os.path.join("pcl_lists", txt_file)
 with open(json_file_path, 'r') as f:
     data = json.load(f)
     with open(text_file_path, 'r') as f2:
         while True:
             line = f2.readline().strip()
-            if not line:  # Exit loop if we reach end of file
+            if not line:
                 break
             try:
                 with open(os.path.join(subdir_path, line) + ".txt", 'w') as f3:
