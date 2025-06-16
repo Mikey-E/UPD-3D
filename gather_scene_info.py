@@ -25,13 +25,13 @@ if not args.json_file.endswith('.json'):
 txt_file = args.txt_file
 json_file = args.json_file
 
-# Determine the correct path for the txt file
-if os.path.isabs(txt_file):
+# Update: Handle txt_file input as absolute path, relative path, or simple name.
+if os.path.exists(txt_file):
     text_file_path = txt_file
 elif os.path.exists(os.path.join("pcl_lists", txt_file)):
     text_file_path = os.path.join("pcl_lists", txt_file)
 else:
-    text_file_path = txt_file  # assume relative path in current directory
+    raise FileNotFoundError(f"Text file '{txt_file}' does not exist in 'pcl_lists' or as an absolute/relative path.")
 
 # Use the basename of the resolved text file for directory naming
 subdir_name = os.path.splitext(os.path.basename(text_file_path))[0]
