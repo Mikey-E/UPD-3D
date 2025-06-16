@@ -174,7 +174,7 @@ def make_open_ended_instruction(input_folder=os.path.join("upd_text", args.folde
 
         # Write the remaining lines to the output file
         with open(output_file_path, 'w') as outfile:
-            lines.append("\nIf the question is unanswerable, please answer: 'f'")
+            lines.append("\nIf the question is unanswerable, please answer: 'F'")
             outfile.writelines(lines)
 
 def main():
