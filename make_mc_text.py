@@ -45,7 +45,7 @@ with open(pcl_list_path, 'r') as pl:
 total_files = len(filenames_to_process)
 for i, filename in enumerate(filenames_to_process, start=1):
     print(f"Processing file {i}/{total_files}: {filename}")
-    text_basis_input_file_path = os.path.join(args.text_basis_folder, filename)
+    text_basis_input_file_path = os.path.join("text_basis", args.text_basis_folder, filename + ".txt")
     output_file_path = os.path.join(output_folder, filename)
 
     # Read the contents of the current file
