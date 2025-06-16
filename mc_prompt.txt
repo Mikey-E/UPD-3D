@@ -15,7 +15,7 @@ Format the response as follows:
 
 -First put the question on its own line, then put a blank line, then put each answer choice on its own line, then put another blank line, then clearly indicate what the correct answer is at the end of the response: "Correct answer: A/B/C/D". Do not have extra blank lines between the choices. An example format is shown inbetween #BEGIN-FORMAT and #END-FORMAT.
 -Use only capital letters for the answer choices.
--Always format the choice prefix as <capital letter><period><space><details> like: "A. choice details". Never use other formats like "(A) choice details".
+-Always format the choice prefix as <capital letter><period><space><details> like: "A. Choice details". Never use other formats like "(A) choice details".
 -Do not have any leading or trailing whitespace at the beginning or end of the response, nor each line.
 -Make the first letter of each answer choice start with an uppercase letter. Only capitalize other words if it's grammatically correct (proper nouns, etc).
 -Do not include punctuation at the end of each answer choice unless it is a full sentence.
@@ -23,10 +23,10 @@ Format the response as follows:
 #BEGIN-FORMAT
 Question
 
-A. choice 1 text
-B. choice 2 text
-C. choice 3 text
-D. choice 4 text
+A. Choice 1 text
+B. Choice 2 text
+C. Choice 3 text
+D. Choice 4 text
 
 Correct answer: A/B/C/D
 #END-FORMAT
