@@ -45,7 +45,9 @@ else:
     filenames_to_process = os.listdir(input_folder)
 
 # Process each file in the input folder or triage list
-for filename in filenames_to_process:
+total_files = len(filenames_to_process)
+for i, filename in enumerate(filenames_to_process, start=1):
+    print(f"Processing file {i}/{total_files}: {filename}")
     input_file_path = os.path.join(input_folder, filename)
     output_file_path = os.path.join(output_folder, filename)
 
