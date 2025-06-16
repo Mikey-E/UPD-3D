@@ -28,7 +28,10 @@ def make_standard(input_folder=standard_answer_folder):
 
         # Remove last 2 lines
         lines = lines[:-2]
-
+        # Remove trailing newline from the final line if present
+        if lines and lines[-1].endswith("\n"):
+            lines[-1] = lines[-1].rstrip("\n")
+        
         # Write the remaining lines to the output file
         with open(output_file_path, 'w') as outfile:
             outfile.writelines(lines)
@@ -72,6 +75,9 @@ def make_aad(input_folder=standard_answer_folder):
 
         # Write the remaining lines to the output file
         with open(output_file_path_base, 'w') as outfile:
+            # Ensure the last line does not have a trailing newline
+            if lines and lines[-1].endswith("\n"):
+                lines[-1] = lines[-1].rstrip("\n")
             outfile.writelines(lines)
         with open(output_file_path_ao, 'w') as outfile:
             # Remove trailing newline from the last line if present
