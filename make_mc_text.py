@@ -3,60 +3,57 @@ import os
 import openai
 import random
 
-# Set up argument parser
+# Set up argument Parser
 parser = argparse.ArgumentParser(description="Take text_basis files and generate upd multiple-choice samples using OpenAI API.")
-parser.add_argument("folder", type=str, help="Name of the folder inside text_basis/")
+parser.add_argument("pcl_list", type=str, help="File containing list of point cloud filenames to process.")
+parser.add_argument("--text_basis_folder", type=str, default="3D-FRONT", help="Name of the folder inside text_basis/")
 parser.add_argument("--prompt_file", type=str, default="mc_prompt.txt", help="Name of the .txt file containing the prompt.")
-parser.add_argument("--triage_file", type=str, help="If set, will only reattempt scenes listed in this file.")
 
 args = parser.parse_args()
 
-# Update: Handle folder input as absolute path, relative path, or simple name.
-if os.path.exists(args.folder):
-    input_folder = args.folder
-elif os.path.exists(os.path.join("text_basis", args.folder)):
-    input_folder = os.path.join("text_basis", args.folder)
+# Resolve pcl_list input as absolute/relative path or from pcl_lists/
+if os.path.exists(args.pcl_list):
+    pcl_list_path = args.pcl_list
+elif os.path.exists(os.path.join("pcl_lists", args.pcl_list)):
+    pcl_list_path = os.path.join("pcl_lists", args.pcl_list)
+elif os.path.exists(os.path.join("pcl_lists", args.pcl_list + ".txt")):
+    pcl_list_path = os.path.join("pcl_lists", args.pcl_list + ".txt")
 else:
-    raise FileNotFoundError(f"Input folder '{args.folder}' does not exist in 'text_basis' or as an absolute/relative path.")
-base_folder = os.path.basename(os.path.normpath(input_folder))
-output_folder = os.path.join("upd_text", base_folder, "standard_answer")
-prompt_file = args.prompt_file
+    raise FileNotFoundError(f"pcl_list file '{args.pcl_list}' not found in current dir or pcl_lists/")
 
-# Ensure the output folder exists
-os.makedirs(output_folder, exist_ok=True)
+# derive output subfolder name from pcl_list_path
+pcl_list_name = os.path.splitext(os.path.basename(pcl_list_path))[0]
+output_folder = os.path.join("upd_text", pcl_list_name, "standard_answer")
+prompt_file = args.prompt_file
 
 # Read the prompt text
 if not os.path.exists(prompt_file):
     print(f"Error: Prompt file '{prompt_file}' does not exist.")
     exit(1)
 
+# Ensure the output folder exists
+os.makedirs(output_folder, exist_ok=True)
+
 with open(prompt_file, 'r') as pf:
     prompt_text = pf.read()
 
-# Handle triage_file: get list of filenames to process
-if args.triage_file:
-    if not os.path.exists(args.triage_file):
-        print(f"Error: Triage file '{args.triage_file}' does not exist.")
-        exit(1)
-    with open(args.triage_file, 'r') as tf:
-        triage_filenames = [line.strip() for line in tf if line.strip()]
-    filenames_to_process = triage_filenames
-else:
-    filenames_to_process = os.listdir(input_folder)
+# Get list of filenames to process from pcl_list_path
+with open(pcl_list_path, 'r') as pl:
+    filenames_to_process = [line.strip() for line in pl if line.strip()]
 
 # Process each file in the input folder or triage list
 total_files = len(filenames_to_process)
 for i, filename in enumerate(filenames_to_process, start=1):
     print(f"Processing file {i}/{total_files}: {filename}")
-    input_file_path = os.path.join(input_folder, filename)
+    text_basis_input_file_path = os.path.join(args.text_basis_folder, filename)
     output_file_path = os.path.join(output_folder, filename)
 
     # Read the contents of the current file
-    with open(input_file_path, 'r') as infile:
-        file_content = infile.read()
+    with open(text_basis_input_file_path, 'r') as infile:
+        text_basis_file_content = infile.read()
 
     # Combine the prompt text and the file content
-    combined_text = f"{prompt_text}\n\n{file_content}"
+    combined_text = f"{prompt_text}\n\n{text_basis_file_content}"
 
     client = openai.OpenAI()
 
