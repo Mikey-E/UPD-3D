@@ -124,43 +124,39 @@ def make_iasd(input_folder=os.path.join("upd_text", args.folder, "iasd_base")):
         with open(output_file_path_ai, 'w') as outfile:
             outfile.writelines(ai_sample)
 
-def make_ivqd(input_folder=os.path.join("upd_text", args.folder, "standard")):
-    """Generate ivqd variants from the standard set"""
-    output_folder_base = os.path.join("upd_text", args.folder, "ivqd_base")
+def make_ivqd(input_folder=os.path.join("upd_text", args.folder, "ivqd_base")):
+    """Generate ivqd variants from the given base set (ivqd_base) by creating solely the additional option and additional instruction variants."""
     output_folder_ao = os.path.join("upd_text", args.folder, "ivqd_additional_option")
     output_folder_ai = os.path.join("upd_text", args.folder, "ivqd_additional_instruction")
-    os.makedirs(output_folder_base, exist_ok=True)
     os.makedirs(output_folder_ao, exist_ok=True)
     os.makedirs(output_folder_ai, exist_ok=True)
 
     filenames = os.listdir(input_folder)
-
-    for i in range(len(filenames)):
-        filename = filenames[i]
-        filename_new = filenames[i - 1]
-        os.system("cp " + os.path.join(input_folder, filename) + " " + os.path.join(output_folder_base, filename_new))
-
     for filename in filenames:
-        input_file_path = os.path.join(output_folder_base, filename)
+        input_file_path = os.path.join(input_folder, filename)
         output_file_path_ao = os.path.join(output_folder_ao, filename)
         output_file_path_ai = os.path.join(output_folder_ai, filename)
-
+        
         with open(input_file_path, 'r') as infile:
             lines = infile.readlines()
-
+        
+        # Generate the additional option variant.
+        ao_lines = lines[:]  # copy of lines
+        if ao_lines and ao_lines[-1].endswith("\n"):
+            ao_lines[-1] = ao_lines[-1].rstrip("\n")
+        last_letter = ao_lines[-1][0] if ao_lines else 'A'
+        next_letter = chr(ord(last_letter) + 1)
+        ao_lines.append(f"\n{next_letter}. none of the above")
         with open(output_file_path_ao, 'w') as outfile:
-            if lines and lines[-1].endswith("\n"):
-                lines[-1] = lines[-1].rstrip("\n")
-            last_letter = lines[-1][0] if lines else 'A'
-            next_letter = chr(ord(last_letter) + 1)
-            lines.append(f"\n{next_letter}. none of the above")
-            outfile.writelines(lines)
+            outfile.writelines(ao_lines)
+        
+        # Generate the additional instruction variant.
+        ai_lines = lines[:]  # copy original base
+        if ai_lines and ai_lines[-1].endswith("\n"):
+            ai_lines[-1] = ai_lines[-1].rstrip("\n")
+        ai_lines.append("\n" + additional_instruction)
         with open(output_file_path_ai, 'w') as outfile:
-            lines = lines[:-1]
-            if lines and lines[-1].endswith("\n"):
-                lines[-1] = lines[-1].rstrip("\n")
-            lines.append("\n" + additional_instruction)
-            outfile.writelines(lines)
+            outfile.writelines(ai_lines)
     
 def make_open_ended_instruction(input_folder=os.path.join("upd_text", args.folder, "open_ended")):
     """Generate open-ended instruction variants from the open-ended set."""
@@ -187,6 +183,7 @@ def main():
         os.path.join("upd_text", args.folder, "standard_answer"),
         os.path.join("upd_text", args.folder, "open_ended"),
         os.path.join("upd_text", args.folder, "iasd_base")  # New: iasd base set must exist
+        os.path.join("upd_text", args.folder, "ivqd_base")  # New: ivqd base set must exist
     ]
     missing = [d for d in required_dirs if not os.path.isdir(d)]
     if missing:
