@@ -6,8 +6,17 @@ import os
 # Set up argument parser
 parser = argparse.ArgumentParser(description="Generate upd variants based on the standard_answer and open_ended base sets.")
 parser.add_argument("folder", type=str, help="Name of the folder inside upd_text/")
-
 args = parser.parse_args()
+
+if not os.path.exists(os.path.join("upd_text", args.folder)):
+    print(f"Error: The folder 'upd_text/{args.folder}' does not exist.")
+    exit(1)
+if not os.path.exists(os.path.join("upd_text", args.folder, "standard_answer")):
+    print(f"Error: The folder 'upd_text/{args.folder}/standard_answer' does not exist.")
+    exit(1)
+if not os.path.exists(os.path.join("upd_text", args.folder, "open_ended")):
+    print(f"Error: The folder 'upd_text/{args.folder}/open_ended' does not exist.")
+    exit(1)
 
 standard_answer_folder = os.path.join("upd_text", args.folder, "standard_answer")
 
