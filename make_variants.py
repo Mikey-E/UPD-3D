@@ -157,6 +157,8 @@ def make_ivqd(input_folder=os.path.join("upd_text", args.folder, "standard")):
             outfile.writelines(lines)
         with open(output_file_path_ai, 'w') as outfile:
             lines = lines[:-1]
+            if lines and lines[-1].endswith("\n"):
+                lines[-1] = lines[-1].rstrip("\n")
             lines.append("\n" + additional_instruction)
             outfile.writelines(lines)
     
