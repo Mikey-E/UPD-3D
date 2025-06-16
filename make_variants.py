@@ -182,8 +182,8 @@ def main():
     required_dirs = [
         os.path.join("upd_text", args.folder, "standard_answer"),
         os.path.join("upd_text", args.folder, "open_ended"),
-        os.path.join("upd_text", args.folder, "iasd_base")  # New: iasd base set must exist
-        os.path.join("upd_text", args.folder, "ivqd_base")  # New: ivqd base set must exist
+        os.path.join("upd_text", args.folder, "iasd_base"),
+        os.path.join("upd_text", args.folder, "ivqd_base"),
     ]
     missing = [d for d in required_dirs if not os.path.isdir(d)]
     if missing:
