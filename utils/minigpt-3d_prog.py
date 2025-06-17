@@ -46,7 +46,6 @@ stopping_criteria = StoppingCriteriaList([StoppingCriteriaSub(stops=stop_words_i
 chat = Chat(model, device='cuda:{}'.format(args.gpu_id), stopping_criteria=stopping_criteria)
 print('Initialization Finished, you can chat with me using the below link!!!!')
 
-names_list = []
 upd_subset_type = None #string for writing the inference results file name
 upd_version_name = None #string for writing the inference results file name
 
@@ -62,24 +61,20 @@ class FakeUpload:
         self.scene_name = scene_name
 
 def process_txt(file):
-    global names_list
-    global upd_version_name
     with open(file.name, 'r') as f:
         names_list = f.read().splitlines()
     upd_version_name = os.path.basename(os.path.normpath(file.name)).replace('.txt', '')
-    return "\n".join(names_list)
+    return names_list, upd_version_name
 
 def process_txt_from_path(file_path):
     """
     Overload of process_txt that takes a raw file path string instead of a file object.
     For programmatic runs
     """
-    global names_list
-    global upd_version_name
     with open(file_path, 'r') as f:
         names_list = f.read().splitlines()
     upd_version_name = os.path.basename(os.path.normpath(file_path)).replace('.txt', '')
-    return "\n".join(names_list)
+    return names_list, upd_version_name
 
 def make_named_upd_txt_files(names, dir_path):
     return [os.path.join(dir_path, name + ".txt") for name in names]
@@ -93,10 +88,7 @@ def make_named_ply_files(names, dir_path):
         results.append(FakeUpload(os.path.join(dir_path, folder, scene_name, scene_name + ".ply"), folder, scene_name))
     return results
 
-def inference(pc_path, txt_path):
-    global names_list
-    global upd_subset_type
-
+def inference(pc_path, txt_path, names_list):
     if not os.path.isdir(pc_path):
         error_message = f"Error: '{pc_path}' is not a valid folder path."
         print(error_message)
@@ -157,8 +149,7 @@ def programmatic_run(folder):
     # point_cloud_path = "/cluster/medbow/home/melgin/tmp_candelete/3D-Front_test"
     point_cloud_path = "/gscratch/melgin/3d-grand_unzipped/3D-FRONT"
     pcl_list_path = "/project/3dllms/melgin/UPD-3D/pcl_lists/3D-FRONT_test.txt"
-    names_list = process_txt_from_path(pcl_list_path)
-    print(f"Names list: {names_list}")
+    names_list, upd_version_name = process_txt_from_path(pcl_list_path)
     inference(point_cloud_path, upd_text_path)
 
 if __name__ == "__main__":
