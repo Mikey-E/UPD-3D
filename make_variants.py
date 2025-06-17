@@ -19,8 +19,9 @@ def make_standard(input_folder=standard_answer_folder):
 
     # Process each file in the input folder
     for filename in os.listdir(input_folder):
-        input_file_path = os.path.join(input_folder, filename)
-        output_file_path = os.path.join(output_folder, filename)
+        name, ext = os.path.splitext(filename)
+        input_file_path = os.path.join(input_folder, name + ".txt")
+        output_file_path = os.path.join(output_folder, name + ".txt")
 
         # Read the contents of the current file
         with open(input_file_path, 'r') as infile:
@@ -47,10 +48,11 @@ def make_aad(input_folder=standard_answer_folder):
 
     # Process each file in the input folder
     for filename in os.listdir(input_folder):
-        input_file_path = os.path.join(input_folder, filename)
-        output_file_path_base = os.path.join(output_folder_base, filename)
-        output_file_path_ao = os.path.join(output_folder_ao, filename)
-        output_file_path_ai = os.path.join(output_folder_ai, filename)
+        name, ext = os.path.splitext(filename)
+        input_file_path = os.path.join(input_folder, name + ".txt")
+        output_file_path_base = os.path.join(output_folder_base, name + ".txt")
+        output_file_path_ao = os.path.join(output_folder_ao, name + ".txt")
+        output_file_path_ai = os.path.join(output_folder_ai, name + ".txt")
 
         # Read the contents of the current file
         with open(input_file_path, 'r') as infile:
@@ -105,9 +107,10 @@ def make_iasd(input_folder=os.path.join("upd_text", args.folder, "iasd_base")):
     filenames = os.listdir(input_folder)
     for i in range(len(filenames)):
         filename = filenames[i]
-        input_file_path = os.path.join(input_folder, filenames[i])
-        output_file_path_ao = os.path.join(output_folder_ao, filename)
-        output_file_path_ai = os.path.join(output_folder_ai, filename)
+        name, ext = os.path.splitext(filename)
+        input_file_path = os.path.join(input_folder, name + ".txt")
+        output_file_path_ao = os.path.join(output_folder_ao, name + ".txt")
+        output_file_path_ai = os.path.join(output_folder_ai, name + ".txt")
 
         # Read the contents of the current file
         with open(input_file_path, 'r') as infile:
@@ -139,9 +142,10 @@ def make_ivqd(input_folder=os.path.join("upd_text", args.folder, "ivqd_base")):
 
     filenames = os.listdir(input_folder)
     for filename in filenames:
-        input_file_path = os.path.join(input_folder, filename)
-        output_file_path_ao = os.path.join(output_folder_ao, filename)
-        output_file_path_ai = os.path.join(output_folder_ai, filename)
+        name, ext = os.path.splitext(filename)
+        input_file_path = os.path.join(input_folder, name + ".txt")
+        output_file_path_ao = os.path.join(output_folder_ao, name + ".txt")
+        output_file_path_ai = os.path.join(output_folder_ai, name + ".txt")
         
         with open(input_file_path, 'r') as infile:
             lines = infile.readlines()
@@ -163,7 +167,7 @@ def make_ivqd(input_folder=os.path.join("upd_text", args.folder, "ivqd_base")):
         ai_lines.append("\n" + additional_instruction)
         with open(output_file_path_ai, 'w') as outfile:
             outfile.writelines(ai_lines)
-    
+
 def make_open_ended_instruction(input_folder=os.path.join("upd_text", args.folder, "open_ended")):
     """Generate open-ended instruction variants from the open-ended set."""
     output_folder = os.path.join("upd_text", args.folder, "open_ended_additional_instruction")
@@ -171,8 +175,9 @@ def make_open_ended_instruction(input_folder=os.path.join("upd_text", args.folde
 
     # Process each file in the input folder
     for filename in os.listdir(input_folder):
-        input_file_path = os.path.join(input_folder, filename)
-        output_file_path = os.path.join(output_folder, filename)
+        name, ext = os.path.splitext(filename)
+        input_file_path = os.path.join(input_folder, name + ".txt")
+        output_file_path = os.path.join(output_folder, name + ".txt")
 
         # Read the contents of the current file
         with open(input_file_path, 'r') as infile:
