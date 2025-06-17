@@ -88,7 +88,7 @@ export OPENAI_API_KEY=sk-proj-epoTPF...
 make_mc_text.py will take the name of the folder inside text_basis/ and create the standard_answer subset inside upd_text/. This is a subset containing multiple choice questions based on the descriptions, including the correct answer.
 
 ```
-python make_mc_text.py list_of_clouds
+python make_mc_text.py list_of_clouds.txt
 ```
 
 ## Make the open-ended questions
@@ -96,10 +96,12 @@ python make_mc_text.py list_of_clouds
 This can be done like it was done for multiple-choice questions:
 
 ```
-python make_oe_text.py list_of_clouds
+python make_oe_text.py list_of_clouds.txt
 ```
 
 ## Make the iasd base questions
+
+This depends on the standard_answer folder being finished first from make_mc_text.py
 
 ```
 python make_iasd_base_text.py upd_version_folder
@@ -108,7 +110,7 @@ python make_iasd_base_text.py upd_version_folder
 ## Make the ivqd base questions
 
 ```
-python make_ivqd_base_text.py list_of_clouds
+python make_ivqd_base_text.py list_of_clouds.txt
 ```
 
 ## Separate out an answer key
