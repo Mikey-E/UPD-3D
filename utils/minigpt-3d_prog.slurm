@@ -16,6 +16,8 @@ if [ "$#" -ne 1 ]; then
     exit 1
 fi
 
+# Load the necessary modules - this may not work, the conda environment may have to be activated in the command line before you run this script
 conda init
 conda activate minigpt_3d
+
 python ./minigpt-3d_prog.py --folder "$1"
