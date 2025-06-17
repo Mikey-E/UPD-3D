@@ -11,7 +11,6 @@ from minigpt4.common.registry import registry
 from minigpt4.conversation.conversation import Chat, CONV_VISION_Vicuna0, CONV_VISION_LLama2, CONV_VISION, \
     StoppingCriteriaSub
 
-# from gradio.processing_utils import NamedString
 import os
 import json
 
@@ -145,6 +144,11 @@ upd_subset_type = None #string for writing the inference results file name
 upd_version_name = None #string for writing the inference results file name
 
 class FakeUpload:
+    """
+    A simple container class to mimic file upload objects for point cloud inference.
+    The original MiniGPT-3D gradio code this file is based on only ever used file
+    upload objects, so this class substitutes for that to allow programmatic evaluation that does not require those file upload objects that come from the gradio UI.
+    """
     def __init__(self, path, hex, scene_name):
         self.name = path
         self.hex = hex
@@ -259,97 +263,6 @@ def inference(pc_path, txt_path, pcl_list_path=None):
             json.dump(results, f, indent=4)
     except Exception as e:
         print(f"[ERROR] Failed to write results to JSON file: {e}")
-
-def start_chat():
-
-    print("[INFO] Starting conversation...")
-    while True:
-        print("-" * 80)
-        title = """<h1 align="center">Demo of MiniGPT-3D</h1>"""
-        description_1 = """<h3>MiniGPT-3D takes the first step in efficient 3D-LLM, training with <span style="color: green;">47.8M</span> learnable parameters in just <span style="color: green;">26.8 hours on a single RTX 3090 GPU!</span></h3>"""
-        #
-        description = """
-                    ##### Usage:
-                    1. Upload object file (.ply or .npy), or input [Objaverse object id](https://drive.google.com/file/d/1gLwA7aHfy1KCrGeXlhICG9rT2387tWY8/view?usp=sharing) (660K objects, page end show some ids).
-                    2. Start chatting.
-                     """
-        with gr.Blocks() as demo:
-            gr.Markdown(title)
-            gr.Markdown(description_1)
-            gr.Markdown(
-                """
-                [[Project Page](https://tangyuan96.github.io/minigpt_3d_project_page/)]   [[Paper](https://arxiv.org/pdf/2405.01413)]   [[Code](https://github.com/TangYuan96/MiniGPT-3D)]
-                """
-            )
-            gr.Markdown(description)
-            with gr.Row():
-                with gr.Column():
-                    input_choice = gr.Radio(['File', 'Object ID', "Zip"], value='Object ID', interactive=True,
-                                            label='Input Method',
-                                            info="How do you want to load point clouds?")
-                    point_cloud_input = gr.File(file_types=[".ply", ".npy"], visible=False,
-                                                label="Upload Point Cloud File (.ply or .npy), format: [N,xyz] or [N,xyzrgb]")
-                    Object_ID_input = gr.Textbox(label="Object ID", placeholder='Please input the Object ID ',
-                                                 interactive=True)
-                    zip_input = gr.File(file_types=[".zip"], visible=False, label="Upload Point Cloud File (.zip)")
-                    with gr.Accordion("More settings", open=True):
-                        with gr.Row():
-                            num_beams = gr.Slider(
-                                minimum=1, maximum=10, value=1, step=1, interactive=True, label="beam number", )
-                            temperature = gr.Slider(
-                                minimum=0.1, maximum=2.0, value=0.2, step=0.1, interactive=True, label="Temperature", )
-                        with gr.Row():
-                            max_new_tokens = gr.Slider(
-                                minimum=10, maximum=200, value=60, step=10, interactive=True, label="Max words per reply", )
-                            max_length = gr.Slider(
-                                minimum=400, maximum=1500, value=400, step=100, interactive=True,
-                                label="Max words in conv.", )
-                        min_length = gr.Slider(
-                            minimum=1, maximum=200, value=1, step=5, interactive=True, label="Min words per reply", )
-                    with gr.Row():
-                        upload_button = gr.Button(value="Start Chat", interactive=True, variant="primary")
-                        clear = gr.Button("Restart")
-                output = gr.Plot()
-                with gr.Column():
-                    chat_state = gr.State()
-                    pc_list = gr.State()
-                    chatbot = gr.Chatbot(label='MiniGPT-3D', height=500)
-                    text_input = gr.Textbox(label='User', placeholder='Please upload your object ID', interactive=False)
-
-                    #new
-                    file_input = gr.File(label="Upload .txt with names", file_types=[".txt"])
-                    output = gr.Textbox(label="Names parsed", lines=10)
-                    # file_input.change(fn=process_txt, inputs=[file_input, pc_path_input, txt_path_input], outputs=output)
-                    file_input.change(fn=process_txt, inputs=file_input, outputs=output)
-                    pc_path_input = gr.Textbox(label="Point Cloud Path", placeholder="Enter the absolute point cloud folder path", interactive=True)
-                    txt_path_input = gr.Textbox(label="UPD Path", placeholder="Enter the absolute UPD folder path", interactive=True)
-                    btn = gr.Button("Run Inference!")
-                    out = gr.Textbox()
-                    btn.click(fn=inference, inputs=[pc_path_input, txt_path_input], outputs=out)
-
-            upload_button.click(upload_pc_v2, [input_choice, Object_ID_input, point_cloud_input, text_input, chat_state],
-                                [output, Object_ID_input, text_input, upload_button, chat_state, pc_list])
-            text_input.submit(gradio_ask, [text_input, chatbot, chat_state], [text_input, chatbot, chat_state]).then(
-                gradio_answer,
-                [chatbot, chat_state, pc_list, num_beams, temperature, max_new_tokens, max_length, min_length],
-                [chatbot, chat_state, pc_list])
-            clear.click(gradio_reset, [chat_state, pc_list],
-                        [output, chatbot, Object_ID_input, point_cloud_input, text_input, upload_button, chat_state, pc_list], queue=False)
-            gr.Markdown(
-                """
-                #### Terms of use
-                By using this service, users are required to agree to the following terms: The service is a research preview intended for non-commercial use only. It only provides limited safety measures and may generate offensive content. It must not be used for any illegal, harmful, violent, racist, or sexual purposes. The service may collect user dialogue data for future research.
-                """
-            )
-            gr.Markdown(
-                """
-                #### Acknowledgements
-                 [[PointLLM](https://github.com/OpenRobotLab/PointLLM/tree/master)] [[TinyGPT-V](https://github.com/DLYuanGod/TinyGPT-V)] [[MiniGPT-4](https://github.com/Vision-CAIR/MiniGPT-4)]
-                """
-            )
-            input_choice.change(change_input_method, input_choice, [point_cloud_input, Object_ID_input, zip_input])
-        demo.launch(share=False)
-        demo.queue()
 
 def programmatic_run(folder):
     print("running programmatic inference...")
