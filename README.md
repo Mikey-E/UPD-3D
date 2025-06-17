@@ -99,6 +99,18 @@ This can be done like it was done for multiple-choice questions:
 python make_oe_text.py list_of_clouds
 ```
 
+## Make the iasd base questions
+
+```
+python make_iasd_base_text.py upd_version_folder
+```
+
+## Make the ivqd base questions
+
+```
+python make_ivqd_base_text.py list_of_clouds
+```
+
 ## Separate out an answer key
 
 It is necessary to have an answer key for each scene's standard question for use in later computations. create_answer_key.py will separate this out and store it.
