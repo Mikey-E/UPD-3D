@@ -24,10 +24,6 @@ def parse_args():
     args = parser.parse_args()
     return args
 
-# ========================================
-#             Model Initialization
-# ========================================
-
 conv_dict = {'pretrain_vicuna0': CONV_VISION_Vicuna0,
              'pretrain_llama2': CONV_VISION_LLama2,
              'pretrain': CONV_VISION}
@@ -97,7 +93,7 @@ def make_named_ply_files(names, dir_path):
         results.append(FakeUpload(os.path.join(dir_path, folder, scene_name, scene_name + ".ply"), folder, scene_name))
     return results
 
-def inference(pc_path, txt_path, pcl_list_path=None):
+def inference(pc_path, txt_path):
     global names_list
     global upd_subset_type
 
@@ -111,8 +107,6 @@ def inference(pc_path, txt_path, pcl_list_path=None):
         return error_message
     pc_ply_list = make_named_ply_files(names_list, pc_path)
     upd_txt_file_list = make_named_upd_txt_files(names_list, txt_path)
-    print(f"@@@{upd_txt_file_list[0:5]}")
-    print(f"@@@{pc_ply_list[0:5]}")
     upd_subset_type = os.path.basename(os.path.normpath(txt_path))
 
     if not upd_txt_file_list or not pc_ply_list:
