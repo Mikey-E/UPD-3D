@@ -1,12 +1,7 @@
 import argparse
-import random
-import numpy as np
 import torch
-import torch.backends.cudnn as cudnn
-import gradio as gr
 from transformers import StoppingCriteriaList
 from minigpt4.common.config import Config
-from minigpt4.common.dist_utils import get_rank
 from minigpt4.common.registry import registry
 from minigpt4.conversation.conversation import Chat, CONV_VISION_Vicuna0, CONV_VISION_LLama2, CONV_VISION, \
     StoppingCriteriaSub
@@ -55,79 +50,6 @@ stopping_criteria = StoppingCriteriaList([StoppingCriteriaSub(stops=stop_words_i
 
 chat = Chat(model, device='cuda:{}'.format(args.gpu_id), stopping_criteria=stopping_criteria)
 print('Initialization Finished, you can chat with me using the below link!!!!')
-
-# ========================================
-#             Gradio Setting
-# ========================================
-
-def change_input_method(input_method):
-    if input_method == 'File':
-        return gr.update(visible=True), gr.update(visible=False), gr.update(visible=False)
-    elif input_method == 'Object ID':
-        return gr.update(visible=False), gr.update(visible=True), gr.update(visible=False)
-    elif input_method == 'Zip':
-        return gr.update(visible=False), gr.update(visible=False), gr.update(visible=True)
-
-def gradio_reset(chat_state, pc_list):
-    if chat_state is not None:
-        chat_state.messages = []
-    if pc_list is not None:
-        pc_list = []
-    return None, None, gr.update(value=None, interactive=True), None, gr.update(
-        placeholder='Please upload your object ID first',
-        interactive=False), gr.update(
-        value="Upload object ID  of file & Start Chat", interactive=True), chat_state, pc_list
-
-def upload_pc(Object_ID_input, text_input, chat_state):
-    if Object_ID_input is None:
-        return None, None, gr.update(interactive=True), chat_state, None
-    chat_state = CONV_VISION.copy()
-    pc_list = []
-    llm_message = chat.upload_pc(Object_ID_input, chat_state, pc_list)
-    pc_fig, pc_list = chat.encode_pc(pc_list)
-    return pc_fig, gr.update(interactive=False), gr.update(interactive=True,
-                                                           placeholder='Type and press Enter'), gr.update(
-        value="Start Chatting", interactive=False), chat_state, pc_list
-
-def gradio_ask(user_message, chatbot, chat_state):
-    if len(user_message) == 0:
-        return gr.update(interactive=True, placeholder='Input should not be empty!'), chatbot, chat_state
-    chat.ask(user_message, chat_state)
-    chatbot = chatbot + [[user_message, None]]
-    return '', chatbot, chat_state
-
-def gradio_answer(chatbot, chat_state, pc_list, num_beams, temperature, max_new_tokens, max_length, min_length):
-    llm_message = chat.answer(conv=chat_state,
-                              pc_list=pc_list,
-                              num_beams=num_beams,
-                              temperature=temperature,
-                              max_new_tokens=max_new_tokens,
-                              min_length=min_length,
-                              max_length=max_length)[0]
-    chatbot[-1][1] = llm_message
-    last_item = len(chatbot)
-    print("chat round-" + str(last_item) + ": ", chatbot[last_item - 1])
-    return chatbot, chat_state, pc_list
-
-def upload_pc_v2(input_choice, Object_ID_input, point_cloud_input, text_input, chat_state):
-    if input_choice == 'File':
-        chat_state = CONV_VISION.copy()
-        pc_list = []
-        llm_message = chat.upload_pc_v2(chat_state, )
-        pc_fig, pc_list = chat.encoder_pc_file(point_cloud_input, pc_list)
-        return pc_fig, gr.update(interactive=False), gr.update(interactive=True,
-                                                               placeholder='Type and press Enter'), gr.update(
-            value="Start Chatting", interactive=False), chat_state, pc_list
-    elif input_choice == 'Object ID':
-        if Object_ID_input is None:
-            return None, None, gr.update(interactive=True), chat_state, None
-        chat_state = CONV_VISION.copy()
-        pc_list = []
-        llm_message = chat.upload_pc(Object_ID_input, chat_state, pc_list)
-        pc_fig, pc_list = chat.encode_pc_id(pc_list)
-        return pc_fig, gr.update(interactive=False), gr.update(interactive=True,
-                                                               placeholder='Type and press Enter'), gr.update(
-            value="Start Chatting", interactive=False), chat_state, pc_list
 
 names_list = []
 # upd_txt_file_list = []
