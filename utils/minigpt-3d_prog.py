@@ -30,14 +30,6 @@ def parse_args():
     args = parser.parse_args()
     return args
 
-def setup_seeds(config):
-    seed = config.run_cfg.seed + get_rank()
-    random.seed(seed)
-    np.random.seed(seed)
-    torch.manual_seed(seed)
-    cudnn.benchmark = False
-    cudnn.deterministic = True
-
 # ========================================
 #             Model Initialization
 # ========================================
