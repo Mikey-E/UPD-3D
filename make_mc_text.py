@@ -5,7 +5,7 @@ import random
 
 # Set up argument Parser
 parser = argparse.ArgumentParser(description="Take text_basis files and generate upd multiple-choice samples using OpenAI API.")
-parser.add_argument("pcl_list", type=str, help="File containing list of point cloud filenames to process.")
+parser.add_argument("pcl_list", type=str, help="File containing list of point cloud filenames to process. A triage file of scenes can be passed directly here.")
 parser.add_argument("--text_basis_folder", type=str, default="3D-FRONT", help="Name of the folder inside text_basis/")
 parser.add_argument("--prompt_file", type=str, default="mc_prompt.txt", help="Name of the .txt file containing the prompt.")
 
