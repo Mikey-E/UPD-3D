@@ -5,7 +5,6 @@ from minigpt4.common.config import Config
 from minigpt4.common.registry import registry
 from minigpt4.conversation.conversation import Chat, CONV_VISION_Vicuna0, CONV_VISION_LLama2, CONV_VISION, \
     StoppingCriteriaSub
-
 import os
 import json
 
@@ -52,8 +51,6 @@ chat = Chat(model, device='cuda:{}'.format(args.gpu_id), stopping_criteria=stopp
 print('Initialization Finished, you can chat with me using the below link!!!!')
 
 names_list = []
-# upd_txt_file_list = []
-# pc_ply_list = []
 upd_subset_type = None #string for writing the inference results file name
 upd_version_name = None #string for writing the inference results file name
 
@@ -102,16 +99,7 @@ def make_named_ply_files(names, dir_path):
 
 def inference(pc_path, txt_path, pcl_list_path=None):
     global names_list
-    # global upd_txt_file_list
-    # global pc_ply_list
     global upd_subset_type
-
-    #@@@ may not actually be needed.
-    # If pcl_list_path is provided, use it to constrain the evaluation
-    # allowed_names = None
-    # if pcl_list_path is not None:
-        # with open(pcl_list_path, 'r') as f:
-            # allowed_names = set([line.strip() for line in f if line.strip()])
 
     if not os.path.isdir(pc_path):
         error_message = f"Error: '{pc_path}' is not a valid folder path."
@@ -135,12 +123,6 @@ def inference(pc_path, txt_path, pcl_list_path=None):
 
     # Only process pairs where the name is in allowed_names (if provided)
     for txt_file, ply_file in zip(upd_txt_file_list, pc_ply_list):
-
-        #@@@ May not actually be needed.
-        # Extract the name from the txt_file (without extension)
-        # name = os.path.splitext(os.path.basename(txt_file))[0]
-        # if allowed_names is not None and name not in allowed_names:
-            # continue
 
         try:
             with open(txt_file, 'r') as f:
@@ -170,9 +152,6 @@ def inference(pc_path, txt_path, pcl_list_path=None):
     # Write all results to a JSON file after the loop
     try:
         json_filename = 'inference_results_MiniGPT-3D_' + upd_version_name + '_' + upd_subset_type + '.json'
-        # if pcl_list_path is not None:
-            # json_filename += '_' + os.path.basename(os.path.normpath(pcl_list_path)).replace('.txt', '')
-        # json_filename += '.json'
         with open(json_filename, 'w') as f:
             json.dump(results, f, indent=4)
     except Exception as e:
