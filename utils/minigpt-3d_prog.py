@@ -9,7 +9,7 @@ import os
 import json
 
 def parse_args():
-    parser = argparse.ArgumentParser(description="Demo")
+    parser = argparse.ArgumentParser(description="Programmatic evaluation code for MiniGPT-3D")
     parser.add_argument("--cfg-path", default="./eval_configs/MiniGPT_3D_conv_UI_demo.yaml",
                         help="path to configuration file.")
     parser.add_argument("--gpu-id", type=int, default=0, help="specify the gpu to load the model.")
@@ -28,7 +28,6 @@ conv_dict = {'pretrain_vicuna0': CONV_VISION_Vicuna0,
              'pretrain_llama2': CONV_VISION_LLama2,
              'pretrain': CONV_VISION}
 
-print('Initializing Chat')
 args = parse_args()
 cfg = Config(args)
 
@@ -44,7 +43,6 @@ stop_words_ids = [torch.tensor(ids).to(device='cuda:{}'.format(args.gpu_id)) for
 stopping_criteria = StoppingCriteriaList([StoppingCriteriaSub(stops=stop_words_ids)])
 
 chat = Chat(model, device='cuda:{}'.format(args.gpu_id), stopping_criteria=stopping_criteria)
-print('Initialization Finished, you can chat with me using the below link!!!!')
 
 class FakeUpload:
     """
