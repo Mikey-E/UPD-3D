@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# Usage: sbatch minigpt-3d_prog.slurm <folder_name>
+# Usage: sbatch minigpt-3d_prog.slurm args/flags...
 
 #SBATCH --account=3dllms
 #SBATCH --job-name=mgpt3d
@@ -20,4 +20,4 @@ fi
 conda init
 conda activate minigpt_3d
 
-python ./minigpt-3d_prog.py --folder "$1"
+python ./minigpt-3d_prog.py $1
