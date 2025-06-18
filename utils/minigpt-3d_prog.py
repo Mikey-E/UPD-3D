@@ -20,10 +20,6 @@ class FakeUpload:
         self.scene_name = scene_name
 
 def process_txt_from_path(file_path):
-    """
-    Overload of process_txt that takes a raw file path string instead of a file object.
-    For programmatic runs
-    """
     with open(file_path, 'r') as f:
         names_list = f.read().splitlines()
     upd_version_name = os.path.basename(os.path.normpath(file_path)).replace('.txt', '')
