@@ -1,3 +1,5 @@
+"""File to run MiniGPT-3D inference programmatically."""
+
 import argparse
 import torch
 from transformers import StoppingCriteriaList
@@ -90,18 +92,6 @@ def inference(pcl_list_txt_file_path, upd_text_folder_subfolder_path, unzipped_p
     except Exception as e:
         print(f"[ERROR] Failed to write results to JSON file: {e}")
 
-def programmatic_run(
-        upd_text_folder_path,
-        upd_version_name,
-        upd_version_name_subfolder,
-        unzipped_point_cloud_path,
-        pcl_list_txt_file_path):
-    upd_text_version_subfolder_path = os.path.join(
-        upd_text_folder_path,
-        upd_version_name,
-        upd_version_name_subfolder)
-    inference(pcl_list_txt_file_path, upd_text_version_subfolder_path, unzipped_point_cloud_path)
-
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="Programmatic evaluation code for MiniGPT-3D")
     parser.add_argument("--cfg-path", default="./eval_configs/MiniGPT_3D_conv_UI_demo.yaml",
@@ -143,10 +133,12 @@ if __name__ == "__main__":
 
     chat = Chat(model, device=f'cuda:{args.gpu_id}', stopping_criteria=stopping_criteria)
 
-    programmatic_run(
-        upd_text_folder_path=args.upd_text_folder_path,
-        upd_version_name=args.upd_version_name,
-        upd_version_name_subfolder=args.upd_version_name_subfolder,
-        unzipped_point_cloud_path=args.unzipped_point_cloud_path,
-        pcl_list_txt_file_path=args.pcl_list_txt_file_path
+    inference(
+        pcl_list_txt_file_path=args.pcl_list_txt_file_path,
+        upd_text_folder_subfolder_path=os.path.join(
+            args.upd_text_folder_path,
+            args.upd_version_name,
+            args.upd_version_name_subfolder
+        ),
+        unzipped_point_cloud_path=args.unzipped_point_cloud_path
     )
