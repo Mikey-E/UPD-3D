@@ -46,9 +46,6 @@ stopping_criteria = StoppingCriteriaList([StoppingCriteriaSub(stops=stop_words_i
 chat = Chat(model, device='cuda:{}'.format(args.gpu_id), stopping_criteria=stopping_criteria)
 print('Initialization Finished, you can chat with me using the below link!!!!')
 
-upd_subset_type = None #string for writing the inference results file name
-upd_version_name = None #string for writing the inference results file name
-
 class FakeUpload:
     """
     A simple container class to mimic file upload objects for point cloud inference.
@@ -88,7 +85,7 @@ def make_named_ply_files(names, dir_path):
         results.append(FakeUpload(os.path.join(dir_path, folder, scene_name, scene_name + ".ply"), folder, scene_name))
     return results
 
-def inference(pc_path, txt_path, names_list):
+def inference(pc_path, txt_path, names_list, upd_version_name):
     if not os.path.isdir(pc_path):
         error_message = f"Error: '{pc_path}' is not a valid folder path."
         print(error_message)
@@ -150,7 +147,7 @@ def programmatic_run(folder):
     point_cloud_path = "/gscratch/melgin/3d-grand_unzipped/3D-FRONT"
     pcl_list_path = "/project/3dllms/melgin/UPD-3D/pcl_lists/3D-FRONT_test.txt"
     names_list, upd_version_name = process_txt_from_path(pcl_list_path)
-    inference(point_cloud_path, upd_text_path)
+    inference(point_cloud_path, upd_text_path, names_list, upd_version_name)
 
 if __name__ == "__main__":
     folder = args.folder
