@@ -33,7 +33,7 @@ def make_named_ply_files(names, dir_path):
         results.append(FakeUpload(os.path.join(dir_path, folder, scene_name, scene_name + ".ply"), folder, scene_name))
     return results
 
-def inference(pcl_list_txt_file_path, upd_text_folder_subfolder_path, unzipped_point_cloud_path):
+def inference(pcl_list_txt_file_path, updtext_versionfolder_subfolder_path, unzipped_point_cloud_path):
     with open(pcl_list_txt_file_path, 'r') as f:
         indentifier_at_scene_list = f.read().splitlines()
     pcl_list_txt_filename_noext = os.path.basename(os.path.normpath(pcl_list_txt_file_path)).replace('.txt', '')
@@ -42,13 +42,13 @@ def inference(pcl_list_txt_file_path, upd_text_folder_subfolder_path, unzipped_p
         error_message = f"Error: '{unzipped_point_cloud_path}' is not a valid folder path."
         print(error_message)
         return error_message
-    if not os.path.isdir(upd_text_folder_subfolder_path):
-        error_message = f"Error: '{upd_text_folder_subfolder_path}' is not a valid folder path."
+    if not os.path.isdir(updtext_versionfolder_subfolder_path):
+        error_message = f"Error: '{updtext_versionfolder_subfolder_path}' is not a valid folder path."
         print(error_message)
         return error_message
     pc_ply_list = make_named_ply_files(indentifier_at_scene_list, unzipped_point_cloud_path)
-    upd_txt_file_list = make_named_upd_txt_files(indentifier_at_scene_list, upd_text_folder_subfolder_path)
-    upd_subset_type = os.path.basename(os.path.normpath(upd_text_folder_subfolder_path))
+    upd_txt_file_list = make_named_upd_txt_files(indentifier_at_scene_list, updtext_versionfolder_subfolder_path)
+    upd_subset_type = os.path.basename(os.path.normpath(updtext_versionfolder_subfolder_path))
 
     if not upd_txt_file_list or not pc_ply_list:
         print("[ERROR] upd_txt_file_list or pc_ply_list is empty. Please process the input files first.")
@@ -107,13 +107,13 @@ if __name__ == "__main__":
     #Check that the passed paths are valid
     if not os.path.isdir(args.upd_text_folder_path):
         raise ValueError(f"Error: '{args.upd_text_folder_path}' is not a valid folder path.")
-    upd_text_folder_subfolder_path=os.path.join(
+    updtext_versionfolder_subfolder_path=os.path.join(
         args.upd_text_folder_path,
         args.upd_version_name,
         args.upd_version_name_subfolder
     ),
-    if not os.path.isdir(upd_text_folder_subfolder_path):
-        raise ValueError(f"Error: '{upd_text_folder_subfolder_path}' is not a valid folder path.")
+    if not os.path.isdir(updtext_versionfolder_subfolder_path):
+        raise ValueError(f"Error: '{updtext_versionfolder_subfolder_path}' is not a valid folder path.")
     if not os.path.isdir(args.unzipped_point_cloud_path):
         raise ValueError(f"Error: '{args.unzipped_point_cloud_path}' is not a valid folder path.")
     if not os.path.isfile(args.pcl_list_txt_file_path):
@@ -140,6 +140,6 @@ if __name__ == "__main__":
 
     inference(
         pcl_list_txt_file_path=args.pcl_list_txt_file_path,
-        upd_text_folder_subfolder_path=upd_text_folder_subfolder_path,
+        updtext_versionfolder_subfolder_path=updtext_versionfolder_subfolder_path,
         unzipped_point_cloud_path=args.unzipped_point_cloud_path
     )
