@@ -8,42 +8,6 @@ from minigpt4.conversation.conversation import Chat, CONV_VISION_Vicuna0, CONV_V
 import os
 import json
 
-def parse_args():
-    parser = argparse.ArgumentParser(description="Programmatic evaluation code for MiniGPT-3D")
-    parser.add_argument("--cfg-path", default="./eval_configs/MiniGPT_3D_conv_UI_demo.yaml",
-                        help="path to configuration file.")
-    parser.add_argument("--gpu-id", type=int, default=0, help="specify the gpu to load the model.")
-    parser.add_argument(
-        "--options",
-        nargs="+",
-        help="override some settings in the used config, the key-value pair "
-             "in xxx=yyy format will be merged into config file (deprecate), "
-             "change to --cfg-options instead.",
-    )
-    parser.add_argument("--folder", type=str, required=True, help="Folder name to run inference on")
-    args = parser.parse_args()
-    return args
-
-conv_dict = {'pretrain_vicuna0': CONV_VISION_Vicuna0,
-             'pretrain_llama2': CONV_VISION_LLama2,
-             'pretrain': CONV_VISION}
-
-args = parse_args()
-cfg = Config(args)
-
-model_config = cfg.model_cfg
-model_config.device_8bit = args.gpu_id
-model_cls = registry.get_model_class(model_config.arch)
-model = model_cls.from_config(model_config).to('cuda:{}'.format(args.gpu_id))
-
-CONV_VISION = conv_dict[model_config.model_type]
-
-stop_words_ids = [[835], [2277, 29937]]
-stop_words_ids = [torch.tensor(ids).to(device='cuda:{}'.format(args.gpu_id)) for ids in stop_words_ids]
-stopping_criteria = StoppingCriteriaList([StoppingCriteriaSub(stops=stop_words_ids)])
-
-chat = Chat(model, device='cuda:{}'.format(args.gpu_id), stopping_criteria=stopping_criteria)
-
 class FakeUpload:
     """
     A simple container class to mimic file upload objects for point cloud inference.
@@ -148,6 +112,40 @@ def programmatic_run(folder):
     inference(point_cloud_path, upd_text_path, names_list, upd_version_name)
 
 if __name__ == "__main__":
+    parser = argparse.ArgumentParser(description="Programmatic evaluation code for MiniGPT-3D")
+    parser.add_argument("--cfg-path", default="./eval_configs/MiniGPT_3D_conv_UI_demo.yaml",
+                        help="path to configuration file.")
+    parser.add_argument("--gpu-id", type=int, default=0, help="specify the gpu to load the model.")
+    parser.add_argument(
+        "--options",
+        nargs="+",
+        help="override some settings in the used config, the key-value pair "
+             "in xxx=yyy format will be merged into config file (deprecate), "
+             "change to --cfg-options instead.",
+    )
+    parser.add_argument("--folder", type=str, required=True, help="Folder name to run inference on")
+    args = parser.parse_args()
+
+    conv_dict = {'pretrain_vicuna0': CONV_VISION_Vicuna0,
+                'pretrain_llama2': CONV_VISION_LLama2,
+                'pretrain': CONV_VISION}
+
+    cfg = Config(args)
+
+    model_config = cfg.model_cfg
+    model_config.device_8bit = args.gpu_id
+    model_cls = registry.get_model_class(model_config.arch)
+    model = model_cls.from_config(model_config).to('cuda:{}'.format(args.gpu_id))
+
+    CONV_VISION = conv_dict[model_config.model_type]
+
+    stop_words_ids = [[835], [2277, 29937]]
+    stop_words_ids = [torch.tensor(ids).to(device='cuda:{}'.format(args.gpu_id)) for ids in stop_words_ids]
+    stopping_criteria = StoppingCriteriaList([StoppingCriteriaSub(stops=stop_words_ids)])
+
+    chat = Chat(model, device='cuda:{}'.format(args.gpu_id), stopping_criteria=stopping_criteria)
+
+
     folder = args.folder
     print(f"Running inference for folder: {folder}")
     programmatic_run(folder)
