@@ -1,8 +1,8 @@
-# This file will take a .json file of inference results, and count the number of empty responses.
+# This file will take a .json file or a folder of .json files of inference results, and count the number of empty responses.
 # Usage:
-# python count_empty_responses.py path/to/your/file.json
-# This script will read the JSON file, count the number of items with empty 'response' fields, and print the count.
-# Make sure to replace 'path/to/your/file.json' with the actual path to your JSON file.
+# python count_empty_responses.py path/to/your/file_or_folder.json
+# This script will read the JSON file(s), count the number of items with empty 'response' fields, and print the count.
+# Make sure to replace 'path/to/your/file_or_folder.json' with the actual path to your JSON file or folder.
 
 # Example JSON structure:
 """
@@ -21,24 +21,40 @@
 
 import json
 import argparse
+import os
+import glob
 
 def count_empty_responses(file_path):
-    """Count the number of empty responses in a JSON file."""
+    """Count the number of empty responses and total responses in a JSON file."""
     try:
         with open(file_path, 'r') as file:
             data = json.load(file)
+        total_count = len(data)
         empty_count = sum(1 for item in data.values() if not item.get('response', '').strip())
-        return empty_count
+        return empty_count, total_count
     except FileNotFoundError:
         print(f"Error: The file '{file_path}' was not found.")
-        return 0
+        return 0, 0
     except json.JSONDecodeError:
         print(f"Error: The file '{file_path}' is not a valid JSON file.")
-        return 0
+        return 0, 0
 
 if __name__ == "__main__":
-    parser = argparse.ArgumentParser(description="Count empty responses in a JSON file.")
-    parser.add_argument('file_path', type=str, help='Path to the JSON file containing inference results.')
+    parser = argparse.ArgumentParser(
+        description="Count empty responses in a JSON file or folder containing JSON files."
+    )
+    parser.add_argument(
+        'path', type=str,
+        help='Path to the JSON file or folder containing inference result JSON files.'
+    )
     args = parser.parse_args()
-    empty_count = count_empty_responses(args.file_path)
-    print(f"Number of empty responses: {empty_count}")
+
+    if os.path.isdir(args.path):
+        for json_file in glob.glob(os.path.join(args.path, "*.json")):
+            empty_count, total_count = count_empty_responses(json_file)
+            percent = (empty_count / total_count * 100) if total_count else 0
+            print(f"{json_file}: {empty_count}/{total_count} empty responses ({percent:.2f}%)")
+    else:
+        empty_count, total_count = count_empty_responses(args.path)
+        percent = (empty_count / total_count * 100) if total_count else 0
+        print(f"Number of empty responses: {empty_count}/{total_count} ({percent:.2f}%)")
