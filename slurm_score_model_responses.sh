@@ -1,5 +1,6 @@
 #!/bin/bash
 #This script is for making a job submission for scoring model responses
+#Example use: sbatch slurm_score_model_responses.sh args/flags...
 
 #SBATCH --account=3dllms
 #SBATCH --time=23:00:00

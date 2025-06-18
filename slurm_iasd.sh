@@ -1,5 +1,6 @@
 #!/bin/bash
 #This script is for making a job submission for the iasd question generating file
+#Example use: sbatch slurm_iasd.sh args/flags...
 
 #SBATCH --account=3dllms
 #SBATCH --time=23:00:00
