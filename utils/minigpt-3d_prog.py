@@ -38,14 +38,6 @@ def inference(pcl_list_txt_file_path, updtext_versionfolder_subfolder_path, unzi
         indentifier_at_scene_list = f.read().splitlines()
     pcl_list_txt_filename_noext = os.path.basename(os.path.normpath(pcl_list_txt_file_path)).replace('.txt', '')
 
-    if not os.path.isdir(unzipped_point_cloud_path):
-        error_message = f"Error: '{unzipped_point_cloud_path}' is not a valid folder path."
-        print(error_message)
-        return error_message
-    if not os.path.isdir(updtext_versionfolder_subfolder_path):
-        error_message = f"Error: '{updtext_versionfolder_subfolder_path}' is not a valid folder path."
-        print(error_message)
-        return error_message
     pc_ply_list = make_named_ply_files(indentifier_at_scene_list, unzipped_point_cloud_path)
     upd_txt_file_list = make_named_upd_txt_files(indentifier_at_scene_list, updtext_versionfolder_subfolder_path)
     upd_subset_type = os.path.basename(os.path.normpath(updtext_versionfolder_subfolder_path))
