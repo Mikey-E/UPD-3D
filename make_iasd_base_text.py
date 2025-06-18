@@ -2,6 +2,9 @@ import argparse
 import os
 import openai
 
+if not os.environ.get("OPENAI_API_KEY"):
+    raise RuntimeError("Error: OPENAI_API_KEY environment variable is not set.")
+
 # Set up argument Parser
 parser = argparse.ArgumentParser(description="Take standard_answer files and generate iasd base text using OpenAI API.")
 parser.add_argument("upd_version_folder", type=str, help="Folder containing upd standard_answer subfolder.")

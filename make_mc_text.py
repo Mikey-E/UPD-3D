@@ -3,6 +3,9 @@ import os
 import openai
 import random
 
+if not os.environ.get("OPENAI_API_KEY"):
+    raise RuntimeError("Error: OPENAI_API_KEY environment variable is not set.")
+
 # Set up argument Parser
 parser = argparse.ArgumentParser(description="Take text_basis files and generate upd multiple-choice samples using OpenAI API.")
 parser.add_argument("pcl_list", type=str, help="File containing list of point cloud filenames to process. A triage file of scenes can be passed directly here.")

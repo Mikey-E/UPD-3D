@@ -7,6 +7,9 @@ import json
 import openai
 import os
 
+if not os.environ.get("OPENAI_API_KEY"):
+    raise RuntimeError("Error: OPENAI_API_KEY environment variable is not set.")
+
 def main():
     parser = argparse.ArgumentParser(description="Score model responses using an existing-llm API.")
     parser.add_argument("json_file", type=str, help="Path to the JSON file containing model responses.")
