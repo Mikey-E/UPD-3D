@@ -107,8 +107,13 @@ if __name__ == "__main__":
     #Check that the passed paths are valid
     if not os.path.isdir(args.upd_text_folder_path):
         raise ValueError(f"Error: '{args.upd_text_folder_path}' is not a valid folder path.")
-    if not os.path.isdir(os.path.join(args.upd_text_folder_path, args.upd_version_name, args.upd_version_name_subfolder)):
-        raise ValueError(f"Error: '{os.path.join(args.upd_text_folder_path, args.upd_version_name, args.upd_version_name_subfolder)}' is not a valid folder path.")
+    upd_text_folder_subfolder_path=os.path.join(
+        args.upd_text_folder_path,
+        args.upd_version_name,
+        args.upd_version_name_subfolder
+    ),
+    if not os.path.isdir(upd_text_folder_subfolder_path):
+        raise ValueError(f"Error: '{upd_text_folder_subfolder_path}' is not a valid folder path.")
     if not os.path.isdir(args.unzipped_point_cloud_path):
         raise ValueError(f"Error: '{args.unzipped_point_cloud_path}' is not a valid folder path.")
     if not os.path.isfile(args.pcl_list_txt_file_path):
@@ -135,10 +140,6 @@ if __name__ == "__main__":
 
     inference(
         pcl_list_txt_file_path=args.pcl_list_txt_file_path,
-        upd_text_folder_subfolder_path=os.path.join(
-            args.upd_text_folder_path,
-            args.upd_version_name,
-            args.upd_version_name_subfolder
-        ),
+        upd_text_folder_subfolder_path=upd_text_folder_subfolder_path,
         unzipped_point_cloud_path=args.unzipped_point_cloud_path
     )
