@@ -19,12 +19,6 @@ class FakeUpload:
         self.hex = hex
         self.scene_name = scene_name
 
-def process_txt(file):
-    with open(file.name, 'r') as f:
-        names_list = f.read().splitlines()
-    upd_version_name = os.path.basename(os.path.normpath(file.name)).replace('.txt', '')
-    return names_list, upd_version_name
-
 def process_txt_from_path(file_path):
     """
     Overload of process_txt that takes a raw file path string instead of a file object.
