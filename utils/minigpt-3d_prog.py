@@ -21,40 +21,45 @@ class FakeUpload:
         self.hex = hex
         self.scene_name = scene_name
 
-def make_named_upd_txt_files(names, dir_path):
-    return [os.path.join(dir_path, name + ".txt") for name in names]
+def make_named_upd_txt_files(identifier_at_scene_list, updtext_versionfolder_subfolder_path):
+    """
+    Returns a list of file paths for upd text samples based on the provided subfolder and scenes.
+    """
+    return [os.path.join(updtext_versionfolder_subfolder_path, name + ".txt") for name in identifier_at_scene_list]
 
-def make_named_ply_files(identifier_at_scene_list, dir_path):
+def make_named_ply_files(identifier_at_scene_list, unzipped_point_cloud_path):
+    """
+    Returns a list of FakeUpload objects, each representing a point cloud file.
+    """
     results = []
     for identifier_at_scene in identifier_at_scene_list:
         identifier, scene = identifier_at_scene.split('@')
-        results.append(FakeUpload(os.path.join(dir_path, identifier, scene, scene + ".ply"), identifier, scene))
+        results.append(FakeUpload(os.path.join(unzipped_point_cloud_path, identifier, scene, scene + ".ply"), identifier, scene))
     return results
 
-def inference(pcl_list_txt_file_path, updtext_versionfolder_subfolder_path, unzipped_point_cloud_path):
+def inference(
+        pcl_list_txt_file_path,
+        updtext_versionfolder_subfolder_path,
+        unzipped_point_cloud_path,
+        upd_subset_name,
+        conv_vision,
+        chat
+    ):
     with open(pcl_list_txt_file_path, 'r') as f:
         indentifier_at_scene_list = f.read().splitlines()
     pcl_list_txt_filename_noext = os.path.basename(os.path.normpath(pcl_list_txt_file_path)).replace('.txt', '')
 
     pc_ply_list = make_named_ply_files(indentifier_at_scene_list, unzipped_point_cloud_path)
     upd_txt_file_list = make_named_upd_txt_files(indentifier_at_scene_list, updtext_versionfolder_subfolder_path)
-    upd_subset_type = os.path.basename(os.path.normpath(updtext_versionfolder_subfolder_path))
-
-    if not upd_txt_file_list or not pc_ply_list:
-        print("[ERROR] upd_txt_file_list or pc_ply_list is empty. Please process the input files first.")
-        return
 
     results = {}  # List to store all results
-
-    # Only process pairs where the name is in allowed_names (if provided)
-    for txt_file, ply_file in zip(upd_txt_file_list, pc_ply_list):
-
+    for ply_file, txt_file  in zip(pc_ply_list, upd_txt_file_list):
         try:
             with open(txt_file, 'r') as f:
                 prompt = f.read().strip()
 
             # Clear chat_state and add only the prompt
-            chat_state = CONV_VISION.copy()
+            chat_state = conv_vision.copy()
 
             # Perform inference using the model
             pc_list = []
@@ -68,7 +73,6 @@ def inference(pcl_list_txt_file_path, updtext_versionfolder_subfolder_path, unzi
                                       max_new_tokens=60,
                                       min_length=1,
                                       max_length=400)[0]
-
             results.update({ply_file.hex + '@' + ply_file.scene_name.split(".")[0]: {"prompt": prompt, "response": llm_message}})
 
         except Exception as e:
@@ -76,7 +80,7 @@ def inference(pcl_list_txt_file_path, updtext_versionfolder_subfolder_path, unzi
 
     # Write all results to a JSON file after the loop
     try:
-        json_filename = 'inference_results_MiniGPT-3D_' + pcl_list_txt_filename_noext + '_' + upd_subset_type + '.json'
+        json_filename = 'inference_results_MiniGPT-3D_' + pcl_list_txt_filename_noext + '_' + upd_subset_name + '.json'
         with open(json_filename, 'w') as f:
             json.dump(results, f, indent=4)
     except Exception as e:
@@ -131,5 +135,8 @@ if __name__ == "__main__":
     inference(
         pcl_list_txt_file_path=args.pcl_list_txt_file_path,
         updtext_versionfolder_subfolder_path=updtext_versionfolder_subfolder_path,
-        unzipped_point_cloud_path=args.unzipped_point_cloud_path
+        unzipped_point_cloud_path=args.unzipped_point_cloud_path,
+        upd_subset_name=args.upd_version_name_subfolder,
+        conv_vision=CONV_VISION,
+        chat=chat
     )
