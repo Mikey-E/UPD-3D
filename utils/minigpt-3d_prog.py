@@ -24,13 +24,11 @@ class FakeUpload:
 def make_named_upd_txt_files(names, dir_path):
     return [os.path.join(dir_path, name + ".txt") for name in names]
 
-def make_named_ply_files(names, dir_path):
+def make_named_ply_files(identifier_at_scene_list, dir_path):
     results = []
-    for name in names:
-        folder_name = name.split('@')
-        folder = folder_name[0]
-        scene_name = folder_name[1]
-        results.append(FakeUpload(os.path.join(dir_path, folder, scene_name, scene_name + ".ply"), folder, scene_name))
+    for identifier_at_scene in identifier_at_scene_list:
+        identifier, scene = identifier_at_scene.split('@')
+        results.append(FakeUpload(os.path.join(dir_path, identifier, scene, scene + ".ply"), identifier, scene))
     return results
 
 def inference(pcl_list_txt_file_path, updtext_versionfolder_subfolder_path, unzipped_point_cloud_path):
