@@ -5,8 +5,8 @@
 #SBATCH --account=3dllms
 #SBATCH --job-name=mgpt3d
 #SBATCH --partition=mb-l40s
-#SBATCH --output=mgpt3d_%j.out
-#SBATCH --error=mgpt3d_%j.err
+#SBATCH --output=minigpt3d_%j.log
+#SBATCH --error=minigpt3d_%j.log
 #SBATCH --gres=gpu:1
 #SBATCH --mem=16G
 #SBATCH --time=01-23:59:59
