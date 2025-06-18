@@ -46,11 +46,11 @@ def inference(
         chat
     ):
     with open(pcl_list_txt_file_path, 'r') as f:
-        indentifier_at_scene_list = f.read().splitlines()
+        identifier_at_scene_list = f.read().splitlines()
     pcl_list_txt_filename_noext = os.path.basename(os.path.normpath(pcl_list_txt_file_path)).replace('.txt', '')
 
-    pc_ply_list = make_named_ply_files(indentifier_at_scene_list, unzipped_point_cloud_path)
-    upd_txt_file_list = make_named_upd_txt_files(indentifier_at_scene_list, updtext_versionfolder_subfolder_path)
+    pc_ply_list = make_named_ply_files(identifier_at_scene_list, unzipped_point_cloud_path)
+    upd_txt_file_list = make_named_upd_txt_files(identifier_at_scene_list, updtext_versionfolder_subfolder_path)
 
     results = {}  # List to store all results
     for ply_file, txt_file  in zip(pc_ply_list, upd_txt_file_list):
@@ -86,32 +86,36 @@ def inference(
     except Exception as e:
         print(f"[ERROR] Failed to write results to JSON file: {e}")
 
+def existing_dir(path):
+    if not os.path.isdir(path):
+        raise argparse.ArgumentTypeError(f"readable_dir: '{path}' is not a valid directory")
+    return path
+
+def existing_file(path):
+    if not os.path.isfile(path):
+        raise argparse.ArgumentTypeError(f"readable_file: '{path}' is not a valid file")
+    return path
+
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="Programmatic evaluation code for MiniGPT-3D")
     parser.add_argument("--cfg-path", default="./eval_configs/MiniGPT_3D_conv_UI_demo.yaml",
                         help="path to configuration file.")
     parser.add_argument("--gpu-id", type=int, default=0, help="specify the gpu to load the model.")
-    parser.add_argument("--upd_text_folder_path", type=str, required=True, help="Path to the upd_text/ folder.")
+    parser.add_argument("--upd_text_folder_path", type=existing_dir, required=True, help="Path to the upd_text/ folder.")
     parser.add_argument("--upd_version_name", type=str, required=False, help="Name of the upd version (e.g., 'v1').", default="3D-FRONT")
     parser.add_argument("--upd_version_name_subfolder", type=str, required=True, help="Subfolder name for the upd version (e.g., 'standard').")
-    parser.add_argument("--unzipped_point_cloud_path", type=str, required=True, help="Path to the unzipped point cloud folder containing dirs identifier/scene/scene.ply")
-    parser.add_argument("--pcl_list_txt_file_path", type=str, required=True, help="Path to the text file containing point cloud identifiers and scene names.")
+    parser.add_argument("--unzipped_point_cloud_path", type=existing_dir, required=True, help="Path to the unzipped point cloud folder containing dirs identifier/scene/scene.ply")
+    parser.add_argument("--pcl_list_txt_file_path", type=existing_file, required=True, help="Path to the text file containing point cloud identifiers and scene names.")
     args = parser.parse_args()
 
     #Check that the passed paths are valid
-    if not os.path.isdir(args.upd_text_folder_path):
-        raise ValueError(f"Error: '{args.upd_text_folder_path}' is not a valid folder path.")
     updtext_versionfolder_subfolder_path=os.path.join(
         args.upd_text_folder_path,
         args.upd_version_name,
         args.upd_version_name_subfolder
-    ),
+    )
     if not os.path.isdir(updtext_versionfolder_subfolder_path):
         raise ValueError(f"Error: '{updtext_versionfolder_subfolder_path}' is not a valid folder path.")
-    if not os.path.isdir(args.unzipped_point_cloud_path):
-        raise ValueError(f"Error: '{args.unzipped_point_cloud_path}' is not a valid folder path.")
-    if not os.path.isfile(args.pcl_list_txt_file_path):
-        raise ValueError(f"Error: '{args.pcl_list_txt_file_path}' is not a valid file path.")
 
     conv_dict = {'pretrain_vicuna0': CONV_VISION_Vicuna0,
                 'pretrain_llama2': CONV_VISION_LLama2,
