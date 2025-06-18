@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# Usage: sbatch minigpt-3d_prog.slurm args/flags...
+# Usage: sbatch slurm_minigpt-3d_prog.sh args/flags...
 
 #SBATCH --account=3dllms
 #SBATCH --job-name=mgpt3d
