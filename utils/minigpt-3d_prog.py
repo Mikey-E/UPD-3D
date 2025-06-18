@@ -31,22 +31,22 @@ def make_named_ply_files(names, dir_path):
         results.append(FakeUpload(os.path.join(dir_path, folder, scene_name, scene_name + ".ply"), folder, scene_name))
     return results
 
-def inference(pc_path, txt_path, pcl_list_txt_file_path):
+def inference(unzipped_point_cloud_path, upd_text_folder_subfolder_path, pcl_list_txt_file_path):
     with open(pcl_list_txt_file_path, 'r') as f:
         indentifier_at_scene_list = f.read().splitlines()
     pcl_list_txt_filename_noext = os.path.basename(os.path.normpath(pcl_list_txt_file_path)).replace('.txt', '')
 
-    if not os.path.isdir(pc_path):
-        error_message = f"Error: '{pc_path}' is not a valid folder path."
+    if not os.path.isdir(unzipped_point_cloud_path):
+        error_message = f"Error: '{unzipped_point_cloud_path}' is not a valid folder path."
         print(error_message)
         return error_message
-    if not os.path.isdir(txt_path):
-        error_message = f"Error: '{txt_path}' is not a valid folder path."
+    if not os.path.isdir(upd_text_folder_subfolder_path):
+        error_message = f"Error: '{upd_text_folder_subfolder_path}' is not a valid folder path."
         print(error_message)
         return error_message
-    pc_ply_list = make_named_ply_files(indentifier_at_scene_list, pc_path)
-    upd_txt_file_list = make_named_upd_txt_files(indentifier_at_scene_list, txt_path)
-    upd_subset_type = os.path.basename(os.path.normpath(txt_path))
+    pc_ply_list = make_named_ply_files(indentifier_at_scene_list, unzipped_point_cloud_path)
+    upd_txt_file_list = make_named_upd_txt_files(indentifier_at_scene_list, upd_text_folder_subfolder_path)
+    upd_subset_type = os.path.basename(os.path.normpath(upd_text_folder_subfolder_path))
 
     if not upd_txt_file_list or not pc_ply_list:
         print("[ERROR] upd_txt_file_list or pc_ply_list is empty. Please process the input files first.")
@@ -131,7 +131,6 @@ if __name__ == "__main__":
     stopping_criteria = StoppingCriteriaList([StoppingCriteriaSub(stops=stop_words_ids)])
 
     chat = Chat(model, device='cuda:{}'.format(args.gpu_id), stopping_criteria=stopping_criteria)
-
 
     folder = args.folder
     print(f"Running inference for folder: {folder}")
