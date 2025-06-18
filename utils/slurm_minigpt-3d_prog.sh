@@ -15,4 +15,4 @@
 conda init
 conda activate minigpt_3d
 
-python ./minigpt-3d_prog.py $1
+python ./minigpt-3d_prog.py "$@"
