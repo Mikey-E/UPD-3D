@@ -31,7 +31,7 @@ def make_named_ply_files(names, dir_path):
         results.append(FakeUpload(os.path.join(dir_path, folder, scene_name, scene_name + ".ply"), folder, scene_name))
     return results
 
-def inference(unzipped_point_cloud_path, upd_text_folder_subfolder_path, pcl_list_txt_file_path):
+def inference(pcl_list_txt_file_path, upd_text_folder_subfolder_path, unzipped_point_cloud_path):
     with open(pcl_list_txt_file_path, 'r') as f:
         indentifier_at_scene_list = f.read().splitlines()
     pcl_list_txt_filename_noext = os.path.basename(os.path.normpath(pcl_list_txt_file_path)).replace('.txt', '')
@@ -90,13 +90,17 @@ def inference(unzipped_point_cloud_path, upd_text_folder_subfolder_path, pcl_lis
     except Exception as e:
         print(f"[ERROR] Failed to write results to JSON file: {e}")
 
-def programmatic_run(folder):
-    print("running programmatic inference...")
-    upd_text_folder_subfolder_path = os.path.join("/project/3dllms/melgin/UPD-3D/upd_text/3D-FRONT/", folder)
-    # unzipped_point_cloud_path = "/cluster/medbow/home/melgin/tmp_candelete/3D-Front_test"
-    unzipped_point_cloud_path = "/gscratch/melgin/3d-grand_unzipped/3D-FRONT"
-    pcl_list_txt_file_path = "/project/3dllms/melgin/UPD-3D/pcl_lists/3D-FRONT_test.txt"
-    inference(unzipped_point_cloud_path, upd_text_folder_subfolder_path, pcl_list_txt_file_path)
+def programmatic_run(
+        upd_text_folder_path,
+        upd_version_name,
+        upd_version_name_subfolder,
+        unzipped_point_cloud_path,
+        pcl_list_txt_file_path):
+    upd_text_version_subfolder_path = os.path.join(
+        upd_text_folder_path,
+        upd_version_name,
+        upd_version_name_subfolder)
+    inference(pcl_list_txt_file_path, upd_text_version_subfolder_path, unzipped_point_cloud_path)
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="Programmatic evaluation code for MiniGPT-3D")
