@@ -107,8 +107,22 @@ if __name__ == "__main__":
     parser.add_argument("--cfg-path", default="./eval_configs/MiniGPT_3D_conv_UI_demo.yaml",
                         help="path to configuration file.")
     parser.add_argument("--gpu-id", type=int, default=0, help="specify the gpu to load the model.")
-    parser.add_argument("--folder", type=str, required=True, help="Folder name to run inference on")
+    parser.add_argument("--upd_text_folder_path", type=str, required=True, help="Path to the upd_text/ folder.")
+    parser.add_argument("--upd_version_name", type=str, required=False, help="Name of the upd version (e.g., 'v1').", default="3D-FRONT")
+    parser.add_argument("--upd_version_name_subfolder", type=str, required=True, help="Subfolder name for the upd version (e.g., 'standard').")
+    parser.add_argument("--unzipped_point_cloud_path", type=str, required=True, help="Path to the unzipped point cloud folder containing dirs identifier/scene/scene.ply")
+    parser.add_argument("--pcl_list_txt_file_path", type=str, required=True, help="Path to the text file containing point cloud identifiers and scene names.")
     args = parser.parse_args()
+
+    #Check that the passed paths are valid
+    if not os.path.isdir(args.upd_text_folder_path):
+        raise ValueError(f"Error: '{args.upd_text_folder_path}' is not a valid folder path.")
+    if not os.path.isdir(os.path.join(args.upd_text_folder_path, args.upd_version_name, args.upd_version_name_subfolder)):
+        raise ValueError(f"Error: '{os.path.join(args.upd_text_folder_path, args.upd_version_name, args.upd_version_name_subfolder)}' is not a valid folder path.")
+    if not os.path.isdir(args.unzipped_point_cloud_path):
+        raise ValueError(f"Error: '{args.unzipped_point_cloud_path}' is not a valid folder path.")
+    if not os.path.isfile(args.pcl_list_txt_file_path):
+        raise ValueError(f"Error: '{args.pcl_list_txt_file_path}' is not a valid file path.")
 
     conv_dict = {'pretrain_vicuna0': CONV_VISION_Vicuna0,
                 'pretrain_llama2': CONV_VISION_LLama2,
@@ -131,4 +145,10 @@ if __name__ == "__main__":
 
     folder = args.folder
     print(f"Running inference for folder: {folder}")
-    programmatic_run(folder)
+    programmatic_run(
+        upd_text_folder_path=args.upd_text_folder_path,
+        upd_version_name=args.upd_version_name,
+        upd_version_name_subfolder=args.upd_version_name_subfolder,
+        unzipped_point_cloud_path=args.unzipped_point_cloud_path,
+        pcl_list_txt_file_path=args.pcl_list_txt_file_path
+    )
