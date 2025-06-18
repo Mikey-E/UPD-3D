@@ -21,9 +21,9 @@ class FakeUpload:
 
 def process_txt_from_path(file_path):
     with open(file_path, 'r') as f:
-        names_list = f.read().splitlines()
-    upd_version_name = os.path.basename(os.path.normpath(file_path)).replace('.txt', '')
-    return names_list, upd_version_name
+        indentifier_at_scene_list = f.read().splitlines()
+    pcl_list_txt_filename_noext = os.path.basename(os.path.normpath(file_path)).replace('.txt', '')
+    return indentifier_at_scene_list, pcl_list_txt_filename_noext
 
 def make_named_upd_txt_files(names, dir_path):
     return [os.path.join(dir_path, name + ".txt") for name in names]
@@ -37,7 +37,7 @@ def make_named_ply_files(names, dir_path):
         results.append(FakeUpload(os.path.join(dir_path, folder, scene_name, scene_name + ".ply"), folder, scene_name))
     return results
 
-def inference(pc_path, txt_path, names_list, upd_version_name):
+def inference(pc_path, txt_path, indentifier_at_scene_list, pcl_list_txt_filename_noext):
     if not os.path.isdir(pc_path):
         error_message = f"Error: '{pc_path}' is not a valid folder path."
         print(error_message)
@@ -46,8 +46,8 @@ def inference(pc_path, txt_path, names_list, upd_version_name):
         error_message = f"Error: '{txt_path}' is not a valid folder path."
         print(error_message)
         return error_message
-    pc_ply_list = make_named_ply_files(names_list, pc_path)
-    upd_txt_file_list = make_named_upd_txt_files(names_list, txt_path)
+    pc_ply_list = make_named_ply_files(indentifier_at_scene_list, pc_path)
+    upd_txt_file_list = make_named_upd_txt_files(indentifier_at_scene_list, txt_path)
     upd_subset_type = os.path.basename(os.path.normpath(txt_path))
 
     if not upd_txt_file_list or not pc_ply_list:
@@ -86,7 +86,7 @@ def inference(pc_path, txt_path, names_list, upd_version_name):
 
     # Write all results to a JSON file after the loop
     try:
-        json_filename = 'inference_results_MiniGPT-3D_' + upd_version_name + '_' + upd_subset_type + '.json'
+        json_filename = 'inference_results_MiniGPT-3D_' + pcl_list_txt_filename_noext + '_' + upd_subset_type + '.json'
         with open(json_filename, 'w') as f:
             json.dump(results, f, indent=4)
     except Exception as e:
@@ -94,12 +94,12 @@ def inference(pc_path, txt_path, names_list, upd_version_name):
 
 def programmatic_run(folder):
     print("running programmatic inference...")
-    upd_text_path = os.path.join("/project/3dllms/melgin/UPD-3D/upd_text/3D-FRONT/", folder)
-    # point_cloud_path = "/cluster/medbow/home/melgin/tmp_candelete/3D-Front_test"
-    point_cloud_path = "/gscratch/melgin/3d-grand_unzipped/3D-FRONT"
-    pcl_list_path = "/project/3dllms/melgin/UPD-3D/pcl_lists/3D-FRONT_test.txt"
-    names_list, upd_version_name = process_txt_from_path(pcl_list_path)
-    inference(point_cloud_path, upd_text_path, names_list, upd_version_name)
+    upd_text_folder_subfolder_path = os.path.join("/project/3dllms/melgin/UPD-3D/upd_text/3D-FRONT/", folder)
+    # unzipped_point_cloud_path = "/cluster/medbow/home/melgin/tmp_candelete/3D-Front_test"
+    unzipped_point_cloud_path = "/gscratch/melgin/3d-grand_unzipped/3D-FRONT"
+    pcl_list_txt_file_path = "/project/3dllms/melgin/UPD-3D/pcl_lists/3D-FRONT_test.txt"
+    indentifier_at_scene_list, pcl_list_txt_filename_noext = process_txt_from_path(pcl_list_txt_file_path)
+    inference(unzipped_point_cloud_path, upd_text_folder_subfolder_path, indentifier_at_scene_list, pcl_list_txt_filename_noext)
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="Programmatic evaluation code for MiniGPT-3D")
