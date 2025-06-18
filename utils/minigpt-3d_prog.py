@@ -133,18 +133,16 @@ if __name__ == "__main__":
     model_config = cfg.model_cfg
     model_config.device_8bit = args.gpu_id
     model_cls = registry.get_model_class(model_config.arch)
-    model = model_cls.from_config(model_config).to('cuda:{}'.format(args.gpu_id))
+    model = model_cls.from_config(model_config).to(f'cuda:{args.gpu_id}')
 
     CONV_VISION = conv_dict[model_config.model_type]
 
     stop_words_ids = [[835], [2277, 29937]]
-    stop_words_ids = [torch.tensor(ids).to(device='cuda:{}'.format(args.gpu_id)) for ids in stop_words_ids]
+    stop_words_ids = [torch.tensor(ids).to(device=f'cuda:{args.gpu_id}') for ids in stop_words_ids]
     stopping_criteria = StoppingCriteriaList([StoppingCriteriaSub(stops=stop_words_ids)])
 
-    chat = Chat(model, device='cuda:{}'.format(args.gpu_id), stopping_criteria=stopping_criteria)
+    chat = Chat(model, device=f'cuda:{args.gpu_id}', stopping_criteria=stopping_criteria)
 
-    folder = args.folder
-    print(f"Running inference for folder: {folder}")
     programmatic_run(
         upd_text_folder_path=args.upd_text_folder_path,
         upd_version_name=args.upd_version_name,
