@@ -53,7 +53,7 @@ if __name__ == "__main__":
         for json_file in glob.glob(os.path.join(args.path, "*.json")):
             empty_count, total_count = count_empty_responses(json_file)
             percent = (empty_count / total_count * 100) if total_count else 0
-            print(f"{json_file}: {empty_count}/{total_count} empty responses ({percent:.2f}%)")
+            print(f"{os.path.basename(json_file)}: {empty_count}/{total_count} empty responses ({percent:.2f}%)")
     else:
         empty_count, total_count = count_empty_responses(args.path)
         percent = (empty_count / total_count * 100) if total_count else 0
