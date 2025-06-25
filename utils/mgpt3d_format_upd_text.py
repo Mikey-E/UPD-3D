@@ -26,7 +26,7 @@ def parse_txt_file(file_path, is_standard):
                 option_text = m.group(2).strip()
                 break
     else:
-        human_text = ''.join(lines).strip()  # Use full text
+        human_text = ''.join(lines).strip()
         option_text = "There is no correct answer"
     return {
         "object_id": os.path.splitext(os.path.basename(file_path))[0],
@@ -36,11 +36,14 @@ def parse_txt_file(file_path, is_standard):
         ]
     }
 
-def process_directory(input_dir, output_file):
+def process_directory(input_dir, output_file, pcl_set=None):
     objects = []
-    is_standard = os.path.basename(os.path.abspath(input_dir)) == "standard_answer"  # Determine folder type
+    is_standard = os.path.basename(os.path.abspath(input_dir)) == "standard_answer"
     for filename in os.listdir(input_dir):
         if filename.lower().endswith('.txt'):
+            base_name = os.path.splitext(filename)[0]
+            if pcl_set is not None and base_name not in pcl_set:
+                continue
             file_path = os.path.join(input_dir, filename)
             obj = parse_txt_file(file_path, is_standard)
             objects.append(obj)
@@ -53,7 +56,14 @@ if __name__ == "__main__":
     )
     parser.add_argument("input_dir", help="Path to the directory containing standard_answer .txt files or overall directory")
     parser.add_argument("--overall_directory", action="store_true", help="Process overall directory containing multiple subfolders")
+    parser.add_argument("--pcl_list", help="Path to a .txt file containing allowed file names (without .txt extension)")
     args = parser.parse_args()
+
+    pcl_set = None
+    if args.pcl_list:
+        with open(args.pcl_list, 'r', encoding='utf-8') as f:
+            pcl_set = {line.strip() for line in f if line.strip()}
+
     if args.overall_directory:
         overall_dir = args.input_dir
         subfolders = [d for d in os.listdir(overall_dir) if os.path.isdir(os.path.join(overall_dir, d))]
@@ -64,11 +74,13 @@ if __name__ == "__main__":
             if subfolder == "standard":  # Skip folder named exactly "standard"
                 continue
             subfolder_path = os.path.join(overall_dir, subfolder)
-            # Process files in the subfolder and set is_standard if subfolder is named "standard_answer"
+            is_standard = (subfolder == "standard_answer")
             for filename in os.listdir(subfolder_path):
                 if filename.lower().endswith('.txt'):
+                    base_name = os.path.splitext(filename)[0]
+                    if pcl_set is not None and base_name not in pcl_set:
+                        continue
                     file_path = os.path.join(subfolder_path, filename)
-                    is_standard = (subfolder == "standard_answer")
                     all_objects.append(parse_txt_file(file_path, is_standard))
         output_file = os.path.join(os.path.dirname(__file__), f"mgpt3d_format_overall_{os.path.basename(os.path.abspath(overall_dir))}.json")
         with open(output_file, 'w', encoding='utf-8') as f:
@@ -77,5 +89,5 @@ if __name__ == "__main__":
     else:
         input_dir = args.input_dir
         output_file = os.path.join(os.path.dirname(__file__), f"mgpt3d_format_{os.path.basename(os.path.abspath(input_dir))}.json")
-        process_directory(input_dir, output_file)
+        process_directory(input_dir, output_file, pcl_set)
         print(f"Output written to {output_file}")
