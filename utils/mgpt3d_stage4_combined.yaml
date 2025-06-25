@@ -1,3 +1,5 @@
+#Train config for MiniGPT-3D Stage 4 with combined datasets
+
 model:
   arch: minigpt_3d
   model_type: pretrain
