@@ -3,10 +3,10 @@
 # Usage: sbatch slurm_minigpt-3d_prog.sh args/flags...
 
 #SBATCH --account=3dllms
-#SBATCH --job-name=mgpt3d
-#SBATCH --partition=mb-l40s
-#SBATCH --output=minigpt3d_%j.log
-#SBATCH --error=minigpt3d_%j.log
+#SBATCH --job-name=mgpt3d_inf
+#SBATCH --partition=mb-a30
+#SBATCH --output=minigpt3d_inf_%j.log
+#SBATCH --error=minigpt3d_inf_%j.log
 #SBATCH --gres=gpu:1
 #SBATCH --mem=16G
 #SBATCH --time=01-23:59:59
