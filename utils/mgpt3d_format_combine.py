@@ -1,4 +1,5 @@
 #Combines 2 json files into one single json file to make a file for MiniGPT-3D finetuning.
+#ie this file exists to concatenate a json file of training data in a minigpt-3d repo with a formatted json file of upd training data.
 
 import json
 import argparse
