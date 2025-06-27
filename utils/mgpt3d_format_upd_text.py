@@ -60,9 +60,11 @@ if __name__ == "__main__":
     args = parser.parse_args()
 
     pcl_set = None
+    pcl_list_tag = None
     if args.pcl_list:
         with open(args.pcl_list, 'r', encoding='utf-8') as f:
             pcl_set = {line.strip() for line in f if line.strip()}
+        pcl_list_tag = os.path.splitext(os.path.basename(args.pcl_list))[0]
 
     if args.overall_directory:
         overall_dir = args.input_dir
@@ -82,12 +84,22 @@ if __name__ == "__main__":
                         continue
                     file_path = os.path.join(subfolder_path, filename)
                     all_objects.append(parse_txt_file(file_path, is_standard))
-        output_file = os.path.join(os.path.dirname(__file__), f"mgpt3d_format_overall_{os.path.basename(os.path.abspath(overall_dir))}.json")
+        output_file = os.path.join(
+            os.path.dirname(__file__),
+            f"mgpt3d_format_overall_{os.path.basename(os.path.abspath(overall_dir))}"
+            + (f"_{pcl_list_tag}" if pcl_list_tag else "")
+            + ".json"
+        )
         with open(output_file, 'w', encoding='utf-8') as f:
             json.dump(all_objects, f, indent=2)
         print(f"Output written to {output_file}")
     else:
         input_dir = args.input_dir
-        output_file = os.path.join(os.path.dirname(__file__), f"mgpt3d_format_{os.path.basename(os.path.abspath(input_dir))}.json")
+        output_file = os.path.join(
+            os.path.dirname(__file__),
+            f"mgpt3d_format_{os.path.basename(os.path.abspath(input_dir))}"
+            + (f"_{pcl_list_tag}" if pcl_list_tag else "")
+            + ".json"
+        )
         process_directory(input_dir, output_file, pcl_set)
         print(f"Output written to {output_file}")
