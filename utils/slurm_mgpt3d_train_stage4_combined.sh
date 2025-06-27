@@ -1,9 +1,9 @@
 #!/bin/bash
 #SBATCH --account=3dllms
 #SBATCH --partition=mb-a30
-#SBATCH --job-name=mgpt3d_train_stage4
-#SBATCH --output=mgpt3d_train_stage4_%j.out
-#SBATCH --error=mgpt3d_train_stage4_%j.out
+#SBATCH --job-name=mgpt3d_train_stage4_combined
+#SBATCH --output=mgpt3d_train_stage4_combined_%j.out
+#SBATCH --error=mgpt3d_train_stage4_combined_%j.out
 #SBATCH --gres=gpu:1
 #SBATCH --mem=16G
 #SBATCH --time=24:00:00
