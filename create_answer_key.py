@@ -40,8 +40,11 @@ def main():
     # Determine the standard_answer directory
     if os.path.basename(os.path.normpath(base_path)) == "standard_answer":
         standard_answer_path = base_path
+        # Use the parent folder name for the answer key
+        answer_key_name = os.path.basename(os.path.dirname(os.path.normpath(base_path)))
     else:
         standard_answer_path = os.path.join(base_path, "standard_answer")
+        answer_key_name = os.path.basename(os.path.normpath(base_path))
     if not os.path.isdir(standard_answer_path):
         raise FileNotFoundError(f"'standard_answer' directory not found at '{standard_answer_path}'.")
 
@@ -60,8 +63,8 @@ def main():
     output_dir = "./answer_keys"
     os.makedirs(output_dir, exist_ok=True)
 
-    # Determine the output JSON file name using the version folder name
-    output_file = os.path.join(output_dir, f"{os.path.basename(os.path.normpath(base_path))}.json")
+    # Determine the output JSON file name using the answer_key_name
+    output_file = os.path.join(output_dir, f"{answer_key_name}.json")
 
     # Dump the dictionary into the JSON file
     with open(output_file, 'w') as f:
