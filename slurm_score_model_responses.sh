@@ -12,4 +12,4 @@ if [ -z "$OPENAI_API_KEY" ]; then
     exit 1
 fi
 
-python score_model_responses.py $1
+python score_model_responses.py "$@"
