@@ -43,7 +43,8 @@ def inference(
         unzipped_point_cloud_path,
         upd_subset_name,
         conv_vision,
-        chat
+        chat,
+        json_tag=None
     ):
     with open(pcl_list_txt_file_path, 'r') as f:
         identifier_at_scene_list = f.read().splitlines()
@@ -80,7 +81,8 @@ def inference(
 
     # Write all results to a JSON file after the loop
     try:
-        json_filename = 'inference_results_MiniGPT-3D_' + pcl_list_txt_filename_noext + '_' + upd_subset_name + '.json'
+        tag_part = f"{json_tag}_" if json_tag else ""
+        json_filename = f'inf_rslts_mgpt3d_{tag_part}{pcl_list_txt_filename_noext}_{upd_subset_name}.json'
         with open(json_filename, 'w') as f:
             json.dump(results, f, indent=4)
     except Exception as e:
@@ -111,6 +113,7 @@ if __name__ == "__main__":
         nargs="+",
         help="override some settings in the used config, the key-value pair in xxx=yyy format will be merged into config file (deprecate), change to --cfg-options instead."
     )
+    parser.add_argument("--json_tag", type=str, required=False, help="Optional tag to include in the output JSON filename, eg 'ft-comb' for finetune-combined", default=None)
     args = parser.parse_args()
 
     #Check that the passed paths are valid
@@ -147,5 +150,6 @@ if __name__ == "__main__":
         unzipped_point_cloud_path=args.unzipped_point_cloud_path,
         upd_subset_name=args.upd_version_name_subfolder,
         conv_vision=CONV_VISION,
-        chat=chat
+        chat=chat,
+        json_tag=args.json_tag
     )
