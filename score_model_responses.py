@@ -12,7 +12,7 @@ if not os.environ.get("OPENAI_API_KEY"):
 
 def main():
     parser = argparse.ArgumentParser(description="Score model responses using an existing-llm API.")
-    parser.add_argument("json_file", type=str, help="Path to the JSON file containing model responses.")
+    parser.add_argument("json_file", type=str, help="Path to the JSON file containing unscored model responses.")
     parser.add_argument("--answer_key", type=str, help="Path to the answer key JSON file.", default=None)
     args = parser.parse_args()
 
