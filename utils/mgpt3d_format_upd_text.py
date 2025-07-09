@@ -64,7 +64,7 @@ if __name__ == "__main__":
     parser.add_argument("input_dir", help="Path to the directory containing standard_answer .txt files or overall directory")
     parser.add_argument("--overall_directory", action="store_true", help="Process overall directory containing multiple subfolders")
     parser.add_argument("--pcl_list", help="Path to a .txt file containing allowed file names (each scene name inside the file should not end with .txt extension)")
-    parser.add_argument("--caption", help="Path to folder containing caption .txt files")
+    parser.add_argument("--caption", help="Path to folder containing caption .txt files (text_basis)")
     args = parser.parse_args()
 
     pcl_set = None
