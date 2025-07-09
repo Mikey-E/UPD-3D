@@ -18,6 +18,10 @@ def main():
 
     json_file = args.json_file
 
+    # Require answer_key if "standard" is in the json filename
+    if "standard" in os.path.basename(json_file) and not args.answer_key:
+        parser.error("--answer_key is required when 'standard' is in the JSON filename.")
+
     # Load the JSON file into a Python dictionary
     with open(json_file, 'r') as f:
         data = json.load(f)
