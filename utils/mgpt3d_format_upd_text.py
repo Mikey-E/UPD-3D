@@ -6,10 +6,10 @@ import re
 import json
 import argparse
 
-def parse_txt_file(file_path, is_standard):
+def parse_txt_file(file_path, is_standard_answer, caption_folder=None):
     with open(file_path, 'r', encoding='utf-8') as f:
         lines = f.readlines()
-    if is_standard:
+    if is_standard_answer:
         correct_idx = None
         correct_letter = None
         for i, line in enumerate(lines):
@@ -29,24 +29,30 @@ def parse_txt_file(file_path, is_standard):
     else:
         human_text = ''.join(lines).strip()
         option_text = "There is no correct answer"
-    return {
+    result = {
         "object_id": os.path.splitext(os.path.basename(file_path))[0],
         "conversations": [
             {"from": "human", "value": human_text},
             {"from": "gpt", "value": option_text}
         ]
     }
+    if caption_folder:
+        caption_path = os.path.join(caption_folder, os.path.splitext(os.path.basename(file_path))[0] + ".txt")
+        if os.path.exists(caption_path):
+            with open(caption_path, 'r', encoding='utf-8') as cf:
+                result["caption"] = cf.read().strip()
+    return result
 
-def process_directory(input_dir, output_file, pcl_set=None):
+def process_directory(input_dir, output_file, pcl_set=None, caption_folder=None):
     objects = []
-    is_standard = os.path.basename(os.path.abspath(input_dir)) == "standard_answer"
+    is_standard_answer = os.path.basename(os.path.abspath(input_dir)) == "standard_answer"
     for filename in os.listdir(input_dir):
         if filename.lower().endswith('.txt'):
             base_name = os.path.splitext(filename)[0]
             if pcl_set is not None and base_name not in pcl_set:
                 continue
             file_path = os.path.join(input_dir, filename)
-            obj = parse_txt_file(file_path, is_standard)
+            obj = parse_txt_file(file_path, is_standard_answer, caption_folder)
             objects.append(obj)
     with open(output_file, 'w', encoding='utf-8') as f:
         json.dump(objects, f, indent=2)
@@ -58,6 +64,7 @@ if __name__ == "__main__":
     parser.add_argument("input_dir", help="Path to the directory containing standard_answer .txt files or overall directory")
     parser.add_argument("--overall_directory", action="store_true", help="Process overall directory containing multiple subfolders")
     parser.add_argument("--pcl_list", help="Path to a .txt file containing allowed file names (each scene name inside the file should not end with .txt extension)")
+    parser.add_argument("--caption", help="Path to folder containing caption .txt files")
     args = parser.parse_args()
 
     pcl_set = None
@@ -66,6 +73,8 @@ if __name__ == "__main__":
         with open(args.pcl_list, 'r', encoding='utf-8') as f:
             pcl_set = {line.strip() for line in f if line.strip()}
         pcl_list_tag = os.path.splitext(os.path.basename(args.pcl_list))[0]
+
+    caption_folder = args.caption  # may be None
 
     if args.overall_directory:
         overall_dir = args.input_dir
@@ -77,14 +86,14 @@ if __name__ == "__main__":
             if subfolder == "standard":  # Skip folder named exactly "standard"
                 continue
             subfolder_path = os.path.join(overall_dir, subfolder)
-            is_standard = (subfolder == "standard_answer")
+            is_standard_answer = (subfolder == "standard_answer")
             for filename in os.listdir(subfolder_path):
                 if filename.lower().endswith('.txt'):
                     base_name = os.path.splitext(filename)[0]
                     if pcl_set is not None and base_name not in pcl_set:
                         continue
                     file_path = os.path.join(subfolder_path, filename)
-                    all_objects.append(parse_txt_file(file_path, is_standard))
+                    all_objects.append(parse_txt_file(file_path, is_standard_answer, caption_folder))
         output_file = os.path.join(
             os.path.dirname(__file__),
             f"mgpt3d_format_overall_{pcl_list_tag if pcl_list_tag else os.path.basename(os.path.abspath(overall_dir))}.json"
@@ -98,5 +107,5 @@ if __name__ == "__main__":
             os.path.dirname(__file__),
             f"mgpt3d_format_{pcl_list_tag if pcl_list_tag else os.path.basename(os.path.abspath(input_dir))}.json"
         )
-        process_directory(input_dir, output_file, pcl_set)
+        process_directory(input_dir, output_file, pcl_set, caption_folder)
         print(f"Output written to {output_file}")
