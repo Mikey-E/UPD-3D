@@ -1,4 +1,5 @@
 #File to take standard_answer .txt files and convert them to a single json file that can be pretty much just concatenated to the existing MiniGPT-3D training data file PointLLM_brief_description_660K.json
+#May also be fit for greenplm assuming captions are handled as well
 
 import os
 import re
