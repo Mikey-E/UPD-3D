@@ -86,9 +86,7 @@ if __name__ == "__main__":
                     all_objects.append(parse_txt_file(file_path, is_standard))
         output_file = os.path.join(
             os.path.dirname(__file__),
-            f"mgpt3d_format_overall_{os.path.basename(os.path.abspath(overall_dir))}"
-            + (f"_{pcl_list_tag}" if pcl_list_tag else "")
-            + ".json"
+            f"mgpt3d_format_overall_{pcl_list_tag if pcl_list_tag else os.path.basename(os.path.abspath(overall_dir))}.json"
         )
         with open(output_file, 'w', encoding='utf-8') as f:
             json.dump(all_objects, f, indent=2)
@@ -97,9 +95,7 @@ if __name__ == "__main__":
         input_dir = args.input_dir
         output_file = os.path.join(
             os.path.dirname(__file__),
-            f"mgpt3d_format_{os.path.basename(os.path.abspath(input_dir))}"
-            + (f"_{pcl_list_tag}" if pcl_list_tag else "")
-            + ".json"
+            f"mgpt3d_format_{pcl_list_tag if pcl_list_tag else os.path.basename(os.path.abspath(input_dir))}.json"
         )
         process_directory(input_dir, output_file, pcl_set)
         print(f"Output written to {output_file}")
