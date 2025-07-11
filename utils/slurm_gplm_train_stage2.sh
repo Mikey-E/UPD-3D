@@ -9,5 +9,12 @@
 #SBATCH --mem=64G
 #SBATCH --time=7-00:00:00
 
+#This ensures conda activate works in non-interactive shells.
+#running conda init every time won't work. Just make sure to source the correct conda.sh
+source /project/3dllms/melgin/conda/etc/profile.d/conda.sh
+
+#Activate the conda environment just in case you didn't already in the command line.
+conda activate greenplm
+
 export WANDB_MODE=disabled
 bash ./release/paper/scripts/train/2.sh

@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# Usage: sbatch slurm_minigpt-3d_prog.sh args/flags...
+#Usage: sbatch slurm_minigpt-3d_prog.sh args/flags...
 
 #SBATCH --account=3dllms
 #SBATCH --job-name=mgpt3d_inf
@@ -11,8 +11,11 @@
 #SBATCH --mem=16G
 #SBATCH --time=01-23:59:59
 
-# Load the necessary modules - this may not work, the conda environment may have to be activated in the command line before you run this script
-conda init
-conda activate minigpt_3d
+#This ensures conda activate works in non-interactive shells.
+#running conda init every time won't work. Just make sure to source the correct conda.sh
+source /project/3dllms/melgin/conda/etc/profile.d/conda.sh
+
+#Activate the conda environment just in case you didn't already in the command line.
+conda activate minigpt-3d
 
 python ./minigpt-3d_prog.py "$@"
