@@ -8,6 +8,4 @@ answer_keys
 .gradio
 __pycache__
 utils/data_reformats
-
-#HPC-specific files
-slurm-*
+*.out
