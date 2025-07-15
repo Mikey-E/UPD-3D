@@ -96,7 +96,7 @@ if __name__ == "__main__":
                     all_objects.append(parse_txt_file(file_path, is_standard_answer, caption_folder))
         output_file = os.path.join(
             os.path.dirname(__file__),
-            f"mgpt3d_format_overall_{pcl_list_tag if pcl_list_tag else os.path.basename(os.path.abspath(overall_dir))}"
+            f"overall_{pcl_list_tag if pcl_list_tag else os.path.basename(os.path.abspath(overall_dir))}"
             + (f"_captions" if caption_folder else "")
             + ".json"
         )
@@ -107,7 +107,7 @@ if __name__ == "__main__":
         input_dir = args.input_dir
         output_file = os.path.join(
             os.path.dirname(__file__),
-            f"mgpt3d_format_{pcl_list_tag if pcl_list_tag else os.path.basename(os.path.abspath(input_dir))}"
+            f"{pcl_list_tag if pcl_list_tag else os.path.basename(os.path.abspath(input_dir))}"
             + (f"_captions" if caption_folder else "")
             + ".json"
         )
