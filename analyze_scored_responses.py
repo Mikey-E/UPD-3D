@@ -10,7 +10,7 @@ import os
 def main():
     parser = argparse.ArgumentParser(description="Analyze scored responses and create a bar graph.")
     parser.add_argument("folder_path", type=str, help="Path to the folder containing JSON files with scored responses.")
-    parser.add_argument("--naming_delim", type=str, help="Delimiter in the file names to separate out subset name.", default="_v1_")
+    parser.add_argument("--naming_delim", type=str, help="Delimiter in the file names to separate out subset name.", default="_3D-FRONT_test_")
     args = parser.parse_args()
 
     folder_path = args.folder_path
