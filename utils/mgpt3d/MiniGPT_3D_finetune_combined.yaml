@@ -1,4 +1,5 @@
 #Eval config for the combined_data finetuning checkpoints
+#This is for a flag in the UI demo. It is not necessary if you don't use the UI.
 
 model:
   arch: minigpt_3d
