@@ -28,6 +28,11 @@ def main():
         results[json_file] = [item["score"] for item in data.values()]
         standard_upd_accuracies[json_file] = len([score for score in results[json_file] if score == 'T'])
     
+    # Check if sample counts are consistent across categories
+    sample_counts = [len(results[k]) for k in standard_upd_accuracies.keys()]
+    if len(set(sample_counts)) != 1:
+        print("WARNING: Not all categories have the same number of samples.")
+    
     #Compute dual accuracies
     if standard_file:
         standard_score_list = results[standard_file]
@@ -91,6 +96,9 @@ def main():
     
     plt.legend()
     plt.tight_layout()
+    # Set y-axis limit to the maximum number of samples in any category
+    max_samples = max(len(results[k]) for k in standard_upd_accuracies.keys())
+    plt.ylim(0, max_samples)
     
     # Create the output directory if it doesn't exist
     output_dir = "./results"
