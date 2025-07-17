@@ -6,6 +6,7 @@ import argparse
 import json
 import matplotlib.pyplot as plt
 import os
+import re
 
 def main():
     parser = argparse.ArgumentParser(description="Analyze scored responses and create a bar graph.")
@@ -90,6 +91,17 @@ def main():
     names_list = [name.split(args.naming_delim)[1] for name in names_list]
     names_list = [name.replace("_", " ") for name in names_list]
     names_list = [name.title() for name in names_list]
+
+    def fix_acronyms(s):
+        """
+        make acronyms uppercase in the string s
+        e.g. "aad" -> "AAD", "iasd" -> "IASD", "ivqd" -> "IVQD"
+        """
+        for acr in ["aad", "iasd", "ivqd"]:
+            s = re.sub(r'(?i)\b' + acr + r'\b', acr.upper(), s)
+        return s
+    names_list = [fix_acronyms(name) for name in names_list]
+
     plt.yticks([yi + bar_height/2 for yi in y], names_list)
     
     plt.legend()
