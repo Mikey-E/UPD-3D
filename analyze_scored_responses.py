@@ -13,7 +13,13 @@ def main():
     parser.add_argument("folder_path", type=str, help="Path to the folder containing JSON files with scored responses.")
     parser.add_argument("--naming_delim", type=str, help="Delimiter in the file names to separate out subset name.", default="_3D-FRONT_test_")
     parser.add_argument("--title", type=str, required=True, help="Graph title.")
+    parser.add_argument("--bar_fontsize", type=int, default=13, help="Font size for bar label text.")
+    parser.add_argument("--tick_fontsize", type=int, default=14, help="Font size for axis ticks and labels.")
+    parser.add_argument("--legend_fontsize", type=int, default=13, help="Font size for legend text.")
+    parser.add_argument("--title_fontsize", type=int, default=19, help="Font size for title text.")
     args = parser.parse_args()
+
+    bar_fontsize = args.bar_fontsize
 
     folder_path = args.folder_path
     json_files = [os.path.join(folder_path, file) for file in os.listdir(folder_path) if file.endswith('.json')]
@@ -55,35 +61,36 @@ def main():
     # Plot standard accuracies as horizontal bars
     standard_values = list(standard_upd_accuracies.values())
     plt.barh(y, standard_values, height=bar_height, label='UPD (or Standard) Accuracy', color='blue')
-    
-    # Add raw and percent labels for standard accuracies
+
+    # Add raw and percent labels for standard accuracies with larger font size
     for i, (key, value) in enumerate(standard_upd_accuracies.items()):
         if value == 0:
-            plt.text(value, y[i], "0", va='center', ha='left', rotation=0)
+            plt.text(value, y[i], "0", va='center', ha='left', rotation=0, fontsize=bar_fontsize)
         else:
             total = len(results[key])
             perc = (value / total) * 100
-            plt.text(value, y[i], f"{value} ({perc:.1f}%)", va='center', ha='left', rotation=0)
+            plt.text(value, y[i], f"{value} ({perc:.1f}%)", va='center', ha='left', rotation=0, fontsize=bar_fontsize)
     
-    # Plot dual accuracies if they exist
+    # Plot dual accuracies as horizontal bars (increased thickness)
     if dual_accuracies:
         dual_values = [dual_accuracies.get(k, 0) for k in standard_upd_accuracies.keys()]
-        plt.barh([yi + bar_height for yi in y], dual_values, height=bar_height, label='Dual Accuracy', color='red')
+        plt.barh([yi + bar_height for yi in y], dual_values, height=bar_height, label='Dual Accuracy',
+                 color='red')
     
-        # Add raw and percent labels above dual accuracy bars
+        # Add raw and percent labels above dual accuracy bars with larger font size
         for i, (key, value) in enumerate(zip(standard_upd_accuracies.keys(), dual_values)):
             if "standard" in key or "open_ended" in key:
-                plt.text(value, y[i] + bar_height, "Dual Acc N/A", va='center', ha='left', rotation=0)
+                plt.text(value, y[i] + bar_height, "Dual Acc N/A", va='center', ha='left', rotation=0, fontsize=bar_fontsize)
             else:
                 if value == 0:
-                    plt.text(value, y[i] + bar_height, "0", va='center', ha='left', rotation=0)
+                    plt.text(value, y[i] + bar_height, "0", va='center', ha='left', rotation=0, fontsize=bar_fontsize)
                 else:
                     total = len(results[key])
                     perc = (value / total) * 100
-                    plt.text(value, y[i] + bar_height, f"{value} ({perc:.1f}%)", va='center', ha='left', rotation=0)
+                    plt.text(value, y[i] + bar_height, f"{value} ({perc:.1f}%)", va='center', ha='left', rotation=0, fontsize=bar_fontsize)
     
-    plt.xlabel("Count")
-    plt.title(args.title)
+    plt.xlabel("Count", fontsize=args.tick_fontsize)
+    plt.title(args.title, fontsize=args.title_fontsize)
     
     # Use category names on the y-axis
     names_list = list(standard_upd_accuracies.keys())
@@ -102,9 +109,8 @@ def main():
         return s
     names_list = [fix_acronyms(name) for name in names_list]
 
-    plt.yticks([yi + bar_height/2 for yi in y], names_list)
-    
-    plt.legend()
+    plt.yticks([yi + bar_height/2 for yi in y], names_list, fontsize=args.tick_fontsize)
+    plt.legend(fontsize=args.legend_fontsize)
     plt.tight_layout()
     # Set x-axis limit to the maximum number of samples in any category
     max_samples = max(len(results[k]) for k in standard_upd_accuracies.keys())
@@ -115,7 +121,8 @@ def main():
         current_ticks.append(max_samples)
         #If any tick is greater than max_samples, remove it
         current_ticks = [tick for tick in current_ticks if tick <= max_samples]
-        plt.xticks(sorted(current_ticks))
+    plt.xticks(sorted(current_ticks))
+    plt.tick_params(axis='x', labelsize=args.tick_fontsize)
 
     output_dir = "./results"
     os.makedirs(output_dir, exist_ok=True)
