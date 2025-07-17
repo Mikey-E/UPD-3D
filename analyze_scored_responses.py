@@ -47,60 +47,62 @@ def main():
                     if standard_score_list[i] == 'T' and upd_score_list[i] == 'T':
                         dual_accuracies[json_file] = dual_accuracies.get(json_file, 0) + 1
     plt.figure(figsize=(10, 6))
-    bar_width = 0.35
-    spacing = 0.00  # Add spacing between bar groups
-    x = [i * (1 + spacing) for i in range(len(standard_upd_accuracies))]  # Adjust x-coordinates with spacing
+    bar_height = 0.35
+    y = list(range(len(standard_upd_accuracies)))  # y positions for bars
     
-    # Plot standard accuracies
+    # Plot standard accuracies as horizontal bars
     standard_values = list(standard_upd_accuracies.values())
-    plt.bar([i for i in x], standard_values, 
-            bar_width, label='Standard or UPD Accuracy', color='blue')
+    plt.barh(y, standard_values, height=bar_height, label='Standard or UPD Accuracy', color='blue')
     
-    # Add raw and percent labels above standard accuracy bars
+    # Add raw and percent labels for standard accuracies
     for i, (key, value) in enumerate(standard_upd_accuracies.items()):
         if value == 0:
-            plt.text(x[i], value, "0", ha='center', va='bottom')
+            plt.text(value, y[i], "0", va='center', ha='left', rotation=0)
         else:
             total = len(results[key])
             perc = (value / total) * 100
-            plt.text(x[i], value, f"{value} ({perc:.1f}%)", ha='center', va='bottom')
+            plt.text(value, y[i], f"{value} ({perc:.1f}%)", va='center', ha='left', rotation=0)
     
     # Plot dual accuracies if they exist
     if dual_accuracies:
         dual_values = [dual_accuracies.get(k, 0) for k in standard_upd_accuracies.keys()]
-        plt.bar([i + bar_width for i in x], dual_values,
-                bar_width, label='Dual Accuracy', color='red')
-
+        plt.barh([yi + bar_height for yi in y], dual_values, height=bar_height, label='Dual Accuracy', color='red')
+    
         # Add raw and percent labels above dual accuracy bars
         for i, (key, value) in enumerate(zip(standard_upd_accuracies.keys(), dual_values)):
             if "standard" in key or "open_ended" in key:
-                plt.text(x[i] + bar_width, value, "N/A", ha='center', va='bottom')
+                plt.text(value, y[i] + bar_height, "N/A", va='center', ha='left', rotation=0)
             else:
                 if value == 0:
-                    plt.text(x[i] + bar_width, value, "0", ha='center', va='bottom')
+                    plt.text(value, y[i] + bar_height, "0", va='center', ha='left', rotation=0)
                 else:
                     total = len(results[key])
                     perc = (value / total) * 100
-                    plt.text(x[i] + bar_width, value, f"{value} ({perc:.1f}%)", ha='center', va='bottom')
+                    plt.text(value, y[i] + bar_height, f"{value} ({perc:.1f}%)", va='center', ha='left', rotation=0)
     
-    plt.xlabel("Category")
-    plt.ylabel("Count")
+    plt.xlabel("Count")
     plt.title("Standard (or UPD) and Dual Accuracies in Scored Responses")
     
-    #Must reduce length of x axis labels to fit
+    # Use category names on the y-axis
     names_list = list(standard_upd_accuracies.keys())
     names_list = [name.replace("_scored.json", "") for name in names_list]
     names_list = [name.split(args.naming_delim)[1] for name in names_list]
     names_list = [name.replace("_", " ") for name in names_list]
-    plt.xticks([i + bar_width/2 for i in x], names_list, rotation=45, ha='right', rotation_mode='anchor')
+    plt.yticks([yi + bar_height/2 for yi in y], names_list)
     
     plt.legend()
     plt.tight_layout()
-    # Set y-axis limit to the maximum number of samples in any category
+    # Set x-axis limit to the maximum number of samples in any category
     max_samples = max(len(results[k]) for k in standard_upd_accuracies.keys())
-    plt.ylim(0, max_samples)
-    
-    # Create the output directory if it doesn't exist
+    plt.xlim(0, max_samples)
+    # Ensure max_samples appears as a tickmark on the x-axis
+    current_ticks = plt.xticks()[0].tolist()
+    if max_samples not in current_ticks:
+        current_ticks.append(max_samples)
+        #If any tick is greater than max_samples, remove it
+        current_ticks = [tick for tick in current_ticks if tick <= max_samples]
+        plt.xticks(sorted(current_ticks))
+
     output_dir = "./results"
     os.makedirs(output_dir, exist_ok=True)
     
