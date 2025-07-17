@@ -11,7 +11,6 @@ def main():
     parser = argparse.ArgumentParser(description="Analyze scored responses and create a bar graph.")
     parser.add_argument("folder_path", type=str, help="Path to the folder containing JSON files with scored responses.")
     parser.add_argument("--naming_delim", type=str, help="Delimiter in the file names to separate out subset name.", default="_3D-FRONT_test_")
-    # Change: make the model flag required and remove default title text
     parser.add_argument("--title", type=str, required=True, help="Graph title.")
     args = parser.parse_args()
 
@@ -90,6 +89,7 @@ def main():
     names_list = [name.replace("_scored.json", "") for name in names_list]
     names_list = [name.split(args.naming_delim)[1] for name in names_list]
     names_list = [name.replace("_", " ") for name in names_list]
+    names_list = [name.title() for name in names_list]
     plt.yticks([yi + bar_height/2 for yi in y], names_list)
     
     plt.legend()
