@@ -73,7 +73,7 @@ def main():
         # Add raw and percent labels above dual accuracy bars
         for i, (key, value) in enumerate(zip(standard_upd_accuracies.keys(), dual_values)):
             if "standard" in key or "open_ended" in key:
-                plt.text(value, y[i] + bar_height, "N/A", va='center', ha='left', rotation=0)
+                plt.text(value, y[i] + bar_height, "Dual Acc N/A", va='center', ha='left', rotation=0)
             else:
                 if value == 0:
                     plt.text(value, y[i] + bar_height, "0", va='center', ha='left', rotation=0)
