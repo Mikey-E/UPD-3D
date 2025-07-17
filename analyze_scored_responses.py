@@ -11,6 +11,7 @@ def main():
     parser = argparse.ArgumentParser(description="Analyze scored responses and create a bar graph.")
     parser.add_argument("folder_path", type=str, help="Path to the folder containing JSON files with scored responses.")
     parser.add_argument("--naming_delim", type=str, help="Delimiter in the file names to separate out subset name.", default="_3D-FRONT_test_")
+    parser.add_argument("--model", type=str, help="Optional model name to prepend to the graph title.", default="")
     args = parser.parse_args()
 
     folder_path = args.folder_path
@@ -81,7 +82,12 @@ def main():
                     plt.text(value, y[i] + bar_height, f"{value} ({perc:.1f}%)", va='center', ha='left', rotation=0)
     
     plt.xlabel("Count")
-    plt.title("Standard (or UPD) and Dual Accuracies in Scored Responses")
+    original_title = "Standard (or UPD) and Dual Accuracies in Scored Responses"
+    if args.model:
+        plot_title = f"{args.model}: {original_title}"
+    else:
+        plot_title = original_title
+    plt.title(plot_title)
     
     # Use category names on the y-axis
     names_list = list(standard_upd_accuracies.keys())
