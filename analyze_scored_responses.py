@@ -53,7 +53,7 @@ def main():
     
     # Plot standard accuracies as horizontal bars
     standard_values = list(standard_upd_accuracies.values())
-    plt.barh(y, standard_values, height=bar_height, label='Standard or UPD Accuracy', color='blue')
+    plt.barh(y, standard_values, height=bar_height, label='UPD (or Standard) Accuracy', color='blue')
     
     # Add raw and percent labels for standard accuracies
     for i, (key, value) in enumerate(standard_upd_accuracies.items()):
