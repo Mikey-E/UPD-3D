@@ -89,7 +89,7 @@ def main():
                     perc = (value / total) * 100
                     plt.text(value, y[i] + bar_height, f"{value} ({perc:.1f}%)", va='center', ha='left', rotation=0, fontsize=bar_fontsize)
     
-    plt.xlabel("Count", fontsize=args.tick_fontsize)
+    plt.xlabel("Test Samples Graded Correct", fontsize=args.tick_fontsize)
     plt.title(args.title, fontsize=args.title_fontsize)
     
     # Use category names on the y-axis
