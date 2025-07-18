@@ -7,7 +7,7 @@ model:
   end_sym: "###"
   llama_model: "./params_weight/Phi_2"
   ckpt: './params_weight/TinyGPT_V_stage_3/TinyGPT-V_for_Stage3.pth'
-  second_ckpt: './output/upd-data-only/stage_1/checkpoint_0.pth'
+  second_ckpt: './output/upd-only-data/stage_1/checkpoint_0.pth'
   use_grad_checkpoint: True
   chat_template: True
   lora_r: 64

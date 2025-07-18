@@ -6,7 +6,7 @@ model:
   max_txt_len: 1024
   end_sym: "###"
   llama_model: "./params_weight/Phi_2"
-  ckpt: './output/upd-data-only/stage_3/checkpoint_2.pth'  # need update
+  ckpt: './output/upd-only-data/stage_3/checkpoint_2.pth'  # need update
   use_grad_checkpoint: True
   chat_template: True
   lora_r: 64
