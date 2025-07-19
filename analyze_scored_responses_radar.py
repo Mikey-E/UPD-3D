@@ -11,118 +11,172 @@ import re
 
 def main():
     parser = argparse.ArgumentParser(description="Analyze scored responses and create a radar chart.")
-    parser.add_argument("folder_path", type=str, help="Path to the folder containing JSON files with scored responses.")
+    parser.add_argument("folder_paths", type=str, nargs='+', help="Path(s) to folder(s) containing JSON files with scored responses.")
+    parser.add_argument("--legend_names", type=str, nargs='*', help="Custom legend names for each folder (default: use last folder names).")
     parser.add_argument("--naming_delim", type=str, help="Delimiter in the file names to separate out subset name.", default="_3D-FRONT_test_")
     parser.add_argument("--title", type=str, required=True, help="Graph title.")
     parser.add_argument("--tick_fontsize", type=int, default=14, help="Font size for axis ticks and labels.")
     parser.add_argument("--legend_fontsize", type=int, default=13, help="Font size for legend text.")
     parser.add_argument("--title_fontsize", type=int, default=19, help="Font size for title text.")
     parser.add_argument("--fontscale", type=float, default=1.0, help="Scale factor to multiply all font sizes.")
+    parser.add_argument("--figsize_width", type=int, default=12, help="Width of the figure in inches.")
+    parser.add_argument("--figsize_height", type=int, default=10, help="Height of the figure in inches.")
+    parser.add_argument("--legend_bbox_to_anchor", type=str, default="1.3,1.1", help="Legend position as 'x,y'.")
+    parser.add_argument("--fig_pad", type=float, default=1.5, help="Padding for the figure to prevent cutoff.")
     args = parser.parse_args()
 
-    folder_path = args.folder_path
-    
     # Apply font scaling
     tick_fontsize = int(args.tick_fontsize * args.fontscale)
     legend_fontsize = int(args.legend_fontsize * args.fontscale)
     title_fontsize = int(args.title_fontsize * args.fontscale)
     
-    json_files = [os.path.join(folder_path, file) for file in os.listdir(folder_path) if file.endswith('.json')]
+    # Get legend names (either custom or from folder names)
+    legend_base_names = []
+    if args.legend_names and len(args.legend_names) == len(args.folder_paths):
+        legend_base_names = args.legend_names
+    else:
+        for folder_path in args.folder_paths:
+            legend_base_names.append(os.path.basename(os.path.normpath(folder_path)))
     
-    results = {}
-    standard_upd_accuracies = {}
-    standard_file = None #To be set if a standard file is found
-    for json_file in json_files:
-        with open(json_file, 'r') as f:
-            data = json.load(f)
-        if "standard" in json_file:
-            standard_file = json_file
-        # Extract scores from the data
-        results[json_file] = [item["score"] for item in data.values()]
-        standard_upd_accuracies[json_file] = len([score for score in results[json_file] if score == 'T'])
+    # Process each folder and collect data
+    all_categories = set()
+    folder_data = []
     
-    # Check if sample counts are consistent across categories
-    sample_counts = [len(results[k]) for k in standard_upd_accuracies.keys()]
-    if len(set(sample_counts)) != 1:
-        print("WARNING: Not all categories have the same number of samples.")
-    
-    #Compute dual accuracies
-    if standard_file:
-        standard_score_list = results[standard_file]
-        dual_accuracies = {}
+    for folder_idx, folder_path in enumerate(args.folder_paths):
+        json_files = [os.path.join(folder_path, file) for file in os.listdir(folder_path) if file.endswith('.json')]
+        
+        results = {}
+        standard_upd_accuracies = {}
+        standard_file = None
         for json_file in json_files:
-            if "standard" in json_file or "open_ended" in json_file:
-                dual_accuracies[json_file] = 0
-                continue
-            if json_file != standard_file:
-                upd_score_list = results[json_file]
-                for i in range(len(standard_score_list)):
-                    if standard_score_list[i] == 'T' and upd_score_list[i] == 'T':
-                        dual_accuracies[json_file] = dual_accuracies.get(json_file, 0) + 1
-    
-    # Prepare category names for the radar chart
-    names_list = list(standard_upd_accuracies.keys())
-    names_list = [name.replace("_scored.json", "") for name in names_list]
-    names_list = [name.split(args.naming_delim)[1] for name in names_list]
-    names_list = [name.replace("_", " ") for name in names_list]
-    names_list = [name.title() for name in names_list]
+            with open(json_file, 'r') as f:
+                data = json.load(f)
+            if "standard" in json_file:
+                standard_file = json_file
+            # Extract scores from the data
+            results[json_file] = [item["score"] for item in data.values()]
+            standard_upd_accuracies[json_file] = len([score for score in results[json_file] if score == 'T'])
+        
+        # Check if sample counts are consistent across categories
+        sample_counts = [len(results[k]) for k in standard_upd_accuracies.keys()]
+        if len(set(sample_counts)) != 1:
+            print(f"WARNING: Not all categories in {folder_path} have the same number of samples.")
+        
+        # Compute dual accuracies
+        dual_accuracies = {}
+        if standard_file:
+            standard_score_list = results[standard_file]
+            for json_file in json_files:
+                if "standard" in json_file or "open_ended" in json_file:
+                    dual_accuracies[json_file] = 0
+                    continue
+                if json_file != standard_file:
+                    upd_score_list = results[json_file]
+                    for i in range(len(standard_score_list)):
+                        if standard_score_list[i] == 'T' and upd_score_list[i] == 'T':
+                            dual_accuracies[json_file] = dual_accuracies.get(json_file, 0) + 1
+        
+        # Prepare category names for the radar chart
+        names_list = list(standard_upd_accuracies.keys())
+        names_list = [name.replace("_scored.json", "") for name in names_list]
+        names_list = [name.split(args.naming_delim)[1] for name in names_list]
+        names_list = [name.replace("_", " ") for name in names_list]
+        names_list = [name.title() for name in names_list]
 
-    def fix_acronyms(s):
-        """
-        make acronyms uppercase in the string s
-        e.g. "aad" -> "AAD", "iasd" -> "IASD", "ivqd" -> "IVQD"
-        """
-        for acr in ["aad", "iasd", "ivqd"]:
-            s = re.sub(r'(?i)\b' + acr + r'\b', acr.upper(), s)
-        return s
-    categories = [fix_acronyms(name) for name in names_list]
+        def fix_acronyms(s):
+            for acr in ["aad", "iasd", "ivqd"]:
+                s = re.sub(r'(?i)\b' + acr + r'\b', acr.upper(), s)
+            return s
+        
+        categories = [fix_acronyms(name) for name in names_list]
+        all_categories.update(categories)
+        
+        # Store folder data
+        folder_data.append({
+            'legend_name': legend_base_names[folder_idx],
+            'categories': categories,
+            'standard_accuracies': list(standard_upd_accuracies.values()),
+            'dual_accuracies': [dual_accuracies.get(k, 0) for k in standard_upd_accuracies.keys()],
+            'max_samples': max(len(results[k]) for k in standard_upd_accuracies.keys())
+        })
     
-    # Prepare data for radar chart
-    N = len(categories)
-    standard_values = list(standard_upd_accuracies.values())
+    # Create the combined radar chart
+    # Use the union of all categories from all folders
+    all_categories = sorted(list(all_categories))
+    N = len(all_categories)
     
-    # Set up the angles for the radar chart (evenly spaced around the circle)
+    # Set up the angles for the radar chart
     angles = np.linspace(0, 2*np.pi, N, endpoint=False).tolist()
-    
-    # Close the radar chart by appending the first angle & value at the end
     angles += angles[:1]
-    standard_values_plot = standard_values + [standard_values[0]]
-    categories_plot = categories + [categories[0]]
+    all_categories += all_categories[:1]  # Close the loop for labels
     
     # Create figure and polar axis
-    fig, ax = plt.subplots(figsize=(10, 8), subplot_kw=dict(polar=True))
+    fig, ax = plt.subplots(figsize=(args.figsize_width, args.figsize_height), subplot_kw=dict(polar=True))
     
-    # Plot standard accuracies
-    ax.plot(angles, standard_values_plot, 'o-', linewidth=2, label='UPD (or Standard) Accuracy', color='blue')
-    ax.fill(angles, standard_values_plot, alpha=0.25, color='blue')
+    # Colors for different folders
+    colors = ['blue', 'red', 'green', 'purple', 'orange', 'brown', 'pink', 'gray', 'olive', 'cyan']
+    max_y_value = 0
     
-    # Plot dual accuracies if available
-    if 'dual_accuracies' in locals():
-        dual_values = [dual_accuracies.get(k, 0) for k in standard_upd_accuracies.keys()]
-        dual_values_plot = dual_values + [dual_values[0]]
-        ax.plot(angles, dual_values_plot, 'o-', linewidth=2, label='Dual Accuracy', color='red')
-        ax.fill(angles, dual_values_plot, alpha=0.25, color='red')
+    # Plot each folder's data
+    for folder_idx, data in enumerate(folder_data):
+        # Map this folder's data to the common category list
+        std_values = []
+        dual_values = []
+        
+        for category in all_categories[:-1]:  # Skip the duplicated last one
+            if category in data['categories']:
+                idx = data['categories'].index(category)
+                std_values.append(data['standard_accuracies'][idx])
+                dual_values.append(data['dual_accuracies'][idx])
+            else:
+                std_values.append(0)
+                dual_values.append(0)
+        
+        # Close the loop for plotting
+        std_values += [std_values[0]]
+        dual_values += [dual_values[0]]
+        
+        # Plot standard accuracies
+        color_idx = folder_idx % len(colors)
+        ax.plot(angles, std_values, 'o-', linewidth=2, 
+                label=f"{data['legend_name']} - UPD", color=colors[color_idx])
+        ax.fill(angles, std_values, alpha=0.1, color=colors[color_idx])
+        
+        # Plot dual accuracies
+        ax.plot(angles, dual_values, 'o--', linewidth=2, 
+                label=f"{data['legend_name']} - Dual", color=colors[color_idx], alpha=0.7)
+        ax.fill(angles, dual_values, alpha=0.05, color=colors[color_idx])
+        
+        max_y_value = max(max_y_value, data['max_samples'])
     
     # Set category labels
     ax.set_xticks(angles[:-1])
-    ax.set_xticklabels(categories, size=tick_fontsize)
+    ax.set_xticklabels(all_categories[:-1], size=tick_fontsize)
+    
+    # Parse the legend position
+    legend_x, legend_y = map(float, args.legend_bbox_to_anchor.split(','))
     
     # Set title and legend
     plt.title(args.title, size=title_fontsize, y=1.1)
-    plt.legend(loc='upper right', bbox_to_anchor=(1.3, 1.1), fontsize=legend_fontsize)
+    plt.legend(loc='upper right', bbox_to_anchor=(legend_x, legend_y), fontsize=legend_fontsize)
     
-    # Set y-axis limit to the maximum number of samples in any category
-    max_samples = max(len(results[k]) for k in standard_upd_accuracies.keys())
-    ax.set_ylim(0, max_samples)
+    # Set y-axis limit
+    ax.set_ylim(0, max_y_value)
     
-    plt.tight_layout()
+    # Add padding to prevent text cutoff
+    plt.tight_layout(pad=args.fig_pad)
     
     # Save the figure
     output_dir = "./results"
     os.makedirs(output_dir, exist_ok=True)
     
-    name_for_saving = os.path.basename(os.path.normpath(folder_path))
-    plt.savefig(os.path.join(output_dir, f"{name_for_saving}_radar.png"), dpi=300)
+    # Create a name based on all folder names
+    if len(args.folder_paths) == 1:
+        name_for_saving = os.path.basename(os.path.normpath(args.folder_paths[0]))
+    else:
+        name_for_saving = "combined_analysis"
+    
+    plt.savefig(os.path.join(output_dir, f"{name_for_saving}_radar.png"), dpi=300, bbox_inches='tight')
 
 if __name__ == "__main__":
     main()
