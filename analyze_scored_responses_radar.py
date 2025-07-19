@@ -17,9 +17,16 @@ def main():
     parser.add_argument("--tick_fontsize", type=int, default=14, help="Font size for axis ticks and labels.")
     parser.add_argument("--legend_fontsize", type=int, default=13, help="Font size for legend text.")
     parser.add_argument("--title_fontsize", type=int, default=19, help="Font size for title text.")
+    parser.add_argument("--fontscale", type=float, default=1.0, help="Scale factor to multiply all font sizes.")
     args = parser.parse_args()
 
     folder_path = args.folder_path
+    
+    # Apply font scaling
+    tick_fontsize = int(args.tick_fontsize * args.fontscale)
+    legend_fontsize = int(args.legend_fontsize * args.fontscale)
+    title_fontsize = int(args.title_fontsize * args.fontscale)
+    
     json_files = [os.path.join(folder_path, file) for file in os.listdir(folder_path) if file.endswith('.json')]
     
     results = {}
@@ -98,11 +105,11 @@ def main():
     
     # Set category labels
     ax.set_xticks(angles[:-1])
-    ax.set_xticklabels(categories, size=args.tick_fontsize)
+    ax.set_xticklabels(categories, size=tick_fontsize)
     
     # Set title and legend
-    plt.title(args.title, size=args.title_fontsize, y=1.1)
-    plt.legend(loc='upper right', bbox_to_anchor=(1.3, 1.1), fontsize=args.legend_fontsize)
+    plt.title(args.title, size=title_fontsize, y=1.1)
+    plt.legend(loc='upper right', bbox_to_anchor=(1.3, 1.1), fontsize=legend_fontsize)
     
     # Set y-axis limit to the maximum number of samples in any category
     max_samples = max(len(results[k]) for k in standard_upd_accuracies.keys())

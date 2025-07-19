@@ -17,10 +17,15 @@ def main():
     parser.add_argument("--tick_fontsize", type=int, default=14, help="Font size for axis ticks and labels.")
     parser.add_argument("--legend_fontsize", type=int, default=13, help="Font size for legend text.")
     parser.add_argument("--title_fontsize", type=int, default=19, help="Font size for title text.")
+    parser.add_argument("--fontscale", type=float, default=1.0, help="Scale factor to multiply all font sizes.")
     args = parser.parse_args()
 
-    bar_fontsize = args.bar_fontsize
-
+    # Apply font scaling
+    bar_fontsize = int(args.bar_fontsize * args.fontscale)
+    tick_fontsize = int(args.tick_fontsize * args.fontscale)
+    legend_fontsize = int(args.legend_fontsize * args.fontscale)
+    title_fontsize = int(args.title_fontsize * args.fontscale)
+    
     folder_path = args.folder_path
     json_files = [os.path.join(folder_path, file) for file in os.listdir(folder_path) if file.endswith('.json')]
     
@@ -89,8 +94,8 @@ def main():
                     perc = (value / total) * 100
                     plt.text(value, y[i] + bar_height, f"{value} ({perc:.1f}%)", va='center', ha='left', rotation=0, fontsize=bar_fontsize)
     
-    plt.xlabel("Test Samples Graded Correct", fontsize=args.tick_fontsize)
-    plt.title(args.title, fontsize=args.title_fontsize)
+    plt.xlabel("Test Samples Graded Correct", fontsize=tick_fontsize)
+    plt.title(args.title, fontsize=title_fontsize)
     
     # Use category names on the y-axis
     names_list = list(standard_upd_accuracies.keys())
@@ -109,8 +114,8 @@ def main():
         return s
     names_list = [fix_acronyms(name) for name in names_list]
 
-    plt.yticks([yi + bar_height/2 for yi in y], names_list, fontsize=args.tick_fontsize)
-    plt.legend(fontsize=args.legend_fontsize)
+    plt.yticks([yi + bar_height/2 for yi in y], names_list, fontsize=tick_fontsize)
+    plt.legend(fontsize=legend_fontsize)
     plt.tight_layout()
     # Set x-axis limit to the maximum number of samples in any category
     max_samples = max(len(results[k]) for k in standard_upd_accuracies.keys())
