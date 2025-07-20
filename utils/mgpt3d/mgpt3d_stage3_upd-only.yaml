@@ -23,12 +23,12 @@ model:
   QFormer_lora_module: ["query", "key",  "value"]
 
 datasets:
-  Objaverse_detailed:
-    batch_size: 6       #  4
-    text_processor:
-      train:
-        name: "blip_caption"
-    sample_ratio: 2   # 3
+  # Objaverse_detailed:
+  #   batch_size: 6       #  4
+  #   text_processor:
+  #     train:
+  #       name: "blip_caption"
+  #   sample_ratio: 2   # 3
 
   Objaverse_single_round:
     batch_size: 10      # 4
@@ -37,12 +37,12 @@ datasets:
         name: "blip_caption"
     sample_ratio: 3     # 8
 
-  Objaverse_mutil_round:
-    batch_size: 4
-    text_processor:
-      train:
-        name: "blip_caption"
-    sample_ratio: 3
+  # Objaverse_mutil_round:
+  #   batch_size: 4
+  #   text_processor:
+  #     train:
+  #       name: "blip_caption"
+  #   sample_ratio: 3
 
 run:
   task: image_text_pretrain
