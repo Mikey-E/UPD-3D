@@ -18,4 +18,4 @@ source /project/3dllms/melgin/conda/etc/profile.d/conda.sh
 #Activate the conda environment just in case you didn't already in the command line.
 conda activate minigpt-3d
 
-python ./minigpt-3d_prog.py "$@"
+python ./mgpt3d_inf.py "$@"
