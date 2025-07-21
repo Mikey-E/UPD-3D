@@ -7,6 +7,8 @@
 #SBATCH --gres=gpu:1
 #SBATCH --mem=16G
 #SBATCH --time=7-00:00:00
+#SBATCH --mail-user=melgin@uwyo.edu
+#SBATCH --mail-type=BEGIN,END,FAIL
 
 #This ensures conda activate works in non-interactive shells.
 #running conda init every time won't work. Just make sure to source the correct conda.sh
