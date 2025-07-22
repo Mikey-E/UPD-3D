@@ -3,7 +3,6 @@ openai_api_key.sh
 text_basis
 upd_text
 unscored_model_responses
-scored_model_responses
 .gradio
 __pycache__
 utils/data_reformats
