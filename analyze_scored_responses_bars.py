@@ -18,6 +18,7 @@ def main():
     parser.add_argument("--legend_fontsize", type=int, default=13, help="Font size for legend text.")
     parser.add_argument("--title_fontsize", type=int, default=19, help="Font size for title text.")
     parser.add_argument("--fontscale", type=float, default=1.0, help="Scale factor to multiply all font sizes.")
+    parser.add_argument("--fig_pad", type=float, default=1.5, help="Padding for the figure to prevent cutoff.")
     args = parser.parse_args()
 
     # Apply font scaling
@@ -116,7 +117,7 @@ def main():
 
     plt.yticks([yi + bar_height/2 for yi in y], names_list, fontsize=tick_fontsize)
     plt.legend(fontsize=legend_fontsize)
-    plt.tight_layout()
+    plt.tight_layout(pad=args.fig_pad)
     # Set x-axis limit to the maximum number of samples in any category
     max_samples = max(len(results[k]) for k in standard_upd_accuracies.keys())
     plt.xlim(0, max_samples)
