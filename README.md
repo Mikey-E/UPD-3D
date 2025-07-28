@@ -1,6 +1,15 @@
 # UPD-3D
 Code for generating samples to test 3D-LLM unsolvable problem detection capability, and to do that testing. This accompanys the report submitted to UWyo's spring 2025 Advances in Deep Learning course.
 
+## Set Env Vars
+### CONDA_INSTALL_PATH
+
+This env var is useful in helping ensure the batch submission scripts are more portable. Set it to where your conda installation is. E.g.
+
+```
+export CONDA_INSTALL_PATH=/project/3dllms/melgin/conda
+```
+
 ## Clone
 
 ```

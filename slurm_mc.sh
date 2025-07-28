@@ -14,7 +14,12 @@ fi
 
 #This ensures conda activate works in non-interactive shells.
 #running conda init every time won't work. Just make sure to source the correct conda.sh
-source /project/3dllms/melgin/conda/etc/profile.d/conda.sh
+if [ -n "$CONDA_INSTALL_PATH" ]; then
+    source $CONDA_INSTALL_PATH/etc/profile.d/conda.sh
+else
+    echo WARNING: CONDA_INSTALL_PATH is not set. Using default path.
+    source /project/3dllms/melgin/conda/etc/profile.d/conda.sh
+fi
 
 # Activate the conda environment just in case it wasn't already done
 conda activate upd-3d
