@@ -6,7 +6,7 @@ import re
 import json
 import argparse
 
-def parse_txt_file(file_path, is_standard_answer, caption_folder=None, conversation_type="single_round"):
+def parse_txt_file(file_path, is_standard_answer, caption_folder=None, conversation_type="single_round", point_ext=".ply"):
     with open(file_path, 'r', encoding='utf-8') as f:
         lines = f.readlines()
     if is_standard_answer:
@@ -30,7 +30,9 @@ def parse_txt_file(file_path, is_standard_answer, caption_folder=None, conversat
         human_text = ''.join(lines).strip()
         option_text = "There is no correct answer"
     result = {
+        "id": os.path.splitext(os.path.basename(file_path))[0],  # Added id field with same value as object_id
         "object_id": os.path.splitext(os.path.basename(file_path))[0],
+        "point": os.path.splitext(os.path.basename(file_path))[0] + point_ext,
         "conversation_type": conversation_type,
         "conversations": [
             {"from": "human", "value": human_text},
@@ -44,7 +46,7 @@ def parse_txt_file(file_path, is_standard_answer, caption_folder=None, conversat
                 result["caption"] = cf.read().strip()
     return result
 
-def process_directory(input_dir, output_file, pcl_set=None, caption_folder=None, conversation_type="single_round"):
+def process_directory(input_dir, output_file, pcl_set=None, caption_folder=None, conversation_type="single_round", point_ext=".ply"):
     objects = []
     is_standard_answer = os.path.basename(os.path.abspath(input_dir)) == "standard_answer"
     for filename in os.listdir(input_dir):
@@ -53,7 +55,7 @@ def process_directory(input_dir, output_file, pcl_set=None, caption_folder=None,
             if pcl_set is not None and base_name not in pcl_set:
                 continue
             file_path = os.path.join(input_dir, filename)
-            obj = parse_txt_file(file_path, is_standard_answer, caption_folder, conversation_type)
+            obj = parse_txt_file(file_path, is_standard_answer, caption_folder, conversation_type, point_ext)
             objects.append(obj)
     with open(output_file, 'w', encoding='utf-8') as f:
         json.dump(objects, f, indent=2)
@@ -67,6 +69,7 @@ if __name__ == "__main__":
     parser.add_argument("--pcl_list", help="Path to a .txt file containing allowed file names (each scene name inside the file should not end with .txt extension)")
     parser.add_argument("--caption", help="Path to folder containing caption .txt files (text_basis)")
     parser.add_argument("--conversation_type", default="single_round", help="Conversation type to include in each object")
+    parser.add_argument("--point_ext", default=".ply", help="File extension for the point field (default: .ply)")
     args = parser.parse_args()
 
     pcl_set = None
@@ -78,6 +81,7 @@ if __name__ == "__main__":
 
     caption_folder = args.caption  # may be None
     conversation_type = args.conversation_type
+    point_ext = args.point_ext  # get the point extension from args
 
     if args.overall_directory:
         overall_dir = args.input_dir
@@ -96,7 +100,7 @@ if __name__ == "__main__":
                     if pcl_set is not None and base_name not in pcl_set:
                         continue
                     file_path = os.path.join(subfolder_path, filename)
-                    all_objects.append(parse_txt_file(file_path, is_standard_answer, caption_folder, conversation_type))
+                    all_objects.append(parse_txt_file(file_path, is_standard_answer, caption_folder, conversation_type, point_ext))
         output_file = os.path.join(
             os.path.dirname(__file__),
             f"overall_{pcl_list_tag if pcl_list_tag else os.path.basename(os.path.abspath(overall_dir))}"
@@ -114,5 +118,5 @@ if __name__ == "__main__":
             + (f"_captions" if caption_folder else "")
             + ".json"
         )
-        process_directory(input_dir, output_file, pcl_set, caption_folder, conversation_type)
+        process_directory(input_dir, output_file, pcl_set, caption_folder, conversation_type, point_ext)
         print(f"Output written to {output_file}")
