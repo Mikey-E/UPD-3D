@@ -33,6 +33,7 @@ def parse_txt_file(file_path, is_standard_answer, caption_folder=None, conversat
         "id": os.path.splitext(os.path.basename(file_path))[0],  # Added id field with same value as object_id
         "object_id": os.path.splitext(os.path.basename(file_path))[0],
         "point": os.path.splitext(os.path.basename(file_path))[0] + point_ext,
+        "rotation": [0, 0, 0],  # Default rotation, can be modified later
         "conversation_type": conversation_type,
         "conversations": [
             {"from": "human", "value": human_text},
