@@ -1,5 +1,6 @@
 """File to run PointLLM inference programmatically for batch evaluation."""
 
+#pointllm/eval/pllm_inf.py
 
 import argparse
 from transformers import AutoTokenizer

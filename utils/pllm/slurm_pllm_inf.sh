@@ -1,7 +1,5 @@
 #!/bin/bash
 
-#Usage: sbatch slurm_pllm_inf.sh args/flags...
-
 #SBATCH --account=3dllms
 #SBATCH --job-name=pllm_inf
 #SBATCH --partition=mb-l40s,inv-ssheshap

@@ -1,3 +1,5 @@
+#scripts/PointLLM_train_stage2.sh
+
 master_port=$((RANDOM % (65535 - 49152 + 1) + 49152))
 # Get the filename without extension
 filename=$(basename "$0" | cut -f 1 -d '.')
