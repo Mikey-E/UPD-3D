@@ -2,8 +2,8 @@
 #SBATCH --account=3dllms
 #SBATCH --partition=mb-h100
 #SBATCH --job-name=shpllm_ft_h100
-#SBATCH --output=shpllm_ft_%j.out
-#SBATCH --error=shpllm_ft_%j.out
+#SBATCH --output=./slurm_logs/shpllm_ft_%j.out
+#SBATCH --error=./slurm_logs/shpllm_ft_%j.out
 #SBATCH --gres=gpu:8
 #SBATCH --mem=1200G
 #SBATCH --time=7-00:00:00

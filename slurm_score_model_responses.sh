@@ -5,8 +5,8 @@
 #SBATCH --account=3dllms
 #SBATCH --partition=non-investor
 #SBATCH --job-name=score_model_responses
-#SBATCH --output=score_model_responses_%j.out
-#SBATCH --error=score_model_responses_%j.out
+#SBATCH --output=./slurm_logs/score_model_responses_%j.out
+#SBATCH --error=./slurm_logs/score_model_responses_%j.out
 #SBATCH --mem=16G
 #SBATCH --time=7-00:00:00
 

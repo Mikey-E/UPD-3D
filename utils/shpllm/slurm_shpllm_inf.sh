@@ -6,8 +6,8 @@
 #SBATCH --job-name=shpllm_inf
 #SBATCH --partition=mb-h100
 #SBATCH --nodes=1
-#SBATCH --output=shpllm_inf_%j.log
-#SBATCH --error=shpllm_inf_%j.log
+#SBATCH --output=./slurm_logs/shpllm_inf_%j.log
+#SBATCH --error=./slurm_logs/shpllm_inf_%j.log
 #SBATCH --gres=gpu:1
 #SBATCH --mem=96G
 #SBATCH --time=7-00:00:00

@@ -5,8 +5,8 @@
 #SBATCH --partition=mb-l40s,inv-ssheshap
 #SBATCH --nodes=1
 #SBATCH --nodelist=mbl40s-001,mbl40s-002,mbl40s-003,mbl40s-004,mbl40s-005,mbl40s-006,mbl40s-007,vl40s-005
-#SBATCH --output=pllm_inf_%j.log
-#SBATCH --error=pllm_inf_%j.log
+#SBATCH --output=./slurm_logs/pllm_inf_%j.log
+#SBATCH --error=./slurm_logs/pllm_inf_%j.log
 #SBATCH --gres=gpu:1
 #SBATCH --mem=48G
 #SBATCH --time=7-00:00:00

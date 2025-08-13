@@ -4,8 +4,8 @@
 #SBATCH --partition=mb-l40s
 ##SBATCH --partition=mb-a30
 #SBATCH --job-name=pllm_train_stage2
-#SBATCH --output=pllm_train_stage2_%j.out
-#SBATCH --error=pllm_train_stage2_%j.out
+#SBATCH --output=./slurm_logs/pllm_train_stage2_%j.out
+#SBATCH --error=./slurm_logs/pllm_train_stage2_%j.out
 #SBATCH --gres=gpu:8
 #SBATCH --mem=699G
 #SBATCH --time=7-00:00:00

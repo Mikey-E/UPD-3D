@@ -5,6 +5,8 @@
 #SBATCH --account=3dllms
 #SBATCH --time=23:00:00
 #SBATCH --partition=non-investor
+#SBATCH --output=./slurm_logs/slurm_mc_%j.log
+#SBATCH --error=./slurm_logs/slurm_mc_%j.log
 
 # Ensure OPENAI_API_KEY is set; if missing, try sourcing export script
 if [ -z "$OPENAI_API_KEY" ]; then

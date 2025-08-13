@@ -2,8 +2,8 @@
 #SBATCH --account=3dllms
 #SBATCH --partition=mb-a30
 #SBATCH --job-name=mgpt3d_train_stage4_upd-only
-#SBATCH --output=mgpt3d_train_stage4_upd-only_%j.out
-#SBATCH --error=mgpt3d_train_stage4_upd-only_%j.out
+#SBATCH --output=./slurm_logs/mgpt3d_train_stage4_upd-only_%j.out
+#SBATCH --error=./slurm_logs/mgpt3d_train_stage4_upd-only_%j.out
 #SBATCH --gres=gpu:1
 #SBATCH --mem=16G
 #SBATCH --time=7-00:00:00

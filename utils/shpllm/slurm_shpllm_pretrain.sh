@@ -2,8 +2,8 @@
 #SBATCH --account=3dllms
 #SBATCH --partition=mb-h100
 #SBATCH --job-name=shpllm_pretrain_h100
-#SBATCH --output=shpllm_pretrain_%j.out
-#SBATCH --error=shpllm_pretrain_%j.out
+#SBATCH --output=./slurm_logs/shpllm_pretrain_%j.out
+#SBATCH --error=./slurm_logs/shpllm_pretrain_%j.out
 #SBATCH --gres=gpu:1
 #SBATCH --mem=96G
 #SBATCH --time=7-00:00:00
