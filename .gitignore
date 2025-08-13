@@ -7,3 +7,4 @@ unscored_model_responses
 __pycache__
 utils/data_reformats
 *.out
+slurm_logs
