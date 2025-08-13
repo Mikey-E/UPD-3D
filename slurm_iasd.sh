@@ -23,8 +23,8 @@ if [ -z "$OPENAI_API_KEY" ]; then
     exit 1
 fi
 
-#This ensures conda activate works in non-interactive shells.
-#running conda init every time won't work. Just make sure to source the correct conda.sh
+#This ensures "conda activate <env>" works in non-interactive shells.
+#(running "conda init" every time won't work.)
 if [ -n "$CONDA_INSTALL_PATH" ]; then
     CONDA_SH=$CONDA_INSTALL_PATH/etc/profile.d/conda.sh
     if [ ! -e "$CONDA_SH" ]; then
