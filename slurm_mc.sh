@@ -41,8 +41,7 @@ else
     fi
     source "$CONDA_SH"
 fi
-
-# Activate the conda environment just in case it wasn't already done
+# Now the activation should work
 conda activate upd-3d
 
 python make_mc_text.py $1

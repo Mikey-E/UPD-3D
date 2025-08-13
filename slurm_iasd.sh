@@ -41,7 +41,7 @@ else
     fi
     source "$CONDA_SH"
 fi
-# Now the script should be able to activate the conda environment just in case it wasn't already done
+# Now the activation should work
 conda activate upd-3d
 
 python make_iasd_base_text.py $1

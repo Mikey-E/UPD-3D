@@ -28,8 +28,7 @@ else
     fi
     source "$CONDA_SH"
 fi
-
-#Activate the conda environment just in case you didn't already in the command line.
+# Now the activation should work
 conda activate shapellm_h100
 
 #export PYTORCH_CUDA_ALLOC_CONF=max_split_size_mb:21 #most lenient

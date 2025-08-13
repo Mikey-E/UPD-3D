@@ -27,8 +27,7 @@ else
     fi
     source "$CONDA_SH"
 fi
-
-#Activate the conda environment just in case you didn't already in the command line.
+# Now the activation should work
 conda activate greenplm
 
 export WANDB_MODE=disabled
