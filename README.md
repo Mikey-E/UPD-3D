@@ -127,7 +127,7 @@ python make_ivqd_base_text.py list_of_clouds.txt
 It is necessary to have an answer key for each scene's standard question for use in later computations. create_answer_key.py will separate this out and store it.
 
 ```
-python create_answer_key.py upd_text/list_of_clouds
+python create_answer_key.py upd_text/folder_of_clouds
 ```
 
 ## Make the UPD variants
@@ -135,7 +135,7 @@ python create_answer_key.py upd_text/list_of_clouds
 This requires the multiple-choice and open-ended questions to have been generated first. Simply run:
 
 ```
-python make_variants.py list_of_clouds
+python make_variants.py folder_of_clouds
 ```
 
 If all you want is the dataset, you are now finished! The UPD-3D dataset is now in upd_text/
