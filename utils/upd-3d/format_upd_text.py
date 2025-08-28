@@ -95,6 +95,8 @@ if __name__ == "__main__":
                 continue
             subfolder_path = os.path.join(overall_dir, subfolder)
             is_standard_answer = (subfolder == "standard_answer")
+            print(f"Current folder: {subfolder}")
+            file_count = 0
             for filename in os.listdir(subfolder_path):
                 if filename.lower().endswith('.txt'):
                     base_name = os.path.splitext(filename)[0]
@@ -102,6 +104,8 @@ if __name__ == "__main__":
                         continue
                     file_path = os.path.join(subfolder_path, filename)
                     all_objects.append(parse_txt_file(file_path, is_standard_answer, caption_folder, conversation_type, point_ext))
+                    file_count += 1
+            print(f"File count processed: {file_count}")
         output_file = os.path.join(
             os.path.dirname(__file__),
             f"overall_{pcl_list_tag if pcl_list_tag else os.path.basename(os.path.abspath(overall_dir))}"
