@@ -9,7 +9,7 @@ import argparse
 
 def main():
     parser = argparse.ArgumentParser(description="Process three input paths.")
-    parser.add_argument("path_where_softlinks_will_go", type=str, help="Path where softlinks live (this is expected to be the objaverse folder, where soft-links to 3D-FRONT .ply files will be made).")
+    parser.add_argument("path_where_softlinks_will_go", type=str, help="Path where softlinks live (this is expected to be the objaverse folder, where soft-links to .ply files will be made).")
     parser.add_argument("pcl_list", type=str, help="Path to the pcl_list .txt file. This file contains a list of point cloud files to make soft links to.")
     parser.add_argument("unpacked_point_clouds", type=str, help="Path to unpacked point clouds directory (e.g. /gscratch/melgin/3d-grand_unzipped/3D-FRONT).")
     parser.add_argument("--execute", action="store_true", help="Actually create softlinks. Dry-run by default.")
