@@ -13,6 +13,7 @@ def main():
     parser.add_argument("pcl_list", type=str, help="Path to the pcl_list .txt file. This file contains a list of point cloud files to make soft links to.")
     parser.add_argument("unpacked_point_clouds", type=str, help="Path to unpacked point clouds directory (e.g. /gscratch/melgin/3d-grand_unzipped/3D-FRONT).")
     parser.add_argument("--execute", action="store_true", help="Actually create softlinks. Dry-run by default.")
+    parser.add_argument("--extra_scene_folder", action="store_true", help="Place an extra scene folder in the path, useful for 3D-FRONT.")
 
     args = parser.parse_args()
     dry_run = not args.execute
@@ -30,7 +31,10 @@ def main():
             if not line or "@" not in line:
                 continue
             identifier, scene = line.split("@", 1)
-            src = os.path.join(args.unpacked_point_clouds, identifier, scene, f"{scene}.ply")
+            if args.extra_scene_folder:
+                src = os.path.join(args.unpacked_point_clouds, identifier, scene, f"{scene}.ply")
+            else:
+                src = os.path.join(args.unpacked_point_clouds, identifier, f"{scene}.ply")
             dest = os.path.join(args.path_where_softlinks_will_go, f"{identifier}@{scene}.ply")
             if dry_run:
                 print(f"[Dry-run] Would create softlink: {dest} -> {src}")
