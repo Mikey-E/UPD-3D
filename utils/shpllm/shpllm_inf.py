@@ -274,9 +274,8 @@ def main():
     parser.add_argument(
         "--upd_version_name",
         type=str,
-        required=False,
-        default="3D-FRONT",
-        help="Name of the upd version (e.g., '3D-FRONT').",
+        required=True,
+        help="Name of the upd version (e.g., 'Crops3D_gpt-5-nano').",
     )
     parser.add_argument(
         "--upd_version_name_subfolder",

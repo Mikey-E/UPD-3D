@@ -225,8 +225,8 @@ if __name__ == "__main__":
                         help="Path to the PointLLM model")
     parser.add_argument("--upd_text_folder_path", type=existing_dir, required=True, 
                         help="Path to the upd_text/ folder.")
-    parser.add_argument("--upd_version_name", type=str, required=False, 
-                        help="Name of the upd version (e.g., 'v1').", default="3D-FRONT")
+    parser.add_argument("--upd_version_name", type=str, required=True, 
+                        help="Name of the upd version (e.g., 'Crops3D_gpt-5-nano').")
     parser.add_argument("--upd_version_name_subfolder", type=str, required=True, 
                         help="Subfolder name for the upd version (e.g., 'standard').")
     parser.add_argument("--unzipped_point_cloud_path", type=existing_dir, required=True, 
