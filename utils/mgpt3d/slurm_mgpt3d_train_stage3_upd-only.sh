@@ -37,4 +37,4 @@ export WANDB_MODE=disabled #Otherwise it will give and error for trying to log t
 
 export PYTORCH_CUDA_ALLOC_CONF=max_split_size_mb:21 #most lenient
 
-CUDA_VISIBLE_DEVICES=0 python train.py --cfg-path ./train_configs/MiniGPT_3D/mgpt3d_stage3_upd-only.yaml
+CUDA_VISIBLE_DEVICES=0 python train.py --cfg-path ./train_configs/MiniGPT_3D/mgpt3d_train-config_stage3_upd-only.yaml
