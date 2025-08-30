@@ -5,6 +5,7 @@ This file takes a folder of _scored json files of model responses to UPD subsets
 import argparse
 import json
 import matplotlib.pyplot as plt
+from matplotlib.ticker import MaxNLocator
 import os
 import re
 
@@ -48,9 +49,9 @@ def main():
         print("WARNING: Not all categories have the same number of samples.")
     
     #Compute dual accuracies
+    dual_accuracies = {}
     if standard_file:
         standard_score_list = results[standard_file]
-        dual_accuracies = {}
         for json_file in json_files:
             if "standard" in json_file or "open_ended" in json_file:
                 dual_accuracies[json_file] = 0
@@ -121,13 +122,10 @@ def main():
     # Set x-axis limit to the maximum number of samples in any category
     max_samples = max(len(results[k]) for k in standard_upd_accuracies.keys())
     plt.xlim(0, max_samples)
-    # Ensure max_samples appears as a tickmark on the x-axis
-    current_ticks = plt.xticks()[0].tolist()
-    if max_samples not in current_ticks:
-        current_ticks.append(max_samples)
-        #If any tick is greater than max_samples, remove it
-        current_ticks = [tick for tick in current_ticks if tick <= max_samples]
-    plt.xticks(sorted(current_ticks))
+    # Hide the final tick at the upper bound but keep the axis ending at max_samples
+    ax = plt.gca()
+    ax.xaxis.set_major_locator(MaxNLocator(integer=True, prune='upper'))
+    plt.xlabel(f"Test Samples Graded Correct (of {max_samples})", fontsize=tick_fontsize)
     plt.tick_params(axis='x', labelsize=args.tick_fontsize)
 
     output_dir = "./results"
