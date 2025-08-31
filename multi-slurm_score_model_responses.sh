@@ -10,11 +10,34 @@
 #   - Additional arguments after the required ones are not currently supported; if
 #     needed you can extend this script.
 
-set -euo pipefail
+# Be strict but avoid exiting the parent shell if sourced
+set -uo pipefail
+
+# Detect if the script is being sourced
+is_sourced() {
+    # When sourced, BASH_SOURCE[0] != $0
+    [[ "${BASH_SOURCE[0]}" != "$0" ]]
+}
+
+# Exit this script safely: return if sourced, exit otherwise
+safe_exit() {
+    local code=${1:-0}
+    if is_sourced; then
+        return "$code"
+    else
+        exit "$code"
+    fi
+}
+
+die() {
+    # Print an error message and exit this script without killing the terminal
+    echo "Error: $*" >&2
+    safe_exit 1
+}
 
 if [ $# -lt 3 ]; then
     echo "Usage: $0 <directory> --answer_key <answer_key.json>" >&2
-    exit 1
+    safe_exit 1
 fi
 
 TARGET_DIR="$1"
@@ -22,27 +45,23 @@ shift || true # Save first arg to TARGET_DIR, remove it safely
 
 # Require explicit --answer_key
 if [ "${1:-}" != "--answer_key" ] || [ -z "${2:-}" ]; then
-    echo "Error: --answer_key <answer_key.json> is required" >&2
-    exit 1
+    die "--answer_key <answer_key.json> is required"
 fi
 ANSWER_KEY="$2"
 shift 2
 
 # No additional arguments supported
 if [ $# -gt 0 ]; then
-    echo "Error: unexpected extra arguments: $*" >&2
-    exit 1
+    die "unexpected extra arguments: $*"
 fi
 
 if [ ! -d "$TARGET_DIR" ]; then
-    echo "Error: Directory not found: $TARGET_DIR" >&2
-    exit 1
+    die "Directory not found: $TARGET_DIR"
 fi
 
 # Validate provided answer key path exists
 if [ ! -f "$ANSWER_KEY" ]; then
-    echo "Error: Answer key path does not exist: $ANSWER_KEY" >&2
-    exit 1
+    die "Answer key path does not exist: $ANSWER_KEY"
 fi
 
 echo "Submitting scoring jobs for JSON files in: $TARGET_DIR" >&2
