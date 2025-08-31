@@ -4,8 +4,8 @@
 # Notes:
 #   - For each *.json file directly inside <directory>, this script submits
 #     slurm_score_model_responses.sh via sbatch.
-#   - An answer key must always be provided via --answer_key and will be passed
-#     to every job (including non-"standard" files).
+#   - An answer key must always be provided via --answer_key, but it will only be
+#     passed to jobs whose filename ends with "standard.json". Other files run without it.
 #   - Non-JSON files are ignored. Subdirectories are not traversed.
 #   - Additional arguments after the required ones are not currently supported; if
 #     needed you can extend this script.
@@ -46,7 +46,7 @@ if [ ! -f "$ANSWER_KEY" ]; then
 fi
 
 echo "Submitting scoring jobs for JSON files in: $TARGET_DIR" >&2
-echo "Using answer key: $ANSWER_KEY" >&2
+echo "Answer key provided: $ANSWER_KEY" >&2
 
 submitted=0
 skipped=0
@@ -64,9 +64,14 @@ for file in "$TARGET_DIR"/*.json; do
 
     base="$(basename "$file")"
 
-    # Always submit with the provided answer key
-    echo "Submitting: $base (with answer key)" >&2
-    sbatch slurm_score_model_responses.sh "$file" --answer_key "$ANSWER_KEY"
+    # Pass answer key only if filename ends with "standard.json"; otherwise omit
+    if [[ "$base" == *standard.json ]]; then
+        echo "Submitting: $base (with answer key)" >&2
+        sbatch slurm_score_model_responses.sh "$file" --answer_key "$ANSWER_KEY"
+    else
+        echo "Submitting: $base" >&2
+        sbatch slurm_score_model_responses.sh "$file"
+    fi
     submitted=$((submitted+1))
     sleep 0.2 # Tiny sleep to avoid hammering scheduler
 done
