@@ -19,7 +19,7 @@ def main():
     json_file = args.json_file
 
     # Require answer_key if "standard" is in the json filename
-    if "standard" in os.path.basename(json_file) and not args.answer_key:
+    if json_file.endswith("standard.json") and not args.answer_key:
         parser.error("--answer_key is required when 'standard' is in the JSON filename.")
 
     # Load the JSON file into a Python dictionary
@@ -34,7 +34,7 @@ def main():
         point_cloud = item[0]
         current_prompt = scoring_prompt
         current_prompt += f"\nQUESTION:{item[1]["prompt"]}"
-        if args.answer_key:
+        if args.answer_key and json_file.endswith("standard.json"):
             with open(args.answer_key, 'r') as f:
                 answer_key = json.load(f)
             if point_cloud in answer_key:
