@@ -1,10 +1,10 @@
 #!/bin/bash
 # Submit a scoring SLURM job for every JSON file in a directory.
-# Usage:  ./multi-slurm_score_model_responses.sh <directory> --answer-key <answer_key.json>
+# Usage:  ./multi-slurm_score_model_responses.sh <directory> --answer_key <answer_key.json>
 # Notes:
 #   - For each *.json file directly inside <directory>, this script submits
 #     slurm_score_model_responses.sh via sbatch.
-#   - An answer key must always be provided via --answer-key and will be passed
+#   - An answer key must always be provided via --answer_key and will be passed
 #     to every job (including non-"standard" files).
 #   - Non-JSON files are ignored. Subdirectories are not traversed.
 #   - Additional arguments after the required ones are not currently supported; if
@@ -13,16 +13,16 @@
 set -euo pipefail
 
 if [ $# -lt 3 ]; then
-    echo "Usage: $0 <directory> --answer-key <answer_key.json>" >&2
+    echo "Usage: $0 <directory> --answer_key <answer_key.json>" >&2
     exit 1
 fi
 
 TARGET_DIR="$1"
 shift || true # Save first arg to TARGET_DIR, remove it safely
 
-# Require explicit --answer-key
-if [ "${1:-}" != "--answer-key" ] || [ -z "${2:-}" ]; then
-    echo "Error: --answer-key <answer_key.json> is required" >&2
+# Require explicit --answer_key
+if [ "${1:-}" != "--answer_key" ] || [ -z "${2:-}" ]; then
+    echo "Error: --answer_key <answer_key.json> is required" >&2
     exit 1
 fi
 ANSWER_KEY="$2"
