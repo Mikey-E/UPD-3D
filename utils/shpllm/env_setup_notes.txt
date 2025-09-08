@@ -1,0 +1,61 @@
+https://github.com/qizekun/ShapeLLM commit 19 (f754b0d)
+
+Use an l40s or a30 node with at least 64G of memory unless doing an h100 build. For an h100 build, salloc at least 96G of mem
+
+git clone https://github.com/qizekun/ShapeLLM.git
+cd ShapeLLM
+
+(normal)
+    conda create -n shapellm python=3.10 -y
+(h100)
+    conda create -n shapellm_h100 -c nvidia/label/cuda-11.8.0 cuda-toolkit=11.8.0 python=3.10
+
+conda activate shapellm
+
+make the activation script in the conda shapellm/etc/conda/activate.d directory: lmod.sh (or-any-name.sh)
+(medbow)
+    module purge
+    module load gcc/11.4.0
+    module load cuda-toolkit/11.7.1
+(medbow h100)
+    module purge
+    export CUDA_HOME=$CONDA_PREFIX
+    export PATH=$CUDA_HOME/bin:$PATH
+    export LD_LIBRARY_PATH=$CUDA_HOME/lib64:$LD_LIBRARY_PATH
+(derecho)
+    will need gcc 11: conda install -c conda-forge gcc=11 gxx=11 -y
+(derecho)
+    module load ncarenv/23.09
+    module load cuda/11.7.1
+    export CC=/glade/work/melgin/miniconda3/envs/shapellm/bin/gcc
+    export CXX=/glade/work/melgin/miniconda3/envs/shapellm/bin/g++
+
+conda deactivate
+conda activate shapellm
+
+pip install --upgrade pip  # enable PEP 660 support
+
+(normal cuda 11.7)
+    python -m pip install torch==2.0.1+cu117 torchvision==0.15.2+cu117 --extra-index-url https://download.pytorch.org/whl/cu117
+    python -m pip install flash-attn==2.5.3 --no-build-isolation
+(h100 cuda 11.8)
+    comment out pyproject.toml line that installs torch and torchvision
+    conda install -c conda-forge gcc=11 gxx=11
+    python -m pip install torch==2.0.1+cu118 torchvision==0.15.2+cu118 --extra-index-url https://download.pytorch.org/whl/cu118
+    python -m pip install flash-attn==2.5.3 --no-build-isolation
+
+pip install -e .
+pip install -e ".[train]"
+pip install "git+https://github.com/erikwijmans/Pointnet2_PyTorch.git#egg=pointnet2_ops&subdirectory=pointnet2_ops_lib"
+
+-----------
+
+2025_07_07: There are unresolved issues around cap3d_pcs in DATA.md e.g. the folder/link is now gone/broken.
+The cap3d_pcs folder will need to come from https://huggingface.co/datasets/tiange/Cap3D/tree/main/misc/PointCloud_pt_zips (commit 1, 3a9451a)
+
+-----------
+
+To avoid cuda out of memory errors, pretraining may require setting training batch size from 32 to 16, as well as giving the #SBATCH --exclusive in the job script. It has worked on a vl40s, albeit slowly
+
+----------
+2025_07_30: Have made a scripts/finetune-upd.sh in preparation for finetuning the model on the UPD dataset

@@ -1,0 +1,103 @@
+https://github.com/TangYuan96/MiniGPT-3D Commit 12: 609082e
+----------
+salloc an l40s or a30. H100s will give an sm_90 error
+I have tried to get this to work with cuda 11.8 for the h100s. That includes:
+-environment.yml changes for 11.8
+-conda install -c nvidia/label/cuda-11.8.0 cuda-toolkit=11.8.0
+-   export CUDA_HOME=$CONDA_PREFIX
+    export PATH=$CUDA_HOME/bin:$PATH
+    export LD_LIBRARY_PATH=$CUDA_HOME/lib64:$LD_LIBRARY_PATH
+-pip install torch==2.0.0+cu118 torchvision==0.15.1+cu118 torchaudio==2.0.1 --index-url https://download.pytorch.org/whl/cu118
+The environment builds but errors still result when running the code. They didn't use a build like this; it's plausible that getting MiniGPT3D to run this way is not possible
+
+git clone https://github.com/TangYuan96/MiniGPT-3D.git
+
+(normal)
+conda env create -f environment.yml
+conda activate minigpt_3d
+bash env_install.sh
+
+Follow the data preparation and weight preparation steps.
+
+------------
+Code modifications
+    ft-upd-only
+        May need the minigpt4/datasets/datasets/object_point_dataset.py to have this modified function:
+
+        import open3d as o3d
+
+            def _load_objaverse_point_cloud(self, object_id):
+                #@@@orig
+                # filename = f"{object_id}_{self.pointnum}.npy"
+                #@@@new
+                if '@' in object_id:
+                    filename = f"{object_id}.ply"
+                else:
+                    filename = f"{object_id}_{self.pointnum}.npy"
+
+                # point_cloud = np.load(os.path.join(self.data_path, filename)) #@@@orig
+                #@@@new
+                pcd = o3d.io.read_point_cloud(os.path.join(self.data_path, filename))
+                xyz = np.asarray(pcd.points)
+                if pcd.has_colors():
+                    colors = np.asarray(pcd.colors)
+                else:
+                    colors = np.zeros_like(xyz)
+                # Stack to get (N, 6): x, y, z, r, g, b
+                pc6 = np.hstack([xyz, colors])
+                target_n = 8192
+                if pc6.shape[0] >= target_n:
+                    idx = np.random.choice(pc6.shape[0], target_n, replace=False)
+                    pc6 = pc6[idx]
+                else: #Just add points of zeros to the end
+                    pad = np.zeros((target_n - pc6.shape[0], 6), dtype=pc6.dtype)
+                    pc6 = np.vstack([pc6, pad])
+                point_cloud = pc6
+
+                if not self.use_color:
+                    point_cloud = point_cloud[:, :3]
+                    #@@@new
+                    raise Exception("@@@Color is being omitted; that should not happen!")
+
+                return point_cloud
+
+---------
+Dataset modifications:
+ft-comb has
+    data/anno_data (has only 1 file with the UPD text data combined into it)
+        PointLLM_brief_description_660K.json
+    data/objaverse_data (has pointers to 3D-FRONT .ply files mixed with the original .npy files)
+        'ffa406e2-6e48-4c38-8072-cffca7b2633b@Hallway-2369.ply' -> /gscratch/melgin/3d-grand_unzipped/3D-FRONT/ffa406e2-6e48-4c38-8072-cffca7b2633b/Hallway-2369/Hallway-2369.ply
+        'ffa406e2-6e48-4c38-8072-cffca7b2633b@StorageRoom-2326.ply' -> /gscratch/melgin/3d-grand_unzipped/3D-FRONT/ffa406e2-6e48-4c38-8072-cffca7b2633b/StorageRoom-2326/StorageRoom-2326.ply
+        ...
+
+ft-upd-only_3D-FRONT
+    data/anno_data
+        object_ids_660K.txt -> /project/3dllms/melgin/UPD-3D/pcl_lists/3D-FRONT_train.txt
+        PointLLM_brief_description_660K_filtered.json -> /project/3dllms/melgin/UPD-3D/utils/data_reformats/overall_3D-FRONT_train_minus_val.json
+        PointLLM_brief_description_660K.json -> /project/3dllms/melgin/UPD-3D/utils/data_reformats/overall_3D-FRONT_train_minus_val.json
+        PointLLM_brief_description_val_200_GT.json -> /project/3dllms/melgin/UPD-3D/utils/data_reformats/overall_3D-FRONT_val_subset_of_train.json
+        PointLLM_brief_description_val_3000_GT.json -> /project/3dllms/melgin/UPD-3D/utils/data_reformats/overall_3D-FRONT_val_subset_of_train.json
+        PointLLM_complex_instruction_70K.json -> /project/3dllms/melgin/UPD-3D/utils/data_reformats/overall_3D-FRONT_train_minus_val.json
+        val_object_ids_3000.txt -> /project/3dllms/melgin/UPD-3D/pcl_lists/3D-FRONT_val_subset_of_train.txt
+    data/objaverse_data (has pointers to 3D-FRONT .ply files only)
+        'ffa406e2-6e48-4c38-8072-cffca7b2633b@Hallway-2369.ply' -> /gscratch/melgin/3d-grand_unzipped/3D-FRONT/ffa406e2-6e48-4c38-8072-cffca7b2633b/Hallway-2369/Hallway-2369.ply
+        'ffa406e2-6e48-4c38-8072-cffca7b2633b@StorageRoom-2326.ply' -> /gscratch/melgin/3d-grand_unzipped/3D-FRONT/ffa406e2-6e48-4c38-8072-cffca7b2633b/StorageRoom-2326/StorageRoom-2326.ply
+        ...
+    for stage 3, had to add conversation_type fields to each object in the 70K dataset
+
+ft-upd-only_Crops3D_gpt-5-nano
+    in the stage 1 train config
+        datasets:
+            Objaverse_brief:
+                batch_size: 9   # 9
+                text_processor:
+                    train:
+                        name: "blip_caption"
+                build_info:
+                    conversation_types: ["simple_description", "single_round"]
+
+-------
+
+derecho
+    need dataset set up. Everything else appears set up.
