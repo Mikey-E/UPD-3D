@@ -1,4 +1,4 @@
-"""File to run PointLLM inference programmatically for batch evaluation."""
+"""File to run PointLLM inference programmatically for batch evaluation. Placed in pointllm/eval"""
 
 #pointllm/eval/pllm_inf.py
 
@@ -226,7 +226,7 @@ if __name__ == "__main__":
     parser.add_argument("--upd_text_folder_path", type=existing_dir, required=True, 
                         help="Path to the upd_text/ folder.")
     parser.add_argument("--upd_version_name", type=str, required=True, 
-                        help="Name of the upd version (e.g., 'Crops3D_gpt-5-nano').")
+                        help="Name of the upd version (e.g., 'v1').")
     parser.add_argument("--upd_version_name_subfolder", type=str, required=True, 
                         help="Subfolder name for the upd version (e.g., 'standard').")
     parser.add_argument("--unzipped_point_cloud_path", type=existing_dir, required=True, 

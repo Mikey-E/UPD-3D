@@ -11,6 +11,20 @@
 #SBATCH --mem=48G
 #SBATCH --time=7-00:00:00
 
+# Fail fast and keep a clean environment
+set -euo pipefail
+
+# Ensure we run from the repo root, robustly resolving symlinks
+SCRIPT_PATH="$(readlink -f "${BASH_SOURCE[0]}")"
+SCRIPT_DIR="$(dirname "$SCRIPT_PATH")"
+
+# Ensure Python can import the top-level package regardless of cwd quirks
+export PYTHONPATH="$SCRIPT_DIR:${PYTHONPATH:-}"
+
+echo "[pllm_inf] Working dir: $(pwd)" >&2
+echo "[pllm_inf] PYTHONPATH: $PYTHONPATH" >&2
+ls -la "$SCRIPT_DIR/pointllm" >/dev/null 2>&1 || echo "[pllm_inf][WARN] pointllm/ not found under $SCRIPT_DIR" >&2
+
 #This ensures "conda activate <env>" works in non-interactive shells.
 #(running "conda init" every time won't work.)
 if [ -n "$CONDA_INSTALL_PATH" ]; then
@@ -32,4 +46,8 @@ fi
 # Now the activation should work
 conda activate pointllm
 
-python ./pointllm/eval/pllm_inf.py "$@"
+cd /project/3dllms/melgin/PointLLM_ft-comb/
+
+# Run as a module so Python resolves the top-level package `pointllm`
+python pointllm/eval/pllm_inf.py "$@"
+# python -m pointllm.eval.pllm_inf "$@"
