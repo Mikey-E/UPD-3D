@@ -74,6 +74,7 @@ for category in "${categories[@]}"; do
     python analyze_scored_responses_radar_models.py \
       --title "$formatted_title" \
       --output_folder_name "UPD-3D-FRONT Model Performance Comparison" \
+      --no_legend \
       --series "Base Model $formatted_title Performance" \
         ./scored_model_responses/3D-FRONT_test_mgpt3d/inf_rslts_mgpt3d_3D-FRONT_test_${category}_scored.json \
         scored_model_responses/3D-FRONT_test_gplm/inf_rslts_gplm_3D-FRONT_test_${category}_scored.json \

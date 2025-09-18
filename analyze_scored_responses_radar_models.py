@@ -157,10 +157,19 @@ Each file becomes a point on the radar chart (representing a model).
     parser.add_argument("--fontscale", type=float, default=1.0, help="Scale factor to multiply all font sizes.")
     parser.add_argument("--figsize_width", type=int, default=14, help="Width of the figure in inches.")
     parser.add_argument("--figsize_height", type=int, default=10, help="Height of the figure in inches.")
-    parser.add_argument("--legend_bbox_to_anchor", type=str, default="1.05,1.0", help="Legend position as 'x,y'.")
+    parser.add_argument("--legend_bbox_to_anchor", type=str, default="1.02,1.0", help="Legend position as 'x,y'.")
     parser.add_argument("--fig_pad", type=float, default=1.5, help="Padding for the figure to prevent cutoff.")
     parser.add_argument("--use_accuracy", action="store_true", help="Use accuracy (0-1) instead of raw counts.")
     parser.add_argument("--output_folder_name", type=str, help="Custom output folder name within ./results/multi_model_radar/")
+    parser.add_argument("--no_legend", action="store_true", help="Disable legend generation (no legend will be shown).")
+    
+    # Spacing consistency parameters
+    parser.add_argument("--title_y_position", type=float, default=1.08, help="Base Y position for title.")
+    parser.add_argument("--title_line_spacing", type=float, default=0.05, help="Additional Y spacing per title line.")
+    parser.add_argument("--chars_per_line", type=int, default=50, help="Characters per line for title wrapping estimation.")
+    parser.add_argument("--top_margin_base", type=float, default=0.95, help="Base top margin for layout rect.")
+    parser.add_argument("--top_margin_per_line", type=float, default=0.03, help="Top margin reduction per additional title line.")
+    parser.add_argument("--layout_rect_right", type=float, default=0.85, help="Right boundary for layout rect (reserves space for legend).")
     
     # Parse known args first, then handle the series manually
     args, remaining = parser.parse_known_args()
@@ -256,26 +265,37 @@ Each file becomes a point on the radar chart (representing a model).
     legend_x, legend_y = map(float, args.legend_bbox_to_anchor.split(','))
     
     # Calculate title height dynamically based on title length and font size
-    # Estimate character width and determine if title will wrap
-    title_chars_per_line = max(50, args.figsize_width * 6)  # Rough estimate
+    # Use configurable parameters for consistency
+    title_chars_per_line = max(args.chars_per_line, args.figsize_width * 6)  # Use flag with fallback
     title_lines = max(1, len(args.title) // title_chars_per_line + (1 if len(args.title) % title_chars_per_line > 0 else 0))
     
-    # Adjust title y-position based on estimated lines
-    title_y_pos = 1.08 + (title_lines - 1) * 0.05
+    # Adjust title y-position based on estimated lines using configurable parameters
+    title_y_pos = args.title_y_position + (title_lines - 1) * args.title_line_spacing
     
     # Set title and legend with consistent positioning
     plt.title(args.title, size=title_fontsize, y=title_y_pos, wrap=True)
-    plt.legend(loc='center left', bbox_to_anchor=(legend_x, legend_y), fontsize=legend_fontsize)
+    
+    # Add legend only if not disabled
+    if not args.no_legend:
+        plt.legend(loc='center left', bbox_to_anchor=(legend_x, legend_y), fontsize=legend_fontsize)
     
     # Set y-axis limit
     ax.set_ylim(0, max_y_value)
     
     # Calculate rect parameters to reserve space for title and legend consistently
-    # Reserve more top space for longer titles
-    top_margin = 0.95 - (title_lines - 1) * 0.03
+    # Use configurable parameters for consistent spacing
+    # Adjust layout based on whether legend is present
+    if args.no_legend:
+        # No legend: use full width for chart
+        layout_right = 1.0
+    else:
+        # Legend present: reserve space on the right
+        layout_right = args.layout_rect_right
+    
+    top_margin = args.top_margin_base - (title_lines - 1) * args.top_margin_per_line
     
     # Add padding to prevent text cutoff with dynamic layout adjustment
-    plt.tight_layout(pad=args.fig_pad, rect=[0, 0, 0.75, top_margin])
+    plt.tight_layout(pad=args.fig_pad, rect=[0, 0, layout_right, top_margin])
     
     # Save the figure
     base_output_dir = "./results/multi_model_radar"
