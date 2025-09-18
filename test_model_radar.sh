@@ -72,7 +72,7 @@ for category in "${categories[@]}"; do
     formatted_title=$(format_title "$category")
     
     python analyze_scored_responses_radar_models.py \
-      --title "3D-FRONT Model Performance Comparison - $formatted_title" \
+      --title "UPD-3D-FRONT Model Performance Comparison - $formatted_title" \
       --series "Base Model $formatted_title Performance" \
         ./scored_model_responses/3D-FRONT_test_mgpt3d/inf_rslts_mgpt3d_3D-FRONT_test_${category}_scored.json \
         scored_model_responses/3D-FRONT_test_gplm/inf_rslts_gplm_3D-FRONT_test_${category}_scored.json \
