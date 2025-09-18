@@ -56,9 +56,24 @@ def parse_file_lists(args):
             
             series_name = args.remaining_args[i + 1]
             file_paths = []
+            custom_color = None
+            
+            # Check if the next argument after series name could be a color
+            # (before any file paths that should exist)
+            j = i + 2
+            if j < len(args.remaining_args):
+                potential_color = args.remaining_args[j]
+                # Check if it's a valid color name (not a file path)
+                valid_colors = ['red', 'blue', 'green', 'orange', 'purple', 'brown', 'pink', 
+                               'gray', 'grey', 'olive', 'cyan', 'magenta', 'yellow', 'black',
+                               'lightblue', 'lightgreen', 'lightcoral', 'lightyellow', 'lightgray',
+                               'darkblue', 'darkgreen', 'darkred', 'darkgray', 'navy', 'maroon']
+                
+                if potential_color.lower() in valid_colors and not potential_color.endswith('.json'):
+                    custom_color = potential_color.lower()
+                    j += 1  # Skip the color argument
             
             # Collect file paths until we hit another --series or end of args
-            j = i + 2
             while j < len(args.remaining_args) and args.remaining_args[j] != '--series':
                 file_paths.append(args.remaining_args[j])
                 j += 1
@@ -68,7 +83,8 @@ def parse_file_lists(args):
             
             series_data.append({
                 'name': series_name,
-                'files': file_paths
+                'files': file_paths,
+                'color': custom_color
             })
             
             i = j
@@ -115,7 +131,8 @@ def process_series_files(series_data):
         processed_series.append({
             'name': series['name'],
             'model_scores': model_scores,
-            'max_samples': max_samples
+            'max_samples': max_samples,
+            'color': series.get('color')  # Preserve the custom color
         })
     
     return processed_series, sorted(list(all_model_names))
@@ -142,7 +159,6 @@ Each file becomes a point on the radar chart (representing a model).
     parser.add_argument("--figsize_height", type=int, default=10, help="Height of the figure in inches.")
     parser.add_argument("--legend_bbox_to_anchor", type=str, default="1.3,1.1", help="Legend position as 'x,y'.")
     parser.add_argument("--fig_pad", type=float, default=1.5, help="Padding for the figure to prevent cutoff.")
-    parser.add_argument("--output_name", type=str, help="Custom name for the output file (without extension).")
     parser.add_argument("--use_accuracy", action="store_true", help="Use accuracy (0-1) instead of raw counts.")
     
     # Parse known args first, then handle the series manually
@@ -183,8 +199,8 @@ Each file becomes a point on the radar chart (representing a model).
     # Create figure and polar axis
     fig, ax = plt.subplots(figsize=(args.figsize_width, args.figsize_height), subplot_kw=dict(polar=True))
     
-    # Colors for different series
-    colors = ['blue', 'red', 'green', 'purple', 'orange', 'brown', 'pink', 'gray', 'olive', 'cyan']
+    # Default colors for different series
+    default_colors = ['blue', 'red', 'green', 'purple', 'orange', 'brown', 'pink', 'gray', 'olive', 'cyan']
     max_y_value = 0
     
     # Plot each series' data
@@ -204,11 +220,27 @@ Each file becomes a point on the radar chart (representing a model).
         # Close the loop for plotting
         values += [values[0]]
         
+        # Determine color based on custom color or series name
+        if data.get('color'):
+            # Use custom color if provided
+            color = data['color']
+        else:
+            # Fall back to keyword-based color selection
+            series_name_lower = data['name'].lower()
+            if 'standard' in series_name_lower:
+                color = 'blue'
+            elif 'dual' in series_name_lower:
+                color = 'red'
+            elif 'upd' in series_name_lower:
+                color = 'lightblue'
+            else:
+                # Use default color cycling for other series
+                color = default_colors[series_idx % len(default_colors)]
+        
         # Plot the series
-        color_idx = series_idx % len(colors)
         ax.plot(angles, values, 'o-', linewidth=2, 
-                label=data['name'], color=colors[color_idx])
-        ax.fill(angles, values, alpha=0.1, color=colors[color_idx])
+                label=data['name'], color=color)
+        ax.fill(angles, values, alpha=0.1, color=color)
         
         if args.use_accuracy:
             max_y_value = max(max_y_value, 1.0)  # Accuracy is 0-1
@@ -236,14 +268,25 @@ Each file becomes a point on the radar chart (representing a model).
     output_dir = "./results/multi_model_radar"
     os.makedirs(output_dir, exist_ok=True)
     
-    # Create output filename
-    if args.output_name:
-        name_for_saving = args.output_name
-    else:
-        name_for_saving = "model_comparison_radar"
+    # Create output filename from series titles
+    def sanitize_name(name):
+        """Convert a series name to a filename-safe string."""
+        # Replace spaces and special characters with underscores
+        sanitized = re.sub(r'[^a-zA-Z0-9_-]', '_', name)
+        # Remove multiple consecutive underscores
+        sanitized = re.sub(r'_+', '_', sanitized)
+        # Remove leading/trailing underscores
+        return sanitized.strip('_')
     
-    plt.savefig(os.path.join(output_dir, f"{name_for_saving}_radar.png"), dpi=300, bbox_inches='tight')
-    print(f"Radar chart saved to ./results/multi_model_radar/{name_for_saving}_radar.png")
+    # Sanitize title and series names
+    title_clean = sanitize_name(args.title)
+    series_names = [sanitize_name(series['name']) for series in processed_series]
+    series_part = "_vs_".join(series_names)
+    
+    name_for_saving = f"radar_multi-model_{title_clean}_{series_part}"
+    
+    plt.savefig(os.path.join(output_dir, f"{name_for_saving}.png"), dpi=300, bbox_inches='tight')
+    print(f"Radar chart saved to ./results/multi_model_radar/{name_for_saving}.png")
 
 if __name__ == "__main__":
     main()
