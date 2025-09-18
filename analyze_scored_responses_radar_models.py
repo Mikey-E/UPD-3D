@@ -233,7 +233,7 @@ Each file becomes a point on the radar chart (representing a model).
     plt.tight_layout(pad=args.fig_pad)
     
     # Save the figure
-    output_dir = "./results"
+    output_dir = "./results/multi_model_radar"
     os.makedirs(output_dir, exist_ok=True)
     
     # Create output filename
@@ -243,7 +243,7 @@ Each file becomes a point on the radar chart (representing a model).
         name_for_saving = "model_comparison_radar"
     
     plt.savefig(os.path.join(output_dir, f"{name_for_saving}_radar.png"), dpi=300, bbox_inches='tight')
-    print(f"Radar chart saved to ./results/{name_for_saving}_radar.png")
+    print(f"Radar chart saved to ./results/multi_model_radar/{name_for_saving}_radar.png")
 
 if __name__ == "__main__":
     main()
