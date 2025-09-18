@@ -1,6 +1,8 @@
 """
 This file takes lists of scored json files and creates a radar chart where each file becomes a point on the radar.
-This is useful for comparing different models on the same question types.
+This is useful for comparing diffe    parser.add_argument("--tick_fontsize", type=int, default=28, help="Font size for axis ticks and labels.")
+    parser.add_argument("--legend_fontsize", type=int, default=26, help="Font size for legend text.")
+    parser.add_argument("--title_fontsize", type=int, default=38, help="Font size for title text.")t models on the same question types.
 """
 
 import argparse
@@ -151,9 +153,10 @@ Each file becomes a point on the radar chart (representing a model).
     )
     
     parser.add_argument("--title", type=str, required=True, help="Graph title.")
-    parser.add_argument("--tick_fontsize", type=int, default=14, help="Font size for axis ticks and labels.")
-    parser.add_argument("--legend_fontsize", type=int, default=13, help="Font size for legend text.")
-    parser.add_argument("--title_fontsize", type=int, default=19, help="Font size for title text.")
+    parser.add_argument("--tick_fontsize", type=int, default=28, help="Font size for axis ticks and labels.")
+    parser.add_argument("--legend_fontsize", type=int, default=26, help="Font size for legend text.")
+    parser.add_argument("--title_fontsize", type=int, default=38, help="Font size for title text.")
+    parser.add_argument("--radial_fontsize", type=int, default=21, help="Font size for radial axis labels (concentric circle numbers).")
     parser.add_argument("--fontscale", type=float, default=1.0, help="Scale factor to multiply all font sizes.")
     parser.add_argument("--figsize_width", type=int, default=14, help="Width of the figure in inches.")
     parser.add_argument("--figsize_height", type=int, default=10, help="Height of the figure in inches.")
@@ -190,6 +193,7 @@ Each file becomes a point on the radar chart (representing a model).
     tick_fontsize = int(args.tick_fontsize * args.fontscale)
     legend_fontsize = int(args.legend_fontsize * args.fontscale)
     title_fontsize = int(args.title_fontsize * args.fontscale)
+    radial_fontsize = int(args.radial_fontsize * args.fontscale)
     
     # Process all series
     processed_series, all_model_names = process_series_files(series_data)
@@ -260,6 +264,9 @@ Each file becomes a point on the radar chart (representing a model).
     # Set category labels (model names)
     ax.set_xticks(angles[:-1])
     ax.set_xticklabels(all_model_names[:-1], size=tick_fontsize)
+    
+    # Set radial axis label font size (concentric circle numbers)
+    ax.tick_params(axis='y', labelsize=radial_fontsize)
     
     # Parse the legend position
     legend_x, legend_y = map(float, args.legend_bbox_to_anchor.split(','))
