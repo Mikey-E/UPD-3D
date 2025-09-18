@@ -78,7 +78,7 @@ for category in "${categories[@]}"; do
         scored_model_responses/3D-FRONT_test_gplm/inf_rslts_gplm_3D-FRONT_test_${category}_scored.json \
         scored_model_responses/3D-FRONT_test_pllm/inf_rslts_pllm_base_3D-FRONT_test_${category}_scored.json \
         scored_model_responses/3D-FRONT_test_shpllm_ft-cap3d/inf_rslts_shapellm-13b-general-v1.0-finetune_ft-cap3d_3D-FRONT_test_${category}_scored.json \
-        --series "UPD-3D-FRONT Trained/Finetuned Model $formatted_title Performance" green \
+        --series "Trained/Finetuned $formatted_title Performance" green \
         ./scored_model_responses/3D-FRONT_test_mgpt3d_ft-comb/inf_rslts_mgpt3d_ft-comb_3D-FRONT_test_${category}_scored.json \
         scored_model_responses/3D-FRONT_test_gplm_ft-comb/inf_rslts_gplm_ft-comb_3D-FRONT_test_${category}_scored.json \
         scored_model_responses/3D-FRONT_test_pllm_ft-comb/inf_rslts_pllm_ft-comb_3D-FRONT_test_${category}_scored.json \
