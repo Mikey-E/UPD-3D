@@ -155,11 +155,12 @@ Each file becomes a point on the radar chart (representing a model).
     parser.add_argument("--legend_fontsize", type=int, default=13, help="Font size for legend text.")
     parser.add_argument("--title_fontsize", type=int, default=19, help="Font size for title text.")
     parser.add_argument("--fontscale", type=float, default=1.0, help="Scale factor to multiply all font sizes.")
-    parser.add_argument("--figsize_width", type=int, default=12, help="Width of the figure in inches.")
+    parser.add_argument("--figsize_width", type=int, default=14, help="Width of the figure in inches.")
     parser.add_argument("--figsize_height", type=int, default=10, help="Height of the figure in inches.")
-    parser.add_argument("--legend_bbox_to_anchor", type=str, default="1.3,1.1", help="Legend position as 'x,y'.")
+    parser.add_argument("--legend_bbox_to_anchor", type=str, default="1.05,1.0", help="Legend position as 'x,y'.")
     parser.add_argument("--fig_pad", type=float, default=1.5, help="Padding for the figure to prevent cutoff.")
     parser.add_argument("--use_accuracy", action="store_true", help="Use accuracy (0-1) instead of raw counts.")
+    parser.add_argument("--output_folder_name", type=str, help="Custom output folder name within ./results/multi_model_radar/")
     
     # Parse known args first, then handle the series manually
     args, remaining = parser.parse_known_args()
@@ -254,18 +255,34 @@ Each file becomes a point on the radar chart (representing a model).
     # Parse the legend position
     legend_x, legend_y = map(float, args.legend_bbox_to_anchor.split(','))
     
-    # Set title and legend
-    plt.title(args.title, size=title_fontsize, y=1.1)
-    plt.legend(loc='upper right', bbox_to_anchor=(legend_x, legend_y), fontsize=legend_fontsize)
+    # Calculate title height dynamically based on title length and font size
+    # Estimate character width and determine if title will wrap
+    title_chars_per_line = max(50, args.figsize_width * 6)  # Rough estimate
+    title_lines = max(1, len(args.title) // title_chars_per_line + (1 if len(args.title) % title_chars_per_line > 0 else 0))
+    
+    # Adjust title y-position based on estimated lines
+    title_y_pos = 1.08 + (title_lines - 1) * 0.05
+    
+    # Set title and legend with consistent positioning
+    plt.title(args.title, size=title_fontsize, y=title_y_pos, wrap=True)
+    plt.legend(loc='center left', bbox_to_anchor=(legend_x, legend_y), fontsize=legend_fontsize)
     
     # Set y-axis limit
     ax.set_ylim(0, max_y_value)
     
-    # Add padding to prevent text cutoff
-    plt.tight_layout(pad=args.fig_pad)
+    # Calculate rect parameters to reserve space for title and legend consistently
+    # Reserve more top space for longer titles
+    top_margin = 0.95 - (title_lines - 1) * 0.03
+    
+    # Add padding to prevent text cutoff with dynamic layout adjustment
+    plt.tight_layout(pad=args.fig_pad, rect=[0, 0, 0.75, top_margin])
     
     # Save the figure
-    output_dir = "./results/multi_model_radar"
+    base_output_dir = "./results/multi_model_radar"
+    if args.output_folder_name:
+        output_dir = os.path.join(base_output_dir, args.output_folder_name)
+    else:
+        output_dir = base_output_dir
     os.makedirs(output_dir, exist_ok=True)
     
     # Create output filename from series titles
@@ -278,12 +295,11 @@ Each file becomes a point on the radar chart (representing a model).
         # Remove leading/trailing underscores
         return sanitized.strip('_')
     
-    # Sanitize title and series names
-    title_clean = sanitize_name(args.title)
+    # Create shorter filename from series names only
     series_names = [sanitize_name(series['name']) for series in processed_series]
     series_part = "_vs_".join(series_names)
     
-    name_for_saving = f"radar_multi-model_{title_clean}_{series_part}"
+    name_for_saving = f"rdr_mm_{series_part}"
     
     plt.savefig(os.path.join(output_dir, f"{name_for_saving}.png"), dpi=300, bbox_inches='tight')
     print(f"Radar chart saved to ./results/multi_model_radar/{name_for_saving}.png")
