@@ -95,7 +95,51 @@ def parse_file_lists(args):
     
     return series_data
 
-def process_series_files(series_data):
+def find_matching_standard_file(upd_file, series_files):
+    """Find the standard file that corresponds to the same model as the UPD file."""
+    # Extract model identifier from UPD file
+    upd_model_name = extract_model_name_from_path(upd_file)
+    
+    # Look for standard file with the same model
+    for file_path in series_files:
+        if "standard" in file_path.lower():
+            standard_model_name = extract_model_name_from_path(file_path)
+            if standard_model_name == upd_model_name:
+                return file_path
+    
+    return None
+
+def compute_dual_accuracy(upd_file, standard_file):
+    """Compute dual accuracy between UPD file and corresponding standard file."""
+    if not standard_file or not os.path.exists(standard_file):
+        print(f"WARNING: Standard file {standard_file} not found for dual accuracy computation.")
+        return 0, 0  # dual_correct, total
+    
+    # Load both files
+    with open(upd_file, 'r') as f:
+        upd_data = json.load(f)
+    
+    with open(standard_file, 'r') as f:
+        standard_data = json.load(f)
+    
+    # Extract scores
+    upd_scores = [item["score"] for item in upd_data.values()]
+    standard_scores = [item["score"] for item in standard_data.values()]
+    
+    # Check if both have same number of samples
+    if len(upd_scores) != len(standard_scores):
+        print(f"WARNING: Mismatch in sample count between {upd_file} ({len(upd_scores)}) and {standard_file} ({len(standard_scores)})")
+        return 0, len(upd_scores)
+    
+    # Count dual correct answers (both standard and UPD correct for same index)
+    dual_correct = 0
+    for i in range(len(upd_scores)):
+        if upd_scores[i] == 'T' and standard_scores[i] == 'T':
+            dual_correct += 1
+    
+    return dual_correct, len(upd_scores)
+
+def process_series_files(series_data, use_dual_accuracy=False):
     """Process all series and extract scores, treating each file as a radar point."""
     all_model_names = set()
     processed_series = []
@@ -108,26 +152,47 @@ def process_series_files(series_data):
             if not os.path.exists(json_file):
                 print(f"WARNING: File {json_file} does not exist, skipping.")
                 continue
+            
+            # Skip standard files when in dual mode - they're only used for dual accuracy calculation
+            if use_dual_accuracy and "standard" in json_file.lower():
+                continue
                 
             with open(json_file, 'r') as f:
                 data = json.load(f)
-            
-            # Extract scores and count correct answers
-            scores = [item["score"] for item in data.values()]
-            correct_count = len([score for score in scores if score == 'T'])
-            total_count = len(scores)
             
             # Get model name from file path
             model_name = extract_model_name_from_path(json_file)
             all_model_names.add(model_name)
             
-            model_scores[model_name] = {
-                'correct': correct_count,
-                'total': total_count,
-                'accuracy': correct_count / total_count if total_count > 0 else 0
-            }
+            if use_dual_accuracy:
+                # Check if this is an open_ended file (dual accuracy N/A)
+                if "open_ended" in json_file.lower():
+                    # For open_ended files, dual accuracy is 0 (or N/A)
+                    dual_correct = 0
+                    total_count = len([item["score"] for item in data.values()])
+                else:
+                    # Find the standard file that matches this specific model
+                    matching_standard_file = find_matching_standard_file(json_file, series['files'])
+                    dual_correct, total_count = compute_dual_accuracy(json_file, matching_standard_file)
+                
+                model_scores[model_name] = {
+                    'correct': dual_correct,
+                    'total': total_count,
+                    'accuracy': dual_correct / total_count if total_count > 0 else 0
+                }
+            else:
+                # Regular accuracy computation
+                scores = [item["score"] for item in data.values()]
+                correct_count = len([score for score in scores if score == 'T'])
+                total_count = len(scores)
+                
+                model_scores[model_name] = {
+                    'correct': correct_count,
+                    'total': total_count,
+                    'accuracy': correct_count / total_count if total_count > 0 else 0
+                }
             
-            max_samples = max(max_samples, total_count)
+            max_samples = max(max_samples, model_scores[model_name]['total'])
         
         # Store series data
         processed_series.append({
@@ -165,6 +230,7 @@ Each file becomes a point on the radar chart (representing a model).
     parser.add_argument("--use_accuracy", action="store_true", help="Use accuracy (0-1) instead of raw counts.")
     parser.add_argument("--output_folder_name", type=str, help="Custom output folder name within ./results/multi_model_radar/")
     parser.add_argument("--no_legend", action="store_true", help="Disable legend generation (no legend will be shown).")
+    parser.add_argument("--dual", action="store_true", help="Compute dual accuracy (both standard and UPD variant correct for same sample) instead of regular accuracy.")
     
     # Spacing consistency parameters
     parser.add_argument("--title_y_position", type=float, default=1.08, help="Base Y position for title.")
@@ -196,7 +262,7 @@ Each file becomes a point on the radar chart (representing a model).
     radial_fontsize = int(args.radial_fontsize * args.fontscale)
     
     # Process all series
-    processed_series, all_model_names = process_series_files(series_data)
+    processed_series, all_model_names = process_series_files(series_data, use_dual_accuracy=args.dual)
     
     if not all_model_names:
         print("No valid data found in any series.")
@@ -326,10 +392,13 @@ Each file becomes a point on the radar chart (representing a model).
     series_names = [sanitize_name(series['name']) for series in processed_series]
     series_part = "_vs_".join(series_names)
     
-    name_for_saving = f"rdr_mm_{series_part}"
+    # Add dual indicator to filename if using dual accuracy
+    prefix = "rdr_mm_dual_" if args.dual else "rdr_mm_"
+    name_for_saving = f"{prefix}{series_part}"
     
     plt.savefig(os.path.join(output_dir, f"{name_for_saving}.png"), dpi=300, bbox_inches='tight')
-    print(f"Radar chart saved to ./results/multi_model_radar/{name_for_saving}.png")
+    accuracy_type = "dual accuracy" if args.dual else "regular accuracy"
+    print(f"Radar chart ({accuracy_type}) saved to ./results/multi_model_radar/{name_for_saving}.png")
 
 if __name__ == "__main__":
     main()
