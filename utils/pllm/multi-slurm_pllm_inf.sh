@@ -15,11 +15,11 @@ subfolders=(
 
 for subfolder in "${subfolders[@]}"; do
     sbatch slurm_pllm_inf.sh \
-        --model_name ./outputs/PointLLM_train_stage2_3D-FRONT_attempt2/PointLLM_train_stage2/ \
+        --model_name ./outputs/PointLLM_train_stage2/PointLLM_train_stage2/ \
         --upd_text_folder_path /project/3dllms/melgin/UPD-3D/upd_text/ \
-        --unzipped_point_cloud_path /gscratch/melgin/3d-grand_unzipped/3D-FRONT/ \
-        --pcl_list_txt_file_path /project/3dllms/melgin/UPD-3D/pcl_lists/3D-FRONT_test.txt \
-        --json_tag ft-comb \
+        --unzipped_point_cloud_path /gscratch/melgin/CEA/Crops3D/ \
+        --pcl_list_txt_file_path /project/3dllms/melgin/UPD-3D/pcl_lists/Crops3D_test.txt \
+        --json_tag base \
         --upd_version_name_subfolder "$subfolder" \
-        --upd_version_name "3D-FRONT" 
+        --upd_version_name "Crops3D_gpt-5-nano"
 done
