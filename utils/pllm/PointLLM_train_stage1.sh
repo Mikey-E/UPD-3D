@@ -1,22 +1,28 @@
+#scripts/PointLLM_train_stage1.sh
+
 master_port=$((RANDOM % (65535 - 49152 + 1) + 49152))
 # Get the filename without extension
 filename=$(basename "$0" | cut -f 1 -d '.')
 
-dir_path=PointLLM
+dir_path=PointLLM_ft-comb
 model_name_or_path=checkpoints/PointLLM_7B_v1.1_init
-data_path=data/objaverse_data
-anno_path=data/anno_data/PointLLM_brief_description_660K_filtered.json # or PointLLM_brief_description_660K.json (including val sets)
-output_dir=outputs/PointLLM_train_stage1/$filename
+
+# data_path=data/objaverse_data
+data_path=data_ft-comb_Crops3D_gpt-5-nano/objaverse_data
+
+anno_path=data_ft-comb_Crops3D_gpt-5-nano/anno_data/PointLLM_brief_description_660K_filtered.json # or PointLLM_brief_description_660K.json (including val sets)
+
+# output_dir=outputs/PointLLM_train_stage1/$filename
+output_dir=outputs/PointLLM_train_stage1_ft-comb_Crops3D_gpt-5-nano/$filename
+
 point_backbone_ckpt=$model_name_or_path/point_bert_v1.2.pt
 
-# cd $dir_path
+cd $dir_path
 
-# --per_device_train_batch_size 16 \
 # --report_to wandb \
-# --model_max_length 2048 \
-# --nproc_per_node 8 \
+# --nproc_per_node 8
 PYTHONPATH=$dir_path:$PYTHONPATH \
-torchrun --nnodes=1 --nproc_per_node=8 --master_port=$master_port pointllm/train/train_mem.py \
+torchrun --nnodes=1 --nproc_per_node=4 --master_port=$master_port pointllm/train/train_mem.py \
     --model_name_or_path $model_name_or_path \
     --data_path $data_path \
     --anno_path $anno_path \
