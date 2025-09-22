@@ -1,6 +1,6 @@
-"""Batch inference for point clouds on ShapeLLM.
+"""Batch inference script for ShapeLLM on point clouds.
 
-This updates the old PointLLM inference script to the ShapeLLM stack (llava.* modules).
+This updates the old PointLLM script to the ShapeLLM stack (llava.* modules).
 It loads a ShapeLLM checkpoint, reads a list of identifier@scene pairs, the
 corresponding prompts from upd_text, and .ply point clouds, then runs inference
 and saves results to a JSON file.
@@ -39,6 +39,7 @@ from llava.mm_utils import (
 # Quiet down transformers logs if present
 try:
     import transformers  # type: ignore
+
     logging.getLogger("transformers").setLevel(logging.ERROR)
 except Exception:
     pass
@@ -60,8 +61,14 @@ def _parse_identifier_scene(line: str) -> Tuple[str, str]:
 
 
 def _ply_path(unzipped_point_cloud_path: str, identifier: str, scene: str) -> str:
-    # Expect: <unzipped>/<identifier>/<scene>/<scene>.ply
-    return os.path.join(unzipped_point_cloud_path, identifier, scene, f"{scene}.ply")
+    # Try new format first: <unzipped>/<identifier>/<scene>.ply
+    new_format_path = os.path.join(unzipped_point_cloud_path, identifier, f"{scene}.ply")
+    if os.path.isfile(new_format_path):
+        return new_format_path
+    
+    # Fall back to old format: <unzipped>/<identifier>/<scene>/<scene>.ply
+    old_format_path = os.path.join(unzipped_point_cloud_path, identifier, scene, f"{scene}.ply")
+    return old_format_path
 
 
 def _prompt_txt_path(updtext_versionfolder_subfolder_path: str, identifier_at_scene: str) -> str:
@@ -275,7 +282,7 @@ def main():
         "--upd_version_name",
         type=str,
         required=True,
-        help="Name of the upd version (e.g., 'Crops3D_gpt-5-nano').",
+        help="Name of the upd version (e.g., '3D-FRONT').",
     )
     parser.add_argument(
         "--upd_version_name_subfolder",
