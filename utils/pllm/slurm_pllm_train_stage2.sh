@@ -1,13 +1,13 @@
 #!/bin/bash
 #SBATCH --account=3dllms
-##SBATCH --partition=mb-h100
-#SBATCH --partition=mb-l40s
-##SBATCH --partition=mb-a30
 #SBATCH --job-name=pllm_train_stage2
+##SBATCH --partition=mb-vl40s
+##SBATCH --nodelist=vl40s-005
+#SBATCH --partition=mb-l40s
 #SBATCH --output=./slurm_logs/pllm_train_stage2_%j.out
 #SBATCH --error=./slurm_logs/pllm_train_stage2_%j.out
 #SBATCH --gres=gpu:8
-#SBATCH --mem=699G
+#SBATCH --mem=512G
 #SBATCH --time=7-00:00:00
 
 #This ensures "conda activate <env>" works in non-interactive shells.
