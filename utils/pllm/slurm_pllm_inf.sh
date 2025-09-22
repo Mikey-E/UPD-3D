@@ -1,7 +1,5 @@
 #!/bin/bash
 
-#Usage: sbatch slurm_pllm_inf.sh args/flags...
-
 #SBATCH --account=3dllms
 #SBATCH --job-name=pllm_inf
 #SBATCH --partition=mb-l40s,inv-ssheshap
@@ -13,19 +11,43 @@
 #SBATCH --mem=48G
 #SBATCH --time=7-00:00:00
 
-#This ensures conda activate works in non-interactive shells.
-#running conda init every time won't work. Just make sure to source the correct conda.sh
-if [ -n "$CONDA_INSTALL_PATH" ]; then
-    source $CONDA_INSTALL_PATH/etc/profile.d/conda.sh
-else
-    echo WARNING: CONDA_INSTALL_PATH is not set. Using default path.
-    source /project/3dllms/melgin/conda/etc/profile.d/conda.sh
-fi
+# Fail fast and keep a clean environment
+set -euo pipefail
 
-#Activate the conda environment just in case you didn't already in the command line.
+# Ensure we run from the repo root, robustly resolving symlinks
+SCRIPT_PATH="$(readlink -f "${BASH_SOURCE[0]}")"
+SCRIPT_DIR="$(dirname "$SCRIPT_PATH")"
+
+# Ensure Python can import the top-level package regardless of cwd quirks
+export PYTHONPATH="$SCRIPT_DIR:${PYTHONPATH:-}"
+
+echo "[pllm_inf] Working dir: $(pwd)" >&2
+echo "[pllm_inf] PYTHONPATH: $PYTHONPATH" >&2
+ls -la "$SCRIPT_DIR/pointllm" >/dev/null 2>&1 || echo "[pllm_inf][WARN] pointllm/ not found under $SCRIPT_DIR" >&2
+
+#This ensures "conda activate <env>" works in non-interactive shells.
+#(running "conda init" every time won't work.)
+if [ -n "$CONDA_INSTALL_PATH" ]; then
+    CONDA_SH=$CONDA_INSTALL_PATH/etc/profile.d/conda.sh
+    if [ ! -e "$CONDA_SH" ]; then
+        echo "ERROR: $CONDA_SH does not exist."
+        exit 1
+    fi
+    source "$CONDA_SH"
+else
+    CONDA_SH=/project/3dllms/melgin/conda/etc/profile.d/conda.sh
+    echo "WARNING: CONDA_INSTALL_PATH is not set. Trying $CONDA_SH"
+    if [ ! -e "$CONDA_SH" ]; then
+        echo "ERROR: $CONDA_SH does not exist."
+        exit 1
+    fi
+    source "$CONDA_SH"
+fi
+# Now the activation should work
 conda activate pointllm
 
-REPO_PATH="/project/3dllms/melgin/LLaVA-3D_for_UPD-3D"
-export PYTHONPATH="$REPO_PATH":$PYTHONPATH
+cd /project/3dllms/melgin/PointLLM_ft-comb/
 
-python ./pointllm/eval/pllm_inf.py "$@"
+# Run as a module so Python resolves the top-level package `pointllm`
+python pointllm/eval/pllm_inf.py "$@"
+# python -m pointllm.eval.pllm_inf "$@"
