@@ -1,6 +1,5 @@
-"""File to run PointLLM inference programmatically for batch evaluation. Placed in pointllm/eval"""
+"""File to run PointLLM inference programmatically for batch evaluation."""
 
-#pointllm/eval/pllm_inf.py
 
 import argparse
 from transformers import AutoTokenizer
@@ -39,11 +38,35 @@ def make_named_upd_txt_files(identifier_at_scene_list, updtext_versionfolder_sub
 def make_named_ply_files(identifier_at_scene_list, unzipped_point_cloud_path):
     """
     Returns a list of FakeUpload objects, each representing a point cloud file.
+    Tries new path format first (without extra folder), then falls back to old format.
     """
     results = []
+    new_format_count = 0
+    old_format_count = 0
+    missing_count = 0
+    
     for identifier_at_scene in identifier_at_scene_list:
         identifier, scene = identifier_at_scene.split('@')
-        results.append(FakeUpload(os.path.join(unzipped_point_cloud_path, identifier, scene, scene + ".ply"), identifier, scene))
+        
+        # Try new path format first (without extra folder): /path/identifier/scene.ply
+        new_path = os.path.join(unzipped_point_cloud_path, identifier, scene + ".ply")
+        
+        # Fall back to old path format (with extra folder): /path/identifier/scene/scene.ply
+        old_path = os.path.join(unzipped_point_cloud_path, identifier, scene, scene + ".ply")
+        
+        # Check which path exists and use that one
+        if os.path.exists(new_path):
+            results.append(FakeUpload(new_path, identifier, scene))
+            new_format_count += 1
+        elif os.path.exists(old_path):
+            results.append(FakeUpload(old_path, identifier, scene))
+            old_format_count += 1
+        else:
+            # If neither exists, use new path format as default (will fail later with clear error)
+            results.append(FakeUpload(new_path, identifier, scene))
+            missing_count += 1
+    
+    print(f"[INFO] Path format summary: {new_format_count} new format, {old_format_count} old format, {missing_count} missing files", flush=True)
     return results
 
 def load_point_cloud(file_path):
@@ -225,8 +248,8 @@ if __name__ == "__main__":
                         help="Path to the PointLLM model")
     parser.add_argument("--upd_text_folder_path", type=existing_dir, required=True, 
                         help="Path to the upd_text/ folder.")
-    parser.add_argument("--upd_version_name", type=str, required=True, 
-                        help="Name of the upd version (e.g., 'v1').")
+    parser.add_argument("--upd_version_name", type=str, required=False, 
+                        help="Name of the upd version (e.g., 'v1').", default="3D-FRONT")
     parser.add_argument("--upd_version_name_subfolder", type=str, required=True, 
                         help="Subfolder name for the upd version (e.g., 'standard').")
     parser.add_argument("--unzipped_point_cloud_path", type=existing_dir, required=True, 
