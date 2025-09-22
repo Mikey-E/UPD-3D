@@ -1,5 +1,3 @@
-#scripts/PointLLM_train_stage2.sh
-
 master_port=$((RANDOM % (65535 - 49152 + 1) + 49152))
 # Get the filename without extension
 filename=$(basename "$0" | cut -f 1 -d '.')
@@ -14,6 +12,7 @@ output_dir=outputs/PointLLM_train_stage2/$filename
 cd $dir_path
 
 # --report_to wandb \
+# --nproc_per_node 8 \
 PYTHONPATH=$dir_path:$PYTHONPATH \
 torchrun --nnodes=1 --nproc_per_node=8 --master_port=$master_port pointllm/train/train_mem.py \
     --model_name_or_path $model_name_or_path \
