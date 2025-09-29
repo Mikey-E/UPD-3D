@@ -416,6 +416,9 @@ def create_iframe_viewer(file_path, sample_size):
         return None, "Please select a PLY file first"
     
     try:
+        # Add loading status
+        loading_status = f"🔄 Loading {sample_size:,} points from point cloud..."
+        
         # Read point cloud data
         vertices, colors, status = read_3dfront_ply_for_js(file_path, max_points=sample_size)
         
@@ -426,8 +429,9 @@ def create_iframe_viewer(file_path, sample_size):
         temp_dir = tempfile.mkdtemp()
         html_file = os.path.join(temp_dir, "pointcloud_viewer.html")
         
-        # Generate HTML
-        html_content = create_standalone_html(vertices, colors, "3D-FRONT Point Cloud")
+        # Generate HTML with updated title
+        title = f"3D-FRONT Point Cloud ({len(vertices)//3:,} points)"
+        html_content = create_standalone_html(vertices, colors, title)
         
         with open(html_file, 'w') as f:
             f.write(html_content)
@@ -450,6 +454,17 @@ def create_iframe_viewer(file_path, sample_size):
         
     except Exception as e:
         return None, f"❌ Error: {str(e)}"
+
+def set_sample_size_preset(preset_value):
+    """Set sample size to preset value"""
+    return preset_value
+
+def auto_reload_handler(file_path, sample_size, auto_reload_enabled):
+    """Handle auto-reload when sample size changes"""
+    if auto_reload_enabled and file_path:
+        return create_iframe_viewer(file_path, sample_size)
+    else:
+        return None, f"📊 Sample size set to {sample_size:,} points. Click 'Load Point Cloud' to apply."
 
 # Create interface
 with gr.Blocks(title="Three.js Point Cloud Viewer (Iframe)") as demo:
@@ -477,11 +492,26 @@ with gr.Blocks(title="Three.js Point Cloud Viewer (Iframe)") as demo:
             )
             
             sample_size = gr.Slider(
-                minimum=5000, maximum=100000, value=25000, step=5000,
-                label="📊 Sample Size (points to load)"
+                minimum=1000, maximum=200000, value=25000, step=1000,
+                label="📊 Sample Size (points to load)",
+                info="Higher values = better quality, slower loading"
             )
             
+            gr.Markdown("**Quick Presets:**")
+            with gr.Row():
+                fast_btn = gr.Button("⚡ Fast (10K)", size="sm", variant="secondary")
+                medium_btn = gr.Button("🎯 Medium (25K)", size="sm", variant="secondary")
+                quality_btn = gr.Button("💎 Quality (50K)", size="sm", variant="secondary")
+                ultra_btn = gr.Button("🔥 Ultra (100K)", size="sm", variant="secondary")
+            
             load_btn = gr.Button("🚀 Load Point Cloud", variant="primary")
+            
+            with gr.Accordion("⚙️ Advanced Options", open=False):
+                auto_reload = gr.Checkbox(
+                    label="🔄 Auto-reload on sample size change",
+                    value=False,
+                    info="Automatically reload when slider changes"
+                )
             
             gr.Markdown("""
             ### 🎮 Controls (in viewer):
@@ -490,6 +520,14 @@ with gr.Blocks(title="Three.js Point Cloud Viewer (Iframe)") as demo:
             - **Reset View**: Return to default position
             - **Auto Rotate**: Continuous rotation
             - **Size +/-**: Adjust point size
+            
+            ### ⚡ Performance Guide:
+            - **Fast (10K)**: Quick preview, good for initial exploration
+            - **Medium (25K)**: Balanced quality/speed, recommended default
+            - **Quality (50K)**: High detail, slower loading
+            - **Ultra (100K)**: Maximum detail, use for final review
+            
+            💡 **Tip**: Enable auto-reload to see changes instantly!
             """)
             
         with gr.Column(scale=2):
@@ -519,10 +557,38 @@ with gr.Blocks(title="Three.js Point Cloud Viewer (Iframe)") as demo:
     This gives you the **high-quality 3D visualization** you need for human annotation.
     """)
     
-    # Event handler
+    # Event handlers
     load_btn.click(
         fn=create_iframe_viewer,
         inputs=[file_input, sample_size],
+        outputs=[viewer_output, status_output]
+    )
+    
+    # Quick preset buttons
+    fast_btn.click(
+        fn=lambda: 10000,
+        outputs=[sample_size]
+    )
+    
+    medium_btn.click(
+        fn=lambda: 25000,
+        outputs=[sample_size]
+    )
+    
+    quality_btn.click(
+        fn=lambda: 50000,
+        outputs=[sample_size]
+    )
+    
+    ultra_btn.click(
+        fn=lambda: 100000,
+        outputs=[sample_size]
+    )
+    
+    # Auto-reload when sample size changes (if enabled)
+    sample_size.change(
+        fn=auto_reload_handler,
+        inputs=[file_input, sample_size, auto_reload],
         outputs=[viewer_output, status_output]
     )
 
