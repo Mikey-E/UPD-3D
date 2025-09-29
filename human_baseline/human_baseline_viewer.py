@@ -209,7 +209,8 @@ def create_standalone_html(vertices, colors, title="Point Cloud"):
         <button onclick="resetView()">Reset View</button><br>
         <button onclick="toggleAutoRotate()">Auto Rotate</button><br>
         <button onclick="changePointSize(1)">Size +</button>
-        <button onclick="changePointSize(-1)">Size -</button>
+        <button onclick="changePointSize(-1)">Size -</button><br>
+        <button onclick="toggleCenterPoint()">Show Center</button>
     </div>
 
     <script>
@@ -219,6 +220,8 @@ def create_standalone_html(vertices, colors, title="Point Cloud"):
         let pointSize = 0.02;
         let frameCount = 0;
         let lastTime = Date.now();
+        let centerPoint = null;
+        let showCenter = false;
         
         // Initialize Three.js scene
         function init() {{
@@ -275,6 +278,15 @@ def create_standalone_html(vertices, colors, title="Point Cloud"):
             
             console.log("Bounding box:", box);
             console.log("Camera position:", camera.position);
+            console.log("Point cloud center:", center);
+            
+            // Create center point marker (invisible by default)
+            const centerGeometry = new THREE.SphereGeometry(maxDim * 0.02, 8, 6);
+            const centerMaterial = new THREE.MeshBasicMaterial({{ color: 0xff0000 }});
+            centerPoint = new THREE.Mesh(centerGeometry, centerMaterial);
+            centerPoint.position.copy(center);
+            centerPoint.visible = false;
+            scene.add(centerPoint);
             
             // Add basic controls
             setupControls();
@@ -286,6 +298,10 @@ def create_standalone_html(vertices, colors, title="Point Cloud"):
         function setupControls() {{
             let isDragging = false;
             let previousMousePosition = {{ x: 0, y: 0 }};
+            
+            // Get point cloud center for proper rotation
+            const box = points.geometry.boundingBox;
+            const center = box.getCenter(new THREE.Vector3());
             
             renderer.domElement.addEventListener('mousedown', function(e) {{
                 isDragging = true;
@@ -300,15 +316,19 @@ def create_standalone_html(vertices, colors, title="Point Cloud"):
                         y: e.clientY - previousMousePosition.y
                     }};
                     
-                    // Rotate around center
+                    // Rotate around point cloud center, not origin
                     const spherical = new THREE.Spherical();
-                    spherical.setFromVector3(camera.position);
+                    const offset = new THREE.Vector3();
+                    offset.copy(camera.position).sub(center);
+                    spherical.setFromVector3(offset);
+                    
                     spherical.theta -= deltaMove.x * 0.01;
                     spherical.phi += deltaMove.y * 0.01;
                     spherical.phi = Math.max(0.1, Math.min(Math.PI - 0.1, spherical.phi));
                     
-                    camera.position.setFromSpherical(spherical);
-                    camera.lookAt(0, 0, 0);
+                    offset.setFromSpherical(spherical);
+                    camera.position.copy(center).add(offset);
+                    camera.lookAt(center);
                     
                     previousMousePosition.x = e.clientX;
                     previousMousePosition.y = e.clientY;
@@ -319,10 +339,13 @@ def create_standalone_html(vertices, colors, title="Point Cloud"):
                 isDragging = false;
             }});
             
-            // Zoom with wheel
+            // Zoom with wheel - maintain center focus
             renderer.domElement.addEventListener('wheel', function(e) {{
                 const zoomFactor = e.deltaY > 0 ? 1.1 : 0.9;
-                camera.position.multiplyScalar(zoomFactor);
+                const direction = new THREE.Vector3();
+                direction.subVectors(camera.position, center);
+                direction.multiplyScalar(zoomFactor);
+                camera.position.copy(center).add(direction);
                 e.preventDefault();
             }});
             
@@ -337,8 +360,17 @@ def create_standalone_html(vertices, colors, title="Point Cloud"):
         function animate() {{
             requestAnimationFrame(animate);
             
-            if (autoRotate) {{
-                points.rotation.y += 0.005;
+            if (autoRotate && points) {{
+                // Rotate around point cloud center
+                const box = points.geometry.boundingBox;
+                const center = box.getCenter(new THREE.Vector3());
+                
+                const radius = camera.position.distanceTo(center);
+                const angle = Date.now() * 0.001; // Smooth rotation
+                
+                camera.position.x = center.x + Math.cos(angle) * radius;
+                camera.position.z = center.z + Math.sin(angle) * radius;
+                camera.lookAt(center);
             }}
             
             renderer.render(scene, camera);
@@ -367,6 +399,8 @@ def create_standalone_html(vertices, colors, title="Point Cloud"):
                     center.z + maxDim
                 );
                 camera.lookAt(center);
+                
+                console.log("Reset to center:", center);
             }}
         }}
         
@@ -378,6 +412,14 @@ def create_standalone_html(vertices, colors, title="Point Cloud"):
             pointSize = Math.max(0.001, pointSize + delta * 0.005);
             if (points) {{
                 points.material.size = pointSize;
+            }}
+        }}
+        
+        function toggleCenterPoint() {{
+            if (centerPoint) {{
+                showCenter = !showCenter;
+                centerPoint.visible = showCenter;
+                console.log("Center point visibility:", showCenter);
             }}
         }}
         
