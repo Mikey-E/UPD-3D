@@ -596,20 +596,11 @@ with gr.Blocks(title="Three.js Point Cloud Viewer (Iframe)") as demo:
             
             gr.Markdown("**Quick Presets:**")
             with gr.Row():
-                fast_btn = gr.Button("⚡ Fast (10K)", size="sm", variant="secondary")
-                medium_btn = gr.Button("🎯 Medium (25K)", size="sm", variant="secondary")
-                quality_btn = gr.Button("💎 Quality (50K)", size="sm", variant="secondary")
                 ultra_btn = gr.Button("🔥 Ultra (100K)", size="sm", variant="secondary")
-            
-            with gr.Row():
-                mega_btn = gr.Button("⭐ Mega (250K)", size="sm", variant="primary")
                 super_btn = gr.Button("🚀 Super (500K)", size="sm", variant="primary")
-                extreme_btn = gr.Button("💥 Extreme (1M)", size="sm", variant="primary")
-            
-            with gr.Row():
                 full_btn = gr.Button("🌟 Full (All Points)", size="sm", variant="primary")
                 point_count_display = gr.Textbox(
-                    label="📊 File Info", 
+                    label="📊 File Info",
                     value="Select a file to see point count",
                     interactive=False,
                     scale=2
@@ -633,20 +624,12 @@ with gr.Blocks(title="Three.js Point Cloud Viewer (Iframe)") as demo:
             - **Size +/-**: Adjust point size
             
             ### ⚡ Performance Guide:
-            **Standard Quality:**
-            - **Fast (10K)**: Quick preview, good for initial exploration
-            - **Medium (25K)**: Balanced quality/speed, recommended default
-            - **Quality (50K)**: High detail, slower loading
-            - **Ultra (100K)**: Maximum detail, use for final review
-            
-            **High Resolution:**
-            - **⭐ Mega (250K)**: Professional quality, detailed annotation
-            - **🚀 Super (500K)**: Near-complete fidelity, slow loading
-            - **💥 Extreme (1M)**: Ultra-high detail, very slow loading
-            - **🌟 Full**: ALL points from file, maximum fidelity
-            
-            💡 **Tip**: Enable auto-reload to see changes instantly!
-            ⚠️ **Warning**: 250K+ points may take significant time to load
+            - **🔥 Ultra (100K)**: High detail with responsive performance
+            - **🚀 Super (500K)**: Near-complete fidelity, expect slower loads
+            - **🌟 Full (All Points)**: Maximum fidelity using every point in the file
+
+            💡 **Tip**: Enable auto-reload to preview changes instantly!
+            ⚠️ **Warning**: 500K+ points may take significant time to load
             """)
             
         with gr.Column(scale=2):
@@ -690,43 +673,17 @@ with gr.Blocks(title="Three.js Point Cloud Viewer (Iframe)") as demo:
         outputs=[point_count_display]
     )
     
-    # Quick preset buttons
-    fast_btn.click(
-        fn=lambda: 10000,
-        outputs=[sample_size]
-    )
-    
-    medium_btn.click(
-        fn=lambda: 25000,
-        outputs=[sample_size]
-    )
-    
-    quality_btn.click(
-        fn=lambda: 50000,
-        outputs=[sample_size]
-    )
-    
+    # Preset buttons
     ultra_btn.click(
         fn=lambda: 100000,
         outputs=[sample_size]
     )
-    
-    # High-resolution presets
-    mega_btn.click(
-        fn=lambda: 250000,
-        outputs=[sample_size]
-    )
-    
+
     super_btn.click(
         fn=lambda: 500000,
         outputs=[sample_size]
     )
-    
-    extreme_btn.click(
-        fn=lambda: 1000000,
-        outputs=[sample_size]
-    )
-    
+
     # Full preset - sets slider to total point count
     full_btn.click(
         fn=analyze_file_and_set_full,
