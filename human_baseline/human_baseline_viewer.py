@@ -15,6 +15,30 @@ import time
 from http.server import HTTPServer, SimpleHTTPRequestHandler
 import socket
 
+def get_ply_point_count(file_path):
+    """Get the total number of points in a PLY file"""
+    if not file_path or not os.path.exists(file_path):
+        return 0
+    
+    try:
+        with open(file_path, 'rb') as f:
+            # Read header to find vertex count
+            line = f.readline().decode('utf-8').strip()
+            if line != 'ply':
+                return 0
+            
+            while True:
+                line = f.readline().decode('utf-8').strip()
+                if line.startswith('element vertex'):
+                    vertex_count = int(line.split()[2])
+                    return vertex_count
+                elif line == 'end_header':
+                    break
+        
+        return 0
+    except:
+        return 0
+
 def read_3dfront_ply_for_js(file_path, max_points=50000):
     """Read 3D-FRONT PLY and convert to JavaScript format"""
     try:
@@ -459,6 +483,37 @@ def set_sample_size_preset(preset_value):
     """Set sample size to preset value"""
     return preset_value
 
+def analyze_file_and_set_full(file_path):
+    """Analyze file and return full point count for the slider"""
+    if not file_path:
+        return 25000, "Select a file to see point count"
+    
+    total_points = get_ply_point_count(file_path)
+    if total_points == 0:
+        return 25000, "❌ Could not read point count"
+    
+    file_size_mb = os.path.getsize(file_path) / (1024 * 1024)
+    
+    # Warning for very large files
+    if total_points > 500000:
+        warning = f"⚠️ Large file: {total_points:,} points ({file_size_mb:.1f}MB) - may be slow!"
+    else:
+        warning = f"✅ {total_points:,} points ({file_size_mb:.1f}MB)"
+    
+    return total_points, warning
+
+def update_file_info(file_path):
+    """Update file info display when file is selected"""
+    if not file_path:
+        return "Select a file to see point count"
+    
+    total_points = get_ply_point_count(file_path)
+    if total_points == 0:
+        return "❌ Could not read point count"
+    
+    file_size_mb = os.path.getsize(file_path) / (1024 * 1024)
+    return f"📁 {os.path.basename(file_path)}: {total_points:,} points ({file_size_mb:.1f}MB)"
+
 def auto_reload_handler(file_path, sample_size, auto_reload_enabled):
     """Handle auto-reload when sample size changes"""
     if auto_reload_enabled and file_path:
@@ -504,6 +559,15 @@ with gr.Blocks(title="Three.js Point Cloud Viewer (Iframe)") as demo:
                 quality_btn = gr.Button("💎 Quality (50K)", size="sm", variant="secondary")
                 ultra_btn = gr.Button("🔥 Ultra (100K)", size="sm", variant="secondary")
             
+            with gr.Row():
+                full_btn = gr.Button("🌟 Full (All Points)", size="sm", variant="primary")
+                point_count_display = gr.Textbox(
+                    label="📊 File Info", 
+                    value="Select a file to see point count",
+                    interactive=False,
+                    scale=2
+                )
+            
             load_btn = gr.Button("🚀 Load Point Cloud", variant="primary")
             
             with gr.Accordion("⚙️ Advanced Options", open=False):
@@ -526,8 +590,10 @@ with gr.Blocks(title="Three.js Point Cloud Viewer (Iframe)") as demo:
             - **Medium (25K)**: Balanced quality/speed, recommended default
             - **Quality (50K)**: High detail, slower loading
             - **Ultra (100K)**: Maximum detail, use for final review
+            - **🌟 Full**: ALL points from file, maximum fidelity (may be slow!)
             
             💡 **Tip**: Enable auto-reload to see changes instantly!
+            ⚠️ **Warning**: Full mode with 1M+ points may take time to load
             """)
             
         with gr.Column(scale=2):
@@ -564,6 +630,13 @@ with gr.Blocks(title="Three.js Point Cloud Viewer (Iframe)") as demo:
         outputs=[viewer_output, status_output]
     )
     
+    # Update file info when file is selected
+    file_input.change(
+        fn=update_file_info,
+        inputs=[file_input],
+        outputs=[point_count_display]
+    )
+    
     # Quick preset buttons
     fast_btn.click(
         fn=lambda: 10000,
@@ -583,6 +656,13 @@ with gr.Blocks(title="Three.js Point Cloud Viewer (Iframe)") as demo:
     ultra_btn.click(
         fn=lambda: 100000,
         outputs=[sample_size]
+    )
+    
+    # Full preset - sets slider to total point count
+    full_btn.click(
+        fn=analyze_file_and_set_full,
+        inputs=[file_input],
+        outputs=[sample_size, point_count_display]
     )
     
     # Auto-reload when sample size changes (if enabled)
