@@ -207,16 +207,14 @@ def create_standalone_html(vertices, colors, title="Point Cloud"):
     </div>
     <div id="controls">
         <button onclick="resetView()">Reset View</button><br>
-        <button onclick="toggleAutoRotate()">Auto Rotate</button><br>
         <button onclick="changePointSize(1)">Size +</button>
-        <button onclick="changePointSize(-1)">Size -</button><br>
-        <button onclick="toggleCenterPoint()">Show Center</button>
+        <button onclick="changePointSize(-1)">Size -</button>
     </div>
 
     <script>
         // Global variables
         let scene, camera, renderer, points, controls;
-        let autoRotate = false;
+        let autoRotate = true; // Start with auto-rotation enabled
         let pointSize = 0.02;
         let frameCount = 0;
         let lastTime = Date.now();
@@ -270,9 +268,9 @@ def create_standalone_html(vertices, colors, title="Point Cloud"):
             const maxDim = Math.max(size.x, size.y, size.z);
             
             camera.position.set(
-                center.x + maxDim,
-                center.y + maxDim * 0.5,
-                center.z + maxDim
+                center.x + maxDim * 0.6,
+                center.y + maxDim * 0.3,
+                center.z + maxDim * 0.6
             );
             camera.lookAt(center);
             
@@ -305,6 +303,7 @@ def create_standalone_html(vertices, colors, title="Point Cloud"):
             
             renderer.domElement.addEventListener('mousedown', function(e) {{
                 isDragging = true;
+                autoRotate = false; // Disable auto-rotation when user starts interacting
                 previousMousePosition.x = e.clientX;
                 previousMousePosition.y = e.clientY;
             }});
@@ -341,6 +340,7 @@ def create_standalone_html(vertices, colors, title="Point Cloud"):
             
             // Zoom with wheel - maintain center focus
             renderer.domElement.addEventListener('wheel', function(e) {{
+                autoRotate = false; // Disable auto-rotation when user zooms
                 const zoomFactor = e.deltaY > 0 ? 1.1 : 0.9;
                 const direction = new THREE.Vector3();
                 direction.subVectors(camera.position, center);
@@ -394,9 +394,9 @@ def create_standalone_html(vertices, colors, title="Point Cloud"):
                 const maxDim = Math.max(size.x, size.y, size.z);
                 
                 camera.position.set(
-                    center.x + maxDim,
-                    center.y + maxDim * 0.5,
-                    center.z + maxDim
+                    center.x + maxDim * 0.6,
+                    center.y + maxDim * 0.3,
+                    center.z + maxDim * 0.6
                 );
                 camera.lookAt(center);
                 
@@ -404,22 +404,10 @@ def create_standalone_html(vertices, colors, title="Point Cloud"):
             }}
         }}
         
-        function toggleAutoRotate() {{
-            autoRotate = !autoRotate;
-        }}
-        
         function changePointSize(delta) {{
             pointSize = Math.max(0.001, pointSize + delta * 0.005);
             if (points) {{
                 points.material.size = pointSize;
-            }}
-        }}
-        
-        function toggleCenterPoint() {{
-            if (centerPoint) {{
-                showCenter = !showCenter;
-                centerPoint.visible = showCenter;
-                console.log("Center point visibility:", showCenter);
             }}
         }}
         
@@ -473,14 +461,19 @@ class PointCloudServer:
             self.server.shutdown()
             self.server = None
 
-# Global server instance
-server = PointCloudServer()
+# Global server instances
+main_server = PointCloudServer()
+fixed_500k_server = PointCloudServer()
+fixed_100k_server = PointCloudServer()
 
-def create_iframe_viewer(file_path, sample_size):
+def create_iframe_viewer(file_path, sample_size, server_instance=None):
     """Create iframe viewer with standalone Three.js"""
     if not file_path:
         return None, "Please select a PLY file first"
     
+    if server_instance is None:
+        server_instance = main_server
+
     try:
         # Add loading status
         loading_status = f"🔄 Loading {sample_size:,} points from point cloud..."
@@ -503,7 +496,7 @@ def create_iframe_viewer(file_path, sample_size):
             f.write(html_content)
         
         # Start server
-        server_url = server.start(temp_dir)
+        server_url = server_instance.start(temp_dir)
         viewer_url = f"{server_url}/pointcloud_viewer.html"
         
         # Create iframe HTML
@@ -556,29 +549,44 @@ def update_file_info(file_path):
     file_size_mb = os.path.getsize(file_path) / (1024 * 1024)
     return f"📁 {os.path.basename(file_path)}: {total_points:,} points ({file_size_mb:.1f}MB)"
 
-def auto_reload_handler(file_path, sample_size, auto_reload_enabled):
-    """Handle auto-reload when sample size changes"""
-    if auto_reload_enabled and file_path:
-        return create_iframe_viewer(file_path, sample_size)
-    else:
-        return None, f"📊 Sample size set to {sample_size:,} points. Click 'Load Point Cloud' to apply."
+
+def load_fixed_500k_viewer(file_path):
+    """Load fixed 500K viewer when a new file is provided"""
+    placeholder = "<p style='text-align: center; padding: 60px; background: #f0f0f0;'>Select a point cloud to view 500K points</p>"
+    if not file_path:
+        return placeholder, "Select a file to see point count"
+
+    viewer_html, status = create_iframe_viewer(file_path, 500000, server_instance=fixed_500k_server)
+    if viewer_html is None:
+        viewer_html = f"<p style='text-align: center; padding: 60px; background: #fce8e6;'>{status}</p>"
+    return viewer_html, status
+
+
+def load_fixed_100k_viewer(file_path):
+    """Load fixed 100K viewer when a new file is provided"""
+    placeholder = "<p style='text-align: center; padding: 60px; background: #f0f0f0;'>Select a point cloud to view 100K points</p>"
+    if not file_path:
+        return placeholder, "Select a file to see point count"
+
+    viewer_html, status = create_iframe_viewer(file_path, 100000, server_instance=fixed_100k_server)
+    if viewer_html is None:
+        viewer_html = f"<p style='text-align: center; padding: 60px; background: #fce8e6;'>{status}</p>"
+    return viewer_html, status
+
+
+def load_main_viewer_full(file_path):
+    """Load the main viewer using full point count from the file"""
+    if not file_path:
+        return None, "Please select a PLY file first"
+    
+    total_points = get_ply_point_count(file_path)
+    if total_points == 0:
+        return None, "❌ Could not read point count"
+    
+    return create_iframe_viewer(file_path, total_points, server_instance=main_server)
 
 # Create interface
-with gr.Blocks(title="Three.js Point Cloud Viewer (Iframe)") as demo:
-    gr.Markdown("""
-    # 🚀 Three.js Point Cloud Viewer (Iframe Approach)
-    
-    **Bypasses Gradio's JavaScript restrictions by using a standalone server + iframe**
-    
-    This approach:
-    - ✅ **Full Three.js functionality** (no JavaScript restrictions)
-    - ✅ **Real-time interaction** (mouse controls, zooming, rotating)
-    - ✅ **High performance** (WebGL rendering)
-    - ✅ **3D-FRONT format support** (double precision, NaN filtering)
-    - ✅ **Professional controls** (reset view, auto-rotate, point size)
-    
-    Perfect for human annotation interfaces!
-    """)
+with gr.Blocks() as demo:
     
     with gr.Row():
         with gr.Column(scale=1):
@@ -588,114 +596,71 @@ with gr.Blocks(title="Three.js Point Cloud Viewer (Iframe)") as demo:
                 type="filepath"
             )
             
-            sample_size = gr.Slider(
-                minimum=1000, maximum=2000000, value=25000, step=1000,
-                label="📊 Sample Size (points to load)",
-                info="Higher values = better quality, slower loading"
-            )
-            
-            gr.Markdown("**Quick Presets:**")
-            with gr.Row():
-                ultra_btn = gr.Button("🔥 Ultra (100K)", size="sm", variant="secondary")
-                super_btn = gr.Button("🚀 Super (500K)", size="sm", variant="primary")
-                full_btn = gr.Button("🌟 Full (All Points)", size="sm", variant="primary")
-                point_count_display = gr.Textbox(
-                    label="📊 File Info",
-                    value="Select a file to see point count",
-                    interactive=False,
-                    scale=2
-                )
-            
-            load_btn = gr.Button("🚀 Load Point Cloud", variant="primary")
-            
-            with gr.Accordion("⚙️ Advanced Options", open=False):
-                auto_reload = gr.Checkbox(
-                    label="🔄 Auto-reload on sample size change",
-                    value=False,
-                    info="Automatically reload when slider changes"
-                )
-            
-            gr.Markdown("""
-            ### 🎮 Controls (in viewer):
-            - **Drag**: Rotate view
-            - **Scroll**: Zoom in/out
-            - **Reset View**: Return to default position
-            - **Auto Rotate**: Continuous rotation
-            - **Size +/-**: Adjust point size
-            
-            ### ⚡ Performance Guide:
-            - **🔥 Ultra (100K)**: High detail with responsive performance
-            - **🚀 Super (500K)**: Near-complete fidelity, expect slower loads
-            - **🌟 Full (All Points)**: Maximum fidelity using every point in the file
-
-            💡 **Tip**: Enable auto-reload to preview changes instantly!
-            ⚠️ **Warning**: 500K+ points may take significant time to load
-            """)
-            
-        with gr.Column(scale=2):
-            status_output = gr.Textbox(
-                label="📊 Status",
-                lines=2,
+            point_count_display = gr.Textbox(
+                label="📊 File Info",
+                value="Select a file to see point count",
                 interactive=False
             )
             
-            gr.Markdown("### 🎯 Three.js Point Cloud Viewer")
-            
-            viewer_output = gr.HTML(
-                value="<p style='text-align: center; padding: 100px; background: #f5f5f5;'>Load a point cloud to start viewing</p>"
-            )
+        with gr.Column(scale=2):
+            # Horizontal layout for the three viewers
+            with gr.Row():
+                with gr.Column(scale=1):
+                    gr.Markdown("**All Points**")
+                    status_output = gr.Textbox(
+                        label="📊 Status",
+                        lines=1,
+                        interactive=False
+                    )
+                    viewer_output = gr.HTML(
+                        value="<p style='text-align: center; padding: 60px; background: #f5f5f5;'>Load a point cloud to start viewing</p>"
+                    )
+                
+                with gr.Column(scale=1):
+                    gr.Markdown("**500K Points**")
+                    fixed_500k_status = gr.Textbox(
+                        label="📊 500K Status",
+                        lines=1,
+                        interactive=False
+                    )
+                    fixed_500k_viewer = gr.HTML(
+                        value="<p style='text-align: center; padding: 60px; background: #f0f0f0;'>Select a point cloud to view 500K points</p>"
+                    )
+                
+                with gr.Column(scale=1):
+                    gr.Markdown("**100K Points**")
+                    fixed_100k_status = gr.Textbox(
+                        label="📊 100K Status",
+                        lines=1,
+                        interactive=False
+                    )
+                    fixed_100k_viewer = gr.HTML(
+                        value="<p style='text-align: center; padding: 60px; background: #f0f0f0;'>Select a point cloud to view 100K points</p>"
+                    )
     
-    gr.Markdown("""
-    ### 💡 Why This Works:
-    
-    **The Problem**: Gradio's HTML component blocks JavaScript execution for security
-    
-    **The Solution**: 
-    1. Create standalone HTML file with full Three.js code
-    2. Start local HTTP server to serve the file
-    3. Embed in Gradio using iframe (no JavaScript restrictions)
-    4. Full Three.js functionality restored!
-    
-    This gives you the **high-quality 3D visualization** you need for human annotation.
-    """)
-    
-    # Event handlers
-    load_btn.click(
-        fn=create_iframe_viewer,
-        inputs=[file_input, sample_size],
-        outputs=[viewer_output, status_output]
-    )
-    
-    # Update file info when file is selected
+    # Event handlers - automatically load all viewers when file is selected
     file_input.change(
         fn=update_file_info,
         inputs=[file_input],
         outputs=[point_count_display]
     )
-    
-    # Preset buttons
-    ultra_btn.click(
-        fn=lambda: 100000,
-        outputs=[sample_size]
-    )
 
-    super_btn.click(
-        fn=lambda: 500000,
-        outputs=[sample_size]
-    )
-
-    # Full preset - sets slider to total point count
-    full_btn.click(
-        fn=analyze_file_and_set_full,
+    file_input.change(
+        fn=load_main_viewer_full,
         inputs=[file_input],
-        outputs=[sample_size, point_count_display]
-    )
-    
-    # Auto-reload when sample size changes (if enabled)
-    sample_size.change(
-        fn=auto_reload_handler,
-        inputs=[file_input, sample_size, auto_reload],
         outputs=[viewer_output, status_output]
+    )
+
+    file_input.change(
+        fn=load_fixed_500k_viewer,
+        inputs=[file_input],
+        outputs=[fixed_500k_viewer, fixed_500k_status]
+    )
+
+    file_input.change(
+        fn=load_fixed_100k_viewer,
+        inputs=[file_input],
+        outputs=[fixed_100k_viewer, fixed_100k_status]
     )
 
 if __name__ == "__main__":
@@ -712,5 +677,7 @@ if __name__ == "__main__":
             inbrowser=True
         )
     finally:
-        # Cleanup server
-        server.stop()
+        # Cleanup servers
+        main_server.stop()
+        fixed_500k_server.stop()
+        fixed_100k_server.stop()
