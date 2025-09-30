@@ -4,6 +4,7 @@ Standalone Three.js Point Cloud Viewer (No Gradio HTML restrictions)
 Creates a separate HTML file and serves it via iframe to bypass JavaScript restrictions
 """
 
+
 import gradio as gr
 import numpy as np
 import os
@@ -15,6 +16,22 @@ import time
 import base64
 from http.server import HTTPServer, SimpleHTTPRequestHandler
 import socket
+
+# Parse arguments at the top so they are available in the Blocks context
+import argparse
+import sys
+parser = argparse.ArgumentParser(description='Point Cloud Viewer')
+parser.add_argument('--share', action='store_true', help='Enable public sharing via Gradio tunnel')
+parser.add_argument('--host', default='0.0.0.0', help='Host address (default: 0.0.0.0)')
+parser.add_argument('--port', type=int, default=7871, help='Port number (default: 7871)')
+parser.add_argument('--threedfront-path', default='/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT', 
+                   help='Path to 3D-FRONT dataset directory')
+parser.add_argument('--crops3d-path', default='/project/3dllms/melgin/datasets/CEA/Crops3D',
+                   help='Path to Crops3D dataset directory')
+args, _ = parser.parse_known_args()
+
+def on_dataset_change_wrapper(dataset_name):
+    return on_dataset_change(dataset_name, args.threedfront_path, args.crops3d_path)
 
 def get_ply_point_count(file_path):
     """Get the total number of points in a PLY file"""
@@ -834,86 +851,6 @@ def analyze_file_and_set_full(file_path):
     
     return total_points, warning
 
-def validate_and_load_path(path_input):
-    """Validate path and return it if valid, otherwise return None"""
-    if not path_input or not path_input.strip():
-        return None, "Please enter a file path"
-    
-    path = path_input.strip()
-    
-    if not os.path.exists(path):
-        return None, f"❌ File not found: {path}"
-    
-    if not path.lower().endswith('.ply'):
-        return None, f"❌ File must be a PLY file: {path}"
-    
-    return path, f"✅ Valid PLY file: {os.path.basename(path)}"
-
-
-def load_from_path_input(path_input):
-    """Load viewer from path input"""
-    validated_path, status = validate_and_load_path(path_input)
-    
-    if validated_path is None:
-        placeholder = f"<p style='text-align: center; padding: 60px; background: #fce8e6;'>{status}</p>"
-        default_slider = gr.Slider(
-            minimum=1000,
-            maximum=500000,
-            value=100000,
-            step=1000,
-            label="📊 Number of Points to Display",
-            info="Drag to change the number of points rendered (updates automatically)"
-        )
-        return (
-            default_slider,  # slider component
-            placeholder, status  # main viewer
-        )
-    
-    # Get total points and set slider range
-    total_points = get_ply_point_count(validated_path)
-    if total_points <= 0:
-        max_points = 500000
-        default_points = 100000
-    else:
-        max_points = total_points  # Slider max = actual file point count
-        default_points = min(100000, total_points)  # Default 100K or max if file is smaller
-    
-    # Create new slider with proper maximum
-    new_slider = gr.Slider(
-        minimum=1000,
-        maximum=max_points,
-        value=default_points,
-        step=1000,
-        label="📊 Number of Points to Display",
-        info="Drag to change the number of points rendered (updates automatically)"
-    )
-    
-    # Load viewer with default point count
-    main_viewer, main_status = load_main_viewer(validated_path, default_points)
-    
-    return (
-        new_slider,  # new slider component with proper max
-        main_viewer or f"<p style='text-align: center; padding: 60px; background: #fce8e6;'>{main_status}</p>", 
-        main_status
-    )
-
-
-def update_file_info(file_path):
-    """Update file info display when file is selected"""
-    if not file_path:
-        return "Select a file to see point count"
-    
-    total_points = get_ply_point_count(file_path)
-    if total_points == 0:
-        return "❌ Could not read point count"
-    
-    file_size_mb = os.path.getsize(file_path) / (1024 * 1024)
-    return f"📁 {os.path.basename(file_path)}: {total_points:,} points ({file_size_mb:.1f}MB)"
-
-
-
-
-
 def load_main_viewer(file_path, point_count):
     """Load the main viewer with specified point count"""
     global USE_EMBEDDED_VIEWERS
@@ -981,53 +918,78 @@ def update_progress_display(dataset_name):
     """Update progress display when dataset selection changes"""
     return get_progress_info(dataset_name)
 
-def create_dataset_directory(dataset_name):
-    """Create directory for collected answers if it doesn't exist"""
-    import os
-    base_dir = "./human_baseline/collected_answers/pcl_lists"
-    dataset_dir = os.path.join(base_dir, dataset_name)
-    os.makedirs(dataset_dir, exist_ok=True)
-    return dataset_dir
-
-def get_progress_info(dataset_name):
-    """Get progress information for a dataset"""
-    import os
-    
-    # Create directory if it doesn't exist
-    dataset_dir = create_dataset_directory(dataset_name)
-    
-    # Count collected files
-    try:
-        collected_files = len([f for f in os.listdir(dataset_dir) if f.endswith('.json') or f.endswith('.txt')])
-    except:
-        collected_files = 0
-    
-    # Count total files from pcl_lists
-    pcl_file = f"./pcl_lists/{dataset_name}.txt"
-    total_files = 0
-    
-    try:
-        if os.path.exists(pcl_file):
-            with open(pcl_file, 'r') as f:
-                total_files = len([line.strip() for line in f if line.strip()])
-    except:
-        total_files = 0
-    
-    if total_files > 0:
-        percentage = (collected_files / total_files) * 100
-        return f"📊 {collected_files}/{total_files} files collected ({percentage:.1f}%)"
-    else:
-        return f"📊 {collected_files}/? files collected (dataset file not found)"
-
-def update_progress_display(dataset_name):
-    """Update progress display when dataset selection changes"""
-    return get_progress_info(dataset_name)
-
-def on_dataset_change(dataset_name):
+def on_dataset_change(dataset_name, threedfront_path, crops3d_path):
     """Handle dataset selection change"""
     # Create directory and update progress
     create_dataset_directory(dataset_name)
-    return update_progress_display(dataset_name)
+    
+    # Load next point cloud for this dataset
+    next_cloud_path, cloud_info = get_next_point_cloud(dataset_name, threedfront_path, crops3d_path)
+    
+    if next_cloud_path:
+        # Load the point cloud with default settings
+        viewer_html, status = load_main_viewer(next_cloud_path, 100000)
+        if viewer_html is None:
+            viewer_html = f"<p style='text-align: center; padding: 60px; background: #fce8e6;'>{status}</p>"
+        
+        return update_progress_display(dataset_name), viewer_html, status, next_cloud_path
+    else:
+        placeholder = "<p style='text-align: center; padding: 60px; background: #f5f5f5;'>All point clouds completed or none available</p>"
+        return update_progress_display(dataset_name), placeholder, "No more point clouds available", None
+
+def get_next_point_cloud(dataset_name, threedfront_path, crops3d_path):
+    """Get the next point cloud that needs annotation"""
+    import os
+    
+    # Read the pcl list
+    pcl_file = f"./pcl_lists/{dataset_name}.txt"
+    if not os.path.exists(pcl_file):
+        return None, f"PCL list file not found: {pcl_file}"
+    
+    # Get completed files
+    dataset_dir = create_dataset_directory(dataset_name)
+    completed_files = set()
+    try:
+        for f in os.listdir(dataset_dir):
+            if f.endswith('.jsonl'):
+                completed_files.add(f[:-6])  # Remove .jsonl extension
+    except:
+        pass
+    
+    # Find next incomplete point cloud
+    try:
+        with open(pcl_file, 'r') as f:
+            for line in f:
+                line = line.strip()
+                if not line:
+                    continue
+                
+                # Parse identifier@scene format
+                if '@' not in line:
+                    continue
+                    
+                identifier, scene = line.split('@', 1)
+                
+                # Skip if already completed
+                if line in completed_files:
+                    continue
+                
+                # Build path based on dataset
+                if dataset_name == "3D-FRONT_test":
+                    ply_path = os.path.join(threedfront_path, identifier, scene, f"{scene}.ply")
+                elif dataset_name == "Crops3D_test":
+                    ply_path = os.path.join(crops3d_path, identifier, f"{scene}.ply")
+                else:
+                    continue
+                
+                # Check if file exists
+                if os.path.exists(ply_path):
+                    return ply_path, f"Loading {identifier}@{scene}"
+    
+    except Exception as e:
+        return None, f"Error reading PCL list: {str(e)}"
+    
+    return None, "All point clouds completed or no valid files found"
 
 # Create interface
 with gr.Blocks() as demo:
@@ -1038,23 +1000,6 @@ with gr.Blocks() as demo:
     
     with gr.Row():
         with gr.Column(scale=1):
-            file_input = gr.File(
-                label="📁 Select 3D-FRONT PLY File",
-                file_types=[".ply"],
-                type="filepath"
-            )
-            
-            gr.Markdown("**OR**")
-            
-            path_input = gr.Textbox(
-                label="📝 Enter PLY File Path",
-                value="/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/ffed9e6c-5e6d-49aa-ba90-83927369ff47/LivingRoom-1184/LivingRoom-1184.ply",
-                placeholder="Enter full path to PLY file...",
-                lines=2
-            )
-            
-            load_path_btn = gr.Button("🔄 Load from Path", variant="primary")
-            
             # Dataset selection
             dataset_selection = gr.Radio(
                 choices=["3D-FRONT_test", "Crops3D_test"],
@@ -1107,116 +1052,45 @@ with gr.Blocks() as demo:
     
     # Store current file path for slider updates
     current_file = gr.State(None)
-    
-    # Dataset selection event
-    dataset_selection.change(
-        fn=on_dataset_change,
-        inputs=[dataset_selection],
-        outputs=[progress_display]
-    )
-    
+
     # Event handlers
-    def update_file_and_slider(file_path):
-        """Update slider when file is selected"""
-        if not file_path:
-            return gr.Slider(minimum=1000, maximum=500000, value=100000, step=1000), file_path
-        
-        total_points = get_ply_point_count(file_path)
-        
-        if total_points <= 0:
-            max_points = 500000
-            default_points = 100000
-        else:
-            max_points = total_points  # Slider max = actual file point count
-            default_points = min(100000, total_points)  # Default 100K or max if file is smaller
-        
-        # Create new slider with proper maximum
-        new_slider = gr.Slider(
-            minimum=1000,
-            maximum=max_points,
-            value=default_points,
-            step=1000,
-            label="📊 Number of Points to Display",
-            info="Drag to change the number of points rendered (updates automatically)"
-        )
-        
-        return new_slider, file_path
-    
     def update_viewer_from_slider(file_path, point_count):
         """Update viewer when slider changes"""
         if not file_path:
             return "<p style='text-align: center; padding: 60px; background: #f5f5f5;'>Load a point cloud to start viewing</p>", "No file selected"
-        
+
         viewer_html, status = load_main_viewer(file_path, int(point_count))
         if viewer_html is None:
             viewer_html = f"<p style='text-align: center; padding: 60px; background: #fce8e6;'>{status}</p>"
-        
+
         return viewer_html, status
-    
+
     def handle_submit(selected_user):
         """Handle submit button click with user validation"""
         if selected_user is None:
             return "❌ No user selected - please select a user before submitting"
         else:
             return f"✅ Submitted for {selected_user}"
-    
-    def on_dataset_change(dataset_name):
-        """Handle dataset selection change"""
-        # Create directory and update progress
-        create_dataset_directory(dataset_name)
-        return update_progress_display(dataset_name)
-    
-    # Dataset selection event
-    dataset_selection.change(
-        fn=on_dataset_change,
-        inputs=[dataset_selection],
-        outputs=[progress_display]
-    )
-    
-    # File input events
-    file_input.change(
-        fn=update_file_and_slider,
-        inputs=[file_input],
-        outputs=[point_count_slider, current_file]
-    )
-    
-    # Load initial viewer when file changes
-    file_input.change(
-        fn=update_viewer_from_slider,
-        inputs=[current_file, point_count_slider],
-        outputs=[viewer_output, status_output]
-    )
-    
+
     # Slider change event - updates viewer in real time
     point_count_slider.change(
         fn=update_viewer_from_slider,
         inputs=[current_file, point_count_slider],
         outputs=[viewer_output, status_output]
     )
-    
-    # Path input button event
-    load_path_btn.click(
-        fn=load_from_path_input,
-        inputs=[path_input],
-        outputs=[
-            point_count_slider,  # Replace entire slider component
-            viewer_output, 
-            status_output
-        ]
-    )
-    
+
     # Submit button event
     submit_btn.click(
         fn=handle_submit,
         inputs=[user_selection],
         outputs=[submission_status]
     )
-    
-    # Update current file when path is loaded
-    load_path_btn.click(
-        fn=lambda path: validate_and_load_path(path)[0] if validate_and_load_path(path)[0] else None,
-        inputs=[path_input],
-        outputs=[current_file]
+
+    # Dataset selection change event (must be inside Blocks context)
+    dataset_selection.change(
+        fn=on_dataset_change_wrapper,
+        inputs=[dataset_selection],
+        outputs=[progress_display, viewer_output, status_output, current_file]
     )
 
 if __name__ == "__main__":
@@ -1224,14 +1098,7 @@ if __name__ == "__main__":
     print("Bypasses Gradio JavaScript restrictions using standalone server")
     print("="*65)
     
-    # Add configuration options
-    import argparse
-    parser = argparse.ArgumentParser(description='Point Cloud Viewer')
-    parser.add_argument('--share', action='store_true', help='Enable public sharing via Gradio tunnel')
-    parser.add_argument('--host', default='0.0.0.0', help='Host address (default: 0.0.0.0)')
-    parser.add_argument('--port', type=int, default=7871, help='Port number (default: 7871)')
-    args = parser.parse_args()
-    
+
     # Set global sharing mode
     USE_EMBEDDED_VIEWERS = args.share
     
