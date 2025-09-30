@@ -12,6 +12,7 @@ import shutil
 import tempfile
 import threading
 import time
+import base64
 from http.server import HTTPServer, SimpleHTTPRequestHandler
 import socket
 
@@ -461,11 +462,308 @@ class PointCloudServer:
             self.server.shutdown()
             self.server = None
 
-# Global server instances
+# Global server instances and sharing mode
 main_server = PointCloudServer()
-fixed_500k_server = PointCloudServer()
-fixed_100k_server = PointCloudServer()
+fixed_250k_server = PointCloudServer()
+USE_EMBEDDED_VIEWERS = False  # Will be set to True when using --share
 
+def create_embedded_viewer(file_path, sample_size):
+    """Create embedded Three.js viewer using data URL (for public sharing)"""
+    if not file_path:
+        return None, "Please select a PLY file first"
+
+    try:
+        # Read point cloud data with smaller limits for embedded viewers
+        max_embedded_points = min(sample_size, 25000)  # Limit embedded viewers to 25K points max for better sharing compatibility
+        vertices, colors, status = read_3dfront_ply_for_js(file_path, max_points=max_embedded_points)
+        
+        if vertices is None:
+            return None, f"❌ {status}"
+        
+        # Create self-contained HTML with embedded Three.js viewer
+        title = f"3D-FRONT Point Cloud ({len(vertices)//3:,} points)"
+        unique_id = f"viewer_{abs(hash(file_path + str(sample_size))) % 10000}"
+        
+        # Convert arrays to JavaScript format
+        js_vertices = "[" + ",".join(map(str, vertices)) + "]"
+        js_colors = "[" + ",".join(map(str, colors)) + "]"
+        
+        # Create completely self-contained HTML
+        html_content = f"""
+<!DOCTYPE html>
+<html>
+<head>
+    <title>{title}</title>
+    <style>
+        body {{ 
+            margin: 0; 
+            background: #f0f0f0; 
+            font-family: Arial, sans-serif;
+            overflow: hidden;
+        }}
+        #container {{ 
+            width: 100vw; 
+            height: 100vh; 
+            position: relative;
+        }}
+        #info {{
+            position: absolute;
+            top: 10px;
+            left: 10px;
+            background: rgba(0,0,0,0.7);
+            color: white;
+            padding: 10px;
+            border-radius: 5px;
+            font-size: 14px;
+            z-index: 1000;
+        }}
+        #controls {{
+            position: absolute;
+            top: 10px;
+            right: 10px;
+            background: rgba(0,0,0,0.7);
+            color: white;
+            padding: 10px;
+            border-radius: 5px;
+            z-index: 1000;
+        }}
+        button {{
+            background: #4CAF50;
+            color: white;
+            border: none;
+            padding: 5px 10px;
+            margin: 2px;
+            border-radius: 3px;
+            cursor: pointer;
+        }}
+        button:hover {{ background: #45a049; }}
+    </style>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+</head>
+<body>
+    <div id="container"></div>
+    <div id="info">
+        <strong>{title}</strong><br>
+        Points: {len(vertices)//3:,}<br>
+        <span id="fps">FPS: --</span>
+    </div>
+    <div id="controls">
+        <button onclick="resetView()">Reset View</button><br>
+        <button onclick="changePointSize(1)">Size +</button>
+        <button onclick="changePointSize(-1)">Size -</button>
+    </div>
+
+    <script>
+        // Global variables
+        let scene, camera, renderer, points;
+        let autoRotate = true;
+        let pointSize = 0.05;
+        let frameCount = 0;
+        let lastTime = Date.now();
+        
+        // Initialize Three.js scene
+        function init() {{
+            console.log("Initializing Three.js scene...");
+            
+            // Scene
+            scene = new THREE.Scene();
+            scene.background = new THREE.Color(0xf0f0f0);
+            
+            // Camera
+            camera = new THREE.PerspectiveCamera(75, window.innerWidth / window.innerHeight, 0.1, 1000);
+            
+            // Renderer
+            renderer = new THREE.WebGLRenderer({{ antialias: true }});
+            renderer.setSize(window.innerWidth, window.innerHeight);
+            document.getElementById('container').appendChild(renderer.domElement);
+            
+            // Point cloud data
+            const vertices = new Float32Array({js_vertices});
+            const colors = new Float32Array({js_colors});
+            
+            console.log("Vertices loaded:", vertices.length / 3);
+            console.log("Colors loaded:", colors.length / 3);
+            
+            // Create geometry
+            const geometry = new THREE.BufferGeometry();
+            geometry.setAttribute('position', new THREE.BufferAttribute(vertices, 3));
+            geometry.setAttribute('color', new THREE.BufferAttribute(colors, 3));
+            
+            // Create material
+            const material = new THREE.PointsMaterial({{ 
+                size: pointSize,
+                vertexColors: true,
+                sizeAttenuation: true
+            }});
+            
+            // Create points
+            points = new THREE.Points(geometry, material);
+            scene.add(points);
+            
+            // Calculate bounds and position camera
+            geometry.computeBoundingBox();
+            const box = geometry.boundingBox;
+            const center = box.getCenter(new THREE.Vector3());
+            const size = box.getSize(new THREE.Vector3());
+            const maxDim = Math.max(size.x, size.y, size.z);
+            
+            camera.position.set(
+                center.x + maxDim * 0.6,
+                center.y + maxDim * 0.3,
+                center.z + maxDim * 0.6
+            );
+            camera.lookAt(center);
+            
+            // Add basic controls
+            setupControls();
+            
+            // Start render loop
+            animate();
+        }}
+        
+        function setupControls() {{
+            let isDragging = false;
+            let previousMousePosition = {{ x: 0, y: 0 }};
+            
+            // Get point cloud center for proper rotation
+            const box = points.geometry.boundingBox;
+            const center = box.getCenter(new THREE.Vector3());
+            
+            renderer.domElement.addEventListener('mousedown', function(e) {{
+                isDragging = true;
+                autoRotate = false;
+                previousMousePosition.x = e.clientX;
+                previousMousePosition.y = e.clientY;
+            }});
+            
+            renderer.domElement.addEventListener('mousemove', function(e) {{
+                if (isDragging) {{
+                    const deltaMove = {{
+                        x: e.clientX - previousMousePosition.x,
+                        y: e.clientY - previousMousePosition.y
+                    }};
+                    
+                    // Rotate around point cloud center
+                    const spherical = new THREE.Spherical();
+                    const offset = new THREE.Vector3();
+                    offset.copy(camera.position).sub(center);
+                    spherical.setFromVector3(offset);
+                    
+                    spherical.theta -= deltaMove.x * 0.01;
+                    spherical.phi += deltaMove.y * 0.01;
+                    spherical.phi = Math.max(0.1, Math.min(Math.PI - 0.1, spherical.phi));
+                    
+                    offset.setFromSpherical(spherical);
+                    camera.position.copy(center).add(offset);
+                    camera.lookAt(center);
+                    
+                    previousMousePosition.x = e.clientX;
+                    previousMousePosition.y = e.clientY;
+                }}
+            }});
+            
+            renderer.domElement.addEventListener('mouseup', function() {{
+                isDragging = false;
+            }});
+            
+            // Zoom with wheel
+            renderer.domElement.addEventListener('wheel', function(e) {{
+                autoRotate = false;
+                const zoomFactor = e.deltaY > 0 ? 1.1 : 0.9;
+                const direction = new THREE.Vector3();
+                direction.subVectors(camera.position, center);
+                direction.multiplyScalar(zoomFactor);
+                camera.position.copy(center).add(direction);
+                e.preventDefault();
+            }});
+            
+            // Window resize
+            window.addEventListener('resize', function() {{
+                camera.aspect = window.innerWidth / window.innerHeight;
+                camera.updateProjectionMatrix();
+                renderer.setSize(window.innerWidth, window.innerHeight);
+            }});
+        }}
+        
+        function animate() {{
+            requestAnimationFrame(animate);
+            
+            if (autoRotate && points) {{
+                // Rotate around point cloud center
+                const box = points.geometry.boundingBox;
+                const center = box.getCenter(new THREE.Vector3());
+                
+                const radius = camera.position.distanceTo(center);
+                const angle = Date.now() * 0.0005;
+                
+                camera.position.x = center.x + Math.cos(angle) * radius;
+                camera.position.z = center.z + Math.sin(angle) * radius;
+                camera.lookAt(center);
+            }}
+            
+            renderer.render(scene, camera);
+            
+            // Update FPS
+            frameCount++;
+            const currentTime = Date.now();
+            if (currentTime - lastTime >= 1000) {{
+                const fps = Math.round(frameCount * 1000 / (currentTime - lastTime));
+                document.getElementById('fps').textContent = `FPS: ${{fps}}`;
+                frameCount = 0;
+                lastTime = currentTime;
+            }}
+        }}
+        
+        function resetView() {{
+            if (points) {{
+                const box = points.geometry.boundingBox;
+                const center = box.getCenter(new THREE.Vector3());
+                const size = box.getSize(new THREE.Vector3());
+                const maxDim = Math.max(size.x, size.y, size.z);
+                
+                camera.position.set(
+                    center.x + maxDim * 0.6,
+                    center.y + maxDim * 0.3,
+                    center.z + maxDim * 0.6
+                );
+                camera.lookAt(center);
+                autoRotate = true;
+            }}
+        }}
+        
+        function changePointSize(delta) {{
+            pointSize = Math.max(0.001, pointSize + delta * 0.02);
+            if (points) {{
+                points.material.size = pointSize;
+            }}
+        }}
+        
+        // Start when page loads
+        window.addEventListener('load', init);
+    </script>
+</body>
+</html>
+        """
+        
+        # Convert to data URL
+        import base64
+        html_b64 = base64.b64encode(html_content.encode('utf-8')).decode('ascii')
+        data_url = f"data:text/html;base64,{html_b64}"
+        
+        # Create iframe with data URL
+        iframe_html = f"""
+        <iframe src="{data_url}" 
+                width="100%" 
+                height="500px" 
+                frameborder="0"
+                style="border-radius: 5px;">
+        </iframe>
+        """
+        
+        return iframe_html, f"✅ {status} | Data URL viewer ({len(vertices)//3:,} points)"
+        
+    except Exception as e:
+        return None, f"❌ Error: {str(e)}"
 def create_iframe_viewer(file_path, sample_size, server_instance=None):
     """Create iframe viewer with standalone Three.js"""
     if not file_path:
@@ -537,6 +835,51 @@ def analyze_file_and_set_full(file_path):
     
     return total_points, warning
 
+def validate_and_load_path(path_input):
+    """Validate path and return it if valid, otherwise return None"""
+    if not path_input or not path_input.strip():
+        return None, "Please enter a file path"
+    
+    path = path_input.strip()
+    
+    if not os.path.exists(path):
+        return None, f"❌ File not found: {path}"
+    
+    if not path.lower().endswith('.ply'):
+        return None, f"❌ File must be a PLY file: {path}"
+    
+    return path, f"✅ Valid PLY file: {os.path.basename(path)}"
+
+
+def load_from_path_input(path_input):
+    """Load all viewers from path input"""
+    validated_path, status = validate_and_load_path(path_input)
+    
+    if validated_path is None:
+        placeholder = f"<p style='text-align: center; padding: 60px; background: #fce8e6;'>{status}</p>"
+        return (
+            status,  # point_count_display
+            placeholder, status,  # main viewer
+            placeholder, status,  # 500k viewer  
+            placeholder, status   # 100k viewer
+        )
+    
+    # Update file info
+    file_info = update_file_info(validated_path)
+    
+    # Load both viewers
+    main_viewer, main_status = load_main_viewer_full(validated_path)
+    viewer_250k, status_250k = load_fixed_250k_viewer(validated_path)
+    
+    return (
+        file_info,
+        main_viewer or f"<p style='text-align: center; padding: 60px; background: #fce8e6;'>{main_status}</p>", 
+        main_status,
+        viewer_250k or f"<p style='text-align: center; padding: 60px; background: #fce8e6;'>{status_250k}</p>", 
+        status_250k
+    )
+
+
 def update_file_info(file_path):
     """Update file info display when file is selected"""
     if not file_path:
@@ -550,32 +893,32 @@ def update_file_info(file_path):
     return f"📁 {os.path.basename(file_path)}: {total_points:,} points ({file_size_mb:.1f}MB)"
 
 
-def load_fixed_500k_viewer(file_path):
-    """Load fixed 500K viewer when a new file is provided"""
-    placeholder = "<p style='text-align: center; padding: 60px; background: #f0f0f0;'>Select a point cloud to view 500K points</p>"
+
+
+
+def load_fixed_250k_viewer(file_path):
+    """Load fixed 250K viewer when a new file is provided"""
+    global USE_EMBEDDED_VIEWERS
+    placeholder = "<p style='text-align: center; padding: 60px; background: #f0f0f0;'>Select a point cloud to view 250K points</p>"
     if not file_path:
         return placeholder, "Select a file to see point count"
 
-    viewer_html, status = create_iframe_viewer(file_path, 500000, server_instance=fixed_500k_server)
+    if USE_EMBEDDED_VIEWERS:
+        viewer_html, status = create_embedded_viewer(file_path, 250000)
+    else:
+        viewer_html, status = create_iframe_viewer(file_path, 250000, server_instance=fixed_250k_server)
+    
     if viewer_html is None:
         viewer_html = f"<p style='text-align: center; padding: 60px; background: #fce8e6;'>{status}</p>"
     return viewer_html, status
 
 
-def load_fixed_100k_viewer(file_path):
-    """Load fixed 100K viewer when a new file is provided"""
-    placeholder = "<p style='text-align: center; padding: 60px; background: #f0f0f0;'>Select a point cloud to view 100K points</p>"
-    if not file_path:
-        return placeholder, "Select a file to see point count"
 
-    viewer_html, status = create_iframe_viewer(file_path, 100000, server_instance=fixed_100k_server)
-    if viewer_html is None:
-        viewer_html = f"<p style='text-align: center; padding: 60px; background: #fce8e6;'>{status}</p>"
-    return viewer_html, status
 
 
 def load_main_viewer_full(file_path):
     """Load the main viewer using full point count from the file"""
+    global USE_EMBEDDED_VIEWERS
     if not file_path:
         return None, "Please select a PLY file first"
     
@@ -583,7 +926,10 @@ def load_main_viewer_full(file_path):
     if total_points == 0:
         return None, "❌ Could not read point count"
     
-    return create_iframe_viewer(file_path, total_points, server_instance=main_server)
+    if USE_EMBEDDED_VIEWERS:
+        return create_embedded_viewer(file_path, total_points)
+    else:
+        return create_iframe_viewer(file_path, total_points, server_instance=main_server)
 
 # Create interface
 with gr.Blocks() as demo:
@@ -596,6 +942,17 @@ with gr.Blocks() as demo:
                 type="filepath"
             )
             
+            gr.Markdown("**OR**")
+            
+            path_input = gr.Textbox(
+                label="📝 Enter PLY File Path",
+                value="/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/ffed9e6c-5e6d-49aa-ba90-83927369ff47/LivingRoom-1184/LivingRoom-1184.ply",
+                placeholder="Enter full path to PLY file...",
+                lines=2
+            )
+            
+            load_path_btn = gr.Button("🔄 Load from Path", variant="primary")
+            
             point_count_display = gr.Textbox(
                 label="📊 File Info",
                 value="Select a file to see point count",
@@ -603,7 +960,7 @@ with gr.Blocks() as demo:
             )
             
         with gr.Column(scale=2):
-            # Horizontal layout for the three viewers
+            # Horizontal layout for the two viewers
             with gr.Row():
                 with gr.Column(scale=1):
                     gr.Markdown("**All Points**")
@@ -617,25 +974,14 @@ with gr.Blocks() as demo:
                     )
                 
                 with gr.Column(scale=1):
-                    gr.Markdown("**500K Points**")
-                    fixed_500k_status = gr.Textbox(
-                        label="📊 500K Status",
+                    gr.Markdown("**250K Points**")
+                    fixed_250k_status = gr.Textbox(
+                        label="📊 250K Status",
                         lines=1,
                         interactive=False
                     )
-                    fixed_500k_viewer = gr.HTML(
-                        value="<p style='text-align: center; padding: 60px; background: #f0f0f0;'>Select a point cloud to view 500K points</p>"
-                    )
-                
-                with gr.Column(scale=1):
-                    gr.Markdown("**100K Points**")
-                    fixed_100k_status = gr.Textbox(
-                        label="📊 100K Status",
-                        lines=1,
-                        interactive=False
-                    )
-                    fixed_100k_viewer = gr.HTML(
-                        value="<p style='text-align: center; padding: 60px; background: #f0f0f0;'>Select a point cloud to view 100K points</p>"
+                    fixed_250k_viewer = gr.HTML(
+                        value="<p style='text-align: center; padding: 60px; background: #f0f0f0;'>Select a point cloud to view 250K points</p>"
                     )
     
     # Event handlers - automatically load all viewers when file is selected
@@ -652,15 +998,20 @@ with gr.Blocks() as demo:
     )
 
     file_input.change(
-        fn=load_fixed_500k_viewer,
+        fn=load_fixed_250k_viewer,
         inputs=[file_input],
-        outputs=[fixed_500k_viewer, fixed_500k_status]
+        outputs=[fixed_250k_viewer, fixed_250k_status]
     )
-
-    file_input.change(
-        fn=load_fixed_100k_viewer,
-        inputs=[file_input],
-        outputs=[fixed_100k_viewer, fixed_100k_status]
+    
+    # Event handler for path input button
+    load_path_btn.click(
+        fn=load_from_path_input,
+        inputs=[path_input],
+        outputs=[
+            point_count_display,
+            viewer_output, status_output,
+            fixed_250k_viewer, fixed_250k_status
+        ]
     )
 
 if __name__ == "__main__":
@@ -668,16 +1019,34 @@ if __name__ == "__main__":
     print("Bypasses Gradio JavaScript restrictions using standalone server")
     print("="*65)
     
+    # Add configuration options
+    import argparse
+    parser = argparse.ArgumentParser(description='Point Cloud Viewer')
+    parser.add_argument('--share', action='store_true', help='Enable public sharing via Gradio tunnel')
+    parser.add_argument('--host', default='0.0.0.0', help='Host address (default: 0.0.0.0)')
+    parser.add_argument('--port', type=int, default=7871, help='Port number (default: 7871)')
+    args = parser.parse_args()
+    
+    # Set global sharing mode
+    USE_EMBEDDED_VIEWERS = args.share
+    
+    print(f"🌐 Server will run on {args.host}:{args.port}")
+    if args.share:
+        print("🔗 Public sharing enabled - you'll get a gradio.live URL")
+        print("📱 Using embedded viewers (compatible with public sharing)")
+    else:
+        print("🏠 Local/network access only")
+        print("🖥️ Using iframe viewers (better performance for local use)")
+    
     try:
         demo.launch(
-            share=False,
-            server_name="0.0.0.0",
-            server_port=7871,
+            share=args.share,
+            server_name=args.host,
+            server_port=args.port,
             show_error=True,
-            inbrowser=True
+            inbrowser=not args.share  # Don't auto-open browser if sharing publicly
         )
     finally:
         # Cleanup servers
         main_server.stop()
-        fixed_500k_server.stop()
-        fixed_100k_server.stop()
+        fixed_250k_server.stop()
