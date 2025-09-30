@@ -464,7 +464,6 @@ class PointCloudServer:
 
 # Global server instances and sharing mode
 main_server = PointCloudServer()
-fixed_250k_server = PointCloudServer()
 USE_EMBEDDED_VIEWERS = False  # Will be set to True when using --share
 
 def create_embedded_viewer(file_path, sample_size):
@@ -473,8 +472,8 @@ def create_embedded_viewer(file_path, sample_size):
         return None, "Please select a PLY file first"
 
     try:
-        # Read point cloud data with smaller limits for embedded viewers
-        max_embedded_points = min(sample_size, 25000)  # Limit embedded viewers to 25K points max for better sharing compatibility
+        # Use the actual sample size requested - let the caller decide the limit
+        max_embedded_points = sample_size
         vertices, colors, status = read_3dfront_ply_for_js(file_path, max_points=max_embedded_points)
         
         if vertices is None:
@@ -852,31 +851,55 @@ def validate_and_load_path(path_input):
 
 
 def load_from_path_input(path_input):
-    """Load all viewers from path input"""
+    """Load viewer from path input"""
     validated_path, status = validate_and_load_path(path_input)
     
     if validated_path is None:
         placeholder = f"<p style='text-align: center; padding: 60px; background: #fce8e6;'>{status}</p>"
+        default_slider = gr.Slider(
+            minimum=1000,
+            maximum=500000,
+            value=100000,
+            step=1000,
+            label="📊 Number of Points to Display",
+            info="Drag to change the number of points rendered (updates automatically)"
+        )
         return (
             status,  # point_count_display
-            placeholder, status,  # main viewer
-            placeholder, status,  # 500k viewer  
-            placeholder, status   # 100k viewer
+            default_slider,  # slider component
+            placeholder, status  # main viewer
         )
     
     # Update file info
     file_info = update_file_info(validated_path)
     
-    # Load both viewers
-    main_viewer, main_status = load_main_viewer_full(validated_path)
-    viewer_250k, status_250k = load_fixed_250k_viewer(validated_path)
+    # Get total points and set slider range
+    total_points = get_ply_point_count(validated_path)
+    if total_points <= 0:
+        max_points = 500000
+        default_points = 100000
+    else:
+        max_points = total_points  # Slider max = actual file point count
+        default_points = min(100000, total_points)  # Default 100K or max if file is smaller
+    
+    # Create new slider with proper maximum
+    new_slider = gr.Slider(
+        minimum=1000,
+        maximum=max_points,
+        value=default_points,
+        step=1000,
+        label="📊 Number of Points to Display",
+        info="Drag to change the number of points rendered (updates automatically)"
+    )
+    
+    # Load viewer with default point count
+    main_viewer, main_status = load_main_viewer(validated_path, default_points)
     
     return (
         file_info,
+        new_slider,  # new slider component with proper max
         main_viewer or f"<p style='text-align: center; padding: 60px; background: #fce8e6;'>{main_status}</p>", 
-        main_status,
-        viewer_250k or f"<p style='text-align: center; padding: 60px; background: #fce8e6;'>{status_250k}</p>", 
-        status_250k
+        main_status
     )
 
 
@@ -896,40 +919,30 @@ def update_file_info(file_path):
 
 
 
-def load_fixed_250k_viewer(file_path):
-    """Load fixed 250K viewer when a new file is provided"""
-    global USE_EMBEDDED_VIEWERS
-    placeholder = "<p style='text-align: center; padding: 60px; background: #f0f0f0;'>Select a point cloud to view 250K points</p>"
-    if not file_path:
-        return placeholder, "Select a file to see point count"
-
-    if USE_EMBEDDED_VIEWERS:
-        viewer_html, status = create_embedded_viewer(file_path, 250000)
-    else:
-        viewer_html, status = create_iframe_viewer(file_path, 250000, server_instance=fixed_250k_server)
-    
-    if viewer_html is None:
-        viewer_html = f"<p style='text-align: center; padding: 60px; background: #fce8e6;'>{status}</p>"
-    return viewer_html, status
-
-
-
-
-
-def load_main_viewer_full(file_path):
-    """Load the main viewer using full point count from the file"""
+def load_main_viewer(file_path, point_count):
+    """Load the main viewer with specified point count"""
     global USE_EMBEDDED_VIEWERS
     if not file_path:
         return None, "Please select a PLY file first"
     
-    total_points = get_ply_point_count(file_path)
-    if total_points == 0:
-        return None, "❌ Could not read point count"
+    if point_count <= 0:
+        return None, "Invalid point count"
     
     if USE_EMBEDDED_VIEWERS:
-        return create_embedded_viewer(file_path, total_points)
+        return create_embedded_viewer(file_path, point_count)
     else:
-        return create_iframe_viewer(file_path, total_points, server_instance=main_server)
+        return create_iframe_viewer(file_path, point_count, server_instance=main_server)
+
+def get_default_point_count(file_path):
+    """Get default point count (100K or max, whichever is less)"""
+    if not file_path:
+        return 100000
+    
+    total_points = get_ply_point_count(file_path)
+    if total_points == 0:
+        return 100000
+    
+    return min(total_points, 100000)
 
 # Create interface
 with gr.Blocks() as demo:
@@ -960,58 +973,106 @@ with gr.Blocks() as demo:
             )
             
         with gr.Column(scale=2):
-            # Horizontal layout for the two viewers
-            with gr.Row():
-                with gr.Column(scale=1):
-                    gr.Markdown("**All Points**")
-                    status_output = gr.Textbox(
-                        label="📊 Status",
-                        lines=1,
-                        interactive=False
-                    )
-                    viewer_output = gr.HTML(
-                        value="<p style='text-align: center; padding: 60px; background: #f5f5f5;'>Load a point cloud to start viewing</p>"
-                    )
-                
-                with gr.Column(scale=1):
-                    gr.Markdown("**250K Points**")
-                    fixed_250k_status = gr.Textbox(
-                        label="📊 250K Status",
-                        lines=1,
-                        interactive=False
-                    )
-                    fixed_250k_viewer = gr.HTML(
-                        value="<p style='text-align: center; padding: 60px; background: #f0f0f0;'>Select a point cloud to view 250K points</p>"
-                    )
+            # Point count slider
+            point_count_slider = gr.Slider(
+                minimum=1000,
+                maximum=500000,
+                value=100000,
+                step=1000,
+                label="📊 Number of Points to Display",
+                info="Drag to change the number of points rendered (updates automatically)"
+            )
+            
+            # Single viewer
+            status_output = gr.Textbox(
+                label="📊 Status",
+                lines=1,
+                interactive=False
+            )
+            viewer_output = gr.HTML(
+                value="<p style='text-align: center; padding: 60px; background: #f5f5f5;'>Load a point cloud to start viewing</p>"
+            )
     
-    # Event handlers - automatically load all viewers when file is selected
+    # Store current file path for slider updates
+    current_file = gr.State(None)
+    
+    # Event handlers
+    def update_file_and_slider(file_path):
+        """Update file info and slider when file is selected"""
+        if not file_path:
+            return "Select a file to see point count", gr.Slider(minimum=1000, maximum=500000, value=100000, step=1000), file_path
+        
+        file_info = update_file_info(file_path)
+        total_points = get_ply_point_count(file_path)
+        
+        if total_points <= 0:
+            max_points = 500000
+            default_points = 100000
+        else:
+            max_points = total_points  # Slider max = actual file point count
+            default_points = min(100000, total_points)  # Default 100K or max if file is smaller
+        
+        # Create new slider with proper maximum
+        new_slider = gr.Slider(
+            minimum=1000,
+            maximum=max_points,
+            value=default_points,
+            step=1000,
+            label="📊 Number of Points to Display",
+            info="Drag to change the number of points rendered (updates automatically)"
+        )
+        
+        return file_info, new_slider, file_path
+    
+    def update_viewer_from_slider(file_path, point_count):
+        """Update viewer when slider changes"""
+        if not file_path:
+            return "<p style='text-align: center; padding: 60px; background: #f5f5f5;'>Load a point cloud to start viewing</p>", "No file selected"
+        
+        viewer_html, status = load_main_viewer(file_path, int(point_count))
+        if viewer_html is None:
+            viewer_html = f"<p style='text-align: center; padding: 60px; background: #fce8e6;'>{status}</p>"
+        
+        return viewer_html, status
+    
+    # File input events
     file_input.change(
-        fn=update_file_info,
+        fn=update_file_and_slider,
         inputs=[file_input],
-        outputs=[point_count_display]
+        outputs=[point_count_display, point_count_slider, current_file]
     )
-
+    
+    # Load initial viewer when file changes
     file_input.change(
-        fn=load_main_viewer_full,
-        inputs=[file_input],
+        fn=update_viewer_from_slider,
+        inputs=[current_file, point_count_slider],
         outputs=[viewer_output, status_output]
     )
-
-    file_input.change(
-        fn=load_fixed_250k_viewer,
-        inputs=[file_input],
-        outputs=[fixed_250k_viewer, fixed_250k_status]
+    
+    # Slider change event - updates viewer in real time
+    point_count_slider.change(
+        fn=update_viewer_from_slider,
+        inputs=[current_file, point_count_slider],
+        outputs=[viewer_output, status_output]
     )
     
-    # Event handler for path input button
+    # Path input button event
     load_path_btn.click(
         fn=load_from_path_input,
         inputs=[path_input],
         outputs=[
             point_count_display,
-            viewer_output, status_output,
-            fixed_250k_viewer, fixed_250k_status
+            point_count_slider,  # Replace entire slider component
+            viewer_output, 
+            status_output
         ]
+    )
+    
+    # Update current file when path is loaded
+    load_path_btn.click(
+        fn=lambda path: validate_and_load_path(path)[0] if validate_and_load_path(path)[0] else None,
+        inputs=[path_input],
+        outputs=[current_file]
     )
 
 if __name__ == "__main__":
@@ -1049,4 +1110,3 @@ if __name__ == "__main__":
     finally:
         # Cleanup servers
         main_server.stop()
-        fixed_250k_server.stop()
