@@ -865,13 +865,9 @@ def load_from_path_input(path_input):
             info="Drag to change the number of points rendered (updates automatically)"
         )
         return (
-            status,  # point_count_display
             default_slider,  # slider component
             placeholder, status  # main viewer
         )
-    
-    # Update file info
-    file_info = update_file_info(validated_path)
     
     # Get total points and set slider range
     total_points = get_ply_point_count(validated_path)
@@ -896,7 +892,6 @@ def load_from_path_input(path_input):
     main_viewer, main_status = load_main_viewer(validated_path, default_points)
     
     return (
-        file_info,
         new_slider,  # new slider component with proper max
         main_viewer or f"<p style='text-align: center; padding: 60px; background: #fce8e6;'>{main_status}</p>", 
         main_status
@@ -966,9 +961,18 @@ with gr.Blocks() as demo:
             
             load_path_btn = gr.Button("🔄 Load from Path", variant="primary")
             
-            point_count_display = gr.Textbox(
-                label="📊 File Info",
-                value="Select a file to see point count",
+            user_selection = gr.Radio(
+                choices=["User 1", "User 2", "User 3", "User 4", "User 5", "User 6", "User 7"],
+                label="� Select User",
+                value=None,
+                info="You must select a user before submitting"
+            )
+            
+            submit_btn = gr.Button("📝 Submit", variant="primary", size="lg")
+            
+            submission_status = gr.Textbox(
+                label="📋 Submission Status",
+                value="No user selected",
                 interactive=False
             )
             
@@ -998,11 +1002,10 @@ with gr.Blocks() as demo:
     
     # Event handlers
     def update_file_and_slider(file_path):
-        """Update file info and slider when file is selected"""
+        """Update slider when file is selected"""
         if not file_path:
-            return "Select a file to see point count", gr.Slider(minimum=1000, maximum=500000, value=100000, step=1000), file_path
+            return gr.Slider(minimum=1000, maximum=500000, value=100000, step=1000), file_path
         
-        file_info = update_file_info(file_path)
         total_points = get_ply_point_count(file_path)
         
         if total_points <= 0:
@@ -1022,7 +1025,7 @@ with gr.Blocks() as demo:
             info="Drag to change the number of points rendered (updates automatically)"
         )
         
-        return file_info, new_slider, file_path
+        return new_slider, file_path
     
     def update_viewer_from_slider(file_path, point_count):
         """Update viewer when slider changes"""
@@ -1035,11 +1038,18 @@ with gr.Blocks() as demo:
         
         return viewer_html, status
     
+    def handle_submit(selected_user):
+        """Handle submit button click with user validation"""
+        if selected_user is None:
+            return "❌ No user selected - please select a user before submitting"
+        else:
+            return f"✅ Submitted for {selected_user}"
+    
     # File input events
     file_input.change(
         fn=update_file_and_slider,
         inputs=[file_input],
-        outputs=[point_count_display, point_count_slider, current_file]
+        outputs=[point_count_slider, current_file]
     )
     
     # Load initial viewer when file changes
@@ -1061,11 +1071,17 @@ with gr.Blocks() as demo:
         fn=load_from_path_input,
         inputs=[path_input],
         outputs=[
-            point_count_display,
             point_count_slider,  # Replace entire slider component
             viewer_output, 
             status_output
         ]
+    )
+    
+    # Submit button event
+    submit_btn.click(
+        fn=handle_submit,
+        inputs=[user_selection],
+        outputs=[submission_status]
     )
     
     # Update current file when path is loaded
