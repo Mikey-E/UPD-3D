@@ -939,8 +939,102 @@ def get_default_point_count(file_path):
     
     return min(total_points, 100000)
 
+def create_dataset_directory(dataset_name):
+    """Create directory for collected answers if it doesn't exist"""
+    import os
+    base_dir = "./human_baseline/collected_answers/pcl_lists"
+    dataset_dir = os.path.join(base_dir, dataset_name)
+    os.makedirs(dataset_dir, exist_ok=True)
+    return dataset_dir
+
+def get_progress_info(dataset_name):
+    """Get progress information for a dataset"""
+    import os
+    
+    # Create directory if it doesn't exist
+    dataset_dir = create_dataset_directory(dataset_name)
+    
+    # Count collected files
+    try:
+        collected_files = len([f for f in os.listdir(dataset_dir) if f.endswith('.json') or f.endswith('.txt')])
+    except:
+        collected_files = 0
+    
+    # Count total files from pcl_lists
+    pcl_file = f"./pcl_lists/{dataset_name}.txt"
+    total_files = 0
+    
+    try:
+        if os.path.exists(pcl_file):
+            with open(pcl_file, 'r') as f:
+                total_files = len([line.strip() for line in f if line.strip()])
+    except:
+        total_files = 0
+    
+    if total_files > 0:
+        percentage = (collected_files / total_files) * 100
+        return f"📊 {collected_files}/{total_files} files collected ({percentage:.1f}%)"
+    else:
+        return f"📊 {collected_files}/? files collected (dataset file not found)"
+
+def update_progress_display(dataset_name):
+    """Update progress display when dataset selection changes"""
+    return get_progress_info(dataset_name)
+
+def create_dataset_directory(dataset_name):
+    """Create directory for collected answers if it doesn't exist"""
+    import os
+    base_dir = "./human_baseline/collected_answers/pcl_lists"
+    dataset_dir = os.path.join(base_dir, dataset_name)
+    os.makedirs(dataset_dir, exist_ok=True)
+    return dataset_dir
+
+def get_progress_info(dataset_name):
+    """Get progress information for a dataset"""
+    import os
+    
+    # Create directory if it doesn't exist
+    dataset_dir = create_dataset_directory(dataset_name)
+    
+    # Count collected files
+    try:
+        collected_files = len([f for f in os.listdir(dataset_dir) if f.endswith('.json') or f.endswith('.txt')])
+    except:
+        collected_files = 0
+    
+    # Count total files from pcl_lists
+    pcl_file = f"./pcl_lists/{dataset_name}.txt"
+    total_files = 0
+    
+    try:
+        if os.path.exists(pcl_file):
+            with open(pcl_file, 'r') as f:
+                total_files = len([line.strip() for line in f if line.strip()])
+    except:
+        total_files = 0
+    
+    if total_files > 0:
+        percentage = (collected_files / total_files) * 100
+        return f"📊 {collected_files}/{total_files} files collected ({percentage:.1f}%)"
+    else:
+        return f"📊 {collected_files}/? files collected (dataset file not found)"
+
+def update_progress_display(dataset_name):
+    """Update progress display when dataset selection changes"""
+    return get_progress_info(dataset_name)
+
+def on_dataset_change(dataset_name):
+    """Handle dataset selection change"""
+    # Create directory and update progress
+    create_dataset_directory(dataset_name)
+    return update_progress_display(dataset_name)
+
 # Create interface
 with gr.Blocks() as demo:
+    
+    # Initialize progress on startup
+    def initialize_progress():
+        return get_progress_info("3D-FRONT_test")
     
     with gr.Row():
         with gr.Column(scale=1):
@@ -960,6 +1054,20 @@ with gr.Blocks() as demo:
             )
             
             load_path_btn = gr.Button("🔄 Load from Path", variant="primary")
+            
+            # Dataset selection
+            dataset_selection = gr.Radio(
+                choices=["3D-FRONT_test", "Crops3D_test"],
+                label="📊 Dataset",
+                value="3D-FRONT_test",
+                info="Select dataset for annotation"
+            )
+            
+            progress_display = gr.Textbox(
+                label="📈 Progress",
+                value=get_progress_info("3D-FRONT_test"),
+                interactive=False
+            )
             
             user_selection = gr.Radio(
                 choices=["User 1", "User 2", "User 3", "User 4", "User 5", "User 6", "User 7"],
@@ -999,6 +1107,13 @@ with gr.Blocks() as demo:
     
     # Store current file path for slider updates
     current_file = gr.State(None)
+    
+    # Dataset selection event
+    dataset_selection.change(
+        fn=on_dataset_change,
+        inputs=[dataset_selection],
+        outputs=[progress_display]
+    )
     
     # Event handlers
     def update_file_and_slider(file_path):
@@ -1044,6 +1159,19 @@ with gr.Blocks() as demo:
             return "❌ No user selected - please select a user before submitting"
         else:
             return f"✅ Submitted for {selected_user}"
+    
+    def on_dataset_change(dataset_name):
+        """Handle dataset selection change"""
+        # Create directory and update progress
+        create_dataset_directory(dataset_name)
+        return update_progress_display(dataset_name)
+    
+    # Dataset selection event
+    dataset_selection.change(
+        fn=on_dataset_change,
+        inputs=[dataset_selection],
+        outputs=[progress_display]
+    )
     
     # File input events
     file_input.change(
