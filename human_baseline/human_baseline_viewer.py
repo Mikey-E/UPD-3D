@@ -57,8 +57,8 @@ def get_ply_point_count(file_path):
     except:
         return 0
 
-def read_3dfront_ply_for_js(file_path, max_points=50000):
-    """Read 3D-FRONT PLY and convert to JavaScript format"""
+def read_ply_for_js(file_path, max_points=50000):
+    """Read PLY file (binary or ASCII) and convert to JavaScript format"""
     try:
         vertices = []
         colors = []
@@ -85,70 +85,117 @@ def read_3dfront_ply_for_js(file_path, max_points=50000):
                 elif line == 'end_header':
                     break
             
-            if format_type != 'binary_little_endian':
-                return None, None, "Only binary PLY supported for 3D-FRONT"
+            if format_type not in ['binary_little_endian', 'ascii 1.0']:
+                return None, None, f"Unsupported PLY format: {format_type}"
             
-            # Calculate bytes per vertex
-            bytes_per_vertex = 0
-            property_map = []
+            is_binary = format_type == 'binary_little_endian'
             
-            for prop_type, prop_name in properties:
-                if prop_type == 'double':
-                    bytes_per_vertex += 8
-                    property_map.append((prop_name, 'double', 8))
-                elif prop_type == 'float':
-                    bytes_per_vertex += 4
-                    property_map.append((prop_name, 'float', 4))
-                elif prop_type == 'uchar':
-                    bytes_per_vertex += 1
-                    property_map.append((prop_name, 'uchar', 1))
-            
-            # Sample vertices
-            sample_stride = max(1, vertex_count // max_points)
-            valid_count = 0
-            
-            for i in range(vertex_count):
-                vertex_data = f.read(bytes_per_vertex)
-                if len(vertex_data) < bytes_per_vertex:
-                    break
+            # Calculate bytes per vertex for binary
+            if is_binary:
+                bytes_per_vertex = 0
+                property_map = []
                 
-                # Skip for sampling
-                if i % sample_stride != 0:
-                    continue
-                
-                # Parse vertex
-                pos = 0
-                vertex_values = {}
-                
-                for prop_name, prop_type, prop_size in property_map:
+                for prop_type, prop_name in properties:
                     if prop_type == 'double':
-                        value = struct.unpack('<d', vertex_data[pos:pos+8])[0]
+                        bytes_per_vertex += 8
+                        property_map.append((prop_name, 'double', 8))
                     elif prop_type == 'float':
-                        value = struct.unpack('<f', vertex_data[pos:pos+4])[0]
+                        bytes_per_vertex += 4
+                        property_map.append((prop_name, 'float', 4))
                     elif prop_type == 'uchar':
-                        value = struct.unpack('<B', vertex_data[pos:pos+1])[0]
-                    
-                    vertex_values[prop_name] = value
-                    pos += prop_size
+                        bytes_per_vertex += 1
+                        property_map.append((prop_name, 'uchar', 1))
                 
-                # Extract coordinates
-                x = vertex_values.get('x', 0)
-                y = vertex_values.get('y', 0)
-                z = vertex_values.get('z', 0)
+                # Sample vertices
+                sample_stride = max(1, vertex_count // max_points)
+                valid_count = 0
                 
-                # Filter NaN/Inf
-                if np.isfinite([x, y, z]).all():
-                    vertices.extend([x, y, z])  # Flatten for Three.js
-                    
-                    # Colors
-                    r = vertex_values.get('red', 128) / 255.0
-                    g = vertex_values.get('green', 128) / 255.0
-                    b = vertex_values.get('blue', 128) / 255.0
-                    colors.extend([r, g, b])
-                    
-                    valid_count += 1
-                    if valid_count >= max_points:
+                for i in range(vertex_count):
+                    vertex_data = f.read(bytes_per_vertex)
+                    if len(vertex_data) < bytes_per_vertex:
                         break
+                    
+                    # Skip for sampling
+                    if i % sample_stride != 0:
+                        continue
+                    
+                    # Parse vertex
+                    pos = 0
+                    vertex_values = {}
+                    
+                    for prop_name, prop_type, prop_size in property_map:
+                        if prop_type == 'double':
+                            value = struct.unpack('<d', vertex_data[pos:pos+8])[0]
+                        elif prop_type == 'float':
+                            value = struct.unpack('<f', vertex_data[pos:pos+4])[0]
+                        elif prop_type == 'uchar':
+                            value = struct.unpack('<B', vertex_data[pos:pos+1])[0]
+                        
+                        vertex_values[prop_name] = value
+                        pos += prop_size
+                    
+                    # Extract coordinates
+                    x = vertex_values.get('x', 0)
+                    y = vertex_values.get('y', 0)
+                    z = vertex_values.get('z', 0)
+                    
+                    # Filter NaN/Inf
+                    if np.isfinite([x, y, z]).all():
+                        vertices.extend([x, y, z])  # Flatten for Three.js
+                        
+                        # Colors
+                        r = vertex_values.get('red', 128) / 255.0
+                        g = vertex_values.get('green', 128) / 255.0
+                        b = vertex_values.get('blue', 128) / 255.0
+                        colors.extend([r, g, b])
+                        
+                        valid_count += 1
+                        if valid_count >= max_points:
+                            break
+            else:
+                # ASCII format
+                sample_stride = max(1, vertex_count // max_points)
+                valid_count = 0
+                
+                for i in range(vertex_count):
+                    line = f.readline().decode('utf-8').strip()
+                    if not line:
+                        break
+                    
+                    # Skip for sampling
+                    if i % sample_stride != 0:
+                        continue
+                    
+                    # Parse ASCII line
+                    values = line.split()
+                    if len(values) < len(properties):
+                        continue
+                    
+                    vertex_values = {}
+                    for j, (prop_type, prop_name) in enumerate(properties):
+                        if prop_type in ['double', 'float']:
+                            vertex_values[prop_name] = float(values[j])
+                        elif prop_type == 'uchar':
+                            vertex_values[prop_name] = int(values[j])
+                    
+                    # Extract coordinates
+                    x = vertex_values.get('x', 0)
+                    y = vertex_values.get('y', 0)
+                    z = vertex_values.get('z', 0)
+                    
+                    # Filter NaN/Inf
+                    if np.isfinite([x, y, z]).all():
+                        vertices.extend([x, y, z])
+                        
+                        # Colors
+                        r = vertex_values.get('red', 128) / 255.0
+                        g = vertex_values.get('green', 128) / 255.0
+                        b = vertex_values.get('blue', 128) / 255.0
+                        colors.extend([r, g, b])
+                        
+                        valid_count += 1
+                        if valid_count >= max_points:
+                            break
         
         if len(vertices) == 0:
             return None, None, "No valid vertices found"
@@ -219,7 +266,7 @@ def create_standalone_html(vertices, colors, title="Point Cloud"):
 <body>
     <div id="container"></div>
     <div id="info">
-        <strong>3D-FRONT Point Cloud Viewer</strong><br>
+        <strong>{title} Viewer</strong><br>
         Points: {len(vertices)//3:,}<br>
         <span id="fps">FPS: --</span>
     </div>
@@ -483,7 +530,7 @@ class PointCloudServer:
 main_server = PointCloudServer()
 USE_EMBEDDED_VIEWERS = False  # Will be set to True when using --share
 
-def create_embedded_viewer(file_path, sample_size):
+def create_embedded_viewer(file_path, sample_size, dataset_name="Point Cloud"):
     """Create embedded Three.js viewer using data URL (for public sharing)"""
     if not file_path:
         return None, "Please select a PLY file first"
@@ -491,13 +538,13 @@ def create_embedded_viewer(file_path, sample_size):
     try:
         # Use the actual sample size requested - let the caller decide the limit
         max_embedded_points = sample_size
-        vertices, colors, status = read_3dfront_ply_for_js(file_path, max_points=max_embedded_points)
+        vertices, colors, status = read_ply_for_js(file_path, max_points=max_embedded_points)
         
         if vertices is None:
             return None, f"❌ {status}"
         
         # Create self-contained HTML with embedded Three.js viewer
-        title = f"3D-FRONT Point Cloud ({len(vertices)//3:,} points)"
+        title = f"{dataset_name} Point Cloud ({len(vertices)//3:,} points)"
         unique_id = f"viewer_{abs(hash(file_path + str(sample_size))) % 10000}"
         
         # Convert arrays to JavaScript format
@@ -780,7 +827,7 @@ def create_embedded_viewer(file_path, sample_size):
         
     except Exception as e:
         return None, f"❌ Error: {str(e)}"
-def create_iframe_viewer(file_path, sample_size, server_instance=None):
+def create_iframe_viewer(file_path, sample_size, server_instance=None, dataset_name="Point Cloud"):
     """Create iframe viewer with standalone Three.js"""
     if not file_path:
         return None, "Please select a PLY file first"
@@ -793,7 +840,7 @@ def create_iframe_viewer(file_path, sample_size, server_instance=None):
         loading_status = f"🔄 Loading {sample_size:,} points from point cloud..."
         
         # Read point cloud data
-        vertices, colors, status = read_3dfront_ply_for_js(file_path, max_points=sample_size)
+        vertices, colors, status = read_ply_for_js(file_path, max_points=sample_size)
         
         if vertices is None:
             return None, f"❌ {status}"
@@ -803,7 +850,7 @@ def create_iframe_viewer(file_path, sample_size, server_instance=None):
         html_file = os.path.join(temp_dir, "pointcloud_viewer.html")
         
         # Generate HTML with updated title
-        title = f"3D-FRONT Point Cloud ({len(vertices)//3:,} points)"
+        title = f"{dataset_name} Point Cloud ({len(vertices)//3:,} points)"
         html_content = create_standalone_html(vertices, colors, title)
         
         with open(html_file, 'w') as f:
@@ -851,7 +898,7 @@ def analyze_file_and_set_full(file_path):
     
     return total_points, warning
 
-def load_main_viewer(file_path, point_count):
+def load_main_viewer(file_path, point_count, dataset_name="Point Cloud"):
     """Load the main viewer with specified point count"""
     global USE_EMBEDDED_VIEWERS
     if not file_path:
@@ -861,9 +908,9 @@ def load_main_viewer(file_path, point_count):
         return None, "Invalid point count"
     
     if USE_EMBEDDED_VIEWERS:
-        return create_embedded_viewer(file_path, point_count)
+        return create_embedded_viewer(file_path, point_count, dataset_name)
     else:
-        return create_iframe_viewer(file_path, point_count, server_instance=main_server)
+        return create_iframe_viewer(file_path, point_count, server_instance=main_server, dataset_name=dataset_name)
 
 def get_default_point_count(file_path):
     """Get default point count (100K or max, whichever is less)"""
@@ -928,14 +975,14 @@ def on_dataset_change(dataset_name, threedfront_path, crops3d_path):
     
     if next_cloud_path:
         # Load the point cloud with default settings
-        viewer_html, status = load_main_viewer(next_cloud_path, 100000)
+        viewer_html, status = load_main_viewer(next_cloud_path, 100000, dataset_name)
         if viewer_html is None:
             viewer_html = f"<p style='text-align: center; padding: 60px; background: #fce8e6;'>{status}</p>"
         
-        return update_progress_display(dataset_name), viewer_html, status, next_cloud_path
+        return update_progress_display(dataset_name), viewer_html, status, next_cloud_path, dataset_name
     else:
         placeholder = "<p style='text-align: center; padding: 60px; background: #f5f5f5;'>All point clouds completed or none available</p>"
-        return update_progress_display(dataset_name), placeholder, "No more point clouds available", None
+        return update_progress_display(dataset_name), placeholder, "No more point clouds available", None, dataset_name
 
 def get_next_point_cloud(dataset_name, threedfront_path, crops3d_path):
     """Get the next point cloud that needs annotation"""
@@ -1052,19 +1099,20 @@ with gr.Blocks() as demo:
     
     # Store current file path for slider updates
     current_file = gr.State(None)
+    current_dataset = gr.State(None)
 
     # Event handlers
-    def update_viewer_from_slider(file_path, point_count):
+    def update_viewer_from_slider(file_path, point_count, dataset_name):
         """Update viewer when slider changes"""
         if not file_path:
             return "<p style='text-align: center; padding: 60px; background: #f5f5f5;'>Load a point cloud to start viewing</p>", "No file selected"
-
-        viewer_html, status = load_main_viewer(file_path, int(point_count))
+        
+        viewer_html, status = load_main_viewer(file_path, int(point_count), dataset_name)
         if viewer_html is None:
             viewer_html = f"<p style='text-align: center; padding: 60px; background: #fce8e6;'>{status}</p>"
-
+        
         return viewer_html, status
-
+    
     def handle_submit(selected_user):
         """Handle submit button click with user validation"""
         if selected_user is None:
@@ -1075,7 +1123,7 @@ with gr.Blocks() as demo:
     # Slider change event - updates viewer in real time
     point_count_slider.change(
         fn=update_viewer_from_slider,
-        inputs=[current_file, point_count_slider],
+        inputs=[current_file, point_count_slider, current_dataset],
         outputs=[viewer_output, status_output]
     )
 
@@ -1090,7 +1138,7 @@ with gr.Blocks() as demo:
     dataset_selection.change(
         fn=on_dataset_change_wrapper,
         inputs=[dataset_selection],
-        outputs=[progress_display, viewer_output, status_output, current_file]
+        outputs=[progress_display, viewer_output, status_output, current_file, current_dataset]
     )
 
 if __name__ == "__main__":
