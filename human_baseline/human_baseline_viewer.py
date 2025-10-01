@@ -1112,7 +1112,12 @@ with gr.Blocks() as demo:
         return get_progress_info("3D-FRONT_test")
     
     with gr.Row():
+        # Left column: Point cloud viewer and options
         with gr.Column(scale=1):
+            viewer_output = gr.HTML(
+                value="<p style='text-align: center; padding: 60px; background: #f5f5f5;'>Load a point cloud to start viewing</p>"
+            )
+            
             # Dataset selection
             dataset_selection = gr.Radio(
                 choices=["3D-FRONT_test", "Crops3D_test"],
@@ -1121,28 +1126,14 @@ with gr.Blocks() as demo:
                 info="Select dataset for annotation"
             )
             
-            progress_display = gr.Textbox(
-                label="📈 Progress",
-                value=get_progress_info("3D-FRONT_test"),
-                interactive=False
-            )
-            
+            # User selection
             user_selection = gr.Radio(
                 choices=["User 1", "User 2", "User 3", "User 4", "User 5", "User 6", "User 7"],
-                label="� Select User",
+                label="👤 Select User",
                 value=None,
                 info="You must select a user before submitting"
             )
             
-            submit_btn = gr.Button("📝 Submit", variant="primary", size="lg")
-            
-            submission_status = gr.Textbox(
-                label="📋 Submission Status",
-                value="No user selected",
-                interactive=False
-            )
-            
-        with gr.Column(scale=2):
             # Point count slider
             point_count_slider = gr.Slider(
                 minimum=1000,
@@ -1153,7 +1144,7 @@ with gr.Blocks() as demo:
                 info="Drag to change the number of points rendered (updates automatically)"
             )
             
-            # Single viewer
+            # Single viewer status
             status_output = gr.Textbox(
                 label="📊 Status",
                 lines=1,
@@ -1167,29 +1158,47 @@ with gr.Blocks() as demo:
                     interactive=False
                 )
             
-            viewer_output = gr.HTML(
-                value="<p style='text-align: center; padding: 60px; background: #f5f5f5;'>Load a point cloud to start viewing</p>"
+            progress_display = gr.Textbox(
+                label="📈 Progress",
+                value=get_progress_info("3D-FRONT_test"),
+                interactive=False
             )
             
-            # Questions section
-            with gr.Accordion("❓ Questions & Answers (click to expand)", open=True):
-                question_textboxes = []
-                answer_textboxes = []
-                for i in range(1, 13):
-                    with gr.Group():
-                        gr.Markdown(f"**Question {i}**")
-                        question_textboxes.append(gr.Textbox(
-                            label="",
-                            value="No question available",
-                            interactive=False,
-                            lines=3
-                        ))
-                        answer_textboxes.append(gr.Textbox(
-                            label="",
-                            placeholder="Enter your answer here...",
-                            interactive=True,
-                            lines=2
-                        ))
+        # Right column: Questions in 3-column grid
+        with gr.Column(scale=2):
+            gr.Markdown("## ❓ Questions & Answers")
+            
+            question_textboxes = []
+            answer_textboxes = []
+            
+            # Create 4 rows of 3 questions each
+            for row in range(4):
+                with gr.Row():
+                    for col in range(3):
+                        question_num = row * 3 + col + 1
+                        with gr.Column():
+                            gr.Markdown(f"**Question {question_num}**")
+                            question_textboxes.append(gr.Textbox(
+                                label="",
+                                value="No question available",
+                                interactive=False,
+                                lines=3
+                            ))
+                            answer_textboxes.append(gr.Textbox(
+                                label="",
+                                placeholder="Enter your answer here...",
+                                interactive=True,
+                                lines=2
+                            ))
+            
+            # Submit button
+            submit_btn = gr.Button("📝 Submit Answers", variant="primary", size="lg")
+            
+            submission_status = gr.Textbox(
+                label="📋 Submission Status",
+                value="No user selected",
+                interactive=False
+            )
     
     # Store current file path for slider updates
     current_file = gr.State(None)
