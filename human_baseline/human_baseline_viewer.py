@@ -16,6 +16,8 @@ import time
 import base64
 from http.server import HTTPServer, SimpleHTTPRequestHandler
 import socket
+import json
+from datetime import datetime
 
 # Parse arguments at the top so they are available in the Blocks context
 import argparse
@@ -1064,8 +1066,8 @@ def get_next_point_cloud(dataset_name, threedfront_path, crops3d_path):
     completed_files = set()
     try:
         for f in os.listdir(dataset_dir):
-            if f.endswith('.jsonl'):
-                completed_files.add(f[:-6])  # Remove .jsonl extension
+            if f.endswith('.json'):
+                completed_files.add(f[:-5])  # Remove .json extension to get identifier@scene
     except:
         pass
     
@@ -1103,6 +1105,78 @@ def get_next_point_cloud(dataset_name, threedfront_path, crops3d_path):
         return None, f"Error reading PCL list: {str(e)}"
     
     return None, "All point clouds completed or no valid files found"
+
+def extract_identifier_scene(file_path, dataset_name):
+    """Extract identifier@scene from file path"""
+    current_dir = os.path.dirname(file_path)
+    basename = os.path.basename(file_path)
+    
+    if dataset_name == "3D-FRONT_test":
+        # Path: /path/3D-FRONT/identifier/scene/scene.ply
+        scene_dir = os.path.basename(current_dir)
+        identifier = os.path.basename(os.path.dirname(current_dir))
+        return f"{identifier}@{scene_dir}"
+    elif dataset_name == "Crops3D_test":
+        # Path: /path/Crops3D/identifier/scene.ply
+        identifier = os.path.basename(current_dir)
+        scene = basename[:-4] if basename.endswith('.ply') else basename
+        return f"{identifier}@{scene}"
+    else:
+        return None
+
+def save_annotation(dataset_name, file_path, user, questions, answers):
+    """Save annotation to JSON file"""
+    import os
+    import json
+    from datetime import datetime
+    
+    # Get identifier@scene
+    identifier_scene = extract_identifier_scene(file_path, dataset_name)
+    if not identifier_scene:
+        return False, "Could not extract identifier@scene from file path"
+    
+    # Validate all answers are provided
+    if any(not answer or not answer.strip() for answer in answers):
+        return False, "❌ Please answer all 12 questions before submitting"
+    
+    # Question type mapping (matches folder names)
+    question_types = [
+        "aad_additional_instruction", "aad_additional_option", "aad_base",
+        "iasd_additional_instruction", "iasd_additional_option", "iasd_base",
+        "ivqd_additional_instruction", "ivqd_additional_option", "ivqd_base",
+        "open_ended", "open_ended_additional_instruction", "standard"
+    ]
+    
+    # Create annotation data structure
+    annotation_data = {
+        "identifier_scene": identifier_scene,
+        "dataset": dataset_name,
+        "annotated_by": user,
+        "timestamp": datetime.now().isoformat(),
+        "file_path": file_path,
+        "responses": []
+    }
+    
+    # Add each question-answer pair
+    for i, (q_type, question, answer) in enumerate(zip(question_types, questions, answers)):
+        annotation_data["responses"].append({
+            "question_number": i + 1,
+            "question_type": q_type,
+            "prompt": question,
+            "response": answer.strip()
+        })
+    
+    # Save to file
+    dataset_dir = create_dataset_directory(dataset_name)
+    output_file = os.path.join(dataset_dir, f"{identifier_scene}.json")
+    
+    try:
+        with open(output_file, 'w') as f:
+            json.dump(annotation_data, f, indent=2)
+        return True, f"✅ Annotation saved successfully to {identifier_scene}.json"
+    except Exception as e:
+        return False, f"❌ Error saving annotation: {str(e)}"
+
 
 # Create interface
 with gr.Blocks() as demo:
@@ -1220,12 +1294,49 @@ with gr.Blocks() as demo:
         
         return viewer_html, status, file_path, *questions
     
-    def handle_submit(selected_user):
-        """Handle submit button click with user validation"""
+    def handle_submit(selected_user, dataset_name, file_path, *answers):
+        """Handle submit button click with user validation and saving"""
+        # Validate user selection
         if selected_user is None:
-            return "❌ No user selected - please select a user before submitting"
+            return ["❌ No user selected - please select a user before submitting"] + [""] * 12 + [None, dataset_name, "No file available", "<p style='text-align: center; padding: 60px; background: #f5f5f5;'>No file loaded</p>", "No file selected", get_progress_info(dataset_name)] + ["No questions available"] * 12
+        
+        # Validate file path
+        if not file_path or file_path == "No file available":
+            return ["❌ No point cloud loaded"] + [""] * 12 + [None, dataset_name, "No file available", "<p style='text-align: center; padding: 60px; background: #f5f5f5;'>No file loaded</p>", "No file selected", get_progress_info(dataset_name)] + ["No questions available"] * 12
+        
+        # Get the questions for this point cloud
+        questions = load_questions(dataset_name, file_path)
+        
+        # Validate we have all 12 answers
+        if len(answers) != 12:
+            return [f"❌ Expected 12 answers, got {len(answers)}"] + list(answers) + [file_path, dataset_name, file_path, "<p style='text-align: center; padding: 60px; background: #f5f5f5;'>Error</p>", file_path, get_progress_info(dataset_name)] + questions
+        
+        # Save the annotation
+        success, message = save_annotation(dataset_name, file_path, selected_user, questions, answers)
+        
+        if not success:
+            # Return error message but keep current state
+            return [message] + list(answers) + [file_path, dataset_name, file_path, "<p style='text-align: center; padding: 60px; background: #f5f5f5;'>Error</p>", file_path, get_progress_info(dataset_name)] + questions
+        
+        # Success! Load next point cloud and clear answers
+        next_cloud_path, cloud_info = get_next_point_cloud(dataset_name, args.threedfront_path, args.crops3d_path)
+        
+        if next_cloud_path:
+            # Load the next point cloud
+            viewer_html, status = load_main_viewer(next_cloud_path, 100000, dataset_name)
+            if viewer_html is None:
+                viewer_html = f"<p style='text-align: center; padding: 60px; background: #fce8e6;'>{status}</p>"
+            
+            # Load questions for next point cloud
+            next_questions = load_questions(dataset_name, next_cloud_path)
+            
+            # Return: submission_status, 12 empty answer fields, current_file, current_dataset, file_path_display, viewer_output, status_output, progress_display, 12 questions
+            return [message + " 🔄 Loading next point cloud..."] + [""] * 12 + [next_cloud_path, dataset_name, next_cloud_path, viewer_html, status, get_progress_info(dataset_name)] + next_questions
         else:
-            return f"✅ Submitted for {selected_user}"
+            # All done!
+            placeholder = "<p style='text-align: center; padding: 60px; background: #d4edda; color: #155724;'><strong>🎉 All point clouds completed!</strong></p>"
+            empty_questions = ["No more questions"] * 12
+            return [message + " 🎉 All point clouds in this dataset completed!"] + [""] * 12 + [None, dataset_name, "All completed", placeholder, "All completed", get_progress_info(dataset_name)] + empty_questions
 
     # Slider change event - updates viewer in real time
     point_count_slider.change(
@@ -1237,8 +1348,8 @@ with gr.Blocks() as demo:
     # Submit button event
     submit_btn.click(
         fn=handle_submit,
-        inputs=[user_selection],
-        outputs=[submission_status]
+        inputs=[user_selection, current_dataset, current_file] + answer_textboxes,
+        outputs=[submission_status] + answer_textboxes + [current_file, current_dataset, file_path_display, viewer_output, status_output, progress_display] + question_textboxes
     )
 
     # Dataset selection change event (must be inside Blocks context)
