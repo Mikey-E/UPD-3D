@@ -59,7 +59,6 @@ def get_ply_point_count(file_path):
 
 def read_ply_for_js(file_path, max_points=50000):
     """Read PLY file (binary or ASCII) and convert to JavaScript format"""
-    print(f"DEBUG: Reading PLY file: {file_path}")
     try:
         vertices = []
         colors = []
@@ -67,9 +66,7 @@ def read_ply_for_js(file_path, max_points=50000):
         with open(file_path, 'rb') as f:
             # Read header
             line = f.readline().decode('utf-8').strip()
-            print(f"DEBUG: First line: {line}")
             if line != 'ply':
-                print("DEBUG: Not a PLY file")
                 return None, None, "Not a valid PLY file"
             
             format_type = None
@@ -78,28 +75,20 @@ def read_ply_for_js(file_path, max_points=50000):
             
             while True:
                 line = f.readline().decode('utf-8').strip()
-                print(f"DEBUG: Header line: {line}")
                 if line.startswith('format'):
                     format_type = line.split()[1]
-                    print(f"DEBUG: Format: {format_type}")
                 elif line.startswith('element vertex'):
                     vertex_count = int(line.split()[2])
-                    print(f"DEBUG: Vertex count: {vertex_count}")
                 elif line.startswith('property'):
                     prop_info = line.split()
                     properties.append((prop_info[1], prop_info[2]))
-                    print(f"DEBUG: Property: {prop_info}")
                 elif line == 'end_header':
-                    print("DEBUG: End of header")
                     break
             
             if format_type not in ['binary_little_endian', 'ascii 1.0']:
-                print(f"DEBUG: Unsupported format: {format_type}")
                 return None, None, f"Unsupported PLY format: {format_type}"
             
             is_binary = format_type == 'binary_little_endian'
-            print(f"DEBUG: Properties: {properties}")
-            print(f"DEBUG: Is binary: {is_binary}")
             
             if is_binary:
                 # Binary format
@@ -120,9 +109,6 @@ def read_ply_for_js(file_path, max_points=50000):
                         bytes_per_vertex += 2
                         property_map.append((prop_name, 'short', 2))
                 
-                print(f"DEBUG: Bytes per vertex: {bytes_per_vertex}")
-                print(f"DEBUG: Property map: {property_map}")
-                
                 # Sample vertices
                 sample_stride = max(1, vertex_count // max_points)
                 valid_count = 0
@@ -130,7 +116,6 @@ def read_ply_for_js(file_path, max_points=50000):
                 for i in range(vertex_count):
                     vertex_data = f.read(bytes_per_vertex)
                     if len(vertex_data) < bytes_per_vertex:
-                        print(f"DEBUG: Incomplete vertex data at vertex {i}")
                         break
                     
                     # Skip for sampling
@@ -174,14 +159,12 @@ def read_ply_for_js(file_path, max_points=50000):
                             break
             else:
                 # ASCII format
-                print("DEBUG: Reading ASCII format")
                 sample_stride = max(1, vertex_count // max_points)
                 valid_count = 0
                 
                 for i in range(vertex_count):
                     line = f.readline().decode('utf-8').strip()
                     if not line:
-                        print(f"DEBUG: No more lines at vertex {i}")
                         break
                     
                     # Skip for sampling
@@ -190,9 +173,7 @@ def read_ply_for_js(file_path, max_points=50000):
                     
                     # Parse ASCII line
                     values = line.split()
-                    print(f"DEBUG: Vertex {i} values: {values[:5]}...")  # First 5 values
                     if len(values) < len(properties):
-                        print(f"DEBUG: Not enough values: {len(values)} < {len(properties)}")
                         continue
                     
                     vertex_values = {}
@@ -221,22 +202,15 @@ def read_ply_for_js(file_path, max_points=50000):
                         if valid_count >= max_points:
                             break
         
-        print(f"DEBUG: Loaded {len(vertices)//3} vertices")
         if len(vertices) == 0:
-            print("DEBUG: No valid vertices found")
             return None, None, "No valid vertices found"
         
         # Check for NaN/Inf in first few vertices
         first_vertices = vertices[:9]  # First 3 points
-        print(f"DEBUG: First vertices: {first_vertices}")
-        print(f"DEBUG: Colors length: {len(colors)}")
-        if len(colors) > 0:
-            print(f"DEBUG: First colors: {colors[:9]}")
         
         return vertices, colors, f"Loaded {valid_count} valid points"
         
     except Exception as e:
-        print(f"DEBUG: Error reading PLY: {str(e)}")
         import traceback
         traceback.print_exc()
         return None, None, f"Error: {str(e)}"
@@ -247,11 +221,6 @@ def create_standalone_html(vertices, colors, title="Point Cloud"):
     # Convert to JavaScript arrays
     js_vertices = "[" + ",".join(map(str, vertices)) + "]"
     js_colors = "[" + ",".join(map(str, colors)) + "]"
-    
-    print(f"DEBUG: JS vertices length: {len(js_vertices)} chars")
-    print(f"DEBUG: JS colors length: {len(js_colors)} chars")
-    print(f"DEBUG: First 100 chars of vertices: {js_vertices[:100]}")
-    print(f"DEBUG: First 100 chars of colors: {js_colors[:100]}")
     
     html_content = f"""
 <!DOCTYPE html>
@@ -1031,9 +1000,7 @@ def get_next_point_cloud(dataset_name, threedfront_path, crops3d_path):
     
     # Read the pcl list
     pcl_file = f"./pcl_lists/{dataset_name}.txt"
-    print(f"DEBUG: Looking for PCL file: {pcl_file}")
     if not os.path.exists(pcl_file):
-        print(f"DEBUG: PCL file not found: {pcl_file}")
         return None, f"PCL list file not found: {pcl_file}"
     
     # Get completed files
@@ -1046,8 +1013,6 @@ def get_next_point_cloud(dataset_name, threedfront_path, crops3d_path):
     except:
         pass
     
-    print(f"DEBUG: Completed files: {completed_files}")
-    
     # Find next incomplete point cloud
     try:
         with open(pcl_file, 'r') as f:
@@ -1056,19 +1021,14 @@ def get_next_point_cloud(dataset_name, threedfront_path, crops3d_path):
                 if not line:
                     continue
                 
-                print(f"DEBUG: Processing line {line_num}: {line}")
-                
                 # Parse identifier@scene format
                 if '@' not in line:
-                    print(f"DEBUG: Skipping line {line_num}: no @ found")
                     continue
                     
                 identifier, scene = line.split('@', 1)
-                print(f"DEBUG: Parsed identifier={identifier}, scene={scene}")
                 
                 # Skip if already completed
                 if line in completed_files:
-                    print(f"DEBUG: Skipping {line}: already completed")
                     continue
                 
                 # Build path based on dataset
@@ -1077,23 +1037,15 @@ def get_next_point_cloud(dataset_name, threedfront_path, crops3d_path):
                 elif dataset_name == "Crops3D_test":
                     ply_path = os.path.join(crops3d_path, identifier, f"{scene}.ply")
                 else:
-                    print(f"DEBUG: Unknown dataset: {dataset_name}")
                     continue
-                
-                print(f"DEBUG: Checking PLY path: {ply_path}")
                 
                 # Check if file exists
                 if os.path.exists(ply_path):
-                    print(f"DEBUG: Found valid PLY file: {ply_path}")
                     return ply_path, f"Loading {identifier}@{scene}"
-                else:
-                    print(f"DEBUG: PLY file does not exist: {ply_path}")
     
     except Exception as e:
-        print(f"DEBUG: Error reading PCL list: {str(e)}")
         return None, f"Error reading PCL list: {str(e)}"
     
-    print("DEBUG: No valid point clouds found")
     return None, "All point clouds completed or no valid files found"
 
 # Create interface
@@ -1151,11 +1103,14 @@ with gr.Blocks() as demo:
                 lines=1,
                 interactive=False
             )
-            file_path_display = gr.Textbox(
-                label="📁 File Path",
-                value="No file selected",
-                interactive=False
-            )
+            
+            with gr.Accordion("📁 File Path (click to expand)", open=False):
+                file_path_display = gr.Textbox(
+                    label="",
+                    value="No file selected",
+                    interactive=False
+                )
+            
             viewer_output = gr.HTML(
                 value="<p style='text-align: center; padding: 60px; background: #f5f5f5;'>Load a point cloud to start viewing</p>"
             )
