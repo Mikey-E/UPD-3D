@@ -397,9 +397,9 @@ def create_standalone_html(vertices, colors, title="Point Cloud"):
             const maxDim = Math.max(size.x, size.y, size.z);
             
             camera.position.set(
-                center.x + maxDim * 0.6,
-                center.y + maxDim * 0.3,
-                center.z + maxDim * 0.6
+                center.x + maxDim * 0.2,
+                center.y + maxDim * 0.1,
+                center.z + maxDim * 0.2
             );
             camera.lookAt(center);
             
@@ -523,9 +523,9 @@ def create_standalone_html(vertices, colors, title="Point Cloud"):
                 const maxDim = Math.max(size.x, size.y, size.z);
                 
                 camera.position.set(
-                    center.x + maxDim * 0.6,
-                    center.y + maxDim * 0.3,
-                    center.z + maxDim * 0.6
+                    center.x + maxDim * 0.2,
+                    center.y + maxDim * 0.1,
+                    center.z + maxDim * 0.2
                 );
                 camera.lookAt(center);
                 
@@ -735,9 +735,9 @@ def create_embedded_viewer(file_path, sample_size, dataset_name="Point Cloud"):
             const maxDim = Math.max(size.x, size.y, size.z);
             
             camera.position.set(
-                center.x + maxDim * 0.6,
-                center.y + maxDim * 0.3,
-                center.z + maxDim * 0.6
+                center.x + maxDim * 0.2,
+                center.y + maxDim * 0.1,
+                center.z + maxDim * 0.2
             );
             camera.lookAt(center);
             
@@ -849,9 +849,9 @@ def create_embedded_viewer(file_path, sample_size, dataset_name="Point Cloud"):
                 const maxDim = Math.max(size.x, size.y, size.z);
                 
                 camera.position.set(
-                    center.x + maxDim * 0.6,
-                    center.y + maxDim * 0.3,
-                    center.z + maxDim * 0.6
+                    center.x + maxDim * 0.2,
+                    center.y + maxDim * 0.1,
+                    center.z + maxDim * 0.2
                 );
                 camera.lookAt(center);
                 autoRotate = true;
@@ -1373,8 +1373,6 @@ with gr.Blocks() as demo:
             
         # Right column: Questions in 3-column grid
         with gr.Column(scale=2):
-            gr.Markdown("## ❓ Questions & Answers")
-            
             question_textboxes = []
             answer_textboxes = []
             
