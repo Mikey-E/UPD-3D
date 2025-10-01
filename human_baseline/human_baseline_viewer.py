@@ -33,6 +33,58 @@ args, _ = parser.parse_known_args()
 def on_dataset_change_wrapper(dataset_name):
     return on_dataset_change(dataset_name, args.threedfront_path, args.crops3d_path)
 
+def load_questions(dataset_name, current_file):
+    """Load questions for the current point cloud"""
+    if not current_file:
+        return ["No questions available"] * 12
+    
+    # Map dataset_name to upd_text folder
+    if dataset_name == "3D-FRONT_test":
+        upd_dataset = "3D-FRONT"
+    elif dataset_name == "Crops3D_test":
+        upd_dataset = "Crops3D_gpt-5-nano"
+    else:
+        return ["Invalid dataset"] * 12
+    
+    # Extract identifier@scene from current_file path
+    current_dir = os.path.dirname(current_file)
+    basename = os.path.basename(current_file)
+    
+    if dataset_name == "3D-FRONT_test":
+        # Path: /path/3D-FRONT/identifier/scene/scene.ply
+        scene_dir = os.path.basename(current_dir)
+        identifier = os.path.basename(os.path.dirname(current_dir))
+        identifier_scene = f"{identifier}@{scene_dir}"
+    elif dataset_name == "Crops3D_test":
+        # Path: /path/Crops3D/identifier/scene.ply
+        identifier = os.path.basename(current_dir)
+        scene = basename[:-4] if basename.endswith('.ply') else basename
+        identifier_scene = f"{identifier}@{scene}"
+    else:
+        return ["Invalid dataset"] * 12
+    
+    # Question folders (excluding standard_answer)
+    question_folders = [
+        "aad_additional_instruction", "aad_additional_option", "aad_base",
+        "iasd_additional_instruction", "iasd_additional_option", "iasd_base",
+        "ivqd_additional_instruction", "ivqd_additional_option", "ivqd_base",
+        "open_ended", "open_ended_additional_instruction", "standard"
+    ]
+    
+    questions = []
+    for folder in question_folders:
+        question_file = f"./upd_text/{upd_dataset}/{folder}/{identifier_scene}.txt"
+        try:
+            with open(question_file, 'r') as f:
+                question_text = f.read().strip()
+                questions.append(question_text)
+        except FileNotFoundError:
+            questions.append(f"Question file not found: {question_file}")
+        except Exception as e:
+            questions.append(f"Error loading question: {str(e)}")
+    
+    return questions
+
 def get_ply_point_count(file_path):
     """Get the total number of points in a PLY file"""
     if not file_path or not os.path.exists(file_path):
@@ -989,10 +1041,14 @@ def on_dataset_change(dataset_name, threedfront_path, crops3d_path):
         if viewer_html is None:
             viewer_html = f"<p style='text-align: center; padding: 60px; background: #fce8e6;'>{status}</p>"
         
-        return update_progress_display(dataset_name), viewer_html, status, next_cloud_path, dataset_name, next_cloud_path or "No file available"
+        # Load questions for this point cloud
+        questions = load_questions(dataset_name, next_cloud_path)
+        
+        return update_progress_display(dataset_name), viewer_html, status, next_cloud_path, dataset_name, next_cloud_path or "No file available", *questions
     else:
         placeholder = "<p style='text-align: center; padding: 60px; background: #f5f5f5;'>All point clouds completed or none available</p>"
-        return update_progress_display(dataset_name), placeholder, "No more point clouds available", None, dataset_name, "No file available"
+        empty_questions = ["No questions available"] * 12
+        return update_progress_display(dataset_name), placeholder, "No more point clouds available", None, dataset_name, "No file available", *empty_questions
 
 def get_next_point_cloud(dataset_name, threedfront_path, crops3d_path):
     """Get the next point cloud that needs annotation"""
@@ -1114,6 +1170,26 @@ with gr.Blocks() as demo:
             viewer_output = gr.HTML(
                 value="<p style='text-align: center; padding: 60px; background: #f5f5f5;'>Load a point cloud to start viewing</p>"
             )
+            
+            # Questions section
+            with gr.Accordion("❓ Questions & Answers (click to expand)", open=True):
+                question_textboxes = []
+                answer_textboxes = []
+                for i in range(1, 13):
+                    with gr.Group():
+                        gr.Markdown(f"**Question {i}**")
+                        question_textboxes.append(gr.Textbox(
+                            label="",
+                            value="No question available",
+                            interactive=False,
+                            lines=3
+                        ))
+                        answer_textboxes.append(gr.Textbox(
+                            label="",
+                            placeholder="Enter your answer here...",
+                            interactive=True,
+                            lines=2
+                        ))
     
     # Store current file path for slider updates
     current_file = gr.State(None)
@@ -1123,13 +1199,17 @@ with gr.Blocks() as demo:
     def update_viewer_from_slider(file_path, point_count, dataset_name):
         """Update viewer when slider changes"""
         if not file_path:
-            return "<p style='text-align: center; padding: 60px; background: #f5f5f5;'>Load a point cloud to start viewing</p>", "No file selected", "No file selected"
+            no_questions = ["No questions available"] * 12
+            return "<p style='text-align: center; padding: 60px; background: #f5f5f5;'>Load a point cloud to start viewing</p>", "No file selected", "No file selected", *no_questions
         
         viewer_html, status = load_main_viewer(file_path, int(point_count), dataset_name)
         if viewer_html is None:
             viewer_html = f"<p style='text-align: center; padding: 60px; background: #fce8e6;'>{status}</p>"
         
-        return viewer_html, status, file_path
+        # Load questions for the current point cloud
+        questions = load_questions(dataset_name, file_path)
+        
+        return viewer_html, status, file_path, *questions
     
     def handle_submit(selected_user):
         """Handle submit button click with user validation"""
@@ -1142,7 +1222,7 @@ with gr.Blocks() as demo:
     point_count_slider.change(
         fn=update_viewer_from_slider,
         inputs=[current_file, point_count_slider, current_dataset],
-        outputs=[viewer_output, status_output, file_path_display]
+        outputs=[viewer_output, status_output, file_path_display] + question_textboxes
     )
 
     # Submit button event
@@ -1156,7 +1236,7 @@ with gr.Blocks() as demo:
     dataset_selection.change(
         fn=on_dataset_change_wrapper,
         inputs=[dataset_selection],
-        outputs=[progress_display, viewer_output, status_output, current_file, current_dataset, file_path_display]
+        outputs=[progress_display, viewer_output, status_output, current_file, current_dataset, file_path_display] + question_textboxes
     )
 
 if __name__ == "__main__":
