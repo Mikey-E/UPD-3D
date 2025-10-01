@@ -1341,14 +1341,6 @@ with gr.Blocks() as demo:
                 info="Select dataset for annotation"
             )
             
-            # User selection
-            user_selection = gr.Radio(
-                choices=["User 1", "User 2", "User 3", "User 4", "User 5", "User 6", "User 7"],
-                label="👤 Select User",
-                value=None,
-                info="You must select a user before submitting"
-            )
-            
             # Point count slider
             point_count_slider = gr.Slider(
                 minimum=1000,
@@ -1415,9 +1407,125 @@ with gr.Blocks() as demo:
                 interactive=False
             )
     
+    # Hidden user selection state and modal dialog
+    user_selection = gr.State(None)
+    
+    # Create modal dialog for user selection
+    with gr.Column(visible=True, elem_id="user-modal") as user_modal:
+        with gr.Column(elem_classes="modal-content"):
+            gr.HTML(
+                "<h1 style='color: #1a1a1a; font-size: 28px; font-weight: 600; margin-bottom: 10px;'>👤 Welcome!</h1>"
+                "<p style='color: #444; font-size: 16px; margin-bottom: 30px;'>Please select your user identity to begin annotation</p>"
+            )
+            modal_user_radio = gr.Radio(
+                choices=["User 1", "User 2", "User 3", "User 4", "User 5", "User 6", "User 7"],
+                label="Select Your User ID",
+                value=None,
+                interactive=True
+            )
+            modal_submit_btn = gr.Button("🚀 Continue", variant="primary", size="lg")
+    
+    # CSS for modal
+    demo.load(
+        None,
+        None,
+        None,
+        js="""
+        () => {
+            const style = document.createElement('style');
+            style.textContent = `
+                #user-modal {
+                    position: fixed;
+                    top: 0;
+                    left: 0;
+                    width: 100vw;
+                    height: 100vh;
+                    background: rgba(0, 0, 0, 0.85);
+                    z-index: 10000;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                }
+                #user-modal.hidden {
+                    display: none !important;
+                }
+                .modal-content {
+                    background: white;
+                    padding: 50px;
+                    border-radius: 16px;
+                    box-shadow: 0 20px 60px rgba(0,0,0,0.4);
+                    min-width: 500px;
+                    max-width: 600px;
+                }
+                #user-modal label {
+                    color: #1a1a1a !important;
+                    font-weight: 600 !important;
+                    font-size: 16px !important;
+                    margin-bottom: 15px !important;
+                }
+                #user-modal input[type="radio"] + label {
+                    color: #2c2c2c !important;
+                    font-weight: 500 !important;
+                    font-size: 15px !important;
+                }
+                #user-modal .wrap {
+                    color: #1a1a1a !important;
+                }
+            `;
+            document.head.appendChild(style);
+        }
+        """
+    )
+    
     # Store current file path for slider updates
     current_file = gr.State(None)
     current_dataset = gr.State(None)
+
+    # User selection handler
+    def select_user_and_load(selected_user):
+        """Handle user selection, hide modal, and load first point cloud"""
+        print(f"DEBUG: select_user_and_load called with user: {selected_user}")
+        
+        if selected_user is None:
+            # Keep modal visible if no user selected
+            print("DEBUG: No user selected, keeping modal visible")
+            placeholder = "<p style='text-align: center; padding: 60px; background: #f5f5f5;'>Please select a user</p>"
+            empty_questions = ["No questions available"] * 12
+            return [None, gr.update(visible=True), "No user selected", placeholder, "No file selected", None, "3D-FRONT_test", "No file selected"] + empty_questions
+        
+        print(f"DEBUG: User selected: {selected_user}, loading dataset")
+        dataset = "3D-FRONT_test"
+        
+        # Load the first point cloud for this user and dataset
+        result = on_dataset_change(dataset, args.threedfront_path, args.crops3d_path, selected_user)
+        # result contains: progress_display, viewer_output, status_output, current_file, current_dataset, file_path_display, *questions (12)
+        print(f"DEBUG: on_dataset_change returned {len(result)} items")
+        
+        # Return: user_selection, user_modal (hidden), then all the results from on_dataset_change
+        output = [selected_user, gr.update(visible=False)] + list(result)
+        print(f"DEBUG: Returning {len(output)} outputs (should be 20: user_selection, user_modal, 6 fields, 12 questions)")
+        return output
+    
+    # Connect modal submit button with JavaScript to hide modal
+    modal_submit_btn.click(
+        fn=select_user_and_load,
+        inputs=[modal_user_radio],
+        outputs=[user_selection, user_modal, progress_display, viewer_output, status_output, current_file, current_dataset, file_path_display] + question_textboxes,
+        js="""
+        (user) => {
+            console.log('Continue button clicked, user:', user);
+            if (user) {
+                console.log('Hiding modal');
+                const modal = document.getElementById('user-modal');
+                if (modal) {
+                    modal.classList.add('hidden');
+                    modal.style.display = 'none';
+                }
+            }
+            return user;
+        }
+        """
+    )
 
     # Event handlers
     def update_viewer_from_slider(file_path, point_count, dataset_name):
