@@ -1413,10 +1413,7 @@ with gr.Blocks() as demo:
     # Create modal dialog for user selection
     with gr.Column(visible=True, elem_id="user-modal") as user_modal:
         with gr.Column(elem_classes="modal-content"):
-            gr.HTML(
-                "<h1 style='color: #1a1a1a; font-size: 28px; font-weight: 600; margin-bottom: 10px;'>👤 Welcome!</h1>"
-                "<p style='color: #444; font-size: 16px; margin-bottom: 30px;'>Please select your user identity to begin annotation</p>"
-            )
+            gr.HTML("<h2 style='color: black;'>👤 Welcome! Please select your user identity</h2>")
             modal_user_radio = gr.Radio(
                 choices=["User 1", "User 2", "User 3", "User 4", "User 5", "User 6", "User 7"],
                 label="Select Your User ID",
@@ -1440,7 +1437,7 @@ with gr.Blocks() as demo:
                     left: 0;
                     width: 100vw;
                     height: 100vh;
-                    background: rgba(0, 0, 0, 0.85);
+                    background: rgba(0, 0, 0, 0.5);
                     z-index: 10000;
                     display: flex;
                     align-items: center;
@@ -1456,20 +1453,6 @@ with gr.Blocks() as demo:
                     box-shadow: 0 20px 60px rgba(0,0,0,0.4);
                     min-width: 500px;
                     max-width: 600px;
-                }
-                #user-modal label {
-                    color: #1a1a1a !important;
-                    font-weight: 600 !important;
-                    font-size: 16px !important;
-                    margin-bottom: 15px !important;
-                }
-                #user-modal input[type="radio"] + label {
-                    color: #2c2c2c !important;
-                    font-weight: 500 !important;
-                    font-size: 15px !important;
-                }
-                #user-modal .wrap {
-                    color: #1a1a1a !important;
                 }
             `;
             document.head.appendChild(style);
