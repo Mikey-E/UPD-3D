@@ -17,7 +17,7 @@ import base64
 from http.server import HTTPServer, SimpleHTTPRequestHandler
 import socket
 import json
-from datetime import datetime
+from datetime import datetime, timedelta
 
 # Parse arguments at the top so they are available in the Blocks context
 import argparse
@@ -32,8 +32,8 @@ parser.add_argument('--crops3d-path', default='/project/3dllms/melgin/datasets/C
                    help='Path to Crops3D dataset directory')
 args, _ = parser.parse_known_args()
 
-def on_dataset_change_wrapper(dataset_name):
-    return on_dataset_change(dataset_name, args.threedfront_path, args.crops3d_path)
+def on_dataset_change_wrapper(dataset_name, user):
+    return on_dataset_change(dataset_name, args.threedfront_path, args.crops3d_path, user)
 
 def load_questions(dataset_name, current_file):
     """Load questions for the current point cloud"""
@@ -1029,15 +1029,25 @@ def update_progress_display(dataset_name):
     """Update progress display when dataset selection changes"""
     return get_progress_info(dataset_name)
 
-def on_dataset_change(dataset_name, threedfront_path, crops3d_path):
+def on_dataset_change(dataset_name, threedfront_path, crops3d_path, user=None):
     """Handle dataset selection change"""
     # Create directory and update progress
     create_dataset_directory(dataset_name)
+    
+    # Cleanup stale locks before loading
+    removed_count = cleanup_stale_locks(dataset_name)
+    if removed_count > 0:
+        print(f"🧹 Cleaned up {removed_count} stale lock(s)")
     
     # Load next point cloud for this dataset
     next_cloud_path, cloud_info = get_next_point_cloud(dataset_name, threedfront_path, crops3d_path)
     
     if next_cloud_path:
+        # Create lock for this point cloud if user is selected
+        identifier_scene = extract_identifier_scene(next_cloud_path, dataset_name)
+        if identifier_scene and user:
+            create_lock(dataset_name, identifier_scene, user)
+        
         # Load the point cloud with default settings
         viewer_html, status = load_main_viewer(next_cloud_path, 100000, dataset_name)
         if viewer_html is None:
@@ -1053,7 +1063,14 @@ def on_dataset_change(dataset_name, threedfront_path, crops3d_path):
         return update_progress_display(dataset_name), placeholder, "No more point clouds available", None, dataset_name, "No file available", *empty_questions
 
 def get_next_point_cloud(dataset_name, threedfront_path, crops3d_path):
-    """Get the next point cloud that needs annotation"""
+    """Get the next point cloud that needs annotation
+    
+    Skips point clouds that are:
+    1. Already completed (have .json file)
+    2. Currently locked by another user (have .lock file less than 2 hours old)
+    
+    If a lock is stale (>2 hours old), it will be claimed and replaced.
+    """
     import os
     
     # Read the pcl list
@@ -1084,10 +1101,20 @@ def get_next_point_cloud(dataset_name, threedfront_path, crops3d_path):
                     continue
                     
                 identifier, scene = line.split('@', 1)
+                identifier_scene = line
                 
                 # Skip if already completed
-                if line in completed_files:
+                if identifier_scene in completed_files:
                     continue
+                
+                # Check if locked
+                is_locked, is_stale, lock_info = check_lock(dataset_name, identifier_scene)
+                
+                if is_locked and not is_stale:
+                    # Active lock - skip this one
+                    continue
+                
+                # If lock is stale, we'll claim it below after we verify the file exists
                 
                 # Build path based on dataset
                 if dataset_name == "3D-FRONT_test":
@@ -1099,6 +1126,10 @@ def get_next_point_cloud(dataset_name, threedfront_path, crops3d_path):
                 
                 # Check if file exists
                 if os.path.exists(ply_path):
+                    # If there was a stale lock, log it
+                    if is_locked and is_stale:
+                        print(f"⚠️ Claiming stale lock for {identifier_scene} (was locked by {lock_info.get('user', 'unknown')} at {lock_info.get('started_at', 'unknown')})")
+                    
                     return ply_path, f"Loading {identifier}@{scene}"
     
     except Exception as e:
@@ -1124,8 +1155,114 @@ def extract_identifier_scene(file_path, dataset_name):
     else:
         return None
 
+# Lock file management functions
+def create_lock(dataset_name, identifier_scene, user):
+    """Create a lock file for a point cloud being annotated"""
+    import os
+    import json
+    from datetime import datetime
+    import socket
+    
+    dataset_dir = create_dataset_directory(dataset_name)
+    lock_file = os.path.join(dataset_dir, f"{identifier_scene}.lock")
+    
+    lock_data = {
+        "user": user,
+        "started_at": datetime.now().isoformat(),
+        "hostname": socket.gethostname(),
+        "pid": os.getpid()
+    }
+    
+    try:
+        with open(lock_file, 'w') as f:
+            json.dump(lock_data, f, indent=2)
+        return True
+    except Exception as e:
+        print(f"Warning: Could not create lock file: {e}")
+        return False
+
+def release_lock(dataset_name, identifier_scene):
+    """Release a lock file after successful annotation"""
+    import os
+    
+    dataset_dir = create_dataset_directory(dataset_name)
+    lock_file = os.path.join(dataset_dir, f"{identifier_scene}.lock")
+    
+    try:
+        if os.path.exists(lock_file):
+            os.remove(lock_file)
+        return True
+    except Exception as e:
+        print(f"Warning: Could not release lock file: {e}")
+        return False
+
+def check_lock(dataset_name, identifier_scene, max_age_hours=2):
+    """Check if a point cloud is locked and if the lock is stale
+    
+    Returns:
+        (is_locked, is_stale, lock_info)
+        - is_locked: True if lock file exists
+        - is_stale: True if lock is older than max_age_hours
+        - lock_info: Dictionary with lock information or None
+    """
+    import os
+    import json
+    from datetime import datetime, timedelta
+    
+    dataset_dir = create_dataset_directory(dataset_name)
+    lock_file = os.path.join(dataset_dir, f"{identifier_scene}.lock")
+    
+    if not os.path.exists(lock_file):
+        return False, False, None
+    
+    try:
+        with open(lock_file, 'r') as f:
+            lock_data = json.load(f)
+        
+        # Parse the timestamp
+        started_at = datetime.fromisoformat(lock_data['started_at'])
+        age = datetime.now() - started_at
+        
+        is_stale = age > timedelta(hours=max_age_hours)
+        
+        return True, is_stale, lock_data
+    except Exception as e:
+        print(f"Warning: Error reading lock file: {e}")
+        # If we can't read it, treat it as stale
+        return True, True, None
+
+def cleanup_stale_locks(dataset_name, max_age_hours=2):
+    """Remove all stale lock files from a dataset
+    
+    Returns:
+        Number of stale locks removed
+    """
+    import os
+    
+    dataset_dir = create_dataset_directory(dataset_name)
+    removed_count = 0
+    
+    try:
+        for filename in os.listdir(dataset_dir):
+            if filename.endswith('.lock'):
+                identifier_scene = filename[:-5]  # Remove .lock extension
+                is_locked, is_stale, lock_info = check_lock(dataset_name, identifier_scene, max_age_hours)
+                
+                if is_stale:
+                    lock_file = os.path.join(dataset_dir, filename)
+                    try:
+                        os.remove(lock_file)
+                        removed_count += 1
+                        print(f"Removed stale lock: {filename}")
+                    except Exception as e:
+                        print(f"Warning: Could not remove stale lock {filename}: {e}")
+    except Exception as e:
+        print(f"Warning: Error during lock cleanup: {e}")
+    
+    return removed_count
+
 def save_annotation(dataset_name, file_path, user, questions, answers):
-    """Save annotation to JSON file"""
+    """Save annotation to JSON file and release lock"""
     import os
     import json
     from datetime import datetime
@@ -1173,6 +1310,10 @@ def save_annotation(dataset_name, file_path, user, questions, answers):
     try:
         with open(output_file, 'w') as f:
             json.dump(annotation_data, f, indent=2)
+        
+        # Release the lock after successful save
+        release_lock(dataset_name, identifier_scene)
+        
         return True, f"✅ Annotation saved successfully to {identifier_scene}.json"
     except Exception as e:
         return False, f"❌ Error saving annotation: {str(e)}"
@@ -1322,6 +1463,11 @@ with gr.Blocks() as demo:
         next_cloud_path, cloud_info = get_next_point_cloud(dataset_name, args.threedfront_path, args.crops3d_path)
         
         if next_cloud_path:
+            # Create lock for the new point cloud
+            next_identifier_scene = extract_identifier_scene(next_cloud_path, dataset_name)
+            if next_identifier_scene:
+                create_lock(dataset_name, next_identifier_scene, selected_user)
+            
             # Load the next point cloud
             viewer_html, status = load_main_viewer(next_cloud_path, 100000, dataset_name)
             if viewer_html is None:
@@ -1355,7 +1501,7 @@ with gr.Blocks() as demo:
     # Dataset selection change event (must be inside Blocks context)
     dataset_selection.change(
         fn=on_dataset_change_wrapper,
-        inputs=[dataset_selection],
+        inputs=[dataset_selection, user_selection],
         outputs=[progress_display, viewer_output, status_output, current_file, current_dataset, file_path_display] + question_textboxes
     )
 
