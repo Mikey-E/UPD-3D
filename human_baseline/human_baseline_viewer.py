@@ -1413,7 +1413,8 @@ with gr.Blocks() as demo:
         with gr.Column(elem_classes="modal-content"):
             gr.HTML("<h2 style='color: black;'>👤 Welcome! Please select your user identity</h2>")
             modal_user_radio = gr.Radio(
-                choices=["User 1", "User 2", "User 3", "User 4", "User 5", "User 6", "User 7"],
+                choices=["User 1", "User 2", "User 3", "User 4", "User 5", "User 6", "User 7", 
+                        "User 8", "User 9", "User 10", "User 11", "User 12", "User 13", "User 14", "User 15"],
                 label="Select Your User ID",
                 value=None,
                 interactive=True
