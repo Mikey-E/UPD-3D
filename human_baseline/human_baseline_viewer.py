@@ -1340,8 +1340,7 @@ with gr.Blocks() as demo:
             dataset_selection = gr.Radio(
                 choices=["3D-FRONT_test", "Crops3D_test"],
                 label="📊 Dataset",
-                value="3D-FRONT_test",
-                info="Select dataset for annotation"
+                value="3D-FRONT_test"
             )
             
             # Point count slider
@@ -1350,8 +1349,7 @@ with gr.Blocks() as demo:
                 maximum=500000,
                 value=100000,
                 step=1000,
-                label="📊 Number of Points to Display",
-                info="Drag to change the number of points rendered (updates automatically)"
+                label="📊 Number of Points to Display"
             )
             
             # Single viewer status
