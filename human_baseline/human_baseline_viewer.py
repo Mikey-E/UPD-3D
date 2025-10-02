@@ -1525,7 +1525,7 @@ with gr.Blocks() as demo:
         
         return viewer_html, status, file_path, *questions
     
-    def handle_submit(selected_user, dataset_name, file_path, *answers):
+    def handle_submit(selected_user, dataset_name, file_path, point_count, *answers):
         """Handle submit button click with user validation and saving"""
         # Validate user selection
         if selected_user is None:
@@ -1558,8 +1558,8 @@ with gr.Blocks() as demo:
             if next_identifier_scene:
                 create_lock(dataset_name, next_identifier_scene, selected_user)
             
-            # Load the next point cloud
-            viewer_html, status = load_main_viewer(next_cloud_path, 100000, dataset_name)
+            # Load the next point cloud with the current slider value
+            viewer_html, status = load_main_viewer(next_cloud_path, int(point_count), dataset_name)
             if viewer_html is None:
                 viewer_html = f"<p style='text-align: center; padding: 60px; background: #fce8e6;'>{status}</p>"
             
@@ -1584,7 +1584,7 @@ with gr.Blocks() as demo:
     # Submit button event
     submit_btn.click(
         fn=handle_submit,
-        inputs=[user_selection, current_dataset, current_file] + answer_textboxes,
+        inputs=[user_selection, current_dataset, current_file, point_count_slider] + answer_textboxes,
         outputs=[submission_status] + answer_textboxes + [current_file, current_dataset, file_path_display, viewer_output, status_output, progress_display] + question_textboxes
     )
 
