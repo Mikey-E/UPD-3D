@@ -1056,11 +1056,14 @@ def on_dataset_change(dataset_name, threedfront_path, crops3d_path, user=None):
         # Load questions for this point cloud
         questions = load_questions(dataset_name, next_cloud_path)
         
-        return update_progress_display(dataset_name), viewer_html, status, next_cloud_path, dataset_name, next_cloud_path or "No file available", *questions
+        # Get instance name for display
+        instance_display = identifier_scene if identifier_scene else "Unknown instance"
+        
+        return update_progress_display(dataset_name), viewer_html, status, next_cloud_path, dataset_name, instance_display, *questions
     else:
         placeholder = "<p style='text-align: center; padding: 60px; background: #f5f5f5;'>All point clouds completed or none available</p>"
         empty_questions = ["No questions available"] * 12
-        return update_progress_display(dataset_name), placeholder, "No more point clouds available", None, dataset_name, "No file available", *empty_questions
+        return update_progress_display(dataset_name), placeholder, "No more point clouds available", None, dataset_name, "No instance available", *empty_questions
 
 def get_next_point_cloud(dataset_name, threedfront_path, crops3d_path):
     """Get the next point cloud that needs annotation
@@ -1358,12 +1361,13 @@ with gr.Blocks() as demo:
                 interactive=False
             )
             
-            with gr.Accordion("📁 File Path (click to expand)", open=False):
-                file_path_display = gr.Textbox(
-                    label="",
-                    value="No file selected",
-                    interactive=False
-                )
+            # Instance name display (non-expandable)
+            instance_name_display = gr.Textbox(
+                label="📋 Current Instance",
+                value="No instance selected",
+                interactive=False,
+                lines=1
+            )
             
             progress_display = gr.Textbox(
                 label="📈 Progress",
@@ -1473,7 +1477,7 @@ with gr.Blocks() as demo:
             print("DEBUG: No user selected, keeping modal visible")
             placeholder = "<p style='text-align: center; padding: 60px; background: #f5f5f5;'>Please select a user</p>"
             empty_questions = ["No questions available"] * 12
-            return [None, gr.update(visible=True), "No user selected", placeholder, "No file selected", None, "3D-FRONT_test", "No file selected"] + empty_questions
+            return [None, gr.update(visible=True), "No user selected", placeholder, "No file selected", None, "3D-FRONT_test", "No instance selected"] + empty_questions
         
         print(f"DEBUG: User selected: {selected_user}, loading dataset")
         dataset = "3D-FRONT_test"
@@ -1492,7 +1496,7 @@ with gr.Blocks() as demo:
     modal_submit_btn.click(
         fn=select_user_and_load,
         inputs=[modal_user_radio],
-        outputs=[user_selection, user_modal, progress_display, viewer_output, status_output, current_file, current_dataset, file_path_display] + question_textboxes,
+        outputs=[user_selection, user_modal, progress_display, viewer_output, status_output, current_file, current_dataset, instance_name_display] + question_textboxes,
         js="""
         (user) => {
             console.log('Continue button clicked, user:', user);
@@ -1514,7 +1518,7 @@ with gr.Blocks() as demo:
         """Update viewer when slider changes"""
         if not file_path:
             no_questions = ["No questions available"] * 12
-            return "<p style='text-align: center; padding: 60px; background: #f5f5f5;'>Load a point cloud to start viewing</p>", "No file selected", "No file selected", *no_questions
+            return "<p style='text-align: center; padding: 60px; background: #f5f5f5;'>Load a point cloud to start viewing</p>", "No file selected", "No instance selected", *no_questions
         
         viewer_html, status = load_main_viewer(file_path, int(point_count), dataset_name)
         if viewer_html is None:
@@ -1523,31 +1527,37 @@ with gr.Blocks() as demo:
         # Load questions for the current point cloud
         questions = load_questions(dataset_name, file_path)
         
-        return viewer_html, status, file_path, *questions
+        # Get instance name for display
+        instance_name = extract_identifier_scene(file_path, dataset_name)
+        instance_display = instance_name if instance_name else "Unknown instance"
+        
+        return viewer_html, status, instance_display, *questions
     
     def handle_submit(selected_user, dataset_name, file_path, point_count, *answers):
         """Handle submit button click with user validation and saving"""
         # Validate user selection
         if selected_user is None:
-            return ["❌ No user selected - please select a user before submitting"] + [""] * 12 + [None, dataset_name, "No file available", "<p style='text-align: center; padding: 60px; background: #f5f5f5;'>No file loaded</p>", "No file selected", get_progress_info(dataset_name)] + ["No questions available"] * 12
+            return ["❌ No user selected - please select a user before submitting"] + [""] * 12 + [None, dataset_name, "No instance available", "<p style='text-align: center; padding: 60px; background: #f5f5f5;'>No file loaded</p>", "No file selected", get_progress_info(dataset_name)] + ["No questions available"] * 12
         
         # Validate file path
         if not file_path or file_path == "No file available":
-            return ["❌ No point cloud loaded"] + [""] * 12 + [None, dataset_name, "No file available", "<p style='text-align: center; padding: 60px; background: #f5f5f5;'>No file loaded</p>", "No file selected", get_progress_info(dataset_name)] + ["No questions available"] * 12
+            return ["❌ No point cloud loaded"] + [""] * 12 + [None, dataset_name, "No instance available", "<p style='text-align: center; padding: 60px; background: #f5f5f5;'>No file loaded</p>", "No file selected", get_progress_info(dataset_name)] + ["No questions available"] * 12
         
         # Get the questions for this point cloud
         questions = load_questions(dataset_name, file_path)
         
         # Validate we have all 12 answers
         if len(answers) != 12:
-            return [f"❌ Expected 12 answers, got {len(answers)}"] + list(answers) + [file_path, dataset_name, file_path, "<p style='text-align: center; padding: 60px; background: #f5f5f5;'>Error</p>", file_path, get_progress_info(dataset_name)] + questions
+            current_instance = extract_identifier_scene(file_path, dataset_name) or "Unknown instance"
+            return [f"❌ Expected 12 answers, got {len(answers)}"] + list(answers) + [file_path, dataset_name, current_instance, "<p style='text-align: center; padding: 60px; background: #f5f5f5;'>Error</p>", file_path, get_progress_info(dataset_name)] + questions
         
         # Save the annotation
         success, message = save_annotation(dataset_name, file_path, selected_user, questions, answers)
         
         if not success:
             # Return error message but keep current state
-            return [message] + list(answers) + [file_path, dataset_name, file_path, "<p style='text-align: center; padding: 60px; background: #f5f5f5;'>Error</p>", file_path, get_progress_info(dataset_name)] + questions
+            current_instance = extract_identifier_scene(file_path, dataset_name) or "Unknown instance"
+            return [message] + list(answers) + [file_path, dataset_name, current_instance, "<p style='text-align: center; padding: 60px; background: #f5f5f5;'>Error</p>", file_path, get_progress_info(dataset_name)] + questions
         
         # Success! Load next point cloud and clear answers
         next_cloud_path, cloud_info = get_next_point_cloud(dataset_name, args.threedfront_path, args.crops3d_path)
@@ -1566,8 +1576,8 @@ with gr.Blocks() as demo:
             # Load questions for next point cloud
             next_questions = load_questions(dataset_name, next_cloud_path)
             
-            # Return: submission_status, 12 empty answer fields, current_file, current_dataset, file_path_display, viewer_output, status_output, progress_display, 12 questions
-            return [message + " 🔄 Loading next point cloud..."] + [""] * 12 + [next_cloud_path, dataset_name, next_cloud_path, viewer_html, status, get_progress_info(dataset_name)] + next_questions
+            # Return: submission_status, 12 empty answer fields, current_file, current_dataset, instance_name_display, viewer_output, status_output, progress_display, 12 questions
+            return [message + " 🔄 Loading next point cloud..."] + [""] * 12 + [next_cloud_path, dataset_name, next_identifier_scene, viewer_html, status, get_progress_info(dataset_name)] + next_questions
         else:
             # All done!
             placeholder = "<p style='text-align: center; padding: 60px; background: #d4edda; color: #155724;'><strong>🎉 All point clouds completed!</strong></p>"
@@ -1578,21 +1588,21 @@ with gr.Blocks() as demo:
     point_count_slider.change(
         fn=update_viewer_from_slider,
         inputs=[current_file, point_count_slider, current_dataset],
-        outputs=[viewer_output, status_output, file_path_display] + question_textboxes
+        outputs=[viewer_output, status_output, instance_name_display] + question_textboxes
     )
 
     # Submit button event
     submit_btn.click(
         fn=handle_submit,
         inputs=[user_selection, current_dataset, current_file, point_count_slider] + answer_textboxes,
-        outputs=[submission_status] + answer_textboxes + [current_file, current_dataset, file_path_display, viewer_output, status_output, progress_display] + question_textboxes
+        outputs=[submission_status] + answer_textboxes + [current_file, current_dataset, instance_name_display, viewer_output, status_output, progress_display] + question_textboxes
     )
 
     # Dataset selection change event (must be inside Blocks context)
     dataset_selection.change(
         fn=on_dataset_change_wrapper,
         inputs=[dataset_selection, user_selection],
-        outputs=[progress_display, viewer_output, status_output, current_file, current_dataset, file_path_display] + question_textboxes
+        outputs=[progress_display, viewer_output, status_output, current_file, current_dataset, instance_name_display] + question_textboxes
     )
 
 if __name__ == "__main__":
