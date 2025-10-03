@@ -4,6 +4,9 @@
 #SBATCH --partition=non-investor
 #SBATCH --output=./slurm_logs/slurm_human_baseline_viewer_%j.log
 #SBATCH --error=./slurm_logs/slurm_human_baseline_viewer_%j.log
+#SBATCH --mem=400G
+#SBATCH --mail-type=ALL
+#SBATCH --mail-user=melgin@uwyo.edu
 
 echo "=== SLURM Job Starting ==="
 echo "Job ID: $SLURM_JOB_ID"
