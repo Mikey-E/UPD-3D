@@ -1,5 +1,15 @@
 """
 This file takes a folder of _scored json files of model responses to UPD subsets, and makes a radar chart of the scores
+
+Example run:
+python analyze_scored_responses_radar.py \
+    ./scored_model_responses/3D-FRONT_test_mgpt3d \
+    ./scored_model_responses/3D-FRONT_test_gplm \
+    ./scored_model_responses/3D-FRONT_test_pllm \
+    ./scored_model_responses/3D-FRONT_test_shpllm_ft-cap3d \
+    ./scored_model_responses/3D-FRONT_test_llava3d_base \
+    --legend_names "MiniGPT-3D" "GreenPLM" "PointLLM" "ShapeLLM" "LLaVA-3D" \
+    --title "Model Comparison on UPD Tasks"
 """
 
 import argparse
@@ -15,9 +25,9 @@ def main():
     parser.add_argument("--legend_names", type=str, nargs='*', help="Custom legend names for each folder (default: use last folder names).")
     parser.add_argument("--naming_delim", type=str, help="Delimiter in the file names to separate out subset name.", default="_3D-FRONT_test_")
     parser.add_argument("--title", type=str, required=True, help="Graph title.")
-    parser.add_argument("--tick_fontsize", type=int, default=14, help="Font size for axis ticks and labels.")
-    parser.add_argument("--legend_fontsize", type=int, default=13, help="Font size for legend text.")
-    parser.add_argument("--title_fontsize", type=int, default=19, help="Font size for title text.")
+    parser.add_argument("--tick_fontsize", type=int, default=21, help="Font size for axis ticks and labels.")
+    parser.add_argument("--legend_fontsize", type=int, default=20, help="Font size for legend text.")
+    parser.add_argument("--title_fontsize", type=int, default=29, help="Font size for title text.")
     parser.add_argument("--fontscale", type=float, default=1.0, help="Scale factor to multiply all font sizes.")
     parser.add_argument("--figsize_width", type=int, default=12, help="Width of the figure in inches.")
     parser.add_argument("--figsize_height", type=int, default=10, help="Height of the figure in inches.")
