@@ -23,7 +23,8 @@ def extract_model_name_from_path(file_path):
         'mgpt3d': 'MiniGPT-3D',
         'gplm': 'GreenPLM', 
         'pllm': 'PointLLM',
-        'shpllm': 'ShapeLLM'
+        'shpllm': 'ShapeLLM',
+        'llava3d': 'LLaVA-3D'
     }
     
     # Check for specific patterns in the basename (case insensitive)
@@ -399,48 +400,22 @@ Each file becomes a point on the radar chart (representing a model).
         shortened = shortened.strip()
         return shortened
     
-    # Create shorter filename from series names only
-    series_names = [sanitize_name(shorten_series_name(series['name'])) for series in processed_series]
+    # Create shorter filename from series names only, replacing "Base" with "Original"
+    series_names = []
+    for series in processed_series:
+        shortened = shorten_series_name(series['name'])
+        # Replace "Base Model" or "Base" with "Original"
+        shortened = shortened.replace("Base Model", "Original")
+        shortened = shortened.replace("Base ", "Original ")
+        if shortened == "Base":
+            shortened = "Original"
+        series_names.append(sanitize_name(shortened))
+    
     series_part = "_vs_".join(series_names)
     
-    # Extract category from title for more context
-    category = "Unknown"
-    title_lower = args.title.lower()
-    
-    # Map specific categories to shorter abbreviations
-    if "open ended additional instruction" in title_lower:
-        category = "oe_add_inst"
-    elif "open ended" in title_lower:
-        category = "oe" 
-    elif "aad base" in title_lower:
-        category = "aad_base"
-    elif "aad additional option" in title_lower:
-        category = "aad_add_opt"
-    elif "aad additional instruction" in title_lower:
-        category = "aad_add_inst"
-    elif "iasd base" in title_lower:
-        category = "iasd_base"
-    elif "iasd additional option" in title_lower:
-        category = "iasd_add_opt"
-    elif "iasd additional instruction" in title_lower:
-        category = "iasd_add_inst"
-    elif "ivqd base" in title_lower:
-        category = "ivqd_base"
-    elif "ivqd additional option" in title_lower:
-        category = "ivqd_add_opt"
-    elif "ivqd additional instruction" in title_lower:
-        category = "ivqd_add_inst"
-    elif "standard" in title_lower:
-        category = "standard"
-    else:
-        # Fallback: extract first few words and abbreviate
-        category_match = re.search(r'^([A-Z]+(?:\s+[A-Z][a-z]*)*)', args.title)
-        if category_match:
-            category = sanitize_name(category_match.group(1))
-    
-    # Add dual indicator to filename if using dual accuracy
-    mode_prefix = "dual_" if args.dual else ""
-    name_for_saving = f"rdr_{mode_prefix}{category}_{series_part}"
+    # Add mode prefix: "stdupd" for regular mode, "dual" for dual accuracy mode
+    mode_prefix = "dual" if args.dual else "stdupd"
+    name_for_saving = f"rdr_{mode_prefix}_{series_part}"
     
     plt.savefig(os.path.join(output_dir, f"{name_for_saving}.png"), dpi=300, bbox_inches='tight')
     accuracy_type = "dual accuracy" if args.dual else "regular accuracy"

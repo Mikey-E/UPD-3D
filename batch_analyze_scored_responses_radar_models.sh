@@ -1,5 +1,3 @@
-
-
 #!/bin/bash
 
 # Check for --dual flag
@@ -93,6 +91,7 @@ for category in "${categories[@]}"; do
         "scored_model_responses/3D-FRONT_test_gplm/inf_rslts_gplm_3D-FRONT_test_${category}_scored.json"
         "scored_model_responses/3D-FRONT_test_pllm/inf_rslts_pllm_base_3D-FRONT_test_${category}_scored.json"
         "scored_model_responses/3D-FRONT_test_shpllm_ft-cap3d/inf_rslts_shapellm-13b-general-v1.0-finetune_ft-cap3d_3D-FRONT_test_${category}_scored.json"
+        "scored_model_responses/3D-FRONT_test_llava3d_base/inf_rslts_llava3d_base_3D-FRONT_test_${category}_scored.json"
     )
     
     trained_model_files=(
@@ -100,6 +99,7 @@ for category in "${categories[@]}"; do
         "scored_model_responses/3D-FRONT_test_gplm_ft-comb/inf_rslts_gplm_ft-comb_3D-FRONT_test_${category}_scored.json"
         "scored_model_responses/3D-FRONT_test_pllm_ft-comb/inf_rslts_pllm_ft-comb_3D-FRONT_test_${category}_scored.json"
         "scored_model_responses/3D-FRONT_test_shpllm_ft-upd/inf_rslts_shapellm-13b-general-v1.0-finetune-upd_ft-upd_3D-FRONT_test_${category}_scored.json"
+        "scored_model_responses/3D-FRONT_test_llava3d_ft-upd_3D-FRONT/inf_rslts_llava3d_ft-upd_3D-FRONT_3D-FRONT_test_${category}_scored.json"
     )
     
     # If in dual mode and not processing standard/open_ended, add standard files to each series
@@ -110,6 +110,7 @@ for category in "${categories[@]}"; do
             "scored_model_responses/3D-FRONT_test_gplm/inf_rslts_gplm_3D-FRONT_test_standard_scored.json"
             "scored_model_responses/3D-FRONT_test_pllm/inf_rslts_pllm_base_3D-FRONT_test_standard_scored.json"
             "scored_model_responses/3D-FRONT_test_shpllm_ft-cap3d/inf_rslts_shapellm-13b-general-v1.0-finetune_ft-cap3d_3D-FRONT_test_standard_scored.json"
+            "scored_model_responses/3D-FRONT_test_llava3d_base/inf_rslts_llava3d_base_3D-FRONT_test_standard_scored.json"
         )
         
         trained_model_files+=(
@@ -117,6 +118,7 @@ for category in "${categories[@]}"; do
             "scored_model_responses/3D-FRONT_test_gplm_ft-comb/inf_rslts_gplm_ft-comb_3D-FRONT_test_standard_scored.json"
             "scored_model_responses/3D-FRONT_test_pllm_ft-comb/inf_rslts_pllm_ft-comb_3D-FRONT_test_standard_scored.json"
             "scored_model_responses/3D-FRONT_test_shpllm_ft-upd/inf_rslts_shapellm-13b-general-v1.0-finetune-upd_ft-upd_3D-FRONT_test_standard_scored.json"
+            "scored_model_responses/3D-FRONT_test_llava3d_ft-upd_3D-FRONT/inf_rslts_llava3d_ft-upd_3D-FRONT_3D-FRONT_test_standard_scored.json"
         )
     fi
     
