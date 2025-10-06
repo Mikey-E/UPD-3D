@@ -1,8 +1,6 @@
 """
-This file takes lists of scored json files and creates a radar chart where each file becomes a point on the radar.
-This is useful for comparing diffe    parser.add_argument("--tick_fontsize", type=int, default=28, help="Font size for axis ticks and labels.")
-    parser.add_argument("--legend_fontsize", type=int, default=26, help="Font size for legend text.")
-    parser.add_argument("--title_fontsize", type=int, default=38, help="Font size for title text.")t models on the same question types.
+This file takes lists of scored json files and creates radar charts where each file becomes a point on the circumference of the radar.
+There is a file to make these in batch. Refer to that for example usage.
 """
 
 import argparse
