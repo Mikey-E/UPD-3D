@@ -1,0 +1,3215 @@
+{
+    "Cabbage@sl_1109_14": {
+        "prompt": "What type of rug covers the floor?",
+        "response": "area rug",
+        "question_type": "open_ended",
+        "timestamp": "2025-10-08T14:55:54.464758",
+        "formatted_question": "What type of rug covers the floor?",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Cabbage@sl_1019_03": {
+        "prompt": "What type of outdoor fountain features intricate carvings?",
+        "response": "ur",
+        "question_type": "open_ended",
+        "timestamp": "2025-10-08T14:56:00.550563",
+        "formatted_question": "What type of outdoor fountain features intricate carvings?",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Cabbage@mvs_1019_05": {
+        "prompt": "What type of metal is the lamp made of?",
+        "response": "copper",
+        "question_type": "open_ended",
+        "timestamp": "2025-10-08T14:56:06.329513",
+        "formatted_question": "What type of metal is the lamp made of?",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Cabbage@mvs_907_11": {
+        "prompt": "What is the height of the chandelier hanging from the ceiling?",
+        "response": "0",
+        "question_type": "open_ended",
+        "timestamp": "2025-10-08T14:56:11.823158",
+        "formatted_question": "What is the height of the chandelier hanging from the ceiling?",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Cabbage@sl_1205_01": {
+        "prompt": "What type of sculpture is displayed on the shelf?",
+        "response": "figurine",
+        "question_type": "open_ended",
+        "timestamp": "2025-10-08T14:56:18.225594",
+        "formatted_question": "What type of sculpture is displayed on the shelf?",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Cabbage@sl_921_07": {
+        "prompt": "What type of metal is the chandelier made of?",
+        "response": "gold",
+        "question_type": "open_ended",
+        "timestamp": "2025-10-08T14:56:21.507254",
+        "formatted_question": "What type of metal is the chandelier made of?",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Cabbage@mvs_901_14": {
+        "prompt": "What type of fabric is the armchair covered in?",
+        "response": "tweed",
+        "question_type": "open_ended",
+        "timestamp": "2025-10-08T14:56:26.582975",
+        "formatted_question": "What type of fabric is the armchair covered in?",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Cabbage@mvs_1123_14": {
+        "prompt": "What type of fruit is inside the vase?",
+        "response": "grape",
+        "question_type": "open_ended",
+        "timestamp": "2025-10-08T14:56:32.074868",
+        "formatted_question": "What type of fruit is inside the vase?",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Cabbage@mvs_1019_09": {
+        "prompt": "What type of animal is lounging on the couch?",
+        "response": "cat",
+        "question_type": "open_ended",
+        "timestamp": "2025-10-08T14:56:37.156334",
+        "formatted_question": "What type of animal is lounging on the couch?",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Cabbage@sl_907_03": {
+        "prompt": "What type of chandelier is hanging from the ceiling?",
+        "response": "crystal",
+        "question_type": "open_ended",
+        "timestamp": "2025-10-08T14:56:42.264780",
+        "formatted_question": "What type of chandelier is hanging from the ceiling?",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Cabbage@sl_1205_05": {
+        "prompt": "What kind of water fountain is located nearby?",
+        "response": "public",
+        "question_type": "open_ended",
+        "timestamp": "2025-10-08T14:56:48.255652",
+        "formatted_question": "What kind of water fountain is located nearby?",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Cabbage@mvs_1019_03": {
+        "prompt": "What type of animal is resting in the corner of the room?",
+        "response": "cat",
+        "question_type": "open_ended",
+        "timestamp": "2025-10-08T14:56:54.640446",
+        "formatted_question": "What type of animal is resting in the corner of the room?",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Cabbage@sl_901_02": {
+        "prompt": "What type of animal is resting on the table?",
+        "response": "pig",
+        "question_type": "open_ended",
+        "timestamp": "2025-10-08T14:57:01.048110",
+        "formatted_question": "What type of animal is resting on the table?",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Cabbage@mvs_1205_09": {
+        "prompt": "What type of fabric is on the curtains?",
+        "response": "lace",
+        "question_type": "open_ended",
+        "timestamp": "2025-10-08T14:57:07.171543",
+        "formatted_question": "What type of fabric is on the curtains?",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Cabbage@sl_1019_07": {
+        "prompt": "What type of chandelier is hanging from the ceiling?",
+        "response": "crystal",
+        "question_type": "open_ended",
+        "timestamp": "2025-10-08T14:57:11.487655",
+        "formatted_question": "What type of chandelier is hanging from the ceiling?",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Cabbage@sl_1019_05": {
+        "prompt": "What type of furniture is positioned next to the fireplace?",
+        "response": "mantel",
+        "question_type": "open_ended",
+        "timestamp": "2025-10-08T14:57:17.029781",
+        "formatted_question": "What type of furniture is positioned next to the fireplace?",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Cabbage@sl_1116_11": {
+        "prompt": "What type of metal is used in the chair?",
+        "response": "wrought",
+        "question_type": "open_ended",
+        "timestamp": "2025-10-08T14:57:21.372447",
+        "formatted_question": "What type of metal is used in the chair?",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Cabbage@mvs_1012_06": {
+        "prompt": "What type of fabric is the couch made of?",
+        "response": "a fabric that is soft",
+        "question_type": "open_ended",
+        "timestamp": "2025-10-08T14:57:26.118385",
+        "formatted_question": "What type of fabric is the couch made of?",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Cabbage@mvs_907_07": {
+        "prompt": "What type of fruit is displayed on the table?",
+        "response": "grape",
+        "question_type": "open_ended",
+        "timestamp": "2025-10-08T14:57:30.529484",
+        "formatted_question": "What type of fruit is displayed on the table?",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Cabbage@sl_921_11": {
+        "prompt": "What type of insect is resting on the ceiling?",
+        "response": "ant",
+        "question_type": "open_ended",
+        "timestamp": "2025-10-08T14:57:34.576185",
+        "formatted_question": "What type of insect is resting on the ceiling?",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Cabbage@sl_1019_01": {
+        "prompt": "What type of flooring is used in the room?",
+        "response": "wood",
+        "question_type": "open_ended",
+        "timestamp": "2025-10-08T14:57:39.513122",
+        "formatted_question": "What type of flooring is used in the room?",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Cabbage@mvs_929_06": {
+        "prompt": "What is the height of the chandelier?",
+        "response": "66",
+        "question_type": "open_ended",
+        "timestamp": "2025-10-08T14:57:45.538132",
+        "formatted_question": "What is the height of the chandelier?",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Cabbage@sl_1109_12": {
+        "prompt": "What texture does the rug have?",
+        "response": "it is soft",
+        "question_type": "open_ended",
+        "timestamp": "2025-10-08T14:57:50.729507",
+        "formatted_question": "What texture does the rug have?",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Cabbage@mvs_1116_07": {
+        "prompt": "What type of rug is beneath the pot?",
+        "response": "runner",
+        "question_type": "open_ended",
+        "timestamp": "2025-10-08T14:57:55.150691",
+        "formatted_question": "What type of rug is beneath the pot?",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Cabbage@mvs_921_03": {
+        "prompt": "What type of light fixture is hanging from the ceiling?",
+        "response": "chandelier",
+        "question_type": "open_ended",
+        "timestamp": "2025-10-08T14:57:59.303278",
+        "formatted_question": "What type of light fixture is hanging from the ceiling?",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Cabbage@mvs_901_10": {
+        "prompt": "What type of chandelier is hanging from the ceiling?",
+        "response": "crystal",
+        "question_type": "open_ended",
+        "timestamp": "2025-10-08T14:58:02.991548",
+        "formatted_question": "What type of chandelier is hanging from the ceiling?",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Cabbage@sl_1103_05": {
+        "prompt": "What type of chandelier is hanging from the ceiling?",
+        "response": "crystal",
+        "question_type": "open_ended",
+        "timestamp": "2025-10-08T14:58:05.771241",
+        "formatted_question": "What type of chandelier is hanging from the ceiling?",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Cabbage@sl_907_11": {
+        "prompt": "What type of painting is hanging on the wall?",
+        "response": "portrait,",
+        "question_type": "open_ended",
+        "timestamp": "2025-10-08T14:58:10.337247",
+        "formatted_question": "What type of painting is hanging on the wall?",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Cabbage@mvs_1103_05": {
+        "prompt": "What type of light fixture hangs from the ceiling?",
+        "response": "sconce",
+        "question_type": "open_ended",
+        "timestamp": "2025-10-08T14:58:14.671343",
+        "formatted_question": "What type of light fixture hangs from the ceiling?",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Cabbage@mvs_901_12": {
+        "prompt": "What type of fabric is used in the curtains?",
+        "response": "lace",
+        "question_type": "open_ended",
+        "timestamp": "2025-10-08T14:58:18.635493",
+        "formatted_question": "What type of fabric is used in the curtains?",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Cabbage@mvs_914_12": {
+        "prompt": "What type of sculpture is displayed next to the houseplant?",
+        "response": "terra",
+        "question_type": "open_ended",
+        "timestamp": "2025-10-08T14:58:23.913936",
+        "formatted_question": "What type of sculpture is displayed next to the houseplant?",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Cabbage@sl_1026_02": {
+        "prompt": "What type of animal is sleeping in the room?",
+        "response": "cat",
+        "question_type": "open_ended",
+        "timestamp": "2025-10-08T14:58:30.684594",
+        "formatted_question": "What type of animal is sleeping in the room?",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Cabbage@sl_921_03": {
+        "prompt": "What type of fish is swimming in an aquarium nearby?",
+        "response": "te",
+        "question_type": "open_ended",
+        "timestamp": "2025-10-08T14:58:36.945615",
+        "formatted_question": "What type of fish is swimming in an aquarium nearby?",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Cabbage@mvs_1026_08": {
+        "prompt": "What type of fabric is the curtain made of?",
+        "response": "acetate",
+        "question_type": "open_ended",
+        "timestamp": "2025-10-08T14:58:43.228833",
+        "formatted_question": "What type of fabric is the curtain made of?",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Cabbage@sl_1109_10": {
+        "prompt": "What type of metal sculpture is displayed on the table?",
+        "response": "ur",
+        "question_type": "open_ended",
+        "timestamp": "2025-10-08T14:58:49.196003",
+        "formatted_question": "What type of metal sculpture is displayed on the table?",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Cabbage@mvs_929_10": {
+        "prompt": "What type of fish is swimming in the room?",
+        "response": "te",
+        "question_type": "open_ended",
+        "timestamp": "2025-10-08T14:58:55.020534",
+        "formatted_question": "What type of fish is swimming in the room?",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Cabbage@mvs_1205_01": {
+        "prompt": "What kind of fruit is hanging from the ceiling?",
+        "response": "grape",
+        "question_type": "open_ended",
+        "timestamp": "2025-10-08T14:58:59.818730",
+        "formatted_question": "What kind of fruit is hanging from the ceiling?",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Cabbage@mvs_1019_11": {
+        "prompt": "What is the height of the tree next to the succulent plant?",
+        "response": "ten meters",
+        "question_type": "open_ended",
+        "timestamp": "2025-10-08T14:59:03.908343",
+        "formatted_question": "What is the height of the tree next to the succulent plant?",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Cabbage@sl_1026_08": {
+        "prompt": "What type of fish is swimming in the scene?",
+        "response": "te",
+        "question_type": "open_ended",
+        "timestamp": "2025-10-08T14:59:08.658414",
+        "formatted_question": "What type of fish is swimming in the scene?",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Cabbage@mvs_907_13": {
+        "prompt": "What type of fish is swimming in the room?",
+        "response": "te",
+        "question_type": "open_ended",
+        "timestamp": "2025-10-08T14:59:13.103617",
+        "formatted_question": "What type of fish is swimming in the room?",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Cabbage@mvs_1005_11": {
+        "prompt": "What shape is the mirror hanging on the wall?",
+        "response": "",
+        "question_type": "open_ended",
+        "timestamp": "2025-10-08T14:59:17.693706",
+        "formatted_question": "What shape is the mirror hanging on the wall?",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Cabbage@mvs_901_06": {
+        "prompt": "What type of animal is sleeping on the windowsill?",
+        "response": "rat",
+        "question_type": "open_ended",
+        "timestamp": "2025-10-08T14:59:22.675136",
+        "formatted_question": "What type of animal is sleeping on the windowsill?",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Cabbage@sl_1109_08": {
+        "prompt": "What type of crystal chandelier is hanging from the ceiling?",
+        "response": "chandelier",
+        "question_type": "open_ended",
+        "timestamp": "2025-10-08T14:59:27.826389",
+        "formatted_question": "What type of crystal chandelier is hanging from the ceiling?",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Cabbage@mvs_929_14": {
+        "prompt": "What type of large tree is in the corner of the room?",
+        "response": "cypress",
+        "question_type": "open_ended",
+        "timestamp": "2025-10-08T14:59:33.721392",
+        "formatted_question": "What type of large tree is in the corner of the room?",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Cabbage@sl_907_01": {
+        "prompt": "What type of fruit is growing on the walls?",
+        "response": "fig",
+        "question_type": "open_ended",
+        "timestamp": "2025-10-08T14:59:38.487900",
+        "formatted_question": "What type of fruit is growing on the walls?",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Maize@2-77": {
+        "prompt": "What type of furniture is located near the potted plant?",
+        "response": "sofa",
+        "question_type": "open_ended",
+        "timestamp": "2025-10-08T14:56:07.877146",
+        "formatted_question": "What type of furniture is located near the potted plant?",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Maize@2-140": {
+        "prompt": "What is the shape of the rocks located at the base of the plant?",
+        "response": "rounded",
+        "question_type": "open_ended",
+        "timestamp": "2025-10-08T14:56:13.701893",
+        "formatted_question": "What is the shape of the rocks located at the base of the plant?",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Maize@2-126": {
+        "prompt": "What kind of artwork is hanging on the wall?",
+        "response": "painting",
+        "question_type": "open_ended",
+        "timestamp": "2025-10-08T14:56:21.434410",
+        "formatted_question": "What kind of artwork is hanging on the wall?",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Maize@3-36": {
+        "prompt": "What type of rock is used for the flooring?",
+        "response": "limestone",
+        "question_type": "open_ended",
+        "timestamp": "2025-10-08T14:56:29.024756",
+        "formatted_question": "What type of rock is used for the flooring?",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Maize@3-15": {
+        "prompt": "What type of animal is resting on the windowsill?",
+        "response": "ow",
+        "question_type": "open_ended",
+        "timestamp": "2025-10-08T14:56:34.662616",
+        "formatted_question": "What type of animal is resting on the windowsill?",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Maize@3-60": {
+        "prompt": "What type of heavy furniture is located near the houseplant?",
+        "response": "sofa",
+        "question_type": "open_ended",
+        "timestamp": "2025-10-08T14:56:43.022223",
+        "formatted_question": "What type of heavy furniture is located near the houseplant?",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Maize@2-17": {
+        "prompt": "What kind of rug is placed on the floor?",
+        "response": "area rug",
+        "question_type": "open_ended",
+        "timestamp": "2025-10-08T14:56:50.293452",
+        "formatted_question": "What kind of rug is placed on the floor?",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Maize@2-32": {
+        "prompt": "What type of cooking appliance is located nearby?",
+        "response": "oven",
+        "question_type": "open_ended",
+        "timestamp": "2025-10-08T14:56:58.913346",
+        "formatted_question": "What type of cooking appliance is located nearby?",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Maize@2-116": {
+        "prompt": "What type of fruit is displayed on the table?",
+        "response": "grapes",
+        "question_type": "open_ended",
+        "timestamp": "2025-10-08T14:57:06.283716",
+        "formatted_question": "What type of fruit is displayed on the table?",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Maize@1-120": {
+        "prompt": "What type of fruit is hanging from the ceiling?",
+        "response": "pineapple pineapple",
+        "question_type": "open_ended",
+        "timestamp": "2025-10-08T14:57:11.108393",
+        "formatted_question": "What type of fruit is hanging from the ceiling?",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Maize@3-40": {
+        "prompt": "What type of animal is resting on the furniture?",
+        "response": "cat",
+        "question_type": "open_ended",
+        "timestamp": "2025-10-08T14:57:18.700900",
+        "formatted_question": "What type of animal is resting on the furniture?",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Maize@3-43": {
+        "prompt": "What type of fruit is on the floor?",
+        "response": "grape",
+        "question_type": "open_ended",
+        "timestamp": "2025-10-08T14:57:26.467870",
+        "formatted_question": "What type of fruit is on the floor?",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Maize@2-31": {
+        "prompt": "What type of metal sculpture is displayed nearby?",
+        "response": "lion",
+        "question_type": "open_ended",
+        "timestamp": "2025-10-08T14:57:33.438959",
+        "formatted_question": "What type of metal sculpture is displayed nearby?",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Maize@3-38": {
+        "prompt": "What type of painting is hanging on the wall?",
+        "response": "a portrait",
+        "question_type": "open_ended",
+        "timestamp": "2025-10-08T14:57:41.306258",
+        "formatted_question": "What type of painting is hanging on the wall?",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Maize@2-28": {
+        "prompt": "What type of fruit is displayed on the table?",
+        "response": "grapes,",
+        "question_type": "open_ended",
+        "timestamp": "2025-10-08T14:57:49.956085",
+        "formatted_question": "What type of fruit is displayed on the table?",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Maize@2-24": {
+        "prompt": "What type of animal is sleeping on the floor?",
+        "response": "cat",
+        "question_type": "open_ended",
+        "timestamp": "2025-10-08T14:57:57.476864",
+        "formatted_question": "What type of animal is sleeping on the floor?",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Maize@2-67": {
+        "prompt": "What type of animal is sleeping in the corner?",
+        "response": "cat",
+        "question_type": "open_ended",
+        "timestamp": "2025-10-08T14:58:04.828897",
+        "formatted_question": "What type of animal is sleeping in the corner?",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Maize@2-64": {
+        "prompt": "What is the flavor of the cake on the table?",
+        "response": "vanilla",
+        "question_type": "open_ended",
+        "timestamp": "2025-10-08T14:58:12.639279",
+        "formatted_question": "What is the flavor of the cake on the table?",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Maize@3-54": {
+        "prompt": "What type of animal is resting on the floor?",
+        "response": "gir",
+        "question_type": "open_ended",
+        "timestamp": "2025-10-08T14:58:22.357533",
+        "formatted_question": "What type of animal is resting on the floor?",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Maize@2-66": {
+        "prompt": "What type of fish is swimming in the scene?",
+        "response": "sard",
+        "question_type": "open_ended",
+        "timestamp": "2025-10-08T14:58:30.330842",
+        "formatted_question": "What type of fish is swimming in the scene?",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Maize@3-7": {
+        "prompt": "What food item is stored in the refrigerator?",
+        "response": "milk",
+        "question_type": "open_ended",
+        "timestamp": "2025-10-08T14:58:37.735847",
+        "formatted_question": "What food item is stored in the refrigerator?",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Maize@2-65": {
+        "prompt": "What type of sculpture is next to the plant?",
+        "response": "lion",
+        "question_type": "open_ended",
+        "timestamp": "2025-10-08T14:58:45.278769",
+        "formatted_question": "What type of sculpture is next to the plant?",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Maize@2-88": {
+        "prompt": "What type of fabric is the couch made of?",
+        "response": "a fabric that is woven",
+        "question_type": "open_ended",
+        "timestamp": "2025-10-08T14:58:52.418320",
+        "formatted_question": "What type of fabric is the couch made of?",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Maize@2-108": {
+        "prompt": "What type of animal is resting on the floor?",
+        "response": "gir",
+        "question_type": "open_ended",
+        "timestamp": "2025-10-08T14:59:01.205409",
+        "formatted_question": "What type of animal is resting on the floor?",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Maize@1-78": {
+        "prompt": "What type of large, colorful painting hangs on the wall?",
+        "response": "mural",
+        "question_type": "open_ended",
+        "timestamp": "2025-10-08T14:59:08.410532",
+        "formatted_question": "What type of large, colorful painting hangs on the wall?",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Maize@2-39": {
+        "prompt": "What type of musical instrument is hidden in the room?",
+        "response": "har",
+        "question_type": "open_ended",
+        "timestamp": "2025-10-08T14:59:14.975735",
+        "formatted_question": "What type of musical instrument is hidden in the room?",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Maize@2-50": {
+        "prompt": "What type of animal is lounging in the room?",
+        "response": "cat",
+        "question_type": "open_ended",
+        "timestamp": "2025-10-08T14:59:22.164288",
+        "formatted_question": "What type of animal is lounging in the room?",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Maize@3-50": {
+        "prompt": "What type of fruit is displayed on the table?",
+        "response": "grapes",
+        "question_type": "open_ended",
+        "timestamp": "2025-10-08T14:59:27.788708",
+        "formatted_question": "What type of fruit is displayed on the table?",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Maize@2-128": {
+        "prompt": "What type of metal sculpture is displayed in the room?",
+        "response": "a sculpture",
+        "question_type": "open_ended",
+        "timestamp": "2025-10-08T14:59:35.884698",
+        "formatted_question": "What type of metal sculpture is displayed in the room?",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Maize@2-137": {
+        "prompt": "What type of fruit does the tree produce?",
+        "response": "dru the tree",
+        "question_type": "open_ended",
+        "timestamp": "2025-10-08T14:59:44.676862",
+        "formatted_question": "What type of fruit does the tree produce?",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Maize@2-141": {
+        "prompt": "What type of artwork is hanging on the wall?",
+        "response": "painting",
+        "question_type": "open_ended",
+        "timestamp": "2025-10-08T14:59:53.171395",
+        "formatted_question": "What type of artwork is hanging on the wall?",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Maize@2-29": {
+        "prompt": "What type of artwork is hanging on the ceiling?",
+        "response": "paintings",
+        "question_type": "open_ended",
+        "timestamp": "2025-10-08T14:59:59.408720",
+        "formatted_question": "What type of artwork is hanging on the ceiling?",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Maize@1-60": {
+        "prompt": "What type of rock formation is displayed in the scene?",
+        "response": "a rock formation",
+        "question_type": "open_ended",
+        "timestamp": "2025-10-08T15:00:07.660603",
+        "formatted_question": "What type of rock formation is displayed in the scene?",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Maize@1-22": {
+        "prompt": "What is the weight of the metal sculpture located on the opposite side of the room?",
+        "response": "450 pounds",
+        "question_type": "open_ended",
+        "timestamp": "2025-10-08T15:00:14.870144",
+        "formatted_question": "What is the weight of the metal sculpture located on the opposite side of the room?",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Maize@2-33": {
+        "prompt": "What type of crystal chandelier is hanging in the room?",
+        "response": "tiffany",
+        "question_type": "open_ended",
+        "timestamp": "2025-10-08T15:00:22.573772",
+        "formatted_question": "What type of crystal chandelier is hanging in the room?",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Maize@3-27": {
+        "prompt": "What type of flower is growing in the garden outside the window?",
+        "response": "li",
+        "question_type": "open_ended",
+        "timestamp": "2025-10-08T15:00:28.229350",
+        "formatted_question": "What type of flower is growing in the garden outside the window?",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Maize@3-37": {
+        "prompt": "What shape is the ceiling fan?",
+        "response": "blade",
+        "question_type": "open_ended",
+        "timestamp": "2025-10-08T15:00:35.904228",
+        "formatted_question": "What shape is the ceiling fan?",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Maize@1-113": {
+        "prompt": "What type of fruit is hanging from the ceiling?",
+        "response": "grapesnot",
+        "question_type": "open_ended",
+        "timestamp": "2025-10-08T15:00:45.118584",
+        "formatted_question": "What type of fruit is hanging from the ceiling?",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Maize@2-11": {
+        "prompt": "What type of birdcage is in the room?",
+        "response": "ow",
+        "question_type": "open_ended",
+        "timestamp": "2025-10-08T15:00:53.055877",
+        "formatted_question": "What type of birdcage is in the room?",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Maize@1-50": {
+        "prompt": "What type of flower is blooming next to the maize plant?",
+        "response": "corn",
+        "question_type": "open_ended",
+        "timestamp": "2025-10-08T15:01:01.876759",
+        "formatted_question": "What type of flower is blooming next to the maize plant?",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Maize@1-123": {
+        "prompt": "What kind of fruit is growing on the corn plant?",
+        "response": "corn",
+        "question_type": "open_ended",
+        "timestamp": "2025-10-08T15:01:09.585905",
+        "formatted_question": "What kind of fruit is growing on the corn plant?",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Maize@2-21": {
+        "prompt": "What type of painting is hanging on the wall?",
+        "response": "portrait",
+        "question_type": "open_ended",
+        "timestamp": "2025-10-08T15:01:17.250857",
+        "formatted_question": "What type of painting is hanging on the wall?",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Maize@2-107": {
+        "prompt": "What kind of fabric is the sofa made of?",
+        "response": "chen",
+        "question_type": "open_ended",
+        "timestamp": "2025-10-08T15:01:26.082191",
+        "formatted_question": "What kind of fabric is the sofa made of?",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Maize@2-114": {
+        "prompt": "What type of fruit does the dining table hold?",
+        "response": "grape",
+        "question_type": "open_ended",
+        "timestamp": "2025-10-08T15:01:32.526855",
+        "formatted_question": "What type of fruit does the dining table hold?",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Maize@1-106": {
+        "prompt": "What material is the table made of?",
+        "response": "wood a natural",
+        "question_type": "open_ended",
+        "timestamp": "2025-10-08T15:01:40.861458",
+        "formatted_question": "What material is the table made of?",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Potato@5-19-P281-2-a": {
+        "prompt": "What shape is the rug in the room?",
+        "response": "",
+        "question_type": "open_ended",
+        "timestamp": "2025-10-08T14:56:20.882729",
+        "formatted_question": "What shape is the rug in the room?",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Potato@5-21-P104-3-a": {
+        "prompt": "What type of flower pot is used to display the plant?",
+        "response": "ceramic",
+        "question_type": "open_ended",
+        "timestamp": "2025-10-08T14:56:28.293149",
+        "formatted_question": "What type of flower pot is used to display the plant?",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Potato@5-11-P255-3-a": {
+        "prompt": "What is the weight of the metal sculpture located in the corner of the room?",
+        "response": "450 pounds",
+        "question_type": "open_ended",
+        "timestamp": "2025-10-08T14:56:35.556701",
+        "formatted_question": "What is the weight of the metal sculpture located in the corner of the room?",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Potato@5-14-P117-3-a": {
+        "prompt": "What shape is the table in the room?",
+        "response": "rectangular",
+        "question_type": "open_ended",
+        "timestamp": "2025-10-08T14:56:44.215112",
+        "formatted_question": "What shape is the table in the room?",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Potato@5-13-P015-2-a": {
+        "prompt": "What type of flower arrangement is displayed in the room?",
+        "response": "a bouquet",
+        "question_type": "open_ended",
+        "timestamp": "2025-10-08T14:56:51.684187",
+        "formatted_question": "What type of flower arrangement is displayed in the room?",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Potato@5-23-P999-7-a": {
+        "prompt": "What type of fruit is hanging near the ceiling?",
+        "response": "grapes",
+        "question_type": "open_ended",
+        "timestamp": "2025-10-08T14:57:00.334385",
+        "formatted_question": "What type of fruit is hanging near the ceiling?",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Potato@5-20-P043-1-a": {
+        "prompt": "What type of fruit is hanging from the ceiling?",
+        "response": "grapes",
+        "question_type": "open_ended",
+        "timestamp": "2025-10-08T14:57:07.590691",
+        "formatted_question": "What type of fruit is hanging from the ceiling?",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Potato@5-11-P279-3-a": {
+        "prompt": "What type of flower is blooming nearby?",
+        "response": "lilac",
+        "question_type": "open_ended",
+        "timestamp": "2025-10-08T14:57:16.322331",
+        "formatted_question": "What type of flower is blooming nearby?",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Potato@5-21-P104-4-a": {
+        "prompt": "What is the texture of the marble used in the countertops?",
+        "response": "hone",
+        "question_type": "open_ended",
+        "timestamp": "2025-10-08T14:57:23.719277",
+        "formatted_question": "What is the texture of the marble used in the countertops?",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Potato@5-20-P060-3-a": {
+        "prompt": "What type of metal is used in the window frames?",
+        "response": "wrought",
+        "question_type": "open_ended",
+        "timestamp": "2025-10-08T14:57:31.999015",
+        "formatted_question": "What type of metal is used in the window frames?",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Potato@5-11-P290-3-a": {
+        "prompt": "What texture does the rock in the scene have?",
+        "response": "smooth",
+        "question_type": "open_ended",
+        "timestamp": "2025-10-08T14:57:40.152445",
+        "formatted_question": "What texture does the rock in the scene have?",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Potato@5-23-P999-2-a": {
+        "prompt": "What shape is the chandelier hanging from the ceiling?",
+        "response": "o",
+        "question_type": "open_ended",
+        "timestamp": "2025-10-08T14:57:49.233045",
+        "formatted_question": "What shape is the chandelier hanging from the ceiling?",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Potato@5-11-P281-1-a": {
+        "prompt": "What type of flower is blooming next to the sapling?",
+        "response": "l",
+        "question_type": "open_ended",
+        "timestamp": "2025-10-08T14:57:57.221693",
+        "formatted_question": "What type of flower is blooming next to the sapling?",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Potato@5-23-P997-1-a": {
+        "prompt": "What type of fruit is laying on the floor?",
+        "response": "grape",
+        "question_type": "open_ended",
+        "timestamp": "2025-10-08T14:58:05.694352",
+        "formatted_question": "What type of fruit is laying on the floor?",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Potato@5-14-P112-1-a": {
+        "prompt": "What texture does the large rug on the floor have?",
+        "response": "it a wool",
+        "question_type": "open_ended",
+        "timestamp": "2025-10-08T14:58:15.049859",
+        "formatted_question": "What texture does the large rug on the floor have?",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Potato@5-13-P046-3-a": {
+        "prompt": "What type of rug is placed on the floor?",
+        "response": "area rugnot",
+        "question_type": "open_ended",
+        "timestamp": "2025-10-08T14:58:22.637045",
+        "formatted_question": "What type of rug is placed on the floor?",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Potato@5-21-P104-2-a": {
+        "prompt": "What type of flower pot is used to display a large cactus?",
+        "response": "terra",
+        "question_type": "open_ended",
+        "timestamp": "2025-10-08T14:58:28.902335",
+        "formatted_question": "What type of flower pot is used to display a large cactus?",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Potato@5-11-P104-2-a": {
+        "prompt": "What type of flower is displayed in a vase on the table?",
+        "response": "li",
+        "question_type": "open_ended",
+        "timestamp": "2025-10-08T14:58:39.188109",
+        "formatted_question": "What type of flower is displayed in a vase on the table?",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Potato@5-23-P997-2-a": {
+        "prompt": "What is the shape and size of the garden bench?",
+        "response": "a rectangular seat",
+        "question_type": "open_ended",
+        "timestamp": "2025-10-08T14:58:47.638565",
+        "formatted_question": "What is the shape and size of the garden bench?",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Potato@5-23-P998-9-a": {
+        "prompt": "What type of furniture is made of glass and placed in the scene?",
+        "response": "table",
+        "question_type": "open_ended",
+        "timestamp": "2025-10-08T14:58:54.531549",
+        "formatted_question": "What type of furniture is made of glass and placed in the scene?",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Potato@5-20-P002-2-a": {
+        "prompt": "What type of mineral is embedded in the floor?",
+        "response": "sand",
+        "question_type": "open_ended",
+        "timestamp": "2025-10-08T14:59:02.774642",
+        "formatted_question": "What type of mineral is embedded in the floor?",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Potato@5-13-P098-1-a": {
+        "prompt": "What type of fruit is hanging from the ceiling?",
+        "response": "grapes",
+        "question_type": "open_ended",
+        "timestamp": "2025-10-08T14:59:11.467410",
+        "formatted_question": "What type of fruit is hanging from the ceiling?",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Potato@5-21-P142-1-a": {
+        "prompt": "What type of fruit does the tree produce?",
+        "response": "dru",
+        "question_type": "open_ended",
+        "timestamp": "2025-10-08T14:59:19.942875",
+        "formatted_question": "What type of fruit does the tree produce?",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Potato@5-19-P279-1-a": {
+        "prompt": "What is the shape of the roof above the plant?",
+        "response": "trun",
+        "question_type": "open_ended",
+        "timestamp": "2025-10-08T14:59:28.392443",
+        "formatted_question": "What is the shape of the roof above the plant?",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Potato@5-14-P113-3-a": {
+        "prompt": "What type of fruit is resting on the main surface?",
+        "response": "grape",
+        "question_type": "open_ended",
+        "timestamp": "2025-10-08T14:59:36.548541",
+        "formatted_question": "What type of fruit is resting on the main surface?",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Potato@5-11-P281-2-a": {
+        "prompt": "What is the shape of the chandelier hanging from the ceiling?",
+        "response": "t",
+        "question_type": "open_ended",
+        "timestamp": "2025-10-08T14:59:44.986337",
+        "formatted_question": "What is the shape of the chandelier hanging from the ceiling?",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Potato@5-11-P285-2-a": {
+        "prompt": "What shape is the coffee table?",
+        "response": "o",
+        "question_type": "open_ended",
+        "timestamp": "2025-10-08T14:59:52.581945",
+        "formatted_question": "What shape is the coffee table?",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Potato@5-20-P045-3-a": {
+        "prompt": "What color is the coffee table?",
+        "response": "white",
+        "question_type": "open_ended",
+        "timestamp": "2025-10-08T14:59:59.910621",
+        "formatted_question": "What color is the coffee table?",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Potato@5-23-P998-7-a": {
+        "prompt": "What type of fruit is growing on the plant?",
+        "response": "berry",
+        "question_type": "open_ended",
+        "timestamp": "2025-10-08T15:00:09.305922",
+        "formatted_question": "What type of fruit is growing on the plant?",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Potato@5-13-P002-2-a": {
+        "prompt": "What type of furniture is made of metal and glass in the room?",
+        "response": "table",
+        "question_type": "open_ended",
+        "timestamp": "2025-10-08T15:00:16.845747",
+        "formatted_question": "What type of furniture is made of metal and glass in the room?",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Potato@5-20-P015-2-a": {
+        "prompt": "What kind of stone is used in the construction of the fireplace?",
+        "response": "limestone",
+        "question_type": "open_ended",
+        "timestamp": "2025-10-08T15:00:23.541198",
+        "formatted_question": "What kind of stone is used in the construction of the fireplace?",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Potato@5-11-P294-3-a": {
+        "prompt": "Is there a purple flower nearby?",
+        "response": "",
+        "question_type": "open_ended",
+        "timestamp": "2025-10-08T15:00:31.741983",
+        "formatted_question": "Is there a purple flower nearby?",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Potato@5-13-P068-3-a": {
+        "prompt": "What type of fruit is hanging from the ceiling?",
+        "response": "grapes",
+        "question_type": "open_ended",
+        "timestamp": "2025-10-08T15:00:39.252961",
+        "formatted_question": "What type of fruit is hanging from the ceiling?",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Potato@5-19-P281-1-a": {
+        "prompt": "What is the height of the oak tree nearby?",
+        "response": "",
+        "question_type": "open_ended",
+        "timestamp": "2025-10-08T15:00:46.708707",
+        "formatted_question": "What is the height of the oak tree nearby?",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Potato@5-20-P149-3-a": {
+        "prompt": "What shape is the rug in the room?",
+        "response": "",
+        "question_type": "open_ended",
+        "timestamp": "2025-10-08T15:00:54.236142",
+        "formatted_question": "What shape is the rug in the room?",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Potato@5-13-P043-2-a": {
+        "prompt": "What type of fruit is present on the plant?",
+        "response": "dru",
+        "question_type": "open_ended",
+        "timestamp": "2025-10-08T15:01:02.375307",
+        "formatted_question": "What type of fruit is present on the plant?",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Rapeseed@29": {
+        "prompt": "What type of metal is the table made from?",
+        "response": "iron",
+        "question_type": "open_ended",
+        "timestamp": "2025-10-08T15:01:08.441160",
+        "formatted_question": "What type of metal is the table made from?",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Rapeseed@115": {
+        "prompt": "What type of fish is swimming in a tank nearby?",
+        "response": "k",
+        "question_type": "open_ended",
+        "timestamp": "2025-10-08T15:01:16.639414",
+        "formatted_question": "What type of fish is swimming in a tank nearby?",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Rapeseed@70": {
+        "prompt": "What type of lighting fixture hangs from the ceiling?",
+        "response": "track lighting",
+        "question_type": "open_ended",
+        "timestamp": "2025-10-08T15:01:22.501154",
+        "formatted_question": "What type of lighting fixture hangs from the ceiling?",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Rapeseed@33": {
+        "prompt": "What type of furniture is in the room?",
+        "response": "sofa",
+        "question_type": "open_ended",
+        "timestamp": "2025-10-08T15:01:28.969734",
+        "formatted_question": "What type of furniture is in the room?",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Rapeseed@31": {
+        "prompt": "What type of artwork is hanging on the wall?",
+        "response": "painting",
+        "question_type": "open_ended",
+        "timestamp": "2025-10-08T15:01:36.948223",
+        "formatted_question": "What type of artwork is hanging on the wall?",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Rapeseed@129": {
+        "prompt": "What type of metal sculpture is displayed on the shelf?",
+        "response": "a sculpture",
+        "question_type": "open_ended",
+        "timestamp": "2025-10-08T15:01:45.421655",
+        "formatted_question": "What type of metal sculpture is displayed on the shelf?",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Rapeseed@20": {
+        "prompt": "What type of chandelier is hanging from the ceiling?",
+        "response": "crystal",
+        "question_type": "open_ended",
+        "timestamp": "2025-10-08T15:01:52.779079",
+        "formatted_question": "What type of chandelier is hanging from the ceiling?",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Rapeseed@91": {
+        "prompt": "What type of fruit is in the scene?",
+        "response": "grape",
+        "question_type": "open_ended",
+        "timestamp": "2025-10-08T15:01:59.941886",
+        "formatted_question": "What type of fruit is in the scene?",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Rapeseed@24": {
+        "prompt": "What type of metallic sculpture is placed next to the plant?",
+        "response": "ur",
+        "question_type": "open_ended",
+        "timestamp": "2025-10-08T15:02:07.033652",
+        "formatted_question": "What type of metallic sculpture is placed next to the plant?",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Rapeseed@37": {
+        "prompt": "What type of furniture is placed directly above the potted plant?",
+        "response": "plant stand",
+        "question_type": "open_ended",
+        "timestamp": "2025-10-08T14:56:01.711385",
+        "formatted_question": "What type of furniture is placed directly above the potted plant?",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Rapeseed@63": {
+        "prompt": "What type of light fixture hangs from the ceiling?",
+        "response": "track lighting",
+        "question_type": "open_ended",
+        "timestamp": "2025-10-08T14:56:07.913807",
+        "formatted_question": "What type of light fixture hangs from the ceiling?",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Rapeseed@11": {
+        "prompt": "What material is the hammock made of?",
+        "response": "cotton",
+        "question_type": "open_ended",
+        "timestamp": "2025-10-08T14:56:13.299444",
+        "formatted_question": "What material is the hammock made of?",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Rapeseed@135": {
+        "prompt": "What type of animal is hiding behind the plant?",
+        "response": "liz",
+        "question_type": "open_ended",
+        "timestamp": "2025-10-08T14:56:17.513347",
+        "formatted_question": "What type of animal is hiding behind the plant?",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Rapeseed@107": {
+        "prompt": "What type of woven basket is used for storing blankets?",
+        "response": "wick",
+        "question_type": "open_ended",
+        "timestamp": "2025-10-08T14:56:23.896182",
+        "formatted_question": "What type of woven basket is used for storing blankets?",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Rapeseed@116": {
+        "prompt": "What type of mineral is used in the construction of the ceiling?",
+        "response": "limestone",
+        "question_type": "open_ended",
+        "timestamp": "2025-10-08T14:56:28.711724",
+        "formatted_question": "What type of mineral is used in the construction of the ceiling?",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Rapeseed@169": {
+        "prompt": "What type of flower is blooming in the scene?",
+        "response": "l",
+        "question_type": "open_ended",
+        "timestamp": "2025-10-08T14:56:34.831081",
+        "formatted_question": "What type of flower is blooming in the scene?",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Rapeseed@58": {
+        "prompt": "What type of metal is used for the furniture?",
+        "response": "brass",
+        "question_type": "open_ended",
+        "timestamp": "2025-10-08T14:56:40.498509",
+        "formatted_question": "What type of metal is used for the furniture?",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Rapeseed@25": {
+        "prompt": "What type of hanging chandelier is installed in the room?",
+        "response": "Chandel",
+        "question_type": "open_ended",
+        "timestamp": "2025-10-08T14:56:45.291003",
+        "formatted_question": "What type of hanging chandelier is installed in the room?",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Rapeseed@168": {
+        "prompt": "What type of wallpaper is used on the walls?",
+        "response": "taf wall paper",
+        "question_type": "open_ended",
+        "timestamp": "2025-10-08T14:56:51.528398",
+        "formatted_question": "What type of wallpaper is used on the walls?",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Rapeseed@83": {
+        "prompt": "What material is the chandelier made of?",
+        "response": "crystal",
+        "question_type": "open_ended",
+        "timestamp": "2025-10-08T14:56:57.882062",
+        "formatted_question": "What material is the chandelier made of?",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Rapeseed@127": {
+        "prompt": "What shape is the bookcase in the room?",
+        "response": "square",
+        "question_type": "open_ended",
+        "timestamp": "2025-10-08T14:57:03.059952",
+        "formatted_question": "What shape is the bookcase in the room?",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Rapeseed@79": {
+        "prompt": "What type of crystal chandelier is hanging from the ceiling?",
+        "response": "chandelier",
+        "question_type": "open_ended",
+        "timestamp": "2025-10-08T14:57:07.843066",
+        "formatted_question": "What type of crystal chandelier is hanging from the ceiling?",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Rapeseed@122": {
+        "prompt": "What type of crystal chandelier is hanging from the ceiling?",
+        "response": "chandelier",
+        "question_type": "open_ended",
+        "timestamp": "2025-10-08T14:57:12.898982",
+        "formatted_question": "What type of crystal chandelier is hanging from the ceiling?",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Rapeseed@8": {
+        "prompt": "What type of fish is swimming in the room?",
+        "response": "te",
+        "question_type": "open_ended",
+        "timestamp": "2025-10-08T14:57:18.992259",
+        "formatted_question": "What type of fish is swimming in the room?",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Rapeseed@82": {
+        "prompt": "What type of crystal chandelier is hanging from the ceiling?",
+        "response": "swag",
+        "question_type": "open_ended",
+        "timestamp": "2025-10-08T14:57:25.215265",
+        "formatted_question": "What type of crystal chandelier is hanging from the ceiling?",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Rapeseed@95": {
+        "prompt": "What type of fruit bowl is on the table?",
+        "response": "pineapple",
+        "question_type": "open_ended",
+        "timestamp": "2025-10-08T14:57:32.974472",
+        "formatted_question": "What type of fruit bowl is on the table?",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Rapeseed@61": {
+        "prompt": "What type of fish is swimming in a tank nearby?",
+        "response": "bett",
+        "question_type": "open_ended",
+        "timestamp": "2025-10-08T14:57:38.923450",
+        "formatted_question": "What type of fish is swimming in a tank nearby?",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Rapeseed@93": {
+        "prompt": "What type of fabric is used for the curtains?",
+        "response": "lace",
+        "question_type": "open_ended",
+        "timestamp": "2025-10-08T14:57:45.043627",
+        "formatted_question": "What type of fabric is used for the curtains?",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Rapeseed@147": {
+        "prompt": "What is the height of the chandelier hanging in the room?",
+        "response": "ft",
+        "question_type": "open_ended",
+        "timestamp": "2025-10-08T14:57:52.215754",
+        "formatted_question": "What is the height of the chandelier hanging in the room?",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Rapeseed@128": {
+        "prompt": "What type of wooden furniture is located next to the plant?",
+        "response": "a wooden chair",
+        "question_type": "open_ended",
+        "timestamp": "2025-10-08T14:57:57.729964",
+        "formatted_question": "What type of wooden furniture is located next to the plant?",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Rapeseed@119": {
+        "prompt": "What kind of artwork is hanging on the walls?",
+        "response": "paintings",
+        "question_type": "open_ended",
+        "timestamp": "2025-10-08T14:58:04.335896",
+        "formatted_question": "What kind of artwork is hanging on the walls?",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Rapeseed@112": {
+        "prompt": "What type of painting is displayed on the wall?",
+        "response": "oil",
+        "question_type": "open_ended",
+        "timestamp": "2025-10-08T14:58:10.783780",
+        "formatted_question": "What type of painting is displayed on the wall?",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Rapeseed@21": {
+        "prompt": "What flavor is the ice cream on the table?",
+        "response": "vanilla",
+        "question_type": "open_ended",
+        "timestamp": "2025-10-08T14:58:16.950415",
+        "formatted_question": "What flavor is the ice cream on the table?",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Rapeseed@109": {
+        "prompt": "What kind of artwork is hanging on the wall?",
+        "response": "painting",
+        "question_type": "open_ended",
+        "timestamp": "2025-10-08T14:58:24.084731",
+        "formatted_question": "What kind of artwork is hanging on the wall?",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Rapeseed@142": {
+        "prompt": "What type of fruit is growing on the plant?",
+        "response": "pineapple",
+        "question_type": "open_ended",
+        "timestamp": "2025-10-08T14:58:28.529322",
+        "formatted_question": "What type of fruit is growing on the plant?",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Rapeseed@96": {
+        "prompt": "What type of metal is the coffee table made of?",
+        "response": "stainless",
+        "question_type": "open_ended",
+        "timestamp": "2025-10-08T14:58:34.274625",
+        "formatted_question": "What type of metal is the coffee table made of?",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Rapeseed@161": {
+        "prompt": "What type of light fixture hangs from the ceiling?",
+        "response": "chandelier",
+        "question_type": "open_ended",
+        "timestamp": "2025-10-08T14:58:42.056327",
+        "formatted_question": "What type of light fixture hangs from the ceiling?",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Rapeseed@123": {
+        "prompt": "What type of gemstone is used in the chandelier?",
+        "response": "emeral",
+        "question_type": "open_ended",
+        "timestamp": "2025-10-08T14:58:46.728779",
+        "formatted_question": "What type of gemstone is used in the chandelier?",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Rapeseed@102": {
+        "prompt": "What kind of fish is swimming in the room?",
+        "response": "tetra",
+        "question_type": "open_ended",
+        "timestamp": "2025-10-08T14:58:52.956578",
+        "formatted_question": "What kind of fish is swimming in the room?",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Rapeseed@13": {
+        "prompt": "What type of metal is used for the ceiling light fixture?",
+        "response": "copper",
+        "question_type": "open_ended",
+        "timestamp": "2025-10-08T14:59:00.897408",
+        "formatted_question": "What type of metal is used for the ceiling light fixture?",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Rapeseed@92": {
+        "prompt": "What type of mineral is the plant grown in?",
+        "response": "limestone",
+        "question_type": "open_ended",
+        "timestamp": "2025-10-08T14:59:06.679133",
+        "formatted_question": "What type of mineral is the plant grown in?",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Rapeseed@40": {
+        "prompt": "What type of chandelier is hanging from the ceiling?",
+        "response": "crystal",
+        "question_type": "open_ended",
+        "timestamp": "2025-10-08T14:59:12.465465",
+        "formatted_question": "What type of chandelier is hanging from the ceiling?",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Rapeseed@41": {
+        "prompt": "What type of animal sculpture is in the room?",
+        "response": "lion",
+        "question_type": "open_ended",
+        "timestamp": "2025-10-08T14:59:15.911518",
+        "formatted_question": "What type of animal sculpture is in the room?",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Rapeseed@113": {
+        "prompt": "What type of fabric is the sofa made of?",
+        "response": "chen",
+        "question_type": "open_ended",
+        "timestamp": "2025-10-08T14:59:21.899095",
+        "formatted_question": "What type of fabric is the sofa made of?",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Rapeseed@108": {
+        "prompt": "What is the height of the chandelier hanging in the room?",
+        "response": "ft",
+        "question_type": "open_ended",
+        "timestamp": "2025-10-08T14:59:28.243592",
+        "formatted_question": "What is the height of the chandelier hanging in the room?",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Rice@77": {
+        "prompt": "What shape is the rug in the room?",
+        "response": "",
+        "question_type": "open_ended",
+        "timestamp": "2025-10-08T14:59:33.957208",
+        "formatted_question": "What shape is the rug in the room?",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Rice@1": {
+        "prompt": "What is the weight of the chandelier hanging from the ceiling?",
+        "response": "0",
+        "question_type": "open_ended",
+        "timestamp": "2025-10-08T14:59:41.263385",
+        "formatted_question": "What is the weight of the chandelier hanging from the ceiling?",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Rice@62": {
+        "prompt": "What type of aquatic creature is swimming nearby?",
+        "response": "frog",
+        "question_type": "open_ended",
+        "timestamp": "2025-10-08T14:59:46.749635",
+        "formatted_question": "What type of aquatic creature is swimming nearby?",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Rice@3": {
+        "prompt": "What type of chair is in the room?",
+        "response": "arm chair arm",
+        "question_type": "open_ended",
+        "timestamp": "2025-10-08T14:59:53.240885",
+        "formatted_question": "What type of chair is in the room?",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Rice@20": {
+        "prompt": "What type of furniture is in the room?",
+        "response": "sofa",
+        "question_type": "open_ended",
+        "timestamp": "2025-10-08T14:59:58.883526",
+        "formatted_question": "What type of furniture is in the room?",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Rice@74": {
+        "prompt": "What type of artwork is hanging on the wall?",
+        "response": "painting",
+        "question_type": "open_ended",
+        "timestamp": "2025-10-08T15:00:05.187265",
+        "formatted_question": "What type of artwork is hanging on the wall?",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Rice@19": {
+        "prompt": "What type of fruit is displayed on the kitchen counter?",
+        "response": "grapes",
+        "question_type": "open_ended",
+        "timestamp": "2025-10-08T15:00:09.691857",
+        "formatted_question": "What type of fruit is displayed on the kitchen counter?",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Rice@26": {
+        "prompt": "What type of animal is sleeping on the floor?",
+        "response": "cat",
+        "question_type": "open_ended",
+        "timestamp": "2025-10-08T15:00:14.456359",
+        "formatted_question": "What type of animal is sleeping on the floor?",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Rice@13": {
+        "prompt": "What is the height of the ceiling in the room?",
+        "response": "",
+        "question_type": "open_ended",
+        "timestamp": "2025-10-08T15:00:19.858249",
+        "formatted_question": "What is the height of the ceiling in the room?",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Rice@7": {
+        "prompt": "What type of artwork is hanging on the wall?",
+        "response": "painting",
+        "question_type": "open_ended",
+        "timestamp": "2025-10-08T14:56:35.520640",
+        "formatted_question": "What type of artwork is hanging on the wall?",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Rice@46": {
+        "prompt": "What shape is the chandelier hanging from the ceiling?",
+        "response": "o",
+        "question_type": "open_ended",
+        "timestamp": "2025-10-08T14:56:39.956071",
+        "formatted_question": "What shape is the chandelier hanging from the ceiling?",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Rice@52": {
+        "prompt": "What type of sculpture is displayed next to the plant?",
+        "response": "terra",
+        "question_type": "open_ended",
+        "timestamp": "2025-10-08T14:56:43.559856",
+        "formatted_question": "What type of sculpture is displayed next to the plant?",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Rice@41": {
+        "prompt": "What is the height of the chandelier hanging from the ceiling?",
+        "response": "0",
+        "question_type": "open_ended",
+        "timestamp": "2025-10-08T14:56:47.179888",
+        "formatted_question": "What is the height of the chandelier hanging from the ceiling?",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Rice@84": {
+        "prompt": "What type of fruit is hanging from the ceiling?",
+        "response": "grapes",
+        "question_type": "open_ended",
+        "timestamp": "2025-10-08T14:56:54.612404",
+        "formatted_question": "What type of fruit is hanging from the ceiling?",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Rice@6": {
+        "prompt": "What type of sculpture is displayed beside the plant?",
+        "response": "ur",
+        "question_type": "open_ended",
+        "timestamp": "2025-10-08T14:56:58.806140",
+        "formatted_question": "What type of sculpture is displayed beside the plant?",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Rice@59": {
+        "prompt": "What type of fruit is arranged on the kitchen counter?",
+        "response": "grapes",
+        "question_type": "open_ended",
+        "timestamp": "2025-10-08T14:57:03.237455",
+        "formatted_question": "What type of fruit is arranged on the kitchen counter?",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Rice@4": {
+        "prompt": "What type of furniture is used for seating in the room?",
+        "response": "sofa",
+        "question_type": "open_ended",
+        "timestamp": "2025-10-08T14:57:06.731163",
+        "formatted_question": "What type of furniture is used for seating in the room?",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Rice@8": {
+        "prompt": "What type of crystal chandelier is hanging in the ceiling?",
+        "response": "swag",
+        "question_type": "open_ended",
+        "timestamp": "2025-10-08T14:57:10.513722",
+        "formatted_question": "What type of crystal chandelier is hanging in the ceiling?",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Rice@48": {
+        "prompt": "What type of animal is sleeping in the corner?",
+        "response": "cat",
+        "question_type": "open_ended",
+        "timestamp": "2025-10-08T14:57:13.250442",
+        "formatted_question": "What type of animal is sleeping in the corner?",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Rice@54": {
+        "prompt": "What is the size of the chandelier hanging from the ceiling?",
+        "response": "a few inches",
+        "question_type": "open_ended",
+        "timestamp": "2025-10-08T14:57:17.078223",
+        "formatted_question": "What is the size of the chandelier hanging from the ceiling?",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Rice@2": {
+        "prompt": "What type of rock is used in the construction of the walls?",
+        "response": "limestone limestone",
+        "question_type": "open_ended",
+        "timestamp": "2025-10-08T14:57:19.675402",
+        "formatted_question": "What type of rock is used in the construction of the walls?",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Rice@37": {
+        "prompt": "What type of fruit is hanging from the ceiling?",
+        "response": "grapes",
+        "question_type": "open_ended",
+        "timestamp": "2025-10-08T14:57:23.140880",
+        "formatted_question": "What type of fruit is hanging from the ceiling?",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Rice@45": {
+        "prompt": "What type of artwork is hanging on the wall?",
+        "response": "painting",
+        "question_type": "open_ended",
+        "timestamp": "2025-10-08T14:57:27.683387",
+        "formatted_question": "What type of artwork is hanging on the wall?",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Rice@35": {
+        "prompt": "What type of fruit is hanging from the tree outside the building?",
+        "response": "grape",
+        "question_type": "open_ended",
+        "timestamp": "2025-10-08T14:57:32.027222",
+        "formatted_question": "What type of fruit is hanging from the tree outside the building?",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Rice@18": {
+        "prompt": "What type of service bell is on the table?",
+        "response": "horn",
+        "question_type": "open_ended",
+        "timestamp": "2025-10-08T14:57:35.147355",
+        "formatted_question": "What type of service bell is on the table?",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Rice@72": {
+        "prompt": "What shape is the chandelier hanging from the ceiling?",
+        "response": "o",
+        "question_type": "open_ended",
+        "timestamp": "2025-10-08T14:57:39.188747",
+        "formatted_question": "What shape is the chandelier hanging from the ceiling?",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Tomato@8-22_20-28": {
+        "prompt": "What is the size of the rock located at the base of the branch?",
+        "response": "",
+        "question_type": "open_ended",
+        "timestamp": "2025-10-08T14:57:43.381877",
+        "formatted_question": "What is the size of the rock located at the base of the branch?",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Tomato@10-5_1-1": {
+        "prompt": "What type of fish is swimming in the room?",
+        "response": "te",
+        "question_type": "open_ended",
+        "timestamp": "2025-10-08T14:57:48.094769",
+        "formatted_question": "What type of fish is swimming in the room?",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Tomato@8-13_20-28": {
+        "prompt": "What shape is the rug in the room?",
+        "response": "",
+        "question_type": "open_ended",
+        "timestamp": "2025-10-08T14:57:52.037784",
+        "formatted_question": "What shape is the rug in the room?",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Tomato@8-22_30-4": {
+        "prompt": "What texture does the rug have?",
+        "response": "it is soft",
+        "question_type": "open_ended",
+        "timestamp": "2025-10-08T14:57:58.165905",
+        "formatted_question": "What texture does the rug have?",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Tomato@8-13_1-55": {
+        "prompt": "What is the size of the marble coffee table?",
+        "response": "96",
+        "question_type": "open_ended",
+        "timestamp": "2025-10-08T14:58:03.968374",
+        "formatted_question": "What is the size of the marble coffee table?",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Tomato@8-22_10-3": {
+        "prompt": "What type of flower is blooming at the base of the tree?",
+        "response": "lilac",
+        "question_type": "open_ended",
+        "timestamp": "2025-10-08T14:58:06.617382",
+        "formatted_question": "What type of flower is blooming at the base of the tree?",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Tomato@11-2_35-22": {
+        "prompt": "What type of vase is placed next to the plant?",
+        "response": "flower vase",
+        "question_type": "open_ended",
+        "timestamp": "2025-10-08T14:58:09.322505",
+        "formatted_question": "What type of vase is placed next to the plant?",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Tomato@8-31_10-3": {
+        "prompt": "What type of furniture is situated under the tree?",
+        "response": "wick",
+        "question_type": "open_ended",
+        "timestamp": "2025-10-08T14:58:12.390597",
+        "formatted_question": "What type of furniture is situated under the tree?",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Tomato@10-5_30-52": {
+        "prompt": "What type of wildflower is growing in the corner?",
+        "response": "lup",
+        "question_type": "open_ended",
+        "timestamp": "2025-10-08T14:58:16.041010",
+        "formatted_question": "What type of wildflower is growing in the corner?",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Tomato@8-10_10-53": {
+        "prompt": "What type of flower is displayed in a vase on the table?",
+        "response": "li",
+        "question_type": "open_ended",
+        "timestamp": "2025-10-08T14:58:19.195691",
+        "formatted_question": "What type of flower is displayed in a vase on the table?",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Tomato@8-28_30-52": {
+        "prompt": "What type of fabric is used for the curtains?",
+        "response": "lace",
+        "question_type": "open_ended",
+        "timestamp": "2025-10-08T14:58:23.084835",
+        "formatted_question": "What type of fabric is used for the curtains?",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Tomato@8-22_35-22": {
+        "prompt": "What type of rock is embedded in the ground near the tree?",
+        "response": "sandstone",
+        "question_type": "open_ended",
+        "timestamp": "2025-10-08T14:58:27.241277",
+        "formatted_question": "What type of rock is embedded in the ground near the tree?",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Tomato@9-3_2-1": {
+        "prompt": "What type of stone is used in the sculptures in the room?",
+        "response": "limestone",
+        "question_type": "open_ended",
+        "timestamp": "2025-10-08T14:58:31.515522",
+        "formatted_question": "What type of stone is used in the sculptures in the room?",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Tomato@8-25_1-55": {
+        "prompt": "What type of flower is planted nearby?",
+        "response": "lilac",
+        "question_type": "open_ended",
+        "timestamp": "2025-10-08T14:58:35.762693",
+        "formatted_question": "What type of flower is planted nearby?",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Tomato@9-3_20-28": {
+        "prompt": "What type of fruit is hanging from the ceiling?",
+        "response": "grapes",
+        "question_type": "open_ended",
+        "timestamp": "2025-10-08T14:58:40.974622",
+        "formatted_question": "What type of fruit is hanging from the ceiling?",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Tomato@8-28_10-53": {
+        "prompt": "What type of flower arrangement is placed on the ground?",
+        "response": "ur",
+        "question_type": "open_ended",
+        "timestamp": "2025-10-08T14:58:44.794272",
+        "formatted_question": "What type of flower arrangement is placed on the ground?",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Tomato@9-6_1-55": {
+        "prompt": "What type of flower pot is located next to the tree?",
+        "response": "terra",
+        "question_type": "open_ended",
+        "timestamp": "2025-10-08T14:58:48.849973",
+        "formatted_question": "What type of flower pot is located next to the tree?",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Tomato@9-3_10-3": {
+        "prompt": "What type of flower is blooming in the scene?",
+        "response": "l",
+        "question_type": "open_ended",
+        "timestamp": "2025-10-08T14:58:53.215578",
+        "formatted_question": "What type of flower is blooming in the scene?",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Tomato@8-31_20-28": {
+        "prompt": "What color is the stone fountain situated near the tree?",
+        "response": "",
+        "question_type": "open_ended",
+        "timestamp": "2025-10-08T14:58:57.765134",
+        "formatted_question": "What color is the stone fountain situated near the tree?",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Tomato@8-25_30-52": {
+        "prompt": "What type of fruit does the tree bear?",
+        "response": "dru",
+        "question_type": "open_ended",
+        "timestamp": "2025-10-08T14:59:00.691152",
+        "formatted_question": "What type of fruit does the tree bear?",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Tomato@11-2_30-4": {
+        "prompt": "What shape is the bowl that holds oranges?",
+        "response": "o",
+        "question_type": "open_ended",
+        "timestamp": "2025-10-08T14:59:04.539955",
+        "formatted_question": "What shape is the bowl that holds oranges?",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Tomato@9-14_10-3": {
+        "prompt": "What type of fruit does the tree produce?",
+        "response": "dru",
+        "question_type": "open_ended",
+        "timestamp": "2025-10-08T14:59:06.937452",
+        "formatted_question": "What type of fruit does the tree produce?",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Tomato@11-2_1-1": {
+        "prompt": "What shape is the coffee table?",
+        "response": "o",
+        "question_type": "open_ended",
+        "timestamp": "2025-10-08T14:59:10.911680",
+        "formatted_question": "What shape is the coffee table?",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Tomato@8-28_20-28": {
+        "prompt": "What type of fruit does the table hold?",
+        "response": "grape",
+        "question_type": "open_ended",
+        "timestamp": "2025-10-08T14:59:14.376266",
+        "formatted_question": "What type of fruit does the table hold?",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Tomato@8-25_1-1": {
+        "prompt": "What type of metal is used in the chandelier?",
+        "response": "copper",
+        "question_type": "open_ended",
+        "timestamp": "2025-10-08T14:59:21.307376",
+        "formatted_question": "What type of metal is used in the chandelier?",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Wheat@79": {
+        "prompt": "What type of fruit does the shrub produce?",
+        "response": "berries",
+        "question_type": "open_ended",
+        "timestamp": "2025-10-08T14:59:24.863055",
+        "formatted_question": "What type of fruit does the shrub produce?",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Wheat@145": {
+        "prompt": "What material is the rug made of?",
+        "response": "wool the most common",
+        "question_type": "open_ended",
+        "timestamp": "2025-10-08T14:59:29.365332",
+        "formatted_question": "What material is the rug made of?",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Wheat@91": {
+        "prompt": "What type of flower is situated on top of the potted plant?",
+        "response": "li",
+        "question_type": "open_ended",
+        "timestamp": "2025-10-08T14:59:33.117638",
+        "formatted_question": "What type of flower is situated on top of the potted plant?",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Wheat@116": {
+        "prompt": "What type of metal is the lamp made of?",
+        "response": "copper",
+        "question_type": "open_ended",
+        "timestamp": "2025-10-08T14:55:51.556474",
+        "formatted_question": "What type of metal is the lamp made of?",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Wheat@6": {
+        "prompt": "What type of sculpture is placed next to the plant?",
+        "response": "terra",
+        "question_type": "open_ended",
+        "timestamp": "2025-10-08T14:55:56.579802",
+        "formatted_question": "What type of sculpture is placed next to the plant?",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Wheat@11": {
+        "prompt": "What type of fruit is hanging from the ceiling?",
+        "response": "grapes",
+        "question_type": "open_ended",
+        "timestamp": "2025-10-08T14:55:59.827675",
+        "formatted_question": "What type of fruit is hanging from the ceiling?",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Wheat@34": {
+        "prompt": "What is the height of the ceiling in the room?",
+        "response": "",
+        "question_type": "open_ended",
+        "timestamp": "2025-10-08T14:56:03.268346",
+        "formatted_question": "What is the height of the ceiling in the room?",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Wheat@127": {
+        "prompt": "What material is the coffee table made of?",
+        "response": "wood",
+        "question_type": "open_ended",
+        "timestamp": "2025-10-08T14:56:09.024619",
+        "formatted_question": "What material is the coffee table made of?",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Wheat@39": {
+        "prompt": "What type of sculpture is located beside the plant?",
+        "response": "ur",
+        "question_type": "open_ended",
+        "timestamp": "2025-10-08T14:56:13.733356",
+        "formatted_question": "What type of sculpture is located beside the plant?",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Wheat@107": {
+        "prompt": "What type of sculpture is located on the ceiling?",
+        "response": "acro",
+        "question_type": "open_ended",
+        "timestamp": "2025-10-08T14:56:18.089937",
+        "formatted_question": "What type of sculpture is located on the ceiling?",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Wheat@122": {
+        "prompt": "What type of furniture is in the scene?",
+        "response": "sofa",
+        "question_type": "open_ended",
+        "timestamp": "2025-10-08T14:56:24.074892",
+        "formatted_question": "What type of furniture is in the scene?",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Wheat@52": {
+        "prompt": "What type of sculpture is displayed on the ceiling?",
+        "response": "scup",
+        "question_type": "open_ended",
+        "timestamp": "2025-10-08T14:56:28.306988",
+        "formatted_question": "What type of sculpture is displayed on the ceiling?",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Wheat@96": {
+        "prompt": "What type of fruit is hanging from the ceiling?",
+        "response": "grape",
+        "question_type": "open_ended",
+        "timestamp": "2025-10-08T14:56:32.017656",
+        "formatted_question": "What type of fruit is hanging from the ceiling?",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Wheat@26": {
+        "prompt": "What type of crystal chandelier hangs from the ceiling?",
+        "response": "crystal chandelier",
+        "question_type": "open_ended",
+        "timestamp": "2025-10-08T14:56:35.260632",
+        "formatted_question": "What type of crystal chandelier hangs from the ceiling?",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Wheat@88": {
+        "prompt": "What type of fabric is used for the curtains?",
+        "response": "lace",
+        "question_type": "open_ended",
+        "timestamp": "2025-10-08T14:56:39.136665",
+        "formatted_question": "What type of fabric is used for the curtains?",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Wheat@25": {
+        "prompt": "What type of large furniture piece is located against the wall?",
+        "response": "bookcase",
+        "question_type": "open_ended",
+        "timestamp": "2025-10-08T14:56:43.872740",
+        "formatted_question": "What type of large furniture piece is located against the wall?",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Wheat@115": {
+        "prompt": "What type of stone is the fountain made of?",
+        "response": "limestone",
+        "question_type": "open_ended",
+        "timestamp": "2025-10-08T14:56:48.248401",
+        "formatted_question": "What type of stone is the fountain made of?",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Wheat@28": {
+        "prompt": "What type of flower is located on the windowsill?",
+        "response": "tul or",
+        "question_type": "open_ended",
+        "timestamp": "2025-10-08T14:56:52.084643",
+        "formatted_question": "What type of flower is located on the windowsill?",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Wheat@78": {
+        "prompt": "What type of fish is swimming in the room?",
+        "response": "tetra",
+        "question_type": "open_ended",
+        "timestamp": "2025-10-08T14:56:55.245673",
+        "formatted_question": "What type of fish is swimming in the room?",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Wheat@126": {
+        "prompt": "What type of flower is blooming in the scene?",
+        "response": "l",
+        "question_type": "open_ended",
+        "timestamp": "2025-10-08T14:56:57.914735",
+        "formatted_question": "What type of flower is blooming in the scene?",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Wheat@125": {
+        "prompt": "What type of painting is hanging on the wall?",
+        "response": "a portrait",
+        "question_type": "open_ended",
+        "timestamp": "2025-10-08T14:57:01.659269",
+        "formatted_question": "What type of painting is hanging on the wall?",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Wheat@60": {
+        "prompt": "What type of animal is sleeping on the floor?",
+        "response": "cat",
+        "question_type": "open_ended",
+        "timestamp": "2025-10-08T14:57:06.228224",
+        "formatted_question": "What type of animal is sleeping on the floor?",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Wheat@131": {
+        "prompt": "What type of furniture is located beside the green plant?",
+        "response": "table",
+        "question_type": "open_ended",
+        "timestamp": "2025-10-08T14:57:10.106432",
+        "formatted_question": "What type of furniture is located beside the green plant?",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Wheat@72": {
+        "prompt": "What type of rock is in the scene?",
+        "response": "sandstone",
+        "question_type": "open_ended",
+        "timestamp": "2025-10-08T14:57:12.969609",
+        "formatted_question": "What type of rock is in the scene?",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Wheat@149": {
+        "prompt": "What type of flower is located on the opposite side of the room?",
+        "response": "tul",
+        "question_type": "open_ended",
+        "timestamp": "2025-10-08T14:57:16.495089",
+        "formatted_question": "What type of flower is located on the opposite side of the room?",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Wheat@119": {
+        "prompt": "What type of sculpture is displayed on the shelf?",
+        "response": "figurine a statue",
+        "question_type": "open_ended",
+        "timestamp": "2025-10-08T14:57:20.667142",
+        "formatted_question": "What type of sculpture is displayed on the shelf?",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Wheat@21": {
+        "prompt": "What type of animal is resting on the floor?",
+        "response": "gir",
+        "question_type": "open_ended",
+        "timestamp": "2025-10-08T14:57:25.890123",
+        "formatted_question": "What type of animal is resting on the floor?",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Wheat@84": {
+        "prompt": "What shape is the coffee table?",
+        "response": "o",
+        "question_type": "open_ended",
+        "timestamp": "2025-10-08T14:57:29.716148",
+        "formatted_question": "What shape is the coffee table?",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Wheat@4": {
+        "prompt": "What type of fountain is located nearby?",
+        "response": "wishing",
+        "question_type": "open_ended",
+        "timestamp": "2025-10-08T14:57:35.334878",
+        "formatted_question": "What type of fountain is located nearby?",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Wheat@109": {
+        "prompt": "What type of flower is displayed in a vase?",
+        "response": "tul",
+        "question_type": "open_ended",
+        "timestamp": "2025-10-08T14:57:40.484352",
+        "formatted_question": "What type of flower is displayed in a vase?",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Wheat@89": {
+        "prompt": "What is the texture of the carpet on the floor?",
+        "response": "tufted",
+        "question_type": "open_ended",
+        "timestamp": "2025-10-08T14:57:44.797622",
+        "formatted_question": "What is the texture of the carpet on the floor?",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Wheat@14": {
+        "prompt": "What type of fruit is placed on the table?",
+        "response": "grape",
+        "question_type": "open_ended",
+        "timestamp": "2025-10-08T14:57:48.497455",
+        "formatted_question": "What type of fruit is placed on the table?",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Wheat@73": {
+        "prompt": "What type of furniture is in the scene?",
+        "response": "sofa",
+        "question_type": "open_ended",
+        "timestamp": "2025-10-08T14:57:52.564988",
+        "formatted_question": "What type of furniture is in the scene?",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Wheat@123": {
+        "prompt": "What type of sculpture is placed on the floor?",
+        "response": "terra",
+        "question_type": "open_ended",
+        "timestamp": "2025-10-08T14:57:55.743596",
+        "formatted_question": "What type of sculpture is placed on the floor?",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Wheat@102": {
+        "prompt": "What type of furniture is used for seating in the room?",
+        "response": "sofa",
+        "question_type": "open_ended",
+        "timestamp": "2025-10-08T14:57:58.646039",
+        "formatted_question": "What type of furniture is used for seating in the room?",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Wheat@80": {
+        "prompt": "What type of metal is used in the construction of the garden bench?",
+        "response": "wrought iron",
+        "question_type": "open_ended",
+        "timestamp": "2025-10-08T14:58:03.840139",
+        "formatted_question": "What type of metal is used in the construction of the garden bench?",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Wheat@87": {
+        "prompt": "What shape is the coffee table?",
+        "response": "o",
+        "question_type": "open_ended",
+        "timestamp": "2025-10-08T14:58:06.538302",
+        "formatted_question": "What shape is the coffee table?",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Wheat@98": {
+        "prompt": "What type of animal is resting on the floor?",
+        "response": "gir",
+        "question_type": "open_ended",
+        "timestamp": "2025-10-08T14:58:11.040615",
+        "formatted_question": "What type of animal is resting on the floor?",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Wheat@137": {
+        "prompt": "What type of animal is resting on the floor?",
+        "response": "gir",
+        "question_type": "open_ended",
+        "timestamp": "2025-10-08T14:58:14.694342",
+        "formatted_question": "What type of animal is resting on the floor?",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Wheat@113": {
+        "prompt": "What type of fruit hangs from the nearby tree?",
+        "response": "pom",
+        "question_type": "open_ended",
+        "timestamp": "2025-10-08T14:58:19.556088",
+        "formatted_question": "What type of fruit hangs from the nearby tree?",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Wheat@108": {
+        "prompt": "What materials were used to create the sculpture?",
+        "response": "marble",
+        "question_type": "open_ended",
+        "timestamp": "2025-10-08T14:58:23.704961",
+        "formatted_question": "What materials were used to create the sculpture?",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Wheat@7": {
+        "prompt": "What type of fish is swimming in the water nearby?",
+        "response": "sard",
+        "question_type": "open_ended",
+        "timestamp": "2025-10-08T14:58:26.589315",
+        "formatted_question": "What type of fish is swimming in the water nearby?",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Wheat@42": {
+        "prompt": "What type of fabric is the couch made of?",
+        "response": "a fabric that is soft it",
+        "question_type": "open_ended",
+        "timestamp": "2025-10-08T14:58:30.694123",
+        "formatted_question": "What type of fabric is the couch made of?",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Wheat@92": {
+        "prompt": "What type of fruit is hanging from the ceiling?",
+        "response": "grapes",
+        "question_type": "open_ended",
+        "timestamp": "2025-10-08T14:58:33.168521",
+        "formatted_question": "What type of fruit is hanging from the ceiling?",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Wheat@15": {
+        "prompt": "What type of fabric is the sofa made of?",
+        "response": "chen",
+        "question_type": "open_ended",
+        "timestamp": "2025-10-08T14:58:36.229935",
+        "formatted_question": "What type of fabric is the sofa made of?",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Cabbage@sl_1026_10": {
+        "prompt": "What type of fabric is used to cover the sofa?",
+        "response": "a fabric that is used upholstery a fabric",
+        "question_type": "open_ended",
+        "timestamp": "2025-10-08T14:56:30.175763",
+        "formatted_question": "What type of fabric is used to cover the sofa?",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Cabbage@sl_901_10": {
+        "prompt": "What type of fruit is hanging from a tree in the scene?",
+        "response": "grape",
+        "question_type": "open_ended",
+        "timestamp": "2025-10-08T14:56:38.196040",
+        "formatted_question": "What type of fruit is hanging from a tree in the scene?",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Cabbage@mvs_1012_12": {
+        "prompt": "What type of fabric is the curtain made of?",
+        "response": "acetate polyester",
+        "question_type": "open_ended",
+        "timestamp": "2025-10-08T14:56:44.663228",
+        "formatted_question": "What type of fabric is the curtain made of?",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Cabbage@mvs_1109_02": {
+        "prompt": "What type of metal is used in the light fixture?",
+        "response": "copper",
+        "question_type": "open_ended",
+        "timestamp": "2025-10-08T14:56:51.624350",
+        "formatted_question": "What type of metal is used in the light fixture?",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Cabbage@sl_901_04": {
+        "prompt": "What type of metal is used in the unpainted staircase nearby?",
+        "response": "wrought",
+        "question_type": "open_ended",
+        "timestamp": "2025-10-08T14:56:57.966121",
+        "formatted_question": "What type of metal is used in the unpainted staircase nearby?",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Cabbage@mvs_1116_01": {
+        "prompt": "What is the size of the chandelier hanging from the ceiling?",
+        "response": "a few inches",
+        "question_type": "open_ended",
+        "timestamp": "2025-10-08T14:57:05.478649",
+        "formatted_question": "What is the size of the chandelier hanging from the ceiling?",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Cabbage@mvs_901_08": {
+        "prompt": "What type of animal is resting on the windowsill?",
+        "response": "ow",
+        "question_type": "open_ended",
+        "timestamp": "2025-10-08T14:57:11.786421",
+        "formatted_question": "What type of animal is resting on the windowsill?",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Cabbage@sl_1109_06": {
+        "prompt": "What type of fish is swimming in the room?",
+        "response": "te",
+        "question_type": "open_ended",
+        "timestamp": "2025-10-08T14:57:18.324877",
+        "formatted_question": "What type of fish is swimming in the room?",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Cabbage@mvs_914_04": {
+        "prompt": "What type of fruit is hanging from the ceiling?",
+        "response": "grapes",
+        "question_type": "open_ended",
+        "timestamp": "2025-10-08T14:57:25.060230",
+        "formatted_question": "What type of fruit is hanging from the ceiling?",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Cabbage@sl_1019_13": {
+        "prompt": "What type of chandelier is hanging from the ceiling?",
+        "response": "crystal",
+        "question_type": "open_ended",
+        "timestamp": "2025-10-08T14:57:30.481406",
+        "formatted_question": "What type of chandelier is hanging from the ceiling?",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Cabbage@sl_1026_12": {
+        "prompt": "What type of fabric is used for the curtains?",
+        "response": "lace",
+        "question_type": "open_ended",
+        "timestamp": "2025-10-08T14:57:36.590354",
+        "formatted_question": "What type of fabric is used for the curtains?",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Cabbage@mvs_1103_03": {
+        "prompt": "What type of glass sculpture is displayed on the shelf?",
+        "response": "blown glass",
+        "question_type": "open_ended",
+        "timestamp": "2025-10-08T14:57:42.563202",
+        "formatted_question": "What type of glass sculpture is displayed on the shelf?",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Cabbage@sl_1103_13": {
+        "prompt": "What type of fabric is used for the curtains?",
+        "response": "lace",
+        "question_type": "open_ended",
+        "timestamp": "2025-10-08T14:57:48.117575",
+        "formatted_question": "What type of fabric is used for the curtains?",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Cabbage@sl_907_05": {
+        "prompt": "What type of animal is resting under the table?",
+        "response": "cat",
+        "question_type": "open_ended",
+        "timestamp": "2025-10-08T14:57:53.998193",
+        "formatted_question": "What type of animal is resting under the table?",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Cotton@116": {
+        "prompt": "What type of metal is used in the construction of the nearby chair?",
+        "response": "wrought",
+        "question_type": "open_ended",
+        "timestamp": "2025-10-08T14:58:01.425356",
+        "formatted_question": "What type of metal is used in the construction of the nearby chair?",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Cotton@14": {
+        "prompt": "What is the material of the large metal sculpture positioned against the wall?",
+        "response": "bronze",
+        "question_type": "open_ended",
+        "timestamp": "2025-10-08T14:58:09.466307",
+        "formatted_question": "What is the material of the large metal sculpture positioned against the wall?",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Cotton@62": {
+        "prompt": "What kind of tropical fish is swimming nearby?",
+        "response": "te",
+        "question_type": "open_ended",
+        "timestamp": "2025-10-08T14:58:17.265884",
+        "formatted_question": "What kind of tropical fish is swimming nearby?",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Cotton@126": {
+        "prompt": "What kind of mineral is embedded in the soil beneath the sapling?",
+        "response": "sand",
+        "question_type": "open_ended",
+        "timestamp": "2025-10-08T14:58:24.150117",
+        "formatted_question": "What kind of mineral is embedded in the soil beneath the sapling?",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Cotton@16": {
+        "prompt": "What type of fruit is growing on the tree?",
+        "response": "apricot",
+        "question_type": "open_ended",
+        "timestamp": "2025-10-08T14:58:31.700321",
+        "formatted_question": "What type of fruit is growing on the tree?",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Cotton@113": {
+        "prompt": "What type of fruit is hanging from the branch?",
+        "response": "grape",
+        "question_type": "open_ended",
+        "timestamp": "2025-10-08T14:58:37.729268",
+        "formatted_question": "What type of fruit is hanging from the branch?",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Cotton@27": {
+        "prompt": "What shape is the chandelier hanging from the ceiling?",
+        "response": "o",
+        "question_type": "open_ended",
+        "timestamp": "2025-10-08T14:58:44.042252",
+        "formatted_question": "What shape is the chandelier hanging from the ceiling?",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Cotton@92": {
+        "prompt": "What is the shape of the large rock adjacent to the branch?",
+        "response": "oblong",
+        "question_type": "open_ended",
+        "timestamp": "2025-10-08T14:58:52.305517",
+        "formatted_question": "What is the shape of the large rock adjacent to the branch?",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Cotton@198": {
+        "prompt": "What type of furniture is used for seating in the scene?",
+        "response": "sofa",
+        "question_type": "open_ended",
+        "timestamp": "2025-10-08T14:58:59.947289",
+        "formatted_question": "What type of furniture is used for seating in the scene?",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Cotton@63": {
+        "prompt": "What type of rock is used to create the sculpture in the scene?",
+        "response": "limestoneite",
+        "question_type": "open_ended",
+        "timestamp": "2025-10-08T14:59:06.236950",
+        "formatted_question": "What type of rock is used to create the sculpture in the scene?",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Cotton@120": {
+        "prompt": "What type of stone is used in the doorway?",
+        "response": "limestone",
+        "question_type": "open_ended",
+        "timestamp": "2025-10-08T14:59:12.620656",
+        "formatted_question": "What type of stone is used in the doorway?",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Cotton@81": {
+        "prompt": "What type of fruit does the branch produce?",
+        "response": "fig",
+        "question_type": "open_ended",
+        "timestamp": "2025-10-08T14:59:20.049784",
+        "formatted_question": "What type of fruit does the branch produce?",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Cotton@136": {
+        "prompt": "What type of metal is used in the construction of the nearby sculpture?",
+        "response": "bronze",
+        "question_type": "open_ended",
+        "timestamp": "2025-10-08T14:59:27.139140",
+        "formatted_question": "What type of metal is used in the construction of the nearby sculpture?",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Cotton@26": {
+        "prompt": "What texture does the carpet have?",
+        "response": "It tufted",
+        "question_type": "open_ended",
+        "timestamp": "2025-10-08T14:59:33.078367",
+        "formatted_question": "What texture does the carpet have?",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Cotton@112": {
+        "prompt": "What type of metal is used in the chair?",
+        "response": "wrought iron",
+        "question_type": "open_ended",
+        "timestamp": "2025-10-08T14:59:41.341802",
+        "formatted_question": "What type of metal is used in the chair?",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Cotton@2": {
+        "prompt": "What is the size of the dining table?",
+        "response": "",
+        "question_type": "open_ended",
+        "timestamp": "2025-10-08T14:59:48.892895",
+        "formatted_question": "What is the size of the dining table?",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Cotton@21": {
+        "prompt": "What flavor is the ice cream served in the scene?",
+        "response": "vanilla",
+        "question_type": "open_ended",
+        "timestamp": "2025-10-08T14:59:55.639808",
+        "formatted_question": "What flavor is the ice cream served in the scene?",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Cotton@173": {
+        "prompt": "What color is the chair next to the table?",
+        "response": "blue",
+        "question_type": "open_ended",
+        "timestamp": "2025-10-08T15:00:03.440171",
+        "formatted_question": "What color is the chair next to the table?",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Cotton@107": {
+        "prompt": "What type of fruit does the tree produce?",
+        "response": "dru",
+        "question_type": "open_ended",
+        "timestamp": "2025-10-08T15:00:11.271665",
+        "formatted_question": "What type of fruit does the tree produce?",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Cotton@22": {
+        "prompt": "What type of fruit is being displayed on the table?",
+        "response": "pineapple",
+        "question_type": "open_ended",
+        "timestamp": "2025-10-08T15:00:17.525624",
+        "formatted_question": "What type of fruit is being displayed on the table?",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Cotton@115": {
+        "prompt": "What type of fruit is hanging from the branches?",
+        "response": "grape grapefruit grapefruit",
+        "question_type": "open_ended",
+        "timestamp": "2025-10-08T15:00:23.554424",
+        "formatted_question": "What type of fruit is hanging from the branches?",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Cotton@159": {
+        "prompt": "What type of metal is the sculpture made of?",
+        "response": "bronze",
+        "question_type": "open_ended",
+        "timestamp": "2025-10-08T15:00:31.337384",
+        "formatted_question": "What type of metal is the sculpture made of?",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Cotton@153": {
+        "prompt": "What type of fruit is hanging from the ceiling?",
+        "response": "grapes",
+        "question_type": "open_ended",
+        "timestamp": "2025-10-08T15:00:37.039650",
+        "formatted_question": "What type of fruit is hanging from the ceiling?",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Cotton@88": {
+        "prompt": "What size is the crystal chandelier hanging from the ceiling?",
+        "response": "a chandelier",
+        "question_type": "open_ended",
+        "timestamp": "2025-10-08T15:00:45.638811",
+        "formatted_question": "What size is the crystal chandelier hanging from the ceiling?",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Cotton@9": {
+        "prompt": "What is the pattern on the vase?",
+        "response": "paisley",
+        "question_type": "open_ended",
+        "timestamp": "2025-10-08T15:00:52.220941",
+        "formatted_question": "What is the pattern on the vase?",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Cotton@72": {
+        "prompt": "Is there a large concrete sculpture nearby?",
+        "response": "",
+        "question_type": "open_ended",
+        "timestamp": "2025-10-08T15:00:59.944098",
+        "formatted_question": "Is there a large concrete sculpture nearby?",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Cotton@25": {
+        "prompt": "What type of fruit does the branch produce?",
+        "response": "fig",
+        "question_type": "open_ended",
+        "timestamp": "2025-10-08T15:01:06.418135",
+        "formatted_question": "What type of fruit does the branch produce?",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Cotton@158": {
+        "prompt": "What type of stone is the floor made of?",
+        "response": "limestone a",
+        "question_type": "open_ended",
+        "timestamp": "2025-10-08T15:01:13.609249",
+        "formatted_question": "What type of stone is the floor made of?",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Cotton@180": {
+        "prompt": "What type of fruit is growing on the tree?",
+        "response": "apricot",
+        "question_type": "open_ended",
+        "timestamp": "2025-10-08T15:01:20.331098",
+        "formatted_question": "What type of fruit is growing on the tree?",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Cotton@149": {
+        "prompt": "What color are the blossoms on the flowering plant next to it?",
+        "response": "white",
+        "question_type": "open_ended",
+        "timestamp": "2025-10-08T15:01:26.311008",
+        "formatted_question": "What color are the blossoms on the flowering plant next to it?",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Cotton@125": {
+        "prompt": "What type of fruit does the tree produce?",
+        "response": "dru",
+        "question_type": "open_ended",
+        "timestamp": "2025-10-08T15:01:34.547280",
+        "formatted_question": "What type of fruit does the tree produce?",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Cotton@51": {
+        "prompt": "What type of fruit does the tree produce?",
+        "response": "dru",
+        "question_type": "open_ended",
+        "timestamp": "2025-10-08T14:56:10.021720",
+        "formatted_question": "What type of fruit does the tree produce?",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Cotton@67": {
+        "prompt": "What type of fish is swimming in the scene?",
+        "response": "til",
+        "question_type": "open_ended",
+        "timestamp": "2025-10-08T14:56:17.413467",
+        "formatted_question": "What type of fish is swimming in the scene?",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Cotton@127": {
+        "prompt": "What type of animal is perched on the branch?",
+        "response": "ow",
+        "question_type": "open_ended",
+        "timestamp": "2025-10-08T14:56:25.378445",
+        "formatted_question": "What type of animal is perched on the branch?",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Cotton@11": {
+        "prompt": "What shape is the pendant hanging from the ceiling?",
+        "response": "o",
+        "question_type": "open_ended",
+        "timestamp": "2025-10-08T14:56:32.571841",
+        "formatted_question": "What shape is the pendant hanging from the ceiling?",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Cotton@137": {
+        "prompt": "What type of kitchen appliance is placed next to the plant?",
+        "response": "microwave",
+        "question_type": "open_ended",
+        "timestamp": "2025-10-08T14:56:42.085865",
+        "formatted_question": "What type of kitchen appliance is placed next to the plant?",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Cotton@78": {
+        "prompt": "What type of furniture is placed near the sapling?",
+        "response": "a chair",
+        "question_type": "open_ended",
+        "timestamp": "2025-10-08T14:56:47.906625",
+        "formatted_question": "What type of furniture is placed near the sapling?",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Cotton@6": {
+        "prompt": "What pattern is on the tablecloth?",
+        "response": "pai",
+        "question_type": "open_ended",
+        "timestamp": "2025-10-08T14:56:52.965219",
+        "formatted_question": "What pattern is on the tablecloth?",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Cotton@188": {
+        "prompt": "What kind of stone sculpture is placed beside the tree sapling?",
+        "response": "sphin",
+        "question_type": "open_ended",
+        "timestamp": "2025-10-08T14:56:59.630632",
+        "formatted_question": "What kind of stone sculpture is placed beside the tree sapling?",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Cotton@79": {
+        "prompt": "What type of fruit is growing on the shrub?",
+        "response": "berries,",
+        "question_type": "open_ended",
+        "timestamp": "2025-10-08T14:57:07.048793",
+        "formatted_question": "What type of fruit is growing on the shrub?",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Cotton@133": {
+        "prompt": "What type of rock formation is visible behind the sapling?",
+        "response": "sandstone",
+        "question_type": "open_ended",
+        "timestamp": "2025-10-08T14:57:15.472402",
+        "formatted_question": "What type of rock formation is visible behind the sapling?",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Cotton@197": {
+        "prompt": "What type of furniture is positioned nearby?",
+        "response": "a chair",
+        "question_type": "open_ended",
+        "timestamp": "2025-10-08T14:57:20.875713",
+        "formatted_question": "What type of furniture is positioned nearby?",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Cotton@176": {
+        "prompt": "What type of rock formation is visible nearby?",
+        "response": "sandstone",
+        "question_type": "open_ended",
+        "timestamp": "2025-10-08T14:57:27.779475",
+        "formatted_question": "What type of rock formation is visible nearby?",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Cotton@160": {
+        "prompt": "What type of fruit is on the tree?",
+        "response": "apple",
+        "question_type": "open_ended",
+        "timestamp": "2025-10-08T14:57:34.314616",
+        "formatted_question": "What type of fruit is on the tree?",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Cotton@65": {
+        "prompt": "What type of fruit does the tree produce?",
+        "response": "dru",
+        "question_type": "open_ended",
+        "timestamp": "2025-10-08T14:57:41.005117",
+        "formatted_question": "What type of fruit does the tree produce?",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Cotton@100": {
+        "prompt": "What type of fruit does the large tree in the corner produce?",
+        "response": "fig",
+        "question_type": "open_ended",
+        "timestamp": "2025-10-08T14:57:49.440560",
+        "formatted_question": "What type of fruit does the large tree in the corner produce?",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Cotton@19": {
+        "prompt": "What type of metal is used in the furniture of the room?",
+        "response": "brass",
+        "question_type": "open_ended",
+        "timestamp": "2025-10-08T14:57:56.739900",
+        "formatted_question": "What type of metal is used in the furniture of the room?",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Cotton@3": {
+        "prompt": "What kind of fruit is hanging from the branches?",
+        "response": "grape",
+        "question_type": "open_ended",
+        "timestamp": "2025-10-08T14:58:05.720571",
+        "formatted_question": "What kind of fruit is hanging from the branches?",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Cotton@75": {
+        "prompt": "What shape is the coffee table in the room?",
+        "response": "rectangular",
+        "question_type": "open_ended",
+        "timestamp": "2025-10-08T14:58:13.682889",
+        "formatted_question": "What shape is the coffee table in the room?",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Cotton@145": {
+        "prompt": "What type of furniture is in the room?",
+        "response": "sofa",
+        "question_type": "open_ended",
+        "timestamp": "2025-10-08T14:58:18.979735",
+        "formatted_question": "What type of furniture is in the room?",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Cotton@168": {
+        "prompt": "What type of fruit is hanging from the branches of a tree nearby?",
+        "response": "grapefruite",
+        "question_type": "open_ended",
+        "timestamp": "2025-10-08T14:58:24.187223",
+        "formatted_question": "What type of fruit is hanging from the branches of a tree nearby?",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Cotton@15": {
+        "prompt": "What type of fruit hangs from the branch?",
+        "response": "grapefruit",
+        "question_type": "open_ended",
+        "timestamp": "2025-10-08T14:58:31.269559",
+        "formatted_question": "What type of fruit hangs from the branch?",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Cotton@122": {
+        "prompt": "What type of fruit is hanging from the ceiling?",
+        "response": "pineapple",
+        "question_type": "open_ended",
+        "timestamp": "2025-10-08T14:58:39.575768",
+        "formatted_question": "What type of fruit is hanging from the ceiling?",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Maize@1-111": {
+        "prompt": "What is the weight of the marble sculpture located nearby?",
+        "response": "450 tons",
+        "question_type": "open_ended",
+        "timestamp": "2025-10-08T14:58:47.960234",
+        "formatted_question": "What is the weight of the marble sculpture located nearby?",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Maize@3-28": {
+        "prompt": "What type of furniture is placed above the plant?",
+        "response": "ur",
+        "question_type": "open_ended",
+        "timestamp": "2025-10-08T14:58:56.628051",
+        "formatted_question": "What type of furniture is placed above the plant?",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Maize@2-34": {
+        "prompt": "What type of artwork is hung on the wall?",
+        "response": "paintings",
+        "question_type": "open_ended",
+        "timestamp": "2025-10-08T14:59:02.689029",
+        "formatted_question": "What type of artwork is hung on the wall?",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Maize@3-49": {
+        "prompt": "What type of furniture is located next to the plant?",
+        "response": "a chair",
+        "question_type": "open_ended",
+        "timestamp": "2025-10-08T14:59:08.258958",
+        "formatted_question": "What type of furniture is located next to the plant?",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Maize@2-70": {
+        "prompt": "What type of fruit is displayed on the table?",
+        "response": "grapes",
+        "question_type": "open_ended",
+        "timestamp": "2025-10-08T14:59:15.327118",
+        "formatted_question": "What type of fruit is displayed on the table?",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Maize@3-55": {
+        "prompt": "What type of artwork is hanging on the wall?",
+        "response": "painting",
+        "question_type": "open_ended",
+        "timestamp": "2025-10-08T14:59:21.901120",
+        "formatted_question": "What type of artwork is hanging on the wall?",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Maize@3-26": {
+        "prompt": "What pattern is featured on the rug?",
+        "response": "paisley",
+        "question_type": "open_ended",
+        "timestamp": "2025-10-08T14:59:28.323904",
+        "formatted_question": "What pattern is featured on the rug?",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Maize@2-13": {
+        "prompt": "What type of heavy machinery is used for construction?",
+        "response": "earthmov",
+        "question_type": "open_ended",
+        "timestamp": "2025-10-08T14:59:35.781781",
+        "formatted_question": "What type of heavy machinery is used for construction?",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Maize@3-21": {
+        "prompt": "What is the brand of the vacuum cleaner?",
+        "response": "kenmore",
+        "question_type": "open_ended",
+        "timestamp": "2025-10-08T14:59:40.900782",
+        "formatted_question": "What is the brand of the vacuum cleaner?",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Maize@3-18": {
+        "prompt": "What type of artwork is hanging on the walls?",
+        "response": "paintings",
+        "question_type": "open_ended",
+        "timestamp": "2025-10-08T14:59:48.229598",
+        "formatted_question": "What type of artwork is hanging on the walls?",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Maize@2-109": {
+        "prompt": "What type of painting is hanging on the wall?",
+        "response": "a portrait",
+        "question_type": "open_ended",
+        "timestamp": "2025-10-08T14:59:56.052048",
+        "formatted_question": "What type of painting is hanging on the wall?",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Maize@1-118": {
+        "prompt": "Where is the large wooden chair?",
+        "response": "",
+        "question_type": "open_ended",
+        "timestamp": "2025-10-08T15:00:03.419343",
+        "formatted_question": "Where is the large wooden chair?",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Maize@3-42": {
+        "prompt": "What type of artwork is hanging on the ceiling?",
+        "response": "paintings",
+        "question_type": "open_ended",
+        "timestamp": "2025-10-08T15:00:09.956327",
+        "formatted_question": "What type of artwork is hanging on the ceiling?",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Maize@1-24": {
+        "prompt": "What type of furniture is made of metal and has wheels?",
+        "response": "trolley",
+        "question_type": "open_ended",
+        "timestamp": "2025-10-08T15:00:15.725631",
+        "formatted_question": "What type of furniture is made of metal and has wheels?",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Maize@1-51": {
+        "prompt": "What type of fruit is displayed on the table?",
+        "response": "grapes",
+        "question_type": "open_ended",
+        "timestamp": "2025-10-08T15:00:23.485956",
+        "formatted_question": "What type of fruit is displayed on the table?",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Maize@1-68": {
+        "prompt": "What type of furniture is positioned next to the sapling?",
+        "response": "a chair",
+        "question_type": "open_ended",
+        "timestamp": "2025-10-08T15:00:30.886262",
+        "formatted_question": "What type of furniture is positioned next to the sapling?",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Maize@2-101": {
+        "prompt": "What type of fabric is the couch made from?",
+        "response": "a fabric that is soft",
+        "question_type": "open_ended",
+        "timestamp": "2025-10-08T15:00:38.231176",
+        "formatted_question": "What type of fabric is the couch made from?",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Maize@3-19": {
+        "prompt": "What is the size of the large sculpture in the corner?",
+        "response": "a foot",
+        "question_type": "open_ended",
+        "timestamp": "2025-10-08T15:00:45.715858",
+        "formatted_question": "What is the size of the large sculpture in the corner?",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Maize@2-148": {
+        "prompt": "What type of fruit is hanging from the ceiling?",
+        "response": "grapes",
+        "question_type": "open_ended",
+        "timestamp": "2025-10-08T15:00:53.752127",
+        "formatted_question": "What type of fruit is hanging from the ceiling?",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Maize@2-9": {
+        "prompt": "What is the size and shape of the chandelier hanging from the ceiling?",
+        "response": "a circular shape",
+        "question_type": "open_ended",
+        "timestamp": "2025-10-08T15:00:59.472783",
+        "formatted_question": "What is the size and shape of the chandelier hanging from the ceiling?",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Maize@2-122": {
+        "prompt": "What type of fruit is on the kitchen counter?",
+        "response": "grape",
+        "question_type": "open_ended",
+        "timestamp": "2025-10-08T15:01:05.782463",
+        "formatted_question": "What type of fruit is on the kitchen counter?",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Maize@1-122": {
+        "prompt": "What type of fruit is hanging from the ceiling?",
+        "response": "grapes",
+        "question_type": "open_ended",
+        "timestamp": "2025-10-08T15:01:13.697159",
+        "formatted_question": "What type of fruit is hanging from the ceiling?",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Maize@3-10": {
+        "prompt": "What type of lighting fixture is hanging from the ceiling?",
+        "response": "chandelier",
+        "question_type": "open_ended",
+        "timestamp": "2025-10-08T15:01:20.566584",
+        "formatted_question": "What type of lighting fixture is hanging from the ceiling?",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    }
+}
