@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "fca13883-dd07-4132-92b0-ffb790a29e1e@SecondBedroom-2934",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 3",
+  "timestamp": "2025-10-30T21:34:31.548952",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/fca13883-dd07-4132-92b0-ffb790a29e1e/SecondBedroom-2934/SecondBedroom-2934.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What is the primary color of the bed in the Second bedroom?\n\nA. Black\nB. Gold\nC. Deep green\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What is the primary color of the bed in the Second bedroom?\n\nA. Black\nB. Gold\nC. Deep green\nD. None of the above",
+      "response": "D"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What is the primary color of the bed in the Second bedroom?\n\nA. Black\nB. Gold\nC. Deep green",
+      "response": "NONE"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What is the primary color of the bed in the Second bedroom?\n\nA. Jupiter\nB. Mars\nC. Saturn\nD. Neptune\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What is the primary color of the bed in the Second bedroom?\n\nA. Jupiter\nB. Mars\nC. Saturn\nD. Neptune\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What is the primary color of the bed in the Second bedroom?\n\nA. Jupiter\nB. Mars\nC. Saturn\nD. Neptune",
+      "response": "NONE"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What shape is the window in the scene?\n\nA. Round\nB. Oval\nC. Square\nD. Rectangle\nIf none of the above answers are correct, answer: 'F'",
+      "response": "D"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What shape is the window in the scene?\n\nA. Round\nB. Oval\nC. Square\nD. Rectangle\nE. None of the above",
+      "response": "D"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What shape is the window in the scene?\n\nA. Round\nB. Oval\nC. Square\nD. Rectangle",
+      "response": "D"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What type of sculpture is displayed on the sideboard?",
+      "response": "NA"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What type of sculpture is displayed on the sideboard?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What is the primary color of the bed in the Second bedroom?\n\nA. Black\nB. Deep teal\nC. Gold\nD. Deep green",
+      "response": "B"
+    }
+  ]
+}

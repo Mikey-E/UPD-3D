@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "d7daadd5-83b3-4c03-883e-2da01c76401e@Bedroom-588",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 4",
+  "timestamp": "2025-10-17T08:33:37.702356",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/d7daadd5-83b3-4c03-883e-2da01c76401e/Bedroom-588/Bedroom-588.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What color is the desk in the bedroom?\n\nA. Silver-gray\nB. White\nC. Black\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What color is the desk in the bedroom?\n\nA. Silver-gray\nB. White\nC. Black\nD. None of the above",
+      "response": "d"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What color is the desk in the bedroom?\n\nA. Silver-gray\nB. White\nC. Black",
+      "response": "none"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What color is the desk in the bedroom?\n\nA. Mountain range\nB. Ocean wave\nC. Forest path\nD. Desert landscape\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What color is the desk in the bedroom?\n\nA. Mountain range\nB. Ocean wave\nC. Forest path\nD. Desert landscape\nE. None of the above",
+      "response": "e"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What color is the desk in the bedroom?\n\nA. Mountain range\nB. Ocean wave\nC. Forest path\nD. Desert landscape",
+      "response": "none"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What type of chair is positioned in the room?\n\nA. Recliner\nB. Office chair\nC. Dining chair\nD. Lounge chair\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What type of chair is positioned in the room?\n\nA. Recliner\nB. Office chair\nC. Dining chair\nD. Lounge chair\nE. None of the above",
+      "response": "e"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What type of chair is positioned in the room?\n\nA. Recliner\nB. Office chair\nC. Dining chair\nD. Lounge chair",
+      "response": "none"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What type of outdoor sculpture is placed in the garden outside the bedroom?",
+      "response": "n/a"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What type of outdoor sculpture is placed in the garden outside the bedroom?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What color is the desk in the bedroom?\n\nA. Silver-gray\nB. White\nC. Chocolate brown\nD. Black",
+      "response": "none"
+    }
+  ]
+}

@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "e2e4ae10-9cef-4fe2-987b-4cdf0b38c289@LivingRoom-513",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 4",
+  "timestamp": "2025-10-25T13:36:03.321121",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/e2e4ae10-9cef-4fe2-987b-4cdf0b38c289/LivingRoom-513/LivingRoom-513.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What style is the light grey tv stand that is positioned in the living area?\n\nA. Mediterranean\nB. Southeast Asian\nC. Neoclassical\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What style is the light grey tv stand that is positioned in the living area?\n\nA. Mediterranean\nB. Southeast Asian\nC. Neoclassical\nD. None of the above",
+      "response": "D"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What style is the light grey tv stand that is positioned in the living area?\n\nA. Mediterranean\nB. Southeast Asian\nC. Neoclassical",
+      "response": "None"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What style is the light grey tv stand that is positioned in the living area?\n\nA. Oak tree\nB. Blue whale\nC. Mount Everest\nD. Saturn's rings\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What style is the light grey tv stand that is positioned in the living area?\n\nA. Oak tree\nB. Blue whale\nC. Mount Everest\nD. Saturn's rings\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What style is the light grey tv stand that is positioned in the living area?\n\nA. Oak tree\nB. Blue whale\nC. Mount Everest\nD. Saturn's rings",
+      "response": "None"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What type of sculpture is displayed in the living room?\n\nA. Abstract\nB. Classical\nC. Modern\nD. Figurative\nIf none of the above answers are correct, answer: 'F'",
+      "response": "B"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What type of sculpture is displayed in the living room?\n\nA. Abstract\nB. Classical\nC. Modern\nD. Figurative\nE. None of the above",
+      "response": "B"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What type of sculpture is displayed in the living room?\n\nA. Abstract\nB. Classical\nC. Modern\nD. Figurative",
+      "response": "B"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What type of exercise equipment is set up in the corner of the room?",
+      "response": "unanswerable"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What type of exercise equipment is set up in the corner of the room?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What style is the light grey tv stand that is positioned in the living area?\n\nA. Japanese\nB. Mediterranean\nC. Southeast Asian\nD. Neoclassical",
+      "response": "A"
+    }
+  ]
+}

@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "e7cc0ba0-e5d7-4b0b-9708-07e7a18a0fd8@LivingRoom-52289",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 3",
+  "timestamp": "2025-10-27T08:16:12.040398",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/e7cc0ba0-e5d7-4b0b-9708-07e7a18a0fd8/LivingRoom-52289/LivingRoom-52289.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What is the color of the loveseat sofa in the living room?\n\nA. Light brown\nB. Bright red\nC. Deep blue\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What is the color of the loveseat sofa in the living room?\n\nA. Light brown\nB. Bright red\nC. Deep blue\nD. None of the above",
+      "response": "D"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What is the color of the loveseat sofa in the living room?\n\nA. Light brown\nB. Bright red\nC. Deep blue",
+      "response": "None"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What is the color of the loveseat sofa in the living room?\n\nA. Jupiter\nB. Saturn\nC. Neptune\nD. Mars\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What is the color of the loveseat sofa in the living room?\n\nA. Jupiter\nB. Saturn\nC. Neptune\nD. Mars\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What is the color of the loveseat sofa in the living room?\n\nA. Jupiter\nB. Saturn\nC. Neptune\nD. Mars",
+      "response": "None"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What shape is the rug in the living room?\n\nA. Circle\nB. Rectangle\nC. Triangle\nD. Oval\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What shape is the rug in the living room?\n\nA. Circle\nB. Rectangle\nC. Triangle\nD. Oval\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What shape is the rug in the living room?\n\nA. Circle\nB. Rectangle\nC. Triangle\nD. Oval",
+      "response": "None"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What type of rug is under the coffee tables?",
+      "response": "N/A"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What type of rug is under the coffee tables?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What is the color of the loveseat sofa in the living room?\n\nA. Light brown\nB. Bright red\nC. Deep blue\nD. Neutral grey",
+      "response": "D"
+    }
+  ]
+}

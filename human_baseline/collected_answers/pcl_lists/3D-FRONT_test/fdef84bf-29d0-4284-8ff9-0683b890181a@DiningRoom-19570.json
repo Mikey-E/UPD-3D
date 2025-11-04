@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "fdef84bf-29d0-4284-8ff9-0683b890181a@DiningRoom-19570",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 3",
+  "timestamp": "2025-10-31T00:13:15.999266",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/fdef84bf-29d0-4284-8ff9-0683b890181a/DiningRoom-19570/DiningRoom-19570.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What color are the cushions on the dining chairs in the DiningRoom?\n\nA. Silver\nB. Light Beige\nC. Dark Grey\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What color are the cushions on the dining chairs in the DiningRoom?\n\nA. Silver\nB. Light Beige\nC. Dark Grey\nD. None of the above",
+      "response": "D"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What color are the cushions on the dining chairs in the DiningRoom?\n\nA. Silver\nB. Light Beige\nC. Dark Grey",
+      "response": "NONE"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What color are the cushions on the dining chairs in the DiningRoom?\n\nA. Apple tree\nB. Blue whale\nC. Mountain range\nD. Solar system\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What color are the cushions on the dining chairs in the DiningRoom?\n\nA. Apple tree\nB. Blue whale\nC. Mountain range\nD. Solar system\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What color are the cushions on the dining chairs in the DiningRoom?\n\nA. Apple tree\nB. Blue whale\nC. Mountain range\nD. Solar system",
+      "response": "NONE"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What type of sculpture is featured in the dining room?\n\nA. Abstract figure\nB. Classical bust\nC. Animal motif\nD. Geometric design\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What type of sculpture is featured in the dining room?\n\nA. Abstract figure\nB. Classical bust\nC. Animal motif\nD. Geometric design\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What type of sculpture is featured in the dining room?\n\nA. Abstract figure\nB. Classical bust\nC. Animal motif\nD. Geometric design",
+      "response": "NA"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What style of sofa is placed against the wall?",
+      "response": "NA"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What style of sofa is placed against the wall?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What color are the cushions on the dining chairs in the DiningRoom?\n\nA. Silver\nB. Light Beige\nC. Dark Grey\nD. Deep Green",
+      "response": "D"
+    }
+  ]
+}

@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "d2435801-b99d-439a-a2ac-8c53856e8b77@Bedroom-286",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 5",
+  "timestamp": "2025-10-15T14:25:01.963553",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/d2435801-b99d-439a-a2ac-8c53856e8b77/Bedroom-286/Bedroom-286.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What main feature dominates the center of the bedroom described?\n\nA. Pendant lamp\nB. Bonsai tree\nC. Nightstand\nIf none of the above answers are correct, answer: 'F'",
+      "response": "a"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What main feature dominates the center of the bedroom described?\n\nA. Pendant lamp\nB. Bonsai tree\nC. Nightstand\nD. None of the above",
+      "response": "a"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What main feature dominates the center of the bedroom described?\n\nA. Pendant lamp\nB. Bonsai tree\nC. Nightstand",
+      "response": "a"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What main feature dominates the center of the bedroom described?\n\nA. Guitar strings\nB. Ice cream flavors\nC. Mountain ranges\nD. Dinosaur species\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What main feature dominates the center of the bedroom described?\n\nA. Guitar strings\nB. Ice cream flavors\nC. Mountain ranges\nD. Dinosaur species\nE. None of the above",
+      "response": "e"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What main feature dominates the center of the bedroom described?\n\nA. Guitar strings\nB. Ice cream flavors\nC. Mountain ranges\nD. Dinosaur species",
+      "response": "none of these"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What type of carpet is used for the flooring in the scene?\n\nA. Persian\nB. Berber\nC. Shag\nD. Wool\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What type of carpet is used for the flooring in the scene?\n\nA. Persian\nB. Berber\nC. Shag\nD. Wool\nE. None of the above",
+      "response": "e"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What type of carpet is used for the flooring in the scene?\n\nA. Persian\nB. Berber\nC. Shag\nD. Wool",
+      "response": "none of these"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What type of swimming pool is in the room?",
+      "response": "unanswerable"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What type of swimming pool is in the room?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What main feature dominates the center of the bedroom described?\n\nA. Pendant lamp\nB. King-size bed\nC. Bonsai tree\nD. Nightstand",
+      "response": "a"
+    }
+  ]
+}

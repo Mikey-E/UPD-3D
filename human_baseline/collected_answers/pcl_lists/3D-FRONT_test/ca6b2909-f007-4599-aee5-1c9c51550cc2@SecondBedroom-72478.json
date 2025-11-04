@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "ca6b2909-f007-4599-aee5-1c9c51550cc2@SecondBedroom-72478",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 5",
+  "timestamp": "2025-10-14T11:16:00.898523",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/ca6b2909-f007-4599-aee5-1c9c51550cc2/SecondBedroom-72478/SecondBedroom-72478.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What color is the desk in the bedroom?\n\nA. Light grey\nB. Blue\nC. Yellow\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What color is the desk in the bedroom?\n\nA. Light grey\nB. Blue\nC. Yellow\nD. None of the above",
+      "response": "d"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What color is the desk in the bedroom?\n\nA. Light grey\nB. Blue\nC. Yellow",
+      "response": "none of these"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What color is the desk in the bedroom?\n\nA. Elephant\nB. Giraffe\nC. Lion\nD. Crocodile\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What color is the desk in the bedroom?\n\nA. Elephant\nB. Giraffe\nC. Lion\nD. Crocodile\nE. None of the above",
+      "response": "e"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What color is the desk in the bedroom?\n\nA. Elephant\nB. Giraffe\nC. Lion\nD. Crocodile",
+      "response": "none of these"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What type of artwork is displayed on the walls?\n\nA. Abstract paintings\nB. Portraits\nC. Landscapes\nD. Still life paintings\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What type of artwork is displayed on the walls?\n\nA. Abstract paintings\nB. Portraits\nC. Landscapes\nD. Still life paintings\nE. None of the above",
+      "response": "e"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What type of artwork is displayed on the walls?\n\nA. Abstract paintings\nB. Portraits\nC. Landscapes\nD. Still life paintings",
+      "response": "none of these"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What type of chandelier is hanging from the ceiling?",
+      "response": "unanswerable"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What type of chandelier is hanging from the ceiling?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What color is the desk in the bedroom?\n\nA. Dark brown\nB. Light grey\nC. Blue\nD. Yellow",
+      "response": "none of these"
+    }
+  ]
+}

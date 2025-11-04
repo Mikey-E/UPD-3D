@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "e75b15c9-b89c-482b-8d0c-14b1b951fd08@LivingDiningRoom-513",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 3",
+  "timestamp": "2025-10-27T08:11:17.441571",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/e75b15c9-b89c-482b-8d0c-14b1b951fd08/LivingDiningRoom-513/LivingDiningRoom-513.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What is the style of the coffee table in the living room?\n\nA. Rustic\nB. Neoclassical\nC. Minimalist\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What is the style of the coffee table in the living room?\n\nA. Rustic\nB. Neoclassical\nC. Minimalist\nD. None of the above",
+      "response": "D"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What is the style of the coffee table in the living room?\n\nA. Rustic\nB. Neoclassical\nC. Minimalist",
+      "response": "None"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What is the style of the coffee table in the living room?\n\nA. Cactus flower\nB. Maple syrup\nC. Chocolate cake\nD. Ocean wave\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What is the style of the coffee table in the living room?\n\nA. Cactus flower\nB. Maple syrup\nC. Chocolate cake\nD. Ocean wave\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What is the style of the coffee table in the living room?\n\nA. Cactus flower\nB. Maple syrup\nC. Chocolate cake\nD. Ocean wave",
+      "response": "None"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What kind of roof design complements the living area?\n\nA. Gabled roof\nB. Flat roof\nC. Hipped roof\nD. Shed roof\nIf none of the above answers are correct, answer: 'F'",
+      "response": "B"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What kind of roof design complements the living area?\n\nA. Gabled roof\nB. Flat roof\nC. Hipped roof\nD. Shed roof\nE. None of the above",
+      "response": "B"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What kind of roof design complements the living area?\n\nA. Gabled roof\nB. Flat roof\nC. Hipped roof\nD. Shed roof",
+      "response": "B"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What type of refrigerator is located in the kitchen?",
+      "response": "N/A"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What type of refrigerator is located in the kitchen?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What is the style of the coffee table in the living room?\n\nA. Mediterranean\nB. Rustic\nC. Neoclassical\nD. Minimalist",
+      "response": "A"
+    }
+  ]
+}

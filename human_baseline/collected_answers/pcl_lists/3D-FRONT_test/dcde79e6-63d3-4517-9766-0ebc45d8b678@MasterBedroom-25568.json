@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "dcde79e6-63d3-4517-9766-0ebc45d8b678@MasterBedroom-25568",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 4",
+  "timestamp": "2025-10-21T13:36:49.005476",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/dcde79e6-63d3-4517-9766-0ebc45d8b678/MasterBedroom-25568/MasterBedroom-25568.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What is the color of the single bed in the Master bedroom?\n\nA. Light blue\nB. White\nC. Beige\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What is the color of the single bed in the Master bedroom?\n\nA. Light blue\nB. White\nC. Beige\nD. None of the above",
+      "response": "D"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What is the color of the single bed in the Master bedroom?\n\nA. Light blue\nB. White\nC. Beige",
+      "response": "None"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What is the color of the single bed in the Master bedroom?\n\nA. Lizard\nB. Mountain\nC. Ocean\nD. Desert\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What is the color of the single bed in the Master bedroom?\n\nA. Lizard\nB. Mountain\nC. Ocean\nD. Desert\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What is the color of the single bed in the Master bedroom?\n\nA. Lizard\nB. Mountain\nC. Ocean\nD. Desert",
+      "response": "None"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What type of window treatment is featured in the scene?\n\nA. Venetian Blinds\nB. Sheer Curtains\nC. Roman Shades\nD. Bamboo Rollers\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What type of window treatment is featured in the scene?\n\nA. Venetian Blinds\nB. Sheer Curtains\nC. Roman Shades\nD. Bamboo Rollers\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What type of window treatment is featured in the scene?\n\nA. Venetian Blinds\nB. Sheer Curtains\nC. Roman Shades\nD. Bamboo Rollers",
+      "response": "None"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What type of cooking utensil is stored in the kitchen?",
+      "response": "unanswerable"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What type of cooking utensil is stored in the kitchen?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What is the color of the single bed in the Master bedroom?\n\nA. Dark grey\nB. Light blue\nC. White\nD. Beige",
+      "response": "A"
+    }
+  ]
+}

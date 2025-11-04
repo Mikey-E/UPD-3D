@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "f50e31b6-7aba-4d78-8847-1822f568fa3e@LivingDiningRoom-14899",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 5",
+  "timestamp": "2025-10-29T17:32:06.501263",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/f50e31b6-7aba-4d78-8847-1822f568fa3e/LivingDiningRoom-14899/LivingDiningRoom-14899.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What is the color of the drawer chest located behind the three-seat sofa?\n\nA. Taupe\nB. Light grey\nC. Dark charcoal\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What is the color of the drawer chest located behind the three-seat sofa?\n\nA. Taupe\nB. Light grey\nC. Dark charcoal\nD. None of the above",
+      "response": "d"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What is the color of the drawer chest located behind the three-seat sofa?\n\nA. Taupe\nB. Light grey\nC. Dark charcoal",
+      "response": "none"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What is the color of the drawer chest located behind the three-seat sofa?\n\nA. Elephant\nB. Tarantula\nC. Cactus\nD. Cloud\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What is the color of the drawer chest located behind the three-seat sofa?\n\nA. Elephant\nB. Tarantula\nC. Cactus\nD. Cloud\nE. None of the above",
+      "response": "e"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What is the color of the drawer chest located behind the three-seat sofa?\n\nA. Elephant\nB. Tarantula\nC. Cactus\nD. Cloud",
+      "response": "none"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What shape is the window in the scene?\n\nA. Circular\nB. Square\nC. Rectangle\nD. Triangular\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What shape is the window in the scene?\n\nA. Circular\nB. Square\nC. Rectangle\nD. Triangular\nE. None of the above",
+      "response": "e"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What shape is the window in the scene?\n\nA. Circular\nB. Square\nC. Rectangle\nD. Triangular",
+      "response": "none"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What type of book is displayed on the bookshelf?",
+      "response": "none"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What type of book is displayed on the bookshelf?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What is the color of the drawer chest located behind the three-seat sofa?\n\nA. Taupe\nB. Light grey\nC. Dark charcoal\nD. Walnut brown",
+      "response": "none"
+    }
+  ]
+}

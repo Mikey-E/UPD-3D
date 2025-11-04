@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "df69e2a1-9ca8-4512-9410-b848e91da0d8@MasterBedroom-1008",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 5",
+  "timestamp": "2025-10-24T17:48:30.671435",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/df69e2a1-9ca8-4512-9410-b848e91da0d8/MasterBedroom-1008/MasterBedroom-1008.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What design style does the armchair in the master bedroom represent?\n\nA. Southeast Asian\nB. Korean\nC. Japanese\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What design style does the armchair in the master bedroom represent?\n\nA. Southeast Asian\nB. Korean\nC. Japanese\nD. None of the above",
+      "response": "d"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What design style does the armchair in the master bedroom represent?\n\nA. Southeast Asian\nB. Korean\nC. Japanese",
+      "response": "none"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What design style does the armchair in the master bedroom represent?\n\nA. Vinyl record\nB. Software update\nC. Data encryption\nD. Quantum physics\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What design style does the armchair in the master bedroom represent?\n\nA. Vinyl record\nB. Software update\nC. Data encryption\nD. Quantum physics\nE. None of the above",
+      "response": "e"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What design style does the armchair in the master bedroom represent?\n\nA. Vinyl record\nB. Software update\nC. Data encryption\nD. Quantum physics",
+      "response": "none"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What is the shape of the dining table in the scene?\n\nA. Round\nB. Oval\nC. Rectangular\nD. Square\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What is the shape of the dining table in the scene?\n\nA. Round\nB. Oval\nC. Rectangular\nD. Square\nE. None of the above",
+      "response": "e"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What is the shape of the dining table in the scene?\n\nA. Round\nB. Oval\nC. Rectangular\nD. Square",
+      "response": "none"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What type of outdoor grill is located on the balcony?",
+      "response": "none"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What type of outdoor grill is located on the balcony?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What design style does the armchair in the master bedroom represent?\n\nA. Southeast Asian\nB. Korean\nC. Japanese\nD. Neoclassical",
+      "response": "d"
+    }
+  ]
+}

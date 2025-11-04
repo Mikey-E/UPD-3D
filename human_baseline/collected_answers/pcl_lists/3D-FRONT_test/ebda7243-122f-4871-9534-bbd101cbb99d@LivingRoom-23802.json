@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "ebda7243-122f-4871-9534-bbd101cbb99d@LivingRoom-23802",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 4",
+  "timestamp": "2025-10-27T15:50:27.793219",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/ebda7243-122f-4871-9534-bbd101cbb99d/LivingRoom-23802/LivingRoom-23802.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What style is the tv stand in the living room?\n\nA. Neoclassical\nB. Vintage\nC. Industrial\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What style is the tv stand in the living room?\n\nA. Neoclassical\nB. Vintage\nC. Industrial\nD. None of the above",
+      "response": "D"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What style is the tv stand in the living room?\n\nA. Neoclassical\nB. Vintage\nC. Industrial",
+      "response": "None"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What style is the tv stand in the living room?\n\nA. Striped socks\nB. Bubblegum flavors\nC. Board games\nD. Vintage postcards\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What style is the tv stand in the living room?\n\nA. Striped socks\nB. Bubblegum flavors\nC. Board games\nD. Vintage postcards\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What style is the tv stand in the living room?\n\nA. Striped socks\nB. Bubblegum flavors\nC. Board games\nD. Vintage postcards",
+      "response": "None"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What type of rug is presented in the scene?\n\nA. Persian rug\nB. Shag rug\nC. Jute rug\nD. Berber rug\nIf none of the above answers are correct, answer: 'F'",
+      "response": "D"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What type of rug is presented in the scene?\n\nA. Persian rug\nB. Shag rug\nC. Jute rug\nD. Berber rug\nE. None of the above",
+      "response": "D"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What type of rug is presented in the scene?\n\nA. Persian rug\nB. Shag rug\nC. Jute rug\nD. Berber rug",
+      "response": "D"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What type of audio equipment is installed in the walls?",
+      "response": "unanswerable"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What type of audio equipment is installed in the walls?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What style is the tv stand in the living room?\n\nA. Neoclassical\nB. Vintage\nC. Japanese-inspired\nD. Industrial",
+      "response": "C"
+    }
+  ]
+}

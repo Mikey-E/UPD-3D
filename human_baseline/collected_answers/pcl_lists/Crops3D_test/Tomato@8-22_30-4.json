@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "Tomato@8-22_30-4",
+  "dataset": "Crops3D_test",
+  "annotated_by": "User 5",
+  "timestamp": "2025-10-31T06:31:48.793955",
+  "file_path": "/project/3dllms/melgin/datasets/CEA/Crops3D/Tomato/8-22_30-4.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What feature of the plant's leaves makes them appear pinnate from some angles?\n\nA. Deeply lobed structure\nB. Serrated edges\nC. Woody brown stem\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What feature of the plant's leaves makes them appear pinnate from some angles?\n\nA. Deeply lobed structure\nB. Serrated edges\nC. Woody brown stem\nD. None of the above",
+      "response": "d"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What feature of the plant's leaves makes them appear pinnate from some angles?\n\nA. Deeply lobed structure\nB. Serrated edges\nC. Woody brown stem",
+      "response": "none"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What feature of the plant's leaves makes them appear pinnate from some angles?\n\nA. Circular motion\nB. Light refracting\nC. Atmospheric pressure\nD. Sound waves\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What feature of the plant's leaves makes them appear pinnate from some angles?\n\nA. Circular motion\nB. Light refracting\nC. Atmospheric pressure\nD. Sound waves\nE. None of the above",
+      "response": "e"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What feature of the plant's leaves makes them appear pinnate from some angles?\n\nA. Circular motion\nB. Light refracting\nC. Atmospheric pressure\nD. Sound waves",
+      "response": "none"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What is the shape of the table?\n\nA. Round\nB. Rectangular\nC. Square\nD. Oval\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What is the shape of the table?\n\nA. Round\nB. Rectangular\nC. Square\nD. Oval\nE. None of the above",
+      "response": "e"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What is the shape of the table?\n\nA. Round\nB. Rectangular\nC. Square\nD. Oval",
+      "response": "none"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What texture does the rug have?",
+      "response": "none"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What texture does the rug have?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What feature of the plant's leaves makes them appear pinnate from some angles?\n\nA. Deeply lobed structure\nB. Numerous leaflets\nC. Serrated edges\nD. Woody brown stem",
+      "response": "b"
+    }
+  ]
+}

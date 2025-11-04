@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "c8621bef-4c86-4a76-bce5-75170d72245c@DiningRoom-517",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 3",
+  "timestamp": "2025-10-12T11:58:22.629898",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/c8621bef-4c86-4a76-bce5-75170d72245c/DiningRoom-517/DiningRoom-517.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What is the color of the pendant lamp's shade in the room?\n\nA. Blue\nB. White\nC. Green\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What is the color of the pendant lamp's shade in the room?\n\nA. Blue\nB. White\nC. Green\nD. None of the above",
+      "response": "D"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What is the color of the pendant lamp's shade in the room?\n\nA. Blue\nB. White\nC. Green",
+      "response": "None"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What is the color of the pendant lamp's shade in the room?\n\nA. Mountain\nB. Ocean\nC. Desert\nD. Forest\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What is the color of the pendant lamp's shade in the room?\n\nA. Mountain\nB. Ocean\nC. Desert\nD. Forest\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What is the color of the pendant lamp's shade in the room?\n\nA. Mountain\nB. Ocean\nC. Desert\nD. Forest",
+      "response": "None"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What is the height of the ceiling in the room?\n\nA. 8 feet\nB. 10 feet\nC. 12 feet\nD. 14 feet\nIf none of the above answers are correct, answer: 'F'",
+      "response": "C"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What is the height of the ceiling in the room?\n\nA. 8 feet\nB. 10 feet\nC. 12 feet\nD. 14 feet\nE. None of the above",
+      "response": "C"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What is the height of the ceiling in the room?\n\nA. 8 feet\nB. 10 feet\nC. 12 feet\nD. 14 feet",
+      "response": "C"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What type of exercise equipment is used in this room?",
+      "response": "N/A"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What type of exercise equipment is used in this room?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What is the color of the pendant lamp's shade in the room?\n\nA. Cream\nB. Blue\nC. White\nD. Green",
+      "response": "A"
+    }
+  ]
+}

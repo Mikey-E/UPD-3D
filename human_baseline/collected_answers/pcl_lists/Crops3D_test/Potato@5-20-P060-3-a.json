@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "Potato@5-20-P060-3-a",
+  "dataset": "Crops3D_test",
+  "annotated_by": "User 5",
+  "timestamp": "2025-10-30T11:51:02.331033",
+  "file_path": "/project/3dllms/melgin/datasets/CEA/Crops3D/Potato/5-20-P060-3-a.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What type of leaf arrangement is described in the foliage?\n\nA. Opposite arrangement of leaves\nB. Whorled arrangement of leaves\nC. Rosette arrangement of leaves\nIf none of the above answers are correct, answer: 'F'",
+      "response": "a"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What type of leaf arrangement is described in the foliage?\n\nA. Opposite arrangement of leaves\nB. Whorled arrangement of leaves\nC. Rosette arrangement of leaves\nD. None of the above",
+      "response": "a"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What type of leaf arrangement is described in the foliage?\n\nA. Opposite arrangement of leaves\nB. Whorled arrangement of leaves\nC. Rosette arrangement of leaves",
+      "response": "a"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What type of leaf arrangement is described in the foliage?\n\nA. Emotional intelligence\nB. Quantum physics\nC. Vintage clothing\nD. Culinary techniques\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What type of leaf arrangement is described in the foliage?\n\nA. Emotional intelligence\nB. Quantum physics\nC. Vintage clothing\nD. Culinary techniques\nE. None of the above",
+      "response": "e"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What type of leaf arrangement is described in the foliage?\n\nA. Emotional intelligence\nB. Quantum physics\nC. Vintage clothing\nD. Culinary techniques",
+      "response": "none"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What type of furniture is positioned beside the window?\n\nA. Armchair\nB. Coffee table\nC. Bookshelf\nD. Sofa\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What type of furniture is positioned beside the window?\n\nA. Armchair\nB. Coffee table\nC. Bookshelf\nD. Sofa\nE. None of the above",
+      "response": "e"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What type of furniture is positioned beside the window?\n\nA. Armchair\nB. Coffee table\nC. Bookshelf\nD. Sofa",
+      "response": "none"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What type of metal is used in the window frames?",
+      "response": "none"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What type of metal is used in the window frames?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What type of leaf arrangement is described in the foliage?\n\nA. Pinnate arrangement of small leaflets\nB. Opposite arrangement of leaves\nC. Whorled arrangement of leaves\nD. Rosette arrangement of leaves",
+      "response": "b"
+    }
+  ]
+}

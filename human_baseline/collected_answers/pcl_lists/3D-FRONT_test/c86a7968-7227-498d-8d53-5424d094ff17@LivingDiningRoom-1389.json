@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "c86a7968-7227-498d-8d53-5424d094ff17@LivingDiningRoom-1389",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 4",
+  "timestamp": "2025-10-13T13:05:33.265529",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/c86a7968-7227-498d-8d53-5424d094ff17/LivingDiningRoom-1389/LivingDiningRoom-1389.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What style of furniture predominantly features in the room's storage solutions?\n\nA. Rustic\nB. Industrial\nC. Mediterranean\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What style of furniture predominantly features in the room's storage solutions?\n\nA. Rustic\nB. Industrial\nC. Mediterranean\nD. None of the above",
+      "response": "D"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What style of furniture predominantly features in the room's storage solutions?\n\nA. Rustic\nB. Industrial\nC. Mediterranean",
+      "response": "none"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What style of furniture predominantly features in the room's storage solutions?\n\nA. Melodic rhythm\nB. Abstract expressionism\nC. Quantum physics\nD. Celestial navigation\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What style of furniture predominantly features in the room's storage solutions?\n\nA. Melodic rhythm\nB. Abstract expressionism\nC. Quantum physics\nD. Celestial navigation\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What style of furniture predominantly features in the room's storage solutions?\n\nA. Melodic rhythm\nB. Abstract expressionism\nC. Quantum physics\nD. Celestial navigation",
+      "response": "none of these"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What type of painting is hung above the sofa?\n\nA. Abstract\nB. Landscape\nC. Portrait\nD. Still life\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What type of painting is hung above the sofa?\n\nA. Abstract\nB. Landscape\nC. Portrait\nD. Still life\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What type of painting is hung above the sofa?\n\nA. Abstract\nB. Landscape\nC. Portrait\nD. Still life",
+      "response": "none of these"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What type of artwork is displayed on the walls?",
+      "response": "None"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What type of artwork is displayed on the walls?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What style of furniture predominantly features in the room's storage solutions?\n\nA. Rustic\nB. Industrial\nC. Japanese\nD. Mediterranean",
+      "response": "C"
+    }
+  ]
+}

@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "0aad3aa3-ec12-49a0-b7cf-548d42b0b12b@CloakRoom-96580",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 4",
+  "timestamp": "2025-10-08T14:56:21.100981",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/0aad3aa3-ec12-49a0-b7cf-548d42b0b12b/CloakRoom-96580/CloakRoom-96580.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What design element contributes to the sense of symmetry in the CloakRoom?\n\nA. A series of corner cabinets on one side only\nB. The rich, light-colored walls\nC. A large window overlooking the garden\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What design element contributes to the sense of symmetry in the CloakRoom?\n\nA. A series of corner cabinets on one side only\nB. The rich, light-colored walls\nC. A large window overlooking the garden\nD. None of the above",
+      "response": "D"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What design element contributes to the sense of symmetry in the CloakRoom?\n\nA. A series of corner cabinets on one side only\nB. The rich, light-colored walls\nC. A large window overlooking the garden",
+      "response": "none of these"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What design element contributes to the sense of symmetry in the CloakRoom?\n\nA. Goldfish\nB. Treadmill\nC. Leather jacket\nD. Ice cream truck\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What design element contributes to the sense of symmetry in the CloakRoom?\n\nA. Goldfish\nB. Treadmill\nC. Leather jacket\nD. Ice cream truck\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What design element contributes to the sense of symmetry in the CloakRoom?\n\nA. Goldfish\nB. Treadmill\nC. Leather jacket\nD. Ice cream truck",
+      "response": "none of these"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What is the height of the ceiling in the room?\n\nA. Ten feet\nB. Twelve feet\nC. Eight feet\nD. Six feet\nIf none of the above answers are correct, answer: 'F'",
+      "response": "C"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What is the height of the ceiling in the room?\n\nA. Ten feet\nB. Twelve feet\nC. Eight feet\nD. Six feet\nE. None of the above",
+      "response": "C"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What is the height of the ceiling in the room?\n\nA. Ten feet\nB. Twelve feet\nC. Eight feet\nD. Six feet",
+      "response": "C"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What type of artwork is hanging on the ceiling?",
+      "response": "none"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What type of artwork is hanging on the ceiling?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What design element contributes to the sense of symmetry in the CloakRoom?\n\nA. A series of corner cabinets on one side only\nB. Corner cabinets positioned in matching groups\nC. The rich, light-colored walls\nD. A large window overlooking the garden",
+      "response": "none"
+    }
+  ]
+}

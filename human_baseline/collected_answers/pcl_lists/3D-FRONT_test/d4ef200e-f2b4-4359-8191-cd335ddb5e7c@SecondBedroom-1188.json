@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "d4ef200e-f2b4-4359-8191-cd335ddb5e7c@SecondBedroom-1188",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 5",
+  "timestamp": "2025-10-16T11:18:48.135813",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/d4ef200e-f2b4-4359-8191-cd335ddb5e7c/SecondBedroom-1188/SecondBedroom-1188.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What style is the wardrobe in the Second bedroom?\n\nA. Modern\nB. Classic\nC. Rustic\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What style is the wardrobe in the Second bedroom?\n\nA. Modern\nB. Classic\nC. Rustic\nD. None of the above",
+      "response": "d"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What style is the wardrobe in the Second bedroom?\n\nA. Modern\nB. Classic\nC. Rustic",
+      "response": "none of these"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What style is the wardrobe in the Second bedroom?\n\nA. Surfing\nB. Hiking\nC. Knitting\nD. Painting\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What style is the wardrobe in the Second bedroom?\n\nA. Surfing\nB. Hiking\nC. Knitting\nD. Painting\nE. None of the above",
+      "response": "e"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What style is the wardrobe in the Second bedroom?\n\nA. Surfing\nB. Hiking\nC. Knitting\nD. Painting",
+      "response": "none of these"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What type of sculpture is featured in the Second bedroom?\n\nA. Marble Bust\nB. Wooden Totem\nC. Abstract Glass\nD. Bronze Figure\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What type of sculpture is featured in the Second bedroom?\n\nA. Marble Bust\nB. Wooden Totem\nC. Abstract Glass\nD. Bronze Figure\nE. None of the above",
+      "response": "e"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What type of sculpture is featured in the Second bedroom?\n\nA. Marble Bust\nB. Wooden Totem\nC. Abstract Glass\nD. Bronze Figure",
+      "response": "none of these"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What kind of mirror is hanging on the wall?",
+      "response": "unanswerable"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What kind of mirror is hanging on the wall?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What style is the wardrobe in the Second bedroom?\n\nA. Modern\nB. Industrial\nC. Classic\nD. Rustic",
+      "response": "b"
+    }
+  ]
+}

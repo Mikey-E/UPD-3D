@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "d814978b-2875-4835-9341-011d9cfdf166@Bedroom-3058",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 4",
+  "timestamp": "2025-10-17T13:15:45.748180",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/d814978b-2875-4835-9341-011d9cfdf166/Bedroom-3058/Bedroom-3058.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What is the main color scheme of the bedroom furniture?\n\nA. Bold red and yellow\nB. Dark blue and black\nC. Bright green\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What is the main color scheme of the bedroom furniture?\n\nA. Bold red and yellow\nB. Dark blue and black\nC. Bright green\nD. None of the above",
+      "response": "D"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What is the main color scheme of the bedroom furniture?\n\nA. Bold red and yellow\nB. Dark blue and black\nC. Bright green",
+      "response": "None"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What is the main color scheme of the bedroom furniture?\n\nA. Mozart symphony\nB. Ancient Greek mythology\nC. Quantum mechanics theory\nD. Renaissance art styles\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What is the main color scheme of the bedroom furniture?\n\nA. Mozart symphony\nB. Ancient Greek mythology\nC. Quantum mechanics theory\nD. Renaissance art styles\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What is the main color scheme of the bedroom furniture?\n\nA. Mozart symphony\nB. Ancient Greek mythology\nC. Quantum mechanics theory\nD. Renaissance art styles",
+      "response": "None"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What type of lighting fixture is designed to enhance the 3D depth perception in a room?\n\nA. Pendant light\nB. Floor lamp\nC. Wall sconce\nD. Track lighting\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What type of lighting fixture is designed to enhance the 3D depth perception in a room?\n\nA. Pendant light\nB. Floor lamp\nC. Wall sconce\nD. Track lighting\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What type of lighting fixture is designed to enhance the 3D depth perception in a room?\n\nA. Pendant light\nB. Floor lamp\nC. Wall sconce\nD. Track lighting",
+      "response": "None"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What type of entertainment system is installed in the room?",
+      "response": "unanswerable"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What type of entertainment system is installed in the room?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What is the main color scheme of the bedroom furniture?\n\nA. Bold red and yellow\nB. Dark blue and black\nC. Neutral gray\nD. Bright green",
+      "response": "C"
+    }
+  ]
+}

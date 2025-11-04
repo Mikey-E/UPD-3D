@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "e75b15c9-b89c-482b-8d0c-14b1b951fd08@SecondBedroom-1541",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 5",
+  "timestamp": "2025-10-27T08:11:51.775472",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/e75b15c9-b89c-482b-8d0c-14b1b951fd08/SecondBedroom-1541/SecondBedroom-1541.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What color is the children's cabinet in the Second bedroom?\n\nA. Creamy White\nB. Soft White\nC. Muted Green\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What color is the children's cabinet in the Second bedroom?\n\nA. Creamy White\nB. Soft White\nC. Muted Green\nD. None of the above",
+      "response": "d"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What color is the children's cabinet in the Second bedroom?\n\nA. Creamy White\nB. Soft White\nC. Muted Green",
+      "response": "none"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What color is the children's cabinet in the Second bedroom?\n\nA. Tropical\nB. Mountainous\nC. Aquatic\nD. Celestial\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What color is the children's cabinet in the Second bedroom?\n\nA. Tropical\nB. Mountainous\nC. Aquatic\nD. Celestial\nE. None of the above",
+      "response": "e"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What color is the children's cabinet in the Second bedroom?\n\nA. Tropical\nB. Mountainous\nC. Aquatic\nD. Celestial",
+      "response": "none"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What color is the window frame in the room?\n\nA. Black\nB. White\nC. Blue\nD. Green\nIf none of the above answers are correct, answer: 'F'",
+      "response": "b"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What color is the window frame in the room?\n\nA. Black\nB. White\nC. Blue\nD. Green\nE. None of the above",
+      "response": "b"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What color is the window frame in the room?\n\nA. Black\nB. White\nC. Blue\nD. Green",
+      "response": "b"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What type of fireplace is in the room?",
+      "response": "none"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What type of fireplace is in the room?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What color is the children's cabinet in the Second bedroom?\n\nA. Creamy White\nB. Deep Navy Blue\nC. Soft White\nD. Muted Green",
+      "response": "b"
+    }
+  ]
+}

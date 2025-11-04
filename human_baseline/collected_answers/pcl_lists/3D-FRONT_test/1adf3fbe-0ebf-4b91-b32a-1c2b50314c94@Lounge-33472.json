@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "1adf3fbe-0ebf-4b91-b32a-1c2b50314c94@Lounge-33472",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 4",
+  "timestamp": "2025-10-27T08:14:17.561518",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/1adf3fbe-0ebf-4b91-b32a-1c2b50314c94/Lounge-33472/Lounge-33472.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What style is the king-size bed in the lounge?\n\nA. Southeast Asian\nB. Japanese\nC. Light Luxury\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What style is the king-size bed in the lounge?\n\nA. Southeast Asian\nB. Japanese\nC. Light Luxury\nD. None of the above",
+      "response": "d"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What style is the king-size bed in the lounge?\n\nA. Southeast Asian\nB. Japanese\nC. Light Luxury",
+      "response": "none"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What style is the king-size bed in the lounge?\n\nA. Quantum mechanics\nB. Renaissance art\nC. Medieval history\nD. Solar system formation\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What style is the king-size bed in the lounge?\n\nA. Quantum mechanics\nB. Renaissance art\nC. Medieval history\nD. Solar system formation\nE. None of the above",
+      "response": "e"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What style is the king-size bed in the lounge?\n\nA. Quantum mechanics\nB. Renaissance art\nC. Medieval history\nD. Solar system formation",
+      "response": "none"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What type of sculpture is displayed in the lounge?\n\nA. Marble Statue\nB. Bronze Bust\nC. Wooden Carving\nD. Glass Figurine\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What type of sculpture is displayed in the lounge?\n\nA. Marble Statue\nB. Bronze Bust\nC. Wooden Carving\nD. Glass Figurine\nE. None of the above",
+      "response": "e"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What type of sculpture is displayed in the lounge?\n\nA. Marble Statue\nB. Bronze Bust\nC. Wooden Carving\nD. Glass Figurine",
+      "response": "none"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What type of garden statue is located outdoors?",
+      "response": "n/a"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What type of garden statue is located outdoors?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What style is the king-size bed in the lounge?\n\nA. Southeast Asian\nB. Industrial\nC. Japanese\nD. Light Luxury",
+      "response": "b"
+    }
+  ]
+}

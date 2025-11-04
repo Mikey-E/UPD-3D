@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "ed9eb96f-9366-485c-aa68-2512ab380096@SecondBedroom-3811",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 5",
+  "timestamp": "2025-10-28T08:51:34.905532",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/ed9eb96f-9366-485c-aa68-2512ab380096/SecondBedroom-3811/SecondBedroom-3811.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What color is the pendant lamp that hangs over the desk?\n\nA. Dark wood\nB. Light beige\nC. Honey oak\nIf none of the above answers are correct, answer: 'F'",
+      "response": "c"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What color is the pendant lamp that hangs over the desk?\n\nA. Dark wood\nB. Light beige\nC. Honey oak\nD. None of the above",
+      "response": "c"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What color is the pendant lamp that hangs over the desk?\n\nA. Dark wood\nB. Light beige\nC. Honey oak",
+      "response": "c"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What color is the pendant lamp that hangs over the desk?\n\nA. Ocean\nB. Mountain\nC. Desert\nD. Forest\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What color is the pendant lamp that hangs over the desk?\n\nA. Ocean\nB. Mountain\nC. Desert\nD. Forest\nE. None of the above",
+      "response": "e"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What color is the pendant lamp that hangs over the desk?\n\nA. Ocean\nB. Mountain\nC. Desert\nD. Forest",
+      "response": "none"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What kind of plant can be found in the scene?\n\nA. Fern\nB. Cactus\nC. Orchid\nD. Succulent\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What kind of plant can be found in the scene?\n\nA. Fern\nB. Cactus\nC. Orchid\nD. Succulent\nE. None of the above",
+      "response": "e"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What kind of plant can be found in the scene?\n\nA. Fern\nB. Cactus\nC. Orchid\nD. Succulent",
+      "response": "none"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What texture does the ceiling tile have?",
+      "response": "none"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What texture does the ceiling tile have?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What color is the pendant lamp that hangs over the desk?\n\nA. Warm copper\nB. Dark wood\nC. Light beige\nD. Honey oak",
+      "response": "d"
+    }
+  ]
+}

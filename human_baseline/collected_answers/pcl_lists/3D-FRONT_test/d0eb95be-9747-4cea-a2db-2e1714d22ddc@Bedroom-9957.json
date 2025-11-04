@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "d0eb95be-9747-4cea-a2db-2e1714d22ddc@Bedroom-9957",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 5",
+  "timestamp": "2025-10-15T14:13:08.738885",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/d0eb95be-9747-4cea-a2db-2e1714d22ddc/Bedroom-9957/Bedroom-9957.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What color are the nightstands in the described bedroom?\n\nA. Muted green\nB. Soft white\nC. Warm brown\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What color are the nightstands in the described bedroom?\n\nA. Muted green\nB. Soft white\nC. Warm brown\nD. None of the above",
+      "response": "d"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What color are the nightstands in the described bedroom?\n\nA. Muted green\nB. Soft white\nC. Warm brown",
+      "response": "none of these"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What color are the nightstands in the described bedroom?\n\nA. Volcano\nB. Glacier\nC. Canyon\nD. Ocean\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What color are the nightstands in the described bedroom?\n\nA. Volcano\nB. Glacier\nC. Canyon\nD. Ocean\nE. None of the above",
+      "response": "e"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What color are the nightstands in the described bedroom?\n\nA. Volcano\nB. Glacier\nC. Canyon\nD. Ocean",
+      "response": "none of these"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What is the height of the window in the scene?\n\nA. 3 feet\nB. 5 feet\nC. 7 feet\nD. 9 feet\nIf none of the above answers are correct, answer: 'F'",
+      "response": "a"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What is the height of the window in the scene?\n\nA. 3 feet\nB. 5 feet\nC. 7 feet\nD. 9 feet\nE. None of the above",
+      "response": "a"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What is the height of the window in the scene?\n\nA. 3 feet\nB. 5 feet\nC. 7 feet\nD. 9 feet",
+      "response": "a"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What color is the rug located in the center of the room?",
+      "response": "unanswerable"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What color is the rug located in the center of the room?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What color are the nightstands in the described bedroom?\n\nA. Muted green\nB. Soft white\nC. Warm brown\nD. Mustard yellow",
+      "response": "d"
+    }
+  ]
+}

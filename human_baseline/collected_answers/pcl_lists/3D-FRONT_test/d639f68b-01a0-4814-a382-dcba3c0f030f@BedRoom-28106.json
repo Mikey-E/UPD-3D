@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "d639f68b-01a0-4814-a382-dcba3c0f030f@BedRoom-28106",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 3",
+  "timestamp": "2025-10-16T12:07:13.307477",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/d639f68b-01a0-4814-a382-dcba3c0f030f/BedRoom-28106/BedRoom-28106.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What is the color of the desk in the bedroom?\n\nA. Light beige\nB. Taupe\nC. Light oak\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What is the color of the desk in the bedroom?\n\nA. Light beige\nB. Taupe\nC. Light oak\nD. None of the above",
+      "response": "D"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What is the color of the desk in the bedroom?\n\nA. Light beige\nB. Taupe\nC. Light oak",
+      "response": "None"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What is the color of the desk in the bedroom?\n\nA. Tiger\nB. Cactus\nC. Volcano\nD. Galaxy\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What is the color of the desk in the bedroom?\n\nA. Tiger\nB. Cactus\nC. Volcano\nD. Galaxy\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What is the color of the desk in the bedroom?\n\nA. Tiger\nB. Cactus\nC. Volcano\nD. Galaxy",
+      "response": "None"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What type of window treatment is featured in the room?\n\nA. Vertical blinds\nB. Roman shades\nC. Drapes\nD. Sheer curtains\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What type of window treatment is featured in the room?\n\nA. Vertical blinds\nB. Roman shades\nC. Drapes\nD. Sheer curtains\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What type of window treatment is featured in the room?\n\nA. Vertical blinds\nB. Roman shades\nC. Drapes\nD. Sheer curtains",
+      "response": "None"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What artwork is displayed on the walls?",
+      "response": "N/A"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What artwork is displayed on the walls?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What is the color of the desk in the bedroom?\n\nA. Light beige\nB. Soft pink\nC. Taupe\nD. Light oak",
+      "response": "B"
+    }
+  ]
+}

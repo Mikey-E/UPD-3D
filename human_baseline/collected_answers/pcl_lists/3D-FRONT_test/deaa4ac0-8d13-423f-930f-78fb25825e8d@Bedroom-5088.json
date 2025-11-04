@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "deaa4ac0-8d13-423f-930f-78fb25825e8d@Bedroom-5088",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 4",
+  "timestamp": "2025-10-24T16:25:22.144287",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/deaa4ac0-8d13-423f-930f-78fb25825e8d/Bedroom-5088/Bedroom-5088.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What color is the pendant lamp above the bed in the bedroom?\n\nA. Beige\nB. Cream\nC. Grey\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What color is the pendant lamp above the bed in the bedroom?\n\nA. Beige\nB. Cream\nC. Grey\nD. None of the above",
+      "response": "d"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What color is the pendant lamp above the bed in the bedroom?\n\nA. Beige\nB. Cream\nC. Grey",
+      "response": "none"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What color is the pendant lamp above the bed in the bedroom?\n\nA. Comedy\nB. Adventure\nC. Mystery\nD. Fantasy\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What color is the pendant lamp above the bed in the bedroom?\n\nA. Comedy\nB. Adventure\nC. Mystery\nD. Fantasy\nE. None of the above",
+      "response": "e"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What color is the pendant lamp above the bed in the bedroom?\n\nA. Comedy\nB. Adventure\nC. Mystery\nD. Fantasy",
+      "response": "none"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What type of furniture is located beside the sofa in the scene?\n\nA. Coffee table\nB. Bookshelf\nC. Armchair\nD. Console table\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What type of furniture is located beside the sofa in the scene?\n\nA. Coffee table\nB. Bookshelf\nC. Armchair\nD. Console table\nE. None of the above",
+      "response": "e"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What type of furniture is located beside the sofa in the scene?\n\nA. Coffee table\nB. Bookshelf\nC. Armchair\nD. Console table",
+      "response": "none"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What type of outdoor furniture is situated in the room?",
+      "response": "n/a"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What type of outdoor furniture is situated in the room?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What color is the pendant lamp above the bed in the bedroom?\n\nA. Beige\nB. Cream\nC. Deep green\nD. Grey",
+      "response": "c"
+    }
+  ]
+}

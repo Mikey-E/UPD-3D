@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "fab6bf6e-068a-4de6-8a5b-6b5e06046fdb@LivingDiningRoom-590",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 3",
+  "timestamp": "2025-10-30T11:45:26.735384",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/fab6bf6e-068a-4de6-8a5b-6b5e06046fdb/LivingDiningRoom-590/LivingDiningRoom-590.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What is the color of the nightstand in the living room?\n\nA. Walnut brown\nB. Espresso brown\nC. Beige\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What is the color of the nightstand in the living room?\n\nA. Walnut brown\nB. Espresso brown\nC. Beige\nD. None of the above",
+      "response": "D"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What is the color of the nightstand in the living room?\n\nA. Walnut brown\nB. Espresso brown\nC. Beige",
+      "response": "NONE"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What is the color of the nightstand in the living room?\n\nA. Polar bear\nB. Tropical rainforest\nC. Mountain range\nD. City skyline\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What is the color of the nightstand in the living room?\n\nA. Polar bear\nB. Tropical rainforest\nC. Mountain range\nD. City skyline\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What is the color of the nightstand in the living room?\n\nA. Polar bear\nB. Tropical rainforest\nC. Mountain range\nD. City skyline",
+      "response": "NONE"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What type of chair is located in the living room?\n\nA. Armchair\nB. Recliner\nC. Dining chair\nD. Rocking chair\nIf none of the above answers are correct, answer: 'F'",
+      "response": "C"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What type of chair is located in the living room?\n\nA. Armchair\nB. Recliner\nC. Dining chair\nD. Rocking chair\nE. None of the above",
+      "response": "C"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What type of chair is located in the living room?\n\nA. Armchair\nB. Recliner\nC. Dining chair\nD. Rocking chair",
+      "response": "C"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What type of aquarium is in the room?",
+      "response": "NA"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What type of aquarium is in the room?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What is the color of the nightstand in the living room?\n\nA. Walnut brown\nB. Espresso brown\nC. Charcoal gray\nD. Beige",
+      "response": "C"
+    }
+  ]
+}

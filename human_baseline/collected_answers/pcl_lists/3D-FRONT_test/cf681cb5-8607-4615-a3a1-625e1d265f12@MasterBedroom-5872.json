@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "cf681cb5-8607-4615-a3a1-625e1d265f12@MasterBedroom-5872",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 5",
+  "timestamp": "2025-10-14T15:54:23.580507",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/cf681cb5-8607-4615-a3a1-625e1d265f12/MasterBedroom-5872/MasterBedroom-5872.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What color is the king-size bed's upholstery?\n\nA. Dark brown\nB. Gold\nC. White\nIf none of the above answers are correct, answer: 'F'",
+      "response": "b"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What color is the king-size bed's upholstery?\n\nA. Dark brown\nB. Gold\nC. White\nD. None of the above",
+      "response": "b"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What color is the king-size bed's upholstery?\n\nA. Dark brown\nB. Gold\nC. White",
+      "response": "b"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What color is the king-size bed's upholstery?\n\nA. Elephant\nB. Pumpkin\nC. Ocean\nD. Thunderstorm\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What color is the king-size bed's upholstery?\n\nA. Elephant\nB. Pumpkin\nC. Ocean\nD. Thunderstorm\nE. None of the above",
+      "response": "e"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What color is the king-size bed's upholstery?\n\nA. Elephant\nB. Pumpkin\nC. Ocean\nD. Thunderstorm",
+      "response": "none of these"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What shape is the rug in the room?\n\nA. Oval\nB. Rectangle\nC. Square\nD. Triangle\nIf none of the above answers are correct, answer: 'F'",
+      "response": "b"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What shape is the rug in the room?\n\nA. Oval\nB. Rectangle\nC. Square\nD. Triangle\nE. None of the above",
+      "response": "b"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What shape is the rug in the room?\n\nA. Oval\nB. Rectangle\nC. Square\nD. Triangle",
+      "response": "b"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What type of musical instrument is located in the room?",
+      "response": "unanswerable"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What type of musical instrument is located in the room?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What color is the king-size bed's upholstery?\n\nA. Dark brown\nB. Gold\nC. White\nD. Soft grey",
+      "response": "b"
+    }
+  ]
+}

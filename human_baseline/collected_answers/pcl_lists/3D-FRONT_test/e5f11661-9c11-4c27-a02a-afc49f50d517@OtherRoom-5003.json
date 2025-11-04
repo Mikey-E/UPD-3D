@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "e5f11661-9c11-4c27-a02a-afc49f50d517@OtherRoom-5003",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 5",
+  "timestamp": "2025-10-26T19:45:12.135254",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/e5f11661-9c11-4c27-a02a-afc49f50d517/OtherRoom-5003/OtherRoom-5003.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What feature of the room enhances the visual appeal of the children's cabinet?\n\nA. The use of bright primary colors\nB. The texture of the wall paint\nC. The arrangement of furniture in the room\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What feature of the room enhances the visual appeal of the children's cabinet?\n\nA. The use of bright primary colors\nB. The texture of the wall paint\nC. The arrangement of furniture in the room\nD. None of the above",
+      "response": "d"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What feature of the room enhances the visual appeal of the children's cabinet?\n\nA. The use of bright primary colors\nB. The texture of the wall paint\nC. The arrangement of furniture in the room",
+      "response": "none"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What feature of the room enhances the visual appeal of the children's cabinet?\n\nA. Chocolate cake recipe\nB. Dinosaur species\nC. Effects of gravity\nD. History of jazz music\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What feature of the room enhances the visual appeal of the children's cabinet?\n\nA. Chocolate cake recipe\nB. Dinosaur species\nC. Effects of gravity\nD. History of jazz music\nE. None of the above",
+      "response": "e"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What feature of the room enhances the visual appeal of the children's cabinet?\n\nA. Chocolate cake recipe\nB. Dinosaur species\nC. Effects of gravity\nD. History of jazz music",
+      "response": "none"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What color is the bookshelf?\n\nA. Yellow\nB. Green\nC. Orange\nD. Purple\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What color is the bookshelf?\n\nA. Yellow\nB. Green\nC. Orange\nD. Purple\nE. None of the above",
+      "response": "e"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What color is the bookshelf?\n\nA. Yellow\nB. Green\nC. Orange\nD. Purple",
+      "response": "none"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What type of painting hangs on the wall?",
+      "response": "none"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What type of painting hangs on the wall?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What feature of the room enhances the visual appeal of the children's cabinet?\n\nA. The use of bright primary colors\nB. The Japanese style design of the cabinet\nC. The texture of the wall paint\nD. The arrangement of furniture in the room",
+      "response": "none"
+    }
+  ]
+}

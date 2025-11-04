@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "f42845d4-14d6-40f9-bfb1-53196c76ad44@Bedroom-108",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 5",
+  "timestamp": "2025-10-29T16:31:22.662407",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/f42845d4-14d6-40f9-bfb1-53196c76ad44/Bedroom-108/Bedroom-108.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What style of chair is placed next to the desk in the bedroom?\n\nA. Japanese chair\nB. Recliner\nC. Office chair\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What style of chair is placed next to the desk in the bedroom?\n\nA. Japanese chair\nB. Recliner\nC. Office chair\nD. None of the above",
+      "response": "d"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What style of chair is placed next to the desk in the bedroom?\n\nA. Japanese chair\nB. Recliner\nC. Office chair",
+      "response": "none"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What style of chair is placed next to the desk in the bedroom?\n\nA. Mercury\nB. Jupiter\nC. Saturn\nD. Venus\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What style of chair is placed next to the desk in the bedroom?\n\nA. Mercury\nB. Jupiter\nC. Saturn\nD. Venus\nE. None of the above",
+      "response": "e"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What style of chair is placed next to the desk in the bedroom?\n\nA. Mercury\nB. Jupiter\nC. Saturn\nD. Venus",
+      "response": "none"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What type of sofa is used to accent the living space?\n\nA. Leather sectional\nB. Recliner\nC. Chaise lounge\nD. Futon\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What type of sofa is used to accent the living space?\n\nA. Leather sectional\nB. Recliner\nC. Chaise lounge\nD. Futon\nE. None of the above",
+      "response": "e"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What type of sofa is used to accent the living space?\n\nA. Leather sectional\nB. Recliner\nC. Chaise lounge\nD. Futon",
+      "response": "none"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What type of gardening tools are stored in the room?",
+      "response": "none"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What type of gardening tools are stored in the room?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What style of chair is placed next to the desk in the bedroom?\n\nA. Japanese chair\nB. Chinese chair\nC. Recliner\nD. Office chair",
+      "response": "b"
+    }
+  ]
+}

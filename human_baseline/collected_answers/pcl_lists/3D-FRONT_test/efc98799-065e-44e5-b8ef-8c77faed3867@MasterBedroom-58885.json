@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "efc98799-065e-44e5-b8ef-8c77faed3867@MasterBedroom-58885",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 3",
+  "timestamp": "2025-10-28T16:30:42.412174",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/efc98799-065e-44e5-b8ef-8c77faed3867/MasterBedroom-58885/MasterBedroom-58885.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What color is the bed in the master bedroom?\n\nA. Soft grey\nB. Mint green\nC. Dark brown\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What color is the bed in the master bedroom?\n\nA. Soft grey\nB. Mint green\nC. Dark brown\nD. None of the above",
+      "response": "D"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What color is the bed in the master bedroom?\n\nA. Soft grey\nB. Mint green\nC. Dark brown",
+      "response": "None"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What color is the bed in the master bedroom?\n\nA. Elephant\nB. Ocean\nC. Mountain\nD. Galaxy\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What color is the bed in the master bedroom?\n\nA. Elephant\nB. Ocean\nC. Mountain\nD. Galaxy\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What color is the bed in the master bedroom?\n\nA. Elephant\nB. Ocean\nC. Mountain\nD. Galaxy",
+      "response": "None"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What material is the dining table made of?\n\nA. Glass\nB. Wood\nC. Metal\nD. Plastic\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What material is the dining table made of?\n\nA. Glass\nB. Wood\nC. Metal\nD. Plastic\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What material is the dining table made of?\n\nA. Glass\nB. Wood\nC. Metal\nD. Plastic",
+      "response": "None"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What type of sculpture is on the floor?",
+      "response": "N/A"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What type of sculpture is on the floor?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What color is the bed in the master bedroom?\n\nA. Soft grey\nB. Deep teal\nC. Mint green\nD. Dark brown",
+      "response": "B"
+    }
+  ]
+}

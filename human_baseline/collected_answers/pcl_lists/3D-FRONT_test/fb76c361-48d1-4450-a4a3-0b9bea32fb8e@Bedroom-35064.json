@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "fb76c361-48d1-4450-a4a3-0b9bea32fb8e@Bedroom-35064",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 3",
+  "timestamp": "2025-10-30T16:11:32.511676",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/fb76c361-48d1-4450-a4a3-0b9bea32fb8e/Bedroom-35064/Bedroom-35064.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What color is the wardrobe in the bedroom?\n\nA. White\nB. Blue\nC. Silver\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What color is the wardrobe in the bedroom?\n\nA. White\nB. Blue\nC. Silver\nD. None of the above",
+      "response": "D"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What color is the wardrobe in the bedroom?\n\nA. White\nB. Blue\nC. Silver",
+      "response": "NONE"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What color is the wardrobe in the bedroom?\n\nA. Elephant\nB. Cactus\nC. Galaxy\nD. Sandcastle\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What color is the wardrobe in the bedroom?\n\nA. Elephant\nB. Cactus\nC. Galaxy\nD. Sandcastle\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What color is the wardrobe in the bedroom?\n\nA. Elephant\nB. Cactus\nC. Galaxy\nD. Sandcastle",
+      "response": "NONE"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What type of sculpture is displayed in the room?\n\nA. Abstract sculpture\nB. Bust of a philosopher\nC. Garland of flowers\nD. Animal figurine\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What type of sculpture is displayed in the room?\n\nA. Abstract sculpture\nB. Bust of a philosopher\nC. Garland of flowers\nD. Animal figurine\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What type of sculpture is displayed in the room?\n\nA. Abstract sculpture\nB. Bust of a philosopher\nC. Garland of flowers\nD. Animal figurine",
+      "response": "NA"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What type of dining table is in the room?",
+      "response": "NA"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What type of dining table is in the room?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What color is the wardrobe in the bedroom?\n\nA. White\nB. Black\nC. Blue\nD. Silver",
+      "response": "B"
+    }
+  ]
+}

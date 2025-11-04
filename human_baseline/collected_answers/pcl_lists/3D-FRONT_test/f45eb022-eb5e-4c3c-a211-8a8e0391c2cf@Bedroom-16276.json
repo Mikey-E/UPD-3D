@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "f45eb022-eb5e-4c3c-a211-8a8e0391c2cf@Bedroom-16276",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 5",
+  "timestamp": "2025-10-29T16:47:36.488635",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/f45eb022-eb5e-4c3c-a211-8a8e0391c2cf/Bedroom-16276/Bedroom-16276.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What style is the wardrobe in the bedroom?\n\nA. Nordic\nB. Southeast Asian\nC. Modern\nIf none of the above answers are correct, answer: 'F'",
+      "response": "c"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What style is the wardrobe in the bedroom?\n\nA. Nordic\nB. Southeast Asian\nC. Modern\nD. None of the above",
+      "response": "c"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What style is the wardrobe in the bedroom?\n\nA. Nordic\nB. Southeast Asian\nC. Modern",
+      "response": "c"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What style is the wardrobe in the bedroom?\n\nA. Classical music\nB. Gardening techniques\nC. Scandinavian folklore\nD. Space exploration\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What style is the wardrobe in the bedroom?\n\nA. Classical music\nB. Gardening techniques\nC. Scandinavian folklore\nD. Space exploration\nE. None of the above",
+      "response": "e"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What style is the wardrobe in the bedroom?\n\nA. Classical music\nB. Gardening techniques\nC. Scandinavian folklore\nD. Space exploration",
+      "response": "none"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What is the shape of the dining table?\n\nA. Round\nB. Square\nC. Rectangular\nD. Oval\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What is the shape of the dining table?\n\nA. Round\nB. Square\nC. Rectangular\nD. Oval\nE. None of the above",
+      "response": "e"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What is the shape of the dining table?\n\nA. Round\nB. Square\nC. Rectangular\nD. Oval",
+      "response": "none"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What color are the curtains in the room?",
+      "response": "none"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What color are the curtains in the room?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What style is the wardrobe in the bedroom?\n\nA. Nordic\nB. Japanese\nC. Southeast Asian\nD. Modern",
+      "response": "d"
+    }
+  ]
+}

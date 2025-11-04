@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "ff7ccf2d-0449-4367-aecc-3514af04afdd@LivingRoom-9877",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 5",
+  "timestamp": "2025-10-31T08:37:56.291825",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/ff7ccf2d-0449-4367-aecc-3514af04afdd/LivingRoom-9877/LivingRoom-9877.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What type of lighting is used in the living room?\n\nA. Wall sconces\nB. Floor lamps\nC. Table lamps\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What type of lighting is used in the living room?\n\nA. Wall sconces\nB. Floor lamps\nC. Table lamps\nD. None of the above",
+      "response": "d"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What type of lighting is used in the living room?\n\nA. Wall sconces\nB. Floor lamps\nC. Table lamps",
+      "response": "none"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What type of lighting is used in the living room?\n\nA. Mushroom cultivation\nB. Whale migration patterns\nC. Solar system structure\nD. Ancient Egyptian architecture\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What type of lighting is used in the living room?\n\nA. Mushroom cultivation\nB. Whale migration patterns\nC. Solar system structure\nD. Ancient Egyptian architecture\nE. None of the above",
+      "response": "e"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What type of lighting is used in the living room?\n\nA. Mushroom cultivation\nB. Whale migration patterns\nC. Solar system structure\nD. Ancient Egyptian architecture",
+      "response": "none"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What color are the curtains in the living room?\n\nA. Red\nB. Green\nC. Yellow\nD. Purple\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What color are the curtains in the living room?\n\nA. Red\nB. Green\nC. Yellow\nD. Purple\nE. None of the above",
+      "response": "e"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What color are the curtains in the living room?\n\nA. Red\nB. Green\nC. Yellow\nD. Purple",
+      "response": "none"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What type of grand piano is positioned against the wall?",
+      "response": "none"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What type of grand piano is positioned against the wall?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What type of lighting is used in the living room?\n\nA. Wall sconces\nB. Floor lamps\nC. Table lamps\nD. Pendant lamps",
+      "response": "d"
+    }
+  ]
+}

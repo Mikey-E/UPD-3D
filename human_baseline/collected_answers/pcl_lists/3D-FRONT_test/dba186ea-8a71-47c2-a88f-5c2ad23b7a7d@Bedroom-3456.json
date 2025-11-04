@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "dba186ea-8a71-47c2-a88f-5c2ad23b7a7d@Bedroom-3456",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 4",
+  "timestamp": "2025-10-20T15:29:37.125273",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/dba186ea-8a71-47c2-a88f-5c2ad23b7a7d/Bedroom-3456/Bedroom-3456.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What color is the pendant lamp hanging above the king-size bed in the bedroom?\n\nA. White\nB. Oak\nC. Beige\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What color is the pendant lamp hanging above the king-size bed in the bedroom?\n\nA. White\nB. Oak\nC. Beige\nD. None of the above",
+      "response": "D"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What color is the pendant lamp hanging above the king-size bed in the bedroom?\n\nA. White\nB. Oak\nC. Beige",
+      "response": "None"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What color is the pendant lamp hanging above the king-size bed in the bedroom?\n\nA. Mountain\nB. River\nC. Ocean\nD. Forest\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What color is the pendant lamp hanging above the king-size bed in the bedroom?\n\nA. Mountain\nB. River\nC. Ocean\nD. Forest\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What color is the pendant lamp hanging above the king-size bed in the bedroom?\n\nA. Mountain\nB. River\nC. Ocean\nD. Forest",
+      "response": "None"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What type of sculpture is placed in the corner of the bedroom?\n\nA. Abstract Figure\nB. Classical Bust\nC. Landscape Relief\nD. Geometric Structure\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What type of sculpture is placed in the corner of the bedroom?\n\nA. Abstract Figure\nB. Classical Bust\nC. Landscape Relief\nD. Geometric Structure\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What type of sculpture is placed in the corner of the bedroom?\n\nA. Abstract Figure\nB. Classical Bust\nC. Landscape Relief\nD. Geometric Structure",
+      "response": "None"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What texture does the sofa have?",
+      "response": "unanswerable"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What texture does the sofa have?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What color is the pendant lamp hanging above the king-size bed in the bedroom?\n\nA. White\nB. Oak\nC. Beige\nD. Black",
+      "response": "D"
+    }
+  ]
+}

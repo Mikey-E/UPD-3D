@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "Potato@5-20-P043-1-a",
+  "dataset": "Crops3D_test",
+  "annotated_by": "User 5",
+  "timestamp": "2025-10-30T11:48:20.122066",
+  "file_path": "/project/3dllms/melgin/datasets/CEA/Crops3D/Potato/5-20-P043-1-a.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What characteristic is notable about the leaves of the plant described?\n\nA. The leaves are all the same size and shade of green\nB. The leaves are exclusively light green without any brown edges\nC. The leaves are round and smooth without any veins\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What characteristic is notable about the leaves of the plant described?\n\nA. The leaves are all the same size and shade of green\nB. The leaves are exclusively light green without any brown edges\nC. The leaves are round and smooth without any veins\nD. None of the above",
+      "response": "d"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What characteristic is notable about the leaves of the plant described?\n\nA. The leaves are all the same size and shade of green\nB. The leaves are exclusively light green without any brown edges\nC. The leaves are round and smooth without any veins",
+      "response": "none"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What characteristic is notable about the leaves of the plant described?\n\nA. Carbohydrates\nB. Photosynthesis\nC. Respiration\nD. Fermentation\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What characteristic is notable about the leaves of the plant described?\n\nA. Carbohydrates\nB. Photosynthesis\nC. Respiration\nD. Fermentation\nE. None of the above",
+      "response": "e"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What characteristic is notable about the leaves of the plant described?\n\nA. Carbohydrates\nB. Photosynthesis\nC. Respiration\nD. Fermentation",
+      "response": "none"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What kind of chair is located next to the plant?\n\nA. Recliner\nB. Bean bag\nC. Dining chair\nD. Office chair\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What kind of chair is located next to the plant?\n\nA. Recliner\nB. Bean bag\nC. Dining chair\nD. Office chair\nE. None of the above",
+      "response": "e"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What kind of chair is located next to the plant?\n\nA. Recliner\nB. Bean bag\nC. Dining chair\nD. Office chair",
+      "response": "none"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What type of fruit is hanging from the ceiling?",
+      "response": "none"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What type of fruit is hanging from the ceiling?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What characteristic is notable about the leaves of the plant described?\n\nA. The leaves are all the same size and shade of green\nB. The leaves are exclusively light green without any brown edges\nC. The leaves have broad, serrated edges and vary in size and shade\nD. The leaves are round and smooth without any veins",
+      "response": "c"
+    }
+  ]
+}

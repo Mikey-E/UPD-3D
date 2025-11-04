@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "e934082f-65a3-49f0-a808-fc151fa2128c@MasterBedroom-333",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 4",
+  "timestamp": "2025-10-27T12:54:25.778825",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/e934082f-65a3-49f0-a808-fc151fa2128c/MasterBedroom-333/MasterBedroom-333.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What serves as the focal point for rest in the described room?\n\nA. Wardrobe\nB. Ceiling lamp\nC. Nightstand\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What serves as the focal point for rest in the described room?\n\nA. Wardrobe\nB. Ceiling lamp\nC. Nightstand\nD. None of the above",
+      "response": "D"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What serves as the focal point for rest in the described room?\n\nA. Wardrobe\nB. Ceiling lamp\nC. Nightstand",
+      "response": "None"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What serves as the focal point for rest in the described room?\n\nA. Refrigerator\nB. Microwave\nC. Toaster\nD. Oven\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What serves as the focal point for rest in the described room?\n\nA. Refrigerator\nB. Microwave\nC. Toaster\nD. Oven\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What serves as the focal point for rest in the described room?\n\nA. Refrigerator\nB. Microwave\nC. Toaster\nD. Oven",
+      "response": "None"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What type of chair is positioned beside the table?\n\nA. Armchair\nB. Recliner\nC. Dining chair\nD. Barstool\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What type of chair is positioned beside the table?\n\nA. Armchair\nB. Recliner\nC. Dining chair\nD. Barstool\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What type of chair is positioned beside the table?\n\nA. Armchair\nB. Recliner\nC. Dining chair\nD. Barstool",
+      "response": "None"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What type of outdoor furniture is arranged on the patio?",
+      "response": "unanswerable"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What type of outdoor furniture is arranged on the patio?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What serves as the focal point for rest in the described room?\n\nA. Single bed\nB. Wardrobe\nC. Ceiling lamp\nD. Nightstand",
+      "response": "A"
+    }
+  ]
+}

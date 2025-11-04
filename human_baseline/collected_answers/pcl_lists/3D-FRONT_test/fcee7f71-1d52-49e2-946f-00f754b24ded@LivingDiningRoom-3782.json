@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "fcee7f71-1d52-49e2-946f-00f754b24ded@LivingDiningRoom-3782",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 3",
+  "timestamp": "2025-10-30T21:57:09.414309",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/fcee7f71-1d52-49e2-946f-00f754b24ded/LivingDiningRoom-3782/LivingDiningRoom-3782.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What type of cabinet is positioned in the living area that provides storage for children's items?\n\nA. Wine cabinet\nB. Sideboard\nC. TV stand\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What type of cabinet is positioned in the living area that provides storage for children's items?\n\nA. Wine cabinet\nB. Sideboard\nC. TV stand\nD. None of the above",
+      "response": "D"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What type of cabinet is positioned in the living area that provides storage for children's items?\n\nA. Wine cabinet\nB. Sideboard\nC. TV stand",
+      "response": "NONE"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What type of cabinet is positioned in the living area that provides storage for children's items?\n\nA. Rhodesian Ridgeback\nB. Great Blue Heron\nC. Velvet Underground\nD. Swiss Army Knife\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What type of cabinet is positioned in the living area that provides storage for children's items?\n\nA. Rhodesian Ridgeback\nB. Great Blue Heron\nC. Velvet Underground\nD. Swiss Army Knife\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What type of cabinet is positioned in the living area that provides storage for children's items?\n\nA. Rhodesian Ridgeback\nB. Great Blue Heron\nC. Velvet Underground\nD. Swiss Army Knife",
+      "response": "NONE"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What type of vehicle is featured in the living room?\n\nA. Sports car\nB. Minivan\nC. Motorcycle\nD. Sedan\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What type of vehicle is featured in the living room?\n\nA. Sports car\nB. Minivan\nC. Motorcycle\nD. Sedan\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What type of vehicle is featured in the living room?\n\nA. Sports car\nB. Minivan\nC. Motorcycle\nD. Sedan",
+      "response": "NA"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What size is the swimming pool located in the backyard?",
+      "response": "A"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What size is the swimming pool located in the backyard?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What type of cabinet is positioned in the living area that provides storage for children's items?\n\nA. Wine cabinet\nB. Children's cabinet\nC. Sideboard\nD. TV stand",
+      "response": "B"
+    }
+  ]
+}

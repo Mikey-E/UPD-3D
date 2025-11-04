@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "facfc0bd-e9d0-45a1-bdfd-73dca226a623@LivingDiningRoom-42983",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 3",
+  "timestamp": "2025-10-30T11:49:03.407015",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/facfc0bd-e9d0-45a1-bdfd-73dca226a623/LivingDiningRoom-42983/LivingDiningRoom-42983.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What style of furniture does the tv stand exemplify in the livingdining room?\n\nA. Rustic farmhouse\nB. Industrial chic\nC. Art deco\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What style of furniture does the tv stand exemplify in the livingdining room?\n\nA. Rustic farmhouse\nB. Industrial chic\nC. Art deco\nD. None of the above",
+      "response": "D"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What style of furniture does the tv stand exemplify in the livingdining room?\n\nA. Rustic farmhouse\nB. Industrial chic\nC. Art deco",
+      "response": "NONE"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What style of furniture does the tv stand exemplify in the livingdining room?\n\nA. Tropical rainforest\nB. Arctic tundra\nC. Desert biome\nD. Mountain range\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What style of furniture does the tv stand exemplify in the livingdining room?\n\nA. Tropical rainforest\nB. Arctic tundra\nC. Desert biome\nD. Mountain range\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What style of furniture does the tv stand exemplify in the livingdining room?\n\nA. Tropical rainforest\nB. Arctic tundra\nC. Desert biome\nD. Mountain range",
+      "response": "NONE"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What type of sculpture is displayed on the coffee table?\n\nA. Abstract Figure\nB. Kinetic Sculpture\nC. Classical Bust\nD. Marble Block\nIf none of the above answers are correct, answer: 'F'",
+      "response": "D"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What type of sculpture is displayed on the coffee table?\n\nA. Abstract Figure\nB. Kinetic Sculpture\nC. Classical Bust\nD. Marble Block\nE. None of the above",
+      "response": "D"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What type of sculpture is displayed on the coffee table?\n\nA. Abstract Figure\nB. Kinetic Sculpture\nC. Classical Bust\nD. Marble Block",
+      "response": "D"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What shape is the ceiling fan?",
+      "response": "NA"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What shape is the ceiling fan?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What style of furniture does the tv stand exemplify in the livingdining room?\n\nA. Rustic farmhouse\nB. Japanese minimalism\nC. Industrial chic\nD. Art deco",
+      "response": "B"
+    }
+  ]
+}

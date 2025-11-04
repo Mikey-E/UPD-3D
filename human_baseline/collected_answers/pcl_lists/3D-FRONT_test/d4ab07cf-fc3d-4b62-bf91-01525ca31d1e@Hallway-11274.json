@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "d4ab07cf-fc3d-4b62-bf91-01525ca31d1e@Hallway-11274",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 4",
+  "timestamp": "2025-10-24T13:18:56.699922",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/d4ab07cf-fc3d-4b62-bf91-01525ca31d1e/Hallway-11274/Hallway-11274.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What color is the wardrobe in the Hallway?\n\nA. Soft white\nB. Bright blue\nC. Vibrant red\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What color is the wardrobe in the Hallway?\n\nA. Soft white\nB. Bright blue\nC. Vibrant red\nD. None of the above",
+      "response": "d"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What color is the wardrobe in the Hallway?\n\nA. Soft white\nB. Bright blue\nC. Vibrant red",
+      "response": "none"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What color is the wardrobe in the Hallway?\n\nA. Tropical\nB. Glacier\nC. Desert\nD. Mountain\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What color is the wardrobe in the Hallway?\n\nA. Tropical\nB. Glacier\nC. Desert\nD. Mountain\nE. None of the above",
+      "response": "e"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What color is the wardrobe in the Hallway?\n\nA. Tropical\nB. Glacier\nC. Desert\nD. Mountain",
+      "response": "none"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What type of wall art is displayed in the scene?\n\nA. Landscape painting\nB. Abstract mural\nC. Tapestry\nD. Photographic collage\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What type of wall art is displayed in the scene?\n\nA. Landscape painting\nB. Abstract mural\nC. Tapestry\nD. Photographic collage\nE. None of the above",
+      "response": "e"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What type of wall art is displayed in the scene?\n\nA. Landscape painting\nB. Abstract mural\nC. Tapestry\nD. Photographic collage",
+      "response": "none"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What type of wall clock is located in the hallway?",
+      "response": "n/a"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What type of wall clock is located in the hallway?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What color is the wardrobe in the Hallway?\n\nA. Soft white\nB. Bright blue\nC. Deep walnut brown\nD. Vibrant red",
+      "response": "c"
+    }
+  ]
+}

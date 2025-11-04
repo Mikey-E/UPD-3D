@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "e34a46b2-90de-4a2a-8726-c83d5529a886@OtherRoom-53654",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 4",
+  "timestamp": "2025-10-25T16:16:38.272908",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/e34a46b2-90de-4a2a-8726-c83d5529a886/OtherRoom-53654/OtherRoom-53654.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What color are the two modern-style end tables that are positioned at opposite ends of the room?\n\nA. White\nB. Black\nC. Grey\nIf none of the above answers are correct, answer: 'F'",
+      "response": "B"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What color are the two modern-style end tables that are positioned at opposite ends of the room?\n\nA. White\nB. Black\nC. Grey\nD. None of the above",
+      "response": "B"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What color are the two modern-style end tables that are positioned at opposite ends of the room?\n\nA. White\nB. Black\nC. Grey",
+      "response": "B"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What color are the two modern-style end tables that are positioned at opposite ends of the room?\n\nA. Circus\nB. Mountain\nC. Ocean\nD. Jungle\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What color are the two modern-style end tables that are positioned at opposite ends of the room?\n\nA. Circus\nB. Mountain\nC. Ocean\nD. Jungle\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What color are the two modern-style end tables that are positioned at opposite ends of the room?\n\nA. Circus\nB. Mountain\nC. Ocean\nD. Jungle",
+      "response": "None"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What is the height of the bookshelf in the room?\n\nA. Six feet\nB. Four feet\nC. Five feet\nD. Eight feet\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What is the height of the bookshelf in the room?\n\nA. Six feet\nB. Four feet\nC. Five feet\nD. Eight feet\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What is the height of the bookshelf in the room?\n\nA. Six feet\nB. Four feet\nC. Five feet\nD. Eight feet",
+      "response": "None"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What type of outdoor fountain is located near the entrance of the room?",
+      "response": "unanswerable"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What type of outdoor fountain is located near the entrance of the room?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What color are the two modern-style end tables that are positioned at opposite ends of the room?\n\nA. White\nB. Black\nC. Grey\nD. Dark brown",
+      "response": "B"
+    }
+  ]
+}

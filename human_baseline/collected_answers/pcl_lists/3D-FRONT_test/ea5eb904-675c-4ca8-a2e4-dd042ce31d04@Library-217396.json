@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "ea5eb904-675c-4ca8-a2e4-dd042ce31d04@Library-217396",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 3",
+  "timestamp": "2025-10-27T15:01:41.897807",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/ea5eb904-675c-4ca8-a2e4-dd042ce31d04/Library-217396/Library-217396.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What furniture is positioned in such a way that it invites relaxation and casual reading in the library?\n\nA. Desk\nB. Dressing chair\nC. Floor lamp\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What furniture is positioned in such a way that it invites relaxation and casual reading in the library?\n\nA. Desk\nB. Dressing chair\nC. Floor lamp\nD. None of the above",
+      "response": "D"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What furniture is positioned in such a way that it invites relaxation and casual reading in the library?\n\nA. Desk\nB. Dressing chair\nC. Floor lamp",
+      "response": "NONE"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What furniture is positioned in such a way that it invites relaxation and casual reading in the library?\n\nA. Planetary alignment\nB. Marine biology\nC. Quantum mechanics\nD. Ancient civilizations\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What furniture is positioned in such a way that it invites relaxation and casual reading in the library?\n\nA. Planetary alignment\nB. Marine biology\nC. Quantum mechanics\nD. Ancient civilizations\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What furniture is positioned in such a way that it invites relaxation and casual reading in the library?\n\nA. Planetary alignment\nB. Marine biology\nC. Quantum mechanics\nD. Ancient civilizations",
+      "response": "NONE"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What color is the ceiling in the scene?\n\nA. Blue\nB. Green\nC. Yellow\nD. Gray\nIf none of the above answers are correct, answer: 'F'",
+      "response": "D"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What color is the ceiling in the scene?\n\nA. Blue\nB. Green\nC. Yellow\nD. Gray\nE. None of the above",
+      "response": "D"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What color is the ceiling in the scene?\n\nA. Blue\nB. Green\nC. Yellow\nD. Gray",
+      "response": "D"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What type of musical instrument is hidden in the room?",
+      "response": "NA"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What type of musical instrument is hidden in the room?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What furniture is positioned in such a way that it invites relaxation and casual reading in the library?\n\nA. Lazy sofa\nB. Desk\nC. Dressing chair\nD. Floor lamp",
+      "response": "A"
+    }
+  ]
+}

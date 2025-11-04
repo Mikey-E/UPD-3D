@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "fb07e14f-d920-465a-be42-f1f37ce8c0c8@LivingRoom-1605",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 3",
+  "timestamp": "2025-10-30T13:41:43.853182",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/fb07e14f-d920-465a-be42-f1f37ce8c0c8/LivingRoom-1605/LivingRoom-1605.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What style are the dining chairs designed in?\n\nA. Modern minimalism\nB. Industrial\nC. Scandinavian\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What style are the dining chairs designed in?\n\nA. Modern minimalism\nB. Industrial\nC. Scandinavian\nD. None of the above",
+      "response": "D"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What style are the dining chairs designed in?\n\nA. Modern minimalism\nB. Industrial\nC. Scandinavian",
+      "response": "NONE"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What style are the dining chairs designed in?\n\nA. Reggae\nB. Salsa\nC. Jazz\nD. Blues\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What style are the dining chairs designed in?\n\nA. Reggae\nB. Salsa\nC. Jazz\nD. Blues\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What style are the dining chairs designed in?\n\nA. Reggae\nB. Salsa\nC. Jazz\nD. Blues",
+      "response": "NONE"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What texture does the ceiling have in the living room?\n\nA. Smooth\nB. Rough\nC. Textured\nD. Soft\nIf none of the above answers are correct, answer: 'F'",
+      "response": "C"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What texture does the ceiling have in the living room?\n\nA. Smooth\nB. Rough\nC. Textured\nD. Soft\nE. None of the above",
+      "response": "C"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What texture does the ceiling have in the living room?\n\nA. Smooth\nB. Rough\nC. Textured\nD. Soft",
+      "response": "C"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What texture does the surfboard have?",
+      "response": "NA"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What texture does the surfboard have?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What style are the dining chairs designed in?\n\nA. Modern minimalism\nB. Neoclassical\nC. Industrial\nD. Scandinavian",
+      "response": "B"
+    }
+  ]
+}

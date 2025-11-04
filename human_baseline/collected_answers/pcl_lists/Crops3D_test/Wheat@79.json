@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "Wheat@79",
+  "dataset": "Crops3D_test",
+  "annotated_by": "User 5",
+  "timestamp": "2025-10-31T08:05:11.789678",
+  "file_path": "/project/3dllms/melgin/datasets/CEA/Crops3D/Wheat/79.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What is the texture of the leaves on the potted shrub described?\n\nA. Smooth texture\nB. Glossy texture\nC. Rough texture\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What is the texture of the leaves on the potted shrub described?\n\nA. Smooth texture\nB. Glossy texture\nC. Rough texture\nD. None of the above",
+      "response": "d"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What is the texture of the leaves on the potted shrub described?\n\nA. Smooth texture\nB. Glossy texture\nC. Rough texture",
+      "response": "none"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What is the texture of the leaves on the potted shrub described?\n\nA. Chocolate chip cookie\nB. Vanilla ice cream\nC. Strawberry jam\nD. Blueberry muffin\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What is the texture of the leaves on the potted shrub described?\n\nA. Chocolate chip cookie\nB. Vanilla ice cream\nC. Strawberry jam\nD. Blueberry muffin\nE. None of the above",
+      "response": "e"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What is the texture of the leaves on the potted shrub described?\n\nA. Chocolate chip cookie\nB. Vanilla ice cream\nC. Strawberry jam\nD. Blueberry muffin",
+      "response": "none"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What type of vehicle is parked beside the shrub?\n\nA. Sedan\nB. Motorcycle\nC. Pickup truck\nD. Convertible\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What type of vehicle is parked beside the shrub?\n\nA. Sedan\nB. Motorcycle\nC. Pickup truck\nD. Convertible\nE. None of the above",
+      "response": "e"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What type of vehicle is parked beside the shrub?\n\nA. Sedan\nB. Motorcycle\nC. Pickup truck\nD. Convertible",
+      "response": "none"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What type of fruit does the shrub produce?",
+      "response": "none"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What type of fruit does the shrub produce?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What is the texture of the leaves on the potted shrub described?\n\nA. Smooth texture\nB. Glossy texture\nC. Rough texture\nD. Pointillistic texture",
+      "response": "d"
+    }
+  ]
+}

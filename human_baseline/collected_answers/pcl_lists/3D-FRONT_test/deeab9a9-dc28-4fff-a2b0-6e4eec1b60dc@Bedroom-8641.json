@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "deeab9a9-dc28-4fff-a2b0-6e4eec1b60dc@Bedroom-8641",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 5",
+  "timestamp": "2025-10-24T19:58:34.675531",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/deeab9a9-dc28-4fff-a2b0-6e4eec1b60dc/Bedroom-8641/Bedroom-8641.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What style does the side table in the bedroom exhibit?\n\nA. American Country\nB. Mediterranean\nC. Ming Qing\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What style does the side table in the bedroom exhibit?\n\nA. American Country\nB. Mediterranean\nC. Ming Qing\nD. None of the above",
+      "response": "d"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What style does the side table in the bedroom exhibit?\n\nA. American Country\nB. Mediterranean\nC. Ming Qing",
+      "response": "none"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What style does the side table in the bedroom exhibit?\n\nA. Rock and roll\nB. Jazz\nC. Classical\nD. Hip hop\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What style does the side table in the bedroom exhibit?\n\nA. Rock and roll\nB. Jazz\nC. Classical\nD. Hip hop\nE. None of the above",
+      "response": "e"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What style does the side table in the bedroom exhibit?\n\nA. Rock and roll\nB. Jazz\nC. Classical\nD. Hip hop",
+      "response": "none"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What type of art piece is featured above the bed?\n\nA. A landscape painting\nB. A sculpture of a horse\nC. A tapestry of a mountain scene\nD. A framed photograph of a city skyline\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What type of art piece is featured above the bed?\n\nA. A landscape painting\nB. A sculpture of a horse\nC. A tapestry of a mountain scene\nD. A framed photograph of a city skyline\nE. None of the above",
+      "response": "e"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What type of art piece is featured above the bed?\n\nA. A landscape painting\nB. A sculpture of a horse\nC. A tapestry of a mountain scene\nD. A framed photograph of a city skyline",
+      "response": "none"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What type of outdoor furniture is located on the balcony?",
+      "response": "none"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What type of outdoor furniture is located on the balcony?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What style does the side table in the bedroom exhibit?\n\nA. American Country\nB. Mediterranean\nC. Industrial\nD. Ming Qing",
+      "response": "c"
+    }
+  ]
+}

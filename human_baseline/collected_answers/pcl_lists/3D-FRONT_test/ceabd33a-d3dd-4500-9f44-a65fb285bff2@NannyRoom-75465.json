@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "ceabd33a-d3dd-4500-9f44-a65fb285bff2@NannyRoom-75465",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 3",
+  "timestamp": "2025-10-14T15:47:51.040326",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/ceabd33a-d3dd-4500-9f44-a65fb285bff2/NannyRoom-75465/NannyRoom-75465.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What design influence is reflected in the appearance of the nightstand?\n\nA. Scandinavian minimalism with light wood tones\nB. Ming Qing design with a sleek black appearance\nC. Mediterranean flair with bright colors\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What design influence is reflected in the appearance of the nightstand?\n\nA. Scandinavian minimalism with light wood tones\nB. Ming Qing design with a sleek black appearance\nC. Mediterranean flair with bright colors\nD. None of the above",
+      "response": "D"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What design influence is reflected in the appearance of the nightstand?\n\nA. Scandinavian minimalism with light wood tones\nB. Ming Qing design with a sleek black appearance\nC. Mediterranean flair with bright colors",
+      "response": "None"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What design influence is reflected in the appearance of the nightstand?\n\nA. Quantum mechanics\nB. Symbiotic relationships\nC. Coral reefs\nD. Dark matter\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What design influence is reflected in the appearance of the nightstand?\n\nA. Quantum mechanics\nB. Symbiotic relationships\nC. Coral reefs\nD. Dark matter\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What design influence is reflected in the appearance of the nightstand?\n\nA. Quantum mechanics\nB. Symbiotic relationships\nC. Coral reefs\nD. Dark matter",
+      "response": "None"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What is the shape of the dining table in the scene?\n\nA. Rectangular\nB. Square\nC. Oval\nD. Round\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What is the shape of the dining table in the scene?\n\nA. Rectangular\nB. Square\nC. Oval\nD. Round\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What is the shape of the dining table in the scene?\n\nA. Rectangular\nB. Square\nC. Oval\nD. Round",
+      "response": "None"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What type of ceiling fan is installed in the room?",
+      "response": "No ceiling fan"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What type of ceiling fan is installed in the room?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What design influence is reflected in the appearance of the nightstand?\n\nA. Scandinavian minimalism with light wood tones\nB. Ming Qing design with a sleek black appearance\nC. Mediterranean flair with bright colors\nD. Japanese design with warm walnut brown hues",
+      "response": "D"
+    }
+  ]
+}

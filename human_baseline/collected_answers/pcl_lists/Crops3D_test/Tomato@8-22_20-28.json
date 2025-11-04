@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "Tomato@8-22_20-28",
+  "dataset": "Crops3D_test",
+  "annotated_by": "User 5",
+  "timestamp": "2025-10-31T06:30:09.169526",
+  "file_path": "/project/3dllms/melgin/datasets/CEA/Crops3D/Tomato/8-22_20-28.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What type of leaf arrangement is described?\n\nA. Simple leaves arranged in a spiral pattern\nB. Opposite leaves growing in pairs on the stem\nC. Whorled leaves encircling the stem\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What type of leaf arrangement is described?\n\nA. Simple leaves arranged in a spiral pattern\nB. Opposite leaves growing in pairs on the stem\nC. Whorled leaves encircling the stem\nD. None of the above",
+      "response": "d"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What type of leaf arrangement is described?\n\nA. Simple leaves arranged in a spiral pattern\nB. Opposite leaves growing in pairs on the stem\nC. Whorled leaves encircling the stem",
+      "response": "none"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What type of leaf arrangement is described?\n\nA. Circular economy\nB. Renewable energy\nC. Urban sprawl\nD. Public transportation\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What type of leaf arrangement is described?\n\nA. Circular economy\nB. Renewable energy\nC. Urban sprawl\nD. Public transportation\nE. None of the above",
+      "response": "e"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What type of leaf arrangement is described?\n\nA. Circular economy\nB. Renewable energy\nC. Urban sprawl\nD. Public transportation",
+      "response": "none"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What is the height of the building?\n\nA. Two stories\nB. Three stories\nC. Ten stories\nD. Fifteen stories\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What is the height of the building?\n\nA. Two stories\nB. Three stories\nC. Ten stories\nD. Fifteen stories\nE. None of the above",
+      "response": "e"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What is the height of the building?\n\nA. Two stories\nB. Three stories\nC. Ten stories\nD. Fifteen stories",
+      "response": "none"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What is the size of the rock located at the base of the branch?",
+      "response": "none"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What is the size of the rock located at the base of the branch?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What type of leaf arrangement is described?\n\nA. Simple leaves arranged in a spiral pattern\nB. Opposite leaves growing in pairs on the stem\nC. Whorled leaves encircling the stem\nD. Pinnate, compound leaves with numerous small leaflets",
+      "response": "d"
+    }
+  ]
+}

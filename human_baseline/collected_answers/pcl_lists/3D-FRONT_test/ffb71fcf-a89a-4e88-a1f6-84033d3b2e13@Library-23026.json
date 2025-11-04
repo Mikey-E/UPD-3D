@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "ffb71fcf-a89a-4e88-a1f6-84033d3b2e13@Library-23026",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 3",
+  "timestamp": "2025-10-31T08:44:10.246202",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/ffb71fcf-a89a-4e88-a1f6-84033d3b2e13/Library-23026/Library-23026.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What piece of furniture is positioned nearest to the bookcase?\n\nA. Loveseat sofa\nB. Desk\nC. Sideboard\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What piece of furniture is positioned nearest to the bookcase?\n\nA. Loveseat sofa\nB. Desk\nC. Sideboard\nD. None of the above",
+      "response": "D"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What piece of furniture is positioned nearest to the bookcase?\n\nA. Loveseat sofa\nB. Desk\nC. Sideboard",
+      "response": "None"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What piece of furniture is positioned nearest to the bookcase?\n\nA. Pumpernickel\nB. Djembe\nC. Flibbertigibbet\nD. Quasar\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What piece of furniture is positioned nearest to the bookcase?\n\nA. Pumpernickel\nB. Djembe\nC. Flibbertigibbet\nD. Quasar\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What piece of furniture is positioned nearest to the bookcase?\n\nA. Pumpernickel\nB. Djembe\nC. Flibbertigibbet\nD. Quasar",
+      "response": "None"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What is the height of the chandelier in this setting?\n\nA. 5 feet\nB. 10 feet\nC. 15 feet\nD. 20 feet\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What is the height of the chandelier in this setting?\n\nA. 5 feet\nB. 10 feet\nC. 15 feet\nD. 20 feet\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What is the height of the chandelier in this setting?\n\nA. 5 feet\nB. 10 feet\nC. 15 feet\nD. 20 feet",
+      "response": "None"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What type of curtain hangs over the window?",
+      "response": "N/A"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What type of curtain hangs over the window?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What piece of furniture is positioned nearest to the bookcase?\n\nA. Loveseat sofa\nB. Lounge chair\nC. Desk\nD. Sideboard",
+      "response": "B"
+    }
+  ]
+}

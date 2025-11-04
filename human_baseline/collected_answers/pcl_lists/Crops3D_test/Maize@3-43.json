@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "Maize@3-43",
+  "dataset": "Crops3D_test",
+  "annotated_by": "User 5",
+  "timestamp": "2025-10-30T11:28:22.030818",
+  "file_path": "/project/3dllms/melgin/datasets/CEA/Crops3D/Maize/3-43.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What type of leaves does the described plant have?\n\nA. Round and thick\nB. Short and pointy\nC. Flat and wide\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What type of leaves does the described plant have?\n\nA. Round and thick\nB. Short and pointy\nC. Flat and wide\nD. None of the above",
+      "response": "d"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What type of leaves does the described plant have?\n\nA. Round and thick\nB. Short and pointy\nC. Flat and wide",
+      "response": "none"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What type of leaves does the described plant have?\n\nA. Chocolate chip cookies\nB. Basketball shoes\nC. Electric guitar strings\nD. Vintage comic books\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What type of leaves does the described plant have?\n\nA. Chocolate chip cookies\nB. Basketball shoes\nC. Electric guitar strings\nD. Vintage comic books\nE. None of the above",
+      "response": "e"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What type of leaves does the described plant have?\n\nA. Chocolate chip cookies\nB. Basketball shoes\nC. Electric guitar strings\nD. Vintage comic books",
+      "response": "none"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What is the height of the bookshelf in the room?\n\nA. Six feet\nB. Four feet\nC. Eight feet\nD. Five feet\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What is the height of the bookshelf in the room?\n\nA. Six feet\nB. Four feet\nC. Eight feet\nD. Five feet\nE. None of the above",
+      "response": "e"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What is the height of the bookshelf in the room?\n\nA. Six feet\nB. Four feet\nC. Eight feet\nD. Five feet",
+      "response": "none"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What type of fruit is on the floor?",
+      "response": "none"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What type of fruit is on the floor?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What type of leaves does the described plant have?\n\nA. Long and arching\nB. Round and thick\nC. Short and pointy\nD. Flat and wide",
+      "response": "a"
+    }
+  ]
+}

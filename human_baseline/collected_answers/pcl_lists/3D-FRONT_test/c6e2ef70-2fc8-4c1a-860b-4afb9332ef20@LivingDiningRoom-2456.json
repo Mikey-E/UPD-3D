@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "c6e2ef70-2fc8-4c1a-860b-4afb9332ef20@LivingDiningRoom-2456",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 4",
+  "timestamp": "2025-10-09T16:43:30.382764",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/c6e2ef70-2fc8-4c1a-860b-4afb9332ef20/LivingDiningRoom-2456/LivingDiningRoom-2456.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What style is the dining table in the room?\n\nA. American Country style\nB. Japanese minimalism\nC. Light Luxury style\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What style is the dining table in the room?\n\nA. American Country style\nB. Japanese minimalism\nC. Light Luxury style\nD. None of the above",
+      "response": "D"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What style is the dining table in the room?\n\nA. American Country style\nB. Japanese minimalism\nC. Light Luxury style",
+      "response": "none of these"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What style is the dining table in the room?\n\nA. Gothic architecture\nB. Impressionist painting\nC. Baroque music\nD. Renaissance literature\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What style is the dining table in the room?\n\nA. Gothic architecture\nB. Impressionist painting\nC. Baroque music\nD. Renaissance literature\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What style is the dining table in the room?\n\nA. Gothic architecture\nB. Impressionist painting\nC. Baroque music\nD. Renaissance literature",
+      "response": "none of these"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What type of sculpture can be found in the living room?\n\nA. Marble statue\nB. Bronze bust\nC. Wooden relief\nD. Glass figurine\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What type of sculpture can be found in the living room?\n\nA. Marble statue\nB. Bronze bust\nC. Wooden relief\nD. Glass figurine\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What type of sculpture can be found in the living room?\n\nA. Marble statue\nB. Bronze bust\nC. Wooden relief\nD. Glass figurine",
+      "response": "none of these"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What type of outdoor fountain is located outside the window?",
+      "response": "none"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What type of outdoor fountain is located outside the window?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What style is the dining table in the room?\n\nA. Ming Qing style\nB. American Country style\nC. Japanese minimalism\nD. Light Luxury style",
+      "response": "A"
+    }
+  ]
+}

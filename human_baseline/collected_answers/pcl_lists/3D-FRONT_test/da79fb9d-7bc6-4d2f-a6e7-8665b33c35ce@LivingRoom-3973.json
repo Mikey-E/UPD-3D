@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "da79fb9d-7bc6-4d2f-a6e7-8665b33c35ce@LivingRoom-3973",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 5",
+  "timestamp": "2025-10-20T08:30:34.964856",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/da79fb9d-7bc6-4d2f-a6e7-8665b33c35ce/LivingRoom-3973/LivingRoom-3973.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What type of lighting fixture hangs above the central seating area in the living room?\n\nA. Chandelier\nB. Wall sconce\nC. Floor lamp\nIf none of the above answers are correct, answer: 'F'",
+      "response": "a"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What type of lighting fixture hangs above the central seating area in the living room?\n\nA. Chandelier\nB. Wall sconce\nC. Floor lamp\nD. None of the above",
+      "response": "a"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What type of lighting fixture hangs above the central seating area in the living room?\n\nA. Chandelier\nB. Wall sconce\nC. Floor lamp",
+      "response": "a"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What type of lighting fixture hangs above the central seating area in the living room?\n\nA. Platoonic solid\nB. Fibonacci sequence\nC. Quantum entanglement\nD. Geothermal energy\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What type of lighting fixture hangs above the central seating area in the living room?\n\nA. Platoonic solid\nB. Fibonacci sequence\nC. Quantum entanglement\nD. Geothermal energy\nE. None of the above",
+      "response": "e"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What type of lighting fixture hangs above the central seating area in the living room?\n\nA. Platoonic solid\nB. Fibonacci sequence\nC. Quantum entanglement\nD. Geothermal energy",
+      "response": "none"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What type of flooring is in the living room?\n\nA. Hardwood\nB. Carpet\nC. Tile\nD. Laminate\nIf none of the above answers are correct, answer: 'F'",
+      "response": "b"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What type of flooring is in the living room?\n\nA. Hardwood\nB. Carpet\nC. Tile\nD. Laminate\nE. None of the above",
+      "response": "b"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What type of flooring is in the living room?\n\nA. Hardwood\nB. Carpet\nC. Tile\nD. Laminate",
+      "response": "b"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What is the weight of the grand piano in the corner of the room?",
+      "response": "none"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What is the weight of the grand piano in the corner of the room?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What type of lighting fixture hangs above the central seating area in the living room?\n\nA. Pendant lamp\nB. Chandelier\nC. Wall sconce\nD. Floor lamp",
+      "response": "b"
+    }
+  ]
+}

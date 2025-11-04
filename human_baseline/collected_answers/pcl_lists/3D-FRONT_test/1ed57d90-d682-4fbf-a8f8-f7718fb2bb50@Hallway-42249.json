@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "1ed57d90-d682-4fbf-a8f8-f7718fb2bb50@Hallway-42249",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 4",
+  "timestamp": "2025-10-08T10:10:43.128368",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/1ed57d90-d682-4fbf-a8f8-f7718fb2bb50/Hallway-42249/Hallway-42249.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What color is the upholstery of the armchair in the hallway?\n\nA. Natural Wood\nB. Light Grey\nC. Off-White\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What color is the upholstery of the armchair in the hallway?\n\nA. Natural Wood\nB. Light Grey\nC. Off-White\nD. None of the above",
+      "response": "D"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What color is the upholstery of the armchair in the hallway?\n\nA. Natural Wood\nB. Light Grey\nC. Off-White",
+      "response": "none of these"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What color is the upholstery of the armchair in the hallway?\n\nA. Galaxy\nB. Ocean\nC. Mountain\nD. Forest\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What color is the upholstery of the armchair in the hallway?\n\nA. Galaxy\nB. Ocean\nC. Mountain\nD. Forest\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What color is the upholstery of the armchair in the hallway?\n\nA. Galaxy\nB. Ocean\nC. Mountain\nD. Forest",
+      "response": "none of these"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What type of fish can be found in the hallway?\n\nA. Salmon\nB. Trout\nC. Goldfish\nD. Catfish\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What type of fish can be found in the hallway?\n\nA. Salmon\nB. Trout\nC. Goldfish\nD. Catfish\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What type of fish can be found in the hallway?\n\nA. Salmon\nB. Trout\nC. Goldfish\nD. Catfish",
+      "response": "none of these"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What type of dining table is in the hallway?",
+      "response": "none"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What type of dining table is in the hallway?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What color is the upholstery of the armchair in the hallway?\n\nA. Warm Brown\nB. Natural Wood\nC. Light Grey\nD. Off-White",
+      "response": "A"
+    }
+  ]
+}

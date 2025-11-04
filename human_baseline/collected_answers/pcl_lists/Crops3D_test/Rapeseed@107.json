@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "Rapeseed@107",
+  "dataset": "Crops3D_test",
+  "annotated_by": "User 5",
+  "timestamp": "2025-10-31T06:21:06.274612",
+  "file_path": "/project/3dllms/melgin/datasets/CEA/Crops3D/Rapeseed/107.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What type of plant is described in the room?\n\nA. A flowering shrub\nB. A small tree with a thick trunk\nC. A succulent with spiky leaves\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What type of plant is described in the room?\n\nA. A flowering shrub\nB. A small tree with a thick trunk\nC. A succulent with spiky leaves\nD. None of the above",
+      "response": "d"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What type of plant is described in the room?\n\nA. A flowering shrub\nB. A small tree with a thick trunk\nC. A succulent with spiky leaves",
+      "response": "none"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What type of plant is described in the room?\n\nA. Mountain Range\nB. Ocean Current\nC. Solar Eclipse\nD. Galaxy Formation\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What type of plant is described in the room?\n\nA. Mountain Range\nB. Ocean Current\nC. Solar Eclipse\nD. Galaxy Formation\nE. None of the above",
+      "response": "e"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What type of plant is described in the room?\n\nA. Mountain Range\nB. Ocean Current\nC. Solar Eclipse\nD. Galaxy Formation",
+      "response": "none"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What shape is the bookshelf in the room?\n\nA. Circular\nB. Triangular\nC. Hexagonal\nD. Rectangular\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What shape is the bookshelf in the room?\n\nA. Circular\nB. Triangular\nC. Hexagonal\nD. Rectangular\nE. None of the above",
+      "response": "e"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What shape is the bookshelf in the room?\n\nA. Circular\nB. Triangular\nC. Hexagonal\nD. Rectangular",
+      "response": "none"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What type of woven basket is used for storing blankets?",
+      "response": "none"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What type of woven basket is used for storing blankets?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What type of plant is described in the room?\n\nA. A flowering shrub\nB. A small tree with a thick trunk\nC. A succulent with spiky leaves\nD. A potted green houseplant",
+      "response": "d"
+    }
+  ]
+}

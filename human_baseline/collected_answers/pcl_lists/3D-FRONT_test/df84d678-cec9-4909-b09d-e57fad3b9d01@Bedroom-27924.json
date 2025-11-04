@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "df84d678-cec9-4909-b09d-e57fad3b9d01@Bedroom-27924",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 5",
+  "timestamp": "2025-10-24T20:03:44.387917",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/df84d678-cec9-4909-b09d-e57fad3b9d01/Bedroom-27924/Bedroom-27924.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What style is the dressing table in the bedroom?\n\nA. Korean style\nB. Traditional style\nC. Chinoiserie style\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What style is the dressing table in the bedroom?\n\nA. Korean style\nB. Traditional style\nC. Chinoiserie style\nD. None of the above",
+      "response": "d"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What style is the dressing table in the bedroom?\n\nA. Korean style\nB. Traditional style\nC. Chinoiserie style",
+      "response": "none"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What style is the dressing table in the bedroom?\n\nA. Mountain range\nB. Ocean wave\nC. Desert landscape\nD. Forest trail\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What style is the dressing table in the bedroom?\n\nA. Mountain range\nB. Ocean wave\nC. Desert landscape\nD. Forest trail\nE. None of the above",
+      "response": "e"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What style is the dressing table in the bedroom?\n\nA. Mountain range\nB. Ocean wave\nC. Desert landscape\nD. Forest trail",
+      "response": "none"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What type of window treatment is present in the scene?\n\nA. Roman shades\nB. Blinds\nC. Curtains\nD. Drapes\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What type of window treatment is present in the scene?\n\nA. Roman shades\nB. Blinds\nC. Curtains\nD. Drapes\nE. None of the above",
+      "response": "e"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What type of window treatment is present in the scene?\n\nA. Roman shades\nB. Blinds\nC. Curtains\nD. Drapes",
+      "response": "none"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What type of exercise equipment is in the room?",
+      "response": "none"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What type of exercise equipment is in the room?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What style is the dressing table in the bedroom?\n\nA. Korean style\nB. Traditional style\nC. Minimalist style\nD. Chinoiserie style",
+      "response": "c"
+    }
+  ]
+}

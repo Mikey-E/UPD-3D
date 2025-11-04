@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "e5bb6de8-52b5-4c04-b26b-b5561946f02d@Bedroom-8278",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 3",
+  "timestamp": "2025-10-26T19:25:58.680685",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/e5bb6de8-52b5-4c04-b26b-b5561946f02d/Bedroom-8278/Bedroom-8278.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What type of design does the ceiling lamp in the room feature?\n\nA. Minimalist style\nB. Rustic style\nC. Industrial style\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What type of design does the ceiling lamp in the room feature?\n\nA. Minimalist style\nB. Rustic style\nC. Industrial style\nD. None of the above",
+      "response": "D"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What type of design does the ceiling lamp in the room feature?\n\nA. Minimalist style\nB. Rustic style\nC. Industrial style",
+      "response": "NONE"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What type of design does the ceiling lamp in the room feature?\n\nA. Shark\nB. Oak\nC. Piano\nD. Frosting\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What type of design does the ceiling lamp in the room feature?\n\nA. Shark\nB. Oak\nC. Piano\nD. Frosting\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What type of design does the ceiling lamp in the room feature?\n\nA. Shark\nB. Oak\nC. Piano\nD. Frosting",
+      "response": "NONE"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What shape is the purple rug?\n\nA. Oval\nB. Rectangular\nC. Circular\nD. Square\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What shape is the purple rug?\n\nA. Oval\nB. Rectangular\nC. Circular\nD. Square\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What shape is the purple rug?\n\nA. Oval\nB. Rectangular\nC. Circular\nD. Square",
+      "response": "NA"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What musical instrument is hidden behind the plant?",
+      "response": "NA"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What musical instrument is hidden behind the plant?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What type of design does the ceiling lamp in the room feature?\n\nA. Chinoiserie style\nB. Minimalist style\nC. Rustic style\nD. Industrial style",
+      "response": "B"
+    }
+  ]
+}

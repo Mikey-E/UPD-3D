@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "faa97181-081a-4d85-86fe-0fe4189f1766@DiningRoom-2978",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 3",
+  "timestamp": "2025-10-30T11:36:54.787247",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/faa97181-081a-4d85-86fe-0fe4189f1766/DiningRoom-2978/DiningRoom-2978.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What color is the kitchen cabinet in the Dining Room?\n\nA. Black\nB. Light beige\nC. White\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What color is the kitchen cabinet in the Dining Room?\n\nA. Black\nB. Light beige\nC. White\nD. None of the above",
+      "response": "D"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What color is the kitchen cabinet in the Dining Room?\n\nA. Black\nB. Light beige\nC. White",
+      "response": "NONE"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What color is the kitchen cabinet in the Dining Room?\n\nA. Tropical rainforest\nB. Mountain range\nC. Deep ocean\nD. Desert landscape\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What color is the kitchen cabinet in the Dining Room?\n\nA. Tropical rainforest\nB. Mountain range\nC. Deep ocean\nD. Desert landscape\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What color is the kitchen cabinet in the Dining Room?\n\nA. Tropical rainforest\nB. Mountain range\nC. Deep ocean\nD. Desert landscape",
+      "response": "NONE"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What type of decorations are placed on the dining table?\n\nA. Centerpiece flowers\nB. Candles\nC. Tablecloth\nD. Coasters\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What type of decorations are placed on the dining table?\n\nA. Centerpiece flowers\nB. Candles\nC. Tablecloth\nD. Coasters\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What type of decorations are placed on the dining table?\n\nA. Centerpiece flowers\nB. Candles\nC. Tablecloth\nD. Coasters",
+      "response": "NA"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What type of outdoor grill is situated in the dining room?",
+      "response": "NA"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What type of outdoor grill is situated in the dining room?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What color is the kitchen cabinet in the Dining Room?\n\nA. Black\nB. Light beige\nC. Dark chocolate brown\nD. White",
+      "response": "C"
+    }
+  ]
+}

@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "ce51b1c1-72b8-4812-a291-30bf97c07aa1@KidsRoom-46853",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 5",
+  "timestamp": "2025-10-14T15:28:25.210435",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/ce51b1c1-72b8-4812-a291-30bf97c07aa1/KidsRoom-46853/KidsRoom-46853.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What shape and size is the main bed in the KidsRoom?\n\nA. Queen-size and circular\nB. Twin-size and square\nC. Full-size and triangular\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What shape and size is the main bed in the KidsRoom?\n\nA. Queen-size and circular\nB. Twin-size and square\nC. Full-size and triangular\nD. None of the above",
+      "response": "d"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What shape and size is the main bed in the KidsRoom?\n\nA. Queen-size and circular\nB. Twin-size and square\nC. Full-size and triangular",
+      "response": "none of these"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What shape and size is the main bed in the KidsRoom?\n\nA. Mountain\nB. Ocean\nC. Forest\nD. Desert\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What shape and size is the main bed in the KidsRoom?\n\nA. Mountain\nB. Ocean\nC. Forest\nD. Desert\nE. None of the above",
+      "response": "e"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What shape and size is the main bed in the KidsRoom?\n\nA. Mountain\nB. Ocean\nC. Forest\nD. Desert",
+      "response": "none of these"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What type of window treatment is featured in the scene?\n\nA. Venetian blinds\nB. Sheer curtains\nC. Roller shades\nD. Thermal drapes\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What type of window treatment is featured in the scene?\n\nA. Venetian blinds\nB. Sheer curtains\nC. Roller shades\nD. Thermal drapes\nE. None of the above",
+      "response": "e"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What type of window treatment is featured in the scene?\n\nA. Venetian blinds\nB. Sheer curtains\nC. Roller shades\nD. Thermal drapes",
+      "response": "none of these"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What is the shape of the coffee table in the room?",
+      "response": "unanswerable"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What is the shape of the coffee table in the room?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What shape and size is the main bed in the KidsRoom?\n\nA. King-size and rectangular\nB. Queen-size and circular\nC. Twin-size and square\nD. Full-size and triangular",
+      "response": "a"
+    }
+  ]
+}

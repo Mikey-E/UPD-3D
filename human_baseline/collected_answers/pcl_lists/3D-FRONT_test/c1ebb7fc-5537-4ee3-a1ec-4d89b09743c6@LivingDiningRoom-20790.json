@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "c1ebb7fc-5537-4ee3-a1ec-4d89b09743c6@LivingDiningRoom-20790",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 4",
+  "timestamp": "2025-10-06T10:57:52.453537",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/c1ebb7fc-5537-4ee3-a1ec-4d89b09743c6/LivingDiningRoom-20790/LivingDiningRoom-20790.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What is the style of the dining chairs surrounding the dining table?\n\nA. Vintage/Retro\nB. American Country\nC. Minimalist\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What is the style of the dining chairs surrounding the dining table?\n\nA. Vintage/Retro\nB. American Country\nC. Minimalist\nD. None of the above",
+      "response": "D"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What is the style of the dining chairs surrounding the dining table?\n\nA. Vintage/Retro\nB. American Country\nC. Minimalist",
+      "response": "none of these"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What is the style of the dining chairs surrounding the dining table?\n\nA. Ocean Current\nB. Mountain Range\nC. Desert Safari\nD. Urban Jungle\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What is the style of the dining chairs surrounding the dining table?\n\nA. Ocean Current\nB. Mountain Range\nC. Desert Safari\nD. Urban Jungle\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What is the style of the dining chairs surrounding the dining table?\n\nA. Ocean Current\nB. Mountain Range\nC. Desert Safari\nD. Urban Jungle",
+      "response": "none of these"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What type of floor material is used in the living room?\n\nA. Hardwood\nB. Carpet\nC. Tile\nD. Laminate\nIf none of the above answers are correct, answer: 'F'",
+      "response": "B"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What type of floor material is used in the living room?\n\nA. Hardwood\nB. Carpet\nC. Tile\nD. Laminate\nE. None of the above",
+      "response": "B"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What type of floor material is used in the living room?\n\nA. Hardwood\nB. Carpet\nC. Tile\nD. Laminate",
+      "response": "B"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What type of grand piano is placed in this living room?",
+      "response": "none"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What type of grand piano is placed in this living room?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What is the style of the dining chairs surrounding the dining table?\n\nA. Japanese-style\nB. Vintage/Retro\nC. American Country\nD. Minimalist",
+      "response": "A"
+    }
+  ]
+}

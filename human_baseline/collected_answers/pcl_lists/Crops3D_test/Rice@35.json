@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "Rice@35",
+  "dataset": "Crops3D_test",
+  "annotated_by": "User 5",
+  "timestamp": "2025-10-31T06:28:47.055425",
+  "file_path": "/project/3dllms/melgin/datasets/CEA/Crops3D/Rice/35.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What shape does the potted plant's foliage create?\n\nA. A flat surface\nB. A rounded canopy\nC. A bushy form\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What shape does the potted plant's foliage create?\n\nA. A flat surface\nB. A rounded canopy\nC. A bushy form\nD. None of the above",
+      "response": "d"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What shape does the potted plant's foliage create?\n\nA. A flat surface\nB. A rounded canopy\nC. A bushy form",
+      "response": "none"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What shape does the potted plant's foliage create?\n\nA. Polar bear\nB. Thunderstorm\nC. Winter solstice\nD. Grand piano\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What shape does the potted plant's foliage create?\n\nA. Polar bear\nB. Thunderstorm\nC. Winter solstice\nD. Grand piano\nE. None of the above",
+      "response": "e"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What shape does the potted plant's foliage create?\n\nA. Polar bear\nB. Thunderstorm\nC. Winter solstice\nD. Grand piano",
+      "response": "none"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What is the age of the sculpture in the room?\n\nA. 15 years\nB. 30 years\nC. 50 years\nD. 100 years\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What is the age of the sculpture in the room?\n\nA. 15 years\nB. 30 years\nC. 50 years\nD. 100 years\nE. None of the above",
+      "response": "e"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What is the age of the sculpture in the room?\n\nA. 15 years\nB. 30 years\nC. 50 years\nD. 100 years",
+      "response": "none"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What type of fruit is hanging from the tree outside the building?",
+      "response": "none"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What type of fruit is hanging from the tree outside the building?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What shape does the potted plant's foliage create?\n\nA. A spear-like silhouette\nB. A flat surface\nC. A rounded canopy\nD. A bushy form",
+      "response": "a"
+    }
+  ]
+}

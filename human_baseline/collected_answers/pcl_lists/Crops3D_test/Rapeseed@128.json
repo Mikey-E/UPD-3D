@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "Rapeseed@128",
+  "dataset": "Crops3D_test",
+  "annotated_by": "User 5",
+  "timestamp": "2025-10-30T23:37:12.044653",
+  "file_path": "/project/3dllms/melgin/datasets/CEA/Crops3D/Rapeseed/128.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What is the overall appearance of the plant described?\n\nA. It features large flowers and thick stems\nB. It has a tall trunk with broad leaves\nC. It has a wide base with no visible leaves\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What is the overall appearance of the plant described?\n\nA. It features large flowers and thick stems\nB. It has a tall trunk with broad leaves\nC. It has a wide base with no visible leaves\nD. None of the above",
+      "response": "d"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What is the overall appearance of the plant described?\n\nA. It features large flowers and thick stems\nB. It has a tall trunk with broad leaves\nC. It has a wide base with no visible leaves",
+      "response": "none"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What is the overall appearance of the plant described?\n\nA. Caffeine content\nB. Hydrogen bonding\nC. Quantum physics\nD. Plate tectonics\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What is the overall appearance of the plant described?\n\nA. Caffeine content\nB. Hydrogen bonding\nC. Quantum physics\nD. Plate tectonics\nE. None of the above",
+      "response": "e"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What is the overall appearance of the plant described?\n\nA. Caffeine content\nB. Hydrogen bonding\nC. Quantum physics\nD. Plate tectonics",
+      "response": "none"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What type of gemstone is found in the scene?\n\nA. Sapphire\nB. Emerald\nC. Ruby\nD. Diamond\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What type of gemstone is found in the scene?\n\nA. Sapphire\nB. Emerald\nC. Ruby\nD. Diamond\nE. None of the above",
+      "response": "e"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What type of gemstone is found in the scene?\n\nA. Sapphire\nB. Emerald\nC. Ruby\nD. Diamond",
+      "response": "none"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What type of wooden furniture is located next to the plant?",
+      "response": "none"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What type of wooden furniture is located next to the plant?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What is the overall appearance of the plant described?\n\nA. It features large flowers and thick stems\nB. It has a tall trunk with broad leaves\nC. It has a compact canopy and slender stems\nD. It has a wide base with no visible leaves",
+      "response": "c"
+    }
+  ]
+}

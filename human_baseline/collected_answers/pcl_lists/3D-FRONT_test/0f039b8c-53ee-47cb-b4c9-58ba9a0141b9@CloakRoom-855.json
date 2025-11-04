@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "0f039b8c-53ee-47cb-b4c9-58ba9a0141b9@CloakRoom-855",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 3",
+  "timestamp": "2025-10-14T00:09:15.879684",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/0f039b8c-53ee-47cb-b4c9-58ba9a0141b9/CloakRoom-855/CloakRoom-855.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What is the design style of the wardrobes in the CloakRoom?\n\nA. Modern minimalist\nB. Rustic farmhouse\nC. Industrial chic\nIf none of the above answers are correct, answer: 'F'",
+      "response": "A"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What is the design style of the wardrobes in the CloakRoom?\n\nA. Modern minimalist\nB. Rustic farmhouse\nC. Industrial chic\nD. None of the above",
+      "response": "A"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What is the design style of the wardrobes in the CloakRoom?\n\nA. Modern minimalist\nB. Rustic farmhouse\nC. Industrial chic",
+      "response": "A"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What is the design style of the wardrobes in the CloakRoom?\n\nA. Cactus\nB. Avalanche\nC. Harmony\nD. Reverberation\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What is the design style of the wardrobes in the CloakRoom?\n\nA. Cactus\nB. Avalanche\nC. Harmony\nD. Reverberation\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What is the design style of the wardrobes in the CloakRoom?\n\nA. Cactus\nB. Avalanche\nC. Harmony\nD. Reverberation",
+      "response": "None"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What type of fabric is used for the curtains in the scene?\n\nA. Silk\nB. Cotton\nC. Velvet\nD. Linen\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What type of fabric is used for the curtains in the scene?\n\nA. Silk\nB. Cotton\nC. Velvet\nD. Linen\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What type of fabric is used for the curtains in the scene?\n\nA. Silk\nB. Cotton\nC. Velvet\nD. Linen",
+      "response": "None"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What is the size of the dining table in this space?",
+      "response": "N/A"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What is the size of the dining table in this space?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What is the design style of the wardrobes in the CloakRoom?\n\nA. Modern minimalist\nB. Rustic farmhouse\nC. Industrial chic\nD. Korean-style",
+      "response": "A"
+    }
+  ]
+}

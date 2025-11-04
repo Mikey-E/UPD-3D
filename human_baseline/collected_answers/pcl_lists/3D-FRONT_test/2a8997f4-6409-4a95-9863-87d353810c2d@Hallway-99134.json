@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "2a8997f4-6409-4a95-9863-87d353810c2d@Hallway-99134",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 5",
+  "timestamp": "2025-10-28T16:08:14.316982",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/2a8997f4-6409-4a95-9863-87d353810c2d/Hallway-99134/Hallway-99134.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What colors are prominently featured in the side cabinet of the Hallway?\n\nA. Blue and white\nB. Black and gold\nC. Red and yellow\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What colors are prominently featured in the side cabinet of the Hallway?\n\nA. Blue and white\nB. Black and gold\nC. Red and yellow\nD. None of the above",
+      "response": "d"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What colors are prominently featured in the side cabinet of the Hallway?\n\nA. Blue and white\nB. Black and gold\nC. Red and yellow",
+      "response": "none"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What colors are prominently featured in the side cabinet of the Hallway?\n\nA. Cactus Green\nB. Ocean Blue\nC. Desert Sand\nD. Midnight Purple\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What colors are prominently featured in the side cabinet of the Hallway?\n\nA. Cactus Green\nB. Ocean Blue\nC. Desert Sand\nD. Midnight Purple\nE. None of the above",
+      "response": "e"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What colors are prominently featured in the side cabinet of the Hallway?\n\nA. Cactus Green\nB. Ocean Blue\nC. Desert Sand\nD. Midnight Purple",
+      "response": "none"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What type of sculpture enhances the appearance of the hallway?\n\nA. Abstract sculpture\nB. Classical bust\nC. Metal shadow box\nD. Wooden totem\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What type of sculpture enhances the appearance of the hallway?\n\nA. Abstract sculpture\nB. Classical bust\nC. Metal shadow box\nD. Wooden totem\nE. None of the above",
+      "response": "e"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What type of sculpture enhances the appearance of the hallway?\n\nA. Abstract sculpture\nB. Classical bust\nC. Metal shadow box\nD. Wooden totem",
+      "response": "none"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What shape is the chandelier hanging from the ceiling?",
+      "response": "none"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What shape is the chandelier hanging from the ceiling?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What colors are prominently featured in the side cabinet of the Hallway?\n\nA. Dark brown and grey\nB. Blue and white\nC. Black and gold\nD. Red and yellow",
+      "response": "a"
+    }
+  ]
+}

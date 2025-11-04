@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "d575b87e-5dff-449e-a851-e4cc6f3a3eab@Hallway-3867",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 5",
+  "timestamp": "2025-10-16T11:39:21.536646",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/d575b87e-5dff-449e-a851-e4cc6f3a3eab/Hallway-3867/Hallway-3867.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What style is the shoe cabinet in the hallway?\n\nA. Contemporary\nB. Modern\nC. Rustic\nIf none of the above answers are correct, answer: 'F'",
+      "response": "a"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What style is the shoe cabinet in the hallway?\n\nA. Contemporary\nB. Modern\nC. Rustic\nD. None of the above",
+      "response": "a"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What style is the shoe cabinet in the hallway?\n\nA. Contemporary\nB. Modern\nC. Rustic",
+      "response": "a"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What style is the shoe cabinet in the hallway?\n\nA. Forest\nB. Desert\nC. Ocean\nD. Mountain\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What style is the shoe cabinet in the hallway?\n\nA. Forest\nB. Desert\nC. Ocean\nD. Mountain\nE. None of the above",
+      "response": "e"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What style is the shoe cabinet in the hallway?\n\nA. Forest\nB. Desert\nC. Ocean\nD. Mountain",
+      "response": "none of these"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What shape is the window in the hallway?\n\nA. Round\nB. Square\nC. Triangular\nD. Oval\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What shape is the window in the hallway?\n\nA. Round\nB. Square\nC. Triangular\nD. Oval\nE. None of the above",
+      "response": "e"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What shape is the window in the hallway?\n\nA. Round\nB. Square\nC. Triangular\nD. Oval",
+      "response": "none of these"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What is the shape of the coffee table?",
+      "response": "unanswerable"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What is the shape of the coffee table?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What style is the shoe cabinet in the hallway?\n\nA. Contemporary\nB. Modern\nC. Rustic\nD. American Country",
+      "response": "a"
+    }
+  ]
+}

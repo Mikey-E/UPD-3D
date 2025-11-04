@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "e0435e6d-85c6-497b-a7d6-2e5463b9d3f6@Bedroom-16247",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 5",
+  "timestamp": "2025-10-24T20:35:30.175914",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/e0435e6d-85c6-497b-a7d6-2e5463b9d3f6/Bedroom-16247/Bedroom-16247.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What type of bed is at the center of the bedroom?\n\nA. Queen-size bed\nB. Double bed\nC. Twin bed\nIf none of the above answers are correct, answer: 'F'",
+      "response": "b"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What type of bed is at the center of the bedroom?\n\nA. Queen-size bed\nB. Double bed\nC. Twin bed\nD. None of the above",
+      "response": "b"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What type of bed is at the center of the bedroom?\n\nA. Queen-size bed\nB. Double bed\nC. Twin bed",
+      "response": "b"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What type of bed is at the center of the bedroom?\n\nA. Hydrogen\nB. Quartz\nC. Sodium\nD. Carbon\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What type of bed is at the center of the bedroom?\n\nA. Hydrogen\nB. Quartz\nC. Sodium\nD. Carbon\nE. None of the above",
+      "response": "e"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What type of bed is at the center of the bedroom?\n\nA. Hydrogen\nB. Quartz\nC. Sodium\nD. Carbon",
+      "response": "none"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What type of chairs are used around the table?\n\nA. Bar stools\nB. Recliners\nC. Dining chairs\nD. Office chairs\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What type of chairs are used around the table?\n\nA. Bar stools\nB. Recliners\nC. Dining chairs\nD. Office chairs\nE. None of the above",
+      "response": "e"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What type of chairs are used around the table?\n\nA. Bar stools\nB. Recliners\nC. Dining chairs\nD. Office chairs",
+      "response": "none"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What kind of exercise equipment is located in the bedroom?",
+      "response": "none"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What kind of exercise equipment is located in the bedroom?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What type of bed is at the center of the bedroom?\n\nA. Queen-size bed\nB. Double bed\nC. King-size bed\nD. Twin bed",
+      "response": "b"
+    }
+  ]
+}

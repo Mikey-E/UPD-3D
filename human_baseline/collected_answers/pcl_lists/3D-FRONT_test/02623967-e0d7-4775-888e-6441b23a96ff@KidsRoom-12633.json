@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "02623967-e0d7-4775-888e-6441b23a96ff@KidsRoom-12633",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 5",
+  "timestamp": "2025-10-31T10:23:13.653719",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/02623967-e0d7-4775-888e-6441b23a96ff/KidsRoom-12633/KidsRoom-12633.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What is the material finish of the wardrobe in the kids room?\n\nA. Soft tufted fabric with Mediterranean design\nB. Glossy white with gold-toned accents\nC. Metallic grey with modern lines\nIf none of the above answers are correct, answer: 'F'",
+      "response": "b"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What is the material finish of the wardrobe in the kids room?\n\nA. Soft tufted fabric with Mediterranean design\nB. Glossy white with gold-toned accents\nC. Metallic grey with modern lines\nD. None of the above",
+      "response": "b"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What is the material finish of the wardrobe in the kids room?\n\nA. Soft tufted fabric with Mediterranean design\nB. Glossy white with gold-toned accents\nC. Metallic grey with modern lines",
+      "response": "b"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What is the material finish of the wardrobe in the kids room?\n\nA. Quantum mechanics\nB. Classical literature\nC. Modern art movements\nD. Historical geography\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What is the material finish of the wardrobe in the kids room?\n\nA. Quantum mechanics\nB. Classical literature\nC. Modern art movements\nD. Historical geography\nE. None of the above",
+      "response": "e"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What is the material finish of the wardrobe in the kids room?\n\nA. Quantum mechanics\nB. Classical literature\nC. Modern art movements\nD. Historical geography",
+      "response": "none"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What type of toys are stored under the bed?\n\nA. Action figures\nB. Building blocks\nC. Stuffed animals\nD. Puzzles\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What type of toys are stored under the bed?\n\nA. Action figures\nB. Building blocks\nC. Stuffed animals\nD. Puzzles\nE. None of the above",
+      "response": "e"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What type of toys are stored under the bed?\n\nA. Action figures\nB. Building blocks\nC. Stuffed animals\nD. Puzzles",
+      "response": "none"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What type of outdoor swimming pool is located just outside the room?",
+      "response": "none"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What type of outdoor swimming pool is located just outside the room?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What is the material finish of the wardrobe in the kids room?\n\nA. Soft tufted fabric with Mediterranean design\nB. Glossy white with gold-toned accents\nC. Weathered grey with a rustic Korean flair\nD. Metallic grey with modern lines",
+      "response": "b"
+    }
+  ]
+}

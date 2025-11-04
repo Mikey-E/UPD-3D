@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "c0faf631-c985-4943-866d-8492b9d90ebf@LivingDiningRoom-8375",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 5",
+  "timestamp": "2025-10-06T10:23:53.912581",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/c0faf631-c985-4943-866d-8492b9d90ebf/LivingDiningRoom-8375/LivingDiningRoom-8375.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What color is the coffee table in the living room?\n\nA. Walnut brown\nB. Light gray\nC. Gold\nIf none of the above answers are correct, answer: 'F'",
+      "response": "a"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What color is the coffee table in the living room?\n\nA. Walnut brown\nB. Light gray\nC. Gold\nD. None of the above",
+      "response": "a"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What color is the coffee table in the living room?\n\nA. Walnut brown\nB. Light gray\nC. Gold",
+      "response": "a"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What color is the coffee table in the living room?\n\nA. Symphony\nB. Harmony\nC. Melody\nD. Rhythm\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What color is the coffee table in the living room?\n\nA. Symphony\nB. Harmony\nC. Melody\nD. Rhythm\nE. None of the above",
+      "response": "e"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What color is the coffee table in the living room?\n\nA. Symphony\nB. Harmony\nC. Melody\nD. Rhythm",
+      "response": "none of the above"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What is the size of the pool table in the living room?\n\nA. 7 feet\nB. 9 feet\nC. 8 feet\nD. 10 feet\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What is the size of the pool table in the living room?\n\nA. 7 feet\nB. 9 feet\nC. 8 feet\nD. 10 feet\nE. None of the above",
+      "response": "e"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What is the size of the pool table in the living room?\n\nA. 7 feet\nB. 9 feet\nC. 8 feet\nD. 10 feet",
+      "response": "none of the above"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What type of exercise equipment is hidden behind the sofa?",
+      "response": "no equipment"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What type of exercise equipment is hidden behind the sofa?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "no equipment"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What color is the coffee table in the living room?\n\nA. Walnut brown\nB. Light gray\nC. Dark brown\nD. Gold",
+      "response": "a"
+    }
+  ]
+}

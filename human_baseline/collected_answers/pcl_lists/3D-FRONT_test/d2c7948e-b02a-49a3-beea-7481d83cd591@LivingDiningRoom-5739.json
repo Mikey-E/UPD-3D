@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "d2c7948e-b02a-49a3-beea-7481d83cd591@LivingDiningRoom-5739",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 4",
+  "timestamp": "2025-10-15T20:54:24.399605",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/d2c7948e-b02a-49a3-beea-7481d83cd591/LivingDiningRoom-5739/LivingDiningRoom-5739.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What type of chair adds a touch of Ming Qing style to the living room?\n\nA. Recliner chair\nB. Armchair\nC. Bean bag chair\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What type of chair adds a touch of Ming Qing style to the living room?\n\nA. Recliner chair\nB. Armchair\nC. Bean bag chair\nD. None of the above",
+      "response": "D"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What type of chair adds a touch of Ming Qing style to the living room?\n\nA. Recliner chair\nB. Armchair\nC. Bean bag chair",
+      "response": "None"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What type of chair adds a touch of Ming Qing style to the living room?\n\nA. Blue Whale\nB. Great Wall of China\nC. Yangtze River\nD. Silk Road\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What type of chair adds a touch of Ming Qing style to the living room?\n\nA. Blue Whale\nB. Great Wall of China\nC. Yangtze River\nD. Silk Road\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What type of chair adds a touch of Ming Qing style to the living room?\n\nA. Blue Whale\nB. Great Wall of China\nC. Yangtze River\nD. Silk Road",
+      "response": "None"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What type of artwork is displayed in the living room?\n\nA. Abstract painting\nB. Landscape photograph\nC. Sculpture\nD. Textile mural\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What type of artwork is displayed in the living room?\n\nA. Abstract painting\nB. Landscape photograph\nC. Sculpture\nD. Textile mural\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What type of artwork is displayed in the living room?\n\nA. Abstract painting\nB. Landscape photograph\nC. Sculpture\nD. Textile mural",
+      "response": "None"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What type of sports equipment is located in the living room?",
+      "response": "unanswerable"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What type of sports equipment is located in the living room?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What type of chair adds a touch of Ming Qing style to the living room?\n\nA. Classic Chinese chair\nB. Recliner chair\nC. Armchair\nD. Bean bag chair",
+      "response": "A"
+    }
+  ]
+}

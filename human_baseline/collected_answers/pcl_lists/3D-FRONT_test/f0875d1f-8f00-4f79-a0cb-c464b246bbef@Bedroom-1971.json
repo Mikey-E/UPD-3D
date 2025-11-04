@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "f0875d1f-8f00-4f79-a0cb-c464b246bbef@Bedroom-1971",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 4",
+  "timestamp": "2025-10-28T20:59:47.419278",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/f0875d1f-8f00-4f79-a0cb-c464b246bbef/Bedroom-1971/Bedroom-1971.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What color is the wardrobe in the described bedroom?\n\nA. Light blue\nB. Dark brown\nC. Soft gray\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What color is the wardrobe in the described bedroom?\n\nA. Light blue\nB. Dark brown\nC. Soft gray\nD. None of the above",
+      "response": "D"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What color is the wardrobe in the described bedroom?\n\nA. Light blue\nB. Dark brown\nC. Soft gray",
+      "response": "None"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What color is the wardrobe in the described bedroom?\n\nA. Mercury\nB. Neptune\nC. Hydrogen\nD. Sapphire\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What color is the wardrobe in the described bedroom?\n\nA. Mercury\nB. Neptune\nC. Hydrogen\nD. Sapphire\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What color is the wardrobe in the described bedroom?\n\nA. Mercury\nB. Neptune\nC. Hydrogen\nD. Sapphire",
+      "response": "None"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What type of chair is located in the scene?\n\nA. Recliner\nB. Dining chair\nC. Armchair\nD. Rocking chair\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What type of chair is located in the scene?\n\nA. Recliner\nB. Dining chair\nC. Armchair\nD. Rocking chair\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What type of chair is located in the scene?\n\nA. Recliner\nB. Dining chair\nC. Armchair\nD. Rocking chair",
+      "response": "None"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What type of outdoor equipment is stored in this room?",
+      "response": "unanswerable"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What type of outdoor equipment is stored in this room?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What color is the wardrobe in the described bedroom?\n\nA. Light blue\nB. Classic white\nC. Dark brown\nD. Soft gray",
+      "response": "B"
+    }
+  ]
+}

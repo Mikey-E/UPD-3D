@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "ff3e6faa-0224-40a4-83aa-498e31944844@SecondBedroom-160421",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 5",
+  "timestamp": "2025-10-31T08:28:08.511915",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/ff3e6faa-0224-40a4-83aa-498e31944844/SecondBedroom-160421/SecondBedroom-160421.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What color are the nightstands in the Second bedroom?\n\nA. Black\nB. White\nC. Light blue\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What color are the nightstands in the Second bedroom?\n\nA. Black\nB. White\nC. Light blue\nD. None of the above",
+      "response": "d"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What color are the nightstands in the Second bedroom?\n\nA. Black\nB. White\nC. Light blue",
+      "response": "none"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What color are the nightstands in the Second bedroom?\n\nA. Cactus\nB. Sandcastle\nC. Raindrop\nD. Moonlight\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What color are the nightstands in the Second bedroom?\n\nA. Cactus\nB. Sandcastle\nC. Raindrop\nD. Moonlight\nE. None of the above",
+      "response": "e"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What color are the nightstands in the Second bedroom?\n\nA. Cactus\nB. Sandcastle\nC. Raindrop\nD. Moonlight",
+      "response": "none"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What type of sculpture is featured prominently in the scene?\n\nA. Abstract sculpture\nB. Classical statue\nC. Modern bust\nD. Kinetic artwork\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What type of sculpture is featured prominently in the scene?\n\nA. Abstract sculpture\nB. Classical statue\nC. Modern bust\nD. Kinetic artwork\nE. None of the above",
+      "response": "e"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What type of sculpture is featured prominently in the scene?\n\nA. Abstract sculpture\nB. Classical statue\nC. Modern bust\nD. Kinetic artwork",
+      "response": "none"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What type of desk is situated in the room?",
+      "response": "none"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What type of desk is situated in the room?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What color are the nightstands in the Second bedroom?\n\nA. Walnut brown\nB. Black\nC. White\nD. Light blue",
+      "response": "a"
+    }
+  ]
+}

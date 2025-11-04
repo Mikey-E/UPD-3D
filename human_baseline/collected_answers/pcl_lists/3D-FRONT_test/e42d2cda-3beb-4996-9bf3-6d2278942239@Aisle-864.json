@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "e42d2cda-3beb-4996-9bf3-6d2278942239@Aisle-864",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 5",
+  "timestamp": "2025-10-25T19:53:48.859594",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/e42d2cda-3beb-4996-9bf3-6d2278942239/Aisle-864/Aisle-864.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What is the color of the ceiling lamp in the aisle?\n\nA. Dark brown\nB. Glossy black\nC. Bright white\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What is the color of the ceiling lamp in the aisle?\n\nA. Dark brown\nB. Glossy black\nC. Bright white\nD. None of the above",
+      "response": "d"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What is the color of the ceiling lamp in the aisle?\n\nA. Dark brown\nB. Glossy black\nC. Bright white",
+      "response": "none"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What is the color of the ceiling lamp in the aisle?\n\nA. Mercury\nB. Sodium\nC. Calcium\nD. Helium\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What is the color of the ceiling lamp in the aisle?\n\nA. Mercury\nB. Sodium\nC. Calcium\nD. Helium\nE. None of the above",
+      "response": "e"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What is the color of the ceiling lamp in the aisle?\n\nA. Mercury\nB. Sodium\nC. Calcium\nD. Helium",
+      "response": "none"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What shape is the coffee table?\n\nA. Round\nB. Oval\nC. Square\nD. Rectangular\nIf none of the above answers are correct, answer: 'F'",
+      "response": "none"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What shape is the coffee table?\n\nA. Round\nB. Oval\nC. Square\nD. Rectangular\nE. None of the above",
+      "response": "e"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What shape is the coffee table?\n\nA. Round\nB. Oval\nC. Square\nD. Rectangular",
+      "response": "none"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What type of animal is sitting under the drawer chest?",
+      "response": "none"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What type of animal is sitting under the drawer chest?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What is the color of the ceiling lamp in the aisle?\n\nA. Warm cream\nB. Dark brown\nC. Glossy black\nD. Bright white",
+      "response": "none"
+    }
+  ]
+}

@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "d6bb4731-c25f-4f2b-abbf-cea2982d2485@SecondBedroom-1132",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 4",
+  "timestamp": "2025-10-16T13:41:53.117597",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/d6bb4731-c25f-4f2b-abbf-cea2982d2485/SecondBedroom-1132/SecondBedroom-1132.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What is the color of the king-size bed in the bedroom?\n\nA. Light grey\nB. Jet black\nC. Bright white\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What is the color of the king-size bed in the bedroom?\n\nA. Light grey\nB. Jet black\nC. Bright white\nD. None of the above",
+      "response": "d"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What is the color of the king-size bed in the bedroom?\n\nA. Light grey\nB. Jet black\nC. Bright white",
+      "response": "none"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What is the color of the king-size bed in the bedroom?\n\nA. Dolphin\nB. Mountain\nC. Galaxy\nD. Firefly\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What is the color of the king-size bed in the bedroom?\n\nA. Dolphin\nB. Mountain\nC. Galaxy\nD. Firefly\nE. None of the above",
+      "response": "e"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What is the color of the king-size bed in the bedroom?\n\nA. Dolphin\nB. Mountain\nC. Galaxy\nD. Firefly",
+      "response": "none"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What type of sculpture is displayed in the bedroom?\n\nA. Abstract statue\nB. Marble bust\nC. Contemporary relief\nD. Brass figurine\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What type of sculpture is displayed in the bedroom?\n\nA. Abstract statue\nB. Marble bust\nC. Contemporary relief\nD. Brass figurine\nE. None of the above",
+      "response": "e"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What type of sculpture is displayed in the bedroom?\n\nA. Abstract statue\nB. Marble bust\nC. Contemporary relief\nD. Brass figurine",
+      "response": "none"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What is the size and color of the sofa in the room?",
+      "response": "n/a"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What is the size and color of the sofa in the room?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What is the color of the king-size bed in the bedroom?\n\nA. Light grey\nB. Dark brown\nC. Jet black\nD. Bright white",
+      "response": "b"
+    }
+  ]
+}

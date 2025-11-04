@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "ded92311-1bc8-4381-8f55-9c0bd1f315c4@MasterBedroom-37666",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 4",
+  "timestamp": "2025-10-24T16:30:50.135542",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/ded92311-1bc8-4381-8f55-9c0bd1f315c4/MasterBedroom-37666/MasterBedroom-37666.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What color is the ceiling lamp in the master bedroom?\n\nA. Deep teal\nB. Soft grey\nC. Mint green\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What color is the ceiling lamp in the master bedroom?\n\nA. Deep teal\nB. Soft grey\nC. Mint green\nD. None of the above",
+      "response": "d"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What color is the ceiling lamp in the master bedroom?\n\nA. Deep teal\nB. Soft grey\nC. Mint green",
+      "response": "none"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What color is the ceiling lamp in the master bedroom?\n\nA. Geometry\nB. Chemistry\nC. History\nD. Philosophy\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What color is the ceiling lamp in the master bedroom?\n\nA. Geometry\nB. Chemistry\nC. History\nD. Philosophy\nE. None of the above",
+      "response": "e"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What color is the ceiling lamp in the master bedroom?\n\nA. Geometry\nB. Chemistry\nC. History\nD. Philosophy",
+      "response": "none"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What style is the rug in the Master bedroom?\n\nA. Persian\nB. Shag\nC. Contemporary\nD. Oriental\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What style is the rug in the Master bedroom?\n\nA. Persian\nB. Shag\nC. Contemporary\nD. Oriental\nE. None of the above",
+      "response": "e"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What style is the rug in the Master bedroom?\n\nA. Persian\nB. Shag\nC. Contemporary\nD. Oriental",
+      "response": "none"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What color is the rug in the room?",
+      "response": "n/a"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What color is the rug in the room?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What color is the ceiling lamp in the master bedroom?\n\nA. Honeycomb pattern black\nB. Deep teal\nC. Soft grey\nD. Mint green",
+      "response": "a"
+    }
+  ]
+}

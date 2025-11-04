@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "e7fed67a-ded2-424e-93fd-c64e5a35ae8b@LivingDiningRoom-21521",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 3",
+  "timestamp": "2025-10-27T08:20:17.159818",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/e7fed67a-ded2-424e-93fd-c64e5a35ae8b/LivingDiningRoom-21521/LivingDiningRoom-21521.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What design style is primarily reflected in the dining chairs surrounding the dining table?\n\nA. Neoclassical\nB. Minimalist\nC. Japanese\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What design style is primarily reflected in the dining chairs surrounding the dining table?\n\nA. Neoclassical\nB. Minimalist\nC. Japanese\nD. None of the above",
+      "response": "D"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What design style is primarily reflected in the dining chairs surrounding the dining table?\n\nA. Neoclassical\nB. Minimalist\nC. Japanese",
+      "response": "None"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What design style is primarily reflected in the dining chairs surrounding the dining table?\n\nA. Tropical rainforest\nB. Desert plateau\nC. Urban skyline\nD. Ocean floor\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What design style is primarily reflected in the dining chairs surrounding the dining table?\n\nA. Tropical rainforest\nB. Desert plateau\nC. Urban skyline\nD. Ocean floor\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What design style is primarily reflected in the dining chairs surrounding the dining table?\n\nA. Tropical rainforest\nB. Desert plateau\nC. Urban skyline\nD. Ocean floor",
+      "response": "None"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What is the height of the ceiling in the living room?\n\nA. Ten feet\nB. Twelve feet\nC. Eight feet\nD. Fifteen feet\nIf none of the above answers are correct, answer: 'F'",
+      "response": "B"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What is the height of the ceiling in the living room?\n\nA. Ten feet\nB. Twelve feet\nC. Eight feet\nD. Fifteen feet\nE. None of the above",
+      "response": "B"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What is the height of the ceiling in the living room?\n\nA. Ten feet\nB. Twelve feet\nC. Eight feet\nD. Fifteen feet",
+      "response": "B"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What type of exercise equipment is in the room?",
+      "response": "N/A"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What type of exercise equipment is in the room?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What design style is primarily reflected in the dining chairs surrounding the dining table?\n\nA. Neoclassical\nB. Modern\nC. Minimalist\nD. Japanese",
+      "response": "B"
+    }
+  ]
+}

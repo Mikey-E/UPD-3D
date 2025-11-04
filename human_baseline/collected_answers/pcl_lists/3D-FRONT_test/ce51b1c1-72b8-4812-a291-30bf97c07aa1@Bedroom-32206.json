@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "ce51b1c1-72b8-4812-a291-30bf97c07aa1@Bedroom-32206",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 5",
+  "timestamp": "2025-10-14T15:27:30.013467",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/ce51b1c1-72b8-4812-a291-30bf97c07aa1/Bedroom-32206/Bedroom-32206.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What is the style of the two nightstands flanking the king-size bed?\n\nA. Southeast Asian style\nB. Vintage style\nC. Minimalist style\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What is the style of the two nightstands flanking the king-size bed?\n\nA. Southeast Asian style\nB. Vintage style\nC. Minimalist style\nD. None of the above",
+      "response": "d"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What is the style of the two nightstands flanking the king-size bed?\n\nA. Southeast Asian style\nB. Vintage style\nC. Minimalist style",
+      "response": "none of these"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What is the style of the two nightstands flanking the king-size bed?\n\nA. Ancient civilization artifacts\nB. Modern art movements\nC. Famous culinary dishes\nD. Popular travel destinations\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What is the style of the two nightstands flanking the king-size bed?\n\nA. Ancient civilization artifacts\nB. Modern art movements\nC. Famous culinary dishes\nD. Popular travel destinations\nE. None of the above",
+      "response": "e"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What is the style of the two nightstands flanking the king-size bed?\n\nA. Ancient civilization artifacts\nB. Modern art movements\nC. Famous culinary dishes\nD. Popular travel destinations",
+      "response": "none of these"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What type of flooring is recommended for enhancing sound quality in a studio?\n\nA. Hardwood\nB. Carpet\nC. Tile\nD. Concrete\nIf none of the above answers are correct, answer: 'F'",
+      "response": "b"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What type of flooring is recommended for enhancing sound quality in a studio?\n\nA. Hardwood\nB. Carpet\nC. Tile\nD. Concrete\nE. None of the above",
+      "response": "b"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What type of flooring is recommended for enhancing sound quality in a studio?\n\nA. Hardwood\nB. Carpet\nC. Tile\nD. Concrete",
+      "response": "b"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What type of coffee machine is used in this bedroom?",
+      "response": "unanswerable"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What type of coffee machine is used in this bedroom?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What is the style of the two nightstands flanking the king-size bed?\n\nA. Southeast Asian style\nB. Vintage style\nC. Minimalist style\nD. Korean style",
+      "response": "d"
+    }
+  ]
+}

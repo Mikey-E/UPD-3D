@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "c4eb86a1-f886-4f85-9127-19a4e4d6e45a@LivingDiningRoom-2486",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 3",
+  "timestamp": "2025-10-08T11:16:04.972727",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/c4eb86a1-f886-4f85-9127-19a4e4d6e45a/LivingDiningRoom-2486/LivingDiningRoom-2486.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What is the color of the three-seat sofa in the living room?\n\nA. Beige\nB. White\nC. Silver\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What is the color of the three-seat sofa in the living room?\n\nA. Beige\nB. White\nC. Silver\nD. None of the above",
+      "response": "D"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What is the color of the three-seat sofa in the living room?\n\nA. Beige\nB. White\nC. Silver",
+      "response": "None"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What is the color of the three-seat sofa in the living room?\n\nA. Maple syrup\nB. Eiffel Tower\nC. Electric guitar\nD. Solar eclipse\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What is the color of the three-seat sofa in the living room?\n\nA. Maple syrup\nB. Eiffel Tower\nC. Electric guitar\nD. Solar eclipse\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What is the color of the three-seat sofa in the living room?\n\nA. Maple syrup\nB. Eiffel Tower\nC. Electric guitar\nD. Solar eclipse",
+      "response": "None"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What type of fruit can be found on the coffee table?\n\nA. Apples\nB. Bananas\nC. Oranges\nD. Grapes\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What type of fruit can be found on the coffee table?\n\nA. Apples\nB. Bananas\nC. Oranges\nD. Grapes\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What type of fruit can be found on the coffee table?\n\nA. Apples\nB. Bananas\nC. Oranges\nD. Grapes",
+      "response": "None"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What type of outdoor grill is available in the living room?",
+      "response": "N/A"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What type of outdoor grill is available in the living room?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What is the color of the three-seat sofa in the living room?\n\nA. Beige\nB. White\nC. Grey\nD. Silver",
+      "response": "C"
+    }
+  ]
+}

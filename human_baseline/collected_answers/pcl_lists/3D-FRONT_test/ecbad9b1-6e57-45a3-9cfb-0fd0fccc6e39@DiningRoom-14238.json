@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "ecbad9b1-6e57-45a3-9cfb-0fd0fccc6e39@DiningRoom-14238",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 3",
+  "timestamp": "2025-10-27T16:30:35.300156",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/ecbad9b1-6e57-45a3-9cfb-0fd0fccc6e39/DiningRoom-14238/DiningRoom-14238.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What type of light fixture is hanging above the dining table in the DiningRoom?\n\nA. Ceiling fan\nB. Chandelier\nC. Floor lamp\nIf none of the above answers are correct, answer: 'F'",
+      "response": "B"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What type of light fixture is hanging above the dining table in the DiningRoom?\n\nA. Ceiling fan\nB. Chandelier\nC. Floor lamp\nD. None of the above",
+      "response": "B"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What type of light fixture is hanging above the dining table in the DiningRoom?\n\nA. Ceiling fan\nB. Chandelier\nC. Floor lamp",
+      "response": "B"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What type of light fixture is hanging above the dining table in the DiningRoom?\n\nA. Pineapple\nB. Laptop\nC. Refrigerator\nD. Telescope\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What type of light fixture is hanging above the dining table in the DiningRoom?\n\nA. Pineapple\nB. Laptop\nC. Refrigerator\nD. Telescope\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What type of light fixture is hanging above the dining table in the DiningRoom?\n\nA. Pineapple\nB. Laptop\nC. Refrigerator\nD. Telescope",
+      "response": "None"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What type of window treatment enhances the lighting in the room?\n\nA. Vertical blinds\nB. Roman shades\nC. Sheer curtains\nD. Roller shades\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What type of window treatment enhances the lighting in the room?\n\nA. Vertical blinds\nB. Roman shades\nC. Sheer curtains\nD. Roller shades\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What type of window treatment enhances the lighting in the room?\n\nA. Vertical blinds\nB. Roman shades\nC. Sheer curtains\nD. Roller shades",
+      "response": "None"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What type of television is mounted on the wall?",
+      "response": "N/A"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What type of television is mounted on the wall?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What type of light fixture is hanging above the dining table in the DiningRoom?\n\nA. Ceiling fan\nB. Chandelier\nC. Pendant lamp\nD. Floor lamp",
+      "response": "B"
+    }
+  ]
+}

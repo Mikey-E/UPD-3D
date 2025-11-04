@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "dc53f093-fca0-495b-a659-fd77cd6292a5@SecondBedroom-36724",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 4",
+  "timestamp": "2025-10-21T10:30:06.979579",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/dc53f093-fca0-495b-a659-fd77cd6292a5/SecondBedroom-36724/SecondBedroom-36724.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What is the color scheme of the pendant lamp that hangs above the king-size bed?\n\nA. Blue and grey\nB. Matte black\nC. Neutral beige\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What is the color scheme of the pendant lamp that hangs above the king-size bed?\n\nA. Blue and grey\nB. Matte black\nC. Neutral beige\nD. None of the above",
+      "response": "D"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What is the color scheme of the pendant lamp that hangs above the king-size bed?\n\nA. Blue and grey\nB. Matte black\nC. Neutral beige",
+      "response": "None"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What is the color scheme of the pendant lamp that hangs above the king-size bed?\n\nA. Jazz music\nB. Quantum mechanics\nC. Ancient civilizations\nD. Marine biology\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What is the color scheme of the pendant lamp that hangs above the king-size bed?\n\nA. Jazz music\nB. Quantum mechanics\nC. Ancient civilizations\nD. Marine biology\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What is the color scheme of the pendant lamp that hangs above the king-size bed?\n\nA. Jazz music\nB. Quantum mechanics\nC. Ancient civilizations\nD. Marine biology",
+      "response": "None"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What type of shelf is commonly used to display trophies?\n\nA. Corner shelf\nB. Wall-mounted shelf\nC. Bookshelf\nD. Floating shelf\nIf none of the above answers are correct, answer: 'F'",
+      "response": "A"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What type of shelf is commonly used to display trophies?\n\nA. Corner shelf\nB. Wall-mounted shelf\nC. Bookshelf\nD. Floating shelf\nE. None of the above",
+      "response": "A"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What type of shelf is commonly used to display trophies?\n\nA. Corner shelf\nB. Wall-mounted shelf\nC. Bookshelf\nD. Floating shelf",
+      "response": "A"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What type of sports equipment is stored in this room?",
+      "response": "unanswerable"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What type of sports equipment is stored in this room?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What is the color scheme of the pendant lamp that hangs above the king-size bed?\n\nA. White and gold\nB. Blue and grey\nC. Matte black\nD. Neutral beige",
+      "response": "A"
+    }
+  ]
+}

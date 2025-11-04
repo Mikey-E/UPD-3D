@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "ffc7ddf1-827b-4154-9eee-5f8b497d0a12@Bedroom-860",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 3",
+  "timestamp": "2025-10-31T08:47:22.963167",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/ffc7ddf1-827b-4154-9eee-5f8b497d0a12/Bedroom-860/Bedroom-860.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What color are the nightstands next to the king-size bed?\n\nA. Blue\nB. Dark brown\nC. Light gray\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What color are the nightstands next to the king-size bed?\n\nA. Blue\nB. Dark brown\nC. Light gray\nD. None of the above",
+      "response": "D"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What color are the nightstands next to the king-size bed?\n\nA. Blue\nB. Dark brown\nC. Light gray",
+      "response": "None"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What color are the nightstands next to the king-size bed?\n\nA. Ocean\nB. Forest\nC. Mountain\nD. Desert\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What color are the nightstands next to the king-size bed?\n\nA. Ocean\nB. Forest\nC. Mountain\nD. Desert\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What color are the nightstands next to the king-size bed?\n\nA. Ocean\nB. Forest\nC. Mountain\nD. Desert",
+      "response": "None"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What is the dimension of the painting hanging above the bed?\n\nA. 24x36 inches\nB. 20x30 inches\nC. 18x24 inches\nD. 36x48 inches\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What is the dimension of the painting hanging above the bed?\n\nA. 24x36 inches\nB. 20x30 inches\nC. 18x24 inches\nD. 36x48 inches\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What is the dimension of the painting hanging above the bed?\n\nA. 24x36 inches\nB. 20x30 inches\nC. 18x24 inches\nD. 36x48 inches",
+      "response": "None"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What type of fridge is placed in the corner of the room?",
+      "response": "N/A"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What type of fridge is placed in the corner of the room?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What color are the nightstands next to the king-size bed?\n\nA. Blue\nB. Dark brown\nC. Mustard yellow\nD. Light gray",
+      "response": "C"
+    }
+  ]
+}

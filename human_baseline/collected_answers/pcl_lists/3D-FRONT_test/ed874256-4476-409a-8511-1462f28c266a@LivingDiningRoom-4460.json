@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "ed874256-4476-409a-8511-1462f28c266a@LivingDiningRoom-4460",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 5",
+  "timestamp": "2025-10-28T08:44:53.441263",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/ed874256-4476-409a-8511-1462f28c266a/LivingDiningRoom-4460/LivingDiningRoom-4460.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What color is the upholstery of the dining chairs in the dining area?\n\nA. Dark gray\nB. Creamy beige\nC. Glossy black\nIf none of the above answers are correct, answer: 'F'",
+      "response": "b"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What color is the upholstery of the dining chairs in the dining area?\n\nA. Dark gray\nB. Creamy beige\nC. Glossy black\nD. None of the above",
+      "response": "b"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What color is the upholstery of the dining chairs in the dining area?\n\nA. Dark gray\nB. Creamy beige\nC. Glossy black",
+      "response": "b"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What color is the upholstery of the dining chairs in the dining area?\n\nA. Jupiter\nB. Mars\nC. Neptune\nD. Saturn\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What color is the upholstery of the dining chairs in the dining area?\n\nA. Jupiter\nB. Mars\nC. Neptune\nD. Saturn\nE. None of the above",
+      "response": "e"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What color is the upholstery of the dining chairs in the dining area?\n\nA. Jupiter\nB. Mars\nC. Neptune\nD. Saturn",
+      "response": "none"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What type of rug is featured in the living room?\n\nA. Persian rug\nB. Shag rug\nC. Area rug\nD. Wool rug\nIf none of the above answers are correct, answer: 'F'",
+      "response": "d"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What type of rug is featured in the living room?\n\nA. Persian rug\nB. Shag rug\nC. Area rug\nD. Wool rug\nE. None of the above",
+      "response": "d"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What type of rug is featured in the living room?\n\nA. Persian rug\nB. Shag rug\nC. Area rug\nD. Wool rug",
+      "response": "d"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What color is the rug?",
+      "response": "blue"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What color is the rug?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "blue"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What color is the upholstery of the dining chairs in the dining area?\n\nA. Dark gray\nB. Soft beige\nC. Creamy beige\nD. Glossy black",
+      "response": "c"
+    }
+  ]
+}

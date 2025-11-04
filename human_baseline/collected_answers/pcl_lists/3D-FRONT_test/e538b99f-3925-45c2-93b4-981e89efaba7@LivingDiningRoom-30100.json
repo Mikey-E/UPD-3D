@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "e538b99f-3925-45c2-93b4-981e89efaba7@LivingDiningRoom-30100",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 3",
+  "timestamp": "2025-10-26T16:06:29.719169",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/e538b99f-3925-45c2-93b4-981e89efaba7/LivingDiningRoom-30100/LivingDiningRoom-30100.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What color is the armchair in the living room?\n\nA. Grey\nB. White\nC. Black\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What color is the armchair in the living room?\n\nA. Grey\nB. White\nC. Black\nD. None of the above",
+      "response": "D"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What color is the armchair in the living room?\n\nA. Grey\nB. White\nC. Black",
+      "response": "None"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What color is the armchair in the living room?\n\nA. Jupiter\nB. Neptune\nC. Saturn\nD. Mars\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What color is the armchair in the living room?\n\nA. Jupiter\nB. Neptune\nC. Saturn\nD. Mars\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What color is the armchair in the living room?\n\nA. Jupiter\nB. Neptune\nC. Saturn\nD. Mars",
+      "response": "None"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What type of staircase design is featured in the room?\n\nA. Spiral staircase\nB. Straight staircase\nC. Floating staircase\nD. L-shaped staircase\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What type of staircase design is featured in the room?\n\nA. Spiral staircase\nB. Straight staircase\nC. Floating staircase\nD. L-shaped staircase\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What type of staircase design is featured in the room?\n\nA. Spiral staircase\nB. Straight staircase\nC. Floating staircase\nD. L-shaped staircase",
+      "response": "None"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What type of rug is placed under the coffee table?",
+      "response": "Rough patterned rug"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What type of rug is placed under the coffee table?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "Rough patterned rug"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What color is the armchair in the living room?\n\nA. Grey\nB. Deep teal\nC. White\nD. Black",
+      "response": "B"
+    }
+  ]
+}

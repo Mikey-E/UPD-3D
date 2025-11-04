@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "ecfe81b9-b183-4d65-ad4d-ef9260ab0637@LivingDiningRoom-5290",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 3",
+  "timestamp": "2025-10-27T16:44:44.685716",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/ecfe81b9-b183-4d65-ad4d-ef9260ab0637/LivingDiningRoom-5290/LivingDiningRoom-5290.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What design style is the tv stand primarily influenced by?\n\nA. Minimalist\nB. Vintage\nC. Southeast Asian\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What design style is the tv stand primarily influenced by?\n\nA. Minimalist\nB. Vintage\nC. Southeast Asian\nD. None of the above",
+      "response": "D"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What design style is the tv stand primarily influenced by?\n\nA. Minimalist\nB. Vintage\nC. Southeast Asian",
+      "response": "None"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What design style is the tv stand primarily influenced by?\n\nA. Renaissance painting techniques\nB. Rocky mountain formations\nC. Ancient Greek philosophy\nD. Modern agricultural practices\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What design style is the tv stand primarily influenced by?\n\nA. Renaissance painting techniques\nB. Rocky mountain formations\nC. Ancient Greek philosophy\nD. Modern agricultural practices\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What design style is the tv stand primarily influenced by?\n\nA. Renaissance painting techniques\nB. Rocky mountain formations\nC. Ancient Greek philosophy\nD. Modern agricultural practices",
+      "response": "None"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What shape are the windows in the scene?\n\nA. Round\nB. Square\nC. Oval\nD. Triangular\nIf none of the above answers are correct, answer: 'F'",
+      "response": "B"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What shape are the windows in the scene?\n\nA. Round\nB. Square\nC. Oval\nD. Triangular\nE. None of the above",
+      "response": "B"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What shape are the windows in the scene?\n\nA. Round\nB. Square\nC. Oval\nD. Triangular",
+      "response": "B"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What type of swimming pool is located adjacent to the living room?",
+      "response": "N/A"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What type of swimming pool is located adjacent to the living room?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What design style is the tv stand primarily influenced by?\n\nA. Minimalist\nB. Vintage\nC. Japanese\nD. Southeast Asian",
+      "response": "C"
+    }
+  ]
+}

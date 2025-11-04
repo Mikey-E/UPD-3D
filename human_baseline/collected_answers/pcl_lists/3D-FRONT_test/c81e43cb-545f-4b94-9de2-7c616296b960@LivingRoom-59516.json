@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "c81e43cb-545f-4b94-9de2-7c616296b960@LivingRoom-59516",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 3",
+  "timestamp": "2025-10-10T15:55:04.123068",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/c81e43cb-545f-4b94-9de2-7c616296b960/LivingRoom-59516/LivingRoom-59516.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What type of finish does the side table have in the living room?\n\nA. Glossy wood finish\nB. Dark wood finish\nC. Black lacquer finish\nIf none of the above answers are correct, answer: 'F'",
+      "response": "C"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What type of finish does the side table have in the living room?\n\nA. Glossy wood finish\nB. Dark wood finish\nC. Black lacquer finish\nD. None of the above",
+      "response": "C"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What type of finish does the side table have in the living room?\n\nA. Glossy wood finish\nB. Dark wood finish\nC. Black lacquer finish",
+      "response": "C"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What type of finish does the side table have in the living room?\n\nA. Lunar eclipse\nB. Celestial navigation\nC. Ocean currents\nD. Tectonic plates\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What type of finish does the side table have in the living room?\n\nA. Lunar eclipse\nB. Celestial navigation\nC. Ocean currents\nD. Tectonic plates\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What type of finish does the side table have in the living room?\n\nA. Lunar eclipse\nB. Celestial navigation\nC. Ocean currents\nD. Tectonic plates",
+      "response": "None"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What is the shape of the window in the living room?\n\nA. Round\nB. Square\nC. Triangle\nD. Oval\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What is the shape of the window in the living room?\n\nA. Round\nB. Square\nC. Triangle\nD. Oval\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What is the shape of the window in the living room?\n\nA. Round\nB. Square\nC. Triangle\nD. Oval",
+      "response": "None"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What type of aquarium is situated behind the sofa?",
+      "response": "N/A"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What type of aquarium is situated behind the sofa?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What type of finish does the side table have in the living room?\n\nA. Glossy wood finish\nB. Matte charcoal finish\nC. Dark wood finish\nD. Black lacquer finish",
+      "response": "B"
+    }
+  ]
+}

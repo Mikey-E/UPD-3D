@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "eed2d8f7-791e-41f8-a367-075ff0434685@Library-361",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 5",
+  "timestamp": "2025-10-28T14:56:56.844283",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/eed2d8f7-791e-41f8-a367-075ff0434685/Library-361/Library-361.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What style is the desk in the library?\n\nA. New Chinese\nB. Industrial\nC. Victorian\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What style is the desk in the library?\n\nA. New Chinese\nB. Industrial\nC. Victorian\nD. None of the above",
+      "response": "d"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What style is the desk in the library?\n\nA. New Chinese\nB. Industrial\nC. Victorian",
+      "response": "none"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What style is the desk in the library?\n\nA. Jazz music\nB. Acrylic paint\nC. Sunflower seeds\nD. Digital marketing\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What style is the desk in the library?\n\nA. Jazz music\nB. Acrylic paint\nC. Sunflower seeds\nD. Digital marketing\nE. None of the above",
+      "response": "e"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What style is the desk in the library?\n\nA. Jazz music\nB. Acrylic paint\nC. Sunflower seeds\nD. Digital marketing",
+      "response": "none"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What type of television is featured in the room?\n\nA. OLED\nB. LED\nC. Plasma\nD. LCD\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What type of television is featured in the room?\n\nA. OLED\nB. LED\nC. Plasma\nD. LCD\nE. None of the above",
+      "response": "e"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What type of television is featured in the room?\n\nA. OLED\nB. LED\nC. Plasma\nD. LCD",
+      "response": "none"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What type of rug is placed at the entrance of the library?",
+      "response": "none"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What type of rug is placed at the entrance of the library?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What style is the desk in the library?\n\nA. New Chinese\nB. American Country\nC. Industrial\nD. Victorian",
+      "response": "b"
+    }
+  ]
+}

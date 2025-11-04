@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "ce98e1dc-5cab-4390-a433-985fcff9b435@KidsRoom-12220",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 5",
+  "timestamp": "2025-10-14T15:29:21.927705",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/ce98e1dc-5cab-4390-a433-985fcff9b435/KidsRoom-12220/KidsRoom-12220.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What is positioned directly above the king-size bed?\n\nA. One of the nightstands\nB. A window\nC. A wall painting\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What is positioned directly above the king-size bed?\n\nA. One of the nightstands\nB. A window\nC. A wall painting\nD. None of the above",
+      "response": "d"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What is positioned directly above the king-size bed?\n\nA. One of the nightstands\nB. A window\nC. A wall painting",
+      "response": "none of these"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What is positioned directly above the king-size bed?\n\nA. Carousel\nB. Stethoscope\nC. Volcano\nD. Tapestry\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What is positioned directly above the king-size bed?\n\nA. Carousel\nB. Stethoscope\nC. Volcano\nD. Tapestry\nE. None of the above",
+      "response": "e"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What is positioned directly above the king-size bed?\n\nA. Carousel\nB. Stethoscope\nC. Volcano\nD. Tapestry",
+      "response": "none of these"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What texture is the blue couch in the room?\n\nA. Velvet\nB. Leather\nC. Linen\nD. Suede\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What texture is the blue couch in the room?\n\nA. Velvet\nB. Leather\nC. Linen\nD. Suede\nE. None of the above",
+      "response": "e"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What texture is the blue couch in the room?\n\nA. Velvet\nB. Leather\nC. Linen\nD. Suede",
+      "response": "none of these"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What is the color of the bookshelf?",
+      "response": "unanswerable"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What is the color of the bookshelf?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What is positioned directly above the king-size bed?\n\nA. One of the nightstands\nB. Ceiling lamp\nC. A window\nD. A wall painting",
+      "response": "b"
+    }
+  ]
+}

@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "c15251b8-f844-46be-9d3e-9302dc494945@MasterBedroom-12791",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 3",
+  "timestamp": "2025-10-06T10:36:15.748821",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/c15251b8-f844-46be-9d3e-9302dc494945/MasterBedroom-12791/MasterBedroom-12791.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What is the color of the bed in the Master bedroom?\n\nA. Soft mint green\nB. Gentle rose\nC. Neutral beige\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What is the color of the bed in the Master bedroom?\n\nA. Soft mint green\nB. Gentle rose\nC. Neutral beige\nD. None of the above",
+      "response": "D"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What is the color of the bed in the Master bedroom?\n\nA. Soft mint green\nB. Gentle rose\nC. Neutral beige",
+      "response": "None"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What is the color of the bed in the Master bedroom?\n\nA. Tiger stripes\nB. Urban legend\nC. Quantum mechanics\nD. Tectonic plates\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What is the color of the bed in the Master bedroom?\n\nA. Tiger stripes\nB. Urban legend\nC. Quantum mechanics\nD. Tectonic plates\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What is the color of the bed in the Master bedroom?\n\nA. Tiger stripes\nB. Urban legend\nC. Quantum mechanics\nD. Tectonic plates",
+      "response": "None"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What type of tree is featured in the layout of the Master bedroom?\n\nA. Palm\nB. Maple\nC. Birch\nD. Cherry\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What type of tree is featured in the layout of the Master bedroom?\n\nA. Palm\nB. Maple\nC. Birch\nD. Cherry\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What type of tree is featured in the layout of the Master bedroom?\n\nA. Palm\nB. Maple\nC. Birch\nD. Cherry",
+      "response": "None"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What type of ceiling fan is installed in the room?",
+      "response": "N/A"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What type of ceiling fan is installed in the room?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What is the color of the bed in the Master bedroom?\n\nA. Soft mint green\nB. Deep teal\nC. Gentle rose\nD. Neutral beige",
+      "response": "B"
+    }
+  ]
+}

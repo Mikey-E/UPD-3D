@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "e44c4ecc-0260-469d-a60d-b71cf1d34029@Library-17720",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 5",
+  "timestamp": "2025-10-25T19:58:48.418259",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/e44c4ecc-0260-469d-a60d-b71cf1d34029/Library-17720/Library-17720.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What color is the finish of the jewelry armoire in the library?\n\nA. Dark grey\nB. Matte grey\nC. Neutral grey\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What color is the finish of the jewelry armoire in the library?\n\nA. Dark grey\nB. Matte grey\nC. Neutral grey\nD. None of the above",
+      "response": "d"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What color is the finish of the jewelry armoire in the library?\n\nA. Dark grey\nB. Matte grey\nC. Neutral grey",
+      "response": "none"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What color is the finish of the jewelry armoire in the library?\n\nA. Pineapple\nB. Trolley\nC. Scarf\nD. Raccoon\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What color is the finish of the jewelry armoire in the library?\n\nA. Pineapple\nB. Trolley\nC. Scarf\nD. Raccoon\nE. None of the above",
+      "response": "e"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What color is the finish of the jewelry armoire in the library?\n\nA. Pineapple\nB. Trolley\nC. Scarf\nD. Raccoon",
+      "response": "none"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What type of plant is growing in the room?\n\nA. Fern\nB. Cactus\nC. Orchid\nD. Bamboo\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What type of plant is growing in the room?\n\nA. Fern\nB. Cactus\nC. Orchid\nD. Bamboo\nE. None of the above",
+      "response": "e"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What type of plant is growing in the room?\n\nA. Fern\nB. Cactus\nC. Orchid\nD. Bamboo",
+      "response": "none"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What kind of cooking utensils are stored in the library?",
+      "response": "none"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What kind of cooking utensils are stored in the library?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What color is the finish of the jewelry armoire in the library?\n\nA. Dark grey\nB. Pearl white\nC. Matte grey\nD. Neutral grey",
+      "response": "b"
+    }
+  ]
+}

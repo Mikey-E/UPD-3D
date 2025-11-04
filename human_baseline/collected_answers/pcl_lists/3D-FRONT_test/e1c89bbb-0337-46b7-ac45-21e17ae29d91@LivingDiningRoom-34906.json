@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "e1c89bbb-0337-46b7-ac45-21e17ae29d91@LivingDiningRoom-34906",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 5",
+  "timestamp": "2025-10-25T12:02:13.209149",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/e1c89bbb-0337-46b7-ac45-21e17ae29d91/LivingDiningRoom-34906/LivingDiningRoom-34906.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What is the color of the upholstery of the three-seat sofa in the living room?\n\nA. Light blue\nB. Soft cream\nC. Dark brown\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What is the color of the upholstery of the three-seat sofa in the living room?\n\nA. Light blue\nB. Soft cream\nC. Dark brown\nD. None of the above",
+      "response": "d"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What is the color of the upholstery of the three-seat sofa in the living room?\n\nA. Light blue\nB. Soft cream\nC. Dark brown",
+      "response": "none"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What is the color of the upholstery of the three-seat sofa in the living room?\n\nA. Spiral\nB. Rectangle\nC. Triangle\nD. Cylinder\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What is the color of the upholstery of the three-seat sofa in the living room?\n\nA. Spiral\nB. Rectangle\nC. Triangle\nD. Cylinder\nE. None of the above",
+      "response": "e"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What is the color of the upholstery of the three-seat sofa in the living room?\n\nA. Spiral\nB. Rectangle\nC. Triangle\nD. Cylinder",
+      "response": "none"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What type of stairs can you find in the room?\n\nA. Spiral stairs\nB. Wooden stairs\nC. Iron stairs\nD. Glass stairs\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What type of stairs can you find in the room?\n\nA. Spiral stairs\nB. Wooden stairs\nC. Iron stairs\nD. Glass stairs\nE. None of the above",
+      "response": "e"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What type of stairs can you find in the room?\n\nA. Spiral stairs\nB. Wooden stairs\nC. Iron stairs\nD. Glass stairs",
+      "response": "none"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What type of fire pit is in the living room?",
+      "response": "none"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What type of fire pit is in the living room?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What is the color of the upholstery of the three-seat sofa in the living room?\n\nA. Charcoal grey\nB. Light blue\nC. Soft cream\nD. Dark brown",
+      "response": "a"
+    }
+  ]
+}

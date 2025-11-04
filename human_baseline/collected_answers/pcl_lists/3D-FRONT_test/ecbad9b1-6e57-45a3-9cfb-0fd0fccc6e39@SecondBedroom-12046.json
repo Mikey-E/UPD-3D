@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "ecbad9b1-6e57-45a3-9cfb-0fd0fccc6e39@SecondBedroom-12046",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 3",
+  "timestamp": "2025-10-27T16:33:51.342814",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/ecbad9b1-6e57-45a3-9cfb-0fd0fccc6e39/SecondBedroom-12046/SecondBedroom-12046.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What style is the wardrobe in the Second bedroom?\n\nA. Rustic style\nB. Industrial style\nC. Contemporary style\nIf none of the above answers are correct, answer: 'F'",
+      "response": "C"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What style is the wardrobe in the Second bedroom?\n\nA. Rustic style\nB. Industrial style\nC. Contemporary style\nD. None of the above",
+      "response": "C"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What style is the wardrobe in the Second bedroom?\n\nA. Rustic style\nB. Industrial style\nC. Contemporary style",
+      "response": "C"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What style is the wardrobe in the Second bedroom?\n\nA. Dragonfly\nB. Ladybug\nC. Bumblebee\nD. Butterfly\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What style is the wardrobe in the Second bedroom?\n\nA. Dragonfly\nB. Ladybug\nC. Bumblebee\nD. Butterfly\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What style is the wardrobe in the Second bedroom?\n\nA. Dragonfly\nB. Ladybug\nC. Bumblebee\nD. Butterfly",
+      "response": "None"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What is the main function of the vaudeville stage in the scene?\n\nA. To provide a backdrop for performances\nB. To serve as a dressing room\nC. To host live music events\nD. To create a visual art display\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What is the main function of the vaudeville stage in the scene?\n\nA. To provide a backdrop for performances\nB. To serve as a dressing room\nC. To host live music events\nD. To create a visual art display\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What is the main function of the vaudeville stage in the scene?\n\nA. To provide a backdrop for performances\nB. To serve as a dressing room\nC. To host live music events\nD. To create a visual art display",
+      "response": "None"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What type of outdoor furniture is available in the vicinity?",
+      "response": "N/A"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What type of outdoor furniture is available in the vicinity?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What style is the wardrobe in the Second bedroom?\n\nA. Rustic style\nB. Light luxury style\nC. Industrial style\nD. Contemporary style",
+      "response": "D"
+    }
+  ]
+}

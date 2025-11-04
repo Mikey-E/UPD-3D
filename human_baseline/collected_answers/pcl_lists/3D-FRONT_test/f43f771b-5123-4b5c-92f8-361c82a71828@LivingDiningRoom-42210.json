@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "f43f771b-5123-4b5c-92f8-361c82a71828@LivingDiningRoom-42210",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 5",
+  "timestamp": "2025-10-29T16:36:07.868580",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/f43f771b-5123-4b5c-92f8-361c82a71828/LivingDiningRoom-42210/LivingDiningRoom-42210.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What style is the three-seat sofa in the living room?\n\nA. Modern\nB. American Country\nC. Industrial\nIf none of the above answers are correct, answer: 'F'",
+      "response": "a"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What style is the three-seat sofa in the living room?\n\nA. Modern\nB. American Country\nC. Industrial\nD. None of the above",
+      "response": "a"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What style is the three-seat sofa in the living room?\n\nA. Modern\nB. American Country\nC. Industrial",
+      "response": "a"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What style is the three-seat sofa in the living room?\n\nA. Croquet\nB. Origami\nC. Trombone\nD. Kitesurfing\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What style is the three-seat sofa in the living room?\n\nA. Croquet\nB. Origami\nC. Trombone\nD. Kitesurfing\nE. None of the above",
+      "response": "e"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What style is the three-seat sofa in the living room?\n\nA. Croquet\nB. Origami\nC. Trombone\nD. Kitesurfing",
+      "response": "none"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What is the color of the curtains in the room?\n\nA. Blue\nB. Yellow\nC. Green\nD. Purple\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What is the color of the curtains in the room?\n\nA. Blue\nB. Yellow\nC. Green\nD. Purple\nE. None of the above",
+      "response": "e"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What is the color of the curtains in the room?\n\nA. Blue\nB. Yellow\nC. Green\nD. Purple",
+      "response": "none"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What type of outdoor grill is located next to the living room?",
+      "response": "none"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What type of outdoor grill is located next to the living room?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What style is the three-seat sofa in the living room?\n\nA. Modern\nB. American Country\nC. Industrial\nD. Korean",
+      "response": "a"
+    }
+  ]
+}

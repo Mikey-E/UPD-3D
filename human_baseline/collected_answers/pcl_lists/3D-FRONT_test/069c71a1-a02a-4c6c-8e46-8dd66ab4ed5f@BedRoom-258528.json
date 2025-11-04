@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "069c71a1-a02a-4c6c-8e46-8dd66ab4ed5f@BedRoom-258528",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 4",
+  "timestamp": "2025-10-13T13:11:01.718496",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/069c71a1-a02a-4c6c-8e46-8dd66ab4ed5f/BedRoom-258528/BedRoom-258528.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What type of bed is the focal point in the described bedroom?\n\nA. Queen-size bed\nB. Twin-size bed\nC. Full-size bed\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What type of bed is the focal point in the described bedroom?\n\nA. Queen-size bed\nB. Twin-size bed\nC. Full-size bed\nD. None of the above",
+      "response": "D"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What type of bed is the focal point in the described bedroom?\n\nA. Queen-size bed\nB. Twin-size bed\nC. Full-size bed",
+      "response": "none"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What type of bed is the focal point in the described bedroom?\n\nA. Maple tree\nB. Ocean wave\nC. Mountain range\nD. Desert cactus\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What type of bed is the focal point in the described bedroom?\n\nA. Maple tree\nB. Ocean wave\nC. Mountain range\nD. Desert cactus\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What type of bed is the focal point in the described bedroom?\n\nA. Maple tree\nB. Ocean wave\nC. Mountain range\nD. Desert cactus",
+      "response": "none"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What type of window treatment is used in the scene?\n\nA. Drapes\nB. Blinds\nC. Sheers\nD. Blackout curtains\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What type of window treatment is used in the scene?\n\nA. Drapes\nB. Blinds\nC. Sheers\nD. Blackout curtains\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What type of window treatment is used in the scene?\n\nA. Drapes\nB. Blinds\nC. Sheers\nD. Blackout curtains",
+      "response": "none"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What type of outdoor sculpture is displayed outside the bedroom window?",
+      "response": "none"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What type of outdoor sculpture is displayed outside the bedroom window?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What type of bed is the focal point in the described bedroom?\n\nA. King-size bed\nB. Queen-size bed\nC. Twin-size bed\nD. Full-size bed",
+      "response": "A"
+    }
+  ]
+}

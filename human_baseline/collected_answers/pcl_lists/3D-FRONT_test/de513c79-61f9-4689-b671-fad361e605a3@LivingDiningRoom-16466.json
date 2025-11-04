@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "de513c79-61f9-4689-b671-fad361e605a3@LivingDiningRoom-16466",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 4",
+  "timestamp": "2025-10-24T16:06:09.266088",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/de513c79-61f9-4689-b671-fad361e605a3/LivingDiningRoom-16466/LivingDiningRoom-16466.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What type of lamp is positioned above the dining area?\n\nA. Modern pendant lamp\nB. Light Luxury pendant lamp\nC. Retro pendant lamp\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What type of lamp is positioned above the dining area?\n\nA. Modern pendant lamp\nB. Light Luxury pendant lamp\nC. Retro pendant lamp\nD. None of the above",
+      "response": "d"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What type of lamp is positioned above the dining area?\n\nA. Modern pendant lamp\nB. Light Luxury pendant lamp\nC. Retro pendant lamp",
+      "response": "none"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What type of lamp is positioned above the dining area?\n\nA. Maple tree\nB. Blue whale\nC. Great Wall\nD. Sahara Desert\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What type of lamp is positioned above the dining area?\n\nA. Maple tree\nB. Blue whale\nC. Great Wall\nD. Sahara Desert\nE. None of the above",
+      "response": "e"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What type of lamp is positioned above the dining area?\n\nA. Maple tree\nB. Blue whale\nC. Great Wall\nD. Sahara Desert",
+      "response": "none"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What is the size of the garden in this scene?\n\nA. Small\nB. Medium\nC. Large\nD. Extra Large\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What is the size of the garden in this scene?\n\nA. Small\nB. Medium\nC. Large\nD. Extra Large\nE. None of the above",
+      "response": "e"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What is the size of the garden in this scene?\n\nA. Small\nB. Medium\nC. Large\nD. Extra Large",
+      "response": "none"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What type of outdoor grill is located on the balcony?",
+      "response": "n/a"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What type of outdoor grill is located on the balcony?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What type of lamp is positioned above the dining area?\n\nA. Modern pendant lamp\nB. Kids' style pendant lamp\nC. Light Luxury pendant lamp\nD. Retro pendant lamp",
+      "response": "b"
+    }
+  ]
+}

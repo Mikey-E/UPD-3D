@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "ca6b2909-f007-4599-aee5-1c9c51550cc2@MasterBedroom-73119",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 5",
+  "timestamp": "2025-10-14T11:15:16.305835",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/ca6b2909-f007-4599-aee5-1c9c51550cc2/MasterBedroom-73119/MasterBedroom-73119.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What piece of furniture is positioned in front of the king-size bed in the master bedroom?\n\nA. Wardrobe\nB. Nightstand\nC. Armchair\nIf none of the above answers are correct, answer: 'F'",
+      "response": "b"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What piece of furniture is positioned in front of the king-size bed in the master bedroom?\n\nA. Wardrobe\nB. Nightstand\nC. Armchair\nD. None of the above",
+      "response": "b"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What piece of furniture is positioned in front of the king-size bed in the master bedroom?\n\nA. Wardrobe\nB. Nightstand\nC. Armchair",
+      "response": "b"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What piece of furniture is positioned in front of the king-size bed in the master bedroom?\n\nA. Pineapple\nB. Cucumber\nC. Chocolate\nD. Marshmallow\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What piece of furniture is positioned in front of the king-size bed in the master bedroom?\n\nA. Pineapple\nB. Cucumber\nC. Chocolate\nD. Marshmallow\nE. None of the above",
+      "response": "e"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What piece of furniture is positioned in front of the king-size bed in the master bedroom?\n\nA. Pineapple\nB. Cucumber\nC. Chocolate\nD. Marshmallow",
+      "response": "none of these"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What type of countertop is the kitchen equipped with?\n\nA. Quartz\nB. Granite\nC. Marble\nD. Laminate\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What type of countertop is the kitchen equipped with?\n\nA. Quartz\nB. Granite\nC. Marble\nD. Laminate\nE. None of the above",
+      "response": "e"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What type of countertop is the kitchen equipped with?\n\nA. Quartz\nB. Granite\nC. Marble\nD. Laminate",
+      "response": "none of these"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What type of artwork is displayed above the bed?",
+      "response": "unanswerable"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What type of artwork is displayed above the bed?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What piece of furniture is positioned in front of the king-size bed in the master bedroom?\n\nA. Floor lamp\nB. Wardrobe\nC. Nightstand\nD. Armchair",
+      "response": "c"
+    }
+  ]
+}

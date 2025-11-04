@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "d7366a84-972e-454d-b574-271f0c72e04e@Library-268",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 4",
+  "timestamp": "2025-10-16T20:35:54.973941",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/d7366a84-972e-454d-b574-271f0c72e04e/Library-268/Library-268.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What color is the pendant lamp hanging above the bookcase in the library?\n\nA. Blue with yellow highlights\nB. White with silver accents\nC. Brown with bronze details\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What color is the pendant lamp hanging above the bookcase in the library?\n\nA. Blue with yellow highlights\nB. White with silver accents\nC. Brown with bronze details\nD. None of the above",
+      "response": "D"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What color is the pendant lamp hanging above the bookcase in the library?\n\nA. Blue with yellow highlights\nB. White with silver accents\nC. Brown with bronze details",
+      "response": "None"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What color is the pendant lamp hanging above the bookcase in the library?\n\nA. Cactus\nB. Elephant\nC. Galaxy\nD. Harmonica\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What color is the pendant lamp hanging above the bookcase in the library?\n\nA. Cactus\nB. Elephant\nC. Galaxy\nD. Harmonica\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What color is the pendant lamp hanging above the bookcase in the library?\n\nA. Cactus\nB. Elephant\nC. Galaxy\nD. Harmonica",
+      "response": "None"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What shape are the windows in the library?\n\nA. Circular\nB. Triangular\nC. Rectangular\nD. Oval\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What shape are the windows in the library?\n\nA. Circular\nB. Triangular\nC. Rectangular\nD. Oval\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What shape are the windows in the library?\n\nA. Circular\nB. Triangular\nC. Rectangular\nD. Oval",
+      "response": "None"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What type of flooring is used in the kitchen?",
+      "response": "unanswerable"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What type of flooring is used in the kitchen?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What color is the pendant lamp hanging above the bookcase in the library?\n\nA. Blue with yellow highlights\nB. White with silver accents\nC. Brown with bronze details\nD. Black with gold accents",
+      "response": "None"
+    }
+  ]
+}

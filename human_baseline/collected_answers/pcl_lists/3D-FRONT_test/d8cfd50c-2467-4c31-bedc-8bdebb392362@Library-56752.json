@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "d8cfd50c-2467-4c31-bedc-8bdebb392362@Library-56752",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 4",
+  "timestamp": "2025-10-18T13:26:56.155578",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/d8cfd50c-2467-4c31-bedc-8bdebb392362/Library-56752/Library-56752.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What design style is represented by the lounge chair in the library?\n\nA. Industrial\nB. Light Luxury\nC. Modern\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What design style is represented by the lounge chair in the library?\n\nA. Industrial\nB. Light Luxury\nC. Modern\nD. None of the above",
+      "response": "D"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What design style is represented by the lounge chair in the library?\n\nA. Industrial\nB. Light Luxury\nC. Modern",
+      "response": "None"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What design style is represented by the lounge chair in the library?\n\nA. Tropical rainforest\nB. Arctic tundra\nC. Desert landscape\nD. Ocean currents\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What design style is represented by the lounge chair in the library?\n\nA. Tropical rainforest\nB. Arctic tundra\nC. Desert landscape\nD. Ocean currents\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What design style is represented by the lounge chair in the library?\n\nA. Tropical rainforest\nB. Arctic tundra\nC. Desert landscape\nD. Ocean currents",
+      "response": "None"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What is the shape of the window in the scene?\n\nA. Round\nB. Square\nC. Arch\nD. Rectangular\nIf none of the above answers are correct, answer: 'F'",
+      "response": "D"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What is the shape of the window in the scene?\n\nA. Round\nB. Square\nC. Arch\nD. Rectangular\nE. None of the above",
+      "response": "D"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What is the shape of the window in the scene?\n\nA. Round\nB. Square\nC. Arch\nD. Rectangular",
+      "response": "D"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What type of sculpture is on the floor?",
+      "response": "unanswerable"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What type of sculpture is on the floor?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What design style is represented by the lounge chair in the library?\n\nA. Japanese\nB. Industrial\nC. Light Luxury\nD. Modern",
+      "response": "A"
+    }
+  ]
+}

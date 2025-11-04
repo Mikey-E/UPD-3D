@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "ea06e0f7-e4b9-4b0e-aabd-f99bcf21994d@OtherRoom-93465",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 4",
+  "timestamp": "2025-10-27T13:31:20.453729",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/ea06e0f7-e4b9-4b0e-aabd-f99bcf21994d/OtherRoom-93465/OtherRoom-93465.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What type of lighting is positioned above the desk in the room?\n\nA. A Floor lamp\nB. A chandelier\nC. A Wall sconce\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What type of lighting is positioned above the desk in the room?\n\nA. A Floor lamp\nB. A chandelier\nC. A Wall sconce\nD. None of the above",
+      "response": "D"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What type of lighting is positioned above the desk in the room?\n\nA. A Floor lamp\nB. A chandelier\nC. A Wall sconce",
+      "response": "None"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What type of lighting is positioned above the desk in the room?\n\nA. Maple syrup\nB. Quantum physics\nC. French cuisine\nD. Ancient civilizations\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What type of lighting is positioned above the desk in the room?\n\nA. Maple syrup\nB. Quantum physics\nC. French cuisine\nD. Ancient civilizations\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What type of lighting is positioned above the desk in the room?\n\nA. Maple syrup\nB. Quantum physics\nC. French cuisine\nD. Ancient civilizations",
+      "response": "None"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What type of painting is displayed on the wall?\n\nA. Landscape\nB. Abstract\nC. Portrait\nD. Still life\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What type of painting is displayed on the wall?\n\nA. Landscape\nB. Abstract\nC. Portrait\nD. Still life\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What type of painting is displayed on the wall?\n\nA. Landscape\nB. Abstract\nC. Portrait\nD. Still life",
+      "response": "None"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What type of sports equipment is stored in this room?",
+      "response": "unanswerable"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What type of sports equipment is stored in this room?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What type of lighting is positioned above the desk in the room?\n\nA. A Pendant lamp\nB. A Floor lamp\nC. A chandelier\nD. A Wall sconce",
+      "response": "None"
+    }
+  ]
+}

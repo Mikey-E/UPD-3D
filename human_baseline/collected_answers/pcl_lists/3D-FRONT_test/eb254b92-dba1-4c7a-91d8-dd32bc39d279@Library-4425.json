@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "eb254b92-dba1-4c7a-91d8-dd32bc39d279@Library-4425",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 5",
+  "timestamp": "2025-10-28T08:31:28.163626",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/eb254b92-dba1-4c7a-91d8-dd32bc39d279/Library-4425/Library-4425.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What kind of style do the bookcases and jewelry armoire in the library reflect?\n\nA. Modern aesthetic\nB. Art Deco style\nC. Rustic charm\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What kind of style do the bookcases and jewelry armoire in the library reflect?\n\nA. Modern aesthetic\nB. Art Deco style\nC. Rustic charm\nD. None of the above",
+      "response": "d"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What kind of style do the bookcases and jewelry armoire in the library reflect?\n\nA. Modern aesthetic\nB. Art Deco style\nC. Rustic charm",
+      "response": "none"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What kind of style do the bookcases and jewelry armoire in the library reflect?\n\nA. Tropical rainforest\nB. Oceanic trench\nC. Mountain peak\nD. Desert landscape\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What kind of style do the bookcases and jewelry armoire in the library reflect?\n\nA. Tropical rainforest\nB. Oceanic trench\nC. Mountain peak\nD. Desert landscape\nE. None of the above",
+      "response": "e"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What kind of style do the bookcases and jewelry armoire in the library reflect?\n\nA. Tropical rainforest\nB. Oceanic trench\nC. Mountain peak\nD. Desert landscape",
+      "response": "none"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What shape is the table in the library?\n\nA. Round\nB. Triangular\nC. Square\nD. Oval\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What shape is the table in the library?\n\nA. Round\nB. Triangular\nC. Square\nD. Oval\nE. None of the above",
+      "response": "e"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What shape is the table in the library?\n\nA. Round\nB. Triangular\nC. Square\nD. Oval",
+      "response": "none"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What type of modern electronic equipment is situated in the library?",
+      "response": "none"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What type of modern electronic equipment is situated in the library?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What kind of style do the bookcases and jewelry armoire in the library reflect?\n\nA. Modern aesthetic\nB. Art Deco style\nC. Rustic charm\nD. Ming Qing style",
+      "response": "none"
+    }
+  ]
+}

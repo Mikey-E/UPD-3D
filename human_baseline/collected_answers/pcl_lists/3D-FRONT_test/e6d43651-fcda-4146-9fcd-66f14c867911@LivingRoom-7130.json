@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "e6d43651-fcda-4146-9fcd-66f14c867911@LivingRoom-7130",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 4",
+  "timestamp": "2025-10-26T21:37:21.727057",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/e6d43651-fcda-4146-9fcd-66f14c867911/LivingRoom-7130/LivingRoom-7130.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What feature in the living room indicates an appreciation for wine and entertaining?\n\nA. High heels scattered around\nB. The beige lamp with rough texture\nC. The square shape of the lamp\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What feature in the living room indicates an appreciation for wine and entertaining?\n\nA. High heels scattered around\nB. The beige lamp with rough texture\nC. The square shape of the lamp\nD. None of the above",
+      "response": "D"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What feature in the living room indicates an appreciation for wine and entertaining?\n\nA. High heels scattered around\nB. The beige lamp with rough texture\nC. The square shape of the lamp",
+      "response": "None"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What feature in the living room indicates an appreciation for wine and entertaining?\n\nA. Jasmine\nB. Chrome\nC. Aqueduct\nD. Amethyst\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What feature in the living room indicates an appreciation for wine and entertaining?\n\nA. Jasmine\nB. Chrome\nC. Aqueduct\nD. Amethyst\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What feature in the living room indicates an appreciation for wine and entertaining?\n\nA. Jasmine\nB. Chrome\nC. Aqueduct\nD. Amethyst",
+      "response": "None"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What type of flooring is present in the living room?\n\nA. Tile\nB. Carpet\nC. Hardwood\nD. Laminate\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What type of flooring is present in the living room?\n\nA. Tile\nB. Carpet\nC. Hardwood\nD. Laminate\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What type of flooring is present in the living room?\n\nA. Tile\nB. Carpet\nC. Hardwood\nD. Laminate",
+      "response": "None"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What type of pool table is in the living room?",
+      "response": "unanswerable"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What type of pool table is in the living room?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What feature in the living room indicates an appreciation for wine and entertaining?\n\nA. High heels scattered around\nB. Two Korean-style TV stands\nC. The beige lamp with rough texture\nD. The square shape of the lamp",
+      "response": "None"
+    }
+  ]
+}

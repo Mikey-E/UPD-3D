@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "c2dacc1f-c315-4b8c-b06c-573773126865@Library-5406",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 4",
+  "timestamp": "2025-10-08T10:08:26.722536",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/c2dacc1f-c315-4b8c-b06c-573773126865/Library-5406/Library-5406.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What type of finish does the lounge chair have in the library?\n\nA. Silver\nB. White\nC. Black\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What type of finish does the lounge chair have in the library?\n\nA. Silver\nB. White\nC. Black\nD. None of the above",
+      "response": "D"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What type of finish does the lounge chair have in the library?\n\nA. Silver\nB. White\nC. Black",
+      "response": "none of these"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What type of finish does the lounge chair have in the library?\n\nA. Emerald\nB. Ocean\nC. Desert\nD. Forest\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What type of finish does the lounge chair have in the library?\n\nA. Emerald\nB. Ocean\nC. Desert\nD. Forest\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What type of finish does the lounge chair have in the library?\n\nA. Emerald\nB. Ocean\nC. Desert\nD. Forest",
+      "response": "none of these"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What is the shape of the table in the scene?\n\nA. Round\nB. Square\nC. Oval\nD. Rectangular\nIf none of the above answers are correct, answer: 'F'",
+      "response": "D"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What is the shape of the table in the scene?\n\nA. Round\nB. Square\nC. Oval\nD. Rectangular\nE. None of the above",
+      "response": "D"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What is the shape of the table in the scene?\n\nA. Round\nB. Square\nC. Oval\nD. Rectangular",
+      "response": "D"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What type of outdoor fountain is located in the library garden?",
+      "response": "none"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What type of outdoor fountain is located in the library garden?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What type of finish does the lounge chair have in the library?\n\nA. Silver\nB. White\nC. Black\nD. Honey oak",
+      "response": "D"
+    }
+  ]
+}

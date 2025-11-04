@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "d2250a94-d049-49ff-b6d3-71d93737f6eb@LivingRoom-136381",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 5",
+  "timestamp": "2025-10-15T14:18:50.486568",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/d2250a94-d049-49ff-b6d3-71d93737f6eb/LivingRoom-136381/LivingRoom-136381.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What is the color of the l-shaped sofa in the living room?\n\nA. Jet black\nB. Matte black\nC. White\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What is the color of the l-shaped sofa in the living room?\n\nA. Jet black\nB. Matte black\nC. White\nD. None of the above",
+      "response": "d"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What is the color of the l-shaped sofa in the living room?\n\nA. Jet black\nB. Matte black\nC. White",
+      "response": "none of these"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What is the color of the l-shaped sofa in the living room?\n\nA. Hydrogen\nB. Iron\nC. Oxygen\nD. Carbon\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What is the color of the l-shaped sofa in the living room?\n\nA. Hydrogen\nB. Iron\nC. Oxygen\nD. Carbon\nE. None of the above",
+      "response": "e"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What is the color of the l-shaped sofa in the living room?\n\nA. Hydrogen\nB. Iron\nC. Oxygen\nD. Carbon",
+      "response": "none of these"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What type of rug is featured in the living room?\n\nA. Persian\nB. Shag\nC. Flatweave\nD. Area\nIf none of the above answers are correct, answer: 'F'",
+      "response": "b"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What type of rug is featured in the living room?\n\nA. Persian\nB. Shag\nC. Flatweave\nD. Area\nE. None of the above",
+      "response": "b"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What type of rug is featured in the living room?\n\nA. Persian\nB. Shag\nC. Flatweave\nD. Area",
+      "response": "b"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What size is the dining room table?",
+      "response": "2ft"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What size is the dining room table?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "2ft"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What is the color of the l-shaped sofa in the living room?\n\nA. Chocolate brown\nB. Jet black\nC. Matte black\nD. White",
+      "response": "none of these"
+    }
+  ]
+}

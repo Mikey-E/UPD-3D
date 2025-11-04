@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "Cotton@22",
+  "dataset": "Crops3D_test",
+  "annotated_by": "User 5",
+  "timestamp": "2025-10-30T10:11:10.689759",
+  "file_path": "/project/3dllms/melgin/datasets/CEA/Crops3D/Cotton/22.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What shape does the dried cotton plant branch with two stems form?\n\nA. A circular shape\nB. A straight line\nC. A zigzag pattern\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What shape does the dried cotton plant branch with two stems form?\n\nA. A circular shape\nB. A straight line\nC. A zigzag pattern\nD. None of the above",
+      "response": "d"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What shape does the dried cotton plant branch with two stems form?\n\nA. A circular shape\nB. A straight line\nC. A zigzag pattern",
+      "response": "none"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What shape does the dried cotton plant branch with two stems form?\n\nA. Octagon\nB. Triangle\nC. Sphere\nD. Rectangle\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What shape does the dried cotton plant branch with two stems form?\n\nA. Octagon\nB. Triangle\nC. Sphere\nD. Rectangle\nE. None of the above",
+      "response": "e"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What shape does the dried cotton plant branch with two stems form?\n\nA. Octagon\nB. Triangle\nC. Sphere\nD. Rectangle",
+      "response": "none"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What type of lamp is located in the scene?\n\nA. Floor lamp\nB. Desk lamp\nC. Table lamp\nD. Pendant lamp\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What type of lamp is located in the scene?\n\nA. Floor lamp\nB. Desk lamp\nC. Table lamp\nD. Pendant lamp\nE. None of the above",
+      "response": "e"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What type of lamp is located in the scene?\n\nA. Floor lamp\nB. Desk lamp\nC. Table lamp\nD. Pendant lamp",
+      "response": "none"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What type of fruit is being displayed on the table?",
+      "response": "none"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What type of fruit is being displayed on the table?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What shape does the dried cotton plant branch with two stems form?\n\nA. A curved, spray-like arrangement\nB. A circular shape\nC. A straight line\nD. A zigzag pattern",
+      "response": "c"
+    }
+  ]
+}

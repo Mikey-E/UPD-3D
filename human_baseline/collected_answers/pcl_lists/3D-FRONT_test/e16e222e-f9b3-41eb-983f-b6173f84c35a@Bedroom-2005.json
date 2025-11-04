@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "e16e222e-f9b3-41eb-983f-b6173f84c35a@Bedroom-2005",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 5",
+  "timestamp": "2025-10-24T22:37:26.277148",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/e16e222e-f9b3-41eb-983f-b6173f84c35a/Bedroom-2005/Bedroom-2005.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What color are the nightstands in the bedroom?\n\nA. Dark Brown\nB. Dark Grey\nC. Light Wood\nIf none of the above answers are correct, answer: 'F'",
+      "response": "b"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What color are the nightstands in the bedroom?\n\nA. Dark Brown\nB. Dark Grey\nC. Light Wood\nD. None of the above",
+      "response": "b"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What color are the nightstands in the bedroom?\n\nA. Dark Brown\nB. Dark Grey\nC. Light Wood",
+      "response": "b"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What color are the nightstands in the bedroom?\n\nA. Elephant\nB. Hydrogen\nC. Maple syrup\nD. Guitar\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What color are the nightstands in the bedroom?\n\nA. Elephant\nB. Hydrogen\nC. Maple syrup\nD. Guitar\nE. None of the above",
+      "response": "e"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What color are the nightstands in the bedroom?\n\nA. Elephant\nB. Hydrogen\nC. Maple syrup\nD. Guitar",
+      "response": "none"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What type of vehicle is used in the scene?\n\nA. Sedan\nB. Convertible\nC. SUV\nD. Coupe\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What type of vehicle is used in the scene?\n\nA. Sedan\nB. Convertible\nC. SUV\nD. Coupe\nE. None of the above",
+      "response": "e"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What type of vehicle is used in the scene?\n\nA. Sedan\nB. Convertible\nC. SUV\nD. Coupe",
+      "response": "none"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What type of sculpture is located near the ceiling?",
+      "response": "none"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What type of sculpture is located near the ceiling?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What color are the nightstands in the bedroom?\n\nA. Dark Brown\nB. Dark Grey\nC. Sleek Black\nD. Light Wood",
+      "response": "b"
+    }
+  ]
+}

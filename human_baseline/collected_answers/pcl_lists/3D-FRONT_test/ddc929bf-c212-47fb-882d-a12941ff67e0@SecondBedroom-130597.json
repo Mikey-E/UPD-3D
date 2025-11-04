@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "ddc929bf-c212-47fb-882d-a12941ff67e0@SecondBedroom-130597",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 4",
+  "timestamp": "2025-10-24T15:46:10.611766",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/ddc929bf-c212-47fb-882d-a12941ff67e0/SecondBedroom-130597/SecondBedroom-130597.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What is the color of the wardrobe in the Second bedroom?\n\nA. Dark grey\nB. Light grey\nC. White\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What is the color of the wardrobe in the Second bedroom?\n\nA. Dark grey\nB. Light grey\nC. White\nD. None of the above",
+      "response": "d"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What is the color of the wardrobe in the Second bedroom?\n\nA. Dark grey\nB. Light grey\nC. White",
+      "response": "none"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What is the color of the wardrobe in the Second bedroom?\n\nA. Elephant\nB. Bicycle\nC. Chocolate\nD. River\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What is the color of the wardrobe in the Second bedroom?\n\nA. Elephant\nB. Bicycle\nC. Chocolate\nD. River\nE. None of the above",
+      "response": "e"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What is the color of the wardrobe in the Second bedroom?\n\nA. Elephant\nB. Bicycle\nC. Chocolate\nD. River",
+      "response": "none"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What type of chair is located near the king-size bed?\n\nA. Recliner\nB. Office chair\nC. Dining chair\nD. High chair\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What type of chair is located near the king-size bed?\n\nA. Recliner\nB. Office chair\nC. Dining chair\nD. High chair\nE. None of the above",
+      "response": "e"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What type of chair is located near the king-size bed?\n\nA. Recliner\nB. Office chair\nC. Dining chair\nD. High chair",
+      "response": "none"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What shape is the bathtub?",
+      "response": "n/a"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What shape is the bathtub?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What is the color of the wardrobe in the Second bedroom?\n\nA. Dark grey\nB. Light grey\nC. White\nD. Black",
+      "response": "d"
+    }
+  ]
+}

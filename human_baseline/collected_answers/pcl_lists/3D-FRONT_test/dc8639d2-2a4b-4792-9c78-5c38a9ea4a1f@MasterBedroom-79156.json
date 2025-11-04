@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "dc8639d2-2a4b-4792-9c78-5c38a9ea4a1f@MasterBedroom-79156",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 4",
+  "timestamp": "2025-10-21T13:06:46.921233",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/dc8639d2-2a4b-4792-9c78-5c38a9ea4a1f/MasterBedroom-79156/MasterBedroom-79156.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What type of lamp is hanging above the bed in the master bedroom?\n\nA. Modern floor lamp\nB. Minimalist table lamp\nC. Asian standing lamp\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What type of lamp is hanging above the bed in the master bedroom?\n\nA. Modern floor lamp\nB. Minimalist table lamp\nC. Asian standing lamp\nD. None of the above",
+      "response": "D"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What type of lamp is hanging above the bed in the master bedroom?\n\nA. Modern floor lamp\nB. Minimalist table lamp\nC. Asian standing lamp",
+      "response": "None"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What type of lamp is hanging above the bed in the master bedroom?\n\nA. Pineapple\nB. Watermelon\nC. Cantaloupe\nD. Banana\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What type of lamp is hanging above the bed in the master bedroom?\n\nA. Pineapple\nB. Watermelon\nC. Cantaloupe\nD. Banana\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What type of lamp is hanging above the bed in the master bedroom?\n\nA. Pineapple\nB. Watermelon\nC. Cantaloupe\nD. Banana",
+      "response": "None"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What type of window treatment is featured in the scene?\n\nA. Roller blinds\nB. Sheer curtains\nC. Plantation shutters\nD. Roman shades\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What type of window treatment is featured in the scene?\n\nA. Roller blinds\nB. Sheer curtains\nC. Plantation shutters\nD. Roman shades\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What type of window treatment is featured in the scene?\n\nA. Roller blinds\nB. Sheer curtains\nC. Plantation shutters\nD. Roman shades",
+      "response": "None"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What type of large aquarium is located in the room?",
+      "response": "unanswerable"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What type of large aquarium is located in the room?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What type of lamp is hanging above the bed in the master bedroom?\n\nA. Modern floor lamp\nB. Minimalist table lamp\nC. Asian standing lamp\nD. Chinoiserie pendant lamp",
+      "response": "D"
+    }
+  ]
+}

@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "fa99cb77-02f2-4bc4-a894-e3456ab1a6b7@MasterBedroom-18017",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 3",
+  "timestamp": "2025-10-30T11:30:58.077890",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/fa99cb77-02f2-4bc4-a894-e3456ab1a6b7/MasterBedroom-18017/MasterBedroom-18017.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What type of lighting is used in the room in addition to the wardrobe?\n\nA. Floor lamps\nB. Table lamps\nC. Wall sconces\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What type of lighting is used in the room in addition to the wardrobe?\n\nA. Floor lamps\nB. Table lamps\nC. Wall sconces\nD. None of the above",
+      "response": "D"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What type of lighting is used in the room in addition to the wardrobe?\n\nA. Floor lamps\nB. Table lamps\nC. Wall sconces",
+      "response": "NONE"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What type of lighting is used in the room in addition to the wardrobe?\n\nA. Granola\nB. Cactus\nC. Helicopter\nD. Mountain\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What type of lighting is used in the room in addition to the wardrobe?\n\nA. Granola\nB. Cactus\nC. Helicopter\nD. Mountain\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What type of lighting is used in the room in addition to the wardrobe?\n\nA. Granola\nB. Cactus\nC. Helicopter\nD. Mountain",
+      "response": "NONE"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What is the shape of the table in the scene?\n\nA. Round\nB. Square\nC. Rectangular\nD. Oval\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What is the shape of the table in the scene?\n\nA. Round\nB. Square\nC. Rectangular\nD. Oval\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What is the shape of the table in the scene?\n\nA. Round\nB. Square\nC. Rectangular\nD. Oval",
+      "response": "NA"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What type of outdoor grill is located in the backyard?",
+      "response": "NA"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What type of outdoor grill is located in the backyard?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What type of lighting is used in the room in addition to the wardrobe?\n\nA. Pendant lamps\nB. Floor lamps\nC. Table lamps\nD. Wall sconces",
+      "response": "A"
+    }
+  ]
+}

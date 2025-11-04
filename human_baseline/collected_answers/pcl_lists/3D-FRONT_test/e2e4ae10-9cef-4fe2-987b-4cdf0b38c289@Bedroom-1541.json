@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "e2e4ae10-9cef-4fe2-987b-4cdf0b38c289@Bedroom-1541",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 4",
+  "timestamp": "2025-10-25T13:34:36.931969",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/e2e4ae10-9cef-4fe2-987b-4cdf0b38c289/Bedroom-1541/Bedroom-1541.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What color is the children's cabinet in the room?\n\nA. Creamy white\nB. Muted green\nC. Soft white\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What color is the children's cabinet in the room?\n\nA. Creamy white\nB. Muted green\nC. Soft white\nD. None of the above",
+      "response": "D"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What color is the children's cabinet in the room?\n\nA. Creamy white\nB. Muted green\nC. Soft white",
+      "response": "None"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What color is the children's cabinet in the room?\n\nA. Octopus\nB. Volcano\nC. Galaxy\nD. Desert\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What color is the children's cabinet in the room?\n\nA. Octopus\nB. Volcano\nC. Galaxy\nD. Desert\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What color is the children's cabinet in the room?\n\nA. Octopus\nB. Volcano\nC. Galaxy\nD. Desert",
+      "response": "None"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What type of sculpture is present in the room?\n\nA. Abstract Sculpture\nB. Figurative Sculpture\nC. Modernist Sculpture\nD. Classical Sculpture\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What type of sculpture is present in the room?\n\nA. Abstract Sculpture\nB. Figurative Sculpture\nC. Modernist Sculpture\nD. Classical Sculpture\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What type of sculpture is present in the room?\n\nA. Abstract Sculpture\nB. Figurative Sculpture\nC. Modernist Sculpture\nD. Classical Sculpture",
+      "response": "None"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What type of sculpture is displayed in the bedroom?",
+      "response": "unanswerable"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What type of sculpture is displayed in the bedroom?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What color is the children's cabinet in the room?\n\nA. Creamy white\nB. Muted green\nC. Soft white\nD. Deep navy blue",
+      "response": "D"
+    }
+  ]
+}

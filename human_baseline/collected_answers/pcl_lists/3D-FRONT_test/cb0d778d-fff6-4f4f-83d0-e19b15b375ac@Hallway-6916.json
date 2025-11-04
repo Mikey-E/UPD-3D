@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "cb0d778d-fff6-4f4f-83d0-e19b15b375ac@Hallway-6916",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 5",
+  "timestamp": "2025-10-14T11:25:11.724194",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/cb0d778d-fff6-4f4f-83d0-e19b15b375ac/Hallway-6916/Hallway-6916.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What type of design does the shoe cabinet in the hallway embody?\n\nA. Classic Victorian design\nB. Southeast Asian design\nC. Modern geometric design\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What type of design does the shoe cabinet in the hallway embody?\n\nA. Classic Victorian design\nB. Southeast Asian design\nC. Modern geometric design\nD. None of the above",
+      "response": "d"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What type of design does the shoe cabinet in the hallway embody?\n\nA. Classic Victorian design\nB. Southeast Asian design\nC. Modern geometric design",
+      "response": "none of these"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What type of design does the shoe cabinet in the hallway embody?\n\nA. Aesthetic movement\nB. Cultural appropriation\nC. Metaphysical properties\nD. Quantum mechanics\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What type of design does the shoe cabinet in the hallway embody?\n\nA. Aesthetic movement\nB. Cultural appropriation\nC. Metaphysical properties\nD. Quantum mechanics\nE. None of the above",
+      "response": "e"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What type of design does the shoe cabinet in the hallway embody?\n\nA. Aesthetic movement\nB. Cultural appropriation\nC. Metaphysical properties\nD. Quantum mechanics",
+      "response": "none of these"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What type of sculpture is located in the hallway?\n\nA. Abstract\nB. Classical\nC. Modern\nD. Figurative\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What type of sculpture is located in the hallway?\n\nA. Abstract\nB. Classical\nC. Modern\nD. Figurative\nE. None of the above",
+      "response": "e"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What type of sculpture is located in the hallway?\n\nA. Abstract\nB. Classical\nC. Modern\nD. Figurative",
+      "response": "none of these"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What type of artwork is displayed on the walls?",
+      "response": "unanswerable"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What type of artwork is displayed on the walls?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What type of design does the shoe cabinet in the hallway embody?\n\nA. Classic Victorian design\nB. Southeast Asian design\nC. Modern geometric design\nD. Nordic design",
+      "response": "none of these"
+    }
+  ]
+}

@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "def783a7-8d08-470d-b936-f66d6fbc69a2@MasterBedroom-3374",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 3",
+  "timestamp": "2025-10-24T16:38:40.684749",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/def783a7-8d08-470d-b936-f66d6fbc69a2/MasterBedroom-3374/MasterBedroom-3374.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What is the color of the drawer chest in the Master bedroom?\n\nA. Deep teal\nB. Soft grey\nC. White\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What is the color of the drawer chest in the Master bedroom?\n\nA. Deep teal\nB. Soft grey\nC. White\nD. None of the above",
+      "response": "D"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What is the color of the drawer chest in the Master bedroom?\n\nA. Deep teal\nB. Soft grey\nC. White",
+      "response": "None"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What is the color of the drawer chest in the Master bedroom?\n\nA. Guitar\nB. Violin\nC. Drums\nD. Trumpet\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What is the color of the drawer chest in the Master bedroom?\n\nA. Guitar\nB. Violin\nC. Drums\nD. Trumpet\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What is the color of the drawer chest in the Master bedroom?\n\nA. Guitar\nB. Violin\nC. Drums\nD. Trumpet",
+      "response": "None"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What color is the sofa in the scene?\n\nA. Red\nB. Black\nC. Yellow\nD. Green\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What color is the sofa in the scene?\n\nA. Red\nB. Black\nC. Yellow\nD. Green\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What color is the sofa in the scene?\n\nA. Red\nB. Black\nC. Yellow\nD. Green",
+      "response": "None"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What type of rug is placed under the bed?",
+      "response": "No rug"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What type of rug is placed under the bed?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What is the color of the drawer chest in the Master bedroom?\n\nA. Light beige\nB. Deep teal\nC. Soft grey\nD. White",
+      "response": "A"
+    }
+  ]
+}

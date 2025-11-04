@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "ecb9cf66-3f1a-46a1-846c-0b97406d762f@LivingDiningRoom-5162",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 3",
+  "timestamp": "2025-10-27T16:28:34.596320",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/ecb9cf66-3f1a-46a1-846c-0b97406d762f/LivingDiningRoom-5162/LivingDiningRoom-5162.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What type of lighting is provided by the floor lamp in this living room?\n\nA. Rustic style lighting\nB. Industrial style lighting\nC. Art Deco style lighting\nIf none of the above answers are correct, answer: 'F'",
+      "response": "C"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What type of lighting is provided by the floor lamp in this living room?\n\nA. Rustic style lighting\nB. Industrial style lighting\nC. Art Deco style lighting\nD. None of the above",
+      "response": "C"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What type of lighting is provided by the floor lamp in this living room?\n\nA. Rustic style lighting\nB. Industrial style lighting\nC. Art Deco style lighting",
+      "response": "C"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What type of lighting is provided by the floor lamp in this living room?\n\nA. Banana split\nB. Quicksand\nC. Roller coaster\nD. Chess pieces\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What type of lighting is provided by the floor lamp in this living room?\n\nA. Banana split\nB. Quicksand\nC. Roller coaster\nD. Chess pieces\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What type of lighting is provided by the floor lamp in this living room?\n\nA. Banana split\nB. Quicksand\nC. Roller coaster\nD. Chess pieces",
+      "response": "None"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What type of fruit is displayed on the dining table?\n\nA. Apples\nB. Bananas\nC. Oranges\nD. Grapes\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What type of fruit is displayed on the dining table?\n\nA. Apples\nB. Bananas\nC. Oranges\nD. Grapes\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What type of fruit is displayed on the dining table?\n\nA. Apples\nB. Bananas\nC. Oranges\nD. Grapes",
+      "response": "None"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What style is the fireplace in the living room?",
+      "response": "N/A"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What style is the fireplace in the living room?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What type of lighting is provided by the floor lamp in this living room?\n\nA. Rustic style lighting\nB. Industrial style lighting\nC. New Chinese style lighting\nD. Art Deco style lighting",
+      "response": "D"
+    }
+  ]
+}

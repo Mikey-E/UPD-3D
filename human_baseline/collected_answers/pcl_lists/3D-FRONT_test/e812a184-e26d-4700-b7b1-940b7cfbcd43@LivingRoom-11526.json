@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "e812a184-e26d-4700-b7b1-940b7cfbcd43@LivingRoom-11526",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 3",
+  "timestamp": "2025-10-27T08:22:01.290520",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/e812a184-e26d-4700-b7b1-940b7cfbcd43/LivingRoom-11526/LivingRoom-11526.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What shape is the second pendant lamp described in the living room?\n\nA. Elongated\nB. Round\nC. Square\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What shape is the second pendant lamp described in the living room?\n\nA. Elongated\nB. Round\nC. Square\nD. None of the above",
+      "response": "D"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What shape is the second pendant lamp described in the living room?\n\nA. Elongated\nB. Round\nC. Square",
+      "response": "None"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What shape is the second pendant lamp described in the living room?\n\nA. Triangle\nB. Square\nC. Rectangle\nD. Circle\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What shape is the second pendant lamp described in the living room?\n\nA. Triangle\nB. Square\nC. Rectangle\nD. Circle\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What shape is the second pendant lamp described in the living room?\n\nA. Triangle\nB. Square\nC. Rectangle\nD. Circle",
+      "response": "None"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What type of rug complements the furniture in the living room?\n\nA. Persian\nB. Shag\nC. Abstract\nD. Jute\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What type of rug complements the furniture in the living room?\n\nA. Persian\nB. Shag\nC. Abstract\nD. Jute\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What type of rug complements the furniture in the living room?\n\nA. Persian\nB. Shag\nC. Abstract\nD. Jute",
+      "response": "None"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What type of refrigerator is present in the kitchen?",
+      "response": "N/A"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What type of refrigerator is present in the kitchen?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What shape is the second pendant lamp described in the living room?\n\nA. Elongated\nB. Starburst-shaped\nC. Round\nD. Square",
+      "response": "B"
+    }
+  ]
+}

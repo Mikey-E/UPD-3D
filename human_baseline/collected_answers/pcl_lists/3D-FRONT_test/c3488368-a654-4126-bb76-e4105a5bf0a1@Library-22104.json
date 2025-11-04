@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "c3488368-a654-4126-bb76-e4105a5bf0a1@Library-22104",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 3",
+  "timestamp": "2025-10-08T10:26:24.028542",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/c3488368-a654-4126-bb76-e4105a5bf0a1/Library-22104/Library-22104.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What piece of furniture is positioned opposite the armchair in the library?\n\nA. Armchair\nB. Desk\nC. Bookcase\nIf none of the above answers are correct, answer: 'F'",
+      "response": "B"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What piece of furniture is positioned opposite the armchair in the library?\n\nA. Armchair\nB. Desk\nC. Bookcase\nD. None of the above",
+      "response": "B"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What piece of furniture is positioned opposite the armchair in the library?\n\nA. Armchair\nB. Desk\nC. Bookcase",
+      "response": "B"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What piece of furniture is positioned opposite the armchair in the library?\n\nA. Cherry blossom\nB. Golden retriever\nC. Basketball court\nD. Ocean breeze\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What piece of furniture is positioned opposite the armchair in the library?\n\nA. Cherry blossom\nB. Golden retriever\nC. Basketball court\nD. Ocean breeze\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What piece of furniture is positioned opposite the armchair in the library?\n\nA. Cherry blossom\nB. Golden retriever\nC. Basketball court\nD. Ocean breeze",
+      "response": "None"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What color is the vase on the table?\n\nA. Red\nB. Green\nC. Blue\nD. Yellow\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What color is the vase on the table?\n\nA. Red\nB. Green\nC. Blue\nD. Yellow\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What color is the vase on the table?\n\nA. Red\nB. Green\nC. Blue\nD. Yellow",
+      "response": "None"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What type of sports equipment is located in the library?",
+      "response": "None"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What type of sports equipment is located in the library?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What piece of furniture is positioned opposite the armchair in the library?\n\nA. Armchair\nB. Desk\nC. Bookcase\nD. Loveseat sofa",
+      "response": "B"
+    }
+  ]
+}

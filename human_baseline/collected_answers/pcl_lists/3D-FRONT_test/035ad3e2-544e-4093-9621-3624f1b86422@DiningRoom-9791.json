@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "035ad3e2-544e-4093-9621-3624f1b86422@DiningRoom-9791",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 4",
+  "timestamp": "2025-10-06T09:31:56.937385",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/035ad3e2-544e-4093-9621-3624f1b86422/DiningRoom-9791/DiningRoom-9791.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What type of plant is present in the dining room, adding a Southeast Asian influence?\n\nA. Cactus\nB. Bonsai\nC. Fern\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What type of plant is present in the dining room, adding a Southeast Asian influence?\n\nA. Cactus\nB. Bonsai\nC. Fern\nD. None of the above",
+      "response": "D"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What type of plant is present in the dining room, adding a Southeast Asian influence?\n\nA. Cactus\nB. Bonsai\nC. Fern",
+      "response": "none of these"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What type of plant is present in the dining room, adding a Southeast Asian influence?\n\nA. Drum\nB. Violin\nC. Trumpet\nD. Flute\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What type of plant is present in the dining room, adding a Southeast Asian influence?\n\nA. Drum\nB. Violin\nC. Trumpet\nD. Flute\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What type of plant is present in the dining room, adding a Southeast Asian influence?\n\nA. Drum\nB. Violin\nC. Trumpet\nD. Flute",
+      "response": "none of these"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What shape is the bookshelf in the scene?\n\nA. Rectangular\nB. Circular\nC. Triangular\nD. Oval\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What shape is the bookshelf in the scene?\n\nA. Rectangular\nB. Circular\nC. Triangular\nD. Oval\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What shape is the bookshelf in the scene?\n\nA. Rectangular\nB. Circular\nC. Triangular\nD. Oval",
+      "response": "none of these"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What type of outdoor grill is used for barbecuing in the scene?",
+      "response": "none"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What type of outdoor grill is used for barbecuing in the scene?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What type of plant is present in the dining room, adding a Southeast Asian influence?\n\nA. Cactus\nB. Tropical plant\nC. Bonsai\nD. Fern",
+      "response": "none of these"
+    }
+  ]
+}

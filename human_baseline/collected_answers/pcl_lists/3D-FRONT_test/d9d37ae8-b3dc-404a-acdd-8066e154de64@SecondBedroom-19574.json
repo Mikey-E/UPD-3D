@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "d9d37ae8-b3dc-404a-acdd-8066e154de64@SecondBedroom-19574",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 4",
+  "timestamp": "2025-10-19T15:15:31.888912",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/d9d37ae8-b3dc-404a-acdd-8066e154de64/SecondBedroom-19574/SecondBedroom-19574.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What kind of lighting is positioned near the dressing table?\n\nA. Ceiling lamp\nB. Wall sconce\nC. Table lamp\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What kind of lighting is positioned near the dressing table?\n\nA. Ceiling lamp\nB. Wall sconce\nC. Table lamp\nD. None of the above",
+      "response": "D"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What kind of lighting is positioned near the dressing table?\n\nA. Ceiling lamp\nB. Wall sconce\nC. Table lamp",
+      "response": "None"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What kind of lighting is positioned near the dressing table?\n\nA. Revolution\nB. Satellite\nC. Erosion\nD. Metamorphosis\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What kind of lighting is positioned near the dressing table?\n\nA. Revolution\nB. Satellite\nC. Erosion\nD. Metamorphosis\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What kind of lighting is positioned near the dressing table?\n\nA. Revolution\nB. Satellite\nC. Erosion\nD. Metamorphosis",
+      "response": "None"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What is the size of the television in the room?\n\nA. 32 inches\nB. 55 inches\nC. 75 inches\nD. 100 inches\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What is the size of the television in the room?\n\nA. 32 inches\nB. 55 inches\nC. 75 inches\nD. 100 inches\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What is the size of the television in the room?\n\nA. 32 inches\nB. 55 inches\nC. 75 inches\nD. 100 inches",
+      "response": "None"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What type of musical instrument is resting in the corner of the room?",
+      "response": "unanswerable"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What type of musical instrument is resting in the corner of the room?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What kind of lighting is positioned near the dressing table?\n\nA. Ceiling lamp\nB. Floor lamp\nC. Wall sconce\nD. Table lamp",
+      "response": "B"
+    }
+  ]
+}

@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "d3dbe530-1eac-4374-a97c-93f073071a60@LivingDiningRoom-7360",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 4",
+  "timestamp": "2025-10-16T09:04:11.195469",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/d3dbe530-1eac-4374-a97c-93f073071a60/LivingDiningRoom-7360/LivingDiningRoom-7360.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What style is the primary inspiration for the design of the television stand in the living room?\n\nA. Rustic farmhouse charm\nB. Classic Victorian design\nC. Industrial metal aesthetics\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What style is the primary inspiration for the design of the television stand in the living room?\n\nA. Rustic farmhouse charm\nB. Classic Victorian design\nC. Industrial metal aesthetics\nD. None of the above",
+      "response": "d"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What style is the primary inspiration for the design of the television stand in the living room?\n\nA. Rustic farmhouse charm\nB. Classic Victorian design\nC. Industrial metal aesthetics",
+      "response": "none"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What style is the primary inspiration for the design of the television stand in the living room?\n\nA. Marble slab\nB. Wooden spoon\nC. Cast iron skillet\nD. Porcelain vase\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What style is the primary inspiration for the design of the television stand in the living room?\n\nA. Marble slab\nB. Wooden spoon\nC. Cast iron skillet\nD. Porcelain vase\nE. None of the above",
+      "response": "e"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What style is the primary inspiration for the design of the television stand in the living room?\n\nA. Marble slab\nB. Wooden spoon\nC. Cast iron skillet\nD. Porcelain vase",
+      "response": "none"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What pattern is used on the walls?\n\nA. Striped\nB. Floral\nC. Geometric\nD. Solid color\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What pattern is used on the walls?\n\nA. Striped\nB. Floral\nC. Geometric\nD. Solid color\nE. None of the above",
+      "response": "e"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What pattern is used on the walls?\n\nA. Striped\nB. Floral\nC. Geometric\nD. Solid color",
+      "response": "none"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What type of stove is integrated into the kitchen area?",
+      "response": "n/a"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What type of stove is integrated into the kitchen area?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What style is the primary inspiration for the design of the television stand in the living room?\n\nA. Rustic farmhouse charm\nB. Classic Victorian design\nC. Korean-inspired simplicity\nD. Industrial metal aesthetics",
+      "response": "c"
+    }
+  ]
+}

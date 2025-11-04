@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "e8ce997f-c442-43c0-96d6-196dbb8606bc@LivingDiningRoom-5016",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 5",
+  "timestamp": "2025-10-27T08:34:57.601608",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/e8ce997f-c442-43c0-96d6-196dbb8606bc/LivingDiningRoom-5016/LivingDiningRoom-5016.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What style is the plant in the living room that enhances the ambiance and air quality?\n\nA. Mediterranean style\nB. Korean style\nC. Light Luxury style\nIf none of the above answers are correct, answer: 'F'",
+      "response": "c"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What style is the plant in the living room that enhances the ambiance and air quality?\n\nA. Mediterranean style\nB. Korean style\nC. Light Luxury style\nD. None of the above",
+      "response": "c"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What style is the plant in the living room that enhances the ambiance and air quality?\n\nA. Mediterranean style\nB. Korean style\nC. Light Luxury style",
+      "response": "c"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What style is the plant in the living room that enhances the ambiance and air quality?\n\nA. Quantum mechanics\nB. Electric guitar\nC. Ancient civilizations\nD. Cartoon characters\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What style is the plant in the living room that enhances the ambiance and air quality?\n\nA. Quantum mechanics\nB. Electric guitar\nC. Ancient civilizations\nD. Cartoon characters\nE. None of the above",
+      "response": "e"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What style is the plant in the living room that enhances the ambiance and air quality?\n\nA. Quantum mechanics\nB. Electric guitar\nC. Ancient civilizations\nD. Cartoon characters",
+      "response": "none"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "How many windows are in the scene?\n\nA. Three windows\nB. Five windows\nC. Seven windows\nD. Two windows\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "How many windows are in the scene?\n\nA. Three windows\nB. Five windows\nC. Seven windows\nD. Two windows\nE. None of the above",
+      "response": "e"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "How many windows are in the scene?\n\nA. Three windows\nB. Five windows\nC. Seven windows\nD. Two windows",
+      "response": "none"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What type of flooring is used in the living room?",
+      "response": "none"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What type of flooring is used in the living room?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What style is the plant in the living room that enhances the ambiance and air quality?\n\nA. Mediterranean style\nB. Korean style\nC. Southeast Asia style\nD. Light Luxury style",
+      "response": "d"
+    }
+  ]
+}

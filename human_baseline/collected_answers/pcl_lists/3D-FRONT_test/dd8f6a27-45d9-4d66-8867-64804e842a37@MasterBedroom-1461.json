@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "dd8f6a27-45d9-4d66-8867-64804e842a37@MasterBedroom-1461",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 4",
+  "timestamp": "2025-10-24T13:32:00.613030",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/dd8f6a27-45d9-4d66-8867-64804e842a37/MasterBedroom-1461/MasterBedroom-1461.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What color are the nightstands flanking the king-size bed in the Masterbedroom?\n\nA. Dark brown\nB. Deep green\nC. Crisp white\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What color are the nightstands flanking the king-size bed in the Masterbedroom?\n\nA. Dark brown\nB. Deep green\nC. Crisp white\nD. None of the above",
+      "response": "d"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What color are the nightstands flanking the king-size bed in the Masterbedroom?\n\nA. Dark brown\nB. Deep green\nC. Crisp white",
+      "response": "none"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What color are the nightstands flanking the king-size bed in the Masterbedroom?\n\nA. Mountain\nB. Ocean\nC. Forest\nD. Desert\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What color are the nightstands flanking the king-size bed in the Masterbedroom?\n\nA. Mountain\nB. Ocean\nC. Forest\nD. Desert\nE. None of the above",
+      "response": "e"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What color are the nightstands flanking the king-size bed in the Masterbedroom?\n\nA. Mountain\nB. Ocean\nC. Forest\nD. Desert",
+      "response": "none"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What type of sculpture is located in the room?\n\nA. Abstract figure\nB. Classical bust\nC. Geometric shape\nD. Animal depiction\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What type of sculpture is located in the room?\n\nA. Abstract figure\nB. Classical bust\nC. Geometric shape\nD. Animal depiction\nE. None of the above",
+      "response": "e"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What type of sculpture is located in the room?\n\nA. Abstract figure\nB. Classical bust\nC. Geometric shape\nD. Animal depiction",
+      "response": "none"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What type of artwork is displayed on the walls?",
+      "response": "n/a"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What type of artwork is displayed on the walls?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What color are the nightstands flanking the king-size bed in the Masterbedroom?\n\nA. Dark brown\nB. Muted lavender\nC. Deep green\nD. Crisp white",
+      "response": "none"
+    }
+  ]
+}

@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "ef8fd1e1-1ffe-443c-9250-051ead3af79f@SecondBedroom-911",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 3",
+  "timestamp": "2025-10-28T16:25:02.146675",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/ef8fd1e1-1ffe-443c-9250-051ead3af79f/SecondBedroom-911/SecondBedroom-911.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What type of tree is present in the room, contributing to the calming atmosphere?\n\nA. Pine tree\nB. Banyan tree\nC. Oak tree\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What type of tree is present in the room, contributing to the calming atmosphere?\n\nA. Pine tree\nB. Banyan tree\nC. Oak tree\nD. None of the above",
+      "response": "D"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What type of tree is present in the room, contributing to the calming atmosphere?\n\nA. Pine tree\nB. Banyan tree\nC. Oak tree",
+      "response": "None"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What type of tree is present in the room, contributing to the calming atmosphere?\n\nA. Quantum physics\nB. Solar system\nC. Evolutionary biology\nD. Classical literature\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What type of tree is present in the room, contributing to the calming atmosphere?\n\nA. Quantum physics\nB. Solar system\nC. Evolutionary biology\nD. Classical literature\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What type of tree is present in the room, contributing to the calming atmosphere?\n\nA. Quantum physics\nB. Solar system\nC. Evolutionary biology\nD. Classical literature",
+      "response": "None"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What type of flooring is used in the room?\n\nA. Hardwood\nB. Carpet\nC. Tile\nD. Laminate\nIf none of the above answers are correct, answer: 'F'",
+      "response": "A"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What type of flooring is used in the room?\n\nA. Hardwood\nB. Carpet\nC. Tile\nD. Laminate\nE. None of the above",
+      "response": "A"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What type of flooring is used in the room?\n\nA. Hardwood\nB. Carpet\nC. Tile\nD. Laminate",
+      "response": "A"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What type of sports equipment is stored in the room?",
+      "response": "N/A"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What type of sports equipment is stored in the room?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What type of tree is present in the room, contributing to the calming atmosphere?\n\nA. Pine tree\nB. Banyan tree\nC. Bonsai tree\nD. Oak tree",
+      "response": "C"
+    }
+  ]
+}

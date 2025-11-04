@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "e2c21ee1-02d6-400e-86ec-cd4c39505f68@LivingDiningRoom-1917",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 4",
+  "timestamp": "2025-10-25T13:23:20.133703",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/e2c21ee1-02d6-400e-86ec-cd4c39505f68/LivingDiningRoom-1917/LivingDiningRoom-1917.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What style is the shoe cabinet in the livingdining room designed?\n\nA. Light wooden color with a Japanese style\nB. Dark brown leather upholstery\nC. Neoclassical design with a muted beige palette\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What style is the shoe cabinet in the livingdining room designed?\n\nA. Light wooden color with a Japanese style\nB. Dark brown leather upholstery\nC. Neoclassical design with a muted beige palette\nD. None of the above",
+      "response": "D"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What style is the shoe cabinet in the livingdining room designed?\n\nA. Light wooden color with a Japanese style\nB. Dark brown leather upholstery\nC. Neoclassical design with a muted beige palette",
+      "response": "None"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What style is the shoe cabinet in the livingdining room designed?\n\nA. Oceanic\nB. Mountainous\nC. Deserted\nD. Forested\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What style is the shoe cabinet in the livingdining room designed?\n\nA. Oceanic\nB. Mountainous\nC. Deserted\nD. Forested\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What style is the shoe cabinet in the livingdining room designed?\n\nA. Oceanic\nB. Mountainous\nC. Deserted\nD. Forested",
+      "response": "None"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What is the texture of the painting hanging in the room?\n\nA. Rough\nB. Smooth\nC. Textured\nD. Glossy\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What is the texture of the painting hanging in the room?\n\nA. Rough\nB. Smooth\nC. Textured\nD. Glossy\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What is the texture of the painting hanging in the room?\n\nA. Rough\nB. Smooth\nC. Textured\nD. Glossy",
+      "response": "None"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What type of artwork is hanging on the walls?",
+      "response": "unanswerable"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What type of artwork is hanging on the walls?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What style is the shoe cabinet in the livingdining room designed?\n\nA. Light wooden color with a Japanese style\nB. Dark brown leather upholstery\nC. Neoclassical design with a muted beige palette\nD. Minimalist white finish with a Nordic style",
+      "response": "D"
+    }
+  ]
+}

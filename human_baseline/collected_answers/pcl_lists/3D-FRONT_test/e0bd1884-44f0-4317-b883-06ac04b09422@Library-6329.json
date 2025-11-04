@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "e0bd1884-44f0-4317-b883-06ac04b09422@Library-6329",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 5",
+  "timestamp": "2025-10-24T21:13:17.673474",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/e0bd1884-44f0-4317-b883-06ac04b09422/Library-6329/Library-6329.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What type of bed is featured prominently in the library?\n\nA. Twin bed\nB. Queen bed\nC. Sofa bed\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What type of bed is featured prominently in the library?\n\nA. Twin bed\nB. Queen bed\nC. Sofa bed\nD. None of the above",
+      "response": "d"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What type of bed is featured prominently in the library?\n\nA. Twin bed\nB. Queen bed\nC. Sofa bed",
+      "response": "none"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What type of bed is featured prominently in the library?\n\nA. Cherry blossom\nB. Maple syrup\nC. Electric guitar\nD. Snowman\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What type of bed is featured prominently in the library?\n\nA. Cherry blossom\nB. Maple syrup\nC. Electric guitar\nD. Snowman\nE. None of the above",
+      "response": "e"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What type of bed is featured prominently in the library?\n\nA. Cherry blossom\nB. Maple syrup\nC. Electric guitar\nD. Snowman",
+      "response": "none"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What type of sculpture adds to the atmosphere of the library?\n\nA. Abstract metal sculpture\nB. Marble bust\nC. Wooden tribal mask\nD. Glass art piece\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What type of sculpture adds to the atmosphere of the library?\n\nA. Abstract metal sculpture\nB. Marble bust\nC. Wooden tribal mask\nD. Glass art piece\nE. None of the above",
+      "response": "e"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What type of sculpture adds to the atmosphere of the library?\n\nA. Abstract metal sculpture\nB. Marble bust\nC. Wooden tribal mask\nD. Glass art piece",
+      "response": "none"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What type of outdoor furniture is placed on the balcony?",
+      "response": "none"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What type of outdoor furniture is placed on the balcony?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What type of bed is featured prominently in the library?\n\nA. Twin bed\nB. King-size bed\nC. Queen bed\nD. Sofa bed",
+      "response": "none"
+    }
+  ]
+}

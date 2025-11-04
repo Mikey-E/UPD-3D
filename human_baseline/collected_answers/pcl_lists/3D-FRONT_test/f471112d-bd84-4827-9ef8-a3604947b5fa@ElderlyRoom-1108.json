@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "f471112d-bd84-4827-9ef8-a3604947b5fa@ElderlyRoom-1108",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 5",
+  "timestamp": "2025-10-29T16:50:19.650639",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/f471112d-bd84-4827-9ef8-a3604947b5fa/ElderlyRoom-1108/ElderlyRoom-1108.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What color is the king-size bed in the ElderlyRoom?\n\nA. Honey-brown\nB. Deep brown\nC. Light beige\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What color is the king-size bed in the ElderlyRoom?\n\nA. Honey-brown\nB. Deep brown\nC. Light beige\nD. None of the above",
+      "response": "d"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What color is the king-size bed in the ElderlyRoom?\n\nA. Honey-brown\nB. Deep brown\nC. Light beige",
+      "response": "none"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What color is the king-size bed in the ElderlyRoom?\n\nA. Tropical rainforest\nB. Ancient civilization\nC. Distant galaxy\nD. Modern sculpture\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What color is the king-size bed in the ElderlyRoom?\n\nA. Tropical rainforest\nB. Ancient civilization\nC. Distant galaxy\nD. Modern sculpture\nE. None of the above",
+      "response": "e"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What color is the king-size bed in the ElderlyRoom?\n\nA. Tropical rainforest\nB. Ancient civilization\nC. Distant galaxy\nD. Modern sculpture",
+      "response": "none"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What shape is the clock hanging in the room?\n\nA. Round\nB. Square\nC. Rectangular\nD. Oval\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What shape is the clock hanging in the room?\n\nA. Round\nB. Square\nC. Rectangular\nD. Oval\nE. None of the above",
+      "response": "e"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What shape is the clock hanging in the room?\n\nA. Round\nB. Square\nC. Rectangular\nD. Oval",
+      "response": "none"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What is the shape of the coffee table in the room?",
+      "response": "none"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What is the shape of the coffee table in the room?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What color is the king-size bed in the ElderlyRoom?\n\nA. Honey-brown\nB. Walnut brown\nC. Deep brown\nD. Light beige",
+      "response": "b"
+    }
+  ]
+}

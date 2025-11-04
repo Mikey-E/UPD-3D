@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "e7617091-5ec2-4f8b-801f-848e260ef807@Bedroom-6683",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 5",
+  "timestamp": "2025-10-27T08:12:25.381114",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/e7617091-5ec2-4f8b-801f-848e260ef807/Bedroom-6683/Bedroom-6683.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What style is the wardrobe in this bedroom?\n\nA. European Classic\nB. Industrial\nC. Chinoiserie\nIf none of the above answers are correct, answer: 'F'",
+      "response": "a"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What style is the wardrobe in this bedroom?\n\nA. European Classic\nB. Industrial\nC. Chinoiserie\nD. None of the above",
+      "response": "a"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What style is the wardrobe in this bedroom?\n\nA. European Classic\nB. Industrial\nC. Chinoiserie",
+      "response": "a"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What style is the wardrobe in this bedroom?\n\nA. Cherry blossom\nB. Fractal geometry\nC. Solar system\nD. Quantum mechanics\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What style is the wardrobe in this bedroom?\n\nA. Cherry blossom\nB. Fractal geometry\nC. Solar system\nD. Quantum mechanics\nE. None of the above",
+      "response": "e"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What style is the wardrobe in this bedroom?\n\nA. Cherry blossom\nB. Fractal geometry\nC. Solar system\nD. Quantum mechanics",
+      "response": "none"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What type of mirror is positioned across from the bed?\n\nA. Round mirror\nB. Floor mirror\nC. Wall-mounted mirror\nD. Vanity mirror\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What type of mirror is positioned across from the bed?\n\nA. Round mirror\nB. Floor mirror\nC. Wall-mounted mirror\nD. Vanity mirror\nE. None of the above",
+      "response": "e"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What type of mirror is positioned across from the bed?\n\nA. Round mirror\nB. Floor mirror\nC. Wall-mounted mirror\nD. Vanity mirror",
+      "response": "none"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What type of exercise equipment is stored in the room?",
+      "response": "none"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What type of exercise equipment is stored in the room?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What style is the wardrobe in this bedroom?\n\nA. Mediterranean\nB. European Classic\nC. Industrial\nD. Chinoiserie",
+      "response": "b"
+    }
+  ]
+}

@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "c84945ea-5844-42e4-9049-3685b127bd22@SecondBedroom-1905",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 3",
+  "timestamp": "2025-10-12T11:57:41.845891",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/c84945ea-5844-42e4-9049-3685b127bd22/SecondBedroom-1905/SecondBedroom-1905.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What is the color of the desk in the Second bedroom?\n\nA. Beige\nB. Grey\nC. Brown\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What is the color of the desk in the Second bedroom?\n\nA. Beige\nB. Grey\nC. Brown\nD. None of the above",
+      "response": "D"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What is the color of the desk in the Second bedroom?\n\nA. Beige\nB. Grey\nC. Brown",
+      "response": "None"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What is the color of the desk in the Second bedroom?\n\nA. Velvet\nB. Canvas\nC. Silk\nD. Concrete\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What is the color of the desk in the Second bedroom?\n\nA. Velvet\nB. Canvas\nC. Silk\nD. Concrete\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What is the color of the desk in the Second bedroom?\n\nA. Velvet\nB. Canvas\nC. Silk\nD. Concrete",
+      "response": "None"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What texture is the wall in the Second bedroom?\n\nA. Smooth\nB. Rough\nC. Textured\nD. Glossy\nIf none of the above answers are correct, answer: 'F'",
+      "response": "C"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What texture is the wall in the Second bedroom?\n\nA. Smooth\nB. Rough\nC. Textured\nD. Glossy\nE. None of the above",
+      "response": "C"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What texture is the wall in the Second bedroom?\n\nA. Smooth\nB. Rough\nC. Textured\nD. Glossy",
+      "response": "C"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What type of fountain is installed in the room?",
+      "response": "N/A"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What type of fountain is installed in the room?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What is the color of the desk in the Second bedroom?\n\nA. Beige\nB. Charcoal\nC. Grey\nD. Brown",
+      "response": "B"
+    }
+  ]
+}

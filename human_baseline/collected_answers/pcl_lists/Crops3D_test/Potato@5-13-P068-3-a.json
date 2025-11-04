@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "Potato@5-13-P068-3-a",
+  "dataset": "Crops3D_test",
+  "annotated_by": "User 5",
+  "timestamp": "2025-10-30T12:06:11.644698",
+  "file_path": "/project/3dllms/melgin/datasets/CEA/Crops3D/Potato/5-13-P068-3-a.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What type of plant structure is described with a slender central stem and multiple lobed, serrated leaves?\n\nA. A flower bouquet\nB. A shrub branch\nC. A fern frond\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What type of plant structure is described with a slender central stem and multiple lobed, serrated leaves?\n\nA. A flower bouquet\nB. A shrub branch\nC. A fern frond\nD. None of the above",
+      "response": "d"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What type of plant structure is described with a slender central stem and multiple lobed, serrated leaves?\n\nA. A flower bouquet\nB. A shrub branch\nC. A fern frond",
+      "response": "none"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What type of plant structure is described with a slender central stem and multiple lobed, serrated leaves?\n\nA. Dessert recipe with chocolate\nB. Classical music composer\nC. Modern architectural style\nD. Historical fiction novel setting\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What type of plant structure is described with a slender central stem and multiple lobed, serrated leaves?\n\nA. Dessert recipe with chocolate\nB. Classical music composer\nC. Modern architectural style\nD. Historical fiction novel setting\nE. None of the above",
+      "response": "e"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What type of plant structure is described with a slender central stem and multiple lobed, serrated leaves?\n\nA. Dessert recipe with chocolate\nB. Classical music composer\nC. Modern architectural style\nD. Historical fiction novel setting",
+      "response": "none"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What type of fruit is located on the table?\n\nA. Apple\nB. Banana\nC. Orange\nD. Grape\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What type of fruit is located on the table?\n\nA. Apple\nB. Banana\nC. Orange\nD. Grape\nE. None of the above",
+      "response": "e"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What type of fruit is located on the table?\n\nA. Apple\nB. Banana\nC. Orange\nD. Grape",
+      "response": "none"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What type of fruit is hanging from the ceiling?",
+      "response": "none"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What type of fruit is hanging from the ceiling?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What type of plant structure is described with a slender central stem and multiple lobed, serrated leaves?\n\nA. A flower bouquet\nB. A herbaceous plant branch\nC. A shrub branch\nD. A fern frond",
+      "response": "b"
+    }
+  ]
+}

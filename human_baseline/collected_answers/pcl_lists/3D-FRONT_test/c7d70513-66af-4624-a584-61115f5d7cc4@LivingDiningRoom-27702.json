@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "c7d70513-66af-4624-a584-61115f5d7cc4@LivingDiningRoom-27702",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 4",
+  "timestamp": "2025-10-10T15:49:58.779064",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/c7d70513-66af-4624-a584-61115f5d7cc4/LivingDiningRoom-27702/LivingDiningRoom-27702.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What is the primary color of the three-seat sofa in the living room?\n\nA. Weathered white\nB. Warm taupe\nC. Sleek black\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What is the primary color of the three-seat sofa in the living room?\n\nA. Weathered white\nB. Warm taupe\nC. Sleek black\nD. None of the above",
+      "response": "D"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What is the primary color of the three-seat sofa in the living room?\n\nA. Weathered white\nB. Warm taupe\nC. Sleek black",
+      "response": "NONE"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What is the primary color of the three-seat sofa in the living room?\n\nA. Apples\nB. Elephants\nC. Oceans\nD. Mountains\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What is the primary color of the three-seat sofa in the living room?\n\nA. Apples\nB. Elephants\nC. Oceans\nD. Mountains\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What is the primary color of the three-seat sofa in the living room?\n\nA. Apples\nB. Elephants\nC. Oceans\nD. Mountains",
+      "response": "NONE"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What type of book is featured prominently in the scene?\n\nA. Fiction\nB. Biography\nC. Cookbook\nD. Science Fiction\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What type of book is featured prominently in the scene?\n\nA. Fiction\nB. Biography\nC. Cookbook\nD. Science Fiction\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What type of book is featured prominently in the scene?\n\nA. Fiction\nB. Biography\nC. Cookbook\nD. Science Fiction",
+      "response": "NONE"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What type of bed frame is in the living room?",
+      "response": "NONE"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What type of bed frame is in the living room?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What is the primary color of the three-seat sofa in the living room?\n\nA. Weathered white\nB. Warm taupe\nC. Sleek black\nD. Charcoal gray",
+      "response": "D"
+    }
+  ]
+}

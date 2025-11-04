@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "d63b9c4d-0b03-4e0d-94d1-c113aec32e22@MasterBedroom-47915",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 4",
+  "timestamp": "2025-10-16T17:56:08.345776",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/d63b9c4d-0b03-4e0d-94d1-c113aec32e22/MasterBedroom-47915/MasterBedroom-47915.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What style is the wardrobe in the Masterbedroom?\n\nA. Vintage/Retro\nB. American Country\nC. Modern\nIf none of the above answers are correct, answer: 'F'",
+      "response": "C"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What style is the wardrobe in the Masterbedroom?\n\nA. Vintage/Retro\nB. American Country\nC. Modern\nD. None of the above",
+      "response": "C"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What style is the wardrobe in the Masterbedroom?\n\nA. Vintage/Retro\nB. American Country\nC. Modern",
+      "response": "C"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What style is the wardrobe in the Masterbedroom?\n\nA. Folklore\nB. Mythology\nC. Astronomy\nD. Geography\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What style is the wardrobe in the Masterbedroom?\n\nA. Folklore\nB. Mythology\nC. Astronomy\nD. Geography\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What style is the wardrobe in the Masterbedroom?\n\nA. Folklore\nB. Mythology\nC. Astronomy\nD. Geography",
+      "response": "None"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What is the size of the artwork displayed in the room?\n\nA. Small\nB. Medium\nC. Large\nD. Giant\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What is the size of the artwork displayed in the room?\n\nA. Small\nB. Medium\nC. Large\nD. Giant\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What is the size of the artwork displayed in the room?\n\nA. Small\nB. Medium\nC. Large\nD. Giant",
+      "response": "None"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What is the height of the bookshelf?",
+      "response": "unanswerable"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What is the height of the bookshelf?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What style is the wardrobe in the Masterbedroom?\n\nA. Japanese\nB. Vintage/Retro\nC. American Country\nD. Modern",
+      "response": "D"
+    }
+  ]
+}

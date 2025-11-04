@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "c99f6564-2c07-4733-86c5-7d1712c3deac@Bedroom-1971",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 3",
+  "timestamp": "2025-10-13T23:39:47.917697",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/c99f6564-2c07-4733-86c5-7d1712c3deac/Bedroom-1971/Bedroom-1971.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What color is the wardrobe in the bedroom?\n\nA. Warm taupe\nB. Bright white\nC. Mustard yellow\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What color is the wardrobe in the bedroom?\n\nA. Warm taupe\nB. Bright white\nC. Mustard yellow\nD. None of the above",
+      "response": "D"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What color is the wardrobe in the bedroom?\n\nA. Warm taupe\nB. Bright white\nC. Mustard yellow",
+      "response": "None"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What color is the wardrobe in the bedroom?\n\nA. Refrigerator\nB. Microwave\nC. Oven\nD. Toaster\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What color is the wardrobe in the bedroom?\n\nA. Refrigerator\nB. Microwave\nC. Oven\nD. Toaster\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What color is the wardrobe in the bedroom?\n\nA. Refrigerator\nB. Microwave\nC. Oven\nD. Toaster",
+      "response": "None"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What is the purpose of the treehouse in this scene?\n\nA. A place for relaxation\nB. An art studio\nC. A guest room\nD. A storage area\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What is the purpose of the treehouse in this scene?\n\nA. A place for relaxation\nB. An art studio\nC. A guest room\nD. A storage area\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What is the purpose of the treehouse in this scene?\n\nA. A place for relaxation\nB. An art studio\nC. A guest room\nD. A storage area",
+      "response": "None"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What type of vehicle is parked outside the bedroom?",
+      "response": "N/A"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What type of vehicle is parked outside the bedroom?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What color is the wardrobe in the bedroom?\n\nA. Warm taupe\nB. Muted gray\nC. Bright white\nD. Mustard yellow",
+      "response": "B"
+    }
+  ]
+}

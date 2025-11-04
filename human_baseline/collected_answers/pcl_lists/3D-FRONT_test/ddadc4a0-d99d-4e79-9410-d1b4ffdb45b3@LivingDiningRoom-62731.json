@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "ddadc4a0-d99d-4e79-9410-d1b4ffdb45b3@LivingDiningRoom-62731",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 4",
+  "timestamp": "2025-10-24T15:33:21.456033",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/ddadc4a0-d99d-4e79-9410-d1b4ffdb45b3/LivingDiningRoom-62731/LivingDiningRoom-62731.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What type of design is the sectional sofa characterized by in this living room?\n\nA. Minimalist design\nB. Traditional design\nC. Rustic design\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What type of design is the sectional sofa characterized by in this living room?\n\nA. Minimalist design\nB. Traditional design\nC. Rustic design\nD. None of the above",
+      "response": "d"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What type of design is the sectional sofa characterized by in this living room?\n\nA. Minimalist design\nB. Traditional design\nC. Rustic design",
+      "response": "none"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What type of design is the sectional sofa characterized by in this living room?\n\nA. Tropical rainforest\nB. Arctic tundra\nC. Desert landscape\nD. Mountain range\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What type of design is the sectional sofa characterized by in this living room?\n\nA. Tropical rainforest\nB. Arctic tundra\nC. Desert landscape\nD. Mountain range\nE. None of the above",
+      "response": "e"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What type of design is the sectional sofa characterized by in this living room?\n\nA. Tropical rainforest\nB. Arctic tundra\nC. Desert landscape\nD. Mountain range",
+      "response": "none"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What is the shape of the table in the scene?\n\nA. Oval\nB. Rectangular\nC. Circular\nD. Hexagonal\nIf none of the above answers are correct, answer: 'F'",
+      "response": "a"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What is the shape of the table in the scene?\n\nA. Oval\nB. Rectangular\nC. Circular\nD. Hexagonal\nE. None of the above",
+      "response": "a"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What is the shape of the table in the scene?\n\nA. Oval\nB. Rectangular\nC. Circular\nD. Hexagonal",
+      "response": "a"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What type of outdoor grill is set up in the backyard?",
+      "response": "n/a"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What type of outdoor grill is set up in the backyard?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What type of design is the sectional sofa characterized by in this living room?\n\nA. Minimalist design\nB. Traditional design\nC. Rustic design\nD. L-shaped modern design",
+      "response": "d"
+    }
+  ]
+}

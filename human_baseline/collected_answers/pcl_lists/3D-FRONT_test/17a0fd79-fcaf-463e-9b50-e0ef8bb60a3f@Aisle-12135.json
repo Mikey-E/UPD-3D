@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "17a0fd79-fcaf-463e-9b50-e0ef8bb60a3f@Aisle-12135",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 5",
+  "timestamp": "2025-10-28T11:30:40.470283",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/17a0fd79-fcaf-463e-9b50-e0ef8bb60a3f/Aisle-12135/Aisle-12135.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What unique detail characterizes the ceiling lamp in the aisle?\n\nA. It is shaped like a traditional chandelier\nB. It is painted bright red\nC. It features a floral design\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What unique detail characterizes the ceiling lamp in the aisle?\n\nA. It is shaped like a traditional chandelier\nB. It is painted bright red\nC. It features a floral design\nD. None of the above",
+      "response": "d"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What unique detail characterizes the ceiling lamp in the aisle?\n\nA. It is shaped like a traditional chandelier\nB. It is painted bright red\nC. It features a floral design",
+      "response": "none"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What unique detail characterizes the ceiling lamp in the aisle?\n\nA. Daisies blooming in spring\nB. Penguins swimming in icy waters\nC. Chocolate melting in the sun\nD. Raindrops falling on a window\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What unique detail characterizes the ceiling lamp in the aisle?\n\nA. Daisies blooming in spring\nB. Penguins swimming in icy waters\nC. Chocolate melting in the sun\nD. Raindrops falling on a window\nE. None of the above",
+      "response": "e"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What unique detail characterizes the ceiling lamp in the aisle?\n\nA. Daisies blooming in spring\nB. Penguins swimming in icy waters\nC. Chocolate melting in the sun\nD. Raindrops falling on a window",
+      "response": "none"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What type of vehicle is parked in the aisle?\n\nA. Sedan\nB. Motorcycle\nC. Pickup truck\nD. Minivan\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What type of vehicle is parked in the aisle?\n\nA. Sedan\nB. Motorcycle\nC. Pickup truck\nD. Minivan\nE. None of the above",
+      "response": "e"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What type of vehicle is parked in the aisle?\n\nA. Sedan\nB. Motorcycle\nC. Pickup truck\nD. Minivan",
+      "response": "none"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What type of musical instrument is located in the aisle?",
+      "response": "none"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What type of musical instrument is located in the aisle?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What unique detail characterizes the ceiling lamp in the aisle?\n\nA. It has a stone-like patterned texture\nB. It is shaped like a traditional chandelier\nC. It is painted bright red\nD. It features a floral design",
+      "response": "none"
+    }
+  ]
+}

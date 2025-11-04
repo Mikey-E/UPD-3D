@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "cb5e763e-2663-4049-b688-4de8671df102@Bedroom-187995",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 4",
+  "timestamp": "2025-10-16T16:51:07.914878",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/cb5e763e-2663-4049-b688-4de8671df102/Bedroom-187995/Bedroom-187995.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What type of bed is the centerpiece of the described bedroom?\n\nA. Queen-size bed\nB. Twin bed\nC. Full-size bed\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What type of bed is the centerpiece of the described bedroom?\n\nA. Queen-size bed\nB. Twin bed\nC. Full-size bed\nD. None of the above",
+      "response": "D"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What type of bed is the centerpiece of the described bedroom?\n\nA. Queen-size bed\nB. Twin bed\nC. Full-size bed",
+      "response": "None"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What type of bed is the centerpiece of the described bedroom?\n\nA. Fiddle leaf fig\nB. Velvet painting\nC. Acoustic guitar\nD. Espresso machine\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What type of bed is the centerpiece of the described bedroom?\n\nA. Fiddle leaf fig\nB. Velvet painting\nC. Acoustic guitar\nD. Espresso machine\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What type of bed is the centerpiece of the described bedroom?\n\nA. Fiddle leaf fig\nB. Velvet painting\nC. Acoustic guitar\nD. Espresso machine",
+      "response": "None"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What type of window treatment does the room have?\n\nA. Roman shades\nB. Sheer curtains\nC. Vertical blinds\nD. Roller shades\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What type of window treatment does the room have?\n\nA. Roman shades\nB. Sheer curtains\nC. Vertical blinds\nD. Roller shades\nE. None of the above",
+      "response": "D"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What type of window treatment does the room have?\n\nA. Roman shades\nB. Sheer curtains\nC. Vertical blinds\nD. Roller shades",
+      "response": "None"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What type of oven is used in the kitchen?",
+      "response": "unanswerable"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What type of oven is used in the kitchen?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What type of bed is the centerpiece of the described bedroom?\n\nA. King-size bed\nB. Queen-size bed\nC. Twin bed\nD. Full-size bed",
+      "response": "A"
+    }
+  ]
+}

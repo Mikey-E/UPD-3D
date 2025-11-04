@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "da590664-833e-42ce-9ceb-52ffe7e89c30@Bedroom-14133",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 5",
+  "timestamp": "2025-10-20T08:19:05.527638",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/da590664-833e-42ce-9ceb-52ffe7e89c30/Bedroom-14133/Bedroom-14133.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What color are the two ceiling lamps in the bedroom?\n\nA. Burgundy\nB. Deep charcoal\nC. Glossy white\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What color are the two ceiling lamps in the bedroom?\n\nA. Burgundy\nB. Deep charcoal\nC. Glossy white\nD. None of the above",
+      "response": "d"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What color are the two ceiling lamps in the bedroom?\n\nA. Burgundy\nB. Deep charcoal\nC. Glossy white",
+      "response": "none"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What color are the two ceiling lamps in the bedroom?\n\nA. Apple juice\nB. Mountain range\nC. Ocean wave\nD. Firefly light\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What color are the two ceiling lamps in the bedroom?\n\nA. Apple juice\nB. Mountain range\nC. Ocean wave\nD. Firefly light\nE. None of the above",
+      "response": "e"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What color are the two ceiling lamps in the bedroom?\n\nA. Apple juice\nB. Mountain range\nC. Ocean wave\nD. Firefly light",
+      "response": "none"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What shape is the table in the room?\n\nA. Square\nB. Circular\nC. Oval\nD. Rectangular\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What shape is the table in the room?\n\nA. Square\nB. Circular\nC. Oval\nD. Rectangular\nE. None of the above",
+      "response": "e"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What shape is the table in the room?\n\nA. Square\nB. Circular\nC. Oval\nD. Rectangular",
+      "response": "none"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What type of outdoor sculpture is showcased in the garden?",
+      "response": "none"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What type of outdoor sculpture is showcased in the garden?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What color are the two ceiling lamps in the bedroom?\n\nA. Burgundy\nB. Deep charcoal\nC. Creamy beige\nD. Glossy white",
+      "response": "c"
+    }
+  ]
+}

@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "eeeeb368-bd8c-4601-8bd1-b6f82e2cea1f@LivingDiningRoom-140230",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 5",
+  "timestamp": "2025-10-28T15:04:07.443780",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/eeeeb368-bd8c-4601-8bd1-b6f82e2cea1f/LivingDiningRoom-140230/LivingDiningRoom-140230.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What color is the dining table in the living room?\n\nA. Charcoal\nB. White\nC. Grey\nIf none of the above answers are correct, answer: 'F'",
+      "response": "c"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What color is the dining table in the living room?\n\nA. Charcoal\nB. White\nC. Grey\nD. None of the above",
+      "response": "c"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What color is the dining table in the living room?\n\nA. Charcoal\nB. White\nC. Grey",
+      "response": "c"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What color is the dining table in the living room?\n\nA. Music genre\nB. Computer programming language\nC. Ocean depth\nD. Solar system planet\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What color is the dining table in the living room?\n\nA. Music genre\nB. Computer programming language\nC. Ocean depth\nD. Solar system planet\nE. None of the above",
+      "response": "e"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What color is the dining table in the living room?\n\nA. Music genre\nB. Computer programming language\nC. Ocean depth\nD. Solar system planet",
+      "response": "none"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What color is the sofa in the room?\n\nA. Blue\nB. Grey\nC. Green\nD. Yellow\nIf none of the above answers are correct, answer: 'F'",
+      "response": "b"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What color is the sofa in the room?\n\nA. Blue\nB. Grey\nC. Green\nD. Yellow\nE. None of the above",
+      "response": "b"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What color is the sofa in the room?\n\nA. Blue\nB. Grey\nC. Green\nD. Yellow",
+      "response": "b"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What style of curtains does the room feature?",
+      "response": "none"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What style of curtains does the room feature?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What color is the dining table in the living room?\n\nA. Charcoal\nB. White\nC. Grey\nD. Black",
+      "response": "c"
+    }
+  ]
+}

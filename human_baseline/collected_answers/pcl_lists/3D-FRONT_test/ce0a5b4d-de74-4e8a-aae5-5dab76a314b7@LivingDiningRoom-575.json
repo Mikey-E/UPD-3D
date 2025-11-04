@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "ce0a5b4d-de74-4e8a-aae5-5dab76a314b7@LivingDiningRoom-575",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 3",
+  "timestamp": "2025-10-14T15:19:23.708046",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/ce0a5b4d-de74-4e8a-aae5-5dab76a314b7/LivingDiningRoom-575/LivingDiningRoom-575.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What color is the upholstery of the three-seat sofa in the living room?\n\nA. Deep brown\nB. Rich walnut brown\nC. Sleek beige\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What color is the upholstery of the three-seat sofa in the living room?\n\nA. Deep brown\nB. Rich walnut brown\nC. Sleek beige\nD. None of the above",
+      "response": "D"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What color is the upholstery of the three-seat sofa in the living room?\n\nA. Deep brown\nB. Rich walnut brown\nC. Sleek beige",
+      "response": "None"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What color is the upholstery of the three-seat sofa in the living room?\n\nA. Galaxy\nB. Fossil\nC. Volcano\nD. Desert\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What color is the upholstery of the three-seat sofa in the living room?\n\nA. Galaxy\nB. Fossil\nC. Volcano\nD. Desert\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What color is the upholstery of the three-seat sofa in the living room?\n\nA. Galaxy\nB. Fossil\nC. Volcano\nD. Desert",
+      "response": "None"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What color are the curtains in the room?\n\nA. Red\nB. Blue\nC. Green\nD. Yellow\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What color are the curtains in the room?\n\nA. Red\nB. Blue\nC. Green\nD. Yellow\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What color are the curtains in the room?\n\nA. Red\nB. Blue\nC. Green\nD. Yellow",
+      "response": "None"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What type of textile art is hanging on the wall?",
+      "response": "N/A"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What type of textile art is hanging on the wall?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What color is the upholstery of the three-seat sofa in the living room?\n\nA. Neutral grey\nB. Deep brown\nC. Rich walnut brown\nD. Sleek beige",
+      "response": "A"
+    }
+  ]
+}

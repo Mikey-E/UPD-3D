@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "e5349a12-58a0-4e7d-916f-7c652faa1164@Library-23687",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 3",
+  "timestamp": "2025-10-26T16:00:03.166795",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/e5349a12-58a0-4e7d-916f-7c652faa1164/Library-23687/Library-23687.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What style is the desk in the library?\n\nA. Minimalist\nB. Ming Qing\nC. Modern\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What style is the desk in the library?\n\nA. Minimalist\nB. Ming Qing\nC. Modern\nD. None of the above",
+      "response": "D"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What style is the desk in the library?\n\nA. Minimalist\nB. Ming Qing\nC. Modern",
+      "response": "None"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What style is the desk in the library?\n\nA. Tropical rainforest\nB. Arctic tundra\nC. Desert savanna\nD. Mountain range\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What style is the desk in the library?\n\nA. Tropical rainforest\nB. Arctic tundra\nC. Desert savanna\nD. Mountain range\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What style is the desk in the library?\n\nA. Tropical rainforest\nB. Arctic tundra\nC. Desert savanna\nD. Mountain range",
+      "response": "None"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What shape is the coffee table in the room?\n\nA. Round\nB. Square\nC. Rectangular\nD. Oval\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What shape is the coffee table in the room?\n\nA. Round\nB. Square\nC. Rectangular\nD. Oval\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What shape is the coffee table in the room?\n\nA. Round\nB. Square\nC. Rectangular\nD. Oval",
+      "response": "None"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What is the shape and size of the rug in this library?",
+      "response": "N/A"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What is the shape and size of the rug in this library?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What style is the desk in the library?\n\nA. Neoclassical\nB. Minimalist\nC. Ming Qing\nD. Modern",
+      "response": "A"
+    }
+  ]
+}

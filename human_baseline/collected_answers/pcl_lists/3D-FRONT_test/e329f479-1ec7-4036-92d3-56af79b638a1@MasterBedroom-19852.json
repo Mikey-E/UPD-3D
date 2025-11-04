@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "e329f479-1ec7-4036-92d3-56af79b638a1@MasterBedroom-19852",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 4",
+  "timestamp": "2025-10-25T15:40:49.629124",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/e329f479-1ec7-4036-92d3-56af79b638a1/MasterBedroom-19852/MasterBedroom-19852.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What style is the ceiling lamp described in the room?\n\nA. Modern\nB. Industrial\nC. Mediterranean\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What style is the ceiling lamp described in the room?\n\nA. Modern\nB. Industrial\nC. Mediterranean\nD. None of the above",
+      "response": "D"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What style is the ceiling lamp described in the room?\n\nA. Modern\nB. Industrial\nC. Mediterranean",
+      "response": "None"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What style is the ceiling lamp described in the room?\n\nA. Oceanic\nB. Galvanic\nC. Geometric\nD. Tectonic\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What style is the ceiling lamp described in the room?\n\nA. Oceanic\nB. Galvanic\nC. Geometric\nD. Tectonic\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What style is the ceiling lamp described in the room?\n\nA. Oceanic\nB. Galvanic\nC. Geometric\nD. Tectonic",
+      "response": "None"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What type of furniture can be found on the patio?\n\nA. Chaise lounge\nB. Dining table\nC. Rocking chair\nD. Fire pit\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What type of furniture can be found on the patio?\n\nA. Chaise lounge\nB. Dining table\nC. Rocking chair\nD. Fire pit\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What type of furniture can be found on the patio?\n\nA. Chaise lounge\nB. Dining table\nC. Rocking chair\nD. Fire pit",
+      "response": "None"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What type of exercise equipment is set up in the room?",
+      "response": "unanswerable"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What type of exercise equipment is set up in the room?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What style is the ceiling lamp described in the room?\n\nA. Modern\nB. Industrial\nC. Mediterranean\nD. Chinoiserie",
+      "response": "D"
+    }
+  ]
+}

@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "c7fefad9-9449-49d4-8687-b0cbc1f203bc@ElderlyRoom-1394",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 4",
+  "timestamp": "2025-10-27T08:35:10.781194",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/c7fefad9-9449-49d4-8687-b0cbc1f203bc/ElderlyRoom-1394/ElderlyRoom-1394.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What color is the wardrobe in the ElderlyRoom?\n\nA. Grey\nB. Dark wood\nC. Creamy white\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What color is the wardrobe in the ElderlyRoom?\n\nA. Grey\nB. Dark wood\nC. Creamy white\nD. None of the above",
+      "response": "d"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What color is the wardrobe in the ElderlyRoom?\n\nA. Grey\nB. Dark wood\nC. Creamy white",
+      "response": "none"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What color is the wardrobe in the ElderlyRoom?\n\nA. Tropical rainforest\nB. Arctic tundra\nC. Desert sands\nD. Mountain peak\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What color is the wardrobe in the ElderlyRoom?\n\nA. Tropical rainforest\nB. Arctic tundra\nC. Desert sands\nD. Mountain peak\nE. None of the above",
+      "response": "e"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What color is the wardrobe in the ElderlyRoom?\n\nA. Tropical rainforest\nB. Arctic tundra\nC. Desert sands\nD. Mountain peak",
+      "response": "none"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What type of artwork is displayed in the room?\n\nA. Landscape painting\nB. Abstract sculpture\nC. Portrait photograph\nD. Metal wall art\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What type of artwork is displayed in the room?\n\nA. Landscape painting\nB. Abstract sculpture\nC. Portrait photograph\nD. Metal wall art\nE. None of the above",
+      "response": "e"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What type of artwork is displayed in the room?\n\nA. Landscape painting\nB. Abstract sculpture\nC. Portrait photograph\nD. Metal wall art",
+      "response": "none"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What type of swimming pool is located in the ElderlyRoom?",
+      "response": "n/a"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What type of swimming pool is located in the ElderlyRoom?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What color is the wardrobe in the ElderlyRoom?\n\nA. Grey\nB. Dark wood\nC. Creamy white\nD. Light oak",
+      "response": "none"
+    }
+  ]
+}

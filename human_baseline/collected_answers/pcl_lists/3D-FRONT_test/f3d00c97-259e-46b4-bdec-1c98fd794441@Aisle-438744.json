@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "f3d00c97-259e-46b4-bdec-1c98fd794441@Aisle-438744",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 1",
+  "timestamp": "2025-11-03T19:26:10.783329",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/f3d00c97-259e-46b4-bdec-1c98fd794441/Aisle-438744/Aisle-438744.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What color are the drawers on the wardrobe in the aisle?\n\nA. Red\nB. Blue\nC. Green\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What color are the drawers on the wardrobe in the aisle?\n\nA. Red\nB. Blue\nC. Green\nD. None of the above",
+      "response": "D"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What color are the drawers on the wardrobe in the aisle?\n\nA. Red\nB. Blue\nC. Green",
+      "response": "None of those colors"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What color are the drawers on the wardrobe in the aisle?\n\nA. Cat\nB. Moon\nC. Giggle\nD. Forest\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What color are the drawers on the wardrobe in the aisle?\n\nA. Cat\nB. Moon\nC. Giggle\nD. Forest\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What color are the drawers on the wardrobe in the aisle?\n\nA. Cat\nB. Moon\nC. Giggle\nD. Forest",
+      "response": "None of those"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What type of artwork is prominently displayed in the scene?\n\nA. Abstract painting\nB. Landscape mural\nC. Ceramic sculpture\nD. Framed photograph\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What type of artwork is prominently displayed in the scene?\n\nA. Abstract painting\nB. Landscape mural\nC. Ceramic sculpture\nD. Framed photograph\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What type of artwork is prominently displayed in the scene?\n\nA. Abstract painting\nB. Landscape mural\nC. Ceramic sculpture\nD. Framed photograph",
+      "response": "There is no art"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What type of coffee maker is located on the countertop?",
+      "response": "There is no coffee maker"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What type of coffee maker is located on the countertop?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What color are the drawers on the wardrobe in the aisle?\n\nA. Red\nB. Blue\nC. Yellow\nD. Green",
+      "response": "Yellow"
+    }
+  ]
+}

@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "ecc2066b-925b-4fa3-8734-e811352a45f5@DiningRoom-118252",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 3",
+  "timestamp": "2025-10-27T16:38:10.107735",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/ecc2066b-925b-4fa3-8734-e811352a45f5/DiningRoom-118252/DiningRoom-118252.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What is the color of the dining table in the center of the room?\n\nA. Walnut brown\nB. Charcoal\nC. Light beige\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What is the color of the dining table in the center of the room?\n\nA. Walnut brown\nB. Charcoal\nC. Light beige\nD. None of the above",
+      "response": "D"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What is the color of the dining table in the center of the room?\n\nA. Walnut brown\nB. Charcoal\nC. Light beige",
+      "response": "None"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What is the color of the dining table in the center of the room?\n\nA. Privacy\nB. Security\nC. Efficiency\nD. Reliability\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What is the color of the dining table in the center of the room?\n\nA. Privacy\nB. Security\nC. Efficiency\nD. Reliability\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What is the color of the dining table in the center of the room?\n\nA. Privacy\nB. Security\nC. Efficiency\nD. Reliability",
+      "response": "None"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What shape is the bookshelf?\n\nA. Circular\nB. Triangular\nC. Square\nD. Hexagonal\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What shape is the bookshelf?\n\nA. Circular\nB. Triangular\nC. Square\nD. Hexagonal\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What shape is the bookshelf?\n\nA. Circular\nB. Triangular\nC. Square\nD. Hexagonal",
+      "response": "None"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What type of rug is placed under the dining table?",
+      "response": "N/A"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What type of rug is placed under the dining table?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What is the color of the dining table in the center of the room?\n\nA. Dark gray\nB. Walnut brown\nC. Charcoal\nD. Light beige",
+      "response": "A"
+    }
+  ]
+}

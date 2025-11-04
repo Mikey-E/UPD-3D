@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "fd164bcb-6083-40e6-81b5-a29bd400c7d3@Bedroom-377735",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 3",
+  "timestamp": "2025-10-30T22:03:05.115700",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/fd164bcb-6083-40e6-81b5-a29bd400c7d3/Bedroom-377735/Bedroom-377735.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What color is the shade of the floor lamp in the bedroom?\n\nA. Green\nB. Blue\nC. Yellow\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What color is the shade of the floor lamp in the bedroom?\n\nA. Green\nB. Blue\nC. Yellow\nD. None of the above",
+      "response": "D"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What color is the shade of the floor lamp in the bedroom?\n\nA. Green\nB. Blue\nC. Yellow",
+      "response": "NONE"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What color is the shade of the floor lamp in the bedroom?\n\nA. Cotton candy\nB. Waterfall\nC. Volcano\nD. Chocolate chip\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What color is the shade of the floor lamp in the bedroom?\n\nA. Cotton candy\nB. Waterfall\nC. Volcano\nD. Chocolate chip\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What color is the shade of the floor lamp in the bedroom?\n\nA. Cotton candy\nB. Waterfall\nC. Volcano\nD. Chocolate chip",
+      "response": "NONE"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What type of painting hangs above the fireplace?\n\nA. Landscape\nB. Portrait\nC. Abstract\nD. Still Life\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What type of painting hangs above the fireplace?\n\nA. Landscape\nB. Portrait\nC. Abstract\nD. Still Life\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What type of painting hangs above the fireplace?\n\nA. Landscape\nB. Portrait\nC. Abstract\nD. Still Life",
+      "response": "NA"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What is the height of the ceiling above the bed?",
+      "response": "NA"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What is the height of the ceiling above the bed?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What color is the shade of the floor lamp in the bedroom?\n\nA. Cream\nB. Green\nC. Blue\nD. Yellow",
+      "response": "A"
+    }
+  ]
+}

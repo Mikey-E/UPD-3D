@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "1b623b8e-0152-4a08-9bf2-4cb0d04436fe@Corridor-5408",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 5",
+  "timestamp": "2025-10-08T11:17:39.328684",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/1b623b8e-0152-4a08-9bf2-4cb0d04436fe/Corridor-5408/Corridor-5408.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What color is the footstool in the Corridor?\n\nA. Black\nB. White\nC. Brown\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What color is the footstool in the Corridor?\n\nA. Black\nB. White\nC. Brown\nD. None of the above",
+      "response": "d"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What color is the footstool in the Corridor?\n\nA. Black\nB. White\nC. Brown",
+      "response": "none of the above"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What color is the footstool in the Corridor?\n\nA. Circle\nB. Triangle\nC. Square\nD. Rectangle\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What color is the footstool in the Corridor?\n\nA. Circle\nB. Triangle\nC. Square\nD. Rectangle\nE. None of the above",
+      "response": "e"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What color is the footstool in the Corridor?\n\nA. Circle\nB. Triangle\nC. Square\nD. Rectangle",
+      "response": "none of the above"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What shape is the window in this scene?\n\nA. Circular\nB. Square\nC. Triangular\nD. Oval\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What shape is the window in this scene?\n\nA. Circular\nB. Square\nC. Triangular\nD. Oval\nE. None of the above",
+      "response": "e"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What shape is the window in this scene?\n\nA. Circular\nB. Square\nC. Triangular\nD. Oval",
+      "response": "none of the above"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What type of lighting fixtures are installed in the ceiling?",
+      "response": "no lighting fixtures"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What type of lighting fixtures are installed in the ceiling?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What color is the footstool in the Corridor?\n\nA. Teal\nB. Black\nC. White\nD. Brown",
+      "response": "none of the above"
+    }
+  ]
+}

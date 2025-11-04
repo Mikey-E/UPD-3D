@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "Wheat@123",
+  "dataset": "Crops3D_test",
+  "annotated_by": "User 5",
+  "timestamp": "2025-10-31T08:18:59.716978",
+  "file_path": "/project/3dllms/melgin/datasets/CEA/Crops3D/Wheat/123.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What type of plant is described in the room?\n\nA. A flowering plant\nB. A succulent\nC. A fern\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What type of plant is described in the room?\n\nA. A flowering plant\nB. A succulent\nC. A fern\nD. None of the above",
+      "response": "d"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What type of plant is described in the room?\n\nA. A flowering plant\nB. A succulent\nC. A fern",
+      "response": "none"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What type of plant is described in the room?\n\nA. Bicycle tire\nB. Electric guitar\nC. Vintage camera\nD. Summer vacation\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What type of plant is described in the room?\n\nA. Bicycle tire\nB. Electric guitar\nC. Vintage camera\nD. Summer vacation\nE. None of the above",
+      "response": "e"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What type of plant is described in the room?\n\nA. Bicycle tire\nB. Electric guitar\nC. Vintage camera\nD. Summer vacation",
+      "response": "none"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What style of chair is found in the scene?\n\nA. Armchair\nB. Recliner\nC. Dining chair\nD. Folding chair\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What style of chair is found in the scene?\n\nA. Armchair\nB. Recliner\nC. Dining chair\nD. Folding chair\nE. None of the above",
+      "response": "e"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What style of chair is found in the scene?\n\nA. Armchair\nB. Recliner\nC. Dining chair\nD. Folding chair",
+      "response": "none"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What type of sculpture is placed on the floor?",
+      "response": "none"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What type of sculpture is placed on the floor?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What type of plant is described in the room?\n\nA. A flowering plant\nB. A succulent\nC. A fern\nD. A cactus",
+      "response": "none"
+    }
+  ]
+}

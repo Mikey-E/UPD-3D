@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "cd47dd5b-277a-4c26-85d3-c679bbd494a2@MasterBedroom-8790",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 3",
+  "timestamp": "2025-10-14T15:07:43.565818",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/cd47dd5b-277a-4c26-85d3-c679bbd494a2/MasterBedroom-8790/MasterBedroom-8790.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What design style is the primary influence of the tv stand in the master bedroom?\n\nA. Modern\nB. Rustic\nC. Industrial\nIf none of the above answers are correct, answer: 'F'",
+      "response": "A"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What design style is the primary influence of the tv stand in the master bedroom?\n\nA. Modern\nB. Rustic\nC. Industrial\nD. None of the above",
+      "response": "A"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What design style is the primary influence of the tv stand in the master bedroom?\n\nA. Modern\nB. Rustic\nC. Industrial",
+      "response": "A"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What design style is the primary influence of the tv stand in the master bedroom?\n\nA. Honeybee\nB. Blueberry\nC. Marigold\nD. Saffron\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What design style is the primary influence of the tv stand in the master bedroom?\n\nA. Honeybee\nB. Blueberry\nC. Marigold\nD. Saffron\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What design style is the primary influence of the tv stand in the master bedroom?\n\nA. Honeybee\nB. Blueberry\nC. Marigold\nD. Saffron",
+      "response": "None"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What type of flooring is present in the scene?\n\nA. Hardwood\nB. Carpet\nC. Tile\nD. Laminate\nIf none of the above answers are correct, answer: 'F'",
+      "response": "B"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What type of flooring is present in the scene?\n\nA. Hardwood\nB. Carpet\nC. Tile\nD. Laminate\nE. None of the above",
+      "response": "B"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What type of flooring is present in the scene?\n\nA. Hardwood\nB. Carpet\nC. Tile\nD. Laminate",
+      "response": "B"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What style is the coffee table located in the master bedroom?",
+      "response": "N/A"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What style is the coffee table located in the master bedroom?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What design style is the primary influence of the tv stand in the master bedroom?\n\nA. Modern\nB. Rustic\nC. Japanese\nD. Industrial",
+      "response": "A"
+    }
+  ]
+}

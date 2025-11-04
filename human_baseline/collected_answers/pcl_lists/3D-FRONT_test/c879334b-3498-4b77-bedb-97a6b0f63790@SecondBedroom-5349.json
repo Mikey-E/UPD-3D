@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "c879334b-3498-4b77-bedb-97a6b0f63790@SecondBedroom-5349",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 4",
+  "timestamp": "2025-10-13T13:29:40.934256",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/c879334b-3498-4b77-bedb-97a6b0f63790/SecondBedroom-5349/SecondBedroom-5349.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What color is the dressing chair's cushion?\n\nA. Green\nB. Grey\nC. White\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What color is the dressing chair's cushion?\n\nA. Green\nB. Grey\nC. White\nD. None of the above",
+      "response": "D"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What color is the dressing chair's cushion?\n\nA. Green\nB. Grey\nC. White",
+      "response": "none"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What color is the dressing chair's cushion?\n\nA. Marathon\nB. Tango\nC. Symphony\nD. Galaxy\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What color is the dressing chair's cushion?\n\nA. Marathon\nB. Tango\nC. Symphony\nD. Galaxy\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What color is the dressing chair's cushion?\n\nA. Marathon\nB. Tango\nC. Symphony\nD. Galaxy",
+      "response": "none"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What type of lighting fixture enhances the ambiance of the scene?\n\nA. Crystal chandelier\nB. Floor lamp\nC. Wall sconce\nD. Pendant light\nIf none of the above answers are correct, answer: 'F'",
+      "response": "A"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What type of lighting fixture enhances the ambiance of the scene?\n\nA. Crystal chandelier\nB. Floor lamp\nC. Wall sconce\nD. Pendant light\nE. None of the above",
+      "response": "A"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What type of lighting fixture enhances the ambiance of the scene?\n\nA. Crystal chandelier\nB. Floor lamp\nC. Wall sconce\nD. Pendant light",
+      "response": "A"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What kind of artwork is hanging on the walls?",
+      "response": "none"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What kind of artwork is hanging on the walls?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What color is the dressing chair's cushion?\n\nA. Green\nB. Grey\nC. Beige\nD. White",
+      "response": "C"
+    }
+  ]
+}

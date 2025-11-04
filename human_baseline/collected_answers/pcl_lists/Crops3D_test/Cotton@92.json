@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "Cotton@92",
+  "dataset": "Crops3D_test",
+  "annotated_by": "User 5",
+  "timestamp": "2025-10-30T10:04:14.010439",
+  "file_path": "/project/3dllms/melgin/datasets/CEA/Crops3D/Cotton/92.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What color are the blossoms on the flowering branch?\n\nA. Pink\nB. Yellow\nC. Blue\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What color are the blossoms on the flowering branch?\n\nA. Pink\nB. Yellow\nC. Blue\nD. None of the above",
+      "response": "d"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What color are the blossoms on the flowering branch?\n\nA. Pink\nB. Yellow\nC. Blue",
+      "response": "none"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What color are the blossoms on the flowering branch?\n\nA. Mercury\nB. Gravity\nC. Neutron\nD. Plasma\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What color are the blossoms on the flowering branch?\n\nA. Mercury\nB. Gravity\nC. Neutron\nD. Plasma\nE. None of the above",
+      "response": "e"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What color are the blossoms on the flowering branch?\n\nA. Mercury\nB. Gravity\nC. Neutron\nD. Plasma",
+      "response": "none"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What is the width of the window in the scene?\n\nA. Two feet\nB. Four feet\nC. Six feet\nD. Eight feet\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What is the width of the window in the scene?\n\nA. Two feet\nB. Four feet\nC. Six feet\nD. Eight feet\nE. None of the above",
+      "response": "e"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What is the width of the window in the scene?\n\nA. Two feet\nB. Four feet\nC. Six feet\nD. Eight feet",
+      "response": "none"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What is the shape of the large rock adjacent to the branch?",
+      "response": "none"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What is the shape of the large rock adjacent to the branch?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What color are the blossoms on the flowering branch?\n\nA. Pink\nB. Yellow\nC. Blue\nD. White",
+      "response": "none"
+    }
+  ]
+}

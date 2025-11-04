@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "fb113b76-294c-4402-a662-e67344a45a4f@MasterBedroom-2286",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 3",
+  "timestamp": "2025-10-30T13:43:23.459898",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/fb113b76-294c-4402-a662-e67344a45a4f/MasterBedroom-2286/MasterBedroom-2286.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What type of furniture is positioned next to each other in the Masterbedroom?\n\nA. Upholstered sofas\nB. Reclining armchairs\nC. Traditional wingback chairs\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What type of furniture is positioned next to each other in the Masterbedroom?\n\nA. Upholstered sofas\nB. Reclining armchairs\nC. Traditional wingback chairs\nD. None of the above",
+      "response": "D"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What type of furniture is positioned next to each other in the Masterbedroom?\n\nA. Upholstered sofas\nB. Reclining armchairs\nC. Traditional wingback chairs",
+      "response": "NONE"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What type of furniture is positioned next to each other in the Masterbedroom?\n\nA. Sunflower\nB. Mountain range\nC. Ocean wave\nD. Star constellation\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What type of furniture is positioned next to each other in the Masterbedroom?\n\nA. Sunflower\nB. Mountain range\nC. Ocean wave\nD. Star constellation\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What type of furniture is positioned next to each other in the Masterbedroom?\n\nA. Sunflower\nB. Mountain range\nC. Ocean wave\nD. Star constellation",
+      "response": "NONE"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What shape are the clouds in the sky?\n\nA. Circular\nB. Triangular\nC. Rectangular\nD. Oval\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What shape are the clouds in the sky?\n\nA. Circular\nB. Triangular\nC. Rectangular\nD. Oval\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What shape are the clouds in the sky?\n\nA. Circular\nB. Triangular\nC. Rectangular\nD. Oval",
+      "response": "NA"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What is the shape of the coffee table?",
+      "response": "NA"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What is the shape of the coffee table?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What type of furniture is positioned next to each other in the Masterbedroom?\n\nA. Upholstered sofas\nB. Reclining armchairs\nC. Traditional wingback chairs\nD. Minimalist dining chairs",
+      "response": "D"
+    }
+  ]
+}

@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "dbfb1cb8-3121-4090-9db5-7ea9f95a0d4b@LivingRoom-91905",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 4",
+  "timestamp": "2025-10-20T16:12:35.179091",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/dbfb1cb8-3121-4090-9db5-7ea9f95a0d4b/LivingRoom-91905/LivingRoom-91905.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What style is the three-seat sofa in the living room?\n\nA. Traditional fabric\nB. Rustic wood\nC. Wicker\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What style is the three-seat sofa in the living room?\n\nA. Traditional fabric\nB. Rustic wood\nC. Wicker\nD. None of the above",
+      "response": "D"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What style is the three-seat sofa in the living room?\n\nA. Traditional fabric\nB. Rustic wood\nC. Wicker",
+      "response": "None"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What style is the three-seat sofa in the living room?\n\nA. Tropical rainforest\nB. Desert landscape\nC. Mountain range\nD. Ocean currents\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What style is the three-seat sofa in the living room?\n\nA. Tropical rainforest\nB. Desert landscape\nC. Mountain range\nD. Ocean currents\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What style is the three-seat sofa in the living room?\n\nA. Tropical rainforest\nB. Desert landscape\nC. Mountain range\nD. Ocean currents",
+      "response": "None"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What type of ceiling is present in the living room?\n\nA. Vaulted ceiling\nB. Flat ceiling\nC. Beamed ceiling\nD. Dome ceiling\nIf none of the above answers are correct, answer: 'F'",
+      "response": "B"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What type of ceiling is present in the living room?\n\nA. Vaulted ceiling\nB. Flat ceiling\nC. Beamed ceiling\nD. Dome ceiling\nE. None of the above",
+      "response": "B"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What type of ceiling is present in the living room?\n\nA. Vaulted ceiling\nB. Flat ceiling\nC. Beamed ceiling\nD. Dome ceiling",
+      "response": "B"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What type of outdoor fountain is located on the patio?",
+      "response": "unanswerable"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What type of outdoor fountain is located on the patio?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What style is the three-seat sofa in the living room?\n\nA. Soft leather upholstery\nB. Traditional fabric\nC. Rustic wood\nD. Wicker",
+      "response": "A"
+    }
+  ]
+}

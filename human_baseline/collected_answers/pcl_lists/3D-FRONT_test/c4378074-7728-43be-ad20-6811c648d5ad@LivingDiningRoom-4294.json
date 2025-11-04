@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "c4378074-7728-43be-ad20-6811c648d5ad@LivingDiningRoom-4294",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 4",
+  "timestamp": "2025-10-08T11:16:56.745322",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/c4378074-7728-43be-ad20-6811c648d5ad/LivingDiningRoom-4294/LivingDiningRoom-4294.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What type of design does the three-seat sofa in the living room reflect?\n\nA. Industrial design\nB. Art Deco design\nC. Traditional design\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What type of design does the three-seat sofa in the living room reflect?\n\nA. Industrial design\nB. Art Deco design\nC. Traditional design\nD. None of the above",
+      "response": "D"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What type of design does the three-seat sofa in the living room reflect?\n\nA. Industrial design\nB. Art Deco design\nC. Traditional design",
+      "response": "none of these"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What type of design does the three-seat sofa in the living room reflect?\n\nA. Mountain range\nB. Ocean current\nC. Solar eclipse\nD. Star constellation\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What type of design does the three-seat sofa in the living room reflect?\n\nA. Mountain range\nB. Ocean current\nC. Solar eclipse\nD. Star constellation\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What type of design does the three-seat sofa in the living room reflect?\n\nA. Mountain range\nB. Ocean current\nC. Solar eclipse\nD. Star constellation",
+      "response": "none of these"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What type of tree is used for the furniture in this living room?\n\nA. Cherry\nB. Maple\nC. Birch\nD. Pine\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What type of tree is used for the furniture in this living room?\n\nA. Cherry\nB. Maple\nC. Birch\nD. Pine\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What type of tree is used for the furniture in this living room?\n\nA. Cherry\nB. Maple\nC. Birch\nD. Pine",
+      "response": "none of these"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What type of chandelier is hanging from the ceiling?",
+      "response": "NONE"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What type of chandelier is hanging from the ceiling?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What type of design does the three-seat sofa in the living room reflect?\n\nA. Industrial design\nB. Japanese design\nC. Art Deco design\nD. Traditional design",
+      "response": "B"
+    }
+  ]
+}

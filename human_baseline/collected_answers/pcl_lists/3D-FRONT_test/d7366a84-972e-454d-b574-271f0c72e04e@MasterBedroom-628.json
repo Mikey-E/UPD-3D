@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "d7366a84-972e-454d-b574-271f0c72e04e@MasterBedroom-628",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 4",
+  "timestamp": "2025-10-16T20:38:01.250118",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/d7366a84-972e-454d-b574-271f0c72e04e/MasterBedroom-628/MasterBedroom-628.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What type of bed is featured in the Masterbedroom?\n\nA. Queen-size bed\nB. Twin bed\nC. Full-size bed\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What type of bed is featured in the Masterbedroom?\n\nA. Queen-size bed\nB. Twin bed\nC. Full-size bed\nD. None of the above",
+      "response": "D"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What type of bed is featured in the Masterbedroom?\n\nA. Queen-size bed\nB. Twin bed\nC. Full-size bed",
+      "response": "None"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What type of bed is featured in the Masterbedroom?\n\nA. Rose petal\nB. Ocean wave\nC. Mountain peak\nD. Desert dune\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What type of bed is featured in the Masterbedroom?\n\nA. Rose petal\nB. Ocean wave\nC. Mountain peak\nD. Desert dune\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What type of bed is featured in the Masterbedroom?\n\nA. Rose petal\nB. Ocean wave\nC. Mountain peak\nD. Desert dune",
+      "response": "None"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What is the height of the bookshelf in the scene?\n\nA. Six feet\nB. Five feet\nC. Four feet\nD. Three feet\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What is the height of the bookshelf in the scene?\n\nA. Six feet\nB. Five feet\nC. Four feet\nD. Three feet\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What is the height of the bookshelf in the scene?\n\nA. Six feet\nB. Five feet\nC. Four feet\nD. Three feet",
+      "response": "None"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What type of outdoor furniture is in the room?",
+      "response": "unanswerable"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What type of outdoor furniture is in the room?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What type of bed is featured in the Masterbedroom?\n\nA. Queen-size bed\nB. King-size bed\nC. Twin bed\nD. Full-size bed",
+      "response": "B"
+    }
+  ]
+}

@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "Cotton@9",
+  "dataset": "Crops3D_test",
+  "annotated_by": "User 5",
+  "timestamp": "2025-10-30T10:14:22.470642",
+  "file_path": "/project/3dllms/melgin/datasets/CEA/Crops3D/Cotton/9.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What type of plant is described as having a tall, slender trunk, green leaves, and clusters of white fluffy bolls along its branches?\n\nA. A Flowering Shrub\nB. An Oak Tree\nC. A Pine Tree\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What type of plant is described as having a tall, slender trunk, green leaves, and clusters of white fluffy bolls along its branches?\n\nA. A Flowering Shrub\nB. An Oak Tree\nC. A Pine Tree\nD. None of the above",
+      "response": "d"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What type of plant is described as having a tall, slender trunk, green leaves, and clusters of white fluffy bolls along its branches?\n\nA. A Flowering Shrub\nB. An Oak Tree\nC. A Pine Tree",
+      "response": "none"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What type of plant is described as having a tall, slender trunk, green leaves, and clusters of white fluffy bolls along its branches?\n\nA. Jazz music genre\nB. Italian cuisine\nC. Ancient Greek mythology\nD. Space exploration technology\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What type of plant is described as having a tall, slender trunk, green leaves, and clusters of white fluffy bolls along its branches?\n\nA. Jazz music genre\nB. Italian cuisine\nC. Ancient Greek mythology\nD. Space exploration technology\nE. None of the above",
+      "response": "e"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What type of plant is described as having a tall, slender trunk, green leaves, and clusters of white fluffy bolls along its branches?\n\nA. Jazz music genre\nB. Italian cuisine\nC. Ancient Greek mythology\nD. Space exploration technology",
+      "response": "none"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What feature does the lake have in this scene?\n\nA. A fountain\nB. A dock\nC. A boating area\nD. A beach\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What feature does the lake have in this scene?\n\nA. A fountain\nB. A dock\nC. A boating area\nD. A beach\nE. None of the above",
+      "response": "e"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What feature does the lake have in this scene?\n\nA. A fountain\nB. A dock\nC. A boating area\nD. A beach",
+      "response": "none"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What is the pattern on the vase?",
+      "response": "none"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What is the pattern on the vase?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What type of plant is described as having a tall, slender trunk, green leaves, and clusters of white fluffy bolls along its branches?\n\nA. A Cotton Tree\nB. A Flowering Shrub\nC. An Oak Tree\nD. A Pine Tree",
+      "response": "a"
+    }
+  ]
+}

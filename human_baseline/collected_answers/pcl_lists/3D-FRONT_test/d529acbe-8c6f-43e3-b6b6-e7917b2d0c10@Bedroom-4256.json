@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "d529acbe-8c6f-43e3-b6b6-e7917b2d0c10@Bedroom-4256",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 4",
+  "timestamp": "2025-10-16T13:25:47.865099",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/d529acbe-8c6f-43e3-b6b6-e7917b2d0c10/Bedroom-4256/Bedroom-4256.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What style is the wardrobe in the bedroom described? \n\nA. American Country style\nB. Retro style\nC. New Chinese style\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What style is the wardrobe in the bedroom described? \n\nA. American Country style\nB. Retro style\nC. New Chinese style\nD. None of the above",
+      "response": "d"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What style is the wardrobe in the bedroom described? \n\nA. American Country style\nB. Retro style\nC. New Chinese style",
+      "response": "none"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What style is the wardrobe in the bedroom described? \n\nA. Bicycle\nB. Satellite\nC. Volcano\nD. Submarine\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What style is the wardrobe in the bedroom described? \n\nA. Bicycle\nB. Satellite\nC. Volcano\nD. Submarine\nE. None of the above",
+      "response": "e"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What style is the wardrobe in the bedroom described? \n\nA. Bicycle\nB. Satellite\nC. Volcano\nD. Submarine",
+      "response": "none"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What type of sculpture can be found in the corner of the room?\n\nA. Abstract marble\nB. Classical bust\nC. Modern metal\nD. Wooden totem\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What type of sculpture can be found in the corner of the room?\n\nA. Abstract marble\nB. Classical bust\nC. Modern metal\nD. Wooden totem\nE. None of the above",
+      "response": "e"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What type of sculpture can be found in the corner of the room?\n\nA. Abstract marble\nB. Classical bust\nC. Modern metal\nD. Wooden totem",
+      "response": "none"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What type of outdoor grill is in the room?",
+      "response": "n/a"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What type of outdoor grill is in the room?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What style is the wardrobe in the bedroom described? \n\nA. Ming Qing style\nB. American Country style\nC. Retro style\nD. New Chinese style",
+      "response": "a"
+    }
+  ]
+}

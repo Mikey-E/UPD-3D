@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "e8d819e4-bfb3-406e-a683-0ea452650633@Library-163841",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 5",
+  "timestamp": "2025-10-27T08:38:39.052237",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/e8d819e4-bfb3-406e-a683-0ea452650633/Library-163841/Library-163841.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What is the color of the lounge chair in the library?\n\nA. Blue\nB. Red\nC. Black\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What is the color of the lounge chair in the library?\n\nA. Blue\nB. Red\nC. Black\nD. None of the above",
+      "response": "d"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What is the color of the lounge chair in the library?\n\nA. Blue\nB. Red\nC. Black",
+      "response": "none"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What is the color of the lounge chair in the library?\n\nA. Mercury\nB. Oxygen\nC. Hydrogen\nD. Silicon\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What is the color of the lounge chair in the library?\n\nA. Mercury\nB. Oxygen\nC. Hydrogen\nD. Silicon\nE. None of the above",
+      "response": "e"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What is the color of the lounge chair in the library?\n\nA. Mercury\nB. Oxygen\nC. Hydrogen\nD. Silicon",
+      "response": "none"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What type of sculpture is prominently displayed in the library?\n\nA. Abstract sculpture\nB. Classical bust\nC. Modern art piece\nD. Figurative statue\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What type of sculpture is prominently displayed in the library?\n\nA. Abstract sculpture\nB. Classical bust\nC. Modern art piece\nD. Figurative statue\nE. None of the above",
+      "response": "e"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What type of sculpture is prominently displayed in the library?\n\nA. Abstract sculpture\nB. Classical bust\nC. Modern art piece\nD. Figurative statue",
+      "response": "none"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What type of fireplace is installed in the library?",
+      "response": "none"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What type of fireplace is installed in the library?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What is the color of the lounge chair in the library?\n\nA. Blue\nB. Red\nC. Black\nD. White",
+      "response": "d"
+    }
+  ]
+}

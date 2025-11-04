@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "ea06e0f7-e4b9-4b0e-aabd-f99bcf21994d@Library-10226",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 4",
+  "timestamp": "2025-10-27T13:22:48.862831",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/ea06e0f7-e4b9-4b0e-aabd-f99bcf21994d/Library-10226/Library-10226.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What style of sideboards is primarily used along one wall of the library?\n\nA. Victorian\nB. Rustic\nC. Mediterranean\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What style of sideboards is primarily used along one wall of the library?\n\nA. Victorian\nB. Rustic\nC. Mediterranean\nD. None of the above",
+      "response": "D"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What style of sideboards is primarily used along one wall of the library?\n\nA. Victorian\nB. Rustic\nC. Mediterranean",
+      "response": "None"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What style of sideboards is primarily used along one wall of the library?\n\nA. Jazz music\nB. Action movies\nC. French cuisine\nD. Modern dance\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What style of sideboards is primarily used along one wall of the library?\n\nA. Jazz music\nB. Action movies\nC. French cuisine\nD. Modern dance\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What style of sideboards is primarily used along one wall of the library?\n\nA. Jazz music\nB. Action movies\nC. French cuisine\nD. Modern dance",
+      "response": "None"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What flavor is the wallpaper in the room?\n\nA. Strawberry\nB. Vanilla\nC. Chocolate\nD. Mint\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What flavor is the wallpaper in the room?\n\nA. Strawberry\nB. Vanilla\nC. Chocolate\nD. Mint\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What flavor is the wallpaper in the room?\n\nA. Strawberry\nB. Vanilla\nC. Chocolate\nD. Mint",
+      "response": "None"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What type of flooring is used in the library?",
+      "response": "unanswerable"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What type of flooring is used in the library?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What style of sideboards is primarily used along one wall of the library?\n\nA. Minimalist\nB. Victorian\nC. Rustic\nD. Mediterranean",
+      "response": "A"
+    }
+  ]
+}

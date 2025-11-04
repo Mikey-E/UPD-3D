@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "ffed9e6c-5e6d-49aa-ba90-83927369ff47@LivingRoom-1184",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 5",
+  "timestamp": "2025-10-31T10:03:59.675354",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/ffed9e6c-5e6d-49aa-ba90-83927369ff47/LivingRoom-1184/LivingRoom-1184.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What color is the dining table in the living room?\n\nA. Charcoal gray\nB. Soft grey\nC. Dark wood\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What color is the dining table in the living room?\n\nA. Charcoal gray\nB. Soft grey\nC. Dark wood\nD. None of the above",
+      "response": "d"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What color is the dining table in the living room?\n\nA. Charcoal gray\nB. Soft grey\nC. Dark wood",
+      "response": "none"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What color is the dining table in the living room?\n\nA. Elephant\nB. Galaxy\nC. Diamond\nD. Ocean\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What color is the dining table in the living room?\n\nA. Elephant\nB. Galaxy\nC. Diamond\nD. Ocean\nE. None of the above",
+      "response": "e"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What color is the dining table in the living room?\n\nA. Elephant\nB. Galaxy\nC. Diamond\nD. Ocean",
+      "response": "none"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What type of sculpture is placed in the living room?\n\nA. Marble statue\nB. Bronze figure\nC. Abstract piece\nD. Stone carving\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What type of sculpture is placed in the living room?\n\nA. Marble statue\nB. Bronze figure\nC. Abstract piece\nD. Stone carving\nE. None of the above",
+      "response": "e"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What type of sculpture is placed in the living room?\n\nA. Marble statue\nB. Bronze figure\nC. Abstract piece\nD. Stone carving",
+      "response": "none"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What type of exercise equipment is located in the room?",
+      "response": "none"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What type of exercise equipment is located in the room?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What color is the dining table in the living room?\n\nA. Deep black\nB. Charcoal gray\nC. Soft grey\nD. Dark wood",
+      "response": "b"
+    }
+  ]
+}

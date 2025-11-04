@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "e2c54d64-ce34-4ace-a9ad-a79407cd383a@LivingDiningRoom-277",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 4",
+  "timestamp": "2025-10-25T13:29:28.308216",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/e2c54d64-ce34-4ace-a9ad-a79407cd383a/LivingDiningRoom-277/LivingDiningRoom-277.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What color is the coffee table in front of the three-seat sofa?\n\nA. Light beige\nB. White\nC. Striped\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What color is the coffee table in front of the three-seat sofa?\n\nA. Light beige\nB. White\nC. Striped\nD. None of the above",
+      "response": "D"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What color is the coffee table in front of the three-seat sofa?\n\nA. Light beige\nB. White\nC. Striped",
+      "response": "None"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What color is the coffee table in front of the three-seat sofa?\n\nA. Mercury\nB. Jupiter\nC. Neptune\nD. Saturn\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What color is the coffee table in front of the three-seat sofa?\n\nA. Mercury\nB. Jupiter\nC. Neptune\nD. Saturn\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What color is the coffee table in front of the three-seat sofa?\n\nA. Mercury\nB. Jupiter\nC. Neptune\nD. Saturn",
+      "response": "None"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What shape is the ceiling in this room?\n\nA. Pyramid\nB. Dome\nC. Flat\nD. Arched\nIf none of the above answers are correct, answer: 'F'",
+      "response": "C"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What shape is the ceiling in this room?\n\nA. Pyramid\nB. Dome\nC. Flat\nD. Arched\nE. None of the above",
+      "response": "C"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What shape is the ceiling in this room?\n\nA. Pyramid\nB. Dome\nC. Flat\nD. Arched",
+      "response": "None"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What type of bed is located in the living room?",
+      "response": "unanswerable"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What type of bed is located in the living room?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What color is the coffee table in front of the three-seat sofa?\n\nA. Black\nB. Light beige\nC. White\nD. Striped",
+      "response": "A"
+    }
+  ]
+}

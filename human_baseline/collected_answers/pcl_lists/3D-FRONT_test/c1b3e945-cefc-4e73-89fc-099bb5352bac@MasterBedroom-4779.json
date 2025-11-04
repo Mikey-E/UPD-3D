@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "c1b3e945-cefc-4e73-89fc-099bb5352bac@MasterBedroom-4779",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 4",
+  "timestamp": "2025-10-08T10:06:56.915949",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/c1b3e945-cefc-4e73-89fc-099bb5352bac/MasterBedroom-4779/MasterBedroom-4779.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What unique shape do the pendant lamps above the nightstands resemble?\n\nA. Sphere\nB. Cube\nC. Cylinder\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What unique shape do the pendant lamps above the nightstands resemble?\n\nA. Sphere\nB. Cube\nC. Cylinder\nD. None of the above",
+      "response": "D"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What unique shape do the pendant lamps above the nightstands resemble?\n\nA. Sphere\nB. Cube\nC. Cylinder",
+      "response": "none of these"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What unique shape do the pendant lamps above the nightstands resemble?\n\nA. Octopus\nB. Pyramid\nC. Helicopter\nD. Starfish\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What unique shape do the pendant lamps above the nightstands resemble?\n\nA. Octopus\nB. Pyramid\nC. Helicopter\nD. Starfish\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What unique shape do the pendant lamps above the nightstands resemble?\n\nA. Octopus\nB. Pyramid\nC. Helicopter\nD. Starfish",
+      "response": "none of these"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What type of flooring is used in the scene?\n\nA. Hardwood\nB. Carpet\nC. Tile\nD. Laminate\nIf none of the above answers are correct, answer: 'F'",
+      "response": "B"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What type of flooring is used in the scene?\n\nA. Hardwood\nB. Carpet\nC. Tile\nD. Laminate\nE. None of the above",
+      "response": "B"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What type of flooring is used in the scene?\n\nA. Hardwood\nB. Carpet\nC. Tile\nD. Laminate",
+      "response": "B"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What type of outdoor sculpture is displayed in the room?",
+      "response": "none"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What type of outdoor sculpture is displayed in the room?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What unique shape do the pendant lamps above the nightstands resemble?\n\nA. Sphere\nB. Cube\nC. Hourglass\nD. Cylinder",
+      "response": "C"
+    }
+  ]
+}

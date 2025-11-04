@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "Tomato@8-31_10-3",
+  "dataset": "Crops3D_test",
+  "annotated_by": "User 5",
+  "timestamp": "2025-10-31T06:34:38.014358",
+  "file_path": "/project/3dllms/melgin/datasets/CEA/Crops3D/Tomato/8-31_10-3.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What type of trunk does the small tree have?\n\nA. Green and flexible\nB. Thin and smooth\nC. Short and spiny\nIf none of the above answers are correct, answer: 'F'",
+      "response": "a"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What type of trunk does the small tree have?\n\nA. Green and flexible\nB. Thin and smooth\nC. Short and spiny\nD. None of the above",
+      "response": "a"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What type of trunk does the small tree have?\n\nA. Green and flexible\nB. Thin and smooth\nC. Short and spiny",
+      "response": "a"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What type of trunk does the small tree have?\n\nA. Cloud formation\nB. Mountain range\nC. Ocean current\nD. River delta\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What type of trunk does the small tree have?\n\nA. Cloud formation\nB. Mountain range\nC. Ocean current\nD. River delta\nE. None of the above",
+      "response": "e"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What type of trunk does the small tree have?\n\nA. Cloud formation\nB. Mountain range\nC. Ocean current\nD. River delta",
+      "response": "none"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What type of vehicle is parked next to the tree?\n\nA. Sedan\nB. Motorcycle\nC. Pickup truck\nD. Bicycle\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What type of vehicle is parked next to the tree?\n\nA. Sedan\nB. Motorcycle\nC. Pickup truck\nD. Bicycle\nE. None of the above",
+      "response": "e"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What type of vehicle is parked next to the tree?\n\nA. Sedan\nB. Motorcycle\nC. Pickup truck\nD. Bicycle",
+      "response": "none"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What type of furniture is situated under the tree?",
+      "response": "none"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What type of furniture is situated under the tree?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What type of trunk does the small tree have?\n\nA. Green and flexible\nB. Thin and smooth\nC. Brown and woody\nD. Short and spiny",
+      "response": "a"
+    }
+  ]
+}

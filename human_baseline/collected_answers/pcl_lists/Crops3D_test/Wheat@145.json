@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "Wheat@145",
+  "dataset": "Crops3D_test",
+  "annotated_by": "User 5",
+  "timestamp": "2025-10-31T08:05:32.520956",
+  "file_path": "/project/3dllms/melgin/datasets/CEA/Crops3D/Wheat/145.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What type of plant is described in the room?\n\nA. Cactus\nB. Fern\nC. Palm tree\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What type of plant is described in the room?\n\nA. Cactus\nB. Fern\nC. Palm tree\nD. None of the above",
+      "response": "d"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What type of plant is described in the room?\n\nA. Cactus\nB. Fern\nC. Palm tree",
+      "response": "none"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What type of plant is described in the room?\n\nA. Hydrogen\nB. Magnetism\nC. Algebra\nD. Renaissance\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What type of plant is described in the room?\n\nA. Hydrogen\nB. Magnetism\nC. Algebra\nD. Renaissance\nE. None of the above",
+      "response": "e"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What type of plant is described in the room?\n\nA. Hydrogen\nB. Magnetism\nC. Algebra\nD. Renaissance",
+      "response": "none"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What type of fruit can be found near the bamboo plant?\n\nA. Apple\nB. Banana\nC. Orange\nD. Grape\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What type of fruit can be found near the bamboo plant?\n\nA. Apple\nB. Banana\nC. Orange\nD. Grape\nE. None of the above",
+      "response": "e"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What type of fruit can be found near the bamboo plant?\n\nA. Apple\nB. Banana\nC. Orange\nD. Grape",
+      "response": "none"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What material is the rug made of?",
+      "response": "none"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What material is the rug made of?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What type of plant is described in the room?\n\nA. Cactus\nB. Fern\nC. Palm tree\nD. Bamboo",
+      "response": "d"
+    }
+  ]
+}

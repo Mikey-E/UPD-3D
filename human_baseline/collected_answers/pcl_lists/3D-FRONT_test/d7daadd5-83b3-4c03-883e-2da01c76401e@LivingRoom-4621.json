@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "d7daadd5-83b3-4c03-883e-2da01c76401e@LivingRoom-4621",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 4",
+  "timestamp": "2025-10-17T08:35:03.251680",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/d7daadd5-83b3-4c03-883e-2da01c76401e/LivingRoom-4621/LivingRoom-4621.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What type of upholstery does the loveseat sofa have?\n\nA. Light beige upholstery\nB. Dark brown upholstery\nC. Patterned fabric upholstery\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What type of upholstery does the loveseat sofa have?\n\nA. Light beige upholstery\nB. Dark brown upholstery\nC. Patterned fabric upholstery\nD. None of the above",
+      "response": "d"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What type of upholstery does the loveseat sofa have?\n\nA. Light beige upholstery\nB. Dark brown upholstery\nC. Patterned fabric upholstery",
+      "response": "none"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What type of upholstery does the loveseat sofa have?\n\nA. Goldfish\nB. Eucalyptus\nC. Quicksand\nD. Avalanche\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What type of upholstery does the loveseat sofa have?\n\nA. Goldfish\nB. Eucalyptus\nC. Quicksand\nD. Avalanche\nE. None of the above",
+      "response": "e"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What type of upholstery does the loveseat sofa have?\n\nA. Goldfish\nB. Eucalyptus\nC. Quicksand\nD. Avalanche",
+      "response": "none"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What type of bookshelf is used in the room?\n\nA. Floating bookshelf\nB. Ladder bookshelf\nC. Globe bookshelf\nD. Corner bookshelf\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What type of bookshelf is used in the room?\n\nA. Floating bookshelf\nB. Ladder bookshelf\nC. Globe bookshelf\nD. Corner bookshelf\nE. None of the above",
+      "response": "e"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What type of bookshelf is used in the room?\n\nA. Floating bookshelf\nB. Ladder bookshelf\nC. Globe bookshelf\nD. Corner bookshelf",
+      "response": "none"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What type of refrigerator is located in the living room?",
+      "response": "n/a"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What type of refrigerator is located in the living room?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What type of upholstery does the loveseat sofa have?\n\nA. Plush charcoal upholstery\nB. Light beige upholstery\nC. Dark brown upholstery\nD. Patterned fabric upholstery",
+      "response": "a"
+    }
+  ]
+}

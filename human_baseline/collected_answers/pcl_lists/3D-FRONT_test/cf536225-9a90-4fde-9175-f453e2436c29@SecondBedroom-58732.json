@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "cf536225-9a90-4fde-9175-f453e2436c29@SecondBedroom-58732",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 3",
+  "timestamp": "2025-10-14T15:50:14.683523",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/cf536225-9a90-4fde-9175-f453e2436c29/SecondBedroom-58732/SecondBedroom-58732.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What kind of lamp is positioned above the king-size bed?\n\nA. Floor lamp\nB. Table lamp\nC. Wall lamp\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What kind of lamp is positioned above the king-size bed?\n\nA. Floor lamp\nB. Table lamp\nC. Wall lamp\nD. None of the above",
+      "response": "D"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What kind of lamp is positioned above the king-size bed?\n\nA. Floor lamp\nB. Table lamp\nC. Wall lamp",
+      "response": "None"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What kind of lamp is positioned above the king-size bed?\n\nA. Quantum mechanics\nB. Renaissance art\nC. Classical literature\nD. Marine biology\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What kind of lamp is positioned above the king-size bed?\n\nA. Quantum mechanics\nB. Renaissance art\nC. Classical literature\nD. Marine biology\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What kind of lamp is positioned above the king-size bed?\n\nA. Quantum mechanics\nB. Renaissance art\nC. Classical literature\nD. Marine biology",
+      "response": "None"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What type of sculpture is on display in the room?\n\nA. Abstract sculpture\nB. Classical bust\nC. Modern art piece\nD. Wooden carving\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What type of sculpture is on display in the room?\n\nA. Abstract sculpture\nB. Classical bust\nC. Modern art piece\nD. Wooden carving\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What type of sculpture is on display in the room?\n\nA. Abstract sculpture\nB. Classical bust\nC. Modern art piece\nD. Wooden carving",
+      "response": "None"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What type of musical instrument is in the room?",
+      "response": "N/A"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What type of musical instrument is in the room?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What kind of lamp is positioned above the king-size bed?\n\nA. Floor lamp\nB. Table lamp\nC. Ceiling lamp\nD. Wall lamp",
+      "response": "C"
+    }
+  ]
+}

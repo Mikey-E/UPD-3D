@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "008f0372-b7d0-485f-8d3e-f686dcb68d4f@MasterBedroom-820",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 4",
+  "timestamp": "2025-10-06T09:25:04.597110",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/008f0372-b7d0-485f-8d3e-f686dcb68d4f/MasterBedroom-820/MasterBedroom-820.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What design style is featured in the wardrobe of the room?\n\nA. Rustic farmhouse design\nB. Victorian elegance\nC. Classic French design\nIf none of the above answers are correct, answer: 'F'",
+      "response": "B"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What design style is featured in the wardrobe of the room?\n\nA. Rustic farmhouse design\nB. Victorian elegance\nC. Classic French design\nD. None of the above",
+      "response": "B"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What design style is featured in the wardrobe of the room?\n\nA. Rustic farmhouse design\nB. Victorian elegance\nC. Classic French design",
+      "response": "B"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What design style is featured in the wardrobe of the room?\n\nA. Intercontinental ballistic\nB. Quantum mechanics\nC. Evolutionary biology\nD. Hemoglobin structure\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What design style is featured in the wardrobe of the room?\n\nA. Intercontinental ballistic\nB. Quantum mechanics\nC. Evolutionary biology\nD. Hemoglobin structure\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What design style is featured in the wardrobe of the room?\n\nA. Intercontinental ballistic\nB. Quantum mechanics\nC. Evolutionary biology\nD. Hemoglobin structure",
+      "response": "none of these"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What type of sculpture is placed in the corner of the room?\n\nA. Abstract bronze\nB. Marble figure\nC. Glass art\nD. Stone relief\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What type of sculpture is placed in the corner of the room?\n\nA. Abstract bronze\nB. Marble figure\nC. Glass art\nD. Stone relief\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What type of sculpture is placed in the corner of the room?\n\nA. Abstract bronze\nB. Marble figure\nC. Glass art\nD. Stone relief",
+      "response": "none of these"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What type of sports equipment is located in the room?",
+      "response": "none"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What type of sports equipment is located in the room?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What design style is featured in the wardrobe of the room?\n\nA. Modern industrial Korean design\nB. Rustic farmhouse design\nC. Victorian elegance\nD. Classic French design",
+      "response": "B"
+    }
+  ]
+}

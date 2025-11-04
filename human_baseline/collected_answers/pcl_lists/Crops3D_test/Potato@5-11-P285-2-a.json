@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "Potato@5-11-P285-2-a",
+  "dataset": "Crops3D_test",
+  "annotated_by": "User 5",
+  "timestamp": "2025-10-30T12:03:50.547631",
+  "file_path": "/project/3dllms/melgin/datasets/CEA/Crops3D/Potato/5-11-P285-2-a.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What type of leaf arrangement is primarily observed in the plant described?\n\nA. Simple leaves without serration\nB. Alternating whorled leaves\nC. Needle-like leaves\nIf none of the above answers are correct, answer: 'F'",
+      "response": "b"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What type of leaf arrangement is primarily observed in the plant described?\n\nA. Simple leaves without serration\nB. Alternating whorled leaves\nC. Needle-like leaves\nD. None of the above",
+      "response": "b"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What type of leaf arrangement is primarily observed in the plant described?\n\nA. Simple leaves without serration\nB. Alternating whorled leaves\nC. Needle-like leaves",
+      "response": "b"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What type of leaf arrangement is primarily observed in the plant described?\n\nA. Basketball\nB. Violin\nC. Refrigerator\nD. Airplane\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What type of leaf arrangement is primarily observed in the plant described?\n\nA. Basketball\nB. Violin\nC. Refrigerator\nD. Airplane\nE. None of the above",
+      "response": "e"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What type of leaf arrangement is primarily observed in the plant described?\n\nA. Basketball\nB. Violin\nC. Refrigerator\nD. Airplane",
+      "response": "none"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What type of sculpture is displayed nearby?\n\nA. Abstract figure\nB. Classical bust\nC. Modern animal\nD. Geometric shape\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What type of sculpture is displayed nearby?\n\nA. Abstract figure\nB. Classical bust\nC. Modern animal\nD. Geometric shape\nE. None of the above",
+      "response": "e"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What type of sculpture is displayed nearby?\n\nA. Abstract figure\nB. Classical bust\nC. Modern animal\nD. Geometric shape",
+      "response": "none"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What shape is the coffee table?",
+      "response": "none"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What shape is the coffee table?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What type of leaf arrangement is primarily observed in the plant described?\n\nA. Simple leaves without serration\nB. Alternating whorled leaves\nC. Pinnate leaves with small leaflets\nD. Needle-like leaves",
+      "response": "b"
+    }
+  ]
+}

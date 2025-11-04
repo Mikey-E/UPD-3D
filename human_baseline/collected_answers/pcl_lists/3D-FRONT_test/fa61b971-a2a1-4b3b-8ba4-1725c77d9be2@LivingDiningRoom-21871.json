@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "fa61b971-a2a1-4b3b-8ba4-1725c77d9be2@LivingDiningRoom-21871",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 3",
+  "timestamp": "2025-10-30T11:29:05.238720",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/fa61b971-a2a1-4b3b-8ba4-1725c77d9be2/LivingDiningRoom-21871/LivingDiningRoom-21871.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What style is the sofa in the living room upholstered with?\n\nA. Floral fabric\nB. Black leather\nC. Neutrals and pastels\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What style is the sofa in the living room upholstered with?\n\nA. Floral fabric\nB. Black leather\nC. Neutrals and pastels\nD. None of the above",
+      "response": "D"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What style is the sofa in the living room upholstered with?\n\nA. Floral fabric\nB. Black leather\nC. Neutrals and pastels",
+      "response": "NONE"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What style is the sofa in the living room upholstered with?\n\nA. Mountain range\nB. Ocean wave\nC. Desert landscape\nD. Forest canopy\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What style is the sofa in the living room upholstered with?\n\nA. Mountain range\nB. Ocean wave\nC. Desert landscape\nD. Forest canopy\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What style is the sofa in the living room upholstered with?\n\nA. Mountain range\nB. Ocean wave\nC. Desert landscape\nD. Forest canopy",
+      "response": "NONE"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What is the style of the coffee table in the scene?\n\nA. Mid-century modern\nB. Rustic farmhouse\nC. Scandinavian minimalism\nD. Art deco\nIf none of the above answers are correct, answer: 'F'",
+      "response": "C"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What is the style of the coffee table in the scene?\n\nA. Mid-century modern\nB. Rustic farmhouse\nC. Scandinavian minimalism\nD. Art deco\nE. None of the above",
+      "response": "C"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What is the style of the coffee table in the scene?\n\nA. Mid-century modern\nB. Rustic farmhouse\nC. Scandinavian minimalism\nD. Art deco",
+      "response": "C"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What type of outdoor grill is in the living room?",
+      "response": "NA"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What type of outdoor grill is in the living room?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What style is the sofa in the living room upholstered with?\n\nA. Floral fabric\nB. Black leather\nC. Dark grey velvet\nD. Neutrals and pastels",
+      "response": "D"
+    }
+  ]
+}

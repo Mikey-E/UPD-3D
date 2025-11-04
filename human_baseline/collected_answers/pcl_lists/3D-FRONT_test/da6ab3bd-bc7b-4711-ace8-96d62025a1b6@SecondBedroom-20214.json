@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "da6ab3bd-bc7b-4711-ace8-96d62025a1b6@SecondBedroom-20214",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 4",
+  "timestamp": "2025-10-20T08:28:22.469771",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/da6ab3bd-bc7b-4711-ace8-96d62025a1b6/SecondBedroom-20214/SecondBedroom-20214.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What color is the children's cabinet?\n\nA. Bright green\nB. Creamy beige\nC. Pastel pink\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What color is the children's cabinet?\n\nA. Bright green\nB. Creamy beige\nC. Pastel pink\nD. None of the above",
+      "response": "d"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What color is the children's cabinet?\n\nA. Bright green\nB. Creamy beige\nC. Pastel pink",
+      "response": "none"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What color is the children's cabinet?\n\nA. Jupiter\nB. Saturn\nC. Neptune\nD. Mars\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What color is the children's cabinet?\n\nA. Jupiter\nB. Saturn\nC. Neptune\nD. Mars\nE. None of the above",
+      "response": "e"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What color is the children's cabinet?\n\nA. Jupiter\nB. Saturn\nC. Neptune\nD. Mars",
+      "response": "none"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What type of windows are visible in the scene?\n\nA. Bay windows\nB. Sliding windows\nC. Casement windows\nD. Awning windows\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What type of windows are visible in the scene?\n\nA. Bay windows\nB. Sliding windows\nC. Casement windows\nD. Awning windows\nE. None of the above",
+      "response": "e"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What type of windows are visible in the scene?\n\nA. Bay windows\nB. Sliding windows\nC. Casement windows\nD. Awning windows",
+      "response": "none"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What type of sculpture is situated in the room?",
+      "response": "n/a"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What type of sculpture is situated in the room?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What color is the children's cabinet?\n\nA. Bright green\nB. Creamy beige\nC. Pastel pink\nD. Soft lavender",
+      "response": "none"
+    }
+  ]
+}

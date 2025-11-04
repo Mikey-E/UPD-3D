@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "da6ab3bd-bc7b-4711-ace8-96d62025a1b6@MasterBedroom-44235",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 5",
+  "timestamp": "2025-10-20T08:27:57.022196",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/da6ab3bd-bc7b-4711-ace8-96d62025a1b6/MasterBedroom-44235/MasterBedroom-44235.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What color is the upholstery of the footstool in the Masterbedroom?\n\nA. Chocolate brown\nB. White\nC. Light beige\nIf none of the above answers are correct, answer: 'F'",
+      "response": "b"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What color is the upholstery of the footstool in the Masterbedroom?\n\nA. Chocolate brown\nB. White\nC. Light beige\nD. None of the above",
+      "response": "b"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What color is the upholstery of the footstool in the Masterbedroom?\n\nA. Chocolate brown\nB. White\nC. Light beige",
+      "response": "b"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What color is the upholstery of the footstool in the Masterbedroom?\n\nA. Galaxy\nB. Ocean\nC. Desert\nD. Forest\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What color is the upholstery of the footstool in the Masterbedroom?\n\nA. Galaxy\nB. Ocean\nC. Desert\nD. Forest\nE. None of the above",
+      "response": "e"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What color is the upholstery of the footstool in the Masterbedroom?\n\nA. Galaxy\nB. Ocean\nC. Desert\nD. Forest",
+      "response": "none"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What type of plant can be found in the Masterbedroom?\n\nA. Fern\nB. Cactus\nC. Orchid\nD. Bonsai\nIf none of the above answers are correct, answer: 'F'",
+      "response": "a"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What type of plant can be found in the Masterbedroom?\n\nA. Fern\nB. Cactus\nC. Orchid\nD. Bonsai\nE. None of the above",
+      "response": "a"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What type of plant can be found in the Masterbedroom?\n\nA. Fern\nB. Cactus\nC. Orchid\nD. Bonsai",
+      "response": "a"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What color is the chandelier hanging from the ceiling?",
+      "response": "none"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What color is the chandelier hanging from the ceiling?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What color is the upholstery of the footstool in the Masterbedroom?\n\nA. Chocolate brown\nB. White\nC. Deep charcoal grey\nD. Light beige",
+      "response": "b"
+    }
+  ]
+}

@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "Cotton@15",
+  "dataset": "Crops3D_test",
+  "annotated_by": "User 5",
+  "timestamp": "2025-10-30T10:38:39.207876",
+  "file_path": "/project/3dllms/melgin/datasets/CEA/Crops3D/Cotton/15.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What type of blossoms are found on the tall, slender brown branch?\n\nA. Red fluffy blossoms\nB. Blue flat blossoms\nC. Large yellow blossoms\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What type of blossoms are found on the tall, slender brown branch?\n\nA. Red fluffy blossoms\nB. Blue flat blossoms\nC. Large yellow blossoms\nD. None of the above",
+      "response": "d"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What type of blossoms are found on the tall, slender brown branch?\n\nA. Red fluffy blossoms\nB. Blue flat blossoms\nC. Large yellow blossoms",
+      "response": "none"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What type of blossoms are found on the tall, slender brown branch?\n\nA. Bermuda Triangle\nB. Great Wall of China\nC. Black Hole\nD. Solar Eclipse\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What type of blossoms are found on the tall, slender brown branch?\n\nA. Bermuda Triangle\nB. Great Wall of China\nC. Black Hole\nD. Solar Eclipse\nE. None of the above",
+      "response": "e"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What type of blossoms are found on the tall, slender brown branch?\n\nA. Bermuda Triangle\nB. Great Wall of China\nC. Black Hole\nD. Solar Eclipse",
+      "response": "none"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What type of fruit is hanging from the branch?\n\nA. Apples\nB. Oranges\nC. Bananas\nD. Grapes\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What type of fruit is hanging from the branch?\n\nA. Apples\nB. Oranges\nC. Bananas\nD. Grapes\nE. None of the above",
+      "response": "e"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What type of fruit is hanging from the branch?\n\nA. Apples\nB. Oranges\nC. Bananas\nD. Grapes",
+      "response": "none"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What type of fruit hangs from the branch?",
+      "response": "none"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What type of fruit hangs from the branch?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What type of blossoms are found on the tall, slender brown branch?\n\nA. Red fluffy blossoms\nB. Blue flat blossoms\nC. Large yellow blossoms\nD. Small white fluffy blossoms",
+      "response": "d"
+    }
+  ]
+}

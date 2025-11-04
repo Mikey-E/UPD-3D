@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "cdd84514-2dcf-41a8-8404-de480f15508a@KidsRoom-102090",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 4",
+  "timestamp": "2025-10-14T15:13:59.554432",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/cdd84514-2dcf-41a8-8404-de480f15508a/KidsRoom-102090/KidsRoom-102090.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What is the color scheme of the smaller kids bed in the KidsRoom?\n\nA. Pastel pink and white\nB. Black and silver\nC. Blue and yellow\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What is the color scheme of the smaller kids bed in the KidsRoom?\n\nA. Pastel pink and white\nB. Black and silver\nC. Blue and yellow\nD. None of the above",
+      "response": "D"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What is the color scheme of the smaller kids bed in the KidsRoom?\n\nA. Pastel pink and white\nB. Black and silver\nC. Blue and yellow",
+      "response": "NONE"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What is the color scheme of the smaller kids bed in the KidsRoom?\n\nA. Ocean waves\nB. Desert sands\nC. Mountain peaks\nD. Forest trails\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What is the color scheme of the smaller kids bed in the KidsRoom?\n\nA. Ocean waves\nB. Desert sands\nC. Mountain peaks\nD. Forest trails\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What is the color scheme of the smaller kids bed in the KidsRoom?\n\nA. Ocean waves\nB. Desert sands\nC. Mountain peaks\nD. Forest trails",
+      "response": "NONE"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What type of vehicle typically provides a unique perspective in 3D city environments?\n\nA. Bicycle\nB. Hot air balloon\nC. Sports car\nD. Skateboard\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What type of vehicle typically provides a unique perspective in 3D city environments?\n\nA. Bicycle\nB. Hot air balloon\nC. Sports car\nD. Skateboard\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What type of vehicle typically provides a unique perspective in 3D city environments?\n\nA. Bicycle\nB. Hot air balloon\nC. Sports car\nD. Skateboard",
+      "response": "NONE"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What type of rocking chair is placed in the room?",
+      "response": "UNANSWERABLE"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What type of rocking chair is placed in the room?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What is the color scheme of the smaller kids bed in the KidsRoom?\n\nA. Pastel pink and white\nB. Red and wood\nC. Black and silver\nD. Blue and yellow",
+      "response": "B"
+    }
+  ]
+}

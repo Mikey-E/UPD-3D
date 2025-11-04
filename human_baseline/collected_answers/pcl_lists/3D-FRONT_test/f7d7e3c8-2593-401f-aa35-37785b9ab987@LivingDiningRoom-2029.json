@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "f7d7e3c8-2593-401f-aa35-37785b9ab987@LivingDiningRoom-2029",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 3",
+  "timestamp": "2025-10-30T00:26:03.027288",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/f7d7e3c8-2593-401f-aa35-37785b9ab987/LivingDiningRoom-2029/LivingDiningRoom-2029.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What color scheme is used for the dining table in the living room?\n\nA. Off-white and silver\nB. Beige and gold\nC. Glossy black and white\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What color scheme is used for the dining table in the living room?\n\nA. Off-white and silver\nB. Beige and gold\nC. Glossy black and white\nD. None of the above",
+      "response": "D"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What color scheme is used for the dining table in the living room?\n\nA. Off-white and silver\nB. Beige and gold\nC. Glossy black and white",
+      "response": "NONE"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What color scheme is used for the dining table in the living room?\n\nA. Elephant\nB. Cactus\nC. Galaxy\nD. Volcano\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What color scheme is used for the dining table in the living room?\n\nA. Elephant\nB. Cactus\nC. Galaxy\nD. Volcano\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What color scheme is used for the dining table in the living room?\n\nA. Elephant\nB. Cactus\nC. Galaxy\nD. Volcano",
+      "response": "NONE"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What type of artwork is displayed in the scene?\n\nA. Abstract painting\nB. Landscape mural\nC. Portrait photograph\nD. Still life composition\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What type of artwork is displayed in the scene?\n\nA. Abstract painting\nB. Landscape mural\nC. Portrait photograph\nD. Still life composition\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What type of artwork is displayed in the scene?\n\nA. Abstract painting\nB. Landscape mural\nC. Portrait photograph\nD. Still life composition",
+      "response": "NA"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What type of large sculpture is located in the corner of the room?",
+      "response": "NA"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What type of large sculpture is located in the corner of the room?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What color scheme is used for the dining table in the living room?\n\nA. Off-white and silver\nB. Beige and gold\nC. Glossy black and white\nD. Dark grey and light wood",
+      "response": "D"
+    }
+  ]
+}

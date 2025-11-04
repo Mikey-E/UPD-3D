@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "f45eb022-eb5e-4c3c-a211-8a8e0391c2cf@LivingDiningRoom-16316",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 5",
+  "timestamp": "2025-10-29T16:48:31.605430",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/f45eb022-eb5e-4c3c-a211-8a8e0391c2cf/LivingDiningRoom-16316/LivingDiningRoom-16316.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What type of lamps are described as providing layered lighting in the living room?\n\nA. Floor lamps\nB. Table lamps\nC. Wall sconces\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What type of lamps are described as providing layered lighting in the living room?\n\nA. Floor lamps\nB. Table lamps\nC. Wall sconces\nD. None of the above",
+      "response": "d"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What type of lamps are described as providing layered lighting in the living room?\n\nA. Floor lamps\nB. Table lamps\nC. Wall sconces",
+      "response": "none"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What type of lamps are described as providing layered lighting in the living room?\n\nA. Coral reefs\nB. Mountain ranges\nC. Tropical rainforests\nD. Desert landscapes\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What type of lamps are described as providing layered lighting in the living room?\n\nA. Coral reefs\nB. Mountain ranges\nC. Tropical rainforests\nD. Desert landscapes\nE. None of the above",
+      "response": "e"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What type of lamps are described as providing layered lighting in the living room?\n\nA. Coral reefs\nB. Mountain ranges\nC. Tropical rainforests\nD. Desert landscapes",
+      "response": "none"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What type of sculpture is displayed in the living room?\n\nA. Abstract\nB. Realistic\nC. Figurative\nD. Kinetic\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What type of sculpture is displayed in the living room?\n\nA. Abstract\nB. Realistic\nC. Figurative\nD. Kinetic\nE. None of the above",
+      "response": "e"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What type of sculpture is displayed in the living room?\n\nA. Abstract\nB. Realistic\nC. Figurative\nD. Kinetic",
+      "response": "none"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What type of outdoor grill is located in this room?",
+      "response": "none"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What type of outdoor grill is located in this room?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What type of lamps are described as providing layered lighting in the living room?\n\nA. Floor lamps\nB. Table lamps\nC. Pendant lamps\nD. Wall sconces",
+      "response": "c"
+    }
+  ]
+}

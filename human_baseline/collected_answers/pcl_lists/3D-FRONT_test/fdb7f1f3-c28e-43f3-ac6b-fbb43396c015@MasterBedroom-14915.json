@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "fdb7f1f3-c28e-43f3-ac6b-fbb43396c015@MasterBedroom-14915",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 3",
+  "timestamp": "2025-10-31T00:06:26.706372",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/fdb7f1f3-c28e-43f3-ac6b-fbb43396c015/MasterBedroom-14915/MasterBedroom-14915.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What color is the wardrobe in the room?\n\nA. Beige\nB. Mahogany\nC. Navy\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What color is the wardrobe in the room?\n\nA. Beige\nB. Mahogany\nC. Navy\nD. None of the above",
+      "response": "D"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What color is the wardrobe in the room?\n\nA. Beige\nB. Mahogany\nC. Navy",
+      "response": "NONE"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What color is the wardrobe in the room?\n\nA. Ocean\nB. Forest\nC. Desert\nD. Mountain\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What color is the wardrobe in the room?\n\nA. Ocean\nB. Forest\nC. Desert\nD. Mountain\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What color is the wardrobe in the room?\n\nA. Ocean\nB. Forest\nC. Desert\nD. Mountain",
+      "response": "NONE"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What type of window treatment is used in the scene?\n\nA. Curtains\nB. Blinds\nC. Shutters\nD. Drapes\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What type of window treatment is used in the scene?\n\nA. Curtains\nB. Blinds\nC. Shutters\nD. Drapes\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What type of window treatment is used in the scene?\n\nA. Curtains\nB. Blinds\nC. Shutters\nD. Drapes",
+      "response": "NA"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What texture is the area rug in front of the bed?",
+      "response": "NA"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What texture is the area rug in front of the bed?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What color is the wardrobe in the room?\n\nA. Beige\nB. White\nC. Mahogany\nD. Navy",
+      "response": "B"
+    }
+  ]
+}

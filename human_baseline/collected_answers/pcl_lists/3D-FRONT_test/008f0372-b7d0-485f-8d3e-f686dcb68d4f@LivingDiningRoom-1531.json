@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "008f0372-b7d0-485f-8d3e-f686dcb68d4f@LivingDiningRoom-1531",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 4",
+  "timestamp": "2025-10-06T10:09:56.898524",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/008f0372-b7d0-485f-8d3e-f686dcb68d4f/LivingDiningRoom-1531/LivingDiningRoom-1531.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What color is the loveseat sofa in the living room?\n\nA. Light Beige\nB. Muted Gray\nC. Rich Mahogany\nIf none of the above answers are correct, answer: 'F'",
+      "response": "B"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What color is the loveseat sofa in the living room?\n\nA. Light Beige\nB. Muted Gray\nC. Rich Mahogany\nD. None of the above",
+      "response": "B"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What color is the loveseat sofa in the living room?\n\nA. Light Beige\nB. Muted Gray\nC. Rich Mahogany",
+      "response": "B"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What color is the loveseat sofa in the living room?\n\nA. Mercury\nB. Hydrogen\nC. Carbon\nD. Oxygen\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What color is the loveseat sofa in the living room?\n\nA. Mercury\nB. Hydrogen\nC. Carbon\nD. Oxygen\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What color is the loveseat sofa in the living room?\n\nA. Mercury\nB. Hydrogen\nC. Carbon\nD. Oxygen",
+      "response": "none of these"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What type of rug is placed in front of the television?\n\nA. Shag rug\nB. Persian rug\nC. Jute rug\nD. Oriental rug\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What type of rug is placed in front of the television?\n\nA. Shag rug\nB. Persian rug\nC. Jute rug\nD. Oriental rug\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What type of rug is placed in front of the television?\n\nA. Shag rug\nB. Persian rug\nC. Jute rug\nD. Oriental rug",
+      "response": "none of these"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What type of aquarium is situated near the sideboard?",
+      "response": "none"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What type of aquarium is situated near the sideboard?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What color is the loveseat sofa in the living room?\n\nA. Light Beige\nB. Muted Gray\nC. Dark Charcoal\nD. Rich Mahogany",
+      "response": "B"
+    }
+  ]
+}

@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "df69e2a1-9ca8-4512-9410-b848e91da0d8@SecondBedroom-67",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 5",
+  "timestamp": "2025-10-24T17:49:24.911027",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/df69e2a1-9ca8-4512-9410-b848e91da0d8/SecondBedroom-67/SecondBedroom-67.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What color is the shade of the floor lamp in the bedroom?\n\nA. Soft grey\nB. Cool grey\nC. White\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What color is the shade of the floor lamp in the bedroom?\n\nA. Soft grey\nB. Cool grey\nC. White\nD. None of the above",
+      "response": "d"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What color is the shade of the floor lamp in the bedroom?\n\nA. Soft grey\nB. Cool grey\nC. White",
+      "response": "none"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What color is the shade of the floor lamp in the bedroom?\n\nA. Ocean\nB. Mountain\nC. Forest\nD. Desert\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What color is the shade of the floor lamp in the bedroom?\n\nA. Ocean\nB. Mountain\nC. Forest\nD. Desert\nE. None of the above",
+      "response": "e"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What color is the shade of the floor lamp in the bedroom?\n\nA. Ocean\nB. Mountain\nC. Forest\nD. Desert",
+      "response": "none"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What type of flooring is used in the scene?\n\nA. Hardwood\nB. Carpet\nC. Tile\nD. Laminate\nIf none of the above answers are correct, answer: 'F'",
+      "response": "b"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What type of flooring is used in the scene?\n\nA. Hardwood\nB. Carpet\nC. Tile\nD. Laminate\nE. None of the above",
+      "response": "b"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What type of flooring is used in the scene?\n\nA. Hardwood\nB. Carpet\nC. Tile\nD. Laminate",
+      "response": "b"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What type of artwork is hanging directly above the bed?",
+      "response": "none"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What type of artwork is hanging directly above the bed?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What color is the shade of the floor lamp in the bedroom?\n\nA. Deep blue\nB. Soft grey\nC. Cool grey\nD. White",
+      "response": "none"
+    }
+  ]
+}

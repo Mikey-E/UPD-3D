@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "e16e222e-f9b3-41eb-983f-b6173f84c35a@LivingDiningRoom-1255",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 5",
+  "timestamp": "2025-10-24T22:38:35.716515",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/e16e222e-f9b3-41eb-983f-b6173f84c35a/LivingDiningRoom-1255/LivingDiningRoom-1255.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What style is the side table positioned next to the sofa?\n\nA. Vintage/Retro\nB. Light Luxury\nC. American Country\nIf none of the above answers are correct, answer: 'F'",
+      "response": "a"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What style is the side table positioned next to the sofa?\n\nA. Vintage/Retro\nB. Light Luxury\nC. American Country\nD. None of the above",
+      "response": "a"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What style is the side table positioned next to the sofa?\n\nA. Vintage/Retro\nB. Light Luxury\nC. American Country",
+      "response": "a"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What style is the side table positioned next to the sofa?\n\nA. Tropical rainforest\nB. Arctic tundra\nC. Desert landscape\nD. Mountain range\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What style is the side table positioned next to the sofa?\n\nA. Tropical rainforest\nB. Arctic tundra\nC. Desert landscape\nD. Mountain range\nE. None of the above",
+      "response": "e"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What style is the side table positioned next to the sofa?\n\nA. Tropical rainforest\nB. Arctic tundra\nC. Desert landscape\nD. Mountain range",
+      "response": "none"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What is the maximum height of the building?\n\nA. 50 meters\nB. 100 meters\nC. 75 meters\nD. 30 meters\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What is the maximum height of the building?\n\nA. 50 meters\nB. 100 meters\nC. 75 meters\nD. 30 meters\nE. None of the above",
+      "response": "e"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What is the maximum height of the building?\n\nA. 50 meters\nB. 100 meters\nC. 75 meters\nD. 30 meters",
+      "response": "none"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What kind of sports equipment is hidden behind the coffee table?",
+      "response": "none"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What kind of sports equipment is hidden behind the coffee table?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What style is the side table positioned next to the sofa?\n\nA. Neoclassical\nB. Vintage/Retro\nC. Light Luxury\nD. American Country",
+      "response": "b"
+    }
+  ]
+}

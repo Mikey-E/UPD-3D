@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "da616c7c-4149-40e7-b426-6b6054fba1cc@LivingDiningRoom-86",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 5",
+  "timestamp": "2025-10-20T08:26:44.919502",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/da616c7c-4149-40e7-b426-6b6054fba1cc/LivingDiningRoom-86/LivingDiningRoom-86.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What color is the coffee table in the living room?\n\nA. Charcoal grey\nB. Soft pink\nC. Deep teal\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What color is the coffee table in the living room?\n\nA. Charcoal grey\nB. Soft pink\nC. Deep teal\nD. None of the above",
+      "response": "d"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What color is the coffee table in the living room?\n\nA. Charcoal grey\nB. Soft pink\nC. Deep teal",
+      "response": "none"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What color is the coffee table in the living room?\n\nA. Feline\nB. Canine\nC. Avian\nD. Reptilian\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What color is the coffee table in the living room?\n\nA. Feline\nB. Canine\nC. Avian\nD. Reptilian\nE. None of the above",
+      "response": "e"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What color is the coffee table in the living room?\n\nA. Feline\nB. Canine\nC. Avian\nD. Reptilian",
+      "response": "none"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What color is the ceiling in the room?\n\nA. White\nB. Blue\nC. Green\nD. Yellow\nIf none of the above answers are correct, answer: 'F'",
+      "response": "a"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What color is the ceiling in the room?\n\nA. White\nB. Blue\nC. Green\nD. Yellow\nE. None of the above",
+      "response": "a"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What color is the ceiling in the room?\n\nA. White\nB. Blue\nC. Green\nD. Yellow",
+      "response": "a"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What type of sculpture is located by the dining table?",
+      "response": "none"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What type of sculpture is located by the dining table?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What color is the coffee table in the living room?\n\nA. Charcoal grey\nB. Deep navy blue\nC. Soft pink\nD. Deep teal",
+      "response": "b"
+    }
+  ]
+}

@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "ce427ceb-7eb7-423e-b68b-d01cf1fa516a@DiningRoom-34207",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 4",
+  "timestamp": "2025-10-14T15:24:51.643041",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/ce427ceb-7eb7-423e-b68b-d01cf1fa516a/DiningRoom-34207/DiningRoom-34207.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What is the color of the chairs surrounding the dining table?\n\nA. White\nB. Brown\nC. Blue\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What is the color of the chairs surrounding the dining table?\n\nA. White\nB. Brown\nC. Blue\nD. None of the above",
+      "response": "D"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What is the color of the chairs surrounding the dining table?\n\nA. White\nB. Brown\nC. Blue",
+      "response": "NONE"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What is the color of the chairs surrounding the dining table?\n\nA. Notebook\nB. Eraser\nC. Pencil case\nD. Ruler\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What is the color of the chairs surrounding the dining table?\n\nA. Notebook\nB. Eraser\nC. Pencil case\nD. Ruler\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What is the color of the chairs surrounding the dining table?\n\nA. Notebook\nB. Eraser\nC. Pencil case\nD. Ruler",
+      "response": "NONE"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What is the primary function of the soccer ball?\n\nA. To be kicked into a goal\nB. To be thrown in a game\nC. To be balanced on a head\nD. To be used as a decoration\nIf none of the above answers are correct, answer: 'F'",
+      "response": "A"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What is the primary function of the soccer ball?\n\nA. To be kicked into a goal\nB. To be thrown in a game\nC. To be balanced on a head\nD. To be used as a decoration\nE. None of the above",
+      "response": "A"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What is the primary function of the soccer ball?\n\nA. To be kicked into a goal\nB. To be thrown in a game\nC. To be balanced on a head\nD. To be used as a decoration",
+      "response": "A"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What is the texture of the plush carpet located in the room?",
+      "response": "NONE"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What is the texture of the plush carpet located in the room?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What is the color of the chairs surrounding the dining table?\n\nA. Black\nB. White\nC. Brown\nD. Blue",
+      "response": "A"
+    }
+  ]
+}

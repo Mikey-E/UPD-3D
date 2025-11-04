@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "c5cb9f35-ecb4-4761-ba65-f0e5b10bd40d@LivingRoom-20035",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 4",
+  "timestamp": "2025-10-08T14:58:00.092560",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/c5cb9f35-ecb4-4761-ba65-f0e5b10bd40d/LivingRoom-20035/LivingRoom-20035.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What unique feature distinguishes the children's cabinet in this living room?\n\nA. It is made of sleek black finish\nB. It is designed for minimalist storage solutions\nC. It provides a Japanese aesthetic\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What unique feature distinguishes the children's cabinet in this living room?\n\nA. It is made of sleek black finish\nB. It is designed for minimalist storage solutions\nC. It provides a Japanese aesthetic\nD. None of the above",
+      "response": "D"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What unique feature distinguishes the children's cabinet in this living room?\n\nA. It is made of sleek black finish\nB. It is designed for minimalist storage solutions\nC. It provides a Japanese aesthetic",
+      "response": "none of these"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What unique feature distinguishes the children's cabinet in this living room?\n\nA. Pineapple\nB. Quicksand\nC. Marshmallow\nD. Avalanche\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What unique feature distinguishes the children's cabinet in this living room?\n\nA. Pineapple\nB. Quicksand\nC. Marshmallow\nD. Avalanche\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What unique feature distinguishes the children's cabinet in this living room?\n\nA. Pineapple\nB. Quicksand\nC. Marshmallow\nD. Avalanche",
+      "response": "none of these"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What is the main ingredient in the dish being served at the party?\n\nA. Chicken\nB. Tofu\nC. Quinoa\nD. Spinach\nIf none of the above answers are correct, answer: 'F'",
+      "response": "A"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What is the main ingredient in the dish being served at the party?\n\nA. Chicken\nB. Tofu\nC. Quinoa\nD. Spinach\nE. None of the above",
+      "response": "A"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What is the main ingredient in the dish being served at the party?\n\nA. Chicken\nB. Tofu\nC. Quinoa\nD. Spinach",
+      "response": "A"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What kind of fireplace is installed in the living room?",
+      "response": "none"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What kind of fireplace is installed in the living room?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What unique feature distinguishes the children's cabinet in this living room?\n\nA. It is made of sleek black finish\nB. It has a playful lavender hue and Korean style\nC. It is designed for minimalist storage solutions\nD. It provides a Japanese aesthetic",
+      "response": "B"
+    }
+  ]
+}

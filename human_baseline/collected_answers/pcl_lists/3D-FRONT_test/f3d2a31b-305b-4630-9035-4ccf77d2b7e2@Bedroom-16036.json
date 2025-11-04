@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "f3d2a31b-305b-4630-9035-4ccf77d2b7e2@Bedroom-16036",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 5",
+  "timestamp": "2025-10-29T16:28:14.790979",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/f3d2a31b-305b-4630-9035-4ccf77d2b7e2/Bedroom-16036/Bedroom-16036.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What is the color of the headboard for the king-size bed in the bedroom?\n\nA. Blue\nB. Beige\nC. White\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What is the color of the headboard for the king-size bed in the bedroom?\n\nA. Blue\nB. Beige\nC. White\nD. None of the above",
+      "response": "d"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What is the color of the headboard for the king-size bed in the bedroom?\n\nA. Blue\nB. Beige\nC. White",
+      "response": "none"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What is the color of the headboard for the king-size bed in the bedroom?\n\nA. Cascade\nB. Summit\nC. Horizon\nD. Valley\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What is the color of the headboard for the king-size bed in the bedroom?\n\nA. Cascade\nB. Summit\nC. Horizon\nD. Valley\nE. None of the above",
+      "response": "e"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What is the color of the headboard for the king-size bed in the bedroom?\n\nA. Cascade\nB. Summit\nC. Horizon\nD. Valley",
+      "response": "none"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What color is the sofa in the scene?\n\nA. Red\nB. Green\nC. Yellow\nD. Purple\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What color is the sofa in the scene?\n\nA. Red\nB. Green\nC. Yellow\nD. Purple\nE. None of the above",
+      "response": "e"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What color is the sofa in the scene?\n\nA. Red\nB. Green\nC. Yellow\nD. Purple",
+      "response": "none"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What type of sofa is located opposite the king-size bed?",
+      "response": "none"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What type of sofa is located opposite the king-size bed?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What is the color of the headboard for the king-size bed in the bedroom?\n\nA. Grey\nB. Blue\nC. Beige\nD. White",
+      "response": "a"
+    }
+  ]
+}

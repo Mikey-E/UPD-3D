@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "ca938632-27ac-4744-ae18-6e8378d919a7@LivingRoom-38019",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 3",
+  "timestamp": "2025-10-14T11:20:04.703972",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/ca938632-27ac-4744-ae18-6e8378d919a7/LivingRoom-38019/LivingRoom-38019.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What type of lighting fixtures are installed above the dining area in the living room?\n\nA. Floor lamps\nB. Chandeliers\nC. Table lamps\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What type of lighting fixtures are installed above the dining area in the living room?\n\nA. Floor lamps\nB. Chandeliers\nC. Table lamps\nD. None of the above",
+      "response": "D"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What type of lighting fixtures are installed above the dining area in the living room?\n\nA. Floor lamps\nB. Chandeliers\nC. Table lamps",
+      "response": "None"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What type of lighting fixtures are installed above the dining area in the living room?\n\nA. Maple syrup\nB. Bicycle tire\nC. Ocean wave\nD. Chocolate chip cookie\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What type of lighting fixtures are installed above the dining area in the living room?\n\nA. Maple syrup\nB. Bicycle tire\nC. Ocean wave\nD. Chocolate chip cookie\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What type of lighting fixtures are installed above the dining area in the living room?\n\nA. Maple syrup\nB. Bicycle tire\nC. Ocean wave\nD. Chocolate chip cookie",
+      "response": "None"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What type of ceiling is present in the scene?\n\nA. Vaulted ceiling\nB. Drop ceiling\nC. Beamed ceiling\nD. Tray ceiling\nIf none of the above answers are correct, answer: 'F'",
+      "response": "C"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What type of ceiling is present in the scene?\n\nA. Vaulted ceiling\nB. Drop ceiling\nC. Beamed ceiling\nD. Tray ceiling\nE. None of the above",
+      "response": "C"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What type of ceiling is present in the scene?\n\nA. Vaulted ceiling\nB. Drop ceiling\nC. Beamed ceiling\nD. Tray ceiling",
+      "response": "C"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What type of treadmill is present in the room?",
+      "response": "N/A"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What type of treadmill is present in the room?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What type of lighting fixtures are installed above the dining area in the living room?\n\nA. Pendant lamps\nB. Floor lamps\nC. Chandeliers\nD. Table lamps",
+      "response": "A"
+    }
+  ]
+}

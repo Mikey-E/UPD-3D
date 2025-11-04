@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "c3488368-a654-4126-bb76-e4105a5bf0a1@MasterBedroom-19716",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 4",
+  "timestamp": "2025-10-14T11:24:33.160174",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/c3488368-a654-4126-bb76-e4105a5bf0a1/MasterBedroom-19716/MasterBedroom-19716.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What is the color of the footstool in the room?\n\nA. Soft Grey\nB. White Matte\nC. Pearl White\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What is the color of the footstool in the room?\n\nA. Soft Grey\nB. White Matte\nC. Pearl White\nD. None of the above",
+      "response": "D"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What is the color of the footstool in the room?\n\nA. Soft Grey\nB. White Matte\nC. Pearl White",
+      "response": "NONE OF THESE"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What is the color of the footstool in the room?\n\nA. Jupiter\nB. Mercury\nC. Venus\nD. Saturn\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What is the color of the footstool in the room?\n\nA. Jupiter\nB. Mercury\nC. Venus\nD. Saturn\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What is the color of the footstool in the room?\n\nA. Jupiter\nB. Mercury\nC. Venus\nD. Saturn",
+      "response": "NONE OF THESE"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What type of lamp is hanging above the dining area?\n\nA. Pendant lamp\nB. Floor lamp\nC. Table lamp\nD. Wall sconces\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What type of lamp is hanging above the dining area?\n\nA. Pendant lamp\nB. Floor lamp\nC. Table lamp\nD. Wall sconces\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What type of lamp is hanging above the dining area?\n\nA. Pendant lamp\nB. Floor lamp\nC. Table lamp\nD. Wall sconces",
+      "response": "NONE OF THESE"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What is the shape of the lamp that illuminates the room?",
+      "response": "N/A"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What is the shape of the lamp that illuminates the room?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What is the color of the footstool in the room?\n\nA. Soft Grey\nB. White Matte\nC. Plush Beige\nD. Pearl White",
+      "response": "C"
+    }
+  ]
+}

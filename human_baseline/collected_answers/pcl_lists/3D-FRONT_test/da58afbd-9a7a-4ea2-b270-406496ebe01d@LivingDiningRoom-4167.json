@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "da58afbd-9a7a-4ea2-b270-406496ebe01d@LivingDiningRoom-4167",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 5",
+  "timestamp": "2025-10-20T08:15:57.186977",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/da58afbd-9a7a-4ea2-b270-406496ebe01d/LivingDiningRoom-4167/LivingDiningRoom-4167.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What type of table is positioned away from the three-seat sofa in the living room?\n\nA. Dining table\nB. Coffee table\nC. Drawer chest\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What type of table is positioned away from the three-seat sofa in the living room?\n\nA. Dining table\nB. Coffee table\nC. Drawer chest\nD. None of the above",
+      "response": "d"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What type of table is positioned away from the three-seat sofa in the living room?\n\nA. Dining table\nB. Coffee table\nC. Drawer chest",
+      "response": "none"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What type of table is positioned away from the three-seat sofa in the living room?\n\nA. Comedy\nB. Drama\nC. Thriller\nD. Documentary\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What type of table is positioned away from the three-seat sofa in the living room?\n\nA. Comedy\nB. Drama\nC. Thriller\nD. Documentary\nE. None of the above",
+      "response": "e"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What type of table is positioned away from the three-seat sofa in the living room?\n\nA. Comedy\nB. Drama\nC. Thriller\nD. Documentary",
+      "response": "none"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What is the shape of the bookshelf in the living room?\n\nA. Circular\nB. Squared\nC. Triangular\nD. Hexagonal\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What is the shape of the bookshelf in the living room?\n\nA. Circular\nB. Squared\nC. Triangular\nD. Hexagonal\nE. None of the above",
+      "response": "e"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What is the shape of the bookshelf in the living room?\n\nA. Circular\nB. Squared\nC. Triangular\nD. Hexagonal",
+      "response": "none"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What type of appliances are located in the kitchen?",
+      "response": "none"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What type of appliances are located in the kitchen?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What type of table is positioned away from the three-seat sofa in the living room?\n\nA. Corner table\nB. Dining table\nC. Coffee table\nD. Drawer chest",
+      "response": "a"
+    }
+  ]
+}

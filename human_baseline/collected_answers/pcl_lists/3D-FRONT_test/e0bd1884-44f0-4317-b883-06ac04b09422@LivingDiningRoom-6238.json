@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "e0bd1884-44f0-4317-b883-06ac04b09422@LivingDiningRoom-6238",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 5",
+  "timestamp": "2025-10-24T21:13:51.927147",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/e0bd1884-44f0-4317-b883-06ac04b09422/LivingDiningRoom-6238/LivingDiningRoom-6238.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What type of lighting is positioned above the sofa area in the livingdining room?\n\nA. Table lamp\nB. Floor lamp\nC. Wall sconce\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What type of lighting is positioned above the sofa area in the livingdining room?\n\nA. Table lamp\nB. Floor lamp\nC. Wall sconce\nD. None of the above",
+      "response": "d"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What type of lighting is positioned above the sofa area in the livingdining room?\n\nA. Table lamp\nB. Floor lamp\nC. Wall sconce",
+      "response": "none"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What type of lighting is positioned above the sofa area in the livingdining room?\n\nA. Maple syrup\nB. Electric guitar\nC. Surfboard\nD. Marshmallow\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What type of lighting is positioned above the sofa area in the livingdining room?\n\nA. Maple syrup\nB. Electric guitar\nC. Surfboard\nD. Marshmallow\nE. None of the above",
+      "response": "e"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What type of lighting is positioned above the sofa area in the livingdining room?\n\nA. Maple syrup\nB. Electric guitar\nC. Surfboard\nD. Marshmallow",
+      "response": "none"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What is the height of the chandelier in the room?\n\nA. 5 feet\nB. 8 feet\nC. 10 feet\nD. 12 feet\nIf none of the above answers are correct, answer: 'F'",
+      "response": "b"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What is the height of the chandelier in the room?\n\nA. 5 feet\nB. 8 feet\nC. 10 feet\nD. 12 feet\nE. None of the above",
+      "response": "b"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What is the height of the chandelier in the room?\n\nA. 5 feet\nB. 8 feet\nC. 10 feet\nD. 12 feet",
+      "response": "b"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What type of sports equipment is stored in the room?",
+      "response": "none"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What type of sports equipment is stored in the room?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What type of lighting is positioned above the sofa area in the livingdining room?\n\nA. Table lamp\nB. Floor lamp\nC. Pendant lamp\nD. Wall sconce",
+      "response": "c"
+    }
+  ]
+}

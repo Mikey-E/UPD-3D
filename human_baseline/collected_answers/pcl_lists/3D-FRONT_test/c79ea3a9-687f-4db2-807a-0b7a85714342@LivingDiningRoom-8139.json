@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "c79ea3a9-687f-4db2-807a-0b7a85714342@LivingDiningRoom-8139",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 3",
+  "timestamp": "2025-10-10T15:45:48.209313",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/c79ea3a9-687f-4db2-807a-0b7a85714342/LivingDiningRoom-8139/LivingDiningRoom-8139.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What type of chair adds a distinct cultural element to the living-dining room?\n\nA. Corner table\nB. Dining chair\nC. Three-seat sofa\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What type of chair adds a distinct cultural element to the living-dining room?\n\nA. Corner table\nB. Dining chair\nC. Three-seat sofa\nD. None of the above",
+      "response": "D"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What type of chair adds a distinct cultural element to the living-dining room?\n\nA. Corner table\nB. Dining chair\nC. Three-seat sofa",
+      "response": "None"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What type of chair adds a distinct cultural element to the living-dining room?\n\nA. Cheetah\nB. Refrigerator\nC. Volcano\nD. Satellite\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What type of chair adds a distinct cultural element to the living-dining room?\n\nA. Cheetah\nB. Refrigerator\nC. Volcano\nD. Satellite\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What type of chair adds a distinct cultural element to the living-dining room?\n\nA. Cheetah\nB. Refrigerator\nC. Volcano\nD. Satellite",
+      "response": "None"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What type of sculpture is displayed prominently in the room?\n\nA. Abstract figure\nB. Traditional bust\nC. Modern animal\nD. Classic relief\nIf none of the above answers are correct, answer: 'F'",
+      "response": "A"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What type of sculpture is displayed prominently in the room?\n\nA. Abstract figure\nB. Traditional bust\nC. Modern animal\nD. Classic relief\nE. None of the above",
+      "response": "A"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What type of sculpture is displayed prominently in the room?\n\nA. Abstract figure\nB. Traditional bust\nC. Modern animal\nD. Classic relief",
+      "response": "A"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What type of exercise equipment is hidden in the room?",
+      "response": "N/A"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What type of exercise equipment is hidden in the room?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What type of chair adds a distinct cultural element to the living-dining room?\n\nA. Classic Chinese chair\nB. Corner table\nC. Dining chair\nD. Three-seat sofa",
+      "response": "A"
+    }
+  ]
+}

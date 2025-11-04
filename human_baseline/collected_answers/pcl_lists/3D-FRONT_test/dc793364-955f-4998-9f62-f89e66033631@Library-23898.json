@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "dc793364-955f-4998-9f62-f89e66033631@Library-23898",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 4",
+  "timestamp": "2025-10-23T21:39:35.738763",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/dc793364-955f-4998-9f62-f89e66033631/Library-23898/Library-23898.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What style is the dining table in the library described?\n\nA. Industrial\nB. Ming Qing\nC. Modern\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What style is the dining table in the library described?\n\nA. Industrial\nB. Ming Qing\nC. Modern\nD. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What style is the dining table in the library described?\n\nA. Industrial\nB. Ming Qing\nC. Modern",
+      "response": "None"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What style is the dining table in the library described?\n\nA. Ancient mythology\nB. Marine biology\nC. Quantum physics\nD. Culinary arts\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What style is the dining table in the library described?\n\nA. Ancient mythology\nB. Marine biology\nC. Quantum physics\nD. Culinary arts\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What style is the dining table in the library described?\n\nA. Ancient mythology\nB. Marine biology\nC. Quantum physics\nD. Culinary arts",
+      "response": "None"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What type of window treatments are used in the library?\n\nA. Vertical blinds\nB. Roman shades\nC. Drapes\nD. Shutters\nIf none of the above answers are correct, answer: 'F'",
+      "response": "A"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What type of window treatments are used in the library?\n\nA. Vertical blinds\nB. Roman shades\nC. Drapes\nD. Shutters\nE. None of the above",
+      "response": "A"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What type of window treatments are used in the library?\n\nA. Vertical blinds\nB. Roman shades\nC. Drapes\nD. Shutters",
+      "response": "A"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What style is the rug in the library?",
+      "response": "Berber"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What style is the rug in the library?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "Berber"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What style is the dining table in the library described?\n\nA. Industrial\nB. Ming Qing\nC. Modern\nD. Minimalist",
+      "response": "None"
+    }
+  ]
+}

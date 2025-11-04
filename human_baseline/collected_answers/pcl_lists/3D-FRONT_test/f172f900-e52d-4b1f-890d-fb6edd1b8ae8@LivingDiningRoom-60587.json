@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "f172f900-e52d-4b1f-890d-fb6edd1b8ae8@LivingDiningRoom-60587",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 3",
+  "timestamp": "2025-10-28T23:31:22.265291",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/f172f900-e52d-4b1f-890d-fb6edd1b8ae8/LivingDiningRoom-60587/LivingDiningRoom-60587.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What type of design style does the three-seat sofa in the living room exemplify?\n\nA. Industrial design\nB. Rustic design\nC. Victorian design\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What type of design style does the three-seat sofa in the living room exemplify?\n\nA. Industrial design\nB. Rustic design\nC. Victorian design\nD. None of the above",
+      "response": "D"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What type of design style does the three-seat sofa in the living room exemplify?\n\nA. Industrial design\nB. Rustic design\nC. Victorian design",
+      "response": "None"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What type of design style does the three-seat sofa in the living room exemplify?\n\nA. Quantum physics\nB. Marine biology\nC. Graphic novel\nD. Urban exploration\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What type of design style does the three-seat sofa in the living room exemplify?\n\nA. Quantum physics\nB. Marine biology\nC. Graphic novel\nD. Urban exploration\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What type of design style does the three-seat sofa in the living room exemplify?\n\nA. Quantum physics\nB. Marine biology\nC. Graphic novel\nD. Urban exploration",
+      "response": "None"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What type of vehicle is parked outside the living room?\n\nA. Sedan\nB. Convertible\nC. SUV\nD. Minivan\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What type of vehicle is parked outside the living room?\n\nA. Sedan\nB. Convertible\nC. SUV\nD. Minivan\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What type of vehicle is parked outside the living room?\n\nA. Sedan\nB. Convertible\nC. SUV\nD. Minivan",
+      "response": "None"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What color is the large sculpture placed in the center of the room?",
+      "response": "N/A"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What color is the large sculpture placed in the center of the room?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What type of design style does the three-seat sofa in the living room exemplify?\n\nA. Industrial design\nB. Rustic design\nC. Korean design\nD. Victorian design",
+      "response": "C"
+    }
+  ]
+}

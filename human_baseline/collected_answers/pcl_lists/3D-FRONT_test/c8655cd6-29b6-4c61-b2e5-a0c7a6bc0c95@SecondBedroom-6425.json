@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "c8655cd6-29b6-4c61-b2e5-a0c7a6bc0c95@SecondBedroom-6425",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 4",
+  "timestamp": "2025-10-13T12:55:30.707066",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/c8655cd6-29b6-4c61-b2e5-a0c7a6bc0c95/SecondBedroom-6425/SecondBedroom-6425.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What color is the ceiling lamp in the bedroom?\n\nA. Black\nB. Gray\nC. Blue\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What color is the ceiling lamp in the bedroom?\n\nA. Black\nB. Gray\nC. Blue\nD. None of the above",
+      "response": "D"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What color is the ceiling lamp in the bedroom?\n\nA. Black\nB. Gray\nC. Blue",
+      "response": "none"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What color is the ceiling lamp in the bedroom?\n\nA. Mountain\nB. Ocean\nC. Desert\nD. Forest\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What color is the ceiling lamp in the bedroom?\n\nA. Mountain\nB. Ocean\nC. Desert\nD. Forest\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What color is the ceiling lamp in the bedroom?\n\nA. Mountain\nB. Ocean\nC. Desert\nD. Forest",
+      "response": "none of these"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What material is the table made of?\n\nA. Glass\nB. Wood\nC. Metal\nD. Plastic\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What material is the table made of?\n\nA. Glass\nB. Wood\nC. Metal\nD. Plastic\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What material is the table made of?\n\nA. Glass\nB. Wood\nC. Metal\nD. Plastic",
+      "response": "none of these"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What type of flooring is used for the kitchen?",
+      "response": "none"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What type of flooring is used for the kitchen?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What color is the ceiling lamp in the bedroom?\n\nA. Black\nB. White\nC. Gray\nD. Blue",
+      "response": "none of these"
+    }
+  ]
+}

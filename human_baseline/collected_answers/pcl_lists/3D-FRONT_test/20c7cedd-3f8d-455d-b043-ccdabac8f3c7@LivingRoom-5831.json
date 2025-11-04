@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "20c7cedd-3f8d-455d-b043-ccdabac8f3c7@LivingRoom-5831",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 4",
+  "timestamp": "2025-10-27T15:32:45.644970",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/20c7cedd-3f8d-455d-b043-ccdabac8f3c7/LivingRoom-5831/LivingRoom-5831.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What purpose does the floor lamp serve in the living room?\n\nA. It provides lighting for the coffee tables\nB. It serves as a decorative piece only\nC. It acts as the main source of entertainment\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What purpose does the floor lamp serve in the living room?\n\nA. It provides lighting for the coffee tables\nB. It serves as a decorative piece only\nC. It acts as the main source of entertainment\nD. None of the above",
+      "response": "D"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What purpose does the floor lamp serve in the living room?\n\nA. It provides lighting for the coffee tables\nB. It serves as a decorative piece only\nC. It acts as the main source of entertainment",
+      "response": "None"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What purpose does the floor lamp serve in the living room?\n\nA. Refrigerator temperature control\nB. Internet browser history\nC. Plant photosynthesis\nD. Solar system formation\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What purpose does the floor lamp serve in the living room?\n\nA. Refrigerator temperature control\nB. Internet browser history\nC. Plant photosynthesis\nD. Solar system formation\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What purpose does the floor lamp serve in the living room?\n\nA. Refrigerator temperature control\nB. Internet browser history\nC. Plant photosynthesis\nD. Solar system formation",
+      "response": "None"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What type of picture frame is used in the living room?\n\nA. Silver frame\nB. Wooden frame\nC. Acrylic frame\nD. Gold frame\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What type of picture frame is used in the living room?\n\nA. Silver frame\nB. Wooden frame\nC. Acrylic frame\nD. Gold frame\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What type of picture frame is used in the living room?\n\nA. Silver frame\nB. Wooden frame\nC. Acrylic frame\nD. Gold frame",
+      "response": "None"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What type of exercise equipment is in the living room?",
+      "response": "unanswerable"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What type of exercise equipment is in the living room?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What purpose does the floor lamp serve in the living room?\n\nA. It provides lighting for the coffee tables\nB. It serves as a decorative piece only\nC. It creates a cozy reading corner\nD. It acts as the main source of entertainment",
+      "response": "C"
+    }
+  ]
+}

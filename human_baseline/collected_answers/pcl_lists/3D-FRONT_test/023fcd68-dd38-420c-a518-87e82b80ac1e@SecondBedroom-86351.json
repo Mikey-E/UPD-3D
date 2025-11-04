@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "023fcd68-dd38-420c-a518-87e82b80ac1e@SecondBedroom-86351",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 5",
+  "timestamp": "2025-10-31T10:52:57.030347",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/023fcd68-dd38-420c-a518-87e82b80ac1e/SecondBedroom-86351/SecondBedroom-86351.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What color are the main pieces of furniture in the bedroom?\n\nA. Light blue\nB. Soft white\nC. Bright yellow\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What color are the main pieces of furniture in the bedroom?\n\nA. Light blue\nB. Soft white\nC. Bright yellow\nD. None of the above",
+      "response": "d"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What color are the main pieces of furniture in the bedroom?\n\nA. Light blue\nB. Soft white\nC. Bright yellow",
+      "response": "none"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What color are the main pieces of furniture in the bedroom?\n\nA. Neptune's surface\nB. Quantum mechanics\nC. Ancient civilization\nD. Solar eclipse\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What color are the main pieces of furniture in the bedroom?\n\nA. Neptune's surface\nB. Quantum mechanics\nC. Ancient civilization\nD. Solar eclipse\nE. None of the above",
+      "response": "e"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What color are the main pieces of furniture in the bedroom?\n\nA. Neptune's surface\nB. Quantum mechanics\nC. Ancient civilization\nD. Solar eclipse",
+      "response": "none"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What is the height of the chandelier in the room?\n\nA. 5 feet\nB. 8 feet\nC. 10 feet\nD. 12 feet\nIf none of the above answers are correct, answer: 'F'",
+      "response": "b"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What is the height of the chandelier in the room?\n\nA. 5 feet\nB. 8 feet\nC. 10 feet\nD. 12 feet\nE. None of the above",
+      "response": "b"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What is the height of the chandelier in the room?\n\nA. 5 feet\nB. 8 feet\nC. 10 feet\nD. 12 feet",
+      "response": "b"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What type of exercise equipment is located in the room?",
+      "response": "none"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What type of exercise equipment is located in the room?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What color are the main pieces of furniture in the bedroom?\n\nA. Light blue\nB. Soft white\nC. Rich brown\nD. Bright yellow",
+      "response": "c"
+    }
+  ]
+}

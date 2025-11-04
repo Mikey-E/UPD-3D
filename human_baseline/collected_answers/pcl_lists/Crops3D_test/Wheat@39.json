@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "Wheat@39",
+  "dataset": "Crops3D_test",
+  "annotated_by": "User 5",
+  "timestamp": "2025-10-31T08:08:52.456752",
+  "file_path": "/project/3dllms/melgin/datasets/CEA/Crops3D/Wheat/39.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What is the structure of the trunk of the plant described?\n\nA. It is thin and fragile\nB. It is short and bushy\nC. It is straight and green\nIf none of the above answers are correct, answer: 'F'",
+      "response": "c"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What is the structure of the trunk of the plant described?\n\nA. It is thin and fragile\nB. It is short and bushy\nC. It is straight and green\nD. None of the above",
+      "response": "c"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What is the structure of the trunk of the plant described?\n\nA. It is thin and fragile\nB. It is short and bushy\nC. It is straight and green",
+      "response": "c"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What is the structure of the trunk of the plant described?\n\nA. Ocean depth\nB. Mountain range\nC. Desert landscape\nD. Riverbank ecosystem\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What is the structure of the trunk of the plant described?\n\nA. Ocean depth\nB. Mountain range\nC. Desert landscape\nD. Riverbank ecosystem\nE. None of the above",
+      "response": "e"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What is the structure of the trunk of the plant described?\n\nA. Ocean depth\nB. Mountain range\nC. Desert landscape\nD. Riverbank ecosystem",
+      "response": "none"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What type of furniture is located next to the plant?\n\nA. Coffee Table\nB. Dining Chair\nC. Bookshelf\nD. Bed\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What type of furniture is located next to the plant?\n\nA. Coffee Table\nB. Dining Chair\nC. Bookshelf\nD. Bed\nE. None of the above",
+      "response": "e"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What type of furniture is located next to the plant?\n\nA. Coffee Table\nB. Dining Chair\nC. Bookshelf\nD. Bed",
+      "response": "none"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What type of sculpture is located beside the plant?",
+      "response": "none"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What type of sculpture is located beside the plant?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What is the structure of the trunk of the plant described?\n\nA. It is thin and fragile\nB. It is sturdy and brown\nC. It is short and bushy\nD. It is straight and green",
+      "response": "d"
+    }
+  ]
+}

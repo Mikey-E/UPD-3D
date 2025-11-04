@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "c3c0787c-61a3-4a71-98b7-b8477905c11f@LivingRoom-23802",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 4",
+  "timestamp": "2025-10-08T11:14:28.105266",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/c3c0787c-61a3-4a71-98b7-b8477905c11f/LivingRoom-23802/LivingRoom-23802.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What style influences the design of the tv stand in the living room?\n\nA. Vintage style\nB. Rustic charm\nC. Mediterranean style\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What style influences the design of the tv stand in the living room?\n\nA. Vintage style\nB. Rustic charm\nC. Mediterranean style\nD. None of the above",
+      "response": "D"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What style influences the design of the tv stand in the living room?\n\nA. Vintage style\nB. Rustic charm\nC. Mediterranean style",
+      "response": "none of these"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What style influences the design of the tv stand in the living room?\n\nA. Baroque music\nB. Renaissance art\nC. Quantum physics\nD. Ancient mythology\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What style influences the design of the tv stand in the living room?\n\nA. Baroque music\nB. Renaissance art\nC. Quantum physics\nD. Ancient mythology\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What style influences the design of the tv stand in the living room?\n\nA. Baroque music\nB. Renaissance art\nC. Quantum physics\nD. Ancient mythology",
+      "response": "none of these"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What type of artwork is displayed on the wall?\n\nA. Abstract painting\nB. Landscape photograph\nC. Wood carving\nD. Metal sculpture\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What type of artwork is displayed on the wall?\n\nA. Abstract painting\nB. Landscape photograph\nC. Wood carving\nD. Metal sculpture\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What type of artwork is displayed on the wall?\n\nA. Abstract painting\nB. Landscape photograph\nC. Wood carving\nD. Metal sculpture",
+      "response": "none of these"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What type of fireplace is installed in this living room?",
+      "response": "NONE"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What type of fireplace is installed in this living room?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What style influences the design of the tv stand in the living room?\n\nA. Japanese-inspired design\nB. Vintage style\nC. Rustic charm\nD. Mediterranean style",
+      "response": "A"
+    }
+  ]
+}

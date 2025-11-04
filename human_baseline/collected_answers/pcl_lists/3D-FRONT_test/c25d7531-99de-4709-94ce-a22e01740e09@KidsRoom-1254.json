@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "c25d7531-99de-4709-94ce-a22e01740e09@KidsRoom-1254",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 3",
+  "timestamp": "2025-10-06T11:53:41.655487",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/c25d7531-99de-4709-94ce-a22e01740e09/KidsRoom-1254/KidsRoom-1254.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What color is the dressing chair in the room?\n\nA. Light blue\nB. Soft grey\nC. Beige\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What color is the dressing chair in the room?\n\nA. Light blue\nB. Soft grey\nC. Beige\nD. None of the above",
+      "response": "D"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What color is the dressing chair in the room?\n\nA. Light blue\nB. Soft grey\nC. Beige",
+      "response": "None"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What color is the dressing chair in the room?\n\nA. Jupiter\nB. Neptune\nC. Mercury\nD. Saturn\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What color is the dressing chair in the room?\n\nA. Jupiter\nB. Neptune\nC. Mercury\nD. Saturn\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What color is the dressing chair in the room?\n\nA. Jupiter\nB. Neptune\nC. Mercury\nD. Saturn",
+      "response": "None"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What is the height of the bookshelf?\n\nA. Six feet\nB. Four feet\nC. Eight feet\nD. Ten feet\nIf none of the above answers are correct, answer: 'F'",
+      "response": "B"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What is the height of the bookshelf?\n\nA. Six feet\nB. Four feet\nC. Eight feet\nD. Ten feet\nE. None of the above",
+      "response": "B"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What is the height of the bookshelf?\n\nA. Six feet\nB. Four feet\nC. Eight feet\nD. Ten feet",
+      "response": "B"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What type of vehicle is parked outside the room?",
+      "response": "N/A"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What type of vehicle is parked outside the room?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What color is the dressing chair in the room?\n\nA. Light blue\nB. Olive green\nC. Soft grey\nD. Beige",
+      "response": "N/A"
+    }
+  ]
+}

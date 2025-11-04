@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "da616c7c-4149-40e7-b426-6b6054fba1cc@KidsRoom-738",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 4",
+  "timestamp": "2025-10-20T08:23:42.864328",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/da616c7c-4149-40e7-b426-6b6054fba1cc/KidsRoom-738/KidsRoom-738.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What is the color of the pendant lamp hanging above the kids bed?\n\nA. White\nB. Navy Blue\nC. Green\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What is the color of the pendant lamp hanging above the kids bed?\n\nA. White\nB. Navy Blue\nC. Green\nD. None of the above",
+      "response": "d"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What is the color of the pendant lamp hanging above the kids bed?\n\nA. White\nB. Navy Blue\nC. Green",
+      "response": "none"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What is the color of the pendant lamp hanging above the kids bed?\n\nA. Forest Green\nB. Ocean Blue\nC. Desert Sand\nD. Mountain Gray\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What is the color of the pendant lamp hanging above the kids bed?\n\nA. Forest Green\nB. Ocean Blue\nC. Desert Sand\nD. Mountain Gray\nE. None of the above",
+      "response": "e"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What is the color of the pendant lamp hanging above the kids bed?\n\nA. Forest Green\nB. Ocean Blue\nC. Desert Sand\nD. Mountain Gray",
+      "response": "none"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What is the height of the bookshelf in the scene?\n\nA. Six feet\nB. Five feet\nC. Four feet\nD. Three feet\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What is the height of the bookshelf in the scene?\n\nA. Six feet\nB. Five feet\nC. Four feet\nD. Three feet\nE. None of the above",
+      "response": "e"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What is the height of the bookshelf in the scene?\n\nA. Six feet\nB. Five feet\nC. Four feet\nD. Three feet",
+      "response": "none"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What type of oven is in the room?",
+      "response": "n/a"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What type of oven is in the room?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What is the color of the pendant lamp hanging above the kids bed?\n\nA. White\nB. Brass\nC. Navy Blue\nD. Green",
+      "response": "b"
+    }
+  ]
+}

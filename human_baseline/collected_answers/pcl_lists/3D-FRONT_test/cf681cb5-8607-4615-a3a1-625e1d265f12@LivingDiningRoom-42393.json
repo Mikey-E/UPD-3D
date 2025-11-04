@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "cf681cb5-8607-4615-a3a1-625e1d265f12@LivingDiningRoom-42393",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 5",
+  "timestamp": "2025-10-14T15:53:44.119968",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/cf681cb5-8607-4615-a3a1-625e1d265f12/LivingDiningRoom-42393/LivingDiningRoom-42393.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What is the color of the dining table in the living room?\n\nA. Jet Black\nB. White\nC. Olive Green\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What is the color of the dining table in the living room?\n\nA. Jet Black\nB. White\nC. Olive Green\nD. None of the above",
+      "response": "d"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What is the color of the dining table in the living room?\n\nA. Jet Black\nB. White\nC. Olive Green",
+      "response": "none of these"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What is the color of the dining table in the living room?\n\nA. Calendar\nB. Orchard\nC. Bicycle\nD. Telescope\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What is the color of the dining table in the living room?\n\nA. Calendar\nB. Orchard\nC. Bicycle\nD. Telescope\nE. None of the above",
+      "response": "e"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What is the color of the dining table in the living room?\n\nA. Calendar\nB. Orchard\nC. Bicycle\nD. Telescope",
+      "response": "none of these"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What type of artwork is displayed on the walls?\n\nA. Abstract painting\nB. Landscape photography\nC. Black and white portrait\nD. Still life composition\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What type of artwork is displayed on the walls?\n\nA. Abstract painting\nB. Landscape photography\nC. Black and white portrait\nD. Still life composition\nE. None of the above",
+      "response": "e"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What type of artwork is displayed on the walls?\n\nA. Abstract painting\nB. Landscape photography\nC. Black and white portrait\nD. Still life composition",
+      "response": "none of these"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What type of fabric is used for the curtains in this living room?",
+      "response": "unanswerable"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What type of fabric is used for the curtains in this living room?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What is the color of the dining table in the living room?\n\nA. Jet Black\nB. White\nC. Olive Green\nD. Black",
+      "response": "none of these"
+    }
+  ]
+}

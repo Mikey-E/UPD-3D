@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "0054adcb-f48f-4d52-b198-321fd078caa4@DiningRoom-4167",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 5",
+  "timestamp": "2025-10-31T10:14:41.112638",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/0054adcb-f48f-4d52-b198-321fd078caa4/DiningRoom-4167/DiningRoom-4167.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What color is the finish of the two jewelry armoires in the DiningRoom?\n\nA. Walnut brown\nB. Gold\nC. White marble\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What color is the finish of the two jewelry armoires in the DiningRoom?\n\nA. Walnut brown\nB. Gold\nC. White marble\nD. None of the above",
+      "response": "d"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What color is the finish of the two jewelry armoires in the DiningRoom?\n\nA. Walnut brown\nB. Gold\nC. White marble",
+      "response": "none"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What color is the finish of the two jewelry armoires in the DiningRoom?\n\nA. Rainforest\nB. Glacier\nC. Desert\nD. Tundra\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What color is the finish of the two jewelry armoires in the DiningRoom?\n\nA. Rainforest\nB. Glacier\nC. Desert\nD. Tundra\nE. None of the above",
+      "response": "e"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What color is the finish of the two jewelry armoires in the DiningRoom?\n\nA. Rainforest\nB. Glacier\nC. Desert\nD. Tundra",
+      "response": "none"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What type of sofa is located in the scene?\n\nA. Leather sofa\nB. Sectional sofa\nC. Reclining sofa\nD. Futon sofa\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What type of sofa is located in the scene?\n\nA. Leather sofa\nB. Sectional sofa\nC. Reclining sofa\nD. Futon sofa\nE. None of the above",
+      "response": "e"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What type of sofa is located in the scene?\n\nA. Leather sofa\nB. Sectional sofa\nC. Reclining sofa\nD. Futon sofa",
+      "response": "none"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What type of oven is installed in the kitchen?",
+      "response": "none"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What type of oven is installed in the kitchen?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What color is the finish of the two jewelry armoires in the DiningRoom?\n\nA. Walnut brown\nB. Deep navy blue\nC. Gold\nD. White marble",
+      "response": "none"
+    }
+  ]
+}

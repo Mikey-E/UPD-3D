@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "f6f93fd0-4130-46ff-99d4-cd42bdd0ffe8@SecondBedroom-546",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 3",
+  "timestamp": "2025-10-29T23:40:22.513286",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/f6f93fd0-4130-46ff-99d4-cd42bdd0ffe8/SecondBedroom-546/SecondBedroom-546.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What is the dominant color of the king-size bed in the Second bedroom?\n\nA. Charcoal black\nB. Gold\nC. Velvet\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What is the dominant color of the king-size bed in the Second bedroom?\n\nA. Charcoal black\nB. Gold\nC. Velvet\nD. None of the above",
+      "response": "D"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What is the dominant color of the king-size bed in the Second bedroom?\n\nA. Charcoal black\nB. Gold\nC. Velvet",
+      "response": "NONE"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What is the dominant color of the king-size bed in the Second bedroom?\n\nA. Coffee bean\nB. Pine tree\nC. Lavender field\nD. Ocean wave\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What is the dominant color of the king-size bed in the Second bedroom?\n\nA. Coffee bean\nB. Pine tree\nC. Lavender field\nD. Ocean wave\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What is the dominant color of the king-size bed in the Second bedroom?\n\nA. Coffee bean\nB. Pine tree\nC. Lavender field\nD. Ocean wave",
+      "response": "NONE"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What material is the carpet made of?\n\nA. Wool\nB. Polyester\nC. Berber\nD. Nylon\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What material is the carpet made of?\n\nA. Wool\nB. Polyester\nC. Berber\nD. Nylon\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What material is the carpet made of?\n\nA. Wool\nB. Polyester\nC. Berber\nD. Nylon",
+      "response": "NA"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What is the size and texture of the area rug in the room?",
+      "response": "NA"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What is the size and texture of the area rug in the room?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What is the dominant color of the king-size bed in the Second bedroom?\n\nA. Charcoal black\nB. Gold\nC. Dark earthy green\nD. Velvet",
+      "response": "C"
+    }
+  ]
+}

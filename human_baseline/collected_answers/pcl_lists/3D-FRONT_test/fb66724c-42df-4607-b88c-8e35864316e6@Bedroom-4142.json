@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "fb66724c-42df-4607-b88c-8e35864316e6@Bedroom-4142",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 3",
+  "timestamp": "2025-10-30T16:07:28.101174",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/fb66724c-42df-4607-b88c-8e35864316e6/Bedroom-4142/Bedroom-4142.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What style is the wardrobe primarily designed in?\n\nA. Light Luxury\nB. Southeast Asian\nC. Korean\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What style is the wardrobe primarily designed in?\n\nA. Light Luxury\nB. Southeast Asian\nC. Korean\nD. None of the above",
+      "response": "D"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What style is the wardrobe primarily designed in?\n\nA. Light Luxury\nB. Southeast Asian\nC. Korean",
+      "response": "NONE"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What style is the wardrobe primarily designed in?\n\nA. Medieval architecture\nB. Classical music\nC. Marine biology\nD. Quantum physics\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What style is the wardrobe primarily designed in?\n\nA. Medieval architecture\nB. Classical music\nC. Marine biology\nD. Quantum physics\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What style is the wardrobe primarily designed in?\n\nA. Medieval architecture\nB. Classical music\nC. Marine biology\nD. Quantum physics",
+      "response": "NONE"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What is the size of the television in the room?\n\nA. 32 inches\nB. 55 inches\nC. 75 inches\nD. 40 inches\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What is the size of the television in the room?\n\nA. 32 inches\nB. 55 inches\nC. 75 inches\nD. 40 inches\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What is the size of the television in the room?\n\nA. 32 inches\nB. 55 inches\nC. 75 inches\nD. 40 inches",
+      "response": "NA"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What type of flooring material is used in the room?",
+      "response": "NA"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What type of flooring material is used in the room?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What style is the wardrobe primarily designed in?\n\nA. Light Luxury\nB. Southeast Asian\nC. Korean\nD. Nordic",
+      "response": "D"
+    }
+  ]
+}

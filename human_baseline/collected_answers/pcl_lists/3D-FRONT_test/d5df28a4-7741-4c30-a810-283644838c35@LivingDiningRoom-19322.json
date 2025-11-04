@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "d5df28a4-7741-4c30-a810-283644838c35@LivingDiningRoom-19322",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 4",
+  "timestamp": "2025-10-16T12:01:54.525364",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/d5df28a4-7741-4c30-a810-283644838c35/LivingDiningRoom-19322/LivingDiningRoom-19322.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What is the position of the pendant lamp with a European beige tone in relation to the coffee table?\n\nA. Near the entrance\nB. In front of the lounge chair\nC. Next to the TV stand\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What is the position of the pendant lamp with a European beige tone in relation to the coffee table?\n\nA. Near the entrance\nB. In front of the lounge chair\nC. Next to the TV stand\nD. None of the above",
+      "response": "d"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What is the position of the pendant lamp with a European beige tone in relation to the coffee table?\n\nA. Near the entrance\nB. In front of the lounge chair\nC. Next to the TV stand",
+      "response": "none"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What is the position of the pendant lamp with a European beige tone in relation to the coffee table?\n\nA. Operatic performance\nB. Geological formation\nC. Historical manuscript\nD. Astronomical event\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What is the position of the pendant lamp with a European beige tone in relation to the coffee table?\n\nA. Operatic performance\nB. Geological formation\nC. Historical manuscript\nD. Astronomical event\nE. None of the above",
+      "response": "e"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What is the position of the pendant lamp with a European beige tone in relation to the coffee table?\n\nA. Operatic performance\nB. Geological formation\nC. Historical manuscript\nD. Astronomical event",
+      "response": "none"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What shape is the rug in the living room?\n\nA. Circular\nB. Rectangular\nC. Oval\nD. Square\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What shape is the rug in the living room?\n\nA. Circular\nB. Rectangular\nC. Oval\nD. Square\nE. None of the above",
+      "response": "e"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What shape is the rug in the living room?\n\nA. Circular\nB. Rectangular\nC. Oval\nD. Square",
+      "response": "none"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What type of rug is placed underneath the coffee table?",
+      "response": "n/a"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What type of rug is placed underneath the coffee table?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What is the position of the pendant lamp with a European beige tone in relation to the coffee table?\n\nA. Near the entrance\nB. Above the coffee table\nC. In front of the lounge chair\nD. Next to the TV stand",
+      "response": "b"
+    }
+  ]
+}

@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "ede1bcab-2298-4756-b03a-690d5cf8dfe5@LivingDiningRoom-5279",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 5",
+  "timestamp": "2025-10-28T11:16:38.913009",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/ede1bcab-2298-4756-b03a-690d5cf8dfe5/LivingDiningRoom-5279/LivingDiningRoom-5279.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What color is the dining table in the living room?\n\nA. Deep charcoal\nB. Muted gray\nC. Dark brown\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What color is the dining table in the living room?\n\nA. Deep charcoal\nB. Muted gray\nC. Dark brown\nD. None of the above",
+      "response": "d"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What color is the dining table in the living room?\n\nA. Deep charcoal\nB. Muted gray\nC. Dark brown",
+      "response": "none"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What color is the dining table in the living room?\n\nA. Jupiter\nB. Neptune\nC. Saturn\nD. Mars\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What color is the dining table in the living room?\n\nA. Jupiter\nB. Neptune\nC. Saturn\nD. Mars\nE. None of the above",
+      "response": "e"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What color is the dining table in the living room?\n\nA. Jupiter\nB. Neptune\nC. Saturn\nD. Mars",
+      "response": "none"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What color is the rug in the scene?\n\nA. Green\nB. Yellow\nC. Orange\nD. Purple\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What color is the rug in the scene?\n\nA. Green\nB. Yellow\nC. Orange\nD. Purple\nE. None of the above",
+      "response": "e"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What color is the rug in the scene?\n\nA. Green\nB. Yellow\nC. Orange\nD. Purple",
+      "response": "none"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What type of antique vase is displayed on the dining table?",
+      "response": "none"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What type of antique vase is displayed on the dining table?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What color is the dining table in the living room?\n\nA. Deep charcoal\nB. Glossy black\nC. Muted gray\nD. Dark brown",
+      "response": "none"
+    }
+  ]
+}

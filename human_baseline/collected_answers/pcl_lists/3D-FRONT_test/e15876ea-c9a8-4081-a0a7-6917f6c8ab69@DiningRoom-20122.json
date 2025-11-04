@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "e15876ea-c9a8-4081-a0a7-6917f6c8ab69@DiningRoom-20122",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 5",
+  "timestamp": "2025-10-25T11:52:34.748846",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/e15876ea-c9a8-4081-a0a7-6917f6c8ab69/DiningRoom-20122/DiningRoom-20122.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What color is the dining table in the room?\n\nA. Deep black\nB. Warm gold\nC. Light grey\nIf none of the above answers are correct, answer: 'F'",
+      "response": "a"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What color is the dining table in the room?\n\nA. Deep black\nB. Warm gold\nC. Light grey\nD. None of the above",
+      "response": "a"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What color is the dining table in the room?\n\nA. Deep black\nB. Warm gold\nC. Light grey",
+      "response": "a"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What color is the dining table in the room?\n\nA. Triangle\nB. Square\nC. Circle\nD. Rectangle\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What color is the dining table in the room?\n\nA. Triangle\nB. Square\nC. Circle\nD. Rectangle\nE. None of the above",
+      "response": "e"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What color is the dining table in the room?\n\nA. Triangle\nB. Square\nC. Circle\nD. Rectangle",
+      "response": "none"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What color is the ceiling fan?\n\nA. White\nB. Black\nC. Gold\nD. Silver\nIf none of the above answers are correct, answer: 'F'",
+      "response": "d"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What color is the ceiling fan?\n\nA. White\nB. Black\nC. Gold\nD. Silver\nE. None of the above",
+      "response": "d"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What color is the ceiling fan?\n\nA. White\nB. Black\nC. Gold\nD. Silver",
+      "response": "d"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What kind of rug is placed underneath the dining table?",
+      "response": "none"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What kind of rug is placed underneath the dining table?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What color is the dining table in the room?\n\nA. Deep black\nB. Warm gold\nC. Light grey\nD. Deep blue",
+      "response": "a"
+    }
+  ]
+}

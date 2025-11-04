@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "ea328f5b-1235-4041-9b77-8fc1a7eea639@KidsRoom-10719",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 4",
+  "timestamp": "2025-10-27T13:36:27.386174",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/ea328f5b-1235-4041-9b77-8fc1a7eea639/KidsRoom-10719/KidsRoom-10719.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What is the design theme of the children's cabinet in the KidsRoom?\n\nA. Elephant theme\nB. Giraffe theme\nC. Lion theme\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What is the design theme of the children's cabinet in the KidsRoom?\n\nA. Elephant theme\nB. Giraffe theme\nC. Lion theme\nD. None of the above",
+      "response": "D"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What is the design theme of the children's cabinet in the KidsRoom?\n\nA. Elephant theme\nB. Giraffe theme\nC. Lion theme",
+      "response": "None"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What is the design theme of the children's cabinet in the KidsRoom?\n\nA. Erosion patterns\nB. Solar eclipses\nC. Quantum mechanics\nD. Evolutionary biology\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What is the design theme of the children's cabinet in the KidsRoom?\n\nA. Erosion patterns\nB. Solar eclipses\nC. Quantum mechanics\nD. Evolutionary biology\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What is the design theme of the children's cabinet in the KidsRoom?\n\nA. Erosion patterns\nB. Solar eclipses\nC. Quantum mechanics\nD. Evolutionary biology",
+      "response": "None"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What color is the sofa in the scene?\n\nA. Green\nB. Blue\nC. Red\nD. Yellow\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What color is the sofa in the scene?\n\nA. Green\nB. Blue\nC. Red\nD. Yellow\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What color is the sofa in the scene?\n\nA. Green\nB. Blue\nC. Red\nD. Yellow",
+      "response": "None"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What kind of exercise equipment is located in the room?",
+      "response": "unanswerable"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What kind of exercise equipment is located in the room?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What is the design theme of the children's cabinet in the KidsRoom?\n\nA. Panda theme\nB. Elephant theme\nC. Giraffe theme\nD. Lion theme",
+      "response": "A"
+    }
+  ]
+}

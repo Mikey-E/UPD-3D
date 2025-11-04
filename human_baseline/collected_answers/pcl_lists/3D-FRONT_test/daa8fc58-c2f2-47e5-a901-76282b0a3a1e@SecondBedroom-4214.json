@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "daa8fc58-c2f2-47e5-a901-76282b0a3a1e@SecondBedroom-4214",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 5",
+  "timestamp": "2025-10-20T08:42:16.900205",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/daa8fc58-c2f2-47e5-a901-76282b0a3a1e/SecondBedroom-4214/SecondBedroom-4214.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What style is the wardrobe in the Second bedroom?\n\nA. Rustic farmhouse\nB. Traditional Korean\nC. Art Deco\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What style is the wardrobe in the Second bedroom?\n\nA. Rustic farmhouse\nB. Traditional Korean\nC. Art Deco\nD. None of the above",
+      "response": "d"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What style is the wardrobe in the Second bedroom?\n\nA. Rustic farmhouse\nB. Traditional Korean\nC. Art Deco",
+      "response": "none"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What style is the wardrobe in the Second bedroom?\n\nA. Tropical rainforest\nB. Arctic tundra\nC. Desert biome\nD. Coral reef\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What style is the wardrobe in the Second bedroom?\n\nA. Tropical rainforest\nB. Arctic tundra\nC. Desert biome\nD. Coral reef\nE. None of the above",
+      "response": "e"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What style is the wardrobe in the Second bedroom?\n\nA. Tropical rainforest\nB. Arctic tundra\nC. Desert biome\nD. Coral reef",
+      "response": "none"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What type of chair is located next to the window?\n\nA. Recliner\nB. Office chair\nC. Dining chair\nD. Rocking chair\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What type of chair is located next to the window?\n\nA. Recliner\nB. Office chair\nC. Dining chair\nD. Rocking chair\nE. None of the above",
+      "response": "e"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What type of chair is located next to the window?\n\nA. Recliner\nB. Office chair\nC. Dining chair\nD. Rocking chair",
+      "response": "none"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What is the shape of the chandelier hanging from the ceiling?",
+      "response": "none"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What is the shape of the chandelier hanging from the ceiling?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What style is the wardrobe in the Second bedroom?\n\nA. Rustic farmhouse\nB. Traditional Korean\nC. Modern industrial\nD. Art Deco",
+      "response": "m"
+    }
+  ]
+}

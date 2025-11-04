@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "dc967ffc-d83c-4b5d-aaf9-1d86a133928f@LivingDiningRoom-4167",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 4",
+  "timestamp": "2025-10-21T13:16:41.968444",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/dc967ffc-d83c-4b5d-aaf9-1d86a133928f/LivingDiningRoom-4167/LivingDiningRoom-4167.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What type of design do the dining chairs surrounding the dining table feature?\n\nA. Industrial style\nB. Scandinavian style\nC. Rustic style\nIf none of the above answers are correct, answer: 'F'",
+      "response": "C"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What type of design do the dining chairs surrounding the dining table feature?\n\nA. Industrial style\nB. Scandinavian style\nC. Rustic style\nD. None of the above",
+      "response": "C"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What type of design do the dining chairs surrounding the dining table feature?\n\nA. Industrial style\nB. Scandinavian style\nC. Rustic style",
+      "response": "C"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What type of design do the dining chairs surrounding the dining table feature?\n\nA. Quantum mechanics\nB. Astrological signs\nC. Marine biology\nD. Ancient mythology\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What type of design do the dining chairs surrounding the dining table feature?\n\nA. Quantum mechanics\nB. Astrological signs\nC. Marine biology\nD. Ancient mythology\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What type of design do the dining chairs surrounding the dining table feature?\n\nA. Quantum mechanics\nB. Astrological signs\nC. Marine biology\nD. Ancient mythology",
+      "response": "None"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What shape is the sofa in the scene?\n\nA. Rectangle\nB. Triangle\nC. Circle\nD. Square\nIf none of the above answers are correct, answer: 'F'",
+      "response": "A"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What shape is the sofa in the scene?\n\nA. Rectangle\nB. Triangle\nC. Circle\nD. Square\nE. None of the above",
+      "response": "A"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What shape is the sofa in the scene?\n\nA. Rectangle\nB. Triangle\nC. Circle\nD. Square",
+      "response": "A"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What kind of exercise equipment is located in the room?",
+      "response": "unanswerable"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What kind of exercise equipment is located in the room?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What type of design do the dining chairs surrounding the dining table feature?\n\nA. Industrial style\nB. Japanese style\nC. Scandinavian style\nD. Rustic style",
+      "response": "D"
+    }
+  ]
+}

@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "c5831f4a-ee0f-41c5-afd6-3cbff5507aad@MasterBedroom-24588",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 4",
+  "timestamp": "2025-10-08T11:25:54.866960",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/c5831f4a-ee0f-41c5-afd6-3cbff5507aad/MasterBedroom-24588/MasterBedroom-24588.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What color is the wardrobe situated across from the king-size bed?\n\nA. Light oak\nB. Beige\nC. Soft beige\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What color is the wardrobe situated across from the king-size bed?\n\nA. Light oak\nB. Beige\nC. Soft beige\nD. None of the above",
+      "response": "D"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What color is the wardrobe situated across from the king-size bed?\n\nA. Light oak\nB. Beige\nC. Soft beige",
+      "response": "none of these"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What color is the wardrobe situated across from the king-size bed?\n\nA. Octagon\nB. Rectangle\nC. Triangle\nD. Sphere\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What color is the wardrobe situated across from the king-size bed?\n\nA. Octagon\nB. Rectangle\nC. Triangle\nD. Sphere\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What color is the wardrobe situated across from the king-size bed?\n\nA. Octagon\nB. Rectangle\nC. Triangle\nD. Sphere",
+      "response": "none of these"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What is the color of the ceiling fan in the room?\n\nA. White\nB. Black\nC. Silver\nD. Gold\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What is the color of the ceiling fan in the room?\n\nA. White\nB. Black\nC. Silver\nD. Gold\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What is the color of the ceiling fan in the room?\n\nA. White\nB. Black\nC. Silver\nD. Gold",
+      "response": "none of these"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What type of chandelier is hanging from the ceiling?",
+      "response": "NONE"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What type of chandelier is hanging from the ceiling?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What color is the wardrobe situated across from the king-size bed?\n\nA. Light oak\nB. Matte black\nC. Beige\nD. Soft beige",
+      "response": "B"
+    }
+  ]
+}

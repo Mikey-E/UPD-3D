@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "ce0a5b4d-de74-4e8a-aae5-5dab76a314b7@MasterBedroom-2514",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 5",
+  "timestamp": "2025-10-14T15:19:40.610230",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/ce0a5b4d-de74-4e8a-aae5-5dab76a314b7/MasterBedroom-2514/MasterBedroom-2514.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What color is the dining chair in the room?\n\nA. Black\nB. Dark brown\nC. Beige\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What color is the dining chair in the room?\n\nA. Black\nB. Dark brown\nC. Beige\nD. None of the above",
+      "response": "d"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What color is the dining chair in the room?\n\nA. Black\nB. Dark brown\nC. Beige",
+      "response": "none of these"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What color is the dining chair in the room?\n\nA. Elephant\nB. Mountain\nC. Ocean\nD. Forest\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What color is the dining chair in the room?\n\nA. Elephant\nB. Mountain\nC. Ocean\nD. Forest\nE. None of the above",
+      "response": "e"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What color is the dining chair in the room?\n\nA. Elephant\nB. Mountain\nC. Ocean\nD. Forest",
+      "response": "none of these"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What type of sculpture is featured in the room?\n\nA. Marble Bust\nB. Bronze Figure\nC. Wooden Totem\nD. Glass Sphere\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What type of sculpture is featured in the room?\n\nA. Marble Bust\nB. Bronze Figure\nC. Wooden Totem\nD. Glass Sphere\nE. None of the above",
+      "response": "e"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What type of sculpture is featured in the room?\n\nA. Marble Bust\nB. Bronze Figure\nC. Wooden Totem\nD. Glass Sphere",
+      "response": "none of these"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What color are the curtains hanging in the room?",
+      "response": "unanswerable"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What color are the curtains hanging in the room?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What color is the dining chair in the room?\n\nA. Black\nB. Dark brown\nC. Beige\nD. Mustard yellow",
+      "response": "none of these"
+    }
+  ]
+}

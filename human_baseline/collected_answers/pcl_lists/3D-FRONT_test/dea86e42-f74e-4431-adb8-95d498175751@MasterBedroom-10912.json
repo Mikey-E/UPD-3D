@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "dea86e42-f74e-4431-adb8-95d498175751@MasterBedroom-10912",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 4",
+  "timestamp": "2025-10-24T16:22:57.165176",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/dea86e42-f74e-4431-adb8-95d498175751/MasterBedroom-10912/MasterBedroom-10912.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What style are the nightstands flanking the king-size bed?\n\nA. Southeast Asian style\nB. European style\nC. Korean style\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What style are the nightstands flanking the king-size bed?\n\nA. Southeast Asian style\nB. European style\nC. Korean style\nD. None of the above",
+      "response": "d"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What style are the nightstands flanking the king-size bed?\n\nA. Southeast Asian style\nB. European style\nC. Korean style",
+      "response": "none"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What style are the nightstands flanking the king-size bed?\n\nA. Jazz music\nB. Roller coasters\nC. Chocolate desserts\nD. Mountain climbing\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What style are the nightstands flanking the king-size bed?\n\nA. Jazz music\nB. Roller coasters\nC. Chocolate desserts\nD. Mountain climbing\nE. None of the above",
+      "response": "e"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What style are the nightstands flanking the king-size bed?\n\nA. Jazz music\nB. Roller coasters\nC. Chocolate desserts\nD. Mountain climbing",
+      "response": "none"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What type of ceiling fan is used in the room?\n\nA. Industrial fan\nB. Decorative fan\nC. Rustic fan\nD. Modern fan\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What type of ceiling fan is used in the room?\n\nA. Industrial fan\nB. Decorative fan\nC. Rustic fan\nD. Modern fan\nE. None of the above",
+      "response": "e"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What type of ceiling fan is used in the room?\n\nA. Industrial fan\nB. Decorative fan\nC. Rustic fan\nD. Modern fan",
+      "response": "none"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What type of appliance is used to cook food in the room?",
+      "response": "n/a"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What type of appliance is used to cook food in the room?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What style are the nightstands flanking the king-size bed?\n\nA. Southeast Asian style\nB. European style\nC. Korean style\nD. American Country style",
+      "response": "d"
+    }
+  ]
+}

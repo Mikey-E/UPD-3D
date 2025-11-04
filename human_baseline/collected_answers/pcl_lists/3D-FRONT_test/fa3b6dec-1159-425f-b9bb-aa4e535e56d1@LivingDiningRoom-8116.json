@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "fa3b6dec-1159-425f-b9bb-aa4e535e56d1@LivingDiningRoom-8116",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 3",
+  "timestamp": "2025-10-30T13:04:03.240250",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/fa3b6dec-1159-425f-b9bb-aa4e535e56d1/LivingDiningRoom-8116/LivingDiningRoom-8116.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What color is the tv stand in the living room?\n\nA. Matte grey\nB. Light beige\nC. Glossy white\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What color is the tv stand in the living room?\n\nA. Matte grey\nB. Light beige\nC. Glossy white\nD. None of the above",
+      "response": "D"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What color is the tv stand in the living room?\n\nA. Matte grey\nB. Light beige\nC. Glossy white",
+      "response": "None"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What color is the tv stand in the living room?\n\nA. Citrus\nB. Milky Way\nC. Jurassic\nD. Quantum\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What color is the tv stand in the living room?\n\nA. Citrus\nB. Milky Way\nC. Jurassic\nD. Quantum\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What color is the tv stand in the living room?\n\nA. Citrus\nB. Milky Way\nC. Jurassic\nD. Quantum",
+      "response": "None"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What is the material of the dining chairs in the scene?\n\nA. Plastic\nB. Glass\nC. Steel\nD. Fabric\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What is the material of the dining chairs in the scene?\n\nA. Plastic\nB. Glass\nC. Steel\nD. Fabric\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What is the material of the dining chairs in the scene?\n\nA. Plastic\nB. Glass\nC. Steel\nD. Fabric",
+      "response": "None"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What type of exercise equipment is located in the living room?",
+      "response": "N/A"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What type of exercise equipment is located in the living room?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What color is the tv stand in the living room?\n\nA. Matte grey\nB. Light beige\nC. Seafoam green\nD. Glossy white",
+      "response": "C"
+    }
+  ]
+}

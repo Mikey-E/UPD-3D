@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "d5d0600c-07dd-47dc-bd61-d18c0d464904@LivingDiningRoom-22548",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 3",
+  "timestamp": "2025-10-16T11:58:16.800660",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/d5d0600c-07dd-47dc-bd61-d18c0d464904/LivingDiningRoom-22548/LivingDiningRoom-22548.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What design style influences the sofa in the living room?\n\nA. Japanese\nB. Southeast Asian\nC. New Chinese\nIf none of the above answers are correct, answer: 'F'",
+      "response": "A"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What design style influences the sofa in the living room?\n\nA. Japanese\nB. Southeast Asian\nC. New Chinese\nD. None of the above",
+      "response": "A"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What design style influences the sofa in the living room?\n\nA. Japanese\nB. Southeast Asian\nC. New Chinese",
+      "response": "A"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What design style influences the sofa in the living room?\n\nA. Mountain range\nB. Ocean currents\nC. Solar eclipse\nD. Star constellation\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What design style influences the sofa in the living room?\n\nA. Mountain range\nB. Ocean currents\nC. Solar eclipse\nD. Star constellation\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What design style influences the sofa in the living room?\n\nA. Mountain range\nB. Ocean currents\nC. Solar eclipse\nD. Star constellation",
+      "response": "None"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What shape is the dining table?\n\nA. Rectangular\nB. Circular\nC. Oval\nD. Hexagonal\nIf none of the above answers are correct, answer: 'F'",
+      "response": "A"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What shape is the dining table?\n\nA. Rectangular\nB. Circular\nC. Oval\nD. Hexagonal\nE. None of the above",
+      "response": "A"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What shape is the dining table?\n\nA. Rectangular\nB. Circular\nC. Oval\nD. Hexagonal",
+      "response": "A"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What type of rug is placed under the dining table?",
+      "response": "N/A"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What type of rug is placed under the dining table?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What design style influences the sofa in the living room?\n\nA. Korean\nB. Japanese\nC. Southeast Asian\nD. New Chinese",
+      "response": "B"
+    }
+  ]
+}

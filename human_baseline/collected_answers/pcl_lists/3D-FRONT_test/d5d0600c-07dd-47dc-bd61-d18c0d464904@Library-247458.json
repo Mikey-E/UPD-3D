@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "d5d0600c-07dd-47dc-bd61-d18c0d464904@Library-247458",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 4",
+  "timestamp": "2025-10-16T11:58:40.823614",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/d5d0600c-07dd-47dc-bd61-d18c0d464904/Library-247458/Library-247458.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What is the finish of the side table in the library?\n\nA. Honey-toned oak\nB. Glossy white\nC. Polished wood\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What is the finish of the side table in the library?\n\nA. Honey-toned oak\nB. Glossy white\nC. Polished wood\nD. None of the above",
+      "response": "d"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What is the finish of the side table in the library?\n\nA. Honey-toned oak\nB. Glossy white\nC. Polished wood",
+      "response": "none"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What is the finish of the side table in the library?\n\nA. Mixed media art\nB. Abstract expressionism\nC. Pop art\nD. Surrealism\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What is the finish of the side table in the library?\n\nA. Mixed media art\nB. Abstract expressionism\nC. Pop art\nD. Surrealism\nE. None of the above",
+      "response": "e"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What is the finish of the side table in the library?\n\nA. Mixed media art\nB. Abstract expressionism\nC. Pop art\nD. Surrealism",
+      "response": "none"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What color is the sofa in the scene?\n\nA. Green\nB. Yellow\nC. Red\nD. Blue\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What color is the sofa in the scene?\n\nA. Green\nB. Yellow\nC. Red\nD. Blue\nE. None of the above",
+      "response": "e"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What color is the sofa in the scene?\n\nA. Green\nB. Yellow\nC. Red\nD. Blue",
+      "response": "none"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What decorative fountain is placed in the library?",
+      "response": "n/a"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What decorative fountain is placed in the library?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What is the finish of the side table in the library?\n\nA. Honey-toned oak\nB. Glossy white\nC. Matte black\nD. Polished wood",
+      "response": "none"
+    }
+  ]
+}

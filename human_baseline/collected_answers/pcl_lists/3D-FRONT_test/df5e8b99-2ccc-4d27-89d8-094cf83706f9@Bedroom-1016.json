@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "df5e8b99-2ccc-4d27-89d8-094cf83706f9@Bedroom-1016",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 3",
+  "timestamp": "2025-10-24T16:43:54.096787",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/df5e8b99-2ccc-4d27-89d8-094cf83706f9/Bedroom-1016/Bedroom-1016.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What color is the upholstery of the bed in the bedroom?\n\nA. Soft grey\nB. Mint green\nC. Pristine white\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What color is the upholstery of the bed in the bedroom?\n\nA. Soft grey\nB. Mint green\nC. Pristine white\nD. None of the above",
+      "response": "D"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What color is the upholstery of the bed in the bedroom?\n\nA. Soft grey\nB. Mint green\nC. Pristine white",
+      "response": "None"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What color is the upholstery of the bed in the bedroom?\n\nA. Mountain\nB. River\nC. Forest\nD. Desert\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What color is the upholstery of the bed in the bedroom?\n\nA. Mountain\nB. River\nC. Forest\nD. Desert\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What color is the upholstery of the bed in the bedroom?\n\nA. Mountain\nB. River\nC. Forest\nD. Desert",
+      "response": "None"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What type of wall decoration is used in the scene?\n\nA. Tapestry\nB. Wall mural\nC. Framed prints\nD. Decorative plates\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What type of wall decoration is used in the scene?\n\nA. Tapestry\nB. Wall mural\nC. Framed prints\nD. Decorative plates\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What type of wall decoration is used in the scene?\n\nA. Tapestry\nB. Wall mural\nC. Framed prints\nD. Decorative plates",
+      "response": "None"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What is the shape of the outdoor fountain?",
+      "response": "N/A"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What is the shape of the outdoor fountain?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What color is the upholstery of the bed in the bedroom?\n\nA. Soft grey\nB. Mint green\nC. Pristine white\nD. Deep teal",
+      "response": "D"
+    }
+  ]
+}

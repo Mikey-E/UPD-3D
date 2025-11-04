@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "cde4fdcb-4e23-42b7-bce8-af71fb4fef57@MasterBedroom-11980",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 5",
+  "timestamp": "2025-10-14T15:15:44.145495",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/cde4fdcb-4e23-42b7-bce8-af71fb4fef57/MasterBedroom-11980/MasterBedroom-11980.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What style is the nightstand in the Masterbedroom?\n\nA. Modern style\nB. Southeast Asian style\nC. Rustic style\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What style is the nightstand in the Masterbedroom?\n\nA. Modern style\nB. Southeast Asian style\nC. Rustic style\nD. None of the above",
+      "response": "d"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What style is the nightstand in the Masterbedroom?\n\nA. Modern style\nB. Southeast Asian style\nC. Rustic style",
+      "response": "none of these"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What style is the nightstand in the Masterbedroom?\n\nA. Rock and roll\nB. Classical music\nC. Jazz hands\nD. Art deco\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What style is the nightstand in the Masterbedroom?\n\nA. Rock and roll\nB. Classical music\nC. Jazz hands\nD. Art deco\nE. None of the above",
+      "response": "e"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What style is the nightstand in the Masterbedroom?\n\nA. Rock and roll\nB. Classical music\nC. Jazz hands\nD. Art deco",
+      "response": "none of these"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What is the shape of the dining table in the scene?\n\nA. Round\nB. Oval\nC. Square\nD. Rectangular\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What is the shape of the dining table in the scene?\n\nA. Round\nB. Oval\nC. Square\nD. Rectangular\nE. None of the above",
+      "response": "e"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What is the shape of the dining table in the scene?\n\nA. Round\nB. Oval\nC. Square\nD. Rectangular",
+      "response": "none of these"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What type of outdoor sculpture is in the garden adjacent to the Masterbedroom?",
+      "response": "unanswerable"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What type of outdoor sculpture is in the garden adjacent to the Masterbedroom?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What style is the nightstand in the Masterbedroom?\n\nA. Modern style\nB. Southeast Asian style\nC. Korean style\nD. Rustic style",
+      "response": "none of these"
+    }
+  ]
+}

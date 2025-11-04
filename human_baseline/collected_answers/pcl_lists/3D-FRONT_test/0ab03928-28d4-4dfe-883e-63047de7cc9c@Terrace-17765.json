@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "0ab03928-28d4-4dfe-883e-63047de7cc9c@Terrace-17765",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 4",
+  "timestamp": "2025-10-24T16:14:58.026963",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/0ab03928-28d4-4dfe-883e-63047de7cc9c/Terrace-17765/Terrace-17765.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What color is the lazy sofa on the Terrace? \n\nA. Dark brown\nB. Soft gray\nC. Polished surface\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What color is the lazy sofa on the Terrace? \n\nA. Dark brown\nB. Soft gray\nC. Polished surface\nD. None of the above",
+      "response": "d"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What color is the lazy sofa on the Terrace? \n\nA. Dark brown\nB. Soft gray\nC. Polished surface",
+      "response": "none"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What color is the lazy sofa on the Terrace? \n\nA. Golden Retriever\nB. Stethoscope\nC. Mars Rover\nD. Eiffel Tower\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What color is the lazy sofa on the Terrace? \n\nA. Golden Retriever\nB. Stethoscope\nC. Mars Rover\nD. Eiffel Tower\nE. None of the above",
+      "response": "e"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What color is the lazy sofa on the Terrace? \n\nA. Golden Retriever\nB. Stethoscope\nC. Mars Rover\nD. Eiffel Tower",
+      "response": "none"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What shape is the chandelier in the room?\n\nA. Square\nB. Oval\nC. Rectangular\nD. Hexagonal\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What shape is the chandelier in the room?\n\nA. Square\nB. Oval\nC. Rectangular\nD. Hexagonal\nE. None of the above",
+      "response": "e"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What shape is the chandelier in the room?\n\nA. Square\nB. Oval\nC. Rectangular\nD. Hexagonal",
+      "response": "none"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What is the height of the fountain located on the opposite side of the terrace?",
+      "response": "unanswerable"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What is the height of the fountain located on the opposite side of the terrace?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What color is the lazy sofa on the Terrace? \n\nA. Dark brown\nB. Pristine white\nC. Soft gray\nD. Polished surface",
+      "response": "b"
+    }
+  ]
+}

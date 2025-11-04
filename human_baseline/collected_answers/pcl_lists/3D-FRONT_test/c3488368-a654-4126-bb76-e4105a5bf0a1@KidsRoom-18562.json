@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "c3488368-a654-4126-bb76-e4105a5bf0a1@KidsRoom-18562",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 5",
+  "timestamp": "2025-10-08T10:30:43.753703",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/c3488368-a654-4126-bb76-e4105a5bf0a1/KidsRoom-18562/KidsRoom-18562.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What color is the kids' bed in the KidsRoom?\n\nA. Blue and white\nB. Gray with pastel accents\nC. Green and yellow\nIf none of the above answers are correct, answer: 'F'",
+      "response": "a"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What color is the kids' bed in the KidsRoom?\n\nA. Blue and white\nB. Gray with pastel accents\nC. Green and yellow\nD. None of the above",
+      "response": "a"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What color is the kids' bed in the KidsRoom?\n\nA. Blue and white\nB. Gray with pastel accents\nC. Green and yellow",
+      "response": "a"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What color is the kids' bed in the KidsRoom?\n\nA. Smooth\nB. Rough\nC. Slippery\nD. Sticky\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What color is the kids' bed in the KidsRoom?\n\nA. Smooth\nB. Rough\nC. Slippery\nD. Sticky\nE. None of the above",
+      "response": "e"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What color is the kids' bed in the KidsRoom?\n\nA. Smooth\nB. Rough\nC. Slippery\nD. Sticky",
+      "response": "none of the above"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What is the shape of the toy blocks in the room?\n\nA. Cube\nB. Sphere\nC. Pyramid\nD. Cylinder\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What is the shape of the toy blocks in the room?\n\nA. Cube\nB. Sphere\nC. Pyramid\nD. Cylinder\nE. None of the above",
+      "response": "e"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What is the shape of the toy blocks in the room?\n\nA. Cube\nB. Sphere\nC. Pyramid\nD. Cylinder",
+      "response": "none of the above"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What type of garden is outside the room?",
+      "response": "no garden"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What type of garden is outside the room?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What color is the kids' bed in the KidsRoom?\n\nA. Black and white\nB. Blue and white\nC. Gray with pastel accents\nD. Green and yellow",
+      "response": "b"
+    }
+  ]
+}

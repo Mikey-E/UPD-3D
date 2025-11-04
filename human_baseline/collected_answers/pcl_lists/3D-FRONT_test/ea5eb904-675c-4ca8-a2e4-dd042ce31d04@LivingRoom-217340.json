@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "ea5eb904-675c-4ca8-a2e4-dd042ce31d04@LivingRoom-217340",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 3",
+  "timestamp": "2025-10-27T15:03:24.566981",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/ea5eb904-675c-4ca8-a2e4-dd042ce31d04/LivingRoom-217340/LivingRoom-217340.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What style is the corner table in this living room?\n\nA. Minimalist style\nB. Scandinavian style\nC. Traditional style\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What style is the corner table in this living room?\n\nA. Minimalist style\nB. Scandinavian style\nC. Traditional style\nD. None of the above",
+      "response": "D"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What style is the corner table in this living room?\n\nA. Minimalist style\nB. Scandinavian style\nC. Traditional style",
+      "response": "NONE"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What style is the corner table in this living room?\n\nA. Historical fiction\nB. Biographical film\nC. Abstract art\nD. Classic rock\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What style is the corner table in this living room?\n\nA. Historical fiction\nB. Biographical film\nC. Abstract art\nD. Classic rock\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What style is the corner table in this living room?\n\nA. Historical fiction\nB. Biographical film\nC. Abstract art\nD. Classic rock",
+      "response": "NONE"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What type of rug is located in the living room?\n\nA. Persian rug\nB. Shag rug\nC. Oriental rug\nD. Wool rug\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What type of rug is located in the living room?\n\nA. Persian rug\nB. Shag rug\nC. Oriental rug\nD. Wool rug\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What type of rug is located in the living room?\n\nA. Persian rug\nB. Shag rug\nC. Oriental rug\nD. Wool rug",
+      "response": "NA"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What type of refrigerator is in the kitchen?",
+      "response": "NA"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What type of refrigerator is in the kitchen?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What style is the corner table in this living room?\n\nA. Minimalist style\nB. Scandinavian style\nC. New Chinese style\nD. Traditional style",
+      "response": "C"
+    }
+  ]
+}

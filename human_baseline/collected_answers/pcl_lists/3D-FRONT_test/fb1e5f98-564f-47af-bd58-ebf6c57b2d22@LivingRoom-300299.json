@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "fb1e5f98-564f-47af-bd58-ebf6c57b2d22@LivingRoom-300299",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 3",
+  "timestamp": "2025-10-30T15:56:13.147449",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/fb1e5f98-564f-47af-bd58-ebf6c57b2d22/LivingRoom-300299/LivingRoom-300299.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What is positioned next to the loveseat sofa in the living room?\n\nA. Floor lamp\nB. Pendant lamp\nC. Cactus\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What is positioned next to the loveseat sofa in the living room?\n\nA. Floor lamp\nB. Pendant lamp\nC. Cactus\nD. None of the above",
+      "response": "D"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What is positioned next to the loveseat sofa in the living room?\n\nA. Floor lamp\nB. Pendant lamp\nC. Cactus",
+      "response": "NONE"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What is positioned next to the loveseat sofa in the living room?\n\nA. Jupiter's atmosphere\nB. A geological survey\nC. An ancient manuscript\nD. A culinary recipe\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What is positioned next to the loveseat sofa in the living room?\n\nA. Jupiter's atmosphere\nB. A geological survey\nC. An ancient manuscript\nD. A culinary recipe\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What is positioned next to the loveseat sofa in the living room?\n\nA. Jupiter's atmosphere\nB. A geological survey\nC. An ancient manuscript\nD. A culinary recipe",
+      "response": "NONE"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What type of sculpture is in the room?\n\nA. Abstract sculpture\nB. Marble statue\nC. Metal figure\nD. Wooden carving\nIf none of the above answers are correct, answer: 'F'",
+      "response": "D"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What type of sculpture is in the room?\n\nA. Abstract sculpture\nB. Marble statue\nC. Metal figure\nD. Wooden carving\nE. None of the above",
+      "response": "D"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What type of sculpture is in the room?\n\nA. Abstract sculpture\nB. Marble statue\nC. Metal figure\nD. Wooden carving",
+      "response": "D"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What type of rug is located in the living room?",
+      "response": "NA"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What type of rug is located in the living room?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What is positioned next to the loveseat sofa in the living room?\n\nA. Floor lamp\nB. Pendant lamp\nC. Cactus\nD. End table",
+      "response": "D"
+    }
+  ]
+}

@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "Maize@2-107",
+  "dataset": "Crops3D_test",
+  "annotated_by": "User 5",
+  "timestamp": "2025-10-30T11:42:37.751099",
+  "file_path": "/project/3dllms/melgin/datasets/CEA/Crops3D/Maize/2-107.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What color is the pot in which the plant is potted?\n\nA. Green\nB. Yellow\nC. Black\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What color is the pot in which the plant is potted?\n\nA. Green\nB. Yellow\nC. Black\nD. None of the above",
+      "response": "d"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What color is the pot in which the plant is potted?\n\nA. Green\nB. Yellow\nC. Black",
+      "response": "none"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What color is the pot in which the plant is potted?\n\nA. Polygon\nB. Triangle\nC. Rectangle\nD. Circle\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What color is the pot in which the plant is potted?\n\nA. Polygon\nB. Triangle\nC. Rectangle\nD. Circle\nE. None of the above",
+      "response": "e"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What color is the pot in which the plant is potted?\n\nA. Polygon\nB. Triangle\nC. Rectangle\nD. Circle",
+      "response": "none"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What type of painting is hanging on the wall?\n\nA. Abstract\nB. Landscape\nC. Portrait\nD. Still Life\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What type of painting is hanging on the wall?\n\nA. Abstract\nB. Landscape\nC. Portrait\nD. Still Life\nE. None of the above",
+      "response": "e"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What type of painting is hanging on the wall?\n\nA. Abstract\nB. Landscape\nC. Portrait\nD. Still Life",
+      "response": "none"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What kind of fabric is the sofa made of?",
+      "response": "none"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What kind of fabric is the sofa made of?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What color is the pot in which the plant is potted?\n\nA. Dark brown\nB. Green\nC. Yellow\nD. Black",
+      "response": "a"
+    }
+  ]
+}

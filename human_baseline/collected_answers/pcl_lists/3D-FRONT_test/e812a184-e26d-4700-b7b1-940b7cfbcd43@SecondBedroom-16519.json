@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "e812a184-e26d-4700-b7b1-940b7cfbcd43@SecondBedroom-16519",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 5",
+  "timestamp": "2025-10-27T08:22:06.254681",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/e812a184-e26d-4700-b7b1-940b7cfbcd43/SecondBedroom-16519/SecondBedroom-16519.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What design styles are blended in the Second bedroom?\n\nA. Classic and Rustic\nB. Modern and Industrial\nC. Contemporary and Art Deco\nIf none of the above answers are correct, answer: 'F'",
+      "response": "c"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What design styles are blended in the Second bedroom?\n\nA. Classic and Rustic\nB. Modern and Industrial\nC. Contemporary and Art Deco\nD. None of the above",
+      "response": "c"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What design styles are blended in the Second bedroom?\n\nA. Classic and Rustic\nB. Modern and Industrial\nC. Contemporary and Art Deco",
+      "response": "c"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What design styles are blended in the Second bedroom?\n\nA. Tropical rainforests\nB. Desert landscapes\nC. Arctic tundra\nD. Mountain ranges\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What design styles are blended in the Second bedroom?\n\nA. Tropical rainforests\nB. Desert landscapes\nC. Arctic tundra\nD. Mountain ranges\nE. None of the above",
+      "response": "e"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What design styles are blended in the Second bedroom?\n\nA. Tropical rainforests\nB. Desert landscapes\nC. Arctic tundra\nD. Mountain ranges",
+      "response": "none"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What type of bookshelf is featured in the corner of the room?\n\nA. Floating bookshelf\nB. Ladder bookshelf\nC. Cube bookshelf\nD. Corner bookshelf\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What type of bookshelf is featured in the corner of the room?\n\nA. Floating bookshelf\nB. Ladder bookshelf\nC. Cube bookshelf\nD. Corner bookshelf\nE. None of the above",
+      "response": "e"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What type of bookshelf is featured in the corner of the room?\n\nA. Floating bookshelf\nB. Ladder bookshelf\nC. Cube bookshelf\nD. Corner bookshelf",
+      "response": "none"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What type of dining table is included in the room?",
+      "response": "none"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What type of dining table is included in the room?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What design styles are blended in the Second bedroom?\n\nA. Classic and Rustic\nB. Modern and Industrial\nC. Vintage and Nordic\nD. Contemporary and Art Deco",
+      "response": "d"
+    }
+  ]
+}

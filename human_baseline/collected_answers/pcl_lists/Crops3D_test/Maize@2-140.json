@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "Maize@2-140",
+  "dataset": "Crops3D_test",
+  "annotated_by": "User 5",
+  "timestamp": "2025-10-30T11:24:09.448147",
+  "file_path": "/project/3dllms/melgin/datasets/CEA/Crops3D/Maize/2-140.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What shape do the leaves of the plant resemble?\n\nA. Round\nB. Heart-shaped\nC. Circular\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What shape do the leaves of the plant resemble?\n\nA. Round\nB. Heart-shaped\nC. Circular\nD. None of the above",
+      "response": "d"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What shape do the leaves of the plant resemble?\n\nA. Round\nB. Heart-shaped\nC. Circular",
+      "response": "none"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What shape do the leaves of the plant resemble?\n\nA. Sapphire\nB. Dragon\nC. Symphony\nD. Eclipse\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What shape do the leaves of the plant resemble?\n\nA. Sapphire\nB. Dragon\nC. Symphony\nD. Eclipse\nE. None of the above",
+      "response": "e"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What shape do the leaves of the plant resemble?\n\nA. Sapphire\nB. Dragon\nC. Symphony\nD. Eclipse",
+      "response": "none"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What type of sculpture is displayed in the scene?\n\nA. Abstract metal sculpture\nB. Marble bust\nC. Wooden totem\nD. Glass figurine\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What type of sculpture is displayed in the scene?\n\nA. Abstract metal sculpture\nB. Marble bust\nC. Wooden totem\nD. Glass figurine\nE. None of the above",
+      "response": "e"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What type of sculpture is displayed in the scene?\n\nA. Abstract metal sculpture\nB. Marble bust\nC. Wooden totem\nD. Glass figurine",
+      "response": "none"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What is the shape of the rocks located at the base of the plant?",
+      "response": "none"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What is the shape of the rocks located at the base of the plant?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What shape do the leaves of the plant resemble?\n\nA. Round\nB. Heart-shaped\nC. Circular\nD. Lanceolate",
+      "response": "d"
+    }
+  ]
+}

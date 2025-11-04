@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "d24d2b14-230c-43e3-9bcb-ad455f1931cf@SecondBedroom-10986",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 5",
+  "timestamp": "2025-10-15T14:33:32.312600",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/d24d2b14-230c-43e3-9bcb-ad455f1931cf/SecondBedroom-10986/SecondBedroom-10986.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What feature is positioned directly above the foot of the king-size bed in the Second bedroom?\n\nA. Nightstand with a light brown color\nB. Wardrobe with a natural tan color\nC. TV stand with a light beige color\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What feature is positioned directly above the foot of the king-size bed in the Second bedroom?\n\nA. Nightstand with a light brown color\nB. Wardrobe with a natural tan color\nC. TV stand with a light beige color\nD. None of the above",
+      "response": "d"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What feature is positioned directly above the foot of the king-size bed in the Second bedroom?\n\nA. Nightstand with a light brown color\nB. Wardrobe with a natural tan color\nC. TV stand with a light beige color",
+      "response": "none of these"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What feature is positioned directly above the foot of the king-size bed in the Second bedroom?\n\nA. Planetary alignment\nB. Tidal wave\nC. Solar eclipse\nD. Cosmic rays\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What feature is positioned directly above the foot of the king-size bed in the Second bedroom?\n\nA. Planetary alignment\nB. Tidal wave\nC. Solar eclipse\nD. Cosmic rays\nE. None of the above",
+      "response": "e"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What feature is positioned directly above the foot of the king-size bed in the Second bedroom?\n\nA. Planetary alignment\nB. Tidal wave\nC. Solar eclipse\nD. Cosmic rays",
+      "response": "none of these"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What type of window treatment is displayed in the scene?\n\nA. Curtains\nB. Blinds\nC. Shades\nD. Drapes\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What type of window treatment is displayed in the scene?\n\nA. Curtains\nB. Blinds\nC. Shades\nD. Drapes\nE. None of the above",
+      "response": "e"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What type of window treatment is displayed in the scene?\n\nA. Curtains\nB. Blinds\nC. Shades\nD. Drapes",
+      "response": "none of these"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What type of outdoor sculpture is placed near the window?",
+      "response": "unanswerable"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What type of outdoor sculpture is placed near the window?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What feature is positioned directly above the foot of the king-size bed in the Second bedroom?\n\nA. Pendant lamp with a gold hue\nB. Nightstand with a light brown color\nC. Wardrobe with a natural tan color\nD. TV stand with a light beige color",
+      "response": "none of these"
+    }
+  ]
+}

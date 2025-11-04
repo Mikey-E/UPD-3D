@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "Rapeseed@31",
+  "dataset": "Crops3D_test",
+  "annotated_by": "User 5",
+  "timestamp": "2025-10-30T12:10:16.775952",
+  "file_path": "/project/3dllms/melgin/datasets/CEA/Crops3D/Rapeseed/31.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What shape is the pot that contains the potted green plant?\n\nA. Hexagonal\nB. Oval\nC. Rectangular\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What shape is the pot that contains the potted green plant?\n\nA. Hexagonal\nB. Oval\nC. Rectangular\nD. None of the above",
+      "response": "d"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What shape is the pot that contains the potted green plant?\n\nA. Hexagonal\nB. Oval\nC. Rectangular",
+      "response": "none"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What shape is the pot that contains the potted green plant?\n\nA. Triangle\nB. Rectangle\nC. Hexagon\nD. Octagon\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What shape is the pot that contains the potted green plant?\n\nA. Triangle\nB. Rectangle\nC. Hexagon\nD. Octagon\nE. None of the above",
+      "response": "e"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What shape is the pot that contains the potted green plant?\n\nA. Triangle\nB. Rectangle\nC. Hexagon\nD. Octagon",
+      "response": "none"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What type of carpet is used in the room?\n\nA. Persian\nB. Berber\nC. Shag\nD. Sisal\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What type of carpet is used in the room?\n\nA. Persian\nB. Berber\nC. Shag\nD. Sisal\nE. None of the above",
+      "response": "e"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What type of carpet is used in the room?\n\nA. Persian\nB. Berber\nC. Shag\nD. Sisal",
+      "response": "none"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What type of artwork is hanging on the wall?",
+      "response": "none"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What type of artwork is hanging on the wall?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What shape is the pot that contains the potted green plant?\n\nA. Hexagonal\nB. Oval\nC. Square\nD. Rectangular",
+      "response": "none"
+    }
+  ]
+}

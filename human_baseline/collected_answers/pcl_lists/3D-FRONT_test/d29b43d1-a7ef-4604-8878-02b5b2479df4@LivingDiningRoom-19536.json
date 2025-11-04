@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "d29b43d1-a7ef-4604-8878-02b5b2479df4@LivingDiningRoom-19536",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 4",
+  "timestamp": "2025-10-15T16:00:14.583000",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/d29b43d1-a7ef-4604-8878-02b5b2479df4/LivingDiningRoom-19536/LivingDiningRoom-19536.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What is the primary function of the dining table in this living room?\n\nA. It is used as a decorative piece only\nB. It functions as a storage unit for slippers\nC. It acts as a workspace for office activities\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What is the primary function of the dining table in this living room?\n\nA. It is used as a decorative piece only\nB. It functions as a storage unit for slippers\nC. It acts as a workspace for office activities\nD. None of the above",
+      "response": "d"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What is the primary function of the dining table in this living room?\n\nA. It is used as a decorative piece only\nB. It functions as a storage unit for slippers\nC. It acts as a workspace for office activities",
+      "response": "none"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What is the primary function of the dining table in this living room?\n\nA. Migration patterns of birds\nB. Phases of the moon\nC. Types of volcanic eruptions\nD. Characteristics of Renaissance art\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What is the primary function of the dining table in this living room?\n\nA. Migration patterns of birds\nB. Phases of the moon\nC. Types of volcanic eruptions\nD. Characteristics of Renaissance art\nE. None of the above",
+      "response": "e"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What is the primary function of the dining table in this living room?\n\nA. Migration patterns of birds\nB. Phases of the moon\nC. Types of volcanic eruptions\nD. Characteristics of Renaissance art",
+      "response": "none"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What type of painting is displayed on the wall?\n\nA. Abstract\nB. Landscape\nC. Portrait\nD. Still Life\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What type of painting is displayed on the wall?\n\nA. Abstract\nB. Landscape\nC. Portrait\nD. Still Life\nE. None of the above",
+      "response": "e"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What type of painting is displayed on the wall?\n\nA. Abstract\nB. Landscape\nC. Portrait\nD. Still Life",
+      "response": "none"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What is the size and shape of the rug that is under the dining table?",
+      "response": "n/a"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What is the size and shape of the rug that is under the dining table?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What is the primary function of the dining table in this living room?\n\nA. It serves as a minimalist anchor for meals\nB. It is used as a decorative piece only\nC. It functions as a storage unit for slippers\nD. It acts as a workspace for office activities",
+      "response": "a"
+    }
+  ]
+}

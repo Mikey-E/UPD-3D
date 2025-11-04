@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "db9f532a-0268-4c8e-81cc-fc964de51a68@Library-11058",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 4",
+  "timestamp": "2025-10-20T14:24:20.110395",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/db9f532a-0268-4c8e-81cc-fc964de51a68/Library-11058/Library-11058.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What piece of furniture is located directly above the jewelry armoire?\n\nA. Plant\nB. Bookcase\nC. Desk\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What piece of furniture is located directly above the jewelry armoire?\n\nA. Plant\nB. Bookcase\nC. Desk\nD. None of the above",
+      "response": "D"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What piece of furniture is located directly above the jewelry armoire?\n\nA. Plant\nB. Bookcase\nC. Desk",
+      "response": "None"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What piece of furniture is located directly above the jewelry armoire?\n\nA. Pineapple\nB. Telescope\nC. Chocolate cake\nD. Bicycle\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What piece of furniture is located directly above the jewelry armoire?\n\nA. Pineapple\nB. Telescope\nC. Chocolate cake\nD. Bicycle\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What piece of furniture is located directly above the jewelry armoire?\n\nA. Pineapple\nB. Telescope\nC. Chocolate cake\nD. Bicycle",
+      "response": "None"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What is the height of the mountains surrounding the valley?\n\nA. 1,500 meters\nB. 2,300 meters\nC. 3,000 meters\nD. 4,500 meters\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What is the height of the mountains surrounding the valley?\n\nA. 1,500 meters\nB. 2,300 meters\nC. 3,000 meters\nD. 4,500 meters\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What is the height of the mountains surrounding the valley?\n\nA. 1,500 meters\nB. 2,300 meters\nC. 3,000 meters\nD. 4,500 meters",
+      "response": "None"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What type of sculpture is displayed in the center of the room?",
+      "response": "unanswerable"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What type of sculpture is displayed in the center of the room?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What piece of furniture is located directly above the jewelry armoire?\n\nA. Plant\nB. Bookcase\nC. Desk\nD. Ceiling lamp",
+      "response": "None"
+    }
+  ]
+}

@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "d7daadd5-83b3-4c03-883e-2da01c76401e@Bedroom-1715",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 4",
+  "timestamp": "2025-10-17T08:33:09.519313",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/d7daadd5-83b3-4c03-883e-2da01c76401e/Bedroom-1715/Bedroom-1715.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What color is the wardrobe in the bedroom?\n\nA. Beige\nB. Light oak\nC. Dark wood\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What color is the wardrobe in the bedroom?\n\nA. Beige\nB. Light oak\nC. Dark wood\nD. None of the above",
+      "response": "d"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What color is the wardrobe in the bedroom?\n\nA. Beige\nB. Light oak\nC. Dark wood",
+      "response": "none"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What color is the wardrobe in the bedroom?\n\nA. Almond\nB. Cinnamon\nC. Lavender\nD. Pistachio\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What color is the wardrobe in the bedroom?\n\nA. Almond\nB. Cinnamon\nC. Lavender\nD. Pistachio\nE. None of the above",
+      "response": "e"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What color is the wardrobe in the bedroom?\n\nA. Almond\nB. Cinnamon\nC. Lavender\nD. Pistachio",
+      "response": "none"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What type of sculpture is displayed in the bedroom?\n\nA. Marble statue\nB. Bronze bust\nC. Wood carving\nD. Glass figurine\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What type of sculpture is displayed in the bedroom?\n\nA. Marble statue\nB. Bronze bust\nC. Wood carving\nD. Glass figurine\nE. None of the above",
+      "response": "e"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What type of sculpture is displayed in the bedroom?\n\nA. Marble statue\nB. Bronze bust\nC. Wood carving\nD. Glass figurine",
+      "response": "none"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What type of outdoor grill is used for barbecuing in this bedroom?",
+      "response": "n/a"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What type of outdoor grill is used for barbecuing in this bedroom?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What color is the wardrobe in the bedroom?\n\nA. Beige\nB. Light oak\nC. Dark wood\nD. White",
+      "response": "d"
+    }
+  ]
+}

@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "fceab1a0-e79e-4e88-a40c-000b69453233@LivingDiningRoom-5614",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 3",
+  "timestamp": "2025-10-30T21:53:13.201627",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/fceab1a0-e79e-4e88-a40c-000b69453233/LivingDiningRoom-5614/LivingDiningRoom-5614.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What color are the two shoe cabinets in the living room?\n\nA. Sleek black\nB. Warm walnut\nC. Terracotta\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What color are the two shoe cabinets in the living room?\n\nA. Sleek black\nB. Warm walnut\nC. Terracotta\nD. None of the above",
+      "response": "D"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What color are the two shoe cabinets in the living room?\n\nA. Sleek black\nB. Warm walnut\nC. Terracotta",
+      "response": "NONE"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What color are the two shoe cabinets in the living room?\n\nA. Maple syrup\nB. Thunderstorm\nC. Lightning bolt\nD. Watermelon slice\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What color are the two shoe cabinets in the living room?\n\nA. Maple syrup\nB. Thunderstorm\nC. Lightning bolt\nD. Watermelon slice\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What color are the two shoe cabinets in the living room?\n\nA. Maple syrup\nB. Thunderstorm\nC. Lightning bolt\nD. Watermelon slice",
+      "response": "NONE"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What type of window treatment enhances the lighting in the scene?\n\nA. Roman shades\nB. Drapes\nC. Roller blinds\nD. Valances\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What type of window treatment enhances the lighting in the scene?\n\nA. Roman shades\nB. Drapes\nC. Roller blinds\nD. Valances\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What type of window treatment enhances the lighting in the scene?\n\nA. Roman shades\nB. Drapes\nC. Roller blinds\nD. Valances",
+      "response": "NA"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What type of sculpture is displayed on the coffee table?",
+      "response": "NA"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What type of sculpture is displayed on the coffee table?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What color are the two shoe cabinets in the living room?\n\nA. Sleek black\nB. Rich mahogany\nC. Warm walnut\nD. Terracotta",
+      "response": "B"
+    }
+  ]
+}

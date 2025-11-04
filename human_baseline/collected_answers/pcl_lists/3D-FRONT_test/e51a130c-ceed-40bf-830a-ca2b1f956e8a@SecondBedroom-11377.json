@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "e51a130c-ceed-40bf-830a-ca2b1f956e8a@SecondBedroom-11377",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 4",
+  "timestamp": "2025-10-26T20:57:02.792945",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/e51a130c-ceed-40bf-830a-ca2b1f956e8a/SecondBedroom-11377/SecondBedroom-11377.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What color is the pendant lamp in the Second bedroom?\n\nA. White\nB. Warm brown\nC. Light wood\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What color is the pendant lamp in the Second bedroom?\n\nA. White\nB. Warm brown\nC. Light wood\nD. None of the above",
+      "response": "D"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What color is the pendant lamp in the Second bedroom?\n\nA. White\nB. Warm brown\nC. Light wood",
+      "response": "None"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What color is the pendant lamp in the Second bedroom?\n\nA. Pineapple\nB. Computer\nC. Cactus\nD. Refrigerator\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What color is the pendant lamp in the Second bedroom?\n\nA. Pineapple\nB. Computer\nC. Cactus\nD. Refrigerator\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What color is the pendant lamp in the Second bedroom?\n\nA. Pineapple\nB. Computer\nC. Cactus\nD. Refrigerator",
+      "response": "None"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What shape is the coffee table in the room?\n\nA. Round\nB. Square\nC. Oval\nD. Rectangular\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What shape is the coffee table in the room?\n\nA. Round\nB. Square\nC. Oval\nD. Rectangular\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What shape is the coffee table in the room?\n\nA. Round\nB. Square\nC. Oval\nD. Rectangular",
+      "response": "None"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What type of outdoor furniture is used on the patio?",
+      "response": "unanswerable"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What type of outdoor furniture is used on the patio?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What color is the pendant lamp in the Second bedroom?\n\nA. Silver\nB. White\nC. Warm brown\nD. Light wood",
+      "response": "None"
+    }
+  ]
+}

@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "f086151e-64f0-4fad-b373-22c20dfc2fce@MasterBedroom-5478",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 4",
+  "timestamp": "2025-10-28T20:59:10.292078",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/f086151e-64f0-4fad-b373-22c20dfc2fce/MasterBedroom-5478/MasterBedroom-5478.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What color is the bed in the Masterbedroom?\n\nA. Gold-toned\nB. Soft mint green\nC. Sage green\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What color is the bed in the Masterbedroom?\n\nA. Gold-toned\nB. Soft mint green\nC. Sage green\nD. None of the above",
+      "response": "D"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What color is the bed in the Masterbedroom?\n\nA. Gold-toned\nB. Soft mint green\nC. Sage green",
+      "response": "None"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What color is the bed in the Masterbedroom?\n\nA. Watermelon\nB. Chocolate\nC. Mango\nD. Vanilla\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What color is the bed in the Masterbedroom?\n\nA. Watermelon\nB. Chocolate\nC. Mango\nD. Vanilla\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What color is the bed in the Masterbedroom?\n\nA. Watermelon\nB. Chocolate\nC. Mango\nD. Vanilla",
+      "response": "None"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What type of sculpture is prominently featured in the room?\n\nA. Abstract marble sculpture\nB. Bronze animal figure\nC. Wooden totem pole\nD. Glass art installation\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What type of sculpture is prominently featured in the room?\n\nA. Abstract marble sculpture\nB. Bronze animal figure\nC. Wooden totem pole\nD. Glass art installation\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What type of sculpture is prominently featured in the room?\n\nA. Abstract marble sculpture\nB. Bronze animal figure\nC. Wooden totem pole\nD. Glass art installation",
+      "response": "None"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What type of outdoor furniture is placed in this bedroom?",
+      "response": "unanswerable"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What type of outdoor furniture is placed in this bedroom?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What color is the bed in the Masterbedroom?\n\nA. Gold-toned\nB. Soft mint green\nC. Sage green\nD. Deep teal",
+      "response": "D"
+    }
+  ]
+}

@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "d65ffaee-7fb8-4163-8a5f-594ca4daefc6@LivingDiningRoom-3535",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 3",
+  "timestamp": "2025-10-16T12:20:51.601398",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/d65ffaee-7fb8-4163-8a5f-594ca4daefc6/LivingDiningRoom-3535/LivingDiningRoom-3535.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What style is the three-seat sofa in this living room?\n\nA. Minimalist\nB. Japanese\nC. Vintage/Retro\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What style is the three-seat sofa in this living room?\n\nA. Minimalist\nB. Japanese\nC. Vintage/Retro\nD. None of the above",
+      "response": "D"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What style is the three-seat sofa in this living room?\n\nA. Minimalist\nB. Japanese\nC. Vintage/Retro",
+      "response": "None"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What style is the three-seat sofa in this living room?\n\nA. Tropical rainforest\nB. Desert landscape\nC. Arctic tundra\nD. Underwater coral reef\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What style is the three-seat sofa in this living room?\n\nA. Tropical rainforest\nB. Desert landscape\nC. Arctic tundra\nD. Underwater coral reef\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What style is the three-seat sofa in this living room?\n\nA. Tropical rainforest\nB. Desert landscape\nC. Arctic tundra\nD. Underwater coral reef",
+      "response": "None"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What type of sculpture is displayed in the room?\n\nA. A marble statue\nB. A bronze bust\nC. A glass figurine\nD. A wooden carving\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What type of sculpture is displayed in the room?\n\nA. A marble statue\nB. A bronze bust\nC. A glass figurine\nD. A wooden carving\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What type of sculpture is displayed in the room?\n\nA. A marble statue\nB. A bronze bust\nC. A glass figurine\nD. A wooden carving",
+      "response": "None"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What kind of fireplace is installed in the living room?",
+      "response": "N/A"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What kind of fireplace is installed in the living room?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What style is the three-seat sofa in this living room?\n\nA. Minimalist\nB. Japanese\nC. American Country\nD. Vintage/Retro",
+      "response": "C"
+    }
+  ]
+}

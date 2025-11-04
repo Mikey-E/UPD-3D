@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "da590664-833e-42ce-9ceb-52ffe7e89c30@Bedroom-7833",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 5",
+  "timestamp": "2025-10-20T08:19:57.615072",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/da590664-833e-42ce-9ceb-52ffe7e89c30/Bedroom-7833/Bedroom-7833.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What is the color of the nightstands in the bedroom?\n\nA. Navy blue\nB. Bright white\nC. Light oak\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What is the color of the nightstands in the bedroom?\n\nA. Navy blue\nB. Bright white\nC. Light oak\nD. None of the above",
+      "response": "d"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What is the color of the nightstands in the bedroom?\n\nA. Navy blue\nB. Bright white\nC. Light oak",
+      "response": "none"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What is the color of the nightstands in the bedroom?\n\nA. Apple pie\nB. Chocolate cake\nC. Vanilla ice cream\nD. Lemon tart\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What is the color of the nightstands in the bedroom?\n\nA. Apple pie\nB. Chocolate cake\nC. Vanilla ice cream\nD. Lemon tart\nE. None of the above",
+      "response": "e"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What is the color of the nightstands in the bedroom?\n\nA. Apple pie\nB. Chocolate cake\nC. Vanilla ice cream\nD. Lemon tart",
+      "response": "none"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What type of window treatment is featured in the scene?\n\nA. Curtains\nB. Blinds\nC. Shutters\nD. Drapes\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What type of window treatment is featured in the scene?\n\nA. Curtains\nB. Blinds\nC. Shutters\nD. Drapes\nE. None of the above",
+      "response": "e"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What type of window treatment is featured in the scene?\n\nA. Curtains\nB. Blinds\nC. Shutters\nD. Drapes",
+      "response": "none"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What type of outdoor fountain is installed in the garden area?",
+      "response": "none"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What type of outdoor fountain is installed in the garden area?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What is the color of the nightstands in the bedroom?\n\nA. Navy blue\nB. Bright white\nC. Light oak\nD. Dark charcoal",
+      "response": "d"
+    }
+  ]
+}

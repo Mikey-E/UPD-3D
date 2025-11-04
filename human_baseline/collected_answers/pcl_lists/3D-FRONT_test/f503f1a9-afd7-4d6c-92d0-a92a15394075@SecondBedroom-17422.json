@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "f503f1a9-afd7-4d6c-92d0-a92a15394075@SecondBedroom-17422",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 5",
+  "timestamp": "2025-10-29T17:00:36.301562",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/f503f1a9-afd7-4d6c-92d0-a92a15394075/SecondBedroom-17422/SecondBedroom-17422.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What style is the dressing chair in the room described?\n\nA. Modern Rustic style\nB. Victorian style\nC. Art Deco style\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What style is the dressing chair in the room described?\n\nA. Modern Rustic style\nB. Victorian style\nC. Art Deco style\nD. None of the above",
+      "response": "d"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What style is the dressing chair in the room described?\n\nA. Modern Rustic style\nB. Victorian style\nC. Art Deco style",
+      "response": "none"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What style is the dressing chair in the room described?\n\nA. Rhythmic gymnastics\nB. Quantum physics\nC. Culinary arts\nD. Environmental policy\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What style is the dressing chair in the room described?\n\nA. Rhythmic gymnastics\nB. Quantum physics\nC. Culinary arts\nD. Environmental policy\nE. None of the above",
+      "response": "e"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What style is the dressing chair in the room described?\n\nA. Rhythmic gymnastics\nB. Quantum physics\nC. Culinary arts\nD. Environmental policy",
+      "response": "none"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What type of balloon is floating near the window?\n\nA. Helium balloon\nB. Water balloon\nC. Party balloon\nD. Mylar balloon\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What type of balloon is floating near the window?\n\nA. Helium balloon\nB. Water balloon\nC. Party balloon\nD. Mylar balloon\nE. None of the above",
+      "response": "e"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What type of balloon is floating near the window?\n\nA. Helium balloon\nB. Water balloon\nC. Party balloon\nD. Mylar balloon",
+      "response": "none"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What type of exercise equipment is in the room?",
+      "response": "none"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What type of exercise equipment is in the room?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What style is the dressing chair in the room described?\n\nA. Modern Rustic style\nB. Victorian style\nC. New Chinese style\nD. Art Deco style",
+      "response": "none"
+    }
+  ]
+}

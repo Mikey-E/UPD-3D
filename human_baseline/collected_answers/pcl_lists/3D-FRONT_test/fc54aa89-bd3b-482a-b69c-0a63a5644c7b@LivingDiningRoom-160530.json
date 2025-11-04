@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "fc54aa89-bd3b-482a-b69c-0a63a5644c7b@LivingDiningRoom-160530",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 3",
+  "timestamp": "2025-10-30T17:37:24.504203",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/fc54aa89-bd3b-482a-b69c-0a63a5644c7b/LivingDiningRoom-160530/LivingDiningRoom-160530.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What color is the coffee table in the living room?\n\nA. Neutral grey\nB. Dark brown\nC. Deep charcoal\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What color is the coffee table in the living room?\n\nA. Neutral grey\nB. Dark brown\nC. Deep charcoal\nD. None of the above",
+      "response": "D"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What color is the coffee table in the living room?\n\nA. Neutral grey\nB. Dark brown\nC. Deep charcoal",
+      "response": "NONE"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What color is the coffee table in the living room?\n\nA. Mercury\nB. Quasar\nC. Nebula\nD. Galaxy\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What color is the coffee table in the living room?\n\nA. Mercury\nB. Quasar\nC. Nebula\nD. Galaxy\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What color is the coffee table in the living room?\n\nA. Mercury\nB. Quasar\nC. Nebula\nD. Galaxy",
+      "response": "NONE"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What type of window treatment is found in the scene?\n\nA. Drapes\nB. Blinds\nC. Curtains\nD. Shutters\nIf none of the above answers are correct, answer: 'F'",
+      "response": "D"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What type of window treatment is found in the scene?\n\nA. Drapes\nB. Blinds\nC. Curtains\nD. Shutters\nE. None of the above",
+      "response": "D"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What type of window treatment is found in the scene?\n\nA. Drapes\nB. Blinds\nC. Curtains\nD. Shutters",
+      "response": "D"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What type of decorative fountain is placed in the corner of the room?",
+      "response": "NA"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What type of decorative fountain is placed in the corner of the room?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What color is the coffee table in the living room?\n\nA. Neutral grey\nB. Dark brown\nC. Espresso brown\nD. Deep charcoal",
+      "response": "C"
+    }
+  ]
+}

@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "ca14c063-2f69-4278-a074-5f35c931848c@LivingRoom-38700",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 4",
+  "timestamp": "2025-10-20T15:31:06.443699",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/ca14c063-2f69-4278-a074-5f35c931848c/LivingRoom-38700/LivingRoom-38700.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What type of lamp is used to illuminate the living room?\n\nA. Ceiling lamp\nB. Table lamp\nC. Floor lamp\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What type of lamp is used to illuminate the living room?\n\nA. Ceiling lamp\nB. Table lamp\nC. Floor lamp\nD. None of the above",
+      "response": "D"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What type of lamp is used to illuminate the living room?\n\nA. Ceiling lamp\nB. Table lamp\nC. Floor lamp",
+      "response": "None"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What type of lamp is used to illuminate the living room?\n\nA. Oak tree\nB. Golden retriever\nC. Pizza topping\nD. Quantum physics\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What type of lamp is used to illuminate the living room?\n\nA. Oak tree\nB. Golden retriever\nC. Pizza topping\nD. Quantum physics\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What type of lamp is used to illuminate the living room?\n\nA. Oak tree\nB. Golden retriever\nC. Pizza topping\nD. Quantum physics",
+      "response": "None"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What is the shape of the dining table?\n\nA. Round\nB. Square\nC. Rectangular\nD. Oval\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What is the shape of the dining table?\n\nA. Round\nB. Square\nC. Rectangular\nD. Oval\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What is the shape of the dining table?\n\nA. Round\nB. Square\nC. Rectangular\nD. Oval",
+      "response": "None"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What kind of musical instrument is placed in the room?",
+      "response": "unanswerable"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What kind of musical instrument is placed in the room?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What type of lamp is used to illuminate the living room?\n\nA. Ceiling lamp\nB. Pendant lamp\nC. Table lamp\nD. Floor lamp",
+      "response": "B"
+    }
+  ]
+}

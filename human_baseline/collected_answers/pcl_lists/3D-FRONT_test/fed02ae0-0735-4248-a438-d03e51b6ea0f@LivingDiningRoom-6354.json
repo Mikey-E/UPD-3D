@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "fed02ae0-0735-4248-a438-d03e51b6ea0f@LivingDiningRoom-6354",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 3",
+  "timestamp": "2025-10-31T02:48:44.173790",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/fed02ae0-0735-4248-a438-d03e51b6ea0f/LivingDiningRoom-6354/LivingDiningRoom-6354.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What style is the armchair described in the living room?\n\nA. Minimalist\nB. Japanese\nC. Korean\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What style is the armchair described in the living room?\n\nA. Minimalist\nB. Japanese\nC. Korean\nD. None of the above",
+      "response": "D"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What style is the armchair described in the living room?\n\nA. Minimalist\nB. Japanese\nC. Korean",
+      "response": "NONE"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What style is the armchair described in the living room?\n\nA. Pineapple\nB. Octopus\nC. Cinnamon\nD. Telephone\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What style is the armchair described in the living room?\n\nA. Pineapple\nB. Octopus\nC. Cinnamon\nD. Telephone\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What style is the armchair described in the living room?\n\nA. Pineapple\nB. Octopus\nC. Cinnamon\nD. Telephone",
+      "response": "NONE"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What texture does the ceiling in the room exhibit?\n\nA. Soft velvet\nB. Rough concrete\nC. Smooth plaster\nD. Textured wood\nIf none of the above answers are correct, answer: 'F'",
+      "response": "C"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What texture does the ceiling in the room exhibit?\n\nA. Soft velvet\nB. Rough concrete\nC. Smooth plaster\nD. Textured wood\nE. None of the above",
+      "response": "C"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What texture does the ceiling in the room exhibit?\n\nA. Soft velvet\nB. Rough concrete\nC. Smooth plaster\nD. Textured wood",
+      "response": "C"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What type of curtains are used in the room?",
+      "response": "NA"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What type of curtains are used in the room?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What style is the armchair described in the living room?\n\nA. American Country\nB. Minimalist\nC. Japanese\nD. Korean",
+      "response": "A"
+    }
+  ]
+}

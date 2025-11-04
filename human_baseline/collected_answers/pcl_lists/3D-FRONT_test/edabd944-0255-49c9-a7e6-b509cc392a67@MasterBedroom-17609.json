@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "edabd944-0255-49c9-a7e6-b509cc392a67@MasterBedroom-17609",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 5",
+  "timestamp": "2025-10-28T08:57:17.863831",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/edabd944-0255-49c9-a7e6-b509cc392a67/MasterBedroom-17609/MasterBedroom-17609.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What is the primary color scheme of the wardrobe in the room?\n\nA. Black and white\nB. Brown and cream\nC. Gold and white\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What is the primary color scheme of the wardrobe in the room?\n\nA. Black and white\nB. Brown and cream\nC. Gold and white\nD. None of the above",
+      "response": "d"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What is the primary color scheme of the wardrobe in the room?\n\nA. Black and white\nB. Brown and cream\nC. Gold and white",
+      "response": "none"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What is the primary color scheme of the wardrobe in the room?\n\nA. Jupiter's atmosphere\nB. Beethoven's symphonies\nC. Ancient Egyptian hieroglyphs\nD. The process of photosynthesis\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What is the primary color scheme of the wardrobe in the room?\n\nA. Jupiter's atmosphere\nB. Beethoven's symphonies\nC. Ancient Egyptian hieroglyphs\nD. The process of photosynthesis\nE. None of the above",
+      "response": "e"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What is the primary color scheme of the wardrobe in the room?\n\nA. Jupiter's atmosphere\nB. Beethoven's symphonies\nC. Ancient Egyptian hieroglyphs\nD. The process of photosynthesis",
+      "response": "none"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What texture is the sofa in the scene?\n\nA. Velvet\nB. Leather\nC. Suede\nD. Fabric\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What texture is the sofa in the scene?\n\nA. Velvet\nB. Leather\nC. Suede\nD. Fabric\nE. None of the above",
+      "response": "e"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What texture is the sofa in the scene?\n\nA. Velvet\nB. Leather\nC. Suede\nD. Fabric",
+      "response": "none"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What type of outdoor sculpture is placed in the garden?",
+      "response": "none"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What type of outdoor sculpture is placed in the garden?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What is the primary color scheme of the wardrobe in the room?\n\nA. Black and white\nB. Brown and cream\nC. Gold and white\nD. White with grey speckles",
+      "response": "d"
+    }
+  ]
+}

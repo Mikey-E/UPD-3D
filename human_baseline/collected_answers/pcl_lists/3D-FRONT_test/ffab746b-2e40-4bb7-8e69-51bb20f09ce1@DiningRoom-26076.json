@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "ffab746b-2e40-4bb7-8e69-51bb20f09ce1@DiningRoom-26076",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 5",
+  "timestamp": "2025-10-31T08:41:45.574061",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/ffab746b-2e40-4bb7-8e69-51bb20f09ce1/DiningRoom-26076/DiningRoom-26076.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What is the primary function of the floor lamp in the described room?\n\nA. To act as a decorative piece\nB. To serve as the main source of illumination\nC. To contrast with the pendant lamp\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What is the primary function of the floor lamp in the described room?\n\nA. To act as a decorative piece\nB. To serve as the main source of illumination\nC. To contrast with the pendant lamp\nD. None of the above",
+      "response": "d"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What is the primary function of the floor lamp in the described room?\n\nA. To act as a decorative piece\nB. To serve as the main source of illumination\nC. To contrast with the pendant lamp",
+      "response": "none"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What is the primary function of the floor lamp in the described room?\n\nA. Quantum mechanics\nB. Aristotelian philosophy\nC. Renaissance art\nD. Ancient civilizations\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What is the primary function of the floor lamp in the described room?\n\nA. Quantum mechanics\nB. Aristotelian philosophy\nC. Renaissance art\nD. Ancient civilizations\nE. None of the above",
+      "response": "e"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What is the primary function of the floor lamp in the described room?\n\nA. Quantum mechanics\nB. Aristotelian philosophy\nC. Renaissance art\nD. Ancient civilizations",
+      "response": "none"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What type of fruit is displayed on the dining table?\n\nA. Apples\nB. Bananas\nC. Oranges\nD. Grapes\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What type of fruit is displayed on the dining table?\n\nA. Apples\nB. Bananas\nC. Oranges\nD. Grapes\nE. None of the above",
+      "response": "e"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What type of fruit is displayed on the dining table?\n\nA. Apples\nB. Bananas\nC. Oranges\nD. Grapes",
+      "response": "none"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What is the fabric type of the couch in the scene?",
+      "response": "none"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What is the fabric type of the couch in the scene?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What is the primary function of the floor lamp in the described room?\n\nA. To act as a decorative piece\nB. To serve as the main source of illumination\nC. To contrast with the pendant lamp\nD. To provide additional lighting",
+      "response": "d"
+    }
+  ]
+}

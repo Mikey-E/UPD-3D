@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "c29f9741-45f8-4e0f-8688-1bc76f7ec3b7@Library-29001",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 3",
+  "timestamp": "2025-10-06T12:03:28.666327",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/c29f9741-45f8-4e0f-8688-1bc76f7ec3b7/Library-29001/Library-29001.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What is the primary function of the bookcase in this library?\n\nA. To serve as a decorative wall feature\nB. To act as a divider between different areas\nC. To support the pendant lamp's structure\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What is the primary function of the bookcase in this library?\n\nA. To serve as a decorative wall feature\nB. To act as a divider between different areas\nC. To support the pendant lamp's structure\nD. None of the above",
+      "response": "D"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What is the primary function of the bookcase in this library?\n\nA. To serve as a decorative wall feature\nB. To act as a divider between different areas\nC. To support the pendant lamp's structure",
+      "response": "None"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What is the primary function of the bookcase in this library?\n\nA. Hibernate\nB. Migrate\nC. Photosynthesize\nD. Navigate\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What is the primary function of the bookcase in this library?\n\nA. Hibernate\nB. Migrate\nC. Photosynthesize\nD. Navigate\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What is the primary function of the bookcase in this library?\n\nA. Hibernate\nB. Migrate\nC. Photosynthesize\nD. Navigate",
+      "response": "None"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What type of couch is featured in the library scene?\n\nA. Leather sectional\nB. Recliner\nC. Futon\nD. Chaise lounge\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What type of couch is featured in the library scene?\n\nA. Leather sectional\nB. Recliner\nC. Futon\nD. Chaise lounge\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What type of couch is featured in the library scene?\n\nA. Leather sectional\nB. Recliner\nC. Futon\nD. Chaise lounge",
+      "response": "None"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What type of animal is hiding under the desk?",
+      "response": "None"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What type of animal is hiding under the desk?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What is the primary function of the bookcase in this library?\n\nA. To provide a space for books and trinkets\nB. To serve as a decorative wall feature\nC. To act as a divider between different areas\nD. To support the pendant lamp's structure",
+      "response": "A"
+    }
+  ]
+}

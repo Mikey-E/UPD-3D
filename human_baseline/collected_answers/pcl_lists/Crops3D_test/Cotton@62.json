@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "Cotton@62",
+  "dataset": "Crops3D_test",
+  "annotated_by": "User 5",
+  "timestamp": "2025-10-30T10:00:54.734871",
+  "file_path": "/project/3dllms/melgin/datasets/CEA/Crops3D/Cotton/62.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What color are the tiny fluffy buds on the shrub?\n\nA. Red\nB. Blue\nC. Yellow\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What color are the tiny fluffy buds on the shrub?\n\nA. Red\nB. Blue\nC. Yellow\nD. None of the above",
+      "response": "d"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What color are the tiny fluffy buds on the shrub?\n\nA. Red\nB. Blue\nC. Yellow",
+      "response": "none"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What color are the tiny fluffy buds on the shrub?\n\nA. Cactus Green\nB. Ocean Blue\nC. Sunset Orange\nD. Cotton Candy Pink\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What color are the tiny fluffy buds on the shrub?\n\nA. Cactus Green\nB. Ocean Blue\nC. Sunset Orange\nD. Cotton Candy Pink\nE. None of the above",
+      "response": "e"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What color are the tiny fluffy buds on the shrub?\n\nA. Cactus Green\nB. Ocean Blue\nC. Sunset Orange\nD. Cotton Candy Pink",
+      "response": "none"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What is the height of the building?\n\nA. Two stories\nB. Five stories\nC. Ten stories\nD. Twenty stories\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What is the height of the building?\n\nA. Two stories\nB. Five stories\nC. Ten stories\nD. Twenty stories\nE. None of the above",
+      "response": "e"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What is the height of the building?\n\nA. Two stories\nB. Five stories\nC. Ten stories\nD. Twenty stories",
+      "response": "none"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What kind of tropical fish is swimming nearby?",
+      "response": "none"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What kind of tropical fish is swimming nearby?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What color are the tiny fluffy buds on the shrub?\n\nA. Red\nB. Blue\nC. Yellow\nD. White",
+      "response": "d"
+    }
+  ]
+}

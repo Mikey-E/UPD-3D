@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "Cotton@26",
+  "dataset": "Crops3D_test",
+  "annotated_by": "User 5",
+  "timestamp": "2025-10-30T10:08:12.613063",
+  "file_path": "/project/3dllms/melgin/datasets/CEA/Crops3D/Cotton/26.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What color are the blossoms on the branch?\n\nA. Yellow\nB. Red\nC. Pink\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What color are the blossoms on the branch?\n\nA. Yellow\nB. Red\nC. Pink\nD. None of the above",
+      "response": "d"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What color are the blossoms on the branch?\n\nA. Yellow\nB. Red\nC. Pink",
+      "response": "f"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What color are the blossoms on the branch?\n\nA. Elephant\nB. Galaxy\nC. Tornado\nD. Pyramid\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What color are the blossoms on the branch?\n\nA. Elephant\nB. Galaxy\nC. Tornado\nD. Pyramid\nE. None of the above",
+      "response": "e"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What color are the blossoms on the branch?\n\nA. Elephant\nB. Galaxy\nC. Tornado\nD. Pyramid",
+      "response": "none"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What type of furniture is featured in the room?\n\nA. Sofa\nB. Table\nC. Chair\nD. Cabinet\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What type of furniture is featured in the room?\n\nA. Sofa\nB. Table\nC. Chair\nD. Cabinet\nE. None of the above",
+      "response": "e"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What type of furniture is featured in the room?\n\nA. Sofa\nB. Table\nC. Chair\nD. Cabinet",
+      "response": "none"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What texture does the carpet have?",
+      "response": "none"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What texture does the carpet have?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What color are the blossoms on the branch?\n\nA. White\nB. Yellow\nC. Red\nD. Pink",
+      "response": "a"
+    }
+  ]
+}

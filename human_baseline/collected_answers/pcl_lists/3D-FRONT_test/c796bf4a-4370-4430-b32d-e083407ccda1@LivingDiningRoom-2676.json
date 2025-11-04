@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "c796bf4a-4370-4430-b32d-e083407ccda1@LivingDiningRoom-2676",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 5",
+  "timestamp": "2025-10-10T15:43:41.949953",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/c796bf4a-4370-4430-b32d-e083407ccda1/LivingDiningRoom-2676/LivingDiningRoom-2676.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What serves as a functional decorative piece and storage solution in the living room?\n\nA. Dining table\nB. Coffee table\nC. Footstool\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What serves as a functional decorative piece and storage solution in the living room?\n\nA. Dining table\nB. Coffee table\nC. Footstool\nD. None of the above",
+      "response": "d"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What serves as a functional decorative piece and storage solution in the living room?\n\nA. Dining table\nB. Coffee table\nC. Footstool",
+      "response": "none of these"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What serves as a functional decorative piece and storage solution in the living room?\n\nA. Avocado toast\nB. Electric guitar\nC. Hiking boots\nD. Musical score\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What serves as a functional decorative piece and storage solution in the living room?\n\nA. Avocado toast\nB. Electric guitar\nC. Hiking boots\nD. Musical score\nE. None of the above",
+      "response": "e"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What serves as a functional decorative piece and storage solution in the living room?\n\nA. Avocado toast\nB. Electric guitar\nC. Hiking boots\nD. Musical score",
+      "response": "none of these"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What type of window treatment is installed in the living room?\n\nA. Blinds\nB. Curtains\nC. Shutters\nD. Drapes\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What type of window treatment is installed in the living room?\n\nA. Blinds\nB. Curtains\nC. Shutters\nD. Drapes\nE. None of the above",
+      "response": "e"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What type of window treatment is installed in the living room?\n\nA. Blinds\nB. Curtains\nC. Shutters\nD. Drapes",
+      "response": "none of these"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What type of fountain is located in the corner of the living room?",
+      "response": "no fountain"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What type of fountain is located in the corner of the living room?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What serves as a functional decorative piece and storage solution in the living room?\n\nA. Dining table\nB. Coffee table\nC. Footstool\nD. Sideboard",
+      "response": "d"
+    }
+  ]
+}

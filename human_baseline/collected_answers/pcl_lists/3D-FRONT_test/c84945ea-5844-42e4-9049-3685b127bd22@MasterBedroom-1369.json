@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "c84945ea-5844-42e4-9049-3685b127bd22@MasterBedroom-1369",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 3",
+  "timestamp": "2025-10-12T11:56:34.792208",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/c84945ea-5844-42e4-9049-3685b127bd22/MasterBedroom-1369/MasterBedroom-1369.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What color is the upholstery of the king-size bed?\n\nA. Cream\nB. Light Brown\nC. Beige\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What color is the upholstery of the king-size bed?\n\nA. Cream\nB. Light Brown\nC. Beige\nD. None of the above",
+      "response": "D"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What color is the upholstery of the king-size bed?\n\nA. Cream\nB. Light Brown\nC. Beige",
+      "response": "None"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What color is the upholstery of the king-size bed?\n\nA. Basketball\nB. Guitar\nC. Ocean\nD. Pyramid\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What color is the upholstery of the king-size bed?\n\nA. Basketball\nB. Guitar\nC. Ocean\nD. Pyramid\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What color is the upholstery of the king-size bed?\n\nA. Basketball\nB. Guitar\nC. Ocean\nD. Pyramid",
+      "response": "None"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What type of fabric is the sofa made of?\n\nA. Velvet\nB. Linen\nC. Cotton\nD. Polyester\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What type of fabric is the sofa made of?\n\nA. Velvet\nB. Linen\nC. Cotton\nD. Polyester\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What type of fabric is the sofa made of?\n\nA. Velvet\nB. Linen\nC. Cotton\nD. Polyester",
+      "response": "None"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What type of coffee machine is in the kitchen?",
+      "response": "N/A"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What type of coffee machine is in the kitchen?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What color is the upholstery of the king-size bed?\n\nA. Cream\nB. Light Brown\nC. Beige\nD. Dark Grey",
+      "response": "D"
+    }
+  ]
+}

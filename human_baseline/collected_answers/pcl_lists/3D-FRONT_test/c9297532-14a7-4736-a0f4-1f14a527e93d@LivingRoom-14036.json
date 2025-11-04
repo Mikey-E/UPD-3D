@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "c9297532-14a7-4736-a0f4-1f14a527e93d@LivingRoom-14036",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 4",
+  "timestamp": "2025-10-13T19:38:53.579191",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/c9297532-14a7-4736-a0f4-1f14a527e93d/LivingRoom-14036/LivingRoom-14036.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What color is the three-seat sofa in the living room?\n\nA. Light grey\nB. Walnut brown\nC. Light oak\nIf none of the above answers are correct, answer: 'F'",
+      "response": "A"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What color is the three-seat sofa in the living room?\n\nA. Light grey\nB. Walnut brown\nC. Light oak\nD. None of the above",
+      "response": "A"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What color is the three-seat sofa in the living room?\n\nA. Light grey\nB. Walnut brown\nC. Light oak",
+      "response": "A"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What color is the three-seat sofa in the living room?\n\nA. Jupiter\nB. Saturn\nC. Neptune\nD. Mars\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What color is the three-seat sofa in the living room?\n\nA. Jupiter\nB. Saturn\nC. Neptune\nD. Mars\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What color is the three-seat sofa in the living room?\n\nA. Jupiter\nB. Saturn\nC. Neptune\nD. Mars",
+      "response": "NONE"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What type of book is prominently featured in the living room?\n\nA. Mystery novel\nB. Travel guide\nC. Cookbook\nD. Science fiction\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What type of book is prominently featured in the living room?\n\nA. Mystery novel\nB. Travel guide\nC. Cookbook\nD. Science fiction\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What type of book is prominently featured in the living room?\n\nA. Mystery novel\nB. Travel guide\nC. Cookbook\nD. Science fiction",
+      "response": "NONE"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What type of rug is in the scene?",
+      "response": "NONE"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What type of rug is in the scene?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What color is the three-seat sofa in the living room?\n\nA. Light grey\nB. Taupe\nC. Walnut brown\nD. Light oak",
+      "response": "A"
+    }
+  ]
+}

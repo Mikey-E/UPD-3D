@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "e51a130c-ceed-40bf-830a-ca2b1f956e8a@LivingDiningRoom-171757",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 3",
+  "timestamp": "2025-10-26T15:54:22.033149",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/e51a130c-ceed-40bf-830a-ca2b1f956e8a/LivingDiningRoom-171757/LivingDiningRoom-171757.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What unique feature distinguishes the hanging chair in this living room?\n\nA. It has a crisscross base\nB. It has a marble-like surface\nC. It is made of glossy black material\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What unique feature distinguishes the hanging chair in this living room?\n\nA. It has a crisscross base\nB. It has a marble-like surface\nC. It is made of glossy black material\nD. None of the above",
+      "response": "D"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What unique feature distinguishes the hanging chair in this living room?\n\nA. It has a crisscross base\nB. It has a marble-like surface\nC. It is made of glossy black material",
+      "response": "NONE"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What unique feature distinguishes the hanging chair in this living room?\n\nA. Chocolate flavor\nB. Urban exploration\nC. Classical music\nD. Ancient civilizations\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What unique feature distinguishes the hanging chair in this living room?\n\nA. Chocolate flavor\nB. Urban exploration\nC. Classical music\nD. Ancient civilizations\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What unique feature distinguishes the hanging chair in this living room?\n\nA. Chocolate flavor\nB. Urban exploration\nC. Classical music\nD. Ancient civilizations",
+      "response": "NONE"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What type of lighting fixture is featured in the scene?\n\nA. Chandelier\nB. Floor lamp\nC. Pendant light\nD. Track lighting\nIf none of the above answers are correct, answer: 'F'",
+      "response": "A"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What type of lighting fixture is featured in the scene?\n\nA. Chandelier\nB. Floor lamp\nC. Pendant light\nD. Track lighting\nE. None of the above",
+      "response": "A"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What type of lighting fixture is featured in the scene?\n\nA. Chandelier\nB. Floor lamp\nC. Pendant light\nD. Track lighting",
+      "response": "A"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What type of exercise equipment is placed in the room?",
+      "response": "NA"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What type of exercise equipment is placed in the room?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What unique feature distinguishes the hanging chair in this living room?\n\nA. It introduces an Industrial style element\nB. It has a crisscross base\nC. It has a marble-like surface\nD. It is made of glossy black material",
+      "response": "A"
+    }
+  ]
+}

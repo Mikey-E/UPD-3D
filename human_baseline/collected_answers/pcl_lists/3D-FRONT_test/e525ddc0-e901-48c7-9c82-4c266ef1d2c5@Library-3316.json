@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "e525ddc0-e901-48c7-9c82-4c266ef1d2c5@Library-3316",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 3",
+  "timestamp": "2025-10-26T15:54:25.693404",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/e525ddc0-e901-48c7-9c82-4c266ef1d2c5/Library-3316/Library-3316.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What type of design does the desk in the library exhibit? \n\nA. Korean style\nB. Rustic charm\nC. Traditional style\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What type of design does the desk in the library exhibit? \n\nA. Korean style\nB. Rustic charm\nC. Traditional style\nD. None of the above",
+      "response": "D"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What type of design does the desk in the library exhibit? \n\nA. Korean style\nB. Rustic charm\nC. Traditional style",
+      "response": "None"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What type of design does the desk in the library exhibit? \n\nA. Bioluminescence\nB. Photosynthesis\nC. Thermodynamics\nD. Quantum mechanics\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What type of design does the desk in the library exhibit? \n\nA. Bioluminescence\nB. Photosynthesis\nC. Thermodynamics\nD. Quantum mechanics\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What type of design does the desk in the library exhibit? \n\nA. Bioluminescence\nB. Photosynthesis\nC. Thermodynamics\nD. Quantum mechanics",
+      "response": "None"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What shape is the coffee table in the room?\n\nA. Circular\nB. Oval\nC. Square\nD. Rectangular\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What shape is the coffee table in the room?\n\nA. Circular\nB. Oval\nC. Square\nD. Rectangular\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What shape is the coffee table in the room?\n\nA. Circular\nB. Oval\nC. Square\nD. Rectangular",
+      "response": "None"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What style is the chandelier in the library?",
+      "response": "N/A"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What style is the chandelier in the library?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What type of design does the desk in the library exhibit? \n\nA. Korean style\nB. Rustic charm\nC. Traditional style\nD. Minimalist design",
+      "response": "D"
+    }
+  ]
+}

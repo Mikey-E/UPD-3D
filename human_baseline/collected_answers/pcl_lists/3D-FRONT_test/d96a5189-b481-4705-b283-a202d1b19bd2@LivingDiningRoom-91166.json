@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "d96a5189-b481-4705-b283-a202d1b19bd2@LivingDiningRoom-91166",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 4",
+  "timestamp": "2025-10-18T15:38:16.320600",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/d96a5189-b481-4705-b283-a202d1b19bd2/LivingDiningRoom-91166/LivingDiningRoom-91166.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What style are the dining chairs that surround the dining table in the living room?\n\nA. Traditional Victorian style\nB. Scandinavian style\nC. Rustic Farmhouse style\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What style are the dining chairs that surround the dining table in the living room?\n\nA. Traditional Victorian style\nB. Scandinavian style\nC. Rustic Farmhouse style\nD. None of the above",
+      "response": "D"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What style are the dining chairs that surround the dining table in the living room?\n\nA. Traditional Victorian style\nB. Scandinavian style\nC. Rustic Farmhouse style",
+      "response": "None"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What style are the dining chairs that surround the dining table in the living room?\n\nA. Neolithic architecture\nB. Gothic literature\nC. Quantum mechanics\nD. Culinary arts\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What style are the dining chairs that surround the dining table in the living room?\n\nA. Neolithic architecture\nB. Gothic literature\nC. Quantum mechanics\nD. Culinary arts\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What style are the dining chairs that surround the dining table in the living room?\n\nA. Neolithic architecture\nB. Gothic literature\nC. Quantum mechanics\nD. Culinary arts",
+      "response": "None"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What shape is the rug in the room?\n\nA. Oval\nB. Rectangular\nC. Circular\nD. Square\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What shape is the rug in the room?\n\nA. Oval\nB. Rectangular\nC. Circular\nD. Square\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What shape is the rug in the room?\n\nA. Oval\nB. Rectangular\nC. Circular\nD. Square",
+      "response": "None"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What type of fireplace is located in this living room?",
+      "response": "Rustic Farmhouse style"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What type of fireplace is located in this living room?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What style are the dining chairs that surround the dining table in the living room?\n\nA. Traditional Victorian style\nB. Scandinavian style\nC. New Chinese style\nD. Rustic Farmhouse style",
+      "response": "C"
+    }
+  ]
+}

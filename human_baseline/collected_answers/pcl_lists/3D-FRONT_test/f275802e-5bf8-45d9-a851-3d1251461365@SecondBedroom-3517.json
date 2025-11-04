@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "f275802e-5bf8-45d9-a851-3d1251461365@SecondBedroom-3517",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 4",
+  "timestamp": "2025-10-29T09:53:41.216406",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/f275802e-5bf8-45d9-a851-3d1251461365/SecondBedroom-3517/SecondBedroom-3517.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What color is the headboard of the king-size bed?\n\nA. Gold\nB. Black\nC. Mustard yellow\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What color is the headboard of the king-size bed?\n\nA. Gold\nB. Black\nC. Mustard yellow\nD. None of the above",
+      "response": "D"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What color is the headboard of the king-size bed?\n\nA. Gold\nB. Black\nC. Mustard yellow",
+      "response": "None"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What color is the headboard of the king-size bed?\n\nA. Maple syrup\nB. Chocolate chip\nC. Apple pie\nD. Lemon meringue\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What color is the headboard of the king-size bed?\n\nA. Maple syrup\nB. Chocolate chip\nC. Apple pie\nD. Lemon meringue\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What color is the headboard of the king-size bed?\n\nA. Maple syrup\nB. Chocolate chip\nC. Apple pie\nD. Lemon meringue",
+      "response": "None"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What is the color of the sofa in the scene?\n\nA. Red\nB. Green\nC. Blue\nD. Yellow\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What is the color of the sofa in the scene?\n\nA. Red\nB. Green\nC. Blue\nD. Yellow\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What is the color of the sofa in the scene?\n\nA. Red\nB. Green\nC. Blue\nD. Yellow",
+      "response": "None"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What type of rug is placed in front of the bed?",
+      "response": "unanswerable"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What type of rug is placed in front of the bed?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What color is the headboard of the king-size bed?\n\nA. Gold\nB. Black\nC. Mustard yellow\nD. Charcoal-gray",
+      "response": "D"
+    }
+  ]
+}

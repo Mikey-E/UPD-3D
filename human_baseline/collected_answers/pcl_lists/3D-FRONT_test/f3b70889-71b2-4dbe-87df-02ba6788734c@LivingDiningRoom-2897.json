@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "f3b70889-71b2-4dbe-87df-02ba6788734c@LivingDiningRoom-2897",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 5",
+  "timestamp": "2025-10-29T16:20:06.832009",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/f3b70889-71b2-4dbe-87df-02ba6788734c/LivingDiningRoom-2897/LivingDiningRoom-2897.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What type of upholstery is used for the three-seat sofa in the living room?\n\nA. Cotton blend\nB. Deep velvet\nC. Textured fabric\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What type of upholstery is used for the three-seat sofa in the living room?\n\nA. Cotton blend\nB. Deep velvet\nC. Textured fabric\nD. None of the above",
+      "response": "d"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What type of upholstery is used for the three-seat sofa in the living room?\n\nA. Cotton blend\nB. Deep velvet\nC. Textured fabric",
+      "response": "none"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What type of upholstery is used for the three-seat sofa in the living room?\n\nA. Celestial navigation\nB. Quantum mechanics\nC. Ancient civilizations\nD. Marine biology\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What type of upholstery is used for the three-seat sofa in the living room?\n\nA. Celestial navigation\nB. Quantum mechanics\nC. Ancient civilizations\nD. Marine biology\nE. None of the above",
+      "response": "e"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What type of upholstery is used for the three-seat sofa in the living room?\n\nA. Celestial navigation\nB. Quantum mechanics\nC. Ancient civilizations\nD. Marine biology",
+      "response": "none"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "How many windows are in the living room?\n\nA. Five\nB. Two\nC. Three\nD. Four\nIf none of the above answers are correct, answer: 'F'",
+      "response": "b"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "How many windows are in the living room?\n\nA. Five\nB. Two\nC. Three\nD. Four\nE. None of the above",
+      "response": "b"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "How many windows are in the living room?\n\nA. Five\nB. Two\nC. Three\nD. Four",
+      "response": "b"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What type of sculpture is displayed on the walls?",
+      "response": "none"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What type of sculpture is displayed on the walls?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What type of upholstery is used for the three-seat sofa in the living room?\n\nA. Cotton blend\nB. Deep velvet\nC. Textured fabric\nD. Smooth leather",
+      "response": "d"
+    }
+  ]
+}

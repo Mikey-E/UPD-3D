@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "Tomato@8-25_1-55",
+  "dataset": "Crops3D_test",
+  "annotated_by": "User 5",
+  "timestamp": "2025-10-31T10:12:51.199168",
+  "file_path": "/project/3dllms/melgin/datasets/CEA/Crops3D/Tomato/8-25_1-55.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What characteristic of the tree allows it to appear feathery and multi-branching?\n\nA. The slender brown trunk\nB. The small evergreen nature\nC. The spreading branches\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What characteristic of the tree allows it to appear feathery and multi-branching?\n\nA. The slender brown trunk\nB. The small evergreen nature\nC. The spreading branches\nD. None of the above",
+      "response": "d"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What characteristic of the tree allows it to appear feathery and multi-branching?\n\nA. The slender brown trunk\nB. The small evergreen nature\nC. The spreading branches",
+      "response": "none"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What characteristic of the tree allows it to appear feathery and multi-branching?\n\nA. Chocolate flavor\nB. Classical music genre\nC. Digital storage capacity\nD. Quantum physics principle\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What characteristic of the tree allows it to appear feathery and multi-branching?\n\nA. Chocolate flavor\nB. Classical music genre\nC. Digital storage capacity\nD. Quantum physics principle\nE. None of the above",
+      "response": "e"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What characteristic of the tree allows it to appear feathery and multi-branching?\n\nA. Chocolate flavor\nB. Classical music genre\nC. Digital storage capacity\nD. Quantum physics principle",
+      "response": "none"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What shape is the table in the scene?\n\nA. Circular\nB. Rectangular\nC. Oval\nD. Square\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What shape is the table in the scene?\n\nA. Circular\nB. Rectangular\nC. Oval\nD. Square\nE. None of the above",
+      "response": "e"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What shape is the table in the scene?\n\nA. Circular\nB. Rectangular\nC. Oval\nD. Square",
+      "response": "none"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What type of flower is planted nearby?",
+      "response": "none"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What type of flower is planted nearby?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What characteristic of the tree allows it to appear feathery and multi-branching?\n\nA. The dense, bright green foliage\nB. The slender brown trunk\nC. The small evergreen nature\nD. The spreading branches",
+      "response": "a"
+    }
+  ]
+}

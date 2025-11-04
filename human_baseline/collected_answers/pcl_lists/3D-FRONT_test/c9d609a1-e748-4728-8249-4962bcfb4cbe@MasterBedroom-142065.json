@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "c9d609a1-e748-4728-8249-4962bcfb4cbe@MasterBedroom-142065",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 3",
+  "timestamp": "2025-10-14T00:13:19.685735",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/c9d609a1-e748-4728-8249-4962bcfb4cbe/MasterBedroom-142065/MasterBedroom-142065.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What color are the nightstands in the room?\n\nA. Golden-yellow\nB. Taupe\nC. Brown\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What color are the nightstands in the room?\n\nA. Golden-yellow\nB. Taupe\nC. Brown\nD. None of the above",
+      "response": "D"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What color are the nightstands in the room?\n\nA. Golden-yellow\nB. Taupe\nC. Brown",
+      "response": "None"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What color are the nightstands in the room?\n\nA. Elephant\nB. Galaxy\nC. Ocean\nD. Volcano\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What color are the nightstands in the room?\n\nA. Elephant\nB. Galaxy\nC. Ocean\nD. Volcano\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What color are the nightstands in the room?\n\nA. Elephant\nB. Galaxy\nC. Ocean\nD. Volcano",
+      "response": "None"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What type of bookshelf is used in the room?\n\nA. Floating bookshelf\nB. Corner bookshelf\nC. Tall bookshelf\nD. Ladder bookshelf\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What type of bookshelf is used in the room?\n\nA. Floating bookshelf\nB. Corner bookshelf\nC. Tall bookshelf\nD. Ladder bookshelf\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What type of bookshelf is used in the room?\n\nA. Floating bookshelf\nB. Corner bookshelf\nC. Tall bookshelf\nD. Ladder bookshelf",
+      "response": "N/A"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What type of artwork is hanging on the wall?",
+      "response": "N/A"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What type of artwork is hanging on the wall?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What color are the nightstands in the room?\n\nA. Golden-yellow\nB. Mustard yellow\nC. Taupe\nD. Brown",
+      "response": "Not available"
+    }
+  ]
+}

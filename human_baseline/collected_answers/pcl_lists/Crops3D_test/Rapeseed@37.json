@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "Rapeseed@37",
+  "dataset": "Crops3D_test",
+  "annotated_by": "User 5",
+  "timestamp": "2025-10-30T12:12:28.386634",
+  "file_path": "/project/3dllms/melgin/datasets/CEA/Crops3D/Rapeseed/37.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What distinctive feature does the potted plant showcase that contrasts with the pot it is in?\n\nA. A wooden stand underneath the pot\nB. Dark-colored flowers blooming\nC. A square-shaped pot\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What distinctive feature does the potted plant showcase that contrasts with the pot it is in?\n\nA. A wooden stand underneath the pot\nB. Dark-colored flowers blooming\nC. A square-shaped pot\nD. None of the above",
+      "response": "d"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What distinctive feature does the potted plant showcase that contrasts with the pot it is in?\n\nA. A wooden stand underneath the pot\nB. Dark-colored flowers blooming\nC. A square-shaped pot",
+      "response": "none"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What distinctive feature does the potted plant showcase that contrasts with the pot it is in?\n\nA. Ancient ruins\nB. Space exploration\nC. Quantum physics\nD. Underwater currents\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What distinctive feature does the potted plant showcase that contrasts with the pot it is in?\n\nA. Ancient ruins\nB. Space exploration\nC. Quantum physics\nD. Underwater currents\nE. None of the above",
+      "response": "e"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What distinctive feature does the potted plant showcase that contrasts with the pot it is in?\n\nA. Ancient ruins\nB. Space exploration\nC. Quantum physics\nD. Underwater currents",
+      "response": "none"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What style is the chair in the scene?\n\nA. Victorian\nB. Modernist\nC. Mid-century\nD. Rustic\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What style is the chair in the scene?\n\nA. Victorian\nB. Modernist\nC. Mid-century\nD. Rustic\nE. None of the above",
+      "response": "e"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What style is the chair in the scene?\n\nA. Victorian\nB. Modernist\nC. Mid-century\nD. Rustic",
+      "response": "none"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What type of furniture is placed directly above the potted plant?",
+      "response": "none"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What type of furniture is placed directly above the potted plant?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What distinctive feature does the potted plant showcase that contrasts with the pot it is in?\n\nA. A wooden stand underneath the pot\nB. Dark-colored flowers blooming\nC. A square-shaped pot\nD. Arching leaves over the rim of the pot",
+      "response": "d"
+    }
+  ]
+}

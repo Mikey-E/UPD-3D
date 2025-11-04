@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "d65507af-393d-47c1-9cc5-aa68c6d2365d@DiningRoom-2240",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 5",
+  "timestamp": "2025-10-25T12:09:14.660258",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/d65507af-393d-47c1-9cc5-aa68c6d2365d/DiningRoom-2240/DiningRoom-2240.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What style is the pendant lamp that hangs above the dining table?\n\nA. New Chinese style\nB. Rustic style\nC. Modern style\nIf none of the above answers are correct, answer: 'F'",
+      "response": "c"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What style is the pendant lamp that hangs above the dining table?\n\nA. New Chinese style\nB. Rustic style\nC. Modern style\nD. None of the above",
+      "response": "c"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What style is the pendant lamp that hangs above the dining table?\n\nA. New Chinese style\nB. Rustic style\nC. Modern style",
+      "response": "c"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What style is the pendant lamp that hangs above the dining table?\n\nA. Blue whale\nB. Red fox\nC. Green dragon\nD. Yellow giraffe\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What style is the pendant lamp that hangs above the dining table?\n\nA. Blue whale\nB. Red fox\nC. Green dragon\nD. Yellow giraffe\nE. None of the above",
+      "response": "e"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What style is the pendant lamp that hangs above the dining table?\n\nA. Blue whale\nB. Red fox\nC. Green dragon\nD. Yellow giraffe",
+      "response": "none"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What type of flooring is used in the scene?\n\nA. Hardwood\nB. Carpet\nC. Tiles\nD. Bamboo\nIf none of the above answers are correct, answer: 'F'",
+      "response": "b"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What type of flooring is used in the scene?\n\nA. Hardwood\nB. Carpet\nC. Tiles\nD. Bamboo\nE. None of the above",
+      "response": "b"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What type of flooring is used in the scene?\n\nA. Hardwood\nB. Carpet\nC. Tiles\nD. Bamboo",
+      "response": "b"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What type of microwave is used for cooking in this room?",
+      "response": "none"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What type of microwave is used for cooking in this room?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What style is the pendant lamp that hangs above the dining table?\n\nA. New Chinese style\nB. Korean style\nC. Rustic style\nD. Modern style",
+      "response": "d"
+    }
+  ]
+}

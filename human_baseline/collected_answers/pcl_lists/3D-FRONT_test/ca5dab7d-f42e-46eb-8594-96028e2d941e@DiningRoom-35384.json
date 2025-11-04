@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "ca5dab7d-f42e-46eb-8594-96028e2d941e@DiningRoom-35384",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 5",
+  "timestamp": "2025-10-14T11:11:46.129967",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/ca5dab7d-f42e-46eb-8594-96028e2d941e/DiningRoom-35384/DiningRoom-35384.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What color is the finish of the jewelry armoire in the DiningRoom?\n\nA. Deep blue\nB. Bright white\nC. Glossy red\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What color is the finish of the jewelry armoire in the DiningRoom?\n\nA. Deep blue\nB. Bright white\nC. Glossy red\nD. None of the above",
+      "response": "d"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What color is the finish of the jewelry armoire in the DiningRoom?\n\nA. Deep blue\nB. Bright white\nC. Glossy red",
+      "response": "none of these"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What color is the finish of the jewelry armoire in the DiningRoom?\n\nA. Mountain range\nB. Ocean wave\nC. City skyline\nD. Desert landscape\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What color is the finish of the jewelry armoire in the DiningRoom?\n\nA. Mountain range\nB. Ocean wave\nC. City skyline\nD. Desert landscape\nE. None of the above",
+      "response": "e"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What color is the finish of the jewelry armoire in the DiningRoom?\n\nA. Mountain range\nB. Ocean wave\nC. City skyline\nD. Desert landscape",
+      "response": "none of these"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What type of sculpture is prominently featured in the scene?\n\nA. Abstract sculpture\nB. Bust sculpture\nC. Kinetic sculpture\nD. Figurative sculpture\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What type of sculpture is prominently featured in the scene?\n\nA. Abstract sculpture\nB. Bust sculpture\nC. Kinetic sculpture\nD. Figurative sculpture\nE. None of the above",
+      "response": "e"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What type of sculpture is prominently featured in the scene?\n\nA. Abstract sculpture\nB. Bust sculpture\nC. Kinetic sculpture\nD. Figurative sculpture",
+      "response": "none of these"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What type of outdoor grill is used in the room?",
+      "response": "unanswerable"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What type of outdoor grill is used in the room?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What color is the finish of the jewelry armoire in the DiningRoom?\n\nA. Deep blue\nB. Bright white\nC. Matte black and wood\nD. Glossy red",
+      "response": "none of the above"
+    }
+  ]
+}

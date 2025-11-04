@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "f105dd34-bc81-432e-83bd-314087015257@Bedroom-97",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 4",
+  "timestamp": "2025-10-28T21:28:43.595976",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/f105dd34-bc81-432e-83bd-314087015257/Bedroom-97/Bedroom-97.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What style is the wardrobe in this bedroom designed to reflect?\n\nA. Rustic\nB. Industrial\nC. Art Deco\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What style is the wardrobe in this bedroom designed to reflect?\n\nA. Rustic\nB. Industrial\nC. Art Deco\nD. None of the above",
+      "response": "D"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What style is the wardrobe in this bedroom designed to reflect?\n\nA. Rustic\nB. Industrial\nC. Art Deco",
+      "response": "None"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What style is the wardrobe in this bedroom designed to reflect?\n\nA. Historical significance\nB. Cinematic techniques\nC. Renewable energy sources\nD. Ancient civilizations\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What style is the wardrobe in this bedroom designed to reflect?\n\nA. Historical significance\nB. Cinematic techniques\nC. Renewable energy sources\nD. Ancient civilizations\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What style is the wardrobe in this bedroom designed to reflect?\n\nA. Historical significance\nB. Cinematic techniques\nC. Renewable energy sources\nD. Ancient civilizations",
+      "response": "None"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What type of window treatments are used in the scene?\n\nA. Sheer curtains\nB. Wooden blinds\nC. Roman shades\nD. Drapes\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What type of window treatments are used in the scene?\n\nA. Sheer curtains\nB. Wooden blinds\nC. Roman shades\nD. Drapes\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What type of window treatments are used in the scene?\n\nA. Sheer curtains\nB. Wooden blinds\nC. Roman shades\nD. Drapes",
+      "response": "None"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What type of exercise equipment is located in the room?",
+      "response": "unanswerable"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What type of exercise equipment is located in the room?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What style is the wardrobe in this bedroom designed to reflect?\n\nA. Rustic\nB. Industrial\nC. Japanese-inspired\nD. Art Deco",
+      "response": "C"
+    }
+  ]
+}

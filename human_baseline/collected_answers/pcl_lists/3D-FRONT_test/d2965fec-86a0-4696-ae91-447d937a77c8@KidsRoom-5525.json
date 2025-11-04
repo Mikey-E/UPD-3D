@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "d2965fec-86a0-4696-ae91-447d937a77c8@KidsRoom-5525",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 4",
+  "timestamp": "2025-10-15T15:52:55.778700",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/d2965fec-86a0-4696-ae91-447d937a77c8/KidsRoom-5525/KidsRoom-5525.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What style is the dressing table in the KidsRoom described as?\n\nA. Japanese\nB. Vintage\nC. Modern\nIf none of the above answers are correct, answer: 'F'",
+      "response": "c"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What style is the dressing table in the KidsRoom described as?\n\nA. Japanese\nB. Vintage\nC. Modern\nD. None of the above",
+      "response": "c"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What style is the dressing table in the KidsRoom described as?\n\nA. Japanese\nB. Vintage\nC. Modern",
+      "response": "none"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What style is the dressing table in the KidsRoom described as?\n\nA. Carousel\nB. Waterfall\nC. Glacier\nD. Volcano\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What style is the dressing table in the KidsRoom described as?\n\nA. Carousel\nB. Waterfall\nC. Glacier\nD. Volcano\nE. None of the above",
+      "response": "e"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What style is the dressing table in the KidsRoom described as?\n\nA. Carousel\nB. Waterfall\nC. Glacier\nD. Volcano",
+      "response": "none"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What is the shape of the rug in the KidsRoom?\n\nA. Circle\nB. Rectangle\nC. Square\nD. Oval\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What is the shape of the rug in the KidsRoom?\n\nA. Circle\nB. Rectangle\nC. Square\nD. Oval\nE. None of the above",
+      "response": "e"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What is the shape of the rug in the KidsRoom?\n\nA. Circle\nB. Rectangle\nC. Square\nD. Oval",
+      "response": "none"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What type of musical instrument is placed in the corner of the room?",
+      "response": "n/a"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What type of musical instrument is placed in the corner of the room?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What style is the dressing table in the KidsRoom described as?\n\nA. Korean\nB. Japanese\nC. Vintage\nD. Modern",
+      "response": "d"
+    }
+  ]
+}

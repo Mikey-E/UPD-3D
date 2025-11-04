@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "f7bb4bf9-394a-469b-9256-252b05235538@Bedroom-22136",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 3",
+  "timestamp": "2025-10-30T00:13:12.987278",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/f7bb4bf9-394a-469b-9256-252b05235538/Bedroom-22136/Bedroom-22136.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What style is the desk designed in?\n\nA. Mediterranean\nB. Korean\nC. Modern\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What style is the desk designed in?\n\nA. Mediterranean\nB. Korean\nC. Modern\nD. None of the above",
+      "response": "D"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What style is the desk designed in?\n\nA. Mediterranean\nB. Korean\nC. Modern",
+      "response": "NONE"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What style is the desk designed in?\n\nA. Classical music\nB. Hard rock\nC. Hip hop\nD. Jazz\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What style is the desk designed in?\n\nA. Classical music\nB. Hard rock\nC. Hip hop\nD. Jazz\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What style is the desk designed in?\n\nA. Classical music\nB. Hard rock\nC. Hip hop\nD. Jazz",
+      "response": "NONE"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What type of window treatment is used in the scene?\n\nA. Blinds\nB. Curtains\nC. Shades\nD. Sheers\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What type of window treatment is used in the scene?\n\nA. Blinds\nB. Curtains\nC. Shades\nD. Sheers\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What type of window treatment is used in the scene?\n\nA. Blinds\nB. Curtains\nC. Shades\nD. Sheers",
+      "response": "NA"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What type of garden tools are stored in the room?",
+      "response": "NA"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What type of garden tools are stored in the room?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What style is the desk designed in?\n\nA. Mediterranean\nB. Light Luxury\nC. Korean\nD. Modern",
+      "response": "B"
+    }
+  ]
+}

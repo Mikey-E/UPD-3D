@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "fe4aa477-9203-4c50-a540-e1bbdf2d9fec@SecondBedroom-3766",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 3",
+  "timestamp": "2025-10-31T01:08:07.075615",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/fe4aa477-9203-4c50-a540-e1bbdf2d9fec/SecondBedroom-3766/SecondBedroom-3766.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What is the color of the wardrobe in the Second bedroom?\n\nA. Dark grey\nB. Chocolate brown\nC. Walnut brown\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What is the color of the wardrobe in the Second bedroom?\n\nA. Dark grey\nB. Chocolate brown\nC. Walnut brown\nD. None of the above",
+      "response": "D"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What is the color of the wardrobe in the Second bedroom?\n\nA. Dark grey\nB. Chocolate brown\nC. Walnut brown",
+      "response": "NONE"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What is the color of the wardrobe in the Second bedroom?\n\nA. Mountain\nB. Ocean\nC. Desert\nD. Forest\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What is the color of the wardrobe in the Second bedroom?\n\nA. Mountain\nB. Ocean\nC. Desert\nD. Forest\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What is the color of the wardrobe in the Second bedroom?\n\nA. Mountain\nB. Ocean\nC. Desert\nD. Forest",
+      "response": "NONE"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What is the function of the staircase in the scene?\n\nA. It provides access to another level\nB. It acts as a decorative piece\nC. It connects different rooms\nD. It leads to an outdoor area\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What is the function of the staircase in the scene?\n\nA. It provides access to another level\nB. It acts as a decorative piece\nC. It connects different rooms\nD. It leads to an outdoor area\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What is the function of the staircase in the scene?\n\nA. It provides access to another level\nB. It acts as a decorative piece\nC. It connects different rooms\nD. It leads to an outdoor area",
+      "response": "NA"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What type of gym equipment is in the room?",
+      "response": "NA"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What type of gym equipment is in the room?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What is the color of the wardrobe in the Second bedroom?\n\nA. Dark grey\nB. Chocolate brown\nC. Matte black\nD. Walnut brown",
+      "response": "C"
+    }
+  ]
+}

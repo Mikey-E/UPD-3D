@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "de7f5810-bcd8-4eae-889c-ea51d11640a2@LivingDiningRoom-21284",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 4",
+  "timestamp": "2025-10-24T16:18:03.715708",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/de7f5810-bcd8-4eae-889c-ea51d11640a2/LivingDiningRoom-21284/LivingDiningRoom-21284.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What color is the upholstery of the three-seat sofa?\n\nA. Dark grey\nB. White\nC. Deep brown\nIf none of the above answers are correct, answer: 'F'",
+      "response": "a"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What color is the upholstery of the three-seat sofa?\n\nA. Dark grey\nB. White\nC. Deep brown\nD. None of the above",
+      "response": "a"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What color is the upholstery of the three-seat sofa?\n\nA. Dark grey\nB. White\nC. Deep brown",
+      "response": "a"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What color is the upholstery of the three-seat sofa?\n\nA. Caterpillar\nB. Oak tree\nC. Ocean wave\nD. Mountain peak\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What color is the upholstery of the three-seat sofa?\n\nA. Caterpillar\nB. Oak tree\nC. Ocean wave\nD. Mountain peak\nE. None of the above",
+      "response": "e"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What color is the upholstery of the three-seat sofa?\n\nA. Caterpillar\nB. Oak tree\nC. Ocean wave\nD. Mountain peak",
+      "response": "none"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What shape is the carpet in the scene?\n\nA. Circular\nB. Square\nC. Rectangular\nD. Oval\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What shape is the carpet in the scene?\n\nA. Circular\nB. Square\nC. Rectangular\nD. Oval\nE. None of the above",
+      "response": "e"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What shape is the carpet in the scene?\n\nA. Circular\nB. Square\nC. Rectangular\nD. Oval",
+      "response": "none"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What type of piano is situated in the corner of the room?",
+      "response": "unanswerable"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What type of piano is situated in the corner of the room?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What color is the upholstery of the three-seat sofa?\n\nA. Light grey\nB. Dark grey\nC. White\nD. Deep brown",
+      "response": "b"
+    }
+  ]
+}

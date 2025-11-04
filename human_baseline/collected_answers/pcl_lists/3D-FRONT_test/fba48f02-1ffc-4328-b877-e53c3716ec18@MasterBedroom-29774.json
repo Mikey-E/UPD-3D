@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "fba48f02-1ffc-4328-b877-e53c3716ec18@MasterBedroom-29774",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 3",
+  "timestamp": "2025-10-30T16:19:19.182688",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/fba48f02-1ffc-4328-b877-e53c3716ec18/MasterBedroom-29774/MasterBedroom-29774.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What style does the second dressing table share with the single bed?\n\nA. Modern industrial style\nB. American Country style\nC. Minimalist design\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What style does the second dressing table share with the single bed?\n\nA. Modern industrial style\nB. American Country style\nC. Minimalist design\nD. None of the above",
+      "response": "D"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What style does the second dressing table share with the single bed?\n\nA. Modern industrial style\nB. American Country style\nC. Minimalist design",
+      "response": "NONE"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What style does the second dressing table share with the single bed?\n\nA. Renaissance\nB. Impressionism\nC. Baroque\nD. Cubism\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What style does the second dressing table share with the single bed?\n\nA. Renaissance\nB. Impressionism\nC. Baroque\nD. Cubism\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What style does the second dressing table share with the single bed?\n\nA. Renaissance\nB. Impressionism\nC. Baroque\nD. Cubism",
+      "response": "NONE"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What is the height of the ceiling in the room?\n\nA. 10 feet\nB. 12 feet\nC. 8 feet\nD. 15 feet\nIf none of the above answers are correct, answer: 'F'",
+      "response": "C"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What is the height of the ceiling in the room?\n\nA. 10 feet\nB. 12 feet\nC. 8 feet\nD. 15 feet\nE. None of the above",
+      "response": "C"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What is the height of the ceiling in the room?\n\nA. 10 feet\nB. 12 feet\nC. 8 feet\nD. 15 feet",
+      "response": "C"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What type of cooking appliance is located in the room?",
+      "response": "NA"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What type of cooking appliance is located in the room?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What style does the second dressing table share with the single bed?\n\nA. Southeast Asian style\nB. Modern industrial style\nC. American Country style\nD. Minimalist design",
+      "response": "A"
+    }
+  ]
+}

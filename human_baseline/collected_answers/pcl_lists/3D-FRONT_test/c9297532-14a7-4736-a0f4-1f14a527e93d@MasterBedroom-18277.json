@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "c9297532-14a7-4736-a0f4-1f14a527e93d@MasterBedroom-18277",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 4",
+  "timestamp": "2025-10-13T19:39:48.970337",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/c9297532-14a7-4736-a0f4-1f14a527e93d/MasterBedroom-18277/MasterBedroom-18277.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What is the color of the wardrobe in the room?\n\nA. Dark gray\nB. Polished wood\nC. Bright blue\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What is the color of the wardrobe in the room?\n\nA. Dark gray\nB. Polished wood\nC. Bright blue\nD. None of the above",
+      "response": "D"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What is the color of the wardrobe in the room?\n\nA. Dark gray\nB. Polished wood\nC. Bright blue",
+      "response": "NONE"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What is the color of the wardrobe in the room?\n\nA. Feline\nB. Canine\nC. Avian\nD. Reptilian\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What is the color of the wardrobe in the room?\n\nA. Feline\nB. Canine\nC. Avian\nD. Reptilian\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What is the color of the wardrobe in the room?\n\nA. Feline\nB. Canine\nC. Avian\nD. Reptilian",
+      "response": "NONE"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What type of lighting is used above the dining table?\n\nA. Chandeliers\nB. Pendant lights\nC. Recessed lighting\nD. Wall sconces\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What type of lighting is used above the dining table?\n\nA. Chandeliers\nB. Pendant lights\nC. Recessed lighting\nD. Wall sconces\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What type of lighting is used above the dining table?\n\nA. Chandeliers\nB. Pendant lights\nC. Recessed lighting\nD. Wall sconces",
+      "response": "NONE"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What type of chandelier is hanging from the ceiling?",
+      "response": "NONE"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What type of chandelier is hanging from the ceiling?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What is the color of the wardrobe in the room?\n\nA. Soft white\nB. Dark gray\nC. Polished wood\nD. Bright blue",
+      "response": "A"
+    }
+  ]
+}

@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "ef9629cf-ad17-4e77-9c95-f0cfbd2d9b04@MasterBedroom-18203",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 3",
+  "timestamp": "2025-10-28T16:27:02.737594",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/ef9629cf-ad17-4e77-9c95-f0cfbd2d9b04/MasterBedroom-18203/MasterBedroom-18203.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What is the furniture piece that contrasts with the modern aesthetic of the king-size bed in the Masterbedroom?\n\nA. King-size bed\nB. TV stand\nC. Pendant lamp\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What is the furniture piece that contrasts with the modern aesthetic of the king-size bed in the Masterbedroom?\n\nA. King-size bed\nB. TV stand\nC. Pendant lamp\nD. None of the above",
+      "response": "D"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What is the furniture piece that contrasts with the modern aesthetic of the king-size bed in the Masterbedroom?\n\nA. King-size bed\nB. TV stand\nC. Pendant lamp",
+      "response": "None"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What is the furniture piece that contrasts with the modern aesthetic of the king-size bed in the Masterbedroom?\n\nA. Tranquility\nB. Harmony\nC. Conflict\nD. Dissonance\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What is the furniture piece that contrasts with the modern aesthetic of the king-size bed in the Masterbedroom?\n\nA. Tranquility\nB. Harmony\nC. Conflict\nD. Dissonance\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What is the furniture piece that contrasts with the modern aesthetic of the king-size bed in the Masterbedroom?\n\nA. Tranquility\nB. Harmony\nC. Conflict\nD. Dissonance",
+      "response": "None"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What shape is the coffee table?\n\nA. Round\nB. Square\nC. Oval\nD. Rectangular\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What shape is the coffee table?\n\nA. Round\nB. Square\nC. Oval\nD. Rectangular\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What shape is the coffee table?\n\nA. Round\nB. Square\nC. Oval\nD. Rectangular",
+      "response": "None"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What type of exercise equipment is located in this bedroom?",
+      "response": "N/A"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What type of exercise equipment is located in this bedroom?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What is the furniture piece that contrasts with the modern aesthetic of the king-size bed in the Masterbedroom?\n\nA. King-size bed\nB. TV stand\nC. Wardrobe\nD. Pendant lamp",
+      "response": "C"
+    }
+  ]
+}

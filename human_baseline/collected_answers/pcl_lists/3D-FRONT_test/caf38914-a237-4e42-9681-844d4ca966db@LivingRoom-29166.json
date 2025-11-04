@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "caf38914-a237-4e42-9681-844d4ca966db@LivingRoom-29166",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 3",
+  "timestamp": "2025-10-14T11:23:08.644049",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/caf38914-a237-4e42-9681-844d4ca966db/LivingRoom-29166/LivingRoom-29166.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What color is the three-seat sofa in the living room?\n\nA. Grey\nB. Black\nC. White\nIf none of the above answers are correct, answer: 'F'",
+      "response": "A"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What color is the three-seat sofa in the living room?\n\nA. Grey\nB. Black\nC. White\nD. None of the above",
+      "response": "A"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What color is the three-seat sofa in the living room?\n\nA. Grey\nB. Black\nC. White",
+      "response": "A"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What color is the three-seat sofa in the living room?\n\nA. Hydrogen\nB. Gravity\nC. Evolution\nD. Photosynthesis\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What color is the three-seat sofa in the living room?\n\nA. Hydrogen\nB. Gravity\nC. Evolution\nD. Photosynthesis\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What color is the three-seat sofa in the living room?\n\nA. Hydrogen\nB. Gravity\nC. Evolution\nD. Photosynthesis",
+      "response": "None"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What kind of artwork is displayed on the wall?\n\nA. Abstract painting\nB. Landscape photograph\nC. Historical mural\nD. Digital art piece\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What kind of artwork is displayed on the wall?\n\nA. Abstract painting\nB. Landscape photograph\nC. Historical mural\nD. Digital art piece\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What kind of artwork is displayed on the wall?\n\nA. Abstract painting\nB. Landscape photograph\nC. Historical mural\nD. Digital art piece",
+      "response": "None"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What color is the rug in the living room?",
+      "response": "N/A"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What color is the rug in the living room?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What color is the three-seat sofa in the living room?\n\nA. Grey\nB. Black\nC. White\nD. Beige",
+      "response": "D"
+    }
+  ]
+}

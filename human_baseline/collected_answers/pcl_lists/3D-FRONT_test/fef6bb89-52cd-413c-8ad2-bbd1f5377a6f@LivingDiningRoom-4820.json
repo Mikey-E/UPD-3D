@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "fef6bb89-52cd-413c-8ad2-bbd1f5377a6f@LivingDiningRoom-4820",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 3",
+  "timestamp": "2025-10-31T08:10:02.680231",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/fef6bb89-52cd-413c-8ad2-bbd1f5377a6f/LivingDiningRoom-4820/LivingDiningRoom-4820.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What type of design does the sideboard in the living room feature?\n\nA. Industrial design with metal finishes\nB. Mediterranean design with bright colors\nC. Rustic design with wooden elements\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What type of design does the sideboard in the living room feature?\n\nA. Industrial design with metal finishes\nB. Mediterranean design with bright colors\nC. Rustic design with wooden elements\nD. None of the above",
+      "response": "D"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What type of design does the sideboard in the living room feature?\n\nA. Industrial design with metal finishes\nB. Mediterranean design with bright colors\nC. Rustic design with wooden elements",
+      "response": "None"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What type of design does the sideboard in the living room feature?\n\nA. Cactus\nB. River\nC. Mountain\nD. Ocean\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What type of design does the sideboard in the living room feature?\n\nA. Cactus\nB. River\nC. Mountain\nD. Ocean\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What type of design does the sideboard in the living room feature?\n\nA. Cactus\nB. River\nC. Mountain\nD. Ocean",
+      "response": "None"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What pattern does the wall follow in this living room?\n\nA. Geometric shapes\nB. Floral designs\nC. Stripes\nD. Polka dots\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What pattern does the wall follow in this living room?\n\nA. Geometric shapes\nB. Floral designs\nC. Stripes\nD. Polka dots\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What pattern does the wall follow in this living room?\n\nA. Geometric shapes\nB. Floral designs\nC. Stripes\nD. Polka dots",
+      "response": "None"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What color is the chandelier hanging from the ceiling?",
+      "response": "Modern"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What color is the chandelier hanging from the ceiling?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "Modern"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What type of design does the sideboard in the living room feature?\n\nA. Industrial design with metal finishes\nB. Mediterranean design with bright colors\nC. Rustic design with wooden elements\nD. Japanese design with a marbled texture",
+      "response": "D"
+    }
+  ]
+}

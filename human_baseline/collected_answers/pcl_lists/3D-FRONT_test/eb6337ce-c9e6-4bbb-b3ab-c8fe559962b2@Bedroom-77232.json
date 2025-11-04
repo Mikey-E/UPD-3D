@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "eb6337ce-c9e6-4bbb-b3ab-c8fe559962b2@Bedroom-77232",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 4",
+  "timestamp": "2025-10-27T15:26:58.786040",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/eb6337ce-c9e6-4bbb-b3ab-c8fe559962b2/Bedroom-77232/Bedroom-77232.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What type of plant is present in the bedroom?\n\nA. Fern plant\nB. Cactus\nC. Orchid\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What type of plant is present in the bedroom?\n\nA. Fern plant\nB. Cactus\nC. Orchid\nD. None of the above",
+      "response": "D"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What type of plant is present in the bedroom?\n\nA. Fern plant\nB. Cactus\nC. Orchid",
+      "response": "None"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What type of plant is present in the bedroom?\n\nA. Basketball\nB. Violin\nC. Computer\nD. Refrigerator\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What type of plant is present in the bedroom?\n\nA. Basketball\nB. Violin\nC. Computer\nD. Refrigerator\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What type of plant is present in the bedroom?\n\nA. Basketball\nB. Violin\nC. Computer\nD. Refrigerator",
+      "response": "None"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What type of fabric is used for the curtains in the scene?\n\nA. Silk\nB. Cotton\nC. Velvet\nD. Lace\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What type of fabric is used for the curtains in the scene?\n\nA. Silk\nB. Cotton\nC. Velvet\nD. Lace\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What type of fabric is used for the curtains in the scene?\n\nA. Silk\nB. Cotton\nC. Velvet\nD. Lace",
+      "response": "None"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What type of antique clock is displayed on the wall?",
+      "response": "unanswerable"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What type of antique clock is displayed on the wall?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What type of plant is present in the bedroom?\n\nA. Fern plant\nB. Bamboo plant\nC. Cactus\nD. Orchid",
+      "response": "B"
+    }
+  ]
+}

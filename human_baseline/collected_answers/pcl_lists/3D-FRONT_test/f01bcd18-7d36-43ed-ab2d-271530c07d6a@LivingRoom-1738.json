@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "f01bcd18-7d36-43ed-ab2d-271530c07d6a@LivingRoom-1738",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 3",
+  "timestamp": "2025-10-28T16:36:00.835461",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/f01bcd18-7d36-43ed-ab2d-271530c07d6a/LivingRoom-1738/LivingRoom-1738.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What design style is the three-seat sofa primarily associated with in the living room description?\n\nA. Industrial\nB. Vintage/Retro\nC. American Country\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What design style is the three-seat sofa primarily associated with in the living room description?\n\nA. Industrial\nB. Vintage/Retro\nC. American Country\nD. None of the above",
+      "response": "D"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What design style is the three-seat sofa primarily associated with in the living room description?\n\nA. Industrial\nB. Vintage/Retro\nC. American Country",
+      "response": "None"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What design style is the three-seat sofa primarily associated with in the living room description?\n\nA. Chloroplast structure\nB. Photosynthesis process\nC. Mitochondrial function\nD. Cellular respiration mechanism\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What design style is the three-seat sofa primarily associated with in the living room description?\n\nA. Chloroplast structure\nB. Photosynthesis process\nC. Mitochondrial function\nD. Cellular respiration mechanism\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What design style is the three-seat sofa primarily associated with in the living room description?\n\nA. Chloroplast structure\nB. Photosynthesis process\nC. Mitochondrial function\nD. Cellular respiration mechanism",
+      "response": "None"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What type of painting is featured on the wall?\n\nA. Landscape\nB. Abstract\nC. Portrait\nD. Still Life\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What type of painting is featured on the wall?\n\nA. Landscape\nB. Abstract\nC. Portrait\nD. Still Life\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What type of painting is featured on the wall?\n\nA. Landscape\nB. Abstract\nC. Portrait\nD. Still Life",
+      "response": "None"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What is the material of the rug that is not visible in the living room?",
+      "response": "N/A"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What is the material of the rug that is not visible in the living room?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What design style is the three-seat sofa primarily associated with in the living room description?\n\nA. Minimalist\nB. Industrial\nC. Vintage/Retro\nD. American Country",
+      "response": "A"
+    }
+  ]
+}

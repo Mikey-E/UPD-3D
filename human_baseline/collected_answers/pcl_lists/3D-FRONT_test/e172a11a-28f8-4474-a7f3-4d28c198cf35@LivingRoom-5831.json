@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "e172a11a-28f8-4474-a7f3-4d28c198cf35@LivingRoom-5831",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 5",
+  "timestamp": "2025-10-24T22:45:22.110352",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/e172a11a-28f8-4474-a7f3-4d28c198cf35/LivingRoom-5831/LivingRoom-5831.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What type of finish does the wardrobe in the living room have?\n\nA. Black finish\nB. Deep espresso brown finish\nC. Sleek marble finish\nIf none of the above answers are correct, answer: 'F'",
+      "response": "a"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What type of finish does the wardrobe in the living room have?\n\nA. Black finish\nB. Deep espresso brown finish\nC. Sleek marble finish\nD. None of the above",
+      "response": "a"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What type of finish does the wardrobe in the living room have?\n\nA. Black finish\nB. Deep espresso brown finish\nC. Sleek marble finish",
+      "response": "a"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What type of finish does the wardrobe in the living room have?\n\nA. Limoncello\nB. Trampoline\nC. Kaleidoscope\nD. Octopus\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What type of finish does the wardrobe in the living room have?\n\nA. Limoncello\nB. Trampoline\nC. Kaleidoscope\nD. Octopus\nE. None of the above",
+      "response": "e"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What type of finish does the wardrobe in the living room have?\n\nA. Limoncello\nB. Trampoline\nC. Kaleidoscope\nD. Octopus",
+      "response": "none"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What style of chair is featured in the scene?\n\nA. Swivel chair\nB. Rocking chair\nC. Recliner\nD. Lounge chair\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What style of chair is featured in the scene?\n\nA. Swivel chair\nB. Rocking chair\nC. Recliner\nD. Lounge chair\nE. None of the above",
+      "response": "e"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What style of chair is featured in the scene?\n\nA. Swivel chair\nB. Rocking chair\nC. Recliner\nD. Lounge chair",
+      "response": "none"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What color is the rug that lies underneath the coffee table?",
+      "response": "none"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What color is the rug that lies underneath the coffee table?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What type of finish does the wardrobe in the living room have?\n\nA. Black finish\nB. Deep espresso brown finish\nC. Charcoal grey with glass finish\nD. Sleek marble finish",
+      "response": "a"
+    }
+  ]
+}

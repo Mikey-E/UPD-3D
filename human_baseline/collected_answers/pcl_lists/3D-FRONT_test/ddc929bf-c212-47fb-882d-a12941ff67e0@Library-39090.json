@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "ddc929bf-c212-47fb-882d-a12941ff67e0@Library-39090",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 4",
+  "timestamp": "2025-10-24T15:41:25.210611",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/ddc929bf-c212-47fb-882d-a12941ff67e0/Library-39090/Library-39090.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What style are the lounge chairs in the library described as?\n\nA. Japanese minimalism\nB. Industrial chic\nC. Modern Scandinavian\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What style are the lounge chairs in the library described as?\n\nA. Japanese minimalism\nB. Industrial chic\nC. Modern Scandinavian\nD. None of the above",
+      "response": "d"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What style are the lounge chairs in the library described as?\n\nA. Japanese minimalism\nB. Industrial chic\nC. Modern Scandinavian",
+      "response": "none"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What style are the lounge chairs in the library described as?\n\nA. Chocolate chip cookie\nB. Blueberry muffin\nC. Cinnamon roll\nD. Apple pie\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What style are the lounge chairs in the library described as?\n\nA. Chocolate chip cookie\nB. Blueberry muffin\nC. Cinnamon roll\nD. Apple pie\nE. None of the above",
+      "response": "e"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What style are the lounge chairs in the library described as?\n\nA. Chocolate chip cookie\nB. Blueberry muffin\nC. Cinnamon roll\nD. Apple pie",
+      "response": "none"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What is the height of the doorway in the scene?\n\nA. 6 feet\nB. 8 feet\nC. 10 feet\nD. 12 feet\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What is the height of the doorway in the scene?\n\nA. 6 feet\nB. 8 feet\nC. 10 feet\nD. 12 feet\nE. None of the above",
+      "response": "e"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What is the height of the doorway in the scene?\n\nA. 6 feet\nB. 8 feet\nC. 10 feet\nD. 12 feet",
+      "response": "none"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What type of dining table is included in the room?",
+      "response": "n/a"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What type of dining table is included in the room?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What style are the lounge chairs in the library described as?\n\nA. Japanese minimalism\nB. Industrial chic\nC. Modern Scandinavian\nD. Ming Qing style",
+      "response": "d"
+    }
+  ]
+}

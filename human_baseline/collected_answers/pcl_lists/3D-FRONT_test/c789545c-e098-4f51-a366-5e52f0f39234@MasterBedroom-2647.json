@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "c789545c-e098-4f51-a366-5e52f0f39234@MasterBedroom-2647",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 4",
+  "timestamp": "2025-10-10T15:39:55.257339",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/c789545c-e098-4f51-a366-5e52f0f39234/MasterBedroom-2647/MasterBedroom-2647.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What color is the wardrobe in the Masterbedroom?\n\nA. Light blue\nB. Bright white\nC. Dark brown\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What color is the wardrobe in the Masterbedroom?\n\nA. Light blue\nB. Bright white\nC. Dark brown\nD. None of the above",
+      "response": "D"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What color is the wardrobe in the Masterbedroom?\n\nA. Light blue\nB. Bright white\nC. Dark brown",
+      "response": "NONE"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What color is the wardrobe in the Masterbedroom?\n\nA. Jupiter\nB. Nebula\nC. Galaxy\nD. Meteor\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What color is the wardrobe in the Masterbedroom?\n\nA. Jupiter\nB. Nebula\nC. Galaxy\nD. Meteor\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What color is the wardrobe in the Masterbedroom?\n\nA. Jupiter\nB. Nebula\nC. Galaxy\nD. Meteor",
+      "response": "NONE"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What type of painting is displayed in the scene?\n\nA. Abstract painting\nB. Landscape painting\nC. Portrait painting\nD. Still life painting\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What type of painting is displayed in the scene?\n\nA. Abstract painting\nB. Landscape painting\nC. Portrait painting\nD. Still life painting\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What type of painting is displayed in the scene?\n\nA. Abstract painting\nB. Landscape painting\nC. Portrait painting\nD. Still life painting",
+      "response": "NONE"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What type of outdoor furniture is in the scene?",
+      "response": "no outdoor furniture"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What type of outdoor furniture is in the scene?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What color is the wardrobe in the Masterbedroom?\n\nA. Charcoal grey\nB. Light blue\nC. Bright white\nD. Dark brown",
+      "response": "A"
+    }
+  ]
+}

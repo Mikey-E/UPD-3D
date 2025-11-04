@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "137f72fb-2331-4cf0-b832-0e7ddea0cce2@DiningRoom-11005",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 5",
+  "timestamp": "2025-10-10T15:33:39.095879",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/137f72fb-2331-4cf0-b832-0e7ddea0cce2/DiningRoom-11005/DiningRoom-11005.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What color are the dining chairs in the DiningRoom?\n\nA. Black\nB. White\nC. Brass\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What color are the dining chairs in the DiningRoom?\n\nA. Black\nB. White\nC. Brass\nD. None of the above",
+      "response": "d"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What color are the dining chairs in the DiningRoom?\n\nA. Black\nB. White\nC. Brass",
+      "response": "none of the above"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What color are the dining chairs in the DiningRoom?\n\nA. Chocolate chip cookie\nB. Blueberry muffin\nC. Pumpkin spice latte\nD. Strawberry jam\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What color are the dining chairs in the DiningRoom?\n\nA. Chocolate chip cookie\nB. Blueberry muffin\nC. Pumpkin spice latte\nD. Strawberry jam\nE. None of the above",
+      "response": "e"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What color are the dining chairs in the DiningRoom?\n\nA. Chocolate chip cookie\nB. Blueberry muffin\nC. Pumpkin spice latte\nD. Strawberry jam",
+      "response": "none of the above"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What is the height of the bookshelf in the room?\n\nA. Six feet\nB. Four feet\nC. Eight feet\nD. Five feet\nIf none of the above answers are correct, answer: 'F'",
+      "response": "c"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What is the height of the bookshelf in the room?\n\nA. Six feet\nB. Four feet\nC. Eight feet\nD. Five feet\nE. None of the above",
+      "response": "c"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What is the height of the bookshelf in the room?\n\nA. Six feet\nB. Four feet\nC. Eight feet\nD. Five feet",
+      "response": "c"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What type of washing machine is installed in the room?",
+      "response": "no washing machine"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What type of washing machine is installed in the room?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What color are the dining chairs in the DiningRoom?\n\nA. Black\nB. White\nC. Brass\nD. Oak",
+      "response": "d"
+    }
+  ]
+}

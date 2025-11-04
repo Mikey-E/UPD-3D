@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "ff5d84d5-fe8f-4d7f-946b-f18035c5fe1e@LivingDiningRoom-7148",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 5",
+  "timestamp": "2025-10-31T08:31:16.220421",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/ff5d84d5-fe8f-4d7f-946b-f18035c5fe1e/LivingDiningRoom-7148/LivingDiningRoom-7148.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What color is the sofa in the living room?\n\nA. Dark brown\nB. Blush pink\nC. White\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What color is the sofa in the living room?\n\nA. Dark brown\nB. Blush pink\nC. White\nD. None of the above",
+      "response": "d"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What color is the sofa in the living room?\n\nA. Dark brown\nB. Blush pink\nC. White",
+      "response": "none"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What color is the sofa in the living room?\n\nA. Igloo\nB. Melon\nC. Tornado\nD. Galaxy\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What color is the sofa in the living room?\n\nA. Igloo\nB. Melon\nC. Tornado\nD. Galaxy\nE. None of the above",
+      "response": "e"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What color is the sofa in the living room?\n\nA. Igloo\nB. Melon\nC. Tornado\nD. Galaxy",
+      "response": "none"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What is the color of the ceiling in the living room?\n\nA. White\nB. Blue\nC. Yellow\nD. Gray\nIf none of the above answers are correct, answer: 'F'",
+      "response": "a"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What is the color of the ceiling in the living room?\n\nA. White\nB. Blue\nC. Yellow\nD. Gray\nE. None of the above",
+      "response": "a"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What is the color of the ceiling in the living room?\n\nA. White\nB. Blue\nC. Yellow\nD. Gray",
+      "response": "a"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What shape is the uninstalled ceiling fan in the room?",
+      "response": "none"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What shape is the uninstalled ceiling fan in the room?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What color is the sofa in the living room?\n\nA. Dark brown\nB. Beige\nC. Blush pink\nD. White",
+      "response": "d"
+    }
+  ]
+}

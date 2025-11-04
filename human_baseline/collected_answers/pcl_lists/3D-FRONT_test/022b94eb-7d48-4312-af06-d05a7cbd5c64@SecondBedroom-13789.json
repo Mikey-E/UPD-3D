@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "022b94eb-7d48-4312-af06-d05a7cbd5c64@SecondBedroom-13789",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 3",
+  "timestamp": "2025-10-31T10:52:50.731601",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/022b94eb-7d48-4312-af06-d05a7cbd5c64/SecondBedroom-13789/SecondBedroom-13789.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What color tones are predominantly used in the wardrobes in the bedroom?\n\nA. Soft grey tones\nB. Bright and vibrant colors\nC. Dark brown tones\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What color tones are predominantly used in the wardrobes in the bedroom?\n\nA. Soft grey tones\nB. Bright and vibrant colors\nC. Dark brown tones\nD. None of the above",
+      "response": "D"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What color tones are predominantly used in the wardrobes in the bedroom?\n\nA. Soft grey tones\nB. Bright and vibrant colors\nC. Dark brown tones",
+      "response": "None"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What color tones are predominantly used in the wardrobes in the bedroom?\n\nA. Tropical rainforest\nB. Rocky mountains\nC. Desert landscape\nD. Arctic tundra\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What color tones are predominantly used in the wardrobes in the bedroom?\n\nA. Tropical rainforest\nB. Rocky mountains\nC. Desert landscape\nD. Arctic tundra\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What color tones are predominantly used in the wardrobes in the bedroom?\n\nA. Tropical rainforest\nB. Rocky mountains\nC. Desert landscape\nD. Arctic tundra",
+      "response": "None"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What is the height of the ceiling in the scene?\n\nA. 10 feet\nB. 12 feet\nC. 8 feet\nD. 15 feet\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What is the height of the ceiling in the scene?\n\nA. 10 feet\nB. 12 feet\nC. 8 feet\nD. 15 feet\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What is the height of the ceiling in the scene?\n\nA. 10 feet\nB. 12 feet\nC. 8 feet\nD. 15 feet",
+      "response": "None"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What type of chandelier hangs from the ceiling?",
+      "response": "N/A"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What type of chandelier hangs from the ceiling?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What color tones are predominantly used in the wardrobes in the bedroom?\n\nA. Soft grey tones\nB. Muted beige tones\nC. Bright and vibrant colors\nD. Dark brown tones",
+      "response": "B"
+    }
+  ]
+}

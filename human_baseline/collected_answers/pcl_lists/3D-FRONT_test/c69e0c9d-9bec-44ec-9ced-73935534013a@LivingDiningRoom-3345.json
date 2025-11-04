@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "c69e0c9d-9bec-44ec-9ced-73935534013a@LivingDiningRoom-3345",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 5",
+  "timestamp": "2025-10-08T15:17:36.326837",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/c69e0c9d-9bec-44ec-9ced-73935534013a/LivingDiningRoom-3345/LivingDiningRoom-3345.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What color is the <p>tv stand</p>[<tv stand-8>] located behind the <p>coffee table</p>[<coffee table-0>]?\n\nA. Black and gray\nB. Brown and beige\nC. Blue and silver\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What color is the <p>tv stand</p>[<tv stand-8>] located behind the <p>coffee table</p>[<coffee table-0>]?\n\nA. Black and gray\nB. Brown and beige\nC. Blue and silver\nD. None of the above",
+      "response": "d"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What color is the <p>tv stand</p>[<tv stand-8>] located behind the <p>coffee table</p>[<coffee table-0>]?\n\nA. Black and gray\nB. Brown and beige\nC. Blue and silver",
+      "response": "none of the above"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What color is the <p>tv stand</p>[<tv stand-8>] located behind the <p>coffee table</p>[<coffee table-0>]?\n\nA. Summer\nB. Autumn\nC. Winter\nD. Spring\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What color is the <p>tv stand</p>[<tv stand-8>] located behind the <p>coffee table</p>[<coffee table-0>]?\n\nA. Summer\nB. Autumn\nC. Winter\nD. Spring\nE. None of the above",
+      "response": "e"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What color is the <p>tv stand</p>[<tv stand-8>] located behind the <p>coffee table</p>[<coffee table-0>]?\n\nA. Summer\nB. Autumn\nC. Winter\nD. Spring",
+      "response": "none of the above"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What type of vehicle is parked outside the living room?\n\nA. Sedan\nB. Truck\nC. Motorcycle\nD. Bicycle\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What type of vehicle is parked outside the living room?\n\nA. Sedan\nB. Truck\nC. Motorcycle\nD. Bicycle\nE. None of the above",
+      "response": "e"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What type of vehicle is parked outside the living room?\n\nA. Sedan\nB. Truck\nC. Motorcycle\nD. Bicycle",
+      "response": "none of the above"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What type of book is on the bookshelf?",
+      "response": "no bookshelf"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What type of book is on the bookshelf?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What color is the <p>tv stand</p>[<tv stand-8>] located behind the <p>coffee table</p>[<coffee table-0>]?\n\nA. Black and gray\nB. Brown and beige\nC. White and gray\nD. Blue and silver",
+      "response": "none of the above"
+    }
+  ]
+}

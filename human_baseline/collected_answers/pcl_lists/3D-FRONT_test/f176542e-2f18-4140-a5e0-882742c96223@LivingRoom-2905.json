@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "f176542e-2f18-4140-a5e0-882742c96223@LivingRoom-2905",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 3",
+  "timestamp": "2025-10-28T23:33:09.619926",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/f176542e-2f18-4140-a5e0-882742c96223/LivingRoom-2905/LivingRoom-2905.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What design style is prominently featured in the l-shaped sofa in the living room?\n\nA. Traditional European\nB. Rustic American\nC. Vintage Industrial\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What design style is prominently featured in the l-shaped sofa in the living room?\n\nA. Traditional European\nB. Rustic American\nC. Vintage Industrial\nD. None of the above",
+      "response": "D"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What design style is prominently featured in the l-shaped sofa in the living room?\n\nA. Traditional European\nB. Rustic American\nC. Vintage Industrial",
+      "response": "None"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What design style is prominently featured in the l-shaped sofa in the living room?\n\nA. Mountain range\nB. Ocean current\nC. Solar eclipse\nD. Thunderstorm\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What design style is prominently featured in the l-shaped sofa in the living room?\n\nA. Mountain range\nB. Ocean current\nC. Solar eclipse\nD. Thunderstorm\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What design style is prominently featured in the l-shaped sofa in the living room?\n\nA. Mountain range\nB. Ocean current\nC. Solar eclipse\nD. Thunderstorm",
+      "response": "None"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What is the height of the bookshelf in the living room?\n\nA. Six feet\nB. Four feet\nC. Eight feet\nD. Five feet\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What is the height of the bookshelf in the living room?\n\nA. Six feet\nB. Four feet\nC. Eight feet\nD. Five feet\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What is the height of the bookshelf in the living room?\n\nA. Six feet\nB. Four feet\nC. Eight feet\nD. Five feet",
+      "response": "None"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What is the shape of the chandelier hanging in the room?",
+      "response": "N/A"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What is the shape of the chandelier hanging in the room?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What design style is prominently featured in the l-shaped sofa in the living room?\n\nA. Modern Japanese\nB. Traditional European\nC. Rustic American\nD. Vintage Industrial",
+      "response": "A"
+    }
+  ]
+}

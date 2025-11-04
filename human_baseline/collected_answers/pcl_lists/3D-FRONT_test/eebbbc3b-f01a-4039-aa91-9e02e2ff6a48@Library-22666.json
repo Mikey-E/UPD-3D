@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "eebbbc3b-f01a-4039-aa91-9e02e2ff6a48@Library-22666",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 5",
+  "timestamp": "2025-10-28T14:52:24.320835",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/eebbbc3b-f01a-4039-aa91-9e02e2ff6a48/Library-22666/Library-22666.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "In this library, which piece of furniture is positioned directly behind the sofa?\n\nA. Corner cabinet\nB. Shelf\nC. Lounge chair\nIf none of the above answers are correct, answer: 'F'",
+      "response": "c"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "In this library, which piece of furniture is positioned directly behind the sofa?\n\nA. Corner cabinet\nB. Shelf\nC. Lounge chair\nD. None of the above",
+      "response": "c"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "In this library, which piece of furniture is positioned directly behind the sofa?\n\nA. Corner cabinet\nB. Shelf\nC. Lounge chair",
+      "response": "c"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "In this library, which piece of furniture is positioned directly behind the sofa?\n\nA. Basketball\nB. Violin\nC. Chocolate cake\nD. Mountain climbing\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "In this library, which piece of furniture is positioned directly behind the sofa?\n\nA. Basketball\nB. Violin\nC. Chocolate cake\nD. Mountain climbing\nE. None of the above",
+      "response": "e"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "In this library, which piece of furniture is positioned directly behind the sofa?\n\nA. Basketball\nB. Violin\nC. Chocolate cake\nD. Mountain climbing",
+      "response": "none"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What shape is the table in the scene?\n\nA. Round\nB. Square\nC. Rectangular\nD. Hexagonal\nIf none of the above answers are correct, answer: 'F'",
+      "response": "b"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What shape is the table in the scene?\n\nA. Round\nB. Square\nC. Rectangular\nD. Hexagonal\nE. None of the above",
+      "response": "b"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What shape is the table in the scene?\n\nA. Round\nB. Square\nC. Rectangular\nD. Hexagonal",
+      "response": "b"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What type of swimming pool is located outside the library?",
+      "response": "none"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What type of swimming pool is located outside the library?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "In this library, which piece of furniture is positioned directly behind the sofa?\n\nA. Corner cabinet\nB. Bookcase\nC. Shelf\nD. Lounge chair",
+      "response": "d"
+    }
+  ]
+}

@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "007c0c17-cd85-400a-bdf0-80f0e1eefe2d@Corridor-52564",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 1",
+  "timestamp": "2025-11-03T19:55:21.442919",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/007c0c17-cd85-400a-bdf0-80f0e1eefe2d/Corridor-52564/Corridor-52564.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What color are the shades of the pendant lamps in the Corridor?\n\nA. Brown\nB. Black\nC. White\nIf none of the above answers are correct, answer: 'F'",
+      "response": "C"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What color are the shades of the pendant lamps in the Corridor?\n\nA. Brown\nB. Black\nC. White\nD. None of the above",
+      "response": "C"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What color are the shades of the pendant lamps in the Corridor?\n\nA. Brown\nB. Black\nC. White",
+      "response": "C"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What color are the shades of the pendant lamps in the Corridor?\n\nA. Mercury\nB. Hydrogen\nC. Nitrogen\nD. Oxygen\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What color are the shades of the pendant lamps in the Corridor?\n\nA. Mercury\nB. Hydrogen\nC. Nitrogen\nD. Oxygen\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What color are the shades of the pendant lamps in the Corridor?\n\nA. Mercury\nB. Hydrogen\nC. Nitrogen\nD. Oxygen",
+      "response": "None of these"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What type of fountain is featured in the dining area?\n\nA. Wall fountain\nB. Floor fountain\nC. Tabletop fountain\nD. Garden fountain\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What type of fountain is featured in the dining area?\n\nA. Wall fountain\nB. Floor fountain\nC. Tabletop fountain\nD. Garden fountain\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What type of fountain is featured in the dining area?\n\nA. Wall fountain\nB. Floor fountain\nC. Tabletop fountain\nD. Garden fountain",
+      "response": "There is no fountain"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What type of refrigerator is in the room?",
+      "response": "There is no refrigerator"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What type of refrigerator is in the room?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What color are the shades of the pendant lamps in the Corridor?\n\nA. Brown\nB. Black\nC. Beige\nD. White",
+      "response": "D"
+    }
+  ]
+}

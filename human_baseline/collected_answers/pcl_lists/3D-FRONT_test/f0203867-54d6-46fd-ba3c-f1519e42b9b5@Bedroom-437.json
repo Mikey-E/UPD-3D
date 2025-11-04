@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "f0203867-54d6-46fd-ba3c-f1519e42b9b5@Bedroom-437",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 3",
+  "timestamp": "2025-10-28T16:38:35.579438",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/f0203867-54d6-46fd-ba3c-f1519e42b9b5/Bedroom-437/Bedroom-437.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What color is the pendant lamp that hangs above the king-size bed?\n\nA. White\nB. Brown\nC. Silver\nIf none of the above answers are correct, answer: 'F'",
+      "response": "C"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What color is the pendant lamp that hangs above the king-size bed?\n\nA. White\nB. Brown\nC. Silver\nD. None of the above",
+      "response": "C"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What color is the pendant lamp that hangs above the king-size bed?\n\nA. White\nB. Brown\nC. Silver",
+      "response": "C"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What color is the pendant lamp that hangs above the king-size bed?\n\nA. Mountain\nB. River\nC. Forest\nD. Ocean\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What color is the pendant lamp that hangs above the king-size bed?\n\nA. Mountain\nB. River\nC. Forest\nD. Ocean\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What color is the pendant lamp that hangs above the king-size bed?\n\nA. Mountain\nB. River\nC. Forest\nD. Ocean",
+      "response": "None"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What is the height of the tree in the corner?\n\nA. 10 feet\nB. 15 feet\nC. 20 feet\nD. 25 feet\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What is the height of the tree in the corner?\n\nA. 10 feet\nB. 15 feet\nC. 20 feet\nD. 25 feet\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What is the height of the tree in the corner?\n\nA. 10 feet\nB. 15 feet\nC. 20 feet\nD. 25 feet",
+      "response": "None"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What type of exercise equipment is located in the room?",
+      "response": "N/A"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What type of exercise equipment is located in the room?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What color is the pendant lamp that hangs above the king-size bed?\n\nA. White\nB. Brown\nC. Black\nD. Silver",
+      "response": "D"
+    }
+  ]
+}

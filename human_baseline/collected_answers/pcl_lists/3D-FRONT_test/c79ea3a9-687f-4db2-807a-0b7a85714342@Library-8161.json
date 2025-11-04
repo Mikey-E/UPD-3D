@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "c79ea3a9-687f-4db2-807a-0b7a85714342@Library-8161",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 5",
+  "timestamp": "2025-10-10T15:44:18.113832",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/c79ea3a9-687f-4db2-807a-0b7a85714342/Library-8161/Library-8161.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What type of wood is used for the bookcases in the library?\n\nA. Maple\nB. Pine\nC. Cherry\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What type of wood is used for the bookcases in the library?\n\nA. Maple\nB. Pine\nC. Cherry\nD. None of the above",
+      "response": "d"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What type of wood is used for the bookcases in the library?\n\nA. Maple\nB. Pine\nC. Cherry",
+      "response": "none of these"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What type of wood is used for the bookcases in the library?\n\nA. Rose Quartz\nB. Emerald Green\nC. Sapphire Blue\nD. Amethyst Purple\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What type of wood is used for the bookcases in the library?\n\nA. Rose Quartz\nB. Emerald Green\nC. Sapphire Blue\nD. Amethyst Purple\nE. None of the above",
+      "response": "e"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What type of wood is used for the bookcases in the library?\n\nA. Rose Quartz\nB. Emerald Green\nC. Sapphire Blue\nD. Amethyst Purple",
+      "response": "none of these"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What is the height of the bookshelf in the scene?\n\nA. Six feet\nB. Seven feet\nC. Eight feet\nD. Nine feet\nIf none of the above answers are correct, answer: 'F'",
+      "response": "c"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What is the height of the bookshelf in the scene?\n\nA. Six feet\nB. Seven feet\nC. Eight feet\nD. Nine feet\nE. None of the above",
+      "response": "c"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What is the height of the bookshelf in the scene?\n\nA. Six feet\nB. Seven feet\nC. Eight feet\nD. Nine feet",
+      "response": "c"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What type of painting is hanging on the walls?",
+      "response": "no painting"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What type of painting is hanging on the walls?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What type of wood is used for the bookcases in the library?\n\nA. Oak\nB. Maple\nC. Pine\nD. Cherry",
+      "response": "none of these"
+    }
+  ]
+}

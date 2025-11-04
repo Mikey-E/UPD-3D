@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "c8819e35-7f93-40de-98b0-3e62db618e8e@Library-18950",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 4",
+  "timestamp": "2025-10-13T13:31:05.808154",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/c8819e35-7f93-40de-98b0-3e62db618e8e/Library-18950/Library-18950.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What color is the pendant lamp hanging from the ceiling in the library?\n\nA. Blue\nB. Black\nC. White\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What color is the pendant lamp hanging from the ceiling in the library?\n\nA. Blue\nB. Black\nC. White\nD. None of the above",
+      "response": "D"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What color is the pendant lamp hanging from the ceiling in the library?\n\nA. Blue\nB. Black\nC. White",
+      "response": "none"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What color is the pendant lamp hanging from the ceiling in the library?\n\nA. Velocity of sound\nB. Radius of curvature\nC. Frequency of waves\nD. Acceleration due to gravity\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What color is the pendant lamp hanging from the ceiling in the library?\n\nA. Velocity of sound\nB. Radius of curvature\nC. Frequency of waves\nD. Acceleration due to gravity\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What color is the pendant lamp hanging from the ceiling in the library?\n\nA. Velocity of sound\nB. Radius of curvature\nC. Frequency of waves\nD. Acceleration due to gravity",
+      "response": "none"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What material is used for the kitchen countertops?\n\nA. Granite\nB. Marble\nC. Quartz\nD. Laminate\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What material is used for the kitchen countertops?\n\nA. Granite\nB. Marble\nC. Quartz\nD. Laminate\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What material is used for the kitchen countertops?\n\nA. Granite\nB. Marble\nC. Quartz\nD. Laminate",
+      "response": "none"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What shape is the garden bench outside the library?",
+      "response": "none"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What shape is the garden bench outside the library?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What color is the pendant lamp hanging from the ceiling in the library?\n\nA. Gold\nB. Blue\nC. Black\nD. White",
+      "response": "A"
+    }
+  ]
+}

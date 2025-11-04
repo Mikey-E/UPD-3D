@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "d1ae0261-6f61-47f0-902d-2c92b4822c4f@Bedroom-6792",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 4",
+  "timestamp": "2025-10-15T12:11:50.285181",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/d1ae0261-6f61-47f0-902d-2c92b4822c4f/Bedroom-6792/Bedroom-6792.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What is the color of the king-size bed frame in the bedroom?\n\nA. White\nB. Light blue\nC. Brown\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What is the color of the king-size bed frame in the bedroom?\n\nA. White\nB. Light blue\nC. Brown\nD. None of the above",
+      "response": "d"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What is the color of the king-size bed frame in the bedroom?\n\nA. White\nB. Light blue\nC. Brown",
+      "response": "none"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What is the color of the king-size bed frame in the bedroom?\n\nA. Mountain range\nB. Ocean depth\nC. Desert landscape\nD. Forest canopy\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What is the color of the king-size bed frame in the bedroom?\n\nA. Mountain range\nB. Ocean depth\nC. Desert landscape\nD. Forest canopy\nE. None of the above",
+      "response": "e"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What is the color of the king-size bed frame in the bedroom?\n\nA. Mountain range\nB. Ocean depth\nC. Desert landscape\nD. Forest canopy",
+      "response": "none"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What type of dining table is located in the scene?\n\nA. Round marble table\nB. Rectangular wood table\nC. Glass top table\nD. Folding metal table\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What type of dining table is located in the scene?\n\nA. Round marble table\nB. Rectangular wood table\nC. Glass top table\nD. Folding metal table\nE. None of the above",
+      "response": "e"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What type of dining table is located in the scene?\n\nA. Round marble table\nB. Rectangular wood table\nC. Glass top table\nD. Folding metal table",
+      "response": "none"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What type of outdoor sports equipment is stored in the room?",
+      "response": "n/a"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What type of outdoor sports equipment is stored in the room?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What is the color of the king-size bed frame in the bedroom?\n\nA. White\nB. Light blue\nC. Dark grey\nD. Brown",
+      "response": "none"
+    }
+  ]
+}

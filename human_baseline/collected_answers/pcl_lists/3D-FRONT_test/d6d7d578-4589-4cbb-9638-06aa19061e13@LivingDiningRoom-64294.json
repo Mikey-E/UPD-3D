@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "d6d7d578-4589-4cbb-9638-06aa19061e13@LivingDiningRoom-64294",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 4",
+  "timestamp": "2025-10-16T16:52:49.578309",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/d6d7d578-4589-4cbb-9638-06aa19061e13/LivingDiningRoom-64294/LivingDiningRoom-64294.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What color is the upholstery of the lounge chairs surrounding the dining table?\n\nA. Beige\nB. Black\nC. Dark brown\nIf none of the above answers are correct, answer: 'F'",
+      "response": "A"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What color is the upholstery of the lounge chairs surrounding the dining table?\n\nA. Beige\nB. Black\nC. Dark brown\nD. None of the above",
+      "response": "A"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What color is the upholstery of the lounge chairs surrounding the dining table?\n\nA. Beige\nB. Black\nC. Dark brown",
+      "response": "A"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What color is the upholstery of the lounge chairs surrounding the dining table?\n\nA. Jupiter\nB. Mercury\nC. Saturn\nD. Venus\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What color is the upholstery of the lounge chairs surrounding the dining table?\n\nA. Jupiter\nB. Mercury\nC. Saturn\nD. Venus\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What color is the upholstery of the lounge chairs surrounding the dining table?\n\nA. Jupiter\nB. Mercury\nC. Saturn\nD. Venus",
+      "response": "None"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What kind of books are displayed on the shelves?\n\nA. Fiction\nB. Non-fiction\nC. Mystery\nD. Science fiction\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What kind of books are displayed on the shelves?\n\nA. Fiction\nB. Non-fiction\nC. Mystery\nD. Science fiction\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What kind of books are displayed on the shelves?\n\nA. Fiction\nB. Non-fiction\nC. Mystery\nD. Science fiction",
+      "response": "None"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What type of artwork is hanging on the walls?",
+      "response": "unanswerable"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What type of artwork is hanging on the walls?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What color is the upholstery of the lounge chairs surrounding the dining table?\n\nA. Beige\nB. Metallic gray\nC. Black\nD. Dark brown",
+      "response": "A"
+    }
+  ]
+}

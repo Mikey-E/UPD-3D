@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "c69e0c9d-9bec-44ec-9ced-73935534013a@ElderlyRoom-1246",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 3",
+  "timestamp": "2025-10-10T15:50:23.809676",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/c69e0c9d-9bec-44ec-9ced-73935534013a/ElderlyRoom-1246/ElderlyRoom-1246.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What color is the wardrobe in the ElderlyRoom?\n\nA. Chocolate brown\nB. Creamy beige\nC. Muted rose\nIf none of the above answers are correct, answer: 'F'",
+      "response": "A"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What color is the wardrobe in the ElderlyRoom?\n\nA. Chocolate brown\nB. Creamy beige\nC. Muted rose\nD. None of the above",
+      "response": "A"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What color is the wardrobe in the ElderlyRoom?\n\nA. Chocolate brown\nB. Creamy beige\nC. Muted rose",
+      "response": "A"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What color is the wardrobe in the ElderlyRoom?\n\nA. Mercury\nB. Uranium\nC. Hydrogen\nD. Neon\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What color is the wardrobe in the ElderlyRoom?\n\nA. Mercury\nB. Uranium\nC. Hydrogen\nD. Neon\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What color is the wardrobe in the ElderlyRoom?\n\nA. Mercury\nB. Uranium\nC. Hydrogen\nD. Neon",
+      "response": "None"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What is the size of the couch in the room?\n\nA. Three-seater\nB. Two-seater\nC. Recliner\nD. Sectional\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What is the size of the couch in the room?\n\nA. Three-seater\nB. Two-seater\nC. Recliner\nD. Sectional\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What is the size of the couch in the room?\n\nA. Three-seater\nB. Two-seater\nC. Recliner\nD. Sectional",
+      "response": "None"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What type of exercise equipment is hidden under the bed?",
+      "response": "N/A"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What type of exercise equipment is hidden under the bed?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What color is the wardrobe in the ElderlyRoom?\n\nA. Chocolate brown\nB. Light oak\nC. Creamy beige\nD. Muted rose",
+      "response": "B"
+    }
+  ]
+}

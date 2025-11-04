@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "Rapeseed@112",
+  "dataset": "Crops3D_test",
+  "annotated_by": "User 5",
+  "timestamp": "2025-10-30T23:38:57.718689",
+  "file_path": "/project/3dllms/melgin/datasets/CEA/Crops3D/Rapeseed/112.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What color are the leaves of the potted plant?\n\nA. Dark green\nB. Yellow\nC. Dark brown\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What color are the leaves of the potted plant?\n\nA. Dark green\nB. Yellow\nC. Dark brown\nD. None of the above",
+      "response": "d"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What color are the leaves of the potted plant?\n\nA. Dark green\nB. Yellow\nC. Dark brown",
+      "response": "none"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What color are the leaves of the potted plant?\n\nA. Jupiter\nB. Mars\nC. Saturn\nD. Venus\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What color are the leaves of the potted plant?\n\nA. Jupiter\nB. Mars\nC. Saturn\nD. Venus\nE. None of the above",
+      "response": "e"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What color are the leaves of the potted plant?\n\nA. Jupiter\nB. Mars\nC. Saturn\nD. Venus",
+      "response": "none"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What type of artwork hangs above the furniture?\n\nA. Abstract painting\nB. Landscape portrait\nC. Still life composition\nD. Portrait of a family\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What type of artwork hangs above the furniture?\n\nA. Abstract painting\nB. Landscape portrait\nC. Still life composition\nD. Portrait of a family\nE. None of the above",
+      "response": "e"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What type of artwork hangs above the furniture?\n\nA. Abstract painting\nB. Landscape portrait\nC. Still life composition\nD. Portrait of a family",
+      "response": "none"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What type of painting is displayed on the wall?",
+      "response": "none"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What type of painting is displayed on the wall?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What color are the leaves of the potted plant?\n\nA. Dark green\nB. Yellow\nC. Bright green\nD. Dark brown",
+      "response": "c"
+    }
+  ]
+}

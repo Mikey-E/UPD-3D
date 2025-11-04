@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "e038f7d3-4503-402a-8fb1-9165f34a69bb@LivingDiningRoom-1390",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 5",
+  "timestamp": "2025-10-24T20:20:55.232775",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/e038f7d3-4503-402a-8fb1-9165f34a69bb/LivingDiningRoom-1390/LivingDiningRoom-1390.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What color is the upholstery of the three-seat sofa in the living room? \n\nA. Warm mustard yellow\nB. Rich mahogany\nC. Dark blue\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What color is the upholstery of the three-seat sofa in the living room? \n\nA. Warm mustard yellow\nB. Rich mahogany\nC. Dark blue\nD. None of the above",
+      "response": "d"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What color is the upholstery of the three-seat sofa in the living room? \n\nA. Warm mustard yellow\nB. Rich mahogany\nC. Dark blue",
+      "response": "none"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What color is the upholstery of the three-seat sofa in the living room? \n\nA. Catastrophe\nB. Renaissance\nC. Metamorphosis\nD. Quantum mechanics\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What color is the upholstery of the three-seat sofa in the living room? \n\nA. Catastrophe\nB. Renaissance\nC. Metamorphosis\nD. Quantum mechanics\nE. None of the above",
+      "response": "e"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What color is the upholstery of the three-seat sofa in the living room? \n\nA. Catastrophe\nB. Renaissance\nC. Metamorphosis\nD. Quantum mechanics",
+      "response": "none"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What is the color of the door leading to the kitchen?\n\nA. Red\nB. Green\nC. White\nD. Blue\nIf none of the above answers are correct, answer: 'F'",
+      "response": "c"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What is the color of the door leading to the kitchen?\n\nA. Red\nB. Green\nC. White\nD. Blue\nE. None of the above",
+      "response": "c"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What is the color of the door leading to the kitchen?\n\nA. Red\nB. Green\nC. White\nD. Blue",
+      "response": "c"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What type of outdoor grill is set up nearby?",
+      "response": "none"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What type of outdoor grill is set up nearby?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What color is the upholstery of the three-seat sofa in the living room? \n\nA. Warm mustard yellow\nB. Rich mahogany\nC. Neutral grey\nD. Dark blue",
+      "response": "none"
+    }
+  ]
+}

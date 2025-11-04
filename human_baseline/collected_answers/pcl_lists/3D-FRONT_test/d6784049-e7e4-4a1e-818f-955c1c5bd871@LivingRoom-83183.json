@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "d6784049-e7e4-4a1e-818f-955c1c5bd871@LivingRoom-83183",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 3",
+  "timestamp": "2025-10-16T13:09:44.721637",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/d6784049-e7e4-4a1e-818f-955c1c5bd871/LivingRoom-83183/LivingRoom-83183.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What style is the pendant lamp in the living room described?\n\nA. Industrial style with colorful panels\nB. Vintage-retro design with plush upholstery\nC. Minimalist design with a dark brown top\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What style is the pendant lamp in the living room described?\n\nA. Industrial style with colorful panels\nB. Vintage-retro design with plush upholstery\nC. Minimalist design with a dark brown top\nD. None of the above",
+      "response": "D"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What style is the pendant lamp in the living room described?\n\nA. Industrial style with colorful panels\nB. Vintage-retro design with plush upholstery\nC. Minimalist design with a dark brown top",
+      "response": "None"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What style is the pendant lamp in the living room described?\n\nA. Tropical rainforest\nB. Arctic tundra\nC. Desert oasis\nD. Mountain peak\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What style is the pendant lamp in the living room described?\n\nA. Tropical rainforest\nB. Arctic tundra\nC. Desert oasis\nD. Mountain peak\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What style is the pendant lamp in the living room described?\n\nA. Tropical rainforest\nB. Arctic tundra\nC. Desert oasis\nD. Mountain peak",
+      "response": "None"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What shape is the bookshelf?\n\nA. Square\nB. Triangle\nC. Oval\nD. Rectangle\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What shape is the bookshelf?\n\nA. Square\nB. Triangle\nC. Oval\nD. Rectangle\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What shape is the bookshelf?\n\nA. Square\nB. Triangle\nC. Oval\nD. Rectangle",
+      "response": "None"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What type of climbing plant is draping over the walls?",
+      "response": "N/A"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What type of climbing plant is draping over the walls?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What style is the pendant lamp in the living room described?\n\nA. Industrial style with colorful panels\nB. Modern design with a warm, wooden color scheme\nC. Vintage-retro design with plush upholstery\nD. Minimalist design with a dark brown top",
+      "response": "B"
+    }
+  ]
+}

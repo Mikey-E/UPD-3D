@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "dbc3c94f-b06a-415d-a631-d505cfaf32ae@KidsRoom-5878",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 4",
+  "timestamp": "2025-10-20T15:37:27.120141",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/dbc3c94f-b06a-415d-a631-d505cfaf32ae/KidsRoom-5878/KidsRoom-5878.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What style is the office chair in the KidsRoom?\n\nA. Modern\nB. Vintage/Retro\nC. Southeast Asian\nIf none of the above answers are correct, answer: 'F'",
+      "response": "A"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What style is the office chair in the KidsRoom?\n\nA. Modern\nB. Vintage/Retro\nC. Southeast Asian\nD. None of the above",
+      "response": "A"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What style is the office chair in the KidsRoom?\n\nA. Modern\nB. Vintage/Retro\nC. Southeast Asian",
+      "response": "A"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What style is the office chair in the KidsRoom?\n\nA. Mandolin\nB. Cello\nC. Violin\nD. Flute\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What style is the office chair in the KidsRoom?\n\nA. Mandolin\nB. Cello\nC. Violin\nD. Flute\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What style is the office chair in the KidsRoom?\n\nA. Mandolin\nB. Cello\nC. Violin\nD. Flute",
+      "response": "None"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What type of artwork is hanging on the wall?\n\nA. Abstract painting\nB. Landscape photograph\nC. Portrait of a child\nD. Vintage poster\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What type of artwork is hanging on the wall?\n\nA. Abstract painting\nB. Landscape photograph\nC. Portrait of a child\nD. Vintage poster\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What type of artwork is hanging on the wall?\n\nA. Abstract painting\nB. Landscape photograph\nC. Portrait of a child\nD. Vintage poster",
+      "response": "None"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What type of refrigerator is used in the room?",
+      "response": "unanswerable"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What type of refrigerator is used in the room?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What style is the office chair in the KidsRoom?\n\nA. Ming Qing\nB. Modern\nC. Vintage/Retro\nD. Southeast Asian",
+      "response": "B"
+    }
+  ]
+}

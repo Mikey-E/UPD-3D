@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "c76960e2-bf7d-4cec-8ead-554c40227983@Library-10414",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 3",
+  "timestamp": "2025-10-10T15:34:33.429727",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/c76960e2-bf7d-4cec-8ead-554c40227983/Library-10414/Library-10414.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What style is the <p>desk</p>[<desk-1>] in the library?\n\nA. Vintage/Retro\nB. Southeast Asian\nC. European\nIf none of the above answers are correct, answer: 'F'",
+      "response": "C"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What style is the <p>desk</p>[<desk-1>] in the library?\n\nA. Vintage/Retro\nB. Southeast Asian\nC. European\nD. None of the above",
+      "response": "C"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What style is the <p>desk</p>[<desk-1>] in the library?\n\nA. Vintage/Retro\nB. Southeast Asian\nC. European",
+      "response": "C"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What style is the <p>desk</p>[<desk-1>] in the library?\n\nA. Jazz Music\nB. Abstract Art\nC. Ancient History\nD. Culinary Techniques\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What style is the <p>desk</p>[<desk-1>] in the library?\n\nA. Jazz Music\nB. Abstract Art\nC. Ancient History\nD. Culinary Techniques\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What style is the <p>desk</p>[<desk-1>] in the library?\n\nA. Jazz Music\nB. Abstract Art\nC. Ancient History\nD. Culinary Techniques",
+      "response": "None"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What shape is the sofa in the library?\n\nA. Round\nB. Square\nC. Rectangular\nD. Triangle\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What shape is the sofa in the library?\n\nA. Round\nB. Square\nC. Rectangular\nD. Triangle\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What shape is the sofa in the library?\n\nA. Round\nB. Square\nC. Rectangular\nD. Triangle",
+      "response": "None"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What type of outdoor pool is located in the scene?",
+      "response": "N/A"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What type of outdoor pool is located in the scene?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What style is the <p>desk</p>[<desk-1>] in the library?\n\nA. Vintage/Retro\nB. Southeast Asian\nC. Modern\nD. European",
+      "response": "D"
+    }
+  ]
+}

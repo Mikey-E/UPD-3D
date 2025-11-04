@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "f852908a-bf92-4fb7-8ed9-6d9eb8f5a81d@MasterBedroom-22300",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 3",
+  "timestamp": "2025-10-30T00:57:52.060743",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/f852908a-bf92-4fb7-8ed9-6d9eb8f5a81d/MasterBedroom-22300/MasterBedroom-22300.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What is the color of the pendant lamp suspended above the nightstand?\n\nA. Dark grey\nB. Light wooden\nC. Green\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What is the color of the pendant lamp suspended above the nightstand?\n\nA. Dark grey\nB. Light wooden\nC. Green\nD. None of the above",
+      "response": "D"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What is the color of the pendant lamp suspended above the nightstand?\n\nA. Dark grey\nB. Light wooden\nC. Green",
+      "response": "NONE"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What is the color of the pendant lamp suspended above the nightstand?\n\nA. Oval\nB. Rectangle\nC. Triangle\nD. Hexagon\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What is the color of the pendant lamp suspended above the nightstand?\n\nA. Oval\nB. Rectangle\nC. Triangle\nD. Hexagon\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What is the color of the pendant lamp suspended above the nightstand?\n\nA. Oval\nB. Rectangle\nC. Triangle\nD. Hexagon",
+      "response": "NONE"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What is the shape of the cutting board?\n\nA. Round\nB. Square\nC. Rectangular\nD. Oval\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What is the shape of the cutting board?\n\nA. Round\nB. Square\nC. Rectangular\nD. Oval\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What is the shape of the cutting board?\n\nA. Round\nB. Square\nC. Rectangular\nD. Oval",
+      "response": "NA"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What type of exercise equipment is located in the room?",
+      "response": "NA"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What type of exercise equipment is located in the room?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What is the color of the pendant lamp suspended above the nightstand?\n\nA. Dark grey\nB. Light wooden\nC. Matte silver\nD. Green",
+      "response": "C"
+    }
+  ]
+}

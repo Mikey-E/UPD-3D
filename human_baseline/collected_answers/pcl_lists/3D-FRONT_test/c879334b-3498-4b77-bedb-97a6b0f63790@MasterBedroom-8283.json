@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "c879334b-3498-4b77-bedb-97a6b0f63790@MasterBedroom-8283",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 4",
+  "timestamp": "2025-10-13T13:28:01.524514",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/c879334b-3498-4b77-bedb-97a6b0f63790/MasterBedroom-8283/MasterBedroom-8283.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What color are the wardrobes in the Masterbedroom?\n\nA. Bright white\nB. Dark blue\nC. Light gray\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What color are the wardrobes in the Masterbedroom?\n\nA. Bright white\nB. Dark blue\nC. Light gray\nD. None of the above",
+      "response": "D"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What color are the wardrobes in the Masterbedroom?\n\nA. Bright white\nB. Dark blue\nC. Light gray",
+      "response": "none"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What color are the wardrobes in the Masterbedroom?\n\nA. Melodic tones\nB. Distant galaxies\nC. Tranquil landscapes\nD. Enchanted forests\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What color are the wardrobes in the Masterbedroom?\n\nA. Melodic tones\nB. Distant galaxies\nC. Tranquil landscapes\nD. Enchanted forests\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What color are the wardrobes in the Masterbedroom?\n\nA. Melodic tones\nB. Distant galaxies\nC. Tranquil landscapes\nD. Enchanted forests",
+      "response": "none"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What type of table is featured in the scene?\n\nA. Coffee table\nB. Dining table\nC. Console table\nD. Pool table\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What type of table is featured in the scene?\n\nA. Coffee table\nB. Dining table\nC. Console table\nD. Pool table\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What type of table is featured in the scene?\n\nA. Coffee table\nB. Dining table\nC. Console table\nD. Pool table",
+      "response": "none"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What type of ceiling fan is installed in the room?",
+      "response": "none"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What type of ceiling fan is installed in the room?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What color are the wardrobes in the Masterbedroom?\n\nA. Bright white\nB. Dark blue\nC. Matte black\nD. Light gray",
+      "response": "C"
+    }
+  ]
+}

@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "f0e2ffa2-88c8-45f2-be1a-48a9107dabd3@SecondBedroom-35695",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 4",
+  "timestamp": "2025-10-28T21:23:52.204564",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/f0e2ffa2-88c8-45f2-be1a-48a9107dabd3/SecondBedroom-35695/SecondBedroom-35695.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What color is the wardrobe in the bedroom?\n\nA. Navy\nB. Light Blue\nC. Deep Maroon\nIf none of the above answers are correct, answer: 'F'",
+      "response": "A"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What color is the wardrobe in the bedroom?\n\nA. Navy\nB. Light Blue\nC. Deep Maroon\nD. None of the above",
+      "response": "A"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What color is the wardrobe in the bedroom?\n\nA. Navy\nB. Light Blue\nC. Deep Maroon",
+      "response": "A"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What color is the wardrobe in the bedroom?\n\nA. Jupiter\nB. Neptune\nC. Saturn\nD. Mars\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What color is the wardrobe in the bedroom?\n\nA. Jupiter\nB. Neptune\nC. Saturn\nD. Mars\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What color is the wardrobe in the bedroom?\n\nA. Jupiter\nB. Neptune\nC. Saturn\nD. Mars",
+      "response": "None"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What is the shape of the window in the scene?\n\nA. Round\nB. Square\nC. Rectangular\nD. Arched\nIf none of the above answers are correct, answer: 'F'",
+      "response": "C"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What is the shape of the window in the scene?\n\nA. Round\nB. Square\nC. Rectangular\nD. Arched\nE. None of the above",
+      "response": "C"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What is the shape of the window in the scene?\n\nA. Round\nB. Square\nC. Rectangular\nD. Arched",
+      "response": "C"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What type of outdoor furniture is placed on the balcony?",
+      "response": "unanswerable"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What type of outdoor furniture is placed on the balcony?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What color is the wardrobe in the bedroom?\n\nA. Navy\nB. Light Blue\nC. Deep Maroon\nD. Charcoal",
+      "response": "A"
+    }
+  ]
+}

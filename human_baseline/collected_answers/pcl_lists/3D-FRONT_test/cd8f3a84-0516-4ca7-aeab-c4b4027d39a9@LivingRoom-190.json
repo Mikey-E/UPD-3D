@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "cd8f3a84-0516-4ca7-aeab-c4b4027d39a9@LivingRoom-190",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 3",
+  "timestamp": "2025-10-14T15:10:50.576226",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/cd8f3a84-0516-4ca7-aeab-c4b4027d39a9/LivingRoom-190/LivingRoom-190.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What is the style of the side cabinet in this living room?\n\nA. Contemporary\nB. Rustic\nC. Industrial\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What is the style of the side cabinet in this living room?\n\nA. Contemporary\nB. Rustic\nC. Industrial\nD. None of the above",
+      "response": "D"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What is the style of the side cabinet in this living room?\n\nA. Contemporary\nB. Rustic\nC. Industrial",
+      "response": "None"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What is the style of the side cabinet in this living room?\n\nA. Basketball\nB. Symphony\nC. Photography\nD. Ice cream\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What is the style of the side cabinet in this living room?\n\nA. Basketball\nB. Symphony\nC. Photography\nD. Ice cream\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What is the style of the side cabinet in this living room?\n\nA. Basketball\nB. Symphony\nC. Photography\nD. Ice cream",
+      "response": "None"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What type of rug is featured in the living room?\n\nA. Persian rug\nB. Shag rug\nC. Berber rug\nD. Oriental rug\nIf none of the above answers are correct, answer: 'F'",
+      "response": "C"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What type of rug is featured in the living room?\n\nA. Persian rug\nB. Shag rug\nC. Berber rug\nD. Oriental rug\nE. None of the above",
+      "response": "c"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What type of rug is featured in the living room?\n\nA. Persian rug\nB. Shag rug\nC. Berber rug\nD. Oriental rug",
+      "response": "C"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What type of oven is located in this living room?",
+      "response": "N/A"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What type of oven is located in this living room?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What is the style of the side cabinet in this living room?\n\nA. Contemporary\nB. Japanese\nC. Rustic\nD. Industrial",
+      "response": "B"
+    }
+  ]
+}

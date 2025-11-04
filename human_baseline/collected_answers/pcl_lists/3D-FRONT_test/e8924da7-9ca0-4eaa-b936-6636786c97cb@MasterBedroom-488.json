@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "e8924da7-9ca0-4eaa-b936-6636786c97cb@MasterBedroom-488",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 5",
+  "timestamp": "2025-10-27T08:31:02.873798",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/e8924da7-9ca0-4eaa-b936-6636786c97cb/MasterBedroom-488/MasterBedroom-488.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What style are the two nightstands flanking the king-size bed in the Masterbedroom?\n\nA. Industrial\nB. Art Deco\nC. Victorian\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What style are the two nightstands flanking the king-size bed in the Masterbedroom?\n\nA. Industrial\nB. Art Deco\nC. Victorian\nD. None of the above",
+      "response": "d"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What style are the two nightstands flanking the king-size bed in the Masterbedroom?\n\nA. Industrial\nB. Art Deco\nC. Victorian",
+      "response": "none"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What style are the two nightstands flanking the king-size bed in the Masterbedroom?\n\nA. Mountain range\nB. Ocean current\nC. Desert landscape\nD. Forest canopy\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What style are the two nightstands flanking the king-size bed in the Masterbedroom?\n\nA. Mountain range\nB. Ocean current\nC. Desert landscape\nD. Forest canopy\nE. None of the above",
+      "response": "e"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What style are the two nightstands flanking the king-size bed in the Masterbedroom?\n\nA. Mountain range\nB. Ocean current\nC. Desert landscape\nD. Forest canopy",
+      "response": "none"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What is the height of the tree in the backyard?\n\nA. 10 feet\nB. 15 feet\nC. 20 feet\nD. 25 feet\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What is the height of the tree in the backyard?\n\nA. 10 feet\nB. 15 feet\nC. 20 feet\nD. 25 feet\nE. None of the above",
+      "response": "e"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What is the height of the tree in the backyard?\n\nA. 10 feet\nB. 15 feet\nC. 20 feet\nD. 25 feet",
+      "response": "none"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What type of artwork is displayed on the walls?",
+      "response": "none"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What type of artwork is displayed on the walls?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What style are the two nightstands flanking the king-size bed in the Masterbedroom?\n\nA. Industrial\nB. Art Deco\nC. Victorian\nD. American Country",
+      "response": "d"
+    }
+  ]
+}

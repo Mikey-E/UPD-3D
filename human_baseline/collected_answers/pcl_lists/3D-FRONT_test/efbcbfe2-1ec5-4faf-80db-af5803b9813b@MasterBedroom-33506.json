@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "efbcbfe2-1ec5-4faf-80db-af5803b9813b@MasterBedroom-33506",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 3",
+  "timestamp": "2025-10-28T16:28:54.278993",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/efbcbfe2-1ec5-4faf-80db-af5803b9813b/MasterBedroom-33506/MasterBedroom-33506.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What is the color of the wardrobe in the Masterbedroom?\n\nA. Dark grey\nB. Deep green\nC. Black and silver\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What is the color of the wardrobe in the Masterbedroom?\n\nA. Dark grey\nB. Deep green\nC. Black and silver\nD. None of the above",
+      "response": "D"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What is the color of the wardrobe in the Masterbedroom?\n\nA. Dark grey\nB. Deep green\nC. Black and silver",
+      "response": "None"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What is the color of the wardrobe in the Masterbedroom?\n\nA. Ocean\nB. Mountain\nC. Desert\nD. Forest\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What is the color of the wardrobe in the Masterbedroom?\n\nA. Ocean\nB. Mountain\nC. Desert\nD. Forest\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What is the color of the wardrobe in the Masterbedroom?\n\nA. Ocean\nB. Mountain\nC. Desert\nD. Forest",
+      "response": "None"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What type of chair is located in the scene?\n\nA. Recliner\nB. Armchair\nC. Lounge chair\nD. Dining chair\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What type of chair is located in the scene?\n\nA. Recliner\nB. Armchair\nC. Lounge chair\nD. Dining chair\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What type of chair is located in the scene?\n\nA. Recliner\nB. Armchair\nC. Lounge chair\nD. Dining chair",
+      "response": "None"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What does the rug on the floor look like?",
+      "response": "Grey, black and white, rough rug"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What does the rug on the floor look like?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "Grey, black and white, rough rug"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What is the color of the wardrobe in the Masterbedroom?\n\nA. Dark grey\nB. Deep green\nC. Espresso brown\nD. Black and silver",
+      "response": "C"
+    }
+  ]
+}

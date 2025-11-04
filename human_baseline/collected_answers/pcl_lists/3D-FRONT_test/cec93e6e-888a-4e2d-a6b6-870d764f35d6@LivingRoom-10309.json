@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "cec93e6e-888a-4e2d-a6b6-870d764f35d6@LivingRoom-10309",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 4",
+  "timestamp": "2025-10-14T19:52:31.154564",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/cec93e6e-888a-4e2d-a6b6-870d764f35d6/LivingRoom-10309/LivingRoom-10309.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What material is the ceiling fan in the living room made of?\n\nA. Plastic\nB. Wood\nC. Glass\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What material is the ceiling fan in the living room made of?\n\nA. Plastic\nB. Wood\nC. Glass\nD. None of the above",
+      "response": "d"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What material is the ceiling fan in the living room made of?\n\nA. Plastic\nB. Wood\nC. Glass",
+      "response": "none"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What material is the ceiling fan in the living room made of?\n\nA. Dolphin communication methods\nB. Geological formations\nC. Solar system exploration\nD. Renaissance art techniques\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What material is the ceiling fan in the living room made of?\n\nA. Dolphin communication methods\nB. Geological formations\nC. Solar system exploration\nD. Renaissance art techniques\nE. None of the above",
+      "response": "e"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What material is the ceiling fan in the living room made of?\n\nA. Dolphin communication methods\nB. Geological formations\nC. Solar system exploration\nD. Renaissance art techniques",
+      "response": "none"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What type of rug is located in the living room?\n\nA. Persian\nB. Moroccan\nC. Shag\nD. Berber\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What type of rug is located in the living room?\n\nA. Persian\nB. Moroccan\nC. Shag\nD. Berber\nE. None of the above",
+      "response": "e"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What type of rug is located in the living room?\n\nA. Persian\nB. Moroccan\nC. Shag\nD. Berber",
+      "response": "none"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What type of artwork is hung on the walls?",
+      "response": "unanswerable"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What type of artwork is hung on the walls?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What material is the ceiling fan in the living room made of?\n\nA. Metal\nB. Plastic\nC. Wood\nD. Glass",
+      "response": "a"
+    }
+  ]
+}

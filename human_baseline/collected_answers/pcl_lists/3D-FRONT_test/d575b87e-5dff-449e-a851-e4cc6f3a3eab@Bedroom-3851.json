@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "d575b87e-5dff-449e-a851-e4cc6f3a3eab@Bedroom-3851",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 4",
+  "timestamp": "2025-10-16T11:39:46.325102",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/d575b87e-5dff-449e-a851-e4cc6f3a3eab/Bedroom-3851/Bedroom-3851.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What piece of furniture stands at the center of the bedroom, promoting relaxation?\n\nA. Wardrobe\nB. Dressing table\nC. Corner table\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What piece of furniture stands at the center of the bedroom, promoting relaxation?\n\nA. Wardrobe\nB. Dressing table\nC. Corner table\nD. None of the above",
+      "response": "d"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What piece of furniture stands at the center of the bedroom, promoting relaxation?\n\nA. Wardrobe\nB. Dressing table\nC. Corner table",
+      "response": "none"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What piece of furniture stands at the center of the bedroom, promoting relaxation?\n\nA. Rainforest conservation\nB. Quantum mechanics\nC. Historical linguistics\nD. Culinary traditions\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What piece of furniture stands at the center of the bedroom, promoting relaxation?\n\nA. Rainforest conservation\nB. Quantum mechanics\nC. Historical linguistics\nD. Culinary traditions\nE. None of the above",
+      "response": "e"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What piece of furniture stands at the center of the bedroom, promoting relaxation?\n\nA. Rainforest conservation\nB. Quantum mechanics\nC. Historical linguistics\nD. Culinary traditions",
+      "response": "none"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What is the color of the vase on the dining table?\n\nA. Blue\nB. Yellow\nC. Green\nD. Red\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What is the color of the vase on the dining table?\n\nA. Blue\nB. Yellow\nC. Green\nD. Red\nE. None of the above",
+      "response": "e"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What is the color of the vase on the dining table?\n\nA. Blue\nB. Yellow\nC. Green\nD. Red",
+      "response": "none"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What is the size and color of the aquarium in the room?",
+      "response": "n/a"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What is the size and color of the aquarium in the room?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What piece of furniture stands at the center of the bedroom, promoting relaxation?\n\nA. Wardrobe\nB. King-size bed\nC. Dressing table\nD. Corner table",
+      "response": "b"
+    }
+  ]
+}

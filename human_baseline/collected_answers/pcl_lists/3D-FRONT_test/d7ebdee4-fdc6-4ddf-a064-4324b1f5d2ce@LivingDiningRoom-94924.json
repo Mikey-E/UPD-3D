@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "d7ebdee4-fdc6-4ddf-a064-4324b1f5d2ce@LivingDiningRoom-94924",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 4",
+  "timestamp": "2025-10-17T21:18:55.405749",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/d7ebdee4-fdc6-4ddf-a064-4324b1f5d2ce/LivingDiningRoom-94924/LivingDiningRoom-94924.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What is the style of the sideboard in the living room? \n\nA. Rustic farmhouse\nB. Victorian classic\nC. Scandinavian minimalist\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What is the style of the sideboard in the living room? \n\nA. Rustic farmhouse\nB. Victorian classic\nC. Scandinavian minimalist\nD. None of the above",
+      "response": "D"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What is the style of the sideboard in the living room? \n\nA. Rustic farmhouse\nB. Victorian classic\nC. Scandinavian minimalist",
+      "response": "None"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What is the style of the sideboard in the living room? \n\nA. Goldfish\nB. Parrot\nC. Cactus\nD. Pineapple\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What is the style of the sideboard in the living room? \n\nA. Goldfish\nB. Parrot\nC. Cactus\nD. Pineapple\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What is the style of the sideboard in the living room? \n\nA. Goldfish\nB. Parrot\nC. Cactus\nD. Pineapple",
+      "response": "None"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What is the height of the chandelier in the living room?\n\nA. 3 feet\nB. 5 feet\nC. 10 feet\nD. 12 feet\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What is the height of the chandelier in the living room?\n\nA. 3 feet\nB. 5 feet\nC. 10 feet\nD. 12 feet\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What is the height of the chandelier in the living room?\n\nA. 3 feet\nB. 5 feet\nC. 10 feet\nD. 12 feet",
+      "response": "None"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What type of cooking range is installed in the kitchen?",
+      "response": "unanswerable"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What type of cooking range is installed in the kitchen?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What is the style of the sideboard in the living room? \n\nA. Japanese-inspired\nB. Rustic farmhouse\nC. Victorian classic\nD. Scandinavian minimalist",
+      "response": "A"
+    }
+  ]
+}

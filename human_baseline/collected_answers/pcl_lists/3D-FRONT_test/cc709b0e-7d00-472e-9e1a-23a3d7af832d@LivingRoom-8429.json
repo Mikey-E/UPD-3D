@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "cc709b0e-7d00-472e-9e1a-23a3d7af832d@LivingRoom-8429",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 5",
+  "timestamp": "2025-10-14T14:26:20.553975",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/cc709b0e-7d00-472e-9e1a-23a3d7af832d/LivingRoom-8429/LivingRoom-8429.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What color is the dining table in the living room?\n\nA. Black\nB. Champagne\nC. Light grey\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What color is the dining table in the living room?\n\nA. Black\nB. Champagne\nC. Light grey\nD. None of the above",
+      "response": "d"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What color is the dining table in the living room?\n\nA. Black\nB. Champagne\nC. Light grey",
+      "response": "none of these"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What color is the dining table in the living room?\n\nA. Fiction\nB. Adventure\nC. Mystery\nD. Fantasy\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What color is the dining table in the living room?\n\nA. Fiction\nB. Adventure\nC. Mystery\nD. Fantasy\nE. None of the above",
+      "response": "e"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What color is the dining table in the living room?\n\nA. Fiction\nB. Adventure\nC. Mystery\nD. Fantasy",
+      "response": "none of these"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What is the height of the bookshelf?\n\nA. Five feet\nB. Six feet\nC. Seven feet\nD. Eight feet\nIf none of the above answers are correct, answer: 'F'",
+      "response": "a"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What is the height of the bookshelf?\n\nA. Five feet\nB. Six feet\nC. Seven feet\nD. Eight feet\nE. None of the above",
+      "response": "a"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What is the height of the bookshelf?\n\nA. Five feet\nB. Six feet\nC. Seven feet\nD. Eight feet",
+      "response": "a"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What type of piano is placed against the wall?",
+      "response": "unanswerable"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What type of piano is placed against the wall?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What color is the dining table in the living room?\n\nA. Black\nB. Champagne\nC. Light grey\nD. Deep brown",
+      "response": "d"
+    }
+  ]
+}

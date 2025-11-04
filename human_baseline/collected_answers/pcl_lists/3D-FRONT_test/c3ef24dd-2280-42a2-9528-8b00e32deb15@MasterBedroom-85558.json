@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "c3ef24dd-2280-42a2-9528-8b00e32deb15@MasterBedroom-85558",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 3",
+  "timestamp": "2025-10-08T11:08:35.650677",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/c3ef24dd-2280-42a2-9528-8b00e32deb15/MasterBedroom-85558/MasterBedroom-85558.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What color are the nightstands in the master bedroom?\n\nA. Creamy beige\nB. White and blue-grey\nC. Deep brown\nIf none of the above answers are correct, answer: 'F'",
+      "response": "B"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What color are the nightstands in the master bedroom?\n\nA. Creamy beige\nB. White and blue-grey\nC. Deep brown\nD. None of the above",
+      "response": "B"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What color are the nightstands in the master bedroom?\n\nA. Creamy beige\nB. White and blue-grey\nC. Deep brown",
+      "response": "B"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What color are the nightstands in the master bedroom?\n\nA. Elephant\nB. Giraffe\nC. Kangaroo\nD. Penguin\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What color are the nightstands in the master bedroom?\n\nA. Elephant\nB. Giraffe\nC. Kangaroo\nD. Penguin\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What color are the nightstands in the master bedroom?\n\nA. Elephant\nB. Giraffe\nC. Kangaroo\nD. Penguin",
+      "response": "None"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What type of sculpture is placed in the room?\n\nA. Bust of a philosopher\nB. Abstract metal art\nC. Stone relief\nD. Wooden totem\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What type of sculpture is placed in the room?\n\nA. Bust of a philosopher\nB. Abstract metal art\nC. Stone relief\nD. Wooden totem\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What type of sculpture is placed in the room?\n\nA. Bust of a philosopher\nB. Abstract metal art\nC. Stone relief\nD. Wooden totem",
+      "response": "None"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What type of painting is displayed on the wall?",
+      "response": "N/A"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What type of painting is displayed on the wall?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What color are the nightstands in the master bedroom?\n\nA. Creamy beige\nB. White and blue-grey\nC. Deep brown\nD. Brown and turquoise",
+      "response": "B"
+    }
+  ]
+}

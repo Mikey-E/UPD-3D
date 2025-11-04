@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "d6c96f85-d2f8-4ecd-8454-ba282131218c@SecondBedroom-24866",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 4",
+  "timestamp": "2025-10-16T16:49:23.357311",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/d6c96f85-d2f8-4ecd-8454-ba282131218c/SecondBedroom-24866/SecondBedroom-24866.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What color is the king-size bed in the Second bedroom?\n\nA. Charcoal black\nB. Soft grey\nC. White\nIf none of the above answers are correct, answer: 'F'",
+      "response": "A"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What color is the king-size bed in the Second bedroom?\n\nA. Charcoal black\nB. Soft grey\nC. White\nD. None of the above",
+      "response": "A"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What color is the king-size bed in the Second bedroom?\n\nA. Charcoal black\nB. Soft grey\nC. White",
+      "response": "A"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What color is the king-size bed in the Second bedroom?\n\nA. Mercury\nB. Oxygen\nC. Carbon\nD. Helium\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What color is the king-size bed in the Second bedroom?\n\nA. Mercury\nB. Oxygen\nC. Carbon\nD. Helium\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What color is the king-size bed in the Second bedroom?\n\nA. Mercury\nB. Oxygen\nC. Carbon\nD. Helium",
+      "response": "None"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What is the length of the kitchen counter in the scene?\n\nA. Four feet\nB. Six feet\nC. Eight feet\nD. Ten feet\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What is the length of the kitchen counter in the scene?\n\nA. Four feet\nB. Six feet\nC. Eight feet\nD. Ten feet\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What is the length of the kitchen counter in the scene?\n\nA. Four feet\nB. Six feet\nC. Eight feet\nD. Ten feet",
+      "response": "None"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What type of outdoor furniture is used in the room?",
+      "response": "unanswerable"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What type of outdoor furniture is used in the room?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What color is the king-size bed in the Second bedroom?\n\nA. Charcoal black\nB. Chocolate brown\nC. Soft grey\nD. White",
+      "response": "A"
+    }
+  ]
+}

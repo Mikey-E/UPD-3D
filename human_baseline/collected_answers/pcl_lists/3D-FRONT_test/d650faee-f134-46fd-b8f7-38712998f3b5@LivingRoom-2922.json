@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "d650faee-f134-46fd-b8f7-38712998f3b5@LivingRoom-2922",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 3",
+  "timestamp": "2025-10-16T12:11:41.725757",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/d650faee-f134-46fd-b8f7-38712998f3b5/LivingRoom-2922/LivingRoom-2922.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What style is the dining table in the living room described?\n\nA. American Country style\nB. Vintage style\nC. Modern style\nIf none of the above answers are correct, answer: 'F'",
+      "response": "A"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What style is the dining table in the living room described?\n\nA. American Country style\nB. Vintage style\nC. Modern style\nD. None of the above",
+      "response": "A"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What style is the dining table in the living room described?\n\nA. American Country style\nB. Vintage style\nC. Modern style",
+      "response": "A"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What style is the dining table in the living room described?\n\nA. Lion\nB. Giraffe\nC. Elephant\nD. Zebra\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What style is the dining table in the living room described?\n\nA. Lion\nB. Giraffe\nC. Elephant\nD. Zebra\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What style is the dining table in the living room described?\n\nA. Lion\nB. Giraffe\nC. Elephant\nD. Zebra",
+      "response": "None"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What type of bookshelf is situated in the corner of the living room?\n\nA. Floating bookshelf\nB. Ladder bookshelf\nC. Cube bookshelf\nD. Corner bookshelf\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What type of bookshelf is situated in the corner of the living room?\n\nA. Floating bookshelf\nB. Ladder bookshelf\nC. Cube bookshelf\nD. Corner bookshelf\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What type of bookshelf is situated in the corner of the living room?\n\nA. Floating bookshelf\nB. Ladder bookshelf\nC. Cube bookshelf\nD. Corner bookshelf",
+      "response": "None"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What type of fountain is located in the room?",
+      "response": "N/A"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What type of fountain is located in the room?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What style is the dining table in the living room described?\n\nA. American Country style\nB. Vintage style\nC. Industrial style\nD. Modern style",
+      "response": "A"
+    }
+  ]
+}

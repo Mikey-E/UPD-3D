@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "e396e943-0f12-4455-938a-47a4b44bc25c@SecondBedroom-18701",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 5",
+  "timestamp": "2025-10-25T21:35:54.229406",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/e396e943-0f12-4455-938a-47a4b44bc25c/SecondBedroom-18701/SecondBedroom-18701.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What piece of furniture is positioned in front of the king-size bed, enhancing the room's entertainment capabilities?\n\nA. Drawer chest\nB. Desk\nC. Nightstand\nIf none of the above answers are correct, answer: 'F'",
+      "response": "a"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What piece of furniture is positioned in front of the king-size bed, enhancing the room's entertainment capabilities?\n\nA. Drawer chest\nB. Desk\nC. Nightstand\nD. None of the above",
+      "response": "a"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What piece of furniture is positioned in front of the king-size bed, enhancing the room's entertainment capabilities?\n\nA. Drawer chest\nB. Desk\nC. Nightstand",
+      "response": "a"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What piece of furniture is positioned in front of the king-size bed, enhancing the room's entertainment capabilities?\n\nA. Dessert fork\nB. Paperclip\nC. Running shoe\nD. Watermelon slice\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What piece of furniture is positioned in front of the king-size bed, enhancing the room's entertainment capabilities?\n\nA. Dessert fork\nB. Paperclip\nC. Running shoe\nD. Watermelon slice\nE. None of the above",
+      "response": "e"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What piece of furniture is positioned in front of the king-size bed, enhancing the room's entertainment capabilities?\n\nA. Dessert fork\nB. Paperclip\nC. Running shoe\nD. Watermelon slice",
+      "response": "none"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What color is the ceiling in the scene?\n\nA. Blue\nB. White\nC. Grey\nD. Red\nIf none of the above answers are correct, answer: 'F'",
+      "response": "b"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What color is the ceiling in the scene?\n\nA. Blue\nB. White\nC. Grey\nD. Red\nE. None of the above",
+      "response": "b"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What color is the ceiling in the scene?\n\nA. Blue\nB. White\nC. Grey\nD. Red",
+      "response": "b"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What type of outdoor fountain is placed next to the bedroom?",
+      "response": "none"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What type of outdoor fountain is placed next to the bedroom?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What piece of furniture is positioned in front of the king-size bed, enhancing the room's entertainment capabilities?\n\nA. Drawer chest\nB. TV stand\nC. Desk\nD. Nightstand",
+      "response": "a"
+    }
+  ]
+}

@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "cb300b0a-3072-44a1-9f4d-dd75497ab9c5@MasterBedroom-3151",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 3",
+  "timestamp": "2025-10-14T11:27:56.865750",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/cb300b0a-3072-44a1-9f4d-dd75497ab9c5/MasterBedroom-3151/MasterBedroom-3151.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What design style does the nightstand exemplify in the room?\n\nA. Industrial\nB. Baroque\nC. Art Deco\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What design style does the nightstand exemplify in the room?\n\nA. Industrial\nB. Baroque\nC. Art Deco\nD. None of the above",
+      "response": "D"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What design style does the nightstand exemplify in the room?\n\nA. Industrial\nB. Baroque\nC. Art Deco",
+      "response": "None"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What design style does the nightstand exemplify in the room?\n\nA. Choreography\nB. Polaroid\nC. Inkblot\nD. Paradox\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What design style does the nightstand exemplify in the room?\n\nA. Choreography\nB. Polaroid\nC. Inkblot\nD. Paradox\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What design style does the nightstand exemplify in the room?\n\nA. Choreography\nB. Polaroid\nC. Inkblot\nD. Paradox",
+      "response": "None"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What material is the dining table made of?\n\nA. Glass\nB. Wood\nC. Metal\nD. Plastic\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What material is the dining table made of?\n\nA. Glass\nB. Wood\nC. Metal\nD. Plastic\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What material is the dining table made of?\n\nA. Glass\nB. Wood\nC. Metal\nD. Plastic",
+      "response": "None"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What type of rug is displayed under the bed?",
+      "response": "N/A"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What type of rug is displayed under the bed?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What design style does the nightstand exemplify in the room?\n\nA. Industrial\nB. Baroque\nC. Minimalist\nD. Art Deco",
+      "response": "No nightstand"
+    }
+  ]
+}

@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "03cd0e8a-1d94-4228-9d66-e01101830526@SecondBedroom-11377",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 5",
+  "timestamp": "2025-10-24T23:13:21.810820",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/03cd0e8a-1d94-4228-9d66-e01101830526/SecondBedroom-11377/SecondBedroom-11377.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What color scheme is primarily used for the bookcases in the Second bedroom?\n\nA. Bright white and silver\nB. Dark gray and black\nC. Light blue and cream\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What color scheme is primarily used for the bookcases in the Second bedroom?\n\nA. Bright white and silver\nB. Dark gray and black\nC. Light blue and cream\nD. None of the above",
+      "response": "d"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What color scheme is primarily used for the bookcases in the Second bedroom?\n\nA. Bright white and silver\nB. Dark gray and black\nC. Light blue and cream",
+      "response": "none"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What color scheme is primarily used for the bookcases in the Second bedroom?\n\nA. Tropical rainforest\nB. Arctic tundra\nC. Desert plateau\nD. Urban skyline\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What color scheme is primarily used for the bookcases in the Second bedroom?\n\nA. Tropical rainforest\nB. Arctic tundra\nC. Desert plateau\nD. Urban skyline\nE. None of the above",
+      "response": "e"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What color scheme is primarily used for the bookcases in the Second bedroom?\n\nA. Tropical rainforest\nB. Arctic tundra\nC. Desert plateau\nD. Urban skyline",
+      "response": "none"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What type of flooring is used in the room?\n\nA. Hardwood\nB. Carpet\nC. Tile\nD. Laminate\nIf none of the above answers are correct, answer: 'F'",
+      "response": "a"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What type of flooring is used in the room?\n\nA. Hardwood\nB. Carpet\nC. Tile\nD. Laminate\nE. None of the above",
+      "response": "a"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What type of flooring is used in the room?\n\nA. Hardwood\nB. Carpet\nC. Tile\nD. Laminate",
+      "response": "a"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What type of outdoor sculpture is positioned in front of the room?",
+      "response": "none"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What type of outdoor sculpture is positioned in front of the room?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What color scheme is primarily used for the bookcases in the Second bedroom?\n\nA. Bright white and silver\nB. Dark gray and black\nC. Rich brown wood\nD. Light blue and cream",
+      "response": "c"
+    }
+  ]
+}

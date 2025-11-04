@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "Rapeseed@127",
+  "dataset": "Crops3D_test",
+  "annotated_by": "User 5",
+  "timestamp": "2025-10-30T23:29:46.335435",
+  "file_path": "/project/3dllms/melgin/datasets/CEA/Crops3D/Rapeseed/127.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What color is the pot that the potted plant is in?\n\nA. Light blue\nB. Bright green\nC. Pale pink\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What color is the pot that the potted plant is in?\n\nA. Light blue\nB. Bright green\nC. Pale pink\nD. None of the above",
+      "response": "d"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What color is the pot that the potted plant is in?\n\nA. Light blue\nB. Bright green\nC. Pale pink",
+      "response": "none"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What color is the pot that the potted plant is in?\n\nA. Fuzzy\nB. Electric\nC. Sonorous\nD. Abstract\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What color is the pot that the potted plant is in?\n\nA. Fuzzy\nB. Electric\nC. Sonorous\nD. Abstract\nE. None of the above",
+      "response": "e"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What color is the pot that the potted plant is in?\n\nA. Fuzzy\nB. Electric\nC. Sonorous\nD. Abstract",
+      "response": "none"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What type of bookshelf is featured in the scene?\n\nA. Floating bookshelf\nB. Corner bookshelf\nC. Adjustable bookshelf\nD. Hexagonal bookshelf\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What type of bookshelf is featured in the scene?\n\nA. Floating bookshelf\nB. Corner bookshelf\nC. Adjustable bookshelf\nD. Hexagonal bookshelf\nE. None of the above",
+      "response": "e"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What type of bookshelf is featured in the scene?\n\nA. Floating bookshelf\nB. Corner bookshelf\nC. Adjustable bookshelf\nD. Hexagonal bookshelf",
+      "response": "none"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What shape is the bookcase in the room?",
+      "response": "none"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What shape is the bookcase in the room?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What color is the pot that the potted plant is in?\n\nA. Dark blue\nB. Light blue\nC. Bright green\nD. Pale pink",
+      "response": "a"
+    }
+  ]
+}

@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "Cotton@67",
+  "dataset": "Crops3D_test",
+  "annotated_by": "User 5",
+  "timestamp": "2025-10-30T10:24:25.243918",
+  "file_path": "/project/3dllms/melgin/datasets/CEA/Crops3D/Cotton/67.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What type of plant structure is primarily described in the room?\n\nA. A bush with thick foliage\nB. A flowering vine\nC. A tree with a trunk\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What type of plant structure is primarily described in the room?\n\nA. A bush with thick foliage\nB. A flowering vine\nC. A tree with a trunk\nD. None of the above",
+      "response": "d"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What type of plant structure is primarily described in the room?\n\nA. A bush with thick foliage\nB. A flowering vine\nC. A tree with a trunk",
+      "response": "none"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What type of plant structure is primarily described in the room?\n\nA. Collision\nB. Friction\nC. Gravity\nD. Acceleration\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What type of plant structure is primarily described in the room?\n\nA. Collision\nB. Friction\nC. Gravity\nD. Acceleration\nE. None of the above",
+      "response": "e"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What type of plant structure is primarily described in the room?\n\nA. Collision\nB. Friction\nC. Gravity\nD. Acceleration",
+      "response": "none"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What type of vehicle is parked next to the tree?\n\nA. Sedan\nB. Pickup truck\nC. Bicycle\nD. Motorcycle\nIf none of the above answers are correct, answer: 'F'",
+      "response": "none"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What type of vehicle is parked next to the tree?\n\nA. Sedan\nB. Pickup truck\nC. Bicycle\nD. Motorcycle\nE. None of the above",
+      "response": "f"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What type of vehicle is parked next to the tree?\n\nA. Sedan\nB. Pickup truck\nC. Bicycle\nD. Motorcycle",
+      "response": "none"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What type of fish is swimming in the scene?",
+      "response": "none"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What type of fish is swimming in the scene?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What type of plant structure is primarily described in the room?\n\nA. A bush with thick foliage\nB. A slender stem with delicate branches\nC. A flowering vine\nD. A tree with a trunk",
+      "response": "none"
+    }
+  ]
+}

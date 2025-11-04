@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "ef17e0e8-f83d-466e-9a2c-096d97599757@KidsRoom-34",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 3",
+  "timestamp": "2025-10-28T16:11:20.606014",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/ef17e0e8-f83d-466e-9a2c-096d97599757/KidsRoom-34/KidsRoom-34.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What style is the lounge chair in the KidsRoom?\n\nA. New Chinese\nB. Industrial\nC. Southeast Asian\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What style is the lounge chair in the KidsRoom?\n\nA. New Chinese\nB. Industrial\nC. Southeast Asian\nD. None of the above",
+      "response": "D"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What style is the lounge chair in the KidsRoom?\n\nA. New Chinese\nB. Industrial\nC. Southeast Asian",
+      "response": "None"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What style is the lounge chair in the KidsRoom?\n\nA. Ocean wave\nB. Mountain range\nC. Desert sand\nD. Tropical rainforest\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What style is the lounge chair in the KidsRoom?\n\nA. Ocean wave\nB. Mountain range\nC. Desert sand\nD. Tropical rainforest\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What style is the lounge chair in the KidsRoom?\n\nA. Ocean wave\nB. Mountain range\nC. Desert sand\nD. Tropical rainforest",
+      "response": "None"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What type of tree is used as a decoration in the room?\n\nA. Birch\nB. Maple\nC. Pine\nD. Oak\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What type of tree is used as a decoration in the room?\n\nA. Birch\nB. Maple\nC. Pine\nD. Oak\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What type of tree is used as a decoration in the room?\n\nA. Birch\nB. Maple\nC. Pine\nD. Oak",
+      "response": "None"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What type of fireplace features are included in the room?",
+      "response": "N/A"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What type of fireplace features are included in the room?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What style is the lounge chair in the KidsRoom?\n\nA. New Chinese\nB. Industrial\nC. Minimalist\nD. Southeast Asian",
+      "response": "C"
+    }
+  ]
+}

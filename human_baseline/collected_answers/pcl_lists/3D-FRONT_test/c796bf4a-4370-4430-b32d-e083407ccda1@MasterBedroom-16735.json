@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "c796bf4a-4370-4430-b32d-e083407ccda1@MasterBedroom-16735",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 3",
+  "timestamp": "2025-10-10T15:43:09.313350",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/c796bf4a-4370-4430-b32d-e083407ccda1/MasterBedroom-16735/MasterBedroom-16735.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What feature of the room adds a touch of European style and is located above the center area of the room?\n\nA. Side table\nB. King-size bed\nC. Night lamp\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What feature of the room adds a touch of European style and is located above the center area of the room?\n\nA. Side table\nB. King-size bed\nC. Night lamp\nD. None of the above",
+      "response": "D"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What feature of the room adds a touch of European style and is located above the center area of the room?\n\nA. Side table\nB. King-size bed\nC. Night lamp",
+      "response": "N/A"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What feature of the room adds a touch of European style and is located above the center area of the room?\n\nA. Goldfish\nB. Computer virus\nC. Mountain climbing\nD. Jazz music\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What feature of the room adds a touch of European style and is located above the center area of the room?\n\nA. Goldfish\nB. Computer virus\nC. Mountain climbing\nD. Jazz music\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What feature of the room adds a touch of European style and is located above the center area of the room?\n\nA. Goldfish\nB. Computer virus\nC. Mountain climbing\nD. Jazz music",
+      "response": "None"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What is the height of the building?\n\nA. Three stories\nB. Ten meters\nC. Fifty feet\nD. One hundred stories\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What is the height of the building?\n\nA. Three stories\nB. Ten meters\nC. Fifty feet\nD. One hundred stories\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What is the height of the building?\n\nA. Three stories\nB. Ten meters\nC. Fifty feet\nD. One hundred stories",
+      "response": "None"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What type of artwork is displayed on the walls?",
+      "response": "N/A"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What type of artwork is displayed on the walls?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What feature of the room adds a touch of European style and is located above the center area of the room?\n\nA. Ceiling lamp\nB. Side table\nC. King-size bed\nD. Night lamp",
+      "response": "Not clear"
+    }
+  ]
+}

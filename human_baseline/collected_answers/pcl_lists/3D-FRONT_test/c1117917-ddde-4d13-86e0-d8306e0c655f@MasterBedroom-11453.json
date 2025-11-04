@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "c1117917-ddde-4d13-86e0-d8306e0c655f@MasterBedroom-11453",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 5",
+  "timestamp": "2025-10-06T10:28:28.856094",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/c1117917-ddde-4d13-86e0-d8306e0c655f/MasterBedroom-11453/MasterBedroom-11453.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What color is the bed frame in the master bedroom?\n\nA. Matte black\nB. Soft beige\nC. Glossy white\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What color is the bed frame in the master bedroom?\n\nA. Matte black\nB. Soft beige\nC. Glossy white\nD. None of the above",
+      "response": "d"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What color is the bed frame in the master bedroom?\n\nA. Matte black\nB. Soft beige\nC. Glossy white",
+      "response": "none of the above"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What color is the bed frame in the master bedroom?\n\nA. Aquatic\nB. Celestial\nC. Mountainous\nD. Deserted\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What color is the bed frame in the master bedroom?\n\nA. Aquatic\nB. Celestial\nC. Mountainous\nD. Deserted\nE. None of the above",
+      "response": "e"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What color is the bed frame in the master bedroom?\n\nA. Aquatic\nB. Celestial\nC. Mountainous\nD. Deserted",
+      "response": "none of the above"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What pattern does the rug have in the scene?\n\nA. Stripes\nB. Polka dots\nC. Floral\nD. Geometric\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What pattern does the rug have in the scene?\n\nA. Stripes\nB. Polka dots\nC. Floral\nD. Geometric\nE. None of the above",
+      "response": "e"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What pattern does the rug have in the scene?\n\nA. Stripes\nB. Polka dots\nC. Floral\nD. Geometric",
+      "response": "none of the above"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What type of metal is used for the light fixture in the room?",
+      "response": "no metal used"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What type of metal is used for the light fixture in the room?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What color is the bed frame in the master bedroom?\n\nA. Matte black\nB. Matte grey\nC. Soft beige\nD. Glossy white",
+      "response": "none of the above"
+    }
+  ]
+}

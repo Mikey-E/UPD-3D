@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "f505d8e1-b0c7-46d3-8f03-9bb32c6375a0@LivingDiningRoom-17984",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 3",
+  "timestamp": "2025-10-29T23:20:32.582567",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/f505d8e1-b0c7-46d3-8f03-9bb32c6375a0/LivingDiningRoom-17984/LivingDiningRoom-17984.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What is the design influence of the loveseat sofas in the livingdining room?\n\nA. Modern and Scandinavian styles\nB. Rustic and vintage themes\nC. Coastal and nautical elements\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What is the design influence of the loveseat sofas in the livingdining room?\n\nA. Modern and Scandinavian styles\nB. Rustic and vintage themes\nC. Coastal and nautical elements\nD. None of the above",
+      "response": "D"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What is the design influence of the loveseat sofas in the livingdining room?\n\nA. Modern and Scandinavian styles\nB. Rustic and vintage themes\nC. Coastal and nautical elements",
+      "response": "NONE"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What is the design influence of the loveseat sofas in the livingdining room?\n\nA. Tropical rainforest ecosystems\nB. Historical weather patterns\nC. Modern agricultural techniques\nD. Classic video game characters\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What is the design influence of the loveseat sofas in the livingdining room?\n\nA. Tropical rainforest ecosystems\nB. Historical weather patterns\nC. Modern agricultural techniques\nD. Classic video game characters\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What is the design influence of the loveseat sofas in the livingdining room?\n\nA. Tropical rainforest ecosystems\nB. Historical weather patterns\nC. Modern agricultural techniques\nD. Classic video game characters",
+      "response": "NONE"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What is the size of the dining table in the room?\n\nA. Small\nB. Medium\nC. Large\nD. Extra large\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What is the size of the dining table in the room?\n\nA. Small\nB. Medium\nC. Large\nD. Extra large\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What is the size of the dining table in the room?\n\nA. Small\nB. Medium\nC. Large\nD. Extra large",
+      "response": "B"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What type of chandelier hangs from the ceiling?",
+      "response": "NA"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What type of chandelier hangs from the ceiling?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What is the design influence of the loveseat sofas in the livingdining room?\n\nA. Japanese and luxurious designs\nB. Modern and Scandinavian styles\nC. Rustic and vintage themes\nD. Coastal and nautical elements",
+      "response": "A"
+    }
+  ]
+}

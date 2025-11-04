@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "ce51b1c1-72b8-4812-a291-30bf97c07aa1@CloakRoom-47580",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 4",
+  "timestamp": "2025-10-14T15:31:33.662264",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/ce51b1c1-72b8-4812-a291-30bf97c07aa1/CloakRoom-47580/CloakRoom-47580.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What is the primary function of the wardrobe described in the room?\n\nA. Serving as a decorative piece\nB. Displaying books and ornaments\nC. Functioning as a television stand\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What is the primary function of the wardrobe described in the room?\n\nA. Serving as a decorative piece\nB. Displaying books and ornaments\nC. Functioning as a television stand\nD. None of the above",
+      "response": "D"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What is the primary function of the wardrobe described in the room?\n\nA. Serving as a decorative piece\nB. Displaying books and ornaments\nC. Functioning as a television stand",
+      "response": "NONE"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What is the primary function of the wardrobe described in the room?\n\nA. Arboriculture\nB. Symbiosis\nC. Quantum mechanics\nD. Aesthetics\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What is the primary function of the wardrobe described in the room?\n\nA. Arboriculture\nB. Symbiosis\nC. Quantum mechanics\nD. Aesthetics\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What is the primary function of the wardrobe described in the room?\n\nA. Arboriculture\nB. Symbiosis\nC. Quantum mechanics\nD. Aesthetics",
+      "response": "NONE"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What type of flooring is featured in the scene?\n\nA. Hardwood\nB. Carpet\nC. Tile\nD. Laminate\nIf none of the above answers are correct, answer: 'F'",
+      "response": "C"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What type of flooring is featured in the scene?\n\nA. Hardwood\nB. Carpet\nC. Tile\nD. Laminate\nE. None of the above",
+      "response": "C"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What type of flooring is featured in the scene?\n\nA. Hardwood\nB. Carpet\nC. Tile\nD. Laminate",
+      "response": "C"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What kind of sports equipment is stored in the room?",
+      "response": "UNANSWERABLE"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What kind of sports equipment is stored in the room?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What is the primary function of the wardrobe described in the room?\n\nA. Serving as a decorative piece\nB. Storing coats and other attire\nC. Displaying books and ornaments\nD. Functioning as a television stand",
+      "response": "B"
+    }
+  ]
+}

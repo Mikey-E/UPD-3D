@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "bfc9a79e-7433-45f9-8daa-77f41504f917@DiningRoom-273",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 3",
+  "timestamp": "2025-10-16T12:14:24.441102",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/bfc9a79e-7433-45f9-8daa-77f41504f917/DiningRoom-273/DiningRoom-273.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What is the design style of the pendant lamp suspended above the dining area?\n\nA. Traditional\nB. Rustic\nC. Industrial\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What is the design style of the pendant lamp suspended above the dining area?\n\nA. Traditional\nB. Rustic\nC. Industrial\nD. None of the above",
+      "response": "D"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What is the design style of the pendant lamp suspended above the dining area?\n\nA. Traditional\nB. Rustic\nC. Industrial",
+      "response": "None"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What is the design style of the pendant lamp suspended above the dining area?\n\nA. Glacier Formation\nB. Coral Reef\nC. Mountain Range\nD. Lava Flow\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What is the design style of the pendant lamp suspended above the dining area?\n\nA. Glacier Formation\nB. Coral Reef\nC. Mountain Range\nD. Lava Flow\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What is the design style of the pendant lamp suspended above the dining area?\n\nA. Glacier Formation\nB. Coral Reef\nC. Mountain Range\nD. Lava Flow",
+      "response": "None"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What type of sculpture is situated in the corner of the room?\n\nA. Marble statue\nB. Bronze bust\nC. Wooden carving\nD. Glass figurine\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What type of sculpture is situated in the corner of the room?\n\nA. Marble statue\nB. Bronze bust\nC. Wooden carving\nD. Glass figurine\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What type of sculpture is situated in the corner of the room?\n\nA. Marble statue\nB. Bronze bust\nC. Wooden carving\nD. Glass figurine",
+      "response": "None"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What type of outdoor furniture is placed beside the dining area?",
+      "response": "N/A"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What type of outdoor furniture is placed beside the dining area?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What is the design style of the pendant lamp suspended above the dining area?\n\nA. Modern\nB. Traditional\nC. Rustic\nD. Industrial",
+      "response": "A"
+    }
+  ]
+}

@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "d71ccf98-e923-4134-8f7f-d831838b614e@Bedroom-1838",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 4",
+  "timestamp": "2025-10-16T17:02:51.019770",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/d71ccf98-e923-4134-8f7f-d831838b614e/Bedroom-1838/Bedroom-1838.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What color frames do the side tables in the bedroom feature?  \n\nA. Silver\nB. Black\nC. Gray\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What color frames do the side tables in the bedroom feature?  \n\nA. Silver\nB. Black\nC. Gray\nD. None of the above",
+      "response": "D"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What color frames do the side tables in the bedroom feature?  \n\nA. Silver\nB. Black\nC. Gray",
+      "response": "None"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What color frames do the side tables in the bedroom feature?  \n\nA. Astronauts\nB. Penguins\nC. Waterfalls\nD. Rainbows\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What color frames do the side tables in the bedroom feature?  \n\nA. Astronauts\nB. Penguins\nC. Waterfalls\nD. Rainbows\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What color frames do the side tables in the bedroom feature?  \n\nA. Astronauts\nB. Penguins\nC. Waterfalls\nD. Rainbows",
+      "response": "None"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What type of art installation is featured in the corner of the room?\n\nA. Abstract sculpture\nB. Mural painting\nC. Interactive display\nD. Kinetic art piece\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What type of art installation is featured in the corner of the room?\n\nA. Abstract sculpture\nB. Mural painting\nC. Interactive display\nD. Kinetic art piece\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What type of art installation is featured in the corner of the room?\n\nA. Abstract sculpture\nB. Mural painting\nC. Interactive display\nD. Kinetic art piece",
+      "response": "None"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What type of outdoor grill is set up in the space?",
+      "response": "unanswerable"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What type of outdoor grill is set up in the space?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What color frames do the side tables in the bedroom feature?  \n\nA. Silver\nB. Black\nC. Gray\nD. Golden",
+      "response": "D"
+    }
+  ]
+}

@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "db113afa-d8c6-499e-b70c-08ce94e05071@Bedroom-24059",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 4",
+  "timestamp": "2025-10-20T09:53:42.344973",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/db113afa-d8c6-499e-b70c-08ce94e05071/Bedroom-24059/Bedroom-24059.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What style is the wardrobe in the bedroom? \n\nA. American Country style\nB. Modern style\nC. Ming Qing style\nIf none of the above answers are correct, answer: 'F'",
+      "response": "B"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What style is the wardrobe in the bedroom? \n\nA. American Country style\nB. Modern style\nC. Ming Qing style\nD. None of the above",
+      "response": "B"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What style is the wardrobe in the bedroom? \n\nA. American Country style\nB. Modern style\nC. Ming Qing style",
+      "response": "B"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What style is the wardrobe in the bedroom? \n\nA. Coral reef\nB. Mountain range\nC. Solar system\nD. Desert landscape\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What style is the wardrobe in the bedroom? \n\nA. Coral reef\nB. Mountain range\nC. Solar system\nD. Desert landscape\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What style is the wardrobe in the bedroom? \n\nA. Coral reef\nB. Mountain range\nC. Solar system\nD. Desert landscape",
+      "response": "None"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What is the color of the boat in the scene?\n\nA. Red\nB. Green\nC. Blue\nD. Yellow\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What is the color of the boat in the scene?\n\nA. Red\nB. Green\nC. Blue\nD. Yellow\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What is the color of the boat in the scene?\n\nA. Red\nB. Green\nC. Blue\nD. Yellow",
+      "response": "None"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What type of exercise equipment is located in the room?",
+      "response": "unanswerable"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What type of exercise equipment is located in the room?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What style is the wardrobe in the bedroom? \n\nA. American Country style\nB. Modern style\nC. Ming Qing style\nD. Southeast Asian style",
+      "response": "B"
+    }
+  ]
+}

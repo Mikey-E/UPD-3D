@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "d9f80253-8c05-4c78-9464-230008591d38@SecondBedroom-15519",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 4",
+  "timestamp": "2025-10-19T18:12:36.910291",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/d9f80253-8c05-4c78-9464-230008591d38/SecondBedroom-15519/SecondBedroom-15519.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What color is the wardrobe in the bedroom?\n\nA. Dark grey\nB. Light blue\nC. Black\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What color is the wardrobe in the bedroom?\n\nA. Dark grey\nB. Light blue\nC. Black\nD. None of the above",
+      "response": "D"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What color is the wardrobe in the bedroom?\n\nA. Dark grey\nB. Light blue\nC. Black",
+      "response": "None"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What color is the wardrobe in the bedroom?\n\nA. Maple syrup\nB. Lava flow\nC. Whispering wind\nD. Ocean current\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What color is the wardrobe in the bedroom?\n\nA. Maple syrup\nB. Lava flow\nC. Whispering wind\nD. Ocean current\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What color is the wardrobe in the bedroom?\n\nA. Maple syrup\nB. Lava flow\nC. Whispering wind\nD. Ocean current",
+      "response": "None"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What is the color of the sofa in the scene?\n\nA. Blue\nB. Gray\nC. Green\nD. Red\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What is the color of the sofa in the scene?\n\nA. Blue\nB. Gray\nC. Green\nD. Red\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What is the color of the sofa in the scene?\n\nA. Blue\nB. Gray\nC. Green\nD. Red",
+      "response": "None"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What type of swimming pool is located in this bedroom?",
+      "response": "unanswerable"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What type of swimming pool is located in this bedroom?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What color is the wardrobe in the bedroom?\n\nA. Cream\nB. Dark grey\nC. Light blue\nD. Black",
+      "response": "A"
+    }
+  ]
+}

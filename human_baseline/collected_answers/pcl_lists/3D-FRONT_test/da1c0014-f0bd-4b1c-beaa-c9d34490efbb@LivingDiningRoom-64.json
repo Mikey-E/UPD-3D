@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "da1c0014-f0bd-4b1c-beaa-c9d34490efbb@LivingDiningRoom-64",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 4",
+  "timestamp": "2025-10-20T08:03:00.549561",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/da1c0014-f0bd-4b1c-beaa-c9d34490efbb/LivingDiningRoom-64/LivingDiningRoom-64.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What color is the pendant lamp hanging above the coffee table and armchair?\n\nA. Black\nB. Teal\nC. White\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What color is the pendant lamp hanging above the coffee table and armchair?\n\nA. Black\nB. Teal\nC. White\nD. None of the above",
+      "response": "d"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What color is the pendant lamp hanging above the coffee table and armchair?\n\nA. Black\nB. Teal\nC. White",
+      "response": "none"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What color is the pendant lamp hanging above the coffee table and armchair?\n\nA. Mercury\nB. Jupiter\nC. Saturn\nD. Mars\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What color is the pendant lamp hanging above the coffee table and armchair?\n\nA. Mercury\nB. Jupiter\nC. Saturn\nD. Mars\nE. None of the above",
+      "response": "e"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What color is the pendant lamp hanging above the coffee table and armchair?\n\nA. Mercury\nB. Jupiter\nC. Saturn\nD. Mars",
+      "response": "none"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What is the size of the television in the living room?\n\nA. 55 inches\nB. 32 inches\nC. 75 inches\nD. 40 inches\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What is the size of the television in the living room?\n\nA. 55 inches\nB. 32 inches\nC. 75 inches\nD. 40 inches\nE. None of the above",
+      "response": "e"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What is the size of the television in the living room?\n\nA. 55 inches\nB. 32 inches\nC. 75 inches\nD. 40 inches",
+      "response": "none"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What type of bookshelf is used to store books in this room?",
+      "response": "n/a"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What type of bookshelf is used to store books in this room?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What color is the pendant lamp hanging above the coffee table and armchair?\n\nA. Black\nB. Gold\nC. Teal\nD. White",
+      "response": "b"
+    }
+  ]
+}

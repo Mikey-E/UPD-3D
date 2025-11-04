@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "e8f14d6c-c37d-4ad2-9cf9-cdd57cdfe2b1@LivingRoom-20315",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 4",
+  "timestamp": "2025-10-27T08:41:04.875444",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/e8f14d6c-c37d-4ad2-9cf9-cdd57cdfe2b1/LivingRoom-20315/LivingRoom-20315.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What is the primary purpose of the coffee table in the living room?\n\nA. To hang the pendant lamp\nB. To provide additional seating\nC. To support visual entertainment\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What is the primary purpose of the coffee table in the living room?\n\nA. To hang the pendant lamp\nB. To provide additional seating\nC. To support visual entertainment\nD. None of the above",
+      "response": "d"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What is the primary purpose of the coffee table in the living room?\n\nA. To hang the pendant lamp\nB. To provide additional seating\nC. To support visual entertainment",
+      "response": "none"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What is the primary purpose of the coffee table in the living room?\n\nA. Jupiter's orbit around the sun\nB. The life cycle of a butterfly\nC. The history of the Roman Empire\nD. The process of photosynthesis\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What is the primary purpose of the coffee table in the living room?\n\nA. Jupiter's orbit around the sun\nB. The life cycle of a butterfly\nC. The history of the Roman Empire\nD. The process of photosynthesis\nE. None of the above",
+      "response": "e"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What is the primary purpose of the coffee table in the living room?\n\nA. Jupiter's orbit around the sun\nB. The life cycle of a butterfly\nC. The history of the Roman Empire\nD. The process of photosynthesis",
+      "response": "none"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What type of ceiling fan is installed in the room?\n\nA. Industrial fan\nB. Modern fan\nC. Vintage fan\nD. Decorative fan\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What type of ceiling fan is installed in the room?\n\nA. Industrial fan\nB. Modern fan\nC. Vintage fan\nD. Decorative fan\nE. None of the above",
+      "response": "e"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What type of ceiling fan is installed in the room?\n\nA. Industrial fan\nB. Modern fan\nC. Vintage fan\nD. Decorative fan",
+      "response": "none"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What type of garden gnome is displayed in the room?",
+      "response": "n/a"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What type of garden gnome is displayed in the room?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What is the primary purpose of the coffee table in the living room?\n\nA. To hang the pendant lamp\nB. To provide additional seating\nC. To support visual entertainment\nD. To hold beverages or reading material",
+      "response": "d"
+    }
+  ]
+}

@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "e34a46b2-90de-4a2a-8726-c83d5529a886@Library-37264",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 4",
+  "timestamp": "2025-10-25T16:05:25.249324",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/e34a46b2-90de-4a2a-8726-c83d5529a886/Library-37264/Library-37264.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What color is the bookcase in the library?\n\nA. Beige\nB. Walnut brown\nC. Soft beige\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What color is the bookcase in the library?\n\nA. Beige\nB. Walnut brown\nC. Soft beige\nD. None of the above",
+      "response": "D"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What color is the bookcase in the library?\n\nA. Beige\nB. Walnut brown\nC. Soft beige",
+      "response": "None"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What color is the bookcase in the library?\n\nA. Galaxy\nB. Nebula\nC. Comet\nD. Asteroid\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What color is the bookcase in the library?\n\nA. Galaxy\nB. Nebula\nC. Comet\nD. Asteroid\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What color is the bookcase in the library?\n\nA. Galaxy\nB. Nebula\nC. Comet\nD. Asteroid",
+      "response": "None"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What is the maximum height of the sculpture in the room?\n\nA. Five feet\nB. Seven feet\nC. Ten feet\nD. Twelve feet\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What is the maximum height of the sculpture in the room?\n\nA. Five feet\nB. Seven feet\nC. Ten feet\nD. Twelve feet\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What is the maximum height of the sculpture in the room?\n\nA. Five feet\nB. Seven feet\nC. Ten feet\nD. Twelve feet",
+      "response": "None"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What shape is the rug on the floor?",
+      "response": "unanswerable"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What shape is the rug on the floor?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What color is the bookcase in the library?\n\nA. Dark gray\nB. Beige\nC. Walnut brown\nD. Soft beige",
+      "response": "A"
+    }
+  ]
+}

@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "f0875d1f-8f00-4f79-a0cb-c464b246bbef@LivingRoom-3056",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 4",
+  "timestamp": "2025-10-28T21:02:05.964908",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/f0875d1f-8f00-4f79-a0cb-c464b246bbef/LivingRoom-3056/LivingRoom-3056.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What is the color of the sofa in the living room?\n\nA. Gray\nB. Black\nC. Brown\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What is the color of the sofa in the living room?\n\nA. Gray\nB. Black\nC. Brown\nD. None of the above",
+      "response": "D"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What is the color of the sofa in the living room?\n\nA. Gray\nB. Black\nC. Brown",
+      "response": "None"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What is the color of the sofa in the living room?\n\nA. Tropical\nB. Mountainous\nC. Oceanic\nD. Deserted\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What is the color of the sofa in the living room?\n\nA. Tropical\nB. Mountainous\nC. Oceanic\nD. Deserted\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What is the color of the sofa in the living room?\n\nA. Tropical\nB. Mountainous\nC. Oceanic\nD. Deserted",
+      "response": "None"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What type of sculpture is prominently displayed in the living room?\n\nA. Abstract sculpture\nB. Classical bust\nC. Geometric shape\nD. Wood carving\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What type of sculpture is prominently displayed in the living room?\n\nA. Abstract sculpture\nB. Classical bust\nC. Geometric shape\nD. Wood carving\nE. None of the above",
+      "response": "D"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What type of sculpture is prominently displayed in the living room?\n\nA. Abstract sculpture\nB. Classical bust\nC. Geometric shape\nD. Wood carving",
+      "response": "None"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What is the shape and color of the rug placed in the center of the room?",
+      "response": "unanswerable"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What is the shape and color of the rug placed in the center of the room?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What is the color of the sofa in the living room?\n\nA. Gray\nB. Beige\nC. Black\nD. Brown",
+      "response": "B"
+    }
+  ]
+}

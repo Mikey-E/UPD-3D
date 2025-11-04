@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "d6fcec54-1bec-4f8a-b945-8f6fd33d1e6b@Bedroom-11362",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 4",
+  "timestamp": "2025-10-16T16:57:39.367782",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/d6fcec54-1bec-4f8a-b945-8f6fd33d1e6b/Bedroom-11362/Bedroom-11362.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What is the design style of the ceiling lamp in the bedroom?\n\nA. Modern\nB. Industrial\nC. Rustic\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What is the design style of the ceiling lamp in the bedroom?\n\nA. Modern\nB. Industrial\nC. Rustic\nD. None of the above",
+      "response": "D"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What is the design style of the ceiling lamp in the bedroom?\n\nA. Modern\nB. Industrial\nC. Rustic",
+      "response": "None"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What is the design style of the ceiling lamp in the bedroom?\n\nA. Oak tree\nB. Mountain range\nC. Ocean wave\nD. Desert landscape\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What is the design style of the ceiling lamp in the bedroom?\n\nA. Oak tree\nB. Mountain range\nC. Ocean wave\nD. Desert landscape\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What is the design style of the ceiling lamp in the bedroom?\n\nA. Oak tree\nB. Mountain range\nC. Ocean wave\nD. Desert landscape",
+      "response": "None"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What pattern does the rug in the room feature?\n\nA. Geometric\nB. Floral\nC. Striped\nD. Checkered\nIf none of the above answers are correct, answer: 'F'",
+      "response": "A"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What pattern does the rug in the room feature?\n\nA. Geometric\nB. Floral\nC. Striped\nD. Checkered\nE. None of the above",
+      "response": "A"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What pattern does the rug in the room feature?\n\nA. Geometric\nB. Floral\nC. Striped\nD. Checkered",
+      "response": "A"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What type of barbecue grill is available in the scene?",
+      "response": "unanswerable"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What type of barbecue grill is available in the scene?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What is the design style of the ceiling lamp in the bedroom?\n\nA. Modern\nB. Industrial\nC. Rustic\nD. Chinoiserie",
+      "response": "None"
+    }
+  ]
+}

@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "Cabbage@mvs_914_04",
+  "dataset": "Crops3D_test",
+  "annotated_by": "User 5",
+  "timestamp": "2025-10-30T09:56:05.863101",
+  "file_path": "/project/3dllms/melgin/datasets/CEA/Crops3D/Cabbage/mvs_914_04.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What color is the rim of the pot that holds the money plant?\n\nA. Green\nB. Yellow\nC. Red\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What color is the rim of the pot that holds the money plant?\n\nA. Green\nB. Yellow\nC. Red\nD. None of the above",
+      "response": "d"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What color is the rim of the pot that holds the money plant?\n\nA. Green\nB. Yellow\nC. Red",
+      "response": "none"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What color is the rim of the pot that holds the money plant?\n\nA. Elephant\nB. Jupiter\nC. Whisper\nD. Marvel\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What color is the rim of the pot that holds the money plant?\n\nA. Elephant\nB. Jupiter\nC. Whisper\nD. Marvel\nE. None of the above",
+      "response": "e"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What color is the rim of the pot that holds the money plant?\n\nA. Elephant\nB. Jupiter\nC. Whisper\nD. Marvel",
+      "response": "none"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What is the shape of the chandelier in the room?\n\nA. Round\nB. Square\nC. Oval\nD. Rectangular\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What is the shape of the chandelier in the room?\n\nA. Round\nB. Square\nC. Oval\nD. Rectangular\nE. None of the above",
+      "response": "e"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What is the shape of the chandelier in the room?\n\nA. Round\nB. Square\nC. Oval\nD. Rectangular",
+      "response": "none"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What type of fruit is hanging from the ceiling?",
+      "response": "none"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What type of fruit is hanging from the ceiling?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What color is the rim of the pot that holds the money plant?\n\nA. Green\nB. Yellow\nC. Red\nD. Blue",
+      "response": "d"
+    }
+  ]
+}

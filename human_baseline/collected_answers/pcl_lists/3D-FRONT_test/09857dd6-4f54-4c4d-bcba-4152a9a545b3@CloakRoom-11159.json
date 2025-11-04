@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "09857dd6-4f54-4c4d-bcba-4152a9a545b3@CloakRoom-11159",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 4",
+  "timestamp": "2025-10-06T10:51:44.583505",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/09857dd6-4f54-4c4d-bcba-4152a9a545b3/CloakRoom-11159/CloakRoom-11159.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What type of materials are emphasized in the Japanese style of the room?\n\nA. Plastic and synthetic\nB. Metal and glass\nC. Brightly colored fabrics\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What type of materials are emphasized in the Japanese style of the room?\n\nA. Plastic and synthetic\nB. Metal and glass\nC. Brightly colored fabrics\nD. None of the above",
+      "response": "D"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What type of materials are emphasized in the Japanese style of the room?\n\nA. Plastic and synthetic\nB. Metal and glass\nC. Brightly colored fabrics",
+      "response": "none of these"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What type of materials are emphasized in the Japanese style of the room?\n\nA. Volcanoes\nB. Hurricanes\nC. Geysers\nD. Earthquakes\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What type of materials are emphasized in the Japanese style of the room?\n\nA. Volcanoes\nB. Hurricanes\nC. Geysers\nD. Earthquakes\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What type of materials are emphasized in the Japanese style of the room?\n\nA. Volcanoes\nB. Hurricanes\nC. Geysers\nD. Earthquakes",
+      "response": "none of these"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What type of painting is displayed on the wall?\n\nA. Abstract\nB. Landscape\nC. Portrait\nD. Still Life\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What type of painting is displayed on the wall?\n\nA. Abstract\nB. Landscape\nC. Portrait\nD. Still Life\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What type of painting is displayed on the wall?\n\nA. Abstract\nB. Landscape\nC. Portrait\nD. Still Life",
+      "response": "D"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What type of coffee machine is located in the room?",
+      "response": "none"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What type of coffee machine is located in the room?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What type of materials are emphasized in the Japanese style of the room?\n\nA. Natural materials\nB. Plastic and synthetic\nC. Metal and glass\nD. Brightly colored fabrics",
+      "response": "none of these"
+    }
+  ]
+}

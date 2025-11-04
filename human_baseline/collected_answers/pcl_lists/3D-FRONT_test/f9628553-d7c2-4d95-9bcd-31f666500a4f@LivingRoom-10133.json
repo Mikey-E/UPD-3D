@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "f9628553-d7c2-4d95-9bcd-31f666500a4f@LivingRoom-10133",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 3",
+  "timestamp": "2025-10-30T01:26:17.257198",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/f9628553-d7c2-4d95-9bcd-31f666500a4f/LivingRoom-10133/LivingRoom-10133.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What color is the loveseat sofa in the living room? \n\nA. Espresso brown\nB. Charcoal\nC. Dark brown\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What color is the loveseat sofa in the living room? \n\nA. Espresso brown\nB. Charcoal\nC. Dark brown\nD. None of the above",
+      "response": "D"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What color is the loveseat sofa in the living room? \n\nA. Espresso brown\nB. Charcoal\nC. Dark brown",
+      "response": "NONE"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What color is the loveseat sofa in the living room? \n\nA. Apple\nB. Banana\nC. Grape\nD. Orange\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What color is the loveseat sofa in the living room? \n\nA. Apple\nB. Banana\nC. Grape\nD. Orange\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What color is the loveseat sofa in the living room? \n\nA. Apple\nB. Banana\nC. Grape\nD. Orange",
+      "response": "NONE"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What color is the staircase?\n\nA. Green\nB. Red\nC. Black\nD. Gray\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What color is the staircase?\n\nA. Green\nB. Red\nC. Black\nD. Gray\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What color is the staircase?\n\nA. Green\nB. Red\nC. Black\nD. Gray",
+      "response": "NA"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What type of grand piano is in the room?",
+      "response": "NA"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What type of grand piano is in the room?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What color is the loveseat sofa in the living room? \n\nA. Deep teal\nB. Espresso brown\nC. Charcoal\nD. Dark brown",
+      "response": "A"
+    }
+  ]
+}

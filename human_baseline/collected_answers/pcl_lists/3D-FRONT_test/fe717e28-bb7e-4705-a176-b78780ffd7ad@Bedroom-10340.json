@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "fe717e28-bb7e-4705-a176-b78780ffd7ad@Bedroom-10340",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 3",
+  "timestamp": "2025-10-31T02:22:24.883205",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/fe717e28-bb7e-4705-a176-b78780ffd7ad/Bedroom-10340/Bedroom-10340.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What color is the king-size bed in the described bedroom?\n\nA. White\nB. Blue\nC. Brown\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What color is the king-size bed in the described bedroom?\n\nA. White\nB. Blue\nC. Brown\nD. None of the above",
+      "response": "D"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What color is the king-size bed in the described bedroom?\n\nA. White\nB. Blue\nC. Brown",
+      "response": "NONE"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What color is the king-size bed in the described bedroom?\n\nA. Carrot\nB. Maple\nC. Ocean\nD. Brick\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What color is the king-size bed in the described bedroom?\n\nA. Carrot\nB. Maple\nC. Ocean\nD. Brick\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What color is the king-size bed in the described bedroom?\n\nA. Carrot\nB. Maple\nC. Ocean\nD. Brick",
+      "response": "NONE"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What flavor is the ice cream served in the scene?\n\nA. Chocolate\nB. Vanilla\nC. Strawberry\nD. Mint\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What flavor is the ice cream served in the scene?\n\nA. Chocolate\nB. Vanilla\nC. Strawberry\nD. Mint\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What flavor is the ice cream served in the scene?\n\nA. Chocolate\nB. Vanilla\nC. Strawberry\nD. Mint",
+      "response": "NA"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What type of outdoor grill is installed on the balcony?",
+      "response": "NA"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What type of outdoor grill is installed on the balcony?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What color is the king-size bed in the described bedroom?\n\nA. White\nB. Blue\nC. Dark grey\nD. Brown",
+      "response": "C"
+    }
+  ]
+}

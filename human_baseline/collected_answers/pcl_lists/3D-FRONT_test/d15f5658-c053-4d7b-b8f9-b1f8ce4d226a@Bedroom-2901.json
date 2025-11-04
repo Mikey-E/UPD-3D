@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "d15f5658-c053-4d7b-b8f9-b1f8ce4d226a@Bedroom-2901",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 3",
+  "timestamp": "2025-10-15T12:04:13.958767",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/d15f5658-c053-4d7b-b8f9-b1f8ce4d226a/Bedroom-2901/Bedroom-2901.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What type of bed is the centerpiece of the bedroom?\n\nA. Queen-size bed\nB. Twin bed\nC. Full-size bed\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What type of bed is the centerpiece of the bedroom?\n\nA. Queen-size bed\nB. Twin bed\nC. Full-size bed\nD. None of the above",
+      "response": "D"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What type of bed is the centerpiece of the bedroom?\n\nA. Queen-size bed\nB. Twin bed\nC. Full-size bed",
+      "response": "None"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What type of bed is the centerpiece of the bedroom?\n\nA. Jupiter\nB. Saturn\nC. Earth\nD. Neptune\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What type of bed is the centerpiece of the bedroom?\n\nA. Jupiter\nB. Saturn\nC. Earth\nD. Neptune\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What type of bed is the centerpiece of the bedroom?\n\nA. Jupiter\nB. Saturn\nC. Earth\nD. Neptune",
+      "response": "None"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What type of flooring is used in the scene?\n\nA. Hardwood\nB. Tile\nC. Carpet\nD. Laminate\nIf none of the above answers are correct, answer: 'F'",
+      "response": "C"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What type of flooring is used in the scene?\n\nA. Hardwood\nB. Tile\nC. Carpet\nD. Laminate\nE. None of the above",
+      "response": "C"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What type of flooring is used in the scene?\n\nA. Hardwood\nB. Tile\nC. Carpet\nD. Laminate",
+      "response": "C"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What type of outdoor grill is placed by the window?",
+      "response": "N/A"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What type of outdoor grill is placed by the window?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What type of bed is the centerpiece of the bedroom?\n\nA. Queen-size bed\nB. King-size bed\nC. Twin bed\nD. Full-size bed",
+      "response": "B"
+    }
+  ]
+}

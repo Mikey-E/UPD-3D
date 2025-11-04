@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "dd6bddd4-69e6-4636-a698-33c6efba7a7e@LivingRoom-2874",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 4",
+  "timestamp": "2025-10-24T13:10:32.635649",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/dd6bddd4-69e6-4636-a698-33c6efba7a7e/LivingRoom-2874/LivingRoom-2874.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What color is the tv stand in this living room?\n\nA. White\nB. Beige\nC. Black\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What color is the tv stand in this living room?\n\nA. White\nB. Beige\nC. Black\nD. None of the above",
+      "response": "d"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What color is the tv stand in this living room?\n\nA. White\nB. Beige\nC. Black",
+      "response": "none"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What color is the tv stand in this living room?\n\nA. Cactus green\nB. Ocean blue\nC. Sunset orange\nD. Forest brown\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What color is the tv stand in this living room?\n\nA. Cactus green\nB. Ocean blue\nC. Sunset orange\nD. Forest brown\nE. None of the above",
+      "response": "e"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What color is the tv stand in this living room?\n\nA. Cactus green\nB. Ocean blue\nC. Sunset orange\nD. Forest brown",
+      "response": "none"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What type of flooring is used in the living room?\n\nA. Hardwood\nB. Tile\nC. Carpet\nD. Laminate\nIf none of the above answers are correct, answer: 'F'",
+      "response": "c"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What type of flooring is used in the living room?\n\nA. Hardwood\nB. Tile\nC. Carpet\nD. Laminate\nE. None of the above",
+      "response": "c"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What type of flooring is used in the living room?\n\nA. Hardwood\nB. Tile\nC. Carpet\nD. Laminate",
+      "response": "c"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What type of fireplace design is incorporated into the living room?",
+      "response": "n/a"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What type of fireplace design is incorporated into the living room?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What color is the tv stand in this living room?\n\nA. White\nB. Beige\nC. Seafoam green\nD. Black",
+      "response": "none"
+    }
+  ]
+}

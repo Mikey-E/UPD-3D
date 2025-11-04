@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "1d7a01b8-4621-4ac0-8d81-b1c8f0cedc98@Hallway-16633",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 3",
+  "timestamp": "2025-10-14T15:27:42.797736",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/1d7a01b8-4621-4ac0-8d81-b1c8f0cedc98/Hallway-16633/Hallway-16633.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What color is the pendant lamp hanging in the hallway?\n\nA. Deep mahogany\nB. Vintage brown\nC. Lattice-like\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What color is the pendant lamp hanging in the hallway?\n\nA. Deep mahogany\nB. Vintage brown\nC. Lattice-like\nD. None of the above",
+      "response": "D"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What color is the pendant lamp hanging in the hallway?\n\nA. Deep mahogany\nB. Vintage brown\nC. Lattice-like",
+      "response": "None"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What color is the pendant lamp hanging in the hallway?\n\nA. Concrete\nB. Granite\nC. Marble\nD. Limestone\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What color is the pendant lamp hanging in the hallway?\n\nA. Concrete\nB. Granite\nC. Marble\nD. Limestone\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What color is the pendant lamp hanging in the hallway?\n\nA. Concrete\nB. Granite\nC. Marble\nD. Limestone",
+      "response": "None"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What color is the sofa in the scene?\n\nA. Green\nB. Yellow\nC. Red\nD. Blue\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What color is the sofa in the scene?\n\nA. Green\nB. Yellow\nC. Red\nD. Blue\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What color is the sofa in the scene?\n\nA. Green\nB. Yellow\nC. Red\nD. Blue",
+      "response": "None"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What type of garden decoration is placed in the room?",
+      "response": "N/A"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What type of garden decoration is placed in the room?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What color is the pendant lamp hanging in the hallway?\n\nA. Deep mahogany\nB. Vintage brown\nC. Lattice-like\nD. Glossy white",
+      "response": "D"
+    }
+  ]
+}

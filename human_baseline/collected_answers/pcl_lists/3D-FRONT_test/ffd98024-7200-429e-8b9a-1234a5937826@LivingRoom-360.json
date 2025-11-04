@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "ffd98024-7200-429e-8b9a-1234a5937826@LivingRoom-360",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 1",
+  "timestamp": "2025-11-03T19:33:08.320748",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/ffd98024-7200-429e-8b9a-1234a5937826/LivingRoom-360/LivingRoom-360.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What type of design styles are blended together in the living room?\n\nA. Colonial, Art Deco, and Victorian\nB. Rustic, Traditional, and Baroque\nC. Mediterranean, Contemporary, and Retro\nIf none of the above answers are correct, answer: 'F'",
+      "response": "I have no idea"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What type of design styles are blended together in the living room?\n\nA. Colonial, Art Deco, and Victorian\nB. Rustic, Traditional, and Baroque\nC. Mediterranean, Contemporary, and Retro\nD. None of the above",
+      "response": "I have no idea"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What type of design styles are blended together in the living room?\n\nA. Colonial, Art Deco, and Victorian\nB. Rustic, Traditional, and Baroque\nC. Mediterranean, Contemporary, and Retro",
+      "response": "I don't know"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What type of design styles are blended together in the living room?\n\nA. Fictional characters from a novel\nB. Ingredients in a recipe\nC. Species of tropical fish\nD. Types of musical instruments\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What type of design styles are blended together in the living room?\n\nA. Fictional characters from a novel\nB. Ingredients in a recipe\nC. Species of tropical fish\nD. Types of musical instruments\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What type of design styles are blended together in the living room?\n\nA. Fictional characters from a novel\nB. Ingredients in a recipe\nC. Species of tropical fish\nD. Types of musical instruments",
+      "response": "None of those"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What type of artwork is displayed on the wall?\n\nA. Abstract painting\nB. Landscape mural\nC. Portrait photograph\nD. Vintage poster\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What type of artwork is displayed on the wall?\n\nA. Abstract painting\nB. Landscape mural\nC. Portrait photograph\nD. Vintage poster\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What type of artwork is displayed on the wall?\n\nA. Abstract painting\nB. Landscape mural\nC. Portrait photograph\nD. Vintage poster",
+      "response": "There is no art"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What type of rug is placed beneath the coffee table?",
+      "response": "I don't see any rug"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What type of rug is placed beneath the coffee table?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What type of design styles are blended together in the living room?\n\nA. Minimalist, Modern, and Japanese\nB. Colonial, Art Deco, and Victorian\nC. Rustic, Traditional, and Baroque\nD. Mediterranean, Contemporary, and Retro",
+      "response": "A"
+    }
+  ]
+}

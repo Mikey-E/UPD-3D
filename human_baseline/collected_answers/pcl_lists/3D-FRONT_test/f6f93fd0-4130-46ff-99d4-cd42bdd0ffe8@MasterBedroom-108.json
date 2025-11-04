@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "f6f93fd0-4130-46ff-99d4-cd42bdd0ffe8@MasterBedroom-108",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 3",
+  "timestamp": "2025-10-29T23:38:30.587209",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/f6f93fd0-4130-46ff-99d4-cd42bdd0ffe8/MasterBedroom-108/MasterBedroom-108.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What is the color of the king-size bed in the room?\n\nA. Silver\nB. Gold\nC. White\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What is the color of the king-size bed in the room?\n\nA. Silver\nB. Gold\nC. White\nD. None of the above",
+      "response": "D"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What is the color of the king-size bed in the room?\n\nA. Silver\nB. Gold\nC. White",
+      "response": "NONE"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What is the color of the king-size bed in the room?\n\nA. Pythagorean theorem\nB. Quantum mechanics\nC. Renaissance art\nD. Geothermal energy\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What is the color of the king-size bed in the room?\n\nA. Pythagorean theorem\nB. Quantum mechanics\nC. Renaissance art\nD. Geothermal energy\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What is the color of the king-size bed in the room?\n\nA. Pythagorean theorem\nB. Quantum mechanics\nC. Renaissance art\nD. Geothermal energy",
+      "response": "NONE"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What type of window treatment is used in the scene?\n\nA. Sheer curtains\nB. Mini blinds\nC. Roman shades\nD. Shutters\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What type of window treatment is used in the scene?\n\nA. Sheer curtains\nB. Mini blinds\nC. Roman shades\nD. Shutters\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What type of window treatment is used in the scene?\n\nA. Sheer curtains\nB. Mini blinds\nC. Roman shades\nD. Shutters",
+      "response": "NA"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What type of outdoor grill is located next to the bedroom?",
+      "response": "NA"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What type of outdoor grill is located next to the bedroom?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What is the color of the king-size bed in the room?\n\nA. Beige\nB. Silver\nC. Gold\nD. White",
+      "response": "A"
+    }
+  ]
+}

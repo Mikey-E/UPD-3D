@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "e387ce2f-183d-40a7-b4bf-814181fbea82@LivingDiningRoom-1407",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 4",
+  "timestamp": "2025-10-25T16:45:50.927979",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/e387ce2f-183d-40a7-b4bf-814181fbea82/LivingDiningRoom-1407/LivingDiningRoom-1407.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What is the color of the upholstery on the three-seat sofa in the living room?\n\nA. Chestnut Brown\nB. Mahogany\nC. Terracotta\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What is the color of the upholstery on the three-seat sofa in the living room?\n\nA. Chestnut Brown\nB. Mahogany\nC. Terracotta\nD. None of the above",
+      "response": "D"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What is the color of the upholstery on the three-seat sofa in the living room?\n\nA. Chestnut Brown\nB. Mahogany\nC. Terracotta",
+      "response": "None"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What is the color of the upholstery on the three-seat sofa in the living room?\n\nA. Cotton candy\nB. Thunderstorm\nC. Moonlight\nD. Ocean wave\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What is the color of the upholstery on the three-seat sofa in the living room?\n\nA. Cotton candy\nB. Thunderstorm\nC. Moonlight\nD. Ocean wave\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What is the color of the upholstery on the three-seat sofa in the living room?\n\nA. Cotton candy\nB. Thunderstorm\nC. Moonlight\nD. Ocean wave",
+      "response": "None"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What type of fabric is used to make the curtains?\n\nA. Silk\nB. Cotton\nC. Linen\nD. Velvet\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What type of fabric is used to make the curtains?\n\nA. Silk\nB. Cotton\nC. Linen\nD. Velvet\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What type of fabric is used to make the curtains?\n\nA. Silk\nB. Cotton\nC. Linen\nD. Velvet",
+      "response": "None"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What type of refrigerator is in the room?",
+      "response": "unanswerable"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What type of refrigerator is in the room?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What is the color of the upholstery on the three-seat sofa in the living room?\n\nA. Chestnut Brown\nB. Mahogany\nC. Terracotta\nD. Grey",
+      "response": "D"
+    }
+  ]
+}

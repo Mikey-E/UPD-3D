@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "e616591b-84e8-4c81-93b7-eeaf22c4f659@KidsRoom-1153",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 5",
+  "timestamp": "2025-10-26T20:00:12.385616",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/e616591b-84e8-4c81-93b7-eeaf22c4f659/KidsRoom-1153/KidsRoom-1153.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What is the color scheme of the pendant lamp hanging above the second nightstand in the KidsRoom?\n\nA. Matte black and gold accents\nB. Vibrant teal and peach colors\nC. Bright red and blue patterns\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What is the color scheme of the pendant lamp hanging above the second nightstand in the KidsRoom?\n\nA. Matte black and gold accents\nB. Vibrant teal and peach colors\nC. Bright red and blue patterns\nD. None of the above",
+      "response": "d"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What is the color scheme of the pendant lamp hanging above the second nightstand in the KidsRoom?\n\nA. Matte black and gold accents\nB. Vibrant teal and peach colors\nC. Bright red and blue patterns",
+      "response": "none"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What is the color scheme of the pendant lamp hanging above the second nightstand in the KidsRoom?\n\nA. Ocean wave\nB. Golden retriever\nC. Chocolate chip\nD. Tropical rainforest\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What is the color scheme of the pendant lamp hanging above the second nightstand in the KidsRoom?\n\nA. Ocean wave\nB. Golden retriever\nC. Chocolate chip\nD. Tropical rainforest\nE. None of the above",
+      "response": "e"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What is the color scheme of the pendant lamp hanging above the second nightstand in the KidsRoom?\n\nA. Ocean wave\nB. Golden retriever\nC. Chocolate chip\nD. Tropical rainforest",
+      "response": "none"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What type of animal is featured prominently in the KidsRoom?\n\nA. Dolphin\nB. Elephant\nC. Parrot\nD. Giraffe\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What type of animal is featured prominently in the KidsRoom?\n\nA. Dolphin\nB. Elephant\nC. Parrot\nD. Giraffe\nE. None of the above",
+      "response": "e"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What type of animal is featured prominently in the KidsRoom?\n\nA. Dolphin\nB. Elephant\nC. Parrot\nD. Giraffe",
+      "response": "none"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What recreational equipment is set up in the KidsRoom?",
+      "response": "none"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What recreational equipment is set up in the KidsRoom?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What is the color scheme of the pendant lamp hanging above the second nightstand in the KidsRoom?\n\nA. Matte black and gold accents\nB. Vibrant teal and peach colors\nC. Soft whites and natural wood tones\nD. Bright red and blue patterns",
+      "response": "c"
+    }
+  ]
+}

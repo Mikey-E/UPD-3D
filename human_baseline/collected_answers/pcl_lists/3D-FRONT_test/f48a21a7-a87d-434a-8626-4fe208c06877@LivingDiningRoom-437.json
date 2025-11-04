@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "f48a21a7-a87d-434a-8626-4fe208c06877@LivingDiningRoom-437",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 5",
+  "timestamp": "2025-10-29T16:54:33.398080",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/f48a21a7-a87d-434a-8626-4fe208c06877/LivingDiningRoom-437/LivingDiningRoom-437.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What type of seating surrounds the dining table in the living room?\n\nA. Bar stools\nB. Office chairs\nC. Recliners\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What type of seating surrounds the dining table in the living room?\n\nA. Bar stools\nB. Office chairs\nC. Recliners\nD. None of the above",
+      "response": "d"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What type of seating surrounds the dining table in the living room?\n\nA. Bar stools\nB. Office chairs\nC. Recliners",
+      "response": "none"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What type of seating surrounds the dining table in the living room?\n\nA. Functionality\nB. Aesthetics\nC. Efficiency\nD. Sustainability\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What type of seating surrounds the dining table in the living room?\n\nA. Functionality\nB. Aesthetics\nC. Efficiency\nD. Sustainability\nE. None of the above",
+      "response": "e"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What type of seating surrounds the dining table in the living room?\n\nA. Functionality\nB. Aesthetics\nC. Efficiency\nD. Sustainability",
+      "response": "none"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What type of window is present in the scene?\n\nA. Bay window\nB. Skylight\nC. French window\nD. Sliding window\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What type of window is present in the scene?\n\nA. Bay window\nB. Skylight\nC. French window\nD. Sliding window\nE. None of the above",
+      "response": "e"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What type of window is present in the scene?\n\nA. Bay window\nB. Skylight\nC. French window\nD. Sliding window",
+      "response": "none"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What kind of sports equipment is used in this room?",
+      "response": "none"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What kind of sports equipment is used in this room?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What type of seating surrounds the dining table in the living room?\n\nA. Bar stools\nB. Office chairs\nC. Recliners\nD. Dining chairs",
+      "response": "d"
+    }
+  ]
+}

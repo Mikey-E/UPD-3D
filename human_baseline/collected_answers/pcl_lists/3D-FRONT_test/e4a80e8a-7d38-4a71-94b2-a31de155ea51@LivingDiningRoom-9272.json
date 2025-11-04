@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "e4a80e8a-7d38-4a71-94b2-a31de155ea51@LivingDiningRoom-9272",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 3",
+  "timestamp": "2025-10-28T16:17:26.806472",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/e4a80e8a-7d38-4a71-94b2-a31de155ea51/LivingDiningRoom-9272/LivingDiningRoom-9272.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What is the color of the wine cabinet in the living room?\n\nA. Dark brown\nB. Bright red\nC. Deep blue\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What is the color of the wine cabinet in the living room?\n\nA. Dark brown\nB. Bright red\nC. Deep blue\nD. None of the above",
+      "response": "D"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What is the color of the wine cabinet in the living room?\n\nA. Dark brown\nB. Bright red\nC. Deep blue",
+      "response": "None"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What is the color of the wine cabinet in the living room?\n\nA. Melody\nB. Harmony\nC. Rhythm\nD. Tempo\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What is the color of the wine cabinet in the living room?\n\nA. Melody\nB. Harmony\nC. Rhythm\nD. Tempo\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What is the color of the wine cabinet in the living room?\n\nA. Melody\nB. Harmony\nC. Rhythm\nD. Tempo",
+      "response": "None"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What type of painting is hanging on the wall in the living room?\n\nA. Abstract Art\nB. Landscape Painting\nC. Portrait\nD. Still Life\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What type of painting is hanging on the wall in the living room?\n\nA. Abstract Art\nB. Landscape Painting\nC. Portrait\nD. Still Life\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What type of painting is hanging on the wall in the living room?\n\nA. Abstract Art\nB. Landscape Painting\nC. Portrait\nD. Still Life",
+      "response": "None"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What type of outdoor grill is set up in the living room?",
+      "response": "N/A"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What type of outdoor grill is set up in the living room?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What is the color of the wine cabinet in the living room?\n\nA. Light natural wood color\nB. Dark brown\nC. Bright red\nD. Deep blue",
+      "response": "A"
+    }
+  ]
+}

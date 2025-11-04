@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "f43f771b-5123-4b5c-92f8-361c82a71828@KidsRoom-33005",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 5",
+  "timestamp": "2025-10-29T16:34:22.382820",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/f43f771b-5123-4b5c-92f8-361c82a71828/KidsRoom-33005/KidsRoom-33005.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What is the primary color of the wardrobe in the KidsRoom?\n\nA. Dark brown\nB. Silver\nC. Honey oak\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What is the primary color of the wardrobe in the KidsRoom?\n\nA. Dark brown\nB. Silver\nC. Honey oak\nD. None of the above",
+      "response": "d"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What is the primary color of the wardrobe in the KidsRoom?\n\nA. Dark brown\nB. Silver\nC. Honey oak",
+      "response": "none"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What is the primary color of the wardrobe in the KidsRoom?\n\nA. Banana\nB. Computer\nC. Mountain\nD. Ocean\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What is the primary color of the wardrobe in the KidsRoom?\n\nA. Banana\nB. Computer\nC. Mountain\nD. Ocean\nE. None of the above",
+      "response": "e"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What is the primary color of the wardrobe in the KidsRoom?\n\nA. Banana\nB. Computer\nC. Mountain\nD. Ocean",
+      "response": "none"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "How tall is the bookshelf in the room?\n\nA. Six feet\nB. Five feet\nC. Four feet\nD. Three feet\nIf none of the above answers are correct, answer: 'F'",
+      "response": "a"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "How tall is the bookshelf in the room?\n\nA. Six feet\nB. Five feet\nC. Four feet\nD. Three feet\nE. None of the above",
+      "response": "a"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "How tall is the bookshelf in the room?\n\nA. Six feet\nB. Five feet\nC. Four feet\nD. Three feet",
+      "response": "a"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What type of trampoline is set up in the room?",
+      "response": "none"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What type of trampoline is set up in the room?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What is the primary color of the wardrobe in the KidsRoom?\n\nA. Dark brown\nB. Silver\nC. Blue\nD. Honey oak",
+      "response": "c"
+    }
+  ]
+}

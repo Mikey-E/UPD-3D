@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "c29f9741-45f8-4e0f-8688-1bc76f7ec3b7@KidsRoom-32755",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 3",
+  "timestamp": "2025-10-06T12:02:15.870756",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/c29f9741-45f8-4e0f-8688-1bc76f7ec3b7/KidsRoom-32755/KidsRoom-32755.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What style is the dining chair in the KidsRoom?\n\nA. Modern\nB. Minimalist\nC. Korean\nIf none of the above answers are correct, answer: 'F'",
+      "response": "A"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What style is the dining chair in the KidsRoom?\n\nA. Modern\nB. Minimalist\nC. Korean\nD. None of the above",
+      "response": "A"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What style is the dining chair in the KidsRoom?\n\nA. Modern\nB. Minimalist\nC. Korean",
+      "response": "A"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What style is the dining chair in the KidsRoom?\n\nA. Choreography\nB. Composition\nC. Harmony\nD. Melody\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What style is the dining chair in the KidsRoom?\n\nA. Choreography\nB. Composition\nC. Harmony\nD. Melody\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What style is the dining chair in the KidsRoom?\n\nA. Choreography\nB. Composition\nC. Harmony\nD. Melody",
+      "response": "None"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What type of rug is located beside the plant stand in the room?\n\nA. Persian\nB. Shag\nC. Berber\nD. Jute\nIf none of the above answers are correct, answer: 'F'",
+      "response": "D"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What type of rug is located beside the plant stand in the room?\n\nA. Persian\nB. Shag\nC. Berber\nD. Jute\nE. None of the above",
+      "response": "D"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What type of rug is located beside the plant stand in the room?\n\nA. Persian\nB. Shag\nC. Berber\nD. Jute",
+      "response": "D"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What type of sculpture is displayed in the corner of the room?",
+      "response": "N/A"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What type of sculpture is displayed in the corner of the room?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What style is the dining chair in the KidsRoom?\n\nA. Modern\nB. Mediterranean\nC. Minimalist\nD. Korean",
+      "response": "A"
+    }
+  ]
+}

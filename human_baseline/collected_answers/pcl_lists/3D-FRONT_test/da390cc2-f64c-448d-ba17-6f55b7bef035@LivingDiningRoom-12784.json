@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "da390cc2-f64c-448d-ba17-6f55b7bef035@LivingDiningRoom-12784",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 5",
+  "timestamp": "2025-10-20T08:10:42.154785",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/da390cc2-f64c-448d-ba17-6f55b7bef035/LivingDiningRoom-12784/LivingDiningRoom-12784.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What is the primary function of the dining table in the livingdining room?\n\nA. To provide a storage solution\nB. To serve as a lighting fixture\nC. To enhance the seating arrangement\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What is the primary function of the dining table in the livingdining room?\n\nA. To provide a storage solution\nB. To serve as a lighting fixture\nC. To enhance the seating arrangement\nD. None of the above",
+      "response": "d"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What is the primary function of the dining table in the livingdining room?\n\nA. To provide a storage solution\nB. To serve as a lighting fixture\nC. To enhance the seating arrangement",
+      "response": "none"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What is the primary function of the dining table in the livingdining room?\n\nA. Quantum mechanics\nB. Solar system\nC. Amplitude modulation\nD. Neural networks\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What is the primary function of the dining table in the livingdining room?\n\nA. Quantum mechanics\nB. Solar system\nC. Amplitude modulation\nD. Neural networks\nE. None of the above",
+      "response": "e"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What is the primary function of the dining table in the livingdining room?\n\nA. Quantum mechanics\nB. Solar system\nC. Amplitude modulation\nD. Neural networks",
+      "response": "none"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What is the height of the ceiling in the livingdining room?\n\nA. Ten feet\nB. Eight feet\nC. Twelve feet\nD. Nine feet\nIf none of the above answers are correct, answer: 'F'",
+      "response": "b"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What is the height of the ceiling in the livingdining room?\n\nA. Ten feet\nB. Eight feet\nC. Twelve feet\nD. Nine feet\nE. None of the above",
+      "response": "b"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What is the height of the ceiling in the livingdining room?\n\nA. Ten feet\nB. Eight feet\nC. Twelve feet\nD. Nine feet",
+      "response": "b"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What size is the pool table in the room?",
+      "response": "none"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What size is the pool table in the room?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What is the primary function of the dining table in the livingdining room?\n\nA. To provide a storage solution\nB. To anchor the dining area for mealtime gatherings\nC. To serve as a lighting fixture\nD. To enhance the seating arrangement",
+      "response": "b"
+    }
+  ]
+}

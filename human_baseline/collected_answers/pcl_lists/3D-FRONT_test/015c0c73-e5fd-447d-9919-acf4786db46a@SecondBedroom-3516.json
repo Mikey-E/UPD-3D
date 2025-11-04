@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "015c0c73-e5fd-447d-9919-acf4786db46a@SecondBedroom-3516",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 5",
+  "timestamp": "2025-10-31T10:52:05.825754",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/015c0c73-e5fd-447d-9919-acf4786db46a/SecondBedroom-3516/SecondBedroom-3516.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What color is the wardrobe in the Second bedroom?\n\nA. Gray\nB. Soft white\nC. Navy blue\nIf none of the above answers are correct, answer: 'F'",
+      "response": "c"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What color is the wardrobe in the Second bedroom?\n\nA. Gray\nB. Soft white\nC. Navy blue\nD. None of the above",
+      "response": "c"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What color is the wardrobe in the Second bedroom?\n\nA. Gray\nB. Soft white\nC. Navy blue",
+      "response": "c"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What color is the wardrobe in the Second bedroom?\n\nA. Lizard\nB. Giraffe\nC. Elephant\nD. Kangaroo\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What color is the wardrobe in the Second bedroom?\n\nA. Lizard\nB. Giraffe\nC. Elephant\nD. Kangaroo\nE. None of the above",
+      "response": "e"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What color is the wardrobe in the Second bedroom?\n\nA. Lizard\nB. Giraffe\nC. Elephant\nD. Kangaroo",
+      "response": "none"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What type of flooring is used in the scene?\n\nA. Hardwood\nB. Carpet\nC. Tile\nD. Laminate\nIf none of the above answers are correct, answer: 'F'",
+      "response": "c"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What type of flooring is used in the scene?\n\nA. Hardwood\nB. Carpet\nC. Tile\nD. Laminate\nE. None of the above",
+      "response": "c"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What type of flooring is used in the scene?\n\nA. Hardwood\nB. Carpet\nC. Tile\nD. Laminate",
+      "response": "c"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What type of patio furniture is arranged outside the bedroom?",
+      "response": "none"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What type of patio furniture is arranged outside the bedroom?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What color is the wardrobe in the Second bedroom?\n\nA. Gray\nB. Soft white\nC. Navy blue\nD. Blue",
+      "response": "c"
+    }
+  ]
+}

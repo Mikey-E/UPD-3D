@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "db5a99c8-100b-415e-abe0-bb9dbf261972@MasterBedroom-25069",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 4",
+  "timestamp": "2025-10-20T12:40:39.199532",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/db5a99c8-100b-415e-abe0-bb9dbf261972/MasterBedroom-25069/MasterBedroom-25069.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What style does the pendant lamp in the Masterbedroom represent? \n\nA. Korean\nB. American Country\nC. Modern\nIf none of the above answers are correct, answer: 'F'",
+      "response": "C"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What style does the pendant lamp in the Masterbedroom represent? \n\nA. Korean\nB. American Country\nC. Modern\nD. None of the above",
+      "response": "C"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What style does the pendant lamp in the Masterbedroom represent? \n\nA. Korean\nB. American Country\nC. Modern",
+      "response": "C"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What style does the pendant lamp in the Masterbedroom represent? \n\nA. Impressionism\nB. Renaissance\nC. Art Deco\nD. Surrealism\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What style does the pendant lamp in the Masterbedroom represent? \n\nA. Impressionism\nB. Renaissance\nC. Art Deco\nD. Surrealism\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What style does the pendant lamp in the Masterbedroom represent? \n\nA. Impressionism\nB. Renaissance\nC. Art Deco\nD. Surrealism",
+      "response": "None"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What type of vase is used in the scene?\n\nA. Ceramic\nB. Glass\nC. Metal\nD. Wood\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What type of vase is used in the scene?\n\nA. Ceramic\nB. Glass\nC. Metal\nD. Wood\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What type of vase is used in the scene?\n\nA. Ceramic\nB. Glass\nC. Metal\nD. Wood",
+      "response": "None"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What type of rug is positioned under the bed?",
+      "response": "unanswerable"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What type of rug is positioned under the bed?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What style does the pendant lamp in the Masterbedroom represent? \n\nA. European\nB. Korean\nC. American Country\nD. Modern",
+      "response": "D"
+    }
+  ]
+}

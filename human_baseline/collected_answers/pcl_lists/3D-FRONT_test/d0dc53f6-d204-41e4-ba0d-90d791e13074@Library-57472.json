@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "d0dc53f6-d204-41e4-ba0d-90d791e13074@Library-57472",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 3",
+  "timestamp": "2025-10-15T10:53:08.662469",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/d0dc53f6-d204-41e4-ba0d-90d791e13074/Library-57472/Library-57472.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What style is the pendant lamp in the library?\n\nA. Industrial\nB. Japanese\nC. Ming Qing\nIf none of the above answers are correct, answer: 'F'",
+      "response": "A"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What style is the pendant lamp in the library?\n\nA. Industrial\nB. Japanese\nC. Ming Qing\nD. None of the above",
+      "response": "A"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What style is the pendant lamp in the library?\n\nA. Industrial\nB. Japanese\nC. Ming Qing",
+      "response": "A"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What style is the pendant lamp in the library?\n\nA. Jazz music\nB. Ballet dancing\nC. Historical fiction\nD. Exotic fruits\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What style is the pendant lamp in the library?\n\nA. Jazz music\nB. Ballet dancing\nC. Historical fiction\nD. Exotic fruits\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What style is the pendant lamp in the library?\n\nA. Jazz music\nB. Ballet dancing\nC. Historical fiction\nD. Exotic fruits",
+      "response": "None"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What type of sculpture is displayed in the library?\n\nA. Abstract bronze sculpture\nB. Wooden figurine\nC. Marble bust\nD. Stone relief\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What type of sculpture is displayed in the library?\n\nA. Abstract bronze sculpture\nB. Wooden figurine\nC. Marble bust\nD. Stone relief\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What type of sculpture is displayed in the library?\n\nA. Abstract bronze sculpture\nB. Wooden figurine\nC. Marble bust\nD. Stone relief",
+      "response": "None"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What type of rug is placed in the center of the library?",
+      "response": "N/A"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What type of rug is placed in the center of the library?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What style is the pendant lamp in the library?\n\nA. Industrial\nB. Japanese\nC. Ming Qing\nD. Modern",
+      "response": "A"
+    }
+  ]
+}

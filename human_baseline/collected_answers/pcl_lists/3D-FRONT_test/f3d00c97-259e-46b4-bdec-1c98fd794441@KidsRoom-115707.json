@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "f3d00c97-259e-46b4-bdec-1c98fd794441@KidsRoom-115707",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 5",
+  "timestamp": "2025-10-29T16:25:34.526742",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/f3d00c97-259e-46b4-bdec-1c98fd794441/KidsRoom-115707/KidsRoom-115707.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What color are the wardrobes in the kids' room?\n\nA. Bright red\nB. Dark blue\nC. Light green\nIf none of the above answers are correct, answer: 'F'",
+      "response": "none"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What color are the wardrobes in the kids' room?\n\nA. Bright red\nB. Dark blue\nC. Light green\nD. None of the above",
+      "response": "d"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What color are the wardrobes in the kids' room?\n\nA. Bright red\nB. Dark blue\nC. Light green",
+      "response": "none"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What color are the wardrobes in the kids' room?\n\nA. Dolphin\nB. Cactus\nC. Chocolate\nD. Quasar\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What color are the wardrobes in the kids' room?\n\nA. Dolphin\nB. Cactus\nC. Chocolate\nD. Quasar\nE. None of the above",
+      "response": "e"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What color are the wardrobes in the kids' room?\n\nA. Dolphin\nB. Cactus\nC. Chocolate\nD. Quasar",
+      "response": "none"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What type of sculpture is situated in the corner of the room?\n\nA. Abstract figure\nB. Classical bust\nC. Modern art piece\nD. Animal statue\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What type of sculpture is situated in the corner of the room?\n\nA. Abstract figure\nB. Classical bust\nC. Modern art piece\nD. Animal statue\nE. None of the above",
+      "response": "e"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What type of sculpture is situated in the corner of the room?\n\nA. Abstract figure\nB. Classical bust\nC. Modern art piece\nD. Animal statue",
+      "response": "none"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What shape is the aquarium located in the corner of the kids' room?",
+      "response": "none"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What shape is the aquarium located in the corner of the kids' room?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What color are the wardrobes in the kids' room?\n\nA. Soft grey\nB. Bright red\nC. Dark blue\nD. Light green",
+      "response": "none"
+    }
+  ]
+}

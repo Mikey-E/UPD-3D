@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "Tomato@8-13_1-55",
+  "dataset": "Crops3D_test",
+  "annotated_by": "User 5",
+  "timestamp": "2025-10-31T06:32:55.203260",
+  "file_path": "/project/3dllms/melgin/datasets/CEA/Crops3D/Tomato/8-13_1-55.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What type of plant described has slender woody stems?\n\nA. Cactus\nB. Orchid\nC. Palm\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What type of plant described has slender woody stems?\n\nA. Cactus\nB. Orchid\nC. Palm\nD. None of the above",
+      "response": "d"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What type of plant described has slender woody stems?\n\nA. Cactus\nB. Orchid\nC. Palm",
+      "response": "none"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What type of plant described has slender woody stems?\n\nA. Nuclear fusion\nB. Quantum mechanics\nC. Plate tectonics\nD. Electromagnetic waves\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What type of plant described has slender woody stems?\n\nA. Nuclear fusion\nB. Quantum mechanics\nC. Plate tectonics\nD. Electromagnetic waves\nE. None of the above",
+      "response": "e"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What type of plant described has slender woody stems?\n\nA. Nuclear fusion\nB. Quantum mechanics\nC. Plate tectonics\nD. Electromagnetic waves",
+      "response": "none"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What type of vehicle is parked nearby?\n\nA. Sedan\nB. Motorcycle\nC. Pickup truck\nD. Bicycle\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What type of vehicle is parked nearby?\n\nA. Sedan\nB. Motorcycle\nC. Pickup truck\nD. Bicycle\nE. None of the above",
+      "response": "e"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What type of vehicle is parked nearby?\n\nA. Sedan\nB. Motorcycle\nC. Pickup truck\nD. Bicycle",
+      "response": "none"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What is the size of the marble coffee table?",
+      "response": "none"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What is the size of the marble coffee table?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What type of plant described has slender woody stems?\n\nA. Cactus\nB. Orchid\nC. Palm\nD. Fern",
+      "response": "d"
+    }
+  ]
+}

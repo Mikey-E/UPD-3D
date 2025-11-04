@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "c86a7968-7227-498d-8d53-5424d094ff17@SecondBedroom-492",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 4",
+  "timestamp": "2025-10-13T13:09:23.731150",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/c86a7968-7227-498d-8d53-5424d094ff17/SecondBedroom-492/SecondBedroom-492.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What is the color of the king-size bed in the room?\n\nA. Warm honey-toned oak\nB. Sleek silver\nC. Off-white\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What is the color of the king-size bed in the room?\n\nA. Warm honey-toned oak\nB. Sleek silver\nC. Off-white\nD. None of the above",
+      "response": "D"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What is the color of the king-size bed in the room?\n\nA. Warm honey-toned oak\nB. Sleek silver\nC. Off-white",
+      "response": "none"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What is the color of the king-size bed in the room?\n\nA. Table Tennis\nB. Basketball\nC. Soccer\nD. Swimming\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What is the color of the king-size bed in the room?\n\nA. Table Tennis\nB. Basketball\nC. Soccer\nD. Swimming\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What is the color of the king-size bed in the room?\n\nA. Table Tennis\nB. Basketball\nC. Soccer\nD. Swimming",
+      "response": "none"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What type of painting hangs above the television?\n\nA. Abstract Art\nB. Portrait\nC. Landscape\nD. Still Life\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What type of painting hangs above the television?\n\nA. Abstract Art\nB. Portrait\nC. Landscape\nD. Still Life\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What type of painting hangs above the television?\n\nA. Abstract Art\nB. Portrait\nC. Landscape\nD. Still Life",
+      "response": "none"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What is the shape of the chandelier hanging from the ceiling?",
+      "response": "none"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What is the shape of the chandelier hanging from the ceiling?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What is the color of the king-size bed in the room?\n\nA. Soft grey\nB. Warm honey-toned oak\nC. Sleek silver\nD. Off-white",
+      "response": "A"
+    }
+  ]
+}

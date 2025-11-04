@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "e03b738d-1781-4d41-8e5e-f78b2c44462f@Bedroom-5913",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 5",
+  "timestamp": "2025-10-24T20:33:35.500430",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/e03b738d-1781-4d41-8e5e-f78b2c44462f/Bedroom-5913/Bedroom-5913.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What is the color of the children's cabinet in the bedroom?\n\nA. Mahogany\nB. Light Blue\nC. White\nIf none of the above answers are correct, answer: 'F'",
+      "response": "c"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What is the color of the children's cabinet in the bedroom?\n\nA. Mahogany\nB. Light Blue\nC. White\nD. None of the above",
+      "response": "c"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What is the color of the children's cabinet in the bedroom?\n\nA. Mahogany\nB. Light Blue\nC. White",
+      "response": "c"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What is the color of the children's cabinet in the bedroom?\n\nA. Apple\nB. Banana\nC. Cherry\nD. Grape\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What is the color of the children's cabinet in the bedroom?\n\nA. Apple\nB. Banana\nC. Cherry\nD. Grape\nE. None of the above",
+      "response": "e"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What is the color of the children's cabinet in the bedroom?\n\nA. Apple\nB. Banana\nC. Cherry\nD. Grape",
+      "response": "none"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What type of window treatment is installed in the room?\n\nA. Vertical blinds\nB. Roman shades\nC. Drapes\nD. Roller shades\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What type of window treatment is installed in the room?\n\nA. Vertical blinds\nB. Roman shades\nC. Drapes\nD. Roller shades\nE. None of the above",
+      "response": "e"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What type of window treatment is installed in the room?\n\nA. Vertical blinds\nB. Roman shades\nC. Drapes\nD. Roller shades",
+      "response": "none"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What type of fireplace is situated in the room?",
+      "response": "none"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What type of fireplace is situated in the room?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What is the color of the children's cabinet in the bedroom?\n\nA. Mahogany\nB. Light Blue\nC. White\nD. Deep Blue",
+      "response": "c"
+    }
+  ]
+}

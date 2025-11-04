@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "da79fb9d-7bc6-4d2f-a6e7-8665b33c35ce@BedRoom-84628",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 4",
+  "timestamp": "2025-10-20T08:29:30.010082",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/da79fb9d-7bc6-4d2f-a6e7-8665b33c35ce/BedRoom-84628/BedRoom-84628.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What color scheme does the double bed in the room primarily feature?\n\nA. Blue and white with crimson accents\nB. Black and gold with silver accents\nC. Green and yellow with white accents\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What color scheme does the double bed in the room primarily feature?\n\nA. Blue and white with crimson accents\nB. Black and gold with silver accents\nC. Green and yellow with white accents\nD. None of the above",
+      "response": "d"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What color scheme does the double bed in the room primarily feature?\n\nA. Blue and white with crimson accents\nB. Black and gold with silver accents\nC. Green and yellow with white accents",
+      "response": "none"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What color scheme does the double bed in the room primarily feature?\n\nA. Hydraulic\nB. Kinetic\nC. Thermal\nD. Acoustic\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What color scheme does the double bed in the room primarily feature?\n\nA. Hydraulic\nB. Kinetic\nC. Thermal\nD. Acoustic\nE. None of the above",
+      "response": "e"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What color scheme does the double bed in the room primarily feature?\n\nA. Hydraulic\nB. Kinetic\nC. Thermal\nD. Acoustic",
+      "response": "none"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What color is the chandelier in the room?\n\nA. Gold\nB. Silver\nC. Crystal\nD. Black\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What color is the chandelier in the room?\n\nA. Gold\nB. Silver\nC. Crystal\nD. Black\nE. None of the above",
+      "response": "e"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What color is the chandelier in the room?\n\nA. Gold\nB. Silver\nC. Crystal\nD. Black",
+      "response": "none"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What type of kitchen appliances are installed in the room?",
+      "response": "n/a"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What type of kitchen appliances are installed in the room?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What color scheme does the double bed in the room primarily feature?\n\nA. Blue and white with crimson accents\nB. Grey and beige with teal and burnt orange accents\nC. Black and gold with silver accents\nD. Green and yellow with white accents",
+      "response": "b"
+    }
+  ]
+}

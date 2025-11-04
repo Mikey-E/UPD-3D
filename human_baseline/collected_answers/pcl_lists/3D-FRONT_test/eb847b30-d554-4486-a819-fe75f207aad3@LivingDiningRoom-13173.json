@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "eb847b30-d554-4486-a819-fe75f207aad3@LivingDiningRoom-13173",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 4",
+  "timestamp": "2025-10-27T15:31:32.842322",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/eb847b30-d554-4486-a819-fe75f207aad3/LivingDiningRoom-13173/LivingDiningRoom-13173.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What piece of furniture is placed in front of the three-seat sofa in the living room?\n\nA. Dining table\nB. Side table\nC. Wine cabinet\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What piece of furniture is placed in front of the three-seat sofa in the living room?\n\nA. Dining table\nB. Side table\nC. Wine cabinet\nD. None of the above",
+      "response": "D"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What piece of furniture is placed in front of the three-seat sofa in the living room?\n\nA. Dining table\nB. Side table\nC. Wine cabinet",
+      "response": "None"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What piece of furniture is placed in front of the three-seat sofa in the living room?\n\nA. Blue whale\nB. Golden retriever\nC. Redwood tree\nD. Great wall of China\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What piece of furniture is placed in front of the three-seat sofa in the living room?\n\nA. Blue whale\nB. Golden retriever\nC. Redwood tree\nD. Great wall of China\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What piece of furniture is placed in front of the three-seat sofa in the living room?\n\nA. Blue whale\nB. Golden retriever\nC. Redwood tree\nD. Great wall of China",
+      "response": "None"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What is the diameter of the circular rug in the living room?\n\nA. Two meters\nB. Three meters\nC. Four meters\nD. Five meters\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What is the diameter of the circular rug in the living room?\n\nA. Two meters\nB. Three meters\nC. Four meters\nD. Five meters\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What is the diameter of the circular rug in the living room?\n\nA. Two meters\nB. Three meters\nC. Four meters\nD. Five meters",
+      "response": "None"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What type of outdoor grill is located on the balcony?",
+      "response": "unanswerable"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What type of outdoor grill is located on the balcony?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What piece of furniture is placed in front of the three-seat sofa in the living room?\n\nA. Dining table\nB. Side table\nC. Wine cabinet\nD. Coffee table",
+      "response": "D"
+    }
+  ]
+}

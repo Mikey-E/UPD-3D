@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "ff39ebbf-6599-4edb-bec9-480ad1de6115@Bedroom-131",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 3",
+  "timestamp": "2025-10-31T08:16:42.021654",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/ff39ebbf-6599-4edb-bec9-480ad1de6115/Bedroom-131/Bedroom-131.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What is the primary function of the two nightstands in the bedroom?\n\nA. To store clothing and accessories\nB. To serve as decorative pieces\nC. To support the pendant lamp\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What is the primary function of the two nightstands in the bedroom?\n\nA. To store clothing and accessories\nB. To serve as decorative pieces\nC. To support the pendant lamp\nD. None of the above",
+      "response": "D"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What is the primary function of the two nightstands in the bedroom?\n\nA. To store clothing and accessories\nB. To serve as decorative pieces\nC. To support the pendant lamp",
+      "response": "None"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What is the primary function of the two nightstands in the bedroom?\n\nA. Calculate mathematical equations\nB. Publish scientific research\nC. Conduct music lessons\nD. Host theatrical performances\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What is the primary function of the two nightstands in the bedroom?\n\nA. Calculate mathematical equations\nB. Publish scientific research\nC. Conduct music lessons\nD. Host theatrical performances\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What is the primary function of the two nightstands in the bedroom?\n\nA. Calculate mathematical equations\nB. Publish scientific research\nC. Conduct music lessons\nD. Host theatrical performances",
+      "response": "None"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What is the shape of the dining table in the scene?\n\nA. Round\nB. Square\nC. Oval\nD. Rectangular\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What is the shape of the dining table in the scene?\n\nA. Round\nB. Square\nC. Oval\nD. Rectangular\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What is the shape of the dining table in the scene?\n\nA. Round\nB. Square\nC. Oval\nD. Rectangular",
+      "response": "None"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What type of garden sculptures are placed in the room?",
+      "response": "N/A"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What type of garden sculptures are placed in the room?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What is the primary function of the two nightstands in the bedroom?\n\nA. To provide surfaces for bedside essentials\nB. To store clothing and accessories\nC. To serve as decorative pieces\nD. To support the pendant lamp",
+      "response": "A"
+    }
+  ]
+}

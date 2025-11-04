@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "da87cfd5-cd48-4394-90cc-ac1765458c3e@LivingDiningRoom-6372",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 5",
+  "timestamp": "2025-10-20T08:37:16.746047",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/da87cfd5-cd48-4394-90cc-ac1765458c3e/LivingDiningRoom-6372/LivingDiningRoom-6372.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What is the primary function of the coffee table in this living room?\n\nA. To serve as a decorative piece\nB. To provide support for the television\nC. To store food items\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What is the primary function of the coffee table in this living room?\n\nA. To serve as a decorative piece\nB. To provide support for the television\nC. To store food items\nD. None of the above",
+      "response": "d"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What is the primary function of the coffee table in this living room?\n\nA. To serve as a decorative piece\nB. To provide support for the television\nC. To store food items",
+      "response": "none"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What is the primary function of the coffee table in this living room?\n\nA. Ocean current\nB. Mountain range\nC. Celestial body\nD. Solar eclipse\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What is the primary function of the coffee table in this living room?\n\nA. Ocean current\nB. Mountain range\nC. Celestial body\nD. Solar eclipse\nE. None of the above",
+      "response": "e"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What is the primary function of the coffee table in this living room?\n\nA. Ocean current\nB. Mountain range\nC. Celestial body\nD. Solar eclipse",
+      "response": "none"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What type of sculpture is located in the living room?\n\nA. Marble Bust\nB. Abstract Wood Carving\nC. Bronze Figure\nD. Glass Sphere\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What type of sculpture is located in the living room?\n\nA. Marble Bust\nB. Abstract Wood Carving\nC. Bronze Figure\nD. Glass Sphere\nE. None of the above",
+      "response": "e"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What type of sculpture is located in the living room?\n\nA. Marble Bust\nB. Abstract Wood Carving\nC. Bronze Figure\nD. Glass Sphere",
+      "response": "none"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What type of swimming pool is adjacent to the living room?",
+      "response": "none"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What type of swimming pool is adjacent to the living room?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What is the primary function of the coffee table in this living room?\n\nA. To serve as a decorative piece\nB. To hold refreshments and personal items\nC. To provide support for the television\nD. To store food items",
+      "response": "c"
+    }
+  ]
+}

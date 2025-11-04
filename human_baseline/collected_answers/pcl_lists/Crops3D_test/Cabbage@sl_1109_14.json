@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "Cabbage@sl_1109_14",
+  "dataset": "Crops3D_test",
+  "annotated_by": "User 3",
+  "timestamp": "2025-10-14T00:17:16.639502",
+  "file_path": "/project/3dllms/melgin/datasets/CEA/Crops3D/Cabbage/sl_1109_14.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What type of pot is the succulent plant sitting in?\n\nA. White-colored pot\nB. Transparent pot\nC. Clay pot\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What type of pot is the succulent plant sitting in?\n\nA. White-colored pot\nB. Transparent pot\nC. Clay pot\nD. None of the above",
+      "response": "D"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What type of pot is the succulent plant sitting in?\n\nA. White-colored pot\nB. Transparent pot\nC. Clay pot",
+      "response": "None"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What type of pot is the succulent plant sitting in?\n\nA. Tiger\nB. Elephant\nC. Giraffe\nD. Zebra\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What type of pot is the succulent plant sitting in?\n\nA. Tiger\nB. Elephant\nC. Giraffe\nD. Zebra\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What type of pot is the succulent plant sitting in?\n\nA. Tiger\nB. Elephant\nC. Giraffe\nD. Zebra",
+      "response": "None"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What type of chandelier is hanging in the room?\n\nA. Crystal Chandelier\nB. Modern LED Chandelier\nC. Vintage Pendant Chandelier\nD. Rustic Wooden Chandelier\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What type of chandelier is hanging in the room?\n\nA. Crystal Chandelier\nB. Modern LED Chandelier\nC. Vintage Pendant Chandelier\nD. Rustic Wooden Chandelier\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What type of chandelier is hanging in the room?\n\nA. Crystal Chandelier\nB. Modern LED Chandelier\nC. Vintage Pendant Chandelier\nD. Rustic Wooden Chandelier",
+      "response": "None"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What type of rug covers the floor?",
+      "response": "N/A"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What type of rug covers the floor?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What type of pot is the succulent plant sitting in?\n\nA. Dark-colored pot\nB. White-colored pot\nC. Transparent pot\nD. Clay pot",
+      "response": "A"
+    }
+  ]
+}

@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "07b6683b-e9bf-4251-a6a2-5d1390e2eec5@KidsRoom-11048",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 3",
+  "timestamp": "2025-10-31T10:29:41.061122",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/07b6683b-e9bf-4251-a6a2-5d1390e2eec5/KidsRoom-11048/KidsRoom-11048.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What color is the wardrobe in the KidsRoom?\n\nA. Light grey\nB. Dark blue\nC. Matte black\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What color is the wardrobe in the KidsRoom?\n\nA. Light grey\nB. Dark blue\nC. Matte black\nD. None of the above",
+      "response": "D"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What color is the wardrobe in the KidsRoom?\n\nA. Light grey\nB. Dark blue\nC. Matte black",
+      "response": "None"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What color is the wardrobe in the KidsRoom?\n\nA. Giraffe\nB. Symphony\nC. Galaxy\nD. Volcano\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What color is the wardrobe in the KidsRoom?\n\nA. Giraffe\nB. Symphony\nC. Galaxy\nD. Volcano\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What color is the wardrobe in the KidsRoom?\n\nA. Giraffe\nB. Symphony\nC. Galaxy\nD. Volcano",
+      "response": "None"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What is the size of the bookshelf in the scene?\n\nA. Large\nB. Medium\nC. Small\nD. Extra large\nIf none of the above answers are correct, answer: 'F'",
+      "response": "D"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What is the size of the bookshelf in the scene?\n\nA. Large\nB. Medium\nC. Small\nD. Extra large\nE. None of the above",
+      "response": "D"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What is the size of the bookshelf in the scene?\n\nA. Large\nB. Medium\nC. Small\nD. Extra large",
+      "response": "D"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What type of outdoor grill is used for cooking in this room?",
+      "response": "N/A"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What type of outdoor grill is used for cooking in this room?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What color is the wardrobe in the KidsRoom?\n\nA. Glossy silver\nB. Light grey\nC. Dark blue\nD. Matte black",
+      "response": "A"
+    }
+  ]
+}

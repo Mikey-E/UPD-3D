@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "dd22d718-475a-4a17-ad13-9c0089edf15f@MasterBedroom-14554",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 4",
+  "timestamp": "2025-10-21T13:42:45.182519",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/dd22d718-475a-4a17-ad13-9c0089edf15f/MasterBedroom-14554/MasterBedroom-14554.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What position is the TV stand in relation to the king-size bed?\n\nA. Beside the bed\nB. Behind the bed\nC. Above the bed\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What position is the TV stand in relation to the king-size bed?\n\nA. Beside the bed\nB. Behind the bed\nC. Above the bed\nD. None of the above",
+      "response": "D"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What position is the TV stand in relation to the king-size bed?\n\nA. Beside the bed\nB. Behind the bed\nC. Above the bed",
+      "response": "None"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What position is the TV stand in relation to the king-size bed?\n\nA. Algae growth\nB. Solar eclipse\nC. Quantum physics\nD. Coral reefs\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What position is the TV stand in relation to the king-size bed?\n\nA. Algae growth\nB. Solar eclipse\nC. Quantum physics\nD. Coral reefs\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What position is the TV stand in relation to the king-size bed?\n\nA. Algae growth\nB. Solar eclipse\nC. Quantum physics\nD. Coral reefs",
+      "response": "None"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What is the shape of the table in the scene?\n\nA. Round\nB. Oval\nC. Rectangular\nD. Square\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What is the shape of the table in the scene?\n\nA. Round\nB. Oval\nC. Rectangular\nD. Square\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What is the shape of the table in the scene?\n\nA. Round\nB. Oval\nC. Rectangular\nD. Square",
+      "response": "None"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What is the color of the rug located in front of the bed?",
+      "response": "White"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What is the color of the rug located in front of the bed?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "White"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What position is the TV stand in relation to the king-size bed?\n\nA. Beside the bed\nB. Behind the bed\nC. Directly across from the bed\nD. Above the bed",
+      "response": "C"
+    }
+  ]
+}

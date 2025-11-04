@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "e6ed3b21-a4dc-4a3c-9115-0040a3ab2082@OtherRoom-65905",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 4",
+  "timestamp": "2025-10-27T15:27:54.442273",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/e6ed3b21-a4dc-4a3c-9115-0040a3ab2082/OtherRoom-65905/OtherRoom-65905.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What color is the double bed in the room?\n\nA. Creamy white\nB. Light gray\nC. Dark blue\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What color is the double bed in the room?\n\nA. Creamy white\nB. Light gray\nC. Dark blue\nD. None of the above",
+      "response": "D"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What color is the double bed in the room?\n\nA. Creamy white\nB. Light gray\nC. Dark blue",
+      "response": "None"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What color is the double bed in the room?\n\nA. Pineapple\nB. Glacier\nC. Maple\nD. Sunset\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What color is the double bed in the room?\n\nA. Pineapple\nB. Glacier\nC. Maple\nD. Sunset\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What color is the double bed in the room?\n\nA. Pineapple\nB. Glacier\nC. Maple\nD. Sunset",
+      "response": "None"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What type of sculpture enhances the room's decor?\n\nA. Marble bust\nB. Wooden figure\nC. Metal abstract\nD. Glass vase\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What type of sculpture enhances the room's decor?\n\nA. Marble bust\nB. Wooden figure\nC. Metal abstract\nD. Glass vase\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What type of sculpture enhances the room's decor?\n\nA. Marble bust\nB. Wooden figure\nC. Metal abstract\nD. Glass vase",
+      "response": "None"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What type of vehicle is parked outside the room?",
+      "response": "unanswerable"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What type of vehicle is parked outside the room?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What color is the double bed in the room?\n\nA. Rich navy blue\nB. Creamy white\nC. Light gray\nD. Dark blue",
+      "response": "D"
+    }
+  ]
+}

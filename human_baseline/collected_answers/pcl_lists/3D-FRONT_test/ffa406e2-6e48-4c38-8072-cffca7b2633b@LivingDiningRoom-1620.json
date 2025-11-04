@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "ffa406e2-6e48-4c38-8072-cffca7b2633b@LivingDiningRoom-1620",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 5",
+  "timestamp": "2025-10-31T08:40:37.007960",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/ffa406e2-6e48-4c38-8072-cffca7b2633b/LivingDiningRoom-1620/LivingDiningRoom-1620.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What type of chairs are located around the desk in the living room?\n\nA. Modern chairs with metal frames\nB. Lounge chairs with plush fabric\nC. Recliner chairs in a contemporary style\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What type of chairs are located around the desk in the living room?\n\nA. Modern chairs with metal frames\nB. Lounge chairs with plush fabric\nC. Recliner chairs in a contemporary style\nD. None of the above",
+      "response": "d"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What type of chairs are located around the desk in the living room?\n\nA. Modern chairs with metal frames\nB. Lounge chairs with plush fabric\nC. Recliner chairs in a contemporary style",
+      "response": "none"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What type of chairs are located around the desk in the living room?\n\nA. Maple syrup\nB. Cheddar cheese\nC. Mountain climbing\nD. Tropical fish\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What type of chairs are located around the desk in the living room?\n\nA. Maple syrup\nB. Cheddar cheese\nC. Mountain climbing\nD. Tropical fish\nE. None of the above",
+      "response": "e"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What type of chairs are located around the desk in the living room?\n\nA. Maple syrup\nB. Cheddar cheese\nC. Mountain climbing\nD. Tropical fish",
+      "response": "none"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What type of painting is displayed in the living room?\n\nA. Abstract\nB. Portrait\nC. Landscape\nD. Still Life\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What type of painting is displayed in the living room?\n\nA. Abstract\nB. Portrait\nC. Landscape\nD. Still Life\nE. None of the above",
+      "response": "e"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What type of painting is displayed in the living room?\n\nA. Abstract\nB. Portrait\nC. Landscape\nD. Still Life",
+      "response": "none"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What type of bicycle is stored in the living room?",
+      "response": "none"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What type of bicycle is stored in the living room?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What type of chairs are located around the desk in the living room?\n\nA. Modern chairs with metal frames\nB. Lounge chairs with plush fabric\nC. Dining chairs with light wooden seats\nD. Recliner chairs in a contemporary style",
+      "response": "c"
+    }
+  ]
+}

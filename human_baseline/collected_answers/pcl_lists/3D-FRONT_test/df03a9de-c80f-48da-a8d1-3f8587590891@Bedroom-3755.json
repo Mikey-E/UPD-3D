@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "df03a9de-c80f-48da-a8d1-3f8587590891@Bedroom-3755",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 4",
+  "timestamp": "2025-10-24T16:38:48.203728",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/df03a9de-c80f-48da-a8d1-3f8587590891/Bedroom-3755/Bedroom-3755.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What is the color of the single bed in the bedroom?\n\nA. Light Gray\nB. Soft Gray\nC. Muted Gray\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What is the color of the single bed in the bedroom?\n\nA. Light Gray\nB. Soft Gray\nC. Muted Gray\nD. None of the above",
+      "response": "d"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What is the color of the single bed in the bedroom?\n\nA. Light Gray\nB. Soft Gray\nC. Muted Gray",
+      "response": "none"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What is the color of the single bed in the bedroom?\n\nA. Melon\nB. Computation\nC. Harmony\nD. Paradox\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What is the color of the single bed in the bedroom?\n\nA. Melon\nB. Computation\nC. Harmony\nD. Paradox\nE. None of the above",
+      "response": "e"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What is the color of the single bed in the bedroom?\n\nA. Melon\nB. Computation\nC. Harmony\nD. Paradox",
+      "response": "none"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What is the height of the bookshelf in the room?\n\nA. Five feet\nB. Seven feet\nC. Three feet\nD. Four feet\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What is the height of the bookshelf in the room?\n\nA. Five feet\nB. Seven feet\nC. Three feet\nD. Four feet\nE. None of the above",
+      "response": "e"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What is the height of the bookshelf in the room?\n\nA. Five feet\nB. Seven feet\nC. Three feet\nD. Four feet",
+      "response": "none"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What type of artwork is displayed on the walls?",
+      "response": "n/a"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What type of artwork is displayed on the walls?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What is the color of the single bed in the bedroom?\n\nA. Soft Lavender\nB. Light Gray\nC. Soft Gray\nD. Muted Gray",
+      "response": "a"
+    }
+  ]
+}

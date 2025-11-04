@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "00ecd5d3-d369-459f-8300-38fc159823dc@SecondBedroom-6249",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 5",
+  "timestamp": "2025-10-31T10:51:44.310309",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/00ecd5d3-d369-459f-8300-38fc159823dc/SecondBedroom-6249/SecondBedroom-6249.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What is the color of the king-size bed in the Second bedroom?\n\nA. Warm brown\nB. Light grey\nC. Vibrant green\nIf none of the above answers are correct, answer: 'F'",
+      "response": "b"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What is the color of the king-size bed in the Second bedroom?\n\nA. Warm brown\nB. Light grey\nC. Vibrant green\nD. None of the above",
+      "response": "b"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What is the color of the king-size bed in the Second bedroom?\n\nA. Warm brown\nB. Light grey\nC. Vibrant green",
+      "response": "b"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What is the color of the king-size bed in the Second bedroom?\n\nA. Pomegranate\nB. Fig\nC. Almond\nD. Date\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What is the color of the king-size bed in the Second bedroom?\n\nA. Pomegranate\nB. Fig\nC. Almond\nD. Date\nE. None of the above",
+      "response": "e"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What is the color of the king-size bed in the Second bedroom?\n\nA. Pomegranate\nB. Fig\nC. Almond\nD. Date",
+      "response": "none"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What type of ceiling fan is installed in the bedroom?\n\nA. Industrial fan\nB. Bladeless fan\nC. Antique fan\nD. Smart fan\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What type of ceiling fan is installed in the bedroom?\n\nA. Industrial fan\nB. Bladeless fan\nC. Antique fan\nD. Smart fan\nE. None of the above",
+      "response": "e"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What type of ceiling fan is installed in the bedroom?\n\nA. Industrial fan\nB. Bladeless fan\nC. Antique fan\nD. Smart fan",
+      "response": "none"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What type of television is mounted on the wall?",
+      "response": "none"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What type of television is mounted on the wall?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What is the color of the king-size bed in the Second bedroom?\n\nA. Warm brown\nB. Light grey\nC. Deep black\nD. Vibrant green",
+      "response": "none"
+    }
+  ]
+}

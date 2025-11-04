@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "e44d23d0-b6ee-40bf-ab2b-7dded90cf45b@DiningRoom-2978",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 5",
+  "timestamp": "2025-10-29T17:42:55.483040",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/e44d23d0-b6ee-40bf-ab2b-7dded90cf45b/DiningRoom-2978/DiningRoom-2978.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What is the color of the kitchen countertop described?\n\nA. Dark brown\nB. Bright white\nC. Light gray\nIf none of the above answers are correct, answer: 'F'",
+      "response": "c"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What is the color of the kitchen countertop described?\n\nA. Dark brown\nB. Bright white\nC. Light gray\nD. None of the above",
+      "response": "c"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What is the color of the kitchen countertop described?\n\nA. Dark brown\nB. Bright white\nC. Light gray",
+      "response": "c"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What is the color of the kitchen countertop described?\n\nA. Centimeter\nB. Kilogram\nC. Fahrenheit\nD. Millisecond\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What is the color of the kitchen countertop described?\n\nA. Centimeter\nB. Kilogram\nC. Fahrenheit\nD. Millisecond\nE. None of the above",
+      "response": "e"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What is the color of the kitchen countertop described?\n\nA. Centimeter\nB. Kilogram\nC. Fahrenheit\nD. Millisecond",
+      "response": "none"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What type of sofa is located in the living room?\n\nA. Leather sectional\nB. Fabric loveseat\nC. Reclining chair\nD. Futon bed\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What type of sofa is located in the living room?\n\nA. Leather sectional\nB. Fabric loveseat\nC. Reclining chair\nD. Futon bed\nE. None of the above",
+      "response": "e"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What type of sofa is located in the living room?\n\nA. Leather sectional\nB. Fabric loveseat\nC. Reclining chair\nD. Futon bed",
+      "response": "none"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What shape is the outdoor grill located in the yard?",
+      "response": "none"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What shape is the outdoor grill located in the yard?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What is the color of the kitchen countertop described?\n\nA. Soft beige\nB. Dark brown\nC. Bright white\nD. Light gray",
+      "response": "d"
+    }
+  ]
+}

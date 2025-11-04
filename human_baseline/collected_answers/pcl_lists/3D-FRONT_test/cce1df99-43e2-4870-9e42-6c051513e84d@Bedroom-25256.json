@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "cce1df99-43e2-4870-9e42-6c051513e84d@Bedroom-25256",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 4",
+  "timestamp": "2025-10-14T19:51:39.843025",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/cce1df99-43e2-4870-9e42-6c051513e84d/Bedroom-25256/Bedroom-25256.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What design influences are reflected in the furniture arrangement of this bedroom?\n\nA. Traditional European architecture\nB. Rustic farmhouse elements\nC. Contemporary American decor\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What design influences are reflected in the furniture arrangement of this bedroom?\n\nA. Traditional European architecture\nB. Rustic farmhouse elements\nC. Contemporary American decor\nD. None of the above",
+      "response": "d"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What design influences are reflected in the furniture arrangement of this bedroom?\n\nA. Traditional European architecture\nB. Rustic farmhouse elements\nC. Contemporary American decor",
+      "response": "none"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What design influences are reflected in the furniture arrangement of this bedroom?\n\nA. Quantum mechanics\nB. Photosynthesis\nC. Plate tectonics\nD. Electromagnetic spectrum\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What design influences are reflected in the furniture arrangement of this bedroom?\n\nA. Quantum mechanics\nB. Photosynthesis\nC. Plate tectonics\nD. Electromagnetic spectrum\nE. None of the above",
+      "response": "e"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What design influences are reflected in the furniture arrangement of this bedroom?\n\nA. Quantum mechanics\nB. Photosynthesis\nC. Plate tectonics\nD. Electromagnetic spectrum",
+      "response": "none"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What type of lighting fixture is hanging above the table?\n\nA. Chandelier\nB. Pendant light\nC. Ceiling fan\nD. Floor lamp\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What type of lighting fixture is hanging above the table?\n\nA. Chandelier\nB. Pendant light\nC. Ceiling fan\nD. Floor lamp\nE. None of the above",
+      "response": "e"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What type of lighting fixture is hanging above the table?\n\nA. Chandelier\nB. Pendant light\nC. Ceiling fan\nD. Floor lamp",
+      "response": "none"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What type of futon is hidden under the bed?",
+      "response": "unanswerable"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What type of futon is hidden under the bed?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What design influences are reflected in the furniture arrangement of this bedroom?\n\nA. Traditional European architecture\nB. Rustic farmhouse elements\nC. A mix of Korean and Japanese styles\nD. Contemporary American decor",
+      "response": "c"
+    }
+  ]
+}

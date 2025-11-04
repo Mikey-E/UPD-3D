@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "d8f50afc-d93f-49f8-9170-b7b9fe880152@Library-20559",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 4",
+  "timestamp": "2025-10-18T15:01:13.234506",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/d8f50afc-d93f-49f8-9170-b7b9fe880152/Library-20559/Library-20559.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What type of chair is positioned next to the desk in the library?  \n\nA. Leather recliner\nB. Modern swivel chair\nC. Armchair\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What type of chair is positioned next to the desk in the library?  \n\nA. Leather recliner\nB. Modern swivel chair\nC. Armchair\nD. None of the above",
+      "response": "D"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What type of chair is positioned next to the desk in the library?  \n\nA. Leather recliner\nB. Modern swivel chair\nC. Armchair",
+      "response": "None"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What type of chair is positioned next to the desk in the library?  \n\nA. Galaxy\nB. Forest\nC. Ocean\nD. Desert\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What type of chair is positioned next to the desk in the library?  \n\nA. Galaxy\nB. Forest\nC. Ocean\nD. Desert\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What type of chair is positioned next to the desk in the library?  \n\nA. Galaxy\nB. Forest\nC. Ocean\nD. Desert",
+      "response": "None"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What type of vehicle is parked outside the library?\n\nA. Sedan\nB. Motorcycle\nC. Van\nD. Bicycle\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What type of vehicle is parked outside the library?\n\nA. Sedan\nB. Motorcycle\nC. Van\nD. Bicycle\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What type of vehicle is parked outside the library?\n\nA. Sedan\nB. Motorcycle\nC. Van\nD. Bicycle",
+      "response": "None"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What type of outdoor grill is used for cooking in this library?",
+      "response": "unanswerable"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What type of outdoor grill is used for cooking in this library?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What type of chair is positioned next to the desk in the library?  \n\nA. Leather recliner\nB. Modern swivel chair\nC. Classic Chinese chair\nD. Armchair",
+      "response": "C"
+    }
+  ]
+}

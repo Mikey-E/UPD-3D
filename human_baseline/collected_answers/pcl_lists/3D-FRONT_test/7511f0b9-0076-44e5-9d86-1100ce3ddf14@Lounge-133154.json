@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "7511f0b9-0076-44e5-9d86-1100ce3ddf14@Lounge-133154",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 5",
+  "timestamp": "2025-10-31T08:31:58.692393",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/7511f0b9-0076-44e5-9d86-1100ce3ddf14/Lounge-133154/Lounge-133154.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What type of design style is the tea table described in the lounge?\n\nA. Light Luxury\nB. Industrial\nC. Modern\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What type of design style is the tea table described in the lounge?\n\nA. Light Luxury\nB. Industrial\nC. Modern\nD. None of the above",
+      "response": "d"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What type of design style is the tea table described in the lounge?\n\nA. Light Luxury\nB. Industrial\nC. Modern",
+      "response": "none"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What type of design style is the tea table described in the lounge?\n\nA. Classical music\nB. Surfing techniques\nC. Gardening tips\nD. Fashion trends\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What type of design style is the tea table described in the lounge?\n\nA. Classical music\nB. Surfing techniques\nC. Gardening tips\nD. Fashion trends\nE. None of the above",
+      "response": "e"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What type of design style is the tea table described in the lounge?\n\nA. Classical music\nB. Surfing techniques\nC. Gardening tips\nD. Fashion trends",
+      "response": "none"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What is the shape of the sofa in the lounge?\n\nA. Rectangular\nB. Circular\nC. Oval\nD. Triangular\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What is the shape of the sofa in the lounge?\n\nA. Rectangular\nB. Circular\nC. Oval\nD. Triangular\nE. None of the above",
+      "response": "e"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What is the shape of the sofa in the lounge?\n\nA. Rectangular\nB. Circular\nC. Oval\nD. Triangular",
+      "response": "none"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What kind of fireplace is in the lounge?",
+      "response": "none"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What kind of fireplace is in the lounge?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What type of design style is the tea table described in the lounge?\n\nA. Light Luxury\nB. Southeast Asian\nC. Industrial\nD. Modern",
+      "response": "b"
+    }
+  ]
+}

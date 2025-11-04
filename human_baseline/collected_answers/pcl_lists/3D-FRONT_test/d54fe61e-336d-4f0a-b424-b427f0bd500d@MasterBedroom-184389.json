@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "d54fe61e-336d-4f0a-b424-b427f0bd500d@MasterBedroom-184389",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 5",
+  "timestamp": "2025-10-16T11:28:38.436545",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/d54fe61e-336d-4f0a-b424-b427f0bd500d/MasterBedroom-184389/MasterBedroom-184389.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What color is the wardrobe in the described room?\n\nA. Navy Blue\nB. Beige\nC. Soft Gold\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What color is the wardrobe in the described room?\n\nA. Navy Blue\nB. Beige\nC. Soft Gold\nD. None of the above",
+      "response": "d"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What color is the wardrobe in the described room?\n\nA. Navy Blue\nB. Beige\nC. Soft Gold",
+      "response": "none of these"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What color is the wardrobe in the described room?\n\nA. Basketball\nB. Cabbage\nC. Jigsaw\nD. Umbrella\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What color is the wardrobe in the described room?\n\nA. Basketball\nB. Cabbage\nC. Jigsaw\nD. Umbrella\nE. None of the above",
+      "response": "e"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What color is the wardrobe in the described room?\n\nA. Basketball\nB. Cabbage\nC. Jigsaw\nD. Umbrella",
+      "response": "none of these"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What style is the table in the scene?\n\nA. Rustic\nB. Modern\nC. Victorian\nD. Industrial\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What style is the table in the scene?\n\nA. Rustic\nB. Modern\nC. Victorian\nD. Industrial\nE. None of the above",
+      "response": "e"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What style is the table in the scene?\n\nA. Rustic\nB. Modern\nC. Victorian\nD. Industrial",
+      "response": "none of these"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What type of painting is hanging above the bed?",
+      "response": "unanswerable"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What type of painting is hanging above the bed?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What color is the wardrobe in the described room?\n\nA. Navy Blue\nB. Beige\nC. Yellow\nD. Soft Gold",
+      "response": "c"
+    }
+  ]
+}

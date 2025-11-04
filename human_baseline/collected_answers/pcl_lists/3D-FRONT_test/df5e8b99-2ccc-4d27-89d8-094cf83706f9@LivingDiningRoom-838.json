@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "df5e8b99-2ccc-4d27-89d8-094cf83706f9@LivingDiningRoom-838",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 3",
+  "timestamp": "2025-10-24T16:45:13.057412",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/df5e8b99-2ccc-4d27-89d8-094cf83706f9/LivingDiningRoom-838/LivingDiningRoom-838.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What color are the dining chairs in the living room?\n\nA. Light blue\nB. Bright yellow\nC. Soft gray\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What color are the dining chairs in the living room?\n\nA. Light blue\nB. Bright yellow\nC. Soft gray\nD. None of the above",
+      "response": "D"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What color are the dining chairs in the living room?\n\nA. Light blue\nB. Bright yellow\nC. Soft gray",
+      "response": "None"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What color are the dining chairs in the living room?\n\nA. Maple\nB. Oak\nC. Pine\nD. Cherry\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What color are the dining chairs in the living room?\n\nA. Maple\nB. Oak\nC. Pine\nD. Cherry\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What color are the dining chairs in the living room?\n\nA. Maple\nB. Oak\nC. Pine\nD. Cherry",
+      "response": "None"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What type of fish is swimming in the living room pond?\n\nA. Goldfish\nB. Betta\nC. Guppy\nD. Catfish\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What type of fish is swimming in the living room pond?\n\nA. Goldfish\nB. Betta\nC. Guppy\nD. Catfish\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What type of fish is swimming in the living room pond?\n\nA. Goldfish\nB. Betta\nC. Guppy\nD. Catfish",
+      "response": "None"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What is the brand of the refrigerator located in the kitchen?",
+      "response": "N/A"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What is the brand of the refrigerator located in the kitchen?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What color are the dining chairs in the living room?\n\nA. Light blue\nB. Dark brown\nC. Bright yellow\nD. Soft gray",
+      "response": "B"
+    }
+  ]
+}

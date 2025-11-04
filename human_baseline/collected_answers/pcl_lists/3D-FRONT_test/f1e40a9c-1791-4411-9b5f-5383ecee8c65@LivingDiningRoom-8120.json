@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "f1e40a9c-1791-4411-9b5f-5383ecee8c65@LivingDiningRoom-8120",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 3",
+  "timestamp": "2025-10-28T23:41:11.412885",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/f1e40a9c-1791-4411-9b5f-5383ecee8c65/LivingDiningRoom-8120/LivingDiningRoom-8120.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What color are the dining chairs surrounding the dining table?\n\nA. Sandy\nB. Light oak\nC. Gold\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What color are the dining chairs surrounding the dining table?\n\nA. Sandy\nB. Light oak\nC. Gold\nD. None of the above",
+      "response": "D"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What color are the dining chairs surrounding the dining table?\n\nA. Sandy\nB. Light oak\nC. Gold",
+      "response": "None"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What color are the dining chairs surrounding the dining table?\n\nA. Honeycomb\nB. Spiral\nC. Thesaurus\nD. Eclipse\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What color are the dining chairs surrounding the dining table?\n\nA. Honeycomb\nB. Spiral\nC. Thesaurus\nD. Eclipse\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What color are the dining chairs surrounding the dining table?\n\nA. Honeycomb\nB. Spiral\nC. Thesaurus\nD. Eclipse",
+      "response": "None"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What type of couch is best for a formal office setting?\n\nA. Recliner\nB. Sectional\nC. Chaise lounge\nD. Loveseat\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What type of couch is best for a formal office setting?\n\nA. Recliner\nB. Sectional\nC. Chaise lounge\nD. Loveseat\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What type of couch is best for a formal office setting?\n\nA. Recliner\nB. Sectional\nC. Chaise lounge\nD. Loveseat",
+      "response": "None"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What shape is the chandelier hanging over the dining area?",
+      "response": "Circular"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What shape is the chandelier hanging over the dining area?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "Circular"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What color are the dining chairs surrounding the dining table?\n\nA. Sandy\nB. Light oak\nC. Dark brown\nD. Gold",
+      "response": "B"
+    }
+  ]
+}

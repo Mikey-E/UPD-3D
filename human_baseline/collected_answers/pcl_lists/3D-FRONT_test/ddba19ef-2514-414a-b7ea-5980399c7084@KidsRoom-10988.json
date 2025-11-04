@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "ddba19ef-2514-414a-b7ea-5980399c7084@KidsRoom-10988",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 4",
+  "timestamp": "2025-10-24T15:37:20.188750",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/ddba19ef-2514-414a-b7ea-5980399c7084/KidsRoom-10988/KidsRoom-10988.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What color is the modern dressing chair in the KidsRoom?\n\nA. Sandy taupe\nB. Bright orange\nC. Tranquil blue\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What color is the modern dressing chair in the KidsRoom?\n\nA. Sandy taupe\nB. Bright orange\nC. Tranquil blue\nD. None of the above",
+      "response": "d"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What color is the modern dressing chair in the KidsRoom?\n\nA. Sandy taupe\nB. Bright orange\nC. Tranquil blue",
+      "response": "none"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What color is the modern dressing chair in the KidsRoom?\n\nA. Watermelon\nB. Cucumber\nC. Pineapple\nD. Banana\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What color is the modern dressing chair in the KidsRoom?\n\nA. Watermelon\nB. Cucumber\nC. Pineapple\nD. Banana\nE. None of the above",
+      "response": "e"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What color is the modern dressing chair in the KidsRoom?\n\nA. Watermelon\nB. Cucumber\nC. Pineapple\nD. Banana",
+      "response": "none"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What is the size of the dining table in the scene?\n\nA. Small and round\nB. Rectangular and large\nC. Square and medium\nD. Oval and extendable\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What is the size of the dining table in the scene?\n\nA. Small and round\nB. Rectangular and large\nC. Square and medium\nD. Oval and extendable\nE. None of the above",
+      "response": "e"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What is the size of the dining table in the scene?\n\nA. Small and round\nB. Rectangular and large\nC. Square and medium\nD. Oval and extendable",
+      "response": "none"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What type of sports equipment is stored in this room?",
+      "response": "n/a"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What type of sports equipment is stored in this room?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What color is the modern dressing chair in the KidsRoom?\n\nA. Sandy taupe\nB. Bright orange\nC. Muted olive green\nD. Tranquil blue",
+      "response": "c"
+    }
+  ]
+}

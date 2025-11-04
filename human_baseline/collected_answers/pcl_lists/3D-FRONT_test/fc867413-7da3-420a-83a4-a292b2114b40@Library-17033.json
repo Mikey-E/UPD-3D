@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "fc867413-7da3-420a-83a4-a292b2114b40@Library-17033",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 3",
+  "timestamp": "2025-10-30T21:19:23.484115",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/fc867413-7da3-420a-83a4-a292b2114b40/Library-17033/Library-17033.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What style is the desk in the library described?\n\nA. Minimalist\nB. Light Luxury\nC. American Country\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What style is the desk in the library described?\n\nA. Minimalist\nB. Light Luxury\nC. American Country\nD. None of the above",
+      "response": "D"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What style is the desk in the library described?\n\nA. Minimalist\nB. Light Luxury\nC. American Country",
+      "response": "NONE"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What style is the desk in the library described?\n\nA. Rock and roll\nB. Classical music\nC. Modern dance\nD. Jazz fusion\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What style is the desk in the library described?\n\nA. Rock and roll\nB. Classical music\nC. Modern dance\nD. Jazz fusion\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What style is the desk in the library described?\n\nA. Rock and roll\nB. Classical music\nC. Modern dance\nD. Jazz fusion",
+      "response": "NONE"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What is the size of the television in the room?\n\nA. 55 inches\nB. 75 inches\nC. 43 inches\nD. 32 inches\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What is the size of the television in the room?\n\nA. 55 inches\nB. 75 inches\nC. 43 inches\nD. 32 inches\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What is the size of the television in the room?\n\nA. 55 inches\nB. 75 inches\nC. 43 inches\nD. 32 inches",
+      "response": "NA"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What color is the rug under the sofa?",
+      "response": "NA"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What color is the rug under the sofa?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What style is the desk in the library described?\n\nA. Minimalist\nB. Industrial\nC. Light Luxury\nD. American Country",
+      "response": "B"
+    }
+  ]
+}

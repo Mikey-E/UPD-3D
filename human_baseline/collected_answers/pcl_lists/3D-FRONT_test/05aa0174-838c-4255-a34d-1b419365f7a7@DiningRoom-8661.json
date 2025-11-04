@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "05aa0174-838c-4255-a34d-1b419365f7a7@DiningRoom-8661",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 4",
+  "timestamp": "2025-10-19T18:07:32.281716",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/05aa0174-838c-4255-a34d-1b419365f7a7/DiningRoom-8661/DiningRoom-8661.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What color is the dining table in the DiningRoom?\n\nA. Soft White\nB. Light Beige\nC. Rich Brown\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What color is the dining table in the DiningRoom?\n\nA. Soft White\nB. Light Beige\nC. Rich Brown\nD. None of the above",
+      "response": "D"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What color is the dining table in the DiningRoom?\n\nA. Soft White\nB. Light Beige\nC. Rich Brown",
+      "response": "None"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What color is the dining table in the DiningRoom?\n\nA. Ocean\nB. Mountain\nC. Dessert\nD. Forest\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What color is the dining table in the DiningRoom?\n\nA. Ocean\nB. Mountain\nC. Dessert\nD. Forest\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What color is the dining table in the DiningRoom?\n\nA. Ocean\nB. Mountain\nC. Dessert\nD. Forest",
+      "response": "None"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What color is the sofa in the scene?\n\nA. Green\nB. Yellow\nC. Black\nD. Red\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What color is the sofa in the scene?\n\nA. Green\nB. Yellow\nC. Black\nD. Red\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What color is the sofa in the scene?\n\nA. Green\nB. Yellow\nC. Black\nD. Red",
+      "response": "None"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What type of outdoor grill is located in the DiningRoom?",
+      "response": "unanswerable"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What type of outdoor grill is located in the DiningRoom?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What color is the dining table in the DiningRoom?\n\nA. Soft White\nB. Light Beige\nC. Rich Brown\nD. Deep Charcoal",
+      "response": "D"
+    }
+  ]
+}

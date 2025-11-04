@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "d2832564-46fd-4bed-a477-02c848c8a60f@MasterBedroom-2723",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 4",
+  "timestamp": "2025-10-15T15:44:06.257963",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/d2832564-46fd-4bed-a477-02c848c8a60f/MasterBedroom-2723/MasterBedroom-2723.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What style does the king-size bed exemplify in the room's description?\n\nA. Futuristic\nB. Art Deco\nC. Victorian\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What style does the king-size bed exemplify in the room's description?\n\nA. Futuristic\nB. Art Deco\nC. Victorian\nD. None of the above",
+      "response": "d"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What style does the king-size bed exemplify in the room's description?\n\nA. Futuristic\nB. Art Deco\nC. Victorian",
+      "response": "none"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What style does the king-size bed exemplify in the room's description?\n\nA. Jazz music\nB. Renaissance art\nC. Quantum physics\nD. Organic gardening\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What style does the king-size bed exemplify in the room's description?\n\nA. Jazz music\nB. Renaissance art\nC. Quantum physics\nD. Organic gardening\nE. None of the above",
+      "response": "e"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What style does the king-size bed exemplify in the room's description?\n\nA. Jazz music\nB. Renaissance art\nC. Quantum physics\nD. Organic gardening",
+      "response": "none"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What type of analysis is used to measure the volume of 3D objects in this scene?\n\nA. Integral calculus\nB. Linear regression\nC. Spatial reasoning\nD. Statistical modeling\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What type of analysis is used to measure the volume of 3D objects in this scene?\n\nA. Integral calculus\nB. Linear regression\nC. Spatial reasoning\nD. Statistical modeling\nE. None of the above",
+      "response": "e"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What type of analysis is used to measure the volume of 3D objects in this scene?\n\nA. Integral calculus\nB. Linear regression\nC. Spatial reasoning\nD. Statistical modeling",
+      "response": "none"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What type of artwork is hung on the wall?",
+      "response": "n/a"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What type of artwork is hung on the wall?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What style does the king-size bed exemplify in the room's description?\n\nA. Futuristic\nB. Art Deco\nC. Victorian\nD. Mediterranean",
+      "response": "d"
+    }
+  ]
+}

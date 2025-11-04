@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "e078b0fe-4bd9-4c90-8046-f3a21bda28f9@LivingDiningRoom-184411",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 5",
+  "timestamp": "2025-10-24T20:51:25.503748",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/e078b0fe-4bd9-4c90-8046-f3a21bda28f9/LivingDiningRoom-184411/LivingDiningRoom-184411.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What style are the dining chairs in this living room?\n\nA. Vintage/Retro style\nB. Modern style\nC. Industrial style\nIf none of the above answers are correct, answer: 'F'",
+      "response": "c"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What style are the dining chairs in this living room?\n\nA. Vintage/Retro style\nB. Modern style\nC. Industrial style\nD. None of the above",
+      "response": "c"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What style are the dining chairs in this living room?\n\nA. Vintage/Retro style\nB. Modern style\nC. Industrial style",
+      "response": "c"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What style are the dining chairs in this living room?\n\nA. Bacteria\nB. Photosynthesis\nC. Gravity\nD. Electromagnetism\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What style are the dining chairs in this living room?\n\nA. Bacteria\nB. Photosynthesis\nC. Gravity\nD. Electromagnetism\nE. None of the above",
+      "response": "e"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What style are the dining chairs in this living room?\n\nA. Bacteria\nB. Photosynthesis\nC. Gravity\nD. Electromagnetism",
+      "response": "none"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What shape is the coffee table?\n\nA. Round\nB. Square\nC. Rectangular\nD. Oval\nIf none of the above answers are correct, answer: 'F'",
+      "response": "d"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What shape is the coffee table?\n\nA. Round\nB. Square\nC. Rectangular\nD. Oval\nE. None of the above",
+      "response": "d"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What shape is the coffee table?\n\nA. Round\nB. Square\nC. Rectangular\nD. Oval",
+      "response": "d"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What type of musical instrument is stored in the room?",
+      "response": "none"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What type of musical instrument is stored in the room?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What style are the dining chairs in this living room?\n\nA. Vintage/Retro style\nB. Modern style\nC. Industrial style\nD. Southeast Asian style",
+      "response": "c"
+    }
+  ]
+}

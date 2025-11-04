@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "df9645e0-d235-4dba-828b-c6bdbdc8c222@LivingRoom-515",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 5",
+  "timestamp": "2025-10-24T20:11:14.059422",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/df9645e0-d235-4dba-828b-c6bdbdc8c222/LivingRoom-515/LivingRoom-515.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What color are the legs of the dining table with the sleek grey top?\n\nA. Yellow\nB. Grey\nC. White\nIf none of the above answers are correct, answer: 'F'",
+      "response": "c"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What color are the legs of the dining table with the sleek grey top?\n\nA. Yellow\nB. Grey\nC. White\nD. None of the above",
+      "response": "c"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What color are the legs of the dining table with the sleek grey top?\n\nA. Yellow\nB. Grey\nC. White",
+      "response": "c"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What color are the legs of the dining table with the sleek grey top?\n\nA. Ocean Wave\nB. Firecracker\nC. Mountain Path\nD. Whispering Wind\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What color are the legs of the dining table with the sleek grey top?\n\nA. Ocean Wave\nB. Firecracker\nC. Mountain Path\nD. Whispering Wind\nE. None of the above",
+      "response": "e"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What color are the legs of the dining table with the sleek grey top?\n\nA. Ocean Wave\nB. Firecracker\nC. Mountain Path\nD. Whispering Wind",
+      "response": "none"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What shape is the main window in the room?\n\nA. Circular\nB. Square\nC. Triangular\nD. Oval\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What shape is the main window in the room?\n\nA. Circular\nB. Square\nC. Triangular\nD. Oval\nE. None of the above",
+      "response": "e"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What shape is the main window in the room?\n\nA. Circular\nB. Square\nC. Triangular\nD. Oval",
+      "response": "none"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What type of outdoor fountain is installed in the garden outside the living room?",
+      "response": "none"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What type of outdoor fountain is installed in the garden outside the living room?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What color are the legs of the dining table with the sleek grey top?\n\nA. Yellow\nB. Grey\nC. Red\nD. White",
+      "response": "d"
+    }
+  ]
+}

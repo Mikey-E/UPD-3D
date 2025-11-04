@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "d2965fec-86a0-4696-ae91-447d937a77c8@Library-5452",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 4",
+  "timestamp": "2025-10-15T15:54:19.079210",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/d2965fec-86a0-4696-ae91-447d937a77c8/Library-5452/Library-5452.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What type of finish does the lounge chair have?\n\nA. Light beige finish\nB. Glossy finish\nC. Polished metal finish\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What type of finish does the lounge chair have?\n\nA. Light beige finish\nB. Glossy finish\nC. Polished metal finish\nD. None of the above",
+      "response": "d"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What type of finish does the lounge chair have?\n\nA. Light beige finish\nB. Glossy finish\nC. Polished metal finish",
+      "response": "none"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What type of finish does the lounge chair have?\n\nA. Chocolate cake\nB. Maple syrup\nC. Organic chemistry\nD. Quantum mechanics\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What type of finish does the lounge chair have?\n\nA. Chocolate cake\nB. Maple syrup\nC. Organic chemistry\nD. Quantum mechanics\nE. None of the above",
+      "response": "e"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What type of finish does the lounge chair have?\n\nA. Chocolate cake\nB. Maple syrup\nC. Organic chemistry\nD. Quantum mechanics",
+      "response": "none"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What type of sculpture is displayed in the library?\n\nA. Marble statue\nB. Wood carving\nC. Glass sculpture\nD. Bronze figure\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What type of sculpture is displayed in the library?\n\nA. Marble statue\nB. Wood carving\nC. Glass sculpture\nD. Bronze figure\nE. None of the above",
+      "response": "e"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What type of sculpture is displayed in the library?\n\nA. Marble statue\nB. Wood carving\nC. Glass sculpture\nD. Bronze figure",
+      "response": "none"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What type of rug is placed under the lounge chair?",
+      "response": "n/a"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What type of rug is placed under the lounge chair?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What type of finish does the lounge chair have?\n\nA. Warm oak finish\nB. Light beige finish\nC. Glossy finish\nD. Polished metal finish",
+      "response": "a"
+    }
+  ]
+}

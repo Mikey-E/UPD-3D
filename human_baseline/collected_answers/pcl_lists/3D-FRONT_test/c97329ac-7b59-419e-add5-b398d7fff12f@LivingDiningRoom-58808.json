@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "c97329ac-7b59-419e-add5-b398d7fff12f@LivingDiningRoom-58808",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 3",
+  "timestamp": "2025-10-13T23:31:14.340807",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/c97329ac-7b59-419e-add5-b398d7fff12f/LivingDiningRoom-58808/LivingDiningRoom-58808.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What provides illumination over the dining table in the livingdining room?\n\nA. Corner table\nB. Floor lamp\nC. Coffee table\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What provides illumination over the dining table in the livingdining room?\n\nA. Corner table\nB. Floor lamp\nC. Coffee table\nD. None of the above",
+      "response": "D"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What provides illumination over the dining table in the livingdining room?\n\nA. Corner table\nB. Floor lamp\nC. Coffee table",
+      "response": "None"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What provides illumination over the dining table in the livingdining room?\n\nA. Bark texture\nB. Leaf arrangement\nC. Petal count\nD. Soil pH\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What provides illumination over the dining table in the livingdining room?\n\nA. Bark texture\nB. Leaf arrangement\nC. Petal count\nD. Soil pH\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What provides illumination over the dining table in the livingdining room?\n\nA. Bark texture\nB. Leaf arrangement\nC. Petal count\nD. Soil pH",
+      "response": "None"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What type of furniture is best suited for outdoor use?\n\nA. Wicker chairs\nB. Office desks\nC. Bathroom cabinets\nD. Kitchen islands\nIf none of the above answers are correct, answer: 'F'",
+      "response": "A"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What type of furniture is best suited for outdoor use?\n\nA. Wicker chairs\nB. Office desks\nC. Bathroom cabinets\nD. Kitchen islands\nE. None of the above",
+      "response": "A"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What type of furniture is best suited for outdoor use?\n\nA. Wicker chairs\nB. Office desks\nC. Bathroom cabinets\nD. Kitchen islands",
+      "response": "A"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What type of painting is displayed on the wall?",
+      "response": "N/A"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What type of painting is displayed on the wall?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What provides illumination over the dining table in the livingdining room?\n\nA. Corner table\nB. Floor lamp\nC. Pendant lamp\nD. Coffee table",
+      "response": "C"
+    }
+  ]
+}

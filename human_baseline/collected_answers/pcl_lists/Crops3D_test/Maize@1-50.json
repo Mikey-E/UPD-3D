@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "Maize@1-50",
+  "dataset": "Crops3D_test",
+  "annotated_by": "User 5",
+  "timestamp": "2025-10-30T11:41:12.201975",
+  "file_path": "/project/3dllms/melgin/datasets/CEA/Crops3D/Maize/1-50.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What characteristic describes the new growth at the top of the maize plant?\n\nA. It consists of wide, flat leaves pointing outward\nB. It is fully developed with thick, sturdy stalks\nC. It produces flowers in a blooming structure\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What characteristic describes the new growth at the top of the maize plant?\n\nA. It consists of wide, flat leaves pointing outward\nB. It is fully developed with thick, sturdy stalks\nC. It produces flowers in a blooming structure\nD. None of the above",
+      "response": "d"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What characteristic describes the new growth at the top of the maize plant?\n\nA. It consists of wide, flat leaves pointing outward\nB. It is fully developed with thick, sturdy stalks\nC. It produces flowers in a blooming structure",
+      "response": "none"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What characteristic describes the new growth at the top of the maize plant?\n\nA. Subatomic particle\nB. Solar eclipse\nC. Quantum mechanics\nD. Tectonic plates\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What characteristic describes the new growth at the top of the maize plant?\n\nA. Subatomic particle\nB. Solar eclipse\nC. Quantum mechanics\nD. Tectonic plates\nE. None of the above",
+      "response": "e"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What characteristic describes the new growth at the top of the maize plant?\n\nA. Subatomic particle\nB. Solar eclipse\nC. Quantum mechanics\nD. Tectonic plates",
+      "response": "none"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What type of furniture is placed next to the maize plant?\n\nA. Sofa\nB. Coffee table\nC. Bookshelf\nD. Chair\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What type of furniture is placed next to the maize plant?\n\nA. Sofa\nB. Coffee table\nC. Bookshelf\nD. Chair\nE. None of the above",
+      "response": "e"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What type of furniture is placed next to the maize plant?\n\nA. Sofa\nB. Coffee table\nC. Bookshelf\nD. Chair",
+      "response": "none"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What type of flower is blooming next to the maize plant?",
+      "response": "none"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What type of flower is blooming next to the maize plant?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What characteristic describes the new growth at the top of the maize plant?\n\nA. It forms a cluster of narrow upright leaves\nB. It consists of wide, flat leaves pointing outward\nC. It is fully developed with thick, sturdy stalks\nD. It produces flowers in a blooming structure",
+      "response": "a"
+    }
+  ]
+}

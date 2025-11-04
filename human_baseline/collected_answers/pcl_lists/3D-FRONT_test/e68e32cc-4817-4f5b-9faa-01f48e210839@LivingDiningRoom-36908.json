@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "e68e32cc-4817-4f5b-9faa-01f48e210839@LivingDiningRoom-36908",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 4",
+  "timestamp": "2025-10-26T21:10:54.614407",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/e68e32cc-4817-4f5b-9faa-01f48e210839/LivingDiningRoom-36908/LivingDiningRoom-36908.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What color are the cushioned seats of the dining chairs surrounding the dining table?\n\nA. Light blue\nB. Soft pink\nC. Grey\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What color are the cushioned seats of the dining chairs surrounding the dining table?\n\nA. Light blue\nB. Soft pink\nC. Grey\nD. None of the above",
+      "response": "D"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What color are the cushioned seats of the dining chairs surrounding the dining table?\n\nA. Light blue\nB. Soft pink\nC. Grey",
+      "response": "None"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What color are the cushioned seats of the dining chairs surrounding the dining table?\n\nA. Ocean wave\nB. Mountain peak\nC. Desert bloom\nD. Forest shadow\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What color are the cushioned seats of the dining chairs surrounding the dining table?\n\nA. Ocean wave\nB. Mountain peak\nC. Desert bloom\nD. Forest shadow\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What color are the cushioned seats of the dining chairs surrounding the dining table?\n\nA. Ocean wave\nB. Mountain peak\nC. Desert bloom\nD. Forest shadow",
+      "response": "None"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What type of rug complements the dining table?\n\nA. Persian rug\nB. Shag rug\nC. Jute rug\nD. Area rug\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What type of rug complements the dining table?\n\nA. Persian rug\nB. Shag rug\nC. Jute rug\nD. Area rug\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What type of rug complements the dining table?\n\nA. Persian rug\nB. Shag rug\nC. Jute rug\nD. Area rug",
+      "response": "None"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What type of oven is located in the kitchen?",
+      "response": "unanswerable"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What type of oven is located in the kitchen?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What color are the cushioned seats of the dining chairs surrounding the dining table?\n\nA. Light blue\nB. Soft pink\nC. Dark green\nD. Grey",
+      "response": "C"
+    }
+  ]
+}

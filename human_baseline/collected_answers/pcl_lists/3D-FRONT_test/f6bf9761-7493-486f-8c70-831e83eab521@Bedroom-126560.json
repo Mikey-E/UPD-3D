@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "f6bf9761-7493-486f-8c70-831e83eab521@Bedroom-126560",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 5",
+  "timestamp": "2025-10-29T17:59:15.818396",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/f6bf9761-7493-486f-8c70-831e83eab521/Bedroom-126560/Bedroom-126560.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What style does the wardrobe in the bedroom feature?\n\nA. Mediterranean style\nB. Minimalist style\nC. Contemporary style\nIf none of the above answers are correct, answer: 'F'",
+      "response": "c"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What style does the wardrobe in the bedroom feature?\n\nA. Mediterranean style\nB. Minimalist style\nC. Contemporary style\nD. None of the above",
+      "response": "c"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What style does the wardrobe in the bedroom feature?\n\nA. Mediterranean style\nB. Minimalist style\nC. Contemporary style",
+      "response": "c"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What style does the wardrobe in the bedroom feature?\n\nA. Jazz Music\nB. Classical Literature\nC. Modern Sculpture\nD. Impressionist Painting\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What style does the wardrobe in the bedroom feature?\n\nA. Jazz Music\nB. Classical Literature\nC. Modern Sculpture\nD. Impressionist Painting\nE. None of the above",
+      "response": "e"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What style does the wardrobe in the bedroom feature?\n\nA. Jazz Music\nB. Classical Literature\nC. Modern Sculpture\nD. Impressionist Painting",
+      "response": "none"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What texture is featured on the dining table?\n\nA. Glass\nB. Marble\nC. Oak\nD. Leather\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What texture is featured on the dining table?\n\nA. Glass\nB. Marble\nC. Oak\nD. Leather\nE. None of the above",
+      "response": "e"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What texture is featured on the dining table?\n\nA. Glass\nB. Marble\nC. Oak\nD. Leather",
+      "response": "none"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What style is the coffee table in the room?",
+      "response": "none"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What style is the coffee table in the room?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What style does the wardrobe in the bedroom feature?\n\nA. Mediterranean style\nB. Minimalist style\nC. Contemporary style\nD. New Chinese style",
+      "response": "c"
+    }
+  ]
+}

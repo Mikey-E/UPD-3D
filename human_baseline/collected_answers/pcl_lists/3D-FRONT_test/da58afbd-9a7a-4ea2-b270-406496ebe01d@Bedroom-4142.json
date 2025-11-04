@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "da58afbd-9a7a-4ea2-b270-406496ebe01d@Bedroom-4142",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 5",
+  "timestamp": "2025-10-20T08:14:28.483864",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/da58afbd-9a7a-4ea2-b270-406496ebe01d/Bedroom-4142/Bedroom-4142.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What style does the dressing table reflect in this bedroom?\n\nA. Minimalist\nB. Vintage\nC. Modern\nIf none of the above answers are correct, answer: 'F'",
+      "response": "b"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What style does the dressing table reflect in this bedroom?\n\nA. Minimalist\nB. Vintage\nC. Modern\nD. None of the above",
+      "response": "b"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What style does the dressing table reflect in this bedroom?\n\nA. Minimalist\nB. Vintage\nC. Modern",
+      "response": "b"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What style does the dressing table reflect in this bedroom?\n\nA. Ocean wave\nB. Mountain range\nC. Desert oasis\nD. Forest glade\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What style does the dressing table reflect in this bedroom?\n\nA. Ocean wave\nB. Mountain range\nC. Desert oasis\nD. Forest glade\nE. None of the above",
+      "response": "e"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What style does the dressing table reflect in this bedroom?\n\nA. Ocean wave\nB. Mountain range\nC. Desert oasis\nD. Forest glade",
+      "response": "none"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What is the height of the ceiling in the room?\n\nA. 8 feet\nB. 10 feet\nC. 12 feet\nD. 14 feet\nIf none of the above answers are correct, answer: 'F'",
+      "response": "a"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What is the height of the ceiling in the room?\n\nA. 8 feet\nB. 10 feet\nC. 12 feet\nD. 14 feet\nE. None of the above",
+      "response": "a"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What is the height of the ceiling in the room?\n\nA. 8 feet\nB. 10 feet\nC. 12 feet\nD. 14 feet",
+      "response": "a"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What type of outdoor grill is set up in the yard?",
+      "response": "none"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What type of outdoor grill is set up in the yard?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What style does the dressing table reflect in this bedroom?\n\nA. Southeast Asian\nB. Minimalist\nC. Vintage\nD. Modern",
+      "response": "c"
+    }
+  ]
+}

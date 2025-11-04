@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "dcaa00b8-ce5c-4d72-8033-db1826fc7d42@LivingDiningRoom-12188",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 4",
+  "timestamp": "2025-10-21T13:20:21.531003",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/dcaa00b8-ce5c-4d72-8033-db1826fc7d42/LivingDiningRoom-12188/LivingDiningRoom-12188.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What style is the side table in this living room?\n\nA. Southeastern Asian style\nB. Japanese style\nC. Contemporary style\nIf none of the above answers are correct, answer: 'F'",
+      "response": "B"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What style is the side table in this living room?\n\nA. Southeastern Asian style\nB. Japanese style\nC. Contemporary style\nD. None of the above",
+      "response": "B"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What style is the side table in this living room?\n\nA. Southeastern Asian style\nB. Japanese style\nC. Contemporary style",
+      "response": "B"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What style is the side table in this living room?\n\nA. Ocean Current\nB. Mountain Range\nC. Desert Landscape\nD. Forest Trail\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What style is the side table in this living room?\n\nA. Ocean Current\nB. Mountain Range\nC. Desert Landscape\nD. Forest Trail\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What style is the side table in this living room?\n\nA. Ocean Current\nB. Mountain Range\nC. Desert Landscape\nD. Forest Trail",
+      "response": "None"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What is the height of the bookshelf in the room?\n\nA. Five feet\nB. Six feet\nC. Seven feet\nD. Eight feet\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What is the height of the bookshelf in the room?\n\nA. Five feet\nB. Six feet\nC. Seven feet\nD. Eight feet\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What is the height of the bookshelf in the room?\n\nA. Five feet\nB. Six feet\nC. Seven feet\nD. Eight feet",
+      "response": "None"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What type of aquarium is featured in the scene?",
+      "response": "unanswerable"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What type of aquarium is featured in the scene?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What style is the side table in this living room?\n\nA. Southeastern Asian style\nB. Japanese style\nC. American Country style\nD. Contemporary style",
+      "response": "B"
+    }
+  ]
+}

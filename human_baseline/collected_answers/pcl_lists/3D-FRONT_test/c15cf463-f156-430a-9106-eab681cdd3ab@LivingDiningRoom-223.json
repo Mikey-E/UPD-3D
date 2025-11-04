@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "c15cf463-f156-430a-9106-eab681cdd3ab@LivingDiningRoom-223",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 4",
+  "timestamp": "2025-10-06T10:47:58.258046",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/c15cf463-f156-430a-9106-eab681cdd3ab/LivingDiningRoom-223/LivingDiningRoom-223.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What color is the upholstery of the three-seat sofa in the living room?\n\nA. Warm walnut brown\nB. Mustard yellow\nC. Warm grayish-brown\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What color is the upholstery of the three-seat sofa in the living room?\n\nA. Warm walnut brown\nB. Mustard yellow\nC. Warm grayish-brown\nD. None of the above",
+      "response": "D"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What color is the upholstery of the three-seat sofa in the living room?\n\nA. Warm walnut brown\nB. Mustard yellow\nC. Warm grayish-brown",
+      "response": "none of these"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What color is the upholstery of the three-seat sofa in the living room?\n\nA. Mountain\nB. Ocean\nC. Forest\nD. Desert\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What color is the upholstery of the three-seat sofa in the living room?\n\nA. Mountain\nB. Ocean\nC. Forest\nD. Desert\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What color is the upholstery of the three-seat sofa in the living room?\n\nA. Mountain\nB. Ocean\nC. Forest\nD. Desert",
+      "response": "none of these"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What is the shape of the rug in the living room?\n\nA. Circular\nB. Rectangular\nC. Oval\nD. Square\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What is the shape of the rug in the living room?\n\nA. Circular\nB. Rectangular\nC. Oval\nD. Square\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What is the shape of the rug in the living room?\n\nA. Circular\nB. Rectangular\nC. Oval\nD. Square",
+      "response": "none of these"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What type of outdoor fountain is installed in the garden?",
+      "response": "none"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What type of outdoor fountain is installed in the garden?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What color is the upholstery of the three-seat sofa in the living room?\n\nA. Rich chocolate brown\nB. Warm walnut brown\nC. Mustard yellow\nD. Warm grayish-brown",
+      "response": "A"
+    }
+  ]
+}

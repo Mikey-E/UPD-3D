@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "ffb71fcf-a89a-4e88-a1f6-84033d3b2e13@LivingDiningRoom-23007",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 5",
+  "timestamp": "2025-10-31T08:44:26.846510",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/ffb71fcf-a89a-4e88-a1f6-84033d3b2e13/LivingDiningRoom-23007/LivingDiningRoom-23007.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What color are the cushioned seats of the dining chairs surrounding the dining table? \n\nA. Light blue\nB. Bright yellow\nC. Dark brown\nIf none of the above answers are correct, answer: 'F'",
+      "response": "c"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What color are the cushioned seats of the dining chairs surrounding the dining table? \n\nA. Light blue\nB. Bright yellow\nC. Dark brown\nD. None of the above",
+      "response": "c"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What color are the cushioned seats of the dining chairs surrounding the dining table? \n\nA. Light blue\nB. Bright yellow\nC. Dark brown",
+      "response": "c"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What color are the cushioned seats of the dining chairs surrounding the dining table? \n\nA. Elephant\nB. Refrigerator\nC. Jupiter\nD. Harmony\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What color are the cushioned seats of the dining chairs surrounding the dining table? \n\nA. Elephant\nB. Refrigerator\nC. Jupiter\nD. Harmony\nE. None of the above",
+      "response": "e"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What color are the cushioned seats of the dining chairs surrounding the dining table? \n\nA. Elephant\nB. Refrigerator\nC. Jupiter\nD. Harmony",
+      "response": "none"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What material is the carpet made of?\n\nA. Wool\nB. Cotton\nC. Nylon\nD. Polyester\nIf none of the above answers are correct, answer: 'F'",
+      "response": "a"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What material is the carpet made of?\n\nA. Wool\nB. Cotton\nC. Nylon\nD. Polyester\nE. None of the above",
+      "response": "a"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What material is the carpet made of?\n\nA. Wool\nB. Cotton\nC. Nylon\nD. Polyester",
+      "response": "a"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What type of swimming pool is located outside the room?",
+      "response": "none"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What type of swimming pool is located outside the room?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What color are the cushioned seats of the dining chairs surrounding the dining table? \n\nA. Light blue\nB. Deep green\nC. Bright yellow\nD. Dark brown",
+      "response": "d"
+    }
+  ]
+}

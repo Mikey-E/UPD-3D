@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "d304723a-ffd7-43ba-bca4-5667163a68ff@Bedroom-3336",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 4",
+  "timestamp": "2025-10-15T21:33:35.461902",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/d304723a-ffd7-43ba-bca4-5667163a68ff/Bedroom-3336/Bedroom-3336.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What color scheme is present on the nightstands in the bedroom?\n\nA. Red and white\nB. Grey and white\nC. Black and gold\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What color scheme is present on the nightstands in the bedroom?\n\nA. Red and white\nB. Grey and white\nC. Black and gold\nD. None of the above",
+      "response": "D"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What color scheme is present on the nightstands in the bedroom?\n\nA. Red and white\nB. Grey and white\nC. Black and gold",
+      "response": "None"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What color scheme is present on the nightstands in the bedroom?\n\nA. Tropical rainforest\nB. Arctic tundra\nC. Desert landscape\nD. Mountain peak\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What color scheme is present on the nightstands in the bedroom?\n\nA. Tropical rainforest\nB. Arctic tundra\nC. Desert landscape\nD. Mountain peak\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What color scheme is present on the nightstands in the bedroom?\n\nA. Tropical rainforest\nB. Arctic tundra\nC. Desert landscape\nD. Mountain peak",
+      "response": "None"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What is the material of the dining table?\n\nA. Glass\nB. Wood\nC. Metal\nD. Plastic\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What is the material of the dining table?\n\nA. Glass\nB. Wood\nC. Metal\nD. Plastic\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What is the material of the dining table?\n\nA. Glass\nB. Wood\nC. Metal\nD. Plastic",
+      "response": "None"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What type of outdoor garden furniture is in the room?",
+      "response": "unanswerable"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What type of outdoor garden furniture is in the room?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What color scheme is present on the nightstands in the bedroom?\n\nA. Red and white\nB. Grey and white\nC. Black and gold\nD. Brown and turquoise",
+      "response": "D"
+    }
+  ]
+}

@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "f7a3bd11-edb2-41ee-b15c-79730eba86b1@MasterBedroom-12183",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 3",
+  "timestamp": "2025-10-30T00:10:16.940980",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/f7a3bd11-edb2-41ee-b15c-79730eba86b1/MasterBedroom-12183/MasterBedroom-12183.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What style is the desk in the room described?\n\nA. Japanese style\nB. Modern style\nC. Traditional style\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What style is the desk in the room described?\n\nA. Japanese style\nB. Modern style\nC. Traditional style\nD. None of the above",
+      "response": "D"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What style is the desk in the room described?\n\nA. Japanese style\nB. Modern style\nC. Traditional style",
+      "response": "NONE"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What style is the desk in the room described?\n\nA. Classical music\nB. Digital painting\nC. Acrylic sculpture\nD. Watercolor landscape\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What style is the desk in the room described?\n\nA. Classical music\nB. Digital painting\nC. Acrylic sculpture\nD. Watercolor landscape\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What style is the desk in the room described?\n\nA. Classical music\nB. Digital painting\nC. Acrylic sculpture\nD. Watercolor landscape",
+      "response": "NONE"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What shape is the rug in the room?\n\nA. Circular\nB. Oval\nC. Square\nD. Rectangular\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What shape is the rug in the room?\n\nA. Circular\nB. Oval\nC. Square\nD. Rectangular\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What shape is the rug in the room?\n\nA. Circular\nB. Oval\nC. Square\nD. Rectangular",
+      "response": "NA"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What type of musical instrument is hidden beneath the bed?",
+      "response": "NA"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What type of musical instrument is hidden beneath the bed?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What style is the desk in the room described?\n\nA. Japanese style\nB. Modern style\nC. Neoclassical style\nD. Traditional style",
+      "response": "C"
+    }
+  ]
+}

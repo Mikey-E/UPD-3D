@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "fcbed989-1248-4c5d-824d-dd40671ed6ca@LivingDiningRoom-19339",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 3",
+  "timestamp": "2025-10-30T21:35:56.372515",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/fcbed989-1248-4c5d-824d-dd40671ed6ca/LivingDiningRoom-19339/LivingDiningRoom-19339.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What color is the coffee table in the living room?\n\nA. Black\nB. Soft ivory\nC. Matte gray\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What color is the coffee table in the living room?\n\nA. Black\nB. Soft ivory\nC. Matte gray\nD. None of the above",
+      "response": "D"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What color is the coffee table in the living room?\n\nA. Black\nB. Soft ivory\nC. Matte gray",
+      "response": "NONE"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What color is the coffee table in the living room?\n\nA. Jupiter\nB. Neptune\nC. Saturn\nD. Mars\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What color is the coffee table in the living room?\n\nA. Jupiter\nB. Neptune\nC. Saturn\nD. Mars\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What color is the coffee table in the living room?\n\nA. Jupiter\nB. Neptune\nC. Saturn\nD. Mars",
+      "response": "NONE"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What type of artwork is displayed in the scene?\n\nA. Abstract painting\nB. Landscape mural\nC. Portrait photograph\nD. Metal sculpture\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What type of artwork is displayed in the scene?\n\nA. Abstract painting\nB. Landscape mural\nC. Portrait photograph\nD. Metal sculpture\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What type of artwork is displayed in the scene?\n\nA. Abstract painting\nB. Landscape mural\nC. Portrait photograph\nD. Metal sculpture",
+      "response": "NA"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What type of floor lamp is used in the room?",
+      "response": "NA"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What type of floor lamp is used in the room?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What color is the coffee table in the living room?\n\nA. Black\nB. Soft ivory\nC. Bright white\nD. Matte gray",
+      "response": "C"
+    }
+  ]
+}

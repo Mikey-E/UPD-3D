@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "ecbad9b1-6e57-45a3-9cfb-0fd0fccc6e39@MasterBedroom-15002",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 3",
+  "timestamp": "2025-10-27T16:32:50.926655",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/ecbad9b1-6e57-45a3-9cfb-0fd0fccc6e39/MasterBedroom-15002/MasterBedroom-15002.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What type of chair is positioned in front of the desk for comfortable seating?\n\nA. Armchair\nB. Office chair\nC. Sofa\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What type of chair is positioned in front of the desk for comfortable seating?\n\nA. Armchair\nB. Office chair\nC. Sofa\nD. None of the above",
+      "response": "D"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What type of chair is positioned in front of the desk for comfortable seating?\n\nA. Armchair\nB. Office chair\nC. Sofa",
+      "response": "None"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What type of chair is positioned in front of the desk for comfortable seating?\n\nA. Tulip\nB. Cactus\nC. Mountain\nD. Ocean\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What type of chair is positioned in front of the desk for comfortable seating?\n\nA. Tulip\nB. Cactus\nC. Mountain\nD. Ocean\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What type of chair is positioned in front of the desk for comfortable seating?\n\nA. Tulip\nB. Cactus\nC. Mountain\nD. Ocean",
+      "response": "None"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What type of window treatment is featured in the scene?\n\nA. Blinds\nB. Curtains\nC. Shutters\nD. Awnings\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What type of window treatment is featured in the scene?\n\nA. Blinds\nB. Curtains\nC. Shutters\nD. Awnings\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What type of window treatment is featured in the scene?\n\nA. Blinds\nB. Curtains\nC. Shutters\nD. Awnings",
+      "response": "None"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What type of musical instrument is hidden in the closet?",
+      "response": "N/A"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What type of musical instrument is hidden in the closet?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What type of chair is positioned in front of the desk for comfortable seating?\n\nA. Armchair\nB. Office chair\nC. Lounge chair\nD. Sofa",
+      "response": "C"
+    }
+  ]
+}

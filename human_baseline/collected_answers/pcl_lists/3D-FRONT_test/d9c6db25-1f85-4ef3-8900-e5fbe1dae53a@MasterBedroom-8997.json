@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "d9c6db25-1f85-4ef3-8900-e5fbe1dae53a@MasterBedroom-8997",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 4",
+  "timestamp": "2025-10-19T15:09:30.460608",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/d9c6db25-1f85-4ef3-8900-e5fbe1dae53a/MasterBedroom-8997/MasterBedroom-8997.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What color is the headboard of the king-size bed in the master bedroom?\n\nA. Mustard yellow\nB. Soft gold\nC. Matte black\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What color is the headboard of the king-size bed in the master bedroom?\n\nA. Mustard yellow\nB. Soft gold\nC. Matte black\nD. None of the above",
+      "response": "D"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What color is the headboard of the king-size bed in the master bedroom?\n\nA. Mustard yellow\nB. Soft gold\nC. Matte black",
+      "response": "None"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What color is the headboard of the king-size bed in the master bedroom?\n\nA. Jupiter\nB. Saturn\nC. Venus\nD. Mars\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What color is the headboard of the king-size bed in the master bedroom?\n\nA. Jupiter\nB. Saturn\nC. Venus\nD. Mars\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What color is the headboard of the king-size bed in the master bedroom?\n\nA. Jupiter\nB. Saturn\nC. Venus\nD. Mars",
+      "response": "None"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What is the diameter of the table in the room?\n\nA. Two feet\nB. Four feet\nC. Five feet\nD. Six feet\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What is the diameter of the table in the room?\n\nA. Two feet\nB. Four feet\nC. Five feet\nD. Six feet\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What is the diameter of the table in the room?\n\nA. Two feet\nB. Four feet\nC. Five feet\nD. Six feet",
+      "response": "None"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What kind of artwork is displayed on the floor?",
+      "response": "unanswerable"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What kind of artwork is displayed on the floor?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What color is the headboard of the king-size bed in the master bedroom?\n\nA. Charcoal gray\nB. Mustard yellow\nC. Soft gold\nD. Matte black",
+      "response": "D"
+    }
+  ]
+}

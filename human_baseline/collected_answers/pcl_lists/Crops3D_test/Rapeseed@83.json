@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "Rapeseed@83",
+  "dataset": "Crops3D_test",
+  "annotated_by": "User 5",
+  "timestamp": "2025-10-30T23:29:00.273752",
+  "file_path": "/project/3dllms/melgin/datasets/CEA/Crops3D/Rapeseed/83.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What does the dark blue cylindrical plastic vessel resemble when viewed from a specific angle?\n\nA. A cardboard box\nB. A wooden chair\nC. A metal toolbox\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What does the dark blue cylindrical plastic vessel resemble when viewed from a specific angle?\n\nA. A cardboard box\nB. A wooden chair\nC. A metal toolbox\nD. None of the above",
+      "response": "d"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What does the dark blue cylindrical plastic vessel resemble when viewed from a specific angle?\n\nA. A cardboard box\nB. A wooden chair\nC. A metal toolbox",
+      "response": "none"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What does the dark blue cylindrical plastic vessel resemble when viewed from a specific angle?\n\nA. Desert landscape\nB. Ocean wave\nC. Mountain range\nD. Forest canopy\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What does the dark blue cylindrical plastic vessel resemble when viewed from a specific angle?\n\nA. Desert landscape\nB. Ocean wave\nC. Mountain range\nD. Forest canopy\nE. None of the above",
+      "response": "e"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What does the dark blue cylindrical plastic vessel resemble when viewed from a specific angle?\n\nA. Desert landscape\nB. Ocean wave\nC. Mountain range\nD. Forest canopy",
+      "response": "none"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What type of animal can be found in the scene?\n\nA. Cat\nB. Dog\nC. Rabbit\nD. Parrot\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What type of animal can be found in the scene?\n\nA. Cat\nB. Dog\nC. Rabbit\nD. Parrot\nE. None of the above",
+      "response": "e"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What type of animal can be found in the scene?\n\nA. Cat\nB. Dog\nC. Rabbit\nD. Parrot",
+      "response": "none"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What material is the chandelier made of?",
+      "response": "none"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What material is the chandelier made of?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What does the dark blue cylindrical plastic vessel resemble when viewed from a specific angle?\n\nA. A drinking cup with a lid and straw\nB. A cardboard box\nC. A wooden chair\nD. A metal toolbox",
+      "response": "a"
+    }
+  ]
+}

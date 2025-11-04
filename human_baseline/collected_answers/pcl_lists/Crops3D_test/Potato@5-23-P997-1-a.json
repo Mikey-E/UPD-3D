@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "Potato@5-23-P997-1-a",
+  "dataset": "Crops3D_test",
+  "annotated_by": "User 5",
+  "timestamp": "2025-10-30T11:53:27.892867",
+  "file_path": "/project/3dllms/melgin/datasets/CEA/Crops3D/Potato/5-23-P997-1-a.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What type of leaves does the slender green plant bear?\n\nA. Round, broad leaves\nB. Needle-like leaves\nC. Heart-shaped leaves\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What type of leaves does the slender green plant bear?\n\nA. Round, broad leaves\nB. Needle-like leaves\nC. Heart-shaped leaves\nD. None of the above",
+      "response": "d"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What type of leaves does the slender green plant bear?\n\nA. Round, broad leaves\nB. Needle-like leaves\nC. Heart-shaped leaves",
+      "response": "none"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What type of leaves does the slender green plant bear?\n\nA. Algebraic expressions\nB. Geometric shapes\nC. Chemical reactions\nD. Historical events\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What type of leaves does the slender green plant bear?\n\nA. Algebraic expressions\nB. Geometric shapes\nC. Chemical reactions\nD. Historical events\nE. None of the above",
+      "response": "e"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What type of leaves does the slender green plant bear?\n\nA. Algebraic expressions\nB. Geometric shapes\nC. Chemical reactions\nD. Historical events",
+      "response": "none"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What type of furniture piece is featured in the scene?\n\nA. The Coffee Table\nB. The Bookshelf\nC. The Recliner\nD. The Dining Chair\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What type of furniture piece is featured in the scene?\n\nA. The Coffee Table\nB. The Bookshelf\nC. The Recliner\nD. The Dining Chair\nE. None of the above",
+      "response": "e"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What type of furniture piece is featured in the scene?\n\nA. The Coffee Table\nB. The Bookshelf\nC. The Recliner\nD. The Dining Chair",
+      "response": "none"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What type of fruit is laying on the floor?",
+      "response": "none"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What type of fruit is laying on the floor?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What type of leaves does the slender green plant bear?\n\nA. Elongated, oval to lanceolate leaves\nB. Round, broad leaves\nC. Needle-like leaves\nD. Heart-shaped leaves",
+      "response": "a"
+    }
+  ]
+}

@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "ea8d34f9-317b-418e-b859-48e61ce1429f@SecondBedroom-31677",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 3",
+  "timestamp": "2025-10-27T15:13:28.306638",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/ea8d34f9-317b-418e-b859-48e61ce1429f/SecondBedroom-31677/SecondBedroom-31677.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What color is the bedding set in the bedroom?\n\nA. Light blue\nB. Olive green\nC. Cream\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What color is the bedding set in the bedroom?\n\nA. Light blue\nB. Olive green\nC. Cream\nD. None of the above",
+      "response": "D"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What color is the bedding set in the bedroom?\n\nA. Light blue\nB. Olive green\nC. Cream",
+      "response": "NONE"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What color is the bedding set in the bedroom?\n\nA. Granite\nB. Pineapple\nC. Marshmallow\nD. Comet\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What color is the bedding set in the bedroom?\n\nA. Granite\nB. Pineapple\nC. Marshmallow\nD. Comet\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What color is the bedding set in the bedroom?\n\nA. Granite\nB. Pineapple\nC. Marshmallow\nD. Comet",
+      "response": "NONE"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What type of wall art is displayed in the scene?\n\nA. Abstract painting\nB. Landscape photograph\nC. Vintage poster\nD. Framed tapestry\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What type of wall art is displayed in the scene?\n\nA. Abstract painting\nB. Landscape photograph\nC. Vintage poster\nD. Framed tapestry\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What type of wall art is displayed in the scene?\n\nA. Abstract painting\nB. Landscape photograph\nC. Vintage poster\nD. Framed tapestry",
+      "response": "NA"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What type of antique rocking chair is in the room?",
+      "response": "NA"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What type of antique rocking chair is in the room?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What color is the bedding set in the bedroom?\n\nA. Light blue\nB. Olive green\nC. Cream\nD. Charcoal gray",
+      "response": "D"
+    }
+  ]
+}

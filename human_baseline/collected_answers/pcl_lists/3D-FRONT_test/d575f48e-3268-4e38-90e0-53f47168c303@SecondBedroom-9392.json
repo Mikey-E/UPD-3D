@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "d575f48e-3268-4e38-90e0-53f47168c303@SecondBedroom-9392",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 5",
+  "timestamp": "2025-10-16T11:41:57.043366",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/d575f48e-3268-4e38-90e0-53f47168c303/SecondBedroom-9392/SecondBedroom-9392.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What color is the nightstand next to the bed?\n\nA. Light blue\nB. White\nC. Gray\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What color is the nightstand next to the bed?\n\nA. Light blue\nB. White\nC. Gray\nD. None of the above",
+      "response": "d"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What color is the nightstand next to the bed?\n\nA. Light blue\nB. White\nC. Gray",
+      "response": "none of these"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What color is the nightstand next to the bed?\n\nA. Strawberry\nB. Cucumber\nC. Pineapple\nD. Blueberry\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What color is the nightstand next to the bed?\n\nA. Strawberry\nB. Cucumber\nC. Pineapple\nD. Blueberry\nE. None of the above",
+      "response": "e"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What color is the nightstand next to the bed?\n\nA. Strawberry\nB. Cucumber\nC. Pineapple\nD. Blueberry",
+      "response": "none of these"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What type of artwork is displayed in the room?\n\nA. Abstract painting\nB. Landscape photograph\nC. Portraiture\nD. Still life\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What type of artwork is displayed in the room?\n\nA. Abstract painting\nB. Landscape photograph\nC. Portraiture\nD. Still life\nE. None of the above",
+      "response": "e"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What type of artwork is displayed in the room?\n\nA. Abstract painting\nB. Landscape photograph\nC. Portraiture\nD. Still life",
+      "response": "none of these"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What type of exercise equipment is located in the room?",
+      "response": "unanswerable"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What type of exercise equipment is located in the room?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What color is the nightstand next to the bed?\n\nA. Charcoal\nB. Light blue\nC. White\nD. Gray",
+      "response": "none of these"
+    }
+  ]
+}

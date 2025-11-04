@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "e8f66ab3-518a-47fd-a828-34590e4156ad@SecondBedroom-23070",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 5",
+  "timestamp": "2025-10-27T08:42:14.507257",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/e8f66ab3-518a-47fd-a828-34590e4156ad/SecondBedroom-23070/SecondBedroom-23070.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What style is the dressing table in this bedroom?\n\nA. Victorian style\nB. Modern style\nC. Art Deco style\nIf none of the above answers are correct, answer: 'F'",
+      "response": "a"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What style is the dressing table in this bedroom?\n\nA. Victorian style\nB. Modern style\nC. Art Deco style\nD. None of the above",
+      "response": "a"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What style is the dressing table in this bedroom?\n\nA. Victorian style\nB. Modern style\nC. Art Deco style",
+      "response": "a"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What style is the dressing table in this bedroom?\n\nA. Cuisine\nB. Reptiles\nC. Astronomy\nD. Architecture\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What style is the dressing table in this bedroom?\n\nA. Cuisine\nB. Reptiles\nC. Astronomy\nD. Architecture\nE. None of the above",
+      "response": "e"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What style is the dressing table in this bedroom?\n\nA. Cuisine\nB. Reptiles\nC. Astronomy\nD. Architecture",
+      "response": "none"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What color is the sofa in the scene?\n\nA. Red\nB. Black\nC. Green\nD. Yellow\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What color is the sofa in the scene?\n\nA. Red\nB. Black\nC. Green\nD. Yellow\nE. None of the above",
+      "response": "e"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What color is the sofa in the scene?\n\nA. Red\nB. Black\nC. Green\nD. Yellow",
+      "response": "none"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What type of coffee maker is located in the room?",
+      "response": "none"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What type of coffee maker is located in the room?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What style is the dressing table in this bedroom?\n\nA. Victorian style\nB. Modern style\nC. Ming Qing style\nD. Art Deco style",
+      "response": "a"
+    }
+  ]
+}

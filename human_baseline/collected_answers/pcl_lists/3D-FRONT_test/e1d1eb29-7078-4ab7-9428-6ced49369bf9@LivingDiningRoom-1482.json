@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "e1d1eb29-7078-4ab7-9428-6ced49369bf9@LivingDiningRoom-1482",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 5",
+  "timestamp": "2025-10-25T12:08:33.834127",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/e1d1eb29-7078-4ab7-9428-6ced49369bf9/LivingDiningRoom-1482/LivingDiningRoom-1482.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What type of lighting is featured above the dining area in the living room?\n\nA. Glossy black piano\nB. Silver floor lamp\nC. Blue pendant lamp\nIf none of the above answers are correct, answer: 'F'",
+      "response": "c"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What type of lighting is featured above the dining area in the living room?\n\nA. Glossy black piano\nB. Silver floor lamp\nC. Blue pendant lamp\nD. None of the above",
+      "response": "c"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What type of lighting is featured above the dining area in the living room?\n\nA. Glossy black piano\nB. Silver floor lamp\nC. Blue pendant lamp",
+      "response": "c"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What type of lighting is featured above the dining area in the living room?\n\nA. Mercury\nB. Neutron\nC. Calcium\nD. Oxygen\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What type of lighting is featured above the dining area in the living room?\n\nA. Mercury\nB. Neutron\nC. Calcium\nD. Oxygen\nE. None of the above",
+      "response": "e"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What type of lighting is featured above the dining area in the living room?\n\nA. Mercury\nB. Neutron\nC. Calcium\nD. Oxygen",
+      "response": "none"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What type of sculpture enhances the atmosphere in the room?\n\nA. Abstract sculpture\nB. Classical bust\nC. Modern art statue\nD. Kinetic sculpture\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What type of sculpture enhances the atmosphere in the room?\n\nA. Abstract sculpture\nB. Classical bust\nC. Modern art statue\nD. Kinetic sculpture\nE. None of the above",
+      "response": "e"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What type of sculpture enhances the atmosphere in the room?\n\nA. Abstract sculpture\nB. Classical bust\nC. Modern art statue\nD. Kinetic sculpture",
+      "response": "none"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What type of refrigerator is in the living room?",
+      "response": "none"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What type of refrigerator is in the living room?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What type of lighting is featured above the dining area in the living room?\n\nA. Glossy black piano\nB. Silver floor lamp\nC. Blue pendant lamp\nD. Warm golden pendant lamps",
+      "response": "c"
+    }
+  ]
+}

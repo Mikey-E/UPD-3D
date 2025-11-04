@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "Tomato@9-3_10-3",
+  "dataset": "Crops3D_test",
+  "annotated_by": "User 5",
+  "timestamp": "2025-10-31T07:38:02.305525",
+  "file_path": "/project/3dllms/melgin/datasets/CEA/Crops3D/Tomato/9-3_10-3.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What type of plant is described in the text?\n\nA. A vine with a creeping growth pattern\nB. A densely foliated shrub with a single stem\nC. A small flowering plant with delicate leaves\nIf none of the above answers are correct, answer: 'F'",
+      "response": "c"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What type of plant is described in the text?\n\nA. A vine with a creeping growth pattern\nB. A densely foliated shrub with a single stem\nC. A small flowering plant with delicate leaves\nD. None of the above",
+      "response": "c"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What type of plant is described in the text?\n\nA. A vine with a creeping growth pattern\nB. A densely foliated shrub with a single stem\nC. A small flowering plant with delicate leaves",
+      "response": "c"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What type of plant is described in the text?\n\nA. Quantum physics\nB. Classical music\nC. High fashion\nD. Astrophotography\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What type of plant is described in the text?\n\nA. Quantum physics\nB. Classical music\nC. High fashion\nD. Astrophotography\nE. None of the above",
+      "response": "e"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What type of plant is described in the text?\n\nA. Quantum physics\nB. Classical music\nC. High fashion\nD. Astrophotography",
+      "response": "none"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What shade of paint is used on the walls?\n\nA. Bright Yellow\nB. Sky Blue\nC. Soft Lavender\nD. Classic Gray\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What shade of paint is used on the walls?\n\nA. Bright Yellow\nB. Sky Blue\nC. Soft Lavender\nD. Classic Gray\nE. None of the above",
+      "response": "e"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What shade of paint is used on the walls?\n\nA. Bright Yellow\nB. Sky Blue\nC. Soft Lavender\nD. Classic Gray",
+      "response": "none"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What type of flower is blooming in the scene?",
+      "response": "none"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What type of flower is blooming in the scene?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What type of plant is described in the text?\n\nA. A tree with a broad canopy and twisting branches\nB. A vine with a creeping growth pattern\nC. A densely foliated shrub with a single stem\nD. A small flowering plant with delicate leaves",
+      "response": "c"
+    }
+  ]
+}

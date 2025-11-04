@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "e1a47007-0e07-4b9c-b7c1-f288eff46f37@Bedroom-1164",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 5",
+  "timestamp": "2025-10-24T22:54:56.234218",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/e1a47007-0e07-4b9c-b7c1-f288eff46f37/Bedroom-1164/Bedroom-1164.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What is the primary color of the wardrobe in the bedroom?\n\nA. Dark gray\nB. Green\nC. Glossy silver\nIf none of the above answers are correct, answer: 'F'",
+      "response": "c"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What is the primary color of the wardrobe in the bedroom?\n\nA. Dark gray\nB. Green\nC. Glossy silver\nD. None of the above",
+      "response": "c"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What is the primary color of the wardrobe in the bedroom?\n\nA. Dark gray\nB. Green\nC. Glossy silver",
+      "response": "c"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What is the primary color of the wardrobe in the bedroom?\n\nA. Dolphin\nB. Maple\nC. Tofu\nD. Parachute\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What is the primary color of the wardrobe in the bedroom?\n\nA. Dolphin\nB. Maple\nC. Tofu\nD. Parachute\nE. None of the above",
+      "response": "e"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What is the primary color of the wardrobe in the bedroom?\n\nA. Dolphin\nB. Maple\nC. Tofu\nD. Parachute",
+      "response": "none"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What is the shape of the coffee table in the living room?\n\nA. Round\nB. Square\nC. Rectangular\nD. Oval\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What is the shape of the coffee table in the living room?\n\nA. Round\nB. Square\nC. Rectangular\nD. Oval\nE. None of the above",
+      "response": "e"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What is the shape of the coffee table in the living room?\n\nA. Round\nB. Square\nC. Rectangular\nD. Oval",
+      "response": "none"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What type of rug is placed under the bed?",
+      "response": "none"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What type of rug is placed under the bed?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What is the primary color of the wardrobe in the bedroom?\n\nA. Dark gray\nB. Green\nC. Glossy silver\nD. Neutral beige",
+      "response": "c"
+    }
+  ]
+}

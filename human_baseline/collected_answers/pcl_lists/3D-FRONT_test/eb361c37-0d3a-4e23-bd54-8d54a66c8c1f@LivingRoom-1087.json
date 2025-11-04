@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "eb361c37-0d3a-4e23-bd54-8d54a66c8c1f@LivingRoom-1087",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 4",
+  "timestamp": "2025-10-27T15:22:13.199693",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/eb361c37-0d3a-4e23-bd54-8d54a66c8c1f/LivingRoom-1087/LivingRoom-1087.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What color scheme does the coffee table primarily feature?\n\nA. Warm brown\nB. Charcoal grey\nC. Neutral taupe\nIf none of the above answers are correct, answer: 'F'",
+      "response": "B"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What color scheme does the coffee table primarily feature?\n\nA. Warm brown\nB. Charcoal grey\nC. Neutral taupe\nD. None of the above",
+      "response": "B"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What color scheme does the coffee table primarily feature?\n\nA. Warm brown\nB. Charcoal grey\nC. Neutral taupe",
+      "response": "B"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What color scheme does the coffee table primarily feature?\n\nA. Mercury\nB. Titanium\nC. Copper\nD. Aluminum\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What color scheme does the coffee table primarily feature?\n\nA. Mercury\nB. Titanium\nC. Copper\nD. Aluminum\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What color scheme does the coffee table primarily feature?\n\nA. Mercury\nB. Titanium\nC. Copper\nD. Aluminum",
+      "response": "None"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What is the height of the chandelier hanging in the center of the living room?\n\nA. 5 feet\nB. 10 feet\nC. 8 feet\nD. 12 feet\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What is the height of the chandelier hanging in the center of the living room?\n\nA. 5 feet\nB. 10 feet\nC. 8 feet\nD. 12 feet\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What is the height of the chandelier hanging in the center of the living room?\n\nA. 5 feet\nB. 10 feet\nC. 8 feet\nD. 12 feet",
+      "response": "None"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What type of artwork is hung above the coffee table?",
+      "response": "unanswerable"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What type of artwork is hung above the coffee table?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What color scheme does the coffee table primarily feature?\n\nA. Warm brown\nB. Black and gold\nC. Charcoal grey\nD. Neutral taupe",
+      "response": "C"
+    }
+  ]
+}

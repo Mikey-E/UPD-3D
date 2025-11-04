@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "ebead38b-ebb9-4569-a92f-f71668596b7c@Library-9209",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 4",
+  "timestamp": "2025-10-27T15:53:32.366594",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/ebead38b-ebb9-4569-a92f-f71668596b7c/Library-9209/Library-9209.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What color is the cushion on the dining chair next to the desk in the library?\n\nA. Light Blue\nB. Red\nC. Beige\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What color is the cushion on the dining chair next to the desk in the library?\n\nA. Light Blue\nB. Red\nC. Beige\nD. None of the above",
+      "response": "D"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What color is the cushion on the dining chair next to the desk in the library?\n\nA. Light Blue\nB. Red\nC. Beige",
+      "response": "None"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What color is the cushion on the dining chair next to the desk in the library?\n\nA. Velocity of light\nB. Sound frequency\nC. Atomic mass\nD. Quantum physics\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What color is the cushion on the dining chair next to the desk in the library?\n\nA. Velocity of light\nB. Sound frequency\nC. Atomic mass\nD. Quantum physics\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What color is the cushion on the dining chair next to the desk in the library?\n\nA. Velocity of light\nB. Sound frequency\nC. Atomic mass\nD. Quantum physics",
+      "response": "None"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What type of rug is placed under the desk?\n\nA. Persian rug\nB. Shag rug\nC. Jute rug\nD. Berber rug\nIf none of the above answers are correct, answer: 'F'",
+      "response": "B"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What type of rug is placed under the desk?\n\nA. Persian rug\nB. Shag rug\nC. Jute rug\nD. Berber rug\nE. None of the above",
+      "response": "B"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What type of rug is placed under the desk?\n\nA. Persian rug\nB. Shag rug\nC. Jute rug\nD. Berber rug",
+      "response": "B"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What type of rug is placed on the floor?",
+      "response": "Shag"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What type of rug is placed on the floor?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "Shag"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What color is the cushion on the dining chair next to the desk in the library?\n\nA. Dark Green\nB. Light Blue\nC. Red\nD. Beige",
+      "response": "None"
+    }
+  ]
+}

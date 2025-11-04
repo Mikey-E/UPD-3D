@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "ef538119-2339-4538-94d3-06711fe4ae99@LivingDiningRoom-814",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 4",
+  "timestamp": "2025-10-28T20:49:42.921190",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/ef538119-2339-4538-94d3-06711fe4ae99/LivingDiningRoom-814/LivingDiningRoom-814.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What design style do the dining chairs in the living room primarily feature?\n\nA. Rustic\nB. Classic\nC. Industrial\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What design style do the dining chairs in the living room primarily feature?\n\nA. Rustic\nB. Classic\nC. Industrial\nD. None of the above",
+      "response": "D"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What design style do the dining chairs in the living room primarily feature?\n\nA. Rustic\nB. Classic\nC. Industrial",
+      "response": "None"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What design style do the dining chairs in the living room primarily feature?\n\nA. Sapphire\nB. Quartz\nC. Granite\nD. Marble\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What design style do the dining chairs in the living room primarily feature?\n\nA. Sapphire\nB. Quartz\nC. Granite\nD. Marble\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What design style do the dining chairs in the living room primarily feature?\n\nA. Sapphire\nB. Quartz\nC. Granite\nD. Marble",
+      "response": "None"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What type of decoration could enhance the view in this scene?\n\nA. A Large Painting\nB. A Set of Wall Shelves\nC. A Decorative Mirror\nD. A Potted Plant\nIf none of the above answers are correct, answer: 'F'",
+      "response": "B"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What type of decoration could enhance the view in this scene?\n\nA. A Large Painting\nB. A Set of Wall Shelves\nC. A Decorative Mirror\nD. A Potted Plant\nE. None of the above",
+      "response": "B"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What type of decoration could enhance the view in this scene?\n\nA. A Large Painting\nB. A Set of Wall Shelves\nC. A Decorative Mirror\nD. A Potted Plant",
+      "response": "B"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What type of large entertainment system is installed in the room?",
+      "response": "unanswerable"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What type of large entertainment system is installed in the room?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What design style do the dining chairs in the living room primarily feature?\n\nA. Modern\nB. Rustic\nC. Classic\nD. Industrial",
+      "response": "A"
+    }
+  ]
+}

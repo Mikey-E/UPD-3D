@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "fb996907-278a-462e-ae4a-cc5c127c866c@LivingDiningRoom-50487",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 3",
+  "timestamp": "2025-10-30T16:16:39.609080",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/fb996907-278a-462e-ae4a-cc5c127c866c/LivingDiningRoom-50487/LivingDiningRoom-50487.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What is the color of the three-seat sofa in the living room?\n\nA. Beige\nB. Blue\nC. Green\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What is the color of the three-seat sofa in the living room?\n\nA. Beige\nB. Blue\nC. Green\nD. None of the above",
+      "response": "D"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What is the color of the three-seat sofa in the living room?\n\nA. Beige\nB. Blue\nC. Green",
+      "response": "NONE"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What is the color of the three-seat sofa in the living room?\n\nA. Tropical\nB. Alpine\nC. Desert\nD. Oceanic\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What is the color of the three-seat sofa in the living room?\n\nA. Tropical\nB. Alpine\nC. Desert\nD. Oceanic\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What is the color of the three-seat sofa in the living room?\n\nA. Tropical\nB. Alpine\nC. Desert\nD. Oceanic",
+      "response": "NONE"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What shape is the garden in the scene?\n\nA. Circular\nB. Rectangular\nC. Oval\nD. Triangular\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What shape is the garden in the scene?\n\nA. Circular\nB. Rectangular\nC. Oval\nD. Triangular\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What shape is the garden in the scene?\n\nA. Circular\nB. Rectangular\nC. Oval\nD. Triangular",
+      "response": "NA"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What type of baby grand piano is used for entertainment in the room?",
+      "response": "NA"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What type of baby grand piano is used for entertainment in the room?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What is the color of the three-seat sofa in the living room?\n\nA. Beige\nB. Charcoal\nC. Blue\nD. Green",
+      "response": "B"
+    }
+  ]
+}

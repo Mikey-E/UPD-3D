@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "Maize@2-64",
+  "dataset": "Crops3D_test",
+  "annotated_by": "User 5",
+  "timestamp": "2025-10-30T11:30:38.229683",
+  "file_path": "/project/3dllms/melgin/datasets/CEA/Crops3D/Maize/2-64.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What is the shape of the pot that houses the plant?\n\nA. Square-shaped ceramic pot\nB. Tall, rectangular pot\nC. Deep, oval pot\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What is the shape of the pot that houses the plant?\n\nA. Square-shaped ceramic pot\nB. Tall, rectangular pot\nC. Deep, oval pot\nD. None of the above",
+      "response": "d"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What is the shape of the pot that houses the plant?\n\nA. Square-shaped ceramic pot\nB. Tall, rectangular pot\nC. Deep, oval pot",
+      "response": "none"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What is the shape of the pot that houses the plant?\n\nA. Circuit\nB. Semiconductor\nC. Transistor\nD. Frequency\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What is the shape of the pot that houses the plant?\n\nA. Circuit\nB. Semiconductor\nC. Transistor\nD. Frequency\nE. None of the above",
+      "response": "e"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What is the shape of the pot that houses the plant?\n\nA. Circuit\nB. Semiconductor\nC. Transistor\nD. Frequency",
+      "response": "none"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What is the shape of the window in the scene?\n\nA. Rectangular\nB. Triangular\nC. Oval\nD. Hexagonal\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What is the shape of the window in the scene?\n\nA. Rectangular\nB. Triangular\nC. Oval\nD. Hexagonal\nE. None of the above",
+      "response": "e"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What is the shape of the window in the scene?\n\nA. Rectangular\nB. Triangular\nC. Oval\nD. Hexagonal",
+      "response": "none"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What is the flavor of the cake on the table?",
+      "response": "none"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What is the flavor of the cake on the table?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What is the shape of the pot that houses the plant?\n\nA. Square-shaped ceramic pot\nB. Light-colored round ceramic pot\nC. Tall, rectangular pot\nD. Deep, oval pot",
+      "response": "none"
+    }
+  ]
+}

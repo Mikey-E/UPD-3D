@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "e16c4c32-c989-4e79-bb03-627edc763e44@SecondBedroom-38398",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 5",
+  "timestamp": "2025-10-24T22:36:46.821232",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/e16c4c32-c989-4e79-bb03-627edc763e44/SecondBedroom-38398/SecondBedroom-38398.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What design style is represented by the nightstands in the described bedroom?\n\nA. Rustic style\nB. Contemporary style\nC. Industrial style\nIf none of the above answers are correct, answer: 'F'",
+      "response": "b"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What design style is represented by the nightstands in the described bedroom?\n\nA. Rustic style\nB. Contemporary style\nC. Industrial style\nD. None of the above",
+      "response": "b"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What design style is represented by the nightstands in the described bedroom?\n\nA. Rustic style\nB. Contemporary style\nC. Industrial style",
+      "response": "b"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What design style is represented by the nightstands in the described bedroom?\n\nA. River\nB. Mountain\nC. Ocean\nD. Desert\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What design style is represented by the nightstands in the described bedroom?\n\nA. River\nB. Mountain\nC. Ocean\nD. Desert\nE. None of the above",
+      "response": "e"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What design style is represented by the nightstands in the described bedroom?\n\nA. River\nB. Mountain\nC. Ocean\nD. Desert",
+      "response": "none"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What type of window treatment is used in the scene?\n\nA. Roman shades\nB. Vertical blinds\nC. Drapes\nD. Shutters\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What type of window treatment is used in the scene?\n\nA. Roman shades\nB. Vertical blinds\nC. Drapes\nD. Shutters\nE. None of the above",
+      "response": "e"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What type of window treatment is used in the scene?\n\nA. Roman shades\nB. Vertical blinds\nC. Drapes\nD. Shutters",
+      "response": "none"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What type of outdoor furniture is used in the garden?",
+      "response": "none"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What type of outdoor furniture is used in the garden?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What design style is represented by the nightstands in the described bedroom?\n\nA. Rustic style\nB. Japanese style\nC. Contemporary style\nD. Industrial style",
+      "response": "c"
+    }
+  ]
+}

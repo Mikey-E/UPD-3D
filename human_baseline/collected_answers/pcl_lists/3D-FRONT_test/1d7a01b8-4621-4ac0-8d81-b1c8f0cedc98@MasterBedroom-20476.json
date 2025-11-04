@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "1d7a01b8-4621-4ac0-8d81-b1c8f0cedc98@MasterBedroom-20476",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 5",
+  "timestamp": "2025-10-29T16:21:05.368761",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/1d7a01b8-4621-4ac0-8d81-b1c8f0cedc98/MasterBedroom-20476/MasterBedroom-20476.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What style is the wardrobe described in the room?\n\nA. European\nB. Neoclassical\nC. Light Luxury\nIf none of the above answers are correct, answer: 'F'",
+      "response": "b"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What style is the wardrobe described in the room?\n\nA. European\nB. Neoclassical\nC. Light Luxury\nD. None of the above",
+      "response": "b"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What style is the wardrobe described in the room?\n\nA. European\nB. Neoclassical\nC. Light Luxury",
+      "response": "b"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What style is the wardrobe described in the room?\n\nA. Oceanic\nB. Celestial\nC. Mountainous\nD. Urban\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What style is the wardrobe described in the room?\n\nA. Oceanic\nB. Celestial\nC. Mountainous\nD. Urban\nE. None of the above",
+      "response": "e"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What style is the wardrobe described in the room?\n\nA. Oceanic\nB. Celestial\nC. Mountainous\nD. Urban",
+      "response": "none"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What is the style of the rug in the room?\n\nA. Persian\nB. Shaggy\nC. Moroccan\nD. Modern\nIf none of the above answers are correct, answer: 'F'",
+      "response": "d"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What is the style of the rug in the room?\n\nA. Persian\nB. Shaggy\nC. Moroccan\nD. Modern\nE. None of the above",
+      "response": "d"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What is the style of the rug in the room?\n\nA. Persian\nB. Shaggy\nC. Moroccan\nD. Modern",
+      "response": "d"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What type of rug is on the floor?",
+      "response": "carpet"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What type of rug is on the floor?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "carpet"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What style is the wardrobe described in the room?\n\nA. Korean\nB. European\nC. Neoclassical\nD. Light Luxury",
+      "response": "c"
+    }
+  ]
+}

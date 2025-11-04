@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "fe04e03f-3d6b-4ad3-97fd-2bedc5fa1b09@LivingDiningRoom-5328",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 3",
+  "timestamp": "2025-10-31T02:19:57.131308",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/fe04e03f-3d6b-4ad3-97fd-2bedc5fa1b09/LivingDiningRoom-5328/LivingDiningRoom-5328.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What color is the footstool in the livingdining room?\n\nA. Blue\nB. Green\nC. Brown\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What color is the footstool in the livingdining room?\n\nA. Blue\nB. Green\nC. Brown\nD. None of the above",
+      "response": "D"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What color is the footstool in the livingdining room?\n\nA. Blue\nB. Green\nC. Brown",
+      "response": "NONE"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What color is the footstool in the livingdining room?\n\nA. Jupiter\nB. Saturn\nC. Mars\nD. Neptune\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What color is the footstool in the livingdining room?\n\nA. Jupiter\nB. Saturn\nC. Mars\nD. Neptune\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What color is the footstool in the livingdining room?\n\nA. Jupiter\nB. Saturn\nC. Mars\nD. Neptune",
+      "response": "NONE"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What type of painting is hanging above the sofa?\n\nA. Landscape\nB. Abstract\nC. Portrait\nD. Still life\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What type of painting is hanging above the sofa?\n\nA. Landscape\nB. Abstract\nC. Portrait\nD. Still life\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What type of painting is hanging above the sofa?\n\nA. Landscape\nB. Abstract\nC. Portrait\nD. Still life",
+      "response": "NA"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What type of vintage chandelier is hanging from the ceiling?",
+      "response": "NA"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What type of vintage chandelier is hanging from the ceiling?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What color is the footstool in the livingdining room?\n\nA. Maroon\nB. Blue\nC. Green\nD. Brown",
+      "response": "A"
+    }
+  ]
+}

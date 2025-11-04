@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "c8c4c66c-3c76-4769-a6ad-7865288c72c3@DiningRoom-2974",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 4",
+  "timestamp": "2025-10-13T13:44:07.834148",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/c8c4c66c-3c76-4769-a6ad-7865288c72c3/DiningRoom-2974/DiningRoom-2974.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What color is the kitchen cabinetry in the DiningRoom?\n\nA. Pure white\nB. Bright blue\nC. Deep red\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What color is the kitchen cabinetry in the DiningRoom?\n\nA. Pure white\nB. Bright blue\nC. Deep red\nD. None of the above",
+      "response": "D"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What color is the kitchen cabinetry in the DiningRoom?\n\nA. Pure white\nB. Bright blue\nC. Deep red",
+      "response": "none"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What color is the kitchen cabinetry in the DiningRoom?\n\nA. Jupiter\nB. Saturn\nC. Neptune\nD. Mars\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What color is the kitchen cabinetry in the DiningRoom?\n\nA. Jupiter\nB. Saturn\nC. Neptune\nD. Mars\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What color is the kitchen cabinetry in the DiningRoom?\n\nA. Jupiter\nB. Saturn\nC. Neptune\nD. Mars",
+      "response": "none"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What shape is the garden in the scene?\n\nA. Circular\nB. Square\nC. Triangular\nD. Rectangular\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What shape is the garden in the scene?\n\nA. Circular\nB. Square\nC. Triangular\nD. Rectangular\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What shape is the garden in the scene?\n\nA. Circular\nB. Square\nC. Triangular\nD. Rectangular",
+      "response": "none"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What type of floor tiles are used in the room?",
+      "response": "none"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What type of floor tiles are used in the room?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What color is the kitchen cabinetry in the DiningRoom?\n\nA. Pure white\nB. Bright blue\nC. Deep red\nD. Muted sage green",
+      "response": "D"
+    }
+  ]
+}

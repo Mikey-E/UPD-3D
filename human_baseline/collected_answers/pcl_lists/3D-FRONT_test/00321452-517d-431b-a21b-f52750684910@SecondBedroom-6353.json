@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "00321452-517d-431b-a21b-f52750684910@SecondBedroom-6353",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 5",
+  "timestamp": "2025-10-31T10:50:03.893765",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/00321452-517d-431b-a21b-f52750684910/SecondBedroom-6353/SecondBedroom-6353.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What is the primary function of the bookcase in the modern bedroom described?\n\nA. To provide a comfortable sleeping area\nB. To serve as a decorative piece only\nC. To be the main source of lighting\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What is the primary function of the bookcase in the modern bedroom described?\n\nA. To provide a comfortable sleeping area\nB. To serve as a decorative piece only\nC. To be the main source of lighting\nD. None of the above",
+      "response": "d"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What is the primary function of the bookcase in the modern bedroom described?\n\nA. To provide a comfortable sleeping area\nB. To serve as a decorative piece only\nC. To be the main source of lighting",
+      "response": "none"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What is the primary function of the bookcase in the modern bedroom described?\n\nA. Avocado trees are commonly found in tropical regions\nB. The ocean is home to diverse marine life\nC. Stars are primarily made of hydrogen and helium\nD. Penguins are flightless birds that live in the Southern Hemisphere\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What is the primary function of the bookcase in the modern bedroom described?\n\nA. Avocado trees are commonly found in tropical regions\nB. The ocean is home to diverse marine life\nC. Stars are primarily made of hydrogen and helium\nD. Penguins are flightless birds that live in the Southern Hemisphere\nE. None of the above",
+      "response": "e"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What is the primary function of the bookcase in the modern bedroom described?\n\nA. Avocado trees are commonly found in tropical regions\nB. The ocean is home to diverse marine life\nC. Stars are primarily made of hydrogen and helium\nD. Penguins are flightless birds that live in the Southern Hemisphere",
+      "response": "none"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What type of chair is featured in the room?\n\nA. Armchair\nB. Bean bag\nC. Recliner\nD. Dining chair\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What type of chair is featured in the room?\n\nA. Armchair\nB. Bean bag\nC. Recliner\nD. Dining chair\nE. None of the above",
+      "response": "e"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What type of chair is featured in the room?\n\nA. Armchair\nB. Bean bag\nC. Recliner\nD. Dining chair",
+      "response": "none"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What type of coffee maker is located in the kitchen?",
+      "response": "none"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What type of coffee maker is located in the kitchen?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What is the primary function of the bookcase in the modern bedroom described?\n\nA. To offer storage and style\nB. To provide a comfortable sleeping area\nC. To serve as a decorative piece only\nD. To be the main source of lighting",
+      "response": "a"
+    }
+  ]
+}

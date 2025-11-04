@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "011da194-aa84-4a98-bf9a-afd18357819a@LivingDiningRoom-840",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 4",
+  "timestamp": "2025-10-10T15:29:18.658286",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/011da194-aa84-4a98-bf9a-afd18357819a/LivingDiningRoom-840/LivingDiningRoom-840.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What type of construction does the bar have in the livingdining room?\n\nA. Marble construction\nB. Wooden construction\nC. Glass construction\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What type of construction does the bar have in the livingdining room?\n\nA. Marble construction\nB. Wooden construction\nC. Glass construction\nD. None of the above",
+      "response": "D"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What type of construction does the bar have in the livingdining room?\n\nA. Marble construction\nB. Wooden construction\nC. Glass construction",
+      "response": "none"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What type of construction does the bar have in the livingdining room?\n\nA. Quantum mechanics\nB. Photosynthesis process\nC. Impressionism art movement\nD. Great Wall of China design\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What type of construction does the bar have in the livingdining room?\n\nA. Quantum mechanics\nB. Photosynthesis process\nC. Impressionism art movement\nD. Great Wall of China design\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What type of construction does the bar have in the livingdining room?\n\nA. Quantum mechanics\nB. Photosynthesis process\nC. Impressionism art movement\nD. Great Wall of China design",
+      "response": "none"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What shape is the rug in the livingdining room?\n\nA. Rectangle\nB. Circle\nC. Square\nD. Oval\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What shape is the rug in the livingdining room?\n\nA. Rectangle\nB. Circle\nC. Square\nD. Oval\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What shape is the rug in the livingdining room?\n\nA. Rectangle\nB. Circle\nC. Square\nD. Oval",
+      "response": "none"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What type of sporting equipment is hidden behind the bar?",
+      "response": "none"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What type of sporting equipment is hidden behind the bar?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What type of construction does the bar have in the livingdining room?\n\nA. Stone construction\nB. Marble construction\nC. Wooden construction\nD. Glass construction",
+      "response": "A"
+    }
+  ]
+}

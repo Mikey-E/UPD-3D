@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "fcd79353-e14c-489f-a202-55565827f205@MasterBedroom-208117",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 3",
+  "timestamp": "2025-10-30T21:44:30.874647",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/fcd79353-e14c-489f-a202-55565827f205/MasterBedroom-208117/MasterBedroom-208117.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What shape is the shade of the floor lamp in the described room?\n\nA. Square-shaped\nB. Cylinder-shaped\nC. Flat-shaped\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What shape is the shade of the floor lamp in the described room?\n\nA. Square-shaped\nB. Cylinder-shaped\nC. Flat-shaped\nD. None of the above",
+      "response": "D"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What shape is the shade of the floor lamp in the described room?\n\nA. Square-shaped\nB. Cylinder-shaped\nC. Flat-shaped",
+      "response": "NONE"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What shape is the shade of the floor lamp in the described room?\n\nA. Triangle\nB. Rectangle\nC. Hexagon\nD. Octagon\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What shape is the shade of the floor lamp in the described room?\n\nA. Triangle\nB. Rectangle\nC. Hexagon\nD. Octagon\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What shape is the shade of the floor lamp in the described room?\n\nA. Triangle\nB. Rectangle\nC. Hexagon\nD. Octagon",
+      "response": "NONE"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What type of artwork is displayed in the room?\n\nA. Landscape painting\nB. Abstract sculpture\nC. Portrait photograph\nD. Metal wall art\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What type of artwork is displayed in the room?\n\nA. Landscape painting\nB. Abstract sculpture\nC. Portrait photograph\nD. Metal wall art\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What type of artwork is displayed in the room?\n\nA. Landscape painting\nB. Abstract sculpture\nC. Portrait photograph\nD. Metal wall art",
+      "response": "NA"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What type of garden gnome is displayed in the corner of the room?",
+      "response": "NA"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What type of garden gnome is displayed in the corner of the room?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What shape is the shade of the floor lamp in the described room?\n\nA. Square-shaped\nB. Cone-shaped\nC. Cylinder-shaped\nD. Flat-shaped",
+      "response": "B"
+    }
+  ]
+}

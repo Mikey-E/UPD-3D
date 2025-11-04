@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "c3a81890-b4f1-4944-96a1-318dff7f3980@ElderlyRoom-36619",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 3",
+  "timestamp": "2025-10-24T15:34:21.989513",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/c3a81890-b4f1-4944-96a1-318dff7f3980/ElderlyRoom-36619/ElderlyRoom-36619.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What is the color of the wardrobe in the room?\n\nA. Blue\nB. Brown\nC. White\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What is the color of the wardrobe in the room?\n\nA. Blue\nB. Brown\nC. White\nD. None of the above",
+      "response": "D"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What is the color of the wardrobe in the room?\n\nA. Blue\nB. Brown\nC. White",
+      "response": "None"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What is the color of the wardrobe in the room?\n\nA. Urban planning\nB. Sculpting techniques\nC. Electric vehicle features\nD. Solar system dynamics\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What is the color of the wardrobe in the room?\n\nA. Urban planning\nB. Sculpting techniques\nC. Electric vehicle features\nD. Solar system dynamics\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What is the color of the wardrobe in the room?\n\nA. Urban planning\nB. Sculpting techniques\nC. Electric vehicle features\nD. Solar system dynamics",
+      "response": "None"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What animal can be found in the room?\n\nA. Cat\nB. Dog\nC. Rabbit\nD. Bird\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What animal can be found in the room?\n\nA. Cat\nB. Dog\nC. Rabbit\nD. Bird\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What animal can be found in the room?\n\nA. Cat\nB. Dog\nC. Rabbit\nD. Bird",
+      "response": "None"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What type of round table is used for dining in the scene?",
+      "response": "N/A"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What type of round table is used for dining in the scene?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What is the color of the wardrobe in the room?\n\nA. Gray\nB. Blue\nC. Brown\nD. White",
+      "response": "A"
+    }
+  ]
+}

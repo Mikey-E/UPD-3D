@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "eb8290ae-8836-466e-9e95-faa1ae3958c9@MasterBedroom-15985",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 3",
+  "timestamp": "2025-10-27T15:30:19.434505",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/eb8290ae-8836-466e-9e95-faa1ae3958c9/MasterBedroom-15985/MasterBedroom-15985.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What color are the nightstands flanking the king-size bed?\n\nA. Blue\nB. Dark brown\nC. White\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What color are the nightstands flanking the king-size bed?\n\nA. Blue\nB. Dark brown\nC. White\nD. None of the above",
+      "response": "D"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What color are the nightstands flanking the king-size bed?\n\nA. Blue\nB. Dark brown\nC. White",
+      "response": "NONE"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What color are the nightstands flanking the king-size bed?\n\nA. Mercury\nB. Saturn\nC. Andromeda\nD. Quasar\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What color are the nightstands flanking the king-size bed?\n\nA. Mercury\nB. Saturn\nC. Andromeda\nD. Quasar\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What color are the nightstands flanking the king-size bed?\n\nA. Mercury\nB. Saturn\nC. Andromeda\nD. Quasar",
+      "response": "NONE"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What color are the curtains in the scene?\n\nA. Red\nB. Green\nC. Yellow\nD. Blue\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What color are the curtains in the scene?\n\nA. Red\nB. Green\nC. Yellow\nD. Blue\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What color are the curtains in the scene?\n\nA. Red\nB. Green\nC. Yellow\nD. Blue",
+      "response": "NA"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What type of sofa is placed in front of the king-size bed?",
+      "response": "NA"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What type of sofa is placed in front of the king-size bed?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What color are the nightstands flanking the king-size bed?\n\nA. Blue\nB. Dark brown\nC. White\nD. Mustard yellow",
+      "response": "D"
+    }
+  ]
+}

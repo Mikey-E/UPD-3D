@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "e99e9c29-fb4f-4f85-83ed-2cb3bce8205d@Library-9101",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 4",
+  "timestamp": "2025-10-27T13:01:24.553841",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/e99e9c29-fb4f-4f85-83ed-2cb3bce8205d/Library-9101/Library-9101.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What type of surface does the table in the library have?\n\nA. Light, wooden surface\nB. Smooth, glass surface\nC. Textured, fabric surface\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What type of surface does the table in the library have?\n\nA. Light, wooden surface\nB. Smooth, glass surface\nC. Textured, fabric surface\nD. None of the above",
+      "response": "D"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What type of surface does the table in the library have?\n\nA. Light, wooden surface\nB. Smooth, glass surface\nC. Textured, fabric surface",
+      "response": "None"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What type of surface does the table in the library have?\n\nA. Maple syrup\nB. Banana peel\nC. Chocolate cake\nD. Cotton candy\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What type of surface does the table in the library have?\n\nA. Maple syrup\nB. Banana peel\nC. Chocolate cake\nD. Cotton candy\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What type of surface does the table in the library have?\n\nA. Maple syrup\nB. Banana peel\nC. Chocolate cake\nD. Cotton candy",
+      "response": "None"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What type of tree is used for building the table?\n\nA. Maple\nB. Pine\nC. Birch\nD. Cherry\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What type of tree is used for building the table?\n\nA. Maple\nB. Pine\nC. Birch\nD. Cherry\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What type of tree is used for building the table?\n\nA. Maple\nB. Pine\nC. Birch\nD. Cherry",
+      "response": "None"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What type of fireplace design is included in the room?",
+      "response": "unanswerable"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What type of fireplace design is included in the room?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What type of surface does the table in the library have?\n\nA. Light, wooden surface\nB. Dark, marbled surface\nC. Smooth, glass surface\nD. Textured, fabric surface",
+      "response": "B"
+    }
+  ]
+}

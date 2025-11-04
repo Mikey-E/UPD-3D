@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "d7d238c5-0d32-43b4-8dd0-e0bcff317ee1@LivingDiningRoom-52833",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 4",
+  "timestamp": "2025-10-17T08:29:29.709946",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/d7d238c5-0d32-43b4-8dd0-e0bcff317ee1/LivingDiningRoom-52833/LivingDiningRoom-52833.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What style is the footstool in the living room?\n\nA. Japanese\nB. Modern\nC. Minimalist\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What style is the footstool in the living room?\n\nA. Japanese\nB. Modern\nC. Minimalist\nD. None of the above",
+      "response": "d"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What style is the footstool in the living room?\n\nA. Japanese\nB. Modern\nC. Minimalist",
+      "response": "none"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What style is the footstool in the living room?\n\nA. Rock Music\nB. Ballet Dance\nC. Digital Marketing\nD. Quantum Physics\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What style is the footstool in the living room?\n\nA. Rock Music\nB. Ballet Dance\nC. Digital Marketing\nD. Quantum Physics\nE. None of the above",
+      "response": "e"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What style is the footstool in the living room?\n\nA. Rock Music\nB. Ballet Dance\nC. Digital Marketing\nD. Quantum Physics",
+      "response": "none"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What type of art installation can be found in the living room?\n\nA. Abstract sculpture\nB. Wall mural\nC. Kinetic display\nD. Interactive exhibit\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What type of art installation can be found in the living room?\n\nA. Abstract sculpture\nB. Wall mural\nC. Kinetic display\nD. Interactive exhibit\nE. None of the above",
+      "response": "e"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What type of art installation can be found in the living room?\n\nA. Abstract sculpture\nB. Wall mural\nC. Kinetic display\nD. Interactive exhibit",
+      "response": "none"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What color is the swimming pool?",
+      "response": "n/a"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What color is the swimming pool?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What style is the footstool in the living room?\n\nA. Japanese\nB. Modern\nC. Minimalist\nD. Neoclassical",
+      "response": "d"
+    }
+  ]
+}

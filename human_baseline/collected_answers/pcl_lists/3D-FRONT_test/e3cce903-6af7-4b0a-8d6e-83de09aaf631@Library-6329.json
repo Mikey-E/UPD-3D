@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "e3cce903-6af7-4b0a-8d6e-83de09aaf631@Library-6329",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 3",
+  "timestamp": "2025-10-25T19:39:34.529560",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/e3cce903-6af7-4b0a-8d6e-83de09aaf631/Library-6329/Library-6329.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What piece of furniture is located in front of the king-size bed?\n\nA. Dining chair\nB. Bookcase\nC. Pendant lamp\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What piece of furniture is located in front of the king-size bed?\n\nA. Dining chair\nB. Bookcase\nC. Pendant lamp\nD. None of the above",
+      "response": "D"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What piece of furniture is located in front of the king-size bed?\n\nA. Dining chair\nB. Bookcase\nC. Pendant lamp",
+      "response": "NONE"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What piece of furniture is located in front of the king-size bed?\n\nA. Watermelon\nB. Satellite\nC. Electric guitar\nD. Mountain range\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What piece of furniture is located in front of the king-size bed?\n\nA. Watermelon\nB. Satellite\nC. Electric guitar\nD. Mountain range\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What piece of furniture is located in front of the king-size bed?\n\nA. Watermelon\nB. Satellite\nC. Electric guitar\nD. Mountain range",
+      "response": "NONE"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What flavor is the cake being served at the gathering?\n\nA. Chocolate\nB. Vanilla\nC. Strawberry\nD. Lemon\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What flavor is the cake being served at the gathering?\n\nA. Chocolate\nB. Vanilla\nC. Strawberry\nD. Lemon\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What flavor is the cake being served at the gathering?\n\nA. Chocolate\nB. Vanilla\nC. Strawberry\nD. Lemon",
+      "response": "NA"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What type of vintage television is in the library?",
+      "response": "NA"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What type of vintage television is in the library?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What piece of furniture is located in front of the king-size bed?\n\nA. Dining chair\nB. Bookcase\nC. Pendant lamp\nD. Desk",
+      "response": "D"
+    }
+  ]
+}

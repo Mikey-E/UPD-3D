@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "fc6e4c6e-f455-4263-8185-408c2ba79724@LivingRoom-514",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 3",
+  "timestamp": "2025-10-30T19:06:48.980784",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/fc6e4c6e-f455-4263-8185-408c2ba79724/LivingRoom-514/LivingRoom-514.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What color is the upholstery of the sofa in the living room?\n\nA. Dark brown\nB. Navy blue\nC. Light grey\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What color is the upholstery of the sofa in the living room?\n\nA. Dark brown\nB. Navy blue\nC. Light grey\nD. None of the above",
+      "response": "D"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What color is the upholstery of the sofa in the living room?\n\nA. Dark brown\nB. Navy blue\nC. Light grey",
+      "response": "NONE"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What color is the upholstery of the sofa in the living room?\n\nA. Felicity\nB. Reverberation\nC. Equinox\nD. Harmony\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What color is the upholstery of the sofa in the living room?\n\nA. Felicity\nB. Reverberation\nC. Equinox\nD. Harmony\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What color is the upholstery of the sofa in the living room?\n\nA. Felicity\nB. Reverberation\nC. Equinox\nD. Harmony",
+      "response": "NONE"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What type of sculpture enhances the ambiance in the living room?\n\nA. Abstract Curved Sculpture\nB. Classical Bust Sculpture\nC. Geometric Form Sculpture\nD. Nature-inspired Sculpture\nIf none of the above answers are correct, answer: 'F'",
+      "response": "A"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What type of sculpture enhances the ambiance in the living room?\n\nA. Abstract Curved Sculpture\nB. Classical Bust Sculpture\nC. Geometric Form Sculpture\nD. Nature-inspired Sculpture\nE. None of the above",
+      "response": "A"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What type of sculpture enhances the ambiance in the living room?\n\nA. Abstract Curved Sculpture\nB. Classical Bust Sculpture\nC. Geometric Form Sculpture\nD. Nature-inspired Sculpture",
+      "response": "A"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What color is the rug that is not mentioned in the description?",
+      "response": "NA"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What color is the rug that is not mentioned in the description?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What color is the upholstery of the sofa in the living room?\n\nA. Dark brown\nB. Navy blue\nC. Grey\nD. Light grey",
+      "response": "C"
+    }
+  ]
+}

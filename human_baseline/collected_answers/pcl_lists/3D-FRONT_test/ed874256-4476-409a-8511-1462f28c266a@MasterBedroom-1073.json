@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "ed874256-4476-409a-8511-1462f28c266a@MasterBedroom-1073",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 5",
+  "timestamp": "2025-10-28T08:45:59.967125",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/ed874256-4476-409a-8511-1462f28c266a/MasterBedroom-1073/MasterBedroom-1073.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What type of lighting fixture is suspended above the center of the room? \n\nA. Chandelier\nB. Floor lamp\nC. Wall sconce\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What type of lighting fixture is suspended above the center of the room? \n\nA. Chandelier\nB. Floor lamp\nC. Wall sconce\nD. None of the above",
+      "response": "d"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What type of lighting fixture is suspended above the center of the room? \n\nA. Chandelier\nB. Floor lamp\nC. Wall sconce",
+      "response": "none"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What type of lighting fixture is suspended above the center of the room? \n\nA. Pineapple\nB. Guitar\nC. Marathon\nD. Telescope\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What type of lighting fixture is suspended above the center of the room? \n\nA. Pineapple\nB. Guitar\nC. Marathon\nD. Telescope\nE. None of the above",
+      "response": "e"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What type of lighting fixture is suspended above the center of the room? \n\nA. Pineapple\nB. Guitar\nC. Marathon\nD. Telescope",
+      "response": "none"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What is the shape of the dining table in the scene?\n\nA. Round\nB. Oval\nC. Rectangle\nD. Square\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What is the shape of the dining table in the scene?\n\nA. Round\nB. Oval\nC. Rectangle\nD. Square\nE. None of the above",
+      "response": "e"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What is the shape of the dining table in the scene?\n\nA. Round\nB. Oval\nC. Rectangle\nD. Square",
+      "response": "none"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What shape is the rug in the room?",
+      "response": "rectangle"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What shape is the rug in the room?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "rectangle"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What type of lighting fixture is suspended above the center of the room? \n\nA. Chandelier\nB. Floor lamp\nC. Pendant lamp\nD. Wall sconce",
+      "response": "c"
+    }
+  ]
+}

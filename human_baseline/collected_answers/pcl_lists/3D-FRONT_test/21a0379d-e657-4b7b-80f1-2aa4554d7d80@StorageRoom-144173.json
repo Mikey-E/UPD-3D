@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "21a0379d-e657-4b7b-80f1-2aa4554d7d80@StorageRoom-144173",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 5",
+  "timestamp": "2025-10-14T15:24:11.400064",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/21a0379d-e657-4b7b-80f1-2aa4554d7d80/StorageRoom-144173/StorageRoom-144173.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What is the color of the children's cabinet in the StorageRoom?\n\nA. Light blue\nB. Dark brown\nC. Bright red\nIf none of the above answers are correct, answer: 'F'",
+      "response": "b"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What is the color of the children's cabinet in the StorageRoom?\n\nA. Light blue\nB. Dark brown\nC. Bright red\nD. None of the above",
+      "response": "b"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What is the color of the children's cabinet in the StorageRoom?\n\nA. Light blue\nB. Dark brown\nC. Bright red",
+      "response": "b"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What is the color of the children's cabinet in the StorageRoom?\n\nA. Calculation\nB. Experimentation\nC. Observation\nD. Simulation\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What is the color of the children's cabinet in the StorageRoom?\n\nA. Calculation\nB. Experimentation\nC. Observation\nD. Simulation\nE. None of the above",
+      "response": "e"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What is the color of the children's cabinet in the StorageRoom?\n\nA. Calculation\nB. Experimentation\nC. Observation\nD. Simulation",
+      "response": "none of these"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What is the capacity of the box in the room?\n\nA. 50 liters\nB. 100 liters\nC. 75 liters\nD. 25 liters\nIf none of the above answers are correct, answer: 'F'",
+      "response": "c"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What is the capacity of the box in the room?\n\nA. 50 liters\nB. 100 liters\nC. 75 liters\nD. 25 liters\nE. None of the above",
+      "response": "c"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What is the capacity of the box in the room?\n\nA. 50 liters\nB. 100 liters\nC. 75 liters\nD. 25 liters",
+      "response": "c"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What is the shape of the rug in the room?",
+      "response": "rectangle"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What is the shape of the rug in the room?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "rectangle"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What is the color of the children's cabinet in the StorageRoom?\n\nA. Neutral grey\nB. Light blue\nC. Dark brown\nD. Bright red",
+      "response": "c"
+    }
+  ]
+}

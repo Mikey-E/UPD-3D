@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "e4e89d9c-ce85-49d1-833a-137d62975eae@LivingRoom-515",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 3",
+  "timestamp": "2025-10-26T15:26:23.680009",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/e4e89d9c-ce85-49d1-833a-137d62975eae/LivingRoom-515/LivingRoom-515.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What color is the pendant lamp hanging above the seating area in the living room?\n\nA. Charcoal\nB. Brown\nC. Grey\nIf none of the above answers are correct, answer: 'F'",
+      "response": "C"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What color is the pendant lamp hanging above the seating area in the living room?\n\nA. Charcoal\nB. Brown\nC. Grey\nD. None of the above",
+      "response": "C"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What color is the pendant lamp hanging above the seating area in the living room?\n\nA. Charcoal\nB. Brown\nC. Grey",
+      "response": "C"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What color is the pendant lamp hanging above the seating area in the living room?\n\nA. Catastrophe\nB. Ecosystem\nC. Quantum\nD. Revolution\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What color is the pendant lamp hanging above the seating area in the living room?\n\nA. Catastrophe\nB. Ecosystem\nC. Quantum\nD. Revolution\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What color is the pendant lamp hanging above the seating area in the living room?\n\nA. Catastrophe\nB. Ecosystem\nC. Quantum\nD. Revolution",
+      "response": "NONE"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What is the color of the curtains in the scene?\n\nA. Red\nB. Green\nC. Blue\nD. Yellow\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What is the color of the curtains in the scene?\n\nA. Red\nB. Green\nC. Blue\nD. Yellow\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What is the color of the curtains in the scene?\n\nA. Red\nB. Green\nC. Blue\nD. Yellow",
+      "response": "NA"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What material is the bed frame made of?",
+      "response": "NA"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What material is the bed frame made of?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What color is the pendant lamp hanging above the seating area in the living room?\n\nA. Charcoal\nB. Black\nC. Brown\nD. Grey",
+      "response": "D"
+    }
+  ]
+}

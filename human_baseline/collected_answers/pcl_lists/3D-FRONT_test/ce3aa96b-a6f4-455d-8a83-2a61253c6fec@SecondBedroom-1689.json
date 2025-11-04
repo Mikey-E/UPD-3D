@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "ce3aa96b-a6f4-455d-8a83-2a61253c6fec@SecondBedroom-1689",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 3",
+  "timestamp": "2025-10-14T15:23:53.603977",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/ce3aa96b-a6f4-455d-8a83-2a61253c6fec/SecondBedroom-1689/SecondBedroom-1689.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What style is the frame of the king-size bed described in the room?\n\nA. Modern style\nB. Japanese influence\nC. Minimalist design\nIf none of the above answers are correct, answer: 'F'",
+      "response": "C"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What style is the frame of the king-size bed described in the room?\n\nA. Modern style\nB. Japanese influence\nC. Minimalist design\nD. None of the above",
+      "response": "C"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What style is the frame of the king-size bed described in the room?\n\nA. Modern style\nB. Japanese influence\nC. Minimalist design",
+      "response": "C"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What style is the frame of the king-size bed described in the room?\n\nA. Soft shell turtle\nB. Electric blue\nC. Scandinavian design\nD. Cloud computing\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What style is the frame of the king-size bed described in the room?\n\nA. Soft shell turtle\nB. Electric blue\nC. Scandinavian design\nD. Cloud computing\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What style is the frame of the king-size bed described in the room?\n\nA. Soft shell turtle\nB. Electric blue\nC. Scandinavian design\nD. Cloud computing",
+      "response": "None"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What type of sculpture is placed in the room?\n\nA. Marble bust\nB. Abstract steel figure\nC. Wooden totem\nD. Stone relief\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What type of sculpture is placed in the room?\n\nA. Marble bust\nB. Abstract steel figure\nC. Wooden totem\nD. Stone relief\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What type of sculpture is placed in the room?\n\nA. Marble bust\nB. Abstract steel figure\nC. Wooden totem\nD. Stone relief",
+      "response": "None"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What type of outdoor sculpture is placed in the yard adjacent to the room?",
+      "response": "N/A"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What type of outdoor sculpture is placed in the yard adjacent to the room?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What style is the frame of the king-size bed described in the room?\n\nA. Modern style\nB. Ming Qing style\nC. Japanese influence\nD. Minimalist design",
+      "response": "D"
+    }
+  ]
+}

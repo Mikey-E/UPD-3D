@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "ce3aa96b-a6f4-455d-8a83-2a61253c6fec@LivingDiningRoom-2432",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 3",
+  "timestamp": "2025-10-14T15:22:45.613710",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/ce3aa96b-a6f4-455d-8a83-2a61253c6fec/LivingDiningRoom-2432/LivingDiningRoom-2432.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What is the color of the upholstery on the three-seat sofa in the living room?\n\nA. Beige\nB. Taupe\nC. Teal\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What is the color of the upholstery on the three-seat sofa in the living room?\n\nA. Beige\nB. Taupe\nC. Teal\nD. None of the above",
+      "response": "D"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What is the color of the upholstery on the three-seat sofa in the living room?\n\nA. Beige\nB. Taupe\nC. Teal",
+      "response": "None"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What is the color of the upholstery on the three-seat sofa in the living room?\n\nA. Alpine\nB. Desert\nC. Ocean\nD. Forest\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What is the color of the upholstery on the three-seat sofa in the living room?\n\nA. Alpine\nB. Desert\nC. Ocean\nD. Forest\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What is the color of the upholstery on the three-seat sofa in the living room?\n\nA. Alpine\nB. Desert\nC. Ocean\nD. Forest",
+      "response": "None"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What type of painting is featured prominently in the living room?\n\nA. Abstract expressionism\nB. Surrealism\nC. Impressionism\nD. Cubism\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What type of painting is featured prominently in the living room?\n\nA. Abstract expressionism\nB. Surrealism\nC. Impressionism\nD. Cubism\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What type of painting is featured prominently in the living room?\n\nA. Abstract expressionism\nB. Surrealism\nC. Impressionism\nD. Cubism",
+      "response": "None"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What type of garden sculpture is in the living room?",
+      "response": "No sculptire"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What type of garden sculpture is in the living room?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What is the color of the upholstery on the three-seat sofa in the living room?\n\nA. Gray\nB. Beige\nC. Taupe\nD. Teal",
+      "response": "A"
+    }
+  ]
+}

@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "e3df4b50-7ac1-4153-9955-c231f604d66c@LivingDiningRoom-15907",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 5",
+  "timestamp": "2025-10-25T19:40:13.276785",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/e3df4b50-7ac1-4153-9955-c231f604d66c/LivingDiningRoom-15907/LivingDiningRoom-15907.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What color is the sofa in the living room?\n\nA. Deep black\nB. Light oak\nC. Metallic silver\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What color is the sofa in the living room?\n\nA. Deep black\nB. Light oak\nC. Metallic silver\nD. None of the above",
+      "response": "d"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What color is the sofa in the living room?\n\nA. Deep black\nB. Light oak\nC. Metallic silver",
+      "response": "none"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What color is the sofa in the living room?\n\nA. Jupiter\nB. Neptune\nC. Saturn\nD. Mars\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What color is the sofa in the living room?\n\nA. Jupiter\nB. Neptune\nC. Saturn\nD. Mars\nE. None of the above",
+      "response": "e"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What color is the sofa in the living room?\n\nA. Jupiter\nB. Neptune\nC. Saturn\nD. Mars",
+      "response": "none"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What type of art installation enhances the spatial dynamics in the living room?\n\nA. A kinetic sculpture\nB. A mural painting\nC. An abstract tapestry\nD. A mobile light fixture\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What type of art installation enhances the spatial dynamics in the living room?\n\nA. A kinetic sculpture\nB. A mural painting\nC. An abstract tapestry\nD. A mobile light fixture\nE. None of the above",
+      "response": "e"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What type of art installation enhances the spatial dynamics in the living room?\n\nA. A kinetic sculpture\nB. A mural painting\nC. An abstract tapestry\nD. A mobile light fixture",
+      "response": "none"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What type of outdoor grill is located outside the living room?",
+      "response": "none"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What type of outdoor grill is located outside the living room?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What color is the sofa in the living room?\n\nA. Charcoal grey\nB. Deep black\nC. Light oak\nD. Metallic silver",
+      "response": "a"
+    }
+  ]
+}

@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "d099aa82-c37c-4c77-aa35-26f02862f55b@Bedroom-837",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 4",
+  "timestamp": "2025-10-15T10:48:41.481709",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/d099aa82-c37c-4c77-aa35-26f02862f55b/Bedroom-837/Bedroom-837.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What is the color scheme of the king-size bed in the bedroom?\n\nA. White and blue\nB. Oak and brown\nC. Red and gold\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What is the color scheme of the king-size bed in the bedroom?\n\nA. White and blue\nB. Oak and brown\nC. Red and gold\nD. None of the above",
+      "response": "D"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What is the color scheme of the king-size bed in the bedroom?\n\nA. White and blue\nB. Oak and brown\nC. Red and gold",
+      "response": "none"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What is the color scheme of the king-size bed in the bedroom?\n\nA. Tropical rainforest\nB. Arctic tundra\nC. Desert plateau\nD. Mountain peak\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What is the color scheme of the king-size bed in the bedroom?\n\nA. Tropical rainforest\nB. Arctic tundra\nC. Desert plateau\nD. Mountain peak\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What is the color scheme of the king-size bed in the bedroom?\n\nA. Tropical rainforest\nB. Arctic tundra\nC. Desert plateau\nD. Mountain peak",
+      "response": "none"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What shape is the rug in the scene?\n\nA. Square\nB. Round\nC. Rectangular\nD. Oval\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What shape is the rug in the scene?\n\nA. Square\nB. Round\nC. Rectangular\nD. Oval\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What shape is the rug in the scene?\n\nA. Square\nB. Round\nC. Rectangular\nD. Oval",
+      "response": "none"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What type of exercise equipment is in the bedroom?",
+      "response": "unanswerable"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What type of exercise equipment is in the bedroom?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What is the color scheme of the king-size bed in the bedroom?\n\nA. Black and gray\nB. White and blue\nC. Oak and brown\nD. Red and gold",
+      "response": "A"
+    }
+  ]
+}

@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "f877d2a1-678f-49a0-a90e-e99ff27134c7@LivingRoom-34701",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 3",
+  "timestamp": "2025-10-30T01:04:54.192012",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/f877d2a1-678f-49a0-a90e-e99ff27134c7/LivingRoom-34701/LivingRoom-34701.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What is the primary color scheme of the three-seat sofa and armchairs in the living room?\n\nA. Bright red\nB. Deep blue\nC. Vibrant yellow\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What is the primary color scheme of the three-seat sofa and armchairs in the living room?\n\nA. Bright red\nB. Deep blue\nC. Vibrant yellow\nD. None of the above",
+      "response": "D"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What is the primary color scheme of the three-seat sofa and armchairs in the living room?\n\nA. Bright red\nB. Deep blue\nC. Vibrant yellow",
+      "response": "NONE"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What is the primary color scheme of the three-seat sofa and armchairs in the living room?\n\nA. Ocean currents\nB. Mountain ranges\nC. Desert landscapes\nD. Forest ecosystems\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What is the primary color scheme of the three-seat sofa and armchairs in the living room?\n\nA. Ocean currents\nB. Mountain ranges\nC. Desert landscapes\nD. Forest ecosystems\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What is the primary color scheme of the three-seat sofa and armchairs in the living room?\n\nA. Ocean currents\nB. Mountain ranges\nC. Desert landscapes\nD. Forest ecosystems",
+      "response": "NONE"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What type of fruit is displayed on the table?\n\nA. Apple\nB. Banana\nC. Orange\nD. Grapes\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What type of fruit is displayed on the table?\n\nA. Apple\nB. Banana\nC. Orange\nD. Grapes\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What type of fruit is displayed on the table?\n\nA. Apple\nB. Banana\nC. Orange\nD. Grapes",
+      "response": "NA"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What type of pool table is in this living room?",
+      "response": "NA"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What type of pool table is in this living room?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What is the primary color scheme of the three-seat sofa and armchairs in the living room?\n\nA. Bright red\nB. Neutral grey\nC. Deep blue\nD. Vibrant yellow",
+      "response": "B"
+    }
+  ]
+}

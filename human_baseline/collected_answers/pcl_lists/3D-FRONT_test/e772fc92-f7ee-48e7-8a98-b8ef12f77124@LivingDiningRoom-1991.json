@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "e772fc92-f7ee-48e7-8a98-b8ef12f77124@LivingDiningRoom-1991",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 5",
+  "timestamp": "2025-10-27T08:13:31.702034",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/e772fc92-f7ee-48e7-8a98-b8ef12f77124/LivingDiningRoom-1991/LivingDiningRoom-1991.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What type of design style does the wine cabinet with industrial design represent?\n\nA. Rustic style\nB. Art Deco style\nC. Traditional style\nIf none of the above answers are correct, answer: 'F'",
+      "response": "c"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What type of design style does the wine cabinet with industrial design represent?\n\nA. Rustic style\nB. Art Deco style\nC. Traditional style\nD. None of the above",
+      "response": "c"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What type of design style does the wine cabinet with industrial design represent?\n\nA. Rustic style\nB. Art Deco style\nC. Traditional style",
+      "response": "c"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What type of design style does the wine cabinet with industrial design represent?\n\nA. Minimalist architecture\nB. Abstract expressionism\nC. Impressionist painting\nD. Baroque sculpture\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What type of design style does the wine cabinet with industrial design represent?\n\nA. Minimalist architecture\nB. Abstract expressionism\nC. Impressionist painting\nD. Baroque sculpture\nE. None of the above",
+      "response": "e"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What type of design style does the wine cabinet with industrial design represent?\n\nA. Minimalist architecture\nB. Abstract expressionism\nC. Impressionist painting\nD. Baroque sculpture",
+      "response": "none"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What type of sculpture is situated in the center of the living room?\n\nA. Abstract sculpture\nB. Classical statue\nC. Modern bust\nD. Wood carving\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What type of sculpture is situated in the center of the living room?\n\nA. Abstract sculpture\nB. Classical statue\nC. Modern bust\nD. Wood carving\nE. None of the above",
+      "response": "e"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What type of sculpture is situated in the center of the living room?\n\nA. Abstract sculpture\nB. Classical statue\nC. Modern bust\nD. Wood carving",
+      "response": "none"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What type of exercise equipment is located in the room?",
+      "response": "none"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What type of exercise equipment is located in the room?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What type of design style does the wine cabinet with industrial design represent?\n\nA. Rustic style\nB. Art Deco style\nC. Traditional style\nD. Industrial style",
+      "response": "c"
+    }
+  ]
+}

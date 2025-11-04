@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "df84d678-cec9-4909-b09d-e57fad3b9d01@Bedroom-28089",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 5",
+  "timestamp": "2025-10-24T20:06:12.609417",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/df84d678-cec9-4909-b09d-e57fad3b9d01/Bedroom-28089/Bedroom-28089.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What is the color of the nightstand in the bedroom?\n\nA. Gray\nB. White\nC. Beige\nIf none of the above answers are correct, answer: 'F'",
+      "response": "b"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What is the color of the nightstand in the bedroom?\n\nA. Gray\nB. White\nC. Beige\nD. None of the above",
+      "response": "b"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What is the color of the nightstand in the bedroom?\n\nA. Gray\nB. White\nC. Beige",
+      "response": "b"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What is the color of the nightstand in the bedroom?\n\nA. Tropical\nB. Ancient\nC. Astronaut\nD. Lollipop\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What is the color of the nightstand in the bedroom?\n\nA. Tropical\nB. Ancient\nC. Astronaut\nD. Lollipop\nE. None of the above",
+      "response": "e"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What is the color of the nightstand in the bedroom?\n\nA. Tropical\nB. Ancient\nC. Astronaut\nD. Lollipop",
+      "response": "none"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What type of window treatment is installed in the room?\n\nA. Curtains\nB. Blinds\nC. Drapes\nD. Valances\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What type of window treatment is installed in the room?\n\nA. Curtains\nB. Blinds\nC. Drapes\nD. Valances\nE. None of the above",
+      "response": "e"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What type of window treatment is installed in the room?\n\nA. Curtains\nB. Blinds\nC. Drapes\nD. Valances",
+      "response": "none"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What type of carpet is laid on the floor?",
+      "response": "none"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What type of carpet is laid on the floor?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What is the color of the nightstand in the bedroom?\n\nA. Gray\nB. White\nC. Lavender\nD. Beige",
+      "response": "b"
+    }
+  ]
+}

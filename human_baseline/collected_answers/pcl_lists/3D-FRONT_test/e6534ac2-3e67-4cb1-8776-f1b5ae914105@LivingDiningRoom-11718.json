@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "e6534ac2-3e67-4cb1-8776-f1b5ae914105@LivingDiningRoom-11718",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 4",
+  "timestamp": "2025-10-26T21:03:14.716072",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/e6534ac2-3e67-4cb1-8776-f1b5ae914105/LivingDiningRoom-11718/LivingDiningRoom-11718.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What style is the armchair in the living room?\n\nA. Light Luxury style\nB. Japanese minimalism\nC. Neoclassical design\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What style is the armchair in the living room?\n\nA. Light Luxury style\nB. Japanese minimalism\nC. Neoclassical design\nD. None of the above",
+      "response": "D"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What style is the armchair in the living room?\n\nA. Light Luxury style\nB. Japanese minimalism\nC. Neoclassical design",
+      "response": "None"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What style is the armchair in the living room?\n\nA. Quantum mechanics\nB. Thermodynamics\nC. Renewable energy\nD. Plate tectonics\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What style is the armchair in the living room?\n\nA. Quantum mechanics\nB. Thermodynamics\nC. Renewable energy\nD. Plate tectonics\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What style is the armchair in the living room?\n\nA. Quantum mechanics\nB. Thermodynamics\nC. Renewable energy\nD. Plate tectonics",
+      "response": "None"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What type of flooring is depicted in the living room?\n\nA. Hardwood\nB. Tile\nC. Carpet\nD. Laminate\nIf none of the above answers are correct, answer: 'F'",
+      "response": "C"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What type of flooring is depicted in the living room?\n\nA. Hardwood\nB. Tile\nC. Carpet\nD. Laminate\nE. None of the above",
+      "response": "C"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What type of flooring is depicted in the living room?\n\nA. Hardwood\nB. Tile\nC. Carpet\nD. Laminate",
+      "response": "C"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What type of outdoor grill is used for cooking in this space?",
+      "response": "unanswerable"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What type of outdoor grill is used for cooking in this space?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What style is the armchair in the living room?\n\nA. American Country style\nB. Light Luxury style\nC. Japanese minimalism\nD. Neoclassical design",
+      "response": "A"
+    }
+  ]
+}

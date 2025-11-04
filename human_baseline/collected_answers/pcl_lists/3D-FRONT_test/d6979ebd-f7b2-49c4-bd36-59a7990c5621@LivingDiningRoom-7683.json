@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "d6979ebd-f7b2-49c4-bd36-59a7990c5621@LivingDiningRoom-7683",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 3",
+  "timestamp": "2025-10-16T13:13:52.420622",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/d6979ebd-f7b2-49c4-bd36-59a7990c5621/LivingDiningRoom-7683/LivingDiningRoom-7683.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What color is the upholstery of the armchair in the living room?\n\nA. Taupe\nB. Deep Blue\nC. Black\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What color is the upholstery of the armchair in the living room?\n\nA. Taupe\nB. Deep Blue\nC. Black\nD. None of the above",
+      "response": "D"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What color is the upholstery of the armchair in the living room?\n\nA. Taupe\nB. Deep Blue\nC. Black",
+      "response": "None"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What color is the upholstery of the armchair in the living room?\n\nA. Jupiter\nB. Neptune\nC. Saturn\nD. Mars\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What color is the upholstery of the armchair in the living room?\n\nA. Jupiter\nB. Neptune\nC. Saturn\nD. Mars\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What color is the upholstery of the armchair in the living room?\n\nA. Jupiter\nB. Neptune\nC. Saturn\nD. Mars",
+      "response": "None"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What design style is used for the kitchen chairs?\n\nA. Rustic\nB. Industrial\nC. Victorian\nD. Art Deco\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What design style is used for the kitchen chairs?\n\nA. Rustic\nB. Industrial\nC. Victorian\nD. Art Deco\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What design style is used for the kitchen chairs?\n\nA. Rustic\nB. Industrial\nC. Victorian\nD. Art Deco",
+      "response": "None"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What type of musical instrument is in the corner of the room?",
+      "response": "N/A"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What type of musical instrument is in the corner of the room?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What color is the upholstery of the armchair in the living room?\n\nA. Taupe\nB. Deep Blue\nC. Grey\nD. Black",
+      "response": "C"
+    }
+  ]
+}

@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "Potato@5-11-P281-1-a",
+  "dataset": "Crops3D_test",
+  "annotated_by": "User 5",
+  "timestamp": "2025-10-30T11:52:39.732330",
+  "file_path": "/project/3dllms/melgin/datasets/CEA/Crops3D/Potato/5-11-P281-1-a.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What type of leaves does the young plant sapling have?\n\nA. Round fleshy leaves with no veins\nB. Needle-like leaves with smooth edges\nC. Long thin leaves with a waxy texture\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What type of leaves does the young plant sapling have?\n\nA. Round fleshy leaves with no veins\nB. Needle-like leaves with smooth edges\nC. Long thin leaves with a waxy texture\nD. None of the above",
+      "response": "d"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What type of leaves does the young plant sapling have?\n\nA. Round fleshy leaves with no veins\nB. Needle-like leaves with smooth edges\nC. Long thin leaves with a waxy texture",
+      "response": "none"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What type of leaves does the young plant sapling have?\n\nA. Tropical cyclone\nB. Earthquake magnitude\nC. Solar eclipse phase\nD. Oceanic trench depth\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What type of leaves does the young plant sapling have?\n\nA. Tropical cyclone\nB. Earthquake magnitude\nC. Solar eclipse phase\nD. Oceanic trench depth\nE. None of the above",
+      "response": "e"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What type of leaves does the young plant sapling have?\n\nA. Tropical cyclone\nB. Earthquake magnitude\nC. Solar eclipse phase\nD. Oceanic trench depth",
+      "response": "none"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What is the height of the statue in the garden?\n\nA. Three feet\nB. Six feet\nC. Ten feet\nD. Twelve feet\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What is the height of the statue in the garden?\n\nA. Three feet\nB. Six feet\nC. Ten feet\nD. Twelve feet\nE. None of the above",
+      "response": "e"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What is the height of the statue in the garden?\n\nA. Three feet\nB. Six feet\nC. Ten feet\nD. Twelve feet",
+      "response": "none"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What type of flower is blooming next to the sapling?",
+      "response": "none"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What type of flower is blooming next to the sapling?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What type of leaves does the young plant sapling have?\n\nA. Round fleshy leaves with no veins\nB. Needle-like leaves with smooth edges\nC. Long thin leaves with a waxy texture\nD. Broad oval leaves with visible veins",
+      "response": "d"
+    }
+  ]
+}

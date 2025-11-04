@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "df1d3950-d775-41ae-ab88-261156e7b5b9@MasterBedroom-1095",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 5",
+  "timestamp": "2025-10-24T16:41:48.422092",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/df1d3950-d775-41ae-ab88-261156e7b5b9/MasterBedroom-1095/MasterBedroom-1095.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What color is the wardrobe in the Masterbedroom?\n\nA. Gold\nB. Black\nC. Beige\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What color is the wardrobe in the Masterbedroom?\n\nA. Gold\nB. Black\nC. Beige\nD. None of the above",
+      "response": "d"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What color is the wardrobe in the Masterbedroom?\n\nA. Gold\nB. Black\nC. Beige",
+      "response": "none"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What color is the wardrobe in the Masterbedroom?\n\nA. Giraffe\nB. Volcano\nC. Chocolate\nD. Tornado\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What color is the wardrobe in the Masterbedroom?\n\nA. Giraffe\nB. Volcano\nC. Chocolate\nD. Tornado\nE. None of the above",
+      "response": "e"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What color is the wardrobe in the Masterbedroom?\n\nA. Giraffe\nB. Volcano\nC. Chocolate\nD. Tornado",
+      "response": "none"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What type of sofa is located in the room?\n\nA. Sectional sofa\nB. Recliner sofa\nC. Futon sofa\nD. Loveseat sofa\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What type of sofa is located in the room?\n\nA. Sectional sofa\nB. Recliner sofa\nC. Futon sofa\nD. Loveseat sofa\nE. None of the above",
+      "response": "e"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What type of sofa is located in the room?\n\nA. Sectional sofa\nB. Recliner sofa\nC. Futon sofa\nD. Loveseat sofa",
+      "response": "none"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What type of bicycle is hanging on the wall?",
+      "response": "none"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What type of bicycle is hanging on the wall?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What color is the wardrobe in the Masterbedroom?\n\nA. Gold\nB. Black\nC. Beige\nD. Gray",
+      "response": "d"
+    }
+  ]
+}

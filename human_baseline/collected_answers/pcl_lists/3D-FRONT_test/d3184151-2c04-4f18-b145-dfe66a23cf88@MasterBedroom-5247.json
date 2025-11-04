@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "d3184151-2c04-4f18-b145-dfe66a23cf88@MasterBedroom-5247",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 4",
+  "timestamp": "2025-10-16T08:44:35.200450",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/d3184151-2c04-4f18-b145-dfe66a23cf88/MasterBedroom-5247/MasterBedroom-5247.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What type of bed is featured as the centerpiece of the room?\n\nA. Queen-size bed\nB. Twin bed\nC. Sofa bed\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What type of bed is featured as the centerpiece of the room?\n\nA. Queen-size bed\nB. Twin bed\nC. Sofa bed\nD. None of the above",
+      "response": "D"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What type of bed is featured as the centerpiece of the room?\n\nA. Queen-size bed\nB. Twin bed\nC. Sofa bed",
+      "response": "none"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What type of bed is featured as the centerpiece of the room?\n\nA. 2-Wheeled Vehicle\nB. Short Story Genre\nC. Ancient Civilization\nD. Water Cycle\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What type of bed is featured as the centerpiece of the room?\n\nA. 2-Wheeled Vehicle\nB. Short Story Genre\nC. Ancient Civilization\nD. Water Cycle\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What type of bed is featured as the centerpiece of the room?\n\nA. 2-Wheeled Vehicle\nB. Short Story Genre\nC. Ancient Civilization\nD. Water Cycle",
+      "response": "none"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What type of paint is used on the furniture?\n\nA. Matte finish\nB. Glossy finish\nC. Semi-gloss finish\nD. Satin finish\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What type of paint is used on the furniture?\n\nA. Matte finish\nB. Glossy finish\nC. Semi-gloss finish\nD. Satin finish\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What type of paint is used on the furniture?\n\nA. Matte finish\nB. Glossy finish\nC. Semi-gloss finish\nD. Satin finish",
+      "response": "none"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What is the style of the coffee table in the room?",
+      "response": "n/a"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What is the style of the coffee table in the room?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What type of bed is featured as the centerpiece of the room?\n\nA. King-size bed\nB. Queen-size bed\nC. Twin bed\nD. Sofa bed",
+      "response": "A"
+    }
+  ]
+}

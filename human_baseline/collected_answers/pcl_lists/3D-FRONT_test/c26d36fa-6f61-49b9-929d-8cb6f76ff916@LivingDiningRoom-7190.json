@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "c26d36fa-6f61-49b9-929d-8cb6f76ff916@LivingDiningRoom-7190",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 3",
+  "timestamp": "2025-10-06T11:57:52.308814",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/c26d36fa-6f61-49b9-929d-8cb6f76ff916/LivingDiningRoom-7190/LivingDiningRoom-7190.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What type of design does the tv stand reflect in the living room?\n\nA. Neoclassical design\nB. Modern design\nC. Classic European design\nIf none of the above answers are correct, answer: 'F'",
+      "response": "C"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What type of design does the tv stand reflect in the living room?\n\nA. Neoclassical design\nB. Modern design\nC. Classic European design\nD. None of the above",
+      "response": "C"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What type of design does the tv stand reflect in the living room?\n\nA. Neoclassical design\nB. Modern design\nC. Classic European design",
+      "response": "C"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What type of design does the tv stand reflect in the living room?\n\nA. Tropical rainforest\nB. Arctic tundra\nC. Desert landscape\nD. Mountain range\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What type of design does the tv stand reflect in the living room?\n\nA. Tropical rainforest\nB. Arctic tundra\nC. Desert landscape\nD. Mountain range\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What type of design does the tv stand reflect in the living room?\n\nA. Tropical rainforest\nB. Arctic tundra\nC. Desert landscape\nD. Mountain range",
+      "response": "None"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What is the height of the ceiling in the living room?\n\nA. 10 feet\nB. 12 feet\nC. 8 feet\nD. 15 feet\nIf none of the above answers are correct, answer: 'F'",
+      "response": "A"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What is the height of the ceiling in the living room?\n\nA. 10 feet\nB. 12 feet\nC. 8 feet\nD. 15 feet\nE. None of the above",
+      "response": "A"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What is the height of the ceiling in the living room?\n\nA. 10 feet\nB. 12 feet\nC. 8 feet\nD. 15 feet",
+      "response": "A"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What type of rug is placed under the coffee table?",
+      "response": "None"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What type of rug is placed under the coffee table?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What type of design does the tv stand reflect in the living room?\n\nA. Neoclassical design\nB. Modern design\nC. Japanese design\nD. Classic European design",
+      "response": "D"
+    }
+  ]
+}

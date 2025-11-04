@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "fadd9fe3-d80b-47d5-90ee-c4678863fd3d@DiningRoom-2978",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 3",
+  "timestamp": "2025-10-30T13:34:07.211707",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/fadd9fe3-d80b-47d5-90ee-c4678863fd3d/DiningRoom-2978/DiningRoom-2978.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What type of lighting fixture is featured above the kitchen cabinets?\n\nA. Ceiling fan\nB. Wall sconce\nC. Chandelier\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What type of lighting fixture is featured above the kitchen cabinets?\n\nA. Ceiling fan\nB. Wall sconce\nC. Chandelier\nD. None of the above",
+      "response": "D"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What type of lighting fixture is featured above the kitchen cabinets?\n\nA. Ceiling fan\nB. Wall sconce\nC. Chandelier",
+      "response": "NONE"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What type of lighting fixture is featured above the kitchen cabinets?\n\nA. Blue whale\nB. African savanna\nC. Renaissance painting\nD. Quantum physics\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What type of lighting fixture is featured above the kitchen cabinets?\n\nA. Blue whale\nB. African savanna\nC. Renaissance painting\nD. Quantum physics\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What type of lighting fixture is featured above the kitchen cabinets?\n\nA. Blue whale\nB. African savanna\nC. Renaissance painting\nD. Quantum physics",
+      "response": "NONE"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What type of flooring is used in the scene?\n\nA. Hardwood\nB. Carpet\nC. Tile\nD. Vinyl\nIf none of the above answers are correct, answer: 'F'",
+      "response": "B"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What type of flooring is used in the scene?\n\nA. Hardwood\nB. Carpet\nC. Tile\nD. Vinyl\nE. None of the above",
+      "response": "B"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What type of flooring is used in the scene?\n\nA. Hardwood\nB. Carpet\nC. Tile\nD. Vinyl",
+      "response": "B"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What type of flooring is used in the room?",
+      "response": "NA"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What type of flooring is used in the room?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What type of lighting fixture is featured above the kitchen cabinets?\n\nA. Ceiling fan\nB. Wall sconce\nC. Pendant lamp\nD. Chandelier",
+      "response": "C"
+    }
+  ]
+}

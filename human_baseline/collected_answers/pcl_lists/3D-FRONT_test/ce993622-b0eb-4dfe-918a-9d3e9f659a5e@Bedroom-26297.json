@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "ce993622-b0eb-4dfe-918a-9d3e9f659a5e@Bedroom-26297",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 3",
+  "timestamp": "2025-10-14T15:33:02.085737",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/ce993622-b0eb-4dfe-918a-9d3e9f659a5e/Bedroom-26297/Bedroom-26297.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What style is the coffee table in the center of the bedroom?\n\nA. Art Deco\nB. Minimalist\nC. Rustic\nIf none of the above answers are correct, answer: 'F'",
+      "response": "A"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What style is the coffee table in the center of the bedroom?\n\nA. Art Deco\nB. Minimalist\nC. Rustic\nD. None of the above",
+      "response": "A"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What style is the coffee table in the center of the bedroom?\n\nA. Art Deco\nB. Minimalist\nC. Rustic",
+      "response": "A"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What style is the coffee table in the center of the bedroom?\n\nA. Classical music\nB. Digital painting\nC. Quantum physics\nD. Marine biology\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What style is the coffee table in the center of the bedroom?\n\nA. Classical music\nB. Digital painting\nC. Quantum physics\nD. Marine biology\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What style is the coffee table in the center of the bedroom?\n\nA. Classical music\nB. Digital painting\nC. Quantum physics\nD. Marine biology",
+      "response": "None"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What type of flooring is present in the bedroom?\n\nA. Hardwood\nB. Carpet\nC. Vinyl\nD. Tile\nIf none of the above answers are correct, answer: 'F'",
+      "response": "B"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What type of flooring is present in the bedroom?\n\nA. Hardwood\nB. Carpet\nC. Vinyl\nD. Tile\nE. None of the above",
+      "response": "B"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What type of flooring is present in the bedroom?\n\nA. Hardwood\nB. Carpet\nC. Vinyl\nD. Tile",
+      "response": "B"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What type of exercise equipment is located in the bedroom?",
+      "response": "N/A"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What type of exercise equipment is located in the bedroom?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What style is the coffee table in the center of the bedroom?\n\nA. Neoclassical\nB. Art Deco\nC. Minimalist\nD. Rustic",
+      "response": "B"
+    }
+  ]
+}

@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "e8ffd31e-be4d-4840-ba76-5a89b17ec8dd@LivingRoom-4555",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 4",
+  "timestamp": "2025-10-27T12:51:28.235061",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/e8ffd31e-be4d-4840-ba76-5a89b17ec8dd/LivingRoom-4555/LivingRoom-4555.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What style are the two armchairs in the living room?\n\nA. Ming Qing\nB. European Classic\nC. Japanese\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What style are the two armchairs in the living room?\n\nA. Ming Qing\nB. European Classic\nC. Japanese\nD. None of the above",
+      "response": "D"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What style are the two armchairs in the living room?\n\nA. Ming Qing\nB. European Classic\nC. Japanese",
+      "response": "None"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What style are the two armchairs in the living room?\n\nA. Jazz music\nB. Rock climbing\nC. Organic chemistry\nD. Ancient civilizations\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What style are the two armchairs in the living room?\n\nA. Jazz music\nB. Rock climbing\nC. Organic chemistry\nD. Ancient civilizations\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What style are the two armchairs in the living room?\n\nA. Jazz music\nB. Rock climbing\nC. Organic chemistry\nD. Ancient civilizations",
+      "response": "None"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What type of ceiling fan is installed in the living room?\n\nA. Industrial fan\nB. Decorative fan\nC. Remote-controlled fan\nD. Ceiling-mounted fan\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What type of ceiling fan is installed in the living room?\n\nA. Industrial fan\nB. Decorative fan\nC. Remote-controlled fan\nD. Ceiling-mounted fan\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What type of ceiling fan is installed in the living room?\n\nA. Industrial fan\nB. Decorative fan\nC. Remote-controlled fan\nD. Ceiling-mounted fan",
+      "response": "None"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What type of hanging sculpture is suspended from the ceiling?",
+      "response": "unanswerable"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What type of hanging sculpture is suspended from the ceiling?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What style are the two armchairs in the living room?\n\nA. Ming Qing\nB. American Country\nC. European Classic\nD. Japanese",
+      "response": "B"
+    }
+  ]
+}

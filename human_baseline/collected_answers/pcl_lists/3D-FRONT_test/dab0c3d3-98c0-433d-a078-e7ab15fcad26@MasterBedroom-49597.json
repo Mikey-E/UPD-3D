@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "dab0c3d3-98c0-433d-a078-e7ab15fcad26@MasterBedroom-49597",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 5",
+  "timestamp": "2025-10-20T08:44:09.665111",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/dab0c3d3-98c0-433d-a078-e7ab15fcad26/MasterBedroom-49597/MasterBedroom-49597.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What type of design does the wardrobe in the Master bedroom feature?\n\nA. Victorian style\nB. Rustic style\nC. Art Deco style\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What type of design does the wardrobe in the Master bedroom feature?\n\nA. Victorian style\nB. Rustic style\nC. Art Deco style\nD. None of the above",
+      "response": "d"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What type of design does the wardrobe in the Master bedroom feature?\n\nA. Victorian style\nB. Rustic style\nC. Art Deco style",
+      "response": "none"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What type of design does the wardrobe in the Master bedroom feature?\n\nA. Symphony\nB. Choreography\nC. Exploration\nD. Serenity\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What type of design does the wardrobe in the Master bedroom feature?\n\nA. Symphony\nB. Choreography\nC. Exploration\nD. Serenity\nE. None of the above",
+      "response": "e"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What type of design does the wardrobe in the Master bedroom feature?\n\nA. Symphony\nB. Choreography\nC. Exploration\nD. Serenity",
+      "response": "none"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What type of sculpture is displayed in the corner of the room?\n\nA. A marble bust\nB. A wooden totem\nC. A ceramic figure\nD. A glass abstract piece\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What type of sculpture is displayed in the corner of the room?\n\nA. A marble bust\nB. A wooden totem\nC. A ceramic figure\nD. A glass abstract piece\nE. None of the above",
+      "response": "e"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What type of sculpture is displayed in the corner of the room?\n\nA. A marble bust\nB. A wooden totem\nC. A ceramic figure\nD. A glass abstract piece",
+      "response": "none"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What type of refrigerator is used in this room?",
+      "response": "none"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What type of refrigerator is used in this room?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What type of design does the wardrobe in the Master bedroom feature?\n\nA. Victorian style\nB. Japanese style\nC. Rustic style\nD. Art Deco style",
+      "response": "b"
+    }
+  ]
+}

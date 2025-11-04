@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "da02f142-8f83-48a2-af1a-fb15c43d3bcc@MasterBedroom-13083",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 4",
+  "timestamp": "2025-10-19T18:18:01.413914",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/da02f142-8f83-48a2-af1a-fb15c43d3bcc/MasterBedroom-13083/MasterBedroom-13083.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What is the color of the headboard of the king-size bed in the master bedroom?\n\nA. Silver\nB. Green\nC. Golden\nIf none of the above answers are correct, answer: 'F'",
+      "response": "A"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What is the color of the headboard of the king-size bed in the master bedroom?\n\nA. Silver\nB. Green\nC. Golden\nD. None of the above",
+      "response": "A"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What is the color of the headboard of the king-size bed in the master bedroom?\n\nA. Silver\nB. Green\nC. Golden",
+      "response": "A"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What is the color of the headboard of the king-size bed in the master bedroom?\n\nA. Elephant\nB. Cucumber\nC. Sapphire\nD. Pyramid\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What is the color of the headboard of the king-size bed in the master bedroom?\n\nA. Elephant\nB. Cucumber\nC. Sapphire\nD. Pyramid\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What is the color of the headboard of the king-size bed in the master bedroom?\n\nA. Elephant\nB. Cucumber\nC. Sapphire\nD. Pyramid",
+      "response": "None"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What is the shape of the window in the room?\n\nA. Circular\nB. Square\nC. Hexagonal\nD. Triangular\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What is the shape of the window in the room?\n\nA. Circular\nB. Square\nC. Hexagonal\nD. Triangular\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What is the shape of the window in the room?\n\nA. Circular\nB. Square\nC. Hexagonal\nD. Triangular",
+      "response": "None"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What material is the ceiling fan made of?",
+      "response": "unanswerable"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What material is the ceiling fan made of?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What is the color of the headboard of the king-size bed in the master bedroom?\n\nA. Beige\nB. Silver\nC. Green\nD. Golden",
+      "response": "B"
+    }
+  ]
+}

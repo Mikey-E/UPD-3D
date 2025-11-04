@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "f3c74c10-295f-400e-8953-84f44ab3ea0b@SecondBedroom-7774",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 5",
+  "timestamp": "2025-10-29T16:24:25.582034",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/f3c74c10-295f-400e-8953-84f44ab3ea0b/SecondBedroom-7774/SecondBedroom-7774.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What is located at the foot of the king-size bed in the described bedroom?\n\nA. Wardrobe\nB. Nightstand\nC. Dresser\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What is located at the foot of the king-size bed in the described bedroom?\n\nA. Wardrobe\nB. Nightstand\nC. Dresser\nD. None of the above",
+      "response": "d"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What is located at the foot of the king-size bed in the described bedroom?\n\nA. Wardrobe\nB. Nightstand\nC. Dresser",
+      "response": "none"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What is located at the foot of the king-size bed in the described bedroom?\n\nA. Tundra\nB. Desert\nC. Ocean\nD. Forest\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What is located at the foot of the king-size bed in the described bedroom?\n\nA. Tundra\nB. Desert\nC. Ocean\nD. Forest\nE. None of the above",
+      "response": "e"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What is located at the foot of the king-size bed in the described bedroom?\n\nA. Tundra\nB. Desert\nC. Ocean\nD. Forest",
+      "response": "none"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What is the height of the ceiling in the room?\n\nA. Ten feet\nB. Eight feet\nC. Twelve feet\nD. Fifteen feet\nIf none of the above answers are correct, answer: 'F'",
+      "response": "b"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What is the height of the ceiling in the room?\n\nA. Ten feet\nB. Eight feet\nC. Twelve feet\nD. Fifteen feet\nE. None of the above",
+      "response": "b"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What is the height of the ceiling in the room?\n\nA. Ten feet\nB. Eight feet\nC. Twelve feet\nD. Fifteen feet",
+      "response": "b"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What material is the chandelier made of?",
+      "response": "none"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What material is the chandelier made of?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What is located at the foot of the king-size bed in the described bedroom?\n\nA. Wardrobe\nB. Nightstand\nC. Dresser\nD. TV stand",
+      "response": "d"
+    }
+  ]
+}

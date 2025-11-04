@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "cb56a8e9-6eb7-43e9-b407-ef101d399e6e@MasterBedroom-7826",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 5",
+  "timestamp": "2025-10-14T11:30:25.168627",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/cb56a8e9-6eb7-43e9-b407-ef101d399e6e/MasterBedroom-7826/MasterBedroom-7826.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What type of lighting is provided by the floor lamp in the Masterbedroom?\n\nA. Vintage/Retro lighting\nB. Classic lighting\nC. Industrial lighting\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What type of lighting is provided by the floor lamp in the Masterbedroom?\n\nA. Vintage/Retro lighting\nB. Classic lighting\nC. Industrial lighting\nD. None of the above",
+      "response": "d"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What type of lighting is provided by the floor lamp in the Masterbedroom?\n\nA. Vintage/Retro lighting\nB. Classic lighting\nC. Industrial lighting",
+      "response": "none of these"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What type of lighting is provided by the floor lamp in the Masterbedroom?\n\nA. Oceanic wave patterns\nB. Celestial navigation\nC. Thermal insulation\nD. Biodiversity hotspots\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What type of lighting is provided by the floor lamp in the Masterbedroom?\n\nA. Oceanic wave patterns\nB. Celestial navigation\nC. Thermal insulation\nD. Biodiversity hotspots\nE. None of the above",
+      "response": "e"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What type of lighting is provided by the floor lamp in the Masterbedroom?\n\nA. Oceanic wave patterns\nB. Celestial navigation\nC. Thermal insulation\nD. Biodiversity hotspots",
+      "response": "none of these"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What type of chair is located in the scene?\n\nA. Recliner\nB. Armchair\nC. Dining chair\nD. Lounge chair\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What type of chair is located in the scene?\n\nA. Recliner\nB. Armchair\nC. Dining chair\nD. Lounge chair\nE. None of the above",
+      "response": "e"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What type of chair is located in the scene?\n\nA. Recliner\nB. Armchair\nC. Dining chair\nD. Lounge chair",
+      "response": "none of these"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What type of armchair is used in the room?",
+      "response": "unanswerable"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What type of armchair is used in the room?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What type of lighting is provided by the floor lamp in the Masterbedroom?\n\nA. Vintage/Retro lighting\nB. Classic lighting\nC. Modern lighting\nD. Industrial lighting",
+      "response": "none of these"
+    }
+  ]
+}

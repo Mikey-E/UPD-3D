@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "c3ef24dd-2280-42a2-9528-8b00e32deb15@Library-39090",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 3",
+  "timestamp": "2025-10-08T11:07:04.880965",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/c3ef24dd-2280-42a2-9528-8b00e32deb15/Library-39090/Library-39090.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What color is the bed frame that is described as deep brown?\n\nA. Light brown\nB. White\nC. Black\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What color is the bed frame that is described as deep brown?\n\nA. Light brown\nB. White\nC. Black\nD. None of the above",
+      "response": "D"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What color is the bed frame that is described as deep brown?\n\nA. Light brown\nB. White\nC. Black",
+      "response": "None"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What color is the bed frame that is described as deep brown?\n\nA. Tropical\nB. Mountainous\nC. Coastal\nD. Urban\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What color is the bed frame that is described as deep brown?\n\nA. Tropical\nB. Mountainous\nC. Coastal\nD. Urban\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What color is the bed frame that is described as deep brown?\n\nA. Tropical\nB. Mountainous\nC. Coastal\nD. Urban",
+      "response": "None"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What is the height of the tree in the middle of the room?\n\nA. 10 feet\nB. 15 feet\nC. 20 feet\nD. 25 feet\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What is the height of the tree in the middle of the room?\n\nA. 10 feet\nB. 15 feet\nC. 20 feet\nD. 25 feet\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What is the height of the tree in the middle of the room?\n\nA. 10 feet\nB. 15 feet\nC. 20 feet\nD. 25 feet",
+      "response": "N/A"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What type of outdoor furniture is placed in the yard?",
+      "response": "N/A"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What type of outdoor furniture is placed in the yard?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What color is the bed frame that is described as deep brown?\n\nA. Deep brown\nB. Light brown\nC. White\nD. Black",
+      "response": "A"
+    }
+  ]
+}

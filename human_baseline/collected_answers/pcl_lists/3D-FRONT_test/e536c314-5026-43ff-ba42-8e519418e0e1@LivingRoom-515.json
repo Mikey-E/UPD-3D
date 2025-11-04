@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "e536c314-5026-43ff-ba42-8e519418e0e1@LivingRoom-515",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 3",
+  "timestamp": "2025-10-26T16:03:01.009446",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/e536c314-5026-43ff-ba42-8e519418e0e1/LivingRoom-515/LivingRoom-515.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What is the primary material of the coffee table in the living room?\n\nA. Wood\nB. Glass\nC. Plastic\nIf none of the above answers are correct, answer: 'F'",
+      "response": "A"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What is the primary material of the coffee table in the living room?\n\nA. Wood\nB. Glass\nC. Plastic\nD. None of the above",
+      "response": "A"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What is the primary material of the coffee table in the living room?\n\nA. Wood\nB. Glass\nC. Plastic",
+      "response": "A"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What is the primary material of the coffee table in the living room?\n\nA. Blue whale\nB. Strawberry jam\nC. Mountain range\nD. Solar eclipse\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What is the primary material of the coffee table in the living room?\n\nA. Blue whale\nB. Strawberry jam\nC. Mountain range\nD. Solar eclipse\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What is the primary material of the coffee table in the living room?\n\nA. Blue whale\nB. Strawberry jam\nC. Mountain range\nD. Solar eclipse",
+      "response": "None"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What type of artwork is hanging in the living room?\n\nA. Landscape painting\nB. Abstract sculpture\nC. Framed photography\nD. Tapestry\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What type of artwork is hanging in the living room?\n\nA. Landscape painting\nB. Abstract sculpture\nC. Framed photography\nD. Tapestry\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What type of artwork is hanging in the living room?\n\nA. Landscape painting\nB. Abstract sculpture\nC. Framed photography\nD. Tapestry",
+      "response": "None"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What type of bookshelf is installed in the living room?",
+      "response": "N/A"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What type of bookshelf is installed in the living room?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What is the primary material of the coffee table in the living room?\n\nA. Wood\nB. Marble\nC. Glass\nD. Plastic",
+      "response": "B"
+    }
+  ]
+}

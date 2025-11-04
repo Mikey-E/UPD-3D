@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "c26d36fa-6f61-49b9-929d-8cb6f76ff916@KidsRoom-217",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 5",
+  "timestamp": "2025-10-09T09:17:34.496177",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/c26d36fa-6f61-49b9-929d-8cb6f76ff916/KidsRoom-217/KidsRoom-217.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What shape does the kids' bed in the room resemble?\n\nA. A car\nB. A house\nC. A tree\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What shape does the kids' bed in the room resemble?\n\nA. A car\nB. A house\nC. A tree\nD. None of the above",
+      "response": "d"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What shape does the kids' bed in the room resemble?\n\nA. A car\nB. A house\nC. A tree",
+      "response": "none of the above"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What shape does the kids' bed in the room resemble?\n\nA. Orange\nB. Bicycle\nC. Guitar\nD. Mountain\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What shape does the kids' bed in the room resemble?\n\nA. Orange\nB. Bicycle\nC. Guitar\nD. Mountain\nE. None of the above",
+      "response": "e"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What shape does the kids' bed in the room resemble?\n\nA. Orange\nB. Bicycle\nC. Guitar\nD. Mountain",
+      "response": "none of the above"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What is the shape of the table in the kitchen?\n\nA. Round\nB. Square\nC. Oval\nD. Rectangular\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What is the shape of the table in the kitchen?\n\nA. Round\nB. Square\nC. Oval\nD. Rectangular\nE. None of the above",
+      "response": "e"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What is the shape of the table in the kitchen?\n\nA. Round\nB. Square\nC. Oval\nD. Rectangular",
+      "response": "none of the above"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What type of sofa is placed in the room?",
+      "response": "no sofa placed"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What type of sofa is placed in the room?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What shape does the kids' bed in the room resemble?\n\nA. A car\nB. A house\nC. A boat\nD. A tree",
+      "response": "none of the above"
+    }
+  ]
+}

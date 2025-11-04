@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "df84d678-cec9-4909-b09d-e57fad3b9d01@LivingDiningRoom-27805",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 5",
+  "timestamp": "2025-10-24T20:08:28.108668",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/df84d678-cec9-4909-b09d-e57fad3b9d01/LivingDiningRoom-27805/LivingDiningRoom-27805.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What style is the three-seat sofa in this living room?\n\nA. Industrial\nB. Modern\nC. Neoclassical\nIf none of the above answers are correct, answer: 'F'",
+      "response": "b"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What style is the three-seat sofa in this living room?\n\nA. Industrial\nB. Modern\nC. Neoclassical\nD. None of the above",
+      "response": "b"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What style is the three-seat sofa in this living room?\n\nA. Industrial\nB. Modern\nC. Neoclassical",
+      "response": "b"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What style is the three-seat sofa in this living room?\n\nA. Maple syrup\nB. Raccoon\nC. Interstellar travel\nD. Quantum physics\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What style is the three-seat sofa in this living room?\n\nA. Maple syrup\nB. Raccoon\nC. Interstellar travel\nD. Quantum physics\nE. None of the above",
+      "response": "e"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What style is the three-seat sofa in this living room?\n\nA. Maple syrup\nB. Raccoon\nC. Interstellar travel\nD. Quantum physics",
+      "response": "none"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What type of flooring is used in the living room?\n\nA. Hardwood\nB. Carpet\nC. Tile\nD. Laminate\nIf none of the above answers are correct, answer: 'F'",
+      "response": "b"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What type of flooring is used in the living room?\n\nA. Hardwood\nB. Carpet\nC. Tile\nD. Laminate\nE. None of the above",
+      "response": "b"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What type of flooring is used in the living room?\n\nA. Hardwood\nB. Carpet\nC. Tile\nD. Laminate",
+      "response": "b"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What type of fireplace is in the room?",
+      "response": "none"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What type of fireplace is in the room?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What style is the three-seat sofa in this living room?\n\nA. Southeast Asian\nB. Industrial\nC. Modern\nD. Neoclassical",
+      "response": "c"
+    }
+  ]
+}

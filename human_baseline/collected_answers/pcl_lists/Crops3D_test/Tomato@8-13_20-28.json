@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "Tomato@8-13_20-28",
+  "dataset": "Crops3D_test",
+  "annotated_by": "User 5",
+  "timestamp": "2025-10-31T06:31:16.617296",
+  "file_path": "/project/3dllms/melgin/datasets/CEA/Crops3D/Tomato/8-13_20-28.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What is the overall appearance of the plant described? \n\nA. It features a dense, bushy appearance\nB. It has thick, solid stems with broad leaves\nC. It is characterized by large, flat leaves\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What is the overall appearance of the plant described? \n\nA. It features a dense, bushy appearance\nB. It has thick, solid stems with broad leaves\nC. It is characterized by large, flat leaves\nD. None of the above",
+      "response": "d"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What is the overall appearance of the plant described? \n\nA. It features a dense, bushy appearance\nB. It has thick, solid stems with broad leaves\nC. It is characterized by large, flat leaves",
+      "response": "none"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What is the overall appearance of the plant described? \n\nA. Penguin costume\nB. Electric guitar\nC. Classic car\nD. Chocolate cake\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What is the overall appearance of the plant described? \n\nA. Penguin costume\nB. Electric guitar\nC. Classic car\nD. Chocolate cake\nE. None of the above",
+      "response": "e"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What is the overall appearance of the plant described? \n\nA. Penguin costume\nB. Electric guitar\nC. Classic car\nD. Chocolate cake",
+      "response": "none"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What size is the table in the scene?\n\nA. Small\nB. Large\nC. Medium\nD. Extra large\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What size is the table in the scene?\n\nA. Small\nB. Large\nC. Medium\nD. Extra large\nE. None of the above",
+      "response": "e"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What size is the table in the scene?\n\nA. Small\nB. Large\nC. Medium\nD. Extra large",
+      "response": "none"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What shape is the rug in the room?",
+      "response": "none"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What shape is the rug in the room?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What is the overall appearance of the plant described? \n\nA. It displays a feathery, lace-like frond\nB. It features a dense, bushy appearance\nC. It has thick, solid stems with broad leaves\nD. It is characterized by large, flat leaves",
+      "response": "a"
+    }
+  ]
+}

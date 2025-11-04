@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "c7714c19-506d-4f2f-b7f7-88bc33b906f9@Library-46437",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 3",
+  "timestamp": "2025-10-10T15:35:30.674973",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/c7714c19-506d-4f2f-b7f7-88bc33b906f9/Library-46437/Library-46437.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What color is the lounge chair in the library?\n\nA. Black\nB. Dark walnut\nC. Light beige\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What color is the lounge chair in the library?\n\nA. Black\nB. Dark walnut\nC. Light beige\nD. None of the above",
+      "response": "D"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What color is the lounge chair in the library?\n\nA. Black\nB. Dark walnut\nC. Light beige",
+      "response": "None"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What color is the lounge chair in the library?\n\nA. Solar system\nB. Ocean depth\nC. Mountain range\nD. Desert landscape\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What color is the lounge chair in the library?\n\nA. Solar system\nB. Ocean depth\nC. Mountain range\nD. Desert landscape\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What color is the lounge chair in the library?\n\nA. Solar system\nB. Ocean depth\nC. Mountain range\nD. Desert landscape",
+      "response": "None"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What type of flooring is found in the scene?\n\nA. Hardwood\nB. Carpet\nC. Tile\nD. Laminate\nIf none of the above answers are correct, answer: 'F'",
+      "response": "C"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What type of flooring is found in the scene?\n\nA. Hardwood\nB. Carpet\nC. Tile\nD. Laminate\nE. None of the above",
+      "response": "C"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What type of flooring is found in the scene?\n\nA. Hardwood\nB. Carpet\nC. Tile\nD. Laminate",
+      "response": "C"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What is the texture of the rug in front of the lounge chair?",
+      "response": "N/A"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What is the texture of the rug in front of the lounge chair?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What color is the lounge chair in the library?\n\nA. Black\nB. Dark walnut\nC. Chocolate brown\nD. Light beige",
+      "response": "C"
+    }
+  ]
+}

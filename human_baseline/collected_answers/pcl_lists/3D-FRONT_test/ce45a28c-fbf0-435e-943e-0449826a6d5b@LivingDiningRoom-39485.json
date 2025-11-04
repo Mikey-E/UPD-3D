@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "ce45a28c-fbf0-435e-943e-0449826a6d5b@LivingDiningRoom-39485",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 4",
+  "timestamp": "2025-10-14T15:26:58.160983",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/ce45a28c-fbf0-435e-943e-0449826a6d5b/LivingDiningRoom-39485/LivingDiningRoom-39485.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What style is the dining table in the living room primarily designed?\n\nA. Modern style\nB. Neoclassical style\nC. Southeast Asian style\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What style is the dining table in the living room primarily designed?\n\nA. Modern style\nB. Neoclassical style\nC. Southeast Asian style\nD. None of the above",
+      "response": "D"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What style is the dining table in the living room primarily designed?\n\nA. Modern style\nB. Neoclassical style\nC. Southeast Asian style",
+      "response": "NONE"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What style is the dining table in the living room primarily designed?\n\nA. Ocean currents\nB. Mountain ranges\nC. Desert landscapes\nD. Rainforest ecosystems\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What style is the dining table in the living room primarily designed?\n\nA. Ocean currents\nB. Mountain ranges\nC. Desert landscapes\nD. Rainforest ecosystems\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What style is the dining table in the living room primarily designed?\n\nA. Ocean currents\nB. Mountain ranges\nC. Desert landscapes\nD. Rainforest ecosystems",
+      "response": "NONE"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What is the height of the chandelier in the living room?\n\nA. 5 feet\nB. 10 feet\nC. 7 feet\nD. 12 feet\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What is the height of the chandelier in the living room?\n\nA. 5 feet\nB. 10 feet\nC. 7 feet\nD. 12 feet\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What is the height of the chandelier in the living room?\n\nA. 5 feet\nB. 10 feet\nC. 7 feet\nD. 12 feet",
+      "response": "NONE"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What type of artwork is hanging on the walls?",
+      "response": "UNANSWERABLE"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What type of artwork is hanging on the walls?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What style is the dining table in the living room primarily designed?\n\nA. Modern style\nB. Neoclassical style\nC. Japanese style\nD. Southeast Asian style",
+      "response": "C"
+    }
+  ]
+}

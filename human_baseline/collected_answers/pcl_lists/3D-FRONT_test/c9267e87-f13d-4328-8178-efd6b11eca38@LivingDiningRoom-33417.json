@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "c9267e87-f13d-4328-8178-efd6b11eca38@LivingDiningRoom-33417",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 4",
+  "timestamp": "2025-10-13T19:29:32.355140",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/c9267e87-f13d-4328-8178-efd6b11eca38/LivingDiningRoom-33417/LivingDiningRoom-33417.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What type of chairs surround the dining table in the living room?\n\nA. Brown wooden chairs\nB. Red upholstered chairs\nC. White plastic chairs\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What type of chairs surround the dining table in the living room?\n\nA. Brown wooden chairs\nB. Red upholstered chairs\nC. White plastic chairs\nD. None of the above",
+      "response": "D"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What type of chairs surround the dining table in the living room?\n\nA. Brown wooden chairs\nB. Red upholstered chairs\nC. White plastic chairs",
+      "response": "NONE"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What type of chairs surround the dining table in the living room?\n\nA. Whistle\nB. Acapella\nC. Crescendo\nD. Harmony\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What type of chairs surround the dining table in the living room?\n\nA. Whistle\nB. Acapella\nC. Crescendo\nD. Harmony\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What type of chairs surround the dining table in the living room?\n\nA. Whistle\nB. Acapella\nC. Crescendo\nD. Harmony",
+      "response": "NONE OF THESE"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What texture does the ceiling have in this scene?\n\nA. Smooth glass\nB. Rough plaster\nC. Soft fabric\nD. Polished metal\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What texture does the ceiling have in this scene?\n\nA. Smooth glass\nB. Rough plaster\nC. Soft fabric\nD. Polished metal\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What texture does the ceiling have in this scene?\n\nA. Smooth glass\nB. Rough plaster\nC. Soft fabric\nD. Polished metal",
+      "response": "NONE OF THESE"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What is the capacity of the refrigerator in the kitchen?",
+      "response": "N/A"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What is the capacity of the refrigerator in the kitchen?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What type of chairs surround the dining table in the living room?\n\nA. Brown wooden chairs\nB. Red upholstered chairs\nC. Black dining chairs\nD. White plastic chairs",
+      "response": "C"
+    }
+  ]
+}

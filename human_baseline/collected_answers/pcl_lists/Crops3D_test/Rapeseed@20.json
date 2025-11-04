@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "Rapeseed@20",
+  "dataset": "Crops3D_test",
+  "annotated_by": "User 5",
+  "timestamp": "2025-10-30T12:11:10.450304",
+  "file_path": "/project/3dllms/melgin/datasets/CEA/Crops3D/Rapeseed/20.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What type of container is described in the text?\n\nA. A rectangular container\nB. A glass bowl\nC. A woven basket\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What type of container is described in the text?\n\nA. A rectangular container\nB. A glass bowl\nC. A woven basket\nD. None of the above",
+      "response": "d"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What type of container is described in the text?\n\nA. A rectangular container\nB. A glass bowl\nC. A woven basket",
+      "response": "none"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What type of container is described in the text?\n\nA. Refrigerator\nB. Dishwasher\nC. Microwave\nD. Oven\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What type of container is described in the text?\n\nA. Refrigerator\nB. Dishwasher\nC. Microwave\nD. Oven\nE. None of the above",
+      "response": "e"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What type of container is described in the text?\n\nA. Refrigerator\nB. Dishwasher\nC. Microwave\nD. Oven",
+      "response": "none"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What type of window treatment is used in the scene?\n\nA. Sheer curtains\nB. Wooden blinds\nC. Roman shades\nD. Roller shades\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What type of window treatment is used in the scene?\n\nA. Sheer curtains\nB. Wooden blinds\nC. Roman shades\nD. Roller shades\nE. None of the above",
+      "response": "e"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What type of window treatment is used in the scene?\n\nA. Sheer curtains\nB. Wooden blinds\nC. Roman shades\nD. Roller shades",
+      "response": "none"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What type of chandelier is hanging from the ceiling?",
+      "response": "none"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What type of chandelier is hanging from the ceiling?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What type of container is described in the text?\n\nA. A dark cylindrical metal container\nB. A rectangular container\nC. A glass bowl\nD. A woven basket",
+      "response": "a"
+    }
+  ]
+}

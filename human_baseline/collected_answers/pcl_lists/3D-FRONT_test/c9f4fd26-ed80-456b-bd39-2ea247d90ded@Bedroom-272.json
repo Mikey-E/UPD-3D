@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "c9f4fd26-ed80-456b-bd39-2ea247d90ded@Bedroom-272",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 4",
+  "timestamp": "2025-10-14T09:03:46.130816",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/c9f4fd26-ed80-456b-bd39-2ea247d90ded/Bedroom-272/Bedroom-272.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What color are the slate grey louvered doors of the wardrobe in the bedroom?\n\nA. Light gray\nB. Pastel mint green\nC. Blush pink\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What color are the slate grey louvered doors of the wardrobe in the bedroom?\n\nA. Light gray\nB. Pastel mint green\nC. Blush pink\nD. None of the above",
+      "response": "D"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What color are the slate grey louvered doors of the wardrobe in the bedroom?\n\nA. Light gray\nB. Pastel mint green\nC. Blush pink",
+      "response": "NONE"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What color are the slate grey louvered doors of the wardrobe in the bedroom?\n\nA. Hummingbird\nB. Silverware\nC. Spaceship\nD. Waterfall\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What color are the slate grey louvered doors of the wardrobe in the bedroom?\n\nA. Hummingbird\nB. Silverware\nC. Spaceship\nD. Waterfall\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What color are the slate grey louvered doors of the wardrobe in the bedroom?\n\nA. Hummingbird\nB. Silverware\nC. Spaceship\nD. Waterfall",
+      "response": "NONE"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What type of animal is the centerpiece of the scene?\n\nA. Elephant\nB. Giraffe\nC. Lion\nD. Panda\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What type of animal is the centerpiece of the scene?\n\nA. Elephant\nB. Giraffe\nC. Lion\nD. Panda\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What type of animal is the centerpiece of the scene?\n\nA. Elephant\nB. Giraffe\nC. Lion\nD. Panda",
+      "response": "NONE"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What is the shape of the bookshelf?",
+      "response": "N/A"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What is the shape of the bookshelf?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What color are the slate grey louvered doors of the wardrobe in the bedroom?\n\nA. Slate grey\nB. Light gray\nC. Pastel mint green\nD. Blush pink",
+      "response": "A"
+    }
+  ]
+}

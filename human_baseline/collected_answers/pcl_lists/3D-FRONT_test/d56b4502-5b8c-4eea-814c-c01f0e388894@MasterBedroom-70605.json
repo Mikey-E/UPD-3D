@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "d56b4502-5b8c-4eea-814c-c01f0e388894@MasterBedroom-70605",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 4",
+  "timestamp": "2025-10-16T11:35:52.208165",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/d56b4502-5b8c-4eea-814c-c01f0e388894/MasterBedroom-70605/MasterBedroom-70605.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What style is the wardrobe in the room?\n\nA. Southeast Asian style\nB. Modern style\nC. Rustic style\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What style is the wardrobe in the room?\n\nA. Southeast Asian style\nB. Modern style\nC. Rustic style\nD. None of the above",
+      "response": "d"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What style is the wardrobe in the room?\n\nA. Southeast Asian style\nB. Modern style\nC. Rustic style",
+      "response": "none"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What style is the wardrobe in the room?\n\nA. Tropical rainforest\nB. Arctic tundra\nC. Desert canyon\nD. Oceanic trench\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What style is the wardrobe in the room?\n\nA. Tropical rainforest\nB. Arctic tundra\nC. Desert canyon\nD. Oceanic trench\nE. None of the above",
+      "response": "e"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What style is the wardrobe in the room?\n\nA. Tropical rainforest\nB. Arctic tundra\nC. Desert canyon\nD. Oceanic trench",
+      "response": "none"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What type of fruit is featured prominently in the scene?\n\nA. Apple\nB. Banana\nC. Cherry\nD. Mango\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What type of fruit is featured prominently in the scene?\n\nA. Apple\nB. Banana\nC. Cherry\nD. Mango\nE. None of the above",
+      "response": "e"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What type of fruit is featured prominently in the scene?\n\nA. Apple\nB. Banana\nC. Cherry\nD. Mango",
+      "response": "none"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What is the height of the tree outside the window?",
+      "response": "n/a"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What is the height of the tree outside the window?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What style is the wardrobe in the room?\n\nA. Southeast Asian style\nB. Japanese style\nC. Modern style\nD. Rustic style",
+      "response": "b"
+    }
+  ]
+}

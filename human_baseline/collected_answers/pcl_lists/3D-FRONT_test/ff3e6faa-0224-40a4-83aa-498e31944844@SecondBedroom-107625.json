@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "ff3e6faa-0224-40a4-83aa-498e31944844@SecondBedroom-107625",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 5",
+  "timestamp": "2025-10-31T08:27:36.211628",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/ff3e6faa-0224-40a4-83aa-498e31944844/SecondBedroom-107625/SecondBedroom-107625.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What color is the headboard of the king-size bed in the Second bedroom?\n\nA. Dark brown\nB. Bright white\nC. Deep blue\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What color is the headboard of the king-size bed in the Second bedroom?\n\nA. Dark brown\nB. Bright white\nC. Deep blue\nD. None of the above",
+      "response": "d"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What color is the headboard of the king-size bed in the Second bedroom?\n\nA. Dark brown\nB. Bright white\nC. Deep blue",
+      "response": "none"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What color is the headboard of the king-size bed in the Second bedroom?\n\nA. Mountain peak\nB. Ocean wave\nC. Desert sand\nD. Forest trail\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What color is the headboard of the king-size bed in the Second bedroom?\n\nA. Mountain peak\nB. Ocean wave\nC. Desert sand\nD. Forest trail\nE. None of the above",
+      "response": "e"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What color is the headboard of the king-size bed in the Second bedroom?\n\nA. Mountain peak\nB. Ocean wave\nC. Desert sand\nD. Forest trail",
+      "response": "none"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What type of painting is displayed on the wall?\n\nA. Abstract\nB. Landscape\nC. Portrait\nD. Still life\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What type of painting is displayed on the wall?\n\nA. Abstract\nB. Landscape\nC. Portrait\nD. Still life\nE. None of the above",
+      "response": "e"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What type of painting is displayed on the wall?\n\nA. Abstract\nB. Landscape\nC. Portrait\nD. Still life",
+      "response": "none"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What type of rug is placed in front of the bed?",
+      "response": "none"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What type of rug is placed in front of the bed?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What color is the headboard of the king-size bed in the Second bedroom?\n\nA. Dark brown\nB. Soft beige\nC. Bright white\nD. Deep blue",
+      "response": "b"
+    }
+  ]
+}

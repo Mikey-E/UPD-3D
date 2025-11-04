@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "Rice@48",
+  "dataset": "Crops3D_test",
+  "annotated_by": "User 5",
+  "timestamp": "2025-10-31T06:26:37.161217",
+  "file_path": "/project/3dllms/melgin/datasets/CEA/Crops3D/Rice/48.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What shape is the pot that holds the potted plant?\n\nA. Rectangular\nB. Square\nC. Oval\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What shape is the pot that holds the potted plant?\n\nA. Rectangular\nB. Square\nC. Oval\nD. None of the above",
+      "response": "d"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What shape is the pot that holds the potted plant?\n\nA. Rectangular\nB. Square\nC. Oval",
+      "response": "none"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What shape is the pot that holds the potted plant?\n\nA. Cloud\nB. Mountain\nC. Ocean\nD. Desert\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What shape is the pot that holds the potted plant?\n\nA. Cloud\nB. Mountain\nC. Ocean\nD. Desert\nE. None of the above",
+      "response": "e"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What shape is the pot that holds the potted plant?\n\nA. Cloud\nB. Mountain\nC. Ocean\nD. Desert",
+      "response": "none"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What is the primary color of the bicycle?\n\nA. Red\nB. Blue\nC. Green\nD. Yellow\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What is the primary color of the bicycle?\n\nA. Red\nB. Blue\nC. Green\nD. Yellow\nE. None of the above",
+      "response": "e"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What is the primary color of the bicycle?\n\nA. Red\nB. Blue\nC. Green\nD. Yellow",
+      "response": "none"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What type of animal is sleeping in the corner?",
+      "response": "none"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What type of animal is sleeping in the corner?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What shape is the pot that holds the potted plant?\n\nA. Rectangular\nB. Square\nC. Cylindrical\nD. Oval",
+      "response": "c"
+    }
+  ]
+}

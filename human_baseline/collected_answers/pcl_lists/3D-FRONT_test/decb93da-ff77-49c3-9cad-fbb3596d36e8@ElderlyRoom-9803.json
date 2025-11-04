@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "decb93da-ff77-49c3-9cad-fbb3596d36e8@ElderlyRoom-9803",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 4",
+  "timestamp": "2025-10-24T16:28:03.738362",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/decb93da-ff77-49c3-9cad-fbb3596d36e8/ElderlyRoom-9803/ElderlyRoom-9803.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What piece of furniture is positioned next to the king-size bed in the elderly room?\n\nA. Wardrobe\nB. TV stand\nC. Shelf\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What piece of furniture is positioned next to the king-size bed in the elderly room?\n\nA. Wardrobe\nB. TV stand\nC. Shelf\nD. None of the above",
+      "response": "d"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What piece of furniture is positioned next to the king-size bed in the elderly room?\n\nA. Wardrobe\nB. TV stand\nC. Shelf",
+      "response": "none"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What piece of furniture is positioned next to the king-size bed in the elderly room?\n\nA. Tomato sauce\nB. Blueberry pie\nC. Chocolate chip cookies\nD. Vanilla ice cream\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What piece of furniture is positioned next to the king-size bed in the elderly room?\n\nA. Tomato sauce\nB. Blueberry pie\nC. Chocolate chip cookies\nD. Vanilla ice cream\nE. None of the above",
+      "response": "e"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What piece of furniture is positioned next to the king-size bed in the elderly room?\n\nA. Tomato sauce\nB. Blueberry pie\nC. Chocolate chip cookies\nD. Vanilla ice cream",
+      "response": "none"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What is the texture of the sofa in the room?\n\nA. Velvet\nB. Leather\nC. Cotton\nD. Linen\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What is the texture of the sofa in the room?\n\nA. Velvet\nB. Leather\nC. Cotton\nD. Linen\nE. None of the above",
+      "response": "e"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What is the texture of the sofa in the room?\n\nA. Velvet\nB. Leather\nC. Cotton\nD. Linen",
+      "response": "none"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What type of musical instrument is on the shelf?",
+      "response": "n/a"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What type of musical instrument is on the shelf?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What piece of furniture is positioned next to the king-size bed in the elderly room?\n\nA. Nightstand\nB. Wardrobe\nC. TV stand\nD. Shelf",
+      "response": "a"
+    }
+  ]
+}

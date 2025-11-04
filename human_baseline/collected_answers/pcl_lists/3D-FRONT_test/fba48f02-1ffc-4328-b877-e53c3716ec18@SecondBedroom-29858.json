@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "fba48f02-1ffc-4328-b877-e53c3716ec18@SecondBedroom-29858",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 3",
+  "timestamp": "2025-10-30T16:20:17.338138",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/fba48f02-1ffc-4328-b877-e53c3716ec18/SecondBedroom-29858/SecondBedroom-29858.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What style is the armchair in the Second bedroom?\n\nA. Jet black\nB. Dark grey\nC. White\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What style is the armchair in the Second bedroom?\n\nA. Jet black\nB. Dark grey\nC. White\nD. None of the above",
+      "response": "D"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What style is the armchair in the Second bedroom?\n\nA. Jet black\nB. Dark grey\nC. White",
+      "response": "NONE"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What style is the armchair in the Second bedroom?\n\nA. Rocky\nB. Sandy\nC. Wetlands\nD. Desert\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What style is the armchair in the Second bedroom?\n\nA. Rocky\nB. Sandy\nC. Wetlands\nD. Desert\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What style is the armchair in the Second bedroom?\n\nA. Rocky\nB. Sandy\nC. Wetlands\nD. Desert",
+      "response": "NONE"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What is the texture of the wall murals?\n\nA. Smooth\nB. Rough\nC. Glossy\nD. Matte\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What is the texture of the wall murals?\n\nA. Smooth\nB. Rough\nC. Glossy\nD. Matte\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What is the texture of the wall murals?\n\nA. Smooth\nB. Rough\nC. Glossy\nD. Matte",
+      "response": "NA"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What type of outdoor grill is present in the room?",
+      "response": "NA"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What type of outdoor grill is present in the room?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What style is the armchair in the Second bedroom?\n\nA. Jet black\nB. Dark grey\nC. Light grey\nD. White",
+      "response": "C"
+    }
+  ]
+}

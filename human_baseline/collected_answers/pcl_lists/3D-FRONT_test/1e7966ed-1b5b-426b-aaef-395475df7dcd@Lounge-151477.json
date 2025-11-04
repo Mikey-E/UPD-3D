@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "1e7966ed-1b5b-426b-aaef-395475df7dcd@Lounge-151477",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 3",
+  "timestamp": "2025-10-31T10:46:18.322107",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/1e7966ed-1b5b-426b-aaef-395475df7dcd/Lounge-151477/Lounge-151477.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What type of seating is at the center of the lounge?\n\nA. Armchair\nB. Bar stool\nC. Recliner\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What type of seating is at the center of the lounge?\n\nA. Armchair\nB. Bar stool\nC. Recliner\nD. None of the above",
+      "response": "D"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What type of seating is at the center of the lounge?\n\nA. Armchair\nB. Bar stool\nC. Recliner",
+      "response": "None"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What type of seating is at the center of the lounge?\n\nA. Tropical rainforest\nB. Desert ecosystem\nC. Polar ice cap\nD. Ocean trench\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What type of seating is at the center of the lounge?\n\nA. Tropical rainforest\nB. Desert ecosystem\nC. Polar ice cap\nD. Ocean trench\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What type of seating is at the center of the lounge?\n\nA. Tropical rainforest\nB. Desert ecosystem\nC. Polar ice cap\nD. Ocean trench",
+      "response": "None"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What color is the vase on the table?\n\nA. Red\nB. Green\nC. Blue\nD. Yellow\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What color is the vase on the table?\n\nA. Red\nB. Green\nC. Blue\nD. Yellow\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What color is the vase on the table?\n\nA. Red\nB. Green\nC. Blue\nD. Yellow",
+      "response": "None"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What type of exercise equipment is in the room?",
+      "response": "N/A"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What type of exercise equipment is in the room?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What type of seating is at the center of the lounge?\n\nA. Three-seat sofa\nB. Armchair\nC. Bar stool\nD. Recliner",
+      "response": "A"
+    }
+  ]
+}

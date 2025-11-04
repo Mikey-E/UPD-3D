@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "d21b7052-ad7d-4fa8-baf9-0e8582e5071d@MasterBedroom-412509",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 5",
+  "timestamp": "2025-10-15T14:15:42.239266",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/d21b7052-ad7d-4fa8-baf9-0e8582e5071d/MasterBedroom-412509/MasterBedroom-412509.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What color is the king-size bed in the Master bedroom?\n\nA. Light Beige\nB. Dark Mahogany\nC. Jet Black\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What color is the king-size bed in the Master bedroom?\n\nA. Light Beige\nB. Dark Mahogany\nC. Jet Black\nD. None of the above",
+      "response": "d"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What color is the king-size bed in the Master bedroom?\n\nA. Light Beige\nB. Dark Mahogany\nC. Jet Black",
+      "response": "none of these"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What color is the king-size bed in the Master bedroom?\n\nA. Ocean\nB. Mountain\nC. Forest\nD. Desert\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What color is the king-size bed in the Master bedroom?\n\nA. Ocean\nB. Mountain\nC. Forest\nD. Desert\nE. None of the above",
+      "response": "e"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What color is the king-size bed in the Master bedroom?\n\nA. Ocean\nB. Mountain\nC. Forest\nD. Desert",
+      "response": "none of these"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What specific type of rug is used in the Master bedroom?\n\nA. Persian rug\nB. Shag rug\nC. Jute rug\nD. Wool rug\nIf none of the above answers are correct, answer: 'F'",
+      "response": "c"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What specific type of rug is used in the Master bedroom?\n\nA. Persian rug\nB. Shag rug\nC. Jute rug\nD. Wool rug\nE. None of the above",
+      "response": "c"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What specific type of rug is used in the Master bedroom?\n\nA. Persian rug\nB. Shag rug\nC. Jute rug\nD. Wool rug",
+      "response": "c"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What is the color of the kitchen table?",
+      "response": "unanswerable"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What is the color of the kitchen table?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What color is the king-size bed in the Master bedroom?\n\nA. Light Beige\nB. Soft Grey\nC. Dark Mahogany\nD. Jet Black",
+      "response": "b"
+    }
+  ]
+}

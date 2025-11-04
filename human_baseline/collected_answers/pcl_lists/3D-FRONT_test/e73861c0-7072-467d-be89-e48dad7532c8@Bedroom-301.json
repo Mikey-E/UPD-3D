@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "e73861c0-7072-467d-be89-e48dad7532c8@Bedroom-301",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 3",
+  "timestamp": "2025-10-27T08:10:24.913920",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/e73861c0-7072-467d-be89-e48dad7532c8/Bedroom-301/Bedroom-301.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What style is the dressing chair in the bedroom described?\n\nA. Korean style\nB. Light Luxury style\nC. Japanese minimalist style\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What style is the dressing chair in the bedroom described?\n\nA. Korean style\nB. Light Luxury style\nC. Japanese minimalist style\nD. None of the above",
+      "response": "D"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What style is the dressing chair in the bedroom described?\n\nA. Korean style\nB. Light Luxury style\nC. Japanese minimalist style",
+      "response": "None"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What style is the dressing chair in the bedroom described?\n\nA. Symphony\nB. Ballet\nC. Jazz\nD. Rock\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What style is the dressing chair in the bedroom described?\n\nA. Symphony\nB. Ballet\nC. Jazz\nD. Rock\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What style is the dressing chair in the bedroom described?\n\nA. Symphony\nB. Ballet\nC. Jazz\nD. Rock",
+      "response": "None"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What is the height of the ceiling in the scene?\n\nA. 10 feet\nB. 12 feet\nC. 8 feet\nD. 14 feet\nIf none of the above answers are correct, answer: 'F'",
+      "response": "B"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What is the height of the ceiling in the scene?\n\nA. 10 feet\nB. 12 feet\nC. 8 feet\nD. 14 feet\nE. None of the above",
+      "response": "B"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What is the height of the ceiling in the scene?\n\nA. 10 feet\nB. 12 feet\nC. 8 feet\nD. 14 feet",
+      "response": "B"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What type of outdoor grill is set up in the scene?",
+      "response": "N/A"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What type of outdoor grill is set up in the scene?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What style is the dressing chair in the bedroom described?\n\nA. Korean style\nB. American Country style\nC. Light Luxury style\nD. Japanese minimalist style",
+      "response": "B"
+    }
+  ]
+}

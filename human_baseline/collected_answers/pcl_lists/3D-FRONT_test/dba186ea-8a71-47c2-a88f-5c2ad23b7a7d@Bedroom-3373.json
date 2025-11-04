@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "dba186ea-8a71-47c2-a88f-5c2ad23b7a7d@Bedroom-3373",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 4",
+  "timestamp": "2025-10-20T21:00:49.481591",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/dba186ea-8a71-47c2-a88f-5c2ad23b7a7d/Bedroom-3373/Bedroom-3373.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What is the color scheme of the wardrobe in the bedroom?\n\nA. Dark brown with orange accents\nB. Bright white with silver accents\nC. Light gray with blue accents\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What is the color scheme of the wardrobe in the bedroom?\n\nA. Dark brown with orange accents\nB. Bright white with silver accents\nC. Light gray with blue accents\nD. None of the above",
+      "response": "D"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What is the color scheme of the wardrobe in the bedroom?\n\nA. Dark brown with orange accents\nB. Bright white with silver accents\nC. Light gray with blue accents",
+      "response": "None"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What is the color scheme of the wardrobe in the bedroom?\n\nA. Lavender\nB. Cucumber\nC. Sandcastle\nD. Marshmallow\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What is the color scheme of the wardrobe in the bedroom?\n\nA. Lavender\nB. Cucumber\nC. Sandcastle\nD. Marshmallow\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What is the color scheme of the wardrobe in the bedroom?\n\nA. Lavender\nB. Cucumber\nC. Sandcastle\nD. Marshmallow",
+      "response": "None"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What type of flooring is used in the room?\n\nA. Carpet\nB. Tile\nC. Hardwood\nD. Laminate\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What type of flooring is used in the room?\n\nA. Carpet\nB. Tile\nC. Hardwood\nD. Laminate\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What type of flooring is used in the room?\n\nA. Carpet\nB. Tile\nC. Hardwood\nD. Laminate",
+      "response": "None"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What type of rug is placed in the center of the room?",
+      "response": "unanswerable"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What type of rug is placed in the center of the room?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What is the color scheme of the wardrobe in the bedroom?\n\nA. Dark brown with orange accents\nB. Bright white with silver accents\nC. Matte black with golden accents\nD. Light gray with blue accents",
+      "response": "C"
+    }
+  ]
+}

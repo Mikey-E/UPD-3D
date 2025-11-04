@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "eafd826b-cd4d-4ecc-ad0e-56b3b2a461b8@LivingDiningRoom-51763",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 4",
+  "timestamp": "2025-10-27T15:16:34.875052",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/eafd826b-cd4d-4ecc-ad0e-56b3b2a461b8/LivingDiningRoom-51763/LivingDiningRoom-51763.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What piece of furniture is positioned in front of the three-seat sofa?\n\nA. Armchair\nB. Corner table\nC. Dining table\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What piece of furniture is positioned in front of the three-seat sofa?\n\nA. Armchair\nB. Corner table\nC. Dining table\nD. None of the above",
+      "response": "D"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What piece of furniture is positioned in front of the three-seat sofa?\n\nA. Armchair\nB. Corner table\nC. Dining table",
+      "response": "None"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What piece of furniture is positioned in front of the three-seat sofa?\n\nA. Garnet\nB. Quartz\nC. Amethyst\nD. Sapphire\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What piece of furniture is positioned in front of the three-seat sofa?\n\nA. Garnet\nB. Quartz\nC. Amethyst\nD. Sapphire\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What piece of furniture is positioned in front of the three-seat sofa?\n\nA. Garnet\nB. Quartz\nC. Amethyst\nD. Sapphire",
+      "response": "None"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What type of roof does the building have?\n\nA. Flat roof\nB. Gabled roof\nC. Thatched roof\nD. Hyperbolic paraboloid roof\nIf none of the above answers are correct, answer: 'F'",
+      "response": "A"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What type of roof does the building have?\n\nA. Flat roof\nB. Gabled roof\nC. Thatched roof\nD. Hyperbolic paraboloid roof\nE. None of the above",
+      "response": "A"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What type of roof does the building have?\n\nA. Flat roof\nB. Gabled roof\nC. Thatched roof\nD. Hyperbolic paraboloid roof",
+      "response": "A"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What type of exercise equipment is located in the room?",
+      "response": "unanswerable"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What type of exercise equipment is located in the room?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What piece of furniture is positioned in front of the three-seat sofa?\n\nA. Armchair\nB. Corner table\nC. Dining table\nD. Loveseat sofa",
+      "response": "D"
+    }
+  ]
+}

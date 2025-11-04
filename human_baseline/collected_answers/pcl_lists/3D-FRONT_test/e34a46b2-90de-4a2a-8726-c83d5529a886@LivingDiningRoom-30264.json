@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "e34a46b2-90de-4a2a-8726-c83d5529a886@LivingDiningRoom-30264",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 4",
+  "timestamp": "2025-10-25T16:08:44.287787",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/e34a46b2-90de-4a2a-8726-c83d5529a886/LivingDiningRoom-30264/LivingDiningRoom-30264.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What is the purpose of the dining table in the living room?\n\nA. To serve as a coffee table for beverages\nB. To provide seating for relaxation\nC. To store decorative items\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What is the purpose of the dining table in the living room?\n\nA. To serve as a coffee table for beverages\nB. To provide seating for relaxation\nC. To store decorative items\nD. None of the above",
+      "response": "D"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What is the purpose of the dining table in the living room?\n\nA. To serve as a coffee table for beverages\nB. To provide seating for relaxation\nC. To store decorative items",
+      "response": "None"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What is the purpose of the dining table in the living room?\n\nA. Celestial navigation\nB. Quantum mechanics\nC. Ancient civilizations\nD. Linguistic development\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What is the purpose of the dining table in the living room?\n\nA. Celestial navigation\nB. Quantum mechanics\nC. Ancient civilizations\nD. Linguistic development\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What is the purpose of the dining table in the living room?\n\nA. Celestial navigation\nB. Quantum mechanics\nC. Ancient civilizations\nD. Linguistic development",
+      "response": "None"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What type of sculpture is featured in the room?\n\nA. Abstract figure\nB. Classic bust\nC. Modern installation\nD. Nature-inspired piece\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What type of sculpture is featured in the room?\n\nA. Abstract figure\nB. Classic bust\nC. Modern installation\nD. Nature-inspired piece\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What type of sculpture is featured in the room?\n\nA. Abstract figure\nB. Classic bust\nC. Modern installation\nD. Nature-inspired piece",
+      "response": "None"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What type of sculpture is displayed in this living room?",
+      "response": "unanswerable"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What type of sculpture is displayed in this living room?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What is the purpose of the dining table in the living room?\n\nA. To serve as a coffee table for beverages\nB. To anchor the dining area for meals and socializing\nC. To provide seating for relaxation\nD. To store decorative items",
+      "response": "B"
+    }
+  ]
+}

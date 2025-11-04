@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "ce45a28c-fbf0-435e-943e-0449826a6d5b@MasterBedroom-38443",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 3",
+  "timestamp": "2025-10-14T15:27:02.661891",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/ce45a28c-fbf0-435e-943e-0449826a6d5b/MasterBedroom-38443/MasterBedroom-38443.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What unique style does the wardrobe in the Master bedroom predominantly display?\n\nA. Vintage charm\nB. Modern elegance\nC. Minimalist design\nIf none of the above answers are correct, answer: 'F'",
+      "response": "C"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What unique style does the wardrobe in the Master bedroom predominantly display?\n\nA. Vintage charm\nB. Modern elegance\nC. Minimalist design\nD. None of the above",
+      "response": "C"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What unique style does the wardrobe in the Master bedroom predominantly display?\n\nA. Vintage charm\nB. Modern elegance\nC. Minimalist design",
+      "response": "C"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What unique style does the wardrobe in the Master bedroom predominantly display?\n\nA. Harmony\nB. Discord\nC. Melody\nD. Rhythm\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What unique style does the wardrobe in the Master bedroom predominantly display?\n\nA. Harmony\nB. Discord\nC. Melody\nD. Rhythm\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What unique style does the wardrobe in the Master bedroom predominantly display?\n\nA. Harmony\nB. Discord\nC. Melody\nD. Rhythm",
+      "response": "None"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What type of chair is designed for optimal ergonomic support?\n\nA. Recliner\nB. Executive chair\nC. Kneeling chair\nD. Lounge chair\nIf none of the above answers are correct, answer: 'F'",
+      "response": "C"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What type of chair is designed for optimal ergonomic support?\n\nA. Recliner\nB. Executive chair\nC. Kneeling chair\nD. Lounge chair\nE. None of the above",
+      "response": "C"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What type of chair is designed for optimal ergonomic support?\n\nA. Recliner\nB. Executive chair\nC. Kneeling chair\nD. Lounge chair",
+      "response": "C"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What type of garden tools are stored in the room?",
+      "response": "N/A"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What type of garden tools are stored in the room?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What unique style does the wardrobe in the Master bedroom predominantly display?\n\nA. Vintage charm\nB. Modern elegance\nC. Minimalist design\nD. Industrial style",
+      "response": "C"
+    }
+  ]
+}

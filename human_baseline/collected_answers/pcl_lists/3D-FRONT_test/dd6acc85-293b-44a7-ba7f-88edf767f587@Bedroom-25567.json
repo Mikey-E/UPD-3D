@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "dd6acc85-293b-44a7-ba7f-88edf767f587@Bedroom-25567",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 4",
+  "timestamp": "2025-10-24T09:51:05.306963",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/dd6acc85-293b-44a7-ba7f-88edf767f587/Bedroom-25567/Bedroom-25567.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What piece of furniture is located next to the king-size bed in the bedroom?\n\nA. Tv stand\nB. Armchair\nC. Shelf\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What piece of furniture is located next to the king-size bed in the bedroom?\n\nA. Tv stand\nB. Armchair\nC. Shelf\nD. None of the above",
+      "response": "d"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What piece of furniture is located next to the king-size bed in the bedroom?\n\nA. Tv stand\nB. Armchair\nC. Shelf",
+      "response": "none"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What piece of furniture is located next to the king-size bed in the bedroom?\n\nA. Quantum mechanics\nB. Artificial intelligence\nC. Coral reef ecosystems\nD. Renaissance art\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What piece of furniture is located next to the king-size bed in the bedroom?\n\nA. Quantum mechanics\nB. Artificial intelligence\nC. Coral reef ecosystems\nD. Renaissance art\nE. None of the above",
+      "response": "e"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What piece of furniture is located next to the king-size bed in the bedroom?\n\nA. Quantum mechanics\nB. Artificial intelligence\nC. Coral reef ecosystems\nD. Renaissance art",
+      "response": "none"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What is the height of the ceiling in the room?\n\nA. 8 feet\nB. 10 feet\nC. 12 feet\nD. 14 feet\nIf none of the above answers are correct, answer: 'F'",
+      "response": "c"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What is the height of the ceiling in the room?\n\nA. 8 feet\nB. 10 feet\nC. 12 feet\nD. 14 feet\nE. None of the above",
+      "response": "c"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What is the height of the ceiling in the room?\n\nA. 8 feet\nB. 10 feet\nC. 12 feet\nD. 14 feet",
+      "response": "c"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What type of outdoor barbecue grill is located in the scene?",
+      "response": "n/a"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What type of outdoor barbecue grill is located in the scene?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What piece of furniture is located next to the king-size bed in the bedroom?\n\nA. Tv stand\nB. Armchair\nC. Shelf\nD. Wardrobe",
+      "response": "d"
+    }
+  ]
+}

@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "cdab8f42-2ccd-45c9-a6c1-7cd196152293@LivingDiningRoom-2187",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 4",
+  "timestamp": "2025-10-14T15:12:43.795466",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/cdab8f42-2ccd-45c9-a6c1-7cd196152293/LivingDiningRoom-2187/LivingDiningRoom-2187.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What type of seating is prominently featured near the dining table in this living room?\n\nA. Office chairs\nB. Bar stools\nC. Recliners\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What type of seating is prominently featured near the dining table in this living room?\n\nA. Office chairs\nB. Bar stools\nC. Recliners\nD. None of the above",
+      "response": "D"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What type of seating is prominently featured near the dining table in this living room?\n\nA. Office chairs\nB. Bar stools\nC. Recliners",
+      "response": "NONE"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What type of seating is prominently featured near the dining table in this living room?\n\nA. Chocolate\nB. Infrastructure\nC. Quantum\nD. Constellation\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What type of seating is prominently featured near the dining table in this living room?\n\nA. Chocolate\nB. Infrastructure\nC. Quantum\nD. Constellation\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What type of seating is prominently featured near the dining table in this living room?\n\nA. Chocolate\nB. Infrastructure\nC. Quantum\nD. Constellation",
+      "response": "NONE"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What type of sculpture is displayed in the living room?\n\nA. Marble Bust\nB. Wooden Totem\nC. Glass Sphere\nD. Bronze Abstract\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What type of sculpture is displayed in the living room?\n\nA. Marble Bust\nB. Wooden Totem\nC. Glass Sphere\nD. Bronze Abstract\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What type of sculpture is displayed in the living room?\n\nA. Marble Bust\nB. Wooden Totem\nC. Glass Sphere\nD. Bronze Abstract",
+      "response": "NONE"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What color is the grandmother's quilt stored in the closet?",
+      "response": "UNANSWERABLE"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What color is the grandmother's quilt stored in the closet?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What type of seating is prominently featured near the dining table in this living room?\n\nA. Office chairs\nB. Bar stools\nC. Dining chairs\nD. Recliners",
+      "response": "C"
+    }
+  ]
+}

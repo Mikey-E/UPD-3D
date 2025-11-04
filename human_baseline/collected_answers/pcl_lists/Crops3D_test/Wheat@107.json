@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "Wheat@107",
+  "dataset": "Crops3D_test",
+  "annotated_by": "User 5",
+  "timestamp": "2025-10-31T08:09:22.664592",
+  "file_path": "/project/3dllms/melgin/datasets/CEA/Crops3D/Wheat/107.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What type of plant is described?\n\nA. A flowering shrub\nB. A tree with thick bark\nC. A cacti species\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What type of plant is described?\n\nA. A flowering shrub\nB. A tree with thick bark\nC. A cacti species\nD. None of the above",
+      "response": "d"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What type of plant is described?\n\nA. A flowering shrub\nB. A tree with thick bark\nC. A cacti species",
+      "response": "none"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What type of plant is described?\n\nA. Hammerhead Shark\nB. Red Panda\nC. Snowy Owl\nD. Golden Retriever\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What type of plant is described?\n\nA. Hammerhead Shark\nB. Red Panda\nC. Snowy Owl\nD. Golden Retriever\nE. None of the above",
+      "response": "e"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What type of plant is described?\n\nA. Hammerhead Shark\nB. Red Panda\nC. Snowy Owl\nD. Golden Retriever",
+      "response": "none"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What type of structure is the building made of?\n\nA. Steel\nB. Brick\nC. Timber\nD. Glass\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What type of structure is the building made of?\n\nA. Steel\nB. Brick\nC. Timber\nD. Glass\nE. None of the above",
+      "response": "e"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What type of structure is the building made of?\n\nA. Steel\nB. Brick\nC. Timber\nD. Glass",
+      "response": "none"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What type of sculpture is located on the ceiling?",
+      "response": "none"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What type of sculpture is located on the ceiling?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What type of plant is described?\n\nA. A bushy houseplant\nB. A flowering shrub\nC. A tree with thick bark\nD. A cacti species",
+      "response": "a"
+    }
+  ]
+}

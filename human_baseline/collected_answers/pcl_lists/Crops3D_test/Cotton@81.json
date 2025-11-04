@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "Cotton@81",
+  "dataset": "Crops3D_test",
+  "annotated_by": "User 5",
+  "timestamp": "2025-10-30T10:06:03.103627",
+  "file_path": "/project/3dllms/melgin/datasets/CEA/Crops3D/Cotton/81.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What color are the flowers on the branch?\n\nA. Blue\nB. Yellow\nC. Red\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What color are the flowers on the branch?\n\nA. Blue\nB. Yellow\nC. Red\nD. None of the above",
+      "response": "d"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What color are the flowers on the branch?\n\nA. Blue\nB. Yellow\nC. Red",
+      "response": "none"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What color are the flowers on the branch?\n\nA. Redwood\nB. Cactus\nC. Oak\nD. Maple\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What color are the flowers on the branch?\n\nA. Redwood\nB. Cactus\nC. Oak\nD. Maple\nE. None of the above",
+      "response": "e"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What color are the flowers on the branch?\n\nA. Redwood\nB. Cactus\nC. Oak\nD. Maple",
+      "response": "none"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What type of sofa is featured in the scene?\n\nA. Leather sectional\nB. Fabric loveseat\nC. Reclining chair\nD. Futon\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What type of sofa is featured in the scene?\n\nA. Leather sectional\nB. Fabric loveseat\nC. Reclining chair\nD. Futon\nE. None of the above",
+      "response": "e"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What type of sofa is featured in the scene?\n\nA. Leather sectional\nB. Fabric loveseat\nC. Reclining chair\nD. Futon",
+      "response": "none"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What type of fruit does the branch produce?",
+      "response": "none"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What type of fruit does the branch produce?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What color are the flowers on the branch?\n\nA. Blue\nB. White\nC. Yellow\nD. Red",
+      "response": "b"
+    }
+  ]
+}

@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "ed3b3a65-f3b1-47d8-9310-593f30c66bc8@MasterBedroom-39087",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 5",
+  "timestamp": "2025-10-28T08:36:49.095492",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/ed3b3a65-f3b1-47d8-9310-593f30c66bc8/MasterBedroom-39087/MasterBedroom-39087.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What color are the nightstands in the room?\n\nA. Dark gray\nB. Beige\nC. Black\nIf none of the above answers are correct, answer: 'F'",
+      "response": "b"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What color are the nightstands in the room?\n\nA. Dark gray\nB. Beige\nC. Black\nD. None of the above",
+      "response": "b"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What color are the nightstands in the room?\n\nA. Dark gray\nB. Beige\nC. Black",
+      "response": "b"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What color are the nightstands in the room?\n\nA. Elephant\nB. Dolphin\nC. Mountain\nD. Galaxy\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What color are the nightstands in the room?\n\nA. Elephant\nB. Dolphin\nC. Mountain\nD. Galaxy\nE. None of the above",
+      "response": "e"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What color are the nightstands in the room?\n\nA. Elephant\nB. Dolphin\nC. Mountain\nD. Galaxy",
+      "response": "none"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What shape is the coffee table in the room?\n\nA. Oval\nB. Rectangular\nC. Round\nD. Square\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What shape is the coffee table in the room?\n\nA. Oval\nB. Rectangular\nC. Round\nD. Square\nE. None of the above",
+      "response": "e"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What shape is the coffee table in the room?\n\nA. Oval\nB. Rectangular\nC. Round\nD. Square",
+      "response": "none"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What type of outdoor furniture is in the room?",
+      "response": "none"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What type of outdoor furniture is in the room?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What color are the nightstands in the room?\n\nA. Dark gray\nB. Beige\nC. Off-white\nD. Black",
+      "response": "b"
+    }
+  ]
+}

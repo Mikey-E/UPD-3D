@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "daa1dc6c-8351-42a5-844d-1ab2f5308e64@Bedroom-688",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 5",
+  "timestamp": "2025-10-20T08:39:32.515629",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/daa1dc6c-8351-42a5-844d-1ab2f5308e64/Bedroom-688/Bedroom-688.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What style is the nightstand in the bedroom described?\n\nA. Light Luxury\nB. Japanese\nC. European\nIf none of the above answers are correct, answer: 'F'",
+      "response": "a"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What style is the nightstand in the bedroom described?\n\nA. Light Luxury\nB. Japanese\nC. European\nD. None of the above",
+      "response": "a"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What style is the nightstand in the bedroom described?\n\nA. Light Luxury\nB. Japanese\nC. European",
+      "response": "a"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What style is the nightstand in the bedroom described?\n\nA. Autumn leaves\nB. Tropical paradise\nC. Arctic tundra\nD. Desert oasis\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What style is the nightstand in the bedroom described?\n\nA. Autumn leaves\nB. Tropical paradise\nC. Arctic tundra\nD. Desert oasis\nE. None of the above",
+      "response": "e"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What style is the nightstand in the bedroom described?\n\nA. Autumn leaves\nB. Tropical paradise\nC. Arctic tundra\nD. Desert oasis",
+      "response": "none"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What type of sculpture is displayed in the room?\n\nA. Abstract Torso\nB. Classical Bust\nC. Contemporary Installation\nD. Figurative Relief\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What type of sculpture is displayed in the room?\n\nA. Abstract Torso\nB. Classical Bust\nC. Contemporary Installation\nD. Figurative Relief\nE. None of the above",
+      "response": "e"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What type of sculpture is displayed in the room?\n\nA. Abstract Torso\nB. Classical Bust\nC. Contemporary Installation\nD. Figurative Relief",
+      "response": "none"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What type of exercise equipment is in the room?",
+      "response": "none"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What type of exercise equipment is in the room?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What style is the nightstand in the bedroom described?\n\nA. New Chinese\nB. Light Luxury\nC. Japanese\nD. European",
+      "response": "b"
+    }
+  ]
+}

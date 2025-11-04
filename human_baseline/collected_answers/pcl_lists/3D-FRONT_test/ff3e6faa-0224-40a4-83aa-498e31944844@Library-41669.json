@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "ff3e6faa-0224-40a4-83aa-498e31944844@Library-41669",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 3",
+  "timestamp": "2025-10-31T08:21:44.982078",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/ff3e6faa-0224-40a4-83aa-498e31944844/Library-41669/Library-41669.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What style influences are reflected in the design of the library?\n\nA. Victorian, Gothic, and Baroque styles\nB. Rustic, Industrial, and Mediterranean styles\nC. Art Deco, Retro, and Classic styles\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What style influences are reflected in the design of the library?\n\nA. Victorian, Gothic, and Baroque styles\nB. Rustic, Industrial, and Mediterranean styles\nC. Art Deco, Retro, and Classic styles\nD. None of the above",
+      "response": "D"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What style influences are reflected in the design of the library?\n\nA. Victorian, Gothic, and Baroque styles\nB. Rustic, Industrial, and Mediterranean styles\nC. Art Deco, Retro, and Classic styles",
+      "response": "None"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What style influences are reflected in the design of the library?\n\nA. Rock music trends\nB. Quantum physics theories\nC. Tropical rainforest ecosystems\nD. Ancient Greek mythology\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What style influences are reflected in the design of the library?\n\nA. Rock music trends\nB. Quantum physics theories\nC. Tropical rainforest ecosystems\nD. Ancient Greek mythology\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What style influences are reflected in the design of the library?\n\nA. Rock music trends\nB. Quantum physics theories\nC. Tropical rainforest ecosystems\nD. Ancient Greek mythology",
+      "response": "None"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What type of window treatment is present in the room?\n\nA. Venetian blinds\nB. Sheer curtains\nC. Roller shades\nD. Drapes\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What type of window treatment is present in the room?\n\nA. Venetian blinds\nB. Sheer curtains\nC. Roller shades\nD. Drapes\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What type of window treatment is present in the room?\n\nA. Venetian blinds\nB. Sheer curtains\nC. Roller shades\nD. Drapes",
+      "response": "None"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What type of outdoor grill is located nearby?",
+      "response": "N/A"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What type of outdoor grill is located nearby?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What style influences are reflected in the design of the library?\n\nA. Victorian, Gothic, and Baroque styles\nB. Modern, Korean, and Nordic styles\nC. Rustic, Industrial, and Mediterranean styles\nD. Art Deco, Retro, and Classic styles",
+      "response": "B"
+    }
+  ]
+}

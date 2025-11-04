@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "c685d996-7959-44bf-85d2-ffca8fbd6841@MasterBedroom-45712",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 4",
+  "timestamp": "2025-10-08T15:11:22.891486",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/c685d996-7959-44bf-85d2-ffca8fbd6841/MasterBedroom-45712/MasterBedroom-45712.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What is positioned directly in front of the king-size bed in the Masterbedroom?\n\nA. Pendant lamp\nB. Nightstand\nC. Dresser\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What is positioned directly in front of the king-size bed in the Masterbedroom?\n\nA. Pendant lamp\nB. Nightstand\nC. Dresser\nD. None of the above",
+      "response": "D"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What is positioned directly in front of the king-size bed in the Masterbedroom?\n\nA. Pendant lamp\nB. Nightstand\nC. Dresser",
+      "response": "none of these"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What is positioned directly in front of the king-size bed in the Masterbedroom?\n\nA. Solar system\nB. Quantum physics\nC. Nuclear fusion\nD. Metamorphic rocks\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What is positioned directly in front of the king-size bed in the Masterbedroom?\n\nA. Solar system\nB. Quantum physics\nC. Nuclear fusion\nD. Metamorphic rocks\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What is positioned directly in front of the king-size bed in the Masterbedroom?\n\nA. Solar system\nB. Quantum physics\nC. Nuclear fusion\nD. Metamorphic rocks",
+      "response": "none of these"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What is the shape of the coffee table?\n\nA. Round\nB. Oval\nC. Square\nD. Rectangular\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What is the shape of the coffee table?\n\nA. Round\nB. Oval\nC. Square\nD. Rectangular\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What is the shape of the coffee table?\n\nA. Round\nB. Oval\nC. Square\nD. Rectangular",
+      "response": "none of these"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What type of kitchen appliance is installed in the room?",
+      "response": "none"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What type of kitchen appliance is installed in the room?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What is positioned directly in front of the king-size bed in the Masterbedroom?\n\nA. Pendant lamp\nB. Nightstand\nC. TV stand\nD. Dresser",
+      "response": "none of these"
+    }
+  ]
+}

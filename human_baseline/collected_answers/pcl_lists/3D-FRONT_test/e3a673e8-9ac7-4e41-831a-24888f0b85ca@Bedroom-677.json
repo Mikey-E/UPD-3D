@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "e3a673e8-9ac7-4e41-831a-24888f0b85ca@Bedroom-677",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 4",
+  "timestamp": "2025-10-25T18:19:36.258307",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/e3a673e8-9ac7-4e41-831a-24888f0b85ca/Bedroom-677/Bedroom-677.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What color is the wardrobe in the described bedroom?\n\nA. Light Blue\nB. Dark Grey\nC. White\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What color is the wardrobe in the described bedroom?\n\nA. Light Blue\nB. Dark Grey\nC. White\nD. None of the above",
+      "response": "D"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What color is the wardrobe in the described bedroom?\n\nA. Light Blue\nB. Dark Grey\nC. White",
+      "response": "None"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What color is the wardrobe in the described bedroom?\n\nA. Galaxy\nB. Hurricane\nC. Volcano\nD. Comet\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What color is the wardrobe in the described bedroom?\n\nA. Galaxy\nB. Hurricane\nC. Volcano\nD. Comet\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What color is the wardrobe in the described bedroom?\n\nA. Galaxy\nB. Hurricane\nC. Volcano\nD. Comet",
+      "response": "None"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What type of sculpture is displayed in the room?\n\nA. Abstract sculpture\nB. Classical statue\nC. Modern bust\nD. Terracotta figure\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What type of sculpture is displayed in the room?\n\nA. Abstract sculpture\nB. Classical statue\nC. Modern bust\nD. Terracotta figure\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What type of sculpture is displayed in the room?\n\nA. Abstract sculpture\nB. Classical statue\nC. Modern bust\nD. Terracotta figure",
+      "response": "None"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What type of antique vase is displayed in the room?",
+      "response": "unanswerable"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What type of antique vase is displayed in the room?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What color is the wardrobe in the described bedroom?\n\nA. Classic Black\nB. Light Blue\nC. Dark Grey\nD. White",
+      "response": "A"
+    }
+  ]
+}

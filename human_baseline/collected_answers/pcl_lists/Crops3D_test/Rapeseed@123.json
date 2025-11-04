@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "Rapeseed@123",
+  "dataset": "Crops3D_test",
+  "annotated_by": "User 5",
+  "timestamp": "2025-10-30T23:43:07.879723",
+  "file_path": "/project/3dllms/melgin/datasets/CEA/Crops3D/Rapeseed/123.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What color is the plant pot described in the room?\n\nA. Light blue\nB. Green\nC. Brown\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What color is the plant pot described in the room?\n\nA. Light blue\nB. Green\nC. Brown\nD. None of the above",
+      "response": "d"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What color is the plant pot described in the room?\n\nA. Light blue\nB. Green\nC. Brown",
+      "response": "none"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What color is the plant pot described in the room?\n\nA. Mercury\nB. Vapor\nC. Frost\nD. Gravity\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What color is the plant pot described in the room?\n\nA. Mercury\nB. Vapor\nC. Frost\nD. Gravity\nE. None of the above",
+      "response": "e"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What color is the plant pot described in the room?\n\nA. Mercury\nB. Vapor\nC. Frost\nD. Gravity",
+      "response": "none"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What type of lamp is placed on the table?\n\nA. Table lamp\nB. Floor lamp\nC. Pendant lamp\nD. Wall lamp\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What type of lamp is placed on the table?\n\nA. Table lamp\nB. Floor lamp\nC. Pendant lamp\nD. Wall lamp\nE. None of the above",
+      "response": "e"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What type of lamp is placed on the table?\n\nA. Table lamp\nB. Floor lamp\nC. Pendant lamp\nD. Wall lamp",
+      "response": "none"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What type of gemstone is used in the chandelier?",
+      "response": "none"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What type of gemstone is used in the chandelier?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What color is the plant pot described in the room?\n\nA. Dark navy blue\nB. Light blue\nC. Green\nD. Brown",
+      "response": "a"
+    }
+  ]
+}

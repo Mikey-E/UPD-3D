@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "e19d78e4-6fbf-4e68-9ad9-e12d1edfabf4@MasterBedroom-232442",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 5",
+  "timestamp": "2025-10-24T22:52:42.874305",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/e19d78e4-6fbf-4e68-9ad9-e12d1edfabf4/MasterBedroom-232442/MasterBedroom-232442.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What type of lighting is provided by the two modern pendant lamps in the room?\n\nA. Task lighting\nB. Accent lighting\nC. Natural lighting\nIf none of the above answers are correct, answer: 'F'",
+      "response": "b"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What type of lighting is provided by the two modern pendant lamps in the room?\n\nA. Task lighting\nB. Accent lighting\nC. Natural lighting\nD. None of the above",
+      "response": "b"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What type of lighting is provided by the two modern pendant lamps in the room?\n\nA. Task lighting\nB. Accent lighting\nC. Natural lighting",
+      "response": "b"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What type of lighting is provided by the two modern pendant lamps in the room?\n\nA. Carrot cake recipe\nB. Tropical fish species\nC. Mountain climbing equipment\nD. Historical newspaper articles\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What type of lighting is provided by the two modern pendant lamps in the room?\n\nA. Carrot cake recipe\nB. Tropical fish species\nC. Mountain climbing equipment\nD. Historical newspaper articles\nE. None of the above",
+      "response": "e"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What type of lighting is provided by the two modern pendant lamps in the room?\n\nA. Carrot cake recipe\nB. Tropical fish species\nC. Mountain climbing equipment\nD. Historical newspaper articles",
+      "response": "none"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What shape is the table in the room?\n\nA. Round\nB. Square\nC. Oval\nD. Rectangular\nIf none of the above answers are correct, answer: 'F'",
+      "response": "d"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What shape is the table in the room?\n\nA. Round\nB. Square\nC. Oval\nD. Rectangular\nE. None of the above",
+      "response": "d"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What shape is the table in the room?\n\nA. Round\nB. Square\nC. Oval\nD. Rectangular",
+      "response": "d"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What type of artwork is hanging on the wall?",
+      "response": "none"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What type of artwork is hanging on the wall?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What type of lighting is provided by the two modern pendant lamps in the room?\n\nA. Task lighting\nB. Overhead lighting\nC. Accent lighting\nD. Natural lighting",
+      "response": "c"
+    }
+  ]
+}

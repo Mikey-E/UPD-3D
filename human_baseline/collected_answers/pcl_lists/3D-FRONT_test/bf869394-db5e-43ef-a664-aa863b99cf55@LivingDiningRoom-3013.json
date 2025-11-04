@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "bf869394-db5e-43ef-a664-aa863b99cf55@LivingDiningRoom-3013",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 3",
+  "timestamp": "2025-10-06T11:41:21.544308",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/bf869394-db5e-43ef-a664-aa863b99cf55/LivingDiningRoom-3013/LivingDiningRoom-3013.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What style are the dining chairs surrounding the dining table?\n\nA. Industrial\nB. Minimalist\nC. European Classic\nIf none of the above answers are correct, answer: 'F'",
+      "response": "B"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What style are the dining chairs surrounding the dining table?\n\nA. Industrial\nB. Minimalist\nC. European Classic\nD. None of the above",
+      "response": "B"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What style are the dining chairs surrounding the dining table?\n\nA. Industrial\nB. Minimalist\nC. European Classic",
+      "response": "B"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What style are the dining chairs surrounding the dining table?\n\nA. Mountainous\nB. Urban\nC. Coastal\nD. Desert\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What style are the dining chairs surrounding the dining table?\n\nA. Mountainous\nB. Urban\nC. Coastal\nD. Desert\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What style are the dining chairs surrounding the dining table?\n\nA. Mountainous\nB. Urban\nC. Coastal\nD. Desert",
+      "response": "None"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What type of sofa is located in the corner of the room?\n\nA. Sectional sofa\nB. Recliner sofa\nC. Futon sofa\nD. Sleeper sofa\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What type of sofa is located in the corner of the room?\n\nA. Sectional sofa\nB. Recliner sofa\nC. Futon sofa\nD. Sleeper sofa\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What type of sofa is located in the corner of the room?\n\nA. Sectional sofa\nB. Recliner sofa\nC. Futon sofa\nD. Sleeper sofa",
+      "response": "None"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What type of exercise equipment is in this living room?",
+      "response": "N/A"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What type of exercise equipment is in this living room?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What style are the dining chairs surrounding the dining table?\n\nA. Industrial\nB. Minimalist\nC. Japanese\nD. European Classic",
+      "response": "B"
+    }
+  ]
+}

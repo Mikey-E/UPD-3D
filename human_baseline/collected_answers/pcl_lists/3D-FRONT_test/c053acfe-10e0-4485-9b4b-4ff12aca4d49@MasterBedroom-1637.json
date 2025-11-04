@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "c053acfe-10e0-4485-9b4b-4ff12aca4d49@MasterBedroom-1637",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 5",
+  "timestamp": "2025-10-06T11:38:53.962641",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/c053acfe-10e0-4485-9b4b-4ff12aca4d49/MasterBedroom-1637/MasterBedroom-1637.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What is the color of the nightstands in the room?\n\nA. Dark brown\nB. White\nC. Blue\nIf none of the above answers are correct, answer: 'F'",
+      "response": "b"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What is the color of the nightstands in the room?\n\nA. Dark brown\nB. White\nC. Blue\nD. None of the above",
+      "response": "b"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What is the color of the nightstands in the room?\n\nA. Dark brown\nB. White\nC. Blue",
+      "response": "b"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What is the color of the nightstands in the room?\n\nA. Quadratic equation\nB. Fibonacci sequence\nC. Hemoglobin function\nD. Carbon footprint\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What is the color of the nightstands in the room?\n\nA. Quadratic equation\nB. Fibonacci sequence\nC. Hemoglobin function\nD. Carbon footprint\nE. None of the above",
+      "response": "e"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What is the color of the nightstands in the room?\n\nA. Quadratic equation\nB. Fibonacci sequence\nC. Hemoglobin function\nD. Carbon footprint",
+      "response": "none of the above"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What type of plant is situated next to the bed?\n\nA. Fern\nB. Orchid\nC. Cactus\nD. Aloe Vera\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What type of plant is situated next to the bed?\n\nA. Fern\nB. Orchid\nC. Cactus\nD. Aloe Vera\nE. None of the above",
+      "response": "e"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What type of plant is situated next to the bed?\n\nA. Fern\nB. Orchid\nC. Cactus\nD. Aloe Vera",
+      "response": "none of the above"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What type of garden tools are stored in the room?",
+      "response": "no garden tools"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What type of garden tools are stored in the room?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What is the color of the nightstands in the room?\n\nA. Light grey\nB. Dark brown\nC. White\nD. Blue",
+      "response": "c"
+    }
+  ]
+}

@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "f6eb3b89-4fd1-41fb-8064-4fc54194e472@Bedroom-31327",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 3",
+  "timestamp": "2025-10-29T23:31:30.968556",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/f6eb3b89-4fd1-41fb-8064-4fc54194e472/Bedroom-31327/Bedroom-31327.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What unique feature does the ceiling lamp in the bedroom have?\n\nA. Striped pattern\nB. Floral design\nC. Geometric shapes\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What unique feature does the ceiling lamp in the bedroom have?\n\nA. Striped pattern\nB. Floral design\nC. Geometric shapes\nD. None of the above",
+      "response": "D"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What unique feature does the ceiling lamp in the bedroom have?\n\nA. Striped pattern\nB. Floral design\nC. Geometric shapes",
+      "response": "NONE"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What unique feature does the ceiling lamp in the bedroom have?\n\nA. Chocolate flavor\nB. Tropical rainforest\nC. Deep-sea exploration\nD. Vintage typewriters\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What unique feature does the ceiling lamp in the bedroom have?\n\nA. Chocolate flavor\nB. Tropical rainforest\nC. Deep-sea exploration\nD. Vintage typewriters\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What unique feature does the ceiling lamp in the bedroom have?\n\nA. Chocolate flavor\nB. Tropical rainforest\nC. Deep-sea exploration\nD. Vintage typewriters",
+      "response": "NONE"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What type of sofa is in the room?\n\nA. Leather loveseat\nB. Sectional couch\nC. Recliner chair\nD. Futon\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What type of sofa is in the room?\n\nA. Leather loveseat\nB. Sectional couch\nC. Recliner chair\nD. Futon\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What type of sofa is in the room?\n\nA. Leather loveseat\nB. Sectional couch\nC. Recliner chair\nD. Futon",
+      "response": "NA"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What type of coffee maker is in the room?",
+      "response": "NA"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What type of coffee maker is in the room?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What unique feature does the ceiling lamp in the bedroom have?\n\nA. Striped pattern\nB. Honeycomb pattern\nC. Floral design\nD. Geometric shapes",
+      "response": "B"
+    }
+  ]
+}

@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "750af363-a238-4d04-a5ad-2c97998a8e4e@Corridor-50674",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 3",
+  "timestamp": "2025-10-30T00:03:47.382270",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/750af363-a238-4d04-a5ad-2c97998a8e4e/Corridor-50674/Corridor-50674.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What is the shape of the pendant lamp that hangs directly below the ceiling lamp in the Corridor?\n\nA. Circular\nB. Square\nC. Elongated\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What is the shape of the pendant lamp that hangs directly below the ceiling lamp in the Corridor?\n\nA. Circular\nB. Square\nC. Elongated\nD. None of the above",
+      "response": "D"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What is the shape of the pendant lamp that hangs directly below the ceiling lamp in the Corridor?\n\nA. Circular\nB. Square\nC. Elongated",
+      "response": "NONE"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What is the shape of the pendant lamp that hangs directly below the ceiling lamp in the Corridor?\n\nA. Maple tree\nB. Blue whale\nC. Mountain range\nD. Computer algorithm\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What is the shape of the pendant lamp that hangs directly below the ceiling lamp in the Corridor?\n\nA. Maple tree\nB. Blue whale\nC. Mountain range\nD. Computer algorithm\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What is the shape of the pendant lamp that hangs directly below the ceiling lamp in the Corridor?\n\nA. Maple tree\nB. Blue whale\nC. Mountain range\nD. Computer algorithm",
+      "response": "NONE"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What type of furniture is found in the corridor?\n\nA. Sofa\nB. Armchair\nC. Coffee table\nD. Bookshelf\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What type of furniture is found in the corridor?\n\nA. Sofa\nB. Armchair\nC. Coffee table\nD. Bookshelf\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What type of furniture is found in the corridor?\n\nA. Sofa\nB. Armchair\nC. Coffee table\nD. Bookshelf",
+      "response": "NA"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What kind of furniture is in the room?",
+      "response": "NA"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What kind of furniture is in the room?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What is the shape of the pendant lamp that hangs directly below the ceiling lamp in the Corridor?\n\nA. Conical\nB. Circular\nC. Square\nD. Elongated",
+      "response": "A"
+    }
+  ]
+}

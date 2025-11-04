@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "d29607ce-7436-46e0-90ae-6613a301ade8@MasterBedroom-14837",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 4",
+  "timestamp": "2025-10-15T15:49:05.866381",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/d29607ce-7436-46e0-90ae-6613a301ade8/MasterBedroom-14837/MasterBedroom-14837.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What is the primary color scheme of the king-size bed in the master bedroom?\n\nA. Blue and white\nB. Brown and beige\nC. Red and yellow\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What is the primary color scheme of the king-size bed in the master bedroom?\n\nA. Blue and white\nB. Brown and beige\nC. Red and yellow\nD. None of the above",
+      "response": "d"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What is the primary color scheme of the king-size bed in the master bedroom?\n\nA. Blue and white\nB. Brown and beige\nC. Red and yellow",
+      "response": "none"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What is the primary color scheme of the king-size bed in the master bedroom?\n\nA. Quantum mechanics\nB. Solar systems\nC. Renaissance art\nD. Classical literature\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What is the primary color scheme of the king-size bed in the master bedroom?\n\nA. Quantum mechanics\nB. Solar systems\nC. Renaissance art\nD. Classical literature\nE. None of the above",
+      "response": "e"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What is the primary color scheme of the king-size bed in the master bedroom?\n\nA. Quantum mechanics\nB. Solar systems\nC. Renaissance art\nD. Classical literature",
+      "response": "none"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What type of vase is located on the nightstand?\n\nA. Ceramic\nB. Glass\nC. Metal\nD. Plastic\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What type of vase is located on the nightstand?\n\nA. Ceramic\nB. Glass\nC. Metal\nD. Plastic\nE. None of the above",
+      "response": "e"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What type of vase is located on the nightstand?\n\nA. Ceramic\nB. Glass\nC. Metal\nD. Plastic",
+      "response": "none"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What type of antique chest is placed in the corner of the room?",
+      "response": "n/a"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What type of antique chest is placed in the corner of the room?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What is the primary color scheme of the king-size bed in the master bedroom?\n\nA. Black and gray\nB. Blue and white\nC. Brown and beige\nD. Red and yellow",
+      "response": "none"
+    }
+  ]
+}

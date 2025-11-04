@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "cbaa2bb7-048d-4939-9d36-77379f49cb98@LivingDiningRoom-13234",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 4",
+  "timestamp": "2025-10-14T11:38:25.410439",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/cbaa2bb7-048d-4939-9d36-77379f49cb98/LivingDiningRoom-13234/LivingDiningRoom-13234.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What provides additional surface space beside the sofa in the living room?\n\nA. Coffee table\nB. Floor lamp\nC. Wine cabinet\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What provides additional surface space beside the sofa in the living room?\n\nA. Coffee table\nB. Floor lamp\nC. Wine cabinet\nD. None of the above",
+      "response": "D"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What provides additional surface space beside the sofa in the living room?\n\nA. Coffee table\nB. Floor lamp\nC. Wine cabinet",
+      "response": "NONE OF THESE"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What provides additional surface space beside the sofa in the living room?\n\nA. Elephant sanctuary\nB. Mountain range\nC. Ocean current\nD. Solar eclipse\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What provides additional surface space beside the sofa in the living room?\n\nA. Elephant sanctuary\nB. Mountain range\nC. Ocean current\nD. Solar eclipse\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What provides additional surface space beside the sofa in the living room?\n\nA. Elephant sanctuary\nB. Mountain range\nC. Ocean current\nD. Solar eclipse",
+      "response": "NONE OF THESE"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What type of sculpture is prominently placed in the scene?\n\nA. Marble Bust\nB. Bronze Figure\nC. Wooden Relief\nD. Stone Carving\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What type of sculpture is prominently placed in the scene?\n\nA. Marble Bust\nB. Bronze Figure\nC. Wooden Relief\nD. Stone Carving\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What type of sculpture is prominently placed in the scene?\n\nA. Marble Bust\nB. Bronze Figure\nC. Wooden Relief\nD. Stone Carving",
+      "response": "NONE OF THESE"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What type of vintage gramophone is used for music in the room?",
+      "response": "NONE"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What type of vintage gramophone is used for music in the room?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What provides additional surface space beside the sofa in the living room?\n\nA. Coffee table\nB. Floor lamp\nC. End table\nD. Wine cabinet",
+      "response": "C"
+    }
+  ]
+}

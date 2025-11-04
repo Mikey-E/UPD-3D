@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "c9297532-14a7-4736-a0f4-1f14a527e93d@Library-12232",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 4",
+  "timestamp": "2025-10-13T19:37:35.338325",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/c9297532-14a7-4736-a0f4-1f14a527e93d/Library-12232/Library-12232.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What is the primary color of the bookcases in the library?\n\nA. Light brown\nB. Black\nC. White\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What is the primary color of the bookcases in the library?\n\nA. Light brown\nB. Black\nC. White\nD. None of the above",
+      "response": "D"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What is the primary color of the bookcases in the library?\n\nA. Light brown\nB. Black\nC. White",
+      "response": "NONE"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What is the primary color of the bookcases in the library?\n\nA. Kangaroo\nB. Ostrich\nC. Daffodil\nD. Moonlight\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What is the primary color of the bookcases in the library?\n\nA. Kangaroo\nB. Ostrich\nC. Daffodil\nD. Moonlight\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What is the primary color of the bookcases in the library?\n\nA. Kangaroo\nB. Ostrich\nC. Daffodil\nD. Moonlight",
+      "response": "NONE"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What type of sculpture is displayed in the library?\n\nA. Marble bust\nB. Wooden totem\nC. Bronze statue\nD. Glass figurine\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What type of sculpture is displayed in the library?\n\nA. Marble bust\nB. Wooden totem\nC. Bronze statue\nD. Glass figurine\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What type of sculpture is displayed in the library?\n\nA. Marble bust\nB. Wooden totem\nC. Bronze statue\nD. Glass figurine",
+      "response": "NONE"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What is the size and weight of the marble sculpture in the corner of the room?",
+      "response": "NONE"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What is the size and weight of the marble sculpture in the corner of the room?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What is the primary color of the bookcases in the library?\n\nA. Light brown\nB. Black\nC. Dark brown\nD. White",
+      "response": "C"
+    }
+  ]
+}

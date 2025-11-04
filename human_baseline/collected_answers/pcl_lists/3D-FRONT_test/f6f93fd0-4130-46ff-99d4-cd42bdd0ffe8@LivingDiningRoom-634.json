@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "f6f93fd0-4130-46ff-99d4-cd42bdd0ffe8@LivingDiningRoom-634",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 3",
+  "timestamp": "2025-10-29T23:37:08.735583",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/f6f93fd0-4130-46ff-99d4-cd42bdd0ffe8/LivingDiningRoom-634/LivingDiningRoom-634.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What style is the dining table in the living room described?\n\nA. New Chinese\nB. Korean\nC. Neoclassical\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What style is the dining table in the living room described?\n\nA. New Chinese\nB. Korean\nC. Neoclassical\nD. None of the above",
+      "response": "D"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What style is the dining table in the living room described?\n\nA. New Chinese\nB. Korean\nC. Neoclassical",
+      "response": "NONE"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What style is the dining table in the living room described?\n\nA. Italian Renaissance\nB. Medieval Manuscripts\nC. Quantum Mechanics\nD. Ancient Egyptian Hieroglyphs\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What style is the dining table in the living room described?\n\nA. Italian Renaissance\nB. Medieval Manuscripts\nC. Quantum Mechanics\nD. Ancient Egyptian Hieroglyphs\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What style is the dining table in the living room described?\n\nA. Italian Renaissance\nB. Medieval Manuscripts\nC. Quantum Mechanics\nD. Ancient Egyptian Hieroglyphs",
+      "response": "NONE"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What type of vase is featured on the side table?\n\nA. Ceramic\nB. Glass\nC. Plastic\nD. Metal\nIf none of the above answers are correct, answer: 'F'",
+      "response": "A"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What type of vase is featured on the side table?\n\nA. Ceramic\nB. Glass\nC. Plastic\nD. Metal\nE. None of the above",
+      "response": "A"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What type of vase is featured on the side table?\n\nA. Ceramic\nB. Glass\nC. Plastic\nD. Metal",
+      "response": "A"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What type of sculpture is located in the corner of the room?",
+      "response": "NA"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What type of sculpture is located in the corner of the room?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What style is the dining table in the living room described?\n\nA. New Chinese\nB. Korean\nC. Japanese\nD. Neoclassical",
+      "response": "C"
+    }
+  ]
+}

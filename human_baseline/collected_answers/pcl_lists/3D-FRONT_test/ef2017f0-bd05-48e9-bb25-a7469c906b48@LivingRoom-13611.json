@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "ef2017f0-bd05-48e9-bb25-a7469c906b48@LivingRoom-13611",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 3",
+  "timestamp": "2025-10-28T16:15:32.678171",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/ef2017f0-bd05-48e9-bb25-a7469c906b48/LivingRoom-13611/LivingRoom-13611.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What style is the upholstery of the armchair in the living room?\n\nA. Black velvet\nB. Neutral beige\nC. White\nIf none of the above answers are correct, answer: 'F'",
+      "response": "B"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What style is the upholstery of the armchair in the living room?\n\nA. Black velvet\nB. Neutral beige\nC. White\nD. None of the above",
+      "response": "B"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What style is the upholstery of the armchair in the living room?\n\nA. Black velvet\nB. Neutral beige\nC. White",
+      "response": "B"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What style is the upholstery of the armchair in the living room?\n\nA. Galaxy\nB. Volcano\nC. Ocean\nD. Forest\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What style is the upholstery of the armchair in the living room?\n\nA. Galaxy\nB. Volcano\nC. Ocean\nD. Forest\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What style is the upholstery of the armchair in the living room?\n\nA. Galaxy\nB. Volcano\nC. Ocean\nD. Forest",
+      "response": "None"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What is the primary function of the table in the scene?\n\nA. To display photographs\nB. To serve food\nC. To hold entertainment devices\nD. To gather dust\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What is the primary function of the table in the scene?\n\nA. To display photographs\nB. To serve food\nC. To hold entertainment devices\nD. To gather dust\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What is the primary function of the table in the scene?\n\nA. To display photographs\nB. To serve food\nC. To hold entertainment devices\nD. To gather dust",
+      "response": "N/A"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What type of coffee table is used for serving drinks in this living room?",
+      "response": "N/A"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What type of coffee table is used for serving drinks in this living room?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What style is the upholstery of the armchair in the living room?\n\nA. Black velvet\nB. Silver-gray\nC. Neutral beige\nD. White",
+      "response": "C"
+    }
+  ]
+}

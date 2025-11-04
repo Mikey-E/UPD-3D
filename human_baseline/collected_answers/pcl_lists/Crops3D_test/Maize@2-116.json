@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "Maize@2-116",
+  "dataset": "Crops3D_test",
+  "annotated_by": "User 5",
+  "timestamp": "2025-10-30T11:27:07.710120",
+  "file_path": "/project/3dllms/melgin/datasets/CEA/Crops3D/Maize/2-116.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What type of plant is described in the room?\n\nA. A cactus with spines\nB. A flowering shrub\nC. A tall tree with thick trunk\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What type of plant is described in the room?\n\nA. A cactus with spines\nB. A flowering shrub\nC. A tall tree with thick trunk\nD. None of the above",
+      "response": "d"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What type of plant is described in the room?\n\nA. A cactus with spines\nB. A flowering shrub\nC. A tall tree with thick trunk",
+      "response": "none"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What type of plant is described in the room?\n\nA. JavaScript Framework\nB. Quantum Mechanics\nC. Historical Fiction\nD. Weather Patterns\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What type of plant is described in the room?\n\nA. JavaScript Framework\nB. Quantum Mechanics\nC. Historical Fiction\nD. Weather Patterns\nE. None of the above",
+      "response": "e"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What type of plant is described in the room?\n\nA. JavaScript Framework\nB. Quantum Mechanics\nC. Historical Fiction\nD. Weather Patterns",
+      "response": "none"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What type of artwork is displayed on the wall?\n\nA. Abstract painting\nB. Landscape photograph\nC. Portrait sketch\nD. Still life composition\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What type of artwork is displayed on the wall?\n\nA. Abstract painting\nB. Landscape photograph\nC. Portrait sketch\nD. Still life composition\nE. None of the above",
+      "response": "e"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What type of artwork is displayed on the wall?\n\nA. Abstract painting\nB. Landscape photograph\nC. Portrait sketch\nD. Still life composition",
+      "response": "none"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What type of fruit is displayed on the table?",
+      "response": "none"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What type of fruit is displayed on the table?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What type of plant is described in the room?\n\nA. A cactus with spines\nB. A houseplant with arching leaves\nC. A flowering shrub\nD. A tall tree with thick trunk",
+      "response": "b"
+    }
+  ]
+}

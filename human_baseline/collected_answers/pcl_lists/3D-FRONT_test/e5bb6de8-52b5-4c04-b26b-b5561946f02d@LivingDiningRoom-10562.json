@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "e5bb6de8-52b5-4c04-b26b-b5561946f02d@LivingDiningRoom-10562",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 3",
+  "timestamp": "2025-10-26T19:30:48.859037",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/e5bb6de8-52b5-4c04-b26b-b5561946f02d/LivingDiningRoom-10562/LivingDiningRoom-10562.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What style is the three-seat sofa in the living room?\n\nA. Modern\nB. Japanese\nC. New Chinese\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What style is the three-seat sofa in the living room?\n\nA. Modern\nB. Japanese\nC. New Chinese\nD. None of the above",
+      "response": "D"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What style is the three-seat sofa in the living room?\n\nA. Modern\nB. Japanese\nC. New Chinese",
+      "response": "NONE"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What style is the three-seat sofa in the living room?\n\nA. Geometric progression\nB. Cultural anthropology\nC. Quantum mechanics\nD. Renal physiology\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What style is the three-seat sofa in the living room?\n\nA. Geometric progression\nB. Cultural anthropology\nC. Quantum mechanics\nD. Renal physiology\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What style is the three-seat sofa in the living room?\n\nA. Geometric progression\nB. Cultural anthropology\nC. Quantum mechanics\nD. Renal physiology",
+      "response": "NONE"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What is the height of the chandelier in the room?\n\nA. Ten feet\nB. Eight feet\nC. Five feet\nD. Twelve feet\nIf none of the above answers are correct, answer: 'F'",
+      "response": "B"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What is the height of the chandelier in the room?\n\nA. Ten feet\nB. Eight feet\nC. Five feet\nD. Twelve feet\nE. None of the above",
+      "response": "B"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What is the height of the chandelier in the room?\n\nA. Ten feet\nB. Eight feet\nC. Five feet\nD. Twelve feet",
+      "response": "B"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What type of fireplace is located in this living room?",
+      "response": "NA"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What type of fireplace is located in this living room?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What style is the three-seat sofa in the living room?\n\nA. Modern\nB. Japanese\nC. American Country\nD. New Chinese",
+      "response": "C"
+    }
+  ]
+}

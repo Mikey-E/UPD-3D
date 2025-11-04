@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "e1c89bbb-0337-46b7-ac45-21e17ae29d91@MasterBedroom-33650",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 5",
+  "timestamp": "2025-10-25T12:04:59.183498",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/e1c89bbb-0337-46b7-ac45-21e17ae29d91/MasterBedroom-33650/MasterBedroom-33650.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What color is the top of the TV stand?\n\nA. Soft grey\nB. Cream\nC. Deep green\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What color is the top of the TV stand?\n\nA. Soft grey\nB. Cream\nC. Deep green\nD. None of the above",
+      "response": "d"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What color is the top of the TV stand?\n\nA. Soft grey\nB. Cream\nC. Deep green",
+      "response": "none"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What color is the top of the TV stand?\n\nA. Forest\nB. Ocean\nC. Desert\nD. Mountain\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What color is the top of the TV stand?\n\nA. Forest\nB. Ocean\nC. Desert\nD. Mountain\nE. None of the above",
+      "response": "e"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What color is the top of the TV stand?\n\nA. Forest\nB. Ocean\nC. Desert\nD. Mountain",
+      "response": "none"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What type of figurine is displayed on the shelf?\n\nA. Dragon\nB. Unicorn\nC. Mermaid\nD. Robot\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What type of figurine is displayed on the shelf?\n\nA. Dragon\nB. Unicorn\nC. Mermaid\nD. Robot\nE. None of the above",
+      "response": "e"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What type of figurine is displayed on the shelf?\n\nA. Dragon\nB. Unicorn\nC. Mermaid\nD. Robot",
+      "response": "none"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What type of outdoor furniture is arranged on the balcony?",
+      "response": "none"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What type of outdoor furniture is arranged on the balcony?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What color is the top of the TV stand?\n\nA. Soft grey\nB. Navy blue\nC. Cream\nD. Deep green",
+      "response": "b"
+    }
+  ]
+}

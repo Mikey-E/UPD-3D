@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "d9d37ae8-b3dc-404a-acdd-8066e154de64@LivingDiningRoom-19536",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 4",
+  "timestamp": "2025-10-19T15:12:28.823375",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/d9d37ae8-b3dc-404a-acdd-8066e154de64/LivingDiningRoom-19536/LivingDiningRoom-19536.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What type of table serves as the central piece for dining in this living room?\n\nA. Coffee table\nB. Round end table\nC. Sideboard\nIf none of the above answers are correct, answer: 'F'",
+      "response": "A"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What type of table serves as the central piece for dining in this living room?\n\nA. Coffee table\nB. Round end table\nC. Sideboard\nD. None of the above",
+      "response": "A"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What type of table serves as the central piece for dining in this living room?\n\nA. Coffee table\nB. Round end table\nC. Sideboard",
+      "response": "A"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What type of table serves as the central piece for dining in this living room?\n\nA. Jupiter\nB. Saturn\nC. Mars\nD. Venus\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What type of table serves as the central piece for dining in this living room?\n\nA. Jupiter\nB. Saturn\nC. Mars\nD. Venus\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What type of table serves as the central piece for dining in this living room?\n\nA. Jupiter\nB. Saturn\nC. Mars\nD. Venus",
+      "response": "None"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What type of vehicle is parked outside the living room?\n\nA. Sedan\nB. SUV\nC. Motorcycle\nD. Pickup truck\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What type of vehicle is parked outside the living room?\n\nA. Sedan\nB. SUV\nC. Motorcycle\nD. Pickup truck\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What type of vehicle is parked outside the living room?\n\nA. Sedan\nB. SUV\nC. Motorcycle\nD. Pickup truck",
+      "response": "None"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What type of grand piano is in the room?",
+      "response": "unanswerable"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What type of grand piano is in the room?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What type of table serves as the central piece for dining in this living room?\n\nA. Coffee table\nB. Round end table\nC. Sideboard\nD. Dining table",
+      "response": "A"
+    }
+  ]
+}

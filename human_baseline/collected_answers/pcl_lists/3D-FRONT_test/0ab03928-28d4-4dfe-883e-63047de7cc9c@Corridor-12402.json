@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "0ab03928-28d4-4dfe-883e-63047de7cc9c@Corridor-12402",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 4",
+  "timestamp": "2025-10-23T21:47:12.939977",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/0ab03928-28d4-4dfe-883e-63047de7cc9c/Corridor-12402/Corridor-12402.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What shape is the unique item in the corridor? \n\nA. Triangular\nB. Circular\nC. Multi-tiered round\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What shape is the unique item in the corridor? \n\nA. Triangular\nB. Circular\nC. Multi-tiered round\nD. None of the above",
+      "response": "D"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What shape is the unique item in the corridor? \n\nA. Triangular\nB. Circular\nC. Multi-tiered round",
+      "response": "None"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What shape is the unique item in the corridor? \n\nA. Chocolate chip\nB. Blueberry\nC. Vanilla bean\nD. Strawberry shortcake\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What shape is the unique item in the corridor? \n\nA. Chocolate chip\nB. Blueberry\nC. Vanilla bean\nD. Strawberry shortcake\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What shape is the unique item in the corridor? \n\nA. Chocolate chip\nB. Blueberry\nC. Vanilla bean\nD. Strawberry shortcake",
+      "response": "None"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What material is the desk made of?\n\nA. Wood\nB. Glass\nC. Plastic\nD. Metal\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What material is the desk made of?\n\nA. Wood\nB. Glass\nC. Plastic\nD. Metal\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What material is the desk made of?\n\nA. Wood\nB. Glass\nC. Plastic\nD. Metal",
+      "response": "None"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What type of sofa is located next to the corridor?",
+      "response": "unanswerable"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What type of sofa is located next to the corridor?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What shape is the unique item in the corridor? \n\nA. Two-tiered rectangular\nB. Triangular\nC. Circular\nD. Multi-tiered round",
+      "response": "None"
+    }
+  ]
+}

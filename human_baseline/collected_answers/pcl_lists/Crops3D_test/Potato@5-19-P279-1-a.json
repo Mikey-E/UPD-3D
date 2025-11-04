@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "Potato@5-19-P279-1-a",
+  "dataset": "Crops3D_test",
+  "annotated_by": "User 5",
+  "timestamp": "2025-10-30T12:01:47.542944",
+  "file_path": "/project/3dllms/melgin/datasets/CEA/Crops3D/Potato/5-19-P279-1-a.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What is the arrangement of the leaves on the green plant stem described?\n\nA. Leaves are clustered at the base only\nB. Leaves are arranged in a circular pattern around the stem\nC. Leaves grow only at the top of the stem\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What is the arrangement of the leaves on the green plant stem described?\n\nA. Leaves are clustered at the base only\nB. Leaves are arranged in a circular pattern around the stem\nC. Leaves grow only at the top of the stem\nD. None of the above",
+      "response": "d"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What is the arrangement of the leaves on the green plant stem described?\n\nA. Leaves are clustered at the base only\nB. Leaves are arranged in a circular pattern around the stem\nC. Leaves grow only at the top of the stem",
+      "response": "none"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What is the arrangement of the leaves on the green plant stem described?\n\nA. Raindrop formation\nB. Mountain range\nC. Ocean wave pattern\nD. Spiral galaxy\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What is the arrangement of the leaves on the green plant stem described?\n\nA. Raindrop formation\nB. Mountain range\nC. Ocean wave pattern\nD. Spiral galaxy\nE. None of the above",
+      "response": "e"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What is the arrangement of the leaves on the green plant stem described?\n\nA. Raindrop formation\nB. Mountain range\nC. Ocean wave pattern\nD. Spiral galaxy",
+      "response": "none"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What type of sculpture is displayed in the scene?\n\nA. Abstract Metal\nB. Marble Bust\nC. Ceramic Figure\nD. Stone Relief\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What type of sculpture is displayed in the scene?\n\nA. Abstract Metal\nB. Marble Bust\nC. Ceramic Figure\nD. Stone Relief\nE. None of the above",
+      "response": "e"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What type of sculpture is displayed in the scene?\n\nA. Abstract Metal\nB. Marble Bust\nC. Ceramic Figure\nD. Stone Relief",
+      "response": "none"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What is the shape of the roof above the plant?",
+      "response": "none"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What is the shape of the roof above the plant?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What is the arrangement of the leaves on the green plant stem described?\n\nA. Leaves are clustered at the base only\nB. Leaves are arranged in a circular pattern around the stem\nC. Leaves grow only at the top of the stem\nD. Leaves are arranged along the length of the stem",
+      "response": "d"
+    }
+  ]
+}

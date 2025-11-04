@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "Tomato@11-2_35-22",
+  "dataset": "Crops3D_test",
+  "annotated_by": "User 5",
+  "timestamp": "2025-10-31T06:34:00.510347",
+  "file_path": "/project/3dllms/melgin/datasets/CEA/Crops3D/Tomato/11-2_35-22.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What is the shape of the plant as described?\n\nA. Upright and cylindrical\nB. Tall and thin\nC. Wide and flat\nIf none of the above answers are correct, answer: 'F'",
+      "response": "a"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What is the shape of the plant as described?\n\nA. Upright and cylindrical\nB. Tall and thin\nC. Wide and flat\nD. None of the above",
+      "response": "a"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What is the shape of the plant as described?\n\nA. Upright and cylindrical\nB. Tall and thin\nC. Wide and flat",
+      "response": "a"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What is the shape of the plant as described?\n\nA. Jupiter's atmosphere\nB. The Great Wall of China\nC. Beethoven's Symphony No. 9\nD. Photosynthesis in algae\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What is the shape of the plant as described?\n\nA. Jupiter's atmosphere\nB. The Great Wall of China\nC. Beethoven's Symphony No. 9\nD. Photosynthesis in algae\nE. None of the above",
+      "response": "e"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What is the shape of the plant as described?\n\nA. Jupiter's atmosphere\nB. The Great Wall of China\nC. Beethoven's Symphony No. 9\nD. Photosynthesis in algae",
+      "response": "none"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What is the height of the building in the scene?\n\nA. Four stories\nB. Eight stories\nC. Two stories\nD. Ten stories\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What is the height of the building in the scene?\n\nA. Four stories\nB. Eight stories\nC. Two stories\nD. Ten stories\nE. None of the above",
+      "response": "e"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What is the height of the building in the scene?\n\nA. Four stories\nB. Eight stories\nC. Two stories\nD. Ten stories",
+      "response": "none"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What type of vase is placed next to the plant?",
+      "response": "none"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What type of vase is placed next to the plant?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What is the shape of the plant as described?\n\nA. Upright and cylindrical\nB. Tall and thin\nC. Wide and flat\nD. Slightly drooping and bushy",
+      "response": "a"
+    }
+  ]
+}

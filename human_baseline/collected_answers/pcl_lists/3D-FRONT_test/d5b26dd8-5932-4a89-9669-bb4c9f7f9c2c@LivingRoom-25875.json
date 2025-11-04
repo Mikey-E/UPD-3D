@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "d5b26dd8-5932-4a89-9669-bb4c9f7f9c2c@LivingRoom-25875",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 4",
+  "timestamp": "2025-10-16T11:53:42.712686",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/d5b26dd8-5932-4a89-9669-bb4c9f7f9c2c/LivingRoom-25875/LivingRoom-25875.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What style is the chair described in the room?\n\nA. Modern style\nB. Vintage style\nC. Industrial style\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What style is the chair described in the room?\n\nA. Modern style\nB. Vintage style\nC. Industrial style\nD. None of the above",
+      "response": "d"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What style is the chair described in the room?\n\nA. Modern style\nB. Vintage style\nC. Industrial style",
+      "response": "none"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What style is the chair described in the room?\n\nA. Jazz music\nB. Mystery novels\nC. Tropical rainforest\nD. Classical paintings\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What style is the chair described in the room?\n\nA. Jazz music\nB. Mystery novels\nC. Tropical rainforest\nD. Classical paintings\nE. None of the above",
+      "response": "e"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What style is the chair described in the room?\n\nA. Jazz music\nB. Mystery novels\nC. Tropical rainforest\nD. Classical paintings",
+      "response": "none"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What shape is the window in the scene?\n\nA. Round\nB. Oval\nC. Square\nD. Triangular\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What shape is the window in the scene?\n\nA. Round\nB. Oval\nC. Square\nD. Triangular\nE. None of the above",
+      "response": "e"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What shape is the window in the scene?\n\nA. Round\nB. Oval\nC. Square\nD. Triangular",
+      "response": "none"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What type of chandelier is hanging from the ceiling?",
+      "response": "n/a"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What type of chandelier is hanging from the ceiling?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What style is the chair described in the room?\n\nA. Modern style\nB. Vintage style\nC. Nordic style\nD. Industrial style",
+      "response": "c"
+    }
+  ]
+}

@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "Rapeseed@109",
+  "dataset": "Crops3D_test",
+  "annotated_by": "User 5",
+  "timestamp": "2025-10-30T23:40:26.131844",
+  "file_path": "/project/3dllms/melgin/datasets/CEA/Crops3D/Rapeseed/109.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What color is the pot that the potted plant is in?\n\nA. Brown\nB. White\nC. Black\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What color is the pot that the potted plant is in?\n\nA. Brown\nB. White\nC. Black\nD. None of the above",
+      "response": "d"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What color is the pot that the potted plant is in?\n\nA. Brown\nB. White\nC. Black",
+      "response": "noned"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What color is the pot that the potted plant is in?\n\nA. Winter\nB. Summer\nC. Autumn\nD. Spring\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What color is the pot that the potted plant is in?\n\nA. Winter\nB. Summer\nC. Autumn\nD. Spring\nE. None of the above",
+      "response": "e"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What color is the pot that the potted plant is in?\n\nA. Winter\nB. Summer\nC. Autumn\nD. Spring",
+      "response": "none"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What type of mural is painted on the wall?\n\nA. Landscape\nB. Abstract\nC. Portrait\nD. Geometric\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What type of mural is painted on the wall?\n\nA. Landscape\nB. Abstract\nC. Portrait\nD. Geometric\nE. None of the above",
+      "response": "e"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What type of mural is painted on the wall?\n\nA. Landscape\nB. Abstract\nC. Portrait\nD. Geometric",
+      "response": "none"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What kind of artwork is hanging on the wall?",
+      "response": "none"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What kind of artwork is hanging on the wall?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What color is the pot that the potted plant is in?\n\nA. Brown\nB. Gray-blue\nC. White\nD. Black",
+      "response": "b"
+    }
+  ]
+}

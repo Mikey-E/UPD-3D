@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "f9c1ebe5-82cf-4906-bd19-f62f28516623@CloakRoom-3482",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 3",
+  "timestamp": "2025-10-30T01:29:16.957953",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/f9c1ebe5-82cf-4906-bd19-f62f28516623/CloakRoom-3482/CloakRoom-3482.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What color is the dressing table in the CloakRoom?\n\nA. Creamy white\nB. Light wood\nC. Soft grey\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What color is the dressing table in the CloakRoom?\n\nA. Creamy white\nB. Light wood\nC. Soft grey\nD. None of the above",
+      "response": "D"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What color is the dressing table in the CloakRoom?\n\nA. Creamy white\nB. Light wood\nC. Soft grey",
+      "response": "NONE"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What color is the dressing table in the CloakRoom?\n\nA. Harmony\nB. Dissonance\nC. Melody\nD. Rhythm\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What color is the dressing table in the CloakRoom?\n\nA. Harmony\nB. Dissonance\nC. Melody\nD. Rhythm\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What color is the dressing table in the CloakRoom?\n\nA. Harmony\nB. Dissonance\nC. Melody\nD. Rhythm",
+      "response": "NONE"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "How tall is the statue in the room?\n\nA. Three feet\nB. Five feet\nC. Seven feet\nD. Ten feet\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "How tall is the statue in the room?\n\nA. Three feet\nB. Five feet\nC. Seven feet\nD. Ten feet\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "How tall is the statue in the room?\n\nA. Three feet\nB. Five feet\nC. Seven feet\nD. Ten feet",
+      "response": "NA"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What type of chandelier is hanging in the room?",
+      "response": "NA"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What type of chandelier is hanging in the room?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What color is the dressing table in the CloakRoom?\n\nA. Creamy white\nB. Light wood\nC. Soft grey\nD. Muted green",
+      "response": "D"
+    }
+  ]
+}

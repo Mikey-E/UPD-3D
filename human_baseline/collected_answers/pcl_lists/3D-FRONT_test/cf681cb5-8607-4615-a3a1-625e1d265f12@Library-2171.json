@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "cf681cb5-8607-4615-a3a1-625e1d265f12@Library-2171",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 4",
+  "timestamp": "2025-10-15T10:19:59.506323",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/cf681cb5-8607-4615-a3a1-625e1d265f12/Library-2171/Library-2171.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What color is the children's cabinet in the library?\n\nA. Beige\nB. Deep walnut\nC. Off-white\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What color is the children's cabinet in the library?\n\nA. Beige\nB. Deep walnut\nC. Off-white\nD. None of the above",
+      "response": "D"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What color is the children's cabinet in the library?\n\nA. Beige\nB. Deep walnut\nC. Off-white",
+      "response": "none"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What color is the children's cabinet in the library?\n\nA. Mountain range\nB. Ocean breeze\nC. Desert cactus\nD. Forest clearing\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What color is the children's cabinet in the library?\n\nA. Mountain range\nB. Ocean breeze\nC. Desert cactus\nD. Forest clearing\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What color is the children's cabinet in the library?\n\nA. Mountain range\nB. Ocean breeze\nC. Desert cactus\nD. Forest clearing",
+      "response": "none"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What type of sculpture is displayed in the library?\n\nA. Abstract sculpture\nB. Classical bust\nC. Modern art piece\nD. Kinetic sculpture\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What type of sculpture is displayed in the library?\n\nA. Abstract sculpture\nB. Classical bust\nC. Modern art piece\nD. Kinetic sculpture\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What type of sculpture is displayed in the library?\n\nA. Abstract sculpture\nB. Classical bust\nC. Modern art piece\nD. Kinetic sculpture",
+      "response": "none of these"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What type of outdoor grill is in the library?",
+      "response": "unanswerable"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What type of outdoor grill is in the library?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What color is the children's cabinet in the library?\n\nA. Vibrant orange\nB. Beige\nC. Deep walnut\nD. Off-white",
+      "response": "A"
+    }
+  ]
+}

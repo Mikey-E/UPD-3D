@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "fadd9fe3-d80b-47d5-90ee-c4678863fd3d@LivingRoom-3973",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 3",
+  "timestamp": "2025-10-30T13:36:23.348422",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/fadd9fe3-d80b-47d5-90ee-c4678863fd3d/LivingRoom-3973/LivingRoom-3973.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What design element hangs above the seating area in the living room?\n\nA. Wall art\nB. Ceiling fan\nC. Chandelier\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What design element hangs above the seating area in the living room?\n\nA. Wall art\nB. Ceiling fan\nC. Chandelier\nD. None of the above",
+      "response": "D"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What design element hangs above the seating area in the living room?\n\nA. Wall art\nB. Ceiling fan\nC. Chandelier",
+      "response": "NONE"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What design element hangs above the seating area in the living room?\n\nA. Fractal geometry\nB. Quantum mechanics\nC. Renaissance art\nD. Classic literature\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What design element hangs above the seating area in the living room?\n\nA. Fractal geometry\nB. Quantum mechanics\nC. Renaissance art\nD. Classic literature\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What design element hangs above the seating area in the living room?\n\nA. Fractal geometry\nB. Quantum mechanics\nC. Renaissance art\nD. Classic literature",
+      "response": "NONE"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What type of fish is featured in the scene?\n\nA. Salmon\nB. Trout\nC. Goldfish\nD. Catfish\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What type of fish is featured in the scene?\n\nA. Salmon\nB. Trout\nC. Goldfish\nD. Catfish\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What type of fish is featured in the scene?\n\nA. Salmon\nB. Trout\nC. Goldfish\nD. Catfish",
+      "response": "NA"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What type of outdoor fountain is located in the garden adjacent to the living room?",
+      "response": "NA"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What type of outdoor fountain is located in the garden adjacent to the living room?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What design element hangs above the seating area in the living room?\n\nA. Wall art\nB. Pendant lamp\nC. Ceiling fan\nD. Chandelier",
+      "response": "B"
+    }
+  ]
+}

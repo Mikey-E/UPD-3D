@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "e873fe1b-3ea6-4cad-85b0-8ec58857b5dc@LivingDiningRoom-61719",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 4",
+  "timestamp": "2025-10-27T08:30:18.617443",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/e873fe1b-3ea6-4cad-85b0-8ec58857b5dc/LivingDiningRoom-61719/LivingDiningRoom-61719.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What style is the armchair in the living room?\n\nA. Southeast Asian\nB. Modern\nC. New Chinese\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What style is the armchair in the living room?\n\nA. Southeast Asian\nB. Modern\nC. New Chinese\nD. None of the above",
+      "response": "d"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What style is the armchair in the living room?\n\nA. Southeast Asian\nB. Modern\nC. New Chinese",
+      "response": "none"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What style is the armchair in the living room?\n\nA. Mountainous terrain\nB. Oceanic currents\nC. Desert landscape\nD. Tropical rainforest\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What style is the armchair in the living room?\n\nA. Mountainous terrain\nB. Oceanic currents\nC. Desert landscape\nD. Tropical rainforest\nE. None of the above",
+      "response": "e"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What style is the armchair in the living room?\n\nA. Mountainous terrain\nB. Oceanic currents\nC. Desert landscape\nD. Tropical rainforest",
+      "response": "none"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What is the height of the bookshelf in the room?\n\nA. Six feet\nB. Seven feet\nC. Eight feet\nD. Nine feet\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What is the height of the bookshelf in the room?\n\nA. Six feet\nB. Seven feet\nC. Eight feet\nD. Nine feet\nE. None of the above",
+      "response": "e"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What is the height of the bookshelf in the room?\n\nA. Six feet\nB. Seven feet\nC. Eight feet\nD. Nine feet",
+      "response": "none"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What texture is the rug under the coffee table?",
+      "response": "n/a"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What texture is the rug under the coffee table?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What style is the armchair in the living room?\n\nA. Southeast Asian\nB. Japanese\nC. Modern\nD. New Chinese",
+      "response": "b"
+    }
+  ]
+}

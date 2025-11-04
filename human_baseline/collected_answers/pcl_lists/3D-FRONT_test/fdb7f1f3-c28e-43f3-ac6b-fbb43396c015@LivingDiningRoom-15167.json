@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "fdb7f1f3-c28e-43f3-ac6b-fbb43396c015@LivingDiningRoom-15167",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 3",
+  "timestamp": "2025-10-31T02:18:14.195040",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/fdb7f1f3-c28e-43f3-ac6b-fbb43396c015/LivingDiningRoom-15167/LivingDiningRoom-15167.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What design style are the dining chairs surrounding the dining table?\n\nA. Industrial style\nB. Classic European style\nC. Modern minimalist style\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What design style are the dining chairs surrounding the dining table?\n\nA. Industrial style\nB. Classic European style\nC. Modern minimalist style\nD. None of the above",
+      "response": "D"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What design style are the dining chairs surrounding the dining table?\n\nA. Industrial style\nB. Classic European style\nC. Modern minimalist style",
+      "response": "NONE"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What design style are the dining chairs surrounding the dining table?\n\nA. Cumulus clouds\nB. Thunderstorms\nC. Tornado winds\nD. Blizzards\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What design style are the dining chairs surrounding the dining table?\n\nA. Cumulus clouds\nB. Thunderstorms\nC. Tornado winds\nD. Blizzards\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What design style are the dining chairs surrounding the dining table?\n\nA. Cumulus clouds\nB. Thunderstorms\nC. Tornado winds\nD. Blizzards",
+      "response": "NONE"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What color is the wallpaper in the living room?\n\nA. Yellow\nB. Green\nC. Purple\nD. Orange\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What color is the wallpaper in the living room?\n\nA. Yellow\nB. Green\nC. Purple\nD. Orange\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What color is the wallpaper in the living room?\n\nA. Yellow\nB. Green\nC. Purple\nD. Orange",
+      "response": "NONE"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What type of artwork is displayed on the walls?",
+      "response": "NA"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What type of artwork is displayed on the walls?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What design style are the dining chairs surrounding the dining table?\n\nA. Industrial style\nB. Classic European style\nC. Modern minimalist style\nD. Japanese style",
+      "response": "D"
+    }
+  ]
+}

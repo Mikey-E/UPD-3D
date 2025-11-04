@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "cbaa2bb7-048d-4939-9d36-77379f49cb98@MasterBedroom-7635",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 4",
+  "timestamp": "2025-10-14T11:39:46.513373",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/cbaa2bb7-048d-4939-9d36-77379f49cb98/MasterBedroom-7635/MasterBedroom-7635.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What is the color of the bed's bedspread in the Masterbedroom?\n\nA. Deep black\nB. Light grey\nC. Matte finish\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What is the color of the bed's bedspread in the Masterbedroom?\n\nA. Deep black\nB. Light grey\nC. Matte finish\nD. None of the above",
+      "response": "D"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What is the color of the bed's bedspread in the Masterbedroom?\n\nA. Deep black\nB. Light grey\nC. Matte finish",
+      "response": "NONE OF THESE"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What is the color of the bed's bedspread in the Masterbedroom?\n\nA. Cactus\nB. Algorithm\nC. Symphony\nD. Galaxy\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What is the color of the bed's bedspread in the Masterbedroom?\n\nA. Cactus\nB. Algorithm\nC. Symphony\nD. Galaxy\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What is the color of the bed's bedspread in the Masterbedroom?\n\nA. Cactus\nB. Algorithm\nC. Symphony\nD. Galaxy",
+      "response": "NONE OF THESE"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What type of sculpture is displayed in the room?\n\nA. Marble Statue\nB. Bronze Figure\nC. Glass Sculpture\nD. Wooden Carving\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What type of sculpture is displayed in the room?\n\nA. Marble Statue\nB. Bronze Figure\nC. Glass Sculpture\nD. Wooden Carving\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What type of sculpture is displayed in the room?\n\nA. Marble Statue\nB. Bronze Figure\nC. Glass Sculpture\nD. Wooden Carving",
+      "response": "NONE OF THESE"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What type of rug is placed under the lounge chair?",
+      "response": "NONE"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What type of rug is placed under the lounge chair?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What is the color of the bed's bedspread in the Masterbedroom?\n\nA. Soft gray\nB. Deep black\nC. Light grey\nD. Matte finish",
+      "response": "A"
+    }
+  ]
+}

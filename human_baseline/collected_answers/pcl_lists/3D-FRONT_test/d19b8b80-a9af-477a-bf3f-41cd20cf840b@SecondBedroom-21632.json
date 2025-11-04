@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "d19b8b80-a9af-477a-bf3f-41cd20cf840b@SecondBedroom-21632",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 5",
+  "timestamp": "2025-10-15T14:13:47.475587",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/d19b8b80-a9af-477a-bf3f-41cd20cf840b/SecondBedroom-21632/SecondBedroom-21632.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What is the color of the wardrobe in the Second bedroom?\n\nA. White\nB. Gray\nC. Beige\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What is the color of the wardrobe in the Second bedroom?\n\nA. White\nB. Gray\nC. Beige\nD. None of the above",
+      "response": "d"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What is the color of the wardrobe in the Second bedroom?\n\nA. White\nB. Gray\nC. Beige",
+      "response": "none of these"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What is the color of the wardrobe in the Second bedroom?\n\nA. Symphony\nB. Requiem\nC. Allegro\nD. Sonata\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What is the color of the wardrobe in the Second bedroom?\n\nA. Symphony\nB. Requiem\nC. Allegro\nD. Sonata\nE. None of the above",
+      "response": "e"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What is the color of the wardrobe in the Second bedroom?\n\nA. Symphony\nB. Requiem\nC. Allegro\nD. Sonata",
+      "response": "none of these"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What shape are the pillows on the bed?\n\nA. Square\nB. Circular\nC. Triangular\nD. Rectangular\nIf none of the above answers are correct, answer: 'F'",
+      "response": "d"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What shape are the pillows on the bed?\n\nA. Square\nB. Circular\nC. Triangular\nD. Rectangular\nE. None of the above",
+      "response": "d"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What shape are the pillows on the bed?\n\nA. Square\nB. Circular\nC. Triangular\nD. Rectangular",
+      "response": "d"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What type of outdoor grill is installed in the room?",
+      "response": "unanswerable"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What type of outdoor grill is installed in the room?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What is the color of the wardrobe in the Second bedroom?\n\nA. Blue\nB. White\nC. Gray\nD. Beige",
+      "response": "a"
+    }
+  ]
+}

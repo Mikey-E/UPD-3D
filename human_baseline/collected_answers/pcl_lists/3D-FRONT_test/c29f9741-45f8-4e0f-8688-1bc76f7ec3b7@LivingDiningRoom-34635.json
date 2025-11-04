@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "c29f9741-45f8-4e0f-8688-1bc76f7ec3b7@LivingDiningRoom-34635",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 3",
+  "timestamp": "2025-10-06T12:05:02.852734",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/c29f9741-45f8-4e0f-8688-1bc76f7ec3b7/LivingDiningRoom-34635/LivingDiningRoom-34635.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What color are the armchairs in the living room?\n\nA. Blue\nB. Light green\nC. White\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What color are the armchairs in the living room?\n\nA. Blue\nB. Light green\nC. White\nD. None of the above",
+      "response": "D"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What color are the armchairs in the living room?\n\nA. Blue\nB. Light green\nC. White",
+      "response": "None"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What color are the armchairs in the living room?\n\nA. Dolphin\nB. Giraffe\nC. Kangaroo\nD. Elephant\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What color are the armchairs in the living room?\n\nA. Dolphin\nB. Giraffe\nC. Kangaroo\nD. Elephant\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What color are the armchairs in the living room?\n\nA. Dolphin\nB. Giraffe\nC. Kangaroo\nD. Elephant",
+      "response": "None"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What is the shape of the skylight in the room?\n\nA. Circular\nB. Rectangular\nC. Triangular\nD. Hexagonal\nIf none of the above answers are correct, answer: 'F'",
+      "response": "B"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What is the shape of the skylight in the room?\n\nA. Circular\nB. Rectangular\nC. Triangular\nD. Hexagonal\nE. None of the above",
+      "response": "B"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What is the shape of the skylight in the room?\n\nA. Circular\nB. Rectangular\nC. Triangular\nD. Hexagonal",
+      "response": "B"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What color is the rug that anchors the seating area?",
+      "response": "Purple"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What color is the rug that anchors the seating area?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "Purple"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What color are the armchairs in the living room?\n\nA. Rich mustard yellow\nB. Blue\nC. Light green\nD. White",
+      "response": "A"
+    }
+  ]
+}

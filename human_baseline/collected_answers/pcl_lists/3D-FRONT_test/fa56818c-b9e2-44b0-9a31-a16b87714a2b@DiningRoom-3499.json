@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "fa56818c-b9e2-44b0-9a31-a16b87714a2b@DiningRoom-3499",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 3",
+  "timestamp": "2025-10-30T15:53:53.148587",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/fa56818c-b9e2-44b0-9a31-a16b87714a2b/DiningRoom-3499/DiningRoom-3499.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What color is the pendant lamp that hangs above the sideboard in the DiningRoom?\n\nA. White\nB. Green\nC. Brown\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What color is the pendant lamp that hangs above the sideboard in the DiningRoom?\n\nA. White\nB. Green\nC. Brown\nD. None of the above",
+      "response": "D"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What color is the pendant lamp that hangs above the sideboard in the DiningRoom?\n\nA. White\nB. Green\nC. Brown",
+      "response": "NONE"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What color is the pendant lamp that hangs above the sideboard in the DiningRoom?\n\nA. Granite\nB. Cascade\nC. Canyon\nD. Glacier\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What color is the pendant lamp that hangs above the sideboard in the DiningRoom?\n\nA. Granite\nB. Cascade\nC. Canyon\nD. Glacier\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What color is the pendant lamp that hangs above the sideboard in the DiningRoom?\n\nA. Granite\nB. Cascade\nC. Canyon\nD. Glacier",
+      "response": "NONE"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What color is the sofa in the room?\n\nA. Red\nB. Green\nC. Blue\nD. Black\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What color is the sofa in the room?\n\nA. Red\nB. Green\nC. Blue\nD. Black\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What color is the sofa in the room?\n\nA. Red\nB. Green\nC. Blue\nD. Black",
+      "response": "NA"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What material is the coffee table made of?",
+      "response": "NA"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What material is the coffee table made of?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What color is the pendant lamp that hangs above the sideboard in the DiningRoom?\n\nA. Charcoal\nB. White\nC. Green\nD. Brown",
+      "response": "A"
+    }
+  ]
+}

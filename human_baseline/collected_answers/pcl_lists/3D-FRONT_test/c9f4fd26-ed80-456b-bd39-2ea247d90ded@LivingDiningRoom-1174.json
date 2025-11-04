@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "c9f4fd26-ed80-456b-bd39-2ea247d90ded@LivingDiningRoom-1174",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 4",
+  "timestamp": "2025-10-14T09:04:51.203616",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/c9f4fd26-ed80-456b-bd39-2ea247d90ded/LivingDiningRoom-1174/LivingDiningRoom-1174.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What color is the sofa in the living room?\n\nA. Bright blue\nB. Dark brown\nC. Soft white\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What color is the sofa in the living room?\n\nA. Bright blue\nB. Dark brown\nC. Soft white\nD. None of the above",
+      "response": "D"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What color is the sofa in the living room?\n\nA. Bright blue\nB. Dark brown\nC. Soft white",
+      "response": "NONE"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What color is the sofa in the living room?\n\nA. Cactus\nB. Pyramid\nC. Satellite\nD. Galaxy\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What color is the sofa in the living room?\n\nA. Cactus\nB. Pyramid\nC. Satellite\nD. Galaxy\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What color is the sofa in the living room?\n\nA. Cactus\nB. Pyramid\nC. Satellite\nD. Galaxy",
+      "response": "NONE"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What type of staircase is found in the living room?\n\nA. Spiral staircase\nB. Traditional straight staircase\nC. Floating staircase\nD. L-shaped staircase\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What type of staircase is found in the living room?\n\nA. Spiral staircase\nB. Traditional straight staircase\nC. Floating staircase\nD. L-shaped staircase\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What type of staircase is found in the living room?\n\nA. Spiral staircase\nB. Traditional straight staircase\nC. Floating staircase\nD. L-shaped staircase",
+      "response": "NONE"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What type of fireplace is installed in the living room?",
+      "response": "N/A"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What type of fireplace is installed in the living room?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What color is the sofa in the living room?\n\nA. Bright blue\nB. Dark brown\nC. Light grey\nD. Soft white",
+      "response": "C"
+    }
+  ]
+}

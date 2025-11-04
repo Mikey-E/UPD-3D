@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "Rapeseed@79",
+  "dataset": "Crops3D_test",
+  "annotated_by": "User 5",
+  "timestamp": "2025-10-30T23:30:37.146322",
+  "file_path": "/project/3dllms/melgin/datasets/CEA/Crops3D/Rapeseed/79.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What color is the cylindrical plant pot?\n\nA. Light green\nB. Bright red\nC. Yellow\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What color is the cylindrical plant pot?\n\nA. Light green\nB. Bright red\nC. Yellow\nD. None of the above",
+      "response": "d"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What color is the cylindrical plant pot?\n\nA. Light green\nB. Bright red\nC. Yellow",
+      "response": "none"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What color is the cylindrical plant pot?\n\nA. Tundra\nB. Desert\nC. Ocean\nD. Mountain\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What color is the cylindrical plant pot?\n\nA. Tundra\nB. Desert\nC. Ocean\nD. Mountain\nE. None of the above",
+      "response": "e"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What color is the cylindrical plant pot?\n\nA. Tundra\nB. Desert\nC. Ocean\nD. Mountain",
+      "response": "none"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What type of chair is featured in the scene?\n\nA. Recliner\nB. Dining chair\nC. Office chair\nD. Lounge chair\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What type of chair is featured in the scene?\n\nA. Recliner\nB. Dining chair\nC. Office chair\nD. Lounge chair\nE. None of the above",
+      "response": "e"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What type of chair is featured in the scene?\n\nA. Recliner\nB. Dining chair\nC. Office chair\nD. Lounge chair",
+      "response": "none"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What type of crystal chandelier is hanging from the ceiling?",
+      "response": "none"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What type of crystal chandelier is hanging from the ceiling?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "none"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What color is the cylindrical plant pot?\n\nA. Dark blue\nB. Light green\nC. Bright red\nD. Yellow",
+      "response": "a"
+    }
+  ]
+}

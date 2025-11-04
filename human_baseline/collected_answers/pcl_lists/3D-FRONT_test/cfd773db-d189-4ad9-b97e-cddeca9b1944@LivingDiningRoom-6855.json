@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "cfd773db-d189-4ad9-b97e-cddeca9b1944@LivingDiningRoom-6855",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 4",
+  "timestamp": "2025-10-14T20:49:20.532799",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/cfd773db-d189-4ad9-b97e-cddeca9b1944/LivingDiningRoom-6855/LivingDiningRoom-6855.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What piece of furniture serves as the entertainment center in the living room?\n\nA. Coffee table\nB. Dining table\nC. Corner cabinet\nIf none of the above answers are correct, answer: 'F'",
+      "response": "A"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What piece of furniture serves as the entertainment center in the living room?\n\nA. Coffee table\nB. Dining table\nC. Corner cabinet\nD. None of the above",
+      "response": "A"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What piece of furniture serves as the entertainment center in the living room?\n\nA. Coffee table\nB. Dining table\nC. Corner cabinet",
+      "response": "A"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What piece of furniture serves as the entertainment center in the living room?\n\nA. Planet Earth\nB. Milky Way Galaxy\nC. Andromeda Galaxy\nD. Black Hole\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What piece of furniture serves as the entertainment center in the living room?\n\nA. Planet Earth\nB. Milky Way Galaxy\nC. Andromeda Galaxy\nD. Black Hole\nE. None of the above",
+      "response": "e"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What piece of furniture serves as the entertainment center in the living room?\n\nA. Planet Earth\nB. Milky Way Galaxy\nC. Andromeda Galaxy\nD. Black Hole",
+      "response": "None"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What is the height of the chandelier in the room?\n\nA. 10 feet\nB. 15 feet\nC. 20 feet\nD. 25 feet\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What is the height of the chandelier in the room?\n\nA. 10 feet\nB. 15 feet\nC. 20 feet\nD. 25 feet\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What is the height of the chandelier in the room?\n\nA. 10 feet\nB. 15 feet\nC. 20 feet\nD. 25 feet",
+      "response": "None"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What type of ocean view is visible from the living room?",
+      "response": "unanswerable"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What type of ocean view is visible from the living room?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What piece of furniture serves as the entertainment center in the living room?\n\nA. Coffee table\nB. Dining table\nC. TV stand\nD. Corner cabinet",
+      "response": "A"
+    }
+  ]
+}

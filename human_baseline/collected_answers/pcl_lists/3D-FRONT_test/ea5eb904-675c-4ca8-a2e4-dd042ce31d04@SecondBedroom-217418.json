@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "ea5eb904-675c-4ca8-a2e4-dd042ce31d04@SecondBedroom-217418",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 3",
+  "timestamp": "2025-10-27T15:05:52.165515",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/ea5eb904-675c-4ca8-a2e4-dd042ce31d04/SecondBedroom-217418/SecondBedroom-217418.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What type of finish does the lounge chair with the soft taupe fabric have?\n\nA. Honey oak finish\nB. Warm brown hue\nC. Conical shape\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What type of finish does the lounge chair with the soft taupe fabric have?\n\nA. Honey oak finish\nB. Warm brown hue\nC. Conical shape\nD. None of the above",
+      "response": "D"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What type of finish does the lounge chair with the soft taupe fabric have?\n\nA. Honey oak finish\nB. Warm brown hue\nC. Conical shape",
+      "response": "NONE"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What type of finish does the lounge chair with the soft taupe fabric have?\n\nA. Circular economy\nB. Astrophysics\nC. Digital marketing\nD. Renaissance art\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What type of finish does the lounge chair with the soft taupe fabric have?\n\nA. Circular economy\nB. Astrophysics\nC. Digital marketing\nD. Renaissance art\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What type of finish does the lounge chair with the soft taupe fabric have?\n\nA. Circular economy\nB. Astrophysics\nC. Digital marketing\nD. Renaissance art",
+      "response": "NONE"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What type of carpet is used in the room?\n\nA. Shag carpet\nB. Berber carpet\nC. Oriental carpet\nD. Sisal carpet\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What type of carpet is used in the room?\n\nA. Shag carpet\nB. Berber carpet\nC. Oriental carpet\nD. Sisal carpet\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What type of carpet is used in the room?\n\nA. Shag carpet\nB. Berber carpet\nC. Oriental carpet\nD. Sisal carpet",
+      "response": "NA"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What type of fireplace is situated in the corner of the room?",
+      "response": "NA"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What type of fireplace is situated in the corner of the room?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What type of finish does the lounge chair with the soft taupe fabric have?\n\nA. Honey oak finish\nB. Plush texture\nC. Warm brown hue\nD. Conical shape",
+      "response": "B"
+    }
+  ]
+}

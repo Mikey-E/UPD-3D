@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "d86d22b5-a808-4dfb-acf4-a7a5bfc9457c@LivingRoom-24701",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 4",
+  "timestamp": "2025-10-17T21:41:46.332807",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/d86d22b5-a808-4dfb-acf4-a7a5bfc9457c/LivingRoom-24701/LivingRoom-24701.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What color is the armchair in the living room?\n\nA. Dark brown\nB. Espresso\nC. Chocolate brown\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What color is the armchair in the living room?\n\nA. Dark brown\nB. Espresso\nC. Chocolate brown\nD. None of the above",
+      "response": "D"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What color is the armchair in the living room?\n\nA. Dark brown\nB. Espresso\nC. Chocolate brown",
+      "response": "None"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What color is the armchair in the living room?\n\nA. Saturn\nB. Jupiter\nC. Mars\nD. Venus\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What color is the armchair in the living room?\n\nA. Saturn\nB. Jupiter\nC. Mars\nD. Venus\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What color is the armchair in the living room?\n\nA. Saturn\nB. Jupiter\nC. Mars\nD. Venus",
+      "response": "None"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What type of flower arrangement enhances the atmosphere of the room?\n\nA. Sunflower bouquet\nB. Rose centerpiece\nC. Orchid display\nD. Lily arrangement\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What type of flower arrangement enhances the atmosphere of the room?\n\nA. Sunflower bouquet\nB. Rose centerpiece\nC. Orchid display\nD. Lily arrangement\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What type of flower arrangement enhances the atmosphere of the room?\n\nA. Sunflower bouquet\nB. Rose centerpiece\nC. Orchid display\nD. Lily arrangement",
+      "response": "None"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What type of sculpture is placed on the wall?",
+      "response": "unanswerable"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What type of sculpture is placed on the wall?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What color is the armchair in the living room?\n\nA. Dark brown\nB. Mustard yellow\nC. Espresso\nD. Chocolate brown",
+      "response": "B"
+    }
+  ]
+}

@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "Cotton@72",
+  "dataset": "Crops3D_test",
+  "annotated_by": "User 5",
+  "timestamp": "2025-10-30T10:15:12.369727",
+  "file_path": "/project/3dllms/melgin/datasets/CEA/Crops3D/Cotton/72.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What color are the blossoms on the sapling?\n\nA. Red\nB. Yellow\nC. Blue\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What color are the blossoms on the sapling?\n\nA. Red\nB. Yellow\nC. Blue\nD. None of the above",
+      "response": "d"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What color are the blossoms on the sapling?\n\nA. Red\nB. Yellow\nC. Blue",
+      "response": "none"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What color are the blossoms on the sapling?\n\nA. Music genre\nB. Historical period\nC. Cooking technique\nD. Dance style\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What color are the blossoms on the sapling?\n\nA. Music genre\nB. Historical period\nC. Cooking technique\nD. Dance style\nE. None of the above",
+      "response": "e"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What color are the blossoms on the sapling?\n\nA. Music genre\nB. Historical period\nC. Cooking technique\nD. Dance style",
+      "response": "none"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What type of sculpture is displayed near the plant?\n\nA. Abstract figure\nB. Bust of a historical figure\nC. Marble column\nD. Wooden totem\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What type of sculpture is displayed near the plant?\n\nA. Abstract figure\nB. Bust of a historical figure\nC. Marble column\nD. Wooden totem\nE. None of the above",
+      "response": "e"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What type of sculpture is displayed near the plant?\n\nA. Abstract figure\nB. Bust of a historical figure\nC. Marble column\nD. Wooden totem",
+      "response": "none"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "Is there a large concrete sculpture nearby?",
+      "response": "none"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "Is there a large concrete sculpture nearby?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What color are the blossoms on the sapling?\n\nA. Red\nB. White\nC. Yellow\nD. Blue",
+      "response": "b"
+    }
+  ]
+}

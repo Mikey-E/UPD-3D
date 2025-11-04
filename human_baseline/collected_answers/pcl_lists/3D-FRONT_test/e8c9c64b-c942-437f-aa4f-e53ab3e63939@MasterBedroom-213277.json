@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "e8c9c64b-c942-437f-aa4f-e53ab3e63939@MasterBedroom-213277",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 5",
+  "timestamp": "2025-10-27T08:34:03.296616",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/e8c9c64b-c942-437f-aa4f-e53ab3e63939/MasterBedroom-213277/MasterBedroom-213277.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What style is the footstool in the Master bedroom?\n\nA. Modern style\nB. American Country style\nC. Minimalist style\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What style is the footstool in the Master bedroom?\n\nA. Modern style\nB. American Country style\nC. Minimalist style\nD. None of the above",
+      "response": "d"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What style is the footstool in the Master bedroom?\n\nA. Modern style\nB. American Country style\nC. Minimalist style",
+      "response": "none"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What style is the footstool in the Master bedroom?\n\nA. Jazz music\nB. Abstract painting\nC. Classic literature\nD. Mountain climbing\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What style is the footstool in the Master bedroom?\n\nA. Jazz music\nB. Abstract painting\nC. Classic literature\nD. Mountain climbing\nE. None of the above",
+      "response": "e"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What style is the footstool in the Master bedroom?\n\nA. Jazz music\nB. Abstract painting\nC. Classic literature\nD. Mountain climbing",
+      "response": "none"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What is the color of the sofa in the living room?\n\nA. Red\nB. Green\nC. Blue\nD. Yellow\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What is the color of the sofa in the living room?\n\nA. Red\nB. Green\nC. Blue\nD. Yellow\nE. None of the above",
+      "response": "e"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What is the color of the sofa in the living room?\n\nA. Red\nB. Green\nC. Blue\nD. Yellow",
+      "response": "none"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What is the color of the large dining table?",
+      "response": "none"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What is the color of the large dining table?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What style is the footstool in the Master bedroom?\n\nA. Modern style\nB. American Country style\nC. Minimalist style\nD. New Chinese style",
+      "response": "d"
+    }
+  ]
+}

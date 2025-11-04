@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "e2fc2df1-c777-4e4f-99c4-14465ac8c398@LivingDiningRoom-5328",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 4",
+  "timestamp": "2025-10-25T13:46:45.185182",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/e2fc2df1-c777-4e4f-99c4-14465ac8c398/LivingDiningRoom-5328/LivingDiningRoom-5328.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What feature of the living room provides both a stylish accessory and additional seating?\n\nA. The Coffee table\nB. The Three-seat sofa\nC. The Plant\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What feature of the living room provides both a stylish accessory and additional seating?\n\nA. The Coffee table\nB. The Three-seat sofa\nC. The Plant\nD. None of the above",
+      "response": "D"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What feature of the living room provides both a stylish accessory and additional seating?\n\nA. The Coffee table\nB. The Three-seat sofa\nC. The Plant",
+      "response": "None"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What feature of the living room provides both a stylish accessory and additional seating?\n\nA. Refrigerator model\nB. Smartphone brand\nC. Laptop specifications\nD. Car engine type\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What feature of the living room provides both a stylish accessory and additional seating?\n\nA. Refrigerator model\nB. Smartphone brand\nC. Laptop specifications\nD. Car engine type\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What feature of the living room provides both a stylish accessory and additional seating?\n\nA. Refrigerator model\nB. Smartphone brand\nC. Laptop specifications\nD. Car engine type",
+      "response": "None"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What type of painting is hanging above the fireplace?\n\nA. Landscape\nB. Abstract\nC. Portrait\nD. Still Life\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What type of painting is hanging above the fireplace?\n\nA. Landscape\nB. Abstract\nC. Portrait\nD. Still Life\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What type of painting is hanging above the fireplace?\n\nA. Landscape\nB. Abstract\nC. Portrait\nD. Still Life",
+      "response": "None"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What type of animal is resting in the room?",
+      "response": "unanswerable"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What type of animal is resting in the room?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What feature of the living room provides both a stylish accessory and additional seating?\n\nA. The Footstool\nB. The Coffee table\nC. The Three-seat sofa\nD. The Plant",
+      "response": "A"
+    }
+  ]
+}

@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "f7d7e3c8-2593-401f-aa35-37785b9ab987@SecondBedroom-2428",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 3",
+  "timestamp": "2025-10-30T00:31:48.096708",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/f7d7e3c8-2593-401f-aa35-37785b9ab987/SecondBedroom-2428/SecondBedroom-2428.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What color is the wardrobe in the Second bedroom?\n\nA. Soft white\nB. Light blue\nC. Dark brown\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What color is the wardrobe in the Second bedroom?\n\nA. Soft white\nB. Light blue\nC. Dark brown\nD. None of the above",
+      "response": "D"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What color is the wardrobe in the Second bedroom?\n\nA. Soft white\nB. Light blue\nC. Dark brown",
+      "response": "NONE"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What color is the wardrobe in the Second bedroom?\n\nA. Piano\nB. Violin\nC. Trumpet\nD. Flute\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What color is the wardrobe in the Second bedroom?\n\nA. Piano\nB. Violin\nC. Trumpet\nD. Flute\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What color is the wardrobe in the Second bedroom?\n\nA. Piano\nB. Violin\nC. Trumpet\nD. Flute",
+      "response": "NONE"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What is the width of the bookshelf in the scene?\n\nA. 30 inches\nB. 40 inches\nC. 50 inches\nD. 60 inches\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What is the width of the bookshelf in the scene?\n\nA. 30 inches\nB. 40 inches\nC. 50 inches\nD. 60 inches\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What is the width of the bookshelf in the scene?\n\nA. 30 inches\nB. 40 inches\nC. 50 inches\nD. 60 inches",
+      "response": "NA"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What type of lamp is hanging from the ceiling?",
+      "response": "NA"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What type of lamp is hanging from the ceiling?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What color is the wardrobe in the Second bedroom?\n\nA. Soft white\nB. Soft grey\nC. Light blue\nD. Dark brown",
+      "response": "B"
+    }
+  ]
+}

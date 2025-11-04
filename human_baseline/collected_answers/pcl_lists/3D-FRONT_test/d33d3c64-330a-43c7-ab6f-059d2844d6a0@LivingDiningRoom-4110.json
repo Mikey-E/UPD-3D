@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "d33d3c64-330a-43c7-ab6f-059d2844d6a0@LivingDiningRoom-4110",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 4",
+  "timestamp": "2025-10-16T08:48:22.193982",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/d33d3c64-330a-43c7-ab6f-059d2844d6a0/LivingDiningRoom-4110/LivingDiningRoom-4110.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What type of design elements are incorporated into the dining chairs in the living room?\n\nA. Rustic design with wood finishes\nB. Modern elements with geometric patterns\nC. Minimalist features with solid colors\nIf none of the above answers are correct, answer: 'F'",
+      "response": "B"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What type of design elements are incorporated into the dining chairs in the living room?\n\nA. Rustic design with wood finishes\nB. Modern elements with geometric patterns\nC. Minimalist features with solid colors\nD. None of the above",
+      "response": "B"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What type of design elements are incorporated into the dining chairs in the living room?\n\nA. Rustic design with wood finishes\nB. Modern elements with geometric patterns\nC. Minimalist features with solid colors",
+      "response": "B"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What type of design elements are incorporated into the dining chairs in the living room?\n\nA. Galaxy formation\nB. Aquatic ecosystems\nC. Solar eclipses\nD. Tectonic plate movements\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What type of design elements are incorporated into the dining chairs in the living room?\n\nA. Galaxy formation\nB. Aquatic ecosystems\nC. Solar eclipses\nD. Tectonic plate movements\nE. None of the above",
+      "response": "e"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What type of design elements are incorporated into the dining chairs in the living room?\n\nA. Galaxy formation\nB. Aquatic ecosystems\nC. Solar eclipses\nD. Tectonic plate movements",
+      "response": "none"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What is the height of the ceiling in the living room?\n\nA. Ten feet\nB. Twelve feet\nC. Eight feet\nD. Fifteen feet\nIf none of the above answers are correct, answer: 'F'",
+      "response": "b"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What is the height of the ceiling in the living room?\n\nA. Ten feet\nB. Twelve feet\nC. Eight feet\nD. Fifteen feet\nE. None of the above",
+      "response": "b"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What is the height of the ceiling in the living room?\n\nA. Ten feet\nB. Twelve feet\nC. Eight feet\nD. Fifteen feet",
+      "response": "b"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What type of fireplace is installed in the living room?",
+      "response": "n/a"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What type of fireplace is installed in the living room?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What type of design elements are incorporated into the dining chairs in the living room?\n\nA. Rustic design with wood finishes\nB. Modern elements with geometric patterns\nC. Minimalist features with solid colors\nD. Neoclassical elements with floral fabric cushions",
+      "response": "b"
+    }
+  ]
+}

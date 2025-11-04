@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "cbf81ef9-aae2-4bbc-9bb7-e1b3e6222e8d@Library-361",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 4",
+  "timestamp": "2025-10-14T11:52:12.815276",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/cbf81ef9-aae2-4bbc-9bb7-e1b3e6222e8d/Library-361/Library-361.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What element in the library is positioned directly above the jewelry armoire?\n\nA. Lounge chair\nB. Desk\nC. Plant\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What element in the library is positioned directly above the jewelry armoire?\n\nA. Lounge chair\nB. Desk\nC. Plant\nD. None of the above",
+      "response": "D"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What element in the library is positioned directly above the jewelry armoire?\n\nA. Lounge chair\nB. Desk\nC. Plant",
+      "response": "NONE OF THESE"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What element in the library is positioned directly above the jewelry armoire?\n\nA. Ocean depth\nB. Mountain height\nC. Forest density\nD. Desert temperature\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What element in the library is positioned directly above the jewelry armoire?\n\nA. Ocean depth\nB. Mountain height\nC. Forest density\nD. Desert temperature\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What element in the library is positioned directly above the jewelry armoire?\n\nA. Ocean depth\nB. Mountain height\nC. Forest density\nD. Desert temperature",
+      "response": "NONE OF THESE"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What animal is perched on the desk?\n\nA. Parrot\nB. Squirrel\nC. Owl\nD. Cat\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What animal is perched on the desk?\n\nA. Parrot\nB. Squirrel\nC. Owl\nD. Cat\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What animal is perched on the desk?\n\nA. Parrot\nB. Squirrel\nC. Owl\nD. Cat",
+      "response": "NONE OF THESE"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What type of dining table is located in the library?",
+      "response": "NONE"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What type of dining table is located in the library?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What element in the library is positioned directly above the jewelry armoire?\n\nA. Lounge chair\nB. Pendant lamp\nC. Desk\nD. Plant",
+      "response": "NONE OF THESE"
+    }
+  ]
+}

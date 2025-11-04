@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "ea5eb904-675c-4ca8-a2e4-dd042ce31d04@MasterBedroom-217443",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 3",
+  "timestamp": "2025-10-27T15:04:47.041604",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/ea5eb904-675c-4ca8-a2e4-dd042ce31d04/MasterBedroom-217443/MasterBedroom-217443.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What style is the corner cabinet in the Masterbedroom primarily designed?\n\nA. Korean style\nB. New Chinese style\nC. Modern style\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What style is the corner cabinet in the Masterbedroom primarily designed?\n\nA. Korean style\nB. New Chinese style\nC. Modern style\nD. None of the above",
+      "response": "D"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What style is the corner cabinet in the Masterbedroom primarily designed?\n\nA. Korean style\nB. New Chinese style\nC. Modern style",
+      "response": "NONE"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What style is the corner cabinet in the Masterbedroom primarily designed?\n\nA. Gothic architecture\nB. Rococo art\nC. Surrealist painting\nD. Impressionist movement\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What style is the corner cabinet in the Masterbedroom primarily designed?\n\nA. Gothic architecture\nB. Rococo art\nC. Surrealist painting\nD. Impressionist movement\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What style is the corner cabinet in the Masterbedroom primarily designed?\n\nA. Gothic architecture\nB. Rococo art\nC. Surrealist painting\nD. Impressionist movement",
+      "response": "NONE"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What type of artwork is displayed in the scene?\n\nA. Abstract painting\nB. Landscape mural\nC. Portrait sculpture\nD. Decorative tapestry\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What type of artwork is displayed in the scene?\n\nA. Abstract painting\nB. Landscape mural\nC. Portrait sculpture\nD. Decorative tapestry\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What type of artwork is displayed in the scene?\n\nA. Abstract painting\nB. Landscape mural\nC. Portrait sculpture\nD. Decorative tapestry",
+      "response": "NA"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What type of outdoor sculpture is displayed in the room?",
+      "response": "NA"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What type of outdoor sculpture is displayed in the room?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What style is the corner cabinet in the Masterbedroom primarily designed?\n\nA. Korean style\nB. Japanese style\nC. New Chinese style\nD. Modern style",
+      "response": "B"
+    }
+  ]
+}

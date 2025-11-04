@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "e1c6b002-7d08-437d-8981-9642be46f5c0@LivingDiningRoom-6151",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 5",
+  "timestamp": "2025-10-25T11:59:34.359518",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/e1c6b002-7d08-437d-8981-9642be46f5c0/LivingDiningRoom-6151/LivingDiningRoom-6151.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What style is the wardrobe in the living room designed in?\n\nA. Blue\nB. Black\nC. White\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What style is the wardrobe in the living room designed in?\n\nA. Blue\nB. Black\nC. White\nD. None of the above",
+      "response": "d"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What style is the wardrobe in the living room designed in?\n\nA. Blue\nB. Black\nC. White",
+      "response": "none"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What style is the wardrobe in the living room designed in?\n\nA. Equestrian\nB. Aerospace\nC. Geological\nD. Bacteriology\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What style is the wardrobe in the living room designed in?\n\nA. Equestrian\nB. Aerospace\nC. Geological\nD. Bacteriology\nE. None of the above",
+      "response": "e"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What style is the wardrobe in the living room designed in?\n\nA. Equestrian\nB. Aerospace\nC. Geological\nD. Bacteriology",
+      "response": "none"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What texture is the rug in the living room?\n\nA. Soft\nB. Rough\nC. Plush\nD. Coarse\nIf none of the above answers are correct, answer: 'F'",
+      "response": "a"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What texture is the rug in the living room?\n\nA. Soft\nB. Rough\nC. Plush\nD. Coarse\nE. None of the above",
+      "response": "a"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What texture is the rug in the living room?\n\nA. Soft\nB. Rough\nC. Plush\nD. Coarse",
+      "response": "a"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What type of hot air balloon is visible from the living room window?",
+      "response": "none"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What type of hot air balloon is visible from the living room window?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What style is the wardrobe in the living room designed in?\n\nA. Blue\nB. Black\nC. Grey\nD. White",
+      "response": "c"
+    }
+  ]
+}

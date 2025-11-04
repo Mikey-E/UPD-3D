@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "c8655cd6-29b6-4c61-b2e5-a0c7a6bc0c95@MasterBedroom-7277",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 4",
+  "timestamp": "2025-10-13T12:54:11.572595",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/c8655cd6-29b6-4c61-b2e5-a0c7a6bc0c95/MasterBedroom-7277/MasterBedroom-7277.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What color is the single bed in the master bedroom?\n\nA. Light blue\nB. Bright white\nC. Soft pink\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What color is the single bed in the master bedroom?\n\nA. Light blue\nB. Bright white\nC. Soft pink\nD. None of the above",
+      "response": "D"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What color is the single bed in the master bedroom?\n\nA. Light blue\nB. Bright white\nC. Soft pink",
+      "response": "none"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What color is the single bed in the master bedroom?\n\nA. Jupiter\nB. Saturn\nC. Mars\nD. Venus\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What color is the single bed in the master bedroom?\n\nA. Jupiter\nB. Saturn\nC. Mars\nD. Venus\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What color is the single bed in the master bedroom?\n\nA. Jupiter\nB. Saturn\nC. Mars\nD. Venus",
+      "response": "NONE OF THESE"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What color is the dining table in the scene?\n\nA. Red\nB. Green\nC. Yellow\nD. Black\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What color is the dining table in the scene?\n\nA. Red\nB. Green\nC. Yellow\nD. Black\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What color is the dining table in the scene?\n\nA. Red\nB. Green\nC. Yellow\nD. Black",
+      "response": "none of these"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What type of bookshelf is located on the opposite wall?",
+      "response": "n/a"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What type of bookshelf is located on the opposite wall?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What color is the single bed in the master bedroom?\n\nA. Light blue\nB. Dark grey\nC. Bright white\nD. Soft pink",
+      "response": "B"
+    }
+  ]
+}

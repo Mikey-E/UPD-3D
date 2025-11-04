@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "cad2afa1-79de-4434-9494-50942fdfd0b4@LivingRoom-515",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 4",
+  "timestamp": "2025-10-14T11:23:20.079692",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/cad2afa1-79de-4434-9494-50942fdfd0b4/LivingRoom-515/LivingRoom-515.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What color is the upholstery of the loveseat sofa in the living room?\n\nA. Red\nB. Light grey\nC. Yellow and orange\nIf none of the above answers are correct, answer: 'F'",
+      "response": "B"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What color is the upholstery of the loveseat sofa in the living room?\n\nA. Red\nB. Light grey\nC. Yellow and orange\nD. None of the above",
+      "response": "B"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What color is the upholstery of the loveseat sofa in the living room?\n\nA. Red\nB. Light grey\nC. Yellow and orange",
+      "response": "B"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What color is the upholstery of the loveseat sofa in the living room?\n\nA. Mercury\nB. Hydrogen\nC. Oxygen\nD. Nitrogen\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What color is the upholstery of the loveseat sofa in the living room?\n\nA. Mercury\nB. Hydrogen\nC. Oxygen\nD. Nitrogen\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What color is the upholstery of the loveseat sofa in the living room?\n\nA. Mercury\nB. Hydrogen\nC. Oxygen\nD. Nitrogen",
+      "response": "NONE OF THESE"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What is the shape of the bookshelf in the scene?\n\nA. Round\nB. Square\nC. Triangular\nD. Oval\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What is the shape of the bookshelf in the scene?\n\nA. Round\nB. Square\nC. Triangular\nD. Oval\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What is the shape of the bookshelf in the scene?\n\nA. Round\nB. Square\nC. Triangular\nD. Oval",
+      "response": "NONE OF THESE"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What shape is the rug that is not in the living room?",
+      "response": "N/A"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What shape is the rug that is not in the living room?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What color is the upholstery of the loveseat sofa in the living room?\n\nA. Red\nB. Light grey\nC. Yellow and orange\nD. Soft blue",
+      "response": "B"
+    }
+  ]
+}

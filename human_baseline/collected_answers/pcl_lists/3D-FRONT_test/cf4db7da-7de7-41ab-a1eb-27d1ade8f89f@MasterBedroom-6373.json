@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "cf4db7da-7de7-41ab-a1eb-27d1ade8f89f@MasterBedroom-6373",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 5",
+  "timestamp": "2025-10-14T15:51:11.959593",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/cf4db7da-7de7-41ab-a1eb-27d1ade8f89f/MasterBedroom-6373/MasterBedroom-6373.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What color is the king-size bed's headboard?\n\nA. Black\nB. White\nC. Brown\nIf none of the above answers are correct, answer: 'F'",
+      "response": "b"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What color is the king-size bed's headboard?\n\nA. Black\nB. White\nC. Brown\nD. None of the above",
+      "response": "b"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What color is the king-size bed's headboard?\n\nA. Black\nB. White\nC. Brown",
+      "response": "b"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What color is the king-size bed's headboard?\n\nA. Forest\nB. Island\nC. Desert\nD. Mountain\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What color is the king-size bed's headboard?\n\nA. Forest\nB. Island\nC. Desert\nD. Mountain\nE. None of the above",
+      "response": "e"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What color is the king-size bed's headboard?\n\nA. Forest\nB. Island\nC. Desert\nD. Mountain",
+      "response": "none of these"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What style of painting is featured in the scene?\n\nA. Abstract\nB. Impressionism\nC. Surrealism\nD. Cubism\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What style of painting is featured in the scene?\n\nA. Abstract\nB. Impressionism\nC. Surrealism\nD. Cubism\nE. None of the above",
+      "response": "e"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What style of painting is featured in the scene?\n\nA. Abstract\nB. Impressionism\nC. Surrealism\nD. Cubism",
+      "response": "none of these"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What type of rug is situated in the center of the room?",
+      "response": "unanswerable"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What type of rug is situated in the center of the room?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What color is the king-size bed's headboard?\n\nA. Black\nB. White\nC. Brown\nD. Grey",
+      "response": "b"
+    }
+  ]
+}

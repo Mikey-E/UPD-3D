@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "c6a61c69-bfb2-4bcb-997c-e3a537cc2033@OtherRoom-13622",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 5",
+  "timestamp": "2025-10-09T09:31:42.289766",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/c6a61c69-bfb2-4bcb-997c-e3a537cc2033/OtherRoom-13622/OtherRoom-13622.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What is the style of the three-seat sofa in the room?\n\nA. Rustic style\nB. Victorian style\nC. Industrial style\nIf none of the above answers are correct, answer: 'F'",
+      "response": "c"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What is the style of the three-seat sofa in the room?\n\nA. Rustic style\nB. Victorian style\nC. Industrial style\nD. None of the above",
+      "response": "c"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What is the style of the three-seat sofa in the room?\n\nA. Rustic style\nB. Victorian style\nC. Industrial style",
+      "response": "c"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What is the style of the three-seat sofa in the room?\n\nA. Tropical rainforest\nB. Desert landscape\nC. Arctic tundra\nD. Mountain range\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What is the style of the three-seat sofa in the room?\n\nA. Tropical rainforest\nB. Desert landscape\nC. Arctic tundra\nD. Mountain range\nE. None of the above",
+      "response": "e"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What is the style of the three-seat sofa in the room?\n\nA. Tropical rainforest\nB. Desert landscape\nC. Arctic tundra\nD. Mountain range",
+      "response": "none of the above"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What is the shape of the window in the scene?\n\nA. Circular\nB. Triangular\nC. Square\nD. Hexagonal\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What is the shape of the window in the scene?\n\nA. Circular\nB. Triangular\nC. Square\nD. Hexagonal\nE. None of the above",
+      "response": "e"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What is the shape of the window in the scene?\n\nA. Circular\nB. Triangular\nC. Square\nD. Hexagonal",
+      "response": "none of the above"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What type of exercise equipment is located in the room?",
+      "response": "unanswerable"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What type of exercise equipment is located in the room?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What is the style of the three-seat sofa in the room?\n\nA. Rustic style\nB. Korean style\nC. Victorian style\nD. Industrial style",
+      "response": "d"
+    }
+  ]
+}

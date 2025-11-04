@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "c3ef24dd-2280-42a2-9528-8b00e32deb15@SecondBedroom-130597",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 3",
+  "timestamp": "2025-10-24T16:01:30.293434",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/c3ef24dd-2280-42a2-9528-8b00e32deb15/SecondBedroom-130597/SecondBedroom-130597.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What is the color scheme of the nightstands in the Second bedroom?\n\nA. Dark grey and white\nB. Light grey and black\nC. Blue and white\nIf none of the above answers are correct, answer: 'F'",
+      "response": "A"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What is the color scheme of the nightstands in the Second bedroom?\n\nA. Dark grey and white\nB. Light grey and black\nC. Blue and white\nD. None of the above",
+      "response": "A"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What is the color scheme of the nightstands in the Second bedroom?\n\nA. Dark grey and white\nB. Light grey and black\nC. Blue and white",
+      "response": "A"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What is the color scheme of the nightstands in the Second bedroom?\n\nA. Pineapple\nB. Octopus\nC. Mountain range\nD. Sandcastle\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What is the color scheme of the nightstands in the Second bedroom?\n\nA. Pineapple\nB. Octopus\nC. Mountain range\nD. Sandcastle\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What is the color scheme of the nightstands in the Second bedroom?\n\nA. Pineapple\nB. Octopus\nC. Mountain range\nD. Sandcastle",
+      "response": "None"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What is the shape of the table present in the scene?\n\nA. Round\nB. Square\nC. Rectangle\nD. Oval\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What is the shape of the table present in the scene?\n\nA. Round\nB. Square\nC. Rectangle\nD. Oval\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What is the shape of the table present in the scene?\n\nA. Round\nB. Square\nC. Rectangle\nD. Oval",
+      "response": "None"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What type of outdoor garden feature is located in the room?",
+      "response": "Plant pots"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What type of outdoor garden feature is located in the room?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "Plant pots"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What is the color scheme of the nightstands in the Second bedroom?\n\nA. Dark grey and white\nB. Black and white\nC. Light grey and black\nD. Blue and white",
+      "response": "B"
+    }
+  ]
+}

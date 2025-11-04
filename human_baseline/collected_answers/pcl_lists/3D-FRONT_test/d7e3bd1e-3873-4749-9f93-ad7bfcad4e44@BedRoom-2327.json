@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "d7e3bd1e-3873-4749-9f93-ad7bfcad4e44@BedRoom-2327",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 4",
+  "timestamp": "2025-10-17T08:36:28.625828",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/d7e3bd1e-3873-4749-9f93-ad7bfcad4e44/BedRoom-2327/BedRoom-2327.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What type of lighting fixture is located above the double bed in the bedroom?\n\nA. Floor lamp\nB. Table lamp\nC. Wall sconce\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What type of lighting fixture is located above the double bed in the bedroom?\n\nA. Floor lamp\nB. Table lamp\nC. Wall sconce\nD. None of the above",
+      "response": "d"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What type of lighting fixture is located above the double bed in the bedroom?\n\nA. Floor lamp\nB. Table lamp\nC. Wall sconce",
+      "response": "none"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What type of lighting fixture is located above the double bed in the bedroom?\n\nA. Neptune\nB. Mercury\nC. Jupiter\nD. Saturn\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What type of lighting fixture is located above the double bed in the bedroom?\n\nA. Neptune\nB. Mercury\nC. Jupiter\nD. Saturn\nE. None of the above",
+      "response": "e"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What type of lighting fixture is located above the double bed in the bedroom?\n\nA. Neptune\nB. Mercury\nC. Jupiter\nD. Saturn",
+      "response": "none"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What type of rug is featured in the scene?\n\nA. Persian\nB. Shag\nC. Berber\nD. Jute\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What type of rug is featured in the scene?\n\nA. Persian\nB. Shag\nC. Berber\nD. Jute\nE. None of the above",
+      "response": "e"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What type of rug is featured in the scene?\n\nA. Persian\nB. Shag\nC. Berber\nD. Jute",
+      "response": "none"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What type of exercise equipment is located in the bedroom?",
+      "response": "n/a"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What type of exercise equipment is located in the bedroom?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What type of lighting fixture is located above the double bed in the bedroom?\n\nA. Floor lamp\nB. Pendant lamp\nC. Table lamp\nD. Wall sconce",
+      "response": "b"
+    }
+  ]
+}

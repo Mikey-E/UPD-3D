@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "da390cc2-f64c-448d-ba17-6f55b7bef035@SecondBedroom-2841",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 5",
+  "timestamp": "2025-10-20T08:11:45.381903",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/da390cc2-f64c-448d-ba17-6f55b7bef035/SecondBedroom-2841/SecondBedroom-2841.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What type of lamp is positioned next to the lounge chair?\n\nA. Task lamp\nB. Ceiling lamp\nC. Table lamp\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What type of lamp is positioned next to the lounge chair?\n\nA. Task lamp\nB. Ceiling lamp\nC. Table lamp\nD. None of the above",
+      "response": "d"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What type of lamp is positioned next to the lounge chair?\n\nA. Task lamp\nB. Ceiling lamp\nC. Table lamp",
+      "response": "none"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What type of lamp is positioned next to the lounge chair?\n\nA. Berry\nB. Citrus\nC. Tropical\nD. Stone\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What type of lamp is positioned next to the lounge chair?\n\nA. Berry\nB. Citrus\nC. Tropical\nD. Stone\nE. None of the above",
+      "response": "e"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What type of lamp is positioned next to the lounge chair?\n\nA. Berry\nB. Citrus\nC. Tropical\nD. Stone",
+      "response": "none"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What type of artwork is displayed in the scene?\n\nA. Abstract painting\nB. Landscape mural\nC. Portrait photography\nD. Still life canvas\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What type of artwork is displayed in the scene?\n\nA. Abstract painting\nB. Landscape mural\nC. Portrait photography\nD. Still life canvas\nE. None of the above",
+      "response": "e"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What type of artwork is displayed in the scene?\n\nA. Abstract painting\nB. Landscape mural\nC. Portrait photography\nD. Still life canvas",
+      "response": "none"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What is the size of the outdoor swimming pool?",
+      "response": "none"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What is the size of the outdoor swimming pool?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What type of lamp is positioned next to the lounge chair?\n\nA. Floor lamp\nB. Task lamp\nC. Ceiling lamp\nD. Table lamp",
+      "response": "a"
+    }
+  ]
+}

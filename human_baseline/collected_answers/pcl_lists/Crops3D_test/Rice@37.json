@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "Rice@37",
+  "dataset": "Crops3D_test",
+  "annotated_by": "User 5",
+  "timestamp": "2025-10-31T06:27:53.022784",
+  "file_path": "/project/3dllms/melgin/datasets/CEA/Crops3D/Rice/37.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What color is the rim of the pot where the plant is situated?\n\nA. Dark blue\nB. Green\nC. Black\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What color is the rim of the pot where the plant is situated?\n\nA. Dark blue\nB. Green\nC. Black\nD. None of the above",
+      "response": "d"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What color is the rim of the pot where the plant is situated?\n\nA. Dark blue\nB. Green\nC. Black",
+      "response": "none"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What color is the rim of the pot where the plant is situated?\n\nA. Geometry of polygons\nB. Photosynthesis process\nC. Elements in the periodic table\nD. Types of musical instruments\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What color is the rim of the pot where the plant is situated?\n\nA. Geometry of polygons\nB. Photosynthesis process\nC. Elements in the periodic table\nD. Types of musical instruments\nE. None of the above",
+      "response": "e"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What color is the rim of the pot where the plant is situated?\n\nA. Geometry of polygons\nB. Photosynthesis process\nC. Elements in the periodic table\nD. Types of musical instruments",
+      "response": "none"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What material is the chair made of?\n\nA. Wood\nB. Plastic\nC. Metal\nD. Fabric\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What material is the chair made of?\n\nA. Wood\nB. Plastic\nC. Metal\nD. Fabric\nE. None of the above",
+      "response": "e"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What material is the chair made of?\n\nA. Wood\nB. Plastic\nC. Metal\nD. Fabric",
+      "response": "none"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What type of fruit is hanging from the ceiling?",
+      "response": "none"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What type of fruit is hanging from the ceiling?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What color is the rim of the pot where the plant is situated?\n\nA. Dark blue\nB. Green\nC. Black\nD. Light",
+      "response": "d"
+    }
+  ]
+}

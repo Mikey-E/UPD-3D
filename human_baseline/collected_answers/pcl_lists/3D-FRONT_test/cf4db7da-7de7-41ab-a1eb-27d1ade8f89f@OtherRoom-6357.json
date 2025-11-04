@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "cf4db7da-7de7-41ab-a1eb-27d1ade8f89f@OtherRoom-6357",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 4",
+  "timestamp": "2025-10-14T19:55:32.925112",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/cf4db7da-7de7-41ab-a1eb-27d1ade8f89f/OtherRoom-6357/OtherRoom-6357.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What is the color of the armchair in the room?\n\nA. White\nB. Warm Gold\nC. Cool Grey\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What is the color of the armchair in the room?\n\nA. White\nB. Warm Gold\nC. Cool Grey\nD. None of the above",
+      "response": "d"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What is the color of the armchair in the room?\n\nA. White\nB. Warm Gold\nC. Cool Grey",
+      "response": "none"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What is the color of the armchair in the room?\n\nA. Apple\nB. Carrot\nC. Banana\nD. Grape\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What is the color of the armchair in the room?\n\nA. Apple\nB. Carrot\nC. Banana\nD. Grape\nE. None of the above",
+      "response": "e"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What is the color of the armchair in the room?\n\nA. Apple\nB. Carrot\nC. Banana\nD. Grape",
+      "response": "none"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What type of vase is located on the side table?\n\nA. Ceramic\nB. Glass\nC. Metal\nD. Wooden\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What type of vase is located on the side table?\n\nA. Ceramic\nB. Glass\nC. Metal\nD. Wooden\nE. None of the above",
+      "response": "e"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What type of vase is located on the side table?\n\nA. Ceramic\nB. Glass\nC. Metal\nD. Wooden",
+      "response": "none"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What type of flower arrangement is displayed on the side table?",
+      "response": "unanswerable"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What type of flower arrangement is displayed on the side table?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What is the color of the armchair in the room?\n\nA. White\nB. Warm Gold\nC. Cool Grey\nD. Deep Blue",
+      "response": "d"
+    }
+  ]
+}

@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "fccf3211-1e60-40df-8b6b-9c20a10a2a41@KidsRoom-1237",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 3",
+  "timestamp": "2025-10-30T21:40:09.598882",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/fccf3211-1e60-40df-8b6b-9c20a10a2a41/KidsRoom-1237/KidsRoom-1237.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What style is the kids' bed designed in?\n\nA. Modular Korean style\nB. Industrial style with a modern design\nC. Rustic Southeast Asian style\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What style is the kids' bed designed in?\n\nA. Modular Korean style\nB. Industrial style with a modern design\nC. Rustic Southeast Asian style\nD. None of the above",
+      "response": "D"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What style is the kids' bed designed in?\n\nA. Modular Korean style\nB. Industrial style with a modern design\nC. Rustic Southeast Asian style",
+      "response": "NONE"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What style is the kids' bed designed in?\n\nA. Jazz music\nB. Abstract painting\nC. Classic literature\nD. Modern dance\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What style is the kids' bed designed in?\n\nA. Jazz music\nB. Abstract painting\nC. Classic literature\nD. Modern dance\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What style is the kids' bed designed in?\n\nA. Jazz music\nB. Abstract painting\nC. Classic literature\nD. Modern dance",
+      "response": "NONE"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What type of sculpture is prominently displayed in the KidsRoom?\n\nA. Abstract\nB. Classical\nC. Modern\nD. Wooden\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What type of sculpture is prominently displayed in the KidsRoom?\n\nA. Abstract\nB. Classical\nC. Modern\nD. Wooden\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What type of sculpture is prominently displayed in the KidsRoom?\n\nA. Abstract\nB. Classical\nC. Modern\nD. Wooden",
+      "response": "NA"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What type of swimming pool is located in the backyard?",
+      "response": "NA"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What type of swimming pool is located in the backyard?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What style is the kids' bed designed in?\n\nA. Modular Korean style\nB. Industrial style with a modern design\nC. Rustic Southeast Asian style\nD. Mediterranean style with a playful panda motif",
+      "response": "D"
+    }
+  ]
+}

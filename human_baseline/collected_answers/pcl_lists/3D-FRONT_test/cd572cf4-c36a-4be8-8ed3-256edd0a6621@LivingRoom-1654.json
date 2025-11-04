@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "cd572cf4-c36a-4be8-8ed3-256edd0a6621@LivingRoom-1654",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 4",
+  "timestamp": "2025-10-14T15:09:09.159963",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/cd572cf4-c36a-4be8-8ed3-256edd0a6621/LivingRoom-1654/LivingRoom-1654.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What is the color of the l-shaped sofa in the living room?\n\nA. Dark brown\nB. Beige\nC. Black\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What is the color of the l-shaped sofa in the living room?\n\nA. Dark brown\nB. Beige\nC. Black\nD. None of the above",
+      "response": "D"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What is the color of the l-shaped sofa in the living room?\n\nA. Dark brown\nB. Beige\nC. Black",
+      "response": "NONE"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What is the color of the l-shaped sofa in the living room?\n\nA. Granite\nB. Limestone\nC. Sandstone\nD. Marble\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What is the color of the l-shaped sofa in the living room?\n\nA. Granite\nB. Limestone\nC. Sandstone\nD. Marble\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What is the color of the l-shaped sofa in the living room?\n\nA. Granite\nB. Limestone\nC. Sandstone\nD. Marble",
+      "response": "NONE"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What type of window treatment is installed in the living room?\n\nA. Curtains\nB. Blinds\nC. Drapes\nD. Shades\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What type of window treatment is installed in the living room?\n\nA. Curtains\nB. Blinds\nC. Drapes\nD. Shades\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What type of window treatment is installed in the living room?\n\nA. Curtains\nB. Blinds\nC. Drapes\nD. Shades",
+      "response": "NONE"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What type of outdoor grill is placed on the patio?",
+      "response": "UNANSWERABLE"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What type of outdoor grill is placed on the patio?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What is the color of the l-shaped sofa in the living room?\n\nA. Light grey\nB. Dark brown\nC. Beige\nD. Black",
+      "response": "A"
+    }
+  ]
+}

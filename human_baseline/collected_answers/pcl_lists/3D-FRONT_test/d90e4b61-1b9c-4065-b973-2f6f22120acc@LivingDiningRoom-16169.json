@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "d90e4b61-1b9c-4065-b973-2f6f22120acc@LivingDiningRoom-16169",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 4",
+  "timestamp": "2025-10-18T15:06:57.782928",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/d90e4b61-1b9c-4065-b973-2f6f22120acc/LivingDiningRoom-16169/LivingDiningRoom-16169.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What type of furniture serves as the main functional piece in the dining area of the living room?\n\nA. Coffee table\nB. Refrigerator\nC. Drawer chest\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What type of furniture serves as the main functional piece in the dining area of the living room?\n\nA. Coffee table\nB. Refrigerator\nC. Drawer chest\nD. None of the above",
+      "response": "D"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What type of furniture serves as the main functional piece in the dining area of the living room?\n\nA. Coffee table\nB. Refrigerator\nC. Drawer chest",
+      "response": "None"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What type of furniture serves as the main functional piece in the dining area of the living room?\n\nA. Blueberry\nB. Mountain\nC. Galaxy\nD. Harmony\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What type of furniture serves as the main functional piece in the dining area of the living room?\n\nA. Blueberry\nB. Mountain\nC. Galaxy\nD. Harmony\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What type of furniture serves as the main functional piece in the dining area of the living room?\n\nA. Blueberry\nB. Mountain\nC. Galaxy\nD. Harmony",
+      "response": "None"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What kind of artwork is displayed in the living room?\n\nA. Abstract painting\nB. Landscape mural\nC. Still life\nD. Digital art\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What kind of artwork is displayed in the living room?\n\nA. Abstract painting\nB. Landscape mural\nC. Still life\nD. Digital art\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What kind of artwork is displayed in the living room?\n\nA. Abstract painting\nB. Landscape mural\nC. Still life\nD. Digital art",
+      "response": "None"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What type of sculpture is placed on the dining table?",
+      "response": "unanswerable"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What type of sculpture is placed on the dining table?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What type of furniture serves as the main functional piece in the dining area of the living room?\n\nA. Coffee table\nB. Refrigerator\nC. Dining table\nD. Drawer chest",
+      "response": "C"
+    }
+  ]
+}

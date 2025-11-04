@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "db90162a-bd64-4667-883e-7c58f9a5cc7b@SecondBedroom-40706",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 4",
+  "timestamp": "2025-10-20T14:20:36.511500",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/db90162a-bd64-4667-883e-7c58f9a5cc7b/SecondBedroom-40706/SecondBedroom-40706.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What color is the nightstand located next to the bed?\n\nA. Vibrant blue\nB. Deep teal\nC. Soft white\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What color is the nightstand located next to the bed?\n\nA. Vibrant blue\nB. Deep teal\nC. Soft white\nD. None of the above",
+      "response": "D"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What color is the nightstand located next to the bed?\n\nA. Vibrant blue\nB. Deep teal\nC. Soft white",
+      "response": "None"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What color is the nightstand located next to the bed?\n\nA. Elephant\nB. Galaxy\nC. Harmony\nD. Marathon\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What color is the nightstand located next to the bed?\n\nA. Elephant\nB. Galaxy\nC. Harmony\nD. Marathon\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What color is the nightstand located next to the bed?\n\nA. Elephant\nB. Galaxy\nC. Harmony\nD. Marathon",
+      "response": "None"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What type of ceiling fan is installed in the room?\n\nA. Industrial Ceiling Fan\nB. Decorative Ceiling Fan\nC. Modern Ceiling Fan\nD. Antique Ceiling Fan\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What type of ceiling fan is installed in the room?\n\nA. Industrial Ceiling Fan\nB. Decorative Ceiling Fan\nC. Modern Ceiling Fan\nD. Antique Ceiling Fan\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What type of ceiling fan is installed in the room?\n\nA. Industrial Ceiling Fan\nB. Decorative Ceiling Fan\nC. Modern Ceiling Fan\nD. Antique Ceiling Fan",
+      "response": "None"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What type of workout equipment is located in the bedroom?",
+      "response": "unanswerable"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What type of workout equipment is located in the bedroom?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What color is the nightstand located next to the bed?\n\nA. Vibrant blue\nB. Deep teal\nC. Soft white\nD. Mint green",
+      "response": "None"
+    }
+  ]
+}

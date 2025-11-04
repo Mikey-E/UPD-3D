@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "e7e9f7bd-8fac-434a-b34e-090a55495daf@LivingRoom-1395",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 4",
+  "timestamp": "2025-10-27T08:19:36.966482",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/e7e9f7bd-8fac-434a-b34e-090a55495daf/LivingRoom-1395/LivingRoom-1395.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What type of finish does the coffee table have?\n\nA. Polished wooden finish\nB. Matte white finish\nC. Brushed silver finish\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What type of finish does the coffee table have?\n\nA. Polished wooden finish\nB. Matte white finish\nC. Brushed silver finish\nD. None of the above",
+      "response": "d"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What type of finish does the coffee table have?\n\nA. Polished wooden finish\nB. Matte white finish\nC. Brushed silver finish",
+      "response": "none"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What type of finish does the coffee table have?\n\nA. Marathon\nB. Sprint\nC. Relay\nD. Jogging\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What type of finish does the coffee table have?\n\nA. Marathon\nB. Sprint\nC. Relay\nD. Jogging\nE. None of the above",
+      "response": "e"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What type of finish does the coffee table have?\n\nA. Marathon\nB. Sprint\nC. Relay\nD. Jogging",
+      "response": "none"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What is the width of the sculpture in the center of the room?\n\nA. Three feet\nB. Five feet\nC. Seven feet\nD. Ten feet\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What is the width of the sculpture in the center of the room?\n\nA. Three feet\nB. Five feet\nC. Seven feet\nD. Ten feet\nE. None of the above",
+      "response": "e"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What is the width of the sculpture in the center of the room?\n\nA. Three feet\nB. Five feet\nC. Seven feet\nD. Ten feet",
+      "response": "none"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What type of art piece is hanging on the wall?",
+      "response": "n/a"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What type of art piece is hanging on the wall?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What type of finish does the coffee table have?\n\nA. Polished wooden finish\nB. Matte white finish\nC. Glossy black finish\nD. Brushed silver finish",
+      "response": "c"
+    }
+  ]
+}

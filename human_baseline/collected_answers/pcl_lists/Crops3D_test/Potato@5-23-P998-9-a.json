@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "Potato@5-23-P998-9-a",
+  "dataset": "Crops3D_test",
+  "annotated_by": "User 5",
+  "timestamp": "2025-10-30T11:59:13.759279",
+  "file_path": "/project/3dllms/melgin/datasets/CEA/Crops3D/Potato/5-23-P998-9-a.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What is the characteristic of the plant's leaves?\n\nA. They are all the same shade of green\nB. They have a vertical growth pattern\nC. They are exclusively round in shape\nIf none of the above answers are correct, answer: 'F'",
+      "response": "a"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What is the characteristic of the plant's leaves?\n\nA. They are all the same shade of green\nB. They have a vertical growth pattern\nC. They are exclusively round in shape\nD. None of the above",
+      "response": "a"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What is the characteristic of the plant's leaves?\n\nA. They are all the same shade of green\nB. They have a vertical growth pattern\nC. They are exclusively round in shape",
+      "response": "a"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What is the characteristic of the plant's leaves?\n\nA. Olympic medals\nB. Musical notes\nC. Quantum mechanics\nD. Computer programming\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What is the characteristic of the plant's leaves?\n\nA. Olympic medals\nB. Musical notes\nC. Quantum mechanics\nD. Computer programming\nE. None of the above",
+      "response": "e"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What is the characteristic of the plant's leaves?\n\nA. Olympic medals\nB. Musical notes\nC. Quantum mechanics\nD. Computer programming",
+      "response": "none"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What type of vehicle can be seen parked in the scene?\n\nA. Sports car\nB. Pickup truck\nC. Electric scooter\nD. Bicycle\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What type of vehicle can be seen parked in the scene?\n\nA. Sports car\nB. Pickup truck\nC. Electric scooter\nD. Bicycle\nE. None of the above",
+      "response": "e"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What type of vehicle can be seen parked in the scene?\n\nA. Sports car\nB. Pickup truck\nC. Electric scooter\nD. Bicycle",
+      "response": "none"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What type of furniture is made of glass and placed in the scene?",
+      "response": "none"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What type of furniture is made of glass and placed in the scene?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What is the characteristic of the plant's leaves?\n\nA. They are all the same shade of green\nB. They vary in color and texture\nC. They have a vertical growth pattern\nD. They are exclusively round in shape",
+      "response": "a"
+    }
+  ]
+}

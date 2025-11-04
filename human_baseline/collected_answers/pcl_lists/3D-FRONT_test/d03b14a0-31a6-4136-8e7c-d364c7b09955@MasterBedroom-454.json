@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "d03b14a0-31a6-4136-8e7c-d364c7b09955@MasterBedroom-454",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 4",
+  "timestamp": "2025-10-15T10:04:50.205223",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/d03b14a0-31a6-4136-8e7c-d364c7b09955/MasterBedroom-454/MasterBedroom-454.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What color is the drawer chest in the Masterbedroom?\n\nA. Dark gray\nB. Warm beige\nC. Metallic grey\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What color is the drawer chest in the Masterbedroom?\n\nA. Dark gray\nB. Warm beige\nC. Metallic grey\nD. None of the above",
+      "response": "D"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What color is the drawer chest in the Masterbedroom?\n\nA. Dark gray\nB. Warm beige\nC. Metallic grey",
+      "response": "none of these"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What color is the drawer chest in the Masterbedroom?\n\nA. Cucumber\nB. Maple\nC. Pineapple\nD. Raspberry\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What color is the drawer chest in the Masterbedroom?\n\nA. Cucumber\nB. Maple\nC. Pineapple\nD. Raspberry\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What color is the drawer chest in the Masterbedroom?\n\nA. Cucumber\nB. Maple\nC. Pineapple\nD. Raspberry",
+      "response": "None of these"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What type of sculpture is featured in the Masterbedroom?\n\nA. Abstract sculpture\nB. Figurative sculpture\nC. Kinetic sculpture\nD. Relief sculpture\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What type of sculpture is featured in the Masterbedroom?\n\nA. Abstract sculpture\nB. Figurative sculpture\nC. Kinetic sculpture\nD. Relief sculpture\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What type of sculpture is featured in the Masterbedroom?\n\nA. Abstract sculpture\nB. Figurative sculpture\nC. Kinetic sculpture\nD. Relief sculpture",
+      "response": "none of these"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What type of dining table is in the room?",
+      "response": "unanswerable"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What type of dining table is in the room?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What color is the drawer chest in the Masterbedroom?\n\nA. Dark gray\nB. Muted gray\nC. Warm beige\nD. Metallic grey",
+      "response": "B"
+    }
+  ]
+}

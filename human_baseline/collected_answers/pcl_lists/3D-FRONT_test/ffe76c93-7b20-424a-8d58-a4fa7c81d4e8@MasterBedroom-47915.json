@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "ffe76c93-7b20-424a-8d58-a4fa7c81d4e8@MasterBedroom-47915",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 3",
+  "timestamp": "2025-10-31T10:03:35.096858",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/ffe76c93-7b20-424a-8d58-a4fa7c81d4e8/MasterBedroom-47915/MasterBedroom-47915.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What color is the wardrobe in the master bedroom?\n\nA. Neutral grey\nB. Muted gray\nC. Taupe\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What color is the wardrobe in the master bedroom?\n\nA. Neutral grey\nB. Muted gray\nC. Taupe\nD. None of the above",
+      "response": "D"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What color is the wardrobe in the master bedroom?\n\nA. Neutral grey\nB. Muted gray\nC. Taupe",
+      "response": "None"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What color is the wardrobe in the master bedroom?\n\nA. Pineapple\nB. Sandwich\nC. Galaxy\nD. Guitar\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What color is the wardrobe in the master bedroom?\n\nA. Pineapple\nB. Sandwich\nC. Galaxy\nD. Guitar\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What color is the wardrobe in the master bedroom?\n\nA. Pineapple\nB. Sandwich\nC. Galaxy\nD. Guitar",
+      "response": "None"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What type of sculptures are displayed in the scene?\n\nA. Abstract sculptures\nB. Classical sculptures\nC. Wooden sculptures\nD. Metal sculptures\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What type of sculptures are displayed in the scene?\n\nA. Abstract sculptures\nB. Classical sculptures\nC. Wooden sculptures\nD. Metal sculptures\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What type of sculptures are displayed in the scene?\n\nA. Abstract sculptures\nB. Classical sculptures\nC. Wooden sculptures\nD. Metal sculptures",
+      "response": "None"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What is the height of the sculpture in the corner of the room?",
+      "response": "N/A"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What is the height of the sculpture in the corner of the room?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What color is the wardrobe in the master bedroom?\n\nA. Neutral grey\nB. Muted gray\nC. Taupe\nD. Creamy beige",
+      "response": "D"
+    }
+  ]
+}

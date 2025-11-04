@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "f24ffce5-6f17-40ef-ae61-46a90291b6a9@SecondBedroom-29066",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 4",
+  "timestamp": "2025-10-29T09:30:32.319169",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/f24ffce5-6f17-40ef-ae61-46a90291b6a9/SecondBedroom-29066/SecondBedroom-29066.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What type of design does the wardrobe in the Second bedroom feature?\n\nA. Vintage wooden design\nB. Rustic farmhouse style\nC. Mediterranean aesthetic\nIf none of the above answers are correct, answer: 'F'",
+      "response": "A"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What type of design does the wardrobe in the Second bedroom feature?\n\nA. Vintage wooden design\nB. Rustic farmhouse style\nC. Mediterranean aesthetic\nD. None of the above",
+      "response": "A"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What type of design does the wardrobe in the Second bedroom feature?\n\nA. Vintage wooden design\nB. Rustic farmhouse style\nC. Mediterranean aesthetic",
+      "response": "A"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What type of design does the wardrobe in the Second bedroom feature?\n\nA. Abstract expressionism\nB. Cubist movement\nC. Surreal landscapes\nD. Minimalist architecture\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What type of design does the wardrobe in the Second bedroom feature?\n\nA. Abstract expressionism\nB. Cubist movement\nC. Surreal landscapes\nD. Minimalist architecture\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What type of design does the wardrobe in the Second bedroom feature?\n\nA. Abstract expressionism\nB. Cubist movement\nC. Surreal landscapes\nD. Minimalist architecture",
+      "response": "None"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What type of flooring is ideal for a futuristic kitchen design?\n\nA. Polished concrete\nB. Hardwood\nC. Bamboo\nD. Vinyl\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What type of flooring is ideal for a futuristic kitchen design?\n\nA. Polished concrete\nB. Hardwood\nC. Bamboo\nD. Vinyl\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What type of flooring is ideal for a futuristic kitchen design?\n\nA. Polished concrete\nB. Hardwood\nC. Bamboo\nD. Vinyl",
+      "response": "None"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What type of coffee table is located in the room?",
+      "response": "unanswerable"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What type of coffee table is located in the room?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What type of design does the wardrobe in the Second bedroom feature?\n\nA. Vintage wooden design\nB. Modern sleek charcoal design\nC. Rustic farmhouse style\nD. Mediterranean aesthetic",
+      "response": "A"
+    }
+  ]
+}

@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "c3f1bddc-8460-45a5-99f0-d5b31d7adc2d@LivingRoom-126",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 3",
+  "timestamp": "2025-10-08T11:10:53.488420",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/c3f1bddc-8460-45a5-99f0-d5b31d7adc2d/LivingRoom-126/LivingRoom-126.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What color is the three-seat sofa in the living room?\n\nA. Dark brown\nB. Off-white\nC. Gray\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What color is the three-seat sofa in the living room?\n\nA. Dark brown\nB. Off-white\nC. Gray\nD. None of the above",
+      "response": "D"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What color is the three-seat sofa in the living room?\n\nA. Dark brown\nB. Off-white\nC. Gray",
+      "response": "None"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What color is the three-seat sofa in the living room?\n\nA. Elephant\nB. Pineapple\nC. Octopus\nD. Marathon\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What color is the three-seat sofa in the living room?\n\nA. Elephant\nB. Pineapple\nC. Octopus\nD. Marathon\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What color is the three-seat sofa in the living room?\n\nA. Elephant\nB. Pineapple\nC. Octopus\nD. Marathon",
+      "response": "None"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What is the height of the ceiling in the living room?\n\nA. 8 feet\nB. 10 feet\nC. 12 feet\nD. 14 feet\nIf none of the above answers are correct, answer: 'F'",
+      "response": "B"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What is the height of the ceiling in the living room?\n\nA. 8 feet\nB. 10 feet\nC. 12 feet\nD. 14 feet\nE. None of the above",
+      "response": "B"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What is the height of the ceiling in the living room?\n\nA. 8 feet\nB. 10 feet\nC. 12 feet\nD. 14 feet",
+      "response": "B"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What type of exercise equipment is used in this living room?",
+      "response": "N/A"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What type of exercise equipment is used in this living room?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What color is the three-seat sofa in the living room?\n\nA. Dark brown\nB. Taupe\nC. Off-white\nD. Gray",
+      "response": "B"
+    }
+  ]
+}

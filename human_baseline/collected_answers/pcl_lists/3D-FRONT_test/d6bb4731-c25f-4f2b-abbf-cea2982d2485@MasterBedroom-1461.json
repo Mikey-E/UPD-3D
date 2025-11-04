@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "d6bb4731-c25f-4f2b-abbf-cea2982d2485@MasterBedroom-1461",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 4",
+  "timestamp": "2025-10-16T13:41:13.706151",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/d6bb4731-c25f-4f2b-abbf-cea2982d2485/MasterBedroom-1461/MasterBedroom-1461.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What color is the finish of the wardrobe in the master bedroom?\n\nA. Dark brown\nB. Sleek black\nC. Vintage red\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What color is the finish of the wardrobe in the master bedroom?\n\nA. Dark brown\nB. Sleek black\nC. Vintage red\nD. None of the above",
+      "response": "d"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What color is the finish of the wardrobe in the master bedroom?\n\nA. Dark brown\nB. Sleek black\nC. Vintage red",
+      "response": "none"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What color is the finish of the wardrobe in the master bedroom?\n\nA. Tropical rainforest\nB. Arctic tundra\nC. Desert landscape\nD. Mountain range\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What color is the finish of the wardrobe in the master bedroom?\n\nA. Tropical rainforest\nB. Arctic tundra\nC. Desert landscape\nD. Mountain range\nE. None of the above",
+      "response": "e"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What color is the finish of the wardrobe in the master bedroom?\n\nA. Tropical rainforest\nB. Arctic tundra\nC. Desert landscape\nD. Mountain range",
+      "response": "none"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What is the shape of the table in the room?\n\nA. Round\nB. Square\nC. Oval\nD. Rectangular\nIf none of the above answers are correct, answer: 'F'",
+      "response": "d"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What is the shape of the table in the room?\n\nA. Round\nB. Square\nC. Oval\nD. Rectangular\nE. None of the above",
+      "response": "d"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What is the shape of the table in the room?\n\nA. Round\nB. Square\nC. Oval\nD. Rectangular",
+      "response": "d"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What type of outdoor grill is set up in the scene?",
+      "response": "n/a"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What type of outdoor grill is set up in the scene?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What color is the finish of the wardrobe in the master bedroom?\n\nA. Dark brown\nB. Sleek black\nC. Matte white\nD. Vintage red",
+      "response": "c"
+    }
+  ]
+}

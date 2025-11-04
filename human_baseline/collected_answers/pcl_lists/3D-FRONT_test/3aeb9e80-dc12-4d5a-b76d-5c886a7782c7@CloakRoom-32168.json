@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "3aeb9e80-dc12-4d5a-b76d-5c886a7782c7@CloakRoom-32168",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 5",
+  "timestamp": "2025-10-14T11:28:14.839211",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/3aeb9e80-dc12-4d5a-b76d-5c886a7782c7/CloakRoom-32168/CloakRoom-32168.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What is the design theme of the dressing table located in the CloakRoom?\n\nA. Modern style with a minimalistic approach\nB. Traditional design inspired by Italian decor\nC. Rustic style showcasing wooden textures\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What is the design theme of the dressing table located in the CloakRoom?\n\nA. Modern style with a minimalistic approach\nB. Traditional design inspired by Italian decor\nC. Rustic style showcasing wooden textures\nD. None of the above",
+      "response": "d"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What is the design theme of the dressing table located in the CloakRoom?\n\nA. Modern style with a minimalistic approach\nB. Traditional design inspired by Italian decor\nC. Rustic style showcasing wooden textures",
+      "response": "none of these"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What is the design theme of the dressing table located in the CloakRoom?\n\nA. Tropical rainforest\nB. Rocky mountain\nC. Urban skyline\nD. Coral reef\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What is the design theme of the dressing table located in the CloakRoom?\n\nA. Tropical rainforest\nB. Rocky mountain\nC. Urban skyline\nD. Coral reef\nE. None of the above",
+      "response": "e"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What is the design theme of the dressing table located in the CloakRoom?\n\nA. Tropical rainforest\nB. Rocky mountain\nC. Urban skyline\nD. Coral reef",
+      "response": "none of these"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What is the main purpose of the staircase in the scene?\n\nA. To provide access to the balcony\nB. To connect different levels of the house\nC. To serve as a storage area\nD. To enhance the room's lighting\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What is the main purpose of the staircase in the scene?\n\nA. To provide access to the balcony\nB. To connect different levels of the house\nC. To serve as a storage area\nD. To enhance the room's lighting\nE. None of the above",
+      "response": "e"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What is the main purpose of the staircase in the scene?\n\nA. To provide access to the balcony\nB. To connect different levels of the house\nC. To serve as a storage area\nD. To enhance the room's lighting",
+      "response": "none of these"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What type of exercise equipment is in the room?",
+      "response": "unanswerable"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What type of exercise equipment is in the room?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What is the design theme of the dressing table located in the CloakRoom?\n\nA. Modern style with a minimalistic approach\nB. Traditional design inspired by Italian decor\nC. Korean design influenced with elegant features\nD. Rustic style showcasing wooden textures",
+      "response": "none of these"
+    }
+  ]
+}

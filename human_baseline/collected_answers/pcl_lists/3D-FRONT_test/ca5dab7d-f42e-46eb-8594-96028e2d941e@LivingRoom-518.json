@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "ca5dab7d-f42e-46eb-8594-96028e2d941e@LivingRoom-518",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 4",
+  "timestamp": "2025-10-14T11:12:45.799769",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/ca5dab7d-f42e-46eb-8594-96028e2d941e/LivingRoom-518/LivingRoom-518.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What color is the sofa in the living room?\n\nA. Warm beige\nB. Dark brown\nC. Natural wood\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What color is the sofa in the living room?\n\nA. Warm beige\nB. Dark brown\nC. Natural wood\nD. None of the above",
+      "response": "D"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What color is the sofa in the living room?\n\nA. Warm beige\nB. Dark brown\nC. Natural wood",
+      "response": "NONE"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What color is the sofa in the living room?\n\nA. Jazz\nB. Rock\nC. Classical\nD. Hip-hop\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What color is the sofa in the living room?\n\nA. Jazz\nB. Rock\nC. Classical\nD. Hip-hop\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What color is the sofa in the living room?\n\nA. Jazz\nB. Rock\nC. Classical\nD. Hip-hop",
+      "response": "NONE"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What shape is the rug in the scene?\n\nA. Circle\nB. Rectangle\nC. Triangle\nD. Oval\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What shape is the rug in the scene?\n\nA. Circle\nB. Rectangle\nC. Triangle\nD. Oval\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What shape is the rug in the scene?\n\nA. Circle\nB. Rectangle\nC. Triangle\nD. Oval",
+      "response": "NONE"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What type of musical instrument is placed in the corner of the room?",
+      "response": "No musical instrument."
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What type of musical instrument is placed in the corner of the room?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What color is the sofa in the living room?\n\nA. Charcoal gray\nB. Warm beige\nC. Dark brown\nD. Natural wood",
+      "response": "A"
+    }
+  ]
+}

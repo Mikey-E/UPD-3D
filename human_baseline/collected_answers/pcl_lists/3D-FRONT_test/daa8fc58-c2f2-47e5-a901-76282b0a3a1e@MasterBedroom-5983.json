@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "daa8fc58-c2f2-47e5-a901-76282b0a3a1e@MasterBedroom-5983",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 4",
+  "timestamp": "2025-10-20T08:42:56.814653",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/daa8fc58-c2f2-47e5-a901-76282b0a3a1e/MasterBedroom-5983/MasterBedroom-5983.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What color is the wardrobe in the master bedroom?\n\nA. Light oak\nB. Neutral beige\nC. Grey\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What color is the wardrobe in the master bedroom?\n\nA. Light oak\nB. Neutral beige\nC. Grey\nD. None of the above",
+      "response": "d"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What color is the wardrobe in the master bedroom?\n\nA. Light oak\nB. Neutral beige\nC. Grey",
+      "response": "none"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What color is the wardrobe in the master bedroom?\n\nA. Hydrogen\nB. Neutron\nC. Quasar\nD. Galaxy\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What color is the wardrobe in the master bedroom?\n\nA. Hydrogen\nB. Neutron\nC. Quasar\nD. Galaxy\nE. None of the above",
+      "response": "e"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What color is the wardrobe in the master bedroom?\n\nA. Hydrogen\nB. Neutron\nC. Quasar\nD. Galaxy",
+      "response": "none"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What type of carpet is placed beneath the king-size bed?\n\nA. Persian\nB. Berber\nC. Shag\nD. Wool\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What type of carpet is placed beneath the king-size bed?\n\nA. Persian\nB. Berber\nC. Shag\nD. Wool\nE. None of the above",
+      "response": "e"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What type of carpet is placed beneath the king-size bed?\n\nA. Persian\nB. Berber\nC. Shag\nD. Wool",
+      "response": "none"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What material is the chandelier made of?",
+      "response": "n/a"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What material is the chandelier made of?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What color is the wardrobe in the master bedroom?\n\nA. Light oak\nB. Neutral beige\nC. Soft yellow\nD. Grey",
+      "response": "c"
+    }
+  ]
+}

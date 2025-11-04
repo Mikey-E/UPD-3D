@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "dc56d7ee-fbb6-43e7-b3ad-4dcb2bfc342a@LivingDiningRoom-71842",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 4",
+  "timestamp": "2025-10-21T10:32:14.708760",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/dc56d7ee-fbb6-43e7-b3ad-4dcb2bfc342a/LivingDiningRoom-71842/LivingDiningRoom-71842.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What color is the multi-seat sofa in the living room?\n\nA. Dark Green\nB. Light Gray\nC. Black\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What color is the multi-seat sofa in the living room?\n\nA. Dark Green\nB. Light Gray\nC. Black\nD. None of the above",
+      "response": "D"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What color is the multi-seat sofa in the living room?\n\nA. Dark Green\nB. Light Gray\nC. Black",
+      "response": "None"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What color is the multi-seat sofa in the living room?\n\nA. Pineapple\nB. Keyboard\nC. Galaxy\nD. Octopus\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What color is the multi-seat sofa in the living room?\n\nA. Pineapple\nB. Keyboard\nC. Galaxy\nD. Octopus\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What color is the multi-seat sofa in the living room?\n\nA. Pineapple\nB. Keyboard\nC. Galaxy\nD. Octopus",
+      "response": "None"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What shape is the clock in the scene?\n\nA. Circular\nB. Square\nC. Rectangular\nD. Hexagonal\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What shape is the clock in the scene?\n\nA. Circular\nB. Square\nC. Rectangular\nD. Hexagonal\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What shape is the clock in the scene?\n\nA. Circular\nB. Square\nC. Rectangular\nD. Hexagonal",
+      "response": "None"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What type of chandelier is hung above the dining table?",
+      "response": "Modern"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What type of chandelier is hung above the dining table?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "Modern"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What color is the multi-seat sofa in the living room?\n\nA. Dark Green\nB. Light Gray\nC. Dark Charcoal\nD. Black",
+      "response": "C"
+    }
+  ]
+}

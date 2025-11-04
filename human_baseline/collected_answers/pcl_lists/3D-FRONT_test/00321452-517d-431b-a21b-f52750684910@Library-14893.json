@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "00321452-517d-431b-a21b-f52750684910@Library-14893",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 3",
+  "timestamp": "2025-10-06T09:45:44.926556",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/00321452-517d-431b-a21b-f52750684910/Library-14893/Library-14893.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What is the color of the lounge chair in the library?\n\nA. Black\nB. White\nC. Gray\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What is the color of the lounge chair in the library?\n\nA. Black\nB. White\nC. Gray\nD. None of the above",
+      "response": "D"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What is the color of the lounge chair in the library?\n\nA. Black\nB. White\nC. Gray",
+      "response": "None"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What is the color of the lounge chair in the library?\n\nA. Jupiter\nB. Saturn\nC. Mars\nD. Venus\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What is the color of the lounge chair in the library?\n\nA. Jupiter\nB. Saturn\nC. Mars\nD. Venus\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What is the color of the lounge chair in the library?\n\nA. Jupiter\nB. Saturn\nC. Mars\nD. Venus",
+      "response": "None"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What shape is the coffee table in the scene?\n\nA. Rectangular\nB. Circular\nC. Square\nD. Oval\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What shape is the coffee table in the scene?\n\nA. Rectangular\nB. Circular\nC. Square\nD. Oval\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What shape is the coffee table in the scene?\n\nA. Rectangular\nB. Circular\nC. Square\nD. Oval",
+      "response": "None"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What type of rug is beneath the lounge chair?",
+      "response": "checkered rug"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What type of rug is beneath the lounge chair?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "checkered rug"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What is the color of the lounge chair in the library?\n\nA. Black\nB. Dark Green\nC. White\nD. Gray",
+      "response": "B"
+    }
+  ]
+}

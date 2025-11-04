@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "c9b3ee78-9e2f-4634-b5fd-b7a0686a511f@Bedroom-2336",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 3",
+  "timestamp": "2025-10-13T23:45:18.823313",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/c9b3ee78-9e2f-4634-b5fd-b7a0686a511f/Bedroom-2336/Bedroom-2336.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What color is the king-size bed in the bedroom?\n\nA. Turquoise\nB. Soft beige\nC. Purple\nIf none of the above answers are correct, answer: 'F'",
+      "response": "C"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What color is the king-size bed in the bedroom?\n\nA. Turquoise\nB. Soft beige\nC. Purple\nD. None of the above",
+      "response": "C"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What color is the king-size bed in the bedroom?\n\nA. Turquoise\nB. Soft beige\nC. Purple",
+      "response": "C"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What color is the king-size bed in the bedroom?\n\nA. Ocean\nB. Forest\nC. Desert\nD. Mountain\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What color is the king-size bed in the bedroom?\n\nA. Ocean\nB. Forest\nC. Desert\nD. Mountain\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What color is the king-size bed in the bedroom?\n\nA. Ocean\nB. Forest\nC. Desert\nD. Mountain",
+      "response": "None"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What shape is the coffee table in the scene?\n\nA. Rectangular\nB. Circular\nC. Square\nD. Oval\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What shape is the coffee table in the scene?\n\nA. Rectangular\nB. Circular\nC. Square\nD. Oval\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What shape is the coffee table in the scene?\n\nA. Rectangular\nB. Circular\nC. Square\nD. Oval",
+      "response": "None"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What type of sculpture is placed in this bedroom?",
+      "response": "N/A"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What type of sculpture is placed in this bedroom?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What color is the king-size bed in the bedroom?\n\nA. Slate blue\nB. Turquoise\nC. Soft beige\nD. Purple",
+      "response": "D"
+    }
+  ]
+}

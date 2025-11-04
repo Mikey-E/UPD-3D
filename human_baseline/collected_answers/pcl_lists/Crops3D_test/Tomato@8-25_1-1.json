@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "Tomato@8-25_1-1",
+  "dataset": "Crops3D_test",
+  "annotated_by": "User 5",
+  "timestamp": "2025-10-31T08:04:44.582231",
+  "file_path": "/project/3dllms/melgin/datasets/CEA/Crops3D/Tomato/8-25_1-1.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What type of leaves are described as being on the plant branch?\n\nA. Small, smooth leaves with pointed tips\nB. Needle-like leaves with a waxy surface\nC. Heart-shaped leaves with a glossy finish\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What type of leaves are described as being on the plant branch?\n\nA. Small, smooth leaves with pointed tips\nB. Needle-like leaves with a waxy surface\nC. Heart-shaped leaves with a glossy finish\nD. None of the above",
+      "response": "d"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What type of leaves are described as being on the plant branch?\n\nA. Small, smooth leaves with pointed tips\nB. Needle-like leaves with a waxy surface\nC. Heart-shaped leaves with a glossy finish",
+      "response": "none"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What type of leaves are described as being on the plant branch?\n\nA. Stratosphere\nB. Atmosphere\nC. Ecosystem\nD. Biography\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What type of leaves are described as being on the plant branch?\n\nA. Stratosphere\nB. Atmosphere\nC. Ecosystem\nD. Biography\nE. None of the above",
+      "response": "e"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What type of leaves are described as being on the plant branch?\n\nA. Stratosphere\nB. Atmosphere\nC. Ecosystem\nD. Biography",
+      "response": "none"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What is the size of the coffee table?\n\nA. Small\nB. Medium\nC. Large\nD. Extra-large\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What is the size of the coffee table?\n\nA. Small\nB. Medium\nC. Large\nD. Extra-large\nE. None of the above",
+      "response": "e"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What is the size of the coffee table?\n\nA. Small\nB. Medium\nC. Large\nD. Extra-large",
+      "response": "none"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What type of metal is used in the chandelier?",
+      "response": "none"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What type of metal is used in the chandelier?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What type of leaves are described as being on the plant branch?\n\nA. Small, smooth leaves with pointed tips\nB. Broad, deeply lobed leaves with jagged edges\nC. Needle-like leaves with a waxy surface\nD. Heart-shaped leaves with a glossy finish",
+      "response": "b"
+    }
+  ]
+}

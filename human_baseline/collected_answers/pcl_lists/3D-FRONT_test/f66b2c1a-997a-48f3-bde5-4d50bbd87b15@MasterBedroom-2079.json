@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "f66b2c1a-997a-48f3-bde5-4d50bbd87b15@MasterBedroom-2079",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 5",
+  "timestamp": "2025-10-29T17:57:16.857944",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/f66b2c1a-997a-48f3-bde5-4d50bbd87b15/MasterBedroom-2079/MasterBedroom-2079.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What is the color scheme of the nightstands in the Masterbedroom?\n\nA. Dark color palette with soft fabric\nB. Warm oak color with smooth wooden texture\nC. Sleek white finish\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What is the color scheme of the nightstands in the Masterbedroom?\n\nA. Dark color palette with soft fabric\nB. Warm oak color with smooth wooden texture\nC. Sleek white finish\nD. None of the above",
+      "response": "d"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What is the color scheme of the nightstands in the Masterbedroom?\n\nA. Dark color palette with soft fabric\nB. Warm oak color with smooth wooden texture\nC. Sleek white finish",
+      "response": "none"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What is the color scheme of the nightstands in the Masterbedroom?\n\nA. Cactus\nB. Mountain\nC. River\nD. Desert\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What is the color scheme of the nightstands in the Masterbedroom?\n\nA. Cactus\nB. Mountain\nC. River\nD. Desert\nE. None of the above",
+      "response": "e"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What is the color scheme of the nightstands in the Masterbedroom?\n\nA. Cactus\nB. Mountain\nC. River\nD. Desert",
+      "response": "none"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What type of window treatment is featured in the scene?\n\nA. Sheer curtains\nB. Wooden blinds\nC. Shuttered panels\nD. Decorative valance\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What type of window treatment is featured in the scene?\n\nA. Sheer curtains\nB. Wooden blinds\nC. Shuttered panels\nD. Decorative valance\nE. None of the above",
+      "response": "e"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What type of window treatment is featured in the scene?\n\nA. Sheer curtains\nB. Wooden blinds\nC. Shuttered panels\nD. Decorative valance",
+      "response": "none"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What type of outdoor furniture is in the scene?",
+      "response": "none"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What type of outdoor furniture is in the scene?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What is the color scheme of the nightstands in the Masterbedroom?\n\nA. Dark color palette with soft fabric\nB. Warm oak color with smooth wooden texture\nC. Soothing two-tone color scheme with natural wood tones\nD. Sleek white finish",
+      "response": "c"
+    }
+  ]
+}

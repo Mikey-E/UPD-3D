@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "Potato@5-13-P098-1-a",
+  "dataset": "Crops3D_test",
+  "annotated_by": "User 5",
+  "timestamp": "2025-10-30T12:00:44.947276",
+  "file_path": "/project/3dllms/melgin/datasets/CEA/Crops3D/Potato/5-13-P098-1-a.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What color variations can be observed in the leaves of the described plant?\n\nA. Only dark green leaves\nB. Red and purple leaves\nC. Only light green leaves\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What color variations can be observed in the leaves of the described plant?\n\nA. Only dark green leaves\nB. Red and purple leaves\nC. Only light green leaves\nD. None of the above",
+      "response": "d"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What color variations can be observed in the leaves of the described plant?\n\nA. Only dark green leaves\nB. Red and purple leaves\nC. Only light green leaves",
+      "response": "none"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What color variations can be observed in the leaves of the described plant?\n\nA. Melody\nB. Harmony\nC. Rhythm\nD. Tempo\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What color variations can be observed in the leaves of the described plant?\n\nA. Melody\nB. Harmony\nC. Rhythm\nD. Tempo\nE. None of the above",
+      "response": "e"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What color variations can be observed in the leaves of the described plant?\n\nA. Melody\nB. Harmony\nC. Rhythm\nD. Tempo",
+      "response": "none"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What type of car is parked outside?\n\nA. Sedan\nB. SUV\nC. Coupe\nD. Convertible\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What type of car is parked outside?\n\nA. Sedan\nB. SUV\nC. Coupe\nD. Convertible\nE. None of the above",
+      "response": "e"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What type of car is parked outside?\n\nA. Sedan\nB. SUV\nC. Coupe\nD. Convertible",
+      "response": "none"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What type of fruit is hanging from the ceiling?",
+      "response": "none"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What type of fruit is hanging from the ceiling?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What color variations can be observed in the leaves of the described plant?\n\nA. Only dark green leaves\nB. Red and purple leaves\nC. Light to dark green leaves with yellowish tinges\nD. Only light green leaves",
+      "response": "c"
+    }
+  ]
+}

@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "ec35b52a-c501-4e1d-b186-b50e8f97d8e7@MasterBedroom-542",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 4",
+  "timestamp": "2025-10-27T16:12:05.910628",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/ec35b52a-c501-4e1d-b186-b50e8f97d8e7/MasterBedroom-542/MasterBedroom-542.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What style is the dressing table in the room?\n\nA. French vintage style\nB. Art Deco style\nC. Industrial style\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What style is the dressing table in the room?\n\nA. French vintage style\nB. Art Deco style\nC. Industrial style\nD. None of the above",
+      "response": "D"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What style is the dressing table in the room?\n\nA. French vintage style\nB. Art Deco style\nC. Industrial style",
+      "response": "None"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What style is the dressing table in the room?\n\nA. Leather\nB. Velvet\nC. Silk\nD. Cotton\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What style is the dressing table in the room?\n\nA. Leather\nB. Velvet\nC. Silk\nD. Cotton\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What style is the dressing table in the room?\n\nA. Leather\nB. Velvet\nC. Silk\nD. Cotton",
+      "response": "None"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What is the height of the ceiling in the room?\n\nA. Ten feet\nB. Twelve feet\nC. Eight feet\nD. Fifteen feet\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What is the height of the ceiling in the room?\n\nA. Ten feet\nB. Twelve feet\nC. Eight feet\nD. Fifteen feet\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What is the height of the ceiling in the room?\n\nA. Ten feet\nB. Twelve feet\nC. Eight feet\nD. Fifteen feet",
+      "response": "None"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What type of fireplace is installed in the room?",
+      "response": "unanswerable"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What type of fireplace is installed in the room?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What style is the dressing table in the room?\n\nA. French vintage style\nB. Art Deco style\nC. Industrial style\nD. Japanese minimalism",
+      "response": "D"
+    }
+  ]
+}

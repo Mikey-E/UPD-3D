@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "d06a7c95-99a7-438e-a271-fe602380713c@LivingRoom-1437",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 4",
+  "timestamp": "2025-10-15T10:26:45.532329",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/d06a7c95-99a7-438e-a271-fe602380713c/LivingRoom-1437/LivingRoom-1437.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What type of finish does the TV stand have?\n\nA. Oak finish\nB. Pine finish\nC. Cherry finish\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What type of finish does the TV stand have?\n\nA. Oak finish\nB. Pine finish\nC. Cherry finish\nD. None of the above",
+      "response": "D"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What type of finish does the TV stand have?\n\nA. Oak finish\nB. Pine finish\nC. Cherry finish",
+      "response": "none"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What type of finish does the TV stand have?\n\nA. Maple syrup\nB. Green tea\nC. Saffron\nD. Blueberry jam\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What type of finish does the TV stand have?\n\nA. Maple syrup\nB. Green tea\nC. Saffron\nD. Blueberry jam\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What type of finish does the TV stand have?\n\nA. Maple syrup\nB. Green tea\nC. Saffron\nD. Blueberry jam",
+      "response": "none"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What type of vehicle is parked in the garage?\n\nA. Sedan\nB. Coupe\nC. SUV\nD. Minivan\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What type of vehicle is parked in the garage?\n\nA. Sedan\nB. Coupe\nC. SUV\nD. Minivan\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What type of vehicle is parked in the garage?\n\nA. Sedan\nB. Coupe\nC. SUV\nD. Minivan",
+      "response": "none"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What type of artwork is hanging on the wall?",
+      "response": "unanswerable"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What type of artwork is hanging on the wall?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What type of finish does the TV stand have?\n\nA. Oak finish\nB. Pine finish\nC. Cherry finish\nD. Walnut finish",
+      "response": "D"
+    }
+  ]
+}

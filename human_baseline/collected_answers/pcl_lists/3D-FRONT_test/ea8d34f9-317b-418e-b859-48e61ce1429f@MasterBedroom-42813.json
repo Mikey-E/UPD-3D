@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "ea8d34f9-317b-418e-b859-48e61ce1429f@MasterBedroom-42813",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 5",
+  "timestamp": "2025-10-28T08:31:10.463894",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/ea8d34f9-317b-418e-b859-48e61ce1429f/MasterBedroom-42813/MasterBedroom-42813.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What is the color of the bed in the master bedroom?\n\nA. Brown\nB. Black\nC. Beige\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What is the color of the bed in the master bedroom?\n\nA. Brown\nB. Black\nC. Beige\nD. None of the above",
+      "response": "d"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What is the color of the bed in the master bedroom?\n\nA. Brown\nB. Black\nC. Beige",
+      "response": "none"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What is the color of the bed in the master bedroom?\n\nA. Flamingo\nB. Cactus\nC. Dolphin\nD. Ocean\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What is the color of the bed in the master bedroom?\n\nA. Flamingo\nB. Cactus\nC. Dolphin\nD. Ocean\nE. None of the above",
+      "response": "e"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What is the color of the bed in the master bedroom?\n\nA. Flamingo\nB. Cactus\nC. Dolphin\nD. Ocean",
+      "response": "none"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What shape is the coffee table in the scene?\n\nA. Round\nB. Square\nC. Rectangular\nD. Oval\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What shape is the coffee table in the scene?\n\nA. Round\nB. Square\nC. Rectangular\nD. Oval\nE. None of the above",
+      "response": "e"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What shape is the coffee table in the scene?\n\nA. Round\nB. Square\nC. Rectangular\nD. Oval",
+      "response": "none"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "How tall is the bookshelf in the corner?",
+      "response": "none"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "How tall is the bookshelf in the corner?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What is the color of the bed in the master bedroom?\n\nA. Brown\nB. Black\nC. Beige\nD. White",
+      "response": "none"
+    }
+  ]
+}

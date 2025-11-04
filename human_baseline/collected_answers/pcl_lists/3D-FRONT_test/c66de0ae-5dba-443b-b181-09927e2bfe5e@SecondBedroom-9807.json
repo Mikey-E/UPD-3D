@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "c66de0ae-5dba-443b-b181-09927e2bfe5e@SecondBedroom-9807",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 4",
+  "timestamp": "2025-10-08T15:10:44.740410",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/c66de0ae-5dba-443b-b181-09927e2bfe5e/SecondBedroom-9807/SecondBedroom-9807.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What style of furniture is the footstool in the Second bedroom?\n\nA. Southeast Asian\nB. Korean\nC. Japanese\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What style of furniture is the footstool in the Second bedroom?\n\nA. Southeast Asian\nB. Korean\nC. Japanese\nD. None of the above",
+      "response": "D"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What style of furniture is the footstool in the Second bedroom?\n\nA. Southeast Asian\nB. Korean\nC. Japanese",
+      "response": "none of these"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What style of furniture is the footstool in the Second bedroom?\n\nA. Classical music\nB. Tropical rainforest\nC. Outer space exploration\nD. Medieval history\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What style of furniture is the footstool in the Second bedroom?\n\nA. Classical music\nB. Tropical rainforest\nC. Outer space exploration\nD. Medieval history\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What style of furniture is the footstool in the Second bedroom?\n\nA. Classical music\nB. Tropical rainforest\nC. Outer space exploration\nD. Medieval history",
+      "response": "none of these"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What is the color of the bookshelf in the room?\n\nA. Black\nB. Red\nC. Green\nD. Yellow\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What is the color of the bookshelf in the room?\n\nA. Black\nB. Red\nC. Green\nD. Yellow\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What is the color of the bookshelf in the room?\n\nA. Black\nB. Red\nC. Green\nD. Yellow",
+      "response": "none of these"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What type of outdoor grill is located in the room?",
+      "response": "none"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What type of outdoor grill is located in the room?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What style of furniture is the footstool in the Second bedroom?\n\nA. Southeast Asian\nB. Industrial\nC. Korean\nD. Japanese",
+      "response": "B"
+    }
+  ]
+}

@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "dbc40a52-1228-4ff9-93f5-2c60854906d2@LivingDiningRoom-15943",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 4",
+  "timestamp": "2025-10-20T15:40:52.334346",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/dbc40a52-1228-4ff9-93f5-2c60854906d2/LivingDiningRoom-15943/LivingDiningRoom-15943.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What style is the <p>sofa</p>[<three-seat/multi-seat sofa-0>] in the living room?\n\nA. Japanese\nB. Minimalist\nC. Light Luxury\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What style is the <p>sofa</p>[<three-seat/multi-seat sofa-0>] in the living room?\n\nA. Japanese\nB. Minimalist\nC. Light Luxury\nD. None of the above",
+      "response": "D"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What style is the <p>sofa</p>[<three-seat/multi-seat sofa-0>] in the living room?\n\nA. Japanese\nB. Minimalist\nC. Light Luxury",
+      "response": "None"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What style is the <p>sofa</p>[<three-seat/multi-seat sofa-0>] in the living room?\n\nA. Maple syrup\nB. Spaghetti bowl\nC. Chocolate fountain\nD. Ice cream sundae\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What style is the <p>sofa</p>[<three-seat/multi-seat sofa-0>] in the living room?\n\nA. Maple syrup\nB. Spaghetti bowl\nC. Chocolate fountain\nD. Ice cream sundae\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What style is the <p>sofa</p>[<three-seat/multi-seat sofa-0>] in the living room?\n\nA. Maple syrup\nB. Spaghetti bowl\nC. Chocolate fountain\nD. Ice cream sundae",
+      "response": "None"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What shape is the television in the living room?\n\nA. Rectangular\nB. Round\nC. Triangular\nD. Oval\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What shape is the television in the living room?\n\nA. Rectangular\nB. Round\nC. Triangular\nD. Oval\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What shape is the television in the living room?\n\nA. Rectangular\nB. Round\nC. Triangular\nD. Oval",
+      "response": "None"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What type of gardening tools are stored in the room?",
+      "response": "unanswerable"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What type of gardening tools are stored in the room?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What style is the <p>sofa</p>[<three-seat/multi-seat sofa-0>] in the living room?\n\nA. Japanese\nB. Minimalist\nC. American Country\nD. Light Luxury",
+      "response": "C"
+    }
+  ]
+}

@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "e99c8897-d6c6-4b93-befe-2742a41275f7@SecondBedroom-44107",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 4",
+  "timestamp": "2025-10-27T13:00:20.597681",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/e99c8897-d6c6-4b93-befe-2742a41275f7/SecondBedroom-44107/SecondBedroom-44107.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What type of design does the tv stand in the room feature?\n\nA. Modern design\nB. Industrial design\nC. Scandinavian design\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What type of design does the tv stand in the room feature?\n\nA. Modern design\nB. Industrial design\nC. Scandinavian design\nD. None of the above",
+      "response": "D"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What type of design does the tv stand in the room feature?\n\nA. Modern design\nB. Industrial design\nC. Scandinavian design",
+      "response": "None"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What type of design does the tv stand in the room feature?\n\nA. Abstract art style\nB. Classical music genre\nC. Tropical rainforest ecosystem\nD. Medieval architecture style\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What type of design does the tv stand in the room feature?\n\nA. Abstract art style\nB. Classical music genre\nC. Tropical rainforest ecosystem\nD. Medieval architecture style\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What type of design does the tv stand in the room feature?\n\nA. Abstract art style\nB. Classical music genre\nC. Tropical rainforest ecosystem\nD. Medieval architecture style",
+      "response": "None"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What type of carpet is used in the room?\n\nA. Shag carpet\nB. Berber carpet\nC. Area rug\nD. Sisal carpet\nIf none of the above answers are correct, answer: 'F'",
+      "response": "A"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What type of carpet is used in the room?\n\nA. Shag carpet\nB. Berber carpet\nC. Area rug\nD. Sisal carpet\nE. None of the above",
+      "response": "A"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What type of carpet is used in the room?\n\nA. Shag carpet\nB. Berber carpet\nC. Area rug\nD. Sisal carpet",
+      "response": "A"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What type of outdoor sculpture is located in the garden?",
+      "response": "unanswerable"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What type of outdoor sculpture is located in the garden?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What type of design does the tv stand in the room feature?\n\nA. Modern design\nB. Industrial design\nC. American Country design\nD. Scandinavian design",
+      "response": "C"
+    }
+  ]
+}

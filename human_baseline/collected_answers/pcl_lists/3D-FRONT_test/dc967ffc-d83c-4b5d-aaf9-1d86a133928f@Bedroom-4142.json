@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "dc967ffc-d83c-4b5d-aaf9-1d86a133928f@Bedroom-4142",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 4",
+  "timestamp": "2025-10-21T13:13:08.139251",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/dc967ffc-d83c-4b5d-aaf9-1d86a133928f/Bedroom-4142/Bedroom-4142.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What style does the king-size bed predominantly represent in the bedroom?\n\nA. European Classic\nB. Nordic\nC. Modern\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What style does the king-size bed predominantly represent in the bedroom?\n\nA. European Classic\nB. Nordic\nC. Modern\nD. None of the above",
+      "response": "D"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What style does the king-size bed predominantly represent in the bedroom?\n\nA. European Classic\nB. Nordic\nC. Modern",
+      "response": "None"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What style does the king-size bed predominantly represent in the bedroom?\n\nA. Classical music\nB. Digital marketing\nC. Marine biology\nD. Ancient civilizations\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What style does the king-size bed predominantly represent in the bedroom?\n\nA. Classical music\nB. Digital marketing\nC. Marine biology\nD. Ancient civilizations\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What style does the king-size bed predominantly represent in the bedroom?\n\nA. Classical music\nB. Digital marketing\nC. Marine biology\nD. Ancient civilizations",
+      "response": "None"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What is the capacity of the refrigerator in the kitchen?\n\nA. 200 liters\nB. 350 liters\nC. 500 liters\nD. 700 liters\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What is the capacity of the refrigerator in the kitchen?\n\nA. 200 liters\nB. 350 liters\nC. 500 liters\nD. 700 liters\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What is the capacity of the refrigerator in the kitchen?\n\nA. 200 liters\nB. 350 liters\nC. 500 liters\nD. 700 liters",
+      "response": "None"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What type of refrigerator is located near the door?",
+      "response": "unanswerable"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What type of refrigerator is located near the door?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What style does the king-size bed predominantly represent in the bedroom?\n\nA. European Classic\nB. Southeast Asian\nC. Nordic\nD. Modern",
+      "response": "B"
+    }
+  ]
+}

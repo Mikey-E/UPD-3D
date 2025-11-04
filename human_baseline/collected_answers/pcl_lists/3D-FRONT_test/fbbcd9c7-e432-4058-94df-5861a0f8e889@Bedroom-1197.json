@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "fbbcd9c7-e432-4058-94df-5861a0f8e889@Bedroom-1197",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 3",
+  "timestamp": "2025-10-30T16:27:56.720571",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/fbbcd9c7-e432-4058-94df-5861a0f8e889/Bedroom-1197/Bedroom-1197.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What type of bed is the centerpiece of the bedroom described?\n\nA. Queen-size bed\nB. Twin bed\nC. Full-size bed\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What type of bed is the centerpiece of the bedroom described?\n\nA. Queen-size bed\nB. Twin bed\nC. Full-size bed\nD. None of the above",
+      "response": "D"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What type of bed is the centerpiece of the bedroom described?\n\nA. Queen-size bed\nB. Twin bed\nC. Full-size bed",
+      "response": "NONE"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What type of bed is the centerpiece of the bedroom described?\n\nA. Velvet ribbon\nB. Chocolate fountain\nC. Ocean wave\nD. Tea kettle\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What type of bed is the centerpiece of the bedroom described?\n\nA. Velvet ribbon\nB. Chocolate fountain\nC. Ocean wave\nD. Tea kettle\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What type of bed is the centerpiece of the bedroom described?\n\nA. Velvet ribbon\nB. Chocolate fountain\nC. Ocean wave\nD. Tea kettle",
+      "response": "NONE"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What features does the living room's aquarium have?\n\nA. Coral reefs and tropical fish\nB. A bubble wall and aquatic plants\nC. A crystal clear viewing pane\nD. Underwater sculptures and lighting\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What features does the living room's aquarium have?\n\nA. Coral reefs and tropical fish\nB. A bubble wall and aquatic plants\nC. A crystal clear viewing pane\nD. Underwater sculptures and lighting\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What features does the living room's aquarium have?\n\nA. Coral reefs and tropical fish\nB. A bubble wall and aquatic plants\nC. A crystal clear viewing pane\nD. Underwater sculptures and lighting",
+      "response": "NA"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What is the color of the piano?",
+      "response": "NA"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What is the color of the piano?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What type of bed is the centerpiece of the bedroom described?\n\nA. Queen-size bed\nB. King-size bed\nC. Twin bed\nD. Full-size bed",
+      "response": "B"
+    }
+  ]
+}

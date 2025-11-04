@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "d29b43d1-a7ef-4604-8878-02b5b2479df4@MasterBedroom-16012",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 4",
+  "timestamp": "2025-10-15T16:02:24.745613",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/d29b43d1-a7ef-4604-8878-02b5b2479df4/MasterBedroom-16012/MasterBedroom-16012.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What is the main feature of the Master bedroom that provides a space for rest?\n\nA. Desk with light gray finish\nB. Woven basket for organization\nC. Drawer chest with ornate textured fronts\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What is the main feature of the Master bedroom that provides a space for rest?\n\nA. Desk with light gray finish\nB. Woven basket for organization\nC. Drawer chest with ornate textured fronts\nD. None of the above",
+      "response": "d"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What is the main feature of the Master bedroom that provides a space for rest?\n\nA. Desk with light gray finish\nB. Woven basket for organization\nC. Drawer chest with ornate textured fronts",
+      "response": "none"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What is the main feature of the Master bedroom that provides a space for rest?\n\nA. Pyramids of Giza\nB. Saturn's rings\nC. Great Wall of China\nD. Amazon rainforest\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What is the main feature of the Master bedroom that provides a space for rest?\n\nA. Pyramids of Giza\nB. Saturn's rings\nC. Great Wall of China\nD. Amazon rainforest\nE. None of the above",
+      "response": "e"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What is the main feature of the Master bedroom that provides a space for rest?\n\nA. Pyramids of Giza\nB. Saturn's rings\nC. Great Wall of China\nD. Amazon rainforest",
+      "response": "none"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What is the height of the bookshelf in the scene?\n\nA. 5 feet\nB. 6 feet\nC. 4 feet\nD. 7 feet\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What is the height of the bookshelf in the scene?\n\nA. 5 feet\nB. 6 feet\nC. 4 feet\nD. 7 feet\nE. None of the above",
+      "response": "e"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What is the height of the bookshelf in the scene?\n\nA. 5 feet\nB. 6 feet\nC. 4 feet\nD. 7 feet",
+      "response": "none"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What type of bicycle is stored in the closet?",
+      "response": "n/a"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What type of bicycle is stored in the closet?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What is the main feature of the Master bedroom that provides a space for rest?\n\nA. King-size bed with soft beige headboard\nB. Desk with light gray finish\nC. Woven basket for organization\nD. Drawer chest with ornate textured fronts",
+      "response": "a"
+    }
+  ]
+}

@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "Wheat@73",
+  "dataset": "Crops3D_test",
+  "annotated_by": "User 5",
+  "timestamp": "2025-10-31T08:18:29.156812",
+  "file_path": "/project/3dllms/melgin/datasets/CEA/Crops3D/Wheat/73.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What is the primary color of the grass blades described?\n\nA. Light purple\nB. Bright yellow\nC. Deep blue\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What is the primary color of the grass blades described?\n\nA. Light purple\nB. Bright yellow\nC. Deep blue\nD. None of the above",
+      "response": "d"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What is the primary color of the grass blades described?\n\nA. Light purple\nB. Bright yellow\nC. Deep blue",
+      "response": "none"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What is the primary color of the grass blades described?\n\nA. Jupiter\nB. Galaxy\nC. Dinosaur\nD. Computer\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What is the primary color of the grass blades described?\n\nA. Jupiter\nB. Galaxy\nC. Dinosaur\nD. Computer\nE. None of the above",
+      "response": "e"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What is the primary color of the grass blades described?\n\nA. Jupiter\nB. Galaxy\nC. Dinosaur\nD. Computer",
+      "response": "none"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What kind of wildlife can be found near the grass?\n\nA. Rabbits\nB. Squirrels\nC. Deer\nD. Foxes\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What kind of wildlife can be found near the grass?\n\nA. Rabbits\nB. Squirrels\nC. Deer\nD. Foxes\nE. None of the above",
+      "response": "e"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What kind of wildlife can be found near the grass?\n\nA. Rabbits\nB. Squirrels\nC. Deer\nD. Foxes",
+      "response": "none"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What type of furniture is in the scene?",
+      "response": "none"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What type of furniture is in the scene?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What is the primary color of the grass blades described?\n\nA. Light purple\nB. Bright yellow\nC. Deep blue\nD. Dark green",
+      "response": "d"
+    }
+  ]
+}

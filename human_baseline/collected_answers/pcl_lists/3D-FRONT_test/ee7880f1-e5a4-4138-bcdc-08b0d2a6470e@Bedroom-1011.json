@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "ee7880f1-e5a4-4138-bcdc-08b0d2a6470e@Bedroom-1011",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 5",
+  "timestamp": "2025-10-28T11:40:25.140319",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/ee7880f1-e5a4-4138-bcdc-08b0d2a6470e/Bedroom-1011/Bedroom-1011.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What color are the nightstands located next to the king-size bed?\n\nA. Warm brown\nB. Taupe\nC. Golden\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What color are the nightstands located next to the king-size bed?\n\nA. Warm brown\nB. Taupe\nC. Golden\nD. None of the above",
+      "response": "d"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What color are the nightstands located next to the king-size bed?\n\nA. Warm brown\nB. Taupe\nC. Golden",
+      "response": "none"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What color are the nightstands located next to the king-size bed?\n\nA. Guitar\nB. Piano\nC. Drums\nD. Violin\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What color are the nightstands located next to the king-size bed?\n\nA. Guitar\nB. Piano\nC. Drums\nD. Violin\nE. None of the above",
+      "response": "e"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What color are the nightstands located next to the king-size bed?\n\nA. Guitar\nB. Piano\nC. Drums\nD. Violin",
+      "response": "none"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What type of painting is displayed in the scene?\n\nA. Abstract\nB. Landscape\nC. Portrait\nD. Still life\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What type of painting is displayed in the scene?\n\nA. Abstract\nB. Landscape\nC. Portrait\nD. Still life\nE. None of the above",
+      "response": "e"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What type of painting is displayed in the scene?\n\nA. Abstract\nB. Landscape\nC. Portrait\nD. Still life",
+      "response": "none"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What type of outdoor furniture is placed on the balcony?",
+      "response": "none"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What type of outdoor furniture is placed on the balcony?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What color are the nightstands located next to the king-size bed?\n\nA. Mustard yellow\nB. Warm brown\nC. Taupe\nD. Golden",
+      "response": "a"
+    }
+  ]
+}

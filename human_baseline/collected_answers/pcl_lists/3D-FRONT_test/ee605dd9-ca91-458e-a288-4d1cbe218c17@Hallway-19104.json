@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "ee605dd9-ca91-458e-a288-4d1cbe218c17@Hallway-19104",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 5",
+  "timestamp": "2025-10-28T11:36:55.011526",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/ee605dd9-ca91-458e-a288-4d1cbe218c17/Hallway-19104/Hallway-19104.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What is the position of the sideboard labeled as console-3 in relation to the sideboard labeled as console-2?\n\nA. Console-3 is positioned in front of console-2\nB. Console-3 is positioned next to console-2\nC. Console-3 is positioned across from console-2\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What is the position of the sideboard labeled as console-3 in relation to the sideboard labeled as console-2?\n\nA. Console-3 is positioned in front of console-2\nB. Console-3 is positioned next to console-2\nC. Console-3 is positioned across from console-2\nD. None of the above",
+      "response": "d"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What is the position of the sideboard labeled as console-3 in relation to the sideboard labeled as console-2?\n\nA. Console-3 is positioned in front of console-2\nB. Console-3 is positioned next to console-2\nC. Console-3 is positioned across from console-2",
+      "response": "none"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What is the position of the sideboard labeled as console-3 in relation to the sideboard labeled as console-2?\n\nA. Jupiter's atmosphere\nB. The Great Wall of China\nC. The process of photosynthesis\nD. Ancient Greek mythology\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What is the position of the sideboard labeled as console-3 in relation to the sideboard labeled as console-2?\n\nA. Jupiter's atmosphere\nB. The Great Wall of China\nC. The process of photosynthesis\nD. Ancient Greek mythology\nE. None of the above",
+      "response": "e"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What is the position of the sideboard labeled as console-3 in relation to the sideboard labeled as console-2?\n\nA. Jupiter's atmosphere\nB. The Great Wall of China\nC. The process of photosynthesis\nD. Ancient Greek mythology",
+      "response": "none"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What type of flooring is used in the scene?\n\nA. Hardwood\nB. Carpet\nC. Tile\nD. Laminate\nIf none of the above answers are correct, answer: 'F'",
+      "response": "a"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What type of flooring is used in the scene?\n\nA. Hardwood\nB. Carpet\nC. Tile\nD. Laminate\nE. None of the above",
+      "response": "a"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What type of flooring is used in the scene?\n\nA. Hardwood\nB. Carpet\nC. Tile\nD. Laminate",
+      "response": "a"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What artwork is displayed on the wall behind the sideboards?",
+      "response": "none"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What artwork is displayed on the wall behind the sideboards?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What is the position of the sideboard labeled as console-3 in relation to the sideboard labeled as console-2?\n\nA. Console-3 is positioned in front of console-2\nB. Console-3 is positioned next to console-2\nC. Console-3 is positioned behind console-2\nD. Console-3 is positioned across from console-2",
+      "response": "none"
+    }
+  ]
+}

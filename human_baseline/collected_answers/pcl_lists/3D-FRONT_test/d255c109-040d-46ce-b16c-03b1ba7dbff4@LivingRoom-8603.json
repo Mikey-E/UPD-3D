@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "d255c109-040d-46ce-b16c-03b1ba7dbff4@LivingRoom-8603",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 4",
+  "timestamp": "2025-10-15T15:36:40.808440",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/d255c109-040d-46ce-b16c-03b1ba7dbff4/LivingRoom-8603/LivingRoom-8603.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What is the primary color of the sofa in the living room?\n\nA. Dark Grey\nB. Walnut Brown\nC. Green\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What is the primary color of the sofa in the living room?\n\nA. Dark Grey\nB. Walnut Brown\nC. Green\nD. None of the above",
+      "response": "d"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What is the primary color of the sofa in the living room?\n\nA. Dark Grey\nB. Walnut Brown\nC. Green",
+      "response": "none"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What is the primary color of the sofa in the living room?\n\nA. Strawberry\nB. Diamond\nC. Cactus\nD. Moonlight\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What is the primary color of the sofa in the living room?\n\nA. Strawberry\nB. Diamond\nC. Cactus\nD. Moonlight\nE. None of the above",
+      "response": "e"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What is the primary color of the sofa in the living room?\n\nA. Strawberry\nB. Diamond\nC. Cactus\nD. Moonlight",
+      "response": "none"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What material is the ceiling fan made of?\n\nA. Wood\nB. Metal\nC. Plastic\nD. Glass\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What material is the ceiling fan made of?\n\nA. Wood\nB. Metal\nC. Plastic\nD. Glass\nE. None of the above",
+      "response": "e"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What material is the ceiling fan made of?\n\nA. Wood\nB. Metal\nC. Plastic\nD. Glass",
+      "response": "none"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What type of musical instrument is placed in the living room?",
+      "response": "n/a"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What type of musical instrument is placed in the living room?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What is the primary color of the sofa in the living room?\n\nA. Dark Grey\nB. Beige\nC. Walnut Brown\nD. Green",
+      "response": "b"
+    }
+  ]
+}

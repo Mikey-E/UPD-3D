@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "d0615bd5-c5af-474b-a2bf-c434fcfaf74c@MasterBedroom-110",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 4",
+  "timestamp": "2025-10-15T10:21:29.601975",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/d0615bd5-c5af-474b-a2bf-c434fcfaf74c/MasterBedroom-110/MasterBedroom-110.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What type of bed is featured in the room description?\n\nA. Double bed\nB. Queen-size bed\nC. Twin bed\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What type of bed is featured in the room description?\n\nA. Double bed\nB. Queen-size bed\nC. Twin bed\nD. None of the above",
+      "response": "D"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What type of bed is featured in the room description?\n\nA. Double bed\nB. Queen-size bed\nC. Twin bed",
+      "response": "none"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What type of bed is featured in the room description?\n\nA. Banana\nB. Spiral\nC. Origami\nD. Tapestry\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What type of bed is featured in the room description?\n\nA. Banana\nB. Spiral\nC. Origami\nD. Tapestry\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What type of bed is featured in the room description?\n\nA. Banana\nB. Spiral\nC. Origami\nD. Tapestry",
+      "response": "none"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What is the shape of the dining table in the room?\n\nA. Rectangular\nB. Circular\nC. Oval\nD. Square\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What is the shape of the dining table in the room?\n\nA. Rectangular\nB. Circular\nC. Oval\nD. Square\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What is the shape of the dining table in the room?\n\nA. Rectangular\nB. Circular\nC. Oval\nD. Square",
+      "response": "none"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What type of cooking utensils are displayed in the room?",
+      "response": "unanswerable"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What type of cooking utensils are displayed in the room?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What type of bed is featured in the room description?\n\nA. Double bed\nB. Queen-size bed\nC. King-size bed\nD. Twin bed",
+      "response": "C"
+    }
+  ]
+}

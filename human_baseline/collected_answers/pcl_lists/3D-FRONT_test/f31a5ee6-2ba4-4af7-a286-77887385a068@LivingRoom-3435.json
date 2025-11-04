@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "f31a5ee6-2ba4-4af7-a286-77887385a068@LivingRoom-3435",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 4",
+  "timestamp": "2025-10-29T14:31:36.884234",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/f31a5ee6-2ba4-4af7-a286-77887385a068/LivingRoom-3435/LivingRoom-3435.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What style elements are present in the bookcase located in the room?\n\nA. Minimalist design\nB. Vibrant colors\nC. Southeast Asian flair\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What style elements are present in the bookcase located in the room?\n\nA. Minimalist design\nB. Vibrant colors\nC. Southeast Asian flair\nD. None of the above",
+      "response": "d"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What style elements are present in the bookcase located in the room?\n\nA. Minimalist design\nB. Vibrant colors\nC. Southeast Asian flair",
+      "response": "none"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What style elements are present in the bookcase located in the room?\n\nA. Aquatic ecosystems\nB. Classical music genres\nC. Space exploration missions\nD. Historical fashion trends\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What style elements are present in the bookcase located in the room?\n\nA. Aquatic ecosystems\nB. Classical music genres\nC. Space exploration missions\nD. Historical fashion trends\nE. None of the above",
+      "response": "e"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What style elements are present in the bookcase located in the room?\n\nA. Aquatic ecosystems\nB. Classical music genres\nC. Space exploration missions\nD. Historical fashion trends",
+      "response": "none"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What type of flooring is used in the scene?\n\nA. Hardwood\nB. Carpet\nC. Tile\nD. Laminate\nIf none of the above answers are correct, answer: 'F'",
+      "response": "c"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What type of flooring is used in the scene?\n\nA. Hardwood\nB. Carpet\nC. Tile\nD. Laminate\nE. None of the above",
+      "response": "c"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What type of flooring is used in the scene?\n\nA. Hardwood\nB. Carpet\nC. Tile\nD. Laminate",
+      "response": "c"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What type of sofa is in the room?",
+      "response": "n/a"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What type of sofa is in the room?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What style elements are present in the bookcase located in the room?\n\nA. Minimalist design\nB. Vibrant colors\nC. Mediterranean inspiration\nD. Southeast Asian flair",
+      "response": "c"
+    }
+  ]
+}

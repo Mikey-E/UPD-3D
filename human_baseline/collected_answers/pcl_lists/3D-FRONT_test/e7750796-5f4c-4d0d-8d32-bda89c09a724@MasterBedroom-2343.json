@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "e7750796-5f4c-4d0d-8d32-bda89c09a724@MasterBedroom-2343",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 5",
+  "timestamp": "2025-10-27T08:13:56.433708",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/e7750796-5f4c-4d0d-8d32-bda89c09a724/MasterBedroom-2343/MasterBedroom-2343.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What is the color of the wardrobe in the Master bedroom?\n\nA. Neutral cream\nB. Chocolate brown\nC. Velvety purple\nIf none of the above answers are correct, answer: 'F'",
+      "response": "b"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What is the color of the wardrobe in the Master bedroom?\n\nA. Neutral cream\nB. Chocolate brown\nC. Velvety purple\nD. None of the above",
+      "response": "b"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What is the color of the wardrobe in the Master bedroom?\n\nA. Neutral cream\nB. Chocolate brown\nC. Velvety purple",
+      "response": "b"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What is the color of the wardrobe in the Master bedroom?\n\nA. Tropical\nB. Mountainous\nC. Historical\nD. Technical\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What is the color of the wardrobe in the Master bedroom?\n\nA. Tropical\nB. Mountainous\nC. Historical\nD. Technical\nE. None of the above",
+      "response": "e"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What is the color of the wardrobe in the Master bedroom?\n\nA. Tropical\nB. Mountainous\nC. Historical\nD. Technical",
+      "response": "none"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What appliances are located in the Master bedroom?\n\nA. Dishwasher\nB. Microwave\nC. Blender\nD. Washing machine\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What appliances are located in the Master bedroom?\n\nA. Dishwasher\nB. Microwave\nC. Blender\nD. Washing machine\nE. None of the above",
+      "response": "e"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What appliances are located in the Master bedroom?\n\nA. Dishwasher\nB. Microwave\nC. Blender\nD. Washing machine",
+      "response": "none"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What type of glass sculpture is displayed in the room?",
+      "response": "none"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What type of glass sculpture is displayed in the room?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What is the color of the wardrobe in the Master bedroom?\n\nA. Deep espresso brown\nB. Neutral cream\nC. Chocolate brown\nD. Velvety purple",
+      "response": "c"
+    }
+  ]
+}

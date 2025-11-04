@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "Cotton@149",
+  "dataset": "Crops3D_test",
+  "annotated_by": "User 5",
+  "timestamp": "2025-10-30T10:20:15.371579",
+  "file_path": "/project/3dllms/melgin/datasets/CEA/Crops3D/Cotton/149.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What type of plant is described?\n\nA. A large flowering tree\nB. A climbing vine\nC. A tall grass\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What type of plant is described?\n\nA. A large flowering tree\nB. A climbing vine\nC. A tall grass\nD. None of the above",
+      "response": "d"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What type of plant is described?\n\nA. A large flowering tree\nB. A climbing vine\nC. A tall grass",
+      "response": "none"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What type of plant is described?\n\nA. Microprocessor design\nB. Quantum entanglement\nC. Solar eclipse mechanics\nD. Ocean current patterns\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What type of plant is described?\n\nA. Microprocessor design\nB. Quantum entanglement\nC. Solar eclipse mechanics\nD. Ocean current patterns\nE. None of the above",
+      "response": "e"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What type of plant is described?\n\nA. Microprocessor design\nB. Quantum entanglement\nC. Solar eclipse mechanics\nD. Ocean current patterns",
+      "response": "none"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What type of window treatment is used in the scene?\n\nA. Sheer curtains\nB. Roman shades\nC. Blinds\nD. Drapes\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What type of window treatment is used in the scene?\n\nA. Sheer curtains\nB. Roman shades\nC. Blinds\nD. Drapes\nE. None of the above",
+      "response": "e"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What type of window treatment is used in the scene?\n\nA. Sheer curtains\nB. Roman shades\nC. Blinds\nD. Drapes",
+      "response": "none"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What color are the blossoms on the flowering plant next to it?",
+      "response": "none"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What color are the blossoms on the flowering plant next to it?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What type of plant is described?\n\nA. A small leafless shrub or young tree\nB. A large flowering tree\nC. A climbing vine\nD. A tall grass",
+      "response": "a"
+    }
+  ]
+}

@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "Maize@2-65",
+  "dataset": "Crops3D_test",
+  "annotated_by": "User 5",
+  "timestamp": "2025-10-30T11:32:09.711653",
+  "file_path": "/project/3dllms/melgin/datasets/CEA/Crops3D/Maize/2-65.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What type of pot is the plant in?\n\nA. Square terracotta pot\nB. Clear plastic pot\nC. White ceramic pot\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What type of pot is the plant in?\n\nA. Square terracotta pot\nB. Clear plastic pot\nC. White ceramic pot\nD. None of the above",
+      "response": "d"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What type of pot is the plant in?\n\nA. Square terracotta pot\nB. Clear plastic pot\nC. White ceramic pot",
+      "response": "none"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What type of pot is the plant in?\n\nA. Mercury\nB. Oxygen\nC. Nitrogen\nD. Helium\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What type of pot is the plant in?\n\nA. Mercury\nB. Oxygen\nC. Nitrogen\nD. Helium\nE. None of the above",
+      "response": "e"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What type of pot is the plant in?\n\nA. Mercury\nB. Oxygen\nC. Nitrogen\nD. Helium",
+      "response": "none"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What type of furniture is featured in the scene?\n\nA. Coffee table\nB. Bookshelf\nC. Armchair\nD. Dining table\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What type of furniture is featured in the scene?\n\nA. Coffee table\nB. Bookshelf\nC. Armchair\nD. Dining table\nE. None of the above",
+      "response": "e"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What type of furniture is featured in the scene?\n\nA. Coffee table\nB. Bookshelf\nC. Armchair\nD. Dining table",
+      "response": "none"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What type of sculpture is next to the plant?",
+      "response": "none"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What type of sculpture is next to the plant?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What type of pot is the plant in?\n\nA. Square terracotta pot\nB. Dark round pot\nC. Clear plastic pot\nD. White ceramic pot",
+      "response": "b"
+    }
+  ]
+}

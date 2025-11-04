@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "c11a935e-7f42-4315-a1bc-dc3daea07f37@SecondBedroom-380",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 3",
+  "timestamp": "2025-10-06T10:31:37.930395",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/c11a935e-7f42-4315-a1bc-dc3daea07f37/SecondBedroom-380/SecondBedroom-380.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What color is the corner cabinet in the bedroom?  \n  \nA. Gray\nB. White\nC. Black\nIf none of the above answers are correct, answer: 'F'",
+      "response": "C"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What color is the corner cabinet in the bedroom?  \n  \nA. Gray\nB. White\nC. Black\nD. None of the above",
+      "response": "C"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What color is the corner cabinet in the bedroom?  \n  \nA. Gray\nB. White\nC. Black",
+      "response": "C"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What color is the corner cabinet in the bedroom?  \n\nA. Silly\nB. Courageous\nC. Mysterious\nD. Glamorous\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What color is the corner cabinet in the bedroom?  \n\nA. Silly\nB. Courageous\nC. Mysterious\nD. Glamorous\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What color is the corner cabinet in the bedroom?  \n\nA. Silly\nB. Courageous\nC. Mysterious\nD. Glamorous",
+      "response": "None"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What type of animal is featured in the scene?\n\nA. Dog\nB. Cat\nC. Rabbit\nD. Bird\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What type of animal is featured in the scene?\n\nA. Dog\nB. Cat\nC. Rabbit\nD. Bird\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What type of animal is featured in the scene?\n\nA. Dog\nB. Cat\nC. Rabbit\nD. Bird",
+      "response": "None"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What type of outdoor fountain is located near the bedroom?",
+      "response": "N/A"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What type of outdoor fountain is located near the bedroom?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What color is the corner cabinet in the bedroom?  \n  \nA. Gray\nB. White\nC. Taupe\nD. Black",
+      "response": "D"
+    }
+  ]
+}

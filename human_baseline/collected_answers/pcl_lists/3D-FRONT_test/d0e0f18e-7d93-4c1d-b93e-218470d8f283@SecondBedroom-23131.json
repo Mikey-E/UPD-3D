@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "d0e0f18e-7d93-4c1d-b93e-218470d8f283@SecondBedroom-23131",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 4",
+  "timestamp": "2025-10-15T11:17:09.318597",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/d0e0f18e-7d93-4c1d-b93e-218470d8f283/SecondBedroom-23131/SecondBedroom-23131.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What is the primary color of the cushion on the dining chair?\n\nA. Beige\nB. Brown\nC. Yellow\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What is the primary color of the cushion on the dining chair?\n\nA. Beige\nB. Brown\nC. Yellow\nD. None of the above",
+      "response": "D"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What is the primary color of the cushion on the dining chair?\n\nA. Beige\nB. Brown\nC. Yellow",
+      "response": "none"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What is the primary color of the cushion on the dining chair?\n\nA. Mountain\nB. River\nC. Forest\nD. Desert\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What is the primary color of the cushion on the dining chair?\n\nA. Mountain\nB. River\nC. Forest\nD. Desert\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What is the primary color of the cushion on the dining chair?\n\nA. Mountain\nB. River\nC. Forest\nD. Desert",
+      "response": "none"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What is the height of the sculpture in the scene?\n\nA. Five feet\nB. Eight feet\nC. Ten feet\nD. Twelve feet\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What is the height of the sculpture in the scene?\n\nA. Five feet\nB. Eight feet\nC. Ten feet\nD. Twelve feet\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What is the height of the sculpture in the scene?\n\nA. Five feet\nB. Eight feet\nC. Ten feet\nD. Twelve feet",
+      "response": "none"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What type of musical instrument is hidden in the wardrobe?",
+      "response": "none"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What type of musical instrument is hidden in the wardrobe?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What is the primary color of the cushion on the dining chair?\n\nA. Green\nB. Beige\nC. Brown\nD. Yellow",
+      "response": "A"
+    }
+  ]
+}

@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "1261679c-03b9-4e9a-acff-c5e4f6485928@Hallway-8032",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 3",
+  "timestamp": "2025-10-30T11:47:33.223408",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/1261679c-03b9-4e9a-acff-c5e4f6485928/Hallway-8032/Hallway-8032.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What color is the pendant lamp hanging above the black bookshelf in the Hallway?\n\nA. Black\nB. Gold\nC. White\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What color is the pendant lamp hanging above the black bookshelf in the Hallway?\n\nA. Black\nB. Gold\nC. White\nD. None of the above",
+      "response": "D"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What color is the pendant lamp hanging above the black bookshelf in the Hallway?\n\nA. Black\nB. Gold\nC. White",
+      "response": "NONE"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What color is the pendant lamp hanging above the black bookshelf in the Hallway?\n\nA. Tropical\nB. Vintage\nC. Quantum\nD. Celestial\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What color is the pendant lamp hanging above the black bookshelf in the Hallway?\n\nA. Tropical\nB. Vintage\nC. Quantum\nD. Celestial\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What color is the pendant lamp hanging above the black bookshelf in the Hallway?\n\nA. Tropical\nB. Vintage\nC. Quantum\nD. Celestial",
+      "response": "NONE"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What type of sculpture is placed in the scene?\n\nA. Marble statue\nB. Bronze relief\nC. Wooden carving\nD. Glass figurine\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What type of sculpture is placed in the scene?\n\nA. Marble statue\nB. Bronze relief\nC. Wooden carving\nD. Glass figurine\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What type of sculpture is placed in the scene?\n\nA. Marble statue\nB. Bronze relief\nC. Wooden carving\nD. Glass figurine",
+      "response": "NA"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What type of flooring is used in the room?",
+      "response": "NA"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What type of flooring is used in the room?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What color is the pendant lamp hanging above the black bookshelf in the Hallway?\n\nA. Black\nB. Gold\nC. White\nD. Silver",
+      "response": "D"
+    }
+  ]
+}

@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "feacc183-06d2-4bb4-9c24-a62921abdc29@LivingDiningRoom-70369",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 3",
+  "timestamp": "2025-10-31T02:28:37.804242",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/feacc183-06d2-4bb4-9c24-a62921abdc29/LivingDiningRoom-70369/LivingDiningRoom-70369.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What style of seating is primarily featured in the living room?\n\nA. Lounge chair\nB. Dining chairs\nC. Bar stools\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What style of seating is primarily featured in the living room?\n\nA. Lounge chair\nB. Dining chairs\nC. Bar stools\nD. None of the above",
+      "response": "D"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What style of seating is primarily featured in the living room?\n\nA. Lounge chair\nB. Dining chairs\nC. Bar stools",
+      "response": "NONE"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What style of seating is primarily featured in the living room?\n\nA. Cactus\nB. Maple syrup\nC. Bicycle\nD. Moonlight\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What style of seating is primarily featured in the living room?\n\nA. Cactus\nB. Maple syrup\nC. Bicycle\nD. Moonlight\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What style of seating is primarily featured in the living room?\n\nA. Cactus\nB. Maple syrup\nC. Bicycle\nD. Moonlight",
+      "response": "NONE"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What is the size of the television in the scene?\n\nA. 32 inches\nB. 50 inches\nC. 65 inches\nD. 75 inches\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What is the size of the television in the scene?\n\nA. 32 inches\nB. 50 inches\nC. 65 inches\nD. 75 inches\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What is the size of the television in the scene?\n\nA. 32 inches\nB. 50 inches\nC. 65 inches\nD. 75 inches",
+      "response": "NA"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What type of piano is located in this living room?",
+      "response": "NA"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What type of piano is located in this living room?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What style of seating is primarily featured in the living room?\n\nA. Lounge chair\nB. Dining chairs\nC. Bar stools\nD. L-shaped sofa",
+      "response": "D"
+    }
+  ]
+}

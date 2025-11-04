@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "e6683ed8-9046-4004-9cc4-54a89ae86b71@LivingDiningRoom-2332",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 4",
+  "timestamp": "2025-10-26T21:05:02.830999",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/e6683ed8-9046-4004-9cc4-54a89ae86b71/LivingDiningRoom-2332/LivingDiningRoom-2332.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What color are the dining chairs surrounding the dining table?\n\nA. Pastel blue\nB. Glossy black\nC. Deep green\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What color are the dining chairs surrounding the dining table?\n\nA. Pastel blue\nB. Glossy black\nC. Deep green\nD. None of the above",
+      "response": "D"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What color are the dining chairs surrounding the dining table?\n\nA. Pastel blue\nB. Glossy black\nC. Deep green",
+      "response": "None"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What color are the dining chairs surrounding the dining table?\n\nA. Tropical\nB. Mountainous\nC. Urban\nD. Historic\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What color are the dining chairs surrounding the dining table?\n\nA. Tropical\nB. Mountainous\nC. Urban\nD. Historic\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What color are the dining chairs surrounding the dining table?\n\nA. Tropical\nB. Mountainous\nC. Urban\nD. Historic",
+      "response": "None"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What color is the rug in the living room?\n\nA. Green\nB. Black\nC. Red\nD. Yellow\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What color is the rug in the living room?\n\nA. Green\nB. Black\nC. Red\nD. Yellow\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What color is the rug in the living room?\n\nA. Green\nB. Black\nC. Red\nD. Yellow",
+      "response": "None"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What type of fireplace is installed in the living room?",
+      "response": "unanswerable"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What type of fireplace is installed in the living room?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What color are the dining chairs surrounding the dining table?\n\nA. Pastel blue\nB. Glossy black\nC. Rich navy blue\nD. Deep green",
+      "response": "C"
+    }
+  ]
+}

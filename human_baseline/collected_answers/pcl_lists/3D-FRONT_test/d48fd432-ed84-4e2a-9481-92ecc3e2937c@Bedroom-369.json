@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "d48fd432-ed84-4e2a-9481-92ecc3e2937c@Bedroom-369",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 5",
+  "timestamp": "2025-10-16T11:10:37.296947",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/d48fd432-ed84-4e2a-9481-92ecc3e2937c/Bedroom-369/Bedroom-369.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What is the shape of the top of the shelf in the bedroom?\n\nA. Triangular\nB. Square\nC. Rectangular\nIf none of the above answers are correct, answer: 'F'",
+      "response": "c"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What is the shape of the top of the shelf in the bedroom?\n\nA. Triangular\nB. Square\nC. Rectangular\nD. None of the above",
+      "response": "c"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What is the shape of the top of the shelf in the bedroom?\n\nA. Triangular\nB. Square\nC. Rectangular",
+      "response": "c"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What is the shape of the top of the shelf in the bedroom?\n\nA. Aquatic life\nB. Desert landscape\nC. Mountain range\nD. Urban skyline\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What is the shape of the top of the shelf in the bedroom?\n\nA. Aquatic life\nB. Desert landscape\nC. Mountain range\nD. Urban skyline\nE. None of the above",
+      "response": "e"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What is the shape of the top of the shelf in the bedroom?\n\nA. Aquatic life\nB. Desert landscape\nC. Mountain range\nD. Urban skyline",
+      "response": "none of these"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What type of sculpture is displayed in the room?\n\nA. Marble bust\nB. Wooden figure\nC. Glass abstract\nD. Bronze relief\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What type of sculpture is displayed in the room?\n\nA. Marble bust\nB. Wooden figure\nC. Glass abstract\nD. Bronze relief\nE. None of the above",
+      "response": "e"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What type of sculpture is displayed in the room?\n\nA. Marble bust\nB. Wooden figure\nC. Glass abstract\nD. Bronze relief",
+      "response": "none of these"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What type of exercise equipment is located in the room?",
+      "response": "unanswerable"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What type of exercise equipment is located in the room?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What is the shape of the top of the shelf in the bedroom?\n\nA. Triangular\nB. Square\nC. Rectangular\nD. Circular",
+      "response": "c"
+    }
+  ]
+}

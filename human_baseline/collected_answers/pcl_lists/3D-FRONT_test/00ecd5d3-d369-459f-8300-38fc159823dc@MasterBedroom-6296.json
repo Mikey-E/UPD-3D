@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "00ecd5d3-d369-459f-8300-38fc159823dc@MasterBedroom-6296",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 5",
+  "timestamp": "2025-10-29T16:30:08.130021",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/00ecd5d3-d369-459f-8300-38fc159823dc/MasterBedroom-6296/MasterBedroom-6296.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What color is the wardrobe in the Master bedroom?\n\nA. Blue\nB. White\nC. Silver\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What color is the wardrobe in the Master bedroom?\n\nA. Blue\nB. White\nC. Silver\nD. None of the above",
+      "response": "d"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What color is the wardrobe in the Master bedroom?\n\nA. Blue\nB. White\nC. Silver",
+      "response": "none"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What color is the wardrobe in the Master bedroom?\n\nA. Mountain\nB. River\nC. Forest\nD. Desert\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What color is the wardrobe in the Master bedroom?\n\nA. Mountain\nB. River\nC. Forest\nD. Desert\nE. None of the above",
+      "response": "e"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What color is the wardrobe in the Master bedroom?\n\nA. Mountain\nB. River\nC. Forest\nD. Desert",
+      "response": "none"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What is the diameter of the dining table in the scene?\n\nA. 60 inches\nB. 48 inches\nC. 72 inches\nD. 36 inches\nIf none of the above answers are correct, answer: 'F'",
+      "response": "none"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What is the diameter of the dining table in the scene?\n\nA. 60 inches\nB. 48 inches\nC. 72 inches\nD. 36 inches\nE. None of the above",
+      "response": "e"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What is the diameter of the dining table in the scene?\n\nA. 60 inches\nB. 48 inches\nC. 72 inches\nD. 36 inches",
+      "response": "none"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What size is the swimming pool adjacent to the bedroom?",
+      "response": "none"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What size is the swimming pool adjacent to the bedroom?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What color is the wardrobe in the Master bedroom?\n\nA. Black\nB. Blue\nC. White\nD. Silver",
+      "response": "a"
+    }
+  ]
+}

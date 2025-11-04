@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "faa97181-081a-4d85-86fe-0fe4189f1766@Library-69271",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 3",
+  "timestamp": "2025-10-30T13:38:09.659259",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/faa97181-081a-4d85-86fe-0fe4189f1766/Library-69271/Library-69271.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What is the placement of the dining chairs in relation to the bookcase?\n\nA. Both chairs are placed side by side in front of the bookcase\nB. Both chairs are positioned behind the bookcase\nC. One chair is above the bookcase and the other is below it\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What is the placement of the dining chairs in relation to the bookcase?\n\nA. Both chairs are placed side by side in front of the bookcase\nB. Both chairs are positioned behind the bookcase\nC. One chair is above the bookcase and the other is below it\nD. None of the above",
+      "response": "D"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What is the placement of the dining chairs in relation to the bookcase?\n\nA. Both chairs are placed side by side in front of the bookcase\nB. Both chairs are positioned behind the bookcase\nC. One chair is above the bookcase and the other is below it",
+      "response": "NONE"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What is the placement of the dining chairs in relation to the bookcase?\n\nA. Laptop configurations\nB. Television resolutions\nC. Smartphone applications\nD. Camera lenses\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What is the placement of the dining chairs in relation to the bookcase?\n\nA. Laptop configurations\nB. Television resolutions\nC. Smartphone applications\nD. Camera lenses\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What is the placement of the dining chairs in relation to the bookcase?\n\nA. Laptop configurations\nB. Television resolutions\nC. Smartphone applications\nD. Camera lenses",
+      "response": "NONE"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What is the height of the table in the library?\n\nA. 30 inches\nB. 36 inches\nC. 28 inches\nD. 32 inches\nIf none of the above answers are correct, answer: 'F'",
+      "response": "C"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What is the height of the table in the library?\n\nA. 30 inches\nB. 36 inches\nC. 28 inches\nD. 32 inches\nE. None of the above",
+      "response": "C"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What is the height of the table in the library?\n\nA. 30 inches\nB. 36 inches\nC. 28 inches\nD. 32 inches",
+      "response": "C"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What type of lamp is hanging above the seating area?",
+      "response": "NA"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What type of lamp is hanging above the seating area?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What is the placement of the dining chairs in relation to the bookcase?\n\nA. One chair is in front of the bookcase and the other is behind it\nB. Both chairs are placed side by side in front of the bookcase\nC. Both chairs are positioned behind the bookcase\nD. One chair is above the bookcase and the other is below it",
+      "response": "A"
+    }
+  ]
+}

@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "c6a61c69-bfb2-4bcb-997c-e3a537cc2033@DiningRoom-4603",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 5",
+  "timestamp": "2025-10-08T15:22:06.613242",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/c6a61c69-bfb2-4bcb-997c-e3a537cc2033/DiningRoom-4603/DiningRoom-4603.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What is the likely purpose of the coffee tables described in the DiningRoom?\n\nA. To function as a workspace for writing\nB. To provide lighting in the room\nC. To display clothing items\nIf none of the above answers are correct, answer: 'F'",
+      "response": "c"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What is the likely purpose of the coffee tables described in the DiningRoom?\n\nA. To function as a workspace for writing\nB. To provide lighting in the room\nC. To display clothing items\nD. None of the above",
+      "response": "c"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What is the likely purpose of the coffee tables described in the DiningRoom?\n\nA. To function as a workspace for writing\nB. To provide lighting in the room\nC. To display clothing items",
+      "response": "c"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What is the likely purpose of the coffee tables described in the DiningRoom?\n\nA. Hedgehog behavior in the wild\nB. The lifecycle of a butterfly\nC. Ancient Egyptian mythology\nD. The chemistry of baking soda\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What is the likely purpose of the coffee tables described in the DiningRoom?\n\nA. Hedgehog behavior in the wild\nB. The lifecycle of a butterfly\nC. Ancient Egyptian mythology\nD. The chemistry of baking soda\nE. None of the above",
+      "response": "e"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What is the likely purpose of the coffee tables described in the DiningRoom?\n\nA. Hedgehog behavior in the wild\nB. The lifecycle of a butterfly\nC. Ancient Egyptian mythology\nD. The chemistry of baking soda",
+      "response": "none of the above"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What color are the curtains in the scene?\n\nA. Red\nB. Green\nC. Yellow\nD. Black\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What color are the curtains in the scene?\n\nA. Red\nB. Green\nC. Yellow\nD. Black\nE. None of the above",
+      "response": "e"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What color are the curtains in the scene?\n\nA. Red\nB. Green\nC. Yellow\nD. Black",
+      "response": "none of the above"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What type of refrigerator is installed in the kitchen adjacent to the dining room?",
+      "response": "unanswerable"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What type of refrigerator is installed in the kitchen adjacent to the dining room?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What is the likely purpose of the coffee tables described in the DiningRoom?\n\nA. To function as a workspace for writing\nB. To serve as a central feature for socializing\nC. To provide lighting in the room\nD. To display clothing items",
+      "response": "d"
+    }
+  ]
+}

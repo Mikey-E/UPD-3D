@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "Cabbage@sl_1116_11",
+  "dataset": "Crops3D_test",
+  "annotated_by": "User 3",
+  "timestamp": "2025-10-14T00:31:17.432660",
+  "file_path": "/project/3dllms/melgin/datasets/CEA/Crops3D/Cabbage/sl_1116_11.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What shape does the succulent form with its leaves?\n\nA. Triangular shape\nB. Oval shape\nC. Square shape\nIf none of the above answers are correct, answer: 'F'",
+      "response": "B"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What shape does the succulent form with its leaves?\n\nA. Triangular shape\nB. Oval shape\nC. Square shape\nD. None of the above",
+      "response": "B"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What shape does the succulent form with its leaves?\n\nA. Triangular shape\nB. Oval shape\nC. Square shape",
+      "response": "B"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What shape does the succulent form with its leaves?\n\nA. Thunderstorm\nB. Hailstorm\nC. Blizzard\nD. Tsunami\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What shape does the succulent form with its leaves?\n\nA. Thunderstorm\nB. Hailstorm\nC. Blizzard\nD. Tsunami\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What shape does the succulent form with its leaves?\n\nA. Thunderstorm\nB. Hailstorm\nC. Blizzard\nD. Tsunami",
+      "response": "None"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What type of art piece is prominently displayed in the scene?\n\nA. A large abstract painting\nB. A bronze sculpture\nC. A colorful mural\nD. A wooden totem\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What type of art piece is prominently displayed in the scene?\n\nA. A large abstract painting\nB. A bronze sculpture\nC. A colorful mural\nD. A wooden totem\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What type of art piece is prominently displayed in the scene?\n\nA. A large abstract painting\nB. A bronze sculpture\nC. A colorful mural\nD. A wooden totem",
+      "response": "None"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What type of metal is used in the chair?",
+      "response": "N/A"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What type of metal is used in the chair?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What shape does the succulent form with its leaves?\n\nA. Triangular shape\nB. Oval shape\nC. Square shape\nD. Circular shape",
+      "response": "B"
+    }
+  ]
+}

@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "Wheat@108",
+  "dataset": "Crops3D_test",
+  "annotated_by": "User 5",
+  "timestamp": "2025-10-31T08:22:00.220764",
+  "file_path": "/project/3dllms/melgin/datasets/CEA/Crops3D/Wheat/108.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What feature describes the plant's structure?\n\nA. A long, single stem with wide, flat leaves\nB. A tall, thin base with round leaves\nC. A compact root system with no visible leaves\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What feature describes the plant's structure?\n\nA. A long, single stem with wide, flat leaves\nB. A tall, thin base with round leaves\nC. A compact root system with no visible leaves\nD. None of the above",
+      "response": "d"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What feature describes the plant's structure?\n\nA. A long, single stem with wide, flat leaves\nB. A tall, thin base with round leaves\nC. A compact root system with no visible leaves",
+      "response": "none"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What feature describes the plant's structure?\n\nA. Quantum mechanics\nB. Ancient civilizations\nC. Marine biology\nD. Solar system formation\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What feature describes the plant's structure?\n\nA. Quantum mechanics\nB. Ancient civilizations\nC. Marine biology\nD. Solar system formation\nE. None of the above",
+      "response": "e"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What feature describes the plant's structure?\n\nA. Quantum mechanics\nB. Ancient civilizations\nC. Marine biology\nD. Solar system formation",
+      "response": "none"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What type of chair is located near the plant?\n\nA. Recliner\nB. Barstool\nC. Office chair\nD. Dining chair\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What type of chair is located near the plant?\n\nA. Recliner\nB. Barstool\nC. Office chair\nD. Dining chair\nE. None of the above",
+      "response": "e"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What type of chair is located near the plant?\n\nA. Recliner\nB. Barstool\nC. Office chair\nD. Dining chair",
+      "response": "none"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What materials were used to create the sculpture?",
+      "response": "none"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What materials were used to create the sculpture?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What feature describes the plant's structure?\n\nA. A long, single stem with wide, flat leaves\nB. A tall, thin base with round leaves\nC. Numerous long, narrow leaves radiating upward\nD. A compact root system with no visible leaves",
+      "response": "c"
+    }
+  ]
+}

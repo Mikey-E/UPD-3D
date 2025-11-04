@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "00add26c-7a26-4a61-b192-b97aa493b3f3@Bedroom-74542",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 4",
+  "timestamp": "2025-10-15T16:06:46.511886",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/00add26c-7a26-4a61-b192-b97aa493b3f3/Bedroom-74542/Bedroom-74542.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What is the likely placement of the two Neoclassical wardrobes in the bedroom?\n\nA. Across from each other\nB. Stacked on top of each other\nC. In a corner of the room\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What is the likely placement of the two Neoclassical wardrobes in the bedroom?\n\nA. Across from each other\nB. Stacked on top of each other\nC. In a corner of the room\nD. None of the above",
+      "response": "d"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What is the likely placement of the two Neoclassical wardrobes in the bedroom?\n\nA. Across from each other\nB. Stacked on top of each other\nC. In a corner of the room",
+      "response": "none"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What is the likely placement of the two Neoclassical wardrobes in the bedroom?\n\nA. Jupiter's rotation speed\nB. Ocean acidification\nC. The history of the printing press\nD. The composition of moon rocks\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What is the likely placement of the two Neoclassical wardrobes in the bedroom?\n\nA. Jupiter's rotation speed\nB. Ocean acidification\nC. The history of the printing press\nD. The composition of moon rocks\nE. None of the above",
+      "response": "e"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What is the likely placement of the two Neoclassical wardrobes in the bedroom?\n\nA. Jupiter's rotation speed\nB. Ocean acidification\nC. The history of the printing press\nD. The composition of moon rocks",
+      "response": "none"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What is the shape of the table in the scene?\n\nA. Round\nB. Square\nC. Oval\nD. Rectangular\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What is the shape of the table in the scene?\n\nA. Round\nB. Square\nC. Oval\nD. Rectangular\nE. None of the above",
+      "response": "e"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What is the shape of the table in the scene?\n\nA. Round\nB. Square\nC. Oval\nD. Rectangular",
+      "response": "none"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What type of chandelier hangs from the ceiling?",
+      "response": "n/a"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What type of chandelier hangs from the ceiling?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What is the likely placement of the two Neoclassical wardrobes in the bedroom?\n\nA. Across from each other\nB. Stacked on top of each other\nC. Side by side\nD. In a corner of the room",
+      "response": "c"
+    }
+  ]
+}

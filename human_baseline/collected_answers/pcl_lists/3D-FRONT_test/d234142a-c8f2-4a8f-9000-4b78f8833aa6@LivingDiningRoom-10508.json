@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "d234142a-c8f2-4a8f-9000-4b78f8833aa6@LivingDiningRoom-10508",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 5",
+  "timestamp": "2025-10-15T14:21:11.576712",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/d234142a-c8f2-4a8f-9000-4b78f8833aa6/LivingDiningRoom-10508/LivingDiningRoom-10508.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What type of lighting is primarily used in the living room? \n\nA. Wall sconces\nB. Floor lamps\nC. Table lamps\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What type of lighting is primarily used in the living room? \n\nA. Wall sconces\nB. Floor lamps\nC. Table lamps\nD. None of the above",
+      "response": "d"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What type of lighting is primarily used in the living room? \n\nA. Wall sconces\nB. Floor lamps\nC. Table lamps",
+      "response": "none of these"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What type of lighting is primarily used in the living room? \n\nA. Quantum mechanics\nB. Organic chemistry\nC. Renaissance art\nD. Medieval architecture\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What type of lighting is primarily used in the living room? \n\nA. Quantum mechanics\nB. Organic chemistry\nC. Renaissance art\nD. Medieval architecture\nE. None of the above",
+      "response": "e"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What type of lighting is primarily used in the living room? \n\nA. Quantum mechanics\nB. Organic chemistry\nC. Renaissance art\nD. Medieval architecture",
+      "response": "none of these"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What type of sculpture is located near the piano?\n\nA. Abstract\nB. Figurative\nC. Kinetic\nD. Relief\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What type of sculpture is located near the piano?\n\nA. Abstract\nB. Figurative\nC. Kinetic\nD. Relief\nE. None of the above",
+      "response": "e"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What type of sculpture is located near the piano?\n\nA. Abstract\nB. Figurative\nC. Kinetic\nD. Relief",
+      "response": "none of these"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What type of rug is placed under the piano?",
+      "response": "unanswerable"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What type of rug is placed under the piano?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What type of lighting is primarily used in the living room? \n\nA. Wall sconces\nB. Floor lamps\nC. Pendant lamps\nD. Table lamps",
+      "response": "c"
+    }
+  ]
+}

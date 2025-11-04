@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "c8e63ae0-4ac0-46ff-a019-a4cbb19d01a8@LivingDiningRoom-3132",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 4",
+  "timestamp": "2025-10-13T13:58:44.840579",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/c8e63ae0-4ac0-46ff-a019-a4cbb19d01a8/LivingDiningRoom-3132/LivingDiningRoom-3132.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What style of chairs does the dining area feature?\n\nA. Vintage dining chairs\nB. Modern dining chairs\nC. Rustic dining chairs\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What style of chairs does the dining area feature?\n\nA. Vintage dining chairs\nB. Modern dining chairs\nC. Rustic dining chairs\nD. None of the above",
+      "response": "D"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What style of chairs does the dining area feature?\n\nA. Vintage dining chairs\nB. Modern dining chairs\nC. Rustic dining chairs",
+      "response": "NONE"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What style of chairs does the dining area feature?\n\nA. Quantum physics\nB. Carbon footprint\nC. Ecosystem diversity\nD. Genetic mutations\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What style of chairs does the dining area feature?\n\nA. Quantum physics\nB. Carbon footprint\nC. Ecosystem diversity\nD. Genetic mutations\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What style of chairs does the dining area feature?\n\nA. Quantum physics\nB. Carbon footprint\nC. Ecosystem diversity\nD. Genetic mutations",
+      "response": "NONE"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What type of sculpture is featured in the living room?\n\nA. Abstract sculpture\nB. Marble bust\nC. Wooden figure\nD. Ceramic vase\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What type of sculpture is featured in the living room?\n\nA. Abstract sculpture\nB. Marble bust\nC. Wooden figure\nD. Ceramic vase\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What type of sculpture is featured in the living room?\n\nA. Abstract sculpture\nB. Marble bust\nC. Wooden figure\nD. Ceramic vase",
+      "response": "NONE"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What type of rug is placed under the main seating area?",
+      "response": "NONE"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What type of rug is placed under the main seating area?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What style of chairs does the dining area feature?\n\nA. Vintage dining chairs\nB. Modern dining chairs\nC. Japanese-style dining chairs\nD. Rustic dining chairs",
+      "response": "C"
+    }
+  ]
+}

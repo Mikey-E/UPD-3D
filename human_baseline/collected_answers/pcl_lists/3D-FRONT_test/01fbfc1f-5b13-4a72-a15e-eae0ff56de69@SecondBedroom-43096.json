@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "01fbfc1f-5b13-4a72-a15e-eae0ff56de69@SecondBedroom-43096",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 5",
+  "timestamp": "2025-10-31T10:52:32.862551",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/01fbfc1f-5b13-4a72-a15e-eae0ff56de69/SecondBedroom-43096/SecondBedroom-43096.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What type of lamp is featured in the Second bedroom?\n\nA. Modern floor lamp\nB. Vintage table lamp\nC. Industrial desk lamp\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What type of lamp is featured in the Second bedroom?\n\nA. Modern floor lamp\nB. Vintage table lamp\nC. Industrial desk lamp\nD. None of the above",
+      "response": "d"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What type of lamp is featured in the Second bedroom?\n\nA. Modern floor lamp\nB. Vintage table lamp\nC. Industrial desk lamp",
+      "response": "none"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What type of lamp is featured in the Second bedroom?\n\nA. Quasar\nB. Nebula\nC. Supernova\nD. Black hole\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What type of lamp is featured in the Second bedroom?\n\nA. Quasar\nB. Nebula\nC. Supernova\nD. Black hole\nE. None of the above",
+      "response": "e"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What type of lamp is featured in the Second bedroom?\n\nA. Quasar\nB. Nebula\nC. Supernova\nD. Black hole",
+      "response": "none"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What is the height of the bookshelf in the room?\n\nA. Six feet\nB. Four feet\nC. Eight feet\nD. Ten feet\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What is the height of the bookshelf in the room?\n\nA. Six feet\nB. Four feet\nC. Eight feet\nD. Ten feet\nE. None of the above",
+      "response": "e"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What is the height of the bookshelf in the room?\n\nA. Six feet\nB. Four feet\nC. Eight feet\nD. Ten feet",
+      "response": "none"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What shape is the coffee table in this room?",
+      "response": "none"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What shape is the coffee table in this room?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What type of lamp is featured in the Second bedroom?\n\nA. Modern floor lamp\nB. Vintage table lamp\nC. Japanese-style ceiling lamp\nD. Industrial desk lamp",
+      "response": "c"
+    }
+  ]
+}

@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "e525ddc0-e901-48c7-9c82-4c266ef1d2c5@LivingDiningRoom-7632",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 3",
+  "timestamp": "2025-10-26T15:56:18.268148",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/e525ddc0-e901-48c7-9c82-4c266ef1d2c5/LivingDiningRoom-7632/LivingDiningRoom-7632.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What piece of furniture serves as the focal point of the dining area in the living room?\n\nA. Coffee table\nB. TV stand\nC. Side table\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What piece of furniture serves as the focal point of the dining area in the living room?\n\nA. Coffee table\nB. TV stand\nC. Side table\nD. None of the above",
+      "response": "D"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What piece of furniture serves as the focal point of the dining area in the living room?\n\nA. Coffee table\nB. TV stand\nC. Side table",
+      "response": "NONE"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What piece of furniture serves as the focal point of the dining area in the living room?\n\nA. Tropical rainforest\nB. Arctic tundra\nC. Desert oasis\nD. Mountain peak\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What piece of furniture serves as the focal point of the dining area in the living room?\n\nA. Tropical rainforest\nB. Arctic tundra\nC. Desert oasis\nD. Mountain peak\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What piece of furniture serves as the focal point of the dining area in the living room?\n\nA. Tropical rainforest\nB. Arctic tundra\nC. Desert oasis\nD. Mountain peak",
+      "response": "NONE"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What is the material of the sculptures displayed in the room?\n\nA. Marble\nB. Wood\nC. Glass\nD. Metal\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What is the material of the sculptures displayed in the room?\n\nA. Marble\nB. Wood\nC. Glass\nD. Metal\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What is the material of the sculptures displayed in the room?\n\nA. Marble\nB. Wood\nC. Glass\nD. Metal",
+      "response": "NA"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What is the depth of the aquarium located in the corner of the room?",
+      "response": "NA"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What is the depth of the aquarium located in the corner of the room?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What piece of furniture serves as the focal point of the dining area in the living room?\n\nA. Coffee table\nB. TV stand\nC. Side table\nD. Dining table",
+      "response": "D"
+    }
+  ]
+}

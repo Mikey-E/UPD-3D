@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "026d9b2e-f9e3-4754-b234-32e25b1974e5@Bedroom-118",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 4",
+  "timestamp": "2025-10-16T13:32:58.265461",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/026d9b2e-f9e3-4754-b234-32e25b1974e5/Bedroom-118/Bedroom-118.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What design style primarily characterizes the bed in this bedroom?\n\nA. Industrial\nB. Scandinavian\nC. Art Deco\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What design style primarily characterizes the bed in this bedroom?\n\nA. Industrial\nB. Scandinavian\nC. Art Deco\nD. None of the above",
+      "response": "d"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What design style primarily characterizes the bed in this bedroom?\n\nA. Industrial\nB. Scandinavian\nC. Art Deco",
+      "response": "none"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What design style primarily characterizes the bed in this bedroom?\n\nA. Electric\nB. Hydro\nC. Solar\nD. Thermal\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What design style primarily characterizes the bed in this bedroom?\n\nA. Electric\nB. Hydro\nC. Solar\nD. Thermal\nE. None of the above",
+      "response": "e"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What design style primarily characterizes the bed in this bedroom?\n\nA. Electric\nB. Hydro\nC. Solar\nD. Thermal",
+      "response": "none"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What type of flooring is present in the bedroom?\n\nA. Hardwood\nB. Carpet\nC. Tile\nD. Laminate\nIf none of the above answers are correct, answer: 'F'",
+      "response": "b"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What type of flooring is present in the bedroom?\n\nA. Hardwood\nB. Carpet\nC. Tile\nD. Laminate\nE. None of the above",
+      "response": "b"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What type of flooring is present in the bedroom?\n\nA. Hardwood\nB. Carpet\nC. Tile\nD. Laminate",
+      "response": "b"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What type of art installation is displayed on the floor?",
+      "response": "none"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What type of art installation is displayed on the floor?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What design style primarily characterizes the bed in this bedroom?\n\nA. Industrial\nB. Scandinavian\nC. Mediterranean\nD. Art Deco",
+      "response": "c"
+    }
+  ]
+}

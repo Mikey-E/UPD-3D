@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "ebfada2c-4d14-49b6-be8e-cd65700a1211@KidsRoom-3101",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 4",
+  "timestamp": "2025-10-27T16:07:58.615047",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/ebfada2c-4d14-49b6-be8e-cd65700a1211/KidsRoom-3101/KidsRoom-3101.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What is the color of the wardrobe in the KidsRoom?\n\nA. Polished wood finish\nB. Muted grey\nC. Monochrome\nIf none of the above answers are correct, answer: 'F'",
+      "response": "C"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What is the color of the wardrobe in the KidsRoom?\n\nA. Polished wood finish\nB. Muted grey\nC. Monochrome\nD. None of the above",
+      "response": "C"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What is the color of the wardrobe in the KidsRoom?\n\nA. Polished wood finish\nB. Muted grey\nC. Monochrome",
+      "response": "C"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What is the color of the wardrobe in the KidsRoom?\n\nA. Tropical\nB. Desert\nC. Arctic\nD. Urban\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What is the color of the wardrobe in the KidsRoom?\n\nA. Tropical\nB. Desert\nC. Arctic\nD. Urban\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What is the color of the wardrobe in the KidsRoom?\n\nA. Tropical\nB. Desert\nC. Arctic\nD. Urban",
+      "response": "None"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What style is the table in the corner of the room?\n\nA. Rustic\nB. Contemporary\nC. Victorian\nD. Art Deco\nIf none of the above answers are correct, answer: 'F'",
+      "response": "B"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What style is the table in the corner of the room?\n\nA. Rustic\nB. Contemporary\nC. Victorian\nD. Art Deco\nE. None of the above",
+      "response": "B"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What style is the table in the corner of the room?\n\nA. Rustic\nB. Contemporary\nC. Victorian\nD. Art Deco",
+      "response": "B"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What type of exercise equipment is located in the room?",
+      "response": "unanswerable"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What type of exercise equipment is located in the room?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What is the color of the wardrobe in the KidsRoom?\n\nA. Matte black\nB. Polished wood finish\nC. Muted grey\nD. Monochrome",
+      "response": "D"
+    }
+  ]
+}

@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "d9b1b2e5-92d5-48f2-a19e-3316fb121aec@CloakRoom-13099",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 4",
+  "timestamp": "2025-10-18T20:32:19.615598",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/d9b1b2e5-92d5-48f2-a19e-3316fb121aec/CloakRoom-13099/CloakRoom-13099.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What is the color of the footstool in the CloakRoom?\n\nA. Dark brown\nB. Muted beige\nC. Deep burgundy\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What is the color of the footstool in the CloakRoom?\n\nA. Dark brown\nB. Muted beige\nC. Deep burgundy\nD. None of the above",
+      "response": "D"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What is the color of the footstool in the CloakRoom?\n\nA. Dark brown\nB. Muted beige\nC. Deep burgundy",
+      "response": "None"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What is the color of the footstool in the CloakRoom?\n\nA. Apple pie\nB. Roller coaster\nC. Wind chime\nD. Solar eclipse\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What is the color of the footstool in the CloakRoom?\n\nA. Apple pie\nB. Roller coaster\nC. Wind chime\nD. Solar eclipse\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What is the color of the footstool in the CloakRoom?\n\nA. Apple pie\nB. Roller coaster\nC. Wind chime\nD. Solar eclipse",
+      "response": "None"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What type of lighting is used in the cloakroom?\n\nA. Pendant lights\nB. Floor lamps\nC. Ceiling fixtures\nD. Wall sconces\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What type of lighting is used in the cloakroom?\n\nA. Pendant lights\nB. Floor lamps\nC. Ceiling fixtures\nD. Wall sconces\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What type of lighting is used in the cloakroom?\n\nA. Pendant lights\nB. Floor lamps\nC. Ceiling fixtures\nD. Wall sconces",
+      "response": "None"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What type of plant is in the room?",
+      "response": "unanswerable"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What type of plant is in the room?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What is the color of the footstool in the CloakRoom?\n\nA. Deep green\nB. Dark brown\nC. Muted beige\nD. Deep burgundy",
+      "response": "A"
+    }
+  ]
+}

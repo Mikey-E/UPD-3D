@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "d9f80253-8c05-4c78-9464-230008591d38@Bedroom-18317",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 4",
+  "timestamp": "2025-10-19T18:06:26.244815",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/d9f80253-8c05-4c78-9464-230008591d38/Bedroom-18317/Bedroom-18317.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What is positioned at the foot of the king-size bed in the bedroom?\n\nA. Wardrobe\nB. Pendant lamp\nC. Nightstand\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What is positioned at the foot of the king-size bed in the bedroom?\n\nA. Wardrobe\nB. Pendant lamp\nC. Nightstand\nD. None of the above",
+      "response": "D"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What is positioned at the foot of the king-size bed in the bedroom?\n\nA. Wardrobe\nB. Pendant lamp\nC. Nightstand",
+      "response": "None"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What is positioned at the foot of the king-size bed in the bedroom?\n\nA. Chocolate chip cookies\nB. Solar eclipse\nC. Mountain range\nD. Electric guitar\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What is positioned at the foot of the king-size bed in the bedroom?\n\nA. Chocolate chip cookies\nB. Solar eclipse\nC. Mountain range\nD. Electric guitar\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What is positioned at the foot of the king-size bed in the bedroom?\n\nA. Chocolate chip cookies\nB. Solar eclipse\nC. Mountain range\nD. Electric guitar",
+      "response": "None"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What type of appliance is located in the kitchen?\n\nA. Dishwasher\nB. Microwave\nC. Toaster\nD. Oven\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What type of appliance is located in the kitchen?\n\nA. Dishwasher\nB. Microwave\nC. Toaster\nD. Oven\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What type of appliance is located in the kitchen?\n\nA. Dishwasher\nB. Microwave\nC. Toaster\nD. Oven",
+      "response": "None"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What type of exercise equipment is located in the room?",
+      "response": "unanswerable"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What type of exercise equipment is located in the room?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What is positioned at the foot of the king-size bed in the bedroom?\n\nA. Footstool\nB. Wardrobe\nC. Pendant lamp\nD. Nightstand",
+      "response": "A"
+    }
+  ]
+}

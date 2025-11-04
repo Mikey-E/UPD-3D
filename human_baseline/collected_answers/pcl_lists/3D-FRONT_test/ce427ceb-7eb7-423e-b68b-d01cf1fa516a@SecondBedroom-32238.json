@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "ce427ceb-7eb7-423e-b68b-d01cf1fa516a@SecondBedroom-32238",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 5",
+  "timestamp": "2025-10-14T15:26:28.000279",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/ce427ceb-7eb7-423e-b68b-d01cf1fa516a/SecondBedroom-32238/SecondBedroom-32238.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What is the color of the wardrobe in the Second bedroom?\n\nA. White\nB. Dark brown\nC. Cream\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What is the color of the wardrobe in the Second bedroom?\n\nA. White\nB. Dark brown\nC. Cream\nD. None of the above",
+      "response": "d"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What is the color of the wardrobe in the Second bedroom?\n\nA. White\nB. Dark brown\nC. Cream",
+      "response": "none of these"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What is the color of the wardrobe in the Second bedroom?\n\nA. Eruption\nB. Tsunami\nC. Avalanche\nD. Drought\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What is the color of the wardrobe in the Second bedroom?\n\nA. Eruption\nB. Tsunami\nC. Avalanche\nD. Drought\nE. None of the above",
+      "response": "e"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What is the color of the wardrobe in the Second bedroom?\n\nA. Eruption\nB. Tsunami\nC. Avalanche\nD. Drought",
+      "response": "none of these"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What type of bookshelf is found in the scene?\n\nA. Floating bookshelf\nB. Lattice bookshelf\nC. Corner bookshelf\nD. Standing bookshelf\nIf none of the above answers are correct, answer: 'F'",
+      "response": "d"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What type of bookshelf is found in the scene?\n\nA. Floating bookshelf\nB. Lattice bookshelf\nC. Corner bookshelf\nD. Standing bookshelf\nE. None of the above",
+      "response": "d"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What type of bookshelf is found in the scene?\n\nA. Floating bookshelf\nB. Lattice bookshelf\nC. Corner bookshelf\nD. Standing bookshelf",
+      "response": "d"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What type of television is mounted on the wall?",
+      "response": "unanswerable"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What type of television is mounted on the wall?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What is the color of the wardrobe in the Second bedroom?\n\nA. White\nB. Dark brown\nC. Espresso\nD. Cream",
+      "response": "c"
+    }
+  ]
+}

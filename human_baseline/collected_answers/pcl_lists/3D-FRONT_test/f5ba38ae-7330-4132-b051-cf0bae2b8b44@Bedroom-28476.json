@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "f5ba38ae-7330-4132-b051-cf0bae2b8b44@Bedroom-28476",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 5",
+  "timestamp": "2025-10-29T17:48:59.436865",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/f5ba38ae-7330-4132-b051-cf0bae2b8b44/Bedroom-28476/Bedroom-28476.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What stands behind the two identical wardrobes in the bedroom?\n\nA. A desk\nB. A standing lamp\nC. A bookshelf\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What stands behind the two identical wardrobes in the bedroom?\n\nA. A desk\nB. A standing lamp\nC. A bookshelf\nD. None of the above",
+      "response": "d"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What stands behind the two identical wardrobes in the bedroom?\n\nA. A desk\nB. A standing lamp\nC. A bookshelf",
+      "response": "none"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What stands behind the two identical wardrobes in the bedroom?\n\nA. Mountain ranges\nB. Ocean waves\nC. Desert sands\nD. Forest pathways\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What stands behind the two identical wardrobes in the bedroom?\n\nA. Mountain ranges\nB. Ocean waves\nC. Desert sands\nD. Forest pathways\nE. None of the above",
+      "response": "e"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What stands behind the two identical wardrobes in the bedroom?\n\nA. Mountain ranges\nB. Ocean waves\nC. Desert sands\nD. Forest pathways",
+      "response": "none"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What type of sculpture enhances the ambiance in the room?\n\nA. Abstract figure\nB. Classic bust\nC. Modern installation\nD. Nature-inspired relief\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What type of sculpture enhances the ambiance in the room?\n\nA. Abstract figure\nB. Classic bust\nC. Modern installation\nD. Nature-inspired relief\nE. None of the above",
+      "response": "e"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What type of sculpture enhances the ambiance in the room?\n\nA. Abstract figure\nB. Classic bust\nC. Modern installation\nD. Nature-inspired relief",
+      "response": "none"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What type of bicycle is parked in the room?",
+      "response": "none"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What type of bicycle is parked in the room?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What stands behind the two identical wardrobes in the bedroom?\n\nA. A desk\nB. A standing lamp\nC. A kids' bunk bed\nD. A bookshelf",
+      "response": "none"
+    }
+  ]
+}

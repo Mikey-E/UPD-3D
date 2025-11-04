@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "Potato@5-20-P149-3-a",
+  "dataset": "Crops3D_test",
+  "annotated_by": "User 5",
+  "timestamp": "2025-10-30T12:07:10.626782",
+  "file_path": "/project/3dllms/melgin/datasets/CEA/Crops3D/Potato/5-20-P149-3-a.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What type of plant structure is described in the room?\n\nA. A flower with bright petals\nB. A bush with dense foliage\nC. A cactus with spines\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What type of plant structure is described in the room?\n\nA. A flower with bright petals\nB. A bush with dense foliage\nC. A cactus with spines\nD. None of the above",
+      "response": "d"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What type of plant structure is described in the room?\n\nA. A flower with bright petals\nB. A bush with dense foliage\nC. A cactus with spines",
+      "response": "none"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What type of plant structure is described in the room?\n\nA. Solar system\nB. Cloud formation\nC. Ocean current\nD. Mountain range\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What type of plant structure is described in the room?\n\nA. Solar system\nB. Cloud formation\nC. Ocean current\nD. Mountain range\nE. None of the above",
+      "response": "e"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What type of plant structure is described in the room?\n\nA. Solar system\nB. Cloud formation\nC. Ocean current\nD. Mountain range",
+      "response": "none"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What type of window treatment is featured in the scene?\n\nA. Roller blinds\nB. Sheer curtains\nC. Venetian blinds\nD. Plantation shutters\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What type of window treatment is featured in the scene?\n\nA. Roller blinds\nB. Sheer curtains\nC. Venetian blinds\nD. Plantation shutters\nE. None of the above",
+      "response": "e"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What type of window treatment is featured in the scene?\n\nA. Roller blinds\nB. Sheer curtains\nC. Venetian blinds\nD. Plantation shutters",
+      "response": "none"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What shape is the rug in the room?",
+      "response": "none"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What shape is the rug in the room?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What type of plant structure is described in the room?\n\nA. A flower with bright petals\nB. A fern-like plant with elongated leaves\nC. A bush with dense foliage\nD. A cactus with spines",
+      "response": "none"
+    }
+  ]
+}

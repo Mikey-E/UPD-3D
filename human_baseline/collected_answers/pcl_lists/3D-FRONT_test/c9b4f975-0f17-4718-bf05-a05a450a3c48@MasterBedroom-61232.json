@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "c9b4f975-0f17-4718-bf05-a05a450a3c48@MasterBedroom-61232",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 3",
+  "timestamp": "2025-10-13T23:53:44.510285",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/c9b4f975-0f17-4718-bf05-a05a450a3c48/MasterBedroom-61232/MasterBedroom-61232.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What style does the ceiling lamp in the room exhibit?\n\nA. Victorian style\nB. Minimalist style\nC. Industrial style\nIf none of the above answers are correct, answer: 'F'",
+      "response": "C"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What style does the ceiling lamp in the room exhibit?\n\nA. Victorian style\nB. Minimalist style\nC. Industrial style\nD. None of the above",
+      "response": "C"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What style does the ceiling lamp in the room exhibit?\n\nA. Victorian style\nB. Minimalist style\nC. Industrial style",
+      "response": "C"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What style does the ceiling lamp in the room exhibit?\n\nA. Tropical rainforest\nB. Desert landscape\nC. Mountain range\nD. Ocean tides\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What style does the ceiling lamp in the room exhibit?\n\nA. Tropical rainforest\nB. Desert landscape\nC. Mountain range\nD. Ocean tides\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What style does the ceiling lamp in the room exhibit?\n\nA. Tropical rainforest\nB. Desert landscape\nC. Mountain range\nD. Ocean tides",
+      "response": "None"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What is the shape of the coffee table?\n\nA. Round\nB. Square\nC. Rectangular\nD. Oval\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What is the shape of the coffee table?\n\nA. Round\nB. Square\nC. Rectangular\nD. Oval\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What is the shape of the coffee table?\n\nA. Round\nB. Square\nC. Rectangular\nD. Oval",
+      "response": "None"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What type of garden tools are stored in the room?",
+      "response": "N/A"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What type of garden tools are stored in the room?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What style does the ceiling lamp in the room exhibit?\n\nA. Victorian style\nB. Minimalist style\nC. Industrial style\nD. Chinoiserie style",
+      "response": "C"
+    }
+  ]
+}

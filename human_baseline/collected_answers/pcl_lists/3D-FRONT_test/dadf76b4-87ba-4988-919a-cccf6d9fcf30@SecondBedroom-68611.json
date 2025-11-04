@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "dadf76b4-87ba-4988-919a-cccf6d9fcf30@SecondBedroom-68611",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 4",
+  "timestamp": "2025-10-20T09:41:59.175230",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/dadf76b4-87ba-4988-919a-cccf6d9fcf30/SecondBedroom-68611/SecondBedroom-68611.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What style does the wardrobe bring to the bedroom?\n\nA. Traditional Victorian\nB. Rustic farmhouse\nC. Minimalist Scandinavian\nIf none of the above answers are correct, answer: 'F'",
+      "response": "C"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What style does the wardrobe bring to the bedroom?\n\nA. Traditional Victorian\nB. Rustic farmhouse\nC. Minimalist Scandinavian\nD. None of the above",
+      "response": "C"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What style does the wardrobe bring to the bedroom?\n\nA. Traditional Victorian\nB. Rustic farmhouse\nC. Minimalist Scandinavian",
+      "response": "C"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What style does the wardrobe bring to the bedroom?\n\nA. Renaissance art movement\nB. Traditional Japanese tea ceremony\nC. Classic rock music\nD. Modern dance choreography\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What style does the wardrobe bring to the bedroom?\n\nA. Renaissance art movement\nB. Traditional Japanese tea ceremony\nC. Classic rock music\nD. Modern dance choreography\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What style does the wardrobe bring to the bedroom?\n\nA. Renaissance art movement\nB. Traditional Japanese tea ceremony\nC. Classic rock music\nD. Modern dance choreography",
+      "response": "None"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What shape is the dining table in the scene?\n\nA. Oval\nB. Rectangular\nC. Round\nD. Square\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What shape is the dining table in the scene?\n\nA. Oval\nB. Rectangular\nC. Round\nD. Square\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What shape is the dining table in the scene?\n\nA. Oval\nB. Rectangular\nC. Round\nD. Square",
+      "response": "None"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What type of gaming console is located next to the wardrobe?",
+      "response": "unanswerable"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What type of gaming console is located next to the wardrobe?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What style does the wardrobe bring to the bedroom?\n\nA. Traditional Victorian\nB. Rustic farmhouse\nC. Modern industrial\nD. Minimalist Scandinavian",
+      "response": "D"
+    }
+  ]
+}

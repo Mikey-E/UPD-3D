@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "0251ca05-b1cb-42ed-85b3-9cbc724ac967@CloakRoom-3591",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 5",
+  "timestamp": "2025-10-31T10:05:15.071089",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/0251ca05-b1cb-42ed-85b3-9cbc724ac967/CloakRoom-3591/CloakRoom-3591.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What style is the ladder described in the room?\n\nA. Modern minimalist\nB. Rustic farmhouse\nC. Industrial chic\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What style is the ladder described in the room?\n\nA. Modern minimalist\nB. Rustic farmhouse\nC. Industrial chic\nD. None of the above",
+      "response": "d"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What style is the ladder described in the room?\n\nA. Modern minimalist\nB. Rustic farmhouse\nC. Industrial chic",
+      "response": "none"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What style is the ladder described in the room?\n\nA. Jazz music\nB. Renaissance painting\nC. Classical ballet\nD. Shakespearean play\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What style is the ladder described in the room?\n\nA. Jazz music\nB. Renaissance painting\nC. Classical ballet\nD. Shakespearean play\nE. None of the above",
+      "response": "e"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What style is the ladder described in the room?\n\nA. Jazz music\nB. Renaissance painting\nC. Classical ballet\nD. Shakespearean play",
+      "response": "none"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What type of fabric is used for the couch?\n\nA. Leather\nB. Cotton\nC. Velvet\nD. Linen\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What type of fabric is used for the couch?\n\nA. Leather\nB. Cotton\nC. Velvet\nD. Linen\nE. None of the above",
+      "response": "e"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What type of fabric is used for the couch?\n\nA. Leather\nB. Cotton\nC. Velvet\nD. Linen",
+      "response": "none"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What type of flooring is used in the room?",
+      "response": "none"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What type of flooring is used in the room?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What style is the ladder described in the room?\n\nA. Modern minimalist\nB. Rustic farmhouse\nC. Classic European\nD. Industrial chic",
+      "response": "none"
+    }
+  ]
+}

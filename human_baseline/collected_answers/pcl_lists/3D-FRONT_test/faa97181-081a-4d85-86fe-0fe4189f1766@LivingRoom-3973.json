@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "faa97181-081a-4d85-86fe-0fe4189f1766@LivingRoom-3973",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 3",
+  "timestamp": "2025-10-30T11:38:02.251257",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/faa97181-081a-4d85-86fe-0fe4189f1766/LivingRoom-3973/LivingRoom-3973.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What type of lighting is featured above the seating area in the living room?\n\nA. A chandelier with crystal accents\nB. A floor lamp with a metal base\nC. A table lamp with a fabric shade\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What type of lighting is featured above the seating area in the living room?\n\nA. A chandelier with crystal accents\nB. A floor lamp with a metal base\nC. A table lamp with a fabric shade\nD. None of the above",
+      "response": "D"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What type of lighting is featured above the seating area in the living room?\n\nA. A chandelier with crystal accents\nB. A floor lamp with a metal base\nC. A table lamp with a fabric shade",
+      "response": "NONE"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What type of lighting is featured above the seating area in the living room?\n\nA. Tropical rainforest\nB. Tundra biome\nC. Desert landscape\nD. Coral reef ecosystem\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What type of lighting is featured above the seating area in the living room?\n\nA. Tropical rainforest\nB. Tundra biome\nC. Desert landscape\nD. Coral reef ecosystem\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What type of lighting is featured above the seating area in the living room?\n\nA. Tropical rainforest\nB. Tundra biome\nC. Desert landscape\nD. Coral reef ecosystem",
+      "response": "NONE"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "How many televisions are present in the living room?\n\nA. One\nB. Two\nC. Three\nD. Four\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "How many televisions are present in the living room?\n\nA. One\nB. Two\nC. Three\nD. Four\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "How many televisions are present in the living room?\n\nA. One\nB. Two\nC. Three\nD. Four",
+      "response": "NA"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What type of large dining table is located in the living room?",
+      "response": "NA"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What type of large dining table is located in the living room?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What type of lighting is featured above the seating area in the living room?\n\nA. A pendant lamp with a beige color and textured wood finish\nB. A chandelier with crystal accents\nC. A floor lamp with a metal base\nD. A table lamp with a fabric shade",
+      "response": "A"
+    }
+  ]
+}

@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "cdab8f42-2ccd-45c9-a6c1-7cd196152293@SecondBedroom-1453",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 3",
+  "timestamp": "2025-10-14T15:13:14.507280",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/cdab8f42-2ccd-45c9-a6c1-7cd196152293/SecondBedroom-1453/SecondBedroom-1453.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What design feature of the room is described as metallic and modern, providing illumination overhead?\n\nA. Nightstand with smooth, matte finish\nB. Potted plant enhancing the natural ambiance\nC. TV stand with grey and black tones\nIf none of the above answers are correct, answer: 'F'",
+      "response": "C"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What design feature of the room is described as metallic and modern, providing illumination overhead?\n\nA. Nightstand with smooth, matte finish\nB. Potted plant enhancing the natural ambiance\nC. TV stand with grey and black tones\nD. None of the above",
+      "response": "C"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What design feature of the room is described as metallic and modern, providing illumination overhead?\n\nA. Nightstand with smooth, matte finish\nB. Potted plant enhancing the natural ambiance\nC. TV stand with grey and black tones",
+      "response": "C"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What design feature of the room is described as metallic and modern, providing illumination overhead?\n\nA. Chocolate chip\nB. Margherita\nC. Caesar salad\nD. Spaghetti carbonara\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What design feature of the room is described as metallic and modern, providing illumination overhead?\n\nA. Chocolate chip\nB. Margherita\nC. Caesar salad\nD. Spaghetti carbonara\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What design feature of the room is described as metallic and modern, providing illumination overhead?\n\nA. Chocolate chip\nB. Margherita\nC. Caesar salad\nD. Spaghetti carbonara",
+      "response": "None"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What is the shape of the rug in the room?\n\nA. Rectangle\nB. Circle\nC. Oval\nD. Triangle\nIf none of the above answers are correct, answer: 'F'",
+      "response": "A"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What is the shape of the rug in the room?\n\nA. Rectangle\nB. Circle\nC. Oval\nD. Triangle\nE. None of the above",
+      "response": "A"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What is the shape of the rug in the room?\n\nA. Rectangle\nB. Circle\nC. Oval\nD. Triangle",
+      "response": "A"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What style is the rug in the room?",
+      "response": "Rough"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What style is the rug in the room?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "Rough"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What design feature of the room is described as metallic and modern, providing illumination overhead?\n\nA. Nightstand with smooth, matte finish\nB. Ceiling lamp with a sleek, metallic appearance\nC. Potted plant enhancing the natural ambiance\nD. TV stand with grey and black tones",
+      "response": "D"
+    }
+  ]
+}

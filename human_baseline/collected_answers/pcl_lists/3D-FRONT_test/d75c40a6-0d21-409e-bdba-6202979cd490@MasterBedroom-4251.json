@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "d75c40a6-0d21-409e-bdba-6202979cd490@MasterBedroom-4251",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 4",
+  "timestamp": "2025-10-16T20:46:33.817495",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/d75c40a6-0d21-409e-bdba-6202979cd490/MasterBedroom-4251/MasterBedroom-4251.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What element in the master bedroom adds a touch of modern greenery?\n\nA. A Wardrobe\nB. A Nightstand\nC. A Dressing Table\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What element in the master bedroom adds a touch of modern greenery?\n\nA. A Wardrobe\nB. A Nightstand\nC. A Dressing Table\nD. None of the above",
+      "response": "D"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What element in the master bedroom adds a touch of modern greenery?\n\nA. A Wardrobe\nB. A Nightstand\nC. A Dressing Table",
+      "response": "None"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What element in the master bedroom adds a touch of modern greenery?\n\nA. Jazz melody\nB. Digital art\nC. Space exploration\nD. Surfing culture\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What element in the master bedroom adds a touch of modern greenery?\n\nA. Jazz melody\nB. Digital art\nC. Space exploration\nD. Surfing culture\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What element in the master bedroom adds a touch of modern greenery?\n\nA. Jazz melody\nB. Digital art\nC. Space exploration\nD. Surfing culture",
+      "response": "None"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What is the color of the windows in the scene?\n\nA. Blue\nB. Gray\nC. Green\nD. Red\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What is the color of the windows in the scene?\n\nA. Blue\nB. Gray\nC. Green\nD. Red\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What is the color of the windows in the scene?\n\nA. Blue\nB. Gray\nC. Green\nD. Red",
+      "response": "None"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What type of vintage record player is in the room?",
+      "response": "unanswerable"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What type of vintage record player is in the room?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What element in the master bedroom adds a touch of modern greenery?\n\nA. A Wardrobe\nB. A Nightstand\nC. A Cactus\nD. A Dressing Table",
+      "response": "None"
+    }
+  ]
+}

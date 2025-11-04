@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "f8c4e5e9-8ba5-4694-8ac1-4823082e99d8@DiningRoom-12276",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 3",
+  "timestamp": "2025-10-30T01:05:49.326335",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/f8c4e5e9-8ba5-4694-8ac1-4823082e99d8/DiningRoom-12276/DiningRoom-12276.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What is the style of the dining table described in the room?\n\nA. Modern style\nB. Rustic style\nC. Victorian style\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What is the style of the dining table described in the room?\n\nA. Modern style\nB. Rustic style\nC. Victorian style\nD. None of the above",
+      "response": "D"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What is the style of the dining table described in the room?\n\nA. Modern style\nB. Rustic style\nC. Victorian style",
+      "response": "NONE"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What is the style of the dining table described in the room?\n\nA. Resolution\nB. Frequency\nC. Amplitude\nD. Wavelength\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What is the style of the dining table described in the room?\n\nA. Resolution\nB. Frequency\nC. Amplitude\nD. Wavelength\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What is the style of the dining table described in the room?\n\nA. Resolution\nB. Frequency\nC. Amplitude\nD. Wavelength",
+      "response": "NONE"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What shape is the ceiling in the dining area?\n\nA. Rectangular\nB. Circular\nC. Triangular\nD. Hexagonal\nIf none of the above answers are correct, answer: 'F'",
+      "response": "A"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What shape is the ceiling in the dining area?\n\nA. Rectangular\nB. Circular\nC. Triangular\nD. Hexagonal\nE. None of the above",
+      "response": "A"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What shape is the ceiling in the dining area?\n\nA. Rectangular\nB. Circular\nC. Triangular\nD. Hexagonal",
+      "response": "A"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What material is the roof made of?",
+      "response": "NA"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What material is the roof made of?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What is the style of the dining table described in the room?\n\nA. Modern style\nB. Japanese style\nC. Rustic style\nD. Victorian style",
+      "response": "B"
+    }
+  ]
+}

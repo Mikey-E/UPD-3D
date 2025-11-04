@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "Cabbage@sl_1019_05",
+  "dataset": "Crops3D_test",
+  "annotated_by": "User 3",
+  "timestamp": "2025-10-14T00:30:21.411311",
+  "file_path": "/project/3dllms/melgin/datasets/CEA/Crops3D/Cabbage/sl_1019_05.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What shape is the pot that houses the potted plant?\n\nA. Square\nB. Triangular\nC. Oval\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What shape is the pot that houses the potted plant?\n\nA. Square\nB. Triangular\nC. Oval\nD. None of the above",
+      "response": "D"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What shape is the pot that houses the potted plant?\n\nA. Square\nB. Triangular\nC. Oval",
+      "response": "No pot"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What shape is the pot that houses the potted plant?\n\nA. Triangle\nB. Rectangle\nC. Sphere\nD. Cylinder\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What shape is the pot that houses the potted plant?\n\nA. Triangle\nB. Rectangle\nC. Sphere\nD. Cylinder\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What shape is the pot that houses the potted plant?\n\nA. Triangle\nB. Rectangle\nC. Sphere\nD. Cylinder",
+      "response": "No pot"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What type of window treatments are used in the room?\n\nA. Venetian blinds\nB. Sheer curtains\nC. Roller shades\nD. Drapes\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What type of window treatments are used in the room?\n\nA. Venetian blinds\nB. Sheer curtains\nC. Roller shades\nD. Drapes\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What type of window treatments are used in the room?\n\nA. Venetian blinds\nB. Sheer curtains\nC. Roller shades\nD. Drapes",
+      "response": "N/A"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What type of furniture is positioned next to the fireplace?",
+      "response": "N/A"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What type of furniture is positioned next to the fireplace?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What shape is the pot that houses the potted plant?\n\nA. Square\nB. Triangular\nC. Oval\nD. Round",
+      "response": "No pot"
+    }
+  ]
+}

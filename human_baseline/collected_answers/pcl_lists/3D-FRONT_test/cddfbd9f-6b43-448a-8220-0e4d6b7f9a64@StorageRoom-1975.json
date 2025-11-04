@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "cddfbd9f-6b43-448a-8220-0e4d6b7f9a64@StorageRoom-1975",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 5",
+  "timestamp": "2025-10-31T08:41:13.780821",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/cddfbd9f-6b43-448a-8220-0e4d6b7f9a64/StorageRoom-1975/StorageRoom-1975.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What is the primary arrangement characteristic of the three round end tables in the StorageRoom?\n\nA. They are all aligned in a straight line\nB. They are stacked on top of each other\nC. They are arranged in a triangular formation\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What is the primary arrangement characteristic of the three round end tables in the StorageRoom?\n\nA. They are all aligned in a straight line\nB. They are stacked on top of each other\nC. They are arranged in a triangular formation\nD. None of the above",
+      "response": "d"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What is the primary arrangement characteristic of the three round end tables in the StorageRoom?\n\nA. They are all aligned in a straight line\nB. They are stacked on top of each other\nC. They are arranged in a triangular formation",
+      "response": "none"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What is the primary arrangement characteristic of the three round end tables in the StorageRoom?\n\nA. Quantum mechanics\nB. Terraforming planets\nC. Polar ecosystems\nD. Ancient civilizations\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What is the primary arrangement characteristic of the three round end tables in the StorageRoom?\n\nA. Quantum mechanics\nB. Terraforming planets\nC. Polar ecosystems\nD. Ancient civilizations\nE. None of the above",
+      "response": "e"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What is the primary arrangement characteristic of the three round end tables in the StorageRoom?\n\nA. Quantum mechanics\nB. Terraforming planets\nC. Polar ecosystems\nD. Ancient civilizations",
+      "response": "none"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What is the texture of the sofa?\n\nA. Velvet\nB. Leather\nC. Linen\nD. Suede\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What is the texture of the sofa?\n\nA. Velvet\nB. Leather\nC. Linen\nD. Suede\nE. None of the above",
+      "response": "e"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What is the texture of the sofa?\n\nA. Velvet\nB. Leather\nC. Linen\nD. Suede",
+      "response": "none"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What type of sofa is placed in the StorageRoom?",
+      "response": "none"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What type of sofa is placed in the StorageRoom?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What is the primary arrangement characteristic of the three round end tables in the StorageRoom?\n\nA. They are positioned with one slightly apart from the others\nB. They are all aligned in a straight line\nC. They are stacked on top of each other\nD. They are arranged in a triangular formation",
+      "response": "a"
+    }
+  ]
+}

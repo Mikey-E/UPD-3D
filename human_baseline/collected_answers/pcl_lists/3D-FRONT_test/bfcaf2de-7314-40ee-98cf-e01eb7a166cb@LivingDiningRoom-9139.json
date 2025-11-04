@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "bfcaf2de-7314-40ee-98cf-e01eb7a166cb@LivingDiningRoom-9139",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 1",
+  "timestamp": "2025-10-03T11:01:05.733751",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/bfcaf2de-7314-40ee-98cf-e01eb7a166cb/LivingDiningRoom-9139/LivingDiningRoom-9139.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What decorative style is the three-seat sofa in the living room?\n\nA. Minimalist\nB. Modern\nC. Japanese\nIf none of the above answers are correct, answer: 'F'",
+      "response": "Minimalist"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What decorative style is the three-seat sofa in the living room?\n\nA. Minimalist\nB. Modern\nC. Japanese\nD. None of the above",
+      "response": "Minimalist"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What decorative style is the three-seat sofa in the living room?\n\nA. Minimalist\nB. Modern\nC. Japanese",
+      "response": "minimalist"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What decorative style is the three-seat sofa in the living room?\n\nA. Mercury\nB. Oxygen\nC. Hydrogen\nD. Neutron\nIf none of the above answers are correct, answer: 'F'",
+      "response": "none of the above"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What decorative style is the three-seat sofa in the living room?\n\nA. Mercury\nB. Oxygen\nC. Hydrogen\nD. Neutron\nE. None of the above",
+      "response": "none"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What decorative style is the three-seat sofa in the living room?\n\nA. Mercury\nB. Oxygen\nC. Hydrogen\nD. Neutron",
+      "response": "none"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What color are the curtains in the living room?\n\nA. Red\nB. Yellow\nC. Green\nD. Blue\nIf none of the above answers are correct, answer: 'F'",
+      "response": "no curtains"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What color are the curtains in the living room?\n\nA. Red\nB. Yellow\nC. Green\nD. Blue\nE. None of the above",
+      "response": "no curtains"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What color are the curtains in the living room?\n\nA. Red\nB. Yellow\nC. Green\nD. Blue",
+      "response": "no curtains"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What type of carpet is used in the room?",
+      "response": "gray and blue carpet"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What type of carpet is used in the room?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "gray and blue carpet"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What decorative style is the three-seat sofa in the living room?\n\nA. Minimalist\nB. Modern\nC. Neoclassical\nD. Japanese",
+      "response": "minimalist"
+    }
+  ]
+}

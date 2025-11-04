@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "e5bb6de8-52b5-4c04-b26b-b5561946f02d@Bedroom-7011",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 3",
+  "timestamp": "2025-10-26T19:24:25.991018",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/e5bb6de8-52b5-4c04-b26b-b5561946f02d/Bedroom-7011/Bedroom-7011.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What is the color scheme of the wardrobe in the bedroom?\n\nA. Dark grey and golden brown\nB. Vibrant green\nC. Light Luxury beige\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What is the color scheme of the wardrobe in the bedroom?\n\nA. Dark grey and golden brown\nB. Vibrant green\nC. Light Luxury beige\nD. None of the above",
+      "response": "D"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What is the color scheme of the wardrobe in the bedroom?\n\nA. Dark grey and golden brown\nB. Vibrant green\nC. Light Luxury beige",
+      "response": "NONE"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What is the color scheme of the wardrobe in the bedroom?\n\nA. Guitar melody\nB. Dance competition\nC. Skydiving techniques\nD. Gardening tools\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What is the color scheme of the wardrobe in the bedroom?\n\nA. Guitar melody\nB. Dance competition\nC. Skydiving techniques\nD. Gardening tools\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What is the color scheme of the wardrobe in the bedroom?\n\nA. Guitar melody\nB. Dance competition\nC. Skydiving techniques\nD. Gardening tools",
+      "response": "NONE"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What color is the sofa in the bedroom?\n\nA. Blue\nB. Green\nC. Yellow\nD. Red\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What color is the sofa in the bedroom?\n\nA. Blue\nB. Green\nC. Yellow\nD. Red\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What color is the sofa in the bedroom?\n\nA. Blue\nB. Green\nC. Yellow\nD. Red",
+      "response": "NA"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What shape is the coffee table located in the room?",
+      "response": "NA"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What shape is the coffee table located in the room?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What is the color scheme of the wardrobe in the bedroom?\n\nA. Black and white\nB. Dark grey and golden brown\nC. Vibrant green\nD. Light Luxury beige",
+      "response": "A"
+    }
+  ]
+}

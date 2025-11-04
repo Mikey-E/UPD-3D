@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "d2832564-46fd-4bed-a477-02c848c8a60f@LivingDiningRoom-2959",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 4",
+  "timestamp": "2025-10-15T15:42:13.597775",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/d2832564-46fd-4bed-a477-02c848c8a60f/LivingDiningRoom-2959/LivingDiningRoom-2959.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What unique feature distinguishes the l-shaped sofa in this living room?\n\nA. It is bright white in color\nB. It includes built-in storage compartments\nC. It is made from traditional hardwood\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What unique feature distinguishes the l-shaped sofa in this living room?\n\nA. It is bright white in color\nB. It includes built-in storage compartments\nC. It is made from traditional hardwood\nD. None of the above",
+      "response": "d"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What unique feature distinguishes the l-shaped sofa in this living room?\n\nA. It is bright white in color\nB. It includes built-in storage compartments\nC. It is made from traditional hardwood",
+      "response": "none"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What unique feature distinguishes the l-shaped sofa in this living room?\n\nA. Chocolate chip cookie recipe\nB. Ocean currents and their effects\nC. History of the Roman Empire\nD. Types of musical instruments\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What unique feature distinguishes the l-shaped sofa in this living room?\n\nA. Chocolate chip cookie recipe\nB. Ocean currents and their effects\nC. History of the Roman Empire\nD. Types of musical instruments\nE. None of the above",
+      "response": "e"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What unique feature distinguishes the l-shaped sofa in this living room?\n\nA. Chocolate chip cookie recipe\nB. Ocean currents and their effects\nC. History of the Roman Empire\nD. Types of musical instruments",
+      "response": "none"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What type of window treatment is used in the scene?\n\nA. Venetian blinds\nB. Curtain panels\nC. Sheer drapes\nD. Roman shades\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What type of window treatment is used in the scene?\n\nA. Venetian blinds\nB. Curtain panels\nC. Sheer drapes\nD. Roman shades\nE. None of the above",
+      "response": "e"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What type of window treatment is used in the scene?\n\nA. Venetian blinds\nB. Curtain panels\nC. Sheer drapes\nD. Roman shades",
+      "response": "none"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What color is the outdoor umbrella in the scene?",
+      "response": "n/a"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What color is the outdoor umbrella in the scene?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What unique feature distinguishes the l-shaped sofa in this living room?\n\nA. It has a chaise extension for added relaxation\nB. It is bright white in color\nC. It includes built-in storage compartments\nD. It is made from traditional hardwood",
+      "response": "a"
+    }
+  ]
+}

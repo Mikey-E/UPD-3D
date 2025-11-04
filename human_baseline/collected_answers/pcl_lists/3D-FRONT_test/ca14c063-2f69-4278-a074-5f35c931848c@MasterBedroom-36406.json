@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "ca14c063-2f69-4278-a074-5f35c931848c@MasterBedroom-36406",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 3",
+  "timestamp": "2025-10-14T10:07:02.423914",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/ca14c063-2f69-4278-a074-5f35c931848c/MasterBedroom-36406/MasterBedroom-36406.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What style is the lounge chair in the Master bedroom?\n\nA. Art Deco style\nB. Victorian style\nC. Scandinavian style\nIf none of the above answers are correct, answer: 'F'",
+      "response": "C"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What style is the lounge chair in the Master bedroom?\n\nA. Art Deco style\nB. Victorian style\nC. Scandinavian style\nD. None of the above",
+      "response": "C"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What style is the lounge chair in the Master bedroom?\n\nA. Art Deco style\nB. Victorian style\nC. Scandinavian style",
+      "response": "C"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What style is the lounge chair in the Master bedroom?\n\nA. Symphony\nB. Harmony\nC. Melody\nD. Rhythm\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What style is the lounge chair in the Master bedroom?\n\nA. Symphony\nB. Harmony\nC. Melody\nD. Rhythm\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What style is the lounge chair in the Master bedroom?\n\nA. Symphony\nB. Harmony\nC. Melody\nD. Rhythm",
+      "response": "None"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What type of artwork is displayed in the Master bedroom?\n\nA. Abstract painting\nB. Landscape mural\nC. Framed photography\nD. Wall sculpture\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What type of artwork is displayed in the Master bedroom?\n\nA. Abstract painting\nB. Landscape mural\nC. Framed photography\nD. Wall sculpture\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What type of artwork is displayed in the Master bedroom?\n\nA. Abstract painting\nB. Landscape mural\nC. Framed photography\nD. Wall sculpture",
+      "response": "None"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What kind of refrigerator is located in the room?",
+      "response": "N?A"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What kind of refrigerator is located in the room?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What style is the lounge chair in the Master bedroom?\n\nA. Art Deco style\nB. Ming Qing style\nC. Victorian style\nD. Scandinavian style",
+      "response": "D"
+    }
+  ]
+}

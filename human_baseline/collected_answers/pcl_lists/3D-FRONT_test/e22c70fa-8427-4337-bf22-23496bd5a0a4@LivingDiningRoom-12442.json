@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "e22c70fa-8427-4337-bf22-23496bd5a0a4@LivingDiningRoom-12442",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 4",
+  "timestamp": "2025-10-25T13:13:52.604834",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/e22c70fa-8427-4337-bf22-23496bd5a0a4/LivingDiningRoom-12442/LivingDiningRoom-12442.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What color is the tv stand in the living room?\n\nA. Dark brown\nB. Light taupe\nC. Deep blue\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What color is the tv stand in the living room?\n\nA. Dark brown\nB. Light taupe\nC. Deep blue\nD. None of the above",
+      "response": "D"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What color is the tv stand in the living room?\n\nA. Dark brown\nB. Light taupe\nC. Deep blue",
+      "response": "None"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What color is the tv stand in the living room?\n\nA. Ocean\nB. Mountain\nC. Desert\nD. Forest\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What color is the tv stand in the living room?\n\nA. Ocean\nB. Mountain\nC. Desert\nD. Forest\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What color is the tv stand in the living room?\n\nA. Ocean\nB. Mountain\nC. Desert\nD. Forest",
+      "response": "None"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What shape is the chandelier in the living room?\n\nA. Square\nB. Oval\nC. Rectangular\nD. Hexagonal\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What shape is the chandelier in the living room?\n\nA. Square\nB. Oval\nC. Rectangular\nD. Hexagonal\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What shape is the chandelier in the living room?\n\nA. Square\nB. Oval\nC. Rectangular\nD. Hexagonal",
+      "response": "None"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What type of kitchen appliances are in the room?",
+      "response": "unanswerable"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What type of kitchen appliances are in the room?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What color is the tv stand in the living room?\n\nA. Dark brown\nB. Light taupe\nC. Deep blue\nD. Teal",
+      "response": "D"
+    }
+  ]
+}

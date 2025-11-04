@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "c39529d9-4498-4842-b680-d6adb0a29278@LivingDiningRoom-224",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 4",
+  "timestamp": "2025-10-08T10:38:45.610279",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/c39529d9-4498-4842-b680-d6adb0a29278/LivingDiningRoom-224/LivingDiningRoom-224.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What type of seating is positioned next to the coffee tables in the room?\n\nA. Dining Chair\nB. Recliner\nC. Bean Bag Chair\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What type of seating is positioned next to the coffee tables in the room?\n\nA. Dining Chair\nB. Recliner\nC. Bean Bag Chair\nD. None of the above",
+      "response": "D"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What type of seating is positioned next to the coffee tables in the room?\n\nA. Dining Chair\nB. Recliner\nC. Bean Bag Chair",
+      "response": "none of these"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What type of seating is positioned next to the coffee tables in the room?\n\nA. Cherry Blossom\nB. Golden Retriever\nC. New Zealand\nD. Jupiter\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What type of seating is positioned next to the coffee tables in the room?\n\nA. Cherry Blossom\nB. Golden Retriever\nC. New Zealand\nD. Jupiter\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What type of seating is positioned next to the coffee tables in the room?\n\nA. Cherry Blossom\nB. Golden Retriever\nC. New Zealand\nD. Jupiter",
+      "response": "none of these"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What type of sculpture is displayed in the room?\n\nA. Marble Bust\nB. Bronze Figure\nC. Glass Sphere\nD. Wooden Totem\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What type of sculpture is displayed in the room?\n\nA. Marble Bust\nB. Bronze Figure\nC. Glass Sphere\nD. Wooden Totem\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What type of sculpture is displayed in the room?\n\nA. Marble Bust\nB. Bronze Figure\nC. Glass Sphere\nD. Wooden Totem",
+      "response": "none of these"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What shape is the pool table?",
+      "response": "NONE"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What shape is the pool table?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What type of seating is positioned next to the coffee tables in the room?\n\nA. Dining Chair\nB. Armchair\nC. Recliner\nD. Bean Bag Chair",
+      "response": "B"
+    }
+  ]
+}

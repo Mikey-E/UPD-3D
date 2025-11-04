@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "c86e33d4-c966-449f-ade0-2d61f930b22d@Bedroom-6929",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 4",
+  "timestamp": "2025-10-13T13:15:08.603655",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/c86e33d4-c966-449f-ade0-2d61f930b22d/Bedroom-6929/Bedroom-6929.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What type of design do the light fixtures in the bedroom exemplify?\n\nA. Square and sharp designs\nB. Brightly colored and asymmetric forms\nC. Vintage and ornate styles\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What type of design do the light fixtures in the bedroom exemplify?\n\nA. Square and sharp designs\nB. Brightly colored and asymmetric forms\nC. Vintage and ornate styles\nD. None of the above",
+      "response": "D"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What type of design do the light fixtures in the bedroom exemplify?\n\nA. Square and sharp designs\nB. Brightly colored and asymmetric forms\nC. Vintage and ornate styles",
+      "response": "none"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What type of design do the light fixtures in the bedroom exemplify?\n\nA. Quantum mechanics\nB. Photosynthesis\nC. Plate tectonics\nD. Celestial navigation\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What type of design do the light fixtures in the bedroom exemplify?\n\nA. Quantum mechanics\nB. Photosynthesis\nC. Plate tectonics\nD. Celestial navigation\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What type of design do the light fixtures in the bedroom exemplify?\n\nA. Quantum mechanics\nB. Photosynthesis\nC. Plate tectonics\nD. Celestial navigation",
+      "response": "none"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What is the main ingredient used in the recipe for the famous chocolate cake?\n\nA. Flour\nB. Sugar\nC. Cocoa powder\nD. Eggs\nIf none of the above answers are correct, answer: 'F'",
+      "response": "C"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What is the main ingredient used in the recipe for the famous chocolate cake?\n\nA. Flour\nB. Sugar\nC. Cocoa powder\nD. Eggs\nE. None of the above",
+      "response": "C"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What is the main ingredient used in the recipe for the famous chocolate cake?\n\nA. Flour\nB. Sugar\nC. Cocoa powder\nD. Eggs",
+      "response": "C"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What type of mountain is depicted in the artwork on the wall?",
+      "response": "none"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What type of mountain is depicted in the artwork on the wall?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What type of design do the light fixtures in the bedroom exemplify?\n\nA. Square and sharp designs\nB. Brightly colored and asymmetric forms\nC. Vintage and ornate styles\nD. White and circular shapes",
+      "response": "none"
+    }
+  ]
+}

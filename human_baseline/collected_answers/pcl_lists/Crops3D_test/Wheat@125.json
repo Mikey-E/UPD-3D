@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "Wheat@125",
+  "dataset": "Crops3D_test",
+  "annotated_by": "User 5",
+  "timestamp": "2025-10-31T08:14:10.997450",
+  "file_path": "/project/3dllms/melgin/datasets/CEA/Crops3D/Wheat/125.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What type of plant is described in the room?\n\nA. Cactus with wide, flat leaves\nB. Potted flower with colorful blooms\nC. Succulent with thick, fleshy leaves\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What type of plant is described in the room?\n\nA. Cactus with wide, flat leaves\nB. Potted flower with colorful blooms\nC. Succulent with thick, fleshy leaves\nD. None of the above",
+      "response": "d"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What type of plant is described in the room?\n\nA. Cactus with wide, flat leaves\nB. Potted flower with colorful blooms\nC. Succulent with thick, fleshy leaves",
+      "response": "none"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What type of plant is described in the room?\n\nA. Jupiter's moons\nB. Ancient Egyptian hieroglyphs\nC. Renaissance art techniques\nD. The periodic table of elements\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What type of plant is described in the room?\n\nA. Jupiter's moons\nB. Ancient Egyptian hieroglyphs\nC. Renaissance art techniques\nD. The periodic table of elements\nE. None of the above",
+      "response": "e"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What type of plant is described in the room?\n\nA. Jupiter's moons\nB. Ancient Egyptian hieroglyphs\nC. Renaissance art techniques\nD. The periodic table of elements",
+      "response": "none"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What color is the couch in the room?\n\nA. Red\nB. Gray\nC. Blue\nD. Yellow\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What color is the couch in the room?\n\nA. Red\nB. Gray\nC. Blue\nD. Yellow\nE. None of the above",
+      "response": "e"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What color is the couch in the room?\n\nA. Red\nB. Gray\nC. Blue\nD. Yellow",
+      "response": "none"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What type of painting is hanging on the wall?",
+      "response": "none"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What type of painting is hanging on the wall?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What type of plant is described in the room?\n\nA. Cactus with wide, flat leaves\nB. Green plant with bamboo-like stems\nC. Potted flower with colorful blooms\nD. Succulent with thick, fleshy leaves",
+      "response": "b"
+    }
+  ]
+}

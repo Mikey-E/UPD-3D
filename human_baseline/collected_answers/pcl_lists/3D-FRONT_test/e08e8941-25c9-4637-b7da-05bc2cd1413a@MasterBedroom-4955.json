@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "e08e8941-25c9-4637-b7da-05bc2cd1413a@MasterBedroom-4955",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 5",
+  "timestamp": "2025-10-24T20:55:23.856468",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/e08e8941-25c9-4637-b7da-05bc2cd1413a/MasterBedroom-4955/MasterBedroom-4955.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What is the color of the ceiling lamp in the Masterbedroom?\n\nA. White\nB. Grey\nC. Gold\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What is the color of the ceiling lamp in the Masterbedroom?\n\nA. White\nB. Grey\nC. Gold\nD. None of the above",
+      "response": "d"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What is the color of the ceiling lamp in the Masterbedroom?\n\nA. White\nB. Grey\nC. Gold",
+      "response": "none"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What is the color of the ceiling lamp in the Masterbedroom?\n\nA. Chocolate\nB. Tangerine\nC. Emerald\nD. Sapphire\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What is the color of the ceiling lamp in the Masterbedroom?\n\nA. Chocolate\nB. Tangerine\nC. Emerald\nD. Sapphire\nE. None of the above",
+      "response": "e"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What is the color of the ceiling lamp in the Masterbedroom?\n\nA. Chocolate\nB. Tangerine\nC. Emerald\nD. Sapphire",
+      "response": "none"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What is the height of the bookshelf in the scene?\n\nA. Six feet\nB. Three feet\nC. Five feet\nD. Seven feet\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What is the height of the bookshelf in the scene?\n\nA. Six feet\nB. Three feet\nC. Five feet\nD. Seven feet\nE. None of the above",
+      "response": "e"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What is the height of the bookshelf in the scene?\n\nA. Six feet\nB. Three feet\nC. Five feet\nD. Seven feet",
+      "response": "none"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What type of dining room table is used in the space?",
+      "response": "none"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What type of dining room table is used in the space?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What is the color of the ceiling lamp in the Masterbedroom?\n\nA. Silver\nB. White\nC. Grey\nD. Gold",
+      "response": "none"
+    }
+  ]
+}

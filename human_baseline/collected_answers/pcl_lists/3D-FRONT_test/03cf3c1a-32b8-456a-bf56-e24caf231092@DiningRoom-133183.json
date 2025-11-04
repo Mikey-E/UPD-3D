@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "03cf3c1a-32b8-456a-bf56-e24caf231092@DiningRoom-133183",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 4",
+  "timestamp": "2025-10-08T11:27:50.706461",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/03cf3c1a-32b8-456a-bf56-e24caf231092/DiningRoom-133183/DiningRoom-133183.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What color is the sideboard in the dining room?\n\nA. Dark brown\nB. Grey\nC. Black\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What color is the sideboard in the dining room?\n\nA. Dark brown\nB. Grey\nC. Black\nD. None of the above",
+      "response": "D"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What color is the sideboard in the dining room?\n\nA. Dark brown\nB. Grey\nC. Black",
+      "response": "none of these"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What color is the sideboard in the dining room?\n\nA. Cactus\nB. Galaxy\nC. Mountain\nD. Ocean\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What color is the sideboard in the dining room?\n\nA. Cactus\nB. Galaxy\nC. Mountain\nD. Ocean\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What color is the sideboard in the dining room?\n\nA. Cactus\nB. Galaxy\nC. Mountain\nD. Ocean",
+      "response": "none of these"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What style is the bookshelf in the room?\n\nA. Modern\nB. Rustic\nC. Art Deco\nD. Vintage\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What style is the bookshelf in the room?\n\nA. Modern\nB. Rustic\nC. Art Deco\nD. Vintage\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What style is the bookshelf in the room?\n\nA. Modern\nB. Rustic\nC. Art Deco\nD. Vintage",
+      "response": "none of these"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What type of rugs are used in the room?",
+      "response": "NONE"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What type of rugs are used in the room?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What color is the sideboard in the dining room?\n\nA. Dark brown\nB. Light oak\nC. Grey\nD. Black",
+      "response": "B"
+    }
+  ]
+}

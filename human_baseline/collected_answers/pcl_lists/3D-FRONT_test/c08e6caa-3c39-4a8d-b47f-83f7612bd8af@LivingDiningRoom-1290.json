@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "c08e6caa-3c39-4a8d-b47f-83f7612bd8af@LivingDiningRoom-1290",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 3",
+  "timestamp": "2025-10-06T10:08:23.887655",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/c08e6caa-3c39-4a8d-b47f-83f7612bd8af/LivingDiningRoom-1290/LivingDiningRoom-1290.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What color are the dining chairs around the dining table?\n\nA. Brown\nB. White\nC. Navy Blue\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What color are the dining chairs around the dining table?\n\nA. Brown\nB. White\nC. Navy Blue\nD. None of the above",
+      "response": "D"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What color are the dining chairs around the dining table?\n\nA. Brown\nB. White\nC. Navy Blue",
+      "response": "None"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What color are the dining chairs around the dining table?\n\nA. Elephant\nB. Mountain\nC. Ocean\nD. Desert\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What color are the dining chairs around the dining table?\n\nA. Elephant\nB. Mountain\nC. Ocean\nD. Desert\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What color are the dining chairs around the dining table?\n\nA. Elephant\nB. Mountain\nC. Ocean\nD. Desert",
+      "response": "None"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What type of sculpture is prominently displayed in the living room?\n\nA. Marble Bust\nB. Abstract Metal\nC. Wooden Totem\nD. Stone Relief\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What type of sculpture is prominently displayed in the living room?\n\nA. Marble Bust\nB. Abstract Metal\nC. Wooden Totem\nD. Stone Relief\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What type of sculpture is prominently displayed in the living room?\n\nA. Marble Bust\nB. Abstract Metal\nC. Wooden Totem\nD. Stone Relief",
+      "response": "None"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What type of outdoor furniture is placed in the space?",
+      "response": "None"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What type of outdoor furniture is placed in the space?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What color are the dining chairs around the dining table?\n\nA. Black\nB. Brown\nC. White\nD. Navy Blue",
+      "response": "A"
+    }
+  ]
+}

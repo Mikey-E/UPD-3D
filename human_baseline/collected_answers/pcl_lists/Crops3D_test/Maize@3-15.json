@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "Maize@3-15",
+  "dataset": "Crops3D_test",
+  "annotated_by": "User 5",
+  "timestamp": "2025-10-30T11:25:46.908714",
+  "file_path": "/project/3dllms/melgin/datasets/CEA/Crops3D/Maize/3-15.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What type of container is the plant potted in?\n\nA. A square blue pot\nB. A tall cylindrical vase\nC. A large rectangular pot\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What type of container is the plant potted in?\n\nA. A square blue pot\nB. A tall cylindrical vase\nC. A large rectangular pot\nD. None of the above",
+      "response": "d"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What type of container is the plant potted in?\n\nA. A square blue pot\nB. A tall cylindrical vase\nC. A large rectangular pot",
+      "response": "none"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What type of container is the plant potted in?\n\nA. Refrigerator\nB. Microwave\nC. Washing machine\nD. Laptop\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What type of container is the plant potted in?\n\nA. Refrigerator\nB. Microwave\nC. Washing machine\nD. Laptop\nE. None of the above",
+      "response": "e"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What type of container is the plant potted in?\n\nA. Refrigerator\nB. Microwave\nC. Washing machine\nD. Laptop",
+      "response": "none"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What type of sculpture is located in the scene?\n\nA. Marble bust\nB. Wooden figure\nC. Glass abstract\nD. Metal relief\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What type of sculpture is located in the scene?\n\nA. Marble bust\nB. Wooden figure\nC. Glass abstract\nD. Metal relief\nE. None of the above",
+      "response": "e"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What type of sculpture is located in the scene?\n\nA. Marble bust\nB. Wooden figure\nC. Glass abstract\nD. Metal relief",
+      "response": "none"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What type of animal is resting on the windowsill?",
+      "response": "none"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What type of animal is resting on the windowsill?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What type of container is the plant potted in?\n\nA. A square blue pot\nB. A tall cylindrical vase\nC. A large rectangular pot\nD. A small round brown pot",
+      "response": "none"
+    }
+  ]
+}

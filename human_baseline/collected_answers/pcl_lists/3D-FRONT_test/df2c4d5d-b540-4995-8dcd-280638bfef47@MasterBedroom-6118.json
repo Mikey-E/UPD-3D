@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "df2c4d5d-b540-4995-8dcd-280638bfef47@MasterBedroom-6118",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 4",
+  "timestamp": "2025-10-24T16:42:27.689203",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/df2c4d5d-b540-4995-8dcd-280638bfef47/MasterBedroom-6118/MasterBedroom-6118.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What type of furniture is positioned on either side of the king-size bed in the Masterbedroom?\n\nA. Industrial wardrobes\nB. Side table\nC. Dressing table\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What type of furniture is positioned on either side of the king-size bed in the Masterbedroom?\n\nA. Industrial wardrobes\nB. Side table\nC. Dressing table\nD. None of the above",
+      "response": "d"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What type of furniture is positioned on either side of the king-size bed in the Masterbedroom?\n\nA. Industrial wardrobes\nB. Side table\nC. Dressing table",
+      "response": "none"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What type of furniture is positioned on either side of the king-size bed in the Masterbedroom?\n\nA. Petunia\nB. Sunflower\nC. Daffodil\nD. Orchid\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What type of furniture is positioned on either side of the king-size bed in the Masterbedroom?\n\nA. Petunia\nB. Sunflower\nC. Daffodil\nD. Orchid\nE. None of the above",
+      "response": "e"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What type of furniture is positioned on either side of the king-size bed in the Masterbedroom?\n\nA. Petunia\nB. Sunflower\nC. Daffodil\nD. Orchid",
+      "response": "none"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What type of rug is beneath the sofa?\n\nA. Persian\nB. Shaggy\nC. Braided\nD. Jute\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What type of rug is beneath the sofa?\n\nA. Persian\nB. Shaggy\nC. Braided\nD. Jute\nE. None of the above",
+      "response": "e"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What type of rug is beneath the sofa?\n\nA. Persian\nB. Shaggy\nC. Braided\nD. Jute",
+      "response": "none"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What type of exercise equipment is located in the room?",
+      "response": "n/a"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What type of exercise equipment is located in the room?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What type of furniture is positioned on either side of the king-size bed in the Masterbedroom?\n\nA. Mediterranean nightstands\nB. Industrial wardrobes\nC. Side table\nD. Dressing table",
+      "response": "a"
+    }
+  ]
+}

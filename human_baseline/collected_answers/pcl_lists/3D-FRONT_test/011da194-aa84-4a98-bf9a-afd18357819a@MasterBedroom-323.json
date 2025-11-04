@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "011da194-aa84-4a98-bf9a-afd18357819a@MasterBedroom-323",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 5",
+  "timestamp": "2025-10-24T19:59:20.922777",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/011da194-aa84-4a98-bf9a-afd18357819a/MasterBedroom-323/MasterBedroom-323.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What color is the pendant lamp hanging above the kids bed?\n\nA. White\nB. Pink\nC. Oak\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What color is the pendant lamp hanging above the kids bed?\n\nA. White\nB. Pink\nC. Oak\nD. None of the above",
+      "response": "d"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What color is the pendant lamp hanging above the kids bed?\n\nA. White\nB. Pink\nC. Oak",
+      "response": "none"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What color is the pendant lamp hanging above the kids bed?\n\nA. Maple syrup\nB. Chocolate chip\nC. Blueberry muffin\nD. Peanut butter cookie\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What color is the pendant lamp hanging above the kids bed?\n\nA. Maple syrup\nB. Chocolate chip\nC. Blueberry muffin\nD. Peanut butter cookie\nE. None of the above",
+      "response": "e"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What color is the pendant lamp hanging above the kids bed?\n\nA. Maple syrup\nB. Chocolate chip\nC. Blueberry muffin\nD. Peanut butter cookie",
+      "response": "none"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What is the size of the television in the scene?\n\nA. 32 inches\nB. 55 inches\nC. 40 inches\nD. 75 inches\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What is the size of the television in the scene?\n\nA. 32 inches\nB. 55 inches\nC. 40 inches\nD. 75 inches\nE. None of the above",
+      "response": "e"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What is the size of the television in the scene?\n\nA. 32 inches\nB. 55 inches\nC. 40 inches\nD. 75 inches",
+      "response": "none"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What type of fireplace is located in the room?",
+      "response": "none"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What type of fireplace is located in the room?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What color is the pendant lamp hanging above the kids bed?\n\nA. White\nB. Pink\nC. Oak\nD. Black",
+      "response": "d"
+    }
+  ]
+}

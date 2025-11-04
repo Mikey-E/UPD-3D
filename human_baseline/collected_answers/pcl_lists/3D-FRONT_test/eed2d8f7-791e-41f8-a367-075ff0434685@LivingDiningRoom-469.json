@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "eed2d8f7-791e-41f8-a367-075ff0434685@LivingDiningRoom-469",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 5",
+  "timestamp": "2025-10-28T15:00:03.496445",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/eed2d8f7-791e-41f8-a367-075ff0434685/LivingDiningRoom-469/LivingDiningRoom-469.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What color are the dining chairs surrounding the dining table in the living-dining room?\n\nA. Dark brown\nB. White\nC. Black\nIf none of the above answers are correct, answer: 'F'",
+      "response": "b"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What color are the dining chairs surrounding the dining table in the living-dining room?\n\nA. Dark brown\nB. White\nC. Black\nD. None of the above",
+      "response": "b"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What color are the dining chairs surrounding the dining table in the living-dining room?\n\nA. Dark brown\nB. White\nC. Black",
+      "response": "b"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What color are the dining chairs surrounding the dining table in the living-dining room?\n\nA. Mercury\nB. Hydrogen\nC. Carbon\nD. Oxygen\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What color are the dining chairs surrounding the dining table in the living-dining room?\n\nA. Mercury\nB. Hydrogen\nC. Carbon\nD. Oxygen\nE. None of the above",
+      "response": "e"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What color are the dining chairs surrounding the dining table in the living-dining room?\n\nA. Mercury\nB. Hydrogen\nC. Carbon\nD. Oxygen",
+      "response": "none"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What type of sculpture is displayed on the wall?\n\nA. Abstract metal sculpture\nB. Marble bust\nC. Wooden relief carving\nD. Glass mosaic art\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What type of sculpture is displayed on the wall?\n\nA. Abstract metal sculpture\nB. Marble bust\nC. Wooden relief carving\nD. Glass mosaic art\nE. None of the above",
+      "response": "e"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What type of sculpture is displayed on the wall?\n\nA. Abstract metal sculpture\nB. Marble bust\nC. Wooden relief carving\nD. Glass mosaic art",
+      "response": "none"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What type of rug is covering the floor?",
+      "response": "none"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What type of rug is covering the floor?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What color are the dining chairs surrounding the dining table in the living-dining room?\n\nA. Silver\nB. Dark brown\nC. White\nD. Black",
+      "response": "c"
+    }
+  ]
+}

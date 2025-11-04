@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "ddb2ee64-0253-4541-8df3-49d8652aeaf2@LivingRoom-3168",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 3",
+  "timestamp": "2025-10-24T15:35:36.040118",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/ddb2ee64-0253-4541-8df3-49d8652aeaf2/LivingRoom-3168/LivingRoom-3168.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What color are the dining chairs surrounding the dining table?\n\nA. Beige\nB. Navy Blue\nC. Charcoal\nIf none of the above answers are correct, answer: 'F'",
+      "response": "A"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What color are the dining chairs surrounding the dining table?\n\nA. Beige\nB. Navy Blue\nC. Charcoal\nD. None of the above",
+      "response": "A"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What color are the dining chairs surrounding the dining table?\n\nA. Beige\nB. Navy Blue\nC. Charcoal",
+      "response": "A"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What color are the dining chairs surrounding the dining table?\n\nA. Pterodactyl\nB. Quasar\nC. Fibonacci sequence\nD. Solar eclipse\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What color are the dining chairs surrounding the dining table?\n\nA. Pterodactyl\nB. Quasar\nC. Fibonacci sequence\nD. Solar eclipse\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What color are the dining chairs surrounding the dining table?\n\nA. Pterodactyl\nB. Quasar\nC. Fibonacci sequence\nD. Solar eclipse",
+      "response": "None"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What shape is the rug in the living room?\n\nA. Circular\nB. Square\nC. Rectangular\nD. Oval\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What shape is the rug in the living room?\n\nA. Circular\nB. Square\nC. Rectangular\nD. Oval\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What shape is the rug in the living room?\n\nA. Circular\nB. Square\nC. Rectangular\nD. Oval",
+      "response": "None"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What type of outdoor grill is located near the dining area?",
+      "response": "N/A"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What type of outdoor grill is located near the dining area?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What color are the dining chairs surrounding the dining table?\n\nA. Beige\nB. Navy Blue\nC. Charcoal\nD. Grey",
+      "response": "A"
+    }
+  ]
+}

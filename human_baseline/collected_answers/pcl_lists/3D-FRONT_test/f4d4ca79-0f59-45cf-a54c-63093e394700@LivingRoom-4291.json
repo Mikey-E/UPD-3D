@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "f4d4ca79-0f59-45cf-a54c-63093e394700@LivingRoom-4291",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 5",
+  "timestamp": "2025-10-29T17:00:11.322411",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/f4d4ca79-0f59-45cf-a54c-63093e394700/LivingRoom-4291/LivingRoom-4291.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What type of design influences can be found in the dining chairs surrounding the dining table?\n\nA. Scandinavian design\nB. Mid-century modern design\nC. Victorian design\nIf none of the above answers are correct, answer: 'F'",
+      "response": "b"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What type of design influences can be found in the dining chairs surrounding the dining table?\n\nA. Scandinavian design\nB. Mid-century modern design\nC. Victorian design\nD. None of the above",
+      "response": "b"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What type of design influences can be found in the dining chairs surrounding the dining table?\n\nA. Scandinavian design\nB. Mid-century modern design\nC. Victorian design",
+      "response": "b"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What type of design influences can be found in the dining chairs surrounding the dining table?\n\nA. Quadratic equation\nB. Newton's third law\nC. Photosynthesis process\nD. Electric current flow\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What type of design influences can be found in the dining chairs surrounding the dining table?\n\nA. Quadratic equation\nB. Newton's third law\nC. Photosynthesis process\nD. Electric current flow\nE. None of the above",
+      "response": "e"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What type of design influences can be found in the dining chairs surrounding the dining table?\n\nA. Quadratic equation\nB. Newton's third law\nC. Photosynthesis process\nD. Electric current flow",
+      "response": "none"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What type of floor is used in the kitchen?\n\nA. Hardwood\nB. Tile\nC. Laminate\nD. Carpet\nIf none of the above answers are correct, answer: 'F'",
+      "response": "d"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What type of floor is used in the kitchen?\n\nA. Hardwood\nB. Tile\nC. Laminate\nD. Carpet\nE. None of the above",
+      "response": "d"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What type of floor is used in the kitchen?\n\nA. Hardwood\nB. Tile\nC. Laminate\nD. Carpet",
+      "response": "d"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What type of outdoor grill is situated in the backyard?",
+      "response": "none"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What type of outdoor grill is situated in the backyard?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What type of design influences can be found in the dining chairs surrounding the dining table?\n\nA. Scandinavian design\nB. Mid-century modern design\nC. Japanese design\nD. Victorian design",
+      "response": "b"
+    }
+  ]
+}

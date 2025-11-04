@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "e32456e9-1d2f-4a1d-a84d-99e309fb1b3a@Bedroom-1862",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 4",
+  "timestamp": "2025-10-25T15:20:54.168430",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/e32456e9-1d2f-4a1d-a84d-99e309fb1b3a/Bedroom-1862/Bedroom-1862.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What is the color of the bed in the bedroom?\n\nA. Gray\nB. White\nC. Black\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What is the color of the bed in the bedroom?\n\nA. Gray\nB. White\nC. Black\nD. None of the above",
+      "response": "D"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What is the color of the bed in the bedroom?\n\nA. Gray\nB. White\nC. Black",
+      "response": "None"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What is the color of the bed in the bedroom?\n\nA. Elephant\nB. Sunshine\nC. Moonlight\nD. Forest\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What is the color of the bed in the bedroom?\n\nA. Elephant\nB. Sunshine\nC. Moonlight\nD. Forest\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What is the color of the bed in the bedroom?\n\nA. Elephant\nB. Sunshine\nC. Moonlight\nD. Forest",
+      "response": "None"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What type of lamp provides the main source of light in the room?\n\nA. Floor lamp\nB. Table lamp\nC. Ceiling lamp\nD. Wall lamp\nIf none of the above answers are correct, answer: 'F'",
+      "response": "B"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What type of lamp provides the main source of light in the room?\n\nA. Floor lamp\nB. Table lamp\nC. Ceiling lamp\nD. Wall lamp\nE. None of the above",
+      "response": "B"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What type of lamp provides the main source of light in the room?\n\nA. Floor lamp\nB. Table lamp\nC. Ceiling lamp\nD. Wall lamp",
+      "response": "B"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What type of garden tools are stored in the room?",
+      "response": "unanswerable"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What type of garden tools are stored in the room?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What is the color of the bed in the bedroom?\n\nA. Gray\nB. White\nC. Teal\nD. Black",
+      "response": "C"
+    }
+  ]
+}

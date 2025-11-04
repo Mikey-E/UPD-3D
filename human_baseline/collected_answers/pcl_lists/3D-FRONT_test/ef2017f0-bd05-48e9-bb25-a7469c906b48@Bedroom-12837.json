@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "ef2017f0-bd05-48e9-bb25-a7469c906b48@Bedroom-12837",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 3",
+  "timestamp": "2025-10-28T16:13:52.882032",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/ef2017f0-bd05-48e9-bb25-a7469c906b48/Bedroom-12837/Bedroom-12837.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What style is the wardrobe in this bedroom described as?\n\nA. Modern minimalist\nB. Industrial chic\nC. Scandinavian contemporary\nIf none of the above answers are correct, answer: 'F'",
+      "response": "B"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What style is the wardrobe in this bedroom described as?\n\nA. Modern minimalist\nB. Industrial chic\nC. Scandinavian contemporary\nD. None of the above",
+      "response": "B"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What style is the wardrobe in this bedroom described as?\n\nA. Modern minimalist\nB. Industrial chic\nC. Scandinavian contemporary",
+      "response": "B"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What style is the wardrobe in this bedroom described as?\n\nA. Cellular structure\nB. Photosynthesis\nC. Quantum entanglement\nD. Electromagnetic spectrum\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What style is the wardrobe in this bedroom described as?\n\nA. Cellular structure\nB. Photosynthesis\nC. Quantum entanglement\nD. Electromagnetic spectrum\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What style is the wardrobe in this bedroom described as?\n\nA. Cellular structure\nB. Photosynthesis\nC. Quantum entanglement\nD. Electromagnetic spectrum",
+      "response": "None"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What type of ceiling fan is installed in the room?\n\nA. Industrial ceiling fan\nB. Crystal chandelier fan\nC. Modern minimalist fan\nD. Traditional wooden fan\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What type of ceiling fan is installed in the room?\n\nA. Industrial ceiling fan\nB. Crystal chandelier fan\nC. Modern minimalist fan\nD. Traditional wooden fan\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What type of ceiling fan is installed in the room?\n\nA. Industrial ceiling fan\nB. Crystal chandelier fan\nC. Modern minimalist fan\nD. Traditional wooden fan",
+      "response": "None"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What type of garden tools are stored in the room?",
+      "response": "N/A"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What type of garden tools are stored in the room?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What style is the wardrobe in this bedroom described as?\n\nA. Modern minimalist\nB. Industrial chic\nC. Scandinavian contemporary\nD. Vintage retro",
+      "response": "B"
+    }
+  ]
+}

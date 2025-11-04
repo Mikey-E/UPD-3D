@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "d33d4391-2a22-4dad-8c12-48686fcedbdc@LivingRoom-568",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 4",
+  "timestamp": "2025-10-16T08:51:47.905000",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/d33d4391-2a22-4dad-8c12-48686fcedbdc/LivingRoom-568/LivingRoom-568.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What type of furniture is directly situated in front of the sofa in the living room?\n\nA. Jewelry armoire\nB. Lounge chair\nC. Dining table\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What type of furniture is directly situated in front of the sofa in the living room?\n\nA. Jewelry armoire\nB. Lounge chair\nC. Dining table\nD. None of the above",
+      "response": "d"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What type of furniture is directly situated in front of the sofa in the living room?\n\nA. Jewelry armoire\nB. Lounge chair\nC. Dining table",
+      "response": "none"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What type of furniture is directly situated in front of the sofa in the living room?\n\nA. Mercury\nB. Venus\nC. Mars\nD. Jupiter\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What type of furniture is directly situated in front of the sofa in the living room?\n\nA. Mercury\nB. Venus\nC. Mars\nD. Jupiter\nE. None of the above",
+      "response": "e"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What type of furniture is directly situated in front of the sofa in the living room?\n\nA. Mercury\nB. Venus\nC. Mars\nD. Jupiter",
+      "response": "none"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What shape is the dining table in the scene?\n\nA. Round\nB. Oval\nC. Square\nD. Rectangular\nIf none of the above answers are correct, answer: 'F'",
+      "response": "d"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What shape is the dining table in the scene?\n\nA. Round\nB. Oval\nC. Square\nD. Rectangular\nE. None of the above",
+      "response": "d"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What shape is the dining table in the scene?\n\nA. Round\nB. Oval\nC. Square\nD. Rectangular",
+      "response": "d"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What type of fireplace is integrated into the living room?",
+      "response": "n/a"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What type of fireplace is integrated into the living room?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What type of furniture is directly situated in front of the sofa in the living room?\n\nA. Jewelry armoire\nB. Lounge chair\nC. Dining table\nD. Coffee table",
+      "response": "d"
+    }
+  ]
+}

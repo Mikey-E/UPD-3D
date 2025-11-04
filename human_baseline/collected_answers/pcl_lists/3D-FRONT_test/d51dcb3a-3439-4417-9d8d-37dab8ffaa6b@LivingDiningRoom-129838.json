@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "d51dcb3a-3439-4417-9d8d-37dab8ffaa6b@LivingDiningRoom-129838",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 5",
+  "timestamp": "2025-10-16T11:22:13.246946",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/d51dcb3a-3439-4417-9d8d-37dab8ffaa6b/LivingDiningRoom-129838/LivingDiningRoom-129838.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What color is the nightstand in the living room?\n\nA. Gold\nB. Off-white\nC. Black\nIf none of the above answers are correct, answer: 'F'",
+      "response": "b"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What color is the nightstand in the living room?\n\nA. Gold\nB. Off-white\nC. Black\nD. None of the above",
+      "response": "b"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What color is the nightstand in the living room?\n\nA. Gold\nB. Off-white\nC. Black",
+      "response": "b"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What color is the nightstand in the living room?\n\nA. Bouncing\nB. Crouching\nC. Walking\nD. Swimming\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What color is the nightstand in the living room?\n\nA. Bouncing\nB. Crouching\nC. Walking\nD. Swimming\nE. None of the above",
+      "response": "e"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What color is the nightstand in the living room?\n\nA. Bouncing\nB. Crouching\nC. Walking\nD. Swimming",
+      "response": "none of these"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What type of sculpture is displayed in the living room?\n\nA. Abstract figure\nB. Classical bust\nC. Modern art piece\nD. Intricate relief\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What type of sculpture is displayed in the living room?\n\nA. Abstract figure\nB. Classical bust\nC. Modern art piece\nD. Intricate relief\nE. None of the above",
+      "response": "e"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What type of sculpture is displayed in the living room?\n\nA. Abstract figure\nB. Classical bust\nC. Modern art piece\nD. Intricate relief",
+      "response": "none of these"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What type of outdoor grill is used for barbecuing in this living room?",
+      "response": "unanswerable"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What type of outdoor grill is used for barbecuing in this living room?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What color is the nightstand in the living room?\n\nA. Gold\nB. Off-white\nC. Black\nD. Mint green",
+      "response": "b"
+    }
+  ]
+}

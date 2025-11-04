@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "Cotton@116",
+  "dataset": "Crops3D_test",
+  "annotated_by": "User 5",
+  "timestamp": "2025-10-30T09:59:56.997001",
+  "file_path": "/project/3dllms/melgin/datasets/CEA/Crops3D/Cotton/116.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What is the color of the branch described in the room?\n\nA. Green\nB. Yellow\nC. White\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What is the color of the branch described in the room?\n\nA. Green\nB. Yellow\nC. White\nD. None of the above",
+      "response": "d"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What is the color of the branch described in the room?\n\nA. Green\nB. Yellow\nC. White",
+      "response": "none"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What is the color of the branch described in the room?\n\nA. Ecosystem\nB. Photosynthesis\nC. Habitat\nD. Biodiversity\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What is the color of the branch described in the room?\n\nA. Ecosystem\nB. Photosynthesis\nC. Habitat\nD. Biodiversity\nE. None of the above",
+      "response": "e"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What is the color of the branch described in the room?\n\nA. Ecosystem\nB. Photosynthesis\nC. Habitat\nD. Biodiversity",
+      "response": "none"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What is the height of the bridge in the scene?\n\nA. 50 meters\nB. 80 meters\nC. 120 meters\nD. 200 meters\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What is the height of the bridge in the scene?\n\nA. 50 meters\nB. 80 meters\nC. 120 meters\nD. 200 meters\nE. None of the above",
+      "response": "e"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What is the height of the bridge in the scene?\n\nA. 50 meters\nB. 80 meters\nC. 120 meters\nD. 200 meters",
+      "response": "none"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What type of metal is used in the construction of the nearby chair?",
+      "response": "none"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What type of metal is used in the construction of the nearby chair?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What is the color of the branch described in the room?\n\nA. Green\nB. Yellow\nC. Brown\nD. White",
+      "response": "c"
+    }
+  ]
+}

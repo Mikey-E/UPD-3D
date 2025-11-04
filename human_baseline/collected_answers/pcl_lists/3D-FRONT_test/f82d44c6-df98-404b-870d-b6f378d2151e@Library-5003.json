@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "f82d44c6-df98-404b-870d-b6f378d2151e@Library-5003",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 3",
+  "timestamp": "2025-10-30T00:42:27.148678",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/f82d44c6-df98-404b-870d-b6f378d2151e/Library-5003/Library-5003.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What style is the floor lamp in the library?\n\nA. Chinoiserie\nB. Korean\nC. American Country\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What style is the floor lamp in the library?\n\nA. Chinoiserie\nB. Korean\nC. American Country\nD. None of the above",
+      "response": "D"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What style is the floor lamp in the library?\n\nA. Chinoiserie\nB. Korean\nC. American Country",
+      "response": "NONE"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What style is the floor lamp in the library?\n\nA. Tropical rainforest\nB. Arctic tundra\nC. Desert oasis\nD. Urban skyline\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What style is the floor lamp in the library?\n\nA. Tropical rainforest\nB. Arctic tundra\nC. Desert oasis\nD. Urban skyline\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What style is the floor lamp in the library?\n\nA. Tropical rainforest\nB. Arctic tundra\nC. Desert oasis\nD. Urban skyline",
+      "response": "NONE"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What is the shape of the bookshelf in the library?\n\nA. Circular\nB. Triangular\nC. Oval\nD. Hexagonal\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What is the shape of the bookshelf in the library?\n\nA. Circular\nB. Triangular\nC. Oval\nD. Hexagonal\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What is the shape of the bookshelf in the library?\n\nA. Circular\nB. Triangular\nC. Oval\nD. Hexagonal",
+      "response": "NONE"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What is the design pattern on the area rug located in the center of the room?",
+      "response": "NA"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What is the design pattern on the area rug located in the center of the room?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What style is the floor lamp in the library?\n\nA. Chinoiserie\nB. Korean\nC. American Country\nD. New Chinese",
+      "response": "D"
+    }
+  ]
+}

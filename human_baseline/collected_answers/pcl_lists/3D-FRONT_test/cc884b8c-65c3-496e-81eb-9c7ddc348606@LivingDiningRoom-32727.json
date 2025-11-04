@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "cc884b8c-65c3-496e-81eb-9c7ddc348606@LivingDiningRoom-32727",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 5",
+  "timestamp": "2025-10-14T14:35:33.310967",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/cc884b8c-65c3-496e-81eb-9c7ddc348606/LivingDiningRoom-32727/LivingDiningRoom-32727.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What colors are the upholstery of the two armchairs in the livingdining room?\n\nA. White and black\nB. Grey and green\nC. Brown and beige\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What colors are the upholstery of the two armchairs in the livingdining room?\n\nA. White and black\nB. Grey and green\nC. Brown and beige\nD. None of the above",
+      "response": "d"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What colors are the upholstery of the two armchairs in the livingdining room?\n\nA. White and black\nB. Grey and green\nC. Brown and beige",
+      "response": "none of these"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What colors are the upholstery of the two armchairs in the livingdining room?\n\nA. Jupiter's orbit\nB. Quantum entanglement\nC. Evolutionary biology\nD. Classical symphony\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What colors are the upholstery of the two armchairs in the livingdining room?\n\nA. Jupiter's orbit\nB. Quantum entanglement\nC. Evolutionary biology\nD. Classical symphony\nE. None of the above",
+      "response": "e"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What colors are the upholstery of the two armchairs in the livingdining room?\n\nA. Jupiter's orbit\nB. Quantum entanglement\nC. Evolutionary biology\nD. Classical symphony",
+      "response": "none of these"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What type of appliance is found in the kitchen?\n\nA. Dishwasher\nB. Microwave\nC. Toaster\nD. Blender\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What type of appliance is found in the kitchen?\n\nA. Dishwasher\nB. Microwave\nC. Toaster\nD. Blender\nE. None of the above",
+      "response": "e"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What type of appliance is found in the kitchen?\n\nA. Dishwasher\nB. Microwave\nC. Toaster\nD. Blender",
+      "response": "none of these"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What kind of swimming pool is located in the backyard?",
+      "response": "unanswerable"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What kind of swimming pool is located in the backyard?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What colors are the upholstery of the two armchairs in the livingdining room?\n\nA. White and black\nB. Beige and deep blue\nC. Grey and green\nD. Brown and beige",
+      "response": "b"
+    }
+  ]
+}

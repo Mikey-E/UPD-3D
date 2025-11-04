@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "cddfbd9f-6b43-448a-8220-0e4d6b7f9a64@LivingDiningRoom-2640",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 4",
+  "timestamp": "2025-10-14T15:23:42.734789",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/cddfbd9f-6b43-448a-8220-0e4d6b7f9a64/LivingDiningRoom-2640/LivingDiningRoom-2640.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What color is the floor lamp next to the armchair?\n\nA. Dark charcoal\nB. Creamy white\nC. Light brown\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What color is the floor lamp next to the armchair?\n\nA. Dark charcoal\nB. Creamy white\nC. Light brown\nD. None of the above",
+      "response": "D"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What color is the floor lamp next to the armchair?\n\nA. Dark charcoal\nB. Creamy white\nC. Light brown",
+      "response": "NONE"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What color is the floor lamp next to the armchair?\n\nA. Ocean\nB. Mountain\nC. Desert\nD. Forest\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What color is the floor lamp next to the armchair?\n\nA. Ocean\nB. Mountain\nC. Desert\nD. Forest\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What color is the floor lamp next to the armchair?\n\nA. Ocean\nB. Mountain\nC. Desert\nD. Forest",
+      "response": "NONE"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What type of game can be played on the coffee table?\n\nA. Chess\nB. Monopoly\nC. Card games\nD. Jenga\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What type of game can be played on the coffee table?\n\nA. Chess\nB. Monopoly\nC. Card games\nD. Jenga\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What type of game can be played on the coffee table?\n\nA. Chess\nB. Monopoly\nC. Card games\nD. Jenga",
+      "response": "NONE"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What color is the rug placed beneath the coffee table?",
+      "response": "UNANSWERABLE"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What color is the rug placed beneath the coffee table?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What color is the floor lamp next to the armchair?\n\nA. Gold\nB. Dark charcoal\nC. Creamy white\nD. Light brown",
+      "response": "A"
+    }
+  ]
+}

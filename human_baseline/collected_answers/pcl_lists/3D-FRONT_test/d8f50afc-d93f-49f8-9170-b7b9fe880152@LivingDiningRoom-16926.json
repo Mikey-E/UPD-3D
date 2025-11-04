@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "d8f50afc-d93f-49f8-9170-b7b9fe880152@LivingDiningRoom-16926",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 4",
+  "timestamp": "2025-10-18T20:07:29.996997",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/d8f50afc-d93f-49f8-9170-b7b9fe880152/LivingDiningRoom-16926/LivingDiningRoom-16926.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What type of style is the loveseat sofa with the dark grey checkered fabric designed in?\n\nA. Vintage/Retro\nB. Industrial\nC. Korean\nIf none of the above answers are correct, answer: 'F'",
+      "response": "C"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What type of style is the loveseat sofa with the dark grey checkered fabric designed in?\n\nA. Vintage/Retro\nB. Industrial\nC. Korean\nD. None of the above",
+      "response": "C"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What type of style is the loveseat sofa with the dark grey checkered fabric designed in?\n\nA. Vintage/Retro\nB. Industrial\nC. Korean",
+      "response": "C"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What type of style is the loveseat sofa with the dark grey checkered fabric designed in?\n\nA. Solar energy\nB. Quantum physics\nC. Marine biology\nD. Ancient civilizations\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What type of style is the loveseat sofa with the dark grey checkered fabric designed in?\n\nA. Solar energy\nB. Quantum physics\nC. Marine biology\nD. Ancient civilizations\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What type of style is the loveseat sofa with the dark grey checkered fabric designed in?\n\nA. Solar energy\nB. Quantum physics\nC. Marine biology\nD. Ancient civilizations",
+      "response": "None"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What type of curtain is used in the living room?\n\nA. Sheer\nB. Blackout\nC. Velvet\nD. Linen\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What type of curtain is used in the living room?\n\nA. Sheer\nB. Blackout\nC. Velvet\nD. Linen\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What type of curtain is used in the living room?\n\nA. Sheer\nB. Blackout\nC. Velvet\nD. Linen",
+      "response": "None"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What type of outdoor grill is located on the patio?",
+      "response": "unanswerable"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What type of outdoor grill is located on the patio?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What type of style is the loveseat sofa with the dark grey checkered fabric designed in?\n\nA. Vintage/Retro\nB. Industrial\nC. Modern\nD. Korean",
+      "response": "D"
+    }
+  ]
+}

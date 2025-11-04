@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "da95dd5a-1c80-4420-8c18-789a427f5302@Bedroom-1157",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 5",
+  "timestamp": "2025-10-20T08:38:06.903962",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/da95dd5a-1c80-4420-8c18-789a427f5302/Bedroom-1157/Bedroom-1157.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What is the color of the wardrobe in the bedroom?\n\nA. Dark espresso\nB. White\nC. Light brown\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What is the color of the wardrobe in the bedroom?\n\nA. Dark espresso\nB. White\nC. Light brown\nD. None of the above",
+      "response": "d"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What is the color of the wardrobe in the bedroom?\n\nA. Dark espresso\nB. White\nC. Light brown",
+      "response": "none"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What is the color of the wardrobe in the bedroom?\n\nA. Cactus\nB. Penguin\nC. Galaxy\nD. Marshmallow\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What is the color of the wardrobe in the bedroom?\n\nA. Cactus\nB. Penguin\nC. Galaxy\nD. Marshmallow\nE. None of the above",
+      "response": "e"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What is the color of the wardrobe in the bedroom?\n\nA. Cactus\nB. Penguin\nC. Galaxy\nD. Marshmallow",
+      "response": "none"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What type of sculpture is displayed in the room?\n\nA. Marble statue\nB. Bronze bust\nC. Glass figurine\nD. Wooden carving\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What type of sculpture is displayed in the room?\n\nA. Marble statue\nB. Bronze bust\nC. Glass figurine\nD. Wooden carving\nE. None of the above",
+      "response": "e"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What type of sculpture is displayed in the room?\n\nA. Marble statue\nB. Bronze bust\nC. Glass figurine\nD. Wooden carving",
+      "response": "none"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What type of gaming console is in the room?",
+      "response": "none"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What type of gaming console is in the room?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What is the color of the wardrobe in the bedroom?\n\nA. Dark espresso\nB. Charcoal grey\nC. White\nD. Light brown",
+      "response": "c"
+    }
+  ]
+}

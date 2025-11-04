@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "c3c0787c-61a3-4a71-98b7-b8477905c11f@LivingRoom-4576",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 5",
+  "timestamp": "2025-10-08T11:05:09.283713",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/c3c0787c-61a3-4a71-98b7-b8477905c11f/LivingRoom-4576/LivingRoom-4576.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What is the color of the upholstery on the three-seat sofa?\n\nA. Matte black\nB. Rich red\nC. Dark brown\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What is the color of the upholstery on the three-seat sofa?\n\nA. Matte black\nB. Rich red\nC. Dark brown\nD. None of the above",
+      "response": "d"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What is the color of the upholstery on the three-seat sofa?\n\nA. Matte black\nB. Rich red\nC. Dark brown",
+      "response": "none of the above"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What is the color of the upholstery on the three-seat sofa?\n\nA. Thrust\nB. Orbit\nC. Gravity\nD. Friction\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What is the color of the upholstery on the three-seat sofa?\n\nA. Thrust\nB. Orbit\nC. Gravity\nD. Friction\nE. None of the above",
+      "response": "e"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What is the color of the upholstery on the three-seat sofa?\n\nA. Thrust\nB. Orbit\nC. Gravity\nD. Friction",
+      "response": "none of the above"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What type of painting is displayed on the wall?\n\nA. Landscape\nB. Abstract\nC. Portrait\nD. Still life\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What type of painting is displayed on the wall?\n\nA. Landscape\nB. Abstract\nC. Portrait\nD. Still life\nE. None of the above",
+      "response": "e"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What type of painting is displayed on the wall?\n\nA. Landscape\nB. Abstract\nC. Portrait\nD. Still life",
+      "response": "none of the above"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What type of swimming pool is located in the backyard?",
+      "response": "no swimming pool"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What type of swimming pool is located in the backyard?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What is the color of the upholstery on the three-seat sofa?\n\nA. Matte black\nB. Rich red\nC. Dark brown\nD. Plush beige",
+      "response": "none of the above"
+    }
+  ]
+}

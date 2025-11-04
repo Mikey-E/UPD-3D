@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "ebba4827-049b-4729-bbd9-c427d881582e@DiningRoom-56998",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 4",
+  "timestamp": "2025-10-27T15:36:27.012118",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/ebba4827-049b-4729-bbd9-c427d881582e/DiningRoom-56998/DiningRoom-56998.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What shape are the pendant lamps hanging above the dining table?\n\nA. Triangular\nB. Square\nC. Rectangular\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What shape are the pendant lamps hanging above the dining table?\n\nA. Triangular\nB. Square\nC. Rectangular\nD. None of the above",
+      "response": "D"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What shape are the pendant lamps hanging above the dining table?\n\nA. Triangular\nB. Square\nC. Rectangular",
+      "response": "None"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What shape are the pendant lamps hanging above the dining table?\n\nA. Geode\nB. Quartz\nC. Amethyst\nD. Turquoise\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What shape are the pendant lamps hanging above the dining table?\n\nA. Geode\nB. Quartz\nC. Amethyst\nD. Turquoise\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What shape are the pendant lamps hanging above the dining table?\n\nA. Geode\nB. Quartz\nC. Amethyst\nD. Turquoise",
+      "response": "None"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What type of painting is displayed on the wall?\n\nA. Landscape\nB. Portrait\nC. Abstract\nD. Still Life\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What type of painting is displayed on the wall?\n\nA. Landscape\nB. Portrait\nC. Abstract\nD. Still Life\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What type of painting is displayed on the wall?\n\nA. Landscape\nB. Portrait\nC. Abstract\nD. Still Life",
+      "response": "None"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What type of wall clock is hanging in the room?",
+      "response": "unanswerable"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What type of wall clock is hanging in the room?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What shape are the pendant lamps hanging above the dining table?\n\nA. Triangular\nB. Square\nC. Cylindrical\nD. Rectangular",
+      "response": "C"
+    }
+  ]
+}

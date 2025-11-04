@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "cb106df9-e7c5-4c0d-88bf-4c8395537e69@LivingDiningRoom-2807",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 5",
+  "timestamp": "2025-10-14T11:26:37.403798",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/cb106df9-e7c5-4c0d-88bf-4c8395537e69/LivingDiningRoom-2807/LivingDiningRoom-2807.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What color is the dining table's top in the livingdining room? \n\nA. Black wood\nB. Dark brown\nC. Grey laminate\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What color is the dining table's top in the livingdining room? \n\nA. Black wood\nB. Dark brown\nC. Grey laminate\nD. None of the above",
+      "response": "d"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What color is the dining table's top in the livingdining room? \n\nA. Black wood\nB. Dark brown\nC. Grey laminate",
+      "response": "none of these"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What color is the dining table's top in the livingdining room? \n\nA. Tenacious\nB. Zealous\nC. Vibrant\nD. Cautious\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What color is the dining table's top in the livingdining room? \n\nA. Tenacious\nB. Zealous\nC. Vibrant\nD. Cautious\nE. None of the above",
+      "response": "e"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What color is the dining table's top in the livingdining room? \n\nA. Tenacious\nB. Zealous\nC. Vibrant\nD. Cautious",
+      "response": "none of these"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What color is the treehouse in the scene?\n\nA. Red\nB. Blue\nC. Green\nD. Yellow\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What color is the treehouse in the scene?\n\nA. Red\nB. Blue\nC. Green\nD. Yellow\nE. None of the above",
+      "response": "e"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What color is the treehouse in the scene?\n\nA. Red\nB. Blue\nC. Green\nD. Yellow",
+      "response": "none of these"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What type of fireplace is used in this living-dining room?",
+      "response": "unanswerable"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What type of fireplace is used in this living-dining room?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What color is the dining table's top in the livingdining room? \n\nA. White marble\nB. Black wood\nC. Dark brown\nD. Grey laminate",
+      "response": "a"
+    }
+  ]
+}

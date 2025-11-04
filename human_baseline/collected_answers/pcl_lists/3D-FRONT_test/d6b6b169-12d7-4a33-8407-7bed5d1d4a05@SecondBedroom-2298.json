@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "d6b6b169-12d7-4a33-8407-7bed5d1d4a05@SecondBedroom-2298",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 4",
+  "timestamp": "2025-10-16T20:33:55.447586",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/d6b6b169-12d7-4a33-8407-7bed5d1d4a05/SecondBedroom-2298/SecondBedroom-2298.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What style is the nightstand adjacent to the king-size bed in the Second bedroom?\n\nA. Industrial\nB. Japanese\nC. Modern\nIf none of the above answers are correct, answer: 'F'",
+      "response": "C"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What style is the nightstand adjacent to the king-size bed in the Second bedroom?\n\nA. Industrial\nB. Japanese\nC. Modern\nD. None of the above",
+      "response": "C"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What style is the nightstand adjacent to the king-size bed in the Second bedroom?\n\nA. Industrial\nB. Japanese\nC. Modern",
+      "response": "C"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What style is the nightstand adjacent to the king-size bed in the Second bedroom?\n\nA. Jazz\nB. Rock\nC. Hip-hop\nD. Classical\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What style is the nightstand adjacent to the king-size bed in the Second bedroom?\n\nA. Jazz\nB. Rock\nC. Hip-hop\nD. Classical\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What style is the nightstand adjacent to the king-size bed in the Second bedroom?\n\nA. Jazz\nB. Rock\nC. Hip-hop\nD. Classical",
+      "response": "None"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What type of texture is the sofa in the scene?\n\nA. Velvet\nB. Leather\nC. Linen\nD. Suede\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What type of texture is the sofa in the scene?\n\nA. Velvet\nB. Leather\nC. Linen\nD. Suede\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What type of texture is the sofa in the scene?\n\nA. Velvet\nB. Leather\nC. Linen\nD. Suede",
+      "response": "None"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What type of outdoor furniture is located on the patio next to the bedroom?",
+      "response": "unanswerable"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What type of outdoor furniture is located on the patio next to the bedroom?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What style is the nightstand adjacent to the king-size bed in the Second bedroom?\n\nA. American Country\nB. Industrial\nC. Japanese\nD. Modern",
+      "response": "D"
+    }
+  ]
+}

@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "eb6337ce-c9e6-4bbb-b3ab-c8fe559962b2@Bedroom-80398",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 3",
+  "timestamp": "2025-10-27T15:27:15.713260",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/eb6337ce-c9e6-4bbb-b3ab-c8fe559962b2/Bedroom-80398/Bedroom-80398.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What color scheme is used for the pendant lamp that hangs above the bed in the bedroom?\n\nA. Blue and white\nB. Silver and black\nC. Light oak and beige\nIf none of the above answers are correct, answer: 'F'",
+      "response": "B"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What color scheme is used for the pendant lamp that hangs above the bed in the bedroom?\n\nA. Blue and white\nB. Silver and black\nC. Light oak and beige\nD. None of the above",
+      "response": "B"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What color scheme is used for the pendant lamp that hangs above the bed in the bedroom?\n\nA. Blue and white\nB. Silver and black\nC. Light oak and beige",
+      "response": "B"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What color scheme is used for the pendant lamp that hangs above the bed in the bedroom?\n\nA. Tropical rainforest\nB. Rocky mountains\nC. Arctic tundra\nD. Desert landscape\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What color scheme is used for the pendant lamp that hangs above the bed in the bedroom?\n\nA. Tropical rainforest\nB. Rocky mountains\nC. Arctic tundra\nD. Desert landscape\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What color scheme is used for the pendant lamp that hangs above the bed in the bedroom?\n\nA. Tropical rainforest\nB. Rocky mountains\nC. Arctic tundra\nD. Desert landscape",
+      "response": "NONE"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What is the material of the dining table mentioned in the scene?\n\nA. Glass\nB. Wood\nC. Metal\nD. Concrete\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What is the material of the dining table mentioned in the scene?\n\nA. Glass\nB. Wood\nC. Metal\nD. Concrete\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What is the material of the dining table mentioned in the scene?\n\nA. Glass\nB. Wood\nC. Metal\nD. Concrete",
+      "response": "NA"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What color is the rug under the bed?",
+      "response": "NA"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What color is the rug under the bed?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What color scheme is used for the pendant lamp that hangs above the bed in the bedroom?\n\nA. Blue and white\nB. Silver and black\nC. Light oak and beige\nD. Black and gold",
+      "response": "B"
+    }
+  ]
+}

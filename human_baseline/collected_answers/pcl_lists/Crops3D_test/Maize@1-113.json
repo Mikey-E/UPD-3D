@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "Maize@1-113",
+  "dataset": "Crops3D_test",
+  "annotated_by": "User 5",
+  "timestamp": "2025-10-30T11:39:37.181169",
+  "file_path": "/project/3dllms/melgin/datasets/CEA/Crops3D/Maize/1-113.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What is the characteristic feature of the grass plant described?\n\nA. It has numerous flowers blooming at the base\nB. It is growing in a pot filled with water\nC. It has broad oval leaves instead of lanceolate leaves\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What is the characteristic feature of the grass plant described?\n\nA. It has numerous flowers blooming at the base\nB. It is growing in a pot filled with water\nC. It has broad oval leaves instead of lanceolate leaves\nD. None of the above",
+      "response": "d"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What is the characteristic feature of the grass plant described?\n\nA. It has numerous flowers blooming at the base\nB. It is growing in a pot filled with water\nC. It has broad oval leaves instead of lanceolate leaves",
+      "response": "none"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What is the characteristic feature of the grass plant described?\n\nA. Renaissance art techniques\nB. Classical literature themes\nC. Quantum physics principles\nD. Digital marketing strategies\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What is the characteristic feature of the grass plant described?\n\nA. Renaissance art techniques\nB. Classical literature themes\nC. Quantum physics principles\nD. Digital marketing strategies\nE. None of the above",
+      "response": "e"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What is the characteristic feature of the grass plant described?\n\nA. Renaissance art techniques\nB. Classical literature themes\nC. Quantum physics principles\nD. Digital marketing strategies",
+      "response": "none"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What color are the stairs in the scene?\n\nA. Blue\nB. Yellow\nC. Gray\nD. Red\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What color are the stairs in the scene?\n\nA. Blue\nB. Yellow\nC. Gray\nD. Red\nE. None of the above",
+      "response": "e"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What color are the stairs in the scene?\n\nA. Blue\nB. Yellow\nC. Gray\nD. Red",
+      "response": "none"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What type of fruit is hanging from the ceiling?",
+      "response": "none"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What type of fruit is hanging from the ceiling?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What is the characteristic feature of the grass plant described?\n\nA. It has numerous flowers blooming at the base\nB. It has a branched panicle of tiny seed heads at the top\nC. It is growing in a pot filled with water\nD. It has broad oval leaves instead of lanceolate leaves",
+      "response": "b"
+    }
+  ]
+}

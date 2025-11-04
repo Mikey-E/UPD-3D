@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "ff18bbbf-e741-4ef1-a218-4e80e8f4a120@SecondBedroom-51399",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 3",
+  "timestamp": "2025-10-31T08:15:56.631045",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/ff18bbbf-e741-4ef1-a218-4e80e8f4a120/SecondBedroom-51399/SecondBedroom-51399.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What color is the nightstand in the bedroom?\n\nA. Soft blue\nB. Black and white\nC. Dark brown\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What color is the nightstand in the bedroom?\n\nA. Soft blue\nB. Black and white\nC. Dark brown\nD. None of the above",
+      "response": "D"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What color is the nightstand in the bedroom?\n\nA. Soft blue\nB. Black and white\nC. Dark brown",
+      "response": "None"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What color is the nightstand in the bedroom?\n\nA. Ocean\nB. Mountain\nC. Forest\nD. Desert\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What color is the nightstand in the bedroom?\n\nA. Ocean\nB. Mountain\nC. Forest\nD. Desert\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What color is the nightstand in the bedroom?\n\nA. Ocean\nB. Mountain\nC. Forest\nD. Desert",
+      "response": "None"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What design style is used for the shelving units in the living room?\n\nA. Industrial\nB. Vintage\nC. Scandinavian\nD. Art Deco\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What design style is used for the shelving units in the living room?\n\nA. Industrial\nB. Vintage\nC. Scandinavian\nD. Art Deco\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What design style is used for the shelving units in the living room?\n\nA. Industrial\nB. Vintage\nC. Scandinavian\nD. Art Deco",
+      "response": "None"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What type of outdoor furniture is in the room?",
+      "response": "N/A"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What type of outdoor furniture is in the room?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What color is the nightstand in the bedroom?\n\nA. Mustard yellow\nB. Soft blue\nC. Black and white\nD. Dark brown",
+      "response": "A"
+    }
+  ]
+}

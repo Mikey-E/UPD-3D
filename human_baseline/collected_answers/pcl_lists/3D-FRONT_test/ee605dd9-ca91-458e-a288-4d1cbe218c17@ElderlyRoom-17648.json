@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "ee605dd9-ca91-458e-a288-4d1cbe218c17@ElderlyRoom-17648",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 5",
+  "timestamp": "2025-10-28T11:36:25.870036",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/ee605dd9-ca91-458e-a288-4d1cbe218c17/ElderlyRoom-17648/ElderlyRoom-17648.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What style is the pendant lamp that is suspended above the king-size bed?\n\nA. Japanese style\nB. Vintage/Retro style\nC. New Chinese style\nIf none of the above answers are correct, answer: 'F'",
+      "response": "c"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What style is the pendant lamp that is suspended above the king-size bed?\n\nA. Japanese style\nB. Vintage/Retro style\nC. New Chinese style\nD. None of the above",
+      "response": "c"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What style is the pendant lamp that is suspended above the king-size bed?\n\nA. Japanese style\nB. Vintage/Retro style\nC. New Chinese style",
+      "response": "c"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What style is the pendant lamp that is suspended above the king-size bed?\n\nA. Jazz music\nB. Italian cuisine\nC. Mountain climbing\nD. Space exploration\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What style is the pendant lamp that is suspended above the king-size bed?\n\nA. Jazz music\nB. Italian cuisine\nC. Mountain climbing\nD. Space exploration\nE. None of the above",
+      "response": "e"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What style is the pendant lamp that is suspended above the king-size bed?\n\nA. Jazz music\nB. Italian cuisine\nC. Mountain climbing\nD. Space exploration",
+      "response": "none"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What is the shape of the window in the scene?\n\nA. Square\nB. Round\nC. Triangle\nD. Oval\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What is the shape of the window in the scene?\n\nA. Square\nB. Round\nC. Triangle\nD. Oval\nE. None of the above",
+      "response": "e"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What is the shape of the window in the scene?\n\nA. Square\nB. Round\nC. Triangle\nD. Oval",
+      "response": "none"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What type of exercise equipment is in the room?",
+      "response": "none"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What type of exercise equipment is in the room?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What style is the pendant lamp that is suspended above the king-size bed?\n\nA. Kids style\nB. Japanese style\nC. Vintage/Retro style\nD. New Chinese style",
+      "response": "d"
+    }
+  ]
+}

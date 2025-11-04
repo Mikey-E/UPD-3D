@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "fd067d9b-a460-43c5-8721-92f1ceb8a2de@LivingDiningRoom-1806",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 3",
+  "timestamp": "2025-10-30T21:59:39.470557",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/fd067d9b-a460-43c5-8721-92f1ceb8a2de/LivingDiningRoom-1806/LivingDiningRoom-1806.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What type of lamp is found above the dining area?\n\nA. Floor lamp\nB. Table lamp\nC. Wall lamp\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What type of lamp is found above the dining area?\n\nA. Floor lamp\nB. Table lamp\nC. Wall lamp\nD. None of the above",
+      "response": "D"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What type of lamp is found above the dining area?\n\nA. Floor lamp\nB. Table lamp\nC. Wall lamp",
+      "response": "NONE"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What type of lamp is found above the dining area?\n\nA. Dolphin\nB. Avocado\nC. Kite\nD. Quasar\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What type of lamp is found above the dining area?\n\nA. Dolphin\nB. Avocado\nC. Kite\nD. Quasar\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What type of lamp is found above the dining area?\n\nA. Dolphin\nB. Avocado\nC. Kite\nD. Quasar",
+      "response": "NONE"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What style of window treatment is used in the living room?\n\nA. Roman shades\nB. Roller blinds\nC. Sheer curtains\nD. Shutters\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What style of window treatment is used in the living room?\n\nA. Roman shades\nB. Roller blinds\nC. Sheer curtains\nD. Shutters\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What style of window treatment is used in the living room?\n\nA. Roman shades\nB. Roller blinds\nC. Sheer curtains\nD. Shutters",
+      "response": "NA"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What type of art installation is located in the corner of the room?",
+      "response": "NA"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What type of art installation is located in the corner of the room?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What type of lamp is found above the dining area?\n\nA. Floor lamp\nB. Pendant lamp\nC. Table lamp\nD. Wall lamp",
+      "response": "B"
+    }
+  ]
+}

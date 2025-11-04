@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "Maize@1-111",
+  "dataset": "Crops3D_test",
+  "annotated_by": "User 5",
+  "timestamp": "2025-10-30T10:40:44.253310",
+  "file_path": "/project/3dllms/melgin/datasets/CEA/Crops3D/Maize/1-111.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What is the color of the tassel at the top of the maize plant?\n\nA. Green\nB. Dark Brown\nC. Yellow\nIf none of the above answers are correct, answer: 'F'",
+      "response": "c"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What is the color of the tassel at the top of the maize plant?\n\nA. Green\nB. Dark Brown\nC. Yellow\nD. None of the above",
+      "response": "c"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What is the color of the tassel at the top of the maize plant?\n\nA. Green\nB. Dark Brown\nC. Yellow",
+      "response": "c"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What is the color of the tassel at the top of the maize plant?\n\nA. Subatomic particles\nB. Geological formations\nC. Historical revolutions\nD. Ocean currents\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What is the color of the tassel at the top of the maize plant?\n\nA. Subatomic particles\nB. Geological formations\nC. Historical revolutions\nD. Ocean currents\nE. None of the above",
+      "response": "e"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What is the color of the tassel at the top of the maize plant?\n\nA. Subatomic particles\nB. Geological formations\nC. Historical revolutions\nD. Ocean currents",
+      "response": "none"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What type of vehicle is parked nearby?\n\nA. Sedan\nB. Motorcycle\nC. SUV\nD. Van\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What type of vehicle is parked nearby?\n\nA. Sedan\nB. Motorcycle\nC. SUV\nD. Van\nE. None of the above",
+      "response": "e"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What type of vehicle is parked nearby?\n\nA. Sedan\nB. Motorcycle\nC. SUV\nD. Van",
+      "response": "none"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What is the weight of the marble sculpture located nearby?",
+      "response": "none"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What is the weight of the marble sculpture located nearby?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What is the color of the tassel at the top of the maize plant?\n\nA. Green\nB. Pale Brown\nC. Dark Brown\nD. Yellow",
+      "response": "d"
+    }
+  ]
+}

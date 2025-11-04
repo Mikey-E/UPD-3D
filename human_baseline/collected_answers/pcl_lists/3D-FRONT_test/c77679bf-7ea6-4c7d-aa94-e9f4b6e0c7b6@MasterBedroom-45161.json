@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "c77679bf-7ea6-4c7d-aa94-e9f4b6e0c7b6@MasterBedroom-45161",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 5",
+  "timestamp": "2025-10-10T15:38:22.291382",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/c77679bf-7ea6-4c7d-aa94-e9f4b6e0c7b6/MasterBedroom-45161/MasterBedroom-45161.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What is the style of the wardrobe in the Master bedroom?\n\nA. Classic\nB. Modern\nC. Rustic\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What is the style of the wardrobe in the Master bedroom?\n\nA. Classic\nB. Modern\nC. Rustic\nD. None of the above",
+      "response": "d"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What is the style of the wardrobe in the Master bedroom?\n\nA. Classic\nB. Modern\nC. Rustic",
+      "response": "none of these"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What is the style of the wardrobe in the Master bedroom?\n\nA. Classical music\nB. Abstract art\nC. Folk dance\nD. Jazz improvisation\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What is the style of the wardrobe in the Master bedroom?\n\nA. Classical music\nB. Abstract art\nC. Folk dance\nD. Jazz improvisation\nE. None of the above",
+      "response": "e"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What is the style of the wardrobe in the Master bedroom?\n\nA. Classical music\nB. Abstract art\nC. Folk dance\nD. Jazz improvisation",
+      "response": "none of these"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What is the size of the television in the room?\n\nA. 50 inches\nB. 65 inches\nC. 75 inches\nD. 85 inches\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What is the size of the television in the room?\n\nA. 50 inches\nB. 65 inches\nC. 75 inches\nD. 85 inches\nE. None of the above",
+      "response": "e"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What is the size of the television in the room?\n\nA. 50 inches\nB. 65 inches\nC. 75 inches\nD. 85 inches",
+      "response": "none of these"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What type of sports equipment is stored in the room?",
+      "response": "no equipment"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What type of sports equipment is stored in the room?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What is the style of the wardrobe in the Master bedroom?\n\nA. Japanese\nB. Classic\nC. Modern\nD. Rustic",
+      "response": "none of these"
+    }
+  ]
+}

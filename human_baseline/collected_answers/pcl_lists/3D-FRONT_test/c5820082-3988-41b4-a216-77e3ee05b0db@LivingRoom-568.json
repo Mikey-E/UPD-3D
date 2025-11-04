@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "c5820082-3988-41b4-a216-77e3ee05b0db@LivingRoom-568",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 4",
+  "timestamp": "2025-10-08T11:25:00.708198",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/c5820082-3988-41b4-a216-77e3ee05b0db/LivingRoom-568/LivingRoom-568.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What is the shape of the dining table in the living room?\n\nA. Square\nB. Rectangular\nC. Oval\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What is the shape of the dining table in the living room?\n\nA. Square\nB. Rectangular\nC. Oval\nD. None of the above",
+      "response": "D"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What is the shape of the dining table in the living room?\n\nA. Square\nB. Rectangular\nC. Oval",
+      "response": "none of these"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What is the shape of the dining table in the living room?\n\nA. Jupiter\nB. Hydrogen\nC. Sodium\nD. Quartz\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What is the shape of the dining table in the living room?\n\nA. Jupiter\nB. Hydrogen\nC. Sodium\nD. Quartz\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What is the shape of the dining table in the living room?\n\nA. Jupiter\nB. Hydrogen\nC. Sodium\nD. Quartz",
+      "response": "none of these"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What shape is the door to the kitchen?\n\nA. Rectangular\nB. Arched\nC. Triangular\nD. Circular\nIf none of the above answers are correct, answer: 'F'",
+      "response": "A"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What shape is the door to the kitchen?\n\nA. Rectangular\nB. Arched\nC. Triangular\nD. Circular\nE. None of the above",
+      "response": "A"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What shape is the door to the kitchen?\n\nA. Rectangular\nB. Arched\nC. Triangular\nD. Circular",
+      "response": "A"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What type of bed is located in the scene?",
+      "response": "NONE"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What type of bed is located in the scene?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What is the shape of the dining table in the living room?\n\nA. Square\nB. Rectangular\nC. Round\nD. Oval",
+      "response": "C"
+    }
+  ]
+}

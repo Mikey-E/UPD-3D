@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "Cotton@65",
+  "dataset": "Crops3D_test",
+  "annotated_by": "User 5",
+  "timestamp": "2025-10-30T10:34:32.098926",
+  "file_path": "/project/3dllms/melgin/datasets/CEA/Crops3D/Cotton/65.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What type of tree is described in the room?\n\nA. A coniferous tree with needle-like leaves\nB. A large oak tree with broad leaves\nC. A palm tree with long fronds\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What type of tree is described in the room?\n\nA. A coniferous tree with needle-like leaves\nB. A large oak tree with broad leaves\nC. A palm tree with long fronds\nD. None of the above",
+      "response": "d"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What type of tree is described in the room?\n\nA. A coniferous tree with needle-like leaves\nB. A large oak tree with broad leaves\nC. A palm tree with long fronds",
+      "response": "none"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What type of tree is described in the room?\n\nA. Internet protocol\nB. Data encryption\nC. Software development\nD. Network architecture\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What type of tree is described in the room?\n\nA. Internet protocol\nB. Data encryption\nC. Software development\nD. Network architecture\nE. None of the above",
+      "response": "e"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What type of tree is described in the room?\n\nA. Internet protocol\nB. Data encryption\nC. Software development\nD. Network architecture",
+      "response": "none"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What type of sofa is featured in the scene?\n\nA. Leather Sofa\nB. Recliner Sofa\nC. Sectional Sofa\nD. Futon Sofa\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What type of sofa is featured in the scene?\n\nA. Leather Sofa\nB. Recliner Sofa\nC. Sectional Sofa\nD. Futon Sofa\nE. None of the above",
+      "response": "e"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What type of sofa is featured in the scene?\n\nA. Leather Sofa\nB. Recliner Sofa\nC. Sectional Sofa\nD. Futon Sofa",
+      "response": "none"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What type of fruit does the tree produce?",
+      "response": "none"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What type of fruit does the tree produce?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What type of tree is described in the room?\n\nA. A coniferous tree with needle-like leaves\nB. A large oak tree with broad leaves\nC. A small, slender tree with fluffy white blossoms\nD. A palm tree with long fronds",
+      "response": "c"
+    }
+  ]
+}

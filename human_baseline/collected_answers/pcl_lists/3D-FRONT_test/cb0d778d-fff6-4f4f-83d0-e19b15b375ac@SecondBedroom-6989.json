@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "cb0d778d-fff6-4f4f-83d0-e19b15b375ac@SecondBedroom-6989",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 3",
+  "timestamp": "2025-10-14T11:25:08.494137",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/cb0d778d-fff6-4f4f-83d0-e19b15b375ac/SecondBedroom-6989/SecondBedroom-6989.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What design style is reflected in the nightstand next to the bed?\n\nA. Industrial style\nB. Nordic style\nC. Modern style\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What design style is reflected in the nightstand next to the bed?\n\nA. Industrial style\nB. Nordic style\nC. Modern style\nD. None of the above",
+      "response": "D"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What design style is reflected in the nightstand next to the bed?\n\nA. Industrial style\nB. Nordic style\nC. Modern style",
+      "response": "None"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What design style is reflected in the nightstand next to the bed?\n\nA. Ocean current\nB. Mountain range\nC. Desert landscape\nD. Forest ecosystem\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What design style is reflected in the nightstand next to the bed?\n\nA. Ocean current\nB. Mountain range\nC. Desert landscape\nD. Forest ecosystem\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What design style is reflected in the nightstand next to the bed?\n\nA. Ocean current\nB. Mountain range\nC. Desert landscape\nD. Forest ecosystem",
+      "response": "None"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What is the shape of the window in the scene?\n\nA. Round\nB. Octagonal\nC. Rectangular\nD. Irregular\nIf none of the above answers are correct, answer: 'F'",
+      "response": "C"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What is the shape of the window in the scene?\n\nA. Round\nB. Octagonal\nC. Rectangular\nD. Irregular\nE. None of the above",
+      "response": "C"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What is the shape of the window in the scene?\n\nA. Round\nB. Octagonal\nC. Rectangular\nD. Irregular",
+      "response": "C"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What type of chandelier is hanging from the ceiling?",
+      "response": "N/A"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What type of chandelier is hanging from the ceiling?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What design style is reflected in the nightstand next to the bed?\n\nA. Industrial style\nB. Japanese style\nC. Nordic style\nD. Modern style",
+      "response": "B"
+    }
+  ]
+}

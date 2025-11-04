@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "fbe0dae7-7c8a-4a3f-aac9-082d5c509469@Bedroom-11065",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 3",
+  "timestamp": "2025-10-30T17:25:53.793311",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/fbe0dae7-7c8a-4a3f-aac9-082d5c509469/Bedroom-11065/Bedroom-11065.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What is the color of the headboard of the king-size bed in the bedroom?\n\nA. Beige\nB. Silver\nC. Grey\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What is the color of the headboard of the king-size bed in the bedroom?\n\nA. Beige\nB. Silver\nC. Grey\nD. None of the above",
+      "response": "D"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What is the color of the headboard of the king-size bed in the bedroom?\n\nA. Beige\nB. Silver\nC. Grey",
+      "response": "NONE"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What is the color of the headboard of the king-size bed in the bedroom?\n\nA. Pineapple\nB. Quokka\nC. Satellite\nD. Thermometer\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What is the color of the headboard of the king-size bed in the bedroom?\n\nA. Pineapple\nB. Quokka\nC. Satellite\nD. Thermometer\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What is the color of the headboard of the king-size bed in the bedroom?\n\nA. Pineapple\nB. Quokka\nC. Satellite\nD. Thermometer",
+      "response": "NONE"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What color is the refrigerator in the scene?\n\nA. Green\nB. Silver\nC. Black\nD. Red\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What color is the refrigerator in the scene?\n\nA. Green\nB. Silver\nC. Black\nD. Red\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What color is the refrigerator in the scene?\n\nA. Green\nB. Silver\nC. Black\nD. Red",
+      "response": "NA"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What type of refrigerator is used in the room?",
+      "response": "NA"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What type of refrigerator is used in the room?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What is the color of the headboard of the king-size bed in the bedroom?\n\nA. Beige\nB. Silver\nC. Blue\nD. Grey",
+      "response": "C"
+    }
+  ]
+}

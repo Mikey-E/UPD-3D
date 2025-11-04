@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "fe49d5e3-8a9e-4e22-ab9a-414b2553a561@Bedroom-224",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 3",
+  "timestamp": "2025-10-31T00:25:42.848736",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/fe49d5e3-8a9e-4e22-ab9a-414b2553a561/Bedroom-224/Bedroom-224.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What color palette is predominantly featured in the modern bedroom described?\n\nA. Blue and white\nB. Black and orange\nC. Red and yellow\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What color palette is predominantly featured in the modern bedroom described?\n\nA. Blue and white\nB. Black and orange\nC. Red and yellow\nD. None of the above",
+      "response": "D"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What color palette is predominantly featured in the modern bedroom described?\n\nA. Blue and white\nB. Black and orange\nC. Red and yellow",
+      "response": "NONE"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What color palette is predominantly featured in the modern bedroom described?\n\nA. Rainforest ecosystem\nB. Desert landscape\nC. Arctic tundra\nD. Coral reef\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What color palette is predominantly featured in the modern bedroom described?\n\nA. Rainforest ecosystem\nB. Desert landscape\nC. Arctic tundra\nD. Coral reef\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What color palette is predominantly featured in the modern bedroom described?\n\nA. Rainforest ecosystem\nB. Desert landscape\nC. Arctic tundra\nD. Coral reef",
+      "response": "NONE"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What type of geometric shape forms the main structure of the scene?\n\nA. Sphere\nB. Pyramid\nC. Cube\nD. Cylinder\nIf none of the above answers are correct, answer: 'F'",
+      "response": "C"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What type of geometric shape forms the main structure of the scene?\n\nA. Sphere\nB. Pyramid\nC. Cube\nD. Cylinder\nE. None of the above",
+      "response": "C"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What type of geometric shape forms the main structure of the scene?\n\nA. Sphere\nB. Pyramid\nC. Cube\nD. Cylinder",
+      "response": "C"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What type of sculpture is displayed in the center of the room?",
+      "response": "NA"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What type of sculpture is displayed in the center of the room?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What color palette is predominantly featured in the modern bedroom described?\n\nA. Grey and brown\nB. Blue and white\nC. Black and orange\nD. Red and yellow",
+      "response": "A"
+    }
+  ]
+}

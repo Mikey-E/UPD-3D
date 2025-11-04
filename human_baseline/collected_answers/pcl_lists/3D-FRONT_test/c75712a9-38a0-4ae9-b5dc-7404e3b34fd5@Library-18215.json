@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "c75712a9-38a0-4ae9-b5dc-7404e3b34fd5@Library-18215",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 5",
+  "timestamp": "2025-10-10T15:31:30.110723",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/c75712a9-38a0-4ae9-b5dc-7404e3b34fd5/Library-18215/Library-18215.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What is the color of the lounge chair in the library?\n\nA. Black\nB. Brown\nC. Green\nIf none of the above answers are correct, answer: 'F'",
+      "response": "c"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What is the color of the lounge chair in the library?\n\nA. Black\nB. Brown\nC. Green\nD. None of the above",
+      "response": "c"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What is the color of the lounge chair in the library?\n\nA. Black\nB. Brown\nC. Green",
+      "response": "c"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What is the color of the lounge chair in the library?\n\nA. Mountainous\nB. Aquatic\nC. Celestial\nD. Deserted\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What is the color of the lounge chair in the library?\n\nA. Mountainous\nB. Aquatic\nC. Celestial\nD. Deserted\nE. None of the above",
+      "response": "e"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What is the color of the lounge chair in the library?\n\nA. Mountainous\nB. Aquatic\nC. Celestial\nD. Deserted",
+      "response": "none of the above"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What is the height of the ceiling in the scene?\n\nA. Ten feet\nB. Eight feet\nC. Twelve feet\nD. Fifteen feet\nIf none of the above answers are correct, answer: 'F'",
+      "response": "b"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What is the height of the ceiling in the scene?\n\nA. Ten feet\nB. Eight feet\nC. Twelve feet\nD. Fifteen feet\nE. None of the above",
+      "response": "b"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What is the height of the ceiling in the scene?\n\nA. Ten feet\nB. Eight feet\nC. Twelve feet\nD. Fifteen feet",
+      "response": "b"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What type of ceiling fan is installed in the library?",
+      "response": "unanswerable"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What type of ceiling fan is installed in the library?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What is the color of the lounge chair in the library?\n\nA. Black\nB. Deep teal\nC. Brown\nD. Green",
+      "response": "d"
+    }
+  ]
+}

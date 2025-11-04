@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "e41a25b7-9111-4761-908c-45485fac5079@LivingDiningRoom-9678",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 5",
+  "timestamp": "2025-10-25T19:46:41.686226",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/e41a25b7-9111-4761-908c-45485fac5079/LivingDiningRoom-9678/LivingDiningRoom-9678.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What type of lighting is provided by the two pendant lamps in the living room?\n\nA. Bright white and industrial flair\nB. Dim and atmospheric\nC. Colorful and playful\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What type of lighting is provided by the two pendant lamps in the living room?\n\nA. Bright white and industrial flair\nB. Dim and atmospheric\nC. Colorful and playful\nD. None of the above",
+      "response": "d"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What type of lighting is provided by the two pendant lamps in the living room?\n\nA. Bright white and industrial flair\nB. Dim and atmospheric\nC. Colorful and playful",
+      "response": "none"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What type of lighting is provided by the two pendant lamps in the living room?\n\nA. Chocolate\nB. Pineapple\nC. Marshmallow\nD. Vanilla\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What type of lighting is provided by the two pendant lamps in the living room?\n\nA. Chocolate\nB. Pineapple\nC. Marshmallow\nD. Vanilla\nE. None of the above",
+      "response": "e"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What type of lighting is provided by the two pendant lamps in the living room?\n\nA. Chocolate\nB. Pineapple\nC. Marshmallow\nD. Vanilla",
+      "response": "none"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What type of ceiling fan is installed in the living room?\n\nA. Modern ceiling fan\nB. Vintage ceiling fan\nC. Industrial ceiling fan\nD. Tropical ceiling fan\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What type of ceiling fan is installed in the living room?\n\nA. Modern ceiling fan\nB. Vintage ceiling fan\nC. Industrial ceiling fan\nD. Tropical ceiling fan\nE. None of the above",
+      "response": "e"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What type of ceiling fan is installed in the living room?\n\nA. Modern ceiling fan\nB. Vintage ceiling fan\nC. Industrial ceiling fan\nD. Tropical ceiling fan",
+      "response": "none"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What type of bookshelf is located in the room?",
+      "response": "none"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What type of bookshelf is located in the room?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What type of lighting is provided by the two pendant lamps in the living room?\n\nA. Bright white and industrial flair\nB. Soft glow and modern geometric accent\nC. Dim and atmospheric\nD. Colorful and playful",
+      "response": "b"
+    }
+  ]
+}

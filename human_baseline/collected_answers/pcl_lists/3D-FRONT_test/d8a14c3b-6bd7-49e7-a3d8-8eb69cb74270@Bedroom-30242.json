@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "d8a14c3b-6bd7-49e7-a3d8-8eb69cb74270@Bedroom-30242",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 4",
+  "timestamp": "2025-10-18T12:41:24.829422",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/d8a14c3b-6bd7-49e7-a3d8-8eb69cb74270/Bedroom-30242/Bedroom-30242.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What is the texture of the fabric on the footstool in the bedroom?\n\nA. Woven straw\nB. Dark leather\nC. Smooth metal\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What is the texture of the fabric on the footstool in the bedroom?\n\nA. Woven straw\nB. Dark leather\nC. Smooth metal\nD. None of the above",
+      "response": "D"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What is the texture of the fabric on the footstool in the bedroom?\n\nA. Woven straw\nB. Dark leather\nC. Smooth metal",
+      "response": "None"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What is the texture of the fabric on the footstool in the bedroom?\n\nA. Maple syrup\nB. Rock climbing\nC. Quantum physics\nD. Mediterranean cuisine\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What is the texture of the fabric on the footstool in the bedroom?\n\nA. Maple syrup\nB. Rock climbing\nC. Quantum physics\nD. Mediterranean cuisine\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What is the texture of the fabric on the footstool in the bedroom?\n\nA. Maple syrup\nB. Rock climbing\nC. Quantum physics\nD. Mediterranean cuisine",
+      "response": "None"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What is the color of the sofa in the living room?\n\nA. Blue\nB. Gray\nC. Green\nD. Red\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What is the color of the sofa in the living room?\n\nA. Blue\nB. Gray\nC. Green\nD. Red\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What is the color of the sofa in the living room?\n\nA. Blue\nB. Gray\nC. Green\nD. Red",
+      "response": "None"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What type of fireplace is located in the room?",
+      "response": "unanswerable"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What type of fireplace is located in the room?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What is the texture of the fabric on the footstool in the bedroom?\n\nA. Woven straw\nB. Dark leather\nC. Smooth metal\nD. Soft green fabric",
+      "response": "D"
+    }
+  ]
+}

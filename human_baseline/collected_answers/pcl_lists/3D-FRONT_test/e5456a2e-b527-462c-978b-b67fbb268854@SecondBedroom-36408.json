@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "e5456a2e-b527-462c-978b-b67fbb268854@SecondBedroom-36408",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 3",
+  "timestamp": "2025-10-26T18:38:14.234615",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/e5456a2e-b527-462c-978b-b67fbb268854/SecondBedroom-36408/SecondBedroom-36408.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What type of design elements are incorporated into the ceiling lamp and pendant lamp in the bedroom?\n\nA. Bright colors and floral patterns\nB. Stainless steel and rustic designs\nC. Metallic finish and traditional motifs\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What type of design elements are incorporated into the ceiling lamp and pendant lamp in the bedroom?\n\nA. Bright colors and floral patterns\nB. Stainless steel and rustic designs\nC. Metallic finish and traditional motifs\nD. None of the above",
+      "response": "D"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What type of design elements are incorporated into the ceiling lamp and pendant lamp in the bedroom?\n\nA. Bright colors and floral patterns\nB. Stainless steel and rustic designs\nC. Metallic finish and traditional motifs",
+      "response": "NONE"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What type of design elements are incorporated into the ceiling lamp and pendant lamp in the bedroom?\n\nA. Concrete jungle\nB. Urban sprawl\nC. Distant galaxies\nD. Ocean depths\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What type of design elements are incorporated into the ceiling lamp and pendant lamp in the bedroom?\n\nA. Concrete jungle\nB. Urban sprawl\nC. Distant galaxies\nD. Ocean depths\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What type of design elements are incorporated into the ceiling lamp and pendant lamp in the bedroom?\n\nA. Concrete jungle\nB. Urban sprawl\nC. Distant galaxies\nD. Ocean depths",
+      "response": "NONE"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What style is the dining table in the scene?\n\nA. Rustic\nB. Contemporary\nC. Art Deco\nD. Industrial\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What style is the dining table in the scene?\n\nA. Rustic\nB. Contemporary\nC. Art Deco\nD. Industrial\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What style is the dining table in the scene?\n\nA. Rustic\nB. Contemporary\nC. Art Deco\nD. Industrial",
+      "response": "NA"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What type of outdoor decoration is displayed in the scene?",
+      "response": "NA"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What type of outdoor decoration is displayed in the scene?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What type of design elements are incorporated into the ceiling lamp and pendant lamp in the bedroom?\n\nA. Wooden finish and black geometric design\nB. Bright colors and floral patterns\nC. Stainless steel and rustic designs\nD. Metallic finish and traditional motifs",
+      "response": "A"
+    }
+  ]
+}

@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "e2bae01c-2956-4025-8b86-7a8592b9e831@SecondBedroom-6082",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 4",
+  "timestamp": "2025-10-25T15:23:48.037102",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/e2bae01c-2956-4025-8b86-7a8592b9e831/SecondBedroom-6082/SecondBedroom-6082.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What is the primary color of the single bed in the Second bedroom?\n\nA. Light blue\nB. Black\nC. White\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What is the primary color of the single bed in the Second bedroom?\n\nA. Light blue\nB. Black\nC. White\nD. None of the above",
+      "response": "D"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What is the primary color of the single bed in the Second bedroom?\n\nA. Light blue\nB. Black\nC. White",
+      "response": "None"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What is the primary color of the single bed in the Second bedroom?\n\nA. Cloudy\nB. Mellow\nC. Rocky\nD. Sandy\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What is the primary color of the single bed in the Second bedroom?\n\nA. Cloudy\nB. Mellow\nC. Rocky\nD. Sandy\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What is the primary color of the single bed in the Second bedroom?\n\nA. Cloudy\nB. Mellow\nC. Rocky\nD. Sandy",
+      "response": "None"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What shape are the windows in the room?\n\nA. Circular\nB. Triangular\nC. Hexagonal\nD. Oval\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What shape are the windows in the room?\n\nA. Circular\nB. Triangular\nC. Hexagonal\nD. Oval\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What shape are the windows in the room?\n\nA. Circular\nB. Triangular\nC. Hexagonal\nD. Oval",
+      "response": "None"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What type of chandelier illuminates the room?",
+      "response": "unanswerable"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What type of chandelier illuminates the room?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What is the primary color of the single bed in the Second bedroom?\n\nA. Walnut brown\nB. Light blue\nC. Black\nD. White",
+      "response": "None"
+    }
+  ]
+}

@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "Rice@19",
+  "dataset": "Crops3D_test",
+  "annotated_by": "User 5",
+  "timestamp": "2025-10-31T00:08:02.528150",
+  "file_path": "/project/3dllms/melgin/datasets/CEA/Crops3D/Rice/19.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What color is the pot that the houseplant is sitting in?\n\nA. Dark green ceramic\nB. Bright red ceramic\nC. Light ceramic\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What color is the pot that the houseplant is sitting in?\n\nA. Dark green ceramic\nB. Bright red ceramic\nC. Light ceramic\nD. None of the above",
+      "response": "d"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What color is the pot that the houseplant is sitting in?\n\nA. Dark green ceramic\nB. Bright red ceramic\nC. Light ceramic",
+      "response": "none"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What color is the pot that the houseplant is sitting in?\n\nA. Galaxy\nB. Tornado\nC. Volcano\nD. Meteorite\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What color is the pot that the houseplant is sitting in?\n\nA. Galaxy\nB. Tornado\nC. Volcano\nD. Meteorite\nE. None of the above",
+      "response": "e"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What color is the pot that the houseplant is sitting in?\n\nA. Galaxy\nB. Tornado\nC. Volcano\nD. Meteorite",
+      "response": "none"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What color is the sofa in the scene?\n\nA. Red\nB. Gray\nC. Green\nD. Yellow\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What color is the sofa in the scene?\n\nA. Red\nB. Gray\nC. Green\nD. Yellow\nE. None of the above",
+      "response": "e"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What color is the sofa in the scene?\n\nA. Red\nB. Gray\nC. Green\nD. Yellow",
+      "response": "none"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What type of fruit is displayed on the kitchen counter?",
+      "response": "none"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What type of fruit is displayed on the kitchen counter?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What color is the pot that the houseplant is sitting in?\n\nA. Dark green ceramic\nB. Bright red ceramic\nC. Light ceramic\nD. Dark blue ceramic",
+      "response": "d"
+    }
+  ]
+}

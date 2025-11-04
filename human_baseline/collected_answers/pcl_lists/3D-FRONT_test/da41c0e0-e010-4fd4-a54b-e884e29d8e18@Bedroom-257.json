@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "da41c0e0-e010-4fd4-a54b-e884e29d8e18@Bedroom-257",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 4",
+  "timestamp": "2025-10-20T08:13:21.154393",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/da41c0e0-e010-4fd4-a54b-e884e29d8e18/Bedroom-257/Bedroom-257.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What type of design is featured in the kids bed in the room?\n\nA. Scandinavian design\nB. Rustic design\nC. Industrial design\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What type of design is featured in the kids bed in the room?\n\nA. Scandinavian design\nB. Rustic design\nC. Industrial design\nD. None of the above",
+      "response": "d"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What type of design is featured in the kids bed in the room?\n\nA. Scandinavian design\nB. Rustic design\nC. Industrial design",
+      "response": "none"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What type of design is featured in the kids bed in the room?\n\nA. Quantum physics\nB. Geometric progression\nC. Thermodynamics\nD. Renewable energy\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What type of design is featured in the kids bed in the room?\n\nA. Quantum physics\nB. Geometric progression\nC. Thermodynamics\nD. Renewable energy\nE. None of the above",
+      "response": "e"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What type of design is featured in the kids bed in the room?\n\nA. Quantum physics\nB. Geometric progression\nC. Thermodynamics\nD. Renewable energy",
+      "response": "none"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What shape is the table in the scene?\n\nA. Rectangular\nB. Circular\nC. Oval\nD. Square\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What shape is the table in the scene?\n\nA. Rectangular\nB. Circular\nC. Oval\nD. Square\nE. None of the above",
+      "response": "e"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What shape is the table in the scene?\n\nA. Rectangular\nB. Circular\nC. Oval\nD. Square",
+      "response": "none"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What type of outdoor grill is set up in the backyard?",
+      "response": "n/a"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What type of outdoor grill is set up in the backyard?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What type of design is featured in the kids bed in the room?\n\nA. Scandinavian design\nB. Rustic design\nC. Korean design\nD. Industrial design",
+      "response": "c"
+    }
+  ]
+}

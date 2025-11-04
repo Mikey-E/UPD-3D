@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "ff507d6c-aab0-476e-9f58-1f765cb8956e@LivingDiningRoom-13777",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 5",
+  "timestamp": "2025-10-31T08:29:27.601022",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/ff507d6c-aab0-476e-9f58-1f765cb8956e/LivingDiningRoom-13777/LivingDiningRoom-13777.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What color are the dining chairs surrounding the dining table in this living room?  \n\nA. Bright red\nB. Charcoal grey\nC. Beige\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What color are the dining chairs surrounding the dining table in this living room?  \n\nA. Bright red\nB. Charcoal grey\nC. Beige\nD. None of the above",
+      "response": "d"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What color are the dining chairs surrounding the dining table in this living room?  \n\nA. Bright red\nB. Charcoal grey\nC. Beige",
+      "response": "none"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What color are the dining chairs surrounding the dining table in this living room?  \n\nA. Smartphone\nB. Refrigerator\nC. Bicycle\nD. Telescope\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What color are the dining chairs surrounding the dining table in this living room?  \n\nA. Smartphone\nB. Refrigerator\nC. Bicycle\nD. Telescope\nE. None of the above",
+      "response": "e"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What color are the dining chairs surrounding the dining table in this living room?  \n\nA. Smartphone\nB. Refrigerator\nC. Bicycle\nD. Telescope",
+      "response": "none"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What type of artwork is displayed in the living room?\n\nA. Abstract painting\nB. Landscape photograph\nC. Sculpture\nD. Vintage poster\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What type of artwork is displayed in the living room?\n\nA. Abstract painting\nB. Landscape photograph\nC. Sculpture\nD. Vintage poster\nE. None of the above",
+      "response": "e"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What type of artwork is displayed in the living room?\n\nA. Abstract painting\nB. Landscape photograph\nC. Sculpture\nD. Vintage poster",
+      "response": "none"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What type of chandelier is hanging from the ceiling?",
+      "response": "none"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What type of chandelier is hanging from the ceiling?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What color are the dining chairs surrounding the dining table in this living room?  \n\nA. Bright red\nB. Mute teal\nC. Charcoal grey\nD. Beige",
+      "response": "b"
+    }
+  ]
+}

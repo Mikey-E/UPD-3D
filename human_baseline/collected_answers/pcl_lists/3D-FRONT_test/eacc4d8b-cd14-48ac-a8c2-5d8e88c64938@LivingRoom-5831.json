@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "eacc4d8b-cd14-48ac-a8c2-5d8e88c64938@LivingRoom-5831",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 4",
+  "timestamp": "2025-10-27T15:14:24.535789",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/eacc4d8b-cd14-48ac-a8c2-5d8e88c64938/LivingRoom-5831/LivingRoom-5831.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What style is the armchair in the living room designed after?\n\nA. Korean Country style\nB. Modern style\nC. New Chinese style\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What style is the armchair in the living room designed after?\n\nA. Korean Country style\nB. Modern style\nC. New Chinese style\nD. None of the above",
+      "response": "D"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What style is the armchair in the living room designed after?\n\nA. Korean Country style\nB. Modern style\nC. New Chinese style",
+      "response": "None"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What style is the armchair in the living room designed after?\n\nA. Quantum mechanics\nB. Solar systems\nC. Ecosystems\nD. Ancient civilizations\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What style is the armchair in the living room designed after?\n\nA. Quantum mechanics\nB. Solar systems\nC. Ecosystems\nD. Ancient civilizations\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What style is the armchair in the living room designed after?\n\nA. Quantum mechanics\nB. Solar systems\nC. Ecosystems\nD. Ancient civilizations",
+      "response": "None"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What type of rug is situated in front of the coffee table?\n\nA. Persian\nB. Shag\nC. Jute\nD. Oriental\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What type of rug is situated in front of the coffee table?\n\nA. Persian\nB. Shag\nC. Jute\nD. Oriental\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What type of rug is situated in front of the coffee table?\n\nA. Persian\nB. Shag\nC. Jute\nD. Oriental",
+      "response": "None"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What type of refrigerator is in the kitchen?",
+      "response": "unanswerable"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What type of refrigerator is in the kitchen?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What style is the armchair in the living room designed after?\n\nA. Korean Country style\nB. Modern style\nC. American Country style\nD. New Chinese style",
+      "response": "C"
+    }
+  ]
+}

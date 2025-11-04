@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "c8655cd6-29b6-4c61-b2e5-a0c7a6bc0c95@KidsRoom-6940",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 3",
+  "timestamp": "2025-10-12T11:59:22.836077",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/c8655cd6-29b6-4c61-b2e5-a0c7a6bc0c95/KidsRoom-6940/KidsRoom-6940.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What type of chair is located near the sideboard in the kids' room?\n\nA. Dining chair\nB. Armchair\nC. Recliner\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What type of chair is located near the sideboard in the kids' room?\n\nA. Dining chair\nB. Armchair\nC. Recliner\nD. None of the above",
+      "response": "D"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What type of chair is located near the sideboard in the kids' room?\n\nA. Dining chair\nB. Armchair\nC. Recliner",
+      "response": "None"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What type of chair is located near the sideboard in the kids' room?\n\nA. Jazz music\nB. Albert Einstein\nC. Goldfish care\nD. Space exploration\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What type of chair is located near the sideboard in the kids' room?\n\nA. Jazz music\nB. Albert Einstein\nC. Goldfish care\nD. Space exploration\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What type of chair is located near the sideboard in the kids' room?\n\nA. Jazz music\nB. Albert Einstein\nC. Goldfish care\nD. Space exploration",
+      "response": "None"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What type of vehicle is parked outside the room?\n\nA. Sedan\nB. Convertible\nC. SUV\nD. Minivan\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What type of vehicle is parked outside the room?\n\nA. Sedan\nB. Convertible\nC. SUV\nD. Minivan\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What type of vehicle is parked outside the room?\n\nA. Sedan\nB. Convertible\nC. SUV\nD. Minivan",
+      "response": "None"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What type of exercise equipment is located in the room?",
+      "response": "N/A"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What type of exercise equipment is located in the room?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What type of chair is located near the sideboard in the kids' room?\n\nA. Dining chair\nB. Lounge chair\nC. Armchair\nD. Recliner",
+      "response": "B"
+    }
+  ]
+}

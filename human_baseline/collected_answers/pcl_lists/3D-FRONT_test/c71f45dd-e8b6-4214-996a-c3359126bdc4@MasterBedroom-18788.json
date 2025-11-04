@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "c71f45dd-e8b6-4214-996a-c3359126bdc4@MasterBedroom-18788",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 4",
+  "timestamp": "2025-10-10T15:27:32.433569",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/c71f45dd-e8b6-4214-996a-c3359126bdc4/MasterBedroom-18788/MasterBedroom-18788.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What color is the drawer chest in the master bedroom?\n\nA. Deep brown\nB. Muted beige\nC. Classic white\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What color is the drawer chest in the master bedroom?\n\nA. Deep brown\nB. Muted beige\nC. Classic white\nD. None of the above",
+      "response": "D"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What color is the drawer chest in the master bedroom?\n\nA. Deep brown\nB. Muted beige\nC. Classic white",
+      "response": "none of these"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What color is the drawer chest in the master bedroom?\n\nA. Jupiter\nB. Saturn\nC. Neptune\nD. Mercury\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What color is the drawer chest in the master bedroom?\n\nA. Jupiter\nB. Saturn\nC. Neptune\nD. Mercury\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What color is the drawer chest in the master bedroom?\n\nA. Jupiter\nB. Saturn\nC. Neptune\nD. Mercury",
+      "response": "none"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What is the primary color of the curtains in the room?\n\nA. Yellow\nB. Black\nC. Red\nD. Green\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What is the primary color of the curtains in the room?\n\nA. Yellow\nB. Black\nC. Red\nD. Green\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What is the primary color of the curtains in the room?\n\nA. Yellow\nB. Black\nC. Red\nD. Green",
+      "response": "none"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What type of outdoor furniture is placed near the window?",
+      "response": "none"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What type of outdoor furniture is placed near the window?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What color is the drawer chest in the master bedroom?\n\nA. Deep brown\nB. Muted beige\nC. Classic white\nD. Seafoam green",
+      "response": "D"
+    }
+  ]
+}

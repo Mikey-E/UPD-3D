@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "da0a32c0-336d-4702-8ef9-b7addd0447f7@LivingRoom-9184",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 4",
+  "timestamp": "2025-10-19T18:21:25.443979",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/da0a32c0-336d-4702-8ef9-b7addd0447f7/LivingRoom-9184/LivingRoom-9184.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What piece of furniture serves as the centerpiece of the living room?\n\nA. Lounge chair\nB. Footstool\nC. End table\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What piece of furniture serves as the centerpiece of the living room?\n\nA. Lounge chair\nB. Footstool\nC. End table\nD. None of the above",
+      "response": "D"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What piece of furniture serves as the centerpiece of the living room?\n\nA. Lounge chair\nB. Footstool\nC. End table",
+      "response": "None"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What piece of furniture serves as the centerpiece of the living room?\n\nA. Galaxy\nB. Ocean\nC. Mountain\nD. Desert\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What piece of furniture serves as the centerpiece of the living room?\n\nA. Galaxy\nB. Ocean\nC. Mountain\nD. Desert\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What piece of furniture serves as the centerpiece of the living room?\n\nA. Galaxy\nB. Ocean\nC. Mountain\nD. Desert",
+      "response": "None"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What type of ceiling fan is installed in the scene?\n\nA. Industrial ceiling fan\nB. Modern ceiling fan\nC. Traditional ceiling fan\nD. Rustic ceiling fan\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What type of ceiling fan is installed in the scene?\n\nA. Industrial ceiling fan\nB. Modern ceiling fan\nC. Traditional ceiling fan\nD. Rustic ceiling fan\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What type of ceiling fan is installed in the scene?\n\nA. Industrial ceiling fan\nB. Modern ceiling fan\nC. Traditional ceiling fan\nD. Rustic ceiling fan",
+      "response": "None"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What type of artwork hangs on the walls?",
+      "response": "unanswerable"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What type of artwork hangs on the walls?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What piece of furniture serves as the centerpiece of the living room?\n\nA. Tea table\nB. Lounge chair\nC. Footstool\nD. End table",
+      "response": "A"
+    }
+  ]
+}

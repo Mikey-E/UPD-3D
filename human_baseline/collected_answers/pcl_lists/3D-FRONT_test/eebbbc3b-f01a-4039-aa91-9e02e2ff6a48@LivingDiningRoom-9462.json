@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "eebbbc3b-f01a-4039-aa91-9e02e2ff6a48@LivingDiningRoom-9462",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 5",
+  "timestamp": "2025-10-28T14:55:38.904718",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/eebbbc3b-f01a-4039-aa91-9e02e2ff6a48/LivingDiningRoom-9462/LivingDiningRoom-9462.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What style does the wine cabinet in the living room reflect?\n\nA. Modern minimalist design\nB. Rustic farmhouse aesthetics\nC. Art deco elegance\nIf none of the above answers are correct, answer: 'F'",
+      "response": "a"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What style does the wine cabinet in the living room reflect?\n\nA. Modern minimalist design\nB. Rustic farmhouse aesthetics\nC. Art deco elegance\nD. None of the above",
+      "response": "a"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What style does the wine cabinet in the living room reflect?\n\nA. Modern minimalist design\nB. Rustic farmhouse aesthetics\nC. Art deco elegance",
+      "response": "a"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What style does the wine cabinet in the living room reflect?\n\nA. Cotton candy\nB. Chocolate mousse\nC. Mint julep\nD. Cherry pie\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What style does the wine cabinet in the living room reflect?\n\nA. Cotton candy\nB. Chocolate mousse\nC. Mint julep\nD. Cherry pie\nE. None of the above",
+      "response": "e"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What style does the wine cabinet in the living room reflect?\n\nA. Cotton candy\nB. Chocolate mousse\nC. Mint julep\nD. Cherry pie",
+      "response": "none"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What type of vehicle is parked outside?\n\nA. Sports car\nB. Electric scooter\nC. Luxury sedan\nD. Motorcycle\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What type of vehicle is parked outside?\n\nA. Sports car\nB. Electric scooter\nC. Luxury sedan\nD. Motorcycle\nE. None of the above",
+      "response": "e"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What type of vehicle is parked outside?\n\nA. Sports car\nB. Electric scooter\nC. Luxury sedan\nD. Motorcycle",
+      "response": "none"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What type of chandelier is hanging from the ceiling?",
+      "response": "none"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What type of chandelier is hanging from the ceiling?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What style does the wine cabinet in the living room reflect?\n\nA. Modern minimalist design\nB. Korean-inspired sophistication\nC. Rustic farmhouse aesthetics\nD. Art deco elegance",
+      "response": "a"
+    }
+  ]
+}

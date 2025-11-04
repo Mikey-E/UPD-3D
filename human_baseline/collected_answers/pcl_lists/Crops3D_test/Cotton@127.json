@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "Cotton@127",
+  "dataset": "Crops3D_test",
+  "annotated_by": "User 5",
+  "timestamp": "2025-10-30T23:15:08.418994",
+  "file_path": "/project/3dllms/melgin/datasets/CEA/Crops3D/Cotton/127.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What type of flowers are found on the branch?\n\nA. Red roses\nB. Blue daisies\nC. Yellow tulips\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What type of flowers are found on the branch?\n\nA. Red roses\nB. Blue daisies\nC. Yellow tulips\nD. None of the above",
+      "response": "d"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What type of flowers are found on the branch?\n\nA. Red roses\nB. Blue daisies\nC. Yellow tulips",
+      "response": "none"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What type of flowers are found on the branch?\n\nA. Mercury\nB. Jupiter\nC. Saturn\nD. Neptune\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What type of flowers are found on the branch?\n\nA. Mercury\nB. Jupiter\nC. Saturn\nD. Neptune\nE. None of the above",
+      "response": "e"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What type of flowers are found on the branch?\n\nA. Mercury\nB. Jupiter\nC. Saturn\nD. Neptune",
+      "response": "none"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What type of fruit is hanging from the branch?\n\nA. Apples\nB. Oranges\nC. Bananas\nD. Grapes\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What type of fruit is hanging from the branch?\n\nA. Apples\nB. Oranges\nC. Bananas\nD. Grapes\nE. None of the above",
+      "response": "e"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What type of fruit is hanging from the branch?\n\nA. Apples\nB. Oranges\nC. Bananas\nD. Grapes",
+      "response": "none"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What type of animal is perched on the branch?",
+      "response": "none"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What type of animal is perched on the branch?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What type of flowers are found on the branch?\n\nA. Red roses\nB. Blue daisies\nC. White blossoms\nD. Yellow tulips",
+      "response": "none"
+    }
+  ]
+}

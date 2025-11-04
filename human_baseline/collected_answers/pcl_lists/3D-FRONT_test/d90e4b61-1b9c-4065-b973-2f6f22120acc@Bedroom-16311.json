@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "d90e4b61-1b9c-4065-b973-2f6f22120acc@Bedroom-16311",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 4",
+  "timestamp": "2025-10-18T15:03:35.784212",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/d90e4b61-1b9c-4065-b973-2f6f22120acc/Bedroom-16311/Bedroom-16311.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What is positioned at the far end of the bedroom?\n\nA. King-size bed\nB. Nightstand\nC. Desk\nIf none of the above answers are correct, answer: 'F'",
+      "response": "C"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What is positioned at the far end of the bedroom?\n\nA. King-size bed\nB. Nightstand\nC. Desk\nD. None of the above",
+      "response": "C"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What is positioned at the far end of the bedroom?\n\nA. King-size bed\nB. Nightstand\nC. Desk",
+      "response": "C"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What is positioned at the far end of the bedroom?\n\nA. Quantum mechanics\nB. Renaissance art\nC. Organic chemistry\nD. Classical music\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What is positioned at the far end of the bedroom?\n\nA. Quantum mechanics\nB. Renaissance art\nC. Organic chemistry\nD. Classical music\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What is positioned at the far end of the bedroom?\n\nA. Quantum mechanics\nB. Renaissance art\nC. Organic chemistry\nD. Classical music",
+      "response": "None"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What type of flooring is in the room?\n\nA. Hardwood\nB. Tile\nC. Carpet\nD. Laminate\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What type of flooring is in the room?\n\nA. Hardwood\nB. Tile\nC. Carpet\nD. Laminate\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What type of flooring is in the room?\n\nA. Hardwood\nB. Tile\nC. Carpet\nD. Laminate",
+      "response": "None"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What type of rug is used in the scene?",
+      "response": "unanswerable"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What type of rug is used in the scene?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What is positioned at the far end of the bedroom?\n\nA. King-size bed\nB. Nightstand\nC. Wardrobe\nD. Desk",
+      "response": "D"
+    }
+  ]
+}

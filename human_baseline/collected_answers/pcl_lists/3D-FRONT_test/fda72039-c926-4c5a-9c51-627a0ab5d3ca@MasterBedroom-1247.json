@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "fda72039-c926-4c5a-9c51-627a0ab5d3ca@MasterBedroom-1247",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 3",
+  "timestamp": "2025-10-31T02:17:14.619886",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/fda72039-c926-4c5a-9c51-627a0ab5d3ca/MasterBedroom-1247/MasterBedroom-1247.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What color is the wardrobe in the Master bedroom?\n\nA. Navy blue\nB. Deep brown\nC. Light gray\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What color is the wardrobe in the Master bedroom?\n\nA. Navy blue\nB. Deep brown\nC. Light gray\nD. None of the above",
+      "response": "D"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What color is the wardrobe in the Master bedroom?\n\nA. Navy blue\nB. Deep brown\nC. Light gray",
+      "response": "NONE"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What color is the wardrobe in the Master bedroom?\n\nA. Banana\nB. Coffee\nC. Ocean\nD. Mountain\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What color is the wardrobe in the Master bedroom?\n\nA. Banana\nB. Coffee\nC. Ocean\nD. Mountain\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What color is the wardrobe in the Master bedroom?\n\nA. Banana\nB. Coffee\nC. Ocean\nD. Mountain",
+      "response": "NONE"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What type of plant is displayed in the scene?\n\nA. Fiddle Leaf Fig\nB. Snake Plant\nC. Peace Lily\nD. Cactus\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What type of plant is displayed in the scene?\n\nA. Fiddle Leaf Fig\nB. Snake Plant\nC. Peace Lily\nD. Cactus\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What type of plant is displayed in the scene?\n\nA. Fiddle Leaf Fig\nB. Snake Plant\nC. Peace Lily\nD. Cactus",
+      "response": "NA"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What type of outdoor grill is located on the patio?",
+      "response": "NA"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What type of outdoor grill is located on the patio?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What color is the wardrobe in the Master bedroom?\n\nA. Crisp white\nB. Navy blue\nC. Deep brown\nD. Light gray",
+      "response": "A"
+    }
+  ]
+}

@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "cf11351b-d370-40bc-afa0-3f0e09c74d1e@Library-3082",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 4",
+  "timestamp": "2025-10-14T15:42:44.854239",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/cf11351b-d370-40bc-afa0-3f0e09c74d1e/Library-3082/Library-3082.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What type of upholstery does the second lounge chair have?\n\nA. Green velvet upholstery\nB. Metallic silver finish\nC. Warm brown upholstery\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What type of upholstery does the second lounge chair have?\n\nA. Green velvet upholstery\nB. Metallic silver finish\nC. Warm brown upholstery\nD. None of the above",
+      "response": "D"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What type of upholstery does the second lounge chair have?\n\nA. Green velvet upholstery\nB. Metallic silver finish\nC. Warm brown upholstery",
+      "response": "NONE"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What type of upholstery does the second lounge chair have?\n\nA. Mercury\nB. Carbon\nC. Hydrogen\nD. Nitrogen\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What type of upholstery does the second lounge chair have?\n\nA. Mercury\nB. Carbon\nC. Hydrogen\nD. Nitrogen\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What type of upholstery does the second lounge chair have?\n\nA. Mercury\nB. Carbon\nC. Hydrogen\nD. Nitrogen",
+      "response": "NONE"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What is the capacity of the refrigerator in the scene?\n\nA. 20 cubic feet\nB. 15 cubic feet\nC. 25 cubic feet\nD. 30 cubic feet\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What is the capacity of the refrigerator in the scene?\n\nA. 20 cubic feet\nB. 15 cubic feet\nC. 25 cubic feet\nD. 30 cubic feet\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What is the capacity of the refrigerator in the scene?\n\nA. 20 cubic feet\nB. 15 cubic feet\nC. 25 cubic feet\nD. 30 cubic feet",
+      "response": "NONE"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What is the size of the grand piano in the library?",
+      "response": "UNANSWERABLE"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What is the size of the grand piano in the library?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What type of upholstery does the second lounge chair have?\n\nA. Green velvet upholstery\nB. Metallic silver finish\nC. Warm brown upholstery\nD. Beige buttoned upholstery",
+      "response": "D"
+    }
+  ]
+}

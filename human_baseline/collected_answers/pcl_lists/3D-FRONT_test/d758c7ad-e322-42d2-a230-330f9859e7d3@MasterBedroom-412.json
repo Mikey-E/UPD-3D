@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "d758c7ad-e322-42d2-a230-330f9859e7d3@MasterBedroom-412",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 4",
+  "timestamp": "2025-10-16T20:41:35.758666",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/d758c7ad-e322-42d2-a230-330f9859e7d3/MasterBedroom-412/MasterBedroom-412.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What type of design does the ceiling lamp above the king-size bed embody?\n\nA. Traditional floral design\nB. Rustic farmhouse style\nC. Industrial vintage style\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What type of design does the ceiling lamp above the king-size bed embody?\n\nA. Traditional floral design\nB. Rustic farmhouse style\nC. Industrial vintage style\nD. None of the above",
+      "response": "D"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What type of design does the ceiling lamp above the king-size bed embody?\n\nA. Traditional floral design\nB. Rustic farmhouse style\nC. Industrial vintage style",
+      "response": "None"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What type of design does the ceiling lamp above the king-size bed embody?\n\nA. Reptile behavior\nB. Acoustic guitar models\nC. Quantum physics theories\nD. Marine biology studies\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What type of design does the ceiling lamp above the king-size bed embody?\n\nA. Reptile behavior\nB. Acoustic guitar models\nC. Quantum physics theories\nD. Marine biology studies\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What type of design does the ceiling lamp above the king-size bed embody?\n\nA. Reptile behavior\nB. Acoustic guitar models\nC. Quantum physics theories\nD. Marine biology studies",
+      "response": "None"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What is the shape of the table in the scene?\n\nA. Round\nB. Oval\nC. Square\nD. Rectangular\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What is the shape of the table in the scene?\n\nA. Round\nB. Oval\nC. Square\nD. Rectangular\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What is the shape of the table in the scene?\n\nA. Round\nB. Oval\nC. Square\nD. Rectangular",
+      "response": "None"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What shape is the rug in the room?",
+      "response": "unanswerable"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What shape is the rug in the room?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What type of design does the ceiling lamp above the king-size bed embody?\n\nA. Traditional floral design\nB. Modern hexagonal design\nC. Rustic farmhouse style\nD. Industrial vintage style",
+      "response": "None"
+    }
+  ]
+}

@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "d8cfd50c-2467-4c31-bedc-8bdebb392362@MasterBedroom-55695",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 4",
+  "timestamp": "2025-10-18T14:04:04.268007",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/d8cfd50c-2467-4c31-bedc-8bdebb392362/MasterBedroom-55695/MasterBedroom-55695.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What color are the nightstands flanking the king-size bed?\n\nA. Black\nB. White\nC. Gold\nIf none of the above answers are correct, answer: 'F'",
+      "response": "B"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What color are the nightstands flanking the king-size bed?\n\nA. Black\nB. White\nC. Gold\nD. None of the above",
+      "response": "B"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What color are the nightstands flanking the king-size bed?\n\nA. Black\nB. White\nC. Gold",
+      "response": "B"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What color are the nightstands flanking the king-size bed?\n\nA. Jupiter\nB. Mars\nC. Saturn\nD. Venus\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What color are the nightstands flanking the king-size bed?\n\nA. Jupiter\nB. Mars\nC. Saturn\nD. Venus\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What color are the nightstands flanking the king-size bed?\n\nA. Jupiter\nB. Mars\nC. Saturn\nD. Venus",
+      "response": "None"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What type of vehicle can be found in the space?\n\nA. Sedan\nB. Convertible\nC. SUV\nD. Motorcycle\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What type of vehicle can be found in the space?\n\nA. Sedan\nB. Convertible\nC. SUV\nD. Motorcycle\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What type of vehicle can be found in the space?\n\nA. Sedan\nB. Convertible\nC. SUV\nD. Motorcycle",
+      "response": "None"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What type of outdoor garden furniture is placed near the windows?",
+      "response": "unanswerable"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What type of outdoor garden furniture is placed near the windows?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What color are the nightstands flanking the king-size bed?\n\nA. Lavender\nB. Black\nC. White\nD. Gold",
+      "response": "C"
+    }
+  ]
+}

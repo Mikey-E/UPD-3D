@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "c9bdf08a-2b29-419b-9a3e-8452b6cc9dd9@LivingRoom-611",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 3",
+  "timestamp": "2025-10-14T00:07:45.134772",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/c9bdf08a-2b29-419b-9a3e-8452b6cc9dd9/LivingRoom-611/LivingRoom-611.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What color is the finish of the dining table in the living room?\n\nA. Charcoal grey\nB. White\nC. Deep green\nIf none of the above answers are correct, answer: 'F'",
+      "response": "A"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What color is the finish of the dining table in the living room?\n\nA. Charcoal grey\nB. White\nC. Deep green\nD. None of the above",
+      "response": "A"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What color is the finish of the dining table in the living room?\n\nA. Charcoal grey\nB. White\nC. Deep green",
+      "response": "A"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What color is the finish of the dining table in the living room?\n\nA. Cactus\nB. Penguin\nC. Robot\nD. Galaxy\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What color is the finish of the dining table in the living room?\n\nA. Cactus\nB. Penguin\nC. Robot\nD. Galaxy\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What color is the finish of the dining table in the living room?\n\nA. Cactus\nB. Penguin\nC. Robot\nD. Galaxy",
+      "response": "None"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What is the color of the curtains in the scene?\n\nA. Red\nB. Green\nC. Yellow\nD. Blue\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What is the color of the curtains in the scene?\n\nA. Red\nB. Green\nC. Yellow\nD. Blue\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What is the color of the curtains in the scene?\n\nA. Red\nB. Green\nC. Yellow\nD. Blue",
+      "response": "None"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What type of bed is in the living room?",
+      "response": "N/A"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What type of bed is in the living room?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What color is the finish of the dining table in the living room?\n\nA. Charcoal grey\nB. Black\nC. White\nD. Deep green",
+      "response": "A"
+    }
+  ]
+}

@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "da79fb9d-7bc6-4d2f-a6e7-8665b33c35ce@Library-69271",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 4",
+  "timestamp": "2025-10-20T08:31:15.016671",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/da79fb9d-7bc6-4d2f-a6e7-8665b33c35ce/Library-69271/Library-69271.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What is the style of the wine cabinet in the library?\n\nA. Neoclassical\nB. Modern\nC. Rustic\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What is the style of the wine cabinet in the library?\n\nA. Neoclassical\nB. Modern\nC. Rustic\nD. None of the above",
+      "response": "d"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What is the style of the wine cabinet in the library?\n\nA. Neoclassical\nB. Modern\nC. Rustic",
+      "response": "none"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What is the style of the wine cabinet in the library?\n\nA. Tropical rainforest\nB. Arctic tundra\nC. Desert biome\nD. Mountain range\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What is the style of the wine cabinet in the library?\n\nA. Tropical rainforest\nB. Arctic tundra\nC. Desert biome\nD. Mountain range\nE. None of the above",
+      "response": "e"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What is the style of the wine cabinet in the library?\n\nA. Tropical rainforest\nB. Arctic tundra\nC. Desert biome\nD. Mountain range",
+      "response": "none"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What shape is the window in the library?\n\nA. Circular\nB. Square\nC. Triangular\nD. Oval\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What shape is the window in the library?\n\nA. Circular\nB. Square\nC. Triangular\nD. Oval\nE. None of the above",
+      "response": "e"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What shape is the window in the library?\n\nA. Circular\nB. Square\nC. Triangular\nD. Oval",
+      "response": "none"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What type of fireplace is installed in the library?",
+      "response": "n/a"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What type of fireplace is installed in the library?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What is the style of the wine cabinet in the library?\n\nA. Neoclassical\nB. Modern\nC. Mediterranean\nD. Rustic",
+      "response": "c"
+    }
+  ]
+}

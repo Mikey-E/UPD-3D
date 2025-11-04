@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "cbb1452c-db03-4283-b18e-a6ed577d4bd7@LivingRoom-2715",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 4",
+  "timestamp": "2025-10-14T11:43:13.309599",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/cbb1452c-db03-4283-b18e-a6ed577d4bd7/LivingRoom-2715/LivingRoom-2715.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What style is the coffee table in the center of the living room?\n\nA. Minimalist\nB. Japanese\nC. Modern\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What style is the coffee table in the center of the living room?\n\nA. Minimalist\nB. Japanese\nC. Modern\nD. None of the above",
+      "response": "D"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What style is the coffee table in the center of the living room?\n\nA. Minimalist\nB. Japanese\nC. Modern",
+      "response": "NONE OF THESE"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What style is the coffee table in the center of the living room?\n\nA. Basketball\nB. Soccer\nC. Swimming\nD. Tennis\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What style is the coffee table in the center of the living room?\n\nA. Basketball\nB. Soccer\nC. Swimming\nD. Tennis\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What style is the coffee table in the center of the living room?\n\nA. Basketball\nB. Soccer\nC. Swimming\nD. Tennis",
+      "response": "NONE"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What color is the curtain in the living room?\n\nA. Blue\nB. Green\nC. Yellow\nD. Red\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What color is the curtain in the living room?\n\nA. Blue\nB. Green\nC. Yellow\nD. Red\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What color is the curtain in the living room?\n\nA. Blue\nB. Green\nC. Yellow\nD. Red",
+      "response": "NONE"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What type of fireplace is installed in this living room?",
+      "response": "N/A"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What type of fireplace is installed in this living room?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What style is the coffee table in the center of the living room?\n\nA. Minimalist\nB. Japanese\nC. Modern\nD. American Country",
+      "response": "D"
+    }
+  ]
+}

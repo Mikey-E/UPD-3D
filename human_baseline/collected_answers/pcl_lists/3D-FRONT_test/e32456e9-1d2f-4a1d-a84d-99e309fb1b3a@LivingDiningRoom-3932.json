@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "e32456e9-1d2f-4a1d-a84d-99e309fb1b3a@LivingDiningRoom-3932",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 4",
+  "timestamp": "2025-10-25T15:31:47.130079",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/e32456e9-1d2f-4a1d-a84d-99e309fb1b3a/LivingDiningRoom-3932/LivingDiningRoom-3932.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What is the color of the coffee table in front of the three-seat sofa?\n\nA. White\nB. Silver\nC. Beige\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What is the color of the coffee table in front of the three-seat sofa?\n\nA. White\nB. Silver\nC. Beige\nD. None of the above",
+      "response": "D"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What is the color of the coffee table in front of the three-seat sofa?\n\nA. White\nB. Silver\nC. Beige",
+      "response": "None"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What is the color of the coffee table in front of the three-seat sofa?\n\nA. Jupiter's atmosphere\nB. Great Wall of China\nC. Amazon rainforest\nD. Pacific Ocean\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What is the color of the coffee table in front of the three-seat sofa?\n\nA. Jupiter's atmosphere\nB. Great Wall of China\nC. Amazon rainforest\nD. Pacific Ocean\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What is the color of the coffee table in front of the three-seat sofa?\n\nA. Jupiter's atmosphere\nB. Great Wall of China\nC. Amazon rainforest\nD. Pacific Ocean",
+      "response": "None"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What material is the sculpture made of?\n\nA. Marble\nB. Wood\nC. Glass\nD. Metal\nIf none of the above answers are correct, answer: 'F'",
+      "response": "B"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What material is the sculpture made of?\n\nA. Marble\nB. Wood\nC. Glass\nD. Metal\nE. None of the above",
+      "response": "B"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What material is the sculpture made of?\n\nA. Marble\nB. Wood\nC. Glass\nD. Metal",
+      "response": "B"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What type of outdoor furniture is located in the living room?",
+      "response": "unanswerable"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What type of outdoor furniture is located in the living room?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What is the color of the coffee table in front of the three-seat sofa?\n\nA. White\nB. Silver\nC. Beige\nD. Black",
+      "response": "D"
+    }
+  ]
+}

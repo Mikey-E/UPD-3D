@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "c83c564f-ceb1-4cd0-b171-7eb26a283b24@MasterBedroom-6907",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 3",
+  "timestamp": "2025-10-10T16:05:20.720745",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/c83c564f-ceb1-4cd0-b171-7eb26a283b24/MasterBedroom-6907/MasterBedroom-6907.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What piece of furniture is positioned closest to the king-size bed in the master bedroom?\n\nA. Drawer chest\nB. Dressing table\nC. Dining chair\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What piece of furniture is positioned closest to the king-size bed in the master bedroom?\n\nA. Drawer chest\nB. Dressing table\nC. Dining chair\nD. None of the above",
+      "response": "D"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What piece of furniture is positioned closest to the king-size bed in the master bedroom?\n\nA. Drawer chest\nB. Dressing table\nC. Dining chair",
+      "response": "None"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What piece of furniture is positioned closest to the king-size bed in the master bedroom?\n\nA. Galaxy\nB. Volcano\nC. Forest\nD. Desert\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What piece of furniture is positioned closest to the king-size bed in the master bedroom?\n\nA. Galaxy\nB. Volcano\nC. Forest\nD. Desert\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What piece of furniture is positioned closest to the king-size bed in the master bedroom?\n\nA. Galaxy\nB. Volcano\nC. Forest\nD. Desert",
+      "response": "None"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What type of artwork hangs above the fireplace?\n\nA. Landscape painting\nB. Abstract sculpture\nC. Family portrait\nD. Vintage mirror\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What type of artwork hangs above the fireplace?\n\nA. Landscape painting\nB. Abstract sculpture\nC. Family portrait\nD. Vintage mirror\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What type of artwork hangs above the fireplace?\n\nA. Landscape painting\nB. Abstract sculpture\nC. Family portrait\nD. Vintage mirror",
+      "response": "None"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What type of sports equipment is stored in the room?",
+      "response": "N/A"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What type of sports equipment is stored in the room?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What piece of furniture is positioned closest to the king-size bed in the master bedroom?\n\nA. Nightstand\nB. Drawer chest\nC. Dressing table\nD. Dining chair",
+      "response": "A"
+    }
+  ]
+}

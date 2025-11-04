@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "c3c0787c-61a3-4a71-98b7-b8477905c11f@LivingRoom-515",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 3",
+  "timestamp": "2025-10-14T10:00:32.546332",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/c3c0787c-61a3-4a71-98b7-b8477905c11f/LivingRoom-515/LivingRoom-515.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What style is the pendant lamp in the living room?\n\nA. Modern style\nB. Neoclassical style\nC. Minimalist style\nIf none of the above answers are correct, answer: 'F'",
+      "response": "A"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What style is the pendant lamp in the living room?\n\nA. Modern style\nB. Neoclassical style\nC. Minimalist style\nD. None of the above",
+      "response": "A"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What style is the pendant lamp in the living room?\n\nA. Modern style\nB. Neoclassical style\nC. Minimalist style",
+      "response": "A"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What style is the pendant lamp in the living room?\n\nA. Spherical geometry\nB. Fluid dynamics\nC. Quantum mechanics\nD. Tectonic movement\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What style is the pendant lamp in the living room?\n\nA. Spherical geometry\nB. Fluid dynamics\nC. Quantum mechanics\nD. Tectonic movement\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What style is the pendant lamp in the living room?\n\nA. Spherical geometry\nB. Fluid dynamics\nC. Quantum mechanics\nD. Tectonic movement",
+      "response": "None"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What type of ceiling does the room feature?\n\nA. Vaulted ceiling\nB. Flat ceiling\nC. Arched ceiling\nD. Tray ceiling\nIf none of the above answers are correct, answer: 'F'",
+      "response": "D"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What type of ceiling does the room feature?\n\nA. Vaulted ceiling\nB. Flat ceiling\nC. Arched ceiling\nD. Tray ceiling\nE. None of the above",
+      "response": "D"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What type of ceiling does the room feature?\n\nA. Vaulted ceiling\nB. Flat ceiling\nC. Arched ceiling\nD. Tray ceiling",
+      "response": "D"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What type of exercise equipment is located in the room?",
+      "response": "N/A"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What type of exercise equipment is located in the room?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What style is the pendant lamp in the living room?\n\nA. Modern style\nB. Chinoiserie style\nC. Neoclassical style\nD. Minimalist style",
+      "response": "A"
+    }
+  ]
+}

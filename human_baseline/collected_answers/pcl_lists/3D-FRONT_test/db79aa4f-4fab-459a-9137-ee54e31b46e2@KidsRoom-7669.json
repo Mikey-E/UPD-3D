@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "db79aa4f-4fab-459a-9137-ee54e31b46e2@KidsRoom-7669",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 4",
+  "timestamp": "2025-10-20T15:24:23.008163",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/db79aa4f-4fab-459a-9137-ee54e31b46e2/KidsRoom-7669/KidsRoom-7669.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What design style heavily influences the kids' bunk bed in the KidsRoom?\n\nA. Ming Qing\nB. Korean\nC. Chinoiserie\nIf none of the above answers are correct, answer: 'F'",
+      "response": "B"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What design style heavily influences the kids' bunk bed in the KidsRoom?\n\nA. Ming Qing\nB. Korean\nC. Chinoiserie\nD. None of the above",
+      "response": "B"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What design style heavily influences the kids' bunk bed in the KidsRoom?\n\nA. Ming Qing\nB. Korean\nC. Chinoiserie",
+      "response": "B"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What design style heavily influences the kids' bunk bed in the KidsRoom?\n\nA. Quantum mechanics\nB. Social media marketing\nC. Ancient Greek philosophy\nD. Marine biology\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What design style heavily influences the kids' bunk bed in the KidsRoom?\n\nA. Quantum mechanics\nB. Social media marketing\nC. Ancient Greek philosophy\nD. Marine biology\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What design style heavily influences the kids' bunk bed in the KidsRoom?\n\nA. Quantum mechanics\nB. Social media marketing\nC. Ancient Greek philosophy\nD. Marine biology",
+      "response": "None"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What type of furniture is used for outdoor lounging?\n\nA. Hammock\nB. Adirondack chair\nC. Patio sofa\nD. Bistro table\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What type of furniture is used for outdoor lounging?\n\nA. Hammock\nB. Adirondack chair\nC. Patio sofa\nD. Bistro table\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What type of furniture is used for outdoor lounging?\n\nA. Hammock\nB. Adirondack chair\nC. Patio sofa\nD. Bistro table",
+      "response": "None"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What type of outdoor sports equipment is located near the windows?",
+      "response": "unanswerable"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What type of outdoor sports equipment is located near the windows?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What design style heavily influences the kids' bunk bed in the KidsRoom?\n\nA. Light Luxury\nB. Ming Qing\nC. Korean\nD. Chinoiserie",
+      "response": "C"
+    }
+  ]
+}

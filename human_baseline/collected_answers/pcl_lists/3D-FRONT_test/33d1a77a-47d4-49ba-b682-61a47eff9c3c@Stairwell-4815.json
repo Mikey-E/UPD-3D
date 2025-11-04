@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "33d1a77a-47d4-49ba-b682-61a47eff9c3c@Stairwell-4815",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 4",
+  "timestamp": "2025-10-24T16:20:58.182616",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/33d1a77a-47d4-49ba-b682-61a47eff9c3c/Stairwell-4815/Stairwell-4815.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What color is the footstool located in the stairwell?\n\nA. Soft Beige\nB. Bright Yellow\nC. Dark Brown\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What color is the footstool located in the stairwell?\n\nA. Soft Beige\nB. Bright Yellow\nC. Dark Brown\nD. None of the above",
+      "response": "d"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What color is the footstool located in the stairwell?\n\nA. Soft Beige\nB. Bright Yellow\nC. Dark Brown",
+      "response": "none"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What color is the footstool located in the stairwell?\n\nA. Melody\nB. Harmony\nC. Rhythm\nD. Tempo\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What color is the footstool located in the stairwell?\n\nA. Melody\nB. Harmony\nC. Rhythm\nD. Tempo\nE. None of the above",
+      "response": "e"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What color is the footstool located in the stairwell?\n\nA. Melody\nB. Harmony\nC. Rhythm\nD. Tempo",
+      "response": "none"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What type of clock is hanging in the stairwell?\n\nA. Grandfather clock\nB. Wall clock\nC. Digital clock\nD. Cuckoo clock\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What type of clock is hanging in the stairwell?\n\nA. Grandfather clock\nB. Wall clock\nC. Digital clock\nD. Cuckoo clock\nE. None of the above",
+      "response": "e"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What type of clock is hanging in the stairwell?\n\nA. Grandfather clock\nB. Wall clock\nC. Digital clock\nD. Cuckoo clock",
+      "response": "none"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What type of chandelier is hanging in the stairwell?",
+      "response": "n/a"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What type of chandelier is hanging in the stairwell?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What color is the footstool located in the stairwell?\n\nA. Soft Beige\nB. Bright Yellow\nC. Dark Brown\nD. Sky Blue",
+      "response": "none"
+    }
+  ]
+}

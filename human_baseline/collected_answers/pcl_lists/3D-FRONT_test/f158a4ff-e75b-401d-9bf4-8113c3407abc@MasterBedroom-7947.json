@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "f158a4ff-e75b-401d-9bf4-8113c3407abc@MasterBedroom-7947",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 4",
+  "timestamp": "2025-10-28T21:37:00.156565",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/f158a4ff-e75b-401d-9bf4-8113c3407abc/MasterBedroom-7947/MasterBedroom-7947.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What color is the wardrobe in the master bedroom?\n\nA. Black\nB. Dark brown\nC. Golden\nIf none of the above answers are correct, answer: 'F'",
+      "response": "B"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What color is the wardrobe in the master bedroom?\n\nA. Black\nB. Dark brown\nC. Golden\nD. None of the above",
+      "response": "B"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What color is the wardrobe in the master bedroom?\n\nA. Black\nB. Dark brown\nC. Golden",
+      "response": "B"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What color is the wardrobe in the master bedroom?\n\nA. Jupiter\nB. Protein\nC. Microphone\nD. Astronaut\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What color is the wardrobe in the master bedroom?\n\nA. Jupiter\nB. Protein\nC. Microphone\nD. Astronaut\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What color is the wardrobe in the master bedroom?\n\nA. Jupiter\nB. Protein\nC. Microphone\nD. Astronaut",
+      "response": "None"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What is the texture of the floor in the room?\n\nA. Smooth tile\nB. Soft carpet\nC. Polished hardwood\nD. Rough concrete\nIf none of the above answers are correct, answer: 'F'",
+      "response": "B"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What is the texture of the floor in the room?\n\nA. Smooth tile\nB. Soft carpet\nC. Polished hardwood\nD. Rough concrete\nE. None of the above",
+      "response": "B"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What is the texture of the floor in the room?\n\nA. Smooth tile\nB. Soft carpet\nC. Polished hardwood\nD. Rough concrete",
+      "response": "B"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What type of bicycle is parked in the room?",
+      "response": "unanswerable"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What type of bicycle is parked in the room?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What color is the wardrobe in the master bedroom?\n\nA. Black\nB. Dark brown\nC. Dark grey\nD. Golden",
+      "response": "B"
+    }
+  ]
+}

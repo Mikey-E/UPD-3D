@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "e60d4680-8a03-4f74-be43-99483b9ad9d3@LivingDiningRoom-515",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 5",
+  "timestamp": "2025-10-26T19:59:25.252280",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/e60d4680-8a03-4f74-be43-99483b9ad9d3/LivingDiningRoom-515/LivingDiningRoom-515.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What color is the dining table surrounded by the teal dining chairs?\n\nA. Charcoal\nB. Walnut\nC. Deep Blue\nIf none of the above answers are correct, answer: 'F'",
+      "response": "a"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What color is the dining table surrounded by the teal dining chairs?\n\nA. Charcoal\nB. Walnut\nC. Deep Blue\nD. None of the above",
+      "response": "a"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What color is the dining table surrounded by the teal dining chairs?\n\nA. Charcoal\nB. Walnut\nC. Deep Blue",
+      "response": "a"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What color is the dining table surrounded by the teal dining chairs?\n\nA. Mercury\nB. Hydrogen\nC. Neptune\nD. Carbon\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What color is the dining table surrounded by the teal dining chairs?\n\nA. Mercury\nB. Hydrogen\nC. Neptune\nD. Carbon\nE. None of the above",
+      "response": "e"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What color is the dining table surrounded by the teal dining chairs?\n\nA. Mercury\nB. Hydrogen\nC. Neptune\nD. Carbon",
+      "response": "none"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What color is the couch in the scene?\n\nA. Red\nB. Green\nC. Yellow\nD. Purple\nIf none of the above answers are correct, answer: 'F'",
+      "response": "d"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What color is the couch in the scene?\n\nA. Red\nB. Green\nC. Yellow\nD. Purple\nE. None of the above",
+      "response": "d"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What color is the couch in the scene?\n\nA. Red\nB. Green\nC. Yellow\nD. Purple",
+      "response": "d"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What type of sculpture is placed in the corner of the room?",
+      "response": "none"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What type of sculpture is placed in the corner of the room?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What color is the dining table surrounded by the teal dining chairs?\n\nA. Teal\nB. Charcoal\nC. Walnut\nD. Deep Blue",
+      "response": "b"
+    }
+  ]
+}

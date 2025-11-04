@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "ec8a5215-83a6-4325-ad7e-176c9c6f450f@LivingDiningRoom-7236",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 3",
+  "timestamp": "2025-10-27T16:24:56.848549",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/ec8a5215-83a6-4325-ad7e-176c9c6f450f/LivingDiningRoom-7236/LivingDiningRoom-7236.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What style does the three-seat sofa incorporate in this living room?\n\nA. Industrial\nB. Modern\nC. Minimalist\nIf none of the above answers are correct, answer: 'F'",
+      "response": "B"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What style does the three-seat sofa incorporate in this living room?\n\nA. Industrial\nB. Modern\nC. Minimalist\nD. None of the above",
+      "response": "B"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What style does the three-seat sofa incorporate in this living room?\n\nA. Industrial\nB. Modern\nC. Minimalist",
+      "response": "B"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What style does the three-seat sofa incorporate in this living room?\n\nA. Jazz music\nB. Classical literature\nC. Ancient architecture\nD. Modern sculpture\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What style does the three-seat sofa incorporate in this living room?\n\nA. Jazz music\nB. Classical literature\nC. Ancient architecture\nD. Modern sculpture\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What style does the three-seat sofa incorporate in this living room?\n\nA. Jazz music\nB. Classical literature\nC. Ancient architecture\nD. Modern sculpture",
+      "response": "None"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What color is the carpet in the living room?\n\nA. Green\nB. Gray\nC. Yellow\nD. Black\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What color is the carpet in the living room?\n\nA. Green\nB. Gray\nC. Yellow\nD. Black\nE. None of the above",
+      "response": "D"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What color is the carpet in the living room?\n\nA. Green\nB. Gray\nC. Yellow\nD. Black",
+      "response": "None"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What type of outdoor swing set is in the backyard?",
+      "response": "N/A"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What type of outdoor swing set is in the backyard?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What style does the three-seat sofa incorporate in this living room?\n\nA. Industrial\nB. Korean\nC. Modern\nD. Minimalist",
+      "response": "C"
+    }
+  ]
+}

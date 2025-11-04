@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "ebef71f6-da6e-4b58-ae51-40797ed0114b@MasterBedroom-203",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 4",
+  "timestamp": "2025-10-27T16:04:06.381860",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/ebef71f6-da6e-4b58-ae51-40797ed0114b/MasterBedroom-203/MasterBedroom-203.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What style is the wardrobe in the room described?\n\nA. Industrial style\nB. Vintage style\nC. Neoclassical style\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What style is the wardrobe in the room described?\n\nA. Industrial style\nB. Vintage style\nC. Neoclassical style\nD. None of the above",
+      "response": "D"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What style is the wardrobe in the room described?\n\nA. Industrial style\nB. Vintage style\nC. Neoclassical style",
+      "response": "None"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What style is the wardrobe in the room described?\n\nA. Jazz music\nB. Ocean waves\nC. Mountain landscapes\nD. Ancient artifacts\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What style is the wardrobe in the room described?\n\nA. Jazz music\nB. Ocean waves\nC. Mountain landscapes\nD. Ancient artifacts\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What style is the wardrobe in the room described?\n\nA. Jazz music\nB. Ocean waves\nC. Mountain landscapes\nD. Ancient artifacts",
+      "response": "None"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What material is the door made of?\n\nA. Wood\nB. Metal\nC. Glass\nD. Plastic\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What material is the door made of?\n\nA. Wood\nB. Metal\nC. Glass\nD. Plastic\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What material is the door made of?\n\nA. Wood\nB. Metal\nC. Glass\nD. Plastic",
+      "response": "None"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What type of exercise equipment is placed near the closet?",
+      "response": "unanswerable"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What type of exercise equipment is placed near the closet?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What style is the wardrobe in the room described?\n\nA. Japanese style\nB. Industrial style\nC. Vintage style\nD. Neoclassical style",
+      "response": "A"
+    }
+  ]
+}

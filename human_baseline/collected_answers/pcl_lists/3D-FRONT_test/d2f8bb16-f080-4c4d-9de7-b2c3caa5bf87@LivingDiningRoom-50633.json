@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "d2f8bb16-f080-4c4d-9de7-b2c3caa5bf87@LivingDiningRoom-50633",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 4",
+  "timestamp": "2025-10-15T21:17:10.990173",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/d2f8bb16-f080-4c4d-9de7-b2c3caa5bf87/LivingDiningRoom-50633/LivingDiningRoom-50633.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What color is the armchair in the living room?\n\nA. Dark charcoal\nB. Matte black\nC. Off-white\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What color is the armchair in the living room?\n\nA. Dark charcoal\nB. Matte black\nC. Off-white\nD. None of the above",
+      "response": "D"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What color is the armchair in the living room?\n\nA. Dark charcoal\nB. Matte black\nC. Off-white",
+      "response": "None"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What color is the armchair in the living room?\n\nA. Jupiter\nB. Mercury\nC. Neptune\nD. Saturn\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What color is the armchair in the living room?\n\nA. Jupiter\nB. Mercury\nC. Neptune\nD. Saturn\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What color is the armchair in the living room?\n\nA. Jupiter\nB. Mercury\nC. Neptune\nD. Saturn",
+      "response": "None"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What type of painting is displayed above the sofa?\n\nA. Landscape painting\nB. Abstract painting\nC. Portrait painting\nD. Still life painting\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What type of painting is displayed above the sofa?\n\nA. Landscape painting\nB. Abstract painting\nC. Portrait painting\nD. Still life painting\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What type of painting is displayed above the sofa?\n\nA. Landscape painting\nB. Abstract painting\nC. Portrait painting\nD. Still life painting",
+      "response": "None"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What type of wall art is displayed above the sofa?",
+      "response": "unanswerable"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What type of wall art is displayed above the sofa?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What color is the armchair in the living room?\n\nA. Deep green\nB. Dark charcoal\nC. Matte black\nD. Off-white",
+      "response": "None"
+    }
+  ]
+}

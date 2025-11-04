@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "Cotton@16",
+  "dataset": "Crops3D_test",
+  "annotated_by": "User 5",
+  "timestamp": "2025-10-30T10:02:13.838391",
+  "file_path": "/project/3dllms/melgin/datasets/CEA/Crops3D/Cotton/16.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What color are the blossoms of the small flowering tree?\n\nA. Pink\nB. Yellow\nC. Red\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What color are the blossoms of the small flowering tree?\n\nA. Pink\nB. Yellow\nC. Red\nD. None of the above",
+      "response": "d"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What color are the blossoms of the small flowering tree?\n\nA. Pink\nB. Yellow\nC. Red",
+      "response": "none"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What color are the blossoms of the small flowering tree?\n\nA. Mercury\nB. Helium\nC. Oxygen\nD. Carbon\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What color are the blossoms of the small flowering tree?\n\nA. Mercury\nB. Helium\nC. Oxygen\nD. Carbon\nE. None of the above",
+      "response": "e"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What color are the blossoms of the small flowering tree?\n\nA. Mercury\nB. Helium\nC. Oxygen\nD. Carbon",
+      "response": "none"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What is the height of the sculpture in the courtyard?\n\nA. 5 feet\nB. 7 feet\nC. 10 feet\nD. 12 feet\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What is the height of the sculpture in the courtyard?\n\nA. 5 feet\nB. 7 feet\nC. 10 feet\nD. 12 feet\nE. None of the above",
+      "response": "e"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What is the height of the sculpture in the courtyard?\n\nA. 5 feet\nB. 7 feet\nC. 10 feet\nD. 12 feet",
+      "response": "none"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What type of fruit is growing on the tree?",
+      "response": "none"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What type of fruit is growing on the tree?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What color are the blossoms of the small flowering tree?\n\nA. Pink\nB. Yellow\nC. White\nD. Red",
+      "response": "c"
+    }
+  ]
+}

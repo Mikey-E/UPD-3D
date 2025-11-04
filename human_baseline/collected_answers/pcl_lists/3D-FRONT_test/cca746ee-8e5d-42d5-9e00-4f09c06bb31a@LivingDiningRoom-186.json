@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "cca746ee-8e5d-42d5-9e00-4f09c06bb31a@LivingDiningRoom-186",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 5",
+  "timestamp": "2025-10-14T14:44:56.805058",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/cca746ee-8e5d-42d5-9e00-4f09c06bb31a/LivingDiningRoom-186/LivingDiningRoom-186.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What type of seating surrounds the dining table in the room?\n\nA. Chairs with light wooden legs\nB. Plush armchairs\nC. L-shaped sofa\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What type of seating surrounds the dining table in the room?\n\nA. Chairs with light wooden legs\nB. Plush armchairs\nC. L-shaped sofa\nD. None of the above",
+      "response": "d"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What type of seating surrounds the dining table in the room?\n\nA. Chairs with light wooden legs\nB. Plush armchairs\nC. L-shaped sofa",
+      "response": "none of these"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What type of seating surrounds the dining table in the room?\n\nA. Tropical rainforest\nB. Ancient ruins\nC. Digital marketing\nD. Quantum mechanics\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What type of seating surrounds the dining table in the room?\n\nA. Tropical rainforest\nB. Ancient ruins\nC. Digital marketing\nD. Quantum mechanics\nE. None of the above",
+      "response": "e"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What type of seating surrounds the dining table in the room?\n\nA. Tropical rainforest\nB. Ancient ruins\nC. Digital marketing\nD. Quantum mechanics",
+      "response": "none of these"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What type of sculpture is featured in the room?\n\nA. Abstract sculpture\nB. Marble sculpture\nC. Bronze sculpture\nD. Wood sculpture\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What type of sculpture is featured in the room?\n\nA. Abstract sculpture\nB. Marble sculpture\nC. Bronze sculpture\nD. Wood sculpture\nE. None of the above",
+      "response": "e"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What type of sculpture is featured in the room?\n\nA. Abstract sculpture\nB. Marble sculpture\nC. Bronze sculpture\nD. Wood sculpture",
+      "response": "none of these"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What type of outdoor grill is used for barbecuing in this space?",
+      "response": "unanswerable"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What type of outdoor grill is used for barbecuing in this space?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What type of seating surrounds the dining table in the room?\n\nA. Metallic stools\nB. Chairs with light wooden legs\nC. Plush armchairs\nD. L-shaped sofa",
+      "response": "a"
+    }
+  ]
+}

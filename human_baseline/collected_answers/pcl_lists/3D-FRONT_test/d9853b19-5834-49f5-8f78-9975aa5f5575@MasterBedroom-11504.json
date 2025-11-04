@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "d9853b19-5834-49f5-8f78-9975aa5f5575@MasterBedroom-11504",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 4",
+  "timestamp": "2025-10-18T20:18:26.566944",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/d9853b19-5834-49f5-8f78-9975aa5f5575/MasterBedroom-11504/MasterBedroom-11504.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What element of the Masterbedroom contributes significantly to its industrial style?\n\nA. The ceiling lamp with a warm wooden hue\nB. The king-size bed with its neutral palette\nC. The tv stand in Japanese style\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What element of the Masterbedroom contributes significantly to its industrial style?\n\nA. The ceiling lamp with a warm wooden hue\nB. The king-size bed with its neutral palette\nC. The tv stand in Japanese style\nD. None of the above",
+      "response": "D"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What element of the Masterbedroom contributes significantly to its industrial style?\n\nA. The ceiling lamp with a warm wooden hue\nB. The king-size bed with its neutral palette\nC. The tv stand in Japanese style",
+      "response": "None"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What element of the Masterbedroom contributes significantly to its industrial style?\n\nA. Quantum mechanics\nB. Plate tectonics\nC. Cellular respiration\nD. Photosynthesis\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What element of the Masterbedroom contributes significantly to its industrial style?\n\nA. Quantum mechanics\nB. Plate tectonics\nC. Cellular respiration\nD. Photosynthesis\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What element of the Masterbedroom contributes significantly to its industrial style?\n\nA. Quantum mechanics\nB. Plate tectonics\nC. Cellular respiration\nD. Photosynthesis",
+      "response": "None"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What shape is the dining table?\n\nA. Round\nB. Rectangle\nC. Oval\nD. Square\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What shape is the dining table?\n\nA. Round\nB. Rectangle\nC. Oval\nD. Square\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What shape is the dining table?\n\nA. Round\nB. Rectangle\nC. Oval\nD. Square",
+      "response": "None"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What is the material and color of the small table located by the window?",
+      "response": "unanswerable"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What is the material and color of the small table located by the window?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What element of the Masterbedroom contributes significantly to its industrial style?\n\nA. The ceiling lamp with a warm wooden hue\nB. The king-size bed with its neutral palette\nC. The wardrobe with a muted grey color and distressed finish\nD. The tv stand in Japanese style",
+      "response": "C"
+    }
+  ]
+}

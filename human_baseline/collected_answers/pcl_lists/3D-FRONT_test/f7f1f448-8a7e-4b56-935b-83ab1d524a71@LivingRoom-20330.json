@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "f7f1f448-8a7e-4b56-935b-83ab1d524a71@LivingRoom-20330",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 3",
+  "timestamp": "2025-10-30T00:36:28.859449",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/f7f1f448-8a7e-4b56-935b-83ab1d524a71/LivingRoom-20330/LivingRoom-20330.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What style is the dining table described in the living room?\n\nA. Art Deco style\nB. Scandinavian style\nC. Minimalist style\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What style is the dining table described in the living room?\n\nA. Art Deco style\nB. Scandinavian style\nC. Minimalist style\nD. None of the above",
+      "response": "D"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What style is the dining table described in the living room?\n\nA. Art Deco style\nB. Scandinavian style\nC. Minimalist style",
+      "response": "NONE"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What style is the dining table described in the living room?\n\nA. Pythagorean theorem\nB. Quantum mechanics\nC. Mesopotamian architecture\nD. Renaissance painting\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What style is the dining table described in the living room?\n\nA. Pythagorean theorem\nB. Quantum mechanics\nC. Mesopotamian architecture\nD. Renaissance painting\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What style is the dining table described in the living room?\n\nA. Pythagorean theorem\nB. Quantum mechanics\nC. Mesopotamian architecture\nD. Renaissance painting",
+      "response": "NONE"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What type of fruit is featured prominently in this living room?\n\nA. Apples\nB. Bananas\nC. Oranges\nD. Grapes\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What type of fruit is featured prominently in this living room?\n\nA. Apples\nB. Bananas\nC. Oranges\nD. Grapes\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What type of fruit is featured prominently in this living room?\n\nA. Apples\nB. Bananas\nC. Oranges\nD. Grapes",
+      "response": "NA"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What type of aquarium is installed in the room?",
+      "response": "NA"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What type of aquarium is installed in the room?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What style is the dining table described in the living room?\n\nA. New Chinese style\nB. Art Deco style\nC. Scandinavian style\nD. Minimalist style",
+      "response": "A"
+    }
+  ]
+}

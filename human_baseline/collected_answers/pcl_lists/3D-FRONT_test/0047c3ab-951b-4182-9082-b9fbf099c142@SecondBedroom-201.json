@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "0047c3ab-951b-4182-9082-b9fbf099c142@SecondBedroom-201",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 5",
+  "timestamp": "2025-10-31T10:50:36.547372",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/0047c3ab-951b-4182-9082-b9fbf099c142/SecondBedroom-201/SecondBedroom-201.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What style is the king-size bed in the Second bedroom?\n\nA. Rustic\nB. Minimalist\nC. Art Deco\nIf none of the above answers are correct, answer: 'F'",
+      "response": "c"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What style is the king-size bed in the Second bedroom?\n\nA. Rustic\nB. Minimalist\nC. Art Deco\nD. None of the above",
+      "response": "c"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What style is the king-size bed in the Second bedroom?\n\nA. Rustic\nB. Minimalist\nC. Art Deco",
+      "response": "c"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What style is the king-size bed in the Second bedroom?\n\nA. Trampoline\nB. Roller coaster\nC. Ferris wheel\nD. Merry-go-round\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What style is the king-size bed in the Second bedroom?\n\nA. Trampoline\nB. Roller coaster\nC. Ferris wheel\nD. Merry-go-round\nE. None of the above",
+      "response": "e"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What style is the king-size bed in the Second bedroom?\n\nA. Trampoline\nB. Roller coaster\nC. Ferris wheel\nD. Merry-go-round",
+      "response": "none"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What type of sculpture is featured in the room?\n\nA. Marble bust\nB. Bronze statue\nC. Wooden carving\nD. Glass sculpture\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What type of sculpture is featured in the room?\n\nA. Marble bust\nB. Bronze statue\nC. Wooden carving\nD. Glass sculpture\nE. None of the above",
+      "response": "e"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What type of sculpture is featured in the room?\n\nA. Marble bust\nB. Bronze statue\nC. Wooden carving\nD. Glass sculpture",
+      "response": "none"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What type of outdoor furniture is in the scene?",
+      "response": "none"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What type of outdoor furniture is in the scene?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What style is the king-size bed in the Second bedroom?\n\nA. Rustic\nB. Industrial\nC. Minimalist\nD. Art Deco",
+      "response": "d"
+    }
+  ]
+}

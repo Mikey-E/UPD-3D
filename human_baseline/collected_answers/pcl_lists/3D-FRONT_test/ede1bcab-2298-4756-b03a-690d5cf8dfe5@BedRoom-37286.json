@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "ede1bcab-2298-4756-b03a-690d5cf8dfe5@BedRoom-37286",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 5",
+  "timestamp": "2025-10-28T11:10:38.612948",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/ede1bcab-2298-4756-b03a-690d5cf8dfe5/BedRoom-37286/BedRoom-37286.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What is the color of the children's cabinet in the bedroom?\n\nA. Light blue\nB. Bright yellow\nC. Dark green\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What is the color of the children's cabinet in the bedroom?\n\nA. Light blue\nB. Bright yellow\nC. Dark green\nD. None of the above",
+      "response": "d"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What is the color of the children's cabinet in the bedroom?\n\nA. Light blue\nB. Bright yellow\nC. Dark green",
+      "response": "none"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What is the color of the children's cabinet in the bedroom?\n\nA. Pineapple\nB. Sandcastle\nC. Jellyfish\nD. Octopus\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What is the color of the children's cabinet in the bedroom?\n\nA. Pineapple\nB. Sandcastle\nC. Jellyfish\nD. Octopus\nE. None of the above",
+      "response": "e"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What is the color of the children's cabinet in the bedroom?\n\nA. Pineapple\nB. Sandcastle\nC. Jellyfish\nD. Octopus",
+      "response": "none"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What shape is the dining table?\n\nA. Round\nB. Oval\nC. Square\nD. Rectangular\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What shape is the dining table?\n\nA. Round\nB. Oval\nC. Square\nD. Rectangular\nE. None of the above",
+      "response": "e"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What shape is the dining table?\n\nA. Round\nB. Oval\nC. Square\nD. Rectangular",
+      "response": "none"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What type of fireplace is installed in the room?",
+      "response": "none"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What type of fireplace is installed in the room?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What is the color of the children's cabinet in the bedroom?\n\nA. Light blue\nB. Bright yellow\nC. Soft pink\nD. Dark green",
+      "response": "none"
+    }
+  ]
+}

@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "f1e45de4-64ae-4d44-9662-937c1b1e9b73@Library-930",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 3",
+  "timestamp": "2025-10-28T23:41:47.657279",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/f1e45de4-64ae-4d44-9662-937c1b1e9b73/Library-930/Library-930.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What style is the ceiling lamp in the library?\n\nA. Modern\nB. Minimalist\nC. New Chinese\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What style is the ceiling lamp in the library?\n\nA. Modern\nB. Minimalist\nC. New Chinese\nD. None of the above",
+      "response": "D"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What style is the ceiling lamp in the library?\n\nA. Modern\nB. Minimalist\nC. New Chinese",
+      "response": "None"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What style is the ceiling lamp in the library?\n\nA. Rhombus\nB. Octagon\nC. Quadrilateral\nD. Trapezoid\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What style is the ceiling lamp in the library?\n\nA. Rhombus\nB. Octagon\nC. Quadrilateral\nD. Trapezoid\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What style is the ceiling lamp in the library?\n\nA. Rhombus\nB. Octagon\nC. Quadrilateral\nD. Trapezoid",
+      "response": "None"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What flavor is the cake served in the library?\n\nA. Chocolate\nB. Vanilla\nC. Strawberry\nD. Red Velvet\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What flavor is the cake served in the library?\n\nA. Chocolate\nB. Vanilla\nC. Strawberry\nD. Red Velvet\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What flavor is the cake served in the library?\n\nA. Chocolate\nB. Vanilla\nC. Strawberry\nD. Red Velvet",
+      "response": "None"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What style is the chandelier that hangs in the room?",
+      "response": "N/A"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What style is the chandelier that hangs in the room?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What style is the ceiling lamp in the library?\n\nA. Modern\nB. Chinoiserie\nC. Minimalist\nD. New Chinese",
+      "response": "B"
+    }
+  ]
+}

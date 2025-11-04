@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "c21363a2-ebf9-480f-9793-c50e293a8f5a@Library-5265",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 3",
+  "timestamp": "2025-10-06T11:42:41.875426",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/c21363a2-ebf9-480f-9793-c50e293a8f5a/Library-5265/Library-5265.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What color is the lounge chair in the library?\n\nA. Bright white\nB. Matte black\nC. Rich brown\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What color is the lounge chair in the library?\n\nA. Bright white\nB. Matte black\nC. Rich brown\nD. None of the above",
+      "response": "D"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What color is the lounge chair in the library?\n\nA. Bright white\nB. Matte black\nC. Rich brown",
+      "response": "None"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What color is the lounge chair in the library?\n\nA. Piano\nB. Violin\nC. Drums\nD. Guitar\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What color is the lounge chair in the library?\n\nA. Piano\nB. Violin\nC. Drums\nD. Guitar\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What color is the lounge chair in the library?\n\nA. Piano\nB. Violin\nC. Drums\nD. Guitar",
+      "response": "None"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What is the primary color of the curtains in the scene?\n\nA. Red\nB. Yellow\nC. Green\nD. Purple\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What is the primary color of the curtains in the scene?\n\nA. Red\nB. Yellow\nC. Green\nD. Purple\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What is the primary color of the curtains in the scene?\n\nA. Red\nB. Yellow\nC. Green\nD. Purple",
+      "response": "N/A"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What color is the rug in front of the lounge chair?",
+      "response": "Red"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What color is the rug in front of the lounge chair?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "Red"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What color is the lounge chair in the library?\n\nA. Bright white\nB. Matte black\nC. Deep teal\nD. Rich brown",
+      "response": "C"
+    }
+  ]
+}

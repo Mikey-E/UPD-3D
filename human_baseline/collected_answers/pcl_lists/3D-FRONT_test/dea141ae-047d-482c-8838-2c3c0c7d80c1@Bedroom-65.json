@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "dea141ae-047d-482c-8838-2c3c0c7d80c1@Bedroom-65",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 4",
+  "timestamp": "2025-10-24T16:19:50.260115",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/dea141ae-047d-482c-8838-2c3c0c7d80c1/Bedroom-65/Bedroom-65.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What color are the nightstands in the bedroom?\n\nA. Deep Charcoal Grey\nB. Light Grey\nC. Black\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What color are the nightstands in the bedroom?\n\nA. Deep Charcoal Grey\nB. Light Grey\nC. Black\nD. None of the above",
+      "response": "d"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What color are the nightstands in the bedroom?\n\nA. Deep Charcoal Grey\nB. Light Grey\nC. Black",
+      "response": "none"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What color are the nightstands in the bedroom?\n\nA. Jupiter\nB. Plasma\nC. Sandstorm\nD. Thunderstorm\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What color are the nightstands in the bedroom?\n\nA. Jupiter\nB. Plasma\nC. Sandstorm\nD. Thunderstorm\nE. None of the above",
+      "response": "e"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What color are the nightstands in the bedroom?\n\nA. Jupiter\nB. Plasma\nC. Sandstorm\nD. Thunderstorm",
+      "response": "none"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What type of sculpture is displayed in the scene?\n\nA. Abstract\nB. Figurative\nC. Relief\nD. Kinetic\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What type of sculpture is displayed in the scene?\n\nA. Abstract\nB. Figurative\nC. Relief\nD. Kinetic\nE. None of the above",
+      "response": "e"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What type of sculpture is displayed in the scene?\n\nA. Abstract\nB. Figurative\nC. Relief\nD. Kinetic",
+      "response": "none"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What type of pool table is located in the bedroom?",
+      "response": "n/a"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What type of pool table is located in the bedroom?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What color are the nightstands in the bedroom?\n\nA. Deep Charcoal Grey\nB. Light Grey\nC. Maroon\nD. Black",
+      "response": "c"
+    }
+  ]
+}

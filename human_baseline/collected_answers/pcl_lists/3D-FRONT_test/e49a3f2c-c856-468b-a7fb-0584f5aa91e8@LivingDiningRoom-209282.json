@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "e49a3f2c-c856-468b-a7fb-0584f5aa91e8@LivingDiningRoom-209282",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 5",
+  "timestamp": "2025-10-25T20:41:43.847739",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/e49a3f2c-c856-468b-a7fb-0584f5aa91e8/LivingDiningRoom-209282/LivingDiningRoom-209282.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What type of design do the dining chairs have?\n\nA. Armless design with leather upholstery\nB. Low-back design with dark wooden finish\nC. Folding design with metal frame\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What type of design do the dining chairs have?\n\nA. Armless design with leather upholstery\nB. Low-back design with dark wooden finish\nC. Folding design with metal frame\nD. None of the above",
+      "response": "d"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What type of design do the dining chairs have?\n\nA. Armless design with leather upholstery\nB. Low-back design with dark wooden finish\nC. Folding design with metal frame",
+      "response": "none"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What type of design do the dining chairs have?\n\nA. Cloud formation\nB. Ocean currents\nC. Geological layers\nD. Solar eclipses\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What type of design do the dining chairs have?\n\nA. Cloud formation\nB. Ocean currents\nC. Geological layers\nD. Solar eclipses\nE. None of the above",
+      "response": "e"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What type of design do the dining chairs have?\n\nA. Cloud formation\nB. Ocean currents\nC. Geological layers\nD. Solar eclipses",
+      "response": "none"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What type of artwork is displayed on the wall?\n\nA. Landscape painting\nB. Abstract sculpture\nC. Portrait photograph\nD. Mixed media collage\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What type of artwork is displayed on the wall?\n\nA. Landscape painting\nB. Abstract sculpture\nC. Portrait photograph\nD. Mixed media collage\nE. None of the above",
+      "response": "e"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What type of artwork is displayed on the wall?\n\nA. Landscape painting\nB. Abstract sculpture\nC. Portrait photograph\nD. Mixed media collage",
+      "response": "none"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What shape is the rug in the room?",
+      "response": "none"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What shape is the rug in the room?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What type of design do the dining chairs have?\n\nA. Armless design with leather upholstery\nB. Low-back design with dark wooden finish\nC. High-back design with light wooden finish\nD. Folding design with metal frame",
+      "response": "c"
+    }
+  ]
+}

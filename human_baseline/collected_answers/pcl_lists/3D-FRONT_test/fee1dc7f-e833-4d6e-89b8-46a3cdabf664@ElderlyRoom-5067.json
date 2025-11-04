@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "fee1dc7f-e833-4d6e-89b8-46a3cdabf664@ElderlyRoom-5067",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 3",
+  "timestamp": "2025-10-31T08:06:08.914391",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/fee1dc7f-e833-4d6e-89b8-46a3cdabf664/ElderlyRoom-5067/ElderlyRoom-5067.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What color are the legs of the desk in the ElderlyRoom?\n\nA. Light wood\nB. Black\nC. Dark walnut\nIf none of the above answers are correct, answer: 'F'",
+      "response": "A"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What color are the legs of the desk in the ElderlyRoom?\n\nA. Light wood\nB. Black\nC. Dark walnut\nD. None of the above",
+      "response": "A"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What color are the legs of the desk in the ElderlyRoom?\n\nA. Light wood\nB. Black\nC. Dark walnut",
+      "response": "A"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What color are the legs of the desk in the ElderlyRoom?\n\nA. Hurricane\nB. Earthquake\nC. Avalanche\nD. Tsunami\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What color are the legs of the desk in the ElderlyRoom?\n\nA. Hurricane\nB. Earthquake\nC. Avalanche\nD. Tsunami\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What color are the legs of the desk in the ElderlyRoom?\n\nA. Hurricane\nB. Earthquake\nC. Avalanche\nD. Tsunami",
+      "response": "None"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What type of painting is displayed in the scene?\n\nA. Landscape painting\nB. Abstract painting\nC. Portrait painting\nD. Still life painting\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What type of painting is displayed in the scene?\n\nA. Landscape painting\nB. Abstract painting\nC. Portrait painting\nD. Still life painting\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What type of painting is displayed in the scene?\n\nA. Landscape painting\nB. Abstract painting\nC. Portrait painting\nD. Still life painting",
+      "response": "None"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What type of oven is present in the kitchen?",
+      "response": "N/A"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What type of oven is present in the kitchen?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What color are the legs of the desk in the ElderlyRoom?\n\nA. Light wood\nB. Black\nC. Dark walnut\nD. White metal",
+      "response": "A"
+    }
+  ]
+}

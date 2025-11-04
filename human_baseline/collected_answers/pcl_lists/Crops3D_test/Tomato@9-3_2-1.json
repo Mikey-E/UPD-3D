@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "Tomato@9-3_2-1",
+  "dataset": "Crops3D_test",
+  "annotated_by": "User 5",
+  "timestamp": "2025-10-31T06:37:00.622179",
+  "file_path": "/project/3dllms/melgin/datasets/CEA/Crops3D/Tomato/9-3_2-1.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What is the appearance of the leaves on the described branch?\n\nA. They are large and broad, giving a wide shape to the branch\nB. They are needle-like and arranged in clusters\nC. They are thick and waxy, covering the branch completely\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What is the appearance of the leaves on the described branch?\n\nA. They are large and broad, giving a wide shape to the branch\nB. They are needle-like and arranged in clusters\nC. They are thick and waxy, covering the branch completely\nD. None of the above",
+      "response": "d"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What is the appearance of the leaves on the described branch?\n\nA. They are large and broad, giving a wide shape to the branch\nB. They are needle-like and arranged in clusters\nC. They are thick and waxy, covering the branch completely",
+      "response": "none"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What is the appearance of the leaves on the described branch?\n\nA. Intergalactic travel methods\nB. Subatomic particle interactions\nC. Historical civilizations of the Pacific Islands\nD. The lifecycle of a star\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What is the appearance of the leaves on the described branch?\n\nA. Intergalactic travel methods\nB. Subatomic particle interactions\nC. Historical civilizations of the Pacific Islands\nD. The lifecycle of a star\nE. None of the above",
+      "response": "e"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What is the appearance of the leaves on the described branch?\n\nA. Intergalactic travel methods\nB. Subatomic particle interactions\nC. Historical civilizations of the Pacific Islands\nD. The lifecycle of a star",
+      "response": "none"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What type of furniture is used in the kitchen?\n\nA. Dining table\nB. Bar stools\nC. Kitchen island\nD. Cupboard\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What type of furniture is used in the kitchen?\n\nA. Dining table\nB. Bar stools\nC. Kitchen island\nD. Cupboard\nE. None of the above",
+      "response": "e"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What type of furniture is used in the kitchen?\n\nA. Dining table\nB. Bar stools\nC. Kitchen island\nD. Cupboard",
+      "response": "none"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What type of stone is used in the sculptures in the room?",
+      "response": "none"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What type of stone is used in the sculptures in the room?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What is the appearance of the leaves on the described branch?\n\nA. They are large and broad, giving a wide shape to the branch\nB. They are small and have a fern-like appearance\nC. They are needle-like and arranged in clusters\nD. They are thick and waxy, covering the branch completely",
+      "response": "b"
+    }
+  ]
+}

@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "fe432468-5d7c-47e3-b2bb-4f24c904aa93@LivingRoom-9184",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 3",
+  "timestamp": "2025-10-31T00:21:59.989731",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/fe432468-5d7c-47e3-b2bb-4f24c904aa93/LivingRoom-9184/LivingRoom-9184.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What style are the dining chairs that surround the dining table in the living room?\n\nA. Victorian\nB. Modern\nC. Rustic\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What style are the dining chairs that surround the dining table in the living room?\n\nA. Victorian\nB. Modern\nC. Rustic\nD. None of the above",
+      "response": "D"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What style are the dining chairs that surround the dining table in the living room?\n\nA. Victorian\nB. Modern\nC. Rustic",
+      "response": "NONE"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What style are the dining chairs that surround the dining table in the living room?\n\nA. Acoustic guitar\nB. Electric piano\nC. Drum set\nD. Violin\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What style are the dining chairs that surround the dining table in the living room?\n\nA. Acoustic guitar\nB. Electric piano\nC. Drum set\nD. Violin\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What style are the dining chairs that surround the dining table in the living room?\n\nA. Acoustic guitar\nB. Electric piano\nC. Drum set\nD. Violin",
+      "response": "NONE"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What color are the curtains in the room?\n\nA. Red\nB. Green\nC. Yellow\nD. Purple\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What color are the curtains in the room?\n\nA. Red\nB. Green\nC. Yellow\nD. Purple\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What color are the curtains in the room?\n\nA. Red\nB. Green\nC. Yellow\nD. Purple",
+      "response": "NONE"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What type of art installation is suspended from the ceiling?",
+      "response": "NA"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What type of art installation is suspended from the ceiling?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What style are the dining chairs that surround the dining table in the living room?\n\nA. Mediterranean\nB. Victorian\nC. Modern\nD. Rustic",
+      "response": "A"
+    }
+  ]
+}

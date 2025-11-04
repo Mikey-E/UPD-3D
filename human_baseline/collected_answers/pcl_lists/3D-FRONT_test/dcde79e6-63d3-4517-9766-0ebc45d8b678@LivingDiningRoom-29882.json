@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "dcde79e6-63d3-4517-9766-0ebc45d8b678@LivingDiningRoom-29882",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 4",
+  "timestamp": "2025-10-21T13:35:16.236607",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/dcde79e6-63d3-4517-9766-0ebc45d8b678/LivingDiningRoom-29882/LivingDiningRoom-29882.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What color are the lounge chairs arranged for conversation in the living room?\n\nA. Charcoal gray\nB. Deep navy\nC. Black\nIf none of the above answers are correct, answer: 'F'",
+      "response": "A"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What color are the lounge chairs arranged for conversation in the living room?\n\nA. Charcoal gray\nB. Deep navy\nC. Black\nD. None of the above",
+      "response": "A"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What color are the lounge chairs arranged for conversation in the living room?\n\nA. Charcoal gray\nB. Deep navy\nC. Black",
+      "response": "A"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What color are the lounge chairs arranged for conversation in the living room?\n\nA. Grapefruit\nB. Avalanche\nC. Octopus\nD. Galaxy\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What color are the lounge chairs arranged for conversation in the living room?\n\nA. Grapefruit\nB. Avalanche\nC. Octopus\nD. Galaxy\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What color are the lounge chairs arranged for conversation in the living room?\n\nA. Grapefruit\nB. Avalanche\nC. Octopus\nD. Galaxy",
+      "response": "None"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What type of artwork is displayed above the sofa?\n\nA. Landscape painting\nB. Abstract sculpture\nC. Portrait photograph\nD. Wall tapestry\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What type of artwork is displayed above the sofa?\n\nA. Landscape painting\nB. Abstract sculpture\nC. Portrait photograph\nD. Wall tapestry\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What type of artwork is displayed above the sofa?\n\nA. Landscape painting\nB. Abstract sculpture\nC. Portrait photograph\nD. Wall tapestry",
+      "response": "None"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What type of fish is in the aquarium?",
+      "response": "unanswerable"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What type of fish is in the aquarium?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What color are the lounge chairs arranged for conversation in the living room?\n\nA. Mustard yellow\nB. Charcoal gray\nC. Deep navy\nD. Black",
+      "response": "B"
+    }
+  ]
+}

@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "c776fe0c-3c75-4f96-be4e-49c2ade7b30e@LivingDiningRoom-30074",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 3",
+  "timestamp": "2025-10-10T15:39:25.687282",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/c776fe0c-3c75-4f96-be4e-49c2ade7b30e/LivingDiningRoom-30074/LivingDiningRoom-30074.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What color is the upholstery of the loveseat sofa in the living room?\n\nA. Dark blue\nB. Light brown\nC. Bright yellow\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What color is the upholstery of the loveseat sofa in the living room?\n\nA. Dark blue\nB. Light brown\nC. Bright yellow\nD. None of the above",
+      "response": "D"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What color is the upholstery of the loveseat sofa in the living room?\n\nA. Dark blue\nB. Light brown\nC. Bright yellow",
+      "response": "None"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What color is the upholstery of the loveseat sofa in the living room?\n\nA. Galaxy\nB. Ecosystem\nC. Pyramid\nD. Constellation\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What color is the upholstery of the loveseat sofa in the living room?\n\nA. Galaxy\nB. Ecosystem\nC. Pyramid\nD. Constellation\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What color is the upholstery of the loveseat sofa in the living room?\n\nA. Galaxy\nB. Ecosystem\nC. Pyramid\nD. Constellation",
+      "response": "None"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What type of vehicle is parked in the living room?\n\nA. Sedan\nB. SUV\nC. Motorcycle\nD. Minivan\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What type of vehicle is parked in the living room?\n\nA. Sedan\nB. SUV\nC. Motorcycle\nD. Minivan\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What type of vehicle is parked in the living room?\n\nA. Sedan\nB. SUV\nC. Motorcycle\nD. Minivan",
+      "response": "None"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What type of bed is in the room?",
+      "response": "N/A"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What type of bed is in the room?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What color is the upholstery of the loveseat sofa in the living room?\n\nA. Dark blue\nB. Light brown\nC. Bright yellow\nD. Neutral gray",
+      "response": "D"
+    }
+  ]
+}

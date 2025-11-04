@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "cd8f3a84-0516-4ca7-aeab-c4b4027d39a9@Bedroom-421",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 5",
+  "timestamp": "2025-10-14T15:10:18.882485",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/cd8f3a84-0516-4ca7-aeab-c4b4027d39a9/Bedroom-421/Bedroom-421.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What design style is reflected in the wardrobe in the bedroom?\n\nA. Victorian elegance\nB. Rustic farmhouse\nC. Art deco\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What design style is reflected in the wardrobe in the bedroom?\n\nA. Victorian elegance\nB. Rustic farmhouse\nC. Art deco\nD. None of the above",
+      "response": "d"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What design style is reflected in the wardrobe in the bedroom?\n\nA. Victorian elegance\nB. Rustic farmhouse\nC. Art deco",
+      "response": "none of these"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What design style is reflected in the wardrobe in the bedroom?\n\nA. Urban legend\nB. Social media trend\nC. Culinary art\nD. Film genre\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What design style is reflected in the wardrobe in the bedroom?\n\nA. Urban legend\nB. Social media trend\nC. Culinary art\nD. Film genre\nE. None of the above",
+      "response": "e"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What design style is reflected in the wardrobe in the bedroom?\n\nA. Urban legend\nB. Social media trend\nC. Culinary art\nD. Film genre",
+      "response": "none of these"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What type of artwork is displayed in the scene?\n\nA. Landscape painting\nB. Abstract sculpture\nC. Portrait photograph\nD. Mosaic tile art\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What type of artwork is displayed in the scene?\n\nA. Landscape painting\nB. Abstract sculpture\nC. Portrait photograph\nD. Mosaic tile art\nE. None of the above",
+      "response": "e"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What type of artwork is displayed in the scene?\n\nA. Landscape painting\nB. Abstract sculpture\nC. Portrait photograph\nD. Mosaic tile art",
+      "response": "none of these"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What shape is the coffee table?",
+      "response": "unanswerable"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What shape is the coffee table?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What design style is reflected in the wardrobe in the bedroom?\n\nA. Victorian elegance\nB. Rustic farmhouse\nC. Art deco\nD. Japanese minimalism",
+      "response": "d"
+    }
+  ]
+}

@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "fb76c361-48d1-4450-a4a3-0b9bea32fb8e@LivingRoom-35461",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 3",
+  "timestamp": "2025-10-30T16:12:28.214472",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/fb76c361-48d1-4450-a4a3-0b9bea32fb8e/LivingRoom-35461/LivingRoom-35461.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What style is the armchair that features beige upholstery?\n\nA. Neoclassical\nB. Japanese\nC. Modern\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What style is the armchair that features beige upholstery?\n\nA. Neoclassical\nB. Japanese\nC. Modern\nD. None of the above",
+      "response": "D"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What style is the armchair that features beige upholstery?\n\nA. Neoclassical\nB. Japanese\nC. Modern",
+      "response": "NONE"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What style is the armchair that features beige upholstery?\n\nA. Trampoline\nB. Skateboard\nC. Paintball\nD. Surfboard\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What style is the armchair that features beige upholstery?\n\nA. Trampoline\nB. Skateboard\nC. Paintball\nD. Surfboard\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What style is the armchair that features beige upholstery?\n\nA. Trampoline\nB. Skateboard\nC. Paintball\nD. Surfboard",
+      "response": "NONE"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What is the texture of the rugs in the room?\n\nA. Silk\nB. Wool\nC. Cotton\nD. Velvet\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What is the texture of the rugs in the room?\n\nA. Silk\nB. Wool\nC. Cotton\nD. Velvet\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What is the texture of the rugs in the room?\n\nA. Silk\nB. Wool\nC. Cotton\nD. Velvet",
+      "response": "NA"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What type of outdoor swing set is installed in the backyard?",
+      "response": "NA"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What type of outdoor swing set is installed in the backyard?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What style is the armchair that features beige upholstery?\n\nA. Mediterranean\nB. Neoclassical\nC. Japanese\nD. Modern",
+      "response": "A"
+    }
+  ]
+}

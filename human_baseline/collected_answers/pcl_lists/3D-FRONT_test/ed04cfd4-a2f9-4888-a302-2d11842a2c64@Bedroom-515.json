@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "ed04cfd4-a2f9-4888-a302-2d11842a2c64@Bedroom-515",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 3",
+  "timestamp": "2025-10-27T16:45:14.054019",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/ed04cfd4-a2f9-4888-a302-2d11842a2c64/Bedroom-515/Bedroom-515.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What feature in the bedroom helps provide a cozy glow and contributes to the room's inviting atmosphere?\n\nA. A charcoal black wardrobe with textured wood grain finish\nB. A king-size bed with rich chocolate brown upholstery\nC. Matching nightstands in neutral grey\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What feature in the bedroom helps provide a cozy glow and contributes to the room's inviting atmosphere?\n\nA. A charcoal black wardrobe with textured wood grain finish\nB. A king-size bed with rich chocolate brown upholstery\nC. Matching nightstands in neutral grey\nD. None of the above",
+      "response": "D"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What feature in the bedroom helps provide a cozy glow and contributes to the room's inviting atmosphere?\n\nA. A charcoal black wardrobe with textured wood grain finish\nB. A king-size bed with rich chocolate brown upholstery\nC. Matching nightstands in neutral grey",
+      "response": "None"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What feature in the bedroom helps provide a cozy glow and contributes to the room's inviting atmosphere?\n\nA. Winter sports gear\nB. Tropical fruit varieties\nC. Ancient mythological creatures\nD. Classic cars from the 1960s\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What feature in the bedroom helps provide a cozy glow and contributes to the room's inviting atmosphere?\n\nA. Winter sports gear\nB. Tropical fruit varieties\nC. Ancient mythological creatures\nD. Classic cars from the 1960s\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What feature in the bedroom helps provide a cozy glow and contributes to the room's inviting atmosphere?\n\nA. Winter sports gear\nB. Tropical fruit varieties\nC. Ancient mythological creatures\nD. Classic cars from the 1960s",
+      "response": "None"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What type of sculpture is displayed on the dresser?\n\nA. Marble statue\nB. Bronze figure\nC. Wooden carving\nD. Glass abstract piece\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What type of sculpture is displayed on the dresser?\n\nA. Marble statue\nB. Bronze figure\nC. Wooden carving\nD. Glass abstract piece\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What type of sculpture is displayed on the dresser?\n\nA. Marble statue\nB. Bronze figure\nC. Wooden carving\nD. Glass abstract piece",
+      "response": "None"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What type of coffee machine is located on the kitchen counter?",
+      "response": "N/A"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What type of coffee machine is located on the kitchen counter?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What feature in the bedroom helps provide a cozy glow and contributes to the room's inviting atmosphere?\n\nA. A charcoal black wardrobe with textured wood grain finish\nB. A king-size bed with rich chocolate brown upholstery\nC. A trio of pendant lamps with warm wood finishes\nD. Matching nightstands in neutral grey",
+      "response": "C"
+    }
+  ]
+}

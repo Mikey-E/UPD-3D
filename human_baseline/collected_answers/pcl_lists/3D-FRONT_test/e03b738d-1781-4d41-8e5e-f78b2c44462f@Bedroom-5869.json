@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "e03b738d-1781-4d41-8e5e-f78b2c44462f@Bedroom-5869",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 5",
+  "timestamp": "2025-10-24T20:33:01.631729",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/e03b738d-1781-4d41-8e5e-f78b2c44462f/Bedroom-5869/Bedroom-5869.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What style is the pendant lamp that is suspended above the bed?\n\nA. Industrial\nB. American Country\nC. Modern\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What style is the pendant lamp that is suspended above the bed?\n\nA. Industrial\nB. American Country\nC. Modern\nD. None of the above",
+      "response": "d"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What style is the pendant lamp that is suspended above the bed?\n\nA. Industrial\nB. American Country\nC. Modern",
+      "response": "none"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What style is the pendant lamp that is suspended above the bed?\n\nA. Galaxy\nB. Ocean\nC. Mountain\nD. Desert\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What style is the pendant lamp that is suspended above the bed?\n\nA. Galaxy\nB. Ocean\nC. Mountain\nD. Desert\nE. None of the above",
+      "response": "e"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What style is the pendant lamp that is suspended above the bed?\n\nA. Galaxy\nB. Ocean\nC. Mountain\nD. Desert",
+      "response": "none"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What is the color of the sofa in the room?\n\nA. Blue\nB. Yellow\nC. Grey\nD. Green\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What is the color of the sofa in the room?\n\nA. Blue\nB. Yellow\nC. Grey\nD. Green\nE. None of the above",
+      "response": "e"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What is the color of the sofa in the room?\n\nA. Blue\nB. Yellow\nC. Grey\nD. Green",
+      "response": "none"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What type of exercise equipment is in the room?",
+      "response": "none"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What type of exercise equipment is in the room?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What style is the pendant lamp that is suspended above the bed?\n\nA. Chinoiserie\nB. Industrial\nC. American Country\nD. Modern",
+      "response": "a"
+    }
+  ]
+}

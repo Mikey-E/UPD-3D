@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "e4822a12-4032-4229-bf70-a3c35a30840c@MasterBedroom-30521",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 5",
+  "timestamp": "2025-10-25T20:35:15.479945",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/e4822a12-4032-4229-bf70-a3c35a30840c/MasterBedroom-30521/MasterBedroom-30521.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What type of design does the wardrobe in the Master bedroom exemplify?\n\nA. Minimalist design\nB. Art Deco style\nC. Rustic farmhouse style\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What type of design does the wardrobe in the Master bedroom exemplify?\n\nA. Minimalist design\nB. Art Deco style\nC. Rustic farmhouse style\nD. None of the above",
+      "response": "d"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What type of design does the wardrobe in the Master bedroom exemplify?\n\nA. Minimalist design\nB. Art Deco style\nC. Rustic farmhouse style",
+      "response": "none"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What type of design does the wardrobe in the Master bedroom exemplify?\n\nA. Subtraction\nB. Division\nC. Addition\nD. Multiplication\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What type of design does the wardrobe in the Master bedroom exemplify?\n\nA. Subtraction\nB. Division\nC. Addition\nD. Multiplication\nE. None of the above",
+      "response": "e"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What type of design does the wardrobe in the Master bedroom exemplify?\n\nA. Subtraction\nB. Division\nC. Addition\nD. Multiplication",
+      "response": "none"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What is the primary function of the ladder?\n\nA. To reach high shelves\nB. To hang decorations\nC. To support plants\nD. To serve as a bookshelf\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What is the primary function of the ladder?\n\nA. To reach high shelves\nB. To hang decorations\nC. To support plants\nD. To serve as a bookshelf\nE. None of the above",
+      "response": "e"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What is the primary function of the ladder?\n\nA. To reach high shelves\nB. To hang decorations\nC. To support plants\nD. To serve as a bookshelf",
+      "response": "none"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What is the shape and size of the rug that is not in the Master bedroom?",
+      "response": "none"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What is the shape and size of the rug that is not in the Master bedroom?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What type of design does the wardrobe in the Master bedroom exemplify?\n\nA. Minimalist design\nB. Art Deco style\nC. Rustic farmhouse style\nD. Korean-inspired modern industrial design",
+      "response": "d"
+    }
+  ]
+}

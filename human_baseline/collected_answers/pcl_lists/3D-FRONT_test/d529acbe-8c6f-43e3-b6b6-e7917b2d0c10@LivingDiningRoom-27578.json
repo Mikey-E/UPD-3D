@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "d529acbe-8c6f-43e3-b6b6-e7917b2d0c10@LivingDiningRoom-27578",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 5",
+  "timestamp": "2025-10-16T11:25:38.137110",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/d529acbe-8c6f-43e3-b6b6-e7917b2d0c10/LivingDiningRoom-27578/LivingDiningRoom-27578.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What color is the three-seat sofa in the living room?\n\nA. Blue\nB. Teal\nC. Gray\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What color is the three-seat sofa in the living room?\n\nA. Blue\nB. Teal\nC. Gray\nD. None of the above",
+      "response": "d"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What color is the three-seat sofa in the living room?\n\nA. Blue\nB. Teal\nC. Gray",
+      "response": "none of these"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What color is the three-seat sofa in the living room?\n\nA. Punctuality\nB. Latitude\nC. Ecosystem\nD. Harmony\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What color is the three-seat sofa in the living room?\n\nA. Punctuality\nB. Latitude\nC. Ecosystem\nD. Harmony\nE. None of the above",
+      "response": "e"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What color is the three-seat sofa in the living room?\n\nA. Punctuality\nB. Latitude\nC. Ecosystem\nD. Harmony",
+      "response": "none of these"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What type of window treatments are used in the room?\n\nA. Venetian blinds\nB. Sheer curtains\nC. Roman shades\nD. Roller shades\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What type of window treatments are used in the room?\n\nA. Venetian blinds\nB. Sheer curtains\nC. Roman shades\nD. Roller shades\nE. None of the above",
+      "response": "e"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What type of window treatments are used in the room?\n\nA. Venetian blinds\nB. Sheer curtains\nC. Roman shades\nD. Roller shades",
+      "response": "none of these"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What type of fireplace is used in the living room?",
+      "response": "no fireplace"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What type of fireplace is used in the living room?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What color is the three-seat sofa in the living room?\n\nA. Black\nB. Blue\nC. Teal\nD. Gray",
+      "response": "a"
+    }
+  ]
+}

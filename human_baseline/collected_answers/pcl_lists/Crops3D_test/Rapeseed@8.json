@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "Rapeseed@8",
+  "dataset": "Crops3D_test",
+  "annotated_by": "User 5",
+  "timestamp": "2025-10-30T23:32:20.629702",
+  "file_path": "/project/3dllms/melgin/datasets/CEA/Crops3D/Rapeseed/8.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What is the shape of the pot that contains the potted plant?\n\nA. Square and flat\nB. Wide and round\nC. Short and rectangular\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What is the shape of the pot that contains the potted plant?\n\nA. Square and flat\nB. Wide and round\nC. Short and rectangular\nD. None of the above",
+      "response": "d"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What is the shape of the pot that contains the potted plant?\n\nA. Square and flat\nB. Wide and round\nC. Short and rectangular",
+      "response": "none"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What is the shape of the pot that contains the potted plant?\n\nA. Perpendicular lines\nB. Quantum mechanics\nC. Algebraic expressions\nD. Chemical reactions\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What is the shape of the pot that contains the potted plant?\n\nA. Perpendicular lines\nB. Quantum mechanics\nC. Algebraic expressions\nD. Chemical reactions\nE. None of the above",
+      "response": "e"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What is the shape of the pot that contains the potted plant?\n\nA. Perpendicular lines\nB. Quantum mechanics\nC. Algebraic expressions\nD. Chemical reactions",
+      "response": "none"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What type of chair is in the scene?\n\nA. Recliner\nB. Bar stool\nC. bean bag\nD. Armchair\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What type of chair is in the scene?\n\nA. Recliner\nB. Bar stool\nC. bean bag\nD. Armchair\nE. None of the above",
+      "response": "e"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What type of chair is in the scene?\n\nA. Recliner\nB. Bar stool\nC. bean bag\nD. Armchair",
+      "response": "none"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What type of fish is swimming in the room?",
+      "response": "none"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What type of fish is swimming in the room?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What is the shape of the pot that contains the potted plant?\n\nA. Square and flat\nB. Wide and round\nC. Tall and cylindrical\nD. Short and rectangular",
+      "response": "d"
+    }
+  ]
+}

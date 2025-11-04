@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "e3080420-c235-480d-8122-9ba120001e5e@LivingRoom-11489",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 4",
+  "timestamp": "2025-10-25T15:17:23.914158",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/e3080420-c235-480d-8122-9ba120001e5e/LivingRoom-11489/LivingRoom-11489.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What color is the loveseat sofa in the living room?\n\nA. Dark Grey\nB. Soft White\nC. Bright Blue\nIf none of the above answers are correct, answer: 'F'",
+      "response": "A"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What color is the loveseat sofa in the living room?\n\nA. Dark Grey\nB. Soft White\nC. Bright Blue\nD. None of the above",
+      "response": "A"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What color is the loveseat sofa in the living room?\n\nA. Dark Grey\nB. Soft White\nC. Bright Blue",
+      "response": "A"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What color is the loveseat sofa in the living room?\n\nA. Mercury\nB. Jupiter\nC. Saturn\nD. Neptune\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What color is the loveseat sofa in the living room?\n\nA. Mercury\nB. Jupiter\nC. Saturn\nD. Neptune\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What color is the loveseat sofa in the living room?\n\nA. Mercury\nB. Jupiter\nC. Saturn\nD. Neptune",
+      "response": "None"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What type of sculpture is displayed in the living room?\n\nA. Abstract metal sculpture\nB. Classical marble sculpture\nC. Contemporary glass sculpture\nD. Traditional wooden sculpture\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What type of sculpture is displayed in the living room?\n\nA. Abstract metal sculpture\nB. Classical marble sculpture\nC. Contemporary glass sculpture\nD. Traditional wooden sculpture\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What type of sculpture is displayed in the living room?\n\nA. Abstract metal sculpture\nB. Classical marble sculpture\nC. Contemporary glass sculpture\nD. Traditional wooden sculpture",
+      "response": "None"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What type of outdoor barbecue grill is located on the patio?",
+      "response": "unanswerable"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What type of outdoor barbecue grill is located on the patio?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What color is the loveseat sofa in the living room?\n\nA. Dark Grey\nB. Light Beige\nC. Soft White\nD. Bright Blue",
+      "response": "A"
+    }
+  ]
+}

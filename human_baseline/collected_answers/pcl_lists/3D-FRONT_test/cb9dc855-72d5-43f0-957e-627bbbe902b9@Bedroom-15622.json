@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "cb9dc855-72d5-43f0-957e-627bbbe902b9@Bedroom-15622",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 4",
+  "timestamp": "2025-10-14T19:42:01.191120",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/cb9dc855-72d5-43f0-957e-627bbbe902b9/Bedroom-15622/Bedroom-15622.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What color are the nightstands in the bedroom?\n\nA. Textured fabric\nB. Deep charcoal\nC. Grey\nIf none of the above answers are correct, answer: 'F'",
+      "response": "C"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What color are the nightstands in the bedroom?\n\nA. Textured fabric\nB. Deep charcoal\nC. Grey\nD. None of the above",
+      "response": "c"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What color are the nightstands in the bedroom?\n\nA. Textured fabric\nB. Deep charcoal\nC. Grey",
+      "response": "c"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What color are the nightstands in the bedroom?\n\nA. Basketball\nB. Symphony\nC. Volcano\nD. Galaxy\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What color are the nightstands in the bedroom?\n\nA. Basketball\nB. Symphony\nC. Volcano\nD. Galaxy\nE. None of the above",
+      "response": "e"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What color are the nightstands in the bedroom?\n\nA. Basketball\nB. Symphony\nC. Volcano\nD. Galaxy",
+      "response": "none"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What type of sculpture enhances the visual appeal of the space?\n\nA. Abstract figure\nB. Classic bust\nC. Geometric form\nD. Relief panel\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What type of sculpture enhances the visual appeal of the space?\n\nA. Abstract figure\nB. Classic bust\nC. Geometric form\nD. Relief panel\nE. None of the above",
+      "response": "e"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What type of sculpture enhances the visual appeal of the space?\n\nA. Abstract figure\nB. Classic bust\nC. Geometric form\nD. Relief panel",
+      "response": "none"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What type of outdoor grill is hidden in the storage closet?",
+      "response": "unanswerable"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What type of outdoor grill is hidden in the storage closet?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What color are the nightstands in the bedroom?\n\nA. Textured fabric\nB. Deep charcoal\nC. Grey\nD. Muted lavender",
+      "response": "c"
+    }
+  ]
+}

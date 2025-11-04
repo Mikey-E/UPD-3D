@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "Rapeseed@61",
+  "dataset": "Crops3D_test",
+  "annotated_by": "User 5",
+  "timestamp": "2025-10-30T23:34:48.254776",
+  "file_path": "/project/3dllms/melgin/datasets/CEA/Crops3D/Rapeseed/61.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What color is the pot that the plant is growing in?\n\nA. Red\nB. Green\nC. White\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What color is the pot that the plant is growing in?\n\nA. Red\nB. Green\nC. White\nD. None of the above",
+      "response": "d"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What color is the pot that the plant is growing in?\n\nA. Red\nB. Green\nC. White",
+      "response": "none"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What color is the pot that the plant is growing in?\n\nA. Elephant\nB. Mountain\nC. Ocean\nD. Galaxy\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What color is the pot that the plant is growing in?\n\nA. Elephant\nB. Mountain\nC. Ocean\nD. Galaxy\nE. None of the above",
+      "response": "e"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What color is the pot that the plant is growing in?\n\nA. Elephant\nB. Mountain\nC. Ocean\nD. Galaxy",
+      "response": "none"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What type of fruit is hanging from the ceiling?\n\nA. Apple\nB. Banana\nC. Orange\nD. Grapes\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What type of fruit is hanging from the ceiling?\n\nA. Apple\nB. Banana\nC. Orange\nD. Grapes\nE. None of the above",
+      "response": "e"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What type of fruit is hanging from the ceiling?\n\nA. Apple\nB. Banana\nC. Orange\nD. Grapes",
+      "response": "none"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What type of fish is swimming in a tank nearby?",
+      "response": "none"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What type of fish is swimming in a tank nearby?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What color is the pot that the plant is growing in?\n\nA. Dark Blue\nB. Red\nC. Green\nD. White",
+      "response": "a"
+    }
+  ]
+}

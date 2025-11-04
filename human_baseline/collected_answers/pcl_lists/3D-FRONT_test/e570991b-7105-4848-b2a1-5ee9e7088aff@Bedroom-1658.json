@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "e570991b-7105-4848-b2a1-5ee9e7088aff@Bedroom-1658",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 3",
+  "timestamp": "2025-10-26T18:42:37.612179",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/e570991b-7105-4848-b2a1-5ee9e7088aff/Bedroom-1658/Bedroom-1658.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What color is the <p>bed</p>[<single bed-0>] in the bedroom?\n\nA. Soft grey\nB. Muted beige\nC. White\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What color is the <p>bed</p>[<single bed-0>] in the bedroom?\n\nA. Soft grey\nB. Muted beige\nC. White\nD. None of the above",
+      "response": "D"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What color is the <p>bed</p>[<single bed-0>] in the bedroom?\n\nA. Soft grey\nB. Muted beige\nC. White",
+      "response": "NONE"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What color is the <p>bed</p>[<single bed-0>] in the bedroom?\n\nA. Mountain\nB. Ocean\nC. Desert\nD. Forest\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What color is the <p>bed</p>[<single bed-0>] in the bedroom?\n\nA. Mountain\nB. Ocean\nC. Desert\nD. Forest\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What color is the <p>bed</p>[<single bed-0>] in the bedroom?\n\nA. Mountain\nB. Ocean\nC. Desert\nD. Forest",
+      "response": "NONE"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What is the shape of the windows in the room?\n\nA. Round\nB. Square\nC. Triangular\nD. Hexagonal\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What is the shape of the windows in the room?\n\nA. Round\nB. Square\nC. Triangular\nD. Hexagonal\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What is the shape of the windows in the room?\n\nA. Round\nB. Square\nC. Triangular\nD. Hexagonal",
+      "response": "NA"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What type of outdoor furniture is located on the balcony?",
+      "response": "NA"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What type of outdoor furniture is located on the balcony?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What color is the <p>bed</p>[<single bed-0>] in the bedroom?\n\nA. Deep teal\nB. Soft grey\nC. Muted beige\nD. White",
+      "response": "A"
+    }
+  ]
+}

@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "cec23801-2e77-47da-9f36-f9aead97a541@LivingDiningRoom-44473",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 4",
+  "timestamp": "2025-10-14T15:39:35.876884",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/cec23801-2e77-47da-9f36-f9aead97a541/LivingDiningRoom-44473/LivingDiningRoom-44473.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What design style is prominently featured in the lounge chair with a light oak finish and squared structure?\n\nA. Industrial\nB. Mediterranean\nC. Minimalist\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What design style is prominently featured in the lounge chair with a light oak finish and squared structure?\n\nA. Industrial\nB. Mediterranean\nC. Minimalist\nD. None of the above",
+      "response": "D"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What design style is prominently featured in the lounge chair with a light oak finish and squared structure?\n\nA. Industrial\nB. Mediterranean\nC. Minimalist",
+      "response": "NONE"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What design style is prominently featured in the lounge chair with a light oak finish and squared structure?\n\nA. Tropical rainforest\nB. Arctic tundra\nC. Desert oasis\nD. Coral reef\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What design style is prominently featured in the lounge chair with a light oak finish and squared structure?\n\nA. Tropical rainforest\nB. Arctic tundra\nC. Desert oasis\nD. Coral reef\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What design style is prominently featured in the lounge chair with a light oak finish and squared structure?\n\nA. Tropical rainforest\nB. Arctic tundra\nC. Desert oasis\nD. Coral reef",
+      "response": "NONE"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What type of plant is displayed prominently above the coffee table?\n\nA. Fiddle Leaf Fig\nB. Snake Plant\nC. Bonsai Tree\nD. Monstera Deliciosa\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What type of plant is displayed prominently above the coffee table?\n\nA. Fiddle Leaf Fig\nB. Snake Plant\nC. Bonsai Tree\nD. Monstera Deliciosa\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What type of plant is displayed prominently above the coffee table?\n\nA. Fiddle Leaf Fig\nB. Snake Plant\nC. Bonsai Tree\nD. Monstera Deliciosa",
+      "response": "NONE"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What type of art installation is featured in the room?",
+      "response": "UNANSWERABLE"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What type of art installation is featured in the room?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What design style is prominently featured in the lounge chair with a light oak finish and squared structure?\n\nA. New Chinese\nB. Industrial\nC. Mediterranean\nD. Minimalist",
+      "response": "A"
+    }
+  ]
+}

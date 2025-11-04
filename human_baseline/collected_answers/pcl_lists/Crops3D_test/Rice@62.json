@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "Rice@62",
+  "dataset": "Crops3D_test",
+  "annotated_by": "User 5",
+  "timestamp": "2025-10-31T00:06:22.678923",
+  "file_path": "/project/3dllms/melgin/datasets/CEA/Crops3D/Rice/62.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What is the shape of the leaves of the potted plant?\n\nA. Round and broad\nB. Small and oval\nC. Flat and square\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What is the shape of the leaves of the potted plant?\n\nA. Round and broad\nB. Small and oval\nC. Flat and square\nD. None of the above",
+      "response": "d"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What is the shape of the leaves of the potted plant?\n\nA. Round and broad\nB. Small and oval\nC. Flat and square",
+      "response": "none"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What is the shape of the leaves of the potted plant?\n\nA. Cumulus clouds\nB. Rock formations\nC. Ocean currents\nD. Mountain ranges\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What is the shape of the leaves of the potted plant?\n\nA. Cumulus clouds\nB. Rock formations\nC. Ocean currents\nD. Mountain ranges\nE. None of the above",
+      "response": "e"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What is the shape of the leaves of the potted plant?\n\nA. Cumulus clouds\nB. Rock formations\nC. Ocean currents\nD. Mountain ranges",
+      "response": "none"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What type of mirror is hanging in the room?\n\nA. Convex mirror\nB. Infinity mirror\nC. Antique mirror\nD. Smart mirror\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What type of mirror is hanging in the room?\n\nA. Convex mirror\nB. Infinity mirror\nC. Antique mirror\nD. Smart mirror\nE. None of the above",
+      "response": "e"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What type of mirror is hanging in the room?\n\nA. Convex mirror\nB. Infinity mirror\nC. Antique mirror\nD. Smart mirror",
+      "response": "none"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What type of aquatic creature is swimming nearby?",
+      "response": "none"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What type of aquatic creature is swimming nearby?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What is the shape of the leaves of the potted plant?\n\nA. Round and broad\nB. Long and narrow\nC. Small and oval\nD. Flat and square",
+      "response": "b"
+    }
+  ]
+}

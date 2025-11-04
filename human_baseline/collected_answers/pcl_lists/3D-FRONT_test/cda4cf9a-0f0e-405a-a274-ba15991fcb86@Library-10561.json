@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "cda4cf9a-0f0e-405a-a274-ba15991fcb86@Library-10561",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 4",
+  "timestamp": "2025-10-14T15:10:53.205088",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/cda4cf9a-0f0e-405a-a274-ba15991fcb86/Library-10561/Library-10561.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What color is the lounge chair in the library?\n\nA. Dark espresso\nB. Bright green\nC. Beige\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What color is the lounge chair in the library?\n\nA. Dark espresso\nB. Bright green\nC. Beige\nD. None of the above",
+      "response": "D"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What color is the lounge chair in the library?\n\nA. Dark espresso\nB. Bright green\nC. Beige",
+      "response": "NONE"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What color is the lounge chair in the library?\n\nA. Organic chemistry\nB. Quantum mechanics\nC. Renaissance art\nD. Ancient civilizations\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What color is the lounge chair in the library?\n\nA. Organic chemistry\nB. Quantum mechanics\nC. Renaissance art\nD. Ancient civilizations\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What color is the lounge chair in the library?\n\nA. Organic chemistry\nB. Quantum mechanics\nC. Renaissance art\nD. Ancient civilizations",
+      "response": "NONE"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What type of artwork is displayed in the library?\n\nA. Landscape painting\nB. Abstract sculpture\nC. Portrait photography\nD. Still life arrangement\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What type of artwork is displayed in the library?\n\nA. Landscape painting\nB. Abstract sculpture\nC. Portrait photography\nD. Still life arrangement\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What type of artwork is displayed in the library?\n\nA. Landscape painting\nB. Abstract sculpture\nC. Portrait photography\nD. Still life arrangement",
+      "response": "NONE"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What type of artwork is hanging from the ceiling?",
+      "response": "NO ARTWORK"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What type of artwork is hanging from the ceiling?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What color is the lounge chair in the library?\n\nA. Dark espresso\nB. Creamy white\nC. Bright green\nD. Beige",
+      "response": "B"
+    }
+  ]
+}

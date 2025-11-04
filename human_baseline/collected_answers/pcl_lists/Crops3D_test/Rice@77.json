@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "Rice@77",
+  "dataset": "Crops3D_test",
+  "annotated_by": "User 5",
+  "timestamp": "2025-10-31T06:21:35.742260",
+  "file_path": "/project/3dllms/melgin/datasets/CEA/Crops3D/Rice/77.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What shape do the leaves of the potted plant resemble? \n\nA. Chairs\nB. Vases\nC. Cubes\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What shape do the leaves of the potted plant resemble? \n\nA. Chairs\nB. Vases\nC. Cubes\nD. None of the above",
+      "response": "d"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What shape do the leaves of the potted plant resemble? \n\nA. Chairs\nB. Vases\nC. Cubes",
+      "response": "none"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What shape do the leaves of the potted plant resemble? \n\nA. Pressure\nB. Voltage\nC. Circuit\nD. Resistance\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What shape do the leaves of the potted plant resemble? \n\nA. Pressure\nB. Voltage\nC. Circuit\nD. Resistance\nE. None of the above",
+      "response": "e"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What shape do the leaves of the potted plant resemble? \n\nA. Pressure\nB. Voltage\nC. Circuit\nD. Resistance",
+      "response": "none"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What type of vehicle is parked outside?\n\nA. Sedan\nB. Convertible\nC. SUV\nD. Hatchback\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What type of vehicle is parked outside?\n\nA. Sedan\nB. Convertible\nC. SUV\nD. Hatchback\nE. None of the above",
+      "response": "e"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What type of vehicle is parked outside?\n\nA. Sedan\nB. Convertible\nC. SUV\nD. Hatchback",
+      "response": "none"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What shape is the rug in the room?",
+      "response": "none"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What shape is the rug in the room?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What shape do the leaves of the potted plant resemble? \n\nA. Chairs\nB. Vases\nC. Swords\nD. Cubes",
+      "response": "c"
+    }
+  ]
+}

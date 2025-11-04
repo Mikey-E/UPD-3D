@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "c0ff8f34-a0c3-47b1-92cc-fdccee514833@LivingDiningRoom-128466",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 3",
+  "timestamp": "2025-10-10T15:40:43.076866",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/c0ff8f34-a0c3-47b1-92cc-fdccee514833/LivingDiningRoom-128466/LivingDiningRoom-128466.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What is the shape of the dining table in the living room?\n\nA. Round\nB. Rectangular\nC. Square\nIf none of the above answers are correct, answer: 'F'",
+      "response": "A"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What is the shape of the dining table in the living room?\n\nA. Round\nB. Rectangular\nC. Square\nD. None of the above",
+      "response": "A"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What is the shape of the dining table in the living room?\n\nA. Round\nB. Rectangular\nC. Square",
+      "response": "A"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What is the shape of the dining table in the living room?\n\nA. Pineapple\nB. Ballet\nC. Glacier\nD. Symphony\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What is the shape of the dining table in the living room?\n\nA. Pineapple\nB. Ballet\nC. Glacier\nD. Symphony\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What is the shape of the dining table in the living room?\n\nA. Pineapple\nB. Ballet\nC. Glacier\nD. Symphony",
+      "response": "None"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What type of ceiling fan is installed in the living room?\n\nA. Industrial ceiling fan\nB. Traditional ceiling fan\nC. Modern ceiling fan\nD. Rustic ceiling fan\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What type of ceiling fan is installed in the living room?\n\nA. Industrial ceiling fan\nB. Traditional ceiling fan\nC. Modern ceiling fan\nD. Rustic ceiling fan\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What type of ceiling fan is installed in the living room?\n\nA. Industrial ceiling fan\nB. Traditional ceiling fan\nC. Modern ceiling fan\nD. Rustic ceiling fan",
+      "response": "None"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What type of athletic equipment is located in the room?",
+      "response": "None"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What type of athletic equipment is located in the room?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What is the shape of the dining table in the living room?\n\nA. Oval\nB. Round\nC. Rectangular\nD. Square",
+      "response": "A"
+    }
+  ]
+}

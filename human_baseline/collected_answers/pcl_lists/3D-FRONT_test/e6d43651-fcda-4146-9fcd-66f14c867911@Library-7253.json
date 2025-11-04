@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "e6d43651-fcda-4146-9fcd-66f14c867911@Library-7253",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 4",
+  "timestamp": "2025-10-26T21:31:17.558142",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/e6d43651-fcda-4146-9fcd-66f14c867911/Library-7253/Library-7253.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What design style is the ceiling lamp in the library?\n\nA. Modern\nB. Mediterranean\nC. Korean\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What design style is the ceiling lamp in the library?\n\nA. Modern\nB. Mediterranean\nC. Korean\nD. None of the above",
+      "response": "D"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What design style is the ceiling lamp in the library?\n\nA. Modern\nB. Mediterranean\nC. Korean",
+      "response": "None"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What design style is the ceiling lamp in the library?\n\nA. Uplift\nB. Downward\nC. Lateral\nD. Vertical\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What design style is the ceiling lamp in the library?\n\nA. Uplift\nB. Downward\nC. Lateral\nD. Vertical\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What design style is the ceiling lamp in the library?\n\nA. Uplift\nB. Downward\nC. Lateral\nD. Vertical",
+      "response": "None"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What shape is the table in the scene?\n\nA. Round\nB. Square\nC. Oval\nD. Rectangular\nIf none of the above answers are correct, answer: 'F'",
+      "response": "D"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What shape is the table in the scene?\n\nA. Round\nB. Square\nC. Oval\nD. Rectangular\nE. None of the above",
+      "response": "D"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What shape is the table in the scene?\n\nA. Round\nB. Square\nC. Oval\nD. Rectangular",
+      "response": "D"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What type of cooking appliance is in the library?",
+      "response": "unanswerable"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What type of cooking appliance is in the library?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What design style is the ceiling lamp in the library?\n\nA. Chinoiserie\nB. Modern\nC. Mediterranean\nD. Korean",
+      "response": "A"
+    }
+  ]
+}

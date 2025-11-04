@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "e038f7d3-4503-402a-8fb1-9165f34a69bb@Bedroom-780",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 5",
+  "timestamp": "2025-10-24T20:18:15.415381",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/e038f7d3-4503-402a-8fb1-9165f34a69bb/Bedroom-780/Bedroom-780.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What type of bed is at the center of the bedroom?\n\nA. Queen-size bed\nB. Double bed\nC. Twin bed\nIf none of the above answers are correct, answer: 'F'",
+      "response": "b"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What type of bed is at the center of the bedroom?\n\nA. Queen-size bed\nB. Double bed\nC. Twin bed\nD. None of the above",
+      "response": "b"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What type of bed is at the center of the bedroom?\n\nA. Queen-size bed\nB. Double bed\nC. Twin bed",
+      "response": "b"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What type of bed is at the center of the bedroom?\n\nA. Mountain range\nB. Tropical rainforest\nC. Desert landscape\nD. Polar ice cap\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What type of bed is at the center of the bedroom?\n\nA. Mountain range\nB. Tropical rainforest\nC. Desert landscape\nD. Polar ice cap\nE. None of the above",
+      "response": "e"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What type of bed is at the center of the bedroom?\n\nA. Mountain range\nB. Tropical rainforest\nC. Desert landscape\nD. Polar ice cap",
+      "response": "none"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What material is used for the chairs in the scene?\n\nA. Leather\nB. Plastic\nC. Metal\nD. Wood\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What material is used for the chairs in the scene?\n\nA. Leather\nB. Plastic\nC. Metal\nD. Wood\nE. None of the above",
+      "response": "e"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What material is used for the chairs in the scene?\n\nA. Leather\nB. Plastic\nC. Metal\nD. Wood",
+      "response": "none"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What type of outdoor furniture is in the room?",
+      "response": "none"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What type of outdoor furniture is in the room?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What type of bed is at the center of the bedroom?\n\nA. Queen-size bed\nB. King-size bed\nC. Double bed\nD. Twin bed",
+      "response": "c"
+    }
+  ]
+}

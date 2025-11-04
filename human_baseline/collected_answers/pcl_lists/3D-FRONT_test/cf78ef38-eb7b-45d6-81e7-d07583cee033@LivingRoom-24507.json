@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "cf78ef38-eb7b-45d6-81e7-d07583cee033@LivingRoom-24507",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 5",
+  "timestamp": "2025-10-14T15:59:43.003752",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/cf78ef38-eb7b-45d6-81e7-d07583cee033/LivingRoom-24507/LivingRoom-24507.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What style is the coffee table in this living room?\n\nA. Japanese\nB. Mediterranean\nC. Modern\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What style is the coffee table in this living room?\n\nA. Japanese\nB. Mediterranean\nC. Modern\nD. None of the above",
+      "response": "d"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What style is the coffee table in this living room?\n\nA. Japanese\nB. Mediterranean\nC. Modern",
+      "response": "none of these"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What style is the coffee table in this living room?\n\nA. Solstice\nB. Equinox\nC. Eclipse\nD. Meteor shower\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What style is the coffee table in this living room?\n\nA. Solstice\nB. Equinox\nC. Eclipse\nD. Meteor shower\nE. None of the above",
+      "response": "e"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What style is the coffee table in this living room?\n\nA. Solstice\nB. Equinox\nC. Eclipse\nD. Meteor shower",
+      "response": "none of these"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What shape is the rug located in the room?\n\nA. Oval\nB. Square\nC. Rectangular\nD. Circular\nIf none of the above answers are correct, answer: 'F'",
+      "response": "c"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What shape is the rug located in the room?\n\nA. Oval\nB. Square\nC. Rectangular\nD. Circular\nE. None of the above",
+      "response": "c"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What shape is the rug located in the room?\n\nA. Oval\nB. Square\nC. Rectangular\nD. Circular",
+      "response": "c"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What type of musical instrument is hidden in the storage space?",
+      "response": "unanswerable"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What type of musical instrument is hidden in the storage space?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What style is the coffee table in this living room?\n\nA. Japanese\nB. Mediterranean\nC. Ming Qing\nD. Modern",
+      "response": "none of these"
+    }
+  ]
+}

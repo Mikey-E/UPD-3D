@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "0422e423-8aba-40f0-9090-78f448423468@SecondBedroom-20",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 3",
+  "timestamp": "2025-10-30T21:50:34.463902",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/0422e423-8aba-40f0-9090-78f448423468/SecondBedroom-20/SecondBedroom-20.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What type of lighting is used in the Second bedroom?\n\nA. A wall-mounted light fixture over the bed\nB. A floor lamp that is positioned next to the wardrobe\nC. A bedside lamp that is placed on the nightstand\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What type of lighting is used in the Second bedroom?\n\nA. A wall-mounted light fixture over the bed\nB. A floor lamp that is positioned next to the wardrobe\nC. A bedside lamp that is placed on the nightstand\nD. None of the above",
+      "response": "D"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What type of lighting is used in the Second bedroom?\n\nA. A wall-mounted light fixture over the bed\nB. A floor lamp that is positioned next to the wardrobe\nC. A bedside lamp that is placed on the nightstand",
+      "response": "NONE"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What type of lighting is used in the Second bedroom?\n\nA. Maple syrup\nB. Quantum mechanics\nC. Medieval castles\nD. Ocean currents\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What type of lighting is used in the Second bedroom?\n\nA. Maple syrup\nB. Quantum mechanics\nC. Medieval castles\nD. Ocean currents\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What type of lighting is used in the Second bedroom?\n\nA. Maple syrup\nB. Quantum mechanics\nC. Medieval castles\nD. Ocean currents",
+      "response": "NONE"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What type of flooring is used in the room?\n\nA. Hardwood\nB. Tile\nC. Carpet\nD. Vinyl\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What type of flooring is used in the room?\n\nA. Hardwood\nB. Tile\nC. Carpet\nD. Vinyl\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What type of flooring is used in the room?\n\nA. Hardwood\nB. Tile\nC. Carpet\nD. Vinyl",
+      "response": "NONE"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What type of exercise equipment is installed in the room?",
+      "response": "NA"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What type of exercise equipment is installed in the room?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What type of lighting is used in the Second bedroom?\n\nA. A wall-mounted light fixture over the bed\nB. A floor lamp that is positioned next to the wardrobe\nC. A bedside lamp that is placed on the nightstand\nD. A ceiling lamp that provides soft, diffused light",
+      "response": "D"
+    }
+  ]
+}

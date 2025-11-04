@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "f242015d-0a67-4ac7-a5ad-30199df3e02c@SecondBedroom-21986",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 4",
+  "timestamp": "2025-10-29T09:25:32.804612",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/f242015d-0a67-4ac7-a5ad-30199df3e02c/SecondBedroom-21986/SecondBedroom-21986.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What is the color of the wardrobe in the bedroom?\n\nA. Deep blue\nB. Crisp white\nC. Rich brown\nIf none of the above answers are correct, answer: 'F'",
+      "response": "B"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What is the color of the wardrobe in the bedroom?\n\nA. Deep blue\nB. Crisp white\nC. Rich brown\nD. None of the above",
+      "response": "B"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What is the color of the wardrobe in the bedroom?\n\nA. Deep blue\nB. Crisp white\nC. Rich brown",
+      "response": "B"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What is the color of the wardrobe in the bedroom?\n\nA. Ocean Wave\nB. Desert Sand\nC. Mountain Peak\nD. Sky Blue\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What is the color of the wardrobe in the bedroom?\n\nA. Ocean Wave\nB. Desert Sand\nC. Mountain Peak\nD. Sky Blue\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What is the color of the wardrobe in the bedroom?\n\nA. Ocean Wave\nB. Desert Sand\nC. Mountain Peak\nD. Sky Blue",
+      "response": "None"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What is the shape of the dining table?\n\nA. Round\nB. Square\nC. Oval\nD. Rectangular\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What is the shape of the dining table?\n\nA. Round\nB. Square\nC. Oval\nD. Rectangular\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What is the shape of the dining table?\n\nA. Round\nB. Square\nC. Oval\nD. Rectangular",
+      "response": "None"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What type of rug complements the king-size bed?",
+      "response": "unanswerable"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What type of rug complements the king-size bed?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What is the color of the wardrobe in the bedroom?\n\nA. Deep blue\nB. Light grey\nC. Crisp white\nD. Rich brown",
+      "response": "C"
+    }
+  ]
+}

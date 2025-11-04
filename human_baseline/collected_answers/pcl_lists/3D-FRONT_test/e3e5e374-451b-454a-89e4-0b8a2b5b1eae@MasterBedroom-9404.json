@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "e3e5e374-451b-454a-89e4-0b8a2b5b1eae@MasterBedroom-9404",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 5",
+  "timestamp": "2025-10-26T11:26:45.596554",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/e3e5e374-451b-454a-89e4-0b8a2b5b1eae/MasterBedroom-9404/MasterBedroom-9404.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What style are the corner tables next to the king-size bed?\n\nA. Modern\nB. Industrial\nC. Contemporary\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What style are the corner tables next to the king-size bed?\n\nA. Modern\nB. Industrial\nC. Contemporary\nD. None of the above",
+      "response": "d"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What style are the corner tables next to the king-size bed?\n\nA. Modern\nB. Industrial\nC. Contemporary",
+      "response": "none"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What style are the corner tables next to the king-size bed?\n\nA. Jazz Fusion\nB. Classical Symphony\nC. Ambient Electronica\nD. Progressive Rock\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What style are the corner tables next to the king-size bed?\n\nA. Jazz Fusion\nB. Classical Symphony\nC. Ambient Electronica\nD. Progressive Rock\nE. None of the above",
+      "response": "e"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What style are the corner tables next to the king-size bed?\n\nA. Jazz Fusion\nB. Classical Symphony\nC. Ambient Electronica\nD. Progressive Rock",
+      "response": "none"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What type of vehicle is parked outside the building?\n\nA. Sedan\nB. SUV\nC. Motorcycle\nD. Van\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What type of vehicle is parked outside the building?\n\nA. Sedan\nB. SUV\nC. Motorcycle\nD. Van\nE. None of the above",
+      "response": "e"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What type of vehicle is parked outside the building?\n\nA. Sedan\nB. SUV\nC. Motorcycle\nD. Van",
+      "response": "none"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What is the pattern on the rug in the room?",
+      "response": "none"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What is the pattern on the rug in the room?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What style are the corner tables next to the king-size bed?\n\nA. Modern\nB. Industrial\nC. Neoclassical\nD. Contemporary",
+      "response": "none"
+    }
+  ]
+}

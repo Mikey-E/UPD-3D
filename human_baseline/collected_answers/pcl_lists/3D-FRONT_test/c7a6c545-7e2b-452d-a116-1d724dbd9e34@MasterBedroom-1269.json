@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "c7a6c545-7e2b-452d-a116-1d724dbd9e34@MasterBedroom-1269",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 3",
+  "timestamp": "2025-10-12T11:53:20.202503",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/c7a6c545-7e2b-452d-a116-1d724dbd9e34/MasterBedroom-1269/MasterBedroom-1269.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What feature of the Masterbedroom serves as the focal point inviting relaxation?\n\nA. Wardrobe with floral print\nB. Matching nightstands\nC. Ceiling lamp with metallic finish\nIf none of the above answers are correct, answer: 'F'",
+      "response": "A"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What feature of the Masterbedroom serves as the focal point inviting relaxation?\n\nA. Wardrobe with floral print\nB. Matching nightstands\nC. Ceiling lamp with metallic finish\nD. None of the above",
+      "response": "A"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What feature of the Masterbedroom serves as the focal point inviting relaxation?\n\nA. Wardrobe with floral print\nB. Matching nightstands\nC. Ceiling lamp with metallic finish",
+      "response": "A"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What feature of the Masterbedroom serves as the focal point inviting relaxation?\n\nA. Coral reef ecosystems\nB. Solar energy panels\nC. Ancient Greek pottery\nD. Quantum physics experiments\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What feature of the Masterbedroom serves as the focal point inviting relaxation?\n\nA. Coral reef ecosystems\nB. Solar energy panels\nC. Ancient Greek pottery\nD. Quantum physics experiments\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What feature of the Masterbedroom serves as the focal point inviting relaxation?\n\nA. Coral reef ecosystems\nB. Solar energy panels\nC. Ancient Greek pottery\nD. Quantum physics experiments",
+      "response": "None"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What type of window treatment is used in the scene?\n\nA. Venetian blinds\nB. Sheer curtains\nC. Roller shades\nD. Drapes\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What type of window treatment is used in the scene?\n\nA. Venetian blinds\nB. Sheer curtains\nC. Roller shades\nD. Drapes\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What type of window treatment is used in the scene?\n\nA. Venetian blinds\nB. Sheer curtains\nC. Roller shades\nD. Drapes",
+      "response": "None"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What is the material of the dining table in the adjacent room?",
+      "response": "N/A"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What is the material of the dining table in the adjacent room?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What feature of the Masterbedroom serves as the focal point inviting relaxation?\n\nA. Wardrobe with floral print\nB. King-size bed with dark grey headboard\nC. Matching nightstands\nD. Ceiling lamp with metallic finish",
+      "response": "A"
+    }
+  ]
+}

@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "df69e2a1-9ca8-4512-9410-b848e91da0d8@LivingDiningRoom-614",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 5",
+  "timestamp": "2025-10-24T17:46:49.749156",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/df69e2a1-9ca8-4512-9410-b848e91da0d8/LivingDiningRoom-614/LivingDiningRoom-614.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What type of cabinet is included in the living-dining room for children's storage?\n\nA. Wine cabinet\nB. Bookshelf\nC. Kitchen cabinet\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What type of cabinet is included in the living-dining room for children's storage?\n\nA. Wine cabinet\nB. Bookshelf\nC. Kitchen cabinet\nD. None of the above",
+      "response": "d"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What type of cabinet is included in the living-dining room for children's storage?\n\nA. Wine cabinet\nB. Bookshelf\nC. Kitchen cabinet",
+      "response": "none"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What type of cabinet is included in the living-dining room for children's storage?\n\nA. Polar bear\nB. Cherry blossom\nC. Cinnamon roll\nD. Electric guitar\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What type of cabinet is included in the living-dining room for children's storage?\n\nA. Polar bear\nB. Cherry blossom\nC. Cinnamon roll\nD. Electric guitar\nE. None of the above",
+      "response": "e"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What type of cabinet is included in the living-dining room for children's storage?\n\nA. Polar bear\nB. Cherry blossom\nC. Cinnamon roll\nD. Electric guitar",
+      "response": "none"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What is the height of the ceiling?\n\nA. 10 feet\nB. 12 feet\nC. 15 feet\nD. 8 feet\nIf none of the above answers are correct, answer: 'F'",
+      "response": "d"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What is the height of the ceiling?\n\nA. 10 feet\nB. 12 feet\nC. 15 feet\nD. 8 feet\nE. None of the above",
+      "response": "d"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What is the height of the ceiling?\n\nA. 10 feet\nB. 12 feet\nC. 15 feet\nD. 8 feet",
+      "response": "d"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What type of exercise equipment is prominently displayed in the space?",
+      "response": "none"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What type of exercise equipment is prominently displayed in the space?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What type of cabinet is included in the living-dining room for children's storage?\n\nA. Wine cabinet\nB. Bookshelf\nC. Children's cabinet\nD. Kitchen cabinet",
+      "response": "none"
+    }
+  ]
+}

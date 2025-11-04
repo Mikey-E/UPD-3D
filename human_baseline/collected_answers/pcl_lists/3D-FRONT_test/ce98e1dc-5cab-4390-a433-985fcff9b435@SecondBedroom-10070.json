@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "ce98e1dc-5cab-4390-a433-985fcff9b435@SecondBedroom-10070",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 4",
+  "timestamp": "2025-10-14T15:32:39.795878",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/ce98e1dc-5cab-4390-a433-985fcff9b435/SecondBedroom-10070/SecondBedroom-10070.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What color is the wardrobe in the Second bedroom?\n\nA. Light blue\nB. Dark brown\nC. White\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What color is the wardrobe in the Second bedroom?\n\nA. Light blue\nB. Dark brown\nC. White\nD. None of the above",
+      "response": "D"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What color is the wardrobe in the Second bedroom?\n\nA. Light blue\nB. Dark brown\nC. White",
+      "response": "NONE"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What color is the wardrobe in the Second bedroom?\n\nA. Tennis racket\nB. Bicycle tire\nC. Guitar pick\nD. Skating board\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What color is the wardrobe in the Second bedroom?\n\nA. Tennis racket\nB. Bicycle tire\nC. Guitar pick\nD. Skating board\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What color is the wardrobe in the Second bedroom?\n\nA. Tennis racket\nB. Bicycle tire\nC. Guitar pick\nD. Skating board",
+      "response": "NONE"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What type of painting is hanging over the fireplace?\n\nA. Abstract\nB. Landscape\nC. Still life\nD. Portrait\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What type of painting is hanging over the fireplace?\n\nA. Abstract\nB. Landscape\nC. Still life\nD. Portrait\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What type of painting is hanging over the fireplace?\n\nA. Abstract\nB. Landscape\nC. Still life\nD. Portrait",
+      "response": "NONE"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What type of exercise equipment is located in this room?",
+      "response": "UNANSWERABLE"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What type of exercise equipment is located in this room?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What color is the wardrobe in the Second bedroom?\n\nA. Light blue\nB. Charcoal grey\nC. Dark brown\nD. White",
+      "response": "B"
+    }
+  ]
+}

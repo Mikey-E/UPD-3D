@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "fbb124a7-d4d2-46a0-9465-fc790f714350@LivingRoom-14341",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 3",
+  "timestamp": "2025-10-30T16:27:09.688850",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/fbb124a7-d4d2-46a0-9465-fc790f714350/LivingRoom-14341/LivingRoom-14341.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What style is the armchair in the living room described?\n\nA. Japanese\nB. Vintage/Retro\nC. New Chinese\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What style is the armchair in the living room described?\n\nA. Japanese\nB. Vintage/Retro\nC. New Chinese\nD. None of the above",
+      "response": "D"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What style is the armchair in the living room described?\n\nA. Japanese\nB. Vintage/Retro\nC. New Chinese",
+      "response": "NONE"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What style is the armchair in the living room described?\n\nA. Jazz music\nB. Italian cuisine\nC. Abstract painting\nD. Quantum physics\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What style is the armchair in the living room described?\n\nA. Jazz music\nB. Italian cuisine\nC. Abstract painting\nD. Quantum physics\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What style is the armchair in the living room described?\n\nA. Jazz music\nB. Italian cuisine\nC. Abstract painting\nD. Quantum physics",
+      "response": "NONE"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What type of fish is swimming in the living room?\n\nA. Goldfish\nB. Salmon\nC. Betta\nD. Clownfish\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What type of fish is swimming in the living room?\n\nA. Goldfish\nB. Salmon\nC. Betta\nD. Clownfish\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What type of fish is swimming in the living room?\n\nA. Goldfish\nB. Salmon\nC. Betta\nD. Clownfish",
+      "response": "NA"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What type of exercise equipment is in the room?",
+      "response": "NA"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What type of exercise equipment is in the room?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What style is the armchair in the living room described?\n\nA. Japanese\nB. Vintage/Retro\nC. New Chinese\nD. Light Luxury",
+      "response": "D"
+    }
+  ]
+}

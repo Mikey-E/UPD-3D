@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "f93473b4-3fa4-401b-924d-ee78112f516b@LivingRoom-67073",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 3",
+  "timestamp": "2025-10-30T01:16:59.259362",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/f93473b4-3fa4-401b-924d-ee78112f516b/LivingRoom-67073/LivingRoom-67073.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What color is the television stand in the living room?\n\nA. Black\nB. Beige\nC. Brown\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What color is the television stand in the living room?\n\nA. Black\nB. Beige\nC. Brown\nD. None of the above",
+      "response": "D"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What color is the television stand in the living room?\n\nA. Black\nB. Beige\nC. Brown",
+      "response": "NONE"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What color is the television stand in the living room?\n\nA. Elephant\nB. Pineapple\nC. Basketball\nD. Chocolate\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What color is the television stand in the living room?\n\nA. Elephant\nB. Pineapple\nC. Basketball\nD. Chocolate\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What color is the television stand in the living room?\n\nA. Elephant\nB. Pineapple\nC. Basketball\nD. Chocolate",
+      "response": "NONE"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What beverage is served in the scene?\n\nA. Lemonade\nB. Iced Coffee\nC. Green Tea\nD. Sparkling Water\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What beverage is served in the scene?\n\nA. Lemonade\nB. Iced Coffee\nC. Green Tea\nD. Sparkling Water\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What beverage is served in the scene?\n\nA. Lemonade\nB. Iced Coffee\nC. Green Tea\nD. Sparkling Water",
+      "response": "NA"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What type of chandelier hangs from the ceiling?",
+      "response": "NA"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What type of chandelier hangs from the ceiling?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What color is the television stand in the living room?\n\nA. Black\nB. Grey\nC. Beige\nD. Brown",
+      "response": "B"
+    }
+  ]
+}

@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "c81e43cb-545f-4b94-9de2-7c616296b960@LivingDiningRoom-4137",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 4",
+  "timestamp": "2025-10-14T11:53:57.917931",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/c81e43cb-545f-4b94-9de2-7c616296b960/LivingDiningRoom-4137/LivingDiningRoom-4137.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What type of finish does the jewelry armoire have in the living room?\n\nA. Metallic grey finish\nB. Light oak finish\nC. Glossy black finish\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What type of finish does the jewelry armoire have in the living room?\n\nA. Metallic grey finish\nB. Light oak finish\nC. Glossy black finish\nD. None of the above",
+      "response": "D"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What type of finish does the jewelry armoire have in the living room?\n\nA. Metallic grey finish\nB. Light oak finish\nC. Glossy black finish",
+      "response": "NONE"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What type of finish does the jewelry armoire have in the living room?\n\nA. Tropical rainforest\nB. Arctic tundra\nC. Desert plateau\nD. Mountain range\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What type of finish does the jewelry armoire have in the living room?\n\nA. Tropical rainforest\nB. Arctic tundra\nC. Desert plateau\nD. Mountain range\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What type of finish does the jewelry armoire have in the living room?\n\nA. Tropical rainforest\nB. Arctic tundra\nC. Desert plateau\nD. Mountain range",
+      "response": "NONE"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What type of seating arrangement is depicted in the living room?\n\nA. Lounge chairs\nB. Bean bags\nC. Recliners\nD. Futons\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What type of seating arrangement is depicted in the living room?\n\nA. Lounge chairs\nB. Bean bags\nC. Recliners\nD. Futons\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What type of seating arrangement is depicted in the living room?\n\nA. Lounge chairs\nB. Bean bags\nC. Recliners\nD. Futons",
+      "response": "NONE"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What is the height of the towering bookshelf in the corner?",
+      "response": "UNANSWERABLE"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What is the height of the towering bookshelf in the corner?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What type of finish does the jewelry armoire have in the living room?\n\nA. Dark walnut finish\nB. Metallic grey finish\nC. Light oak finish\nD. Glossy black finish",
+      "response": "A"
+    }
+  ]
+}

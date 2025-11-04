@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "c964fbed-8a87-4882-9aad-7d59d885219a@SecondBedroom-4683",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 4",
+  "timestamp": "2025-10-13T19:48:02.303598",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/c964fbed-8a87-4882-9aad-7d59d885219a/SecondBedroom-4683/SecondBedroom-4683.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What type of bed is the centerpiece of the Second bedroom?\n\nA. Queen-size bed\nB. Full-size bed\nC. Twin-size bed\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What type of bed is the centerpiece of the Second bedroom?\n\nA. Queen-size bed\nB. Full-size bed\nC. Twin-size bed\nD. None of the above",
+      "response": "D"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What type of bed is the centerpiece of the Second bedroom?\n\nA. Queen-size bed\nB. Full-size bed\nC. Twin-size bed",
+      "response": "NONE"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What type of bed is the centerpiece of the Second bedroom?\n\nA. Satellite\nB. Galaxy\nC. Nebula\nD. Comet\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What type of bed is the centerpiece of the Second bedroom?\n\nA. Satellite\nB. Galaxy\nC. Nebula\nD. Comet\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What type of bed is the centerpiece of the Second bedroom?\n\nA. Satellite\nB. Galaxy\nC. Nebula\nD. Comet",
+      "response": "NONE"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What type of window treatment is used in the scene?\n\nA. Roman shades\nB. Vertical blinds\nC. Roller shades\nD. Drapes\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What type of window treatment is used in the scene?\n\nA. Roman shades\nB. Vertical blinds\nC. Roller shades\nD. Drapes\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What type of window treatment is used in the scene?\n\nA. Roman shades\nB. Vertical blinds\nC. Roller shades\nD. Drapes",
+      "response": "NONE"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What kind of exercise equipment is in the room?",
+      "response": "NONE"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What kind of exercise equipment is in the room?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What type of bed is the centerpiece of the Second bedroom?\n\nA. Queen-size bed\nB. Full-size bed\nC. Twin-size bed\nD. King-size bed",
+      "response": "D"
+    }
+  ]
+}

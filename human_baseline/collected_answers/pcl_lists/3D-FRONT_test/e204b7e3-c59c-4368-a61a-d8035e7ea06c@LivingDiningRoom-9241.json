@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "e204b7e3-c59c-4368-a61a-d8035e7ea06c@LivingDiningRoom-9241",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 5",
+  "timestamp": "2025-10-25T12:20:12.437441",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/e204b7e3-c59c-4368-a61a-d8035e7ea06c/LivingDiningRoom-9241/LivingDiningRoom-9241.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What style is the armchair with a high wingback design?\n\nA. Mediterranean style\nB. Vintage style\nC. Modern style\nIf none of the above answers are correct, answer: 'F'",
+      "response": "b"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What style is the armchair with a high wingback design?\n\nA. Mediterranean style\nB. Vintage style\nC. Modern style\nD. None of the above",
+      "response": "b"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What style is the armchair with a high wingback design?\n\nA. Mediterranean style\nB. Vintage style\nC. Modern style",
+      "response": "b"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What style is the armchair with a high wingback design?\n\nA. Celestial navigation\nB. Quantum entanglement\nC. Abrasive blasting\nD. Digital marketing\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What style is the armchair with a high wingback design?\n\nA. Celestial navigation\nB. Quantum entanglement\nC. Abrasive blasting\nD. Digital marketing\nE. None of the above",
+      "response": "e"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What style is the armchair with a high wingback design?\n\nA. Celestial navigation\nB. Quantum entanglement\nC. Abrasive blasting\nD. Digital marketing",
+      "response": "none"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What materials are the walls of the living room made from?\n\nA. Concrete\nB. Wood\nC. Glass\nD. Brick\nIf none of the above answers are correct, answer: 'F'",
+      "response": "b"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What materials are the walls of the living room made from?\n\nA. Concrete\nB. Wood\nC. Glass\nD. Brick\nE. None of the above",
+      "response": "b"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What materials are the walls of the living room made from?\n\nA. Concrete\nB. Wood\nC. Glass\nD. Brick",
+      "response": "b"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What type of sculpture is displayed on the floor?",
+      "response": "none"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What type of sculpture is displayed on the floor?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What style is the armchair with a high wingback design?\n\nA. Mediterranean style\nB. Vintage style\nC. Modern style\nD. Korean style",
+      "response": "b"
+    }
+  ]
+}

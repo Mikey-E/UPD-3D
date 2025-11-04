@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "f1e45de4-64ae-4d44-9662-937c1b1e9b73@SecondBedroom-13995",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 3",
+  "timestamp": "2025-10-28T23:43:34.771201",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/f1e45de4-64ae-4d44-9662-937c1b1e9b73/SecondBedroom-13995/SecondBedroom-13995.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What style of furniture is the bookcase in the Second bedroom?\n\nA. American Country\nB. Vintage\nC. Mediterranean\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What style of furniture is the bookcase in the Second bedroom?\n\nA. American Country\nB. Vintage\nC. Mediterranean\nD. None of the above",
+      "response": "D"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What style of furniture is the bookcase in the Second bedroom?\n\nA. American Country\nB. Vintage\nC. Mediterranean",
+      "response": "None"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What style of furniture is the bookcase in the Second bedroom?\n\nA. Historical fiction\nB. Quantum mechanics\nC. Classical music\nD. Ancient civilizations\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What style of furniture is the bookcase in the Second bedroom?\n\nA. Historical fiction\nB. Quantum mechanics\nC. Classical music\nD. Ancient civilizations\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What style of furniture is the bookcase in the Second bedroom?\n\nA. Historical fiction\nB. Quantum mechanics\nC. Classical music\nD. Ancient civilizations",
+      "response": "None"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What is the capacity of the refrigerator in the room?\n\nA. 10 cubic feet\nB. 15 cubic feet\nC. 20 cubic feet\nD. 25 cubic feet\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What is the capacity of the refrigerator in the room?\n\nA. 10 cubic feet\nB. 15 cubic feet\nC. 20 cubic feet\nD. 25 cubic feet\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What is the capacity of the refrigerator in the room?\n\nA. 10 cubic feet\nB. 15 cubic feet\nC. 20 cubic feet\nD. 25 cubic feet",
+      "response": "None"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What type of exercise equipment is in the room?",
+      "response": "N/A"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What type of exercise equipment is in the room?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What style of furniture is the bookcase in the Second bedroom?\n\nA. American Country\nB. Vintage\nC. Mediterranean\nD. Industrial",
+      "response": "D"
+    }
+  ]
+}

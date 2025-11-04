@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "ecdbeecd-1c5e-4605-a682-ca1085fd0721@Bedroom-10303",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 3",
+  "timestamp": "2025-10-27T16:41:17.519807",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/ecdbeecd-1c5e-4605-a682-ca1085fd0721/Bedroom-10303/Bedroom-10303.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What color is the bed located at the center of the room?\n\nA. Cream\nB. Soft grey\nC. Brown\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What color is the bed located at the center of the room?\n\nA. Cream\nB. Soft grey\nC. Brown\nD. None of the above",
+      "response": "D"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What color is the bed located at the center of the room?\n\nA. Cream\nB. Soft grey\nC. Brown",
+      "response": "None"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What color is the bed located at the center of the room?\n\nA. Lion\nB. Elephant\nC. Giraffe\nD. Zebra\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What color is the bed located at the center of the room?\n\nA. Lion\nB. Elephant\nC. Giraffe\nD. Zebra\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What color is the bed located at the center of the room?\n\nA. Lion\nB. Elephant\nC. Giraffe\nD. Zebra",
+      "response": "None"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What type of flooring is featured in the scene?\n\nA. Marble\nB. Hardwood\nC. Carpet\nD. Tile\nIf none of the above answers are correct, answer: 'F'",
+      "response": "C"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What type of flooring is featured in the scene?\n\nA. Marble\nB. Hardwood\nC. Carpet\nD. Tile\nE. None of the above",
+      "response": "C"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What type of flooring is featured in the scene?\n\nA. Marble\nB. Hardwood\nC. Carpet\nD. Tile",
+      "response": "C"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What type of outdoor fountain is located in this bedroom?",
+      "response": "N/A"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What type of outdoor fountain is located in this bedroom?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What color is the bed located at the center of the room?\n\nA. Deep teal\nB. Cream\nC. Soft grey\nD. Brown",
+      "response": "A"
+    }
+  ]
+}

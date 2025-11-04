@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "00593e46-062e-4bdd-8ee9-1043387c40f4@Corridor-91792",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 5",
+  "timestamp": "2025-10-31T10:06:37.548498",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/00593e46-062e-4bdd-8ee9-1043387c40f4/Corridor-91792/Corridor-91792.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What color is the interior of the children's cabinet in the corridor?\n\nA. Deep brown\nB. Neutral beige\nC. Silver\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What color is the interior of the children's cabinet in the corridor?\n\nA. Deep brown\nB. Neutral beige\nC. Silver\nD. None of the above",
+      "response": "d"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What color is the interior of the children's cabinet in the corridor?\n\nA. Deep brown\nB. Neutral beige\nC. Silver",
+      "response": "none"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What color is the interior of the children's cabinet in the corridor?\n\nA. Guitar\nB. Violin\nC. Trumpet\nD. Piano\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What color is the interior of the children's cabinet in the corridor?\n\nA. Guitar\nB. Violin\nC. Trumpet\nD. Piano\nE. None of the above",
+      "response": "e"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What color is the interior of the children's cabinet in the corridor?\n\nA. Guitar\nB. Violin\nC. Trumpet\nD. Piano",
+      "response": "none"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What shape is the table in the room?\n\nA. Circular\nB. Rectangular\nC. Square\nD. Oval\nIf none of the above answers are correct, answer: 'F'",
+      "response": "b"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What shape is the table in the room?\n\nA. Circular\nB. Rectangular\nC. Square\nD. Oval\nE. None of the above",
+      "response": "b"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What shape is the table in the room?\n\nA. Circular\nB. Rectangular\nC. Square\nD. Oval",
+      "response": "b"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What type of fruit is displayed on the kitchen counter?",
+      "response": "none"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What type of fruit is displayed on the kitchen counter?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What color is the interior of the children's cabinet in the corridor?\n\nA. Deep brown\nB. Neutral beige\nC. Silver\nD. Vibrant yellow",
+      "response": "d"
+    }
+  ]
+}

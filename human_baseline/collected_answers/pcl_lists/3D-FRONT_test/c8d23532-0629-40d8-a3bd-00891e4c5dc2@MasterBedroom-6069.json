@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "c8d23532-0629-40d8-a3bd-00891e4c5dc2@MasterBedroom-6069",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 4",
+  "timestamp": "2025-10-13T13:55:31.385561",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/c8d23532-0629-40d8-a3bd-00891e4c5dc2/MasterBedroom-6069/MasterBedroom-6069.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What style is the king-size bed in the Master bedroom described as?\n\nA. Traditional\nB. Rustic\nC. Contemporary\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What style is the king-size bed in the Master bedroom described as?\n\nA. Traditional\nB. Rustic\nC. Contemporary\nD. None of the above",
+      "response": "D"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What style is the king-size bed in the Master bedroom described as?\n\nA. Traditional\nB. Rustic\nC. Contemporary",
+      "response": "NONE"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What style is the king-size bed in the Master bedroom described as?\n\nA. Tectonic plate movement\nB. Carbon dating\nC. Photosynthesis process\nD. Quantum entanglement\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What style is the king-size bed in the Master bedroom described as?\n\nA. Tectonic plate movement\nB. Carbon dating\nC. Photosynthesis process\nD. Quantum entanglement\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What style is the king-size bed in the Master bedroom described as?\n\nA. Tectonic plate movement\nB. Carbon dating\nC. Photosynthesis process\nD. Quantum entanglement",
+      "response": "NONE"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What is the primary function of the table in the scene?\n\nA. It serves as a dining area.\nB. It functions as a workspace.\nC. It acts as a coffee table.\nD. It is a decorative accent table.\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What is the primary function of the table in the scene?\n\nA. It serves as a dining area.\nB. It functions as a workspace.\nC. It acts as a coffee table.\nD. It is a decorative accent table.\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What is the primary function of the table in the scene?\n\nA. It serves as a dining area.\nB. It functions as a workspace.\nC. It acts as a coffee table.\nD. It is a decorative accent table.",
+      "response": "NONE"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What type of office desk is in the room?",
+      "response": "NONE"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What type of office desk is in the room?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What style is the king-size bed in the Master bedroom described as?\n\nA. Traditional\nB. Rustic\nC. Industrial\nD. Contemporary",
+      "response": "C"
+    }
+  ]
+}

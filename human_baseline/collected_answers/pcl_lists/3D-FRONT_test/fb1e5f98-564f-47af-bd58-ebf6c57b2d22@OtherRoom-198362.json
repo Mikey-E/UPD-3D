@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "fb1e5f98-564f-47af-bd58-ebf6c57b2d22@OtherRoom-198362",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 3",
+  "timestamp": "2025-10-30T15:56:48.426455",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/fb1e5f98-564f-47af-bd58-ebf6c57b2d22/OtherRoom-198362/OtherRoom-198362.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What color is the finish of the main dining table in the room?\n\nA. Grey\nB. White\nC. Silver\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What color is the finish of the main dining table in the room?\n\nA. Grey\nB. White\nC. Silver\nD. None of the above",
+      "response": "D"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What color is the finish of the main dining table in the room?\n\nA. Grey\nB. White\nC. Silver",
+      "response": "NONE"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What color is the finish of the main dining table in the room?\n\nA. Subtraction\nB. Multiplication\nC. Division\nD. Addition\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What color is the finish of the main dining table in the room?\n\nA. Subtraction\nB. Multiplication\nC. Division\nD. Addition\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What color is the finish of the main dining table in the room?\n\nA. Subtraction\nB. Multiplication\nC. Division\nD. Addition",
+      "response": "NONE"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What is the size of the wall mural in the room?\n\nA. Large\nB. Medium\nC. Small\nD. Extra Large\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What is the size of the wall mural in the room?\n\nA. Large\nB. Medium\nC. Small\nD. Extra Large\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What is the size of the wall mural in the room?\n\nA. Large\nB. Medium\nC. Small\nD. Extra Large",
+      "response": "NA"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What type of garden tools are present in the room?",
+      "response": "NA"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What type of garden tools are present in the room?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What color is the finish of the main dining table in the room?\n\nA. Grey\nB. White\nC. Black\nD. Silver",
+      "response": "C"
+    }
+  ]
+}

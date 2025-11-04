@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "c3587503-6184-487f-bf65-e3344f6378ff@LivingRoom-1166",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 3",
+  "timestamp": "2025-10-08T10:32:52.192172",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/c3587503-6184-487f-bf65-e3344f6378ff/LivingRoom-1166/LivingRoom-1166.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What color is the surface of the coffee table in the living room?\n\nA. Beige\nB. Neutral grey\nC. Black\nIf none of the above answers are correct, answer: 'F'",
+      "response": "B"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What color is the surface of the coffee table in the living room?\n\nA. Beige\nB. Neutral grey\nC. Black\nD. None of the above",
+      "response": "B"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What color is the surface of the coffee table in the living room?\n\nA. Beige\nB. Neutral grey\nC. Black",
+      "response": "B"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What color is the surface of the coffee table in the living room?\n\nA. Elephant\nB. Library\nC. Rainbow\nD. Universe\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What color is the surface of the coffee table in the living room?\n\nA. Elephant\nB. Library\nC. Rainbow\nD. Universe\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What color is the surface of the coffee table in the living room?\n\nA. Elephant\nB. Library\nC. Rainbow\nD. Universe",
+      "response": "None"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What type of sculpture is prominently displayed in the living room?\n\nA. Abstract bronze sculpture\nB. Marble figurine\nC. Wooden totem\nD. Glass mosaic art\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What type of sculpture is prominently displayed in the living room?\n\nA. Abstract bronze sculpture\nB. Marble figurine\nC. Wooden totem\nD. Glass mosaic art\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What type of sculpture is prominently displayed in the living room?\n\nA. Abstract bronze sculpture\nB. Marble figurine\nC. Wooden totem\nD. Glass mosaic art",
+      "response": "None"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What type of fireplace is installed in the living room?",
+      "response": "None"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What type of fireplace is installed in the living room?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What color is the surface of the coffee table in the living room?\n\nA. Beige\nB. Glossy white\nC. Neutral grey\nD. Black",
+      "response": "C"
+    }
+  ]
+}

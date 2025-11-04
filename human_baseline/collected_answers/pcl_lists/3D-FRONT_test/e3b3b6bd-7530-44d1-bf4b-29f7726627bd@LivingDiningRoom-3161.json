@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "e3b3b6bd-7530-44d1-bf4b-29f7726627bd@LivingDiningRoom-3161",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 5",
+  "timestamp": "2025-10-25T20:37:37.096368",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/e3b3b6bd-7530-44d1-bf4b-29f7726627bd/LivingDiningRoom-3161/LivingDiningRoom-3161.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What style is the dining table in this living room?\n\nA. Neoclassical\nB. Modern\nC. Minimalist\nIf none of the above answers are correct, answer: 'F'",
+      "response": "b"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What style is the dining table in this living room?\n\nA. Neoclassical\nB. Modern\nC. Minimalist\nD. None of the above",
+      "response": "b"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What style is the dining table in this living room?\n\nA. Neoclassical\nB. Modern\nC. Minimalist",
+      "response": "b"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What style is the dining table in this living room?\n\nA. Edible plants\nB. Acoustic guitar\nC. Digital painting\nD. Wind chimes\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What style is the dining table in this living room?\n\nA. Edible plants\nB. Acoustic guitar\nC. Digital painting\nD. Wind chimes\nE. None of the above",
+      "response": "e"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What style is the dining table in this living room?\n\nA. Edible plants\nB. Acoustic guitar\nC. Digital painting\nD. Wind chimes",
+      "response": "none"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What is the height of the ceiling in the room?\n\nA. Ten feet\nB. Twelve feet\nC. Eight feet\nD. Nine feet\nIf none of the above answers are correct, answer: 'F'",
+      "response": "c"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What is the height of the ceiling in the room?\n\nA. Ten feet\nB. Twelve feet\nC. Eight feet\nD. Nine feet\nE. None of the above",
+      "response": "c"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What is the height of the ceiling in the room?\n\nA. Ten feet\nB. Twelve feet\nC. Eight feet\nD. Nine feet",
+      "response": "c"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What type of exercise equipment is positioned in the room?",
+      "response": "none"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What type of exercise equipment is positioned in the room?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What style is the dining table in this living room?\n\nA. Neoclassical\nB. Modern\nC. Japanese\nD. Minimalist",
+      "response": "b"
+    }
+  ]
+}

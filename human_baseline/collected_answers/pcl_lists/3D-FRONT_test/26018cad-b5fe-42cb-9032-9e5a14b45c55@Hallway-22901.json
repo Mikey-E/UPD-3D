@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "26018cad-b5fe-42cb-9032-9e5a14b45c55@Hallway-22901",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 5",
+  "timestamp": "2025-10-28T08:31:50.113316",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/26018cad-b5fe-42cb-9032-9e5a14b45c55/Hallway-22901/Hallway-22901.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What is the shape of the pendant lamp hanging above the wardrobe?\n\nA. Rectangular\nB. Triangular\nC. Oval\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What is the shape of the pendant lamp hanging above the wardrobe?\n\nA. Rectangular\nB. Triangular\nC. Oval\nD. None of the above",
+      "response": "d"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What is the shape of the pendant lamp hanging above the wardrobe?\n\nA. Rectangular\nB. Triangular\nC. Oval",
+      "response": "none"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What is the shape of the pendant lamp hanging above the wardrobe?\n\nA. Thunderstorm\nB. Earthquake\nC. Volcano\nD. Tsunami\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What is the shape of the pendant lamp hanging above the wardrobe?\n\nA. Thunderstorm\nB. Earthquake\nC. Volcano\nD. Tsunami\nE. None of the above",
+      "response": "e"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What is the shape of the pendant lamp hanging above the wardrobe?\n\nA. Thunderstorm\nB. Earthquake\nC. Volcano\nD. Tsunami",
+      "response": "none"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What type of staircase is featured prominently in the hallway?\n\nA. Spiral staircase\nB. Straight staircase\nC. L-shaped staircase\nD. Floating staircase\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What type of staircase is featured prominently in the hallway?\n\nA. Spiral staircase\nB. Straight staircase\nC. L-shaped staircase\nD. Floating staircase\nE. None of the above",
+      "response": "e"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What type of staircase is featured prominently in the hallway?\n\nA. Spiral staircase\nB. Straight staircase\nC. L-shaped staircase\nD. Floating staircase",
+      "response": "none"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What type of rug is situated under the furniture in this hallway?",
+      "response": "none"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What type of rug is situated under the furniture in this hallway?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What is the shape of the pendant lamp hanging above the wardrobe?\n\nA. Rectangular\nB. Spherical\nC. Triangular\nD. Oval",
+      "response": "none"
+    }
+  ]
+}

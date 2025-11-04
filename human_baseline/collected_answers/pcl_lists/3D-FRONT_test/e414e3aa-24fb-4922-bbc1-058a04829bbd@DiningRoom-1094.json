@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "e414e3aa-24fb-4922-bbc1-058a04829bbd@DiningRoom-1094",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 5",
+  "timestamp": "2025-10-25T19:41:43.031833",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/e414e3aa-24fb-4922-bbc1-058a04829bbd/DiningRoom-1094/DiningRoom-1094.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What color is the pendant lamp hanging above the dining area?\n\nA. Black\nB. Beige\nC. Cool grey\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What color is the pendant lamp hanging above the dining area?\n\nA. Black\nB. Beige\nC. Cool grey\nD. None of the above",
+      "response": "d"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What color is the pendant lamp hanging above the dining area?\n\nA. Black\nB. Beige\nC. Cool grey",
+      "response": "none"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What color is the pendant lamp hanging above the dining area?\n\nA. Pineapple\nB. Cucumber\nC. Kangaroo\nD. Telescope\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What color is the pendant lamp hanging above the dining area?\n\nA. Pineapple\nB. Cucumber\nC. Kangaroo\nD. Telescope\nE. None of the above",
+      "response": "e"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What color is the pendant lamp hanging above the dining area?\n\nA. Pineapple\nB. Cucumber\nC. Kangaroo\nD. Telescope",
+      "response": "none"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What color is the rug in the dining room?\n\nA. Red\nB. Green\nC. Yellow\nD. Purple\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What color is the rug in the dining room?\n\nA. Red\nB. Green\nC. Yellow\nD. Purple\nE. None of the above",
+      "response": "e"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What color is the rug in the dining room?\n\nA. Red\nB. Green\nC. Yellow\nD. Purple",
+      "response": "none"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What type of exercise equipment is installed in this room?",
+      "response": "none"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What type of exercise equipment is installed in this room?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What color is the pendant lamp hanging above the dining area?\n\nA. Muted gray\nB. Black\nC. Beige\nD. Cool grey",
+      "response": "a"
+    }
+  ]
+}

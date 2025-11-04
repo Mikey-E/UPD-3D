@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "fab5214f-622a-42bf-8556-92fba66a7c13@BedRoom-10980",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 3",
+  "timestamp": "2025-10-30T11:39:50.572057",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/fab5214f-622a-42bf-8556-92fba66a7c13/BedRoom-10980/BedRoom-10980.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What is the style of the pendant lamp hanging above the bed?\n\nA. Modern style\nB. Industrial style\nC. Art Deco style\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What is the style of the pendant lamp hanging above the bed?\n\nA. Modern style\nB. Industrial style\nC. Art Deco style\nD. None of the above",
+      "response": "D"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What is the style of the pendant lamp hanging above the bed?\n\nA. Modern style\nB. Industrial style\nC. Art Deco style",
+      "response": "NONE"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What is the style of the pendant lamp hanging above the bed?\n\nA. Organic chemistry\nB. Quantum mechanics\nC. Renaissance art\nD. Classical literature\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What is the style of the pendant lamp hanging above the bed?\n\nA. Organic chemistry\nB. Quantum mechanics\nC. Renaissance art\nD. Classical literature\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What is the style of the pendant lamp hanging above the bed?\n\nA. Organic chemistry\nB. Quantum mechanics\nC. Renaissance art\nD. Classical literature",
+      "response": "NONE"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What style of chair is placed in the corner of the room?\n\nA. Ergonomic\nB. Baroque\nC. Mid-century Modern\nD. Wingback\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What style of chair is placed in the corner of the room?\n\nA. Ergonomic\nB. Baroque\nC. Mid-century Modern\nD. Wingback\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What style of chair is placed in the corner of the room?\n\nA. Ergonomic\nB. Baroque\nC. Mid-century Modern\nD. Wingback",
+      "response": "NA"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What type of sculpture is placed on the floor?",
+      "response": "NA"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What type of sculpture is placed on the floor?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What is the style of the pendant lamp hanging above the bed?\n\nA. Modern style\nB. European Classic style\nC. Industrial style\nD. Art Deco style",
+      "response": "B"
+    }
+  ]
+}

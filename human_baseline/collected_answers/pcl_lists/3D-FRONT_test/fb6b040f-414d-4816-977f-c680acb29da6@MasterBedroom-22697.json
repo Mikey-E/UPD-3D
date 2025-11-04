@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "fb6b040f-414d-4816-977f-c680acb29da6@MasterBedroom-22697",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 3",
+  "timestamp": "2025-10-30T16:09:06.499188",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/fb6b040f-414d-4816-977f-c680acb29da6/MasterBedroom-22697/MasterBedroom-22697.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What color is the single bed in the Master bedroom?\n\nA. Jet black\nB. Light blue\nC. Walnut brown\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What color is the single bed in the Master bedroom?\n\nA. Jet black\nB. Light blue\nC. Walnut brown\nD. None of the above",
+      "response": "D"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What color is the single bed in the Master bedroom?\n\nA. Jet black\nB. Light blue\nC. Walnut brown",
+      "response": "NONE"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What color is the single bed in the Master bedroom?\n\nA. Apple\nB. Mountain\nC. Ocean\nD. Forest\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What color is the single bed in the Master bedroom?\n\nA. Apple\nB. Mountain\nC. Ocean\nD. Forest\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What color is the single bed in the Master bedroom?\n\nA. Apple\nB. Mountain\nC. Ocean\nD. Forest",
+      "response": "NONE"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What shape is the sofa in the room?\n\nA. L-shaped\nB. Round\nC. Rectangular\nD. Square\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What shape is the sofa in the room?\n\nA. L-shaped\nB. Round\nC. Rectangular\nD. Square\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What shape is the sofa in the room?\n\nA. L-shaped\nB. Round\nC. Rectangular\nD. Square",
+      "response": "NA"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What type of workout equipment is hidden in the closet?",
+      "response": "NA"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What type of workout equipment is hidden in the closet?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What color is the single bed in the Master bedroom?\n\nA. Jet black\nB. Light blue\nC. Dark grey\nD. Walnut brown",
+      "response": "C"
+    }
+  ]
+}

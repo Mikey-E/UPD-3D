@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "09389527-fe13-4cc0-841e-c5e21d1aef0a@DiningRoom-41637",
+  "dataset": "3D-FRONT_test",
+  "annotated_by": "User 4",
+  "timestamp": "2025-10-16T21:03:14.827346",
+  "file_path": "/project/3dllms/melgin/datasets/3d-grand_unzipped/3D-FRONT/09389527-fe13-4cc0-841e-c5e21d1aef0a/DiningRoom-41637/DiningRoom-41637.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What is the primary function of the sideboard in the room?\n\nA. To provide seating options for guests\nB. To enhance the room's modern aesthetic\nC. To illuminate the dining area\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What is the primary function of the sideboard in the room?\n\nA. To provide seating options for guests\nB. To enhance the room's modern aesthetic\nC. To illuminate the dining area\nD. None of the above",
+      "response": "D"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What is the primary function of the sideboard in the room?\n\nA. To provide seating options for guests\nB. To enhance the room's modern aesthetic\nC. To illuminate the dining area",
+      "response": "None"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What is the primary function of the sideboard in the room?\n\nA. Solar System Exploration\nB. Quantum Mechanics Study\nC. Marine Biology Research\nD. Urban Planning Strategies\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What is the primary function of the sideboard in the room?\n\nA. Solar System Exploration\nB. Quantum Mechanics Study\nC. Marine Biology Research\nD. Urban Planning Strategies\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What is the primary function of the sideboard in the room?\n\nA. Solar System Exploration\nB. Quantum Mechanics Study\nC. Marine Biology Research\nD. Urban Planning Strategies",
+      "response": "None"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What is the height of the bookshelf in the room?\n\nA. Six feet\nB. Four feet\nC. Eight feet\nD. Ten feet\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What is the height of the bookshelf in the room?\n\nA. Six feet\nB. Four feet\nC. Eight feet\nD. Ten feet\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What is the height of the bookshelf in the room?\n\nA. Six feet\nB. Four feet\nC. Eight feet\nD. Ten feet",
+      "response": "None"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What kind of rug is placed under the sideboard?",
+      "response": "unanswerable"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What kind of rug is placed under the sideboard?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What is the primary function of the sideboard in the room?\n\nA. To provide seating options for guests\nB. To enhance the room's modern aesthetic\nC. To offer storage and display space\nD. To illuminate the dining area",
+      "response": "C"
+    }
+  ]
+}
