@@ -1,0 +1,3572 @@
+{
+    "Cabbage@mvs_1005_11": {
+        "prompt": "What type of plant is described in the room?\n\nA. A flowering cactus\nB. A large fern\nC. A tall palm tree",
+        "response": "none",
+        "timestamp": "2025-10-29T18:03:53.486187",
+        "annotated_by": "User 5",
+        "original_file_path": "/project/3dllms/melgin/datasets/CEA/Crops3D/Cabbage/mvs_1005_11.ply",
+        "dataset": "Crops3D_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Cabbage@mvs_1012_06": {
+        "prompt": "What is the shape of the leaves on the succulent?\n\nA. Linear\nB. Circular\nC. Triangular",
+        "response": "B",
+        "timestamp": "2025-10-14T00:32:08.698685",
+        "annotated_by": "User 3",
+        "original_file_path": "/project/3dllms/melgin/datasets/CEA/Crops3D/Cabbage/mvs_1012_06.ply",
+        "dataset": "Crops3D_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Cabbage@mvs_1012_12": {
+        "prompt": "What is the shape of the pot that the succulent is in?\n\nA. Triangular\nB. Oval\nC. Hexagonal",
+        "response": "none",
+        "timestamp": "2025-10-30T09:51:45.397361",
+        "annotated_by": "User 5",
+        "original_file_path": "/project/3dllms/melgin/datasets/CEA/Crops3D/Cabbage/mvs_1012_12.ply",
+        "dataset": "Crops3D_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Cabbage@mvs_1019_03": {
+        "prompt": "What color is the pot that houses the indoor potted plant?\n\nA. Light green\nB. Yellow\nC. Bright red",
+        "response": "None",
+        "timestamp": "2025-10-14T00:25:55.799551",
+        "annotated_by": "User 3",
+        "original_file_path": "/project/3dllms/melgin/datasets/CEA/Crops3D/Cabbage/mvs_1019_03.ply",
+        "dataset": "Crops3D_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Cabbage@mvs_1019_05": {
+        "prompt": "What color are the leaves of the potted succulent?\n\nA. Dark Green\nB. Light Pink\nC. Bright Yellow",
+        "response": "A",
+        "timestamp": "2025-10-06T10:22:22.336205",
+        "annotated_by": "User 3",
+        "original_file_path": "/project/3dllms/melgin/datasets/CEA/Crops3D/Cabbage/mvs_1019_05.ply",
+        "dataset": "Crops3D_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Cabbage@mvs_1019_09": {
+        "prompt": "What color is the pot that holds the succulent?\n\nA. Dark green\nB. Bright red\nC. Matte black",
+        "response": "None",
+        "timestamp": "2025-10-14T00:23:01.966055",
+        "annotated_by": "User 3",
+        "original_file_path": "/project/3dllms/melgin/datasets/CEA/Crops3D/Cabbage/mvs_1019_09.ply",
+        "dataset": "Crops3D_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Cabbage@mvs_1019_11": {
+        "prompt": "What color is the ceramic pot holding the succulent plant?\n\nA. Green\nB. Red\nC. Yellow",
+        "response": "none",
+        "timestamp": "2025-10-29T18:01:56.191642",
+        "annotated_by": "User 5",
+        "original_file_path": "/project/3dllms/melgin/datasets/CEA/Crops3D/Cabbage/mvs_1019_11.ply",
+        "dataset": "Crops3D_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Cabbage@mvs_1026_08": {
+        "prompt": "What color is the ceramic pot in which the succulent is planted?\n\nA. Red\nB. Green\nC. Yellow",
+        "response": "None",
+        "timestamp": "2025-10-28T16:37:34.616192",
+        "annotated_by": "User 3",
+        "original_file_path": "/project/3dllms/melgin/datasets/CEA/Crops3D/Cabbage/mvs_1026_08.ply",
+        "dataset": "Crops3D_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Cabbage@mvs_1103_03": {
+        "prompt": "What color is the pot that holds the succulent?\n\nA. Light blue\nB. Green\nC. Brown",
+        "response": "none",
+        "timestamp": "2025-10-30T09:58:25.832096",
+        "annotated_by": "User 5",
+        "original_file_path": "/project/3dllms/melgin/datasets/CEA/Crops3D/Cabbage/mvs_1103_03.ply",
+        "dataset": "Crops3D_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Cabbage@mvs_1103_05": {
+        "prompt": "What type of leaves does the potted plant have?\n\nA. Long and narrow leaves\nB. Heart-shaped yellow leaves\nC. Spiky red leaves",
+        "response": "None",
+        "timestamp": "2025-10-27T08:44:54.552458",
+        "annotated_by": "User 3",
+        "original_file_path": "/project/3dllms/melgin/datasets/CEA/Crops3D/Cabbage/mvs_1103_05.ply",
+        "dataset": "Crops3D_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Cabbage@mvs_1109_02": {
+        "prompt": "What type of container is the succulent displayed in?\n\nA. A rectangular planter\nB. A square box\nC. A hanging basket",
+        "response": "none",
+        "timestamp": "2025-10-30T09:53:04.488215",
+        "annotated_by": "User 5",
+        "original_file_path": "/project/3dllms/melgin/datasets/CEA/Crops3D/Cabbage/mvs_1109_02.ply",
+        "dataset": "Crops3D_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Cabbage@mvs_1116_01": {
+        "prompt": "What color is the cylindrical pot in which the potted plant is kept?\n\nA. Light green\nB. White\nC. Purple",
+        "response": "none",
+        "timestamp": "2025-10-30T09:54:19.588031",
+        "annotated_by": "User 5",
+        "original_file_path": "/project/3dllms/melgin/datasets/CEA/Crops3D/Cabbage/mvs_1116_01.ply",
+        "dataset": "Crops3D_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Cabbage@mvs_1116_07": {
+        "prompt": "What color are the horizontal bands on the ceramic pot containing the succulent?\n\nA. Green and yellow\nB. Red and white\nC. Black and gold",
+        "response": "none of these",
+        "timestamp": "2025-10-16T11:03:53.470626",
+        "annotated_by": "User 5",
+        "original_file_path": "/project/3dllms/melgin/datasets/CEA/Crops3D/Cabbage/mvs_1116_07.ply",
+        "dataset": "Crops3D_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Cabbage@mvs_1123_14": {
+        "prompt": "What color is the flower supported by the blue-gray ceramic vase?\n\nA. Yellow\nB. White\nC. Red",
+        "response": "A",
+        "timestamp": "2025-10-14T00:22:20.322370",
+        "annotated_by": "User 3",
+        "original_file_path": "/project/3dllms/melgin/datasets/CEA/Crops3D/Cabbage/mvs_1123_14.ply",
+        "dataset": "Crops3D_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Cabbage@mvs_1205_01": {
+        "prompt": "What color are the petals of the bloom on the potted plant?\n\nA. Green\nB. Yellow\nC. Red",
+        "response": "none",
+        "timestamp": "2025-10-29T18:01:10.482371",
+        "annotated_by": "User 5",
+        "original_file_path": "/project/3dllms/melgin/datasets/CEA/Crops3D/Cabbage/mvs_1205_01.ply",
+        "dataset": "Crops3D_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Cabbage@mvs_1205_09": {
+        "prompt": "What color is the pot in which the succulent is planted?\n\nA. Green\nB. Red\nC. Yellow",
+        "response": "None",
+        "timestamp": "2025-10-14T00:28:27.932008",
+        "annotated_by": "User 3",
+        "original_file_path": "/project/3dllms/melgin/datasets/CEA/Crops3D/Cabbage/mvs_1205_09.ply",
+        "dataset": "Crops3D_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Cabbage@mvs_901_06": {
+        "prompt": "What color is the pot containing the succulent?\n\nA. Red\nB. Green\nC. Yellow",
+        "response": "none",
+        "timestamp": "2025-10-29T18:04:17.029481",
+        "annotated_by": "User 5",
+        "original_file_path": "/project/3dllms/melgin/datasets/CEA/Crops3D/Cabbage/mvs_901_06.ply",
+        "dataset": "Crops3D_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Cabbage@mvs_901_08": {
+        "prompt": "What color is the ceramic pot that the succulent is planted in?\n\nA. Green\nB. Tan\nC. Red",
+        "response": "none",
+        "timestamp": "2025-10-30T09:54:47.226464",
+        "annotated_by": "User 5",
+        "original_file_path": "/project/3dllms/melgin/datasets/CEA/Crops3D/Cabbage/mvs_901_08.ply",
+        "dataset": "Crops3D_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Cabbage@mvs_901_10": {
+        "prompt": "What color is the rim of the ceramic pot?\n\nA. Dark brown\nB. Bright red\nC. Deep blue",
+        "response": "None",
+        "timestamp": "2025-10-27T08:40:58.370018",
+        "annotated_by": "User 3",
+        "original_file_path": "/project/3dllms/melgin/datasets/CEA/Crops3D/Cabbage/mvs_901_10.ply",
+        "dataset": "Crops3D_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Cabbage@mvs_901_12": {
+        "prompt": "What color is the rim of the pot holding the succulent?\n\nA. Green\nB. Red\nC. Yellow",
+        "response": "none",
+        "timestamp": "2025-10-28T09:31:07.200786",
+        "annotated_by": "User 4",
+        "original_file_path": "/project/3dllms/melgin/datasets/CEA/Crops3D/Cabbage/mvs_901_12.ply",
+        "dataset": "Crops3D_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Cabbage@mvs_901_14": {
+        "prompt": "What is the color of the rim of the ceramic pot?\n\nA. Green\nB. Blue\nC. Pale",
+        "response": "None",
+        "timestamp": "2025-10-14T00:21:05.511181",
+        "annotated_by": "User 3",
+        "original_file_path": "/project/3dllms/melgin/datasets/CEA/Crops3D/Cabbage/mvs_901_14.ply",
+        "dataset": "Crops3D_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Cabbage@mvs_907_07": {
+        "prompt": "What color is the ceramic pot containing the plant? \n\nA. Green\nB. Red\nC. Yellow",
+        "response": "None",
+        "timestamp": "2025-10-14T00:32:53.008868",
+        "annotated_by": "User 3",
+        "original_file_path": "/project/3dllms/melgin/datasets/CEA/Crops3D/Cabbage/mvs_907_07.ply",
+        "dataset": "Crops3D_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Cabbage@mvs_907_11": {
+        "prompt": "What color is the pot that the plant is in?\n\nA. Green\nB. Yellow\nC. Red",
+        "response": "None",
+        "timestamp": "2025-10-14T00:18:06.989392",
+        "annotated_by": "User 3",
+        "original_file_path": "/project/3dllms/melgin/datasets/CEA/Crops3D/Cabbage/mvs_907_11.ply",
+        "dataset": "Crops3D_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Cabbage@mvs_907_13": {
+        "prompt": "What color is the ceramic pot containing the succulent?\n\nA. Green\nB. Red\nC. Yellow",
+        "response": "none",
+        "timestamp": "2025-10-29T18:03:24.550008",
+        "annotated_by": "User 5",
+        "original_file_path": "/project/3dllms/melgin/datasets/CEA/Crops3D/Cabbage/mvs_907_13.ply",
+        "dataset": "Crops3D_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Cabbage@mvs_914_04": {
+        "prompt": "What color is the rim of the pot that holds the money plant?\n\nA. Green\nB. Yellow\nC. Red",
+        "response": "none",
+        "timestamp": "2025-10-30T09:56:05.863101",
+        "annotated_by": "User 5",
+        "original_file_path": "/project/3dllms/melgin/datasets/CEA/Crops3D/Cabbage/mvs_914_04.ply",
+        "dataset": "Crops3D_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Cabbage@mvs_914_12": {
+        "prompt": "What color is the rim of the pot that the houseplant is in?\n\nA. Green\nB. White\nC. Red",
+        "response": "none",
+        "timestamp": "2025-10-28T09:31:30.701070",
+        "annotated_by": "User 4",
+        "original_file_path": "/project/3dllms/melgin/datasets/CEA/Crops3D/Cabbage/mvs_914_12.ply",
+        "dataset": "Crops3D_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Cabbage@mvs_921_03": {
+        "prompt": "What color is the pot containing the small potted plant?\n\nA. Light blue\nB. Green\nC. Yellow",
+        "response": "none",
+        "timestamp": "2025-10-25T12:21:09.051981",
+        "annotated_by": "User 5",
+        "original_file_path": "/project/3dllms/melgin/datasets/CEA/Crops3D/Cabbage/mvs_921_03.ply",
+        "dataset": "Crops3D_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Cabbage@mvs_929_06": {
+        "prompt": "What color is the pot that the succulent is in? \n\nA. Dark green\nB. Bright red\nC. Yellow",
+        "response": "None",
+        "timestamp": "2025-10-14T00:36:02.653325",
+        "annotated_by": "User 3",
+        "original_file_path": "/project/3dllms/melgin/datasets/CEA/Crops3D/Cabbage/mvs_929_06.ply",
+        "dataset": "Crops3D_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Cabbage@mvs_929_10": {
+        "prompt": "What shape is the pot that the succulent is planted in?\n\nA. Oval\nB. Square\nC. Triangular",
+        "response": "None",
+        "timestamp": "2025-10-29T15:38:23.597405",
+        "annotated_by": "User 3",
+        "original_file_path": "/project/3dllms/melgin/datasets/CEA/Crops3D/Cabbage/mvs_929_10.ply",
+        "dataset": "Crops3D_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Cabbage@mvs_929_14": {
+        "prompt": "What color is the rim of the ceramic pot holding the plant?\n\nA. Dark blue\nB. Brown\nC. Green",
+        "response": "none",
+        "timestamp": "2025-10-29T18:35:22.181380",
+        "annotated_by": "User 5",
+        "original_file_path": "/project/3dllms/melgin/datasets/CEA/Crops3D/Cabbage/mvs_929_14.ply",
+        "dataset": "Crops3D_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Cabbage@sl_1019_01": {
+        "prompt": "What type of leaf shape is described for the plant in the room?\n\nA. Heart-shaped\nB. Triangular\nC. Circular",
+        "response": "C",
+        "timestamp": "2025-10-14T00:34:12.533243",
+        "annotated_by": "User 3",
+        "original_file_path": "/project/3dllms/melgin/datasets/CEA/Crops3D/Cabbage/sl_1019_01.ply",
+        "dataset": "Crops3D_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Cabbage@sl_1019_03": {
+        "prompt": "What shape are the leaves of the potted houseplant described?\n\nA. Round with serrated edges\nB. Needle-like and thin\nC. Heart-shaped with ribbed edges",
+        "response": "A",
+        "timestamp": "2025-10-06T10:17:58.161234",
+        "annotated_by": "User 3",
+        "original_file_path": "/project/3dllms/melgin/datasets/CEA/Crops3D/Cabbage/sl_1019_03.ply",
+        "dataset": "Crops3D_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Cabbage@sl_1019_05": {
+        "prompt": "What shape is the pot that houses the potted plant?\n\nA. Square\nB. Triangular\nC. Oval",
+        "response": "No pot",
+        "timestamp": "2025-10-14T00:30:21.411311",
+        "annotated_by": "User 3",
+        "original_file_path": "/project/3dllms/melgin/datasets/CEA/Crops3D/Cabbage/sl_1019_05.ply",
+        "dataset": "Crops3D_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Cabbage@sl_1019_07": {
+        "prompt": "What color are the leaves of the potted succulent?\n\nA. Red\nB. Yellow\nC. Blue",
+        "response": "None",
+        "timestamp": "2025-10-14T00:29:07.793674",
+        "annotated_by": "User 3",
+        "original_file_path": "/project/3dllms/melgin/datasets/CEA/Crops3D/Cabbage/sl_1019_07.ply",
+        "dataset": "Crops3D_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Cabbage@sl_1019_13": {
+        "prompt": "What type of plant is described in the room?\n\nA. Cactus with spiky leaves\nB. Fern with feathery fronds\nC. Bonsai tree with small leaves",
+        "response": "none",
+        "timestamp": "2025-10-30T09:56:47.272047",
+        "annotated_by": "User 5",
+        "original_file_path": "/project/3dllms/melgin/datasets/CEA/Crops3D/Cabbage/sl_1019_13.ply",
+        "dataset": "Crops3D_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Cabbage@sl_1026_02": {
+        "prompt": "What is the shape of the leaves on the potted plant described? \n\nA. Oval and smooth\nB. Long and narrow\nC. Triangular and sharp",
+        "response": "none",
+        "timestamp": "2025-10-28T09:32:09.738159",
+        "annotated_by": "User 4",
+        "original_file_path": "/project/3dllms/melgin/datasets/CEA/Crops3D/Cabbage/sl_1026_02.ply",
+        "dataset": "Crops3D_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Cabbage@sl_1026_08": {
+        "prompt": "What type of plant is described in the room?\n\nA. A flowering cactus\nB. A fern\nC. A palm tree",
+        "response": "none",
+        "timestamp": "2025-10-29T18:02:57.507348",
+        "annotated_by": "User 5",
+        "original_file_path": "/project/3dllms/melgin/datasets/CEA/Crops3D/Cabbage/sl_1026_08.ply",
+        "dataset": "Crops3D_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Cabbage@sl_1026_10": {
+        "prompt": "What shape does the green succulent's leaves create as they are arranged?\n\nA. A straight line\nB. A spiral formation\nC. A triangular shape",
+        "response": "none",
+        "timestamp": "2025-10-30T11:40:33.630541",
+        "annotated_by": "User 5",
+        "original_file_path": "/project/3dllms/melgin/datasets/CEA/Crops3D/Cabbage/sl_1026_10.ply",
+        "dataset": "Crops3D_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Cabbage@sl_1026_12": {
+        "prompt": "What shape does the arrangement of the succulent leaves form?\n\nA. A flat disk shape\nB. A spiral shape\nC. A vertical column shape",
+        "response": "none",
+        "timestamp": "2025-10-30T09:58:05.615738",
+        "annotated_by": "User 5",
+        "original_file_path": "/project/3dllms/melgin/datasets/CEA/Crops3D/Cabbage/sl_1026_12.ply",
+        "dataset": "Crops3D_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Cabbage@sl_1103_05": {
+        "prompt": "What shape is the pot that holds the succulent?\n\nA. Square\nB. Tall rectangular\nC. Flat dish",
+        "response": "None",
+        "timestamp": "2025-10-27T08:41:56.828531",
+        "annotated_by": "User 3",
+        "original_file_path": "/project/3dllms/melgin/datasets/CEA/Crops3D/Cabbage/sl_1103_05.ply",
+        "dataset": "Crops3D_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Cabbage@sl_1103_13": {
+        "prompt": "What shape are the leaves of the succulent?\n\nA. Circular\nB. Needle-like\nC. Pointy and thin",
+        "response": "none",
+        "timestamp": "2025-10-30T09:58:57.003016",
+        "annotated_by": "User 5",
+        "original_file_path": "/project/3dllms/melgin/datasets/CEA/Crops3D/Cabbage/sl_1103_13.ply",
+        "dataset": "Crops3D_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Cabbage@sl_1109_06": {
+        "prompt": "What type of plant is described in the room?\n\nA. A flowering plant\nB. A cactus\nC. A fern",
+        "response": "none",
+        "timestamp": "2025-10-30T09:55:19.975335",
+        "annotated_by": "User 5",
+        "original_file_path": "/project/3dllms/melgin/datasets/CEA/Crops3D/Cabbage/sl_1109_06.ply",
+        "dataset": "Crops3D_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Cabbage@sl_1109_08": {
+        "prompt": "What color is the pot that holds the succulent plant?\n\nA. Green\nB. Brown\nC. Red",
+        "response": "none",
+        "timestamp": "2025-10-29T18:05:03.755924",
+        "annotated_by": "User 5",
+        "original_file_path": "/project/3dllms/melgin/datasets/CEA/Crops3D/Cabbage/sl_1109_08.ply",
+        "dataset": "Crops3D_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Cabbage@sl_1109_10": {
+        "prompt": "What is the shape of the leaves on the succulent described?\n\nA. Round and flat\nB. Long and thin\nC. Pointed and sharp",
+        "response": "a",
+        "timestamp": "2025-10-29T18:00:39.726351",
+        "annotated_by": "User 5",
+        "original_file_path": "/project/3dllms/melgin/datasets/CEA/Crops3D/Cabbage/sl_1109_10.ply",
+        "dataset": "Crops3D_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Cabbage@sl_1109_12": {
+        "prompt": "What is the color of the leaves of the potted succulent?\n\nA. Light green\nB. Yellow\nC. Brown",
+        "response": "None",
+        "timestamp": "2025-10-14T00:37:17.396896",
+        "annotated_by": "User 3",
+        "original_file_path": "/project/3dllms/melgin/datasets/CEA/Crops3D/Cabbage/sl_1109_12.ply",
+        "dataset": "Crops3D_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Cabbage@sl_1109_14": {
+        "prompt": "What type of pot is the succulent plant sitting in?\n\nA. White-colored pot\nB. Transparent pot\nC. Clay pot",
+        "response": "None",
+        "timestamp": "2025-10-14T00:17:16.639502",
+        "annotated_by": "User 3",
+        "original_file_path": "/project/3dllms/melgin/datasets/CEA/Crops3D/Cabbage/sl_1109_14.ply",
+        "dataset": "Crops3D_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Cabbage@sl_1116_11": {
+        "prompt": "What shape does the succulent form with its leaves?\n\nA. Triangular shape\nB. Oval shape\nC. Square shape",
+        "response": "B",
+        "timestamp": "2025-10-14T00:31:17.432660",
+        "annotated_by": "User 3",
+        "original_file_path": "/project/3dllms/melgin/datasets/CEA/Crops3D/Cabbage/sl_1116_11.ply",
+        "dataset": "Crops3D_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Cabbage@sl_1205_01": {
+        "prompt": "What color is the pot that holds the houseplant?\n\nA. Green\nB. Red\nC. Yellow",
+        "response": "None",
+        "timestamp": "2025-10-14T00:18:49.555302",
+        "annotated_by": "User 3",
+        "original_file_path": "/project/3dllms/melgin/datasets/CEA/Crops3D/Cabbage/sl_1205_01.ply",
+        "dataset": "Crops3D_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Cabbage@sl_1205_05": {
+        "prompt": "What color is the pot that the succulent is in?\n\nA. Red\nB. Green\nC. Yellow",
+        "response": "None",
+        "timestamp": "2025-10-14T00:25:07.705335",
+        "annotated_by": "User 3",
+        "original_file_path": "/project/3dllms/melgin/datasets/CEA/Crops3D/Cabbage/sl_1205_05.ply",
+        "dataset": "Crops3D_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Cabbage@sl_901_02": {
+        "prompt": "What shape is the pot that holds the bonsai-style plant?\n\nA. Square\nB. Rectangular\nC. Triangular",
+        "response": "None",
+        "timestamp": "2025-10-14T00:26:36.797298",
+        "annotated_by": "User 3",
+        "original_file_path": "/project/3dllms/melgin/datasets/CEA/Crops3D/Cabbage/sl_901_02.ply",
+        "dataset": "Crops3D_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Cabbage@sl_901_04": {
+        "prompt": "What color is the pot that holds the plant?\n\nA. Light blue\nB. White\nC. Green",
+        "response": "none",
+        "timestamp": "2025-10-30T09:53:42.388986",
+        "annotated_by": "User 5",
+        "original_file_path": "/project/3dllms/melgin/datasets/CEA/Crops3D/Cabbage/sl_901_04.ply",
+        "dataset": "Crops3D_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Cabbage@sl_901_10": {
+        "prompt": "What color is the glaze of the pot that holds the bonsai tree?\n\nA. Light Brown\nB. Matte White\nC. Bright Red",
+        "response": "none",
+        "timestamp": "2025-10-30T09:51:12.338808",
+        "annotated_by": "User 5",
+        "original_file_path": "/project/3dllms/melgin/datasets/CEA/Crops3D/Cabbage/sl_901_10.ply",
+        "dataset": "Crops3D_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Cabbage@sl_907_01": {
+        "prompt": "What shape do the leaves of the succulent have?\n\nA. Long and thin\nB. Flat and wide\nC. Rounded and smooth",
+        "response": "c",
+        "timestamp": "2025-10-29T18:36:32.066556",
+        "annotated_by": "User 5",
+        "original_file_path": "/project/3dllms/melgin/datasets/CEA/Crops3D/Cabbage/sl_907_01.ply",
+        "dataset": "Crops3D_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Cabbage@sl_907_03": {
+        "prompt": "What shape is the pot that the plant is in?\n\nA. Square\nB. Rectangular\nC. Oval",
+        "response": "C",
+        "timestamp": "2025-10-14T00:23:54.510195",
+        "annotated_by": "User 3",
+        "original_file_path": "/project/3dllms/melgin/datasets/CEA/Crops3D/Cabbage/sl_907_03.ply",
+        "dataset": "Crops3D_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Cabbage@sl_907_05": {
+        "prompt": "What color is the pot that the plant is in?\n\nA. Green\nB. Brown\nC. Yellow",
+        "response": "none",
+        "timestamp": "2025-10-30T09:59:26.777442",
+        "annotated_by": "User 5",
+        "original_file_path": "/project/3dllms/melgin/datasets/CEA/Crops3D/Cabbage/sl_907_05.ply",
+        "dataset": "Crops3D_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Cabbage@sl_907_11": {
+        "prompt": "What shape is the pot that the plant is in?\n\nA. Square\nB. Rectangular\nC. Oval",
+        "response": "None",
+        "timestamp": "2025-10-27T08:43:27.153551",
+        "annotated_by": "User 3",
+        "original_file_path": "/project/3dllms/melgin/datasets/CEA/Crops3D/Cabbage/sl_907_11.ply",
+        "dataset": "Crops3D_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Cabbage@sl_921_03": {
+        "prompt": "What color is the pot that the bonsai-style plant is planted in?\n\nA. Red\nB. Green\nC. Yellow",
+        "response": "none",
+        "timestamp": "2025-10-28T12:35:24.727967",
+        "annotated_by": "User 4",
+        "original_file_path": "/project/3dllms/melgin/datasets/CEA/Crops3D/Cabbage/sl_921_03.ply",
+        "dataset": "Crops3D_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Cabbage@sl_921_07": {
+        "prompt": "What shape is the planter for the potted plant?\n\nA. Square\nB. Oval\nC. Triangular",
+        "response": "B",
+        "timestamp": "2025-10-14T00:20:25.770756",
+        "annotated_by": "User 3",
+        "original_file_path": "/project/3dllms/melgin/datasets/CEA/Crops3D/Cabbage/sl_921_07.ply",
+        "dataset": "Crops3D_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Cabbage@sl_921_11": {
+        "prompt": "What color is the pot that the plant is growing in?\n\nA. Red\nB. Green\nC. Yellow",
+        "response": "None",
+        "timestamp": "2025-10-14T00:33:31.134715",
+        "annotated_by": "User 3",
+        "original_file_path": "/project/3dllms/melgin/datasets/CEA/Crops3D/Cabbage/sl_921_11.ply",
+        "dataset": "Crops3D_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Cotton@100": {
+        "prompt": "What color are the blossoms on the sapling?\n\nA. Pink\nB. Yellow\nC. Blue",
+        "response": "none",
+        "timestamp": "2025-10-30T10:34:49.860321",
+        "annotated_by": "User 5",
+        "original_file_path": "/project/3dllms/melgin/datasets/CEA/Crops3D/Cotton/100.ply",
+        "dataset": "Crops3D_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Cotton@107": {
+        "prompt": "What color are the blossoms on the flowering tree described?\n\nA. Red\nB. Yellow\nC. Blue",
+        "response": "none",
+        "timestamp": "2025-10-30T10:10:34.349260",
+        "annotated_by": "User 5",
+        "original_file_path": "/project/3dllms/melgin/datasets/CEA/Crops3D/Cotton/107.ply",
+        "dataset": "Crops3D_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Cotton@11": {
+        "prompt": "What is the color of the petals on the blossoms?\n\nA. Blue\nB. Red\nC. Yellow",
+        "response": "none",
+        "timestamp": "2025-10-30T10:26:21.931708",
+        "annotated_by": "User 5",
+        "original_file_path": "/project/3dllms/melgin/datasets/CEA/Crops3D/Cotton/11.ply",
+        "dataset": "Crops3D_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Cotton@112": {
+        "prompt": "What type of blossoms are found along the slender brown branch?\n\nA. Bluebells\nB. Red roses\nC. Sunflowers",
+        "response": "none",
+        "timestamp": "2025-10-30T10:08:56.453308",
+        "annotated_by": "User 5",
+        "original_file_path": "/project/3dllms/melgin/datasets/CEA/Crops3D/Cotton/112.ply",
+        "dataset": "Crops3D_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Cotton@113": {
+        "prompt": "What type of blossoms are found on the slender brown flowering branch?\n\nA. Yellow blossoms\nB. Red blossoms\nC. Pink blossoms",
+        "response": "none",
+        "timestamp": "2025-10-30T10:02:38.080770",
+        "annotated_by": "User 5",
+        "original_file_path": "/project/3dllms/melgin/datasets/CEA/Crops3D/Cotton/113.ply",
+        "dataset": "Crops3D_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Cotton@115": {
+        "prompt": "What color are the blossoms on the stem described?\n\nA. Red\nB. Blue\nC. Yellow",
+        "response": "none",
+        "timestamp": "2025-10-30T10:11:38.418393",
+        "annotated_by": "User 5",
+        "original_file_path": "/project/3dllms/melgin/datasets/CEA/Crops3D/Cotton/115.ply",
+        "dataset": "Crops3D_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Cotton@116": {
+        "prompt": "What is the color of the branch described in the room?\n\nA. Green\nB. Yellow\nC. White",
+        "response": "none",
+        "timestamp": "2025-10-30T09:59:56.997001",
+        "annotated_by": "User 5",
+        "original_file_path": "/project/3dllms/melgin/datasets/CEA/Crops3D/Cotton/116.ply",
+        "dataset": "Crops3D_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Cotton@120": {
+        "prompt": "What type of plant is described in the room?\n\nA. Corn plant\nB. Wheat plant\nC. Soybean plant",
+        "response": "none",
+        "timestamp": "2025-10-30T10:05:32.647780",
+        "annotated_by": "User 5",
+        "original_file_path": "/project/3dllms/melgin/datasets/CEA/Crops3D/Cotton/120.ply",
+        "dataset": "Crops3D_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Cotton@122": {
+        "prompt": "What color are the cotton bolls on the plant?\n\nA. Yellow\nB. Green\nC. Brown",
+        "response": "none",
+        "timestamp": "2025-10-30T10:39:01.241813",
+        "annotated_by": "User 5",
+        "original_file_path": "/project/3dllms/melgin/datasets/CEA/Crops3D/Cotton/122.ply",
+        "dataset": "Crops3D_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Cotton@125": {
+        "prompt": "What color are the centers of some of the blossoms on the flowering branch?\n\nA. Yellow\nB. Blue\nC. Red",
+        "response": "none",
+        "timestamp": "2025-10-30T23:13:29.839107",
+        "annotated_by": "User 5",
+        "original_file_path": "/project/3dllms/melgin/datasets/CEA/Crops3D/Cotton/125.ply",
+        "dataset": "Crops3D_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Cotton@126": {
+        "prompt": "What type of plant is described in the room?  \n\nA. Aconite\nB. Evergreen tree\nC. Cactus",
+        "response": "none",
+        "timestamp": "2025-10-30T10:01:47.743046",
+        "annotated_by": "User 5",
+        "original_file_path": "/project/3dllms/melgin/datasets/CEA/Crops3D/Cotton/126.ply",
+        "dataset": "Crops3D_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Cotton@127": {
+        "prompt": "What type of flowers are found on the branch?\n\nA. Red roses\nB. Blue daisies\nC. Yellow tulips",
+        "response": "none",
+        "timestamp": "2025-10-30T23:15:08.418994",
+        "annotated_by": "User 5",
+        "original_file_path": "/project/3dllms/melgin/datasets/CEA/Crops3D/Cotton/127.ply",
+        "dataset": "Crops3D_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Cotton@133": {
+        "prompt": "What color are the blossoms on the sapling?\n\nA. Red\nB. Yellow\nC. Blue",
+        "response": "none",
+        "timestamp": "2025-10-30T10:30:22.498601",
+        "annotated_by": "User 5",
+        "original_file_path": "/project/3dllms/melgin/datasets/CEA/Crops3D/Cotton/133.ply",
+        "dataset": "Crops3D_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Cotton@136": {
+        "prompt": "What characteristic is most prominent at the upper portion of the cotton plant described?\n\nA. Vibrant yellow flowers\nB. Large dark green leaves\nC. A thick woody stem",
+        "response": "none",
+        "timestamp": "2025-10-30T10:07:16.006870",
+        "annotated_by": "User 5",
+        "original_file_path": "/project/3dllms/melgin/datasets/CEA/Crops3D/Cotton/136.ply",
+        "dataset": "Crops3D_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Cotton@137": {
+        "prompt": "What color are the flowers or seed pods at the top of the plant?\n\nA. Blue\nB. Red\nC. Yellow",
+        "response": "none",
+        "timestamp": "2025-10-30T10:26:59.567097",
+        "annotated_by": "User 5",
+        "original_file_path": "/project/3dllms/melgin/datasets/CEA/Crops3D/Cotton/137.ply",
+        "dataset": "Crops3D_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Cotton@14": {
+        "prompt": "What color are the centers of the blossoms on the bonsai-style tree?\n\nA. White\nB. Brown\nC. Green",
+        "response": "b",
+        "timestamp": "2025-10-30T10:00:27.602411",
+        "annotated_by": "User 5",
+        "original_file_path": "/project/3dllms/melgin/datasets/CEA/Crops3D/Cotton/14.ply",
+        "dataset": "Crops3D_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Cotton@145": {
+        "prompt": "What type of plant is described in the room?\n\nA. A large tree with wide branches\nB. A bush with thick foliage\nC. A flowering plant with vibrant petals",
+        "response": "none",
+        "timestamp": "2025-10-30T10:37:49.120679",
+        "annotated_by": "User 5",
+        "original_file_path": "/project/3dllms/melgin/datasets/CEA/Crops3D/Cotton/145.ply",
+        "dataset": "Crops3D_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Cotton@149": {
+        "prompt": "What type of plant is described?\n\nA. A large flowering tree\nB. A climbing vine\nC. A tall grass",
+        "response": "none",
+        "timestamp": "2025-10-30T10:20:15.371579",
+        "annotated_by": "User 5",
+        "original_file_path": "/project/3dllms/melgin/datasets/CEA/Crops3D/Cotton/149.ply",
+        "dataset": "Crops3D_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Cotton@15": {
+        "prompt": "What type of blossoms are found on the tall, slender brown branch?\n\nA. Red fluffy blossoms\nB. Blue flat blossoms\nC. Large yellow blossoms",
+        "response": "none",
+        "timestamp": "2025-10-30T10:38:39.207876",
+        "annotated_by": "User 5",
+        "original_file_path": "/project/3dllms/melgin/datasets/CEA/Crops3D/Cotton/15.ply",
+        "dataset": "Crops3D_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Cotton@153": {
+        "prompt": "What type of blossoms are found on the tall, slender brown plant stem?\n\nA. Yellow fluffy blossoms\nB. Red fluffy blossoms\nC. Blue fluffy blossoms",
+        "response": "none",
+        "timestamp": "2025-10-30T10:12:42.595363",
+        "annotated_by": "User 5",
+        "original_file_path": "/project/3dllms/melgin/datasets/CEA/Crops3D/Cotton/153.ply",
+        "dataset": "Crops3D_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Cotton@158": {
+        "prompt": "What color are the petals of the flowers on the branch?\n\nA. Red\nB. Blue\nC. Yellow",
+        "response": "c",
+        "timestamp": "2025-10-30T10:18:06.535063",
+        "annotated_by": "User 5",
+        "original_file_path": "/project/3dllms/melgin/datasets/CEA/Crops3D/Cotton/158.ply",
+        "dataset": "Crops3D_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Cotton@159": {
+        "prompt": "What kind of base is the bonsai-like flowering tree rooted in?\n\nA. A sandy base\nB. A rocky base\nC. A clay base",
+        "response": "none",
+        "timestamp": "2025-10-30T10:12:15.774704",
+        "annotated_by": "User 5",
+        "original_file_path": "/project/3dllms/melgin/datasets/CEA/Crops3D/Cotton/159.ply",
+        "dataset": "Crops3D_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Cotton@16": {
+        "prompt": "What color are the blossoms of the small flowering tree?\n\nA. Pink\nB. Yellow\nC. Red",
+        "response": "none",
+        "timestamp": "2025-10-30T10:02:13.838391",
+        "annotated_by": "User 5",
+        "original_file_path": "/project/3dllms/melgin/datasets/CEA/Crops3D/Cotton/16.ply",
+        "dataset": "Crops3D_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Cotton@160": {
+        "prompt": "What type of plant is described in the room?\n\nA. A shrub with thick branches\nB. A large oak tree\nC. A flowering vine",
+        "response": "none",
+        "timestamp": "2025-10-30T10:34:07.489391",
+        "annotated_by": "User 5",
+        "original_file_path": "/project/3dllms/melgin/datasets/CEA/Crops3D/Cotton/160.ply",
+        "dataset": "Crops3D_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Cotton@168": {
+        "prompt": "What color are the blossoms on the flowering stem?\n\nA. Red\nB. Yellow\nC. Blue",
+        "response": "none",
+        "timestamp": "2025-10-30T10:38:14.357376",
+        "annotated_by": "User 5",
+        "original_file_path": "/project/3dllms/melgin/datasets/CEA/Crops3D/Cotton/168.ply",
+        "dataset": "Crops3D_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Cotton@173": {
+        "prompt": "What color are the cotton bolls on the cotton plant?\n\nA. Brown\nB. Blue\nC. Green",
+        "response": "none",
+        "timestamp": "2025-10-30T10:10:13.636470",
+        "annotated_by": "User 5",
+        "original_file_path": "/project/3dllms/melgin/datasets/CEA/Crops3D/Cotton/173.ply",
+        "dataset": "Crops3D_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Cotton@176": {
+        "prompt": "What shape is the planter in which the slender tree or shrub is planted?\n\nA. Circle\nB. Triangle\nC. Rectangle",
+        "response": "c",
+        "timestamp": "2025-10-30T10:33:42.772994",
+        "annotated_by": "User 5",
+        "original_file_path": "/project/3dllms/melgin/datasets/CEA/Crops3D/Cotton/176.ply",
+        "dataset": "Crops3D_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Cotton@180": {
+        "prompt": "What color are the leaves of the sapling?\n\nA. Brown\nB. Yellow\nC. Red",
+        "response": "none",
+        "timestamp": "2025-10-30T10:18:34.597792",
+        "annotated_by": "User 5",
+        "original_file_path": "/project/3dllms/melgin/datasets/CEA/Crops3D/Cotton/180.ply",
+        "dataset": "Crops3D_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Cotton@188": {
+        "prompt": "What type of plant is described in the room?\n\nA. A flower bush\nB. A grassy plant\nC. A palm tree",
+        "response": "none",
+        "timestamp": "2025-10-30T10:28:17.425037",
+        "annotated_by": "User 5",
+        "original_file_path": "/project/3dllms/melgin/datasets/CEA/Crops3D/Cotton/188.ply",
+        "dataset": "Crops3D_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Cotton@19": {
+        "prompt": "What is located at the bottom of the cotton plant stem?\n\nA. A smooth rock\nB. A single large flower\nC. A pointed spike",
+        "response": "none",
+        "timestamp": "2025-10-30T10:36:14.843508",
+        "annotated_by": "User 5",
+        "original_file_path": "/project/3dllms/melgin/datasets/CEA/Crops3D/Cotton/19.ply",
+        "dataset": "Crops3D_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Cotton@197": {
+        "prompt": "What is the main feature of the plant described?\n\nA. It has a thick, dark bark with no branches\nB. It is a large tree with broad canopy\nC. It only has green leaves without any flowers",
+        "response": "none",
+        "timestamp": "2025-10-30T10:31:49.131217",
+        "annotated_by": "User 5",
+        "original_file_path": "/project/3dllms/melgin/datasets/CEA/Crops3D/Cotton/197.ply",
+        "dataset": "Crops3D_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Cotton@198": {
+        "prompt": "What color are the blossoms on the sapling?\n\nA. Yellow\nB. Red\nC. Blue",
+        "response": "none",
+        "timestamp": "2025-10-30T10:04:31.481496",
+        "annotated_by": "User 5",
+        "original_file_path": "/project/3dllms/melgin/datasets/CEA/Crops3D/Cotton/198.ply",
+        "dataset": "Crops3D_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Cotton@2": {
+        "prompt": "What is the color of the bolls on the cotton plant described?\n\nA. Green\nB. Brown\nC. Yellow",
+        "response": "none",
+        "timestamp": "2025-10-30T10:09:18.427956",
+        "annotated_by": "User 5",
+        "original_file_path": "/project/3dllms/melgin/datasets/CEA/Crops3D/Cotton/2.ply",
+        "dataset": "Crops3D_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Cotton@21": {
+        "prompt": "What type of plant is described as having multi-stemmed structure and white fluffy blossoms?\n\nA. A flowering tree\nB. A palm plant\nC. A fern",
+        "response": "none",
+        "timestamp": "2025-10-30T10:09:51.217948",
+        "annotated_by": "User 5",
+        "original_file_path": "/project/3dllms/melgin/datasets/CEA/Crops3D/Cotton/21.ply",
+        "dataset": "Crops3D_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Cotton@22": {
+        "prompt": "What shape does the dried cotton plant branch with two stems form?\n\nA. A circular shape\nB. A straight line\nC. A zigzag pattern",
+        "response": "none",
+        "timestamp": "2025-10-30T10:11:10.689759",
+        "annotated_by": "User 5",
+        "original_file_path": "/project/3dllms/melgin/datasets/CEA/Crops3D/Cotton/22.ply",
+        "dataset": "Crops3D_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Cotton@25": {
+        "prompt": "What feature do the blossoms on the branch predominantly have?\n\nA. They grow in clusters of three\nB. They are all yellow in color\nC. They produce a fruity scent",
+        "response": "none",
+        "timestamp": "2025-10-30T10:17:26.911370",
+        "annotated_by": "User 5",
+        "original_file_path": "/project/3dllms/melgin/datasets/CEA/Crops3D/Cotton/25.ply",
+        "dataset": "Crops3D_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Cotton@26": {
+        "prompt": "What color are the blossoms on the branch?\n\nA. Yellow\nB. Red\nC. Pink",
+        "response": "f",
+        "timestamp": "2025-10-30T10:08:12.613063",
+        "annotated_by": "User 5",
+        "original_file_path": "/project/3dllms/melgin/datasets/CEA/Crops3D/Cotton/26.ply",
+        "dataset": "Crops3D_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Cotton@27": {
+        "prompt": "What characteristic feature is present at the base of the cotton plant?\n\nA. Soft flowers\nB. Clusters of cotton bolls\nC. Green stems",
+        "response": "none",
+        "timestamp": "2025-10-30T10:03:27.366263",
+        "annotated_by": "User 5",
+        "original_file_path": "/project/3dllms/melgin/datasets/CEA/Crops3D/Cotton/27.ply",
+        "dataset": "Crops3D_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Cotton@3": {
+        "prompt": "What color is the snow coating the tree's branches?\n\nA. Blue\nB. Green\nC. Brown",
+        "response": "none",
+        "timestamp": "2025-10-30T10:37:13.010352",
+        "annotated_by": "User 5",
+        "original_file_path": "/project/3dllms/melgin/datasets/CEA/Crops3D/Cotton/3.ply",
+        "dataset": "Crops3D_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Cotton@51": {
+        "prompt": "What type of plant is described in the room?\n\nA. A small tree\nB. A large succulent\nC. A flowering vine",
+        "response": "none",
+        "timestamp": "2025-10-30T10:22:51.642520",
+        "annotated_by": "User 5",
+        "original_file_path": "/project/3dllms/melgin/datasets/CEA/Crops3D/Cotton/51.ply",
+        "dataset": "Crops3D_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Cotton@6": {
+        "prompt": "What type of plant is described in the room?\n\nA. A cactus with spiky needles\nB. A flowering shrub in a round pot\nC. A tall palm tree with green leaves",
+        "response": "none",
+        "timestamp": "2025-10-30T10:27:54.092889",
+        "annotated_by": "User 5",
+        "original_file_path": "/project/3dllms/melgin/datasets/CEA/Crops3D/Cotton/6.ply",
+        "dataset": "Crops3D_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Cotton@62": {
+        "prompt": "What color are the tiny fluffy buds on the shrub?\n\nA. Red\nB. Blue\nC. Yellow",
+        "response": "none",
+        "timestamp": "2025-10-30T10:00:54.734871",
+        "annotated_by": "User 5",
+        "original_file_path": "/project/3dllms/melgin/datasets/CEA/Crops3D/Cotton/62.ply",
+        "dataset": "Crops3D_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Cotton@63": {
+        "prompt": "What type of plant is described in the room?\n\nA. A flower with large petals\nB. A tall tree\nC. A bush with thick leaves",
+        "response": "none",
+        "timestamp": "2025-10-30T10:05:04.512056",
+        "annotated_by": "User 5",
+        "original_file_path": "/project/3dllms/melgin/datasets/CEA/Crops3D/Cotton/63.ply",
+        "dataset": "Crops3D_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Cotton@65": {
+        "prompt": "What type of tree is described in the room?\n\nA. A coniferous tree with needle-like leaves\nB. A large oak tree with broad leaves\nC. A palm tree with long fronds",
+        "response": "none",
+        "timestamp": "2025-10-30T10:34:32.098926",
+        "annotated_by": "User 5",
+        "original_file_path": "/project/3dllms/melgin/datasets/CEA/Crops3D/Cotton/65.ply",
+        "dataset": "Crops3D_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Cotton@67": {
+        "prompt": "What type of plant structure is primarily described in the room?\n\nA. A bush with thick foliage\nB. A flowering vine\nC. A tree with a trunk",
+        "response": "none",
+        "timestamp": "2025-10-30T10:24:25.243918",
+        "annotated_by": "User 5",
+        "original_file_path": "/project/3dllms/melgin/datasets/CEA/Crops3D/Cotton/67.ply",
+        "dataset": "Crops3D_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Cotton@72": {
+        "prompt": "What color are the blossoms on the sapling?\n\nA. Red\nB. Yellow\nC. Blue",
+        "response": "none",
+        "timestamp": "2025-10-30T10:15:12.369727",
+        "annotated_by": "User 5",
+        "original_file_path": "/project/3dllms/melgin/datasets/CEA/Crops3D/Cotton/72.ply",
+        "dataset": "Crops3D_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Cotton@75": {
+        "prompt": "What color are the clusters of flowers on the cotton plant?\n\nA. Brown\nB. Green\nC. Yellow",
+        "response": "none",
+        "timestamp": "2025-10-30T10:37:29.379137",
+        "annotated_by": "User 5",
+        "original_file_path": "/project/3dllms/melgin/datasets/CEA/Crops3D/Cotton/75.ply",
+        "dataset": "Crops3D_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Cotton@78": {
+        "prompt": "What type of plant is described in the room?\n\nA. A bush with red flowers\nB. A tall tree with thick branches\nC. A ground cover plant",
+        "response": "none",
+        "timestamp": "2025-10-30T10:27:28.770082",
+        "annotated_by": "User 5",
+        "original_file_path": "/project/3dllms/melgin/datasets/CEA/Crops3D/Cotton/78.ply",
+        "dataset": "Crops3D_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Cotton@79": {
+        "prompt": "What type of plant is described in the room?\n\nA. A small fern\nB. A flowering cactus\nC. A tall palm tree",
+        "response": "none",
+        "timestamp": "2025-10-30T10:29:54.993590",
+        "annotated_by": "User 5",
+        "original_file_path": "/project/3dllms/melgin/datasets/CEA/Crops3D/Cotton/79.ply",
+        "dataset": "Crops3D_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Cotton@81": {
+        "prompt": "What color are the flowers on the branch?\n\nA. Blue\nB. Yellow\nC. Red",
+        "response": "none",
+        "timestamp": "2025-10-30T10:06:03.103627",
+        "annotated_by": "User 5",
+        "original_file_path": "/project/3dllms/melgin/datasets/CEA/Crops3D/Cotton/81.ply",
+        "dataset": "Crops3D_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Cotton@88": {
+        "prompt": "What type of plant feature is present on the slender brown stems?\n\nA. Dense root ball in soil\nB. Large colorful flowers\nC. Thick trunk",
+        "response": "none",
+        "timestamp": "2025-10-30T10:13:38.063809",
+        "annotated_by": "User 5",
+        "original_file_path": "/project/3dllms/melgin/datasets/CEA/Crops3D/Cotton/88.ply",
+        "dataset": "Crops3D_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Cotton@9": {
+        "prompt": "What type of plant is described as having a tall, slender trunk, green leaves, and clusters of white fluffy bolls along its branches?\n\nA. A Flowering Shrub\nB. An Oak Tree\nC. A Pine Tree",
+        "response": "none",
+        "timestamp": "2025-10-30T10:14:22.470642",
+        "annotated_by": "User 5",
+        "original_file_path": "/project/3dllms/melgin/datasets/CEA/Crops3D/Cotton/9.ply",
+        "dataset": "Crops3D_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Cotton@92": {
+        "prompt": "What color are the blossoms on the flowering branch?\n\nA. Pink\nB. Yellow\nC. Blue",
+        "response": "none",
+        "timestamp": "2025-10-30T10:04:14.010439",
+        "annotated_by": "User 5",
+        "original_file_path": "/project/3dllms/melgin/datasets/CEA/Crops3D/Cotton/92.ply",
+        "dataset": "Crops3D_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Maize@1-106": {
+        "prompt": "What is the color of the tassel-like inflorescence at the top of the maize plant?\n\nA. Green\nB. Yellow\nC. Red",
+        "response": "b",
+        "timestamp": "2025-10-30T11:43:41.449230",
+        "annotated_by": "User 5",
+        "original_file_path": "/project/3dllms/melgin/datasets/CEA/Crops3D/Maize/1-106.ply",
+        "dataset": "Crops3D_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Maize@1-111": {
+        "prompt": "What is the color of the tassel at the top of the maize plant?\n\nA. Green\nB. Dark Brown\nC. Yellow",
+        "response": "c",
+        "timestamp": "2025-10-30T10:40:44.253310",
+        "annotated_by": "User 5",
+        "original_file_path": "/project/3dllms/melgin/datasets/CEA/Crops3D/Maize/1-111.ply",
+        "dataset": "Crops3D_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Maize@1-113": {
+        "prompt": "What is the characteristic feature of the grass plant described?\n\nA. It has numerous flowers blooming at the base\nB. It is growing in a pot filled with water\nC. It has broad oval leaves instead of lanceolate leaves",
+        "response": "none",
+        "timestamp": "2025-10-30T11:39:37.181169",
+        "annotated_by": "User 5",
+        "original_file_path": "/project/3dllms/melgin/datasets/CEA/Crops3D/Maize/1-113.ply",
+        "dataset": "Crops3D_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Maize@1-118": {
+        "prompt": "What is the color of the seed panicle at the top of the plant?\n\nA. Green\nB. Yellow\nC. Red",
+        "response": "b",
+        "timestamp": "2025-10-30T11:16:14.131516",
+        "annotated_by": "User 5",
+        "original_file_path": "/project/3dllms/melgin/datasets/CEA/Crops3D/Maize/1-118.ply",
+        "dataset": "Crops3D_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Maize@1-120": {
+        "prompt": "What type of plant is described in the room?\n\nA. A cannabis plant\nB. A fruit-bearing tree\nC. A flowering shrub",
+        "response": "b",
+        "timestamp": "2025-10-30T11:27:41.105696",
+        "annotated_by": "User 5",
+        "original_file_path": "/project/3dllms/melgin/datasets/CEA/Crops3D/Maize/1-120.ply",
+        "dataset": "Crops3D_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Maize@1-122": {
+        "prompt": "What shape are the leaves of the plant described?\n\nA. Round\nB. Oval\nC. Heart-shaped",
+        "response": "none",
+        "timestamp": "2025-10-30T11:21:41.116952",
+        "annotated_by": "User 5",
+        "original_file_path": "/project/3dllms/melgin/datasets/CEA/Crops3D/Maize/1-122.ply",
+        "dataset": "Crops3D_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Maize@1-123": {
+        "prompt": "What is the color of the inflorescence at the top of the corn plant?  \n\nA. Dark green\nB. Bright yellow\nC. Reddish orange",
+        "response": "none",
+        "timestamp": "2025-10-30T11:41:53.690508",
+        "annotated_by": "User 5",
+        "original_file_path": "/project/3dllms/melgin/datasets/CEA/Crops3D/Maize/1-123.ply",
+        "dataset": "Crops3D_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Maize@1-22": {
+        "prompt": "What is the shape of the top extension of the plant sculpture?\n\nA. Flat\nB. Straight\nC. Pointed",
+        "response": "none",
+        "timestamp": "2025-10-30T11:37:52.113696",
+        "annotated_by": "User 5",
+        "original_file_path": "/project/3dllms/melgin/datasets/CEA/Crops3D/Maize/1-22.ply",
+        "dataset": "Crops3D_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Maize@1-24": {
+        "prompt": "What color are the leaves of the potted plant?\n\nA. Yellow\nB. Red\nC. Blue",
+        "response": "none",
+        "timestamp": "2025-10-30T11:18:28.318478",
+        "annotated_by": "User 5",
+        "original_file_path": "/project/3dllms/melgin/datasets/CEA/Crops3D/Maize/1-24.ply",
+        "dataset": "Crops3D_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Maize@1-50": {
+        "prompt": "What characteristic describes the new growth at the top of the maize plant?\n\nA. It consists of wide, flat leaves pointing outward\nB. It is fully developed with thick, sturdy stalks\nC. It produces flowers in a blooming structure",
+        "response": "none",
+        "timestamp": "2025-10-30T11:41:12.201975",
+        "annotated_by": "User 5",
+        "original_file_path": "/project/3dllms/melgin/datasets/CEA/Crops3D/Maize/1-50.ply",
+        "dataset": "Crops3D_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Maize@1-51": {
+        "prompt": "What is the color of the leaves of the maize plant described?\n\nA. Yellow\nB. Light green\nC. Brown",
+        "response": "none",
+        "timestamp": "2025-10-30T11:18:57.821026",
+        "annotated_by": "User 5",
+        "original_file_path": "/project/3dllms/melgin/datasets/CEA/Crops3D/Maize/1-51.ply",
+        "dataset": "Crops3D_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Maize@1-60": {
+        "prompt": "What color are the veins of the maize leaves?\n\nA. Dark green\nB. Yellow\nC. White",
+        "response": "a",
+        "timestamp": "2025-10-30T23:17:24.486054",
+        "annotated_by": "User 5",
+        "original_file_path": "/project/3dllms/melgin/datasets/CEA/Crops3D/Maize/1-60.ply",
+        "dataset": "Crops3D_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Maize@1-68": {
+        "prompt": "What color are the leaves of the sapling?\n\nA. Brown\nB. Yellow\nC. Red",
+        "response": "none",
+        "timestamp": "2025-10-30T11:19:12.294023",
+        "annotated_by": "User 5",
+        "original_file_path": "/project/3dllms/melgin/datasets/CEA/Crops3D/Maize/1-68.ply",
+        "dataset": "Crops3D_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Maize@1-78": {
+        "prompt": "What type of leaves does the plant sapling described have?\n\nA. Round leaves\nB. Triangular leaves\nC. Broad leaves",
+        "response": "none",
+        "timestamp": "2025-10-30T11:33:07.072772",
+        "annotated_by": "User 5",
+        "original_file_path": "/project/3dllms/melgin/datasets/CEA/Crops3D/Maize/1-78.ply",
+        "dataset": "Crops3D_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Maize@2-101": {
+        "prompt": "What color are the leaves of the tall, slender plant described?\n\nA. Yellow\nB. Blue\nC. Red",
+        "response": "a",
+        "timestamp": "2025-10-30T11:19:33.970218",
+        "annotated_by": "User 5",
+        "original_file_path": "/project/3dllms/melgin/datasets/CEA/Crops3D/Maize/2-101.ply",
+        "dataset": "Crops3D_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Maize@2-107": {
+        "prompt": "What color is the pot in which the plant is potted?\n\nA. Green\nB. Yellow\nC. Black",
+        "response": "none",
+        "timestamp": "2025-10-30T11:42:37.751099",
+        "annotated_by": "User 5",
+        "original_file_path": "/project/3dllms/melgin/datasets/CEA/Crops3D/Maize/2-107.ply",
+        "dataset": "Crops3D_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Maize@2-108": {
+        "prompt": "What color are the leaves of the plant described?\n\nA. Blue\nB. Purple\nC. Red",
+        "response": "none",
+        "timestamp": "2025-10-30T11:32:53.891502",
+        "annotated_by": "User 5",
+        "original_file_path": "/project/3dllms/melgin/datasets/CEA/Crops3D/Maize/2-108.ply",
+        "dataset": "Crops3D_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Maize@2-109": {
+        "prompt": "What type of pot is the plant in?\n\nA. Wooden pot\nB. Ceramic pot\nC. Metallic pot",
+        "response": "noone",
+        "timestamp": "2025-10-30T11:15:50.899723",
+        "annotated_by": "User 5",
+        "original_file_path": "/project/3dllms/melgin/datasets/CEA/Crops3D/Maize/2-109.ply",
+        "dataset": "Crops3D_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Maize@2-11": {
+        "prompt": "What type of fronds does the potted plant have?\n\nA. Wide, flat leaves\nB. Thick, succulent leaves\nC. Short, round leaves",
+        "response": "none",
+        "timestamp": "2025-10-30T11:40:07.496261",
+        "annotated_by": "User 5",
+        "original_file_path": "/project/3dllms/melgin/datasets/CEA/Crops3D/Maize/2-11.ply",
+        "dataset": "Crops3D_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Maize@2-114": {
+        "prompt": "What color is the stem of the sapling?\n\nA. Dark Green\nB. Bright Red\nC. Deep Brown",
+        "response": "none",
+        "timestamp": "2025-10-30T11:43:03.990777",
+        "annotated_by": "User 5",
+        "original_file_path": "/project/3dllms/melgin/datasets/CEA/Crops3D/Maize/2-114.ply",
+        "dataset": "Crops3D_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Maize@2-116": {
+        "prompt": "What type of plant is described in the room?\n\nA. A cactus with spines\nB. A flowering shrub\nC. A tall tree with thick trunk",
+        "response": "none",
+        "timestamp": "2025-10-30T11:27:07.710120",
+        "annotated_by": "User 5",
+        "original_file_path": "/project/3dllms/melgin/datasets/CEA/Crops3D/Maize/2-116.ply",
+        "dataset": "Crops3D_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Maize@2-122": {
+        "prompt": "What shape do the leaves of the plant take as they extend from the central stem?\n\nA. Circular cluster\nB. Straight line\nC. Spiral formation",
+        "response": "none",
+        "timestamp": "2025-10-30T11:21:23.909978",
+        "annotated_by": "User 5",
+        "original_file_path": "/project/3dllms/melgin/datasets/CEA/Crops3D/Maize/2-122.ply",
+        "dataset": "Crops3D_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Maize@2-126": {
+        "prompt": "What type of container is the plant in?\n\nA. Square pot\nB. Rectangular pot\nC. Hanging basket",
+        "response": "none",
+        "timestamp": "2025-10-30T11:24:38.660216",
+        "annotated_by": "User 5",
+        "original_file_path": "/project/3dllms/melgin/datasets/CEA/Crops3D/Maize/2-126.ply",
+        "dataset": "Crops3D_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Maize@2-128": {
+        "prompt": "What type of plant is described in the room?\n\nA. A flowering shrub\nB. A small potted tree\nC. A grass plant",
+        "response": "b",
+        "timestamp": "2025-10-30T11:34:50.079715",
+        "annotated_by": "User 5",
+        "original_file_path": "/project/3dllms/melgin/datasets/CEA/Crops3D/Maize/2-128.ply",
+        "dataset": "Crops3D_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Maize@2-13": {
+        "prompt": "What is the shape of the pot in which the seedling is planted?\n\nA. Triangular\nB. Square\nC. Rectangular",
+        "response": "none",
+        "timestamp": "2025-10-30T10:52:32.093263",
+        "annotated_by": "User 5",
+        "original_file_path": "/project/3dllms/melgin/datasets/CEA/Crops3D/Maize/2-13.ply",
+        "dataset": "Crops3D_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Maize@2-137": {
+        "prompt": "What shape are the leaves of the potted plant described?\n\nA. Round\nB. Heart-shaped\nC. Oval",
+        "response": "none",
+        "timestamp": "2025-10-30T11:35:12.447676",
+        "annotated_by": "User 5",
+        "original_file_path": "/project/3dllms/melgin/datasets/CEA/Crops3D/Maize/2-137.ply",
+        "dataset": "Crops3D_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Maize@2-140": {
+        "prompt": "What shape do the leaves of the plant resemble?\n\nA. Round\nB. Heart-shaped\nC. Circular",
+        "response": "none",
+        "timestamp": "2025-10-30T11:24:09.448147",
+        "annotated_by": "User 5",
+        "original_file_path": "/project/3dllms/melgin/datasets/CEA/Crops3D/Maize/2-140.ply",
+        "dataset": "Crops3D_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Maize@2-141": {
+        "prompt": "What type of design does the pot of the houseplant feature?\n\nA. Stripes\nB. Floral patterns\nC. Geometric shapes",
+        "response": "none",
+        "timestamp": "2025-10-30T11:36:04.427025",
+        "annotated_by": "User 5",
+        "original_file_path": "/project/3dllms/melgin/datasets/CEA/Crops3D/Maize/2-141.ply",
+        "dataset": "Crops3D_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Maize@2-148": {
+        "prompt": "What is the texture of the leaves mentioned in the description?\n\nA. Smooth\nB. Velvety\nC. Rough",
+        "response": "a",
+        "timestamp": "2025-10-30T11:20:38.478514",
+        "annotated_by": "User 5",
+        "original_file_path": "/project/3dllms/melgin/datasets/CEA/Crops3D/Maize/2-148.ply",
+        "dataset": "Crops3D_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Maize@2-17": {
+        "prompt": "What shape are the leaves of the houseplant described?\n\nA. Round and wide\nB. Oval and flat\nC. Star-shaped",
+        "response": "none",
+        "timestamp": "2025-10-30T11:26:29.193345",
+        "annotated_by": "User 5",
+        "original_file_path": "/project/3dllms/melgin/datasets/CEA/Crops3D/Maize/2-17.ply",
+        "dataset": "Crops3D_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Maize@2-21": {
+        "prompt": "What shape is the pot that the plant is in?\n\nA. Rectangular\nB. Square\nC. Oval",
+        "response": "none",
+        "timestamp": "2025-10-30T11:42:12.359181",
+        "annotated_by": "User 5",
+        "original_file_path": "/project/3dllms/melgin/datasets/CEA/Crops3D/Maize/2-21.ply",
+        "dataset": "Crops3D_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Maize@2-24": {
+        "prompt": "What type of plant is described in the room?\n\nA. A short bushy plant with wide leaves\nB. A flowering plant with thick stems\nC. A succulent with rounded leaves",
+        "response": "none",
+        "timestamp": "2025-10-30T11:29:45.975452",
+        "annotated_by": "User 5",
+        "original_file_path": "/project/3dllms/melgin/datasets/CEA/Crops3D/Maize/2-24.ply",
+        "dataset": "Crops3D_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Maize@2-28": {
+        "prompt": "What shape is formed by the leaves at the top of the potted plant?\n\nA. A circle\nB. A rectangle\nC. A square",
+        "response": "none",
+        "timestamp": "2025-10-30T11:29:35.378717",
+        "annotated_by": "User 5",
+        "original_file_path": "/project/3dllms/melgin/datasets/CEA/Crops3D/Maize/2-28.ply",
+        "dataset": "Crops3D_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Maize@2-29": {
+        "prompt": "What shape are the leaves of the houseplant described?\n\nA. Round\nB. Oval\nC. Triangular",
+        "response": "none",
+        "timestamp": "2025-10-30T11:36:20.974022",
+        "annotated_by": "User 5",
+        "original_file_path": "/project/3dllms/melgin/datasets/CEA/Crops3D/Maize/2-29.ply",
+        "dataset": "Crops3D_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Maize@2-31": {
+        "prompt": "What is the shape of the leaves on the plant described?\n\nA. Oval-shaped\nB. Heart-shaped\nC. Circular-shaped",
+        "response": "none",
+        "timestamp": "2025-10-30T11:28:40.739351",
+        "annotated_by": "User 5",
+        "original_file_path": "/project/3dllms/melgin/datasets/CEA/Crops3D/Maize/2-31.ply",
+        "dataset": "Crops3D_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Maize@2-32": {
+        "prompt": "What color is the pot that holds the houseplant?\n\nA. Red\nB. Yellow\nC. Green",
+        "response": "none",
+        "timestamp": "2025-10-30T11:26:47.209155",
+        "annotated_by": "User 5",
+        "original_file_path": "/project/3dllms/melgin/datasets/CEA/Crops3D/Maize/2-32.ply",
+        "dataset": "Crops3D_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Maize@2-33": {
+        "prompt": "What color is the rim of the pot that the plant is in?\n\nA. Red\nB. Green\nC. Yellow",
+        "response": "none",
+        "timestamp": "2025-10-30T11:38:04.020847",
+        "annotated_by": "User 5",
+        "original_file_path": "/project/3dllms/melgin/datasets/CEA/Crops3D/Maize/2-33.ply",
+        "dataset": "Crops3D_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Maize@2-34": {
+        "prompt": "What type of plant is described in the room?\n\nA. A flowering shrub\nB. A tall cactus\nC. A small herb",
+        "response": "none",
+        "timestamp": "2025-10-30T10:42:38.974049",
+        "annotated_by": "User 5",
+        "original_file_path": "/project/3dllms/melgin/datasets/CEA/Crops3D/Maize/2-34.ply",
+        "dataset": "Crops3D_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Maize@2-39": {
+        "prompt": "What color is the rim of the pot holding the small potted plant?\n\nA. Brown\nB. Red\nC. Green",
+        "response": "none",
+        "timestamp": "2025-10-30T11:33:29.061360",
+        "annotated_by": "User 5",
+        "original_file_path": "/project/3dllms/melgin/datasets/CEA/Crops3D/Maize/2-39.ply",
+        "dataset": "Crops3D_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Maize@2-50": {
+        "prompt": "What type of pot is the plant sitting in?\n\nA. Square red ceramic pot\nB. Oval white ceramic pot\nC. Rectangular brown wooden pot",
+        "response": "none",
+        "timestamp": "2025-10-30T11:33:54.793289",
+        "annotated_by": "User 5",
+        "original_file_path": "/project/3dllms/melgin/datasets/CEA/Crops3D/Maize/2-50.ply",
+        "dataset": "Crops3D_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Maize@2-64": {
+        "prompt": "What is the shape of the pot that houses the plant?\n\nA. Square-shaped ceramic pot\nB. Tall, rectangular pot\nC. Deep, oval pot",
+        "response": "none",
+        "timestamp": "2025-10-30T11:30:38.229683",
+        "annotated_by": "User 5",
+        "original_file_path": "/project/3dllms/melgin/datasets/CEA/Crops3D/Maize/2-64.ply",
+        "dataset": "Crops3D_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Maize@2-65": {
+        "prompt": "What type of pot is the plant in?\n\nA. Square terracotta pot\nB. Clear plastic pot\nC. White ceramic pot",
+        "response": "none",
+        "timestamp": "2025-10-30T11:32:09.711653",
+        "annotated_by": "User 5",
+        "original_file_path": "/project/3dllms/melgin/datasets/CEA/Crops3D/Maize/2-65.ply",
+        "dataset": "Crops3D_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Maize@2-66": {
+        "prompt": "What type of pot is the plant in?\n\nA. Square light pot\nB. Oval white pot\nC. Rectangular black pot",
+        "response": "none",
+        "timestamp": "2025-10-30T11:31:22.525293",
+        "annotated_by": "User 5",
+        "original_file_path": "/project/3dllms/melgin/datasets/CEA/Crops3D/Maize/2-66.ply",
+        "dataset": "Crops3D_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Maize@2-67": {
+        "prompt": "What type of leaves does the houseplant have?\n\nA. Round leaves\nB. Heart-shaped leaves\nC. Oval leaves",
+        "response": "none",
+        "timestamp": "2025-10-30T11:30:03.642886",
+        "annotated_by": "User 5",
+        "original_file_path": "/project/3dllms/melgin/datasets/CEA/Crops3D/Maize/2-67.ply",
+        "dataset": "Crops3D_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Maize@2-70": {
+        "prompt": "What is the shape of the leaves on the potted plant described?\n\nA. Round and broad\nB. Heart-shaped\nC. Oval",
+        "response": "none",
+        "timestamp": "2025-10-30T10:45:34.546574",
+        "annotated_by": "User 5",
+        "original_file_path": "/project/3dllms/melgin/datasets/CEA/Crops3D/Maize/2-70.ply",
+        "dataset": "Crops3D_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Maize@2-77": {
+        "prompt": "What color is the pot that holds the potted plant?\n\nA. Red\nB. Green\nC. Yellow",
+        "response": "none",
+        "timestamp": "2025-10-30T11:23:32.749711",
+        "annotated_by": "User 5",
+        "original_file_path": "/project/3dllms/melgin/datasets/CEA/Crops3D/Maize/2-77.ply",
+        "dataset": "Crops3D_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Maize@2-88": {
+        "prompt": "What color is the pot that contains the tall green plant?\n\nA. Red\nB. Green\nC. Brown",
+        "response": "none",
+        "timestamp": "2025-10-30T11:32:31.963970",
+        "annotated_by": "User 5",
+        "original_file_path": "/project/3dllms/melgin/datasets/CEA/Crops3D/Maize/2-88.ply",
+        "dataset": "Crops3D_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Maize@2-9": {
+        "prompt": "What shape are the leaves of the potted plant described?\n\nA. Round\nB. Oval\nC. Heart-shaped",
+        "response": "a",
+        "timestamp": "2025-10-30T11:21:01.485620",
+        "annotated_by": "User 5",
+        "original_file_path": "/project/3dllms/melgin/datasets/CEA/Crops3D/Maize/2-9.ply",
+        "dataset": "Crops3D_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Maize@3-10": {
+        "prompt": "What type of plant is described in the room?\n\nA. A bushy shrub with thick leaves\nB. A small cactus in a pot\nC. A flowering plant with bright petals",
+        "response": "none",
+        "timestamp": "2025-10-30T11:23:12.487973",
+        "annotated_by": "User 5",
+        "original_file_path": "/project/3dllms/melgin/datasets/CEA/Crops3D/Maize/3-10.ply",
+        "dataset": "Crops3D_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Maize@3-15": {
+        "prompt": "What type of container is the plant potted in?\n\nA. A square blue pot\nB. A tall cylindrical vase\nC. A large rectangular pot",
+        "response": "none",
+        "timestamp": "2025-10-30T11:25:46.908714",
+        "annotated_by": "User 5",
+        "original_file_path": "/project/3dllms/melgin/datasets/CEA/Crops3D/Maize/3-15.ply",
+        "dataset": "Crops3D_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Maize@3-18": {
+        "prompt": "What is the shape of the leaves of the plant described?\n\nA. Round and broad\nB. Flat and wide\nC. Short and oval",
+        "response": "b",
+        "timestamp": "2025-10-30T23:16:24.278555",
+        "annotated_by": "User 5",
+        "original_file_path": "/project/3dllms/melgin/datasets/CEA/Crops3D/Maize/3-18.ply",
+        "dataset": "Crops3D_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Maize@3-19": {
+        "prompt": "What is the shape of the leaves on the potted plant?\n\nA. Round and broad\nB. Heart-shaped\nC. Oval",
+        "response": "none",
+        "timestamp": "2025-10-30T11:20:07.089540",
+        "annotated_by": "User 5",
+        "original_file_path": "/project/3dllms/melgin/datasets/CEA/Crops3D/Maize/3-19.ply",
+        "dataset": "Crops3D_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Maize@3-21": {
+        "prompt": "What type of plant is described in the room?\n\nA. Flowering plant with colorful blooms\nB. Succulent plant with thick fleshy leaves\nC. Climbing vine with broad leaves",
+        "response": "none",
+        "timestamp": "2025-10-30T10:53:39.683483",
+        "annotated_by": "User 5",
+        "original_file_path": "/project/3dllms/melgin/datasets/CEA/Crops3D/Maize/3-21.ply",
+        "dataset": "Crops3D_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Maize@3-26": {
+        "prompt": "What is the shape of the leaves on the tall green plant?\n\nA. Round and fluffy\nB. Short and needle-like\nC. Broad and flat",
+        "response": "none",
+        "timestamp": "2025-10-30T10:47:16.762974",
+        "annotated_by": "User 5",
+        "original_file_path": "/project/3dllms/melgin/datasets/CEA/Crops3D/Maize/3-26.ply",
+        "dataset": "Crops3D_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Maize@3-27": {
+        "prompt": "What shape do the leaves of the potted plant have?\n\nA. Round and broad\nB. Heart-shaped\nC. Oval-shaped",
+        "response": "none",
+        "timestamp": "2025-10-30T11:38:24.915630",
+        "annotated_by": "User 5",
+        "original_file_path": "/project/3dllms/melgin/datasets/CEA/Crops3D/Maize/3-27.ply",
+        "dataset": "Crops3D_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Maize@3-28": {
+        "prompt": "What type of plant is described in the room?\n\nA. A succulent\nB. A flowering shrub\nC. A cactus",
+        "response": "none",
+        "timestamp": "2025-10-30T10:41:58.381890",
+        "annotated_by": "User 5",
+        "original_file_path": "/project/3dllms/melgin/datasets/CEA/Crops3D/Maize/3-28.ply",
+        "dataset": "Crops3D_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Maize@3-36": {
+        "prompt": "What type of plant is described in the room?\n\nA. A tall tree with thick branches\nB. A flowering shrub with wide leaves\nC. A succulent with rounded leaves",
+        "response": "none",
+        "timestamp": "2025-10-30T11:25:14.758864",
+        "annotated_by": "User 5",
+        "original_file_path": "/project/3dllms/melgin/datasets/CEA/Crops3D/Maize/3-36.ply",
+        "dataset": "Crops3D_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Maize@3-37": {
+        "prompt": "What is the shape of the leaves of the indoor potted plant described?\n\nA. Round and flat\nB. Short and spiky\nC. Wide and droopy",
+        "response": "none",
+        "timestamp": "2025-10-30T11:38:51.112667",
+        "annotated_by": "User 5",
+        "original_file_path": "/project/3dllms/melgin/datasets/CEA/Crops3D/Maize/3-37.ply",
+        "dataset": "Crops3D_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Maize@3-38": {
+        "prompt": "What type of plant is described in the room?\n\nA. A bushy shrub with wide leaves\nB. A flowering cactus with spines\nC. A small succulent in a square pot",
+        "response": "none",
+        "timestamp": "2025-10-30T11:28:58.337457",
+        "annotated_by": "User 5",
+        "original_file_path": "/project/3dllms/melgin/datasets/CEA/Crops3D/Maize/3-38.ply",
+        "dataset": "Crops3D_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Maize@3-40": {
+        "prompt": "What is the shape of the leaves on the houseplant?\n\nA. Round and fluffy\nB. Short and wide\nC. Oval and smooth",
+        "response": "none",
+        "timestamp": "2025-10-30T11:28:02.031523",
+        "annotated_by": "User 5",
+        "original_file_path": "/project/3dllms/melgin/datasets/CEA/Crops3D/Maize/3-40.ply",
+        "dataset": "Crops3D_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Maize@3-42": {
+        "prompt": "What color is the pot that the plant is potted in?\n\nA. Green\nB. Red\nC. Yellow",
+        "response": "none",
+        "timestamp": "2025-10-30T11:18:12.199516",
+        "annotated_by": "User 5",
+        "original_file_path": "/project/3dllms/melgin/datasets/CEA/Crops3D/Maize/3-42.ply",
+        "dataset": "Crops3D_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Maize@3-43": {
+        "prompt": "What type of leaves does the described plant have?\n\nA. Round and thick\nB. Short and pointy\nC. Flat and wide",
+        "response": "none",
+        "timestamp": "2025-10-30T11:28:22.030818",
+        "annotated_by": "User 5",
+        "original_file_path": "/project/3dllms/melgin/datasets/CEA/Crops3D/Maize/3-43.ply",
+        "dataset": "Crops3D_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Maize@3-49": {
+        "prompt": "What shape do the leaves of the potted plant resemble?\n\nA. Circular\nB. Square\nC. Triangular",
+        "response": "none",
+        "timestamp": "2025-10-30T10:43:30.401961",
+        "annotated_by": "User 5",
+        "original_file_path": "/project/3dllms/melgin/datasets/CEA/Crops3D/Maize/3-49.ply",
+        "dataset": "Crops3D_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Maize@3-50": {
+        "prompt": "What shape is the pot of the plant?\n\nA. Cube\nB. Pyramid\nC. Rectangular",
+        "response": "none",
+        "timestamp": "2025-10-30T11:34:20.967412",
+        "annotated_by": "User 5",
+        "original_file_path": "/project/3dllms/melgin/datasets/CEA/Crops3D/Maize/3-50.ply",
+        "dataset": "Crops3D_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Maize@3-54": {
+        "prompt": "What type of growth is visible at the top of the plant?\n\nA. A cluster of flowers\nB. A wide, flat leaf\nC. A long vine",
+        "response": "none",
+        "timestamp": "2025-10-30T11:31:06.860020",
+        "annotated_by": "User 5",
+        "original_file_path": "/project/3dllms/melgin/datasets/CEA/Crops3D/Maize/3-54.ply",
+        "dataset": "Crops3D_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Maize@3-55": {
+        "prompt": "What type of pot is the plant potted in?\n\nA. Square pot\nB. Tall cylindrical pot\nC. Shallow rectangular pot",
+        "response": "none",
+        "timestamp": "2025-10-30T10:46:51.186956",
+        "annotated_by": "User 5",
+        "original_file_path": "/project/3dllms/melgin/datasets/CEA/Crops3D/Maize/3-55.ply",
+        "dataset": "Crops3D_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Maize@3-60": {
+        "prompt": "What shape does the pot of the houseplant have?\n\nA. Square\nB. Rectangular\nC. Oval",
+        "response": "none",
+        "timestamp": "2025-10-30T11:26:08.850219",
+        "annotated_by": "User 5",
+        "original_file_path": "/project/3dllms/melgin/datasets/CEA/Crops3D/Maize/3-60.ply",
+        "dataset": "Crops3D_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Maize@3-7": {
+        "prompt": "What color is the pot that holds the houseplant?\n\nA. Red\nB. Green\nC. Yellow",
+        "response": "none",
+        "timestamp": "2025-10-30T11:31:44.986481",
+        "annotated_by": "User 5",
+        "original_file_path": "/project/3dllms/melgin/datasets/CEA/Crops3D/Maize/3-7.ply",
+        "dataset": "Crops3D_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Potato@5-11-P104-2-a": {
+        "prompt": "What color variation is present in the leaves of the plant described?\n\nA. Only light green leaves\nB. Only dark green leaves\nC. Only brownish leaves",
+        "response": "none",
+        "timestamp": "2025-10-30T11:57:34.186690",
+        "annotated_by": "User 5",
+        "original_file_path": "/project/3dllms/melgin/datasets/CEA/Crops3D/Potato/5-11-P104-2-a.ply",
+        "dataset": "Crops3D_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Potato@5-11-P255-3-a": {
+        "prompt": "What type of plant is described in the room?\n\nA. A flowering shrub\nB. A cactus\nC. A fern",
+        "response": "a",
+        "timestamp": "2025-10-30T11:45:33.073311",
+        "annotated_by": "User 5",
+        "original_file_path": "/project/3dllms/melgin/datasets/CEA/Crops3D/Potato/5-11-P255-3-a.ply",
+        "dataset": "Crops3D_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Potato@5-11-P279-3-a": {
+        "prompt": "What shape are the leaves of the plant described?\n\nA. Circular\nB. Triangular\nC. Rectangular",
+        "response": "none",
+        "timestamp": "2025-10-30T11:49:09.788640",
+        "annotated_by": "User 5",
+        "original_file_path": "/project/3dllms/melgin/datasets/CEA/Crops3D/Potato/5-11-P279-3-a.ply",
+        "dataset": "Crops3D_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Potato@5-11-P281-1-a": {
+        "prompt": "What type of leaves does the young plant sapling have?\n\nA. Round fleshy leaves with no veins\nB. Needle-like leaves with smooth edges\nC. Long thin leaves with a waxy texture",
+        "response": "none",
+        "timestamp": "2025-10-30T11:52:39.732330",
+        "annotated_by": "User 5",
+        "original_file_path": "/project/3dllms/melgin/datasets/CEA/Crops3D/Potato/5-11-P281-1-a.ply",
+        "dataset": "Crops3D_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Potato@5-11-P281-2-a": {
+        "prompt": "What is the characteristic shape of the leaves on the described plant?  \n\nA. Circular\nB. Heart-shaped\nC. Triangular",
+        "response": "none",
+        "timestamp": "2025-10-30T12:02:49.198485",
+        "annotated_by": "User 5",
+        "original_file_path": "/project/3dllms/melgin/datasets/CEA/Crops3D/Potato/5-11-P281-2-a.ply",
+        "dataset": "Crops3D_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Potato@5-11-P285-2-a": {
+        "prompt": "What type of leaf arrangement is primarily observed in the plant described?\n\nA. Simple leaves without serration\nB. Alternating whorled leaves\nC. Needle-like leaves",
+        "response": "b",
+        "timestamp": "2025-10-30T12:03:50.547631",
+        "annotated_by": "User 5",
+        "original_file_path": "/project/3dllms/melgin/datasets/CEA/Crops3D/Potato/5-11-P285-2-a.ply",
+        "dataset": "Crops3D_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Potato@5-11-P290-3-a": {
+        "prompt": "What is the color range of the leaves on the plant described?\n\nA. From purple to blue\nB. From yellow to dark brown\nC. From red to orange",
+        "response": "none",
+        "timestamp": "2025-10-30T11:51:17.511600",
+        "annotated_by": "User 5",
+        "original_file_path": "/project/3dllms/melgin/datasets/CEA/Crops3D/Potato/5-11-P290-3-a.ply",
+        "dataset": "Crops3D_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Potato@5-11-P294-3-a": {
+        "prompt": "What type of leaves can be found on the green plant stem?\n\nA. Long, linear, red-tipped leaves\nB. Large, round, smooth leaves\nC. Thick, waxy, purple leaves",
+        "response": "none",
+        "timestamp": "2025-10-30T12:05:44.866387",
+        "annotated_by": "User 5",
+        "original_file_path": "/project/3dllms/melgin/datasets/CEA/Crops3D/Potato/5-11-P294-3-a.ply",
+        "dataset": "Crops3D_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Potato@5-13-P002-2-a": {
+        "prompt": "What shape are the leaves of the plant described?\n\nA. Circular\nB. Round and broad\nC. Heart-shaped",
+        "response": "none",
+        "timestamp": "2025-10-30T12:04:45.987389",
+        "annotated_by": "User 5",
+        "original_file_path": "/project/3dllms/melgin/datasets/CEA/Crops3D/Potato/5-13-P002-2-a.ply",
+        "dataset": "Crops3D_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Potato@5-13-P015-2-a": {
+        "prompt": "What characteristic describes the leaves of the green plant?\n\nA. They are round and smooth to the touch\nB. They are tall and bushy\nC. They are thin and sticky",
+        "response": "none",
+        "timestamp": "2025-10-30T11:46:40.761876",
+        "annotated_by": "User 5",
+        "original_file_path": "/project/3dllms/melgin/datasets/CEA/Crops3D/Potato/5-13-P015-2-a.ply",
+        "dataset": "Crops3D_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Potato@5-13-P043-2-a": {
+        "prompt": "What is the shape of the leaves described in the room?\n\nA. Circular\nB. Needle-like\nC. Triangular",
+        "response": "none",
+        "timestamp": "2025-10-30T12:07:26.226376",
+        "annotated_by": "User 5",
+        "original_file_path": "/project/3dllms/melgin/datasets/CEA/Crops3D/Potato/5-13-P043-2-a.ply",
+        "dataset": "Crops3D_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Potato@5-13-P046-3-a": {
+        "prompt": "What type of leaves does the plant have?\n\nA. Broad, heart-shaped leaves\nB. Needle-like leaves\nC. Ruffled, frilly leaves",
+        "response": "none",
+        "timestamp": "2025-10-30T11:54:26.004818",
+        "annotated_by": "User 5",
+        "original_file_path": "/project/3dllms/melgin/datasets/CEA/Crops3D/Potato/5-13-P046-3-a.ply",
+        "dataset": "Crops3D_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Potato@5-13-P068-3-a": {
+        "prompt": "What type of plant structure is described with a slender central stem and multiple lobed, serrated leaves?\n\nA. A flower bouquet\nB. A shrub branch\nC. A fern frond",
+        "response": "none",
+        "timestamp": "2025-10-30T12:06:11.644698",
+        "annotated_by": "User 5",
+        "original_file_path": "/project/3dllms/melgin/datasets/CEA/Crops3D/Potato/5-13-P068-3-a.ply",
+        "dataset": "Crops3D_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Potato@5-13-P098-1-a": {
+        "prompt": "What color variations can be observed in the leaves of the described plant?\n\nA. Only dark green leaves\nB. Red and purple leaves\nC. Only light green leaves",
+        "response": "none",
+        "timestamp": "2025-10-30T12:00:44.947276",
+        "annotated_by": "User 5",
+        "original_file_path": "/project/3dllms/melgin/datasets/CEA/Crops3D/Potato/5-13-P098-1-a.ply",
+        "dataset": "Crops3D_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Potato@5-14-P112-1-a": {
+        "prompt": "What shape are the leaves on the plant stem described?\n\nA. Circular\nB. Triangular\nC. Rectangular",
+        "response": "none",
+        "timestamp": "2025-10-30T11:54:08.899381",
+        "annotated_by": "User 5",
+        "original_file_path": "/project/3dllms/melgin/datasets/CEA/Crops3D/Potato/5-14-P112-1-a.ply",
+        "dataset": "Crops3D_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Potato@5-14-P113-3-a": {
+        "prompt": "What is the color of the new growth at the tip of the plant?\n\nA. Dark green\nB. Medium green\nC. Brown-green",
+        "response": "none",
+        "timestamp": "2025-10-30T12:02:22.726192",
+        "annotated_by": "User 5",
+        "original_file_path": "/project/3dllms/melgin/datasets/CEA/Crops3D/Potato/5-14-P113-3-a.ply",
+        "dataset": "Crops3D_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Potato@5-14-P117-3-a": {
+        "prompt": "What type of leaves are described on the plant stem?\n\nA. Heart-shaped leaves with wavy edges\nB. Circular leaves with smooth edges\nC. Narrow leaves with a glossy texture",
+        "response": "none",
+        "timestamp": "2025-10-30T11:46:04.538658",
+        "annotated_by": "User 5",
+        "original_file_path": "/project/3dllms/melgin/datasets/CEA/Crops3D/Potato/5-14-P117-3-a.ply",
+        "dataset": "Crops3D_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Potato@5-19-P279-1-a": {
+        "prompt": "What is the arrangement of the leaves on the green plant stem described?\n\nA. Leaves are clustered at the base only\nB. Leaves are arranged in a circular pattern around the stem\nC. Leaves grow only at the top of the stem",
+        "response": "none",
+        "timestamp": "2025-10-30T12:01:47.542944",
+        "annotated_by": "User 5",
+        "original_file_path": "/project/3dllms/melgin/datasets/CEA/Crops3D/Potato/5-19-P279-1-a.ply",
+        "dataset": "Crops3D_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Potato@5-19-P281-1-a": {
+        "prompt": "What color is the new growth at the tip of the sapling?\n\nA. Dark green\nB. Yellow\nC. Brown",
+        "response": "none",
+        "timestamp": "2025-10-30T12:06:29.075439",
+        "annotated_by": "User 5",
+        "original_file_path": "/project/3dllms/melgin/datasets/CEA/Crops3D/Potato/5-19-P281-1-a.ply",
+        "dataset": "Crops3D_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Potato@5-19-P281-2-a": {
+        "prompt": "What type of leaves does the plant exhibit?\n\nA. Needle-like leaves\nB. Rounded leaves\nC. Linear leaves",
+        "response": "none",
+        "timestamp": "2025-10-30T11:44:17.434079",
+        "annotated_by": "User 5",
+        "original_file_path": "/project/3dllms/melgin/datasets/CEA/Crops3D/Potato/5-19-P281-2-a.ply",
+        "dataset": "Crops3D_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Potato@5-20-P002-2-a": {
+        "prompt": "What is the shape of the leaves on the plant described?\n\nA. Round with serrated edges\nB. Heart-shaped with wavy edges\nC. Square with jagged tips",
+        "response": "none",
+        "timestamp": "2025-10-30T12:00:24.848088",
+        "annotated_by": "User 5",
+        "original_file_path": "/project/3dllms/melgin/datasets/CEA/Crops3D/Potato/5-20-P002-2-a.ply",
+        "dataset": "Crops3D_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Potato@5-20-P015-2-a": {
+        "prompt": "What is the shape of the leaves on the plant described?\n\nA. Round with smooth edges\nB. Square with jagged edges\nC. Triangular with no visible veins",
+        "response": "none",
+        "timestamp": "2025-10-30T12:05:04.517852",
+        "annotated_by": "User 5",
+        "original_file_path": "/project/3dllms/melgin/datasets/CEA/Crops3D/Potato/5-20-P015-2-a.ply",
+        "dataset": "Crops3D_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Potato@5-20-P043-1-a": {
+        "prompt": "What characteristic is notable about the leaves of the plant described?\n\nA. The leaves are all the same size and shade of green\nB. The leaves are exclusively light green without any brown edges\nC. The leaves are round and smooth without any veins",
+        "response": "none",
+        "timestamp": "2025-10-30T11:48:20.122066",
+        "annotated_by": "User 5",
+        "original_file_path": "/project/3dllms/melgin/datasets/CEA/Crops3D/Potato/5-20-P043-1-a.ply",
+        "dataset": "Crops3D_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Potato@5-20-P045-3-a": {
+        "prompt": "What is the shape of the leaves on the plant stem?\n\nA. Circular\nB. Heart-shaped\nC. Triangular",
+        "response": "none",
+        "timestamp": "2025-10-30T12:04:10.503917",
+        "annotated_by": "User 5",
+        "original_file_path": "/project/3dllms/melgin/datasets/CEA/Crops3D/Potato/5-20-P045-3-a.ply",
+        "dataset": "Crops3D_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Potato@5-20-P060-3-a": {
+        "prompt": "What type of leaf arrangement is described in the foliage?\n\nA. Opposite arrangement of leaves\nB. Whorled arrangement of leaves\nC. Rosette arrangement of leaves",
+        "response": "a",
+        "timestamp": "2025-10-30T11:51:02.331033",
+        "annotated_by": "User 5",
+        "original_file_path": "/project/3dllms/melgin/datasets/CEA/Crops3D/Potato/5-20-P060-3-a.ply",
+        "dataset": "Crops3D_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Potato@5-20-P149-3-a": {
+        "prompt": "What type of plant structure is described in the room?\n\nA. A flower with bright petals\nB. A bush with dense foliage\nC. A cactus with spines",
+        "response": "none",
+        "timestamp": "2025-10-30T12:07:10.626782",
+        "annotated_by": "User 5",
+        "original_file_path": "/project/3dllms/melgin/datasets/CEA/Crops3D/Potato/5-20-P149-3-a.ply",
+        "dataset": "Crops3D_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Potato@5-21-P104-2-a": {
+        "prompt": "What type of plant is described as having a tall slender trunk and a crown of feathery fronds?\n\nA. Fern\nB. Cactus\nC. Oak",
+        "response": "none",
+        "timestamp": "2025-10-30T11:57:15.299396",
+        "annotated_by": "User 5",
+        "original_file_path": "/project/3dllms/melgin/datasets/CEA/Crops3D/Potato/5-21-P104-2-a.ply",
+        "dataset": "Crops3D_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Potato@5-21-P104-3-a": {
+        "prompt": "What is the color variation of the leaves on the plant described?\n\nA. Only dark green\nB. Only light green\nC. All leaves are yellow",
+        "response": "none",
+        "timestamp": "2025-10-30T11:44:54.453844",
+        "annotated_by": "User 5",
+        "original_file_path": "/project/3dllms/melgin/datasets/CEA/Crops3D/Potato/5-21-P104-3-a.ply",
+        "dataset": "Crops3D_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Potato@5-21-P104-4-a": {
+        "prompt": "What color are the leaflets at the tip of the stem?\n\nA. Yellow\nB. Dark green\nC. Brown",
+        "response": "none",
+        "timestamp": "2025-10-30T11:49:53.090930",
+        "annotated_by": "User 5",
+        "original_file_path": "/project/3dllms/melgin/datasets/CEA/Crops3D/Potato/5-21-P104-4-a.ply",
+        "dataset": "Crops3D_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Potato@5-21-P142-1-a": {
+        "prompt": "What type of foliage is primarily present on the slender sapling described?\n\nA. Large fan-shaped leaves\nB. Round and smooth leaves\nC. Needle-like leaves",
+        "response": "none",
+        "timestamp": "2025-10-30T12:01:08.865458",
+        "annotated_by": "User 5",
+        "original_file_path": "/project/3dllms/melgin/datasets/CEA/Crops3D/Potato/5-21-P142-1-a.ply",
+        "dataset": "Crops3D_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Potato@5-23-P997-1-a": {
+        "prompt": "What type of leaves does the slender green plant bear?\n\nA. Round, broad leaves\nB. Needle-like leaves\nC. Heart-shaped leaves",
+        "response": "none",
+        "timestamp": "2025-10-30T11:53:27.892867",
+        "annotated_by": "User 5",
+        "original_file_path": "/project/3dllms/melgin/datasets/CEA/Crops3D/Potato/5-23-P997-1-a.ply",
+        "dataset": "Crops3D_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Potato@5-23-P997-2-a": {
+        "prompt": "What type of plant is described in the room?\n\nA. Cactus\nB. Fern\nC. Succulent",
+        "response": "none",
+        "timestamp": "2025-10-30T11:58:16.736487",
+        "annotated_by": "User 5",
+        "original_file_path": "/project/3dllms/melgin/datasets/CEA/Crops3D/Potato/5-23-P997-2-a.ply",
+        "dataset": "Crops3D_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Potato@5-23-P998-7-a": {
+        "prompt": "What color are the leaves of the plant mentioned in the description?\n\nA. Dark green\nB. Bright yellow\nC. Deep blue",
+        "response": "none",
+        "timestamp": "2025-10-30T12:04:30.395813",
+        "annotated_by": "User 5",
+        "original_file_path": "/project/3dllms/melgin/datasets/CEA/Crops3D/Potato/5-23-P998-7-a.ply",
+        "dataset": "Crops3D_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Potato@5-23-P998-9-a": {
+        "prompt": "What is the characteristic of the plant's leaves?\n\nA. They are all the same shade of green\nB. They have a vertical growth pattern\nC. They are exclusively round in shape",
+        "response": "a",
+        "timestamp": "2025-10-30T11:59:13.759279",
+        "annotated_by": "User 5",
+        "original_file_path": "/project/3dllms/melgin/datasets/CEA/Crops3D/Potato/5-23-P998-9-a.ply",
+        "dataset": "Crops3D_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Potato@5-23-P999-2-a": {
+        "prompt": "What is the arrangement of the leaves on the plant stem described?\n\nA. The leaves are arranged in a clustered formation at the bottom of the stem\nB. The leaves are arranged in a spiral pattern around the stem\nC. The leaves are arranged symmetrically on opposite sides of the stem",
+        "response": "none",
+        "timestamp": "2025-10-30T11:52:07.587273",
+        "annotated_by": "User 5",
+        "original_file_path": "/project/3dllms/melgin/datasets/CEA/Crops3D/Potato/5-23-P999-2-a.ply",
+        "dataset": "Crops3D_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Potato@5-23-P999-7-a": {
+        "prompt": "What is the characteristic feature of the leaves on the herb plant described?\n\nA. They are broad and heart-shaped\nB. They have a dull texture and are light green\nC. They are round and sparsely arranged",
+        "response": "none",
+        "timestamp": "2025-10-30T11:47:41.955362",
+        "annotated_by": "User 5",
+        "original_file_path": "/project/3dllms/melgin/datasets/CEA/Crops3D/Potato/5-23-P999-7-a.ply",
+        "dataset": "Crops3D_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Rapeseed@102": {
+        "prompt": "What is the color of the pot that the potted fern is in?\n\nA. Light blue\nB. Green\nC. Brown",
+        "response": "none",
+        "timestamp": "2025-10-30T23:43:52.105866",
+        "annotated_by": "User 5",
+        "original_file_path": "/project/3dllms/melgin/datasets/CEA/Crops3D/Rapeseed/102.ply",
+        "dataset": "Crops3D_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Rapeseed@107": {
+        "prompt": "What type of plant is described in the room?\n\nA. A flowering shrub\nB. A small tree with a thick trunk\nC. A succulent with spiky leaves",
+        "response": "none",
+        "timestamp": "2025-10-31T06:21:06.274612",
+        "annotated_by": "User 5",
+        "original_file_path": "/project/3dllms/melgin/datasets/CEA/Crops3D/Rapeseed/107.ply",
+        "dataset": "Crops3D_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Rapeseed@108": {
+        "prompt": "What color is the pot that holds the houseplant?\n\nA. Light Green\nB. Bright Red\nC. Yellow",
+        "response": "none",
+        "timestamp": "2025-10-30T23:48:58.429301",
+        "annotated_by": "User 5",
+        "original_file_path": "/project/3dllms/melgin/datasets/CEA/Crops3D/Rapeseed/108.ply",
+        "dataset": "Crops3D_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Rapeseed@109": {
+        "prompt": "What color is the pot that the potted plant is in?\n\nA. Brown\nB. White\nC. Black",
+        "response": "noned",
+        "timestamp": "2025-10-30T23:40:26.131844",
+        "annotated_by": "User 5",
+        "original_file_path": "/project/3dllms/melgin/datasets/CEA/Crops3D/Rapeseed/109.ply",
+        "dataset": "Crops3D_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Rapeseed@11": {
+        "prompt": "What type of plant is described in the room?\n\nA. A large flowering shrub\nB. A fruit tree\nC. A tall cactus",
+        "response": "none",
+        "timestamp": "2025-10-30T12:13:26.046503",
+        "annotated_by": "User 5",
+        "original_file_path": "/project/3dllms/melgin/datasets/CEA/Crops3D/Rapeseed/11.ply",
+        "dataset": "Crops3D_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Rapeseed@112": {
+        "prompt": "What color are the leaves of the potted plant?\n\nA. Dark green\nB. Yellow\nC. Dark brown",
+        "response": "none",
+        "timestamp": "2025-10-30T23:38:57.718689",
+        "annotated_by": "User 5",
+        "original_file_path": "/project/3dllms/melgin/datasets/CEA/Crops3D/Rapeseed/112.ply",
+        "dataset": "Crops3D_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Rapeseed@113": {
+        "prompt": "What color is the plant pot described?\n\nA. Dark gray\nB. White\nC. Bright green",
+        "response": "none",
+        "timestamp": "2025-10-30T23:47:53.104809",
+        "annotated_by": "User 5",
+        "original_file_path": "/project/3dllms/melgin/datasets/CEA/Crops3D/Rapeseed/113.ply",
+        "dataset": "Crops3D_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Rapeseed@115": {
+        "prompt": "What color is the pot that contains the plant?\n\nA. Green\nB. Yellow\nC. Red",
+        "response": "none",
+        "timestamp": "2025-10-30T12:08:48.858063",
+        "annotated_by": "User 5",
+        "original_file_path": "/project/3dllms/melgin/datasets/CEA/Crops3D/Rapeseed/115.ply",
+        "dataset": "Crops3D_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Rapeseed@116": {
+        "prompt": "What color is the pot of the plant described?\n\nA. Red\nB. Green\nC. Yellow",
+        "response": "none",
+        "timestamp": "2025-10-30T23:21:51.452076",
+        "annotated_by": "User 5",
+        "original_file_path": "/project/3dllms/melgin/datasets/CEA/Crops3D/Rapeseed/116.ply",
+        "dataset": "Crops3D_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Rapeseed@119": {
+        "prompt": "What color is the pot containing the small green plant?\n\nA. Green\nB. Pink\nC. Yellow",
+        "response": "none",
+        "timestamp": "2025-10-30T23:37:56.529319",
+        "annotated_by": "User 5",
+        "original_file_path": "/project/3dllms/melgin/datasets/CEA/Crops3D/Rapeseed/119.ply",
+        "dataset": "Crops3D_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Rapeseed@122": {
+        "prompt": "What is the shape of the plant pot described?\n\nA. Square\nB. Rectangular\nC. Triangular",
+        "response": "none",
+        "timestamp": "2025-10-30T23:31:28.665433",
+        "annotated_by": "User 5",
+        "original_file_path": "/project/3dllms/melgin/datasets/CEA/Crops3D/Rapeseed/122.ply",
+        "dataset": "Crops3D_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Rapeseed@123": {
+        "prompt": "What color is the plant pot described in the room?\n\nA. Light blue\nB. Green\nC. Brown",
+        "response": "none",
+        "timestamp": "2025-10-30T23:43:07.879723",
+        "annotated_by": "User 5",
+        "original_file_path": "/project/3dllms/melgin/datasets/CEA/Crops3D/Rapeseed/123.ply",
+        "dataset": "Crops3D_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Rapeseed@127": {
+        "prompt": "What color is the pot that the potted plant is in?\n\nA. Light blue\nB. Bright green\nC. Pale pink",
+        "response": "none",
+        "timestamp": "2025-10-30T23:29:46.335435",
+        "annotated_by": "User 5",
+        "original_file_path": "/project/3dllms/melgin/datasets/CEA/Crops3D/Rapeseed/127.ply",
+        "dataset": "Crops3D_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Rapeseed@128": {
+        "prompt": "What is the overall appearance of the plant described?\n\nA. It features large flowers and thick stems\nB. It has a tall trunk with broad leaves\nC. It has a wide base with no visible leaves",
+        "response": "none",
+        "timestamp": "2025-10-30T23:37:12.044653",
+        "annotated_by": "User 5",
+        "original_file_path": "/project/3dllms/melgin/datasets/CEA/Crops3D/Rapeseed/128.ply",
+        "dataset": "Crops3D_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Rapeseed@129": {
+        "prompt": "What shape does the stem of the plant create as it forks?\n\nA. Circle\nB. Square\nC. X",
+        "response": "none",
+        "timestamp": "2025-10-30T12:10:41.512504",
+        "annotated_by": "User 5",
+        "original_file_path": "/project/3dllms/melgin/datasets/CEA/Crops3D/Rapeseed/129.ply",
+        "dataset": "Crops3D_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Rapeseed@13": {
+        "prompt": "What type of container is the potted plant sitting in? \n\nA. A plastic planter\nB. A glass vase\nC. A metal bucket",
+        "response": "none",
+        "timestamp": "2025-10-30T23:44:32.608909",
+        "annotated_by": "User 5",
+        "original_file_path": "/project/3dllms/melgin/datasets/CEA/Crops3D/Rapeseed/13.ply",
+        "dataset": "Crops3D_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Rapeseed@135": {
+        "prompt": "What color is the pot holding the plant?\n\nA. Green\nB. Pink\nC. White",
+        "response": "none",
+        "timestamp": "2025-10-30T23:18:45.285114",
+        "annotated_by": "User 5",
+        "original_file_path": "/project/3dllms/melgin/datasets/CEA/Crops3D/Rapeseed/135.ply",
+        "dataset": "Crops3D_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Rapeseed@142": {
+        "prompt": "What shape is the pot that the indoor potted plant is in?\n\nA. Square\nB. Shallow and round\nC. Flat and rectangular",
+        "response": "none",
+        "timestamp": "2025-10-30T23:41:01.467982",
+        "annotated_by": "User 5",
+        "original_file_path": "/project/3dllms/melgin/datasets/CEA/Crops3D/Rapeseed/142.ply",
+        "dataset": "Crops3D_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Rapeseed@147": {
+        "prompt": "What color is the plant pot described?\n\nA. Light blue\nB. Green\nC. Brown",
+        "response": "none",
+        "timestamp": "2025-10-30T23:36:15.101179",
+        "annotated_by": "User 5",
+        "original_file_path": "/project/3dllms/melgin/datasets/CEA/Crops3D/Rapeseed/147.ply",
+        "dataset": "Crops3D_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Rapeseed@161": {
+        "prompt": "What color is the pot that the plant is in?\n\nA. Bright red with a dark rim\nB. Light green with a heavy rim\nC. Black with a glossy finish",
+        "response": "none",
+        "timestamp": "2025-10-30T23:42:23.266987",
+        "annotated_by": "User 5",
+        "original_file_path": "/project/3dllms/melgin/datasets/CEA/Crops3D/Rapeseed/161.ply",
+        "dataset": "Crops3D_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Rapeseed@168": {
+        "prompt": "What color is the pot that holds the houseplant?\n\nA. Green\nB. Light brown\nC. Yellow",
+        "response": "none",
+        "timestamp": "2025-10-30T23:27:22.445363",
+        "annotated_by": "User 5",
+        "original_file_path": "/project/3dllms/melgin/datasets/CEA/Crops3D/Rapeseed/168.ply",
+        "dataset": "Crops3D_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Rapeseed@169": {
+        "prompt": "What type of plant is described in the room?\n\nA. A tall cactus with spines\nB. A flowering vine with colorful blossoms\nC. A small shrub with needle-like leaves",
+        "response": "none",
+        "timestamp": "2025-10-30T23:23:56.208822",
+        "annotated_by": "User 5",
+        "original_file_path": "/project/3dllms/melgin/datasets/CEA/Crops3D/Rapeseed/169.ply",
+        "dataset": "Crops3D_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Rapeseed@20": {
+        "prompt": "What type of container is described in the text?\n\nA. A rectangular container\nB. A glass bowl\nC. A woven basket",
+        "response": "none",
+        "timestamp": "2025-10-30T12:11:10.450304",
+        "annotated_by": "User 5",
+        "original_file_path": "/project/3dllms/melgin/datasets/CEA/Crops3D/Rapeseed/20.ply",
+        "dataset": "Crops3D_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Rapeseed@21": {
+        "prompt": "What is the shape of the pot that the plant is in?\n\nA. Square and flat\nB. Short and rectangular\nC. Wide and oval",
+        "response": "none",
+        "timestamp": "2025-10-30T23:39:39.437236",
+        "annotated_by": "User 5",
+        "original_file_path": "/project/3dllms/melgin/datasets/CEA/Crops3D/Rapeseed/21.ply",
+        "dataset": "Crops3D_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Rapeseed@24": {
+        "prompt": "What color is the cylindrical ceramic pot that holds the houseplant?\n\nA. Red\nB. Light green\nC. Black",
+        "response": "none",
+        "timestamp": "2025-10-30T12:11:48.583957",
+        "annotated_by": "User 5",
+        "original_file_path": "/project/3dllms/melgin/datasets/CEA/Crops3D/Rapeseed/24.ply",
+        "dataset": "Crops3D_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Rapeseed@25": {
+        "prompt": "What type of leaves does the houseplant have?\n\nA. Small, round leaves\nB. Needle-like leaves\nC. Long, thin leaves",
+        "response": "none",
+        "timestamp": "2025-10-30T23:26:15.369616",
+        "annotated_by": "User 5",
+        "original_file_path": "/project/3dllms/melgin/datasets/CEA/Crops3D/Rapeseed/25.ply",
+        "dataset": "Crops3D_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Rapeseed@29": {
+        "prompt": "What type of leaves does the plant in the pot have?\n\nA. Thin and smooth\nB. Long and needle-like\nC. Round and waxy",
+        "response": "a",
+        "timestamp": "2025-10-30T12:08:31.740338",
+        "annotated_by": "User 5",
+        "original_file_path": "/project/3dllms/melgin/datasets/CEA/Crops3D/Rapeseed/29.ply",
+        "dataset": "Crops3D_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Rapeseed@31": {
+        "prompt": "What shape is the pot that contains the potted green plant?\n\nA. Hexagonal\nB. Oval\nC. Rectangular",
+        "response": "none",
+        "timestamp": "2025-10-30T12:10:16.775952",
+        "annotated_by": "User 5",
+        "original_file_path": "/project/3dllms/melgin/datasets/CEA/Crops3D/Rapeseed/31.ply",
+        "dataset": "Crops3D_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Rapeseed@33": {
+        "prompt": "What type of container is used for the plant in the description?\n\nA. Square pot\nB. Wooden planter\nC. Ceramic vase",
+        "response": "none",
+        "timestamp": "2025-10-30T12:09:39.698660",
+        "annotated_by": "User 5",
+        "original_file_path": "/project/3dllms/melgin/datasets/CEA/Crops3D/Rapeseed/33.ply",
+        "dataset": "Crops3D_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Rapeseed@37": {
+        "prompt": "What distinctive feature does the potted plant showcase that contrasts with the pot it is in?\n\nA. A wooden stand underneath the pot\nB. Dark-colored flowers blooming\nC. A square-shaped pot",
+        "response": "none",
+        "timestamp": "2025-10-30T12:12:28.386634",
+        "annotated_by": "User 5",
+        "original_file_path": "/project/3dllms/melgin/datasets/CEA/Crops3D/Rapeseed/37.ply",
+        "dataset": "Crops3D_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Rapeseed@40": {
+        "prompt": "What color is the pot of the plant described?\n\nA. Brown\nB. Black\nC. White",
+        "response": "none",
+        "timestamp": "2025-10-30T23:46:16.715219",
+        "annotated_by": "User 5",
+        "original_file_path": "/project/3dllms/melgin/datasets/CEA/Crops3D/Rapeseed/40.ply",
+        "dataset": "Crops3D_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Rapeseed@41": {
+        "prompt": "What type of container is used to hold the leafy green plant in the still-life?\n\nA. Mason jar\nB. Short tumbler\nC. Stone bust",
+        "response": "none",
+        "timestamp": "2025-10-30T23:46:57.379885",
+        "annotated_by": "User 5",
+        "original_file_path": "/project/3dllms/melgin/datasets/CEA/Crops3D/Rapeseed/41.ply",
+        "dataset": "Crops3D_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Rapeseed@58": {
+        "prompt": "What color is the ceramic pot holding the plant?\n\nA. Green\nB. Red\nC. Yellow",
+        "response": "none",
+        "timestamp": "2025-10-30T23:24:47.708987",
+        "annotated_by": "User 5",
+        "original_file_path": "/project/3dllms/melgin/datasets/CEA/Crops3D/Rapeseed/58.ply",
+        "dataset": "Crops3D_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Rapeseed@61": {
+        "prompt": "What color is the pot that the plant is growing in?\n\nA. Red\nB. Green\nC. White",
+        "response": "none",
+        "timestamp": "2025-10-30T23:34:48.254776",
+        "annotated_by": "User 5",
+        "original_file_path": "/project/3dllms/melgin/datasets/CEA/Crops3D/Rapeseed/61.ply",
+        "dataset": "Crops3D_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Rapeseed@63": {
+        "prompt": "What color is the pot that the houseplant is in?\n\nA. Brown\nB. Green\nC. White",
+        "response": "none",
+        "timestamp": "2025-10-30T12:13:02.114028",
+        "annotated_by": "User 5",
+        "original_file_path": "/project/3dllms/melgin/datasets/CEA/Crops3D/Rapeseed/63.ply",
+        "dataset": "Crops3D_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Rapeseed@70": {
+        "prompt": "What type of container is the houseplant growing in?\n\nA. A ceramic vase\nB. A plastic cup\nC. A metal bucket",
+        "response": "none",
+        "timestamp": "2025-10-30T12:09:19.876278",
+        "annotated_by": "User 5",
+        "original_file_path": "/project/3dllms/melgin/datasets/CEA/Crops3D/Rapeseed/70.ply",
+        "dataset": "Crops3D_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Rapeseed@79": {
+        "prompt": "What color is the cylindrical plant pot?\n\nA. Light green\nB. Bright red\nC. Yellow",
+        "response": "none",
+        "timestamp": "2025-10-30T23:30:37.146322",
+        "annotated_by": "User 5",
+        "original_file_path": "/project/3dllms/melgin/datasets/CEA/Crops3D/Rapeseed/79.ply",
+        "dataset": "Crops3D_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Rapeseed@8": {
+        "prompt": "What is the shape of the pot that contains the potted plant?\n\nA. Square and flat\nB. Wide and round\nC. Short and rectangular",
+        "response": "none",
+        "timestamp": "2025-10-30T23:32:20.629702",
+        "annotated_by": "User 5",
+        "original_file_path": "/project/3dllms/melgin/datasets/CEA/Crops3D/Rapeseed/8.ply",
+        "dataset": "Crops3D_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Rapeseed@82": {
+        "prompt": "What color is the rim of the plant pot?\n\nA. Red\nB. Dark\nC. Yellow",
+        "response": "none",
+        "timestamp": "2025-10-30T23:33:20.660682",
+        "annotated_by": "User 5",
+        "original_file_path": "/project/3dllms/melgin/datasets/CEA/Crops3D/Rapeseed/82.ply",
+        "dataset": "Crops3D_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Rapeseed@83": {
+        "prompt": "What does the dark blue cylindrical plastic vessel resemble when viewed from a specific angle?\n\nA. A cardboard box\nB. A wooden chair\nC. A metal toolbox",
+        "response": "none",
+        "timestamp": "2025-10-30T23:29:00.273752",
+        "annotated_by": "User 5",
+        "original_file_path": "/project/3dllms/melgin/datasets/CEA/Crops3D/Rapeseed/83.ply",
+        "dataset": "Crops3D_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Rapeseed@91": {
+        "prompt": "What color is the pot that the houseplant is in?\n\nA. Light green\nB. White\nC. Red",
+        "response": "none",
+        "timestamp": "2025-10-30T12:11:28.271378",
+        "annotated_by": "User 5",
+        "original_file_path": "/project/3dllms/melgin/datasets/CEA/Crops3D/Rapeseed/91.ply",
+        "dataset": "Crops3D_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Rapeseed@92": {
+        "prompt": "What color is the finish of the pot that holds the potted plant?\n\nA. Red and white stripes\nB. Clear glass\nC. Solid black",
+        "response": "none",
+        "timestamp": "2025-10-30T23:45:13.187848",
+        "annotated_by": "User 5",
+        "original_file_path": "/project/3dllms/melgin/datasets/CEA/Crops3D/Rapeseed/92.ply",
+        "dataset": "Crops3D_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Rapeseed@93": {
+        "prompt": "What color are the leaves of the potted plant?\n\nA. Dark green\nB. Yellow\nC. Brown",
+        "response": "none",
+        "timestamp": "2025-10-30T23:35:30.157416",
+        "annotated_by": "User 5",
+        "original_file_path": "/project/3dllms/melgin/datasets/CEA/Crops3D/Rapeseed/93.ply",
+        "dataset": "Crops3D_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Rapeseed@95": {
+        "prompt": "What shape is the pot that contains the small green plant?\n\nA. Square\nB. Rectangular\nC. Triangular",
+        "response": "none",
+        "timestamp": "2025-10-30T23:33:57.114190",
+        "annotated_by": "User 5",
+        "original_file_path": "/project/3dllms/melgin/datasets/CEA/Crops3D/Rapeseed/95.ply",
+        "dataset": "Crops3D_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Rapeseed@96": {
+        "prompt": "What color is the pot holding the houseplant?\n\nA. Red\nB. Green\nC. Yellow",
+        "response": "none",
+        "timestamp": "2025-10-30T23:41:40.738414",
+        "annotated_by": "User 5",
+        "original_file_path": "/project/3dllms/melgin/datasets/CEA/Crops3D/Rapeseed/96.ply",
+        "dataset": "Crops3D_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Rice@1": {
+        "prompt": "What color is the rim of the pot holding the ornamental plant?\n\nA. Dark blue\nB. Green\nC. Brown",
+        "response": "none",
+        "timestamp": "2025-10-31T06:21:59.746001",
+        "annotated_by": "User 5",
+        "original_file_path": "/project/3dllms/melgin/datasets/CEA/Crops3D/Rice/1.ply",
+        "dataset": "Crops3D_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Rice@13": {
+        "prompt": "What type of leaves does the potted plant have?\n\nA. Round and broad leaves\nB. Heart-shaped leaves\nC. Short and oval leaves",
+        "response": "none",
+        "timestamp": "2025-10-31T06:22:21.184382",
+        "annotated_by": "User 5",
+        "original_file_path": "/project/3dllms/melgin/datasets/CEA/Crops3D/Rice/13.ply",
+        "dataset": "Crops3D_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Rice@18": {
+        "prompt": "What is the shape of the leaves on the houseplant mentioned in the description?\n\nA. Round and broad\nB. Short and spiky\nC. Flat and wide",
+        "response": "none",
+        "timestamp": "2025-10-31T06:29:09.760784",
+        "annotated_by": "User 5",
+        "original_file_path": "/project/3dllms/melgin/datasets/CEA/Crops3D/Rice/18.ply",
+        "dataset": "Crops3D_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Rice@19": {
+        "prompt": "What color is the pot that the houseplant is sitting in?\n\nA. Dark green ceramic\nB. Bright red ceramic\nC. Light ceramic",
+        "response": "none",
+        "timestamp": "2025-10-31T00:08:02.528150",
+        "annotated_by": "User 5",
+        "original_file_path": "/project/3dllms/melgin/datasets/CEA/Crops3D/Rice/19.ply",
+        "dataset": "Crops3D_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Rice@2": {
+        "prompt": "What type of leaves does the houseplant display?\n\nA. Round and broad leaves\nB. Small and oval leaves\nC. Heart-shaped leaves",
+        "response": "none",
+        "timestamp": "2025-10-31T06:27:33.229941",
+        "annotated_by": "User 5",
+        "original_file_path": "/project/3dllms/melgin/datasets/CEA/Crops3D/Rice/2.ply",
+        "dataset": "Crops3D_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Rice@20": {
+        "prompt": "What color is the pot that the potted plant sits in?\n\nA. Red\nB. Yellow\nC. Green",
+        "response": "none",
+        "timestamp": "2025-10-31T00:07:24.161411",
+        "annotated_by": "User 5",
+        "original_file_path": "/project/3dllms/melgin/datasets/CEA/Crops3D/Rice/20.ply",
+        "dataset": "Crops3D_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Rice@26": {
+        "prompt": "What color is the pot that holds the potted plant?\n\nA. Green\nB. Red\nC. Yellow",
+        "response": "none",
+        "timestamp": "2025-10-31T00:08:24.556903",
+        "annotated_by": "User 5",
+        "original_file_path": "/project/3dllms/melgin/datasets/CEA/Crops3D/Rice/26.ply",
+        "dataset": "Crops3D_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Rice@3": {
+        "prompt": "What color are the tips of the leaves on the potted plant?\n\nA. Green\nB. Yellow\nC. Red",
+        "response": "none",
+        "timestamp": "2025-10-31T00:06:49.599630",
+        "annotated_by": "User 5",
+        "original_file_path": "/project/3dllms/melgin/datasets/CEA/Crops3D/Rice/3.ply",
+        "dataset": "Crops3D_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Rice@35": {
+        "prompt": "What shape does the potted plant's foliage create?\n\nA. A flat surface\nB. A rounded canopy\nC. A bushy form",
+        "response": "none",
+        "timestamp": "2025-10-31T06:28:47.055425",
+        "annotated_by": "User 5",
+        "original_file_path": "/project/3dllms/melgin/datasets/CEA/Crops3D/Rice/35.ply",
+        "dataset": "Crops3D_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Rice@37": {
+        "prompt": "What color is the rim of the pot where the plant is situated?\n\nA. Dark blue\nB. Green\nC. Black",
+        "response": "none",
+        "timestamp": "2025-10-31T06:27:53.022784",
+        "annotated_by": "User 5",
+        "original_file_path": "/project/3dllms/melgin/datasets/CEA/Crops3D/Rice/37.ply",
+        "dataset": "Crops3D_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Rice@4": {
+        "prompt": "What type of leaves does the potted plant have?\n\nA. Round and broad leaves\nB. Oval-shaped leaves\nC. Sticky, hairy leaves",
+        "response": "none",
+        "timestamp": "2025-10-31T06:25:48.808336",
+        "annotated_by": "User 5",
+        "original_file_path": "/project/3dllms/melgin/datasets/CEA/Crops3D/Rice/4.ply",
+        "dataset": "Crops3D_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Rice@41": {
+        "prompt": "What color is the pot of the potted plant described?\n\nA. Red\nB. Green\nC. Yellow",
+        "response": "none",
+        "timestamp": "2025-10-31T06:24:15.203823",
+        "annotated_by": "User 5",
+        "original_file_path": "/project/3dllms/melgin/datasets/CEA/Crops3D/Rice/41.ply",
+        "dataset": "Crops3D_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Rice@45": {
+        "prompt": "What color is the pot that the plant is in?\n\nA. Green\nB. Brown\nC. Light blue",
+        "response": "none",
+        "timestamp": "2025-10-31T06:28:10.836233",
+        "annotated_by": "User 5",
+        "original_file_path": "/project/3dllms/melgin/datasets/CEA/Crops3D/Rice/45.ply",
+        "dataset": "Crops3D_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Rice@46": {
+        "prompt": "What color is the pot in which the potted plant is planted?\n\nA. Black\nB. Green\nC. Brown",
+        "response": "none",
+        "timestamp": "2025-10-31T06:23:26.392792",
+        "annotated_by": "User 5",
+        "original_file_path": "/project/3dllms/melgin/datasets/CEA/Crops3D/Rice/46.ply",
+        "dataset": "Crops3D_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Rice@48": {
+        "prompt": "What shape is the pot that holds the potted plant?\n\nA. Rectangular\nB. Square\nC. Oval",
+        "response": "none",
+        "timestamp": "2025-10-31T06:26:37.161217",
+        "annotated_by": "User 5",
+        "original_file_path": "/project/3dllms/melgin/datasets/CEA/Crops3D/Rice/48.ply",
+        "dataset": "Crops3D_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Rice@52": {
+        "prompt": "What color is the pot containing the indoor potted plant?\n\nA. Light green\nB. White\nC. Brown",
+        "response": "none",
+        "timestamp": "2025-10-31T06:23:47.644038",
+        "annotated_by": "User 5",
+        "original_file_path": "/project/3dllms/melgin/datasets/CEA/Crops3D/Rice/52.ply",
+        "dataset": "Crops3D_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Rice@54": {
+        "prompt": "What type of pot is the plant sitting in?\n\nA. Red ceramic pot\nB. Yellow metal pot\nC. Green plastic pot",
+        "response": "none",
+        "timestamp": "2025-10-31T06:27:09.137650",
+        "annotated_by": "User 5",
+        "original_file_path": "/project/3dllms/melgin/datasets/CEA/Crops3D/Rice/54.ply",
+        "dataset": "Crops3D_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Rice@59": {
+        "prompt": "What shape is the pot that holds the green plant?\n\nA. Rectangular\nB. Square\nC. Oval",
+        "response": "none",
+        "timestamp": "2025-10-31T06:25:30.108055",
+        "annotated_by": "User 5",
+        "original_file_path": "/project/3dllms/melgin/datasets/CEA/Crops3D/Rice/59.ply",
+        "dataset": "Crops3D_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Rice@6": {
+        "prompt": "What is the shape of the leaves on the houseplant described?\n\nA. Round\nB. Heart-shaped\nC. Oval",
+        "response": "none",
+        "timestamp": "2025-10-31T06:25:07.801993",
+        "annotated_by": "User 5",
+        "original_file_path": "/project/3dllms/melgin/datasets/CEA/Crops3D/Rice/6.ply",
+        "dataset": "Crops3D_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Rice@62": {
+        "prompt": "What is the shape of the leaves of the potted plant?\n\nA. Round and broad\nB. Small and oval\nC. Flat and square",
+        "response": "none",
+        "timestamp": "2025-10-31T00:06:22.678923",
+        "annotated_by": "User 5",
+        "original_file_path": "/project/3dllms/melgin/datasets/CEA/Crops3D/Rice/62.ply",
+        "dataset": "Crops3D_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Rice@7": {
+        "prompt": "What type of pot does the ornamental potted plant sit in?\n\nA. A square pot\nB. A shallow tray\nC. A textured pot",
+        "response": "none",
+        "timestamp": "2025-10-31T06:22:42.215248",
+        "annotated_by": "User 5",
+        "original_file_path": "/project/3dllms/melgin/datasets/CEA/Crops3D/Rice/7.ply",
+        "dataset": "Crops3D_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Rice@72": {
+        "prompt": "What color is the ceramic pot that the potted plant is in?\n\nA. Light beige\nB. Green\nC. Brown",
+        "response": "none",
+        "timestamp": "2025-10-31T06:29:28.278795",
+        "annotated_by": "User 5",
+        "original_file_path": "/project/3dllms/melgin/datasets/CEA/Crops3D/Rice/72.ply",
+        "dataset": "Crops3D_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Rice@74": {
+        "prompt": "What color is the pot that holds the potted plant?\n\nA. Green\nB. Black\nC. Tan",
+        "response": "none",
+        "timestamp": "2025-10-31T00:07:45.645744",
+        "annotated_by": "User 5",
+        "original_file_path": "/project/3dllms/melgin/datasets/CEA/Crops3D/Rice/74.ply",
+        "dataset": "Crops3D_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Rice@77": {
+        "prompt": "What shape do the leaves of the potted plant resemble? \n\nA. Chairs\nB. Vases\nC. Cubes",
+        "response": "none",
+        "timestamp": "2025-10-31T06:21:35.742260",
+        "annotated_by": "User 5",
+        "original_file_path": "/project/3dllms/melgin/datasets/CEA/Crops3D/Rice/77.ply",
+        "dataset": "Crops3D_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Rice@8": {
+        "prompt": "What color is the pot that the grass-like plant is in?\n\nA. Bright red\nB. Dark green\nC. Light yellow",
+        "response": "none",
+        "timestamp": "2025-10-31T06:26:14.272790",
+        "annotated_by": "User 5",
+        "original_file_path": "/project/3dllms/melgin/datasets/CEA/Crops3D/Rice/8.ply",
+        "dataset": "Crops3D_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Rice@84": {
+        "prompt": "What is the shape of the pot in which the plant is planted?\n\nA. Square\nB. Rectangular\nC. Triangular",
+        "response": "none",
+        "timestamp": "2025-10-31T06:24:35.537556",
+        "annotated_by": "User 5",
+        "original_file_path": "/project/3dllms/melgin/datasets/CEA/Crops3D/Rice/84.ply",
+        "dataset": "Crops3D_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Tomato@10-5_1-1": {
+        "prompt": "What is the appearance of the leaves on the plant described?\n\nA. Solid and broad leaves\nB. Thick and waxy leaves\nC. Entirely round leaves",
+        "response": "none",
+        "timestamp": "2025-10-31T06:30:37.833740",
+        "annotated_by": "User 5",
+        "original_file_path": "/project/3dllms/melgin/datasets/CEA/Crops3D/Tomato/10-5_1-1.ply",
+        "dataset": "Crops3D_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Tomato@10-5_30-52": {
+        "prompt": "What is the shape of the leaves on the plant described?\n\nA. Round and flat\nB. Triangular and sharp\nC. Narrow and straight",
+        "response": "none",
+        "timestamp": "2025-10-31T06:35:07.886914",
+        "annotated_by": "User 5",
+        "original_file_path": "/project/3dllms/melgin/datasets/CEA/Crops3D/Tomato/10-5_30-52.ply",
+        "dataset": "Crops3D_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Tomato@11-2_1-1": {
+        "prompt": "What is the characteristic shape of the plant described?\n\nA. It has a wide, flat canopy like an umbrella\nB. It resembles a cactus with spines\nC. It is low and bushy without a defined shape",
+        "response": "none",
+        "timestamp": "2025-10-31T08:03:10.673512",
+        "annotated_by": "User 5",
+        "original_file_path": "/project/3dllms/melgin/datasets/CEA/Crops3D/Tomato/11-2_1-1.ply",
+        "dataset": "Crops3D_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Tomato@11-2_30-4": {
+        "prompt": "What color are the new growth tips of the climbing plant described?\n\nA. Dark green\nB. Yellow\nC. Red",
+        "response": "none",
+        "timestamp": "2025-10-31T10:13:15.425955",
+        "annotated_by": "User 5",
+        "original_file_path": "/project/3dllms/melgin/datasets/CEA/Crops3D/Tomato/11-2_30-4.ply",
+        "dataset": "Crops3D_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Tomato@11-2_35-22": {
+        "prompt": "What is the shape of the plant as described?\n\nA. Upright and cylindrical\nB. Tall and thin\nC. Wide and flat",
+        "response": "a",
+        "timestamp": "2025-10-31T06:34:00.510347",
+        "annotated_by": "User 5",
+        "original_file_path": "/project/3dllms/melgin/datasets/CEA/Crops3D/Tomato/11-2_35-22.ply",
+        "dataset": "Crops3D_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Tomato@8-10_10-53": {
+        "prompt": "What type of leaves does the shrub have?\n\nA. Needle-like leaves\nB. Thin, elongated leaves\nC. Small, oval leaves",
+        "response": "none",
+        "timestamp": "2025-10-31T06:35:28.109506",
+        "annotated_by": "User 5",
+        "original_file_path": "/project/3dllms/melgin/datasets/CEA/Crops3D/Tomato/8-10_10-53.ply",
+        "dataset": "Crops3D_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Tomato@8-13_1-55": {
+        "prompt": "What type of plant described has slender woody stems?\n\nA. Cactus\nB. Orchid\nC. Palm",
+        "response": "none",
+        "timestamp": "2025-10-31T06:32:55.203260",
+        "annotated_by": "User 5",
+        "original_file_path": "/project/3dllms/melgin/datasets/CEA/Crops3D/Tomato/8-13_1-55.ply",
+        "dataset": "Crops3D_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Tomato@8-13_20-28": {
+        "prompt": "What is the overall appearance of the plant described? \n\nA. It features a dense, bushy appearance\nB. It has thick, solid stems with broad leaves\nC. It is characterized by large, flat leaves",
+        "response": "none",
+        "timestamp": "2025-10-31T06:31:16.617296",
+        "annotated_by": "User 5",
+        "original_file_path": "/project/3dllms/melgin/datasets/CEA/Crops3D/Tomato/8-13_20-28.ply",
+        "dataset": "Crops3D_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Tomato@8-22_10-3": {
+        "prompt": "What is the shape of the leaves on the tree branch described?\n\nA. Circular\nB. Broad and flat\nC. Needle-like",
+        "response": "none",
+        "timestamp": "2025-10-31T06:33:21.559939",
+        "annotated_by": "User 5",
+        "original_file_path": "/project/3dllms/melgin/datasets/CEA/Crops3D/Tomato/8-22_10-3.ply",
+        "dataset": "Crops3D_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Tomato@8-22_20-28": {
+        "prompt": "What type of leaf arrangement is described?\n\nA. Simple leaves arranged in a spiral pattern\nB. Opposite leaves growing in pairs on the stem\nC. Whorled leaves encircling the stem",
+        "response": "none",
+        "timestamp": "2025-10-31T06:30:09.169526",
+        "annotated_by": "User 5",
+        "original_file_path": "/project/3dllms/melgin/datasets/CEA/Crops3D/Tomato/8-22_20-28.ply",
+        "dataset": "Crops3D_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Tomato@8-22_30-4": {
+        "prompt": "What feature of the plant's leaves makes them appear pinnate from some angles?\n\nA. Deeply lobed structure\nB. Serrated edges\nC. Woody brown stem",
+        "response": "none",
+        "timestamp": "2025-10-31T06:31:48.793955",
+        "annotated_by": "User 5",
+        "original_file_path": "/project/3dllms/melgin/datasets/CEA/Crops3D/Tomato/8-22_30-4.ply",
+        "dataset": "Crops3D_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Tomato@8-22_35-22": {
+        "prompt": "What is the characteristic shape of the canopy of the described tree or shrub?\n\nA. Short and bushy\nB. Dense and round\nC. Tall and narrow",
+        "response": "none",
+        "timestamp": "2025-10-31T06:36:21.470721",
+        "annotated_by": "User 5",
+        "original_file_path": "/project/3dllms/melgin/datasets/CEA/Crops3D/Tomato/8-22_35-22.ply",
+        "dataset": "Crops3D_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Tomato@8-25_1-1": {
+        "prompt": "What type of leaves are described as being on the plant branch?\n\nA. Small, smooth leaves with pointed tips\nB. Needle-like leaves with a waxy surface\nC. Heart-shaped leaves with a glossy finish",
+        "response": "none",
+        "timestamp": "2025-10-31T08:04:44.582231",
+        "annotated_by": "User 5",
+        "original_file_path": "/project/3dllms/melgin/datasets/CEA/Crops3D/Tomato/8-25_1-1.ply",
+        "dataset": "Crops3D_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Tomato@8-25_1-55": {
+        "prompt": "What characteristic of the tree allows it to appear feathery and multi-branching?\n\nA. The slender brown trunk\nB. The small evergreen nature\nC. The spreading branches",
+        "response": "none",
+        "timestamp": "2025-10-31T10:12:51.199168",
+        "annotated_by": "User 5",
+        "original_file_path": "/project/3dllms/melgin/datasets/CEA/Crops3D/Tomato/8-25_1-55.ply",
+        "dataset": "Crops3D_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Tomato@8-25_30-52": {
+        "prompt": "What type of appearance do the leaflets of the green woody branch have?\n\nA. Grass-like appearance\nB. Flower-like appearance\nC. Cactus-like appearance",
+        "response": "none",
+        "timestamp": "2025-10-31T07:38:49.147462",
+        "annotated_by": "User 5",
+        "original_file_path": "/project/3dllms/melgin/datasets/CEA/Crops3D/Tomato/8-25_30-52.ply",
+        "dataset": "Crops3D_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Tomato@8-28_10-53": {
+        "prompt": "What type of plant is described as having a thin brown trunk with multiple slender, branching stems and dense clusters of green leaves with serrated margins?\n\nA. A large oak tree\nB. A cacti\nC. A flowering vine",
+        "response": "none",
+        "timestamp": "2025-10-31T07:36:54.705246",
+        "annotated_by": "User 5",
+        "original_file_path": "/project/3dllms/melgin/datasets/CEA/Crops3D/Tomato/8-28_10-53.ply",
+        "dataset": "Crops3D_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Tomato@8-28_20-28": {
+        "prompt": "What is the primary characteristic of the foliage of the described shrub or tree?\n\nA. It is made up of large, broad leaves\nB. It features only a few thick, waxy leaves\nC. It has needle-like leaves",
+        "response": "none",
+        "timestamp": "2025-10-31T08:03:55.369006",
+        "annotated_by": "User 5",
+        "original_file_path": "/project/3dllms/melgin/datasets/CEA/Crops3D/Tomato/8-28_20-28.ply",
+        "dataset": "Crops3D_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Tomato@8-28_30-52": {
+        "prompt": "What type of plant features slender woody stems with deeply lobed, serrated leaves?\n\nA. A cactus\nB. A succulent\nC. A flowering shrub",
+        "response": "none",
+        "timestamp": "2025-10-31T06:35:59.519597",
+        "annotated_by": "User 5",
+        "original_file_path": "/project/3dllms/melgin/datasets/CEA/Crops3D/Tomato/8-28_30-52.ply",
+        "dataset": "Crops3D_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Tomato@8-31_10-3": {
+        "prompt": "What type of trunk does the small tree have?\n\nA. Green and flexible\nB. Thin and smooth\nC. Short and spiny",
+        "response": "a",
+        "timestamp": "2025-10-31T06:34:38.014358",
+        "annotated_by": "User 5",
+        "original_file_path": "/project/3dllms/melgin/datasets/CEA/Crops3D/Tomato/8-31_10-3.ply",
+        "dataset": "Crops3D_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Tomato@8-31_20-28": {
+        "prompt": "What type of tree is described in the information?\n\nA. Coniferous tree\nB. Evergreen tree\nC. Palm tree",
+        "response": "none",
+        "timestamp": "2025-10-31T07:38:22.875101",
+        "annotated_by": "User 5",
+        "original_file_path": "/project/3dllms/melgin/datasets/CEA/Crops3D/Tomato/8-31_20-28.ply",
+        "dataset": "Crops3D_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Tomato@9-14_10-3": {
+        "prompt": "What type of leaves does the tree have?\n\nA. Broad, flat leaves\nB. Thick, waxy leaves\nC. Needle-like leaves",
+        "response": "none",
+        "timestamp": "2025-10-31T08:02:11.610653",
+        "annotated_by": "User 5",
+        "original_file_path": "/project/3dllms/melgin/datasets/CEA/Crops3D/Tomato/9-14_10-3.ply",
+        "dataset": "Crops3D_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Tomato@9-3_10-3": {
+        "prompt": "What type of plant is described in the text?\n\nA. A vine with a creeping growth pattern\nB. A densely foliated shrub with a single stem\nC. A small flowering plant with delicate leaves",
+        "response": "c",
+        "timestamp": "2025-10-31T07:38:02.305525",
+        "annotated_by": "User 5",
+        "original_file_path": "/project/3dllms/melgin/datasets/CEA/Crops3D/Tomato/9-3_10-3.ply",
+        "dataset": "Crops3D_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Tomato@9-3_2-1": {
+        "prompt": "What is the appearance of the leaves on the described branch?\n\nA. They are large and broad, giving a wide shape to the branch\nB. They are needle-like and arranged in clusters\nC. They are thick and waxy, covering the branch completely",
+        "response": "none",
+        "timestamp": "2025-10-31T06:37:00.622179",
+        "annotated_by": "User 5",
+        "original_file_path": "/project/3dllms/melgin/datasets/CEA/Crops3D/Tomato/9-3_2-1.ply",
+        "dataset": "Crops3D_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Tomato@9-3_20-28": {
+        "prompt": "What is the arrangement of the branches of the plant described?\n\nA. The branches are straight and upright\nB. The branches are curled\nC. The branches are completely horizontal",
+        "response": "none",
+        "timestamp": "2025-10-31T07:36:28.384333",
+        "annotated_by": "User 5",
+        "original_file_path": "/project/3dllms/melgin/datasets/CEA/Crops3D/Tomato/9-3_20-28.ply",
+        "dataset": "Crops3D_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Tomato@9-6_1-55": {
+        "prompt": "What is the shape and color of the trunk of the tree described?\n\nA. Gnarled and yellow\nB. Thick and green\nC. Short and black",
+        "response": "none",
+        "timestamp": "2025-10-31T07:37:23.491127",
+        "annotated_by": "User 5",
+        "original_file_path": "/project/3dllms/melgin/datasets/CEA/Crops3D/Tomato/9-6_1-55.ply",
+        "dataset": "Crops3D_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Wheat@102": {
+        "prompt": "What type of containers is the green bamboo-like plant potted in?\n\nA. A blue ceramic pot\nB. A plastic container\nC. A metal bucket",
+        "response": "none",
+        "timestamp": "2025-10-31T08:19:32.898739",
+        "annotated_by": "User 5",
+        "original_file_path": "/project/3dllms/melgin/datasets/CEA/Crops3D/Wheat/102.ply",
+        "dataset": "Crops3D_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Wheat@107": {
+        "prompt": "What type of plant is described?\n\nA. A flowering shrub\nB. A tree with thick bark\nC. A cacti species",
+        "response": "none",
+        "timestamp": "2025-10-31T08:09:22.664592",
+        "annotated_by": "User 5",
+        "original_file_path": "/project/3dllms/melgin/datasets/CEA/Crops3D/Wheat/107.ply",
+        "dataset": "Crops3D_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Wheat@108": {
+        "prompt": "What feature describes the plant's structure?\n\nA. A long, single stem with wide, flat leaves\nB. A tall, thin base with round leaves\nC. A compact root system with no visible leaves",
+        "response": "none",
+        "timestamp": "2025-10-31T08:22:00.220764",
+        "annotated_by": "User 5",
+        "original_file_path": "/project/3dllms/melgin/datasets/CEA/Crops3D/Wheat/108.ply",
+        "dataset": "Crops3D_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Wheat@109": {
+        "prompt": "What is the color of the leaves of the potted bamboo-like plant described?\n\nA. Light green\nB. Brown\nC. Yellow",
+        "response": "none",
+        "timestamp": "2025-10-31T08:17:25.903598",
+        "annotated_by": "User 5",
+        "original_file_path": "/project/3dllms/melgin/datasets/CEA/Crops3D/Wheat/109.ply",
+        "dataset": "Crops3D_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Wheat@11": {
+        "prompt": "What type of plant is described in the room?\n\nA. A flowering shrub\nB. A small succulent\nC. An ornamental grass",
+        "response": "none",
+        "timestamp": "2025-10-31T08:07:18.681271",
+        "annotated_by": "User 5",
+        "original_file_path": "/project/3dllms/melgin/datasets/CEA/Crops3D/Wheat/11.ply",
+        "dataset": "Crops3D_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Wheat@113": {
+        "prompt": "What shape are the leaves of the bamboo plant described?\n\nA. Round and broad\nB. Short and pointed\nC. Oval and flat",
+        "response": "none",
+        "timestamp": "2025-10-31T08:21:35.333710",
+        "annotated_by": "User 5",
+        "original_file_path": "/project/3dllms/melgin/datasets/CEA/Crops3D/Wheat/113.ply",
+        "dataset": "Crops3D_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Wheat@115": {
+        "prompt": "What color is the pot that holds the bamboo plant? \n\nA. Dark-colored\nB. Blue\nC. Red",
+        "response": "none",
+        "timestamp": "2025-10-31T08:12:24.571269",
+        "annotated_by": "User 5",
+        "original_file_path": "/project/3dllms/melgin/datasets/CEA/Crops3D/Wheat/115.ply",
+        "dataset": "Crops3D_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Wheat@116": {
+        "prompt": "What type of plant is described in the room?\n\nA. Cactus\nB. Fern\nC. Orchid",
+        "response": "none",
+        "timestamp": "2025-10-31T08:06:31.720875",
+        "annotated_by": "User 5",
+        "original_file_path": "/project/3dllms/melgin/datasets/CEA/Crops3D/Wheat/116.ply",
+        "dataset": "Crops3D_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Wheat@119": {
+        "prompt": "What type of plant is described in the room?\n\nA. A cactus\nB. A succulent\nC. A small potted tree",
+        "response": "none",
+        "timestamp": "2025-10-31T08:16:10.502617",
+        "annotated_by": "User 5",
+        "original_file_path": "/project/3dllms/melgin/datasets/CEA/Crops3D/Wheat/119.ply",
+        "dataset": "Crops3D_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Wheat@122": {
+        "prompt": "What is the shape of the leaves of the potted plant described?\n\nA. Round and broad\nB. Oval and flat\nC. Short and wide",
+        "response": "none",
+        "timestamp": "2025-10-31T08:09:45.195384",
+        "annotated_by": "User 5",
+        "original_file_path": "/project/3dllms/melgin/datasets/CEA/Crops3D/Wheat/122.ply",
+        "dataset": "Crops3D_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Wheat@123": {
+        "prompt": "What type of plant is described in the room?\n\nA. A flowering plant\nB. A succulent\nC. A fern",
+        "response": "none",
+        "timestamp": "2025-10-31T08:18:59.716978",
+        "annotated_by": "User 5",
+        "original_file_path": "/project/3dllms/melgin/datasets/CEA/Crops3D/Wheat/123.ply",
+        "dataset": "Crops3D_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Wheat@125": {
+        "prompt": "What type of plant is described in the room?\n\nA. Cactus with wide, flat leaves\nB. Potted flower with colorful blooms\nC. Succulent with thick, fleshy leaves",
+        "response": "none",
+        "timestamp": "2025-10-31T08:14:10.997450",
+        "annotated_by": "User 5",
+        "original_file_path": "/project/3dllms/melgin/datasets/CEA/Crops3D/Wheat/125.ply",
+        "dataset": "Crops3D_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Wheat@126": {
+        "prompt": "What type of plant is described in the room?\n\nA. Cactus\nB. Fern\nC. Orchid",
+        "response": "none",
+        "timestamp": "2025-10-31T08:13:23.233329",
+        "annotated_by": "User 5",
+        "original_file_path": "/project/3dllms/melgin/datasets/CEA/Crops3D/Wheat/126.ply",
+        "dataset": "Crops3D_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Wheat@127": {
+        "prompt": "What is the arrangement of the bamboo stalks described in the room?\n\nA. They are scattered on the floor\nB. They are placed in a large vase\nC. They are hanging from the ceiling",
+        "response": "none",
+        "timestamp": "2025-10-31T08:08:13.935137",
+        "annotated_by": "User 5",
+        "original_file_path": "/project/3dllms/melgin/datasets/CEA/Crops3D/Wheat/127.ply",
+        "dataset": "Crops3D_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Wheat@131": {
+        "prompt": "What color is the pot that holds the plant?\n\nA. Blue\nB. Green\nC. Yellow",
+        "response": "none",
+        "timestamp": "2025-10-31T08:15:08.763528",
+        "annotated_by": "User 5",
+        "original_file_path": "/project/3dllms/melgin/datasets/CEA/Crops3D/Wheat/131.ply",
+        "dataset": "Crops3D_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Wheat@137": {
+        "prompt": "What is the color of the trunk of the potted plant described?\n\nA. Green\nB. Yellow\nC. Black",
+        "response": "none",
+        "timestamp": "2025-10-31T08:21:17.781036",
+        "annotated_by": "User 5",
+        "original_file_path": "/project/3dllms/melgin/datasets/CEA/Crops3D/Wheat/137.ply",
+        "dataset": "Crops3D_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Wheat@14": {
+        "prompt": "What type of plant is described as having slender, upright stalks with long, narrow leaves? \n\nA. Cactus\nB. Fern\nC. Palm tree",
+        "response": "none",
+        "timestamp": "2025-10-31T08:18:14.049983",
+        "annotated_by": "User 5",
+        "original_file_path": "/project/3dllms/melgin/datasets/CEA/Crops3D/Wheat/14.ply",
+        "dataset": "Crops3D_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Wheat@145": {
+        "prompt": "What type of plant is described in the room?\n\nA. Cactus\nB. Fern\nC. Palm tree",
+        "response": "none",
+        "timestamp": "2025-10-31T08:05:32.520956",
+        "annotated_by": "User 5",
+        "original_file_path": "/project/3dllms/melgin/datasets/CEA/Crops3D/Wheat/145.ply",
+        "dataset": "Crops3D_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Wheat@149": {
+        "prompt": "What color are the leaves of the plant described?\n\nA. Blue\nB. Yellow\nC. Red",
+        "response": "none",
+        "timestamp": "2025-10-31T08:15:41.071607",
+        "annotated_by": "User 5",
+        "original_file_path": "/project/3dllms/melgin/datasets/CEA/Crops3D/Wheat/149.ply",
+        "dataset": "Crops3D_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Wheat@15": {
+        "prompt": "What type of container is the plant situated in?\n\nA. A ceramic pot\nB. A wooden barrel\nC. A glass vase",
+        "response": "none",
+        "timestamp": "2025-10-31T08:23:18.846485",
+        "annotated_by": "User 5",
+        "original_file_path": "/project/3dllms/melgin/datasets/CEA/Crops3D/Wheat/15.ply",
+        "dataset": "Crops3D_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Wheat@21": {
+        "prompt": "What color are the leaves of the plant described?\n\nA. Light green\nB. Red\nC. Yellow",
+        "response": "none",
+        "timestamp": "2025-10-31T08:16:27.528765",
+        "annotated_by": "User 5",
+        "original_file_path": "/project/3dllms/melgin/datasets/CEA/Crops3D/Wheat/21.ply",
+        "dataset": "Crops3D_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Wheat@25": {
+        "prompt": "What color are the tiny leaves of the plant described?\n\nA. Red\nB. Brown\nC. Yellow",
+        "response": "none",
+        "timestamp": "2025-10-31T08:11:57.295956",
+        "annotated_by": "User 5",
+        "original_file_path": "/project/3dllms/melgin/datasets/CEA/Crops3D/Wheat/25.ply",
+        "dataset": "Crops3D_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Wheat@26": {
+        "prompt": "What is the position of the log in the described setting?\n\nA. It is leaning against a wall\nB. It is standing upright\nC. It is hanging from a branch",
+        "response": "none",
+        "timestamp": "2025-10-31T08:11:17.576666",
+        "annotated_by": "User 5",
+        "original_file_path": "/project/3dllms/melgin/datasets/CEA/Crops3D/Wheat/26.ply",
+        "dataset": "Crops3D_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Wheat@28": {
+        "prompt": "What shape is the planter that holds the bamboo-like plant?\n\nA. Square\nB. Circular\nC. Oval",
+        "response": "none",
+        "timestamp": "2025-10-31T08:12:47.675250",
+        "annotated_by": "User 5",
+        "original_file_path": "/project/3dllms/melgin/datasets/CEA/Crops3D/Wheat/28.ply",
+        "dataset": "Crops3D_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Wheat@34": {
+        "prompt": "What type of container is the houseplant situated in?\n\nA. Round pot\nB. High cylindrical vase\nC. Square box",
+        "response": "none",
+        "timestamp": "2025-10-31T08:07:46.360073",
+        "annotated_by": "User 5",
+        "original_file_path": "/project/3dllms/melgin/datasets/CEA/Crops3D/Wheat/34.ply",
+        "dataset": "Crops3D_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Wheat@39": {
+        "prompt": "What is the structure of the trunk of the plant described?\n\nA. It is thin and fragile\nB. It is short and bushy\nC. It is straight and green",
+        "response": "c",
+        "timestamp": "2025-10-31T08:08:52.456752",
+        "annotated_by": "User 5",
+        "original_file_path": "/project/3dllms/melgin/datasets/CEA/Crops3D/Wheat/39.ply",
+        "dataset": "Crops3D_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Wheat@4": {
+        "prompt": "What is the shape of the leaves on the potted plant?\n\nA. Round and broad\nB. Flat and wide\nC. Sharp and needle-like",
+        "response": "none",
+        "timestamp": "2025-10-31T08:17:08.178517",
+        "annotated_by": "User 5",
+        "original_file_path": "/project/3dllms/melgin/datasets/CEA/Crops3D/Wheat/4.ply",
+        "dataset": "Crops3D_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Wheat@42": {
+        "prompt": "What type of pot is the green potted plant housed in?\n\nA. Blue pot\nB. Black pot\nC. White pot",
+        "response": "none",
+        "timestamp": "2025-10-31T08:22:38.559881",
+        "annotated_by": "User 5",
+        "original_file_path": "/project/3dllms/melgin/datasets/CEA/Crops3D/Wheat/42.ply",
+        "dataset": "Crops3D_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Wheat@52": {
+        "prompt": "What characteristic does the green potted plant display along its tall, slender stems?  \n\nA. Thick, round leaves\nB. Wide, flat leaves\nC. Short, spiky leaves",
+        "response": "none",
+        "timestamp": "2025-10-31T08:10:09.166500",
+        "annotated_by": "User 5",
+        "original_file_path": "/project/3dllms/melgin/datasets/CEA/Crops3D/Wheat/52.ply",
+        "dataset": "Crops3D_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Wheat@6": {
+        "prompt": "What type of plant is described in the room?\n\nA. A cactus with thick, spiny arms\nB. A flowering shrub with large blossoms\nC. A tree with broad, flat leaves",
+        "response": "none",
+        "timestamp": "2025-10-31T08:06:55.464178",
+        "annotated_by": "User 5",
+        "original_file_path": "/project/3dllms/melgin/datasets/CEA/Crops3D/Wheat/6.ply",
+        "dataset": "Crops3D_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Wheat@60": {
+        "prompt": "What color are the stripes on the decorative pot of the plant?\n\nA. Green and yellow\nB. Blue and white\nC. Black and red",
+        "response": "none",
+        "timestamp": "2025-10-31T08:14:43.572308",
+        "annotated_by": "User 5",
+        "original_file_path": "/project/3dllms/melgin/datasets/CEA/Crops3D/Wheat/60.ply",
+        "dataset": "Crops3D_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Wheat@7": {
+        "prompt": "What shape is the planter that the green plant is growing from?\n\nA. Round\nB. Square\nC. Oval",
+        "response": "none",
+        "timestamp": "2025-10-31T08:22:22.141230",
+        "annotated_by": "User 5",
+        "original_file_path": "/project/3dllms/melgin/datasets/CEA/Crops3D/Wheat/7.ply",
+        "dataset": "Crops3D_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Wheat@72": {
+        "prompt": "What is the primary color of the bamboo plant described?\n\nA. Blue\nB. Yellow\nC. Red",
+        "response": "none",
+        "timestamp": "2025-10-31T08:15:26.437975",
+        "annotated_by": "User 5",
+        "original_file_path": "/project/3dllms/melgin/datasets/CEA/Crops3D/Wheat/72.ply",
+        "dataset": "Crops3D_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Wheat@73": {
+        "prompt": "What is the primary color of the grass blades described?\n\nA. Light purple\nB. Bright yellow\nC. Deep blue",
+        "response": "none",
+        "timestamp": "2025-10-31T08:18:29.156812",
+        "annotated_by": "User 5",
+        "original_file_path": "/project/3dllms/melgin/datasets/CEA/Crops3D/Wheat/73.ply",
+        "dataset": "Crops3D_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Wheat@78": {
+        "prompt": "What shape does the small potted plant resemble?\n\nA. A wide, flat ground cover\nB. A tall, straight tree\nC. A round, compact ball",
+        "response": "none",
+        "timestamp": "2025-10-31T08:13:06.312391",
+        "annotated_by": "User 5",
+        "original_file_path": "/project/3dllms/melgin/datasets/CEA/Crops3D/Wheat/78.ply",
+        "dataset": "Crops3D_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Wheat@79": {
+        "prompt": "What is the texture of the leaves on the potted shrub described?\n\nA. Smooth texture\nB. Glossy texture\nC. Rough texture",
+        "response": "none",
+        "timestamp": "2025-10-31T08:05:11.789678",
+        "annotated_by": "User 5",
+        "original_file_path": "/project/3dllms/melgin/datasets/CEA/Crops3D/Wheat/79.ply",
+        "dataset": "Crops3D_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Wheat@80": {
+        "prompt": "What type of container is the bushy green shrub rooted in?\n\nA. A ceramic vase\nB. A wooden box\nC. A glass jar",
+        "response": "none",
+        "timestamp": "2025-10-31T08:19:51.228260",
+        "annotated_by": "User 5",
+        "original_file_path": "/project/3dllms/melgin/datasets/CEA/Crops3D/Wheat/80.ply",
+        "dataset": "Crops3D_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Wheat@84": {
+        "prompt": "What type of silhouette does the potted plant create?\n\nA. A flat, two-dimensional shape\nB. A triangular formation\nC. A cylindrical shape",
+        "response": "none",
+        "timestamp": "2025-10-31T08:16:47.680648",
+        "annotated_by": "User 5",
+        "original_file_path": "/project/3dllms/melgin/datasets/CEA/Crops3D/Wheat/84.ply",
+        "dataset": "Crops3D_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Wheat@87": {
+        "prompt": "What type of container is the plant in?\n\nA. Plastic pot\nB. Ceramic pot\nC. Metal pot",
+        "response": "none",
+        "timestamp": "2025-10-31T08:20:17.300166",
+        "annotated_by": "User 5",
+        "original_file_path": "/project/3dllms/melgin/datasets/CEA/Crops3D/Wheat/87.ply",
+        "dataset": "Crops3D_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Wheat@88": {
+        "prompt": "What type of plant is described in the room?\n\nA. A flowering plant with large petals\nB. A tree with a thick trunk\nC. A cactus with spines",
+        "response": "none",
+        "timestamp": "2025-10-31T08:11:39.429434",
+        "annotated_by": "User 5",
+        "original_file_path": "/project/3dllms/melgin/datasets/CEA/Crops3D/Wheat/88.ply",
+        "dataset": "Crops3D_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Wheat@89": {
+        "prompt": "What feature distinguishes the leaves of the indoor potted plant described?\n\nA. The leaves are wide and flat\nB. The leaves are round and thick\nC. The leaves are short and stubby",
+        "response": "none",
+        "timestamp": "2025-10-31T08:17:56.690595",
+        "annotated_by": "User 5",
+        "original_file_path": "/project/3dllms/melgin/datasets/CEA/Crops3D/Wheat/89.ply",
+        "dataset": "Crops3D_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Wheat@91": {
+        "prompt": "What color are the leaves of the potted plant?\n\nA. Blue\nB. Yellow\nC. Red",
+        "response": "none",
+        "timestamp": "2025-10-31T08:05:53.873542",
+        "annotated_by": "User 5",
+        "original_file_path": "/project/3dllms/melgin/datasets/CEA/Crops3D/Wheat/91.ply",
+        "dataset": "Crops3D_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Wheat@92": {
+        "prompt": "What type of plant is described in the room? \n\nA. Fern\nB. Cactus\nC. Palm",
+        "response": "none",
+        "timestamp": "2025-10-31T08:22:55.927532",
+        "annotated_by": "User 5",
+        "original_file_path": "/project/3dllms/melgin/datasets/CEA/Crops3D/Wheat/92.ply",
+        "dataset": "Crops3D_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Wheat@96": {
+        "prompt": "What is the primary color of the trunk of the potted plant?\n\nA. Green\nB. Yellow\nC. Red",
+        "response": "a",
+        "timestamp": "2025-10-31T08:10:47.445037",
+        "annotated_by": "User 5",
+        "original_file_path": "/project/3dllms/melgin/datasets/CEA/Crops3D/Wheat/96.ply",
+        "dataset": "Crops3D_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Wheat@98": {
+        "prompt": "What shape does the green potted plant resemble due to its fronds?\n\nA. A pyramid shape with a wide base and narrow top\nB. A flat, spread-out shape similar to a pancake\nC. A cylindrical shape with no branching",
+        "response": "none",
+        "timestamp": "2025-10-31T08:20:47.401843",
+        "annotated_by": "User 5",
+        "original_file_path": "/project/3dllms/melgin/datasets/CEA/Crops3D/Wheat/98.ply",
+        "dataset": "Crops3D_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    }
+}
