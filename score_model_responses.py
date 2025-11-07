@@ -48,16 +48,40 @@ def main():
 
         try:
             response = client.chat.completions.create(
-                model="gpt-4o-mini",
+                model="gpt-5-mini",
                 messages=[{"role": "user", "content": current_prompt}],
-                max_tokens=10
+                max_completion_tokens=100
             )
-            generated_text = response.choices[0].message.content.strip()
+            generated_text = response.choices[0].message.content.strip() if response.choices[0].message.content else ""
         except Exception as e:
             print(f"Error processing openai completion: {str(e)}")
             continue
 
         print(current_prompt)
+        print(f"Generated Text:<BEGIN>{generated_text}<END>")
+        
+        # Print detailed response information
+        print(f"=== Response Details for {point_cloud} ===")
+        print(f"Model: {response.model}")
+        print(f"Finish Reason: {response.choices[0].finish_reason}")
+        print(f"Usage - Prompt Tokens: {response.usage.prompt_tokens}")
+        print(f"Usage - Completion Tokens: {response.usage.completion_tokens}")
+        print(f"Usage - Total Tokens: {response.usage.total_tokens}")
+        
+        # Print reasoning tokens if available (GPT-5 models)
+        if hasattr(response.usage, 'completion_tokens_details'):
+            details = response.usage.completion_tokens_details
+            if hasattr(details, 'reasoning_tokens'):
+                print(f"Usage - Reasoning Tokens: {details.reasoning_tokens}")
+            if hasattr(details, 'accepted_prediction_tokens'):
+                print(f"Usage - Accepted Prediction Tokens: {details.accepted_prediction_tokens}")
+            if hasattr(details, 'rejected_prediction_tokens'):
+                print(f"Usage - Rejected Prediction Tokens: {details.rejected_prediction_tokens}")
+        
+        # Print the raw message object
+        print(f"Raw Message Content: {response.choices[0].message.content}")
+        print(f"Message Role: {response.choices[0].message.role}")
+        print(f"=========================================\n")
         data[point_cloud]["correct_answer"] = correct_answer.replace("\nCORRECT_ANSWER: ", "")
         data[point_cloud]["score"] = generated_text
 
