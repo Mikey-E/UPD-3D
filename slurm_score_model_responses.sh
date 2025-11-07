@@ -3,7 +3,7 @@
 #Example use: sbatch slurm_score_model_responses.sh args/flags...
 
 #SBATCH --account=3dllms
-#SBATCH --partition=non-investor
+#SBATCH --partition=mb
 #SBATCH --job-name=score_model_responses
 #SBATCH --output=./slurm_logs/score_model_responses_%j.out
 #SBATCH --error=./slurm_logs/score_model_responses_%j.out
