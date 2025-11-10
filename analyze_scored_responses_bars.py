@@ -132,16 +132,14 @@ def main():
     output_dir = "./results"
     os.makedirs(output_dir, exist_ok=True)
     
-    # Extract scoring model name from first json file
-    scoring_model = "unknown"
-    if json_files:
-        first_file = os.path.basename(json_files[0])
-        # Extract model name between last underscore before _scored.json
-        match = re.search(r'_([^_/]+)_scored\.json$', first_file)
-        if match:
-            scoring_model = match.group(1)
+    # Extract scoring model name from folder name (last underscore-separated part)
+    folder_basename = os.path.basename(os.path.normpath(folder_path))
+    parts = folder_basename.split('_')
+    # The scoring model should be the last part (e.g., gpt-4.1-mini, gpt-5-nano)
+    scoring_model = parts[-1] if len(parts) > 1 else "unknown"
+    # Remove scoring model from folder name for the base output name
+    name_for_saving = '_'.join(parts[:-1]) if len(parts) > 1 else folder_basename
     
-    name_for_saving = os.path.basename(os.path.normpath(folder_path))
     # Add scoring model to filename
     output_path = os.path.join(output_dir, f"{name_for_saving}_{scoring_model}_bars.png")
     plt.savefig(output_path, dpi=300)

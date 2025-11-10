@@ -415,14 +415,19 @@ Each file becomes a point on the radar chart (representing a model).
     
     series_part = "_vs_".join(series_names)
     
-    # Extract scoring model name from first file in first series
+    # Extract scoring model name from first file's folder path (last part of folder name)
     scoring_model = "unknown"
-    if processed_series and processed_series[0]['model_scores']:
-        # Get first series data
-        first_series = series_data[0]
-        if first_series['files']:
-            first_file = os.path.basename(first_series['files'][0])
-            # Extract model name between last underscore before _scored.json
+    if series_data and series_data[0]['files']:
+        first_file_path = series_data[0]['files'][0]
+        folder_path = os.path.dirname(first_file_path)
+        folder_basename = os.path.basename(folder_path)
+        parts = folder_basename.split('_')
+        # Check if last part looks like a scoring model (contains dots or dashes typical of model names)
+        if len(parts) > 1 and ('-' in parts[-1] or '.' in parts[-1]):
+            scoring_model = parts[-1]
+        else:
+            # Fallback: try to extract from filename
+            first_file = os.path.basename(first_file_path)
             match = re.search(r'_([^_/]+)_scored\.json$', first_file)
             if match:
                 scoring_model = match.group(1)

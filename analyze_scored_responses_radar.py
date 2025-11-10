@@ -181,21 +181,15 @@ def main():
     output_dir = "./results"
     os.makedirs(output_dir, exist_ok=True)
     
-    # Extract scoring model name from first folder's first json file
-    scoring_model = "unknown"
-    if args.folder_paths:
-        first_folder = args.folder_paths[0]
-        json_files_first = [f for f in os.listdir(first_folder) if f.endswith('.json')]
-        if json_files_first:
-            first_file = json_files_first[0]
-            # Extract model name between last underscore before _scored.json
-            match = re.search(r'_([^_/]+)_scored\.json$', first_file)
-            if match:
-                scoring_model = match.group(1)
+    # Extract scoring model name from first folder name (last underscore-separated part)
+    first_folder_basename = os.path.basename(os.path.normpath(args.folder_paths[0]))
+    parts = first_folder_basename.split('_')
+    scoring_model = parts[-1] if len(parts) > 1 else "unknown"
     
-    # Create a name based on all folder names
+    # Create a name based on all folder names (without scoring model suffix)
     if len(args.folder_paths) == 1:
-        name_for_saving = os.path.basename(os.path.normpath(args.folder_paths[0]))
+        # Remove scoring model from folder name for the base output name
+        name_for_saving = '_'.join(parts[:-1]) if len(parts) > 1 else first_folder_basename
     else:
         name_for_saving = "combined_analysis"
     
