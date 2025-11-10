@@ -29,6 +29,9 @@ def main():
     # Read the scoring prompt from file
     with open('scoring_prompt.txt', 'r') as f:
         scoring_prompt = f.read()
+    
+    # Define the model to use
+    scoring_model = "gpt-4.1-mini"
  
     for item in data.items():
         point_cloud = item[0]
@@ -48,7 +51,7 @@ def main():
 
         try:
             response = client.chat.completions.create(
-                model="gpt-4.1-mini",
+                model=scoring_model,
                 messages=[{"role": "user", "content": current_prompt}],
                 max_completion_tokens=100
             )
@@ -94,14 +97,19 @@ def main():
 
     # Get the folder name preceding the json file
     folder_name = os.path.basename(os.path.dirname(json_file))
-    # Create the output folder inside scored_model_responses
-    output_dir = os.path.join('scored_model_responses', folder_name)
+    # Create the output folder inside scored_model_responses with scoring model name
+    output_folder_name = f"{folder_name}_{scoring_model}"
+    output_dir = os.path.join('scored_model_responses', output_folder_name)
     os.makedirs(output_dir, exist_ok=True)
-    # Use the same json filename for the final file
-    output_file = os.path.join(output_dir, os.path.basename(json_file))
+    # Use the same json filename for the final file, but add model name before _scored
+    base_filename = os.path.basename(json_file).replace('.json', '')
+    output_filename = f"{base_filename}_{scoring_model}_scored.json"
+    output_file = os.path.join(output_dir, output_filename)
 
-    with open(output_file.replace('.json', '') + '_scored.json', 'w') as f:
+    with open(output_file, 'w') as f:
         json.dump(data, f, indent=4)
+    
+    print(f"\nScored responses saved to: {os.path.abspath(output_file)}")
 
 if __name__ == "__main__":
     main()
