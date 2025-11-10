@@ -88,7 +88,8 @@ def main():
         
         # Prepare category names for the radar chart
         names_list = list(standard_upd_accuracies.keys())
-        names_list = [name.replace("_scored.json", "") for name in names_list]
+        # Remove scoring model name pattern (e.g., _gpt-4.1-mini_scored.json or _gpt-5-nano_scored.json)
+        names_list = [re.sub(r'_[^_/]+_scored\.json$', '', name) for name in names_list]
         names_list = [name.split(args.naming_delim)[1] for name in names_list]
         names_list = [name.replace("_", " ") for name in names_list]
         names_list = [name.title() for name in names_list]
@@ -180,13 +181,28 @@ def main():
     output_dir = "./results"
     os.makedirs(output_dir, exist_ok=True)
     
+    # Extract scoring model name from first folder's first json file
+    scoring_model = "unknown"
+    if args.folder_paths:
+        first_folder = args.folder_paths[0]
+        json_files_first = [f for f in os.listdir(first_folder) if f.endswith('.json')]
+        if json_files_first:
+            first_file = json_files_first[0]
+            # Extract model name between last underscore before _scored.json
+            match = re.search(r'_([^_/]+)_scored\.json$', first_file)
+            if match:
+                scoring_model = match.group(1)
+    
     # Create a name based on all folder names
     if len(args.folder_paths) == 1:
         name_for_saving = os.path.basename(os.path.normpath(args.folder_paths[0]))
     else:
         name_for_saving = "combined_analysis"
     
-    plt.savefig(os.path.join(output_dir, f"{name_for_saving}_radar.png"), dpi=300, bbox_inches='tight')
+    # Add scoring model to filename
+    output_path = os.path.join(output_dir, f"{name_for_saving}_{scoring_model}_radar.png")
+    plt.savefig(output_path, dpi=300, bbox_inches='tight')
+    print(f"Radar chart saved to: {os.path.abspath(output_path)}")
 
 if __name__ == "__main__":
     main()

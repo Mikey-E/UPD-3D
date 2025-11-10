@@ -101,7 +101,8 @@ def main():
     
     # Use category names on the y-axis
     names_list = list(standard_upd_accuracies.keys())
-    names_list = [name.replace("_scored.json", "") for name in names_list]
+    # Remove scoring model name pattern (e.g., _gpt-4.1-mini_scored.json or _gpt-5-nano_scored.json)
+    names_list = [re.sub(r'_[^_/]+_scored\.json$', '', name) for name in names_list]
     names_list = [name.split(args.naming_delim)[1] for name in names_list]
     names_list = [name.replace("_", " ") for name in names_list]
     names_list = [name.title() for name in names_list]
@@ -131,8 +132,20 @@ def main():
     output_dir = "./results"
     os.makedirs(output_dir, exist_ok=True)
     
+    # Extract scoring model name from first json file
+    scoring_model = "unknown"
+    if json_files:
+        first_file = os.path.basename(json_files[0])
+        # Extract model name between last underscore before _scored.json
+        match = re.search(r'_([^_/]+)_scored\.json$', first_file)
+        if match:
+            scoring_model = match.group(1)
+    
     name_for_saving = os.path.basename(os.path.normpath(folder_path))
-    plt.savefig(os.path.join(output_dir, f"{name_for_saving}_bars.png"), dpi=300)
+    # Add scoring model to filename
+    output_path = os.path.join(output_dir, f"{name_for_saving}_{scoring_model}_bars.png")
+    plt.savefig(output_path, dpi=300)
+    print(f"Bar chart saved to: {os.path.abspath(output_path)}")
 
 if __name__ == "__main__":
     main()

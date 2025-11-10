@@ -14,8 +14,10 @@ def extract_model_name_from_path(file_path):
     """Extract a clean model name from the file path."""
     basename = os.path.basename(file_path)
     
-    # Remove common suffixes
-    basename = basename.replace("_scored.json", "")
+    # Remove common suffixes - handle both old and new format with scoring model name
+    # New format: _<scoring_model>_scored.json (e.g., _gpt-4.1-mini_scored.json)
+    # Old format: _scored.json
+    basename = re.sub(r'_[^_/]+_scored\.json$', '', basename)
     basename = basename.replace("_3D-FRONT_test_standard", "")
     
     # Naming conversion dictionary (case insensitive)
@@ -413,13 +415,26 @@ Each file becomes a point on the radar chart (representing a model).
     
     series_part = "_vs_".join(series_names)
     
+    # Extract scoring model name from first file in first series
+    scoring_model = "unknown"
+    if processed_series and processed_series[0]['model_scores']:
+        # Get first series data
+        first_series = series_data[0]
+        if first_series['files']:
+            first_file = os.path.basename(first_series['files'][0])
+            # Extract model name between last underscore before _scored.json
+            match = re.search(r'_([^_/]+)_scored\.json$', first_file)
+            if match:
+                scoring_model = match.group(1)
+    
     # Add mode prefix: "stdupd" for regular mode, "dual" for dual accuracy mode
     mode_prefix = "dual" if args.dual else "stdupd"
-    name_for_saving = f"rdr_{mode_prefix}_{series_part}"
+    name_for_saving = f"rdr_{mode_prefix}_{series_part}_{scoring_model}"
     
-    plt.savefig(os.path.join(output_dir, f"{name_for_saving}.png"), dpi=300, bbox_inches='tight')
+    output_path = os.path.join(output_dir, f"{name_for_saving}.png")
+    plt.savefig(output_path, dpi=300, bbox_inches='tight')
     accuracy_type = "dual accuracy" if args.dual else "regular accuracy"
-    print(f"Radar chart ({accuracy_type}) saved to ./results/multi_model_radar/{name_for_saving}.png")
+    print(f"Radar chart ({accuracy_type}) saved to: {os.path.abspath(output_path)}")
 
 if __name__ == "__main__":
     main()
