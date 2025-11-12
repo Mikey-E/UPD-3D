@@ -53,7 +53,7 @@ def main():
             response = client.chat.completions.create(
                 model=scoring_model,
                 messages=[{"role": "user", "content": current_prompt}],
-                max_completion_tokens=100
+                max_completion_tokens=1
             )
             generated_text = response.choices[0].message.content.strip() if response.choices[0].message.content else ""
         except Exception as e:
