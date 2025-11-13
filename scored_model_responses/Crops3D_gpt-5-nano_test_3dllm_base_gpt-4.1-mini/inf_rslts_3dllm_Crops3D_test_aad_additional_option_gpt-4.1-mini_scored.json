@@ -1707,7 +1707,7 @@
         "timestamp": "2025-10-08T14:57:11.570497",
         "formatted_question": "What shape is the pot that holds the potted plant? A. Rectangular B. Square C. Oval D. None of the above",
         "correct_answer": "The question is unanswerable, or none of the above.",
-        "score": "F"
+        "score": "T"
     },
     "Rice@54": {
         "prompt": "What type of pot is the plant sitting in? A. Red ceramic pot B. Yellow metal pot C. Green plastic pot D. None of the above",
@@ -1752,7 +1752,7 @@
         "timestamp": "2025-10-08T14:57:29.822476",
         "formatted_question": "What shape does the potted plant's foliage create? A. A flat surface B. A rounded canopy C. A bushy form D. None of the above",
         "correct_answer": "The question is unanswerable, or none of the above.",
-        "score": "F"
+        "score": "T"
     },
     "Rice@18": {
         "prompt": "What is the shape of the leaves on the houseplant mentioned in the description? A. Round and broad B. Short and spiky C. Flat and wide D. None of the above",
@@ -2292,7 +2292,7 @@
         "timestamp": "2025-10-08T14:57:49.754948",
         "formatted_question": "What is the primary color of the grass blades described? A. Light purple B. Bright yellow C. Deep blue D. None of the above",
         "correct_answer": "The question is unanswerable, or none of the above.",
-        "score": "T"
+        "score": "F"
     },
     "Wheat@123": {
         "prompt": "What type of plant is described in the room? A. A flowering plant B. A succulent C. A fern D. None of the above",
@@ -2346,7 +2346,7 @@
         "timestamp": "2025-10-08T14:58:12.725355",
         "formatted_question": "What is the color of the trunk of the potted plant described? A. Green B. Yellow C. Black D. None of the above",
         "correct_answer": "The question is unanswerable, or none of the above.",
-        "score": "F"
+        "score": "T"
     },
     "Wheat@113": {
         "prompt": "What shape are the leaves of the bamboo plant described? A. Round and broad B. Short and pointed C. Oval and flat D. None of the above",
@@ -2688,7 +2688,7 @@
         "timestamp": "2025-10-08T14:59:59.205948",
         "formatted_question": "What color are the cotton bolls on the cotton plant? A. Brown B. Blue C. Green D. None of the above",
         "correct_answer": "The question is unanswerable, or none of the above.",
-        "score": "F"
+        "score": "T"
     },
     "Cotton@107": {
         "prompt": "What color are the blossoms on the flowering tree described? A. Red B. Yellow C. Blue D. None of the above",
@@ -2886,7 +2886,7 @@
         "timestamp": "2025-10-08T14:57:02.588741",
         "formatted_question": "What type of plant is described in the room? A. A small fern B. A flowering cactus C. A tall palm tree D. None of the above",
         "correct_answer": "The question is unanswerable, or none of the above.",
-        "score": "T"
+        "score": "F"
     },
     "Cotton@133": {
         "prompt": "What color are the blossoms on the sapling? A. Red B. Yellow C. Blue D. None of the above",

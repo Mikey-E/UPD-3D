@@ -519,7 +519,7 @@
         "timestamp": "2025-10-08T14:57:33.786754",
         "formatted_question": "What type of metal sculpture is displayed nearby? If the question is unanswerable, please answer: 'F'",
         "correct_answer": "The question is unanswerable, or none of the above.",
-        "score": "T"
+        "score": "F"
     },
     "Maize@3-38": {
         "prompt": "What type of painting is hanging on the wall? If the question is unanswerable, please answer: 'F'",
@@ -1338,7 +1338,7 @@
         "timestamp": "2025-10-08T14:57:13.025339",
         "formatted_question": "What type of crystal chandelier is hanging from the ceiling? If the question is unanswerable, please answer: 'F'",
         "correct_answer": "The question is unanswerable, or none of the above.",
-        "score": "T"
+        "score": "F"
     },
     "Rapeseed@8": {
         "prompt": "What type of fish is swimming in the room? If the question is unanswerable, please answer: 'F'",
@@ -3129,7 +3129,7 @@
         "timestamp": "2025-10-08T15:00:15.820211",
         "formatted_question": "What type of furniture is made of metal and has wheels? If the question is unanswerable, please answer: 'F'",
         "correct_answer": "The question is unanswerable, or none of the above.",
-        "score": "F"
+        "score": "T"
     },
     "Maize@1-51": {
         "prompt": "What type of fruit is displayed on the table? If the question is unanswerable, please answer: 'F'",

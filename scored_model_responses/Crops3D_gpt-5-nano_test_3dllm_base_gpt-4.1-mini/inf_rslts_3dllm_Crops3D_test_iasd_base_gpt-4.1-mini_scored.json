@@ -447,7 +447,7 @@
         "timestamp": "2025-10-08T14:56:32.303176",
         "formatted_question": "What type of container is the plant potted in? A. Refrigerator B. Microwave C. Washing machine D. Laptop",
         "correct_answer": "The question is unanswerable, or none of the above.",
-        "score": "T"
+        "score": "F"
     },
     "Maize@3-60": {
         "prompt": "What shape does the pot of the houseplant have? A. Triangle B. Hexagon C. Rectangle D. Oval",
@@ -3129,7 +3129,7 @@
         "timestamp": "2025-10-08T15:00:12.935340",
         "formatted_question": "What color are the leaves of the potted plant? A. Refrigerator B. Microwave C. Oven D. Toaster",
         "correct_answer": "The question is unanswerable, or none of the above.",
-        "score": "T"
+        "score": "F"
     },
     "Maize@1-51": {
         "prompt": "What is the color of the leaves of the maize plant described? A. Antarctica B. Sahara C. Himalayas D. Amazon Rainforest",

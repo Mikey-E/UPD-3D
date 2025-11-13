@@ -339,7 +339,7 @@
         "timestamp": "2025-10-08T14:59:02.648373",
         "formatted_question": "What color is the ceramic pot holding the succulent plant? A. Ocean Wave B. Desert Sand C. Mountain Peak D. Urban Jungle E. None of the above",
         "correct_answer": "The question is unanswerable, or none of the above.",
-        "score": "F"
+        "score": "T"
     },
     "Cabbage@sl_1026_08": {
         "prompt": "What type of plant is described in the room? A. Thermodynamics B. Quantum physics C. Astrobiology D. Geometric shapes E. None of the above",
@@ -663,7 +663,7 @@
         "timestamp": "2025-10-08T14:59:33.117120",
         "formatted_question": "What type of plant is described in the room? A. Quantum mechanics B. Renaissance art C. Celestial navigation D. Astrophysics E. None of the above",
         "correct_answer": "The question is unanswerable, or none of the above.",
-        "score": "F"
+        "score": "T"
     },
     "Maize@2-137": {
         "prompt": "What shape are the leaves of the potted plant described? A. Mountain range B. Ocean wave C. City skyline D. Desert landscape E. None of the above",
@@ -1374,7 +1374,7 @@
         "timestamp": "2025-10-08T14:57:37.465346",
         "formatted_question": "What color is the pot that the plant is growing in? A. Elephant B. Mountain C. Ocean D. Galaxy E. None of the above",
         "correct_answer": "The question is unanswerable, or none of the above.",
-        "score": "F"
+        "score": "T"
     },
     "Rapeseed@93": {
         "prompt": "What color are the leaves of the potted plant? A. Tectonic shift B. Quantum leap C. Geothermal energy D. Electromagnetic spectrum E. None of the above",
@@ -1446,7 +1446,7 @@
         "timestamp": "2025-10-08T14:58:27.508745",
         "formatted_question": "What shape is the pot that the indoor potted plant is in? A. Musical note B. Galaxy C. Cloud D. Satellite E. None of the above",
         "correct_answer": "The question is unanswerable, or none of the above.",
-        "score": "F"
+        "score": "T"
     },
     "Rapeseed@96": {
         "prompt": "What color is the pot holding the houseplant? A. Computer program B. Marketing strategy C. Historical event D. Musical genre E. None of the above",
@@ -2094,7 +2094,7 @@
         "timestamp": "2025-10-08T14:56:23.318888",
         "formatted_question": "What is the shape of the leaves of the potted plant described? A. Sphere B. Cube C. Cylinder D. Pyramid E. None of the above",
         "correct_answer": "The question is unanswerable, or none of the above.",
-        "score": "T"
+        "score": "F"
     },
     "Wheat@52": {
         "prompt": "What characteristic does the green potted plant display along its tall, slender stems? A. Tropical rainforest climate B. Arctic tundra ecosystem C. Mediterranean cuisine D. Ancient Greek architecture E. None of the above",
@@ -2202,7 +2202,7 @@
         "timestamp": "2025-10-08T14:57:09.114289",
         "formatted_question": "What color is the pot that holds the plant? A. Giraffe B. Computer C. Universe D. Harmony E. None of the above",
         "correct_answer": "The question is unanswerable, or none of the above.",
-        "score": "T"
+        "score": "F"
     },
     "Wheat@72": {
         "prompt": "What is the primary color of the bamboo plant described? A. Carrot B. Lemon C. Eggshell D. Cocoa E. None of the above",
@@ -2400,7 +2400,7 @@
         "timestamp": "2025-10-08T14:58:35.278064",
         "formatted_question": "What type of container is the plant situated in? A. Microphone B. Refrigerator C. Telescope D. Sunglasses E. None of the above",
         "correct_answer": "The question is unanswerable, or none of the above.",
-        "score": "T"
+        "score": "F"
     },
     "Cabbage@sl_1026_10": {
         "prompt": "What shape does the green succulent's leaves create as they are arranged? A. Horizontal lines B. Musical notes C. Weather patterns D. Chemical compounds E. None of the above",
@@ -2922,7 +2922,7 @@
         "timestamp": "2025-10-08T14:57:32.070819",
         "formatted_question": "What type of plant is described in the room? A. Subatomic particle B. Erosion C. Continental drift D. Quantum entanglement E. None of the above",
         "correct_answer": "The question is unanswerable, or none of the above.",
-        "score": "F"
+        "score": "T"
     },
     "Cotton@65": {
         "prompt": "What type of tree is described in the room? A. Internet protocol B. Data encryption C. Software development D. Network architecture E. None of the above",
@@ -3057,7 +3057,7 @@
         "timestamp": "2025-10-08T14:59:20.142683",
         "formatted_question": "What type of pot is the plant potted in? A. Magma B. Atmosphere C. Galaxy D. Quantum E. None of the above",
         "correct_answer": "The question is unanswerable, or none of the above.",
-        "score": "F"
+        "score": "T"
     },
     "Maize@3-26": {
         "prompt": "What is the shape of the leaves on the tall green plant? A. Ocean wave B. Solar eclipse C. Mountain peak D. Spiral galaxy E. None of the above",
