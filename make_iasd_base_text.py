@@ -48,7 +48,9 @@ total_files = len(filenames_to_process)
 for i, filename in enumerate(filenames_to_process, start=1):
     print(f"Processing file {i}/{total_files}: {filename}")
     standard_answer_input_file_path = os.path.join(standard_answer_path, filename)
-    output_file_path = os.path.join(output_folder, filename + ".txt")
+    # Strip extension before adding .txt to avoid double extensions
+    name, ext = os.path.splitext(filename)
+    output_file_path = os.path.join(output_folder, name + ".txt")
 
     # Read the contents of the current file
     with open(standard_answer_input_file_path, 'r') as infile:
