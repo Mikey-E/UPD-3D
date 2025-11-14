@@ -14,8 +14,18 @@ from collections import Counter
 def extract_room_type(line):
     try:
         at_idx = line.index('@')
-        dash_idx = line.index('-', at_idx)
-        return line[at_idx+1:dash_idx]
+        # For GIW format (Category@identifier), extract the category (before @)
+        category = line[:at_idx].strip()
+        if category:
+            # Check if there's a dash after @ (original format: scene@RoomType-number)
+            try:
+                dash_idx = line.index('-', at_idx)
+                # Original format: extract room type between @ and -
+                return line[at_idx+1:dash_idx]
+            except ValueError:
+                # GIW format: return the category before @
+                return category
+        return None
     except ValueError:
         return None
 

@@ -22,11 +22,22 @@ from collections import defaultdict
 
 def extract_room_type(line):
     # Extracts the room type from a line.
-    # For a line like "abcd@roomtype1-number", this returns "roomtype1" (i.e. the substring between '@' and '-').
+    # For GIW format "Category@identifier", returns "Category".
+    # For original format "abcd@roomtype1-number", returns "roomtype1" (substring between '@' and '-').
     try:
         at_idx = line.index('@')
-        dash_idx = line.index('-', at_idx)
-        return line[at_idx+1:dash_idx]
+        # For GIW format (Category@identifier), extract the category (before @)
+        category = line[:at_idx].strip()
+        if category:
+            # Check if there's a dash after @ (original format: scene@RoomType-number)
+            try:
+                dash_idx = line.index('-', at_idx)
+                # Original format: extract room type between @ and -
+                return line[at_idx+1:dash_idx]
+            except ValueError:
+                # GIW format: return the category before @
+                return category
+        return None
     except ValueError:
         return None
 
@@ -76,8 +87,11 @@ def process_file(txt_path, base_dir):
         scene, pc_id = extract_scene_and_pc_id(line)
         if scene is None or pc_id is None:
             continue
-        # Construct the path: base_dir/scene/pc_id/pc_id.ply
-        ply_path = os.path.join(base_dir, scene, pc_id, f"{pc_id}.ply")
+        # Try GIW structure first: base_dir/category/identifier.ply
+        ply_path = os.path.join(base_dir, scene, f"{pc_id}.ply")
+        if not os.path.isfile(ply_path):
+            # Fall back to original nested structure: base_dir/scene/pc_id/pc_id.ply
+            ply_path = os.path.join(base_dir, scene, pc_id, f"{pc_id}.ply")
         pts = get_point_count(ply_path)
         groups[room].append(pts)
     averages = {}
@@ -149,14 +163,22 @@ if __name__ == "__main__":
             rt = extract_room_type(line)
             if rt:
                 scene, pc_id = extract_scene_and_pc_id(line)
-                ply_path = os.path.join(args.base_dir, scene, pc_id, f"{pc_id}.ply")
+                # Try GIW structure first: base_dir/category/identifier.ply
+                ply_path = os.path.join(args.base_dir, scene, f"{pc_id}.ply")
+                if not os.path.isfile(ply_path):
+                    # Fall back to original nested structure: base_dir/scene/pc_id/pc_id.ply
+                    ply_path = os.path.join(args.base_dir, scene, pc_id, f"{pc_id}.ply")
                 pts = get_point_count(ply_path)
                 mapping1[rt].append((idx, line, pts))
         for idx, line in enumerate(file2_lines):
             rt = extract_room_type(line)
             if rt:
                 scene, pc_id = extract_scene_and_pc_id(line)
-                ply_path = os.path.join(args.base_dir, scene, pc_id, f"{pc_id}.ply")
+                # Try GIW structure first: base_dir/category/identifier.ply
+                ply_path = os.path.join(args.base_dir, scene, f"{pc_id}.ply")
+                if not os.path.isfile(ply_path):
+                    # Fall back to original nested structure: base_dir/scene/pc_id/pc_id.ply
+                    ply_path = os.path.join(args.base_dir, scene, pc_id, f"{pc_id}.ply")
                 pts = get_point_count(ply_path)
                 mapping2[rt].append((idx, line, pts))
         
