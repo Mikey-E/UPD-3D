@@ -30,10 +30,12 @@ parser.add_argument('--threedfront-path', default='/project/3dllms/melgin/datase
                    help='Path to 3D-FRONT dataset directory')
 parser.add_argument('--crops3d-path', default='/project/3dllms/melgin/datasets/CEA/Crops3D',
                    help='Path to Crops3D dataset directory')
+parser.add_argument('--giw529-path', default='/project/3dllms/melgin/datasets/GIW/giw529subcat',
+                   help='Path to GIW529 dataset directory')
 args, _ = parser.parse_known_args()
 
 def on_dataset_change_wrapper(dataset_name, user):
-    return on_dataset_change(dataset_name, args.threedfront_path, args.crops3d_path, user)
+    return on_dataset_change(dataset_name, args.threedfront_path, args.crops3d_path, args.giw529_path, user)
 
 def load_questions(dataset_name, current_file):
     """Load questions for the current point cloud"""
@@ -45,6 +47,8 @@ def load_questions(dataset_name, current_file):
         upd_dataset = "3D-FRONT"
     elif dataset_name == "Crops3D_test":
         upd_dataset = "Crops3D_gpt-5-nano"
+    elif dataset_name == "GIW529_test":
+        upd_dataset = "GIW529_gpt-5-nano"
     else:
         return ["Invalid dataset"] * 12
     
@@ -62,6 +66,12 @@ def load_questions(dataset_name, current_file):
         identifier = os.path.basename(current_dir)
         scene = basename[:-4] if basename.endswith('.ply') else basename
         identifier_scene = f"{identifier}@{scene}"
+    elif dataset_name == "GIW529_test":
+        # Path: /path/giw529subcat/category/identifier.ply
+        # PCL list format: category@identifier
+        category = os.path.basename(current_dir)
+        identifier = basename[:-4] if basename.endswith('.ply') else basename
+        identifier_scene = f"{category}@{identifier}"
     else:
         return ["Invalid dataset"] * 12
     
@@ -1029,7 +1039,7 @@ def update_progress_display(dataset_name):
     """Update progress display when dataset selection changes"""
     return get_progress_info(dataset_name)
 
-def on_dataset_change(dataset_name, threedfront_path, crops3d_path, user=None):
+def on_dataset_change(dataset_name, threedfront_path, crops3d_path, giw529_path, user=None):
     """Handle dataset selection change"""
     # Create directory and update progress
     create_dataset_directory(dataset_name)
@@ -1040,7 +1050,7 @@ def on_dataset_change(dataset_name, threedfront_path, crops3d_path, user=None):
         print(f"🧹 Cleaned up {removed_count} stale lock(s)")
     
     # Load next point cloud for this dataset
-    next_cloud_path, cloud_info = get_next_point_cloud(dataset_name, threedfront_path, crops3d_path)
+    next_cloud_path, cloud_info = get_next_point_cloud(dataset_name, threedfront_path, crops3d_path, giw529_path)
     
     if next_cloud_path:
         # Create lock for this point cloud if user is selected
@@ -1065,7 +1075,7 @@ def on_dataset_change(dataset_name, threedfront_path, crops3d_path, user=None):
         empty_questions = ["No questions available"] * 12
         return update_progress_display(dataset_name), placeholder, "No more point clouds available", None, dataset_name, "No instance available", *empty_questions
 
-def get_next_point_cloud(dataset_name, threedfront_path, crops3d_path):
+def get_next_point_cloud(dataset_name, threedfront_path, crops3d_path, giw529_path):
     """Get the next point cloud that needs annotation
     
     Skips point clouds that are:
@@ -1124,6 +1134,10 @@ def get_next_point_cloud(dataset_name, threedfront_path, crops3d_path):
                     ply_path = os.path.join(threedfront_path, identifier, scene, f"{scene}.ply")
                 elif dataset_name == "Crops3D_test":
                     ply_path = os.path.join(crops3d_path, identifier, f"{scene}.ply")
+                elif dataset_name == "GIW529_test":
+                    # For GIW529: identifier is category, scene is the actual identifier
+                    # PCL format: category@identifier -> path: giw529subcat/category/identifier.ply
+                    ply_path = os.path.join(giw529_path, identifier, f"{scene}.ply")
                 else:
                     continue
                 
@@ -1155,6 +1169,11 @@ def extract_identifier_scene(file_path, dataset_name):
         identifier = os.path.basename(current_dir)
         scene = basename[:-4] if basename.endswith('.ply') else basename
         return f"{identifier}@{scene}"
+    elif dataset_name == "GIW529_test":
+        # Path: /path/giw529subcat/category/identifier.ply
+        category = os.path.basename(current_dir)
+        identifier = basename[:-4] if basename.endswith('.ply') else basename
+        return f"{category}@{identifier}"
     else:
         return None
 
@@ -1338,7 +1357,7 @@ with gr.Blocks() as demo:
             
             # Dataset selection
             dataset_selection = gr.Radio(
-                choices=["3D-FRONT_test", "Crops3D_test"],
+                choices=["3D-FRONT_test", "Crops3D_test", "GIW529_test"],
                 label="📊 Dataset",
                 value="3D-FRONT_test"
             )
@@ -1481,7 +1500,7 @@ with gr.Blocks() as demo:
         dataset = "3D-FRONT_test"
         
         # Load the first point cloud for this user and dataset
-        result = on_dataset_change(dataset, args.threedfront_path, args.crops3d_path, selected_user)
+        result = on_dataset_change(dataset, args.threedfront_path, args.crops3d_path, args.giw529_path, selected_user)
         # result contains: progress_display, viewer_output, status_output, current_file, current_dataset, file_path_display, *questions (12)
         print(f"DEBUG: on_dataset_change returned {len(result)} items")
         
@@ -1558,7 +1577,7 @@ with gr.Blocks() as demo:
             return [message] + list(answers) + [file_path, dataset_name, current_instance, "<p style='text-align: center; padding: 60px; background: #f5f5f5;'>Error</p>", file_path, get_progress_info(dataset_name)] + questions
         
         # Success! Load next point cloud and clear answers
-        next_cloud_path, cloud_info = get_next_point_cloud(dataset_name, args.threedfront_path, args.crops3d_path)
+        next_cloud_path, cloud_info = get_next_point_cloud(dataset_name, args.threedfront_path, args.crops3d_path, args.giw529_path)
         
         if next_cloud_path:
             # Create lock for the new point cloud
