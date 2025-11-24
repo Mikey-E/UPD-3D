@@ -10,6 +10,9 @@
 #SBATCH --mem=16G
 #SBATCH --time=7-00:00:00
 
+# Optional sleep duration in seconds (default: 0)
+SLEEP_SECONDS=${SLEEP_SECONDS:-0}
+
 # Ensure OPENAI_API_KEY is set; if missing, try sourcing export script
 if [ -z "$OPENAI_API_KEY" ]; then
     if [ -f ./export_openai_api_key.sh ]; then
@@ -47,5 +50,12 @@ else
 fi
 # Now the activation should work
 conda activate upd-3d
+
+# Sleep before starting work (for staggering jobs)
+if [ "$SLEEP_SECONDS" -gt 0 ]; then
+    echo "Sleeping for $SLEEP_SECONDS seconds before starting..."
+    sleep "$SLEEP_SECONDS"
+    echo "Sleep completed. Starting work now."
+fi
 
 python score_model_responses.py "$@"
