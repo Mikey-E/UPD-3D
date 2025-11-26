@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "Juices@04_04_2024_W2_C_Juice_P_2",
+  "dataset": "GIW529_test",
+  "annotated_by": "User 4",
+  "timestamp": "2025-11-17T12:17:54.546231",
+  "file_path": "/project/3dllms/melgin/datasets/GIW/giw529subcat/Juices/04_04_2024_W2_C_Juice_P_2.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What can be observed about the beverage containers in terms of their appearance?\n\nA. They all have clear containers with no labels\nB. They are all made of metal\nC. They are exclusively plastic containers\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What can be observed about the beverage containers in terms of their appearance?\n\nA. They all have clear containers with no labels\nB. They are all made of metal\nC. They are exclusively plastic containers\nD. None of the above",
+      "response": "D"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What can be observed about the beverage containers in terms of their appearance?\n\nA. They all have clear containers with no labels\nB. They are all made of metal\nC. They are exclusively plastic containers",
+      "response": "NONE"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What can be observed about the beverage containers in terms of their appearance?\n\nA. Gravity effects on celestial bodies\nB. Chemical reactions in cooking\nC. Historical events of the 20th century\nD. Phases of the moon\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What can be observed about the beverage containers in terms of their appearance?\n\nA. Gravity effects on celestial bodies\nB. Chemical reactions in cooking\nC. Historical events of the 20th century\nD. Phases of the moon\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What can be observed about the beverage containers in terms of their appearance?\n\nA. Gravity effects on celestial bodies\nB. Chemical reactions in cooking\nC. Historical events of the 20th century\nD. Phases of the moon",
+      "response": "NONE"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What shape are the chairs in the scene?\n\nA. Square\nB. Circular\nC. Triangular\nD. Oval\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What shape are the chairs in the scene?\n\nA. Square\nB. Circular\nC. Triangular\nD. Oval\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What shape are the chairs in the scene?\n\nA. Square\nB. Circular\nC. Triangular\nD. Oval",
+      "response": "NONE"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What type of furniture is in the room?",
+      "response": "N/A"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What type of furniture is in the room?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What can be observed about the beverage containers in terms of their appearance?\n\nA. They feature bright, fruit-themed labels and colorful caps\nB. They all have clear containers with no labels\nC. They are all made of metal\nD. They are exclusively plastic containers",
+      "response": "A"
+    }
+  ]
+}

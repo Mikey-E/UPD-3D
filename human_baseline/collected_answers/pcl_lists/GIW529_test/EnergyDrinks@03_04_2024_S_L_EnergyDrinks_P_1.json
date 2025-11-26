@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "EnergyDrinks@03_04_2024_S_L_EnergyDrinks_P_1",
+  "dataset": "GIW529_test",
+  "annotated_by": "User 3",
+  "timestamp": "2025-11-17T12:14:07.932506",
+  "file_path": "/project/3dllms/melgin/datasets/GIW/giw529subcat/EnergyDrinks/03_04_2024_S_L_EnergyDrinks_P_1.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What is the size of the jugs described?\n\nA. Pint-sized\nB. Quart-sized\nC. Half-gallon sized\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What is the size of the jugs described?\n\nA. Pint-sized\nB. Quart-sized\nC. Half-gallon sized\nD. None of the above",
+      "response": "D"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What is the size of the jugs described?\n\nA. Pint-sized\nB. Quart-sized\nC. Half-gallon sized",
+      "response": "None"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What is the size of the jugs described?\n\nA. Quadratic equation\nB. Newton's third law\nC. Photosynthesis process\nD. Quantum mechanics theory\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What is the size of the jugs described?\n\nA. Quadratic equation\nB. Newton's third law\nC. Photosynthesis process\nD. Quantum mechanics theory\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What is the size of the jugs described?\n\nA. Quadratic equation\nB. Newton's third law\nC. Photosynthesis process\nD. Quantum mechanics theory",
+      "response": "None"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What shape is the table in the scene?\n\nA. Oval\nB. Rectangular\nC. Square\nD. Circular\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What shape is the table in the scene?\n\nA. Oval\nB. Rectangular\nC. Square\nD. Circular\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What shape is the table in the scene?\n\nA. Oval\nB. Rectangular\nC. Square\nD. Circular",
+      "response": "None"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What type of metal utensils are located on the countertop?",
+      "response": "N/A"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What type of metal utensils are located on the countertop?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What is the size of the jugs described?\n\nA. Pint-sized\nB. Quart-sized\nC. Half-gallon sized\nD. Gallon-sized",
+      "response": "D"
+    }
+  ]
+}

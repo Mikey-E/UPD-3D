@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "Coffee@03_21_2024_W_L_Coffee2_P_2",
+  "dataset": "GIW529_test",
+  "annotated_by": "User 3",
+  "timestamp": "2025-11-17T12:12:28.489933",
+  "file_path": "/project/3dllms/melgin/datasets/GIW/giw529subcat/Coffee/03_21_2024_W_L_Coffee2_P_2.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What colors are the coffee canisters and jars described in the room?\n\nA. Red, Green, Blue, Orange, and Yellow\nB. Blue, Green, Brown, Orange, and Yellow\nC. Red, Green, Brown, Purple, and Yellow\nIf none of the above answers are correct, answer: 'F'",
+      "response": "C"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What colors are the coffee canisters and jars described in the room?\n\nA. Red, Green, Blue, Orange, and Yellow\nB. Blue, Green, Brown, Orange, and Yellow\nC. Red, Green, Brown, Purple, and Yellow\nD. None of the above",
+      "response": "C"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What colors are the coffee canisters and jars described in the room?\n\nA. Red, Green, Blue, Orange, and Yellow\nB. Blue, Green, Brown, Orange, and Yellow\nC. Red, Green, Brown, Purple, and Yellow",
+      "response": "C"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What colors are the coffee canisters and jars described in the room?\n\nA. Blue whale\nB. Golden retriever\nC. Desert cactus\nD. Tropical rainforest\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What colors are the coffee canisters and jars described in the room?\n\nA. Blue whale\nB. Golden retriever\nC. Desert cactus\nD. Tropical rainforest\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What colors are the coffee canisters and jars described in the room?\n\nA. Blue whale\nB. Golden retriever\nC. Desert cactus\nD. Tropical rainforest",
+      "response": "None"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What is the shape of the table?\n\nA. Round\nB. Square\nC. Rectangular\nD. Oval\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What is the shape of the table?\n\nA. Round\nB. Square\nC. Rectangular\nD. Oval\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What is the shape of the table?\n\nA. Round\nB. Square\nC. Rectangular\nD. Oval",
+      "response": "None"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What type of fruit is displayed on the table?",
+      "response": "N/A"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What type of fruit is displayed on the table?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What colors are the coffee canisters and jars described in the room?\n\nA. Red, Green, Blue, Orange, and Yellow\nB. Blue, Green, Brown, Orange, and Yellow\nC. Red, Green, Brown, Orange, and Yellow\nD. Red, Green, Brown, Purple, and Yellow",
+      "response": "D"
+    }
+  ]
+}

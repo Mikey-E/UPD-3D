@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "Apples@03_21_2024_W_L_Apples1_F_1",
+  "dataset": "GIW529_test",
+  "annotated_by": "User 3",
+  "timestamp": "2025-11-17T12:02:16.642093",
+  "file_path": "/project/3dllms/melgin/datasets/GIW/giw529subcat/Apples/03_21_2024_W_L_Apples1_F_1.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What color are the stems of some of the apples in the pile?\n\nA. Red\nB. Yellow\nC. Brown\nIf none of the above answers are correct, answer: 'F'",
+      "response": "C"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What color are the stems of some of the apples in the pile?\n\nA. Red\nB. Yellow\nC. Brown\nD. None of the above",
+      "response": "C"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What color are the stems of some of the apples in the pile?\n\nA. Red\nB. Yellow\nC. Brown",
+      "response": "C"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What color are the stems of some of the apples in the pile?\n\nA. Plum\nB. Grape\nC. Banana\nD. Orange\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What color are the stems of some of the apples in the pile?\n\nA. Plum\nB. Grape\nC. Banana\nD. Orange\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What color are the stems of some of the apples in the pile?\n\nA. Plum\nB. Grape\nC. Banana\nD. Orange",
+      "response": "None"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What type of paint is used for the walls?\n\nA. Matte Finish\nB. Glossy White\nC. Pastel Blue\nD. Eggshell Beige\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What type of paint is used for the walls?\n\nA. Matte Finish\nB. Glossy White\nC. Pastel Blue\nD. Eggshell Beige\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What type of paint is used for the walls?\n\nA. Matte Finish\nB. Glossy White\nC. Pastel Blue\nD. Eggshell Beige",
+      "response": "None"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What flavor does the chocolate cake have?",
+      "response": "N/A"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What flavor does the chocolate cake have?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What color are the stems of some of the apples in the pile?\n\nA. Red\nB. Yellow\nC. Brown\nD. Green",
+      "response": "C"
+    }
+  ]
+}

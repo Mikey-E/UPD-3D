@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "Coffee@03_21_2024_W_L_Coffee1_P_1",
+  "dataset": "GIW529_test",
+  "annotated_by": "User 3",
+  "timestamp": "2025-11-17T12:11:35.734090",
+  "file_path": "/project/3dllms/melgin/datasets/GIW/giw529subcat/Coffee/03_21_2024_W_L_Coffee1_P_1.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What colors are the packaging of the coffee boxes displayed in the room?\n\nA. Turquoise, Teal, Mauve, Coral\nB. Black, White, Grey, Pink\nC. Purple, Gold, Silver, Bronze\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What colors are the packaging of the coffee boxes displayed in the room?\n\nA. Turquoise, Teal, Mauve, Coral\nB. Black, White, Grey, Pink\nC. Purple, Gold, Silver, Bronze\nD. None of the above",
+      "response": "D"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What colors are the packaging of the coffee boxes displayed in the room?\n\nA. Turquoise, Teal, Mauve, Coral\nB. Black, White, Grey, Pink\nC. Purple, Gold, Silver, Bronze",
+      "response": "None"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What colors are the packaging of the coffee boxes displayed in the room?\n\nA. Main Sequence\nB. Black Hole\nC. Red Giant\nD. Supernova\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What colors are the packaging of the coffee boxes displayed in the room?\n\nA. Main Sequence\nB. Black Hole\nC. Red Giant\nD. Supernova\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What colors are the packaging of the coffee boxes displayed in the room?\n\nA. Main Sequence\nB. Black Hole\nC. Red Giant\nD. Supernova",
+      "response": "None"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What shape is the dining table in the scene?\n\nA. Round\nB. Oval\nC. Triangular\nD. Square\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What shape is the dining table in the scene?\n\nA. Round\nB. Oval\nC. Triangular\nD. Square\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What shape is the dining table in the scene?\n\nA. Round\nB. Oval\nC. Triangular\nD. Square",
+      "response": "None"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What type of furniture is used for sitting in the scene?",
+      "response": "N/A"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What type of furniture is used for sitting in the scene?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What colors are the packaging of the coffee boxes displayed in the room?\n\nA. Turquoise, Teal, Mauve, Coral\nB. Black, White, Grey, Pink\nC. Purple, Gold, Silver, Bronze\nD. Green, Brown, Blue, Orange, Yellow, Red",
+      "response": "D"
+    }
+  ]
+}

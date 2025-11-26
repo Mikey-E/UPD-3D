@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "Bananas@03_04_2024_S_L_Bananas_F_2",
+  "dataset": "GIW529_test",
+  "annotated_by": "User 3",
+  "timestamp": "2025-11-17T12:04:11.584702",
+  "file_path": "/project/3dllms/melgin/datasets/GIW/giw529subcat/Bananas/03_04_2024_S_L_Bananas_F_2.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What color are the bananas described in the assortment of fresh produce?\n\nA. Red\nB. Orange-tan\nC. White\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What color are the bananas described in the assortment of fresh produce?\n\nA. Red\nB. Orange-tan\nC. White\nD. None of the above",
+      "response": "D"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What color are the bananas described in the assortment of fresh produce?\n\nA. Red\nB. Orange-tan\nC. White",
+      "response": "None"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What color are the bananas described in the assortment of fresh produce?\n\nA. Marching band\nB. Algebraic expression\nC. Solar system\nD. Medieval literature\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What color are the bananas described in the assortment of fresh produce?\n\nA. Marching band\nB. Algebraic expression\nC. Solar system\nD. Medieval literature\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What color are the bananas described in the assortment of fresh produce?\n\nA. Marching band\nB. Algebraic expression\nC. Solar system\nD. Medieval literature",
+      "response": "None"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What type of vehicle is parked nearby?\n\nA. Sedan\nB. Pickup truck\nC. Motorcycle\nD. Minivan\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What type of vehicle is parked nearby?\n\nA. Sedan\nB. Pickup truck\nC. Motorcycle\nD. Minivan\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What type of vehicle is parked nearby?\n\nA. Sedan\nB. Pickup truck\nC. Motorcycle\nD. Minivan",
+      "response": "None"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What type of bread is placed on the table?",
+      "response": "N/A"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What type of bread is placed on the table?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What color are the bananas described in the assortment of fresh produce?\n\nA. Red\nB. Orange-tan\nC. Yellow-green\nD. White",
+      "response": "C"
+    }
+  ]
+}

@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "Spices@04_19_2024_W_F_Spices_P_2",
+  "dataset": "GIW529_test",
+  "annotated_by": "User 4",
+  "timestamp": "2025-11-17T11:51:26.573620",
+  "file_path": "/project/3dllms/melgin/datasets/GIW/giw529subcat/Spices/04_19_2024_W_F_Spices_P_2.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What types of containers are included on the store shelf according to the description?\n\nA. Only rectangular beverage cartons and glass bottles\nB. Only glass spice jars and aerosol spray cans\nC. Only cylindrical paint cans and aerosol spray cans\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What types of containers are included on the store shelf according to the description?\n\nA. Only rectangular beverage cartons and glass bottles\nB. Only glass spice jars and aerosol spray cans\nC. Only cylindrical paint cans and aerosol spray cans\nD. None of the above",
+      "response": "D"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What types of containers are included on the store shelf according to the description?\n\nA. Only rectangular beverage cartons and glass bottles\nB. Only glass spice jars and aerosol spray cans\nC. Only cylindrical paint cans and aerosol spray cans",
+      "response": "NONE"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What types of containers are included on the store shelf according to the description?\n\nA. Melodies for relaxation\nB. Seasons of the year\nC. Animal habitats\nD. Types of clouds\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What types of containers are included on the store shelf according to the description?\n\nA. Melodies for relaxation\nB. Seasons of the year\nC. Animal habitats\nD. Types of clouds\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What types of containers are included on the store shelf according to the description?\n\nA. Melodies for relaxation\nB. Seasons of the year\nC. Animal habitats\nD. Types of clouds",
+      "response": "NONE"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What style of chair is located beside the containers?\n\nA. Recliner\nB. Folding\nC. Barstool\nD. Rocking\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What style of chair is located beside the containers?\n\nA. Recliner\nB. Folding\nC. Barstool\nD. Rocking\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What style of chair is located beside the containers?\n\nA. Recliner\nB. Folding\nC. Barstool\nD. Rocking",
+      "response": "NONE"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What type of electronic device is located in the store?",
+      "response": "N/A"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What type of electronic device is located in the store?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What types of containers are included on the store shelf according to the description?\n\nA. Only rectangular beverage cartons and glass bottles\nB. An assortment including beverage cartons, glass bottles, spice jars, aerosol cans, and paint cans\nC. Only glass spice jars and aerosol spray cans\nD. Only cylindrical paint cans and aerosol spray cans",
+      "response": "B"
+    }
+  ]
+}

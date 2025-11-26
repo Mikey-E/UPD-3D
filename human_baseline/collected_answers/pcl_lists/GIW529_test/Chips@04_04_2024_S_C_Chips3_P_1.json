@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "Chips@04_04_2024_S_C_Chips3_P_1",
+  "dataset": "GIW529_test",
+  "annotated_by": "User 3",
+  "timestamp": "2025-11-17T12:11:07.707281",
+  "file_path": "/project/3dllms/melgin/datasets/GIW/giw529subcat/Chips/04_04_2024_S_C_Chips3_P_1.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What color are the bags of Tostitos tortilla chips?\n\nA. Green\nB. Red\nC. Yellow\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What color are the bags of Tostitos tortilla chips?\n\nA. Green\nB. Red\nC. Yellow\nD. None of the above",
+      "response": "D"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What color are the bags of Tostitos tortilla chips?\n\nA. Green\nB. Red\nC. Yellow",
+      "response": "None"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What color are the bags of Tostitos tortilla chips?\n\nA. Elephant\nB. Raspberry\nC. Cactus\nD. Marble\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What color are the bags of Tostitos tortilla chips?\n\nA. Elephant\nB. Raspberry\nC. Cactus\nD. Marble\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What color are the bags of Tostitos tortilla chips?\n\nA. Elephant\nB. Raspberry\nC. Cactus\nD. Marble",
+      "response": "None"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What type of plant is used for the centerpiece on the table?\n\nA. Orchid\nB. Fern\nC. Bonsai\nD. Cactus\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What type of plant is used for the centerpiece on the table?\n\nA. Orchid\nB. Fern\nC. Bonsai\nD. Cactus\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What type of plant is used for the centerpiece on the table?\n\nA. Orchid\nB. Fern\nC. Bonsai\nD. Cactus",
+      "response": "None"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What style of artwork is displayed on the walls?",
+      "response": "N/A"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What style of artwork is displayed on the walls?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What color are the bags of Tostitos tortilla chips?\n\nA. Blue and purple\nB. Green\nC. Red\nD. Yellow",
+      "response": "A"
+    }
+  ]
+}

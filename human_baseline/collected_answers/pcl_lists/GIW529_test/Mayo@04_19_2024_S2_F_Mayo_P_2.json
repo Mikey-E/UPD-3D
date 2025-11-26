@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "Mayo@04_19_2024_S2_F_Mayo_P_2",
+  "dataset": "GIW529_test",
+  "annotated_by": "User 5",
+  "timestamp": "2025-11-17T09:21:27.283699",
+  "file_path": "/project/3dllms/melgin/datasets/GIW/giw529subcat/Mayo/04_19_2024_S2_F_Mayo_P_2.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What colors are the lids of the mayonnaise jars on the shelf?\n\nA. Red\nB. Yellow\nC. Green\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What colors are the lids of the mayonnaise jars on the shelf?\n\nA. Red\nB. Yellow\nC. Green\nD. None of the above",
+      "response": "d"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What colors are the lids of the mayonnaise jars on the shelf?\n\nA. Red\nB. Yellow\nC. Green",
+      "response": "none"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What colors are the lids of the mayonnaise jars on the shelf?\n\nA. Jupiter\nB. Quasar\nC. Neutron star\nD. Black hole\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What colors are the lids of the mayonnaise jars on the shelf?\n\nA. Jupiter\nB. Quasar\nC. Neutron star\nD. Black hole\nE. None of the above",
+      "response": "e"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What colors are the lids of the mayonnaise jars on the shelf?\n\nA. Jupiter\nB. Quasar\nC. Neutron star\nD. Black hole",
+      "response": "none"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What type of fruit basket is displayed on the shelf?\n\nA. Apple basket\nB. Banana basket\nC. Grape basket\nD. Orange basket\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What type of fruit basket is displayed on the shelf?\n\nA. Apple basket\nB. Banana basket\nC. Grape basket\nD. Orange basket\nE. None of the above",
+      "response": "e"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What type of fruit basket is displayed on the shelf?\n\nA. Apple basket\nB. Banana basket\nC. Grape basket\nD. Orange basket",
+      "response": "none"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What type of fruit bowl is placed on the table?",
+      "response": "none"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What type of fruit bowl is placed on the table?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What colors are the lids of the mayonnaise jars on the shelf?\n\nA. Red\nB. Blue\nC. Yellow\nD. Green",
+      "response": "none"
+    }
+  ]
+}

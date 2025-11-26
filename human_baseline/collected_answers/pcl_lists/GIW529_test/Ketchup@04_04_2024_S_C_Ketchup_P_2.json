@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "Ketchup@04_04_2024_S_C_Ketchup_P_2",
+  "dataset": "GIW529_test",
+  "annotated_by": "User 3",
+  "timestamp": "2025-11-17T12:18:15.805285",
+  "file_path": "/project/3dllms/melgin/datasets/GIW/giw529subcat/Ketchup/04_04_2024_S_C_Ketchup_P_2.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What is the color of the cap on the large pale-yellow Dijon mustard bottle?\n\nA. White\nB. Blue\nC. Brown\nIf none of the above answers are correct, answer: 'F'",
+      "response": "A"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What is the color of the cap on the large pale-yellow Dijon mustard bottle?\n\nA. White\nB. Blue\nC. Brown\nD. None of the above",
+      "response": "A"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What is the color of the cap on the large pale-yellow Dijon mustard bottle?\n\nA. White\nB. Blue\nC. Brown",
+      "response": "A"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What is the color of the cap on the large pale-yellow Dijon mustard bottle?\n\nA. Octopus\nB. Kettle\nC. Granola\nD. Telescope\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What is the color of the cap on the large pale-yellow Dijon mustard bottle?\n\nA. Octopus\nB. Kettle\nC. Granola\nD. Telescope\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What is the color of the cap on the large pale-yellow Dijon mustard bottle?\n\nA. Octopus\nB. Kettle\nC. Granola\nD. Telescope",
+      "response": "None"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What flavor of ice cream is included in the scene?\n\nA. Vanilla\nB. Chocolate\nC. Strawberry\nD. Mint Chocolate Chip\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What flavor of ice cream is included in the scene?\n\nA. Vanilla\nB. Chocolate\nC. Strawberry\nD. Mint Chocolate Chip\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What flavor of ice cream is included in the scene?\n\nA. Vanilla\nB. Chocolate\nC. Strawberry\nD. Mint Chocolate Chip",
+      "response": "None"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What type of ceramic bowl is used for serving soup?",
+      "response": "N/A"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What type of ceramic bowl is used for serving soup?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What is the color of the cap on the large pale-yellow Dijon mustard bottle?\n\nA. White\nB. Blue\nC. Black\nD. Brown",
+      "response": "A"
+    }
+  ]
+}

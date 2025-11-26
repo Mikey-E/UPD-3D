@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "Avacados@04_04_2024_W_C_Avocados1_F_1",
+  "dataset": "GIW529_test",
+  "annotated_by": "User 3",
+  "timestamp": "2025-11-17T12:02:58.449882",
+  "file_path": "/project/3dllms/melgin/datasets/GIW/giw529subcat/Avacados/04_04_2024_W_C_Avocados1_F_1.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What color is the skin of the avocados in the pile?\n\nA. Red\nB. Yellow\nC. Light green\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What color is the skin of the avocados in the pile?\n\nA. Red\nB. Yellow\nC. Light green\nD. None of the above",
+      "response": "D"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What color is the skin of the avocados in the pile?\n\nA. Red\nB. Yellow\nC. Light green",
+      "response": "None"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What color is the skin of the avocados in the pile?\n\nA. Mountain\nB. River\nC. Desert\nD. Ocean\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What color is the skin of the avocados in the pile?\n\nA. Mountain\nB. River\nC. Desert\nD. Ocean\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What color is the skin of the avocados in the pile?\n\nA. Mountain\nB. River\nC. Desert\nD. Ocean",
+      "response": "None"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What type of chair is located next to the pile?\n\nA. Armchair\nB. Recliner\nC. Dining chair\nD. Folding chair\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What type of chair is located next to the pile?\n\nA. Armchair\nB. Recliner\nC. Dining chair\nD. Folding chair\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What type of chair is located next to the pile?\n\nA. Armchair\nB. Recliner\nC. Dining chair\nD. Folding chair",
+      "response": "None"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What type of fish is swimming in the room?",
+      "response": "N/A"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What type of fish is swimming in the room?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What color is the skin of the avocados in the pile?\n\nA. Red\nB. Yellow\nC. Light green\nD. Dark green to nearly black",
+      "response": "D"
+    }
+  ]
+}

@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "Apples@03_21_2024_W_L_Apples2_F_2",
+  "dataset": "GIW529_test",
+  "annotated_by": "User 4",
+  "timestamp": "2025-11-17T12:01:14.672425",
+  "file_path": "/project/3dllms/melgin/datasets/GIW/giw529subcat/Apples/03_21_2024_W_L_Apples2_F_2.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What color are the majority of the apples described in the room?\n\nA. Green\nB. Yellow\nC. Blue\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What color are the majority of the apples described in the room?\n\nA. Green\nB. Yellow\nC. Blue\nD. None of the above",
+      "response": "D"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What color are the majority of the apples described in the room?\n\nA. Green\nB. Yellow\nC. Blue",
+      "response": "NONE"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What color are the majority of the apples described in the room?\n\nA. Ocean Blue\nB. Fiery Red\nC. Midnight Black\nD. Neon Yellow\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What color are the majority of the apples described in the room?\n\nA. Ocean Blue\nB. Fiery Red\nC. Midnight Black\nD. Neon Yellow\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What color are the majority of the apples described in the room?\n\nA. Ocean Blue\nB. Fiery Red\nC. Midnight Black\nD. Neon Yellow",
+      "response": "NONE"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What type of flower is blooming in the scene?\n\nA. Rose\nB. Tulip\nC. Daisy\nD. Sunflower\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What type of flower is blooming in the scene?\n\nA. Rose\nB. Tulip\nC. Daisy\nD. Sunflower\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What type of flower is blooming in the scene?\n\nA. Rose\nB. Tulip\nC. Daisy\nD. Sunflower",
+      "response": "NONE"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What type of cereal is placed on the shelf?",
+      "response": "N/A"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What type of cereal is placed on the shelf?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What color are the majority of the apples described in the room?\n\nA. Green\nB. Yellow\nC. Red\nD. Blue",
+      "response": "C"
+    }
+  ]
+}

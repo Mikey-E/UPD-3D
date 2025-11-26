@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "Oil@04_18_2024_W_F_Oil_P_3",
+  "dataset": "GIW529_test",
+  "annotated_by": "User 5",
+  "timestamp": "2025-11-17T09:26:32.088484",
+  "file_path": "/project/3dllms/melgin/datasets/GIW/giw529subcat/Oil/04_18_2024_W_F_Oil_P_3.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What color are the screw-on caps of the bottles filled with cooking oil?\n\nA. Red\nB. Yellow\nC. Green\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What color are the screw-on caps of the bottles filled with cooking oil?\n\nA. Red\nB. Yellow\nC. Green\nD. None of the above",
+      "response": "d"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What color are the screw-on caps of the bottles filled with cooking oil?\n\nA. Red\nB. Yellow\nC. Green",
+      "response": "none"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What color are the screw-on caps of the bottles filled with cooking oil?\n\nA. Python\nB. Quantum\nC. Atmosphere\nD. Renaissance\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What color are the screw-on caps of the bottles filled with cooking oil?\n\nA. Python\nB. Quantum\nC. Atmosphere\nD. Renaissance\nE. None of the above",
+      "response": "e"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What color are the screw-on caps of the bottles filled with cooking oil?\n\nA. Python\nB. Quantum\nC. Atmosphere\nD. Renaissance",
+      "response": "none"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What type of vehicle is parked nearby?\n\nA. Sedan\nB. Truck\nC. Motorcycle\nD. Bicycle\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What type of vehicle is parked nearby?\n\nA. Sedan\nB. Truck\nC. Motorcycle\nD. Bicycle\nE. None of the above",
+      "response": "e"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What type of vehicle is parked nearby?\n\nA. Sedan\nB. Truck\nC. Motorcycle\nD. Bicycle",
+      "response": "none"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What type of metal is used for the cooking utensils?",
+      "response": "none"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What type of metal is used for the cooking utensils?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What color are the screw-on caps of the bottles filled with cooking oil?\n\nA. Red\nB. Blue\nC. Yellow\nD. Green",
+      "response": "b"
+    }
+  ]
+}

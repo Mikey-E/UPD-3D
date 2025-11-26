@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "Avacados@04_04_2024_W2_C_AvacadosLong1_F_1",
+  "dataset": "GIW529_test",
+  "annotated_by": "User 4",
+  "timestamp": "2025-11-17T12:02:19.919746",
+  "file_path": "/project/3dllms/melgin/datasets/GIW/giw529subcat/Avacados/04_04_2024_W2_C_AvacadosLong1_F_1.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What color are the cucumbers in the scene?\n\nA. Light green\nB. Yellow\nC. Red\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What color are the cucumbers in the scene?\n\nA. Light green\nB. Yellow\nC. Red\nD. None of the above",
+      "response": "D"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What color are the cucumbers in the scene?\n\nA. Light green\nB. Yellow\nC. Red",
+      "response": "NONE"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What color are the cucumbers in the scene?\n\nA. Symphonic\nB. Melodic\nC. Rhythmic\nD. Harmonic\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What color are the cucumbers in the scene?\n\nA. Symphonic\nB. Melodic\nC. Rhythmic\nD. Harmonic\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What color are the cucumbers in the scene?\n\nA. Symphonic\nB. Melodic\nC. Rhythmic\nD. Harmonic",
+      "response": "NONE"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What type of chair is featured in the scene?\n\nA. Recliner\nB. Dining chair\nC. Office chair\nD. Rocking chair\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What type of chair is featured in the scene?\n\nA. Recliner\nB. Dining chair\nC. Office chair\nD. Rocking chair\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What type of chair is featured in the scene?\n\nA. Recliner\nB. Dining chair\nC. Office chair\nD. Rocking chair",
+      "response": "NONE"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What pattern is on the rug?",
+      "response": "N/A"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What pattern is on the rug?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What color are the cucumbers in the scene?\n\nA. Light green\nB. Yellow\nC. Dark green\nD. Red",
+      "response": "C"
+    }
+  ]
+}

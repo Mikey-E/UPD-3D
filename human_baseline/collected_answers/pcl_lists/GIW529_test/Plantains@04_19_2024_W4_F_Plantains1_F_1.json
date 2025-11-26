@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "Plantains@04_19_2024_W4_F_Plantains1_F_1",
+  "dataset": "GIW529_test",
+  "annotated_by": "User 5",
+  "timestamp": "2025-11-17T09:38:10.865278",
+  "file_path": "/project/3dllms/melgin/datasets/GIW/giw529subcat/Plantains/04_19_2024_W4_F_Plantains1_F_1.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What is the typical appearance of bananas as described?\n\nA. They are round and red\nB. They are large and purple\nC. They are flat and green\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What is the typical appearance of bananas as described?\n\nA. They are round and red\nB. They are large and purple\nC. They are flat and green\nD. None of the above",
+      "response": "d"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What is the typical appearance of bananas as described?\n\nA. They are round and red\nB. They are large and purple\nC. They are flat and green",
+      "response": "none"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What is the typical appearance of bananas as described?\n\nA. Frosty peaks\nB. Golden deserts\nC. Lush valleys\nD. Deep oceans\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What is the typical appearance of bananas as described?\n\nA. Frosty peaks\nB. Golden deserts\nC. Lush valleys\nD. Deep oceans\nE. None of the above",
+      "response": "e"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What is the typical appearance of bananas as described?\n\nA. Frosty peaks\nB. Golden deserts\nC. Lush valleys\nD. Deep oceans",
+      "response": "none"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What type of chair is located next to the table?\n\nA. Lounge chair\nB. Rocking chair\nC. Dining chair\nD. Armchair\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What type of chair is located next to the table?\n\nA. Lounge chair\nB. Rocking chair\nC. Dining chair\nD. Armchair\nE. None of the above",
+      "response": "e"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What type of chair is located next to the table?\n\nA. Lounge chair\nB. Rocking chair\nC. Dining chair\nD. Armchair",
+      "response": "none"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What type of citrus fruit is placed on the shelf?",
+      "response": "none"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What type of citrus fruit is placed on the shelf?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What is the typical appearance of bananas as described?\n\nA. They are round and red\nB. They are large and purple\nC. They are curved and yellow\nD. They are flat and green",
+      "response": "c"
+    }
+  ]
+}

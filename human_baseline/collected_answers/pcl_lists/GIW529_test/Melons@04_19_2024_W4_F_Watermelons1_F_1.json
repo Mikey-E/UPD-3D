@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "Melons@04_19_2024_W4_F_Watermelons1_F_1",
+  "dataset": "GIW529_test",
+  "annotated_by": "User 5",
+  "timestamp": "2025-11-17T09:24:03.320916",
+  "file_path": "/project/3dllms/melgin/datasets/GIW/giw529subcat/Melons/04_19_2024_W4_F_Watermelons1_F_1.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What is the primary color of the rind of a watermelon?\n\nA. Dark green\nB. Bright red\nC. Light blue\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What is the primary color of the rind of a watermelon?\n\nA. Dark green\nB. Bright red\nC. Light blue\nD. None of the above",
+      "response": "d"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What is the primary color of the rind of a watermelon?\n\nA. Dark green\nB. Bright red\nC. Light blue",
+      "response": "none"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What is the primary color of the rind of a watermelon?\n\nA. Algebra\nB. Quantum mechanics\nC. Renaissance art\nD. World geography\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What is the primary color of the rind of a watermelon?\n\nA. Algebra\nB. Quantum mechanics\nC. Renaissance art\nD. World geography\nE. None of the above",
+      "response": "e"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What is the primary color of the rind of a watermelon?\n\nA. Algebra\nB. Quantum mechanics\nC. Renaissance art\nD. World geography",
+      "response": "none"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What is the texture of the fabric used for the curtains?\n\nA. Velvet\nB. Linen\nC. Silk\nD. Canvas\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What is the texture of the fabric used for the curtains?\n\nA. Velvet\nB. Linen\nC. Silk\nD. Canvas\nE. None of the above",
+      "response": "e"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What is the texture of the fabric used for the curtains?\n\nA. Velvet\nB. Linen\nC. Silk\nD. Canvas",
+      "response": "none"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What type of bread is used for making sandwiches?",
+      "response": "none"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What type of bread is used for making sandwiches?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What is the primary color of the rind of a watermelon?\n\nA. Dark green\nB. Pale green\nC. Bright red\nD. Light blue",
+      "response": "b"
+    }
+  ]
+}

@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "Chips@03_21_2024_W_L_Chips1_P_1",
+  "dataset": "GIW529_test",
+  "annotated_by": "User 3",
+  "timestamp": "2025-11-17T12:09:16.480427",
+  "file_path": "/project/3dllms/melgin/datasets/GIW/giw529subcat/Chips/03_21_2024_W_L_Chips1_P_1.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What designs are featured on the fronts of the colorful plastic snack bags?\n\nA. Cartoon characters with various snacks\nB. Nature scenes with fruits and vegetables\nC. Animal shapes with bright colors\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What designs are featured on the fronts of the colorful plastic snack bags?\n\nA. Cartoon characters with various snacks\nB. Nature scenes with fruits and vegetables\nC. Animal shapes with bright colors\nD. None of the above",
+      "response": "D"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What designs are featured on the fronts of the colorful plastic snack bags?\n\nA. Cartoon characters with various snacks\nB. Nature scenes with fruits and vegetables\nC. Animal shapes with bright colors",
+      "response": "None"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What designs are featured on the fronts of the colorful plastic snack bags?\n\nA. Quantum theory applications\nB. Evolution of classical music\nC. Historical events of the 18th century\nD. Types of celestial bodies\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What designs are featured on the fronts of the colorful plastic snack bags?\n\nA. Quantum theory applications\nB. Evolution of classical music\nC. Historical events of the 18th century\nD. Types of celestial bodies\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What designs are featured on the fronts of the colorful plastic snack bags?\n\nA. Quantum theory applications\nB. Evolution of classical music\nC. Historical events of the 18th century\nD. Types of celestial bodies",
+      "response": "None"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What type of chair is used at the dining table?\n\nA. Armchair\nB. Barstool\nC. Recliner\nD. Rocking chair\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What type of chair is used at the dining table?\n\nA. Armchair\nB. Barstool\nC. Recliner\nD. Rocking chair\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What type of chair is used at the dining table?\n\nA. Armchair\nB. Barstool\nC. Recliner\nD. Rocking chair",
+      "response": "None"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What type of ceramic vase is placed in the room?",
+      "response": "N/A"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What type of ceramic vase is placed in the room?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What designs are featured on the fronts of the colorful plastic snack bags?\n\nA. Cartoon characters with various snacks\nB. Nature scenes with fruits and vegetables\nC. Animal shapes with bright colors\nD. Pretzel twists, sticks, or mixed pieces",
+      "response": "D"
+    }
+  ]
+}

@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "Random@04_18_2024_W_F_Doritos_P_3",
+  "dataset": "GIW529_test",
+  "annotated_by": "User 5",
+  "timestamp": "2025-11-17T09:40:49.117105",
+  "file_path": "/project/3dllms/melgin/datasets/GIW/giw529subcat/Random/04_18_2024_W_F_Doritos_P_3.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What colors are prominently featured in the snack chip packaging?\n\nA. Pink and brown\nB. Green and yellow\nC. Black and white\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What colors are prominently featured in the snack chip packaging?\n\nA. Pink and brown\nB. Green and yellow\nC. Black and white\nD. None of the above",
+      "response": "d"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What colors are prominently featured in the snack chip packaging?\n\nA. Pink and brown\nB. Green and yellow\nC. Black and white",
+      "response": "none"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What colors are prominently featured in the snack chip packaging?\n\nA. Jupiter\nB. Saturn\nC. Mars\nD. Neptune\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What colors are prominently featured in the snack chip packaging?\n\nA. Jupiter\nB. Saturn\nC. Mars\nD. Neptune\nE. None of the above",
+      "response": "e"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What colors are prominently featured in the snack chip packaging?\n\nA. Jupiter\nB. Saturn\nC. Mars\nD. Neptune",
+      "response": "none"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What is the size of the table in the center of the room?\n\nA. Small\nB. Medium\nC. Large\nD. Extra large\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What is the size of the table in the center of the room?\n\nA. Small\nB. Medium\nC. Large\nD. Extra large\nE. None of the above",
+      "response": "e"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What is the size of the table in the center of the room?\n\nA. Small\nB. Medium\nC. Large\nD. Extra large",
+      "response": "none"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What type of kitchen appliance is used for blending smoothies?",
+      "response": "none"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What type of kitchen appliance is used for blending smoothies?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What colors are prominently featured in the snack chip packaging?\n\nA. Pink and brown\nB. Green and yellow\nC. Orange and blue\nD. Black and white",
+      "response": "c"
+    }
+  ]
+}

@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "PeanutButter@04_18_2024_W_F_PeanutButter_P_3",
+  "dataset": "GIW529_test",
+  "annotated_by": "User 5",
+  "timestamp": "2025-11-17T09:33:07.829624",
+  "file_path": "/project/3dllms/melgin/datasets/GIW/giw529subcat/PeanutButter/04_18_2024_W_F_PeanutButter_P_3.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What colors are the lids of the jars in the collection?\n\nA. Green and orange\nB. Black and purple\nC. Pink and grey\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What colors are the lids of the jars in the collection?\n\nA. Green and orange\nB. Black and purple\nC. Pink and grey\nD. None of the above",
+      "response": "d"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What colors are the lids of the jars in the collection?\n\nA. Green and orange\nB. Black and purple\nC. Pink and grey",
+      "response": "none"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What colors are the lids of the jars in the collection?\n\nA. Cactus Green\nB. Sunset Orange\nC. Ocean Blue\nD. Midnight Purple\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What colors are the lids of the jars in the collection?\n\nA. Cactus Green\nB. Sunset Orange\nC. Ocean Blue\nD. Midnight Purple\nE. None of the above",
+      "response": "e"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What colors are the lids of the jars in the collection?\n\nA. Cactus Green\nB. Sunset Orange\nC. Ocean Blue\nD. Midnight Purple",
+      "response": "none"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What type of chair is featured in the scene?\n\nA. Recliner\nB. Bar stool\nC. Armchair\nD. Folding chair\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What type of chair is featured in the scene?\n\nA. Recliner\nB. Bar stool\nC. Armchair\nD. Folding chair\nE. None of the above",
+      "response": "e"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What type of chair is featured in the scene?\n\nA. Recliner\nB. Bar stool\nC. Armchair\nD. Folding chair",
+      "response": "none"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What type of fresh fruit is displayed on the countertop?",
+      "response": "none"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What type of fresh fruit is displayed on the countertop?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What colors are the lids of the jars in the collection?\n\nA. White, yellow, red, and blue\nB. Green and orange\nC. Black and purple\nD. Pink and grey",
+      "response": "a"
+    }
+  ]
+}

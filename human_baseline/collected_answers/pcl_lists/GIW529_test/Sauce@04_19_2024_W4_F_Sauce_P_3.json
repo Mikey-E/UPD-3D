@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "Sauce@04_19_2024_W4_F_Sauce_P_3",
+  "dataset": "GIW529_test",
+  "annotated_by": "User 4",
+  "timestamp": "2025-11-17T11:43:51.012935",
+  "file_path": "/project/3dllms/melgin/datasets/GIW/giw529subcat/Sauce/04_19_2024_W4_F_Sauce_P_3.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What type of food product is contained in the clear, cylindrical glass jars?\n\nA. Salad dressing\nB. Pickles\nC. Jelly\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What type of food product is contained in the clear, cylindrical glass jars?\n\nA. Salad dressing\nB. Pickles\nC. Jelly\nD. None of the above",
+      "response": "D"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What type of food product is contained in the clear, cylindrical glass jars?\n\nA. Salad dressing\nB. Pickles\nC. Jelly",
+      "response": "NONE"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What type of food product is contained in the clear, cylindrical glass jars?\n\nA. Javascript\nB. Quantum Physics\nC. Renaissance Art\nD. Symphonic Music\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What type of food product is contained in the clear, cylindrical glass jars?\n\nA. Javascript\nB. Quantum Physics\nC. Renaissance Art\nD. Symphonic Music\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What type of food product is contained in the clear, cylindrical glass jars?\n\nA. Javascript\nB. Quantum Physics\nC. Renaissance Art\nD. Symphonic Music",
+      "response": "NONE"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What type of vehicle is parked outside?\n\nA. Sedan\nB. Pickup truck\nC. Motorcycle\nD. Minivan\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What type of vehicle is parked outside?\n\nA. Sedan\nB. Pickup truck\nC. Motorcycle\nD. Minivan\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What type of vehicle is parked outside?\n\nA. Sedan\nB. Pickup truck\nC. Motorcycle\nD. Minivan",
+      "response": "NONE"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What type of meat is being cooked in the kitchen?",
+      "response": "N/A"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What type of meat is being cooked in the kitchen?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What type of food product is contained in the clear, cylindrical glass jars?\n\nA. Salad dressing\nB. Tomato sauce\nC. Pickles\nD. Jelly",
+      "response": "B"
+    }
+  ]
+}

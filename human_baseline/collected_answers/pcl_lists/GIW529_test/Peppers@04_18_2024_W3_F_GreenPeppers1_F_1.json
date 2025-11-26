@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "Peppers@04_18_2024_W3_F_GreenPeppers1_F_1",
+  "dataset": "GIW529_test",
+  "annotated_by": "User 5",
+  "timestamp": "2025-11-17T09:35:02.983073",
+  "file_path": "/project/3dllms/melgin/datasets/GIW/giw529subcat/Peppers/04_18_2024_W3_F_GreenPeppers1_F_1.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What is the shape of green bell peppers as described?\n\nA. Round and smooth\nB. Flat and oval\nC. Long and slender\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What is the shape of green bell peppers as described?\n\nA. Round and smooth\nB. Flat and oval\nC. Long and slender\nD. None of the above",
+      "response": "d"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What is the shape of green bell peppers as described?\n\nA. Round and smooth\nB. Flat and oval\nC. Long and slender",
+      "response": "none"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What is the shape of green bell peppers as described?\n\nA. Circular economy\nB. Renewable resources\nC. Carbon footprint\nD. Biodiversity hotspots\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What is the shape of green bell peppers as described?\n\nA. Circular economy\nB. Renewable resources\nC. Carbon footprint\nD. Biodiversity hotspots\nE. None of the above",
+      "response": "e"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What is the shape of green bell peppers as described?\n\nA. Circular economy\nB. Renewable resources\nC. Carbon footprint\nD. Biodiversity hotspots",
+      "response": "none"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What type of chair is placed beside the table?\n\nA. Recliner\nB. Rocking chair\nC. Bar stool\nD. High chair\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What type of chair is placed beside the table?\n\nA. Recliner\nB. Rocking chair\nC. Bar stool\nD. High chair\nE. None of the above",
+      "response": "e"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What type of chair is placed beside the table?\n\nA. Recliner\nB. Rocking chair\nC. Bar stool\nD. High chair",
+      "response": "none"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What is the flavor profile of the chocolate ganache?",
+      "response": "none"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What is the flavor profile of the chocolate ganache?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What is the shape of green bell peppers as described?\n\nA. Round and smooth\nB. Flat and oval\nC. Long and slender\nD. Chunky and blocky",
+      "response": "none"
+    }
+  ]
+}

@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "Peppers@04_19_2024_W4_F_Peppers1_F_1",
+  "dataset": "GIW529_test",
+  "annotated_by": "User 5",
+  "timestamp": "2025-11-17T09:36:14.216725",
+  "file_path": "/project/3dllms/melgin/datasets/GIW/giw529subcat/Peppers/04_19_2024_W4_F_Peppers1_F_1.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What colors are the bell peppers described in the room?  \n\nA. Blue and purple\nB. White and black\nC. Pink and brown\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What colors are the bell peppers described in the room?  \n\nA. Blue and purple\nB. White and black\nC. Pink and brown\nD. None of the above",
+      "response": "d"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What colors are the bell peppers described in the room?  \n\nA. Blue and purple\nB. White and black\nC. Pink and brown",
+      "response": "none"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What colors are the bell peppers described in the room?  \n\nA. Echo\nB. Melody\nC. Harmony\nD. Rhythm\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What colors are the bell peppers described in the room?  \n\nA. Echo\nB. Melody\nC. Harmony\nD. Rhythm\nE. None of the above",
+      "response": "e"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What colors are the bell peppers described in the room?  \n\nA. Echo\nB. Melody\nC. Harmony\nD. Rhythm",
+      "response": "none"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What type of chair is featured in the setting?\n\nA. Recliner\nB. Bean bag\nC. Armchair\nD. Dining chair\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What type of chair is featured in the setting?\n\nA. Recliner\nB. Bean bag\nC. Armchair\nD. Dining chair\nE. None of the above",
+      "response": "e"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What type of chair is featured in the setting?\n\nA. Recliner\nB. Bean bag\nC. Armchair\nD. Dining chair",
+      "response": "none"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What type of fruit tree is growing in the room?",
+      "response": "none"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What type of fruit tree is growing in the room?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What colors are the bell peppers described in the room?  \n\nA. Blue and purple\nB. White and black\nC. Yellow, green, red, and orange\nD. Pink and brown",
+      "response": "c"
+    }
+  ]
+}

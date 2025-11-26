@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "Flour@04_04_2024_W2_C_Flour_P_3",
+  "dataset": "GIW529_test",
+  "annotated_by": "User 4",
+  "timestamp": "2025-11-17T12:14:28.244118",
+  "file_path": "/project/3dllms/melgin/datasets/GIW/giw529subcat/Flour/04_04_2024_W2_C_Flour_P_3.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What color are the standout bags that feature the \"Gold Medal\" logo for All-Purpose Flour?\n\nA. Pink\nB. Blue\nC. Green\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What color are the standout bags that feature the \"Gold Medal\" logo for All-Purpose Flour?\n\nA. Pink\nB. Blue\nC. Green\nD. None of the above",
+      "response": "D"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What color are the standout bags that feature the \"Gold Medal\" logo for All-Purpose Flour?\n\nA. Pink\nB. Blue\nC. Green",
+      "response": "NONE"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What color are the standout bags that feature the \"Gold Medal\" logo for All-Purpose Flour?\n\nA. Maple syrup\nB. Cucumber\nC. Grapefruit\nD. Quicksand\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What color are the standout bags that feature the \"Gold Medal\" logo for All-Purpose Flour?\n\nA. Maple syrup\nB. Cucumber\nC. Grapefruit\nD. Quicksand\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What color are the standout bags that feature the \"Gold Medal\" logo for All-Purpose Flour?\n\nA. Maple syrup\nB. Cucumber\nC. Grapefruit\nD. Quicksand",
+      "response": "NONE"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What type of vehicle is parked in front of the building?\n\nA. Sedan\nB. Truck\nC. Motorcycle\nD. Van\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What type of vehicle is parked in front of the building?\n\nA. Sedan\nB. Truck\nC. Motorcycle\nD. Van\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What type of vehicle is parked in front of the building?\n\nA. Sedan\nB. Truck\nC. Motorcycle\nD. Van",
+      "response": "NONE"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What type of fruit is displayed in the scene?",
+      "response": "N/A"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What type of fruit is displayed in the scene?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What color are the standout bags that feature the \"Gold Medal\" logo for All-Purpose Flour?\n\nA. Pink\nB. Blue\nC. Green\nD. White",
+      "response": "D"
+    }
+  ]
+}

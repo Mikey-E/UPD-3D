@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "GrapeFruits@04_04_2024_W2_C_Grapefruits1_F_1",
+  "dataset": "GIW529_test",
+  "annotated_by": "User 4",
+  "timestamp": "2025-11-17T12:15:25.040120",
+  "file_path": "/project/3dllms/melgin/datasets/GIW/giw529subcat/GrapeFruits/04_04_2024_W2_C_Grapefruits1_F_1.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What color are the stickers that may be found on the skin of grapefruits?\n\nA. Red\nB. Green\nC. Yellow\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What color are the stickers that may be found on the skin of grapefruits?\n\nA. Red\nB. Green\nC. Yellow\nD. None of the above",
+      "response": "D"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What color are the stickers that may be found on the skin of grapefruits?\n\nA. Red\nB. Green\nC. Yellow",
+      "response": "NONE"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What color are the stickers that may be found on the skin of grapefruits?\n\nA. Elephant\nB. Galaxy\nC. Volcano\nD. Symphony\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What color are the stickers that may be found on the skin of grapefruits?\n\nA. Elephant\nB. Galaxy\nC. Volcano\nD. Symphony\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What color are the stickers that may be found on the skin of grapefruits?\n\nA. Elephant\nB. Galaxy\nC. Volcano\nD. Symphony",
+      "response": "NONE"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What type of building is located near the grapefruit grove?\n\nA. A brick warehouse\nB. A wooden lodge\nC. A glass skyscraper\nD. A stone cottage\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What type of building is located near the grapefruit grove?\n\nA. A brick warehouse\nB. A wooden lodge\nC. A glass skyscraper\nD. A stone cottage\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What type of building is located near the grapefruit grove?\n\nA. A brick warehouse\nB. A wooden lodge\nC. A glass skyscraper\nD. A stone cottage",
+      "response": "NONE"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What is the flavor profile of the chocolate cake?",
+      "response": "N/A"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What is the flavor profile of the chocolate cake?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What color are the stickers that may be found on the skin of grapefruits?\n\nA. Red\nB. Green\nC. Blue\nD. Yellow",
+      "response": "C"
+    }
+  ]
+}

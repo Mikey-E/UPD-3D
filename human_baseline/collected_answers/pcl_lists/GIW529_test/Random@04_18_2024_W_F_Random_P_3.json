@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "Random@04_18_2024_W_F_Random_P_3",
+  "dataset": "GIW529_test",
+  "annotated_by": "User 5",
+  "timestamp": "2025-11-17T09:42:08.403619",
+  "file_path": "/project/3dllms/melgin/datasets/GIW/giw529subcat/Random/04_18_2024_W_F_Random_P_3.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What color are the caps on the white bottles with blue labels?\n\nA. Red\nB. Yellow\nC. Green\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What color are the caps on the white bottles with blue labels?\n\nA. Red\nB. Yellow\nC. Green\nD. None of the above",
+      "response": "d"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What color are the caps on the white bottles with blue labels?\n\nA. Red\nB. Yellow\nC. Green",
+      "response": "none"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What color are the caps on the white bottles with blue labels?\n\nA. Guitar strings\nB. Mountain ranges\nC. Chocolate desserts\nD. Weather patterns\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What color are the caps on the white bottles with blue labels?\n\nA. Guitar strings\nB. Mountain ranges\nC. Chocolate desserts\nD. Weather patterns\nE. None of the above",
+      "response": "e"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What color are the caps on the white bottles with blue labels?\n\nA. Guitar strings\nB. Mountain ranges\nC. Chocolate desserts\nD. Weather patterns",
+      "response": "none"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What type of furniture can be found in the living room?\n\nA. Sofa\nB. Coffee Table\nC. Bookshelf\nD. Armchair\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What type of furniture can be found in the living room?\n\nA. Sofa\nB. Coffee Table\nC. Bookshelf\nD. Armchair\nE. None of the above",
+      "response": "e"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What type of furniture can be found in the living room?\n\nA. Sofa\nB. Coffee Table\nC. Bookshelf\nD. Armchair",
+      "response": "none"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What type of furniture is in the scene?",
+      "response": "none"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What type of furniture is in the scene?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What color are the caps on the white bottles with blue labels?\n\nA. Red\nB. Blue\nC. Yellow\nD. Green",
+      "response": "none"
+    }
+  ]
+}

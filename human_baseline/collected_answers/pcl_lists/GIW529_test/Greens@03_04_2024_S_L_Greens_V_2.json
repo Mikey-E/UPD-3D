@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "Greens@03_04_2024_S_L_Greens_V_2",
+  "dataset": "GIW529_test",
+  "annotated_by": "User 4",
+  "timestamp": "2025-11-17T12:16:48.729206",
+  "file_path": "/project/3dllms/melgin/datasets/GIW/giw529subcat/Greens/03_04_2024_S_L_Greens_V_2.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What type of vegetable is described as having glossy smooth skin and lobed shoulders?\n\nA. Zucchini\nB. Carrot\nC. Celery\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What type of vegetable is described as having glossy smooth skin and lobed shoulders?\n\nA. Zucchini\nB. Carrot\nC. Celery\nD. None of the above",
+      "response": "D"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What type of vegetable is described as having glossy smooth skin and lobed shoulders?\n\nA. Zucchini\nB. Carrot\nC. Celery",
+      "response": "NONE"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What type of vegetable is described as having glossy smooth skin and lobed shoulders?\n\nA. Marsupial\nB. Reptile\nC. Amphibian\nD. Mammal\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What type of vegetable is described as having glossy smooth skin and lobed shoulders?\n\nA. Marsupial\nB. Reptile\nC. Amphibian\nD. Mammal\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What type of vegetable is described as having glossy smooth skin and lobed shoulders?\n\nA. Marsupial\nB. Reptile\nC. Amphibian\nD. Mammal",
+      "response": "NONE"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What type of vehicle is parked in the scene?\n\nA. Sedan\nB. Motorcycle\nC. Pickup truck\nD. Convertible\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What type of vehicle is parked in the scene?\n\nA. Sedan\nB. Motorcycle\nC. Pickup truck\nD. Convertible\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What type of vehicle is parked in the scene?\n\nA. Sedan\nB. Motorcycle\nC. Pickup truck\nD. Convertible",
+      "response": "NONE"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What type of meat is being prepared in the kitchen?",
+      "response": "N/A"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What type of meat is being prepared in the kitchen?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What type of vegetable is described as having glossy smooth skin and lobed shoulders?\n\nA. Zucchini\nB. Carrot\nC. Celery\nD. Pepper",
+      "response": "D"
+    }
+  ]
+}

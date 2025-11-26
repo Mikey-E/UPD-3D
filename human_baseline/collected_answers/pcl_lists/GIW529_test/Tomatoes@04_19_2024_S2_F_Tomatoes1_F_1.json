@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "Tomatoes@04_19_2024_S2_F_Tomatoes1_F_1",
+  "dataset": "GIW529_test",
+  "annotated_by": "User 4",
+  "timestamp": "2025-11-17T11:55:51.949008",
+  "file_path": "/project/3dllms/melgin/datasets/GIW/giw529subcat/Tomatoes/04_19_2024_S2_F_Tomatoes1_F_1.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What type of tomatoes are packaged in purple clamshell packaging?\n\nA. Green bell peppers\nB. Plum tomatoes\nC. Yellow bell peppers\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What type of tomatoes are packaged in purple clamshell packaging?\n\nA. Green bell peppers\nB. Plum tomatoes\nC. Yellow bell peppers\nD. None of the above",
+      "response": "D"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What type of tomatoes are packaged in purple clamshell packaging?\n\nA. Green bell peppers\nB. Plum tomatoes\nC. Yellow bell peppers",
+      "response": "NONE"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What type of tomatoes are packaged in purple clamshell packaging?\n\nA. Oak tree\nB. Blue whale\nC. Sahara Desert\nD. Beethoven's Symphony No. 9\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What type of tomatoes are packaged in purple clamshell packaging?\n\nA. Oak tree\nB. Blue whale\nC. Sahara Desert\nD. Beethoven's Symphony No. 9\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What type of tomatoes are packaged in purple clamshell packaging?\n\nA. Oak tree\nB. Blue whale\nC. Sahara Desert\nD. Beethoven's Symphony No. 9",
+      "response": "NONE"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What is the size of the television in the kitchen?\n\nA. 32 inches\nB. 55 inches\nC. 75 inches\nD. 42 inches\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What is the size of the television in the kitchen?\n\nA. 32 inches\nB. 55 inches\nC. 75 inches\nD. 42 inches\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What is the size of the television in the kitchen?\n\nA. 32 inches\nB. 55 inches\nC. 75 inches\nD. 42 inches",
+      "response": "NONE"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What type of dessert is displayed on the countertop?",
+      "response": "N/A"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What type of dessert is displayed on the countertop?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What type of tomatoes are packaged in purple clamshell packaging?\n\nA. Green bell peppers\nB. Plum tomatoes\nC. Cherry tomatoes\nD. Yellow bell peppers",
+      "response": "C"
+    }
+  ]
+}

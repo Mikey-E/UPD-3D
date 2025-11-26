@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "MultiFruits@04_04_2024_W_C_FruitsLong1_F_1",
+  "dataset": "GIW529_test",
+  "annotated_by": "User 5",
+  "timestamp": "2025-11-17T09:24:23.396299",
+  "file_path": "/project/3dllms/melgin/datasets/GIW/giw529subcat/MultiFruits/04_04_2024_W_C_FruitsLong1_F_1.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What type of fruit is described as having a rough, diamond-patterned rind and spiky leafy crowns?\n\nA. Avocado\nB. Onion\nC. Tomato\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What type of fruit is described as having a rough, diamond-patterned rind and spiky leafy crowns?\n\nA. Avocado\nB. Onion\nC. Tomato\nD. None of the above",
+      "response": "d"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What type of fruit is described as having a rough, diamond-patterned rind and spiky leafy crowns?\n\nA. Avocado\nB. Onion\nC. Tomato",
+      "response": "none"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What type of fruit is described as having a rough, diamond-patterned rind and spiky leafy crowns?\n\nA. Vintage\nB. Abstract\nC. Minimalist\nD. Renaissance\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What type of fruit is described as having a rough, diamond-patterned rind and spiky leafy crowns?\n\nA. Vintage\nB. Abstract\nC. Minimalist\nD. Renaissance\nE. None of the above",
+      "response": "e"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What type of fruit is described as having a rough, diamond-patterned rind and spiky leafy crowns?\n\nA. Vintage\nB. Abstract\nC. Minimalist\nD. Renaissance",
+      "response": "none"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What type of vehicle is parked outside?\n\nA. Sedan\nB. Pickup truck\nC. Sports car\nD. Bicycle\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What type of vehicle is parked outside?\n\nA. Sedan\nB. Pickup truck\nC. Sports car\nD. Bicycle\nE. None of the above",
+      "response": "e"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What type of vehicle is parked outside?\n\nA. Sedan\nB. Pickup truck\nC. Sports car\nD. Bicycle",
+      "response": "none"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What metal material is the sink made of?",
+      "response": "none"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What metal material is the sink made of?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What type of fruit is described as having a rough, diamond-patterned rind and spiky leafy crowns?\n\nA. Avocado\nB. Onion\nC. Tomato\nD. Pineapple",
+      "response": "d"
+    }
+  ]
+}

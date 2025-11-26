@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "PastaSauce@04_18_2024_W3_F_PastaSauce1_P_1",
+  "dataset": "GIW529_test",
+  "annotated_by": "User 5",
+  "timestamp": "2025-11-17T09:31:43.859028",
+  "file_path": "/project/3dllms/melgin/datasets/GIW/giw529subcat/PastaSauce/04_18_2024_W3_F_PastaSauce1_P_1.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What type of packaging is associated with some of the jars of tomato sauce in the room?\n\nA. Plastic containers\nB. Wooden crates\nC. Metal tins\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What type of packaging is associated with some of the jars of tomato sauce in the room?\n\nA. Plastic containers\nB. Wooden crates\nC. Metal tins\nD. None of the above",
+      "response": "d"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What type of packaging is associated with some of the jars of tomato sauce in the room?\n\nA. Plastic containers\nB. Wooden crates\nC. Metal tins",
+      "response": "none"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What type of packaging is associated with some of the jars of tomato sauce in the room?\n\nA. Terrestrial\nB. Celestial\nC. Aquatic\nD. Volcanic\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What type of packaging is associated with some of the jars of tomato sauce in the room?\n\nA. Terrestrial\nB. Celestial\nC. Aquatic\nD. Volcanic\nE. None of the above",
+      "response": "e"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What type of packaging is associated with some of the jars of tomato sauce in the room?\n\nA. Terrestrial\nB. Celestial\nC. Aquatic\nD. Volcanic",
+      "response": "none"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What type of artifact is displayed prominently in the room?\n\nA. Ancient vase\nB. Modern sculpture\nC. Vintage clock\nD. Crystal goblet\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What type of artifact is displayed prominently in the room?\n\nA. Ancient vase\nB. Modern sculpture\nC. Vintage clock\nD. Crystal goblet\nE. None of the above",
+      "response": "e"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What type of artifact is displayed prominently in the room?\n\nA. Ancient vase\nB. Modern sculpture\nC. Vintage clock\nD. Crystal goblet",
+      "response": "none"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What type of cheese is used in the dishes prepared with the tomato sauce?",
+      "response": "none"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What type of cheese is used in the dishes prepared with the tomato sauce?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What type of packaging is associated with some of the jars of tomato sauce in the room?\n\nA. Plastic containers\nB. Cardboard packaging\nC. Wooden crates\nD. Metal tins",
+      "response": "d"
+    }
+  ]
+}

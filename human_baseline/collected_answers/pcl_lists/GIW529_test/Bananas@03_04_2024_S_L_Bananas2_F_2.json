@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "Bananas@03_04_2024_S_L_Bananas2_F_2",
+  "dataset": "GIW529_test",
+  "annotated_by": "User 3",
+  "timestamp": "2025-11-17T12:03:34.837646",
+  "file_path": "/project/3dllms/melgin/datasets/GIW/giw529subcat/Bananas/03_04_2024_S_L_Bananas2_F_2.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What types of fruits are included in the display along with the weighing scale?\n\nA. Apples and grapes\nB. Blueberries and cherries\nC. Kiwis and peaches\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What types of fruits are included in the display along with the weighing scale?\n\nA. Apples and grapes\nB. Blueberries and cherries\nC. Kiwis and peaches\nD. None of the above",
+      "response": "D"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What types of fruits are included in the display along with the weighing scale?\n\nA. Apples and grapes\nB. Blueberries and cherries\nC. Kiwis and peaches",
+      "response": "None"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What types of fruits are included in the display along with the weighing scale?\n\nA. Velocity of light\nB. Quantum mechanics\nC. Historical events\nD. Types of music genres\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What types of fruits are included in the display along with the weighing scale?\n\nA. Velocity of light\nB. Quantum mechanics\nC. Historical events\nD. Types of music genres\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What types of fruits are included in the display along with the weighing scale?\n\nA. Velocity of light\nB. Quantum mechanics\nC. Historical events\nD. Types of music genres",
+      "response": "None"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What type of chair is featured in the scene?\n\nA. Recliner\nB. Dining chair\nC. Armchair\nD. Stool\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What type of chair is featured in the scene?\n\nA. Recliner\nB. Dining chair\nC. Armchair\nD. Stool\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What type of chair is featured in the scene?\n\nA. Recliner\nB. Dining chair\nC. Armchair\nD. Stool",
+      "response": "None"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What type of fish is swimming in the background?",
+      "response": "N/A"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What type of fish is swimming in the background?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What types of fruits are included in the display along with the weighing scale?\n\nA. Apples and grapes\nB. Bunches of bananas and oranges\nC. Blueberries and cherries\nD. Kiwis and peaches",
+      "response": "B"
+    }
+  ]
+}

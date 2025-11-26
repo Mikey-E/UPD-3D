@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "Apples@03_07_2024_S_L_Apples2_F_2",
+  "dataset": "GIW529_test",
+  "annotated_by": "User 4",
+  "timestamp": "2025-11-17T11:59:45.035715",
+  "file_path": "/project/3dllms/melgin/datasets/GIW/giw529subcat/Apples/03_07_2024_S_L_Apples2_F_2.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What colors are represented on the apples in the pile?\n\nA. Only red and green\nB. Red, blue, and green\nC. Only yellow and pink\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What colors are represented on the apples in the pile?\n\nA. Only red and green\nB. Red, blue, and green\nC. Only yellow and pink\nD. None of the above",
+      "response": "D"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What colors are represented on the apples in the pile?\n\nA. Only red and green\nB. Red, blue, and green\nC. Only yellow and pink",
+      "response": "NONE"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What colors are represented on the apples in the pile?\n\nA. Jigsaw puzzle pieces\nB. Electric circuits\nC. Marble sculptures\nD. Origami cranes\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What colors are represented on the apples in the pile?\n\nA. Jigsaw puzzle pieces\nB. Electric circuits\nC. Marble sculptures\nD. Origami cranes\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What colors are represented on the apples in the pile?\n\nA. Jigsaw puzzle pieces\nB. Electric circuits\nC. Marble sculptures\nD. Origami cranes",
+      "response": "NONE"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What type of window is featured in the scene?\n\nA. Bay window\nB. Stained glass window\nC. Picture window\nD. Casement window\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What type of window is featured in the scene?\n\nA. Bay window\nB. Stained glass window\nC. Picture window\nD. Casement window\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What type of window is featured in the scene?\n\nA. Bay window\nB. Stained glass window\nC. Picture window\nD. Casement window",
+      "response": "NONE"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What type of fabric is used for the curtains?",
+      "response": "N/A"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What type of fabric is used for the curtains?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What colors are represented on the apples in the pile?\n\nA. Only red and green\nB. Red, blue, and green\nC. Only yellow and pink\nD. Red, yellow, and green",
+      "response": "D"
+    }
+  ]
+}

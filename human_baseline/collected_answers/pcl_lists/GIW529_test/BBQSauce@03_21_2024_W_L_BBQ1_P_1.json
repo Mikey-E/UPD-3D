@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "BBQSauce@03_21_2024_W_L_BBQ1_P_1",
+  "dataset": "GIW529_test",
+  "annotated_by": "User 4",
+  "timestamp": "2025-11-17T12:02:50.989398",
+  "file_path": "/project/3dllms/melgin/datasets/GIW/giw529subcat/BBQSauce/03_21_2024_W_L_BBQ1_P_1.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What is the shape of the bottles for Sweet Baby Ray's barbecue sauce?\n\nA. Tall and narrow\nB. Cylindrical\nC. Flat and rectangular\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What is the shape of the bottles for Sweet Baby Ray's barbecue sauce?\n\nA. Tall and narrow\nB. Cylindrical\nC. Flat and rectangular\nD. None of the above",
+      "response": "D"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What is the shape of the bottles for Sweet Baby Ray's barbecue sauce?\n\nA. Tall and narrow\nB. Cylindrical\nC. Flat and rectangular",
+      "response": "NONE"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What is the shape of the bottles for Sweet Baby Ray's barbecue sauce?\n\nA. Jupiter's Atmosphere\nB. The Theory of Relativity\nC. Quantum Entanglement\nD. The Great Wall of China\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What is the shape of the bottles for Sweet Baby Ray's barbecue sauce?\n\nA. Jupiter's Atmosphere\nB. The Theory of Relativity\nC. Quantum Entanglement\nD. The Great Wall of China\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What is the shape of the bottles for Sweet Baby Ray's barbecue sauce?\n\nA. Jupiter's Atmosphere\nB. The Theory of Relativity\nC. Quantum Entanglement\nD. The Great Wall of China",
+      "response": "NONE"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What type of chair is prominently featured in the scene?\n\nA. Recliner\nB. Armchair\nC. Dining chair\nD. Rocking chair\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What type of chair is prominently featured in the scene?\n\nA. Recliner\nB. Armchair\nC. Dining chair\nD. Rocking chair\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What type of chair is prominently featured in the scene?\n\nA. Recliner\nB. Armchair\nC. Dining chair\nD. Rocking chair",
+      "response": "NONE"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What type of fruit is displayed in the room?",
+      "response": "N/A"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What type of fruit is displayed in the room?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What is the shape of the bottles for Sweet Baby Ray's barbecue sauce?\n\nA. Tall and narrow\nB. Cylindrical\nC. Rounded-square\nD. Flat and rectangular",
+      "response": "C"
+    }
+  ]
+}

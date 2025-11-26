@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "Greens@04_04_2024_S_C_Greens_V_2",
+  "dataset": "GIW529_test",
+  "annotated_by": "User 3",
+  "timestamp": "2025-11-17T12:17:00.557583",
+  "file_path": "/project/3dllms/melgin/datasets/GIW/giw529subcat/Greens/04_04_2024_S_C_Greens_V_2.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What type of vegetable in the collection has thick pale stalks and broad glossy leaves?\n\nA. Napa cabbage\nB. Curly kale\nC. Kohlrabi\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What type of vegetable in the collection has thick pale stalks and broad glossy leaves?\n\nA. Napa cabbage\nB. Curly kale\nC. Kohlrabi\nD. None of the above",
+      "response": "D"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What type of vegetable in the collection has thick pale stalks and broad glossy leaves?\n\nA. Napa cabbage\nB. Curly kale\nC. Kohlrabi",
+      "response": "None"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What type of vegetable in the collection has thick pale stalks and broad glossy leaves?\n\nA. Blue Whale\nB. Giant Sequoia\nC. Great Barrier Reef\nD. Eiffel Tower\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What type of vegetable in the collection has thick pale stalks and broad glossy leaves?\n\nA. Blue Whale\nB. Giant Sequoia\nC. Great Barrier Reef\nD. Eiffel Tower\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What type of vegetable in the collection has thick pale stalks and broad glossy leaves?\n\nA. Blue Whale\nB. Giant Sequoia\nC. Great Barrier Reef\nD. Eiffel Tower",
+      "response": "None"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What type of painting is hanging on the wall?\n\nA. Abstract\nB. Landscape\nC. Portrait\nD. Still Life\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What type of painting is hanging on the wall?\n\nA. Abstract\nB. Landscape\nC. Portrait\nD. Still Life\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What type of painting is hanging on the wall?\n\nA. Abstract\nB. Landscape\nC. Portrait\nD. Still Life",
+      "response": "None"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What type of fruit is hanging from the ceiling?",
+      "response": "N/A"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What type of fruit is hanging from the ceiling?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What type of vegetable in the collection has thick pale stalks and broad glossy leaves?\n\nA. Bok choy\nB. Napa cabbage\nC. Curly kale\nD. Kohlrabi",
+      "response": "A"
+    }
+  ]
+}

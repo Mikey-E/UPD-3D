@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "FruitCans@04_18_2024_W3_F_CanFruits_P_3",
+  "dataset": "GIW529_test",
+  "annotated_by": "User 1",
+  "timestamp": "2025-11-26T06:51:52.512258",
+  "file_path": "/project/3dllms/melgin/datasets/GIW/giw529subcat/FruitCans/04_18_2024_W3_F_CanFruits_P_3.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What color are the lids of the cans and jars on the supermarket shelf?\n\nA. Red\nB. Green\nC. Blue\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What color are the lids of the cans and jars on the supermarket shelf?\n\nA. Red\nB. Green\nC. Blue\nD. None of the above",
+      "response": "D"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What color are the lids of the cans and jars on the supermarket shelf?\n\nA. Red\nB. Green\nC. Blue",
+      "response": "They're mostly white and black"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What color are the lids of the cans and jars on the supermarket shelf?\n\nA. Apple pie\nB. Chocolate chip\nC. Vanilla bean\nD. Coconut cream\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What color are the lids of the cans and jars on the supermarket shelf?\n\nA. Apple pie\nB. Chocolate chip\nC. Vanilla bean\nD. Coconut cream\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What color are the lids of the cans and jars on the supermarket shelf?\n\nA. Apple pie\nB. Chocolate chip\nC. Vanilla bean\nD. Coconut cream",
+      "response": "None of these"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What type of animal is featured on the shelf?\n\nA. Tiger\nB. Giraffe\nC. Penguin\nD. Elephant\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What type of animal is featured on the shelf?\n\nA. Tiger\nB. Giraffe\nC. Penguin\nD. Elephant\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What type of animal is featured on the shelf?\n\nA. Tiger\nB. Giraffe\nC. Penguin\nD. Elephant",
+      "response": "None of these"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What type of rug is placed on the floor?",
+      "response": "No rug"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What type of rug is placed on the floor?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What color are the lids of the cans and jars on the supermarket shelf?\n\nA. Red\nB. Green\nC. Blue\nD. Yellow",
+      "response": "White and black"
+    }
+  ]
+}

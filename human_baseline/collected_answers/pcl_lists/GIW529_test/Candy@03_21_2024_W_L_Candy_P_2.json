@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "Candy@03_21_2024_W_L_Candy_P_2",
+  "dataset": "GIW529_test",
+  "annotated_by": "User 4",
+  "timestamp": "2025-11-17T12:08:42.791339",
+  "file_path": "/project/3dllms/melgin/datasets/GIW/giw529subcat/Candy/03_21_2024_W_L_Candy_P_2.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What colors are prominently featured on the Starburst candy bags?\n\nA. Green and blue\nB. Orange and pink\nC. Black and white\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What colors are prominently featured on the Starburst candy bags?\n\nA. Green and blue\nB. Orange and pink\nC. Black and white\nD. None of the above",
+      "response": "D"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What colors are prominently featured on the Starburst candy bags?\n\nA. Green and blue\nB. Orange and pink\nC. Black and white",
+      "response": "NONE"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What colors are prominently featured on the Starburst candy bags?\n\nA. Jupiter and Saturn\nB. Hydrogen and Oxygen\nC. Mercury and Venus\nD. Earth and Mars\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What colors are prominently featured on the Starburst candy bags?\n\nA. Jupiter and Saturn\nB. Hydrogen and Oxygen\nC. Mercury and Venus\nD. Earth and Mars\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What colors are prominently featured on the Starburst candy bags?\n\nA. Jupiter and Saturn\nB. Hydrogen and Oxygen\nC. Mercury and Venus\nD. Earth and Mars",
+      "response": "NONE"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What type of plant can be found next to the candy bags?\n\nA. Cactus\nB. Fern\nC. Bonsai\nD. Orchid\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What type of plant can be found next to the candy bags?\n\nA. Cactus\nB. Fern\nC. Bonsai\nD. Orchid\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What type of plant can be found next to the candy bags?\n\nA. Cactus\nB. Fern\nC. Bonsai\nD. Orchid",
+      "response": "NONE"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What shape are the chocolate bars in the room?",
+      "response": "N/A"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What shape are the chocolate bars in the room?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What colors are prominently featured on the Starburst candy bags?\n\nA. Green and blue\nB. Bright yellow and red\nC. Orange and pink\nD. Black and white",
+      "response": "B"
+    }
+  ]
+}

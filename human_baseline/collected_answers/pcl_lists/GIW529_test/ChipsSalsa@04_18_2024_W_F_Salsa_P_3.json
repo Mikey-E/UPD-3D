@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "ChipsSalsa@04_18_2024_W_F_Salsa_P_3",
+  "dataset": "GIW529_test",
+  "annotated_by": "User 4",
+  "timestamp": "2025-11-17T12:20:12.700012",
+  "file_path": "/project/3dllms/melgin/datasets/GIW/giw529subcat/ChipsSalsa/04_18_2024_W_F_Salsa_P_3.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What colors are the labels on the glass jars?\n\nA. Red, blue, and yellow\nB. Orange, purple, and yellow\nC. Black, white, and green\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What colors are the labels on the glass jars?\n\nA. Red, blue, and yellow\nB. Orange, purple, and yellow\nC. Black, white, and green\nD. None of the above",
+      "response": "D"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What colors are the labels on the glass jars?\n\nA. Red, blue, and yellow\nB. Orange, purple, and yellow\nC. Black, white, and green",
+      "response": "NONE"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What colors are the labels on the glass jars?\n\nA. Beethoven's Symphonies\nB. Quantum Mechanics\nC. Renaissance Art\nD. Tropical Rainforests\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What colors are the labels on the glass jars?\n\nA. Beethoven's Symphonies\nB. Quantum Mechanics\nC. Renaissance Art\nD. Tropical Rainforests\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What colors are the labels on the glass jars?\n\nA. Beethoven's Symphonies\nB. Quantum Mechanics\nC. Renaissance Art\nD. Tropical Rainforests",
+      "response": "NONE"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What type of chair is featured in the scene?\n\nA. Recliner\nB. Office chair\nC. Dining chair\nD. Lounge chair\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What type of chair is featured in the scene?\n\nA. Recliner\nB. Office chair\nC. Dining chair\nD. Lounge chair\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What type of chair is featured in the scene?\n\nA. Recliner\nB. Office chair\nC. Dining chair\nD. Lounge chair",
+      "response": "NONE"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What type of fruit is displayed prominently on the kitchen counter?",
+      "response": "N/A"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What type of fruit is displayed prominently on the kitchen counter?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What colors are the labels on the glass jars?\n\nA. Red, blue, and yellow\nB. Green, blue, and red\nC. Orange, purple, and yellow\nD. Black, white, and green",
+      "response": "B"
+    }
+  ]
+}

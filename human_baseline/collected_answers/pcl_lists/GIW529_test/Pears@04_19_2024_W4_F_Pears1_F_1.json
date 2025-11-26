@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "Pears@04_19_2024_W4_F_Pears1_F_1",
+  "dataset": "GIW529_test",
+  "annotated_by": "User 5",
+  "timestamp": "2025-11-17T09:34:20.633945",
+  "file_path": "/project/3dllms/melgin/datasets/GIW/giw529subcat/Pears/04_19_2024_W4_F_Pears1_F_1.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What is a characteristic feature of the red apples described?\n\nA. They have several large brown spots\nB. They are elongated in shape\nC. They are covered in thick fuzz\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What is a characteristic feature of the red apples described?\n\nA. They have several large brown spots\nB. They are elongated in shape\nC. They are covered in thick fuzz\nD. None of the above",
+      "response": "d"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What is a characteristic feature of the red apples described?\n\nA. They have several large brown spots\nB. They are elongated in shape\nC. They are covered in thick fuzz",
+      "response": "none"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What is a characteristic feature of the red apples described?\n\nA. Cloud formation\nB. Ocean depth\nC. Mountain elevation\nD. Desert temperature\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What is a characteristic feature of the red apples described?\n\nA. Cloud formation\nB. Ocean depth\nC. Mountain elevation\nD. Desert temperature\nE. None of the above",
+      "response": "e"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What is a characteristic feature of the red apples described?\n\nA. Cloud formation\nB. Ocean depth\nC. Mountain elevation\nD. Desert temperature",
+      "response": "none"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What feature distinguishes the type of bicycle in the scene?\n\nA. The wheel size\nB. The handlebar shape\nC. The color of the frame\nD. The type of brakes\nIf none of the above answers are correct, answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What feature distinguishes the type of bicycle in the scene?\n\nA. The wheel size\nB. The handlebar shape\nC. The color of the frame\nD. The type of brakes\nE. None of the above",
+      "response": "e"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What feature distinguishes the type of bicycle in the scene?\n\nA. The wheel size\nB. The handlebar shape\nC. The color of the frame\nD. The type of brakes",
+      "response": "none"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What type of furniture is made of glass in the scene?",
+      "response": "none"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What type of furniture is made of glass in the scene?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "f"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What is a characteristic feature of the red apples described?\n\nA. They have glossy and smooth skin\nB. They have several large brown spots\nC. They are elongated in shape\nD. They are covered in thick fuzz",
+      "response": "a"
+    }
+  ]
+}

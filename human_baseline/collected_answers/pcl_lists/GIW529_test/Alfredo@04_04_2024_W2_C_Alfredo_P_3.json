@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "Alfredo@04_04_2024_W2_C_Alfredo_P_3",
+  "dataset": "GIW529_test",
+  "annotated_by": "User 4",
+  "timestamp": "2025-11-17T12:18:28.790656",
+  "file_path": "/project/3dllms/melgin/datasets/GIW/giw529subcat/Alfredo/04_04_2024_W2_C_Alfredo_P_3.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What kind of containers are present in the room?\n\nA. Rectangular boxes\nB. Square containers\nC. Flat trays\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What kind of containers are present in the room?\n\nA. Rectangular boxes\nB. Square containers\nC. Flat trays\nD. None of the above",
+      "response": "D"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What kind of containers are present in the room?\n\nA. Rectangular boxes\nB. Square containers\nC. Flat trays",
+      "response": "NONE"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What kind of containers are present in the room?\n\nA. Jupiter's moons\nB. Species of tropical fish\nC. Historical landmarks in Europe\nD. Types of classical music\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What kind of containers are present in the room?\n\nA. Jupiter's moons\nB. Species of tropical fish\nC. Historical landmarks in Europe\nD. Types of classical music\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What kind of containers are present in the room?\n\nA. Jupiter's moons\nB. Species of tropical fish\nC. Historical landmarks in Europe\nD. Types of classical music",
+      "response": "NONE"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What type of flooring is used in the building?\n\nA. Hardwood\nB. Carpet\nC. Tile\nD. Concrete\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What type of flooring is used in the building?\n\nA. Hardwood\nB. Carpet\nC. Tile\nD. Concrete\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What type of flooring is used in the building?\n\nA. Hardwood\nB. Carpet\nC. Tile\nD. Concrete",
+      "response": "NONE"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What type of fruit is hanging from the ceiling?",
+      "response": "N/A"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What type of fruit is hanging from the ceiling?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What kind of containers are present in the room?\n\nA. Rectangular boxes\nB. Cylindrical jars and bottles\nC. Square containers\nD. Flat trays",
+      "response": "B"
+    }
+  ]
+}

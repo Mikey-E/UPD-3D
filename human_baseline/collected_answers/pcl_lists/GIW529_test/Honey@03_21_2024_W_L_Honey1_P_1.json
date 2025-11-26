@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "Honey@03_21_2024_W_L_Honey1_P_1",
+  "dataset": "GIW529_test",
+  "annotated_by": "User 3",
+  "timestamp": "2025-11-17T12:23:22.453460",
+  "file_path": "/project/3dllms/melgin/datasets/GIW/giw529subcat/Honey/03_21_2024_W_L_Honey1_P_1.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What types of containers are included in the assortment of honey?\n\nA. Only glass jars\nB. Only bear-shaped bottles\nC. Only honeycomb containers\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What types of containers are included in the assortment of honey?\n\nA. Only glass jars\nB. Only bear-shaped bottles\nC. Only honeycomb containers\nD. None of the above",
+      "response": "D"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What types of containers are included in the assortment of honey?\n\nA. Only glass jars\nB. Only bear-shaped bottles\nC. Only honeycomb containers",
+      "response": "None"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What types of containers are included in the assortment of honey?\n\nA. Sapphire\nB. Aqueduct\nC. Symphony\nD. Telescope\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What types of containers are included in the assortment of honey?\n\nA. Sapphire\nB. Aqueduct\nC. Symphony\nD. Telescope\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What types of containers are included in the assortment of honey?\n\nA. Sapphire\nB. Aqueduct\nC. Symphony\nD. Telescope",
+      "response": "None"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What type of music is playing in the background?\n\nA. Classical\nB. Jazz\nC. Rock\nD. Hip Hop\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What type of music is playing in the background?\n\nA. Classical\nB. Jazz\nC. Rock\nD. Hip Hop\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What type of music is playing in the background?\n\nA. Classical\nB. Jazz\nC. Rock\nD. Hip Hop",
+      "response": "None"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What type of cheese is displayed on the counter?",
+      "response": "N/A"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What type of cheese is displayed on the counter?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What types of containers are included in the assortment of honey?\n\nA. Only glass jars\nB. Plastic bottles and glass jars\nC. Only bear-shaped bottles\nD. Only honeycomb containers",
+      "response": "B"
+    }
+  ]
+}

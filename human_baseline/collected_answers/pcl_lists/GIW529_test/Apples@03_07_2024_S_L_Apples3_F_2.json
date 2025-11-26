@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "Apples@03_07_2024_S_L_Apples3_F_2",
+  "dataset": "GIW529_test",
+  "annotated_by": "User 3",
+  "timestamp": "2025-11-17T12:00:22.819701",
+  "file_path": "/project/3dllms/melgin/datasets/GIW/giw529subcat/Apples/03_07_2024_S_L_Apples3_F_2.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What colors are the apples described in the room?\n\nA. Blue, purple, and orange\nB. White, black, and brown\nC. Pink, gray, and teal\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What colors are the apples described in the room?\n\nA. Blue, purple, and orange\nB. White, black, and brown\nC. Pink, gray, and teal\nD. None of the above",
+      "response": "D"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What colors are the apples described in the room?\n\nA. Blue, purple, and orange\nB. White, black, and brown\nC. Pink, gray, and teal",
+      "response": "None"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What colors are the apples described in the room?\n\nA. Quantum mechanics\nB. Ancient civilizations\nC. Modern art movements\nD. Space exploration missions\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What colors are the apples described in the room?\n\nA. Quantum mechanics\nB. Ancient civilizations\nC. Modern art movements\nD. Space exploration missions\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What colors are the apples described in the room?\n\nA. Quantum mechanics\nB. Ancient civilizations\nC. Modern art movements\nD. Space exploration missions",
+      "response": "None"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "What type of chair is prominently featured in the scene?\n\nA. Recliner\nB. Bean bag\nC. Armchair\nD. Dining chair\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "What type of chair is prominently featured in the scene?\n\nA. Recliner\nB. Bean bag\nC. Armchair\nD. Dining chair\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "What type of chair is prominently featured in the scene?\n\nA. Recliner\nB. Bean bag\nC. Armchair\nD. Dining chair",
+      "response": "None"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What type of metal shelf is used to store books?",
+      "response": "N/A"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What type of metal shelf is used to store books?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What colors are the apples described in the room?\n\nA. Red, yellow, and lime-green\nB. Blue, purple, and orange\nC. White, black, and brown\nD. Pink, gray, and teal",
+      "response": "A"
+    }
+  ]
+}

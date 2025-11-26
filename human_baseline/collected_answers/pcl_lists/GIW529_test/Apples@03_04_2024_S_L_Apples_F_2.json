@@ -1,0 +1,81 @@
+{
+  "identifier_scene": "Apples@03_04_2024_S_L_Apples_F_2",
+  "dataset": "GIW529_test",
+  "annotated_by": "User 4",
+  "timestamp": "2025-11-17T11:58:22.083724",
+  "file_path": "/project/3dllms/melgin/datasets/GIW/giw529subcat/Apples/03_04_2024_S_L_Apples_F_2.ply",
+  "responses": [
+    {
+      "question_number": 1,
+      "question_type": "aad_additional_instruction",
+      "prompt": "What colors are the apples in the pile?\n\nA. Green and yellow\nB. Blue and red\nC. Orange and purple\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 2,
+      "question_type": "aad_additional_option",
+      "prompt": "What colors are the apples in the pile?\n\nA. Green and yellow\nB. Blue and red\nC. Orange and purple\nD. None of the above",
+      "response": "D"
+    },
+    {
+      "question_number": 3,
+      "question_type": "aad_base",
+      "prompt": "What colors are the apples in the pile?\n\nA. Green and yellow\nB. Blue and red\nC. Orange and purple",
+      "response": "NONE"
+    },
+    {
+      "question_number": 4,
+      "question_type": "iasd_additional_instruction",
+      "prompt": "What colors are the apples in the pile?\n\nA. Grasshopper\nB. Microwave\nC. Roller coaster\nD. Umbrella\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 5,
+      "question_type": "iasd_additional_option",
+      "prompt": "What colors are the apples in the pile?\n\nA. Grasshopper\nB. Microwave\nC. Roller coaster\nD. Umbrella\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 6,
+      "question_type": "iasd_base",
+      "prompt": "What colors are the apples in the pile?\n\nA. Grasshopper\nB. Microwave\nC. Roller coaster\nD. Umbrella",
+      "response": "NONE"
+    },
+    {
+      "question_number": 7,
+      "question_type": "ivqd_additional_instruction",
+      "prompt": "How many windows are in the room?\n\nA. Two\nB. Four\nC. One\nD. Three\nIf none of the above answers are correct, answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 8,
+      "question_type": "ivqd_additional_option",
+      "prompt": "How many windows are in the room?\n\nA. Two\nB. Four\nC. One\nD. Three\nE. None of the above",
+      "response": "E"
+    },
+    {
+      "question_number": 9,
+      "question_type": "ivqd_base",
+      "prompt": "How many windows are in the room?\n\nA. Two\nB. Four\nC. One\nD. Three",
+      "response": "NONE"
+    },
+    {
+      "question_number": 10,
+      "question_type": "open_ended",
+      "prompt": "What type of fabric is used for the curtains in the room?",
+      "response": "N/A"
+    },
+    {
+      "question_number": 11,
+      "question_type": "open_ended_additional_instruction",
+      "prompt": "What type of fabric is used for the curtains in the room?\nIf the question is unanswerable, please answer: 'F'",
+      "response": "F"
+    },
+    {
+      "question_number": 12,
+      "question_type": "standard",
+      "prompt": "What colors are the apples in the pile?\n\nA. Green and yellow\nB. Blue and red\nC. Orange and purple\nD. Red, yellow, and green",
+      "response": "D"
+    }
+  ]
+}
