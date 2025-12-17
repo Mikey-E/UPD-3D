@@ -61,7 +61,8 @@ def main():
             generated_text = response.choices[0].message.content.strip() if response.choices[0].message.content else ""
         except Exception as e:
             print(f"Error processing openai completion: {str(e)}")
-            continue
+            scoring_failed = True
+            break
 
         print(current_prompt)
         print(f"Generated Text:<BEGIN>{generated_text}<END>")
