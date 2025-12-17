@@ -1,0 +1,1512 @@
+{
+    "Alfredo@04_04_2024_W2_C_Alfredo_P_3": {
+        "prompt": "What kind of containers are present in the room?\n\nA. Jupiter's moons\nB. Species of tropical fish\nC. Historical landmarks in Europe\nD. Types of classical music\nE. None of the above",
+        "response": "E",
+        "timestamp": "2025-11-17T12:18:28.790656",
+        "annotated_by": "User 4",
+        "original_file_path": "/project/3dllms/melgin/datasets/GIW/giw529subcat/Alfredo/04_04_2024_W2_C_Alfredo_P_3.ply",
+        "dataset": "GIW529_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "AppleJuice@04_18_2024_W2_F_AppleJuice2_P_3": {
+        "prompt": "What are the beverage jugs in the room primarily filled with?\n\nA. Maple syrup\nB. Lavender essential oil\nC. Ocean water\nD. Soil nutrients\nE. None of the above",
+        "response": "E",
+        "timestamp": "2025-11-17T11:58:44.803042",
+        "annotated_by": "User 3",
+        "original_file_path": "/project/3dllms/melgin/datasets/GIW/giw529subcat/AppleJuice/04_18_2024_W2_F_AppleJuice2_P_3.ply",
+        "dataset": "GIW529_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Apples@03_04_2024_S_L_ApplesLong_F_1": {
+        "prompt": "What colors are the apples described in the room?\n\nA. Ocean\nB. Mountain\nC. Desert\nD. Forest\nE. None of the above",
+        "response": "E",
+        "timestamp": "2025-11-17T11:58:57.416339",
+        "annotated_by": "User 4",
+        "original_file_path": "/project/3dllms/melgin/datasets/GIW/giw529subcat/Apples/03_04_2024_S_L_ApplesLong_F_1.ply",
+        "dataset": "GIW529_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Apples@03_04_2024_S_L_Apples_F_2": {
+        "prompt": "What colors are the apples in the pile?\n\nA. Grasshopper\nB. Microwave\nC. Roller coaster\nD. Umbrella\nE. None of the above",
+        "response": "E",
+        "timestamp": "2025-11-17T11:58:22.083724",
+        "annotated_by": "User 4",
+        "original_file_path": "/project/3dllms/melgin/datasets/GIW/giw529subcat/Apples/03_04_2024_S_L_Apples_F_2.ply",
+        "dataset": "GIW529_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Apples@03_07_2024_S_L_Apples1_F_1": {
+        "prompt": "What colors are the apples displayed in the black trays?\n\nA. Polyester\nB. Cotton\nC. Silk\nD. Leather\nE. None of the above",
+        "response": "E",
+        "timestamp": "2025-11-17T11:59:33.788432",
+        "annotated_by": "User 3",
+        "original_file_path": "/project/3dllms/melgin/datasets/GIW/giw529subcat/Apples/03_07_2024_S_L_Apples1_F_1.ply",
+        "dataset": "GIW529_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Apples@03_07_2024_S_L_Apples2_F_2": {
+        "prompt": "What colors are represented on the apples in the pile?\n\nA. Jigsaw puzzle pieces\nB. Electric circuits\nC. Marble sculptures\nD. Origami cranes\nE. None of the above",
+        "response": "E",
+        "timestamp": "2025-11-17T11:59:45.035715",
+        "annotated_by": "User 4",
+        "original_file_path": "/project/3dllms/melgin/datasets/GIW/giw529subcat/Apples/03_07_2024_S_L_Apples2_F_2.ply",
+        "dataset": "GIW529_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Apples@03_07_2024_S_L_Apples3_F_2": {
+        "prompt": "What colors are the apples described in the room?\n\nA. Quantum mechanics\nB. Ancient civilizations\nC. Modern art movements\nD. Space exploration missions\nE. None of the above",
+        "response": "E",
+        "timestamp": "2025-11-17T12:00:22.819701",
+        "annotated_by": "User 3",
+        "original_file_path": "/project/3dllms/melgin/datasets/GIW/giw529subcat/Apples/03_07_2024_S_L_Apples3_F_2.ply",
+        "dataset": "GIW529_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Apples@03_07_2024_S_L_Apples_F_2": {
+        "prompt": "What colors are the apples in the pile?\n\nA. Basketball\nB. Violin\nC. Computer\nD. Telescope\nE. None of the above",
+        "response": "E",
+        "timestamp": "2025-11-17T12:00:19.841869",
+        "annotated_by": "User 4",
+        "original_file_path": "/project/3dllms/melgin/datasets/GIW/giw529subcat/Apples/03_07_2024_S_L_Apples_F_2.ply",
+        "dataset": "GIW529_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Apples@03_13_2024_S_Co_Apples_F_2": {
+        "prompt": "What color are the blushes on the red apples?\n\nA. Jupiter\nB. Equinox\nC. Symphony\nD. Galaxy\nE. None of the above",
+        "response": "E",
+        "timestamp": "2025-11-17T12:00:52.608193",
+        "annotated_by": "User 4",
+        "original_file_path": "/project/3dllms/melgin/datasets/GIW/giw529subcat/Apples/03_13_2024_S_Co_Apples_F_2.ply",
+        "dataset": "GIW529_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Apples@03_21_2024_W_L_Apples1_F_1": {
+        "prompt": "What color are the stems of some of the apples in the pile?\n\nA. Plum\nB. Grape\nC. Banana\nD. Orange\nE. None of the above",
+        "response": "E",
+        "timestamp": "2025-11-17T12:02:16.642093",
+        "annotated_by": "User 3",
+        "original_file_path": "/project/3dllms/melgin/datasets/GIW/giw529subcat/Apples/03_21_2024_W_L_Apples1_F_1.ply",
+        "dataset": "GIW529_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Apples@03_21_2024_W_L_Apples2_F_2": {
+        "prompt": "What color are the majority of the apples described in the room?\n\nA. Ocean Blue\nB. Fiery Red\nC. Midnight Black\nD. Neon Yellow\nE. None of the above",
+        "response": "E",
+        "timestamp": "2025-11-17T12:01:14.672425",
+        "annotated_by": "User 4",
+        "original_file_path": "/project/3dllms/melgin/datasets/GIW/giw529subcat/Apples/03_21_2024_W_L_Apples2_F_2.ply",
+        "dataset": "GIW529_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Apples@03_21_2024_W_L_Apples3_F_2": {
+        "prompt": "What distinctive feature do the apples have besides their color?\n\nA. Ocean waves\nB. Mountain ranges\nC. City skylines\nD. Desert landscapes\nE. None of the above",
+        "response": "E",
+        "timestamp": "2025-11-17T12:01:49.152398",
+        "annotated_by": "User 4",
+        "original_file_path": "/project/3dllms/melgin/datasets/GIW/giw529subcat/Apples/03_21_2024_W_L_Apples3_F_2.ply",
+        "dataset": "GIW529_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Avacados@04_04_2024_W2_C_AvacadosLong1_F_1": {
+        "prompt": "What color are the cucumbers in the scene?\n\nA. Symphonic\nB. Melodic\nC. Rhythmic\nD. Harmonic\nE. None of the above",
+        "response": "E",
+        "timestamp": "2025-11-17T12:02:19.919746",
+        "annotated_by": "User 4",
+        "original_file_path": "/project/3dllms/melgin/datasets/GIW/giw529subcat/Avacados/04_04_2024_W2_C_AvacadosLong1_F_1.ply",
+        "dataset": "GIW529_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Avacados@04_04_2024_W_C_Avocados1_F_1": {
+        "prompt": "What color is the skin of the avocados in the pile?\n\nA. Mountain\nB. River\nC. Desert\nD. Ocean\nE. None of the above",
+        "response": "E",
+        "timestamp": "2025-11-17T12:02:58.449882",
+        "annotated_by": "User 3",
+        "original_file_path": "/project/3dllms/melgin/datasets/GIW/giw529subcat/Avacados/04_04_2024_W_C_Avocados1_F_1.ply",
+        "dataset": "GIW529_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "BBQSauce@03_21_2024_W_L_BBQ1_P_1": {
+        "prompt": "What is the shape of the bottles for Sweet Baby Ray's barbecue sauce?\n\nA. Jupiter's Atmosphere\nB. The Theory of Relativity\nC. Quantum Entanglement\nD. The Great Wall of China\nE. None of the above",
+        "response": "E",
+        "timestamp": "2025-11-17T12:02:50.989398",
+        "annotated_by": "User 4",
+        "original_file_path": "/project/3dllms/melgin/datasets/GIW/giw529subcat/BBQSauce/03_21_2024_W_L_BBQ1_P_1.ply",
+        "dataset": "GIW529_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Bagels@03_21_2024_W_L_Bagels1_P_1": {
+        "prompt": "What distinct features of Thomas' bagels can be identified from their packaging?\n\nA. Predominantly used in cooking techniques\nB. Commonly found in children's literature\nC. Frequently associated with marine biology\nD. Often discussed in historical documentaries\nE. None of the above",
+        "response": "E",
+        "timestamp": "2025-11-17T12:03:36.666398",
+        "annotated_by": "User 4",
+        "original_file_path": "/project/3dllms/melgin/datasets/GIW/giw529subcat/Bagels/03_21_2024_W_L_Bagels1_P_1.ply",
+        "dataset": "GIW529_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Bananas@03_04_2024_S_L_Bananas2_F_2": {
+        "prompt": "What types of fruits are included in the display along with the weighing scale?\n\nA. Velocity of light\nB. Quantum mechanics\nC. Historical events\nD. Types of music genres\nE. None of the above",
+        "response": "E",
+        "timestamp": "2025-11-17T12:03:34.837646",
+        "annotated_by": "User 3",
+        "original_file_path": "/project/3dllms/melgin/datasets/GIW/giw529subcat/Bananas/03_04_2024_S_L_Bananas2_F_2.ply",
+        "dataset": "GIW529_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Bananas@03_04_2024_S_L_Bananas_F_2": {
+        "prompt": "What color are the bananas described in the assortment of fresh produce?\n\nA. Marching band\nB. Algebraic expression\nC. Solar system\nD. Medieval literature\nE. None of the above",
+        "response": "E",
+        "timestamp": "2025-11-17T12:04:11.584702",
+        "annotated_by": "User 3",
+        "original_file_path": "/project/3dllms/melgin/datasets/GIW/giw529subcat/Bananas/03_04_2024_S_L_Bananas_F_2.ply",
+        "dataset": "GIW529_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Bananas@04_04_2024_NG_C_Bananas1_F_1": {
+        "prompt": "What color are the bands that bind the bunches of bananas?\n\nA. Kilogram\nB. Scissors\nC. Alphabet\nD. Compass\nE. None of the above",
+        "response": "E",
+        "timestamp": "2025-11-17T12:03:59.124456",
+        "annotated_by": "User 4",
+        "original_file_path": "/project/3dllms/melgin/datasets/GIW/giw529subcat/Bananas/04_04_2024_NG_C_Bananas1_F_1.ply",
+        "dataset": "GIW529_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Bananas@04_04_2024_S_C_Bananas_F_2": {
+        "prompt": "What color are the bananas described in the room?\n\nA. Euphoria\nB. Regret\nC. Curiosity\nD. Anticipation\nE. None of the above",
+        "response": "E",
+        "timestamp": "2025-11-17T12:04:23.028262",
+        "annotated_by": "User 4",
+        "original_file_path": "/project/3dllms/melgin/datasets/GIW/giw529subcat/Bananas/04_04_2024_S_C_Bananas_F_2.ply",
+        "dataset": "GIW529_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Beans@04_04_2024_W2_C_Beans_P_3": {
+        "prompt": "What is the color of the labels on the Bush's Original Baked Beans cans?\n\nA. Tropical rainforest\nB. Arctic tundra\nC. Desert plateau\nD. Urban skyline\nE. None of the above",
+        "response": "E",
+        "timestamp": "2025-11-17T12:04:59.652010",
+        "annotated_by": "User 3",
+        "original_file_path": "/project/3dllms/melgin/datasets/GIW/giw529subcat/Beans/04_04_2024_W2_C_Beans_P_3.ply",
+        "dataset": "GIW529_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Bread@04_04_2024_W2_C_Bread2_P_2": {
+        "prompt": "What types of bread are packaged in the color-coded bags?\n\nA. Jupiter\nB. Pineapple\nC. Hibernate\nD. Mosaic\nE. None of the above",
+        "response": "E",
+        "timestamp": "2025-11-17T12:05:03.152115",
+        "annotated_by": "User 4",
+        "original_file_path": "/project/3dllms/melgin/datasets/GIW/giw529subcat/Bread/04_04_2024_W2_C_Bread2_P_2.ply",
+        "dataset": "GIW529_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Bread@04_04_2024_W2_C_Bread3_P_2": {
+        "prompt": "What color are the crusts of the Sara Lee sliced bread loaves?\n\nA. Jupiter\nB. Saturn\nC. Mars\nD. Venus\nE. None of the above",
+        "response": "E",
+        "timestamp": "2025-11-17T12:05:33.350363",
+        "annotated_by": "User 3",
+        "original_file_path": "/project/3dllms/melgin/datasets/GIW/giw529subcat/Bread/04_04_2024_W2_C_Bread3_P_2.ply",
+        "dataset": "GIW529_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Bread@04_04_2024_W2_C_Bread_P_2": {
+        "prompt": "What types of bread are described in the clear plastic bags?\n\nA. Labrador Retriever\nB. Siamese Cat\nC. French Bulldog\nD. Golden Eagle\nE. None of the above",
+        "response": "E",
+        "timestamp": "2025-11-17T12:05:45.770764",
+        "annotated_by": "User 4",
+        "original_file_path": "/project/3dllms/melgin/datasets/GIW/giw529subcat/Bread/04_04_2024_W2_C_Bread_P_2.ply",
+        "dataset": "GIW529_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Broccoli@04_04_2024_S_C_Broccoli1_V_1": {
+        "prompt": "What color are the florets of the broccoli heads described?\n\nA. Gravity\nB. Friction\nC. Acceleration\nD. Motion\nE. None of the above",
+        "response": "E",
+        "timestamp": "2025-11-17T12:18:58.237459",
+        "annotated_by": "User 3",
+        "original_file_path": "/project/3dllms/melgin/datasets/GIW/giw529subcat/Broccoli/04_04_2024_S_C_Broccoli1_V_1.ply",
+        "dataset": "GIW529_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Buns@04_18_2024_W2_F_Buns1_P_1": {
+        "prompt": "What color are the crusts of the hamburger buns described?\n\nA. Rose\nB. Sapphire\nC. Emerald\nD. Topaz\nE. None of the above",
+        "response": "E",
+        "timestamp": "2025-11-17T12:19:01.313606",
+        "annotated_by": "User 4",
+        "original_file_path": "/project/3dllms/melgin/datasets/GIW/giw529subcat/Buns/04_18_2024_W2_F_Buns1_P_1.ply",
+        "dataset": "GIW529_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Cabbages@03_13_2024_S_Co_Cabbages_V_2": {
+        "prompt": "What shape do green cabbage heads predominantly exhibit?\n\nA. Plankton\nB. Coral\nC. Glacier\nD. Tornado\nE. None of the above",
+        "response": "E",
+        "timestamp": "2025-11-17T12:19:28.369039",
+        "annotated_by": "User 3",
+        "original_file_path": "/project/3dllms/melgin/datasets/GIW/giw529subcat/Cabbages/03_13_2024_S_Co_Cabbages_V_2.ply",
+        "dataset": "GIW529_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Can@03_21_2024_W_L_Cans_P_2": {
+        "prompt": "What types of products are contained in the cylindrical metal cans?\n\nA. Marshmallow fluff\nB. Rubber bands\nC. Paperclips\nD. Light bulbs\nE. None of the above",
+        "response": "E",
+        "timestamp": "2025-11-17T12:06:19.300459",
+        "annotated_by": "User 3",
+        "original_file_path": "/project/3dllms/melgin/datasets/GIW/giw529subcat/Can/03_21_2024_W_L_Cans_P_2.ply",
+        "dataset": "GIW529_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Can@03_21_2024_W_L_Peas1_P_1": {
+        "prompt": "What color is the label on the can that contains Great Value potatoes?\n\nA. Basketball\nB. Giraffe\nC. Violin\nD. Mountain\nE. None of the above",
+        "response": "E",
+        "timestamp": "2025-11-17T12:06:25.445359",
+        "annotated_by": "User 4",
+        "original_file_path": "/project/3dllms/melgin/datasets/GIW/giw529subcat/Can/03_21_2024_W_L_Peas1_P_1.ply",
+        "dataset": "GIW529_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Can@04_04_2024_W_C_Cans_P_3": {
+        "prompt": "What types of flavors are labeled on the cylindrical metal cans?\n\nA. Plate tectonics\nB. Solar eclipses\nC. Quantum physics\nD. Medieval history\nE. None of the above",
+        "response": "E",
+        "timestamp": "2025-11-17T12:06:57.508923",
+        "annotated_by": "User 3",
+        "original_file_path": "/project/3dllms/melgin/datasets/GIW/giw529subcat/Can/04_04_2024_W_C_Cans_P_3.ply",
+        "dataset": "GIW529_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Can@04_18_2024_W2_F_Cans2_P_2": {
+        "prompt": "What color are the lids on the blue and white paint cans?\n\nA. Elephant\nB. Watermelon\nC. Cinnamon\nD. Lavender\nE. None of the above",
+        "response": "E",
+        "timestamp": "2025-11-17T12:07:09.692773",
+        "annotated_by": "User 4",
+        "original_file_path": "/project/3dllms/melgin/datasets/GIW/giw529subcat/Can/04_18_2024_W2_F_Cans2_P_2.ply",
+        "dataset": "GIW529_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Candy@03_21_2024_W_L_Candy1_P_1": {
+        "prompt": "What type of sunglasses are present in the room?\n\nA. Maple Syrup\nB. Watermelon\nC. Cactus\nD. Chocolate Cake\nE. None of the above",
+        "response": "E",
+        "timestamp": "2025-11-17T12:07:42.765928",
+        "annotated_by": "User 3",
+        "original_file_path": "/project/3dllms/melgin/datasets/GIW/giw529subcat/Candy/03_21_2024_W_L_Candy1_P_1.ply",
+        "dataset": "GIW529_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Candy@03_21_2024_W_L_Candy2_P_1": {
+        "prompt": "What color are the dominant rectangular gift boxes in the display?\n\nA. Guitar\nB. Painting\nC. Violin\nD. Piano\nE. None of the above",
+        "response": "E",
+        "timestamp": "2025-11-17T12:07:59.971308",
+        "annotated_by": "User 4",
+        "original_file_path": "/project/3dllms/melgin/datasets/GIW/giw529subcat/Candy/03_21_2024_W_L_Candy2_P_1.ply",
+        "dataset": "GIW529_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Candy@03_21_2024_W_L_Candy2_P_2": {
+        "prompt": "Which color bag corresponds to the Milk Chocolate variety of M&M's candy?\n\nA. Mercury\nB. Jupiter\nC. Saturn\nD. Neptune\nE. None of the above",
+        "response": "E",
+        "timestamp": "2025-11-17T12:08:40.881227",
+        "annotated_by": "User 3",
+        "original_file_path": "/project/3dllms/melgin/datasets/GIW/giw529subcat/Candy/03_21_2024_W_L_Candy2_P_2.ply",
+        "dataset": "GIW529_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Candy@03_21_2024_W_L_Candy_P_2": {
+        "prompt": "What colors are prominently featured on the Starburst candy bags?\n\nA. Jupiter and Saturn\nB. Hydrogen and Oxygen\nC. Mercury and Venus\nD. Earth and Mars\nE. None of the above",
+        "response": "E",
+        "timestamp": "2025-11-17T12:08:42.791339",
+        "annotated_by": "User 4",
+        "original_file_path": "/project/3dllms/melgin/datasets/GIW/giw529subcat/Candy/03_21_2024_W_L_Candy_P_2.ply",
+        "dataset": "GIW529_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Cereal@03_21_2024_W_L_Cereal1_P_1": {
+        "prompt": "What color is one of the cereal boxes described?\n\nA. Octopus\nB. Marathon\nC. Galaxy\nD. Sandcastle\nE. None of the above",
+        "response": "E",
+        "timestamp": "2025-11-17T12:19:35.163694",
+        "annotated_by": "User 4",
+        "original_file_path": "/project/3dllms/melgin/datasets/GIW/giw529subcat/Cereal/03_21_2024_W_L_Cereal1_P_1.ply",
+        "dataset": "GIW529_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Chilli@04_18_2024_W3_F_Chilli_P_3": {
+        "prompt": "What types of containers are prominently displayed in the described arrangement?\n\nA. Voltage\nB. Frequency\nC. Amperage\nD. Resistance\nE. None of the above",
+        "response": "E",
+        "timestamp": "2025-11-17T12:20:07.915824",
+        "annotated_by": "User 3",
+        "original_file_path": "/project/3dllms/melgin/datasets/GIW/giw529subcat/Chilli/04_18_2024_W3_F_Chilli_P_3.ply",
+        "dataset": "GIW529_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Chips@03_21_2024_W_L_Chips1_P_1": {
+        "prompt": "What designs are featured on the fronts of the colorful plastic snack bags?\n\nA. Quantum theory applications\nB. Evolution of classical music\nC. Historical events of the 18th century\nD. Types of celestial bodies\nE. None of the above",
+        "response": "E",
+        "timestamp": "2025-11-17T12:09:16.480427",
+        "annotated_by": "User 3",
+        "original_file_path": "/project/3dllms/melgin/datasets/GIW/giw529subcat/Chips/03_21_2024_W_L_Chips1_P_1.ply",
+        "dataset": "GIW529_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Chips@03_21_2024_W_L_Chips_P_2": {
+        "prompt": "What colors are the Tostitos tortilla chip bags in the scene?\n\nA. Jupiter\nB. Beethoven\nC. Quantum mechanics\nD. Renaissance art\nE. None of the above",
+        "response": "E",
+        "timestamp": "2025-11-17T12:09:27.451184",
+        "annotated_by": "User 4",
+        "original_file_path": "/project/3dllms/melgin/datasets/GIW/giw529subcat/Chips/03_21_2024_W_L_Chips_P_2.ply",
+        "dataset": "GIW529_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Chips@04_04_2024_NG_C_Chips_P_2": {
+        "prompt": "What colors are primarily featured on some of the popcorn snack bags?\n\nA. Elephant\nB. Guitar\nC. Symphony\nD. Moonlight\nE. None of the above",
+        "response": "E",
+        "timestamp": "2025-11-17T12:09:54.973775",
+        "annotated_by": "User 3",
+        "original_file_path": "/project/3dllms/melgin/datasets/GIW/giw529subcat/Chips/04_04_2024_NG_C_Chips_P_2.ply",
+        "dataset": "GIW529_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Chips@04_04_2024_S_C_Chips1_P_1": {
+        "prompt": "What colors are represented in the snack bags described in the room?\n\nA. Elephant\nB. Giraffe\nC. Dolphin\nD. Cactus\nE. None of the above",
+        "response": "E",
+        "timestamp": "2025-11-17T12:09:59.040381",
+        "annotated_by": "User 4",
+        "original_file_path": "/project/3dllms/melgin/datasets/GIW/giw529subcat/Chips/04_04_2024_S_C_Chips1_P_1.ply",
+        "dataset": "GIW529_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Chips@04_04_2024_S_C_Chips2_P_1": {
+        "prompt": "What types of snacks are prominently featured in the colorful tall bags?\n\nA. Friction\nB. Combustion\nC. Evaporation\nD. Condensation\nE. None of the above",
+        "response": "E",
+        "timestamp": "2025-11-17T12:10:38.220401",
+        "annotated_by": "User 3",
+        "original_file_path": "/project/3dllms/melgin/datasets/GIW/giw529subcat/Chips/04_04_2024_S_C_Chips2_P_1.ply",
+        "dataset": "GIW529_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Chips@04_04_2024_S_C_Chips2_P_2": {
+        "prompt": "What colors are represented in the collection of potato chip bags?\n\nA. Jupiter\nB. Chlorophyll\nC. Quartz\nD. Hydrogen\nE. None of the above",
+        "response": "E",
+        "timestamp": "2025-11-17T12:10:46.570675",
+        "annotated_by": "User 4",
+        "original_file_path": "/project/3dllms/melgin/datasets/GIW/giw529subcat/Chips/04_04_2024_S_C_Chips2_P_2.ply",
+        "dataset": "GIW529_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Chips@04_04_2024_S_C_Chips3_P_1": {
+        "prompt": "What color are the bags of Tostitos tortilla chips?\n\nA. Elephant\nB. Raspberry\nC. Cactus\nD. Marble\nE. None of the above",
+        "response": "E",
+        "timestamp": "2025-11-17T12:11:07.707281",
+        "annotated_by": "User 3",
+        "original_file_path": "/project/3dllms/melgin/datasets/GIW/giw529subcat/Chips/04_04_2024_S_C_Chips3_P_1.ply",
+        "dataset": "GIW529_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Chips@04_04_2024_S_C_Chips3_P_2": {
+        "prompt": "What color can be found on the packaging of the Barbecue flavor Lay's potato chips?\n\nA. History\nB. Mathematics\nC. Astronomy\nD. Geography\nE. None of the above",
+        "response": "E",
+        "timestamp": "2025-11-17T12:11:43.040518",
+        "annotated_by": "User 4",
+        "original_file_path": "/project/3dllms/melgin/datasets/GIW/giw529subcat/Chips/04_04_2024_S_C_Chips3_P_2.ply",
+        "dataset": "GIW529_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "ChipsSalsa@04_18_2024_W_F_Salsa_P_3": {
+        "prompt": "What colors are the labels on the glass jars?\n\nA. Beethoven's Symphonies\nB. Quantum Mechanics\nC. Renaissance Art\nD. Tropical Rainforests\nE. None of the above",
+        "response": "E",
+        "timestamp": "2025-11-17T12:20:12.700012",
+        "annotated_by": "User 4",
+        "original_file_path": "/project/3dllms/melgin/datasets/GIW/giw529subcat/ChipsSalsa/04_18_2024_W_F_Salsa_P_3.ply",
+        "dataset": "GIW529_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Coconuts@03_21_2024_W_L_Coconuts1_F_1": {
+        "prompt": "What is the shape of the brown coconuts described?\n\nA. Circle\nB. Square\nC. Triangle\nD. Rectangle\nE. None of the above",
+        "response": "E",
+        "timestamp": "2025-11-17T12:20:37.877629",
+        "annotated_by": "User 3",
+        "original_file_path": "/project/3dllms/melgin/datasets/GIW/giw529subcat/Coconuts/03_21_2024_W_L_Coconuts1_F_1.ply",
+        "dataset": "GIW529_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Coffee@03_21_2024_W_L_Coffee1_P_1": {
+        "prompt": "What colors are the packaging of the coffee boxes displayed in the room?\n\nA. Main Sequence\nB. Black Hole\nC. Red Giant\nD. Supernova\nE. None of the above",
+        "response": "E",
+        "timestamp": "2025-11-17T12:11:35.734090",
+        "annotated_by": "User 3",
+        "original_file_path": "/project/3dllms/melgin/datasets/GIW/giw529subcat/Coffee/03_21_2024_W_L_Coffee1_P_1.ply",
+        "dataset": "GIW529_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Coffee@03_21_2024_W_L_Coffee2_P_2": {
+        "prompt": "What colors are the coffee canisters and jars described in the room?\n\nA. Blue whale\nB. Golden retriever\nC. Desert cactus\nD. Tropical rainforest\nE. None of the above",
+        "response": "E",
+        "timestamp": "2025-11-17T12:12:28.489933",
+        "annotated_by": "User 3",
+        "original_file_path": "/project/3dllms/melgin/datasets/GIW/giw529subcat/Coffee/03_21_2024_W_L_Coffee2_P_2.ply",
+        "dataset": "GIW529_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Coffee@03_21_2024_W_L_Coffee_P_2": {
+        "prompt": "What color are the travel mugs mentioned in the description?\n\nA. Mountain Range\nB. Ocean Depths\nC. Forest Canopy\nD. Desert Sunrise\nE. None of the above",
+        "response": "E",
+        "timestamp": "2025-11-17T12:12:14.374962",
+        "annotated_by": "User 4",
+        "original_file_path": "/project/3dllms/melgin/datasets/GIW/giw529subcat/Coffee/03_21_2024_W_L_Coffee_P_2.ply",
+        "dataset": "GIW529_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Coffee@04_04_2024_S_C_Coffee2_P_3": {
+        "prompt": "What type of products are typically packaged in the described bags?\n\nA. Laptops\nB. Kitchen appliances\nC. Camping gear\nD. Musical instruments\nE. None of the above",
+        "response": "E",
+        "timestamp": "2025-11-17T12:13:11.054717",
+        "annotated_by": "User 4",
+        "original_file_path": "/project/3dllms/melgin/datasets/GIW/giw529subcat/Coffee/04_04_2024_S_C_Coffee2_P_3.ply",
+        "dataset": "GIW529_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Corn@04_04_2024_W_C_Corn1_F_1": {
+        "prompt": "What color are the tips of the husks on the corn ears?\n\nA. Mountain\nB. Ocean\nC. Desert\nD. Forest\nE. None of the above",
+        "response": "E",
+        "timestamp": "2025-11-17T12:13:07.321754",
+        "annotated_by": "User 3",
+        "original_file_path": "/project/3dllms/melgin/datasets/GIW/giw529subcat/Corn/04_04_2024_W_C_Corn1_F_1.ply",
+        "dataset": "GIW529_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Cucumbers@03_21_2024_W_L_Cucumbers_F_2": {
+        "prompt": "What is the shape of the cucumbers described?\n\nA. Binary star system\nB. Quantum entanglement\nC. Genetic mutation\nD. Tectonic plate movement\nE. None of the above",
+        "response": "E",
+        "timestamp": "2025-11-17T12:13:40.473909",
+        "annotated_by": "User 3",
+        "original_file_path": "/project/3dllms/melgin/datasets/GIW/giw529subcat/Cucumbers/03_21_2024_W_L_Cucumbers_F_2.ply",
+        "dataset": "GIW529_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Cucumbers@04_04_2024_W2_C_Cucumbers1_V_1": {
+        "prompt": "What is the typical appearance of green cucumbers as described?\n\nA. Solid metal gray\nB. Bright neon orange\nC. Textured purple silk\nD. Radiant teal gemstone\nE. None of the above",
+        "response": "E",
+        "timestamp": "2025-11-17T12:13:45.365706",
+        "annotated_by": "User 4",
+        "original_file_path": "/project/3dllms/melgin/datasets/GIW/giw529subcat/Cucumbers/04_04_2024_W2_C_Cucumbers1_V_1.ply",
+        "dataset": "GIW529_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Dressings@04_18_2024_W2_F_Dressing_P_2": {
+        "prompt": "What is the color of the caps on the condiment bottles described?\n\nA. Jazz music\nB. Classical literature\nC. Quantum physics\nD. Ancient civilizations\nE. None of the above",
+        "response": "E",
+        "timestamp": "2025-11-17T12:20:44.373953",
+        "annotated_by": "User 4",
+        "original_file_path": "/project/3dllms/melgin/datasets/GIW/giw529subcat/Dressings/04_18_2024_W2_F_Dressing_P_2.ply",
+        "dataset": "GIW529_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Drinks@03_21_2024_W_L_Drinks_P_2": {
+        "prompt": "What feature is common among the hydration bottles described?\n\nA. Quantum entanglement\nB. Solar flares\nC. Gravitational waves\nD. Black holes\nE. None of the above",
+        "response": "E",
+        "timestamp": "2025-11-17T12:21:12.627728",
+        "annotated_by": "User 3",
+        "original_file_path": "/project/3dllms/melgin/datasets/GIW/giw529subcat/Drinks/03_21_2024_W_L_Drinks_P_2.ply",
+        "dataset": "GIW529_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "EnergyDrinks@03_04_2024_S_L_EnergyDrinks_P_1": {
+        "prompt": "What is the size of the jugs described?\n\nA. Quadratic equation\nB. Newton's third law\nC. Photosynthesis process\nD. Quantum mechanics theory\nE. None of the above",
+        "response": "E",
+        "timestamp": "2025-11-17T12:14:07.932506",
+        "annotated_by": "User 3",
+        "original_file_path": "/project/3dllms/melgin/datasets/GIW/giw529subcat/EnergyDrinks/03_04_2024_S_L_EnergyDrinks_P_1.ply",
+        "dataset": "GIW529_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Flour@04_04_2024_W2_C_Flour_P_3": {
+        "prompt": "What color are the standout bags that feature the \"Gold Medal\" logo for All-Purpose Flour?\n\nA. Maple syrup\nB. Cucumber\nC. Grapefruit\nD. Quicksand\nE. None of the above",
+        "response": "E",
+        "timestamp": "2025-11-17T12:14:28.244118",
+        "annotated_by": "User 4",
+        "original_file_path": "/project/3dllms/melgin/datasets/GIW/giw529subcat/Flour/04_04_2024_W2_C_Flour_P_3.ply",
+        "dataset": "GIW529_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Flour@04_04_2024_W_C_Flour_P_2": {
+        "prompt": "What colors are the flour bags displayed in the room?\n\nA. Triangle\nB. Rectangle\nC. Circle\nD. Square\nE. None of the above",
+        "response": "E",
+        "timestamp": "2025-11-17T12:14:51.352530",
+        "annotated_by": "User 3",
+        "original_file_path": "/project/3dllms/melgin/datasets/GIW/giw529subcat/Flour/04_04_2024_W_C_Flour_P_2.ply",
+        "dataset": "GIW529_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "FruitCans@04_18_2024_W3_F_CanFruits_P_3": {
+        "prompt": "What color are the lids of the cans and jars on the supermarket shelf?\n\nA. Apple pie\nB. Chocolate chip\nC. Vanilla bean\nD. Coconut cream\nE. None of the above",
+        "response": "E",
+        "timestamp": "2025-11-26T06:51:52.512258",
+        "annotated_by": "User 1",
+        "original_file_path": "/project/3dllms/melgin/datasets/GIW/giw529subcat/FruitCans/04_18_2024_W3_F_CanFruits_P_3.ply",
+        "dataset": "GIW529_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Garlic@04_04_2024_W_C_Garlic1_V_1": {
+        "prompt": "What shape are the garlic bulbs described?\n\nA. Circular orbit\nB. Equatorial diameter\nC. Molecular structure\nD. Tectonic plates\nE. None of the above",
+        "response": "E",
+        "timestamp": "2025-11-17T12:21:43.780458",
+        "annotated_by": "User 3",
+        "original_file_path": "/project/3dllms/melgin/datasets/GIW/giw529subcat/Garlic/04_04_2024_W_C_Garlic1_V_1.ply",
+        "dataset": "GIW529_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Gatorade@03_04_2024_S_L_Gatorade_P_2": {
+        "prompt": "What type of lids do some plastic sport-drink bottles feature?\n\nA. Chocolate\nB. Lavender\nC. Horizon\nD. Mountain\nE. None of the above",
+        "response": "E",
+        "timestamp": "2025-11-17T12:22:20.045243",
+        "annotated_by": "User 3",
+        "original_file_path": "/project/3dllms/melgin/datasets/GIW/giw529subcat/Gatorade/03_04_2024_S_L_Gatorade_P_2.ply",
+        "dataset": "GIW529_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Gourds@03_21_2024_W_L_Gourds1_F_1": {
+        "prompt": "What shape are the melons described in the room?\n\nA. Pineapple\nB. Blueberry\nC. Strawberry\nD. Raspberry\nE. None of the above",
+        "response": "E",
+        "timestamp": "2025-11-17T12:14:56.064880",
+        "annotated_by": "User 4",
+        "original_file_path": "/project/3dllms/melgin/datasets/GIW/giw529subcat/Gourds/03_21_2024_W_L_Gourds1_F_1.ply",
+        "dataset": "GIW529_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "GranolaBars@04_04_2024_W_C_GranolaBars2_P_2": {
+        "prompt": "What color is the packaging of the Made Good Chocolate Drizzled Granola Bars?\n\nA. Jupiter\nB. Neptune\nC. Saturn\nD. Mars\nE. None of the above",
+        "response": "E",
+        "timestamp": "2025-11-17T12:22:53.614357",
+        "annotated_by": "User 3",
+        "original_file_path": "/project/3dllms/melgin/datasets/GIW/giw529subcat/GranolaBars/04_04_2024_W_C_GranolaBars2_P_2.ply",
+        "dataset": "GIW529_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "GrapeFruits@03_07_2024_S_L_GrapeFruits1_F_1": {
+        "prompt": "What type of fruit is arranged in a pyramid on a tray?\n\nA. Cactus\nB. Oak tree\nC. Eclipse\nD. Symphony\nE. None of the above",
+        "response": "E",
+        "timestamp": "2025-11-17T12:15:23.204613",
+        "annotated_by": "User 3",
+        "original_file_path": "/project/3dllms/melgin/datasets/GIW/giw529subcat/GrapeFruits/03_07_2024_S_L_GrapeFruits1_F_1.ply",
+        "dataset": "GIW529_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "GrapeFruits@04_04_2024_W2_C_Grapefruits1_F_1": {
+        "prompt": "What color are the stickers that may be found on the skin of grapefruits?\n\nA. Elephant\nB. Galaxy\nC. Volcano\nD. Symphony\nE. None of the above",
+        "response": "E",
+        "timestamp": "2025-11-17T12:15:25.040120",
+        "annotated_by": "User 4",
+        "original_file_path": "/project/3dllms/melgin/datasets/GIW/giw529subcat/GrapeFruits/04_04_2024_W2_C_Grapefruits1_F_1.ply",
+        "dataset": "GIW529_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Greens@03_04_2024_S_L_Greens1_V_1": {
+        "prompt": "What type of vegetable is arranged with leafy tops among the fresh organic vegetables?\n\nA. Galaxy\nB. Computer\nC. Waterfall\nD. Circus\nE. None of the above",
+        "response": "E",
+        "timestamp": "2025-11-17T12:16:14.823253",
+        "annotated_by": "User 3",
+        "original_file_path": "/project/3dllms/melgin/datasets/GIW/giw529subcat/Greens/03_04_2024_S_L_Greens1_V_1.ply",
+        "dataset": "GIW529_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Greens@03_04_2024_S_L_Greens2_V_1": {
+        "prompt": "What type of produce is the brightest in the display?\n\nA. Hydrogen\nB. Jupiter\nC. Quantum\nD. Neutron\nE. None of the above",
+        "response": "E",
+        "timestamp": "2025-11-17T12:16:06.816254",
+        "annotated_by": "User 4",
+        "original_file_path": "/project/3dllms/melgin/datasets/GIW/giw529subcat/Greens/03_04_2024_S_L_Greens2_V_1.ply",
+        "dataset": "GIW529_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Greens@03_04_2024_S_L_Greens_V_2": {
+        "prompt": "What type of vegetable is described as having glossy smooth skin and lobed shoulders?\n\nA. Marsupial\nB. Reptile\nC. Amphibian\nD. Mammal\nE. None of the above",
+        "response": "E",
+        "timestamp": "2025-11-17T12:16:48.729206",
+        "annotated_by": "User 4",
+        "original_file_path": "/project/3dllms/melgin/datasets/GIW/giw529subcat/Greens/03_04_2024_S_L_Greens_V_2.ply",
+        "dataset": "GIW529_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Greens@04_04_2024_S_C_Greens_V_2": {
+        "prompt": "What type of vegetable in the collection has thick pale stalks and broad glossy leaves?\n\nA. Blue Whale\nB. Giant Sequoia\nC. Great Barrier Reef\nD. Eiffel Tower\nE. None of the above",
+        "response": "E",
+        "timestamp": "2025-11-17T12:17:00.557583",
+        "annotated_by": "User 3",
+        "original_file_path": "/project/3dllms/melgin/datasets/GIW/giw529subcat/Greens/04_04_2024_S_C_Greens_V_2.ply",
+        "dataset": "GIW529_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Honey@03_21_2024_W_L_Honey1_P_1": {
+        "prompt": "What types of containers are included in the assortment of honey?\n\nA. Sapphire\nB. Aqueduct\nC. Symphony\nD. Telescope\nE. None of the above",
+        "response": "E",
+        "timestamp": "2025-11-17T12:23:22.453460",
+        "annotated_by": "User 3",
+        "original_file_path": "/project/3dllms/melgin/datasets/GIW/giw529subcat/Honey/03_21_2024_W_L_Honey1_P_1.ply",
+        "dataset": "GIW529_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Jam@03_21_2024_W_L_Jam1_P_1": {
+        "prompt": "What colors are represented by the glass jars of jam and jelly in the room?\n\nA. Algebraic expressions\nB. Frictionless surfaces\nC. Exponential growth\nD. Quantum mechanics\nE. None of the above",
+        "response": "E",
+        "timestamp": "2025-11-17T12:17:21.162198",
+        "annotated_by": "User 4",
+        "original_file_path": "/project/3dllms/melgin/datasets/GIW/giw529subcat/Jam/03_21_2024_W_L_Jam1_P_1.ply",
+        "dataset": "GIW529_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Juices@03_04_2024_S_L_Juices_P_2": {
+        "prompt": "What type of containers are primarily found in the described room?\n\nA. Cactus pot\nB. Honey jar\nC. Traffic cone\nD. Ice cream tub\nE. None of the above",
+        "response": "E",
+        "timestamp": "2025-11-17T12:17:35.500941",
+        "annotated_by": "User 3",
+        "original_file_path": "/project/3dllms/melgin/datasets/GIW/giw529subcat/Juices/03_04_2024_S_L_Juices_P_2.ply",
+        "dataset": "GIW529_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Juices@04_04_2024_W2_C_Juice_P_2": {
+        "prompt": "What can be observed about the beverage containers in terms of their appearance?\n\nA. Gravity effects on celestial bodies\nB. Chemical reactions in cooking\nC. Historical events of the 20th century\nD. Phases of the moon\nE. None of the above",
+        "response": "E",
+        "timestamp": "2025-11-17T12:17:54.546231",
+        "annotated_by": "User 4",
+        "original_file_path": "/project/3dllms/melgin/datasets/GIW/giw529subcat/Juices/04_04_2024_W2_C_Juice_P_2.ply",
+        "dataset": "GIW529_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Ketchup@04_04_2024_S_C_Ketchup_P_2": {
+        "prompt": "What is the color of the cap on the large pale-yellow Dijon mustard bottle?\n\nA. Octopus\nB. Kettle\nC. Granola\nD. Telescope\nE. None of the above",
+        "response": "E",
+        "timestamp": "2025-11-17T12:18:15.805285",
+        "annotated_by": "User 3",
+        "original_file_path": "/project/3dllms/melgin/datasets/GIW/giw529subcat/Ketchup/04_04_2024_S_C_Ketchup_P_2.ply",
+        "dataset": "GIW529_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Lemons@04_18_2024_W_F_Lemons1_F_1": {
+        "prompt": "What color are the lemons in the dense pile of fruit?\n\nA. Desktop wallpaper\nB. Wi-Fi frequency\nC. Coffee brewing time\nD. Tennis racket grip\nE. None of the above",
+        "response": "e",
+        "timestamp": "2025-11-17T09:08:44.689882",
+        "annotated_by": "User 5",
+        "original_file_path": "/project/3dllms/melgin/datasets/GIW/giw529subcat/Lemons/04_18_2024_W_F_Lemons1_F_1.ply",
+        "dataset": "GIW529_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Lemons@04_19_2024_W4_F_Lemons1_F_1": {
+        "prompt": "What is the primary color of the lemons described?\n\nA. Basketball\nB. Violin\nC. Airplane\nD. Telescope\nE. None of the above",
+        "response": "e",
+        "timestamp": "2025-11-17T09:09:08.663532",
+        "annotated_by": "User 5",
+        "original_file_path": "/project/3dllms/melgin/datasets/GIW/giw529subcat/Lemons/04_19_2024_W4_F_Lemons1_F_1.ply",
+        "dataset": "GIW529_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Lime@04_18_2024_W_F_Limes1_F_1": {
+        "prompt": "What is the shape of the limes described?\n\nA. Rectangle\nB. Triangle\nC. Oval\nD. Hexagon\nE. None of the above",
+        "response": "C",
+        "timestamp": "2025-11-14T16:55:37.823529",
+        "annotated_by": "User 1",
+        "original_file_path": "/project/3dllms/melgin/datasets/GIW/giw529subcat/Lime/04_18_2024_W_F_Limes1_F_1.ply",
+        "dataset": "GIW529_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Mangoes@04_18_2024_W3_F_Mangoes1_F_1": {
+        "prompt": "What shape are the mangoes described in the container?\n\nA. Cloud\nB. Mountain\nC. River\nD. Desert\nE. None of the above",
+        "response": "e",
+        "timestamp": "2025-11-17T09:09:35.409338",
+        "annotated_by": "User 5",
+        "original_file_path": "/project/3dllms/melgin/datasets/GIW/giw529subcat/Mangoes/04_18_2024_W3_F_Mangoes1_F_1.ply",
+        "dataset": "GIW529_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Mangoes@04_18_2024_W_F_Mangoes1_F_1": {
+        "prompt": "What shape do mangoes have?\n\nA. Quantum mechanics\nB. Supernova\nC. Photosynthesis\nD. Chromatography\nE. None of the above",
+        "response": "E",
+        "timestamp": "2025-11-17T11:42:43.282896",
+        "annotated_by": "User 4",
+        "original_file_path": "/project/3dllms/melgin/datasets/GIW/giw529subcat/Mangoes/04_18_2024_W_F_Mangoes1_F_1.ply",
+        "dataset": "GIW529_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Mayo@04_19_2024_S2_F_Mayo_P_2": {
+        "prompt": "What colors are the lids of the mayonnaise jars on the shelf?\n\nA. Jupiter\nB. Quasar\nC. Neutron star\nD. Black hole\nE. None of the above",
+        "response": "e",
+        "timestamp": "2025-11-17T09:21:27.283699",
+        "annotated_by": "User 5",
+        "original_file_path": "/project/3dllms/melgin/datasets/GIW/giw529subcat/Mayo/04_19_2024_S2_F_Mayo_P_2.ply",
+        "dataset": "GIW529_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Melons@04_19_2024_S2_F_Melons1_F_1": {
+        "prompt": "What is the surface texture of a watermelon rind?\n\nA. Elastic potential energy\nB. Kinetic friction\nC. Gravitational pull\nD. Thermal conductivity\nE. None of the above",
+        "response": "e",
+        "timestamp": "2025-11-14T17:06:41.885188",
+        "annotated_by": "User 5",
+        "original_file_path": "/project/3dllms/melgin/datasets/GIW/giw529subcat/Melons/04_19_2024_S2_F_Melons1_F_1.ply",
+        "dataset": "GIW529_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Melons@04_19_2024_S_F_Melons_F_2": {
+        "prompt": "What type of fruit is described as having rough diamond-pattern skin and spiky green leaves?\n\nA. Algebraic expressions\nB. Quantum mechanics\nC. Medieval architecture\nD. Solar energy systems\nE. None of the above",
+        "response": "e",
+        "timestamp": "2025-11-17T09:22:21.835702",
+        "annotated_by": "User 5",
+        "original_file_path": "/project/3dllms/melgin/datasets/GIW/giw529subcat/Melons/04_19_2024_S_F_Melons_F_2.ply",
+        "dataset": "GIW529_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Melons@04_19_2024_W4_F_Melons1_F_1": {
+        "prompt": "What type of fruit is described as having tan, netted rinds and is typically round to slightly oval in shape?\n\nA. Football\nB. Violin\nC. Spaceship\nD. Compass\nE. None of the above",
+        "response": "e",
+        "timestamp": "2025-11-17T09:23:35.084075",
+        "annotated_by": "User 5",
+        "original_file_path": "/project/3dllms/melgin/datasets/GIW/giw529subcat/Melons/04_19_2024_W4_F_Melons1_F_1.ply",
+        "dataset": "GIW529_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Melons@04_19_2024_W4_F_Watermelons1_F_1": {
+        "prompt": "What is the primary color of the rind of a watermelon?\n\nA. Algebra\nB. Quantum mechanics\nC. Renaissance art\nD. World geography\nE. None of the above",
+        "response": "e",
+        "timestamp": "2025-11-17T09:24:03.320916",
+        "annotated_by": "User 5",
+        "original_file_path": "/project/3dllms/melgin/datasets/GIW/giw529subcat/Melons/04_19_2024_W4_F_Watermelons1_F_1.ply",
+        "dataset": "GIW529_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "MultiFruits@04_04_2024_W_C_FruitsLong1_F_1": {
+        "prompt": "What type of fruit is described as having a rough, diamond-patterned rind and spiky leafy crowns?\n\nA. Vintage\nB. Abstract\nC. Minimalist\nD. Renaissance\nE. None of the above",
+        "response": "e",
+        "timestamp": "2025-11-17T09:24:23.396299",
+        "annotated_by": "User 5",
+        "original_file_path": "/project/3dllms/melgin/datasets/GIW/giw529subcat/MultiFruits/04_04_2024_W_C_FruitsLong1_F_1.ply",
+        "dataset": "GIW529_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "MultiFruits@04_19_2024_S_F_Fruits1_F_1": {
+        "prompt": "What colors of fruit are included in the assortment described?\n\nA. Tiger stripes\nB. Electric blue\nC. Circular reasoning\nD. Quantum entanglement\nE. None of the above",
+        "response": "e",
+        "timestamp": "2025-11-17T09:24:52.768959",
+        "annotated_by": "User 5",
+        "original_file_path": "/project/3dllms/melgin/datasets/GIW/giw529subcat/MultiFruits/04_19_2024_S_F_Fruits1_F_1.ply",
+        "dataset": "GIW529_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Nectarines@04_19_2024_W4_F_Nectarines1_F_1": {
+        "prompt": "What type of fruit is described in the pile?\n\nA. Hammer\nB. Drill\nC. Wrench\nD. Screwdriver\nE. None of the above",
+        "response": "e",
+        "timestamp": "2025-11-17T09:25:24.014373",
+        "annotated_by": "User 5",
+        "original_file_path": "/project/3dllms/melgin/datasets/GIW/giw529subcat/Nectarines/04_19_2024_W4_F_Nectarines1_F_1.ply",
+        "dataset": "GIW529_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Nuts@04_18_2024_W3_F_Nuts_P_2": {
+        "prompt": "What color are the lids of the Planters jars and tins?\n\nA. Dolphin\nB. Cactus\nC. Octopus\nD. Volcano\nE. None of the above",
+        "response": "e",
+        "timestamp": "2025-11-17T09:25:42.585631",
+        "annotated_by": "User 5",
+        "original_file_path": "/project/3dllms/melgin/datasets/GIW/giw529subcat/Nuts/04_18_2024_W3_F_Nuts_P_2.ply",
+        "dataset": "GIW529_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Nuts@04_18_2024_W_F_Nuts1_P_1": {
+        "prompt": "What color are the cylindrical cans in the collection?\n\nA. Coniferous\nB. Terrestrial\nC. Aquatic\nD. Celestial\nE. None of the above",
+        "response": "e",
+        "timestamp": "2025-11-17T09:26:01.949728",
+        "annotated_by": "User 5",
+        "original_file_path": "/project/3dllms/melgin/datasets/GIW/giw529subcat/Nuts/04_18_2024_W_F_Nuts1_P_1.ply",
+        "dataset": "GIW529_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Oil@04_18_2024_W_F_Oil_P_3": {
+        "prompt": "What color are the screw-on caps of the bottles filled with cooking oil?\n\nA. Python\nB. Quantum\nC. Atmosphere\nD. Renaissance\nE. None of the above",
+        "response": "e",
+        "timestamp": "2025-11-17T09:26:32.088484",
+        "annotated_by": "User 5",
+        "original_file_path": "/project/3dllms/melgin/datasets/GIW/giw529subcat/Oil/04_18_2024_W_F_Oil_P_3.ply",
+        "dataset": "GIW529_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Oil@04_19_2024_W_F_Oils_P_2": {
+        "prompt": "What is the color of the liquid contained in the translucent plastic bottles?\n\nA. Mountain Range\nB. Vintage Postcards\nC. Ocean Waves\nD. Video Game Characters\nE. None of the above",
+        "response": "e",
+        "timestamp": "2025-11-17T09:27:07.837002",
+        "annotated_by": "User 5",
+        "original_file_path": "/project/3dllms/melgin/datasets/GIW/giw529subcat/Oil/04_19_2024_W_F_Oils_P_2.ply",
+        "dataset": "GIW529_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "OliveOil@04_19_2024_S_F_OliveOil_P_3": {
+        "prompt": "What is the predominant material of the cooking-oil bottles described?\n\nA. Vitamin C\nB. Iron Ore\nC. Phosphorus\nD. Helium\nE. None of the above",
+        "response": "e",
+        "timestamp": "2025-11-17T09:27:32.551849",
+        "annotated_by": "User 5",
+        "original_file_path": "/project/3dllms/melgin/datasets/GIW/giw529subcat/OliveOil/04_19_2024_S_F_OliveOil_P_3.ply",
+        "dataset": "GIW529_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Onions@04_19_2024_S2_F_Onions1_V_1": {
+        "prompt": "What color are the skins of the onions in the pile?\n\nA. Jupiter's atmosphere\nB. Pacific Ocean currents\nC. The Great Wall of China\nD. Mars rover technology\nE. None of the above",
+        "response": "e",
+        "timestamp": "2025-11-17T09:28:06.188915",
+        "annotated_by": "User 5",
+        "original_file_path": "/project/3dllms/melgin/datasets/GIW/giw529subcat/Onions/04_19_2024_S2_F_Onions1_V_1.ply",
+        "dataset": "GIW529_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Onions@04_19_2024_S2_F_Onions2_V_1": {
+        "prompt": "Which of the following best describes the appearance of the white onions?\n\nA. Mercury\nB. Calcium\nC. Silicon\nD. Iron\nE. None of the above",
+        "response": "e",
+        "timestamp": "2025-11-17T09:28:33.510302",
+        "annotated_by": "User 5",
+        "original_file_path": "/project/3dllms/melgin/datasets/GIW/giw529subcat/Onions/04_19_2024_S2_F_Onions2_V_1.ply",
+        "dataset": "GIW529_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Onions@04_19_2024_S2_F_Onions3_V_1": {
+        "prompt": "What types of squash are present in the assortment described?\n\nA. Pineapple variety\nB. Orange juice flavor\nC. Chocolate mousse\nD. Vanilla extract\nE. None of the above",
+        "response": "e",
+        "timestamp": "2025-11-17T09:29:22.291192",
+        "annotated_by": "User 5",
+        "original_file_path": "/project/3dllms/melgin/datasets/GIW/giw529subcat/Onions/04_19_2024_S2_F_Onions3_V_1.ply",
+        "dataset": "GIW529_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Onions@04_19_2024_W4_F_Onions2_V_1": {
+        "prompt": "What color are the skins of white onions described in the room?\n\nA. Jupiter\nB. Saturn\nC. Mars\nD. Venus\nE. None of the above",
+        "response": "e",
+        "timestamp": "2025-11-17T09:29:41.802121",
+        "annotated_by": "User 5",
+        "original_file_path": "/project/3dllms/melgin/datasets/GIW/giw529subcat/Onions/04_19_2024_W4_F_Onions2_V_1.ply",
+        "dataset": "GIW529_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Onions@04_19_2024_W4_F_RedOnions1_V_1": {
+        "prompt": "What is the primary color of the skins of the onions described?\n\nA. Basketball\nB. Notebook\nC. Guitar\nD. Sunglasses\nE. None of the above",
+        "response": "e",
+        "timestamp": "2025-11-17T09:30:27.403281",
+        "annotated_by": "User 5",
+        "original_file_path": "/project/3dllms/melgin/datasets/GIW/giw529subcat/Onions/04_19_2024_W4_F_RedOnions1_V_1.ply",
+        "dataset": "GIW529_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Orange@04_18_2024_W_F_Oranges1_F_1": {
+        "prompt": "What is the color of the oranges described in the pile?  \n\nA. Elephant\nB. Guitar\nC. Iceberg\nD. Mountain\nE. None of the above",
+        "response": "e",
+        "timestamp": "2025-11-17T09:30:45.929171",
+        "annotated_by": "User 5",
+        "original_file_path": "/project/3dllms/melgin/datasets/GIW/giw529subcat/Orange/04_18_2024_W_F_Oranges1_F_1.ply",
+        "dataset": "GIW529_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Orange@04_19_2024_S2_F_Oranges1_F_1": {
+        "prompt": "What type of fruit is most prominent in the assortment described?\n\nA. Quantum mechanics\nB. Renaissance art\nC. Classical music\nD. Ancient civilizations\nE. None of the above",
+        "response": "e",
+        "timestamp": "2025-11-17T09:31:05.727658",
+        "annotated_by": "User 5",
+        "original_file_path": "/project/3dllms/melgin/datasets/GIW/giw529subcat/Orange/04_19_2024_S2_F_Oranges1_F_1.ply",
+        "dataset": "GIW529_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Orange@04_19_2024_W4_F_Oranges1_F_1": {
+        "prompt": "What color are the oranges described in the pile?\n\nA. Circular\nB. Triangular\nC. Rectangular\nD. Hexagonal\nE. None of the above",
+        "response": "e",
+        "timestamp": "2025-11-17T09:31:21.993090",
+        "annotated_by": "User 5",
+        "original_file_path": "/project/3dllms/melgin/datasets/GIW/giw529subcat/Orange/04_19_2024_W4_F_Oranges1_F_1.ply",
+        "dataset": "GIW529_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "PastaSauce@04_18_2024_W3_F_PastaSauce1_P_1": {
+        "prompt": "What type of packaging is associated with some of the jars of tomato sauce in the room?\n\nA. Terrestrial\nB. Celestial\nC. Aquatic\nD. Volcanic\nE. None of the above",
+        "response": "e",
+        "timestamp": "2025-11-17T09:31:43.859028",
+        "annotated_by": "User 5",
+        "original_file_path": "/project/3dllms/melgin/datasets/GIW/giw529subcat/PastaSauce/04_18_2024_W3_F_PastaSauce1_P_1.ply",
+        "dataset": "GIW529_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "PastaSauce@04_19_2024_S2_F_PastaSauce_P_2": {
+        "prompt": "What color are the jars' labels?\n\nA. Elephant\nB. Galaxy\nC. Symphony\nD. Puzzle\nE. None of the above",
+        "response": "e",
+        "timestamp": "2025-11-17T09:32:07.076100",
+        "annotated_by": "User 5",
+        "original_file_path": "/project/3dllms/melgin/datasets/GIW/giw529subcat/PastaSauce/04_19_2024_S2_F_PastaSauce_P_2.ply",
+        "dataset": "GIW529_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "PeanutButter@04_18_2024_W3_F_PeanutButter_P_2": {
+        "prompt": "What colors are the lids of the Jif peanut butter jars?\n\nA. Comet\nB. Asteroid\nC. Galaxy\nD. Nebula\nE. None of the above",
+        "response": "e",
+        "timestamp": "2025-11-17T09:32:39.005014",
+        "annotated_by": "User 5",
+        "original_file_path": "/project/3dllms/melgin/datasets/GIW/giw529subcat/PeanutButter/04_18_2024_W3_F_PeanutButter_P_2.ply",
+        "dataset": "GIW529_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "PeanutButter@04_18_2024_W_F_PeanutButter_P_3": {
+        "prompt": "What colors are the lids of the jars in the collection?\n\nA. Cactus Green\nB. Sunset Orange\nC. Ocean Blue\nD. Midnight Purple\nE. None of the above",
+        "response": "e",
+        "timestamp": "2025-11-17T09:33:07.829624",
+        "annotated_by": "User 5",
+        "original_file_path": "/project/3dllms/melgin/datasets/GIW/giw529subcat/PeanutButter/04_18_2024_W_F_PeanutButter_P_3.ply",
+        "dataset": "GIW529_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Pears@04_18_2024_W3_F_Pears1_F_1": {
+        "prompt": "What is the predominant color range of the pears described?\n\nA. Octopus species\nB. Solar system planets\nC. Classical music genres\nD. Mountain ranges in Europe\nE. None of the above",
+        "response": "e",
+        "timestamp": "2025-11-17T09:33:33.455527",
+        "annotated_by": "User 5",
+        "original_file_path": "/project/3dllms/melgin/datasets/GIW/giw529subcat/Pears/04_18_2024_W3_F_Pears1_F_1.ply",
+        "dataset": "GIW529_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Pears@04_19_2024_W4_F_Pears1_F_1": {
+        "prompt": "What is a characteristic feature of the red apples described?\n\nA. Cloud formation\nB. Ocean depth\nC. Mountain elevation\nD. Desert temperature\nE. None of the above",
+        "response": "e",
+        "timestamp": "2025-11-17T09:34:20.633945",
+        "annotated_by": "User 5",
+        "original_file_path": "/project/3dllms/melgin/datasets/GIW/giw529subcat/Pears/04_19_2024_W4_F_Pears1_F_1.ply",
+        "dataset": "GIW529_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Peppers@04_18_2024_W3_F_GreenPeppers1_F_1": {
+        "prompt": "What is the shape of green bell peppers as described?\n\nA. Circular economy\nB. Renewable resources\nC. Carbon footprint\nD. Biodiversity hotspots\nE. None of the above",
+        "response": "e",
+        "timestamp": "2025-11-17T09:35:02.983073",
+        "annotated_by": "User 5",
+        "original_file_path": "/project/3dllms/melgin/datasets/GIW/giw529subcat/Peppers/04_18_2024_W3_F_GreenPeppers1_F_1.ply",
+        "dataset": "GIW529_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Peppers@04_18_2024_W3_F_Peppers1_F_1": {
+        "prompt": "What colors are the bell peppers mentioned in the description?\n\nA. Jupiter's Moons\nB. Roman Architecture\nC. Quantum Mechanics\nD. Ecosystem Restoration\nE. None of the above",
+        "response": "e",
+        "timestamp": "2025-11-17T09:35:28.158637",
+        "annotated_by": "User 5",
+        "original_file_path": "/project/3dllms/melgin/datasets/GIW/giw529subcat/Peppers/04_18_2024_W3_F_Peppers1_F_1.ply",
+        "dataset": "GIW529_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Peppers@04_18_2024_W_F_GreenPeppers1_F_1": {
+        "prompt": "What is the shape of the green bell peppers described?\n\nA. Horizontal ladder\nB. Electric guitar\nC. Chocolate cake\nD. Basketball court\nE. None of the above",
+        "response": "e",
+        "timestamp": "2025-11-17T09:35:55.978207",
+        "annotated_by": "User 5",
+        "original_file_path": "/project/3dllms/melgin/datasets/GIW/giw529subcat/Peppers/04_18_2024_W_F_GreenPeppers1_F_1.ply",
+        "dataset": "GIW529_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Peppers@04_19_2024_W4_F_Peppers1_F_1": {
+        "prompt": "What colors are the bell peppers described in the room?  \n\nA. Echo\nB. Melody\nC. Harmony\nD. Rhythm\nE. None of the above",
+        "response": "e",
+        "timestamp": "2025-11-17T09:36:14.216725",
+        "annotated_by": "User 5",
+        "original_file_path": "/project/3dllms/melgin/datasets/GIW/giw529subcat/Peppers/04_19_2024_W4_F_Peppers1_F_1.ply",
+        "dataset": "GIW529_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Pickles@04_18_2024_W_F_Pickles_P_2": {
+        "prompt": "What color are the lids of the cylindrical jars filled with pickles?\n\nA. Elephant\nB. Violin\nC. Mountain\nD. Galaxy\nE. None of the above",
+        "response": "e",
+        "timestamp": "2025-11-17T09:36:41.647110",
+        "annotated_by": "User 5",
+        "original_file_path": "/project/3dllms/melgin/datasets/GIW/giw529subcat/Pickles/04_18_2024_W_F_Pickles_P_2.ply",
+        "dataset": "GIW529_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Pickles@04_19_2024_W_F_Pickles_P_2": {
+        "prompt": "What color are the lids of the jars holding the dill pickles?\n\nA. Mountain range\nB. Ocean wave\nC. Desert sand\nD. Forest canopy\nE. None of the above",
+        "response": "e",
+        "timestamp": "2025-11-17T09:37:05.306546",
+        "annotated_by": "User 5",
+        "original_file_path": "/project/3dllms/melgin/datasets/GIW/giw529subcat/Pickles/04_19_2024_W_F_Pickles_P_2.ply",
+        "dataset": "GIW529_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Pineapples@04_18_2024_W_F_Pineapples1_F_1": {
+        "prompt": "What color hues can predominantly be found on the rind of pineapples?\n\nA. Mathematics\nB. Astronomy\nC. Architecture\nD. Geopolitics\nE. None of the above",
+        "response": "e",
+        "timestamp": "2025-11-17T09:37:32.724895",
+        "annotated_by": "User 5",
+        "original_file_path": "/project/3dllms/melgin/datasets/GIW/giw529subcat/Pineapples/04_18_2024_W_F_Pineapples1_F_1.ply",
+        "dataset": "GIW529_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Pineapples@04_19_2024_W4_F_Pineapples1_F_1": {
+        "prompt": "What is the shape of pineapples?\n\nA. Oval office\nB. Renaissance painting\nC. Solar eclipse\nD. Electric guitar\nE. None of the above",
+        "response": "e",
+        "timestamp": "2025-11-17T09:37:51.701918",
+        "annotated_by": "User 5",
+        "original_file_path": "/project/3dllms/melgin/datasets/GIW/giw529subcat/Pineapples/04_19_2024_W4_F_Pineapples1_F_1.ply",
+        "dataset": "GIW529_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Plantains@04_19_2024_W4_F_Plantains1_F_1": {
+        "prompt": "What is the typical appearance of bananas as described?\n\nA. Frosty peaks\nB. Golden deserts\nC. Lush valleys\nD. Deep oceans\nE. None of the above",
+        "response": "e",
+        "timestamp": "2025-11-17T09:38:10.865278",
+        "annotated_by": "User 5",
+        "original_file_path": "/project/3dllms/melgin/datasets/GIW/giw529subcat/Plantains/04_19_2024_W4_F_Plantains1_F_1.ply",
+        "dataset": "GIW529_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Plums@04_19_2024_W4_F_Plums1_F_1": {
+        "prompt": "What feature is commonly found on some plums described in the information?\n\nA. Tropical rainforests\nB. Desert cacti\nC. Arctic tundra\nD. Mountain ranges\nE. None of the above",
+        "response": "E",
+        "timestamp": "2025-11-17T12:23:53.386602",
+        "annotated_by": "User 3",
+        "original_file_path": "/project/3dllms/melgin/datasets/GIW/giw529subcat/Plums/04_19_2024_W4_F_Plums1_F_1.ply",
+        "dataset": "GIW529_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Potatoes@04_18_2024_W3_F_Potatoes1_V_1": {
+        "prompt": "What is the shape of the tubers described in the room?\n\nA. Rhombicosidodecahedron\nB. Dodecagon\nC. Isosceles triangle\nD. Parallelogram\nE. None of the above",
+        "response": "e",
+        "timestamp": "2025-11-17T09:38:44.673549",
+        "annotated_by": "User 5",
+        "original_file_path": "/project/3dllms/melgin/datasets/GIW/giw529subcat/Potatoes/04_18_2024_W3_F_Potatoes1_V_1.ply",
+        "dataset": "GIW529_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Potatoes@04_18_2024_W3_F_Potatoes2_V_1": {
+        "prompt": "What is the shape of the potatoes described?\n\nA. Quadratic equation\nB. Electromagnetic spectrum\nC. Cellular respiration\nD. Photosynthesis process\nE. None of the above",
+        "response": "e",
+        "timestamp": "2025-11-17T09:39:09.213349",
+        "annotated_by": "User 5",
+        "original_file_path": "/project/3dllms/melgin/datasets/GIW/giw529subcat/Potatoes/04_18_2024_W3_F_Potatoes2_V_1.ply",
+        "dataset": "GIW529_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Potatoes@04_19_2024_W4_F_Potatoes1_V_1": {
+        "prompt": "What color variation is present in the assortment of tubers described?\n\nA. Desert\nB. Rainforest\nC. Tundra\nD. Grassland\nE. None of the above",
+        "response": "e",
+        "timestamp": "2025-11-17T09:39:34.229006",
+        "annotated_by": "User 5",
+        "original_file_path": "/project/3dllms/melgin/datasets/GIW/giw529subcat/Potatoes/04_19_2024_W4_F_Potatoes1_V_1.ply",
+        "dataset": "GIW529_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Pringles@04_18_2024_W3_F_Pringles_P_2": {
+        "prompt": "What color are the caps on the tall blue plastic bottles?\n\nA. Sandwich\nB. Bicycle\nC. Symphony\nD. Aquarium\nE. None of the above",
+        "response": "E",
+        "timestamp": "2025-11-17T12:24:31.810181",
+        "annotated_by": "User 3",
+        "original_file_path": "/project/3dllms/melgin/datasets/GIW/giw529subcat/Pringles/04_18_2024_W3_F_Pringles_P_2.ply",
+        "dataset": "GIW529_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Radish@03_21_2024_W_L_Radish_V_2": {
+        "prompt": "What color are the stems of the beetroots described?\n\nA. Jupiter\nB. Saturn\nC. Mercury\nD. Venus\nE. None of the above",
+        "response": "E",
+        "timestamp": "2025-11-17T12:25:06.042688",
+        "annotated_by": "User 3",
+        "original_file_path": "/project/3dllms/melgin/datasets/GIW/giw529subcat/Radish/03_21_2024_W_L_Radish_V_2.ply",
+        "dataset": "GIW529_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Ranch@04_18_2024_W_F_Ranch_P_2": {
+        "prompt": "What color are the caps of the plastic ranch-dressing bottles?\n\nA. Saturn\nB. Galaxy\nC. Neutron\nD. Comet\nE. None of the above",
+        "response": "e",
+        "timestamp": "2025-11-17T09:39:56.834820",
+        "annotated_by": "User 5",
+        "original_file_path": "/project/3dllms/melgin/datasets/GIW/giw529subcat/Ranch/04_18_2024_W_F_Ranch_P_2.ply",
+        "dataset": "GIW529_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Ranch@04_19_2024_W_F_Ranch_P_2": {
+        "prompt": "What colors are present on the bags of croutons?\n\nA. Oxygen\nB. Hydrogen\nC. Carbon\nD. Helium\nE. None of the above",
+        "response": "e",
+        "timestamp": "2025-11-17T09:40:23.798182",
+        "annotated_by": "User 5",
+        "original_file_path": "/project/3dllms/melgin/datasets/GIW/giw529subcat/Ranch/04_19_2024_W_F_Ranch_P_2.ply",
+        "dataset": "GIW529_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Random@04_18_2024_W_F_Doritos_P_3": {
+        "prompt": "What colors are prominently featured in the snack chip packaging?\n\nA. Jupiter\nB. Saturn\nC. Mars\nD. Neptune\nE. None of the above",
+        "response": "e",
+        "timestamp": "2025-11-17T09:40:49.117105",
+        "annotated_by": "User 5",
+        "original_file_path": "/project/3dllms/melgin/datasets/GIW/giw529subcat/Random/04_18_2024_W_F_Doritos_P_3.ply",
+        "dataset": "GIW529_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Random@04_18_2024_W_F_MacAndCheese1_P_1": {
+        "prompt": "What colors are primarily used in the packaging of the macaroni-and-cheese products described?\n\nA. Cactus Green\nB. Shadow Black\nC. Oceanic Blue\nD. Mountain Grey\nE. None of the above",
+        "response": "e",
+        "timestamp": "2025-11-17T09:41:07.566975",
+        "annotated_by": "User 5",
+        "original_file_path": "/project/3dllms/melgin/datasets/GIW/giw529subcat/Random/04_18_2024_W_F_MacAndCheese1_P_1.ply",
+        "dataset": "GIW529_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Random@04_18_2024_W_F_Mustard_P_2": {
+        "prompt": "What color are the jars that contain mayonnaise?\n\nA. Mercury\nB. Jupiter\nC. Neptune\nD. Saturn\nE. None of the above",
+        "response": "e",
+        "timestamp": "2025-11-17T09:41:31.171014",
+        "annotated_by": "User 5",
+        "original_file_path": "/project/3dllms/melgin/datasets/GIW/giw529subcat/Random/04_18_2024_W_F_Mustard_P_2.ply",
+        "dataset": "GIW529_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Random@04_18_2024_W_F_Random_P_3": {
+        "prompt": "What color are the caps on the white bottles with blue labels?\n\nA. Guitar strings\nB. Mountain ranges\nC. Chocolate desserts\nD. Weather patterns\nE. None of the above",
+        "response": "e",
+        "timestamp": "2025-11-17T09:42:08.403619",
+        "annotated_by": "User 5",
+        "original_file_path": "/project/3dllms/melgin/datasets/GIW/giw529subcat/Random/04_18_2024_W_F_Random_P_3.ply",
+        "dataset": "GIW529_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Random@04_18_2024_W_F_Tortillas1_P_1": {
+        "prompt": "What colors are present in the branding of the Mission tortillas?\n\nA. Jupiter\nB. Saturn\nC. Neptune\nD. Mars\nE. None of the above",
+        "response": "e",
+        "timestamp": "2025-11-17T09:42:42.330876",
+        "annotated_by": "User 5",
+        "original_file_path": "/project/3dllms/melgin/datasets/GIW/giw529subcat/Random/04_18_2024_W_F_Tortillas1_P_1.ply",
+        "dataset": "GIW529_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Random@04_19_2024_W4_F_MixedNuts_P_3": {
+        "prompt": "What color are the lids of the jars and cans containing the peanut products?\n\nA. Cactus Green\nB. Sky Blue\nC. Ocean Wave\nD. Autumn Orange\nE. None of the above",
+        "response": "e",
+        "timestamp": "2025-11-17T09:43:02.784350",
+        "annotated_by": "User 5",
+        "original_file_path": "/project/3dllms/melgin/datasets/GIW/giw529subcat/Random/04_19_2024_W4_F_MixedNuts_P_3.ply",
+        "dataset": "GIW529_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Salsa@04_18_2024_W3_F_Salsa1_P_1": {
+        "prompt": "What color are the lids of the glass jars of red Pace-brand salsa?\n\nA. Mango\nB. Pineapple\nC. Coconut\nD. Honey\nE. None of the above",
+        "response": "e",
+        "timestamp": "2025-11-17T09:43:28.863888",
+        "annotated_by": "User 5",
+        "original_file_path": "/project/3dllms/melgin/datasets/GIW/giw529subcat/Salsa/04_18_2024_W3_F_Salsa1_P_1.ply",
+        "dataset": "GIW529_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Salsa@04_19_2024_W4_F_Salsa_P_3": {
+        "prompt": "What type of lid is featured on the Herdez salsa jars?\n\nA. Refrigerator magnet\nB. Incense holder\nC. Vinyl record\nD. Teapot spout\nE. None of the above",
+        "response": "e",
+        "timestamp": "2025-11-17T09:43:43.092762",
+        "annotated_by": "User 5",
+        "original_file_path": "/project/3dllms/melgin/datasets/GIW/giw529subcat/Salsa/04_19_2024_W4_F_Salsa_P_3.ply",
+        "dataset": "GIW529_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Sauce@04_19_2024_S2_F_Sauce1_P_1": {
+        "prompt": "What type of packaging can be found among the assorted foods and condiments?\n\nA. Quadratic equation\nB. Python programming\nC. Renaissance art\nD. Solar system formation\nE. None of the above",
+        "response": "e",
+        "timestamp": "2025-11-17T09:44:22.874724",
+        "annotated_by": "User 5",
+        "original_file_path": "/project/3dllms/melgin/datasets/GIW/giw529subcat/Sauce/04_19_2024_S2_F_Sauce1_P_1.ply",
+        "dataset": "GIW529_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Sauce@04_19_2024_S2_F_Sauce_P_2": {
+        "prompt": "What colors are the caps of the condiment bottles in the room?\n\nA. Quadrant\nB. Hemisphere\nC. Trapezoid\nD. Octagon\nE. None of the above",
+        "response": "E",
+        "timestamp": "2025-11-17T11:48:09.637974",
+        "annotated_by": "User 4",
+        "original_file_path": "/project/3dllms/melgin/datasets/GIW/giw529subcat/Sauce/04_19_2024_S2_F_Sauce_P_2.ply",
+        "dataset": "GIW529_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Sauce@04_19_2024_W4_F_Sauce_P_3": {
+        "prompt": "What type of food product is contained in the clear, cylindrical glass jars?\n\nA. Javascript\nB. Quantum Physics\nC. Renaissance Art\nD. Symphonic Music\nE. None of the above",
+        "response": "E",
+        "timestamp": "2025-11-17T11:43:51.012935",
+        "annotated_by": "User 4",
+        "original_file_path": "/project/3dllms/melgin/datasets/GIW/giw529subcat/Sauce/04_19_2024_W4_F_Sauce_P_3.ply",
+        "dataset": "GIW529_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Snacks@04_18_2024_W2_F_Snacks_P_2": {
+        "prompt": "What types of bags are used for the display of pretzel varieties?\n\nA. Parachute\nB. Backpack\nC. Briefcase\nD. Messenger\nE. None of the above",
+        "response": "E",
+        "timestamp": "2025-11-17T11:45:02.583970",
+        "annotated_by": "User 4",
+        "original_file_path": "/project/3dllms/melgin/datasets/GIW/giw529subcat/Snacks/04_18_2024_W2_F_Snacks_P_2.ply",
+        "dataset": "GIW529_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Soup@04_19_2024_W4_F_Soup_P_3": {
+        "prompt": "What colors are prominently featured on the labels of the stacked soup cans?\n\nA. Mercury\nB. Hydrogen\nC. Carbon\nD. Nitrogen\nE. None of the above",
+        "response": "E",
+        "timestamp": "2025-11-17T11:48:53.066215",
+        "annotated_by": "User 4",
+        "original_file_path": "/project/3dllms/melgin/datasets/GIW/giw529subcat/Soup/04_19_2024_W4_F_Soup_P_3.ply",
+        "dataset": "GIW529_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Spices@04_18_2024_W_F_Spices_P_3": {
+        "prompt": "What type of goods are prominently displayed on the gray metal display rack?\n\nA. Chocolate chip cookie recipe\nB. Mountain climbing techniques\nC. Jazz music history\nD. Photography tips for beginners\nE. None of the above",
+        "response": "E",
+        "timestamp": "2025-11-17T11:49:58.443471",
+        "annotated_by": "User 4",
+        "original_file_path": "/project/3dllms/melgin/datasets/GIW/giw529subcat/Spices/04_18_2024_W_F_Spices_P_3.ply",
+        "dataset": "GIW529_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Spices@04_19_2024_W_F_Spices_P_2": {
+        "prompt": "What types of containers are included on the store shelf according to the description?\n\nA. Melodies for relaxation\nB. Seasons of the year\nC. Animal habitats\nD. Types of clouds\nE. None of the above",
+        "response": "E",
+        "timestamp": "2025-11-17T11:51:26.573620",
+        "annotated_by": "User 4",
+        "original_file_path": "/project/3dllms/melgin/datasets/GIW/giw529subcat/Spices/04_19_2024_W_F_Spices_P_2.ply",
+        "dataset": "GIW529_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Sugar@04_18_2024_W_F_Sugar_P_3": {
+        "prompt": "Which color bags of granulated sugar are present on the store shelf?\n\nA. Cotton candy\nB. Lemonade\nC. Cherry pie\nD. Blueberry muffin\nE. None of the above",
+        "response": "E",
+        "timestamp": "2025-11-17T11:52:11.818899",
+        "annotated_by": "User 4",
+        "original_file_path": "/project/3dllms/melgin/datasets/GIW/giw529subcat/Sugar/04_18_2024_W_F_Sugar_P_3.ply",
+        "dataset": "GIW529_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Sugar@04_19_2024_W_F_Sugar_P_2": {
+        "prompt": "What is the color of the dominant sweetener box in the display?\n\nA. Mercury\nB. Hydrogen\nC. Calcium\nD. Gold\nE. None of the above",
+        "response": "E",
+        "timestamp": "2025-11-17T11:52:58.925958",
+        "annotated_by": "User 4",
+        "original_file_path": "/project/3dllms/melgin/datasets/GIW/giw529subcat/Sugar/04_19_2024_W_F_Sugar_P_2.ply",
+        "dataset": "GIW529_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Syrup@03_21_2024_W_L_Syrup1_P_1": {
+        "prompt": "What color are the caps of the dark brown glass syrup bottles?\n\nA. Arithmetic\nB. Metaphysics\nC. Geometry\nD. Biology\nE. None of the above",
+        "response": "E",
+        "timestamp": "2025-11-26T06:54:29.385289",
+        "annotated_by": "User 1",
+        "original_file_path": "/project/3dllms/melgin/datasets/GIW/giw529subcat/Syrup/03_21_2024_W_L_Syrup1_P_1.ply",
+        "dataset": "GIW529_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Tomato@04_19_2024_W4_F_CanTomato_P_3": {
+        "prompt": "What colors are prominently featured on the labels of the cylindrical metal cans containing tomato products?\n\nA. Tropical Rainforest\nB. Rocky Mountain\nC. Arctic Tundra\nD. Urban Jungle\nE. None of the above",
+        "response": "E",
+        "timestamp": "2025-11-17T11:53:39.563653",
+        "annotated_by": "User 4",
+        "original_file_path": "/project/3dllms/melgin/datasets/GIW/giw529subcat/Tomato/04_19_2024_W4_F_CanTomato_P_3.ply",
+        "dataset": "GIW529_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Tomatoes@04_18_2024_W_F_Tomatoes2_F_1": {
+        "prompt": "What shape variations can be observed among the tomatoes in the heap?\n\nA. Desert\nB. Ocean\nC. Forest\nD. Mountain\nE. None of the above",
+        "response": "E",
+        "timestamp": "2025-11-17T11:55:07.667141",
+        "annotated_by": "User 4",
+        "original_file_path": "/project/3dllms/melgin/datasets/GIW/giw529subcat/Tomatoes/04_18_2024_W_F_Tomatoes2_F_1.ply",
+        "dataset": "GIW529_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Tomatoes@04_19_2024_S2_F_Tomatoes1_F_1": {
+        "prompt": "What type of tomatoes are packaged in purple clamshell packaging?\n\nA. Oak tree\nB. Blue whale\nC. Sahara Desert\nD. Beethoven's Symphony No. 9\nE. None of the above",
+        "response": "E",
+        "timestamp": "2025-11-17T11:55:51.949008",
+        "annotated_by": "User 4",
+        "original_file_path": "/project/3dllms/melgin/datasets/GIW/giw529subcat/Tomatoes/04_19_2024_S2_F_Tomatoes1_F_1.ply",
+        "dataset": "GIW529_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Tomatoes@04_19_2024_W4_F_Tomatoes1_F_1": {
+        "prompt": "What shapes are the tomatoes described in the room?\n\nA. Particle\nB. Wave\nC. Solid\nD. Liquid\nE. None of the above",
+        "response": "E",
+        "timestamp": "2025-11-17T11:56:12.909386",
+        "annotated_by": "User 3",
+        "original_file_path": "/project/3dllms/melgin/datasets/GIW/giw529subcat/Tomatoes/04_19_2024_W4_F_Tomatoes1_F_1.ply",
+        "dataset": "GIW529_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Tomatoes@04_19_2024_W4_F_Tomatoes2_F_1": {
+        "prompt": "What is the predominant color of the tomatoes described?\n\nA. Mountain Range\nB. Ocean Wave\nC. Desert Sand\nD. Forest Canopy\nE. None of the above",
+        "response": "E",
+        "timestamp": "2025-11-17T11:56:28.902093",
+        "annotated_by": "User 4",
+        "original_file_path": "/project/3dllms/melgin/datasets/GIW/giw529subcat/Tomatoes/04_19_2024_W4_F_Tomatoes2_F_1.ply",
+        "dataset": "GIW529_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Tostitos@04_18_2024_W_F_Tostitos2_P_3": {
+        "prompt": "What colors are represented in the snack bags?\n\nA. Giraffe\nB. Marsupial\nC. Sorcery\nD. Algebra\nE. None of the above",
+        "response": "E",
+        "timestamp": "2025-11-17T12:25:39.597621",
+        "annotated_by": "User 3",
+        "original_file_path": "/project/3dllms/melgin/datasets/GIW/giw529subcat/Tostitos/04_18_2024_W_F_Tostitos2_P_3.ply",
+        "dataset": "GIW529_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "VariousVeggies@04_04_2024_W_C_Various_P_2": {
+        "prompt": "What colors are the beverage-mix boxes described in the room? \n\nA. Oak tree\nB. Maple syrup\nC. Ocean wave\nD. Mountain peak\nE. None of the above",
+        "response": "E",
+        "timestamp": "2025-11-17T11:57:13.126159",
+        "annotated_by": "User 3",
+        "original_file_path": "/project/3dllms/melgin/datasets/GIW/giw529subcat/VariousVeggies/04_04_2024_W_C_Various_P_2.ply",
+        "dataset": "GIW529_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "VariousVeggies@04_18_2024_W_F_Various_P_2": {
+        "prompt": "What color are the labels on the Real Mayo jars?\n\nA. Jupiter's atmosphere\nB. The Great Wall of China\nC. Quantum entanglement\nD. The Nile River\nE. None of the above",
+        "response": "E",
+        "timestamp": "2025-11-17T11:57:11.289554",
+        "annotated_by": "User 4",
+        "original_file_path": "/project/3dllms/melgin/datasets/GIW/giw529subcat/VariousVeggies/04_18_2024_W_F_Various_P_2.ply",
+        "dataset": "GIW529_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Vinegar@04_19_2024_S2_F_Vinegar_P_3": {
+        "prompt": "What characteristic is common among the glass bottles described?\n\nA. Cheetah speed\nB. Electromagnetic waves\nC. Gravitational pull\nD. Quantum mechanics\nE. None of the above",
+        "response": "E",
+        "timestamp": "2025-11-17T11:57:46.606177",
+        "annotated_by": "User 4",
+        "original_file_path": "/project/3dllms/melgin/datasets/GIW/giw529subcat/Vinegar/04_19_2024_S2_F_Vinegar_P_3.ply",
+        "dataset": "GIW529_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    }
+}

@@ -1,0 +1,908 @@
+{
+    "Lemons@04_18_2024_W_F_Lemons1_F_1": {
+        "prompt": "What color are the lemons in the dense pile of fruit?\n\nA. Green\nB. Orange\nC. Red\nIf none of the above answers are correct, answer: 'F'",
+        "response": "The lemons in the dense pile of fruit are green.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Lemons@04_19_2024_W4_F_Lemons1_F_1": {
+        "prompt": "What is the primary color of the lemons described?\n\nA. Red\nB. Green\nC. Orange\nIf none of the above answers are correct, answer: 'F'",
+        "response": "The primary color of the lemons is red.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Lime@04_18_2024_W_F_Limes1_F_1": {
+        "prompt": "What is the shape of the limes described?\n\nA. Triangular\nB. Oblong\nC. Square\nIf none of the above answers are correct, answer: 'F'",
+        "response": "The shape of the limes is triangular.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Mangoes@04_18_2024_W3_F_Mangoes1_F_1": {
+        "prompt": "What shape are the mangoes described in the container?\n\nA. Cylindrical\nB. Round\nC. Cubic\nIf none of the above answers are correct, answer: 'F'",
+        "response": "The mangoes are described as round.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Mangoes@04_18_2024_W_F_Mangoes1_F_1": {
+        "prompt": "What shape do mangoes have?\n\nA. Circular\nB. Square\nC. Triangular\nIf none of the above answers are correct, answer: 'F'",
+        "response": "The answer is 'A'.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Mayo@04_19_2024_S2_F_Mayo_P_2": {
+        "prompt": "What colors are the lids of the mayonnaise jars on the shelf?\n\nA. Red\nB. Yellow\nC. Green\nIf none of the above answers are correct, answer: 'F'",
+        "response": "The lids of the mayonnaise jars on the shelf are yellow.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Melons@04_19_2024_S2_F_Melons1_F_1": {
+        "prompt": "What is the surface texture of a watermelon rind?\n\nA. Rough and bumpy\nB. Soft and fuzzy\nC. Sticky and wet\nIf none of the above answers are correct, answer: 'F'",
+        "response": "The surface texture of a watermelon rind is bumpy.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Melons@04_19_2024_S_F_Melons_F_2": {
+        "prompt": "What type of fruit is described as having rough diamond-pattern skin and spiky green leaves?\n\nA. Mango\nB. Kiwi\nC. Cantaloupe\nIf none of the above answers are correct, answer: 'F'",
+        "response": "The fruit described is a melon.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Melons@04_19_2024_W4_F_Melons1_F_1": {
+        "prompt": "What type of fruit is described as having tan, netted rinds and is typically round to slightly oval in shape?\n\nA. Watermelon\nB. Pineapple\nC. Kiwi\nIf none of the above answers are correct, answer: 'F'",
+        "response": "The fruit described is a watermelon.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Melons@04_19_2024_W4_F_Watermelons1_F_1": {
+        "prompt": "What is the primary color of the rind of a watermelon?\n\nA. Dark green\nB. Bright red\nC. Light blue\nIf none of the above answers are correct, answer: 'F'",
+        "response": "The primary color of the rind of a watermelon is red.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "MultiFruits@04_04_2024_W_C_FruitsLong1_F_1": {
+        "prompt": "What type of fruit is described as having a rough, diamond-patterned rind and spiky leafy crowns?\n\nA. Avocado\nB. Onion\nC. Tomato\nIf none of the above answers are correct, answer: 'F'",
+        "response": "The fruit described is an avocado.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "MultiFruits@04_19_2024_S_F_Fruits1_F_1": {
+        "prompt": "What colors of fruit are included in the assortment described?\n\nA. Black, gray, tan, and indigo\nB. Blue, purple, pink, and white\nC. Brown, cream, gold, and silver\nIf none of the above answers are correct, answer: 'F'",
+        "response": "F.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Nectarines@04_19_2024_W4_F_Nectarines1_F_1": {
+        "prompt": "What type of fruit is described in the pile?\n\nA. Apples\nB. Plums\nC. Cherries\nIf none of the above answers are correct, answer: 'F'",
+        "response": "The fruit described in the pile is a cherry.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Nuts@04_18_2024_W3_F_Nuts_P_2": {
+        "prompt": "What color are the lids of the Planters jars and tins?\n\nA. Red\nB. Green\nC. Yellow\nIf none of the above answers are correct, answer: 'F'",
+        "response": "The lids of the Planters jars and tins are red.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Nuts@04_18_2024_W_F_Nuts1_P_1": {
+        "prompt": "What color are the cylindrical cans in the collection?\n\nA. Red\nB. Yellow\nC. Green\nIf none of the above answers are correct, answer: 'F'",
+        "response": "The cylindrical cans in the collection are red.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Oil@04_18_2024_W_F_Oil_P_3": {
+        "prompt": "What color are the screw-on caps of the bottles filled with cooking oil?\n\nA. Red\nB. Yellow\nC. Green\nIf none of the above answers are correct, answer: 'F'",
+        "response": "The screw-on caps of the bottles filled with cooking oil are red.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Oil@04_19_2024_W_F_Oils_P_2": {
+        "prompt": "What is the color of the liquid contained in the translucent plastic bottles?\n\nA. Red\nB. Dark green\nC. Clear\nIf none of the above answers are correct, answer: 'F'",
+        "response": "The liquid contained in the translucent plastic bottles is red.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "OliveOil@04_19_2024_S_F_OliveOil_P_3": {
+        "prompt": "What is the predominant material of the cooking-oil bottles described?\n\nA. Ceramic\nB. Metal\nC. Paper\nIf none of the above answers are correct, answer: 'F'",
+        "response": "The predominant material of the cooking-oil bottles is ceramic.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Onions@04_19_2024_S2_F_Onions1_V_1": {
+        "prompt": "What color are the skins of the onions in the pile?\n\nA. Red only\nB. Green only\nC. Blue only\nIf none of the above answers are correct, answer: 'F'",
+        "response": "The skins of the onions in the pile are red.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Onions@04_19_2024_S2_F_Onions2_V_1": {
+        "prompt": "Which of the following best describes the appearance of the white onions?\n\nA. They are flat and wide with a dark green skin\nB. They are small, elongated bulbs with rough brown skins\nC. They have a bright yellow color and a rugged surface\nIf none of the above answers are correct, answer: 'F'",
+        "response": "The white onions appear to be small, elongated bulbs with a rough brown skin.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Onions@04_19_2024_S2_F_Onions3_V_1": {
+        "prompt": "What types of squash are present in the assortment described?\n\nA. Kabocha and smooth zucchini\nB. Ribbed pumpkins and yellow squash\nC. Elongated pumpkins and white squash\nIf none of the above answers are correct, answer: 'F'",
+        "response": "The assortment described contains a variety of squash, including kabocha, smooth zucchini, ribbed pumpkins, and yellow squash.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Onions@04_19_2024_W4_F_Onions2_V_1": {
+        "prompt": "What color are the skins of white onions described in the room?\n\nA. Blue\nB. Green\nC. Yellow\nIf none of the above answers are correct, answer: 'F'",
+        "response": "The skins of the white onions are described as yellow.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Onions@04_19_2024_W4_F_RedOnions1_V_1": {
+        "prompt": "What is the primary color of the skins of the onions described?\n\nA. Yellow\nB. Green\nC. White\nIf none of the above answers are correct, answer: 'F'",
+        "response": "The primary color of the skins of the onions is yellow.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Orange@04_18_2024_W_F_Oranges1_F_1": {
+        "prompt": "What is the color of the oranges described in the pile?  \n\nA. Yellow\nB. Red\nC. Green\nIf none of the above answers are correct, answer: 'F'",
+        "response": "The oranges are yellow.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Orange@04_19_2024_S2_F_Oranges1_F_1": {
+        "prompt": "What type of fruit is most prominent in the assortment described?\n\nA. Lemons\nB. Apples\nC. Limes\nIf none of the above answers are correct, answer: 'F'",
+        "response": "The most prominent fruit in the assortment is a lemon.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Orange@04_19_2024_W4_F_Oranges1_F_1": {
+        "prompt": "What color are the oranges described in the pile?\n\nA. Yellow\nB. Green\nC. Red\nIf none of the above answers are correct, answer: 'F'",
+        "response": "The oranges are described as being of a light green color.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "PastaSauce@04_18_2024_W3_F_PastaSauce1_P_1": {
+        "prompt": "What type of packaging is associated with some of the jars of tomato sauce in the room?\n\nA. Plastic containers\nB. Wooden crates\nC. Metal tins\nIf none of the above answers are correct, answer: 'F'",
+        "response": "The packaging associated with the jars of tomato sauce is plastic containers.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "PastaSauce@04_19_2024_S2_F_PastaSauce_P_2": {
+        "prompt": "What color are the jars' labels?\n\nA. Green\nB. Blue\nC. Yellow\nIf none of the above answers are correct, answer: 'F'",
+        "response": "The jars' labels are blue.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "PeanutButter@04_18_2024_W3_F_PeanutButter_P_2": {
+        "prompt": "What colors are the lids of the Jif peanut butter jars?\n\nA. Orange and Purple\nB. Blue and Yellow\nC. Black and White\nIf none of the above answers are correct, answer: 'F'",
+        "response": "The lids of the Jif peanut butter jars are blue and yellow.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "PeanutButter@04_18_2024_W_F_PeanutButter_P_3": {
+        "prompt": "What colors are the lids of the jars in the collection?\n\nA. Green and orange\nB. Black and purple\nC. Pink and grey\nIf none of the above answers are correct, answer: 'F'",
+        "response": "The lids of the jars in the collection are green and orange.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Pears@04_18_2024_W3_F_Pears1_F_1": {
+        "prompt": "What is the predominant color range of the pears described?\n\nA. Red to deep purple\nB. Orange to light orange\nC. Green to dark green\nIf none of the above answers are correct, answer: 'F'",
+        "response": "The predominant color range of the pears is red to deep purple.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Pears@04_19_2024_W4_F_Pears1_F_1": {
+        "prompt": "What is a characteristic feature of the red apples described?\n\nA. They have several large brown spots\nB. They are elongated in shape\nC. They are covered in thick fuzz\nIf none of the above answers are correct, answer: 'F'",
+        "response": "If none of the above answers are correct, answer 'F'.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Peppers@04_18_2024_W3_F_GreenPeppers1_F_1": {
+        "prompt": "What is the shape of green bell peppers as described?\n\nA. Round and smooth\nB. Flat and oval\nC. Long and slender\nIf none of the above answers are correct, answer: 'F'",
+        "response": "The shape of green bell peppers is oval.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Peppers@04_18_2024_W3_F_Peppers1_F_1": {
+        "prompt": "What colors are the bell peppers mentioned in the description?\n\nA. Blue, Green, Purple\nB. White, Brown, Black\nC. Pink, Gray, Teal\nIf none of the above answers are correct, answer: 'F'",
+        "response": "'F'.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Peppers@04_18_2024_W_F_GreenPeppers1_F_1": {
+        "prompt": "What is the shape of the green bell peppers described?\n\nA. Long and slender with pointed ends\nB. Thin and curvy with long stems\nC. Round and hollow with uneven surfaces\nIf none of the above answers are correct, answer: 'F'",
+        "response": "The green bell peppers is described as 'F'.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Peppers@04_19_2024_W4_F_Peppers1_F_1": {
+        "prompt": "What colors are the bell peppers described in the room?  \n\nA. Blue and purple\nB. White and black\nC. Pink and brown\nIf none of the above answers are correct, answer: 'F'",
+        "response": "The bell peppers are described as red.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Pickles@04_18_2024_W_F_Pickles_P_2": {
+        "prompt": "What color are the lids of the cylindrical jars filled with pickles?\n\nA. Green\nB. Purple\nC. Orange\nIf none of the above answers are correct, answer: 'F'",
+        "response": "The lids of the cylindrical jars filled with pickles are green.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Pickles@04_19_2024_W_F_Pickles_P_2": {
+        "prompt": "What color are the lids of the jars holding the dill pickles?\n\nA. Red\nB. Green\nC. White\nIf none of the above answers are correct, answer: 'F'",
+        "response": "The lids of the jars holding the dill pickles are red.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Pineapples@04_18_2024_W_F_Pineapples1_F_1": {
+        "prompt": "What color hues can predominantly be found on the rind of pineapples?\n\nA. Blue and purple\nB. White and black\nC. Red and orange\nIf none of the above answers are correct, answer: 'F'",
+        "response": "The rind of pineapples predominantly displays shades of red and orange.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Pineapples@04_19_2024_W4_F_Pineapples1_F_1": {
+        "prompt": "What is the shape of pineapples?\n\nA. Square\nB. Triangular\nC. Flat\nIf none of the above answers are correct, answer: 'F'",
+        "response": "The shape of pineapples is triangular.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Plantains@04_19_2024_W4_F_Plantains1_F_1": {
+        "prompt": "What is the typical appearance of bananas as described?\n\nA. They are round and red\nB. They are large and purple\nC. They are flat and green\nIf none of the above answers are correct, answer: 'F'",
+        "response": "The typical appearance of bananas is green and slightly curved.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Potatoes@04_18_2024_W3_F_Potatoes1_V_1": {
+        "prompt": "What is the shape of the tubers described in the room?\n\nA. Round and smooth\nB. Flat and square\nC. Short and bulbous\nIf none of the above answers are correct, answer: 'F'",
+        "response": "The tubers are described as short and bulbous.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Potatoes@04_18_2024_W3_F_Potatoes2_V_1": {
+        "prompt": "What is the shape of the potatoes described?\n\nA. Round\nB. Perfectly spherical\nC. Flat\nIf none of the above answers are correct, answer: 'F'",
+        "response": "The potatoes are described as 'F'.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Potatoes@04_19_2024_W4_F_Potatoes1_V_1": {
+        "prompt": "What color variation is present in the assortment of tubers described?\n\nA. Dark green and yellow\nB. Purple and white\nC. Red and pink\nIf none of the above answers are correct, answer: 'F'",
+        "response": "The assortment of tubers has a color variation of dark green and yellow.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Ranch@04_18_2024_W_F_Ranch_P_2": {
+        "prompt": "What color are the caps of the plastic ranch-dressing bottles?\n\nA. Red\nB. Green\nC. Black\nIf none of the above answers are correct, answer: 'F'",
+        "response": "The caps of the plastic ranch-dressing bottles are red.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Ranch@04_19_2024_W_F_Ranch_P_2": {
+        "prompt": "What colors are present on the bags of croutons?\n\nA. Blue, Red, Yellow, Green\nB. Black, White, Yellow, Blue\nC. Red, Brown, White, Cream\nIf none of the above answers are correct, answer: 'F'",
+        "response": "The bags of croutons are primarily blue.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Random@04_18_2024_W_F_Doritos_P_3": {
+        "prompt": "What colors are prominently featured in the snack chip packaging?\n\nA. Pink and brown\nB. Green and yellow\nC. Black and white\nIf none of the above answers are correct, answer: 'F'",
+        "response": "The snack chip packaging prominently features pink and brown colors.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Random@04_18_2024_W_F_MacAndCheese1_P_1": {
+        "prompt": "What colors are primarily used in the packaging of the macaroni-and-cheese products described?\n\nA. Red and green\nB. Green and purple\nC. Blue and orange\nIf none of the above answers are correct, answer: 'F'",
+        "response": "The primary colors used in the packaging are red and white.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Random@04_18_2024_W_F_Mustard_P_2": {
+        "prompt": "What color are the jars that contain mayonnaise?\n\nA. Beige\nB. Yellow\nC. Dark\nIf none of the above answers are correct, answer: 'F'",
+        "response": "The jars that contain mayonnaise are yellow.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Random@04_18_2024_W_F_Random_P_3": {
+        "prompt": "What color are the caps on the white bottles with blue labels?\n\nA. Red\nB. Yellow\nC. Green\nIf none of the above answers are correct, answer: 'F'",
+        "response": "The caps on the white bottles with blue labels are red.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Random@04_18_2024_W_F_Tortillas1_P_1": {
+        "prompt": "What colors are present in the branding of the Mission tortillas?\n\nA. Black and orange\nB. Green and yellow\nC. Purple and white\nIf none of the above answers are correct, answer: 'F'",
+        "response": "The branding of the Mission tortillas consists of black and white colors.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Random@04_19_2024_W4_F_MixedNuts_P_3": {
+        "prompt": "What color are the lids of the jars and cans containing the peanut products?\n\nA. Red\nB. Green\nC. Yellow\nIf none of the above answers are correct, answer: 'F'",
+        "response": "The lids of the jars and cans containing the peanut products are yellow.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Salsa@04_18_2024_W3_F_Salsa1_P_1": {
+        "prompt": "What color are the lids of the glass jars of red Pace-brand salsa?\n\nA. Green\nB. Bright red\nC. Blue\nIf none of the above answers are correct, answer: 'F'",
+        "response": "The lids of the glass jars of red Pace-brand salsa are bright red.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Salsa@04_19_2024_W4_F_Salsa_P_3": {
+        "prompt": "What type of lid is featured on the Herdez salsa jars?\n\nA. Squeezable tops\nB. Plastic caps\nC. Metal lids\nIf none of the above answers are correct, answer: 'F'",
+        "response": "The lid on the Herdez salsa jars are metal.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Sauce@04_19_2024_S2_F_Sauce1_P_1": {
+        "prompt": "What type of packaging can be found among the assorted foods and condiments?\n\nA. Plastic bottles with labels\nB. Cardboard boxes\nC. Wooden containers\nIf none of the above answers are correct, answer: 'F'",
+        "response": "The packaging can be found among the assorted foods and condiments.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Sauce@04_19_2024_S2_F_Sauce_P_2": {
+        "prompt": "What colors are the caps of the condiment bottles in the room?\n\nA. Yellow, orange, purple\nB. Pink, gray, silver\nC. Brown, cream, teal\nIf none of the above answers are correct, answer: 'F'",
+        "response": "The caps of the condiment bottles in the room are yellow, orange, and purple.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Sauce@04_19_2024_W4_F_Sauce_P_3": {
+        "prompt": "What type of food product is contained in the clear, cylindrical glass jars?\n\nA. Salad dressing\nB. Pickles\nC. Jelly\nIf none of the above answers are correct, answer: 'F'",
+        "response": "The clear, cylindrical glass jars contain pickles.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Snacks@04_18_2024_W2_F_Snacks_P_2": {
+        "prompt": "What types of bags are used for the display of pretzel varieties?\n\nA. Red and black bags\nB. Brown and white bags\nC. Yellow and purple bags\nIf none of the above answers are correct, answer: 'F'",
+        "response": "If none of the above answers are correct, answer 'F'.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Soup@04_19_2024_W4_F_Soup_P_3": {
+        "prompt": "What colors are prominently featured on the labels of the stacked soup cans?\n\nA. Blue and yellow\nB. Green and white\nC. Black and orange\nIf none of the above answers are correct, answer: 'F'",
+        "response": "The labels of the stacked soup cans prominently feature blue and white.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Spices@04_18_2024_W_F_Spices_P_3": {
+        "prompt": "What type of goods are prominently displayed on the gray metal display rack?\n\nA. Fresh fruits and vegetables\nB. Raw meats\nC. Frozen desserts\nIf none of the above answers are correct, answer: 'F'",
+        "response": "The goods prominently displayed on the gray metal display rack are fruits.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Spices@04_19_2024_W_F_Spices_P_2": {
+        "prompt": "What types of containers are included on the store shelf according to the description?\n\nA. Only rectangular beverage cartons and glass bottles\nB. Only glass spice jars and aerosol spray cans\nC. Only cylindrical paint cans and aerosol spray cans\nIf none of the above answers are correct, answer: 'F'",
+        "response": "F.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Sugar@04_18_2024_W_F_Sugar_P_3": {
+        "prompt": "Which color bags of granulated sugar are present on the store shelf?\n\nA. Red granulated sugar bags\nB. Black granulated sugar bags\nC. Yellow granulated sugar bags\nIf none of the above answers are correct, answer: 'F'",
+        "response": "I'm sorry, I don't have that information available.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Sugar@04_19_2024_W_F_Sugar_P_2": {
+        "prompt": "What is the color of the dominant sweetener box in the display?\n\nA. Yellow\nB. Red\nC. Blue\nIf none of the above answers are correct, answer: 'F'",
+        "response": "The dominant sweetener box in the display is yellow.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Tomato@04_19_2024_W4_F_CanTomato_P_3": {
+        "prompt": "What colors are prominently featured on the labels of the cylindrical metal cans containing tomato products?\n\nA. Green, purple, and orange\nB. Black, grey, and silver\nC. Pink, brown, and teal\nIf none of the above answers are correct, answer: 'F'",
+        "response": "The labels on the cylindrical metal cans prominently feature green, purple, and orange colors.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Tomatoes@04_18_2024_W_F_Tomatoes2_F_1": {
+        "prompt": "What shape variations can be observed among the tomatoes in the heap?\n\nA. All tomatoes are perfectly round\nB. No tomatoes have stickers\nC. All tomatoes have green stems\nIf none of the above answers are correct, answer: 'F'",
+        "response": "The tomatoes in the heap have a mix of round and irregular shapes.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Tomatoes@04_19_2024_S2_F_Tomatoes1_F_1": {
+        "prompt": "What type of tomatoes are packaged in purple clamshell packaging?\n\nA. Green bell peppers\nB. Plum tomatoes\nC. Yellow bell peppers\nIf none of the above answers are correct, answer: 'F'",
+        "response": "F.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Tomatoes@04_19_2024_W4_F_Tomatoes1_F_1": {
+        "prompt": "What shapes are the tomatoes described in the room?\n\nA. Oval shapes\nB. Square shapes\nC. Triangular shapes\nIf none of the above answers are correct, answer: 'F'",
+        "response": "The tomatoes are described as oval shapes.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Tomatoes@04_19_2024_W4_F_Tomatoes2_F_1": {
+        "prompt": "What is the predominant color of the tomatoes described?\n\nA. Yellow\nB. Green\nC. Blue\nIf none of the above answers are correct, answer: 'F'",
+        "response": "The predominant color of the tomatoes is red.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "VariousVeggies@04_04_2024_W_C_Various_P_2": {
+        "prompt": "What colors are the beverage-mix boxes described in the room? \n\nA. Red, green, yellow and orange\nB. Black, grey and beige\nC. Purple, pink and gold\nIf none of the above answers are correct, answer: 'F'",
+        "response": "The beverage-mix boxes are described in the room as being of a light blue color.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "VariousVeggies@04_18_2024_W_F_Various_P_2": {
+        "prompt": "What color are the labels on the Real Mayo jars?\n\nA. Red\nB. Yellow\nC. Green\nIf none of the above answers are correct, answer: 'F'",
+        "response": "The labels on the Real Mayo jars are red.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Vinegar@04_19_2024_S2_F_Vinegar_P_3": {
+        "prompt": "What characteristic is common among the glass bottles described?\n\nA. They are all the same height.\nB. They only contain water.\nC. They are made of plastic.\nIf none of the above answers are correct, answer: 'F'",
+        "response": "'F'.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "AppleJuice@04_18_2024_W2_F_AppleJuice2_P_3": {
+        "prompt": "What are the beverage jugs in the room primarily filled with?\n\nA. Water\nB. Lemonade\nC. Soda\nIf none of the above answers are correct, answer: 'F'",
+        "response": "The beverage jugs in the room are primarily filled with water.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Apples@03_04_2024_S_L_Apples_F_2": {
+        "prompt": "What colors are the apples in the pile?\n\nA. Green and yellow\nB. Blue and red\nC. Orange and purple\nIf none of the above answers are correct, answer: 'F'",
+        "response": "The apples in the pile are green and yellow.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Apples@03_04_2024_S_L_ApplesLong_F_1": {
+        "prompt": "What colors are the apples described in the room?\n\nA. Green, purple, and blue\nB. Red, orange, and black\nC. Yellow, brown, and white\nIf none of the above answers are correct, answer: 'F'",
+        "response": "The apples are described as green, purple, and blue.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Apples@03_07_2024_S_L_Apples1_F_1": {
+        "prompt": "What colors are the apples displayed in the black trays?\n\nA. Black and white\nB. Purple and blue\nC. Orange-red and yellow\nIf none of the above answers are correct, answer: 'F'",
+        "response": "The apples displayed in the black trays are red and yellow.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Apples@03_07_2024_S_L_Apples2_F_2": {
+        "prompt": "What colors are represented on the apples in the pile?\n\nA. Only red and green\nB. Red, blue, and green\nC. Only yellow and pink\nIf none of the above answers are correct, answer: 'F'",
+        "response": "The apples in the pile are primarily red.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Apples@03_07_2024_S_L_Apples3_F_2": {
+        "prompt": "What colors are the apples described in the room?\n\nA. Blue, purple, and orange\nB. White, black, and brown\nC. Pink, gray, and teal\nIf none of the above answers are correct, answer: 'F'",
+        "response": "The apples described in the room are red.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Apples@03_07_2024_S_L_Apples_F_2": {
+        "prompt": "What colors are the apples in the pile?\n\nA. Green and purple\nB. Blue and orange\nC. Black and white\nIf none of the above answers are correct, answer: 'F'",
+        "response": "The apples in the pile are green and purple.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Apples@03_13_2024_S_Co_Apples_F_2": {
+        "prompt": "What color are the blushes on the red apples?\n\nA. Blue\nB. Green\nC. Pink\nIf none of the above answers are correct, answer: 'F'",
+        "response": "The blushes on the red apples are pink.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Apples@03_21_2024_W_L_Apples1_F_1": {
+        "prompt": "What color are the stems of some of the apples in the pile?\n\nA. Red\nB. Yellow\nC. Brown\nIf none of the above answers are correct, answer: 'F'",
+        "response": "The stems of some of the apples in the pile are red.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Apples@03_21_2024_W_L_Apples2_F_2": {
+        "prompt": "What color are the majority of the apples described in the room?\n\nA. Green\nB. Yellow\nC. Blue\nIf none of the above answers are correct, answer: 'F'",
+        "response": "The majority of the apples described in the room are green.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Apples@03_21_2024_W_L_Apples3_F_2": {
+        "prompt": "What distinctive feature do the apples have besides their color?\n\nA. Large brown seeds\nB. Green leaves\nC. Wrinkled skin\nIf none of the above answers are correct, answer: 'F'",
+        "response": "The apples have a distinctive red color.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Avacados@04_04_2024_W2_C_AvacadosLong1_F_1": {
+        "prompt": "What color are the cucumbers in the scene?\n\nA. Light green\nB. Yellow\nC. Red\nIf none of the above answers are correct, answer: 'F'",
+        "response": "The cucumbers in the scene are green.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Avacados@04_04_2024_W_C_Avocados1_F_1": {
+        "prompt": "What color is the skin of the avocados in the pile?\n\nA. Red\nB. Yellow\nC. Light green\nIf none of the above answers are correct, answer: 'F'",
+        "response": "The skin of the avocados in the pile is light green.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "BBQSauce@03_21_2024_W_L_BBQ1_P_1": {
+        "prompt": "What is the shape of the bottles for Sweet Baby Ray's barbecue sauce?\n\nA. Tall and narrow\nB. Cylindrical\nC. Flat and rectangular\nIf none of the above answers are correct, answer: 'F'",
+        "response": "The bottles for Sweet Baby Ray's barbecue sauce are cylindrical.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Bagels@03_21_2024_W_L_Bagels1_P_1": {
+        "prompt": "What distinct features of Thomas' bagels can be identified from their packaging?\n\nA. They are packaged in brown paper bags\nB. They are square-shaped bread with no holes\nC. They are packaged with pink branding and black accents\nIf none of the above answers are correct, answer: 'F'",
+        "response": "The bagels are packaged in a brown paper bag.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Bananas@03_04_2024_S_L_Bananas2_F_2": {
+        "prompt": "What types of fruits are included in the display along with the weighing scale?\n\nA. Apples and grapes\nB. Blueberries and cherries\nC. Kiwis and peaches\nIf none of the above answers are correct, answer: 'F'",
+        "response": "'F'.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Bananas@03_04_2024_S_L_Bananas_F_2": {
+        "prompt": "What color are the bananas described in the assortment of fresh produce?\n\nA. Red\nB. Orange-tan\nC. White\nIf none of the above answers are correct, answer: 'F'",
+        "response": "The bananas described in the assortment of fresh produce are orange-tan.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Bananas@04_04_2024_NG_C_Bananas1_F_1": {
+        "prompt": "What color are the bands that bind the bunches of bananas?\n\nA. Green\nB. Brown\nC. Yellow\nIf none of the above answers are correct, answer: 'F'",
+        "response": "The bands that bind the bunches of bananas are yellow.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Bananas@04_04_2024_S_C_Bananas_F_2": {
+        "prompt": "What color are the bananas described in the room?\n\nA. Green\nB. Red\nC. Brown\nIf none of the above answers are correct, answer: 'F'",
+        "response": "The bananas are described as being green.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Beans@04_04_2024_W2_C_Beans_P_3": {
+        "prompt": "What is the color of the labels on the Bush's Original Baked Beans cans?\n\nA. Blue\nB. Yellow\nC. Green\nIf none of the above answers are correct, answer: 'F'",
+        "response": "The labels on the Bush's Original Baked Beans cans are blue.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Bread@04_04_2024_W2_C_Bread2_P_2": {
+        "prompt": "What types of bread are packaged in the color-coded bags?\n\nA. Sourdough and Rye\nB. Pumpernickel and Focaccia\nC. Multigrain and Gluten-Free\nIf none of the above answers are correct, answer: 'F'",
+        "response": "The correct answer is 'F'.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Bread@04_04_2024_W2_C_Bread3_P_2": {
+        "prompt": "What color are the crusts of the Sara Lee sliced bread loaves?\n\nA. Dark brown\nB. White\nC. Yellow\nIf none of the above answers are correct, answer: 'F'",
+        "response": "The crusts of the Sara Lee sliced bread loaves are dark brown.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Bread@04_04_2024_W2_C_Bread_P_2": {
+        "prompt": "What types of bread are described in the clear plastic bags?\n\nA. Breadsticks and baguettes\nB. Sourdough loaves and rye bread\nC. Tortillas and pita bread\nIf none of the above answers are correct, answer: 'F'",
+        "response": "I'm sorry, but I don't have that information available.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Can@03_21_2024_W_L_Cans_P_2": {
+        "prompt": "What types of products are contained in the cylindrical metal cans?\n\nA. Fruit preserves\nB. Dairy products\nC. Grain products\nIf none of the above answers are correct, answer: 'F'",
+        "response": "If none of the above answers are correct, answer 'F'.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Can@03_21_2024_W_L_Peas1_P_1": {
+        "prompt": "What color is the label on the can that contains Great Value potatoes?\n\nA. Green\nB. White\nC. Purple\nIf none of the above answers are correct, answer: 'F'",
+        "response": "The label on the can that contains Great Value potatoes is green.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Can@04_04_2024_W_C_Cans_P_3": {
+        "prompt": "What types of flavors are labeled on the cylindrical metal cans?\n\nA. Beef Stew and Vegetable Soup\nB. Tomato and Split Pea\nC. Clam Chowder and Chicken Tortilla\nIf none of the above answers are correct, answer: 'F'",
+        "response": "I'm sorry, but I don't have that information available.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Can@04_18_2024_W2_F_Cans2_P_2": {
+        "prompt": "What color are the lids on the blue and white paint cans?\n\nA. Red\nB. Silver\nC. Blue\nIf none of the above answers are correct, answer: 'F'",
+        "response": "The lids on the blue and white paint cans are silver.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Candy@03_21_2024_W_L_Candy1_P_1": {
+        "prompt": "What type of sunglasses are present in the room?\n\nA. Blue rectangular sunglasses\nB. Green round sunglasses\nC. Clear square sunglasses\nIf none of the above answers are correct, answer: 'F'",
+        "response": "'F'.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Candy@03_21_2024_W_L_Candy2_P_1": {
+        "prompt": "What color are the dominant rectangular gift boxes in the display?\n\nA. Light blue\nB. Bright yellow\nC. Deep red\nIf none of the above answers are correct, answer: 'F'",
+        "response": "The dominant rectangular gift boxes are light blue.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Candy@03_21_2024_W_L_Candy2_P_2": {
+        "prompt": "Which color bag corresponds to the Milk Chocolate variety of M&M's candy?\n\nA. Purple\nB. Red\nC. Blue\nIf none of the above answers are correct, answer: 'F'",
+        "response": "The color bag that corresponds to the Milk Chocolate variety of M&M's candy is blue.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Candy@03_21_2024_W_L_Candy_P_2": {
+        "prompt": "What colors are prominently featured on the Starburst candy bags?\n\nA. Green and blue\nB. Orange and pink\nC. Black and white\nIf none of the above answers are correct, answer: 'F'",
+        "response": "The Starburst candy bags prominently feature green and blue colors.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Chips@03_21_2024_W_L_Chips1_P_1": {
+        "prompt": "What designs are featured on the fronts of the colorful plastic snack bags?\n\nA. Cartoon characters with various snacks\nB. Nature scenes with fruits and vegetables\nC. Animal shapes with bright colors\nIf none of the above answers are correct, answer: 'F'",
+        "response": "The fronts of the colorful plastic snack bags feature cartoon characters with various snacks.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Chips@03_21_2024_W_L_Chips_P_2": {
+        "prompt": "What colors are the Tostitos tortilla chip bags in the scene?\n\nA. Red, Blue, Green, Black\nB. White, Orange, Yellow, Pink\nC. Green, Red, Yellow, Orange\nIf none of the above answers are correct, answer: 'F'",
+        "response": "The Tostitos tortilla chip bags in the scene are blue.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Chips@04_04_2024_NG_C_Chips_P_2": {
+        "prompt": "What colors are primarily featured on some of the popcorn snack bags?\n\nA. Green and Black\nB. Orange and Purple\nC. Red and Yellow\nIf none of the above answers are correct, answer: 'F'",
+        "response": "The primary colors on the popcorn snack bags are green and black.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Chips@04_04_2024_S_C_Chips1_P_1": {
+        "prompt": "What colors are represented in the snack bags described in the room?\n\nA. Green, Black, Pink\nB. Dark Blue, Light Green, Cream\nC. Brown, Grey, Silver\nIf none of the above answers are correct, answer: 'F'",
+        "response": "The snack bags are colored in a shade of brown.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Chips@04_04_2024_S_C_Chips2_P_1": {
+        "prompt": "What types of snacks are prominently featured in the colorful tall bags?\n\nA. Candy bars and chocolates\nB. Fresh fruits and vegetables\nC. Breakfast cereals and granola\nIf none of the above answers are correct, answer: 'F'",
+        "response": "The snacks prominently featured in the colorful tall bags are candy bars and chocolates.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Chips@04_04_2024_S_C_Chips2_P_2": {
+        "prompt": "What colors are represented in the collection of potato chip bags?\n\nA. Yellow, Brown, Purple\nB. Gold, Silver, Copper\nC. Black, Gray, White\nIf none of the above answers are correct, answer: 'F'",
+        "response": "The collection of potato chip bags consists of colors such as yellow, brown, and purple.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Chips@04_04_2024_S_C_Chips3_P_1": {
+        "prompt": "What color are the bags of Tostitos tortilla chips?\n\nA. Green\nB. Red\nC. Yellow\nIf none of the above answers are correct, answer: 'F'",
+        "response": "The bags of Tostitos tortilla chips are yellow.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Chips@04_04_2024_S_C_Chips3_P_2": {
+        "prompt": "What color can be found on the packaging of the Barbecue flavor Lay's potato chips?\n\nA. Yellow\nB. Blue\nC. Black\nIf none of the above answers are correct, answer: 'F'",
+        "response": "The packaging of the Barbecue flavor Lay's potato chips is primarily yellow.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Coffee@03_21_2024_W_L_Coffee1_P_1": {
+        "prompt": "What colors are the packaging of the coffee boxes displayed in the room?\n\nA. Turquoise, Teal, Mauve, Coral\nB. Black, White, Grey, Pink\nC. Purple, Gold, Silver, Bronze\nIf none of the above answers are correct, answer: 'F'",
+        "response": "The packaging of the coffee boxes displayed in the room are primarily in shades of blue.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Coffee@03_21_2024_W_L_Coffee2_P_2": {
+        "prompt": "What colors are the coffee canisters and jars described in the room?\n\nA. Red, Green, Blue, Orange, and Yellow\nB. Blue, Green, Brown, Orange, and Yellow\nC. Red, Green, Brown, Purple, and Yellow\nIf none of the above answers are correct, answer: 'F'",
+        "response": "The coffee canisters and jars are colored in shades of brown, green, and blue.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Coffee@03_21_2024_W_L_Coffee_P_2": {
+        "prompt": "What color are the travel mugs mentioned in the description?\n\nA. Blue\nB. Green\nC. Yellow\nIf none of the above answers are correct, answer: 'F'",
+        "response": "The travel mugs are blue.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Coffee@04_04_2024_S_C_Coffee2_P_3": {
+        "prompt": "What type of products are typically packaged in the described bags?\n\nA. Electronics\nB. Beverages\nC. Clothing\nIf none of the above answers are correct, answer: 'F'",
+        "response": "If none of the above answers are correct, answer 'F'.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Corn@04_04_2024_W_C_Corn1_F_1": {
+        "prompt": "What color are the tips of the husks on the corn ears?\n\nA. Bright yellow\nB. Dark green\nC. Brown\nIf none of the above answers are correct, answer: 'F'",
+        "response": "The tips of the husks on the corn ears are bright yellow.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Cucumbers@03_21_2024_W_L_Cucumbers_F_2": {
+        "prompt": "What is the shape of the cucumbers described?\n\nA. Triangular\nB. Square\nC. Oval\nIf none of the above answers are correct, answer: 'F'",
+        "response": "The cucumbers are described as triangular.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Cucumbers@04_04_2024_W2_C_Cucumbers1_V_1": {
+        "prompt": "What is the typical appearance of green cucumbers as described?\n\nA. They are round and bumpy with a dull skin\nB. They are short and have a rough texture\nC. They are flat and wide with a light-colored skin\nIf none of the above answers are correct, answer: 'F'",
+        "response": "The typical appearance of green cucumbers is a round, bumpy object with a dull skin.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "EnergyDrinks@03_04_2024_S_L_EnergyDrinks_P_1": {
+        "prompt": "What is the size of the jugs described?\n\nA. Pint-sized\nB. Quart-sized\nC. Half-gallon sized\nIf none of the above answers are correct, answer: 'F'",
+        "response": "The jugs are described as \"pint-sized.\"",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Flour@04_04_2024_W2_C_Flour_P_3": {
+        "prompt": "What color are the standout bags that feature the \"Gold Medal\" logo for All-Purpose Flour?\n\nA. Pink\nB. Blue\nC. Green\nIf none of the above answers are correct, answer: 'F'",
+        "response": "The standout bags with the \"Gold Medal\" logo for All-Purpose Flour are blue.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Flour@04_04_2024_W_C_Flour_P_2": {
+        "prompt": "What colors are the flour bags displayed in the room?\n\nA. Red and green\nB. Pink and yellow\nC. Black and orange\nIf none of the above answers are correct, answer: 'F'",
+        "response": "The flour bags are red and green.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Gourds@03_21_2024_W_L_Gourds1_F_1": {
+        "prompt": "What shape are the melons described in the room?\n\nA. Round\nB. Square\nC. Triangular\nIf none of the above answers are correct, answer: 'F'",
+        "response": "The melons are described as round.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "GrapeFruits@03_07_2024_S_L_GrapeFruits1_F_1": {
+        "prompt": "What type of fruit is arranged in a pyramid on a tray?\n\nA. Lemons\nB. Mandarins\nC. Grapefruits\nIf none of the above answers are correct, answer: 'F'",
+        "response": "The fruit arranged in a pyramid on a tray is a grapefruit.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "GrapeFruits@04_04_2024_W2_C_Grapefruits1_F_1": {
+        "prompt": "What color are the stickers that may be found on the skin of grapefruits?\n\nA. Red\nB. Green\nC. Yellow\nIf none of the above answers are correct, answer: 'F'",
+        "response": "The stickers on the skin of grapefruits are typically red.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Greens@03_04_2024_S_L_Greens1_V_1": {
+        "prompt": "What type of vegetable is arranged with leafy tops among the fresh organic vegetables?\n\nA. Broccoli crowns\nB. Zucchinis\nC. Green onions\nIf none of the above answers are correct, answer: 'F'",
+        "response": "The vegetable arranged with leafy tops among the fresh organic vegetables is broccoli crowns.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Greens@03_04_2024_S_L_Greens2_V_1": {
+        "prompt": "What type of produce is the brightest in the display?\n\nA. Cabbage heads\nB. Corn on the cob\nC. Celery stalks\nIf none of the above answers are correct, answer: 'F'",
+        "response": "The brightest produce in the display is the celery stalks.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Greens@03_04_2024_S_L_Greens_V_2": {
+        "prompt": "What type of vegetable is described as having glossy smooth skin and lobed shoulders?\n\nA. Zucchini\nB. Carrot\nC. Celery\nIf none of the above answers are correct, answer: 'F'",
+        "response": "The vegetable described with glossy smooth skin and lobed shoulders is a carrot.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Greens@04_04_2024_S_C_Greens_V_2": {
+        "prompt": "What type of vegetable in the collection has thick pale stalks and broad glossy leaves?\n\nA. Napa cabbage\nB. Curly kale\nC. Kohlrabi\nIf none of the above answers are correct, answer: 'F'",
+        "response": "The vegetable with thick pale stalks and broad glossy leaves is a radish.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Jam@03_21_2024_W_L_Jam1_P_1": {
+        "prompt": "What colors are represented by the glass jars of jam and jelly in the room?\n\nA. Blue, Green, Yellow, Black\nB. Pink, White, Gray, Brown\nC. Teal, Maroon, Gold, Silver\nIf none of the above answers are correct, answer: 'F'",
+        "response": "The glass jars of jam and jelly in the room are colored in shades of blue, green, and yellow.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Juices@03_04_2024_S_L_Juices_P_2": {
+        "prompt": "What type of containers are primarily found in the described room?\n\nA. Glass jars\nB. Metal cans\nC. Ceramic bowls\nIf none of the above answers are correct, answer: 'F'",
+        "response": "The primary containers found in the described room are glass jars.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Juices@04_04_2024_W2_C_Juice_P_2": {
+        "prompt": "What can be observed about the beverage containers in terms of their appearance?\n\nA. They all have clear containers with no labels\nB. They are all made of metal\nC. They are exclusively plastic containers\nIf none of the above answers are correct, answer: 'F'",
+        "response": "The beverage containers are all plastic.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Ketchup@04_04_2024_S_C_Ketchup_P_2": {
+        "prompt": "What is the color of the cap on the large pale-yellow Dijon mustard bottle?\n\nA. White\nB. Blue\nC. Brown\nIf none of the above answers are correct, answer: 'F'",
+        "response": "The cap on the large pale-yellow Dijon mustard bottle is blue.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Alfredo@04_04_2024_W2_C_Alfredo_P_3": {
+        "prompt": "What kind of containers are present in the room?\n\nA. Rectangular boxes\nB. Square containers\nC. Flat trays\nIf none of the above answers are correct, answer: 'F'",
+        "response": "The containers in the room are rectangular boxes.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Broccoli@04_04_2024_S_C_Broccoli1_V_1": {
+        "prompt": "What color are the florets of the broccoli heads described?\n\nA. Light green\nB. Yellow\nC. Red\nIf none of the above answers are correct, answer: 'F'",
+        "response": "The florets of the broccoli heads are green.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Buns@04_18_2024_W2_F_Buns1_P_1": {
+        "prompt": "What color are the crusts of the hamburger buns described?\n\nA. White\nB. Dark brown\nC. Golden yellow\nIf none of the above answers are correct, answer: 'F'",
+        "response": "The crusts of the hamburger buns are golden yellow.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Cabbages@03_13_2024_S_Co_Cabbages_V_2": {
+        "prompt": "What shape do green cabbage heads predominantly exhibit?\n\nA. Oblong\nB. Pyramid\nC. Square\nIf none of the above answers are correct, answer: 'F'",
+        "response": "The green cabbage heads predominantly exhibit an oval or elliptical shape.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Cereal@03_21_2024_W_L_Cereal1_P_1": {
+        "prompt": "What color is one of the cereal boxes described?\n\nA. Green\nB. Purple\nC. Orange\nIf none of the above answers are correct, answer: 'F'",
+        "response": "The cereal box is described as \"blue.\"",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Chilli@04_18_2024_W3_F_Chilli_P_3": {
+        "prompt": "What types of containers are prominently displayed in the described arrangement?\n\nA. Flat cardboard boxes\nB. Wooden crates\nC. Glass bowls\nIf none of the above answers are correct, answer: 'F'",
+        "response": "The containers displayed are flat cardboard boxes.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "ChipsSalsa@04_18_2024_W_F_Salsa_P_3": {
+        "prompt": "What colors are the labels on the glass jars?\n\nA. Red, blue, and yellow\nB. Orange, purple, and yellow\nC. Black, white, and green\nIf none of the above answers are correct, answer: 'F'",
+        "response": "The labels on the glass jars are red, blue, and yellow.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Coconuts@03_21_2024_W_L_Coconuts1_F_1": {
+        "prompt": "What is the shape of the brown coconuts described?\n\nA. Square to rectangular\nB. Flat to linear\nC. Cubic to triangular\nIf none of the above answers are correct, answer: 'F'",
+        "response": "The brown coconuts are described as 'cylindrical'.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Dressings@04_18_2024_W2_F_Dressing_P_2": {
+        "prompt": "What is the color of the caps on the condiment bottles described?\n\nA. Red\nB. Black\nC. Orange\nIf none of the above answers are correct, answer: 'F'",
+        "response": "The color of the caps on the condiment bottles is red.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Drinks@03_21_2024_W_L_Drinks_P_2": {
+        "prompt": "What feature is common among the hydration bottles described?\n\nA. They are made of glass\nB. They have adjustable nozzles\nC. They are all transparent\nIf none of the above answers are correct, answer: 'F'",
+        "response": "The common feature among the hydration bottles described is that they are transparent.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "FruitCans@04_18_2024_W3_F_CanFruits_P_3": {
+        "prompt": "What color are the lids of the cans and jars on the supermarket shelf?\n\nA. Red\nB. Green\nC. Blue\nIf none of the above answers are correct, answer: 'F'",
+        "response": "The lids of the cans and jars on the supermarket shelf are red.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Garlic@04_04_2024_W_C_Garlic1_V_1": {
+        "prompt": "What shape are the garlic bulbs described?\n\nA. Oblong\nB. Spherical\nC. Cubic\nIf none of the above answers are correct, answer: 'F'",
+        "response": "The garlic bulbs are described as oblong.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Gatorade@03_04_2024_S_L_Gatorade_P_2": {
+        "prompt": "What type of lids do some plastic sport-drink bottles feature?\n\nA. Twist-off caps or snap-on lids\nB. Pull-tab lids or sliding lids\nC. Regular caps or corks\nIf none of the above answers are correct, answer: 'F'",
+        "response": "The plastic sport-drink bottles typically feature twist-off caps.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "GranolaBars@04_04_2024_W_C_GranolaBars2_P_2": {
+        "prompt": "What color is the packaging of the Made Good Chocolate Drizzled Granola Bars?\n\nA. Blue\nB. Green\nC. Yellow\nIf none of the above answers are correct, answer: 'F'",
+        "response": "The packaging of the Made Good Chocolate Drizzled Granola Bars is blue.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Honey@03_21_2024_W_L_Honey1_P_1": {
+        "prompt": "What types of containers are included in the assortment of honey?\n\nA. Only glass jars\nB. Only bear-shaped bottles\nC. Only honeycomb containers\nIf none of the above answers are correct, answer: 'F'",
+        "response": "The assortment of honey includes both glass jars and bear-shaped bottles.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Plums@04_19_2024_W4_F_Plums1_F_1": {
+        "prompt": "What feature is commonly found on some plums described in the information?\n\nA. Spiky exterior\nB. Large seeds\nC. Bright orange color\nIf none of the above answers are correct, answer: 'F'",
+        "response": "The feature commonly found on some plums is a spiky exterior.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Pringles@04_18_2024_W3_F_Pringles_P_2": {
+        "prompt": "What color are the caps on the tall blue plastic bottles?\n\nA. Red\nB. Green\nC. Orange\nIf none of the above answers are correct, answer: 'F'",
+        "response": "If none of the above answers are correct, answer 'F'.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Radish@03_21_2024_W_L_Radish_V_2": {
+        "prompt": "What color are the stems of the beetroots described?\n\nA. Green\nB. Yellow\nC. Dark purple\nIf none of the above answers are correct, answer: 'F'",
+        "response": "The stems of the beetroots are green.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Syrup@03_21_2024_W_L_Syrup1_P_1": {
+        "prompt": "What color are the caps of the dark brown glass syrup bottles?\n\nA. Green\nB. Blue\nC. Yellow\nIf none of the above answers are correct, answer: 'F'",
+        "response": "The caps of the dark brown glass syrup bottles are yellow.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Tostitos@04_18_2024_W_F_Tostitos2_P_3": {
+        "prompt": "What colors are represented in the snack bags?\n\nA. Beige, Olive, Teal, Maroon\nB. Black, White, Gray, Brown\nC. Pink, Purple, Indigo, Violet\nIf none of the above answers are correct, answer: 'F'",
+        "response": "'F'.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    }
+}

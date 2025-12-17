@@ -1,0 +1,606 @@
+{
+    "Lemons@04_18_2024_W_F_Lemons1_F_1": {
+        "prompt": "What type of vehicle is parked nearby?\n\nA. Sedan\nB. Motorcycle\nC. Pickup truck\nD. Convertible\nIf none of the above answers are correct, answer: 'F'",
+        "response": ""
+    },
+    "Lemons@04_19_2024_W4_F_Lemons1_F_1": {
+        "prompt": "What type of chair is featured in the scene?\n\nA. Armchair\nB. Recliner\nC. Dining chair\nD. Lounge chair\nIf none of the above answers are correct, answer: 'F'",
+        "response": ""
+    },
+    "Lime@04_18_2024_W_F_Limes1_F_1": {
+        "prompt": "What type of fruit basket complements the limes?\n\nA. Wooden basket\nB. Plastic basket\nC. Metal basket\nD. Fabric basket\nIf none of the above answers are correct, answer: 'F'",
+        "response": "The fruit basket complements the limes."
+    },
+    "Mangoes@04_18_2024_W3_F_Mangoes1_F_1": {
+        "prompt": "What type of vehicle can be found near the display?\n\nA. Sedan\nB. Coupe\nC. SUV\nD. Hatchback\nIf none of the above answers are correct, answer: 'F'",
+        "response": "The vehicle is a hatchback."
+    },
+    "Mangoes@04_18_2024_W_F_Mangoes1_F_1": {
+        "prompt": "What is the shape of the basket?\n\nA. Rectangular\nB. Hexagonal\nC. Circular\nD. Triangular\nIf none of the above answers are correct, answer: 'F'",
+        "response": "The basket is rectangular."
+    },
+    "Mayo@04_19_2024_S2_F_Mayo_P_2": {
+        "prompt": "What type of fruit basket is displayed on the shelf?\n\nA. Apple basket\nB. Banana basket\nC. Grape basket\nD. Orange basket\nIf none of the above answers are correct, answer: 'F'",
+        "response": "The fruit basket is a white one."
+    },
+    "Melons@04_19_2024_S2_F_Melons1_F_1": {
+        "prompt": "What color is the sofa in the scene?\n\nA. Red\nB. Gray\nC. Blue\nD. Yellow\nIf none of the above answers are correct, answer: 'F'",
+        "response": "The sofa in the scene is gray."
+    },
+    "Melons@04_19_2024_S_F_Melons_F_2": {
+        "prompt": "What type of vehicle is parked outside?\n\nA. Sedan\nB. Coupe\nC. SUV\nD. Minivan\nIf none of the above answers are correct, answer: 'F'",
+        "response": "The vehicle parked outside is a sedan."
+    },
+    "Melons@04_19_2024_W4_F_Melons1_F_1": {
+        "prompt": "What is the flavor of the ice cream in the scene?\n\nA. Chocolate\nB. Strawberry\nC. Vanilla\nD. Mint\nIf none of the above answers are correct, answer: 'F'",
+        "response": ""
+    },
+    "Melons@04_19_2024_W4_F_Watermelons1_F_1": {
+        "prompt": "What is the texture of the fabric used for the curtains?\n\nA. Velvet\nB. Linen\nC. Silk\nD. Canvas\nIf none of the above answers are correct, answer: 'F'",
+        "response": "The fabric used for the curtains is velvet."
+    },
+    "MultiFruits@04_04_2024_W_C_FruitsLong1_F_1": {
+        "prompt": "What type of vehicle is parked outside?\n\nA. Sedan\nB. Pickup truck\nC. Sports car\nD. Bicycle\nIf none of the above answers are correct, answer: 'F'",
+        "response": "The vehicle parked outside is a pickup truck."
+    },
+    "MultiFruits@04_19_2024_S_F_Fruits1_F_1": {
+        "prompt": "What size is the television in the room?\n\nA. 32 inches\nB. 55 inches\nC. 75 inches\nD. 48 inches\nIf none of the above answers are correct, answer: 'F'",
+        "response": ""
+    },
+    "Nectarines@04_19_2024_W4_F_Nectarines1_F_1": {
+        "prompt": "What type of chair is used in the scene?\n\nA. Recliner\nB. Office chair\nC. Beanbag chair\nD. Dining chair\nIf none of the above answers are correct, answer: 'F'",
+        "response": ""
+    },
+    "Nuts@04_18_2024_W3_F_Nuts_P_2": {
+        "prompt": "What flavor is the ice cream?\n\nA. Chocolate\nB. Vanilla\nC. Strawberry\nD. Mint\nIf none of the above answers are correct, answer: 'F'",
+        "response": ""
+    },
+    "Nuts@04_18_2024_W_F_Nuts1_P_1": {
+        "prompt": "What type of vehicle is parked in the scene?\n\nA. Sedan\nB. Truck\nC. Bicycle\nD. Motorcycle\nIf none of the above answers are correct, answer: 'F'",
+        "response": "The vehicle parked in the scene is a bicycle."
+    },
+    "Oil@04_18_2024_W_F_Oil_P_3": {
+        "prompt": "What type of vehicle is parked nearby?\n\nA. Sedan\nB. Truck\nC. Motorcycle\nD. Bicycle\nIf none of the above answers are correct, answer: 'F'",
+        "response": "The caption doesn't provide any information about the vehicle parked nearby."
+    },
+    "Oil@04_19_2024_W_F_Oils_P_2": {
+        "prompt": "What type of furniture is featured prominently in the scene?\n\nA. Sofa\nB. Dining table\nC. Bookshelf\nD. Coffee table\nIf none of the above answers are correct, answer: 'F'",
+        "response": "The coffee table is not prominently featured in the scene."
+    },
+    "OliveOil@04_19_2024_S_F_OliveOil_P_3": {
+        "prompt": "What type of mountain range is visible in the scene?\n\nA. Rocky Mountains\nB. Andes\nC. Himalayas\nD. Appalachian\nIf none of the above answers are correct, answer: 'F'",
+        "response": "The caption doesn't provide any specific information about the mountain range."
+    },
+    "Onions@04_19_2024_S2_F_Onions1_V_1": {
+        "prompt": "What size is the sculpture in the room?\n\nA. Small\nB. Medium\nC. Large\nD. Extra Large\nIf none of the above answers are correct, answer: 'F'",
+        "response": "The size of the sculpture is not specified in the given information."
+    },
+    "Onions@04_19_2024_S2_F_Onions2_V_1": {
+        "prompt": "What is the texture of the rug?\n\nA. Soft and fluffy\nB. Rough and durable\nC. Smooth and silky\nD. Striped and colorful\nIf none of the above answers are correct, answer: 'F'",
+        "response": "The rug is striped and colorful."
+    },
+    "Onions@04_19_2024_S2_F_Onions3_V_1": {
+        "prompt": "What type of fruit is located on the table?\n\nA. Apple\nB. Banana\nC. Orange\nD. Grapes\nIf none of the above answers are correct, answer: 'F'",
+        "response": "The fruit on the table is a grape."
+    },
+    "Onions@04_19_2024_W4_F_Onions2_V_1": {
+        "prompt": "What is the shade of the sofa in the living room?\n\nA. Light Gray\nB. Dark Blue\nC. Cream\nD. Burgundy\nIf none of the above answers are correct, answer: 'F'",
+        "response": ""
+    },
+    "Onions@04_19_2024_W4_F_RedOnions1_V_1": {
+        "prompt": "What is the primary function of the chandelier?\n\nA. To provide ambiance\nB. To serve as a sculpture\nC. To hold candles\nD. To emit a soft glow\nIf none of the above answers are correct, answer: 'F'",
+        "response": "The primary function of the chandelier is to provide ambiance."
+    },
+    "Orange@04_18_2024_W_F_Oranges1_F_1": {
+        "prompt": "What type of chair is in the scene?\n\nA. Recliner\nB. Dining chair\nC. Office chair\nD. Lounge chair\nIf none of the above answers are correct, answer: 'F'",
+        "response": ""
+    },
+    "Orange@04_19_2024_S2_F_Oranges1_F_1": {
+        "prompt": "What type of vehicle is parked nearby?\n\nA. Sedan\nB. Motorcycle\nC. Truck\nD. Bicycle\nIf none of the above answers are correct, answer: 'F'",
+        "response": ""
+    },
+    "Orange@04_19_2024_W4_F_Oranges1_F_1": {
+        "prompt": "What is the shape of the tree in the scene?\n\nA. Oval\nB. Square\nC. Triangular\nD. Rectangular\nIf none of the above answers are correct, answer: 'F'",
+        "response": "The tree in the scene is oval."
+    },
+    "PastaSauce@04_18_2024_W3_F_PastaSauce1_P_1": {
+        "prompt": "What type of artifact is displayed prominently in the room?\n\nA. Ancient vase\nB. Modern sculpture\nC. Vintage clock\nD. Crystal goblet\nIf none of the above answers are correct, answer: 'F'",
+        "response": "The artifact displayed prominently in the room is a modern sculpture."
+    },
+    "PastaSauce@04_19_2024_S2_F_PastaSauce_P_2": {
+        "prompt": "What type of fabric is used for the curtains?\n\nA. Silk\nB. Cotton\nC. Velvet\nD. Linen\nIf none of the above answers are correct, answer: 'F'",
+        "response": "The type of fabric used for the curtains is not mentioned in the description."
+    },
+    "PeanutButter@04_18_2024_W3_F_PeanutButter_P_2": {
+        "prompt": "What is the flavor of the ice cream in the scene?\n\nA. Chocolate\nB. Vanilla\nC. Strawberry\nD. Mint\nIf none of the above answers are correct, answer: 'F'",
+        "response": ""
+    },
+    "PeanutButter@04_18_2024_W_F_PeanutButter_P_3": {
+        "prompt": "What type of chair is featured in the scene?\n\nA. Recliner\nB. Bar stool\nC. Armchair\nD. Folding chair\nIf none of the above answers are correct, answer: 'F'",
+        "response": "The chair in the scene is a recliner."
+    },
+    "Pears@04_18_2024_W3_F_Pears1_F_1": {
+        "prompt": "What is the size of the table in the scene?\n\nA. Small\nB. Medium\nC. Large\nD. Extra large\nIf none of the above answers are correct, answer: 'F'",
+        "response": "The size of the table in the scene is not specified."
+    },
+    "Pears@04_19_2024_W4_F_Pears1_F_1": {
+        "prompt": "What feature distinguishes the type of bicycle in the scene?\n\nA. The wheel size\nB. The handlebar shape\nC. The color of the frame\nD. The type of brakes\nIf none of the above answers are correct, answer: 'F'",
+        "response": "The type of brakes is not specified in the description."
+    },
+    "Peppers@04_18_2024_W3_F_GreenPeppers1_F_1": {
+        "prompt": "What type of chair is placed beside the table?\n\nA. Recliner\nB. Rocking chair\nC. Bar stool\nD. High chair\nIf none of the above answers are correct, answer: 'F'",
+        "response": ""
+    },
+    "Peppers@04_18_2024_W3_F_Peppers1_F_1": {
+        "prompt": "What type of chair is placed next to the table?\n\nA. Recliner\nB. Dining chair\nC. Bar stool\nD. Rocking chair\nIf none of the above answers are correct, answer: 'F'",
+        "response": ""
+    },
+    "Peppers@04_18_2024_W_F_GreenPeppers1_F_1": {
+        "prompt": "What type of building structure is visible in the scene?\n\nA. Skyscraper\nB. Cottage\nC. Bridge\nD. Warehouse\nIf none of the above answers are correct, answer: 'F'",
+        "response": "The building structure is a warehouse."
+    },
+    "Peppers@04_19_2024_W4_F_Peppers1_F_1": {
+        "prompt": "What type of chair is featured in the setting?\n\nA. Recliner\nB. Bean bag\nC. Armchair\nD. Dining chair\nIf none of the above answers are correct, answer: 'F'",
+        "response": "The chair in the scene is a recliner."
+    },
+    "Pickles@04_18_2024_W_F_Pickles_P_2": {
+        "prompt": "What type of fruit can be found growing on the trees?\n\nA. Apples\nB. Oranges\nC. Bananas\nD. Pears\nIf none of the above answers are correct, answer: 'F'",
+        "response": "The fruit growing on the trees is not specified."
+    },
+    "Pickles@04_19_2024_W_F_Pickles_P_2": {
+        "prompt": "What type of motor is used in the scene?\n\nA. Electric motor\nB. Internal combustion engine\nC. Stepper motor\nD. Linear motor\nIf none of the above answers are correct, answer: 'F'",
+        "response": ""
+    },
+    "Pineapples@04_18_2024_W_F_Pineapples1_F_1": {
+        "prompt": "What kind of ladder is depicted in the scene?\n\nA. Step ladder\nB. Extension ladder\nC. Folding ladder\nD. Rope ladder\nIf none of the above answers are correct, answer: 'F'",
+        "response": "The ladder depicted in the scene is a step ladder."
+    },
+    "Pineapples@04_19_2024_W4_F_Pineapples1_F_1": {
+        "prompt": "What type of vehicle is parked nearby?\n\nA. Sports car\nB. Motorcycle\nC. Bicycle\nD. Truck\nIf none of the above answers are correct, answer: 'F'",
+        "response": "The vehicle parked nearby is a black motorcycle."
+    },
+    "Plantains@04_19_2024_W4_F_Plantains1_F_1": {
+        "prompt": "What type of chair is located next to the table?\n\nA. Lounge chair\nB. Rocking chair\nC. Dining chair\nD. Armchair\nIf none of the above answers are correct, answer: 'F'",
+        "response": ""
+    },
+    "Potatoes@04_18_2024_W3_F_Potatoes1_V_1": {
+        "prompt": "What is the size of the table in the scene?\n\nA. Small\nB. Medium\nC. Large\nD. Extra large\nIf none of the above answers are correct, answer: 'F'",
+        "response": "The size of the table is not specified in the description."
+    },
+    "Potatoes@04_18_2024_W3_F_Potatoes2_V_1": {
+        "prompt": "What type of vase is displayed next to the onions?\n\nA. Glass vase\nB. Ceramic vase\nC. Plastic vase\nD. Wooden vase\nIf none of the above answers are correct, answer: 'F'",
+        "response": ""
+    },
+    "Potatoes@04_19_2024_W4_F_Potatoes1_V_1": {
+        "prompt": "What flavor is the ice cream?\n\nA. Chocolate\nB. Vanilla\nC. Strawberry\nD. Mint\nIf none of the above answers are correct, answer: 'F'",
+        "response": "'F' is not a flavor of ice cream."
+    },
+    "Ranch@04_18_2024_W_F_Ranch_P_2": {
+        "prompt": "What type of color scheme dominates the scene?\n\nA. Monochromatic\nB. Complementary\nC. Analogous\nD. Triadic\nIf none of the above answers are correct, answer: 'F'",
+        "response": ""
+    },
+    "Ranch@04_19_2024_W_F_Ranch_P_2": {
+        "prompt": "What type of chair is in the scene?\n\nA. Armchair\nB. Recliner\nC. Bean bag\nD. Dining chair\nIf none of the above answers are correct, answer: 'F'",
+        "response": ""
+    },
+    "Random@04_18_2024_W_F_Doritos_P_3": {
+        "prompt": "What is the size of the table in the center of the room?\n\nA. Small\nB. Medium\nC. Large\nD. Extra large\nIf none of the above answers are correct, answer: 'F'",
+        "response": "The size of the table in the center of the room is not specified."
+    },
+    "Random@04_18_2024_W_F_MacAndCheese1_P_1": {
+        "prompt": "What is the height of the building?\n\nA. Ten stories\nB. Fifteen stories\nC. Twenty stories\nD. Five stories\nIf none of the above answers are correct, answer: 'F'",
+        "response": "'F' is not a correct answer. The building has ten stories."
+    },
+    "Random@04_18_2024_W_F_Mustard_P_2": {
+        "prompt": "What type of lamp is featured in the scene?\n\nA. Floor lamp\nB. Table lamp\nC. Pendant lamp\nD. Wall lamp\nIf none of the above answers are correct, answer: 'F'",
+        "response": ""
+    },
+    "Random@04_18_2024_W_F_Random_P_3": {
+        "prompt": "What type of furniture can be found in the living room?\n\nA. Sofa\nB. Coffee Table\nC. Bookshelf\nD. Armchair\nIf none of the above answers are correct, answer: 'F'",
+        "response": "The living room furniture includes a sofa, coffee table, and armchair."
+    },
+    "Random@04_18_2024_W_F_Tortillas1_P_1": {
+        "prompt": "What type of sculpture is located in the room?\n\nA. Bronze Statue\nB. Marble Bust\nC. Wooden Totem\nD. Stone Obelisk\nIf none of the above answers are correct, answer: 'F'",
+        "response": "The sculpture is a bronze statue."
+    },
+    "Random@04_19_2024_W4_F_MixedNuts_P_3": {
+        "prompt": "What type of chair is used in the kitchen?\n\nA. Bar stool\nB. Recliner\nC. Dining chair\nD. Armchair\nIf none of the above answers are correct, answer: 'F'",
+        "response": "The chair is a bar stool."
+    },
+    "Salsa@04_18_2024_W3_F_Salsa1_P_1": {
+        "prompt": "What is the color of the curtains in the room?\n\nA. Green\nB. Red\nC. Blue\nD. Yellow\nIf none of the above answers are correct, answer: 'F'",
+        "response": ""
+    },
+    "Salsa@04_19_2024_W4_F_Salsa_P_3": {
+        "prompt": "What type of fabric is used for the curtains?\n\nA. Silk\nB. Cotton\nC. Velvet\nD. Linen\nIf none of the above answers are correct, answer: 'F'",
+        "response": "The type of fabric used for the curtains is not specified in the description."
+    },
+    "Sauce@04_19_2024_S2_F_Sauce1_P_1": {
+        "prompt": "What type of chair is featured in the scene?\n\nA. Armchair\nB. Recliner\nC. Barstool\nD. Lounge chair\nIf none of the above answers are correct, answer: 'F'",
+        "response": "The chair in the scene is a barstool."
+    },
+    "Sauce@04_19_2024_S2_F_Sauce_P_2": {
+        "prompt": "What type of chair is situated next to the condiment bottles?\n\nA. Recliner\nB. Office chair\nC. Dining chair\nD. Rocking chair\nIf none of the above answers are correct, answer: 'F'",
+        "response": ""
+    },
+    "Sauce@04_19_2024_W4_F_Sauce_P_3": {
+        "prompt": "What type of vehicle is parked outside?\n\nA. Sedan\nB. Pickup truck\nC. Motorcycle\nD. Minivan\nIf none of the above answers are correct, answer: 'F'",
+        "response": ""
+    },
+    "Snacks@04_18_2024_W2_F_Snacks_P_2": {
+        "prompt": "What is the height of the bookshelf?\n\nA. Six feet\nB. Eight feet\nC. Five feet\nD. Ten feet\nIf none of the above answers are correct, answer: 'F'",
+        "response": ""
+    },
+    "Soup@04_19_2024_W4_F_Soup_P_3": {
+        "prompt": "What type of ceiling light is installed in the room?\n\nA. Chandelier\nB. Pendant light\nC. Recessed light\nD. Floor lamp\nIf none of the above answers are correct, answer: 'F'",
+        "response": "The ceiling light is a pendant light."
+    },
+    "Spices@04_18_2024_W_F_Spices_P_3": {
+        "prompt": "What type of painting is hung on the wall?\n\nA. Landscape\nB. Portrait\nC. Abstract\nD. Still Life\nIf none of the above answers are correct, answer: 'F'",
+        "response": "The painting is a landscape."
+    },
+    "Spices@04_19_2024_W_F_Spices_P_2": {
+        "prompt": "What style of chair is located beside the containers?\n\nA. Recliner\nB. Folding\nC. Barstool\nD. Rocking\nIf none of the above answers are correct, answer: 'F'",
+        "response": "The chair is a rocking chair."
+    },
+    "Sugar@04_18_2024_W_F_Sugar_P_3": {
+        "prompt": "What pattern is used on the wallpaper?\n\nA. Floral\nB. Geometric\nC. Striped\nD. Plaid\nIf none of the above answers are correct, answer: 'F'",
+        "response": "The wallpaper pattern is floral."
+    },
+    "Sugar@04_19_2024_W_F_Sugar_P_2": {
+        "prompt": "What is the shape of the dining table in the scene?\n\nA. Oval\nB. Rectangular\nC. Circular\nD. Square\nIf none of the above answers are correct, answer: 'F'",
+        "response": "The dining table in the scene is oval."
+    },
+    "Tomato@04_19_2024_W4_F_CanTomato_P_3": {
+        "prompt": "What type of chair is present in the scene?\n\nA. Recliner\nB. Dining chair\nC. Office chair\nD. Rocking chair\nIf none of the above answers are correct, answer: 'F'",
+        "response": ""
+    },
+    "Tomatoes@04_18_2024_W_F_Tomatoes2_F_1": {
+        "prompt": "What type of furniture is located in the room?\n\nA. Sofa\nB. Dining table\nC. Bookshelf\nD. Coffee table\nIf none of the above answers are correct, answer: 'F'",
+        "response": "The coffee table is not located in the room."
+    },
+    "Tomatoes@04_19_2024_S2_F_Tomatoes1_F_1": {
+        "prompt": "What is the size of the television in the kitchen?\n\nA. 32 inches\nB. 55 inches\nC. 75 inches\nD. 42 inches\nIf none of the above answers are correct, answer: 'F'",
+        "response": "The size of the television in the kitchen is not specified."
+    },
+    "Tomatoes@04_19_2024_W4_F_Tomatoes1_F_1": {
+        "prompt": "What is the size of the television in the room?\n\nA. 32 inches\nB. 55 inches\nC. 75 inches\nD. 20 inches\nIf none of the above answers are correct, answer: 'F'",
+        "response": ""
+    },
+    "Tomatoes@04_19_2024_W4_F_Tomatoes2_F_1": {
+        "prompt": "What type of chair is situated next to the mound?\n\nA. Recliner\nB. Dining chair\nC. Bean bag\nD. Rocking chair\nIf none of the above answers are correct, answer: 'F'",
+        "response": "The chair next to the mound is a rocking chair."
+    },
+    "VariousVeggies@04_04_2024_W_C_Various_P_2": {
+        "prompt": "What shape are the tables in the scene?\n\nA. Circular\nB. Square\nC. Triangular\nD. Oval\nIf none of the above answers are correct, answer: 'F'",
+        "response": "The tables in the scene are circular."
+    },
+    "VariousVeggies@04_18_2024_W_F_Various_P_2": {
+        "prompt": "What shape is the table in the scene?\n\nA. Round\nB. Oval\nC. Square\nD. Rectangular\nIf none of the above answers are correct, answer: 'F'",
+        "response": "The table is rectangular."
+    },
+    "Vinegar@04_19_2024_S2_F_Vinegar_P_3": {
+        "prompt": "What shape is the table in the scene?\n\nA. Round\nB. Square\nC. Rectangular\nD. Oval\nIf none of the above answers are correct, answer: 'F'",
+        "response": "The table in the scene is rectangular."
+    },
+    "AppleJuice@04_18_2024_W2_F_AppleJuice2_P_3": {
+        "prompt": "What is the size of the dining table?\n\nA. Small\nB. Round\nC. Rectangular\nD. Large\nIf none of the above answers are correct, answer: 'F'",
+        "response": "The size of the dining table is not specified in the given description."
+    },
+    "Apples@03_04_2024_S_L_Apples_F_2": {
+        "prompt": "How many windows are in the room?\n\nA. Two\nB. Four\nC. One\nD. Three\nIf none of the above answers are correct, answer: 'F'",
+        "response": "The number of windows in the room is not mentioned."
+    },
+    "Apples@03_04_2024_S_L_ApplesLong_F_1": {
+        "prompt": "What type of chair is featured in the scene?\n\nA. Recliner\nB. Bar stool\nC. Rocking chair\nD. Office chair\nIf none of the above answers are correct, answer: 'F'",
+        "response": "The chair in the scene is a rocking chair."
+    },
+    "Apples@03_07_2024_S_L_Apples1_F_1": {
+        "prompt": "What is the texture of the tables in the room?\n\nA. Smooth glass\nB. Rough wood\nC. Polished metal\nD. Soft fabric\nIf none of the above answers are correct, answer: 'F'",
+        "response": "The texture of the tables in the room is not specified."
+    },
+    "Apples@03_07_2024_S_L_Apples2_F_2": {
+        "prompt": "What type of window is featured in the scene?\n\nA. Bay window\nB. Stained glass window\nC. Picture window\nD. Casement window\nIf none of the above answers are correct, answer: 'F'",
+        "response": ""
+    },
+    "Apples@03_07_2024_S_L_Apples3_F_2": {
+        "prompt": "What type of chair is prominently featured in the scene?\n\nA. Recliner\nB. Bean bag\nC. Armchair\nD. Dining chair\nIf none of the above answers are correct, answer: 'F'",
+        "response": "The chair in the scene is a recliner."
+    },
+    "Apples@03_07_2024_S_L_Apples_F_2": {
+        "prompt": "What type of chair is located next to the pile of apples?\n\nA. Recliner\nB. Dining chair\nC. Office chair\nD. Bean bag chair\nIf none of the above answers are correct, answer: 'F'",
+        "response": ""
+    },
+    "Apples@03_13_2024_S_Co_Apples_F_2": {
+        "prompt": "What type of fruit is the chair made from?\n\nA. Cherry\nB. Maple\nC. Walnut\nD. Oak\nIf none of the above answers are correct, answer: 'F'",
+        "response": "The chair is made from walnut."
+    },
+    "Apples@03_21_2024_W_L_Apples1_F_1": {
+        "prompt": "What type of paint is used for the walls?\n\nA. Matte Finish\nB. Glossy White\nC. Pastel Blue\nD. Eggshell Beige\nIf none of the above answers are correct, answer: 'F'",
+        "response": "The walls are painted with a matte finish."
+    },
+    "Apples@03_21_2024_W_L_Apples2_F_2": {
+        "prompt": "What type of flower is blooming in the scene?\n\nA. Rose\nB. Tulip\nC. Daisy\nD. Sunflower\nIf none of the above answers are correct, answer: 'F'",
+        "response": "The flower blooming in the scene is a rose."
+    },
+    "Apples@03_21_2024_W_L_Apples3_F_2": {
+        "prompt": "What shape is the coffee table in the scene?\n\nA. Square\nB. Round\nC. Oval\nD. Rectangular\nIf none of the above answers are correct, answer: 'F'",
+        "response": "The coffee table is in the shape of a square."
+    },
+    "Avacados@04_04_2024_W2_C_AvacadosLong1_F_1": {
+        "prompt": "What type of chair is featured in the scene?\n\nA. Recliner\nB. Dining chair\nC. Office chair\nD. Rocking chair\nIf none of the above answers are correct, answer: 'F'",
+        "response": ""
+    },
+    "Avacados@04_04_2024_W_C_Avocados1_F_1": {
+        "prompt": "What type of chair is located next to the pile?\n\nA. Armchair\nB. Recliner\nC. Dining chair\nD. Folding chair\nIf none of the above answers are correct, answer: 'F'",
+        "response": "The chair next to the pile is a folding chair."
+    },
+    "BBQSauce@03_21_2024_W_L_BBQ1_P_1": {
+        "prompt": "What type of chair is prominently featured in the scene?\n\nA. Recliner\nB. Armchair\nC. Dining chair\nD. Rocking chair\nIf none of the above answers are correct, answer: 'F'",
+        "response": "The chair in the scene is a recliner."
+    },
+    "Bagels@03_21_2024_W_L_Bagels1_P_1": {
+        "prompt": "What shape are the plates in the scene?\nA. Square\nB. Oval\nC. Rectangular\nD. Round\nIf none of the above answers are correct, answer: 'F'",
+        "response": "The plates in the scene are rectangular."
+    },
+    "Bananas@03_04_2024_S_L_Bananas2_F_2": {
+        "prompt": "What type of chair is featured in the scene?\n\nA. Recliner\nB. Dining chair\nC. Armchair\nD. Stool\nIf none of the above answers are correct, answer: 'F'",
+        "response": "The chair in the scene is a recliner."
+    },
+    "Bananas@03_04_2024_S_L_Bananas_F_2": {
+        "prompt": "What type of vehicle is parked nearby?\n\nA. Sedan\nB. Pickup truck\nC. Motorcycle\nD. Minivan\nIf none of the above answers are correct, answer: 'F'",
+        "response": ""
+    },
+    "Bananas@04_04_2024_NG_C_Bananas1_F_1": {
+        "prompt": "What type of chair is placed next to the bananas?\n\nA. Armchair\nB. Recliner\nC. Barstool\nD. Dining chair\nIf none of the above answers are correct, answer: 'F'",
+        "response": "The chair next to the bananas is a barstool."
+    },
+    "Bananas@04_04_2024_S_C_Bananas_F_2": {
+        "prompt": "What is the texture of the couch in the scene?\n\nA. Leather\nB. Velvet\nC. Suede\nD. Linen\nIf none of the above answers are correct, answer: 'F'",
+        "response": "The couch in the scene is made of leather."
+    },
+    "Beans@04_04_2024_W2_C_Beans_P_3": {
+        "prompt": "What shape are the tables in the scene?\n\nA. Rectangular\nB. Circular\nC. Oval\nD. Square\nIf none of the above answers are correct, answer: 'F'",
+        "response": "The tables in the scene are rectangular."
+    },
+    "Bread@04_04_2024_W2_C_Bread2_P_2": {
+        "prompt": "What type of artwork is displayed on the walls?\n\nA. Abstract paintings\nB. Landscape photography\nC. Portraits of famous figures\nD. Vintage posters\nIf none of the above answers are correct, answer: 'F'",
+        "response": "The artwork displayed on the walls is a collection of abstract paintings."
+    },
+    "Bread@04_04_2024_W2_C_Bread3_P_2": {
+        "prompt": "What type of vehicle is parked outside?\n\nA. Sedan\nB. Convertible\nC. SUV\nD. Truck\nIf none of the above answers are correct, answer: 'F'",
+        "response": ""
+    },
+    "Bread@04_04_2024_W2_C_Bread_P_2": {
+        "prompt": "What type of chair is featured in the scene?\n\nA. Recliner\nB. Barstool\nC. Adirondack\nD. Office chair\nIf none of the above answers are correct, answer: 'F'",
+        "response": ""
+    },
+    "Can@03_21_2024_W_L_Cans_P_2": {
+        "prompt": "What type of vehicle is parked outside?\n\nA. Sedan\nB. Motorcycle\nC. Pickup truck\nD. Coupe\nIf none of the above answers are correct, answer: 'F'",
+        "response": "The vehicle parked outside is a pickup truck."
+    },
+    "Can@03_21_2024_W_L_Peas1_P_1": {
+        "prompt": "What type of lamp is used in the kitchen?\n\nA. Floor lamp\nB. Table lamp\nC. Pendant lamp\nD. Wall lamp\nIf none of the above answers are correct, answer: 'F'",
+        "response": ""
+    },
+    "Can@04_04_2024_W_C_Cans_P_3": {
+        "prompt": "What shape are the windows in the scene?\n\nA. Square\nB. Circular\nC. Triangular\nD. Octagonal\nIf none of the above answers are correct, answer: 'F'",
+        "response": ""
+    },
+    "Can@04_18_2024_W2_F_Cans2_P_2": {
+        "prompt": "What flavor is the cake?\n\nA. Chocolate\nB. Vanilla\nC. Strawberry\nD. Lemon\nIf none of the above answers are correct, answer: 'F'",
+        "response": ""
+    },
+    "Candy@03_21_2024_W_L_Candy1_P_1": {
+        "prompt": "What is the shape of the dining table in the scene?\n\nA. Round\nB. Oval\nC. Square\nD. Rectangular\nIf none of the above answers are correct, answer: 'F'",
+        "response": "The dining table in the scene is rectangular."
+    },
+    "Candy@03_21_2024_W_L_Candy2_P_1": {
+        "prompt": "What type of vehicle is described in the scene?\n\nA. Sports car\nB. Bicycle\nC. Helicopter\nD. Bus\nIf none of the above answers are correct, answer: 'F'",
+        "response": "The description does not provide any specific details about the vehicle."
+    },
+    "Candy@03_21_2024_W_L_Candy2_P_2": {
+        "prompt": "What type of furniture is used for seating in the scene?\n\nA. Sofa\nB. Armchair\nC. Dining chair\nD. Recliner\nIf none of the above answers are correct, answer: 'F'",
+        "response": "The scene doesn't provide any specific type of furniture for seating."
+    },
+    "Candy@03_21_2024_W_L_Candy_P_2": {
+        "prompt": "What type of plant can be found next to the candy bags?\n\nA. Cactus\nB. Fern\nC. Bonsai\nD. Orchid\nIf none of the above answers are correct, answer: 'F'",
+        "response": "There is no specific plant next to the candy bags."
+    },
+    "Chips@03_21_2024_W_L_Chips1_P_1": {
+        "prompt": "What type of chair is used at the dining table?\n\nA. Armchair\nB. Barstool\nC. Recliner\nD. Rocking chair\nIf none of the above answers are correct, answer: 'F'",
+        "response": "The chair is a rocking chair."
+    },
+    "Chips@03_21_2024_W_L_Chips_P_2": {
+        "prompt": "What type of lamp is featured in the scene?\n\nA. Floor lamp\nB. Table lamp\nC. Pendant lamp\nD. Wall lamp\nIf none of the above answers are correct, answer: 'F'",
+        "response": ""
+    },
+    "Chips@04_04_2024_NG_C_Chips_P_2": {
+        "prompt": "What shape are the windows in the scene?\n\nA. Round\nB. Triangular\nC. Square\nD. Hexagonal\nIf none of the above answers are correct, answer: 'F'",
+        "response": "The windows in the scene are hexagonal."
+    },
+    "Chips@04_04_2024_S_C_Chips1_P_1": {
+        "prompt": "What is the height of the bookshelf in the room?\n\nA. Five feet\nB. Seven feet\nC. Ten feet\nD. Twelve feet\nIf none of the above answers are correct, answer: 'F'",
+        "response": "The height of the bookshelf in the room is not specified."
+    },
+    "Chips@04_04_2024_S_C_Chips2_P_1": {
+        "prompt": "What type of furniture is featured in the scene?\n\nA. Sofa\nB. Coffee table\nC. Bookshelf\nD. Dining chair\nIf none of the above answers are correct, answer: 'F'",
+        "response": "The scene does not feature any furniture."
+    },
+    "Chips@04_04_2024_S_C_Chips2_P_2": {
+        "prompt": "What type of chair is included in the scene?\n\nA. Recliner\nB. Office chair\nC. Bean bag\nD. Dining chair\nIf none of the above answers are correct, answer: 'F'",
+        "response": ""
+    },
+    "Chips@04_04_2024_S_C_Chips3_P_1": {
+        "prompt": "What type of plant is used for the centerpiece on the table?\n\nA. Orchid\nB. Fern\nC. Bonsai\nD. Cactus\nIf none of the above answers are correct, answer: 'F'",
+        "response": "The type of plant used for the centerpiece on the table is not mentioned in the description."
+    },
+    "Chips@04_04_2024_S_C_Chips3_P_2": {
+        "prompt": "What type of fruit can be found in the scene?\n\nA. Apple\nB. Banana\nC. Orange\nD. Grape\nIf none of the above answers are correct, answer: 'F'",
+        "response": "'F' is not a fruit. It's a color."
+    },
+    "Coffee@03_21_2024_W_L_Coffee1_P_1": {
+        "prompt": "What shape is the dining table in the scene?\n\nA. Round\nB. Oval\nC. Triangular\nD. Square\nIf none of the above answers are correct, answer: 'F'",
+        "response": "The dining table in the scene is rectangular."
+    },
+    "Coffee@03_21_2024_W_L_Coffee2_P_2": {
+        "prompt": "What is the shape of the table?\n\nA. Round\nB. Square\nC. Rectangular\nD. Oval\nIf none of the above answers are correct, answer: 'F'",
+        "response": "The table is rectangular."
+    },
+    "Coffee@03_21_2024_W_L_Coffee_P_2": {
+        "prompt": "What flavor is the ice cream in the scene?\n\nA. Chocolate\nB. Vanilla\nC. Strawberry\nD. Mint\nIf none of the above answers are correct, answer: 'F'",
+        "response": "The flavor of the ice cream is not specified in the scene."
+    },
+    "Coffee@04_04_2024_S_C_Coffee2_P_3": {
+        "prompt": "What type of animal is commonly seen in the scene?\n\nA. Cat\nB. Dog\nC. Rabbit\nD. Parrot\nIf none of the above answers are correct, answer: 'F'",
+        "response": "'F' is not a correct answer."
+    },
+    "Corn@04_04_2024_W_C_Corn1_F_1": {
+        "prompt": "What type of vehicle is parked nearby?\n\nA. Sedan\nB. Motorcycle\nC. Pickup truck\nD. Minivan\nIf none of the above answers are correct, answer: 'F'",
+        "response": ""
+    },
+    "Cucumbers@03_21_2024_W_L_Cucumbers_F_2": {
+        "prompt": "What type of vehicle is parked outside?\n\nA. Sedan\nB. Motorcycle\nC. Minivan\nD. SUV\nIf none of the above answers are correct, answer: 'F'",
+        "response": "The vehicle parked outside is a sedan."
+    },
+    "Cucumbers@04_04_2024_W2_C_Cucumbers1_V_1": {
+        "prompt": "What type of chair is featured in the scene?\n\nA. Recliner\nB. Barstool\nC. Armchair\nD. Dining chair\nIf none of the above answers are correct, answer: 'F'",
+        "response": "The chair in the scene is a recliner."
+    },
+    "EnergyDrinks@03_04_2024_S_L_EnergyDrinks_P_1": {
+        "prompt": "What shape is the table in the scene?\n\nA. Oval\nB. Rectangular\nC. Square\nD. Circular\nIf none of the above answers are correct, answer: 'F'",
+        "response": "The table in the scene is oval."
+    },
+    "Flour@04_04_2024_W2_C_Flour_P_3": {
+        "prompt": "What type of vehicle is parked in front of the building?\n\nA. Sedan\nB. Truck\nC. Motorcycle\nD. Van\nIf none of the above answers are correct, answer: 'F'",
+        "response": "The vehicle parked in front of the building is a motorcycle."
+    },
+    "Flour@04_04_2024_W_C_Flour_P_2": {
+        "prompt": "What type of furniture is in the kitchen?\n\nA. Dining table\nB. Bookshelf\nC. Coffee table\nD. Recliner\nIf none of the above answers are correct, answer: 'F'",
+        "response": "The given description does not provide any specific furniture in the kitchen."
+    },
+    "Gourds@03_21_2024_W_L_Gourds1_F_1": {
+        "prompt": "What type of vehicle is parked nearby?\n\nA. Sedan\nB. Bicycle\nC. Pickup truck\nD. Motorcycle\nIf none of the above answers are correct, answer: 'F'",
+        "response": "The vehicle parked nearby is a pickup truck."
+    },
+    "GrapeFruits@03_07_2024_S_L_GrapeFruits1_F_1": {
+        "prompt": "What is the size of the dining table in the scene?\n\nA. Small\nB. Medium\nC. Large\nD. Extra large\nIf none of the above answers are correct, answer: 'F'",
+        "response": "The size of the dining table in the scene is not specified."
+    },
+    "GrapeFruits@04_04_2024_W2_C_Grapefruits1_F_1": {
+        "prompt": "What type of building is located near the grapefruit grove?\n\nA. A brick warehouse\nB. A wooden lodge\nC. A glass skyscraper\nD. A stone cottage\nIf none of the above answers are correct, answer: 'F'",
+        "response": "A wooden shed is located near the grapefruit grove."
+    },
+    "Greens@03_04_2024_S_L_Greens1_V_1": {
+        "prompt": "What type of sculpture is in the setting?\n\nA. Abstract\nB. Classical\nC. Modernist\nD. Figurative\nIf none of the above answers are correct, answer: 'F'",
+        "response": "The sculpture is abstract."
+    },
+    "Greens@03_04_2024_S_L_Greens2_V_1": {
+        "prompt": "What type of sculpture is featured in the setting?\n\nA. Bronze statue\nB. Stone relief\nC. Wooden totem\nD. Glass figurine\nIf none of the above answers are correct, answer: 'F'",
+        "response": "The description does not provide enough information about the specific type of sculpture."
+    },
+    "Greens@03_04_2024_S_L_Greens_V_2": {
+        "prompt": "What type of vehicle is parked in the scene?\n\nA. Sedan\nB. Motorcycle\nC. Pickup truck\nD. Convertible\nIf none of the above answers are correct, answer: 'F'",
+        "response": ""
+    },
+    "Greens@04_04_2024_S_C_Greens_V_2": {
+        "prompt": "What type of painting is hanging on the wall?\n\nA. Abstract\nB. Landscape\nC. Portrait\nD. Still Life\nIf none of the above answers are correct, answer: 'F'",
+        "response": ""
+    },
+    "Jam@03_21_2024_W_L_Jam1_P_1": {
+        "prompt": "What type of dessert is served at the gathering?\n\nA. Chocolate cake\nB. Cheesecake\nC. Ice cream\nD. Fruit tart\nIf none of the above answers are correct, answer: 'F'",
+        "response": "The dessert served at the gathering is a chocolate cake."
+    },
+    "Juices@03_04_2024_S_L_Juices_P_2": {
+        "prompt": "What type of furniture is located in the scene?\n\nA. Coffee Table\nB. Sofa\nC. Bookshelf\nD. Armchair\nIf none of the above answers are correct, answer: 'F'",
+        "response": "The scene does not contain any furniture."
+    },
+    "Juices@04_04_2024_W2_C_Juice_P_2": {
+        "prompt": "What shape are the chairs in the scene?\n\nA. Square\nB. Circular\nC. Triangular\nD. Oval\nIf none of the above answers are correct, answer: 'F'",
+        "response": "The chairs in the scene are square."
+    },
+    "Ketchup@04_04_2024_S_C_Ketchup_P_2": {
+        "prompt": "What flavor of ice cream is included in the scene?\n\nA. Vanilla\nB. Chocolate\nC. Strawberry\nD. Mint Chocolate Chip\nIf none of the above answers are correct, answer: 'F'",
+        "response": ""
+    },
+    "Alfredo@04_04_2024_W2_C_Alfredo_P_3": {
+        "prompt": "What type of flooring is used in the building?\n\nA. Hardwood\nB. Carpet\nC. Tile\nD. Concrete\nIf none of the above answers are correct, answer: 'F'",
+        "response": ""
+    },
+    "Broccoli@04_04_2024_S_C_Broccoli1_V_1": {
+        "prompt": "What type of vehicle is parked nearby?\n\nA. Sedan\nB. Motorcycle\nC. Pickup truck\nD. Bicycle\nIf none of the above answers are correct, answer: 'F'",
+        "response": "There is no specific information about a specific type of vehicle parked nearby."
+    },
+    "Buns@04_18_2024_W2_F_Buns1_P_1": {
+        "prompt": "What type of fruit is displayed on the shelf?\n\nA. Apples\nB. Bananas\nC. Oranges\nD. Grapes\nIf none of the above answers are correct, answer: 'F'",
+        "response": ""
+    },
+    "Cabbages@03_13_2024_S_Co_Cabbages_V_2": {
+        "prompt": "What type of fruit tree is located nearby?\n\nA. Cherry\nB. Apple\nC. Mango\nD. Orange\nIf none of the above answers are correct, answer: 'F'",
+        "response": "'F' is not mentioned in the description."
+    },
+    "Cereal@03_21_2024_W_L_Cereal1_P_1": {
+        "prompt": "What is the height of the tree in the garden?\n\nA. 10 feet\nB. 15 feet\nC. 20 feet\nD. 25 feet\nIf none of the above answers are correct, answer: 'F'",
+        "response": ""
+    },
+    "Chilli@04_18_2024_W3_F_Chilli_P_3": {
+        "prompt": "What type of bicycle is featured in the scene?\n\nA. Mountain bike\nB. Road bike\nC. Electric bike\nD. Hybrid bike\nIf none of the above answers are correct, answer: 'F'",
+        "response": "The caption doesn't provide enough information to determine the type of bike."
+    },
+    "ChipsSalsa@04_18_2024_W_F_Salsa_P_3": {
+        "prompt": "What type of chair is featured in the scene?\n\nA. Recliner\nB. Office chair\nC. Dining chair\nD. Lounge chair\nIf none of the above answers are correct, answer: 'F'",
+        "response": "The chair in the scene is a recliner."
+    },
+    "Coconuts@03_21_2024_W_L_Coconuts1_F_1": {
+        "prompt": "What type of mountain range is depicted in the scene?\n\nA. Himalayas\nB. Rockies\nC. Andes\nD. Alps\nIf none of the above answers are correct, answer: 'F'",
+        "response": ""
+    },
+    "Dressings@04_18_2024_W2_F_Dressing_P_2": {
+        "prompt": "What type of vehicle is parked outside?\n\nA. Sedan\nB. Bicycle\nC. SUV\nD. Motorcycle\nIf none of the above answers are correct, answer: 'F'",
+        "response": ""
+    },
+    "Drinks@03_21_2024_W_L_Drinks_P_2": {
+        "prompt": "What shape is the table in the scene?\n\nA. Round\nB. Square\nC. Oval\nD. Rectangular\nIf none of the above answers are correct, answer: 'F'",
+        "response": "The table is rectangular."
+    },
+    "FruitCans@04_18_2024_W3_F_CanFruits_P_3": {
+        "prompt": "What type of animal is featured on the shelf?\n\nA. Tiger\nB. Giraffe\nC. Penguin\nD. Elephant\nIf none of the above answers are correct, answer: 'F'",
+        "response": "'F' is incorrect. The shelf is not designed to hold animals."
+    },
+    "Garlic@04_04_2024_W_C_Garlic1_V_1": {
+        "prompt": "What type of musical instrument is located in the scene?\n\nA. Violin\nB. Piano\nC. Flute\nD. Guitar\nIf none of the above answers are correct, answer: 'F'",
+        "response": "The scene does not contain a specific musical instrument."
+    },
+    "Gatorade@03_04_2024_S_L_Gatorade_P_2": {
+        "prompt": "What is the shape of the table in the scene?\n\nA. Rectangle\nB. Circle\nC. Triangle\nD. Oval\nIf none of the above answers are correct, answer: 'F'",
+        "response": "The table in the scene is rectangular."
+    },
+    "GranolaBars@04_04_2024_W_C_GranolaBars2_P_2": {
+        "prompt": "What shape are the chairs in the room?\n\nA. Round\nB. Square\nC. Oval\nD. Triangular\nIf none of the above answers are correct, answer: 'F'",
+        "response": "The chairs in the room are square."
+    },
+    "Honey@03_21_2024_W_L_Honey1_P_1": {
+        "prompt": "What type of music is playing in the background?\n\nA. Classical\nB. Jazz\nC. Rock\nD. Hip Hop\nIf none of the above answers are correct, answer: 'F'",
+        "response": "The music playing in the background is not specified."
+    },
+    "Plums@04_19_2024_W4_F_Plums1_F_1": {
+        "prompt": "What is the color of the sofa?\n\nA. Green\nB. Black\nC. Beige\nD. Red\nIf none of the above answers are correct, answer: 'F'",
+        "response": "The sofa is black."
+    },
+    "Pringles@04_18_2024_W3_F_Pringles_P_2": {
+        "prompt": "What type of lighting is used in the scene?\n\nA. Fluorescent lights\nB. Pendant lights\nC. Chandeliers\nD. LED strips\nIf none of the above answers are correct, answer: 'F'",
+        "response": ""
+    },
+    "Radish@03_21_2024_W_L_Radish_V_2": {
+        "prompt": "What flavor is typically associated with the clouds in the sky?\n\nA. Vanilla\nB. Chocolate\nC. Strawberry\nD. Mint\nIf none of the above answers are correct, answer: 'F'",
+        "response": ""
+    },
+    "Syrup@03_21_2024_W_L_Syrup1_P_1": {
+        "prompt": "What style of artwork is displayed on the walls?\n\nA. Abstract Expressionism\nB. Impressionism\nC. Cubism\nD. Surrealism\nIf none of the above answers are correct, answer: 'F'",
+        "response": "The artwork displayed on the walls is a Cubist style."
+    },
+    "Tostitos@04_18_2024_W_F_Tostitos2_P_3": {
+        "prompt": "What type of vehicle is parked outside?\n\nA. Sedan\nB. SUV\nC. Coupe\nD. Hatchback\nIf none of the above answers are correct, answer: 'F'",
+        "response": "The vehicle parked outside is a hatchback."
+    }
+}

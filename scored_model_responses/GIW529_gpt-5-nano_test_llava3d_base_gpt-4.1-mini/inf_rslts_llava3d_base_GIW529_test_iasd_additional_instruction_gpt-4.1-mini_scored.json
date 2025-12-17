@@ -1,0 +1,908 @@
+{
+    "Lemons@04_18_2024_W_F_Lemons1_F_1": {
+        "prompt": "<image>\nWhat color are the lemons in the dense pile of fruit?\n\nA. Desktop wallpaper\nB. Wi-Fi frequency\nC. Coffee brewing time\nD. Tennis racket grip\nIf none of the above answers are correct, answer: 'F'",
+        "response": "F",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Lemons@04_19_2024_W4_F_Lemons1_F_1": {
+        "prompt": "<image>\nWhat is the primary color of the lemons described?\n\nA. Basketball\nB. Violin\nC. Airplane\nD. Telescope\nIf none of the above answers are correct, answer: 'F'",
+        "response": "F",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Lime@04_18_2024_W_F_Limes1_F_1": {
+        "prompt": "<image>\nWhat is the shape of the limes described?\n\nA. Rectangle\nB. Triangle\nC. Oval\nD. Hexagon\nIf none of the above answers are correct, answer: 'F'",
+        "response": "F",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Mangoes@04_18_2024_W3_F_Mangoes1_F_1": {
+        "prompt": "<image>\nWhat shape are the mangoes described in the container?\n\nA. Cloud\nB. Mountain\nC. River\nD. Desert\nIf none of the above answers are correct, answer: 'F'",
+        "response": "F",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Mangoes@04_18_2024_W_F_Mangoes1_F_1": {
+        "prompt": "<image>\nWhat shape do mangoes have?\n\nA. Quantum mechanics\nB. Supernova\nC. Photosynthesis\nD. Chromatography\nIf none of the above answers are correct, answer: 'F'",
+        "response": "F",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Mayo@04_19_2024_S2_F_Mayo_P_2": {
+        "prompt": "<image>\nWhat colors are the lids of the mayonnaise jars on the shelf?\n\nA. Jupiter\nB. Quasar\nC. Neutron star\nD. Black hole\nIf none of the above answers are correct, answer: 'F'",
+        "response": "F",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Melons@04_19_2024_S2_F_Melons1_F_1": {
+        "prompt": "<image>\nWhat is the surface texture of a watermelon rind?\n\nA. Elastic potential energy\nB. Kinetic friction\nC. Gravitational pull\nD. Thermal conductivity\nIf none of the above answers are correct, answer: 'F'",
+        "response": "F",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Melons@04_19_2024_S_F_Melons_F_2": {
+        "prompt": "<image>\nWhat type of fruit is described as having rough diamond-pattern skin and spiky green leaves?\n\nA. Algebraic expressions\nB. Quantum mechanics\nC. Medieval architecture\nD. Solar energy systems\nIf none of the above answers are correct, answer: 'F'",
+        "response": "F. Lime.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Melons@04_19_2024_W4_F_Melons1_F_1": {
+        "prompt": "<image>\nWhat type of fruit is described as having tan, netted rinds and is typically round to slightly oval in shape?\n\nA. Football\nB. Violin\nC. Spaceship\nD. Compass\nIf none of the above answers are correct, answer: 'F'",
+        "response": "F. Watermelon.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Melons@04_19_2024_W4_F_Watermelons1_F_1": {
+        "prompt": "<image>\nWhat is the primary color of the rind of a watermelon?\n\nA. Algebra\nB. Quantum mechanics\nC. Renaissance art\nD. World geography\nIf none of the above answers are correct, answer: 'F'",
+        "response": "F",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "MultiFruits@04_04_2024_W_C_FruitsLong1_F_1": {
+        "prompt": "<image>\nWhat type of fruit is described as having a rough, diamond-patterned rind and spiky leafy crowns?\n\nA. Vintage\nB. Abstract\nC. Minimalist\nD. Renaissance\nIf none of the above answers are correct, answer: 'F'",
+        "response": "F. Avocado",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "MultiFruits@04_19_2024_S_F_Fruits1_F_1": {
+        "prompt": "<image>\nWhat colors of fruit are included in the assortment described?\n\nA. Tiger stripes\nB. Electric blue\nC. Circular reasoning\nD. Quantum entanglement\nIf none of the above answers are correct, answer: 'F'",
+        "response": "F",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Nectarines@04_19_2024_W4_F_Nectarines1_F_1": {
+        "prompt": "<image>\nWhat type of fruit is described in the pile?\n\nA. Hammer\nB. Drill\nC. Wrench\nD. Screwdriver\nIf none of the above answers are correct, answer: 'F'",
+        "response": "F",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Nuts@04_18_2024_W3_F_Nuts_P_2": {
+        "prompt": "<image>\nWhat color are the lids of the Planters jars and tins?\n\nA. Dolphin\nB. Cactus\nC. Octopus\nD. Volcano\nIf none of the above answers are correct, answer: 'F'",
+        "response": "F",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Nuts@04_18_2024_W_F_Nuts1_P_1": {
+        "prompt": "<image>\nWhat color are the cylindrical cans in the collection?\n\nA. Coniferous\nB. Terrestrial\nC. Aquatic\nD. Celestial\nIf none of the above answers are correct, answer: 'F'",
+        "response": "F",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Oil@04_18_2024_W_F_Oil_P_3": {
+        "prompt": "<image>\nWhat color are the screw-on caps of the bottles filled with cooking oil?\n\nA. Python\nB. Quantum\nC. Atmosphere\nD. Renaissance\nIf none of the above answers are correct, answer: 'F'",
+        "response": "F",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Oil@04_19_2024_W_F_Oils_P_2": {
+        "prompt": "<image>\nWhat is the color of the liquid contained in the translucent plastic bottles?\n\nA. Mountain Range\nB. Vintage Postcards\nC. Ocean Waves\nD. Video Game Characters\nIf none of the above answers are correct, answer: 'F'",
+        "response": "F",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "OliveOil@04_19_2024_S_F_OliveOil_P_3": {
+        "prompt": "<image>\nWhat is the predominant material of the cooking-oil bottles described?\n\nA. Vitamin C\nB. Iron Ore\nC. Phosphorus\nD. Helium\nIf none of the above answers are correct, answer: 'F'",
+        "response": "F",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Onions@04_19_2024_S2_F_Onions1_V_1": {
+        "prompt": "<image>\nWhat color are the skins of the onions in the pile?\n\nA. Jupiter's atmosphere\nB. Pacific Ocean currents\nC. The Great Wall of China\nD. Mars rover technology\nIf none of the above answers are correct, answer: 'F'",
+        "response": "F",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Onions@04_19_2024_S2_F_Onions2_V_1": {
+        "prompt": "<image>\nWhich of the following best describes the appearance of the white onions?\n\nA. Mercury\nB. Calcium\nC. Silicon\nD. Iron\nIf none of the above answers are correct, answer: 'F'",
+        "response": "F",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Onions@04_19_2024_S2_F_Onions3_V_1": {
+        "prompt": "<image>\nWhat types of squash are present in the assortment described?\n\nA. Pineapple variety\nB. Orange juice flavor\nC. Chocolate mousse\nD. Vanilla extract\nIf none of the above answers are correct, answer: 'F'",
+        "response": "F",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Onions@04_19_2024_W4_F_Onions2_V_1": {
+        "prompt": "<image>\nWhat color are the skins of white onions described in the room?\n\nA. Jupiter\nB. Saturn\nC. Mars\nD. Venus\nIf none of the above answers are correct, answer: 'F'",
+        "response": "F",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Onions@04_19_2024_W4_F_RedOnions1_V_1": {
+        "prompt": "<image>\nWhat is the primary color of the skins of the onions described?\n\nA. Basketball\nB. Notebook\nC. Guitar\nD. Sunglasses\nIf none of the above answers are correct, answer: 'F'",
+        "response": "F",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Orange@04_18_2024_W_F_Oranges1_F_1": {
+        "prompt": "<image>\nWhat is the color of the oranges described in the pile?  \n\nA. Elephant\nB. Guitar\nC. Iceberg\nD. Mountain\nIf none of the above answers are correct, answer: 'F'",
+        "response": "F.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Orange@04_19_2024_S2_F_Oranges1_F_1": {
+        "prompt": "<image>\nWhat type of fruit is most prominent in the assortment described?\n\nA. Quantum mechanics\nB. Renaissance art\nC. Classical music\nD. Ancient civilizations\nIf none of the above answers are correct, answer: 'F'",
+        "response": "F",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Orange@04_19_2024_W4_F_Oranges1_F_1": {
+        "prompt": "<image>\nWhat color are the oranges described in the pile?\n\nA. Circular\nB. Triangular\nC. Rectangular\nD. Hexagonal\nIf none of the above answers are correct, answer: 'F'",
+        "response": "F",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "PastaSauce@04_18_2024_W3_F_PastaSauce1_P_1": {
+        "prompt": "<image>\nWhat type of packaging is associated with some of the jars of tomato sauce in the room?\n\nA. Terrestrial\nB. Celestial\nC. Aquatic\nD. Volcanic\nIf none of the above answers are correct, answer: 'F'",
+        "response": "F",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "PastaSauce@04_19_2024_S2_F_PastaSauce_P_2": {
+        "prompt": "<image>\nWhat color are the jars' labels?\n\nA. Elephant\nB. Galaxy\nC. Symphony\nD. Puzzle\nIf none of the above answers are correct, answer: 'F'",
+        "response": "F",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "PeanutButter@04_18_2024_W3_F_PeanutButter_P_2": {
+        "prompt": "<image>\nWhat colors are the lids of the Jif peanut butter jars?\n\nA. Comet\nB. Asteroid\nC. Galaxy\nD. Nebula\nIf none of the above answers are correct, answer: 'F'",
+        "response": "F",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "PeanutButter@04_18_2024_W_F_PeanutButter_P_3": {
+        "prompt": "<image>\nWhat colors are the lids of the jars in the collection?\n\nA. Cactus Green\nB. Sunset Orange\nC. Ocean Blue\nD. Midnight Purple\nIf none of the above answers are correct, answer: 'F'",
+        "response": "F",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Pears@04_18_2024_W3_F_Pears1_F_1": {
+        "prompt": "<image>\nWhat is the predominant color range of the pears described?\n\nA. Octopus species\nB. Solar system planets\nC. Classical music genres\nD. Mountain ranges in Europe\nIf none of the above answers are correct, answer: 'F'",
+        "response": "F",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Pears@04_19_2024_W4_F_Pears1_F_1": {
+        "prompt": "<image>\nWhat is a characteristic feature of the red apples described?\n\nA. Cloud formation\nB. Ocean depth\nC. Mountain elevation\nD. Desert temperature\nIf none of the above answers are correct, answer: 'F'",
+        "response": "F",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Peppers@04_18_2024_W3_F_GreenPeppers1_F_1": {
+        "prompt": "<image>\nWhat is the shape of green bell peppers as described?\n\nA. Circular economy\nB. Renewable resources\nC. Carbon footprint\nD. Biodiversity hotspots\nIf none of the above answers are correct, answer: 'F'",
+        "response": "F",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Peppers@04_18_2024_W3_F_Peppers1_F_1": {
+        "prompt": "<image>\nWhat colors are the bell peppers mentioned in the description?\n\nA. Jupiter's Moons\nB. Roman Architecture\nC. Quantum Mechanics\nD. Ecosystem Restoration\nIf none of the above answers are correct, answer: 'F'",
+        "response": "F.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Peppers@04_18_2024_W_F_GreenPeppers1_F_1": {
+        "prompt": "<image>\nWhat is the shape of the green bell peppers described?\n\nA. Horizontal ladder\nB. Electric guitar\nC. Chocolate cake\nD. Basketball court\nIf none of the above answers are correct, answer: 'F'",
+        "response": "F",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Peppers@04_19_2024_W4_F_Peppers1_F_1": {
+        "prompt": "<image>\nWhat colors are the bell peppers described in the room?  \n\nA. Echo\nB. Melody\nC. Harmony\nD. Rhythm\nIf none of the above answers are correct, answer: 'F'",
+        "response": "F.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Pickles@04_18_2024_W_F_Pickles_P_2": {
+        "prompt": "<image>\nWhat color are the lids of the cylindrical jars filled with pickles?\n\nA. Elephant\nB. Violin\nC. Mountain\nD. Galaxy\nIf none of the above answers are correct, answer: 'F'",
+        "response": "F",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Pickles@04_19_2024_W_F_Pickles_P_2": {
+        "prompt": "<image>\nWhat color are the lids of the jars holding the dill pickles?\n\nA. Mountain range\nB. Ocean wave\nC. Desert sand\nD. Forest canopy\nIf none of the above answers are correct, answer: 'F'",
+        "response": "F",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Pineapples@04_18_2024_W_F_Pineapples1_F_1": {
+        "prompt": "<image>\nWhat color hues can predominantly be found on the rind of pineapples?\n\nA. Mathematics\nB. Astronomy\nC. Architecture\nD. Geopolitics\nIf none of the above answers are correct, answer: 'F'",
+        "response": "F",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Pineapples@04_19_2024_W4_F_Pineapples1_F_1": {
+        "prompt": "<image>\nWhat is the shape of pineapples?\n\nA. Oval office\nB. Renaissance painting\nC. Solar eclipse\nD. Electric guitar\nIf none of the above answers are correct, answer: 'F'",
+        "response": "F",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Plantains@04_19_2024_W4_F_Plantains1_F_1": {
+        "prompt": "<image>\nWhat is the typical appearance of bananas as described?\n\nA. Frosty peaks\nB. Golden deserts\nC. Lush valleys\nD. Deep oceans\nIf none of the above answers are correct, answer: 'F'",
+        "response": "F.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Potatoes@04_18_2024_W3_F_Potatoes1_V_1": {
+        "prompt": "<image>\nWhat is the shape of the tubers described in the room?\n\nA. Rhombicosidodecahedron\nB. Dodecagon\nC. Isosceles triangle\nD. Parallelogram\nIf none of the above answers are correct, answer: 'F'",
+        "response": "F.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Potatoes@04_18_2024_W3_F_Potatoes2_V_1": {
+        "prompt": "<image>\nWhat is the shape of the potatoes described?\n\nA. Quadratic equation\nB. Electromagnetic spectrum\nC. Cellular respiration\nD. Photosynthesis process\nIf none of the above answers are correct, answer: 'F'",
+        "response": "F",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Potatoes@04_19_2024_W4_F_Potatoes1_V_1": {
+        "prompt": "<image>\nWhat color variation is present in the assortment of tubers described?\n\nA. Desert\nB. Rainforest\nC. Tundra\nD. Grassland\nIf none of the above answers are correct, answer: 'F'",
+        "response": "F",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Ranch@04_18_2024_W_F_Ranch_P_2": {
+        "prompt": "<image>\nWhat color are the caps of the plastic ranch-dressing bottles?\n\nA. Saturn\nB. Galaxy\nC. Neutron\nD. Comet\nIf none of the above answers are correct, answer: 'F'",
+        "response": "F",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Ranch@04_19_2024_W_F_Ranch_P_2": {
+        "prompt": "<image>\nWhat colors are present on the bags of croutons?\n\nA. Oxygen\nB. Hydrogen\nC. Carbon\nD. Helium\nIf none of the above answers are correct, answer: 'F'",
+        "response": "F",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Random@04_18_2024_W_F_Doritos_P_3": {
+        "prompt": "<image>\nWhat colors are prominently featured in the snack chip packaging?\n\nA. Jupiter\nB. Saturn\nC. Mars\nD. Neptune\nIf none of the above answers are correct, answer: 'F'",
+        "response": "F",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Random@04_18_2024_W_F_MacAndCheese1_P_1": {
+        "prompt": "<image>\nWhat colors are primarily used in the packaging of the macaroni-and-cheese products described?\n\nA. Cactus Green\nB. Shadow Black\nC. Oceanic Blue\nD. Mountain Grey\nIf none of the above answers are correct, answer: 'F'",
+        "response": "F",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Random@04_18_2024_W_F_Mustard_P_2": {
+        "prompt": "<image>\nWhat color are the jars that contain mayonnaise?\n\nA. Mercury\nB. Jupiter\nC. Neptune\nD. Saturn\nIf none of the above answers are correct, answer: 'F'",
+        "response": "F",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Random@04_18_2024_W_F_Random_P_3": {
+        "prompt": "<image>\nWhat color are the caps on the white bottles with blue labels?\n\nA. Guitar strings\nB. Mountain ranges\nC. Chocolate desserts\nD. Weather patterns\nIf none of the above answers are correct, answer: 'F'",
+        "response": "F",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Random@04_18_2024_W_F_Tortillas1_P_1": {
+        "prompt": "<image>\nWhat colors are present in the branding of the Mission tortillas?\n\nA. Jupiter\nB. Saturn\nC. Neptune\nD. Mars\nIf none of the above answers are correct, answer: 'F'",
+        "response": "F",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Random@04_19_2024_W4_F_MixedNuts_P_3": {
+        "prompt": "<image>\nWhat color are the lids of the jars and cans containing the peanut products?\n\nA. Cactus Green\nB. Sky Blue\nC. Ocean Wave\nD. Autumn Orange\nIf none of the above answers are correct, answer: 'F'",
+        "response": "F",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Salsa@04_18_2024_W3_F_Salsa1_P_1": {
+        "prompt": "<image>\nWhat color are the lids of the glass jars of red Pace-brand salsa?\n\nA. Mango\nB. Pineapple\nC. Coconut\nD. Honey\nIf none of the above answers are correct, answer: 'F'",
+        "response": "F",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Salsa@04_19_2024_W4_F_Salsa_P_3": {
+        "prompt": "<image>\nWhat type of lid is featured on the Herdez salsa jars?\n\nA. Refrigerator magnet\nB. Incense holder\nC. Vinyl record\nD. Teapot spout\nIf none of the above answers are correct, answer: 'F'",
+        "response": "F",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Sauce@04_19_2024_S2_F_Sauce1_P_1": {
+        "prompt": "<image>\nWhat type of packaging can be found among the assorted foods and condiments?\n\nA. Quadratic equation\nB. Python programming\nC. Renaissance art\nD. Solar system formation\nIf none of the above answers are correct, answer: 'F'",
+        "response": "F",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Sauce@04_19_2024_S2_F_Sauce_P_2": {
+        "prompt": "<image>\nWhat colors are the caps of the condiment bottles in the room?\n\nA. Quadrant\nB. Hemisphere\nC. Trapezoid\nD. Octagon\nIf none of the above answers are correct, answer: 'F'",
+        "response": "F",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Sauce@04_19_2024_W4_F_Sauce_P_3": {
+        "prompt": "<image>\nWhat type of food product is contained in the clear, cylindrical glass jars?\n\nA. Javascript\nB. Quantum Physics\nC. Renaissance Art\nD. Symphonic Music\nIf none of the above answers are correct, answer: 'F'",
+        "response": "F",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Snacks@04_18_2024_W2_F_Snacks_P_2": {
+        "prompt": "<image>\nWhat types of bags are used for the display of pretzel varieties?\n\nA. Parachute\nB. Backpack\nC. Briefcase\nD. Messenger\nIf none of the above answers are correct, answer: 'F'",
+        "response": "F",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Soup@04_19_2024_W4_F_Soup_P_3": {
+        "prompt": "<image>\nWhat colors are prominently featured on the labels of the stacked soup cans?\n\nA. Mercury\nB. Hydrogen\nC. Carbon\nD. Nitrogen\nIf none of the above answers are correct, answer: 'F'",
+        "response": "F",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Spices@04_18_2024_W_F_Spices_P_3": {
+        "prompt": "<image>\nWhat type of goods are prominently displayed on the gray metal display rack?\n\nA. Chocolate chip cookie recipe\nB. Mountain climbing techniques\nC. Jazz music history\nD. Photography tips for beginners\nIf none of the above answers are correct, answer: 'F'",
+        "response": "F",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Spices@04_19_2024_W_F_Spices_P_2": {
+        "prompt": "<image>\nWhat types of containers are included on the store shelf according to the description?\n\nA. Melodies for relaxation\nB. Seasons of the year\nC. Animal habitats\nD. Types of clouds\nIf none of the above answers are correct, answer: 'F'",
+        "response": "F",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Sugar@04_18_2024_W_F_Sugar_P_3": {
+        "prompt": "<image>\nWhich color bags of granulated sugar are present on the store shelf?\n\nA. Cotton candy\nB. Lemonade\nC. Cherry pie\nD. Blueberry muffin\nIf none of the above answers are correct, answer: 'F'",
+        "response": "F",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Sugar@04_19_2024_W_F_Sugar_P_2": {
+        "prompt": "<image>\nWhat is the color of the dominant sweetener box in the display?\n\nA. Mercury\nB. Hydrogen\nC. Calcium\nD. Gold\nIf none of the above answers are correct, answer: 'F'",
+        "response": "F",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Tomato@04_19_2024_W4_F_CanTomato_P_3": {
+        "prompt": "<image>\nWhat colors are prominently featured on the labels of the cylindrical metal cans containing tomato products?\n\nA. Tropical Rainforest\nB. Rocky Mountain\nC. Arctic Tundra\nD. Urban Jungle\nIf none of the above answers are correct, answer: 'F'",
+        "response": "F",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Tomatoes@04_18_2024_W_F_Tomatoes2_F_1": {
+        "prompt": "<image>\nWhat shape variations can be observed among the tomatoes in the heap?\n\nA. Desert\nB. Ocean\nC. Forest\nD. Mountain\nIf none of the above answers are correct, answer: 'F'",
+        "response": "F",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Tomatoes@04_19_2024_S2_F_Tomatoes1_F_1": {
+        "prompt": "<image>\nWhat type of tomatoes are packaged in purple clamshell packaging?\n\nA. Oak tree\nB. Blue whale\nC. Sahara Desert\nD. Beethoven's Symphony No. 9\nIf none of the above answers are correct, answer: 'F'",
+        "response": "F",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Tomatoes@04_19_2024_W4_F_Tomatoes1_F_1": {
+        "prompt": "<image>\nWhat shapes are the tomatoes described in the room?\n\nA. Particle\nB. Wave\nC. Solid\nD. Liquid\nIf none of the above answers are correct, answer: 'F'",
+        "response": "F",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Tomatoes@04_19_2024_W4_F_Tomatoes2_F_1": {
+        "prompt": "<image>\nWhat is the predominant color of the tomatoes described?\n\nA. Mountain Range\nB. Ocean Wave\nC. Desert Sand\nD. Forest Canopy\nIf none of the above answers are correct, answer: 'F'",
+        "response": "F",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "VariousVeggies@04_04_2024_W_C_Various_P_2": {
+        "prompt": "<image>\nWhat colors are the beverage-mix boxes described in the room? \n\nA. Oak tree\nB. Maple syrup\nC. Ocean wave\nD. Mountain peak\nIf none of the above answers are correct, answer: 'F'",
+        "response": "F.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "VariousVeggies@04_18_2024_W_F_Various_P_2": {
+        "prompt": "<image>\nWhat color are the labels on the Real Mayo jars?\n\nA. Jupiter's atmosphere\nB. The Great Wall of China\nC. Quantum entanglement\nD. The Nile River\nIf none of the above answers are correct, answer: 'F'",
+        "response": "F",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Vinegar@04_19_2024_S2_F_Vinegar_P_3": {
+        "prompt": "<image>\nWhat characteristic is common among the glass bottles described?\n\nA. Cheetah speed\nB. Electromagnetic waves\nC. Gravitational pull\nD. Quantum mechanics\nIf none of the above answers are correct, answer: 'F'",
+        "response": "F",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "AppleJuice@04_18_2024_W2_F_AppleJuice2_P_3": {
+        "prompt": "<image>\nWhat are the beverage jugs in the room primarily filled with?\n\nA. Maple syrup\nB. Lavender essential oil\nC. Ocean water\nD. Soil nutrients\nIf none of the above answers are correct, answer: 'F'",
+        "response": "F",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Apples@03_04_2024_S_L_Apples_F_2": {
+        "prompt": "<image>\nWhat colors are the apples in the pile?\n\nA. Grasshopper\nB. Microwave\nC. Roller coaster\nD. Umbrella\nIf none of the above answers are correct, answer: 'F'",
+        "response": "F",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Apples@03_04_2024_S_L_ApplesLong_F_1": {
+        "prompt": "<image>\nWhat colors are the apples described in the room?\n\nA. Ocean\nB. Mountain\nC. Desert\nD. Forest\nIf none of the above answers are correct, answer: 'F'",
+        "response": "F",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Apples@03_07_2024_S_L_Apples1_F_1": {
+        "prompt": "<image>\nWhat colors are the apples displayed in the black trays?\n\nA. Polyester\nB. Cotton\nC. Silk\nD. Leather\nIf none of the above answers are correct, answer: 'F'",
+        "response": "F",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Apples@03_07_2024_S_L_Apples2_F_2": {
+        "prompt": "<image>\nWhat colors are represented on the apples in the pile?\n\nA. Jigsaw puzzle pieces\nB. Electric circuits\nC. Marble sculptures\nD. Origami cranes\nIf none of the above answers are correct, answer: 'F'",
+        "response": "F",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Apples@03_07_2024_S_L_Apples3_F_2": {
+        "prompt": "<image>\nWhat colors are the apples described in the room?\n\nA. Quantum mechanics\nB. Ancient civilizations\nC. Modern art movements\nD. Space exploration missions\nIf none of the above answers are correct, answer: 'F'",
+        "response": "F",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Apples@03_07_2024_S_L_Apples_F_2": {
+        "prompt": "<image>\nWhat colors are the apples in the pile?\n\nA. Basketball\nB. Violin\nC. Computer\nD. Telescope\nIf none of the above answers are correct, answer: 'F'",
+        "response": "F",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Apples@03_13_2024_S_Co_Apples_F_2": {
+        "prompt": "<image>\nWhat color are the blushes on the red apples?\n\nA. Jupiter\nB. Equinox\nC. Symphony\nD. Galaxy\nIf none of the above answers are correct, answer: 'F'",
+        "response": "F",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Apples@03_21_2024_W_L_Apples1_F_1": {
+        "prompt": "<image>\nWhat color are the stems of some of the apples in the pile?\n\nA. Plum\nB. Grape\nC. Banana\nD. Orange\nIf none of the above answers are correct, answer: 'F'",
+        "response": "F",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Apples@03_21_2024_W_L_Apples2_F_2": {
+        "prompt": "<image>\nWhat color are the majority of the apples described in the room?\n\nA. Ocean Blue\nB. Fiery Red\nC. Midnight Black\nD. Neon Yellow\nIf none of the above answers are correct, answer: 'F'",
+        "response": "F",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Apples@03_21_2024_W_L_Apples3_F_2": {
+        "prompt": "<image>\nWhat distinctive feature do the apples have besides their color?\n\nA. Ocean waves\nB. Mountain ranges\nC. City skylines\nD. Desert landscapes\nIf none of the above answers are correct, answer: 'F'",
+        "response": "F",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Avacados@04_04_2024_W2_C_AvacadosLong1_F_1": {
+        "prompt": "<image>\nWhat color are the cucumbers in the scene?\n\nA. Symphonic\nB. Melodic\nC. Rhythmic\nD. Harmonic\nIf none of the above answers are correct, answer: 'F'",
+        "response": "F",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Avacados@04_04_2024_W_C_Avocados1_F_1": {
+        "prompt": "<image>\nWhat color is the skin of the avocados in the pile?\n\nA. Mountain\nB. River\nC. Desert\nD. Ocean\nIf none of the above answers are correct, answer: 'F'",
+        "response": "F",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "BBQSauce@03_21_2024_W_L_BBQ1_P_1": {
+        "prompt": "<image>\nWhat is the shape of the bottles for Sweet Baby Ray's barbecue sauce?\n\nA. Jupiter's Atmosphere\nB. The Theory of Relativity\nC. Quantum Entanglement\nD. The Great Wall of China\nIf none of the above answers are correct, answer: 'F'",
+        "response": "F",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Bagels@03_21_2024_W_L_Bagels1_P_1": {
+        "prompt": "<image>\nWhat distinct features of Thomas' bagels can be identified from their packaging?\n\nA. Predominantly used in cooking techniques\nB. Commonly found in children's literature\nC. Frequently associated with marine biology\nD. Often discussed in historical documentaries\nIf none of the above answers are correct, answer: 'F'",
+        "response": "F",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Bananas@03_04_2024_S_L_Bananas2_F_2": {
+        "prompt": "<image>\nWhat types of fruits are included in the display along with the weighing scale?\n\nA. Velocity of light\nB. Quantum mechanics\nC. Historical events\nD. Types of music genres\nIf none of the above answers are correct, answer: 'F'",
+        "response": "F",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Bananas@03_04_2024_S_L_Bananas_F_2": {
+        "prompt": "<image>\nWhat color are the bananas described in the assortment of fresh produce?\n\nA. Marching band\nB. Algebraic expression\nC. Solar system\nD. Medieval literature\nIf none of the above answers are correct, answer: 'F'",
+        "response": "F",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Bananas@04_04_2024_NG_C_Bananas1_F_1": {
+        "prompt": "<image>\nWhat color are the bands that bind the bunches of bananas?\n\nA. Kilogram\nB. Scissors\nC. Alphabet\nD. Compass\nIf none of the above answers are correct, answer: 'F'",
+        "response": "F",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Bananas@04_04_2024_S_C_Bananas_F_2": {
+        "prompt": "<image>\nWhat color are the bananas described in the room?\n\nA. Euphoria\nB. Regret\nC. Curiosity\nD. Anticipation\nIf none of the above answers are correct, answer: 'F'",
+        "response": "F",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Beans@04_04_2024_W2_C_Beans_P_3": {
+        "prompt": "<image>\nWhat is the color of the labels on the Bush's Original Baked Beans cans?\n\nA. Tropical rainforest\nB. Arctic tundra\nC. Desert plateau\nD. Urban skyline\nIf none of the above answers are correct, answer: 'F'",
+        "response": "F",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Bread@04_04_2024_W2_C_Bread2_P_2": {
+        "prompt": "<image>\nWhat types of bread are packaged in the color-coded bags?\n\nA. Jupiter\nB. Pineapple\nC. Hibernate\nD. Mosaic\nIf none of the above answers are correct, answer: 'F'",
+        "response": "F",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Bread@04_04_2024_W2_C_Bread3_P_2": {
+        "prompt": "<image>\nWhat color are the crusts of the Sara Lee sliced bread loaves?\n\nA. Jupiter\nB. Saturn\nC. Mars\nD. Venus\nIf none of the above answers are correct, answer: 'F'",
+        "response": "F",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Bread@04_04_2024_W2_C_Bread_P_2": {
+        "prompt": "<image>\nWhat types of bread are described in the clear plastic bags?\n\nA. Labrador Retriever\nB. Siamese Cat\nC. French Bulldog\nD. Golden Eagle\nIf none of the above answers are correct, answer: 'F'",
+        "response": "F",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Can@03_21_2024_W_L_Cans_P_2": {
+        "prompt": "<image>\nWhat types of products are contained in the cylindrical metal cans?\n\nA. Marshmallow fluff\nB. Rubber bands\nC. Paperclips\nD. Light bulbs\nIf none of the above answers are correct, answer: 'F'",
+        "response": "F",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Can@03_21_2024_W_L_Peas1_P_1": {
+        "prompt": "<image>\nWhat color is the label on the can that contains Great Value potatoes?\n\nA. Basketball\nB. Giraffe\nC. Violin\nD. Mountain\nIf none of the above answers are correct, answer: 'F'",
+        "response": "F",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Can@04_04_2024_W_C_Cans_P_3": {
+        "prompt": "<image>\nWhat types of flavors are labeled on the cylindrical metal cans?\n\nA. Plate tectonics\nB. Solar eclipses\nC. Quantum physics\nD. Medieval history\nIf none of the above answers are correct, answer: 'F'",
+        "response": "F",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Can@04_18_2024_W2_F_Cans2_P_2": {
+        "prompt": "<image>\nWhat color are the lids on the blue and white paint cans?\n\nA. Elephant\nB. Watermelon\nC. Cinnamon\nD. Lavender\nIf none of the above answers are correct, answer: 'F'",
+        "response": "F",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Candy@03_21_2024_W_L_Candy1_P_1": {
+        "prompt": "<image>\nWhat type of sunglasses are present in the room?\n\nA. Maple Syrup\nB. Watermelon\nC. Cactus\nD. Chocolate Cake\nIf none of the above answers are correct, answer: 'F'",
+        "response": "F",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Candy@03_21_2024_W_L_Candy2_P_1": {
+        "prompt": "<image>\nWhat color are the dominant rectangular gift boxes in the display?\n\nA. Guitar\nB. Painting\nC. Violin\nD. Piano\nIf none of the above answers are correct, answer: 'F'",
+        "response": "F",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Candy@03_21_2024_W_L_Candy2_P_2": {
+        "prompt": "<image>\nWhich color bag corresponds to the Milk Chocolate variety of M&M's candy?\n\nA. Mercury\nB. Jupiter\nC. Saturn\nD. Neptune\nIf none of the above answers are correct, answer: 'F'",
+        "response": "F",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Candy@03_21_2024_W_L_Candy_P_2": {
+        "prompt": "<image>\nWhat colors are prominently featured on the Starburst candy bags?\n\nA. Jupiter and Saturn\nB. Hydrogen and Oxygen\nC. Mercury and Venus\nD. Earth and Mars\nIf none of the above answers are correct, answer: 'F'",
+        "response": "F",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Chips@03_21_2024_W_L_Chips1_P_1": {
+        "prompt": "<image>\nWhat designs are featured on the fronts of the colorful plastic snack bags?\n\nA. Quantum theory applications\nB. Evolution of classical music\nC. Historical events of the 18th century\nD. Types of celestial bodies\nIf none of the above answers are correct, answer: 'F'",
+        "response": "F",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Chips@03_21_2024_W_L_Chips_P_2": {
+        "prompt": "<image>\nWhat colors are the Tostitos tortilla chip bags in the scene?\n\nA. Jupiter\nB. Beethoven\nC. Quantum mechanics\nD. Renaissance art\nIf none of the above answers are correct, answer: 'F'",
+        "response": "F",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Chips@04_04_2024_NG_C_Chips_P_2": {
+        "prompt": "<image>\nWhat colors are primarily featured on some of the popcorn snack bags?\n\nA. Elephant\nB. Guitar\nC. Symphony\nD. Moonlight\nIf none of the above answers are correct, answer: 'F'",
+        "response": "F",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Chips@04_04_2024_S_C_Chips1_P_1": {
+        "prompt": "<image>\nWhat colors are represented in the snack bags described in the room?\n\nA. Elephant\nB. Giraffe\nC. Dolphin\nD. Cactus\nIf none of the above answers are correct, answer: 'F'",
+        "response": "F.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Chips@04_04_2024_S_C_Chips2_P_1": {
+        "prompt": "<image>\nWhat types of snacks are prominently featured in the colorful tall bags?\n\nA. Friction\nB. Combustion\nC. Evaporation\nD. Condensation\nIf none of the above answers are correct, answer: 'F'",
+        "response": "F",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Chips@04_04_2024_S_C_Chips2_P_2": {
+        "prompt": "<image>\nWhat colors are represented in the collection of potato chip bags?\n\nA. Jupiter\nB. Chlorophyll\nC. Quartz\nD. Hydrogen\nIf none of the above answers are correct, answer: 'F'",
+        "response": "F",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Chips@04_04_2024_S_C_Chips3_P_1": {
+        "prompt": "<image>\nWhat color are the bags of Tostitos tortilla chips?\n\nA. Elephant\nB. Raspberry\nC. Cactus\nD. Marble\nIf none of the above answers are correct, answer: 'F'",
+        "response": "F.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Chips@04_04_2024_S_C_Chips3_P_2": {
+        "prompt": "<image>\nWhat color can be found on the packaging of the Barbecue flavor Lay's potato chips?\n\nA. History\nB. Mathematics\nC. Astronomy\nD. Geography\nIf none of the above answers are correct, answer: 'F'",
+        "response": "F",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Coffee@03_21_2024_W_L_Coffee1_P_1": {
+        "prompt": "<image>\nWhat colors are the packaging of the coffee boxes displayed in the room?\n\nA. Main Sequence\nB. Black Hole\nC. Red Giant\nD. Supernova\nIf none of the above answers are correct, answer: 'F'",
+        "response": "F",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Coffee@03_21_2024_W_L_Coffee2_P_2": {
+        "prompt": "<image>\nWhat colors are the coffee canisters and jars described in the room?\n\nA. Blue whale\nB. Golden retriever\nC. Desert cactus\nD. Tropical rainforest\nIf none of the above answers are correct, answer: 'F'",
+        "response": "F",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Coffee@03_21_2024_W_L_Coffee_P_2": {
+        "prompt": "<image>\nWhat color are the travel mugs mentioned in the description?\n\nA. Mountain Range\nB. Ocean Depths\nC. Forest Canopy\nD. Desert Sunrise\nIf none of the above answers are correct, answer: 'F'",
+        "response": "F",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Coffee@04_04_2024_S_C_Coffee2_P_3": {
+        "prompt": "<image>\nWhat type of products are typically packaged in the described bags?\n\nA. Laptops\nB. Kitchen appliances\nC. Camping gear\nD. Musical instruments\nIf none of the above answers are correct, answer: 'F'",
+        "response": "F",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Corn@04_04_2024_W_C_Corn1_F_1": {
+        "prompt": "<image>\nWhat color are the tips of the husks on the corn ears?\n\nA. Mountain\nB. Ocean\nC. Desert\nD. Forest\nIf none of the above answers are correct, answer: 'F'",
+        "response": "F",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Cucumbers@03_21_2024_W_L_Cucumbers_F_2": {
+        "prompt": "<image>\nWhat is the shape of the cucumbers described?\n\nA. Binary star system\nB. Quantum entanglement\nC. Genetic mutation\nD. Tectonic plate movement\nIf none of the above answers are correct, answer: 'F'",
+        "response": "F.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Cucumbers@04_04_2024_W2_C_Cucumbers1_V_1": {
+        "prompt": "<image>\nWhat is the typical appearance of green cucumbers as described?\n\nA. Solid metal gray\nB. Bright neon orange\nC. Textured purple silk\nD. Radiant teal gemstone\nIf none of the above answers are correct, answer: 'F'",
+        "response": "F",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "EnergyDrinks@03_04_2024_S_L_EnergyDrinks_P_1": {
+        "prompt": "<image>\nWhat is the size of the jugs described?\n\nA. Quadratic equation\nB. Newton's third law\nC. Photosynthesis process\nD. Quantum mechanics theory\nIf none of the above answers are correct, answer: 'F'",
+        "response": "F",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Flour@04_04_2024_W2_C_Flour_P_3": {
+        "prompt": "<image>\nWhat color are the standout bags that feature the \"Gold Medal\" logo for All-Purpose Flour?\n\nA. Maple syrup\nB. Cucumber\nC. Grapefruit\nD. Quicksand\nIf none of the above answers are correct, answer: 'F'",
+        "response": "F.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Flour@04_04_2024_W_C_Flour_P_2": {
+        "prompt": "<image>\nWhat colors are the flour bags displayed in the room?\n\nA. Triangle\nB. Rectangle\nC. Circle\nD. Square\nIf none of the above answers are correct, answer: 'F'",
+        "response": "F",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Gourds@03_21_2024_W_L_Gourds1_F_1": {
+        "prompt": "<image>\nWhat shape are the melons described in the room?\n\nA. Pineapple\nB. Blueberry\nC. Strawberry\nD. Raspberry\nIf none of the above answers are correct, answer: 'F'",
+        "response": "F",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "GrapeFruits@03_07_2024_S_L_GrapeFruits1_F_1": {
+        "prompt": "<image>\nWhat type of fruit is arranged in a pyramid on a tray?\n\nA. Cactus\nB. Oak tree\nC. Eclipse\nD. Symphony\nIf none of the above answers are correct, answer: 'F'",
+        "response": "F",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "GrapeFruits@04_04_2024_W2_C_Grapefruits1_F_1": {
+        "prompt": "<image>\nWhat color are the stickers that may be found on the skin of grapefruits?\n\nA. Elephant\nB. Galaxy\nC. Volcano\nD. Symphony\nIf none of the above answers are correct, answer: 'F'",
+        "response": "F",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Greens@03_04_2024_S_L_Greens1_V_1": {
+        "prompt": "<image>\nWhat type of vegetable is arranged with leafy tops among the fresh organic vegetables?\n\nA. Galaxy\nB. Computer\nC. Waterfall\nD. Circus\nIf none of the above answers are correct, answer: 'F'",
+        "response": "F",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Greens@03_04_2024_S_L_Greens2_V_1": {
+        "prompt": "<image>\nWhat type of produce is the brightest in the display?\n\nA. Hydrogen\nB. Jupiter\nC. Quantum\nD. Neutron\nIf none of the above answers are correct, answer: 'F'",
+        "response": "F.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Greens@03_04_2024_S_L_Greens_V_2": {
+        "prompt": "<image>\nWhat type of vegetable is described as having glossy smooth skin and lobed shoulders?\n\nA. Marsupial\nB. Reptile\nC. Amphibian\nD. Mammal\nIf none of the above answers are correct, answer: 'F'",
+        "response": "F. Frog.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Greens@04_04_2024_S_C_Greens_V_2": {
+        "prompt": "<image>\nWhat type of vegetable in the collection has thick pale stalks and broad glossy leaves?\n\nA. Blue Whale\nB. Giant Sequoia\nC. Great Barrier Reef\nD. Eiffel Tower\nIf none of the above answers are correct, answer: 'F'",
+        "response": "F. Lettuce",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Jam@03_21_2024_W_L_Jam1_P_1": {
+        "prompt": "<image>\nWhat colors are represented by the glass jars of jam and jelly in the room?\n\nA. Algebraic expressions\nB. Frictionless surfaces\nC. Exponential growth\nD. Quantum mechanics\nIf none of the above answers are correct, answer: 'F'",
+        "response": "F",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Juices@03_04_2024_S_L_Juices_P_2": {
+        "prompt": "<image>\nWhat type of containers are primarily found in the described room?\n\nA. Cactus pot\nB. Honey jar\nC. Traffic cone\nD. Ice cream tub\nIf none of the above answers are correct, answer: 'F'",
+        "response": "F",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Juices@04_04_2024_W2_C_Juice_P_2": {
+        "prompt": "<image>\nWhat can be observed about the beverage containers in terms of their appearance?\n\nA. Gravity effects on celestial bodies\nB. Chemical reactions in cooking\nC. Historical events of the 20th century\nD. Phases of the moon\nIf none of the above answers are correct, answer: 'F'",
+        "response": "F",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Ketchup@04_04_2024_S_C_Ketchup_P_2": {
+        "prompt": "<image>\nWhat is the color of the cap on the large pale-yellow Dijon mustard bottle?\n\nA. Octopus\nB. Kettle\nC. Granola\nD. Telescope\nIf none of the above answers are correct, answer: 'F'",
+        "response": "F",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Alfredo@04_04_2024_W2_C_Alfredo_P_3": {
+        "prompt": "<image>\nWhat kind of containers are present in the room?\n\nA. Jupiter's moons\nB. Species of tropical fish\nC. Historical landmarks in Europe\nD. Types of classical music\nIf none of the above answers are correct, answer: 'F'",
+        "response": "F",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Broccoli@04_04_2024_S_C_Broccoli1_V_1": {
+        "prompt": "<image>\nWhat color are the florets of the broccoli heads described?\n\nA. Gravity\nB. Friction\nC. Acceleration\nD. Motion\nIf none of the above answers are correct, answer: 'F'",
+        "response": "F",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Buns@04_18_2024_W2_F_Buns1_P_1": {
+        "prompt": "<image>\nWhat color are the crusts of the hamburger buns described?\n\nA. Rose\nB. Sapphire\nC. Emerald\nD. Topaz\nIf none of the above answers are correct, answer: 'F'",
+        "response": "F",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Cabbages@03_13_2024_S_Co_Cabbages_V_2": {
+        "prompt": "<image>\nWhat shape do green cabbage heads predominantly exhibit?\n\nA. Plankton\nB. Coral\nC. Glacier\nD. Tornado\nIf none of the above answers are correct, answer: 'F'",
+        "response": "F",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Cereal@03_21_2024_W_L_Cereal1_P_1": {
+        "prompt": "<image>\nWhat color is one of the cereal boxes described?\n\nA. Octopus\nB. Marathon\nC. Galaxy\nD. Sandcastle\nIf none of the above answers are correct, answer: 'F'",
+        "response": "F",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Chilli@04_18_2024_W3_F_Chilli_P_3": {
+        "prompt": "<image>\nWhat types of containers are prominently displayed in the described arrangement?\n\nA. Voltage\nB. Frequency\nC. Amperage\nD. Resistance\nIf none of the above answers are correct, answer: 'F'",
+        "response": "F. Can.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "ChipsSalsa@04_18_2024_W_F_Salsa_P_3": {
+        "prompt": "<image>\nWhat colors are the labels on the glass jars?\n\nA. Beethoven's Symphonies\nB. Quantum Mechanics\nC. Renaissance Art\nD. Tropical Rainforests\nIf none of the above answers are correct, answer: 'F'",
+        "response": "F",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Coconuts@03_21_2024_W_L_Coconuts1_F_1": {
+        "prompt": "<image>\nWhat is the shape of the brown coconuts described?\n\nA. Circle\nB. Square\nC. Triangle\nD. Rectangle\nIf none of the above answers are correct, answer: 'F'",
+        "response": "F",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Dressings@04_18_2024_W2_F_Dressing_P_2": {
+        "prompt": "<image>\nWhat is the color of the caps on the condiment bottles described?\n\nA. Jazz music\nB. Classical literature\nC. Quantum physics\nD. Ancient civilizations\nIf none of the above answers are correct, answer: 'F'",
+        "response": "F",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Drinks@03_21_2024_W_L_Drinks_P_2": {
+        "prompt": "<image>\nWhat feature is common among the hydration bottles described?\n\nA. Quantum entanglement\nB. Solar flares\nC. Gravitational waves\nD. Black holes\nIf none of the above answers are correct, answer: 'F'",
+        "response": "F",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "FruitCans@04_18_2024_W3_F_CanFruits_P_3": {
+        "prompt": "<image>\nWhat color are the lids of the cans and jars on the supermarket shelf?\n\nA. Apple pie\nB. Chocolate chip\nC. Vanilla bean\nD. Coconut cream\nIf none of the above answers are correct, answer: 'F'",
+        "response": "F",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Garlic@04_04_2024_W_C_Garlic1_V_1": {
+        "prompt": "<image>\nWhat shape are the garlic bulbs described?\n\nA. Circular orbit\nB. Equatorial diameter\nC. Molecular structure\nD. Tectonic plates\nIf none of the above answers are correct, answer: 'F'",
+        "response": "F",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Gatorade@03_04_2024_S_L_Gatorade_P_2": {
+        "prompt": "<image>\nWhat type of lids do some plastic sport-drink bottles feature?\n\nA. Chocolate\nB. Lavender\nC. Horizon\nD. Mountain\nIf none of the above answers are correct, answer: 'F'",
+        "response": "F",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "GranolaBars@04_04_2024_W_C_GranolaBars2_P_2": {
+        "prompt": "<image>\nWhat color is the packaging of the Made Good Chocolate Drizzled Granola Bars?\n\nA. Jupiter\nB. Neptune\nC. Saturn\nD. Mars\nIf none of the above answers are correct, answer: 'F'",
+        "response": "F",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Honey@03_21_2024_W_L_Honey1_P_1": {
+        "prompt": "<image>\nWhat types of containers are included in the assortment of honey?\n\nA. Sapphire\nB. Aqueduct\nC. Symphony\nD. Telescope\nIf none of the above answers are correct, answer: 'F'",
+        "response": "F",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Plums@04_19_2024_W4_F_Plums1_F_1": {
+        "prompt": "<image>\nWhat feature is commonly found on some plums described in the information?\n\nA. Tropical rainforests\nB. Desert cacti\nC. Arctic tundra\nD. Mountain ranges\nIf none of the above answers are correct, answer: 'F'",
+        "response": "F",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Pringles@04_18_2024_W3_F_Pringles_P_2": {
+        "prompt": "<image>\nWhat color are the caps on the tall blue plastic bottles?\n\nA. Sandwich\nB. Bicycle\nC. Symphony\nD. Aquarium\nIf none of the above answers are correct, answer: 'F'",
+        "response": "F",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Radish@03_21_2024_W_L_Radish_V_2": {
+        "prompt": "<image>\nWhat color are the stems of the beetroots described?\n\nA. Jupiter\nB. Saturn\nC. Mercury\nD. Venus\nIf none of the above answers are correct, answer: 'F'",
+        "response": "F",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Syrup@03_21_2024_W_L_Syrup1_P_1": {
+        "prompt": "<image>\nWhat color are the caps of the dark brown glass syrup bottles?\n\nA. Arithmetic\nB. Metaphysics\nC. Geometry\nD. Biology\nIf none of the above answers are correct, answer: 'F'",
+        "response": "F",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Tostitos@04_18_2024_W_F_Tostitos2_P_3": {
+        "prompt": "<image>\nWhat colors are represented in the snack bags?\n\nA. Giraffe\nB. Marsupial\nC. Sorcery\nD. Algebra\nIf none of the above answers are correct, answer: 'F'",
+        "response": "F",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    }
+}
