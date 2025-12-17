@@ -1,0 +1,2144 @@
+{
+    "Cabbage@sl_1109_14": {
+        "prompt": "What type of chandelier is hanging in the room?\n\nA. Crystal Chandelier\nB. Modern LED Chandelier\nC. Vintage Pendant Chandelier\nD. Rustic Wooden Chandelier\nE. None of the above",
+        "response": ".\n\n3D model of a chandelier hanging from the ceiling.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Cabbage@sl_1019_03": {
+        "prompt": "What shape is the table in the scene?\n\nA. Round\nB. Square\nC. Oval\nD. Rectangular\nE. None of the above",
+        "response": "The table in the scene is square-shaped.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Cabbage@mvs_1019_05": {
+        "prompt": "What is the height of the statue in the room?\n\nA. Four feet\nB. Seven feet\nC. Ten feet\nD. Twelve feet\nE. None of the above",
+        "response": "The statue in the room is seven feet tall.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Cabbage@mvs_907_11": {
+        "prompt": "What is the size of the television in the room?\n\nA. 32 inches\nB. 55 inches\nC. 75 inches\nD. 45 inches\nE. None of the above",
+        "response": ".\n\nThe correct answer is B. The television in the room is 55 inches.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Cabbage@sl_1205_01": {
+        "prompt": "What type of artwork is displayed in the scene?\n\nA. Abstract painting\nB. Landscape mural\nC. Portrait photograph\nD. Sculpture\nE. None of the above",
+        "response": "3D model of an abstract painting on a wall.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Cabbage@sl_921_07": {
+        "prompt": "What type of chair is included in the scene?\n\nA. Recliner\nB. Office chair\nC. Dining chair\nD. Lounge chair\nE. None of the above",
+        "response": "\"None of the above\" is the correct answer as the type of chair is not specified in the caption.\n3D model of a chair in a 3D scene.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Cabbage@mvs_901_14": {
+        "prompt": "What is the texture of the tablecloth?\n\nA. Smooth\nB. Rough\nC. Silky\nD. Velvety\nE. None of the above",
+        "response": ".\n\nThe tablecloth has a smooth texture.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Cabbage@mvs_1123_14": {
+        "prompt": "What animal is perched on the windowsill?\n\nA. Sparrow\nB. Cat\nC. Owl\nD. Goldfish\nE. None of the above",
+        "response": ".\n\nThe correct answer is A. Sparrow.\n\n3D model of a sparrow perched on a windowsill.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Cabbage@mvs_1019_09": {
+        "prompt": "What is the height of the statue nearby?\n\nA. Five feet\nB. Ten feet\nC. Three feet\nD. Seven feet\nE. None of the above",
+        "response": "3D model of a statue on a rock.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Cabbage@sl_907_03": {
+        "prompt": "What is the shape of the window in the room?\n\nA. Square\nB. Circular\nC. Triangular\nD. Rectangular\nE. None of the above",
+        "response": "The shape of the window in the room is circular.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Cabbage@sl_1205_05": {
+        "prompt": "What shape is the window in the scene?\n\nA. Circular\nB. Triangular\nC. Hexagonal\nD. Oval\nE. None of the above",
+        "response": "The window in the scene is circular.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Cabbage@mvs_1019_03": {
+        "prompt": "What type of chair is featured in the scene?\n\nA. Recliner\nB. Office chair\nC. Dining chair\nD. Bean bag\nE. None of the above",
+        "response": ", it's a 3D model of a chair.\n\nThe correct answer is E. None of the above, it's a 3D model of a chair.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Cabbage@sl_901_02": {
+        "prompt": "What kind of painting is hanging on the wall?\n\nA. Abstract Landscape\nB. Portrait of a Lady\nC. Still Life with Flowers\nD. Cityscape at Dusk\nE. None of the above",
+        "response": ".\n\nThe painting hanging on the wall is a still life with flowers.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Cabbage@mvs_1205_09": {
+        "prompt": "What type of window treatment is used in the scene?\n\nA. Blinds\nB. Drapes\nC. Curtains\nD. Shutters\nE. None of the above",
+        "response": ".\n\nThe correct answer is E. None of the above. The window treatment used in the scene is not specified. It could be any type of window treatment such as blinds, drapes, curtains, or shutters.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Cabbage@sl_1019_07": {
+        "prompt": "What type of light fixture is hanging above the scene?\n\nA. Chandelier\nB. Pendant light\nC. Ceiling fan\nD. Track lighting\nE. None of the above",
+        "response": ". It's a 3D model.\n\nThe correct answer is E. It's a 3D model. The type of light fixture hanging above the scene isn't specified in the description.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Cabbage@sl_1019_05": {
+        "prompt": "What type of window treatments are used in the room?\n\nA. Venetian blinds\nB. Sheer curtains\nC. Roller shades\nD. Drapes\nE. None of the above",
+        "response": ".\n\nThe correct answer is B. Sheer curtains.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Cabbage@sl_1116_11": {
+        "prompt": "What type of art piece is prominently displayed in the scene?\n\nA. A large abstract painting\nB. A bronze sculpture\nC. A colorful mural\nD. A wooden totem\nE. None of the above",
+        "response": ".\n\nThe 3D model depicts a large abstract painting prominently displayed in the scene.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Cabbage@mvs_1012_06": {
+        "prompt": "What is the shape of the window in the room?\n\nA. Round\nB. Square\nC. Arched\nD. Oval\nE. None of the above",
+        "response": ".\n\nThe shape of the window in the room is arched.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Cabbage@mvs_907_07": {
+        "prompt": "What kind of furniture is included in the scene?\n\nA. Armchair\nB. Coffee table\nC. Bookshelf\nD. Dining table\nE. None of the above",
+        "response": ". It's a 3D model of a tree stump.\n\n3D model of a tree stump.\n3D model of a tree stump. It's a 3D model of a tree stump.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Cabbage@sl_921_11": {
+        "prompt": "What fabric is used for the curtains?\n\nA. Silk\nB. Cotton\nC. Velvet\nD. Linen\nE. None of the above",
+        "response": ". It's a 3D model.\n\nThe curtains in the 3D model are made of cotton.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Cabbage@sl_1019_01": {
+        "prompt": "What type of flooring is used in the living room?\n\nA. Hardwood\nB. Tile\nC. Carpet\nD. Laminate\nE. None of the above",
+        "response": "\"None of the above\" is the correct answer as the specific type of flooring isn't mentioned in the description.\n3D model of a living room featuring a sofa, coffee table, and TV stand.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Cabbage@mvs_929_06": {
+        "prompt": "What is the shape of the table in the scene?\n\nA. Oval\nB. Rectangular\nC. Circular\nD. Triangular\nE. None of the above",
+        "response": "The table in the scene is rectangular in shape.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Cabbage@sl_1109_12": {
+        "prompt": "What type of light fixture is hanging from the ceiling?\n\nA. Chandelier\nB. Pendant light\nC. Floor lamp\nD. Wall sconce\nE. None of the above",
+        "response": "\"None of the above\" is the correct answer because the light fixture is described as hanging from the ceiling, but its specific type is not mentioned.\n3D model of a chandelier hanging from the ceiling",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Cabbage@mvs_1116_07": {
+        "prompt": "What type of chair is featured in the scene?\n\nA. Armchair\nB. Folding chair\nC. Recliner\nD. Bean bag chair\nE. None of the above",
+        "response": ".\n\nAnswer:B. Folding chair\n\nA 3D model of a folding chair is featured in the scene. This type of chair is known for its portability and versatility, as it can be folded",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Cabbage@mvs_921_03": {
+        "prompt": "What type of sculpture is located in the center of the scene?\n\nA. Marble bust\nB. Bronze statue\nC. Wooden figure\nD. Glass orb\nE. None of the above",
+        "response": ".\n\nThe 3D object in the center of the scene is a marble bust.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Cabbage@mvs_901_10": {
+        "prompt": "What type of chair is featured in the scene?\n\nA. Armchair\nB. Dining chair\nC. Recliner\nD. Lounge chair\nE. None of the above",
+        "response": ".\n\nAnswer:B. Dining chair\n\nA 3D model of a dining chair is featured in the scene. This chair is typically used in a dining room or kitchen for eating meals. The chair's",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Cabbage@sl_1103_05": {
+        "prompt": "What style of chair complements the scene?\n\nA. Recliner\nB. Armchair\nC. Dining chair\nD. Rocking chair\nE. None of the above",
+        "response": ".\n\n3D model of a rocking chair on a rock.\n3D model of a rocking chair on grass.\n3D model of a rocking chair on sand.\n3D model of a rocking chair on a",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Cabbage@sl_907_11": {
+        "prompt": "What type of painting is hanging on the wall?\n\nA. Abstract\nB. Landscape\nC. Portrait\nD. Still life\nE. None of the above",
+        "response": "- it's a 3D model.\n\nThe 3D model is hanging on the wall. It's not a painting but a 3D model. Therefore, options A, B, C, and D are incorrect",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Cabbage@mvs_1103_05": {
+        "prompt": "What type of ceiling fan is installed in the room?\n\nA. Bladeless fan\nB. Traditional wooden fan\nC. Industrial metal fan\nD. Vintage chandelier fan\nE. None of the above",
+        "response": ".\n\nThe 3D model doesn't provide specific details about the type of ceiling fan installed in the room.\n\n3D model of a room featuring a wooden floor and a bladeless ceiling fan.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Cabbage@mvs_901_12": {
+        "prompt": "What type of light fixture is hanging above the table?\n\nA. Chandelier\nB. Pendant light\nC. Wall sconce\nD. Ceiling fan\nE. None of the above",
+        "response": "\"None of the above\" is the correct answer as the light fixture is described as a 'hanging light', which doesn't match the options provided.\n|ttajljljljljljljljljljljljljl",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Cabbage@mvs_914_12": {
+        "prompt": "What is the height of the bookshelf in the room?\n\nA. Six feet\nB. Seven feet\nC. Eight feet\nD. Nine feet\nE. None of the above",
+        "response": "The bookshelf in the room is seven feet high.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Cabbage@sl_1026_02": {
+        "prompt": "What style of chair is featured in the scene?\n\nA. Armchair\nB. Rocking chair\nC. Recliner\nD. Dining chair\nE. None of the above",
+        "response": "3D model of an armchair with a wooden seat and backrest.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Cabbage@sl_921_03": {
+        "prompt": "What type of building is depicted in the scene?\n\nA. Skyscraper\nB. Cottage\nC. Factory\nD. Barn\nE. None of the above",
+        "response": "- it's a cartoon-style building.\n\nThe 3D model depicts a cartoon-style building, so it's not a specific type like a skyscraper, cottage, factory, or",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Cabbage@mvs_1026_08": {
+        "prompt": "What type of ceiling fan is installed in the room?\n\nA. Modern chandelier fan\nB. Industrial style fan\nC. Vintage brass fan\nD. Decorative tropical fan\nE. None of the above",
+        "response": ".\n\nAnswer:A. Modern chandelier fan\n\n3D model of a modern chandelier fan hanging from the ceiling.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Cabbage@sl_1109_10": {
+        "prompt": "What is the height of the bookshelf?\n\nA. Six feet\nB. Three feet\nC. Eight feet\nD. Ten feet\nE. None of the above",
+        "response": "The height of the bookshelf is three feet.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Cabbage@mvs_929_10": {
+        "prompt": "What type of chair is located next to the plant?\n\nA. Recliner\nB. Dining chair\nC. Bar stool\nD. Bean bag\nE. None of the above",
+        "response": ".\n\n3D model of a chair next to a plant.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Cabbage@mvs_1205_01": {
+        "prompt": "What type of furniture is featured in the scene?\n\nA. Sofa\nB. Coffee table\nC. Bookshelf\nD. Armchair\nE. None of the above",
+        "response": "The correct answer is B. Coffee table.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Cabbage@mvs_1019_11": {
+        "prompt": "What is the size of the sculpture displayed in the room?\n\nA. Small\nB. Medium\nC. Large\nD. Extra Large\nE. None of the above",
+        "response": "The size of the sculpture is not specified in the description.\n\n3D model of a stone sculpture on a pedestal.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Cabbage@sl_1026_08": {
+        "prompt": "What type of lamp is used in the scene?\n\nA. Floor lamp\nB. Table lamp\nC. Pendant lamp\nD. Wall lamp\nE. None of the above",
+        "response": "Answer:B. Table lamp\n\n3D model of a table lamp\n3D model of a floor lamp\n3D model of a pendant lamp\n3D model of a wall lamp\n3D model of a lamp with a",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Cabbage@mvs_907_13": {
+        "prompt": "What type of lamp is used in the scene?\n\nA. Floor lamp\nB. Table lamp\nC. Wall sconce\nD. Pendant lamp\nE. None of the above",
+        "response": "3D model of a table lamp\n3D model of a floor lamp\n3D model of a pendant lamp\n3D model of a wall sconce\n3D model of a lamp on a table\n3D model of a",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Cabbage@mvs_1005_11": {
+        "prompt": "What type of ceiling fan is featured in the scene?\n\nA. Industrial fan\nB. Decorative chandelier fan\nC. Modern minimalist fan\nD. Vintage-style fan\nE. None of the above",
+        "response": ".\n\nThe correct answer is B. Decorative chandelier fan.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Cabbage@mvs_901_06": {
+        "prompt": "What type of fish is swimming in the scene?\n\nA. Goldfish\nB. Betta\nC. Guppy\nD. Clownfish\nE. None of the above",
+        "response": ". It's a 3D model of a fish.\n\n3D model of a goldfish swimming in a bowl.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Cabbage@sl_1109_08": {
+        "prompt": "What shape is the coffee table in the room?\n\nA. Round\nB. Square\nC. Oval\nD. Rectangular\nE. None of the above",
+        "response": "The coffee table in the room is square-shaped.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Cabbage@mvs_929_14": {
+        "prompt": "What type of chair is present in the scene?\n\nA. Recliner\nB. Barstool\nC. Armchair\nD. Folding chair\nE. None of the above",
+        "response": "1cbuiliontringuiliontringuiliontringuiliontringuiliontringuiliontringuiliontringuiliontringuiliontringuiliontringuiliontringuiliontringuiliontringuiliontringuiliontringuilion",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Cabbage@sl_907_01": {
+        "prompt": "What type of lighting is installed in the scene?\n\nA. Chandeliers\nB. Wall sconces\nC. Pendant lights\nD. Floor lamps\nE. None of the above",
+        "response": "\"None of the above\" is the correct answer, as the lighting in the scene is provided by a wall sconce.\n3D model of a wall sconce\n3D model of a chandelier\n3",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Cabbage@sl_1026_10": {
+        "prompt": "What is the shape of the table in the scene?\n\nA. Round\nB. Square\nC. Oval\nD. Rectangular\nE. None of the above",
+        "response": "The table in the scene is square-shaped.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Cabbage@sl_901_10": {
+        "prompt": "What type of chair is situated next to the bonsai tree?\n\nA. Recliner\nB. Armchair\nC. Dining Chair\nD. Rocking Chair\nE. None of the above",
+        "response": ". It's a bonsai tree.\n\nThe 3D model depicts a bonsai tree, not a chair. Therefore, the correct answer is E. It's a bonsai tree.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Cabbage@mvs_1012_12": {
+        "prompt": "What type of window treatment is used in the scene?\n\nA. Sheer curtains\nB. Wooden blinds\nC. Roller shades\nD. Roman shades\nE. None of the above",
+        "response": ".\n\nThe correct answer is E. None of the above. The window treatment used in the scene is sheer white curtains.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Cabbage@mvs_1109_02": {
+        "prompt": "What shape is the table in the scene?\n\nA. Rectangular\nB. Octagonal\nC. Round\nD. Hexagonal\nE. None of the above",
+        "response": ".\n\nThe table in the scene is octagonal in shape.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Cabbage@sl_901_04": {
+        "prompt": "What shape are the windows in the scene?\n\nA. Square\nB. Oval\nC. Triangular\nD. Rectangular\nE. None of the above",
+        "response": "- they are circular.\n\nThe windows in the scene are circular.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Cabbage@mvs_1116_01": {
+        "prompt": "What type of lamp is used for illuminating the space?\n\nA. Floor lamp\nB. Table lamp\nC. Pendant lamp\nD. Wall-mounted lamp\nE. None of the above",
+        "response": "\"None of the above\" is the correct answer as the type of lamp isn't specified in the description.\n3D model of a 3D model of a lamp",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Cabbage@mvs_901_08": {
+        "prompt": "What type of sofa is situated in the room?\n\nA. Leather sofa\nB. Fabric sofa\nC. Recliner sofa\nD. Sectional sofa\nE. None of the above",
+        "response": ".\n\nAnswer:A. Leather sofa\n\n3D model of a leather sofa.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Cabbage@sl_1109_06": {
+        "prompt": "What is the height of the bookshelf?\n\nA. Six feet\nB. Four feet\nC. Eight feet\nD. Ten feet\nE. None of the above",
+        "response": "The bookshelf is six feet tall.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Cabbage@mvs_914_04": {
+        "prompt": "What is the shape of the chandelier in the room?\n\nA. Round\nB. Square\nC. Oval\nD. Rectangular\nE. None of the above",
+        "response": "The chandelier in the room is oval-shaped.\n\n3D model of an oval-shaped chandelier hanging from the ceiling.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Cabbage@sl_1019_13": {
+        "prompt": "What type of sofa is present in the scene?\n\nA. Leather sectional\nB. Fabric loveseat\nC. Recliner chair\nD. Sleeper sofa\nE. None of the above",
+        "response": "3D model of a leather sectional sofa.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Cabbage@sl_1026_12": {
+        "prompt": "What type of lighting fixture adorns the room?\n\nA. Chandelier\nB. Pendant light\nC. Ceiling fan\nD. Wall sconce\nE. None of the above",
+        "response": "\"None of the above\" is the correct answer, as the type of lighting fixture is not specified in the description.\n3D model of a chandelier hanging from the ceiling.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Cabbage@mvs_1103_03": {
+        "prompt": "What type of window treatments are in the scene?\nA. Sheer curtains\nB. Blinds\nC. Drapes\nD. Tinted glass\nE. None of the above",
+        "response": ".\n\n3D model of a window with sheer curtains.\n3D model of a window with blinds.\n3D model of a window with drapes.\n3D model of a window with tinted",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Cabbage@sl_1103_13": {
+        "prompt": "What type of painting is hanging on the wall?\n\nA. Landscape\nB. Abstract\nC. Portrait\nD. Still Life\nE. None of the above",
+        "response": ".\n\nThe painting hanging on the wall is a landscape.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Cabbage@sl_907_05": {
+        "prompt": "What shape is the table in the room?\n\nA. Rectangular\nB. Round\nC. Oval\nD. Square\nE. None of the above",
+        "response": ".\n\nThe table in the room is round.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Cotton@116": {
+        "prompt": "What is the height of the bridge in the scene?\n\nA. 50 meters\nB. 80 meters\nC. 120 meters\nD. 200 meters\nE. None of the above",
+        "response": "The bridge in the scene is 120 meters high.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Cotton@14": {
+        "prompt": "What type of furniture is featured in the scene?\n\nA. Coffee Table\nB. Armchair\nC. Bookshelf\nD. Console Table\nE. None of the above",
+        "response": "The correct answer is D. Console Table.\n\nThe 3D model depicts a cartoon-like representation of a console table. The table is characterized by its simplistic design and vibrant colors, typical of",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Cotton@62": {
+        "prompt": "What is the height of the building?\n\nA. Two stories\nB. Five stories\nC. Ten stories\nD. Twenty stories\nE. None of the above",
+        "response": "The 3D model represents a skyscraper, which is typically a high-rise building. However, the exact number of stories isn't specified in the description.\n\n3D model of a skyscraper",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Cotton@126": {
+        "prompt": "What type of bench is located near the sapling?\n\nA. Wooden bench\nB. Metal bench\nC. Stone bench\nD. Plastic bench\nE. None of the above",
+        "response": ".\n\nAnswer: A wooden bench is located near the sapling.\n\n3D model of a sapling on a wooden bench.\n3D model of a sapling on a stone bench.\n3D model of",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Cotton@16": {
+        "prompt": "What is the height of the sculpture in the courtyard?\n\nA. 5 feet\nB. 7 feet\nC. 10 feet\nD. 12 feet\nE. None of the above",
+        "response": ".\n\nThe sculpture in the courtyard is 7 feet tall.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Cotton@113": {
+        "prompt": "What type of furniture is located near the branch?\n\nA. Sofa\nB. Coffee Table\nC. Bookshelf\nD. Dining Chair\nE. None of the above",
+        "response": "The correct answer is E. None of the above. The furniture is not specified in the caption.\n\n3D model of a tree branch with leaves.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Cotton@27": {
+        "prompt": "What type of vehicle is parked nearby?\n\nA. Sedan\nB. Motorcycle\nC. Truck\nD. Bicycle\nE. None of the above",
+        "response": ".\n\nThe 3D model depicts a sedan parked nearby.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Cotton@92": {
+        "prompt": "What is the width of the window in the scene?\n\nA. Two feet\nB. Four feet\nC. Six feet\nD. Eight feet\nE. None of the above",
+        "response": "The width of the window in the scene is four feet.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Cotton@198": {
+        "prompt": "What type of vehicle is parked near the sapling?\n\nA. Sports car\nB. Bicycle\nC. Bus\nD. Motorcycle\nE. None of the above",
+        "response": "Answer:E. None of the above. The specific type of vehicle is not mentioned in the description.\n\n3D model of a sapling in a parked car.\n3D model of a sapling in a parked",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Cotton@63": {
+        "prompt": "What type of furniture is in the scene?\n\nA. Coffee table\nB. Dining chair\nC. Bookshelf\nD. Sofa\nE. None of the above",
+        "response": ". It's a 3D model of a rock.\n\nThe correct answer is E. It's a 3D model of a rock.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Cotton@120": {
+        "prompt": "What type of roof is featured in the scene?\n\nA. Gabled\nB. Flat\nC. Hipped\nD. Mansard\nE. None of the above",
+        "response": "The 3D model features a gabled roof. This type of roof is characterized by two sloping sides that meet at a ridge, forming a triangular shape when viewed from the side. It's a common architect",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Cotton@81": {
+        "prompt": "What type of sofa is featured in the scene?\n\nA. Leather sectional\nB. Fabric loveseat\nC. Reclining chair\nD. Futon\nE. None of the above",
+        "response": ". It's a 3D model of a sofa.\n\nYes, it's a 3D model of a sofa.\n\n3D model of a leather sectional sofa.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Cotton@136": {
+        "prompt": "What type of paint is used on the wooden fence?\n\nA. White\nB. Red\nC. Blue\nD. Green\nE. None of the above",
+        "response": "The wooden fence is painted in a vibrant shade of red.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Cotton@26": {
+        "prompt": "What type of furniture is featured in the room?\n\nA. Sofa\nB. Table\nC. Chair\nD. Cabinet\nE. None of the above",
+        "response": ". It's a 3D model of a room.\n\n3D model of a room featuring a sofa, table, chair, and cabinet.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Cotton@112": {
+        "prompt": "What shape is the fountain in the scene?\n\nA. Round\nB. Square\nC. Oval\nD. Triangular\nE. None of the above",
+        "response": "The fountain in the scene is round.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Cotton@2": {
+        "prompt": "What shape is the table in the room?\n\nA. Round\nB. Square\nC. Rectangular\nD. Oval\nE. None of the above",
+        "response": ". It's a 3D model.\n\nThe table in the room is square-shaped.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Cotton@21": {
+        "prompt": "What type of vehicle is parked nearby?\n\nA. Sedan\nB. Bicycle\nC. Convertible\nD. Motorcycle\nE. None of the above",
+        "response": "The correct answer is E. None of the above. The 3D model does not specify the type of vehicle parked nearby.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Cotton@173": {
+        "prompt": "What type of fruit is represented in the scene?\n\nA. Apple\nB. Banana\nC. Grape\nD. Mango\nE. None of the above",
+        "response": "- it's a cartoon-like fruit.\n\nThe correct answer is E. It's a cartoon-like fruit.\n\n3D model of a cartoon-like fruit.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Cotton@107": {
+        "prompt": "What is the height of the bookshelf?\n\nA. Six feet\nB. Four feet\nC. Eight feet\nD. Ten feet\nE. None of the above",
+        "response": "The bookshelf is six feet tall.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Cotton@22": {
+        "prompt": "What type of lamp is located in the scene?\n\nA. Floor lamp\nB. Desk lamp\nC. Table lamp\nD. Pendant lamp\nE. None of the above",
+        "response": ".\n\nAnswer: B. Desk lamp\n\n3.Drawing inferences from the 3D model, the lamp is likely to be used for: A. Reading B. Illumination C. Decor D. All of the",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Cotton@115": {
+        "prompt": "What type of window treatment is used in the scene?\n\nA. Sheer curtains\nB. Venetian blinds\nC. Roman shades\nD. Bamboo shades\nE. None of the above",
+        "response": ".\n\nThe correct answer is E. None of the above. The specific type of window treatment isn't mentioned in the description.\n\n3D model of a window with sheer curtains.\n3D model of a window",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Cotton@159": {
+        "prompt": "What type of sculpture is featured in the scene?\n\nA. Abstract sculpture\nB. Marble statue\nC. Bronze bust\nD. Wooden carving\nE. None of the above",
+        "response": ".\n\nThe 3D model features an abstract sculpture. It's not specified what material the sculpture is made of.\n\n3D model of an abstract sculpture on a stone base.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Cotton@153": {
+        "prompt": "What type of animal is standing in front of the plant?\n\nA. Cat\nB. Dog\nC. Rabbit\nD. Parrot\nE. None of the above",
+        "response": "Answer: A. Cat\n\n3.Drawing inferences from the 3D model, the cat appears to be interacting with the plant in what way?\nA. The cat is eating the plant.\nB. The",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Cotton@88": {
+        "prompt": "What color is the sofa?\n\nA. Red\nB. Green\nC. Blue\nD. Yellow\nE. None of the above",
+        "response": ".\n\nThe sofa is green.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Cotton@9": {
+        "prompt": "What feature does the lake have in this scene?\n\nA. A fountain\nB. A dock\nC. A boating area\nD. A beach\nE. None of the above",
+        "response": ".\n\n3D model of a lake featuring a fountain and a dock.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Cotton@72": {
+        "prompt": "What type of sculpture is displayed near the plant?\n\nA. Abstract figure\nB. Bust of a historical figure\nC. Marble column\nD. Wooden totem\nE. None of the above",
+        "response": ".\n\nThe sculpture displayed near the plant is a Bust of a historical figure.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Cotton@25": {
+        "prompt": "What type of statue is situated in the garden?\n\nA. Marble angel\nB. Bronze unicorn\nC. Stone lion\nD. Wooden totem\nE. None of the above",
+        "response": ".\n\n3D model of a marble angel statue in a garden.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Cotton@158": {
+        "prompt": "What type of sculpture is located next to the branch?\n\nA. Marble bust\nB. Wooden totem\nC. Stone relief\nD. Bronze statue\nE. None of the above",
+        "response": "3D model of a branch with a sculpture on it.\n3D model of a branch with a sculpture on it.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Cotton@180": {
+        "prompt": "What type of animal is seen climbing the sapling?\n\nA. Rabbit\nB. Squirrel\nC. Bird\nD. Fox\nE. None of the above",
+        "response": ".\n\nAnswer: B. Squirrel\n\nA 3D model of a sapling with a squirrel climbing on it.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Cotton@149": {
+        "prompt": "What type of window treatment is used in the scene?\n\nA. Sheer curtains\nB. Roman shades\nC. Blinds\nD. Drapes\nE. None of the above",
+        "response": "1uiltringuiltringuiltringuiltringuiltringuiltringuiltringuiltringuiltringuiltringuiltringuiltringuiltringuiltringuiltringuiltringuiltring",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Cotton@125": {
+        "prompt": "What type of crown is worn at the festival?\n\nA. Floral crown\nB. Golden crown\nC. Leather crown\nD. Beaded crown\nE. None of the above",
+        "response": ".\n\nThe correct answer is B. Golden crown.\n\n3D model of a golden crown worn at a festival.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Cotton@51": {
+        "prompt": "What type of ceiling design is incorporated in the scene?\n\nA. Coffered\nB. Vaulted\nC. Tray\nD. Drop\nE. None of the above",
+        "response": ". It's a 3D model of a statue.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Cotton@67": {
+        "prompt": "What type of vehicle is parked next to the tree?\n\nA. Sedan\nB. Pickup truck\nC. Bicycle\nD. Motorcycle\nE. None of the above",
+        "response": ", it's a 3D model of a tree.\n\nThe correct answer is E. None of the above, it's a 3D model of a tree.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Cotton@127": {
+        "prompt": "What type of fruit is hanging from the branch?\n\nA. Apples\nB. Oranges\nC. Bananas\nD. Grapes\nE. None of the above",
+        "response": "Answer: D. Grapes\n\nA 3D model of a tree branch with grapes hanging from it.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Cotton@11": {
+        "prompt": "What type of window treatment is used in the scene?\n\nA. Roman shades\nB. Vertical blinds\nC. Curtains\nD. Roller shades\nE. None of the above",
+        "response": "1uiltringuiltringuiltringuiltringuiltringuiltringuiltringuiltringuiltringuiltringuiltringuiltringuiltringuiltringuiltringuiltringuiltring",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Cotton@137": {
+        "prompt": "What shape is the coffee table?\n\nA. Round\nB. Square\nC. Oval\nD. Rectangular\nE. None of the above",
+        "response": ". It's a 3D model.\n\nThe coffee table is rectangular in shape.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Cotton@78": {
+        "prompt": "What type of chair is positioned next to the sapling?\n\nA. Recliner\nB. Armchair\nC. Dining chair\nD. Rocking chair\nE. None of the above",
+        "response": ", it's a sapling.\n\nThe correct answer is E. It's a sapling, not a type of chair.\n\n3D model of a sapling on a rock.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Cotton@6": {
+        "prompt": "What type of transportation is used in the scene?\n\nA. Bicycle\nB. Car\nC. Skateboard\nD. Helicopter\nE. None of the above",
+        "response": "3D model of a bicycle in a grassy area.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Cotton@188": {
+        "prompt": "What is the height of the bookshelf in the scene?\n\nA. Six feet\nB. Three feet\nC. Eight feet\nD. Five feet\nE. None of the above",
+        "response": "The bookshelf in the scene is six feet high.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Cotton@79": {
+        "prompt": "What type of chair is placed beside the shrub?\n\nA. Recliner\nB. Armchair\nC. Bean bag\nD. Dining chair\nE. None of the above",
+        "response": "1cbuiliontringuiliontringuiliontringuiliontringuiliontringuiliontringuiliontringuiliontringuiliontringuiliontringuiliontringuiliontringuiliontringuiliontringuiliontringuilion",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Cotton@133": {
+        "prompt": "What is the size of the fountain in the park?\n\nA. Large\nB. Medium\nC. Small\nD. Extra large\nE. None of the above",
+        "response": "- the size isn't specified.\n\nThe size of the fountain isn't specified in the description.\n\n3D model of a fountain in a park.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Cotton@197": {
+        "prompt": "What type of furniture is located near the shrub?\n\nA. Coffee table\nB. Bookshelf\nC. Armchair\nD. Dining table\nE. None of the above",
+        "response": ".\n\nThe correct answer is E. None of the above. The specific type of furniture is not mentioned in the description.\n\n3D model of a shrub in a garden setting.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Cotton@176": {
+        "prompt": "What type of vehicle is parked in the scene?\n\nA. Sedan\nB. Motorcycle\nC. Van\nD. Coupe\nE. None of the above",
+        "response": ". It's a 3D model of a car parked in the scene.\n\n3D model of a car parked in the scene.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Cotton@160": {
+        "prompt": "What type of furniture is in the garden?\n\nA. Lounge Chair\nB. Dining Table\nC. Hammock\nD. Bench\nE. None of the above",
+        "response": ".\n\n3D model of a garden featuring a lounge chair, dining table, hammock, and bench.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Cotton@65": {
+        "prompt": "What type of sofa is featured in the scene?\n\nA. Leather Sofa\nB. Recliner Sofa\nC. Sectional Sofa\nD. Futon Sofa\nE. None of the above",
+        "response": ". It's a 3D model of a sofa.\n\nYes, it's a 3D model of a sofa. However, the specific type of sofa is not mentioned.\n\n3D model of a",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Cotton@100": {
+        "prompt": "What is the size of the fountain in the scene?\n\nA. Large enough for swimming\nB. Small enough to fit on a table\nC. Medium sized with a tiered structure\nD. Gigantic with multiple spouts\nE. None of the above",
+        "response": "The fountain in the scene is medium-sized with a tiered structure.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Cotton@19": {
+        "prompt": "What type of vehicle is parked nearby?\n\nA. Sports car\nB. Pickup truck\nC. Motorcycle\nD. Electric bicycle\nE. None of the above",
+        "response": "1cbuiliontringuiliontringuiliontringuiliontringuiliontringuiliontringuiliontringuiliontringuiliontringuiliontringuiliontringuiliontringuiliontringuiliontringuiliontringuilion",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Cotton@3": {
+        "prompt": "What is the height of the building in the scene?\n\nA. 20 feet\nB. 50 feet\nC. 100 feet\nD. 150 feet\nE. None of the above",
+        "response": ".\n\nThe building in the scene is 50 feet tall.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Cotton@75": {
+        "prompt": "What is the color of the birdhouse in the scene?\n\nA. Red\nB. Green\nC. Yellow\nD. Blue\nE. None of the above",
+        "response": "The birdhouse in the scene is green.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Cotton@145": {
+        "prompt": "What type of chair is included in the scene?\n\nA. Recliner\nB. Barstool\nC. Lounge chair\nD. Rocking chair\nE. None of the above",
+        "response": ".\n\n3D model of a rocking chair.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Cotton@168": {
+        "prompt": "What type of chair is featured in the scene?\n\nA. Recliner\nB. Barstool\nC. Armchair\nD. Dining chair\nE. None of the above",
+        "response": ", it's a 3D model of a chair.\n\nThe correct answer is E. None of the above, it's a 3D model of a chair.\n\n3D model of a chair.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Cotton@15": {
+        "prompt": "What type of fruit is hanging from the branch?\n\nA. Apples\nB. Oranges\nC. Bananas\nD. Grapes\nE. None of the above",
+        "response": "Answer: D. Grapes\n\nA 3D model of a tree branch with grapes hanging from it.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Cotton@122": {
+        "prompt": "What type of fruit grows on the tree?\n\nA. Apple\nB. Mango\nC. Banana\nD. Cherry\nE. None of the above",
+        "response": ".\n\nAnswer: A. Apple\n\n3D model of a tree with an apple.\n3D model of a tree with a mango.\n3D model of a tree with a banana.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Maize@1-111": {
+        "prompt": "What type of vehicle is parked nearby?\n\nA. Sedan\nB. Motorcycle\nC. SUV\nD. Van\nE. None of the above",
+        "response": ". It's a 3D model.\n\nThe 3D model doesn't specify the type of the parked vehicle. It could be any type of vehicle, such as a sedan, motorcycle, SUV, or van",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Maize@3-28": {
+        "prompt": "What is the shape of the table in the scene?\n\nA. Round\nB. Square\nC. Oval\nD. Rectangular\nE. None of the above",
+        "response": "The table in the scene is square-shaped.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Maize@2-34": {
+        "prompt": "What type of sculpture is displayed in the room?\n\nA. Abstract bronze sculpture\nB. Marble bust\nC. Wooden animal carving\nD. Glass crystal figure\nE. None of the above",
+        "response": ".\n\nThe 3D model displays an abstract bronze sculpture.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Maize@3-49": {
+        "prompt": "What type of fish is swimming in the aquarium?\n\nA. Goldfish\nB. Betta\nC. Guppy\nD. Catfish\nE. None of the above",
+        "response": ".\n\n3D model of a goldfish swimming in an aquarium.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Maize@2-70": {
+        "prompt": "What type of chair is placed beside the potted plant?\n\nA. Recliner\nB. Dining chair\nC. Rocking chair\nD. Office chair\nE. None of the above",
+        "response": "Answer:B. Dining chair\n\n3D model of a potted plant with a dining chair beside it.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Maize@3-55": {
+        "prompt": "What type of furniture is located in the scene?\n\nA. Recliner\nB. Dining table\nC. Bookshelf\nD. Coffee table\nE. None of the above",
+        "response": ". It's a 3D model of a chair.\n\nThe correct answer is E. It's a 3D model of a chair.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Maize@3-26": {
+        "prompt": "What type of artwork is displayed prominently in the scene?\n\nA. Landscape painting\nB. Abstract sculpture\nC. Oil portrait\nD. Ceramic vase\nE. None of the above",
+        "response": "Answer:A. Landscape painting\n\nA 3D model of a landscape painting is displayed prominently in the scene. The painting appears to depict a serene countryside scene with lush greenery and",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Maize@2-13": {
+        "prompt": "What type of book is laying on the table?\n\nA. Novel\nB. Cookbook\nC. Encyclopedia\nD. Magazine\nE. None of the above",
+        "response": ", it's a blank sheet of paper.\n\nIt's a blank sheet of paper.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Maize@3-21": {
+        "prompt": "What type of ceiling fan is installed in the room?\n\nA. Modern industrial fan\nB. Antique wood fan\nC. Wireless remote fan\nD. Outdoor ceiling fan\nE. None of the above",
+        "response": "Answer:B. Antique wood fan\n\n3D model of an antique wooden ceiling fan.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Maize@3-18": {
+        "prompt": "What type of furniture is used for seating in the scene?\n\nA. Armchair\nB. Recliner\nC. Bean bag\nD. Dining chair\nE. None of the above",
+        "response": ". It's a 3D model of a chair.\n\nThe correct answer is E. It's a 3D model of a chair.\n\nA 3D model of a chair is depicted in the scene.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Maize@2-109": {
+        "prompt": "What is the shape of the table in the scene?\n\nA. Round\nB. Square\nC. Rectangular\nD. Oval\nE. None of the above",
+        "response": "The table in the scene is square-shaped.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Maize@1-118": {
+        "prompt": "What type of furniture is included in the scene?\n\nA. Coffee table\nB. Bookshelf\nC. Armchair\nD. Sofa\nE. None of the above",
+        "response": "3D model of a coffee table with books on it.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Maize@3-42": {
+        "prompt": "What type of chair is situated next to the plant?\n\nA. Recliner\nB. Folding chair\nC. Rocking chair\nD. Armchair\nE. None of the above",
+        "response": ".\n\nAnswer: D. Armchair\n\nA 3D model of an armchair is situated next to the plant. The chair is upholstered in a vibrant shade of blue and appears to be",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Maize@1-24": {
+        "prompt": "What type of vehicle is parked in the scene?\n\nA. Sedan\nB. Bicycle\nC. Motorcycle\nD. Truck\nE. None of the above",
+        "response": ".\n\nThe 3D model depicts a parked sedan. Therefore, the correct answer is A. Sedan.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Maize@1-51": {
+        "prompt": "What type of fruit is visible in the scene?\n\nA. Apple\nB. Banana\nC. Orange\nD. Grape\nE. None of the above",
+        "response": ".\n\nAnswer: A. Apple\n\nA 3D model of a ripe, red apple is visible in the scene. The apple has a shiny, glossy surface, suggesting it's fresh and ripe. It",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Maize@1-68": {
+        "prompt": "What type of chair is in the scene?\n\nA. Recliner\nB. Dining chair\nC. Office chair\nD. Armchair\nE. None of the above",
+        "response": "Answer:D. Armchair\n\nA 3D model of an armchair.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Maize@2-101": {
+        "prompt": "What type of light fixture is hanging in the room?\n\nA. Chandelier\nB. Pendant light\nC. Ceiling fan\nD. Floor lamp\nE. None of the above",
+        "response": ".\n\n3D model of a chandelier hanging from the ceiling.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Maize@3-19": {
+        "prompt": "What type of artwork is displayed on the wall?\n\nA. Oil painting\nB. Watercolor\nC. Sculpture\nD. Mural\nE. None of the above",
+        "response": ".\n\nAnswer: A. Oil painting\n\nA 3D model of an oil painting is displayed on the wall. The painting depicts a serene countryside scene with lush greenery and a tranquil",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Maize@2-148": {
+        "prompt": "What is the height of the building in the scene?\n\nA. Ten stories\nB. Twenty feet\nC. Five meters\nD. A single floor\nE. None of the above",
+        "response": "The building in the scene is a ten-story high-rise building.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Maize@2-9": {
+        "prompt": "What style of chair is in the scene?\n\nA. Wingback Chair\nB. Dining Chair\nC. Recliner\nD. Bar Stool\nE. None of the above",
+        "response": ".\n\n3D model of a wooden chair.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Maize@2-122": {
+        "prompt": "What is the shape of the table in the scene?\n\nA. Round\nB. Square\nC. Oval\nD. Rectangular\nE. None of the above",
+        "response": "The table in the scene is square-shaped.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Maize@1-122": {
+        "prompt": "What type of chair is located next to the plant?\n\nA. Armchair\nB. Recliner\nC. Dining chair\nD. Office chair\nE. None of the above",
+        "response": "3D model of a chair next to a plant in a 3D model of a garden.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Maize@3-10": {
+        "prompt": "What type of sculpture is located next to the plant?\n\nA. Abstract statue\nB. Figurative bust\nC. Geometric form\nD. Animal figure\nE. None of the above",
+        "response": ".\n\nAnswer: B. Figurative bust of a man.\n\nThe 3D model depicts a vibrant green plant situated next to a figurative bust of a man. The bust is intric",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Maize@2-77": {
+        "prompt": "What is the size of the television in the room?\n\nA. 50 inches\nB. 32 inches\nC. 75 inches\nD. 40 inches\nE. None of the above",
+        "response": ".\n\nThe television in the room is 50 inches in size.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Maize@2-140": {
+        "prompt": "What type of sculpture is displayed in the scene?\n\nA. Abstract metal sculpture\nB. Marble bust\nC. Wooden totem\nD. Glass figurine\nE. None of the above",
+        "response": ".\n\nThe 3D model represents an abstract metal sculpture.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Maize@2-126": {
+        "prompt": "What shape is the table in the scene?\n\nA. Oval\nB. Square\nC. Rectangular\nD. Circular\nE. None of the above",
+        "response": "The table in the scene is rectangular in shape.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Maize@3-36": {
+        "prompt": "What is the size of the television in the living room?\n\nA. 32 inches\nB. 55 inches\nC. 75 inches\nD. 40 inches\nE. None of the above",
+        "response": ".\n\nThe television in the living room is 55 inches in size.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Maize@3-15": {
+        "prompt": "What type of sculpture is located in the scene?\n\nA. Marble bust\nB. Wooden figure\nC. Glass abstract\nD. Metal relief\nE. None of the above",
+        "response": "The sculpture in the scene is a marble bust.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Maize@3-60": {
+        "prompt": "What style is the painting on the wall?\n\nA. Abstract Expressionism\nB. Impressionism\nC. Cubism\nD. Surrealism\nE. None of the above",
+        "response": ", it's a cartoon-like style.\n\nThe painting on the wall is in a cartoon-like style.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Maize@2-17": {
+        "prompt": "What shape is the table in the scene?\n\nA. Square\nB. Rectangular\nC. Circular\nD. Oval\nE. None of the above",
+        "response": "The table in the scene is rectangular in shape.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Maize@2-32": {
+        "prompt": "What is the height of the ceiling in the room?\n\nA. 10 feet\nB. 12 feet\nC. 8 feet\nD. 15 feet\nE. None of the above",
+        "response": "The ceiling in the room is 12 feet high.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Maize@2-116": {
+        "prompt": "What type of artwork is displayed on the wall?\n\nA. Abstract painting\nB. Landscape photograph\nC. Portrait sketch\nD. Still life composition\nE. None of the above",
+        "response": "The 3D object model displays an abstract painting on the wall.\n\n3D model of an abstract painting on a wall.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Maize@1-120": {
+        "prompt": "What type of chair is found in the scene?\n\nA. Recliner\nB. Armchair\nC. Dining chair\nD. Folding chair\nE. None of the above",
+        "response": "Answer: B. Armchair\n\nA 3D model of an armchair is depicted in the scene. It is a type of chair with a high back and armrests, typically used for lounging",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Maize@3-40": {
+        "prompt": "What shape is the dining table in the scene?\n\nA. Round\nB. Rectangle\nC. Oval\nD. Square\nE. None of the above",
+        "response": "The dining table in the scene is rectangular in shape.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Maize@3-43": {
+        "prompt": "What is the height of the bookshelf in the room?\n\nA. Six feet\nB. Four feet\nC. Eight feet\nD. Five feet\nE. None of the above",
+        "response": "The bookshelf in the room is six feet high.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Maize@2-31": {
+        "prompt": "What type of fish is swimming in the scene?\n\nA. Goldfish\nB. Betta\nC. Neon Tetra\nD. Clownfish\nE. None of the above",
+        "response": ". It's a 3D model of a fish.\n\n3D model of a goldfish swimming in a bowl.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Maize@3-38": {
+        "prompt": "What type of sculpture is located next to the plant?\n\nA. Abstract figure\nB. Bust of a poet\nC. Animal statue\nD. Geometric shape\nE. None of the above",
+        "response": "Answer:B. Bust of a poet\n\nThe 3D model depicts a lush green plant situated next to a bust of a poet. The bust is intricately carved, showcasing the",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Maize@2-28": {
+        "prompt": "What type of animal is in the scene?\n\nA. Dog\nB. Cat\nC. Rabbit\nD. Parrot\nE. None of the above",
+        "response": ", it's a 3D model of a rock.\n\n3D model of a rock.\n3D model of a rock. It's a 3D model of a rock. It's a 3D model",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Maize@2-24": {
+        "prompt": "What type of sculpture is located next to the plant?\n\nA. Abstract\nB. Classical\nC. Modern\nD. Kinetic\nE. None of the above",
+        "response": "- it's a statue of a man.\n\nThe sculpture is a statue of a man standing next to the plant.\n\n3D model of a plant in a pot: A 3D model of a plant in a pot",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Maize@2-67": {
+        "prompt": "What is the shape of the window in the room?\n\nA. Circular\nB. Square\nC. Triangular\nD. Rectangular\nE. None of the above",
+        "response": "The shape of the window in the room is rectangular.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Maize@2-64": {
+        "prompt": "What is the shape of the window in the scene?\n\nA. Rectangular\nB. Triangular\nC. Oval\nD. Hexagonal\nE. None of the above",
+        "response": "The shape of the window in the scene is rectangular.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Maize@3-54": {
+        "prompt": "What shape is the sofa in the room?\n\nA. L-Shaped\nB. Circular\nC. Rectangular\nD. Triangular\nE. None of the above",
+        "response": "The sofa in the room is L-shaped.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Maize@2-66": {
+        "prompt": "What type of artwork is displayed in the scene?\n\nA. Abstract painting\nB. Landscape photograph\nC. Sculpture\nD. Portraiture\nE. None of the above",
+        "response": "3D model of an abstract painting on a wooden frame.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Maize@3-7": {
+        "prompt": "What type of artwork is displayed in the scene?\n\nA. Abstract painting\nB. Landscape photograph\nC. Ceramic sculpture\nD. Wall tapestry\nE. None of the above",
+        "response": ".\n\nThe 3D model depicts an abstract painting on a wall. Therefore, the correct answer is A. Abstract painting.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Maize@2-65": {
+        "prompt": "What type of furniture is featured in the scene?\n\nA. Coffee table\nB. Bookshelf\nC. Armchair\nD. Dining table\nE. None of the above",
+        "response": ". It's a 3D model of a house.\n\nThe correct answer is E. It's a 3D model of a house.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Maize@2-88": {
+        "prompt": "What type of window treatment is in the scene?\n\nA. Sheer curtains\nB. Venetian blinds\nC. Roller shades\nD. Drapes\nE. None of the above",
+        "response": "Answer:A. Sheer curtains\n\n3D model of a window with sheer curtains.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Maize@2-108": {
+        "prompt": "What type of fruit is commonly found on the table?\n\nA. Apples\nB. Bananas\nC. Grapes\nD. Oranges\nE. None of the above",
+        "response": ".\n\n3D model of an apple on a table.\n3D model of a banana on a table.\n3D model of a grape on a table.\n3D model of an orange on a table.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Maize@1-78": {
+        "prompt": "What material is the ceiling made of?\n\nA. Wood\nB. Metal\nC. Glass\nD. Fabric\nE. None of the above",
+        "response": ".\n\nThe ceiling is made of wood.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Maize@2-39": {
+        "prompt": "What type of window treatment is used in the scene?\n\nA. Sheer curtains\nB. Blinds\nC. Drapes\nD. Shades\nE. None of the above",
+        "response": ". It's an open window.\n\nThe 3D model depicts an open window with sheer curtains hanging on either side. The curtains appear to be made of a light, flowing fabric, suggesting",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Maize@2-50": {
+        "prompt": "What type of bird is perched on the plant?\n\nA. Sparrow\nB. Parrot\nC. Canarie\nD. Finch\nE. None of the above",
+        "response": ".\n\nAnswer: A. Sparrow\n\n3D model of a sparrow perched on a plant.\nA 3D model of a sparrow perched on a plant.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Maize@3-50": {
+        "prompt": "What type of artwork is displayed in the scene?\n\nA. Abstract painting\nB. Landscape photograph\nC. Sculpture\nD. Portrait painting\nE. None of the above",
+        "response": "3D model of an abstract painting on a wooden base.\n\n3D model of a landscape photograph on a wooden base.\n\n3D model of a sculpture on a wooden base.\n\n3D model of a portrait",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Maize@2-128": {
+        "prompt": "What animal can be seen sitting on the windowsill?\n\nA. Cat\nB. Dog\nC. Rabbit\nD. Parrot\nE. None of the above",
+        "response": ". It's a 3D model.\n\nThe 3D model depicts a cat sitting on the windowsill.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Maize@2-137": {
+        "prompt": "What type of artwork is displayed on the wall?\n\nA. Painting\nB. Sculpture\nC. Mural\nD. Tapestry\nE. None of the above",
+        "response": "- it's a 3D model of a cartoon character.\n\nThe 3D model displayed on the wall is a cartoon character. It's not a painting, sculpture, mural, or tapestry.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Maize@2-141": {
+        "prompt": "What type of window treatment is used in the room?\n\nA. Blinds\nB. Drapes\nC. Roman shades\nD. Shutters\nE. None of the above",
+        "response": ", it's an open window.\n\nThe 3D model depicts an open window. Therefore, the correct answer is E. None of the above, it's an open window.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Maize@2-29": {
+        "prompt": "What type of sculpture is located next to the window?\n\nA. Abstract marble\nB. Bronze figure\nC. Wooden totem\nD. Glass art\nE. None of the above",
+        "response": ".\n\nThe 3D object model depicts an abstract marble sculpture located next to a window. The marble sculpture, with its intricate design and polished finish, adds a touch of elegance and sophistic",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Maize@1-60": {
+        "prompt": "What shape is the table in the scene?\n\nA. Round\nB. Square\nC. Oval\nD. Rectangular\nE. None of the above",
+        "response": "The table in the scene is square-shaped.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Maize@1-22": {
+        "prompt": "What is the height of the bookshelf in the room?\n\nA. Five feet\nB. Six and a half feet\nC. Four feet\nD. Eight feet\nE. None of the above",
+        "response": "The height of the bookshelf in the room is six and a half feet.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Maize@2-33": {
+        "prompt": "What type of fruit is displayed on the table?\n\nA. Apples\nB. Oranges\nC. Bananas\nD. Grapes\nE. None of the above",
+        "response": ".\n\n3D model of a bowl of fruit on a table.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Maize@3-27": {
+        "prompt": "What type of fabric is used for the curtains?\n\nA. Silk\nB. Cotton\nC. Velvet\nD. Linen\nE. None of the above",
+        "response": ".\n\nAnswer: E. None of the above. The fabric type of the curtains isn't specified in the description.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Maize@3-37": {
+        "prompt": "What type of decoration is placed on the wall?\n\nA. A Painting\nB. A Clock\nC. A Mirror\nD. A Tapestry\nE. None of the above",
+        "response": "\"None of the above\" is the correct answer. The type of decoration on the wall is not specified in the description.\n3D model of a wall featuring a painting, clock, mirror, and tapestry.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Maize@1-113": {
+        "prompt": "What color are the stairs in the scene?\n\nA. Blue\nB. Yellow\nC. Gray\nD. Red\nE. None of the above",
+        "response": "The stairs in the scene are yellow.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Maize@2-11": {
+        "prompt": "What type of fruit is hanging from the ceiling?\n\nA. Apples\nB. Bananas\nC. Oranges\nD. Grapes\nE. None of the above",
+        "response": "Answer: B. Bananas\n\nA 3D model of a banana hanging from the ceiling.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Maize@1-50": {
+        "prompt": "What type of furniture is placed next to the maize plant?\n\nA. Sofa\nB. Coffee table\nC. Bookshelf\nD. Chair\nE. None of the above",
+        "response": ".\n\nThe correct answer is E. None of the above. There's no specific furniture mentioned next to the maize plant.\n\n3D model of a maize plant in a pot.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Maize@1-123": {
+        "prompt": "What type of fruit can be found in the scene?\n\nA. Banana\nB. Apple\nC. Orange\nD. Grape\nE. None of the above",
+        "response": ".\n\n3D model of a banana on a cutting board.\n3D model of a banana on a wooden cutting board.\n3D model of a banana on a wooden cutting board with a knife.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Maize@2-21": {
+        "prompt": "What type of chair is located next to the plant?\n\nA. Armchair\nB. Folding chair\nC. Recliner\nD. Stool\nE. None of the above",
+        "response": "3D model of a chair next to a plant.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Maize@2-107": {
+        "prompt": "What type of painting is hanging on the wall?\n\nA. Abstract\nB. Landscape\nC. Portrait\nD. Still Life\nE. None of the above",
+        "response": ".\n\nThe painting hanging on the wall is a landscape painting.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Maize@2-114": {
+        "prompt": "What type of building is situated adjacent to the sapling?\n\nA. A Library\nB. A Barn\nC. A Supermarket\nD. A Theater\nE. None of the above",
+        "response": ", it's an open space.\n\n3D model of a sapling in a grassy area.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Maize@1-106": {
+        "prompt": "What type of car is parked nearby?\n\nA. Sedan\nB. Coupe\nC. SUV\nD. Convertible\nE. None of the above",
+        "response": ". It's a motorcycle.\n\nThe 3D model depicts a motorcycle parked nearby the car.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Potato@5-19-P281-2-a": {
+        "prompt": "What shape is the ceiling in the room?\n\nA. Curve\nB. Square\nC. Triangle\nD. Dome\nE. None of the above",
+        "response": ".\n\nThe ceiling in the room is dome-shaped.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Potato@5-21-P104-3-a": {
+        "prompt": "What is the size of the bookshelf in the scene?\n\nA. Tall and narrow\nB. Short and wide\nC. Medium height with three shelves\nD. An elongated design with curved edges\nE. None of the above",
+        "response": ".\n\nThe bookshelf in the scene is medium height with three shelves.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Potato@5-11-P255-3-a": {
+        "prompt": "What is the height of the ceiling in the room?\n\nA. 10 feet\nB. 12 feet\nC. 8 feet\nD. 14 feet\nE. None of the above",
+        "response": ".\n\nThe correct answer is B. The ceiling in the room is 12 feet high.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Potato@5-14-P117-3-a": {
+        "prompt": "What is the primary color of the painting?\n\nA. Blue\nB. Yellow\nC. Red\nD. Green\nE. None of the above",
+        "response": "The primary color of the painting is yellow.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Potato@5-13-P015-2-a": {
+        "prompt": "What shape is the table in the scene?\n\nA. Round\nB. Square\nC. Triangular\nD. Oval\nE. None of the above",
+        "response": "The table in the scene is square-shaped.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Potato@5-23-P999-7-a": {
+        "prompt": "What type of chair is located beside the plant?\n\nA. Office chair\nB. Recliner\nC. Dining chair\nD. Rocking chair\nE. None of the above",
+        "response": ".\n\n3D model of a plant in a pot\n3D model of a plant in a bowl\n3D model of a plant in a vase\n3D model of a plant in a planter box\n3D model",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Potato@5-20-P043-1-a": {
+        "prompt": "What kind of chair is located next to the plant?\n\nA. Recliner\nB. Bean bag\nC. Dining chair\nD. Office chair\nE. None of the above",
+        "response": "3D model of a plant in a pot\n3D model of a plant in a bowl\n3D model of a plant in a vase\n3D model of a plant in a planter box\n3D model of",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Potato@5-11-P279-3-a": {
+        "prompt": "What is the purpose of the staircase?\n\nA. To provide access to the rooftop\nB. To connect the basement to the main floor\nC. To enhance the architectural design\nD. To serve as an emergency exit\nE. None of the above",
+        "response": ".\n\n3D model of a stone staircase with railings.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Potato@5-21-P104-4-a": {
+        "prompt": "What material is the table made of?\n\nA. Mahogany\nB. Glass\nC. Steel\nD. Plastic\nE. None of the above",
+        "response": ".\n\nThe table is made of mahogany.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Potato@5-20-P060-3-a": {
+        "prompt": "What type of furniture is positioned beside the window?\n\nA. Armchair\nB. Coffee table\nC. Bookshelf\nD. Sofa\nE. None of the above",
+        "response": "The correct answer is B. Coffee table.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Potato@5-11-P290-3-a": {
+        "prompt": "What style is the painting hanging above the sofa?\n\nA. Abstract Expressionism\nB. Impressionism\nC. Cubism\nD. Surrealism\nE. None of the above",
+        "response": ", it's a cartoon style.\n\nThe painting hanging above the sofa is in a cartoon style.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Potato@5-23-P999-2-a": {
+        "prompt": "What type of sculpture is prominently featured in the room?\n\nA. Abstract Figure\nB. Classical Bust\nC. Modernist Wall Piece\nD. Geometric Tangle\nE. None of the above",
+        "response": ". It's a 3D model of a room.\n\nThe correct answer is E. It's a 3D model of a room.\n\nA 3D model of a room featuring an abstract figure, a classical",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Potato@5-11-P281-1-a": {
+        "prompt": "What is the height of the statue in the garden?\n\nA. Three feet\nB. Six feet\nC. Ten feet\nD. Twelve feet\nE. None of the above",
+        "response": "The statue in the garden is six feet tall.\n\n3D model of a statue in a garden.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Potato@5-23-P997-1-a": {
+        "prompt": "What type of furniture piece is featured in the scene?\n\nA. The Coffee Table\nB. The Bookshelf\nC. The Recliner\nD. The Dining Chair\nE. None of the above",
+        "response": "The Coffee Table is featured in the scene.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Potato@5-14-P112-1-a": {
+        "prompt": "What style of furniture is featured in the room?\n\nA. Vintage\nB. Modern\nC. Industrial\nD. Rustic\nE. None of the above",
+        "response": ".\n\nThe style of the furniture in the room is vintage.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Potato@5-13-P046-3-a": {
+        "prompt": "What shape is the table in the scene?\n\nA. Round\nB. Square\nC. Rectangular\nD. Oval\nE. None of the above",
+        "response": "The table in the scene is square-shaped.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Potato@5-21-P104-2-a": {
+        "prompt": "What type of bridge is found in the scene?\n\nA. Suspension bridge\nB. Arch bridge\nC. Beam bridge\nD. Cable-stayed bridge\nE. None of the above",
+        "response": ".\n\nThe correct answer is A. Suspension bridge.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Potato@5-11-P104-2-a": {
+        "prompt": "What type of lighting fixture is used in the scene?\n\nA. Chandelier\nB. Floor lamp\nC. Ceiling fan light\nD. Wall sconce\nE. None of the above",
+        "response": "\"None of the above\" is the correct answer. The lighting fixture in the scene is a chandelier.\n\n3D model of a chandelier hanging from the ceiling.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Potato@5-23-P997-2-a": {
+        "prompt": "What shape is the fountain in the garden?\n\nA. Circular\nB. Square\nC. Triangular\nD. Oval\nE. None of the above",
+        "response": "The fountain in the garden is circular.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Potato@5-23-P998-9-a": {
+        "prompt": "What type of vehicle can be seen parked in the scene?\n\nA. Sports car\nB. Pickup truck\nC. Electric scooter\nD. Bicycle\nE. None of the above",
+        "response": "\"None of the above\" is the correct answer. The specific type of vehicle is not mentioned in the description.\n3D model of a car parked on a street.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Potato@5-20-P002-2-a": {
+        "prompt": "What type of furniture is used for relaxation in the scene?\n\nA. Recliner\nB. Coffee table\nC. Bookshelf\nD. Armchair\nE. None of the above",
+        "response": ".\n\nThe correct answer is A. Recliner.\n\nA recliner is a type of furniture used for relaxation, typically found in living rooms or lounges. It's designed for comfort and relaxation",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Potato@5-13-P098-1-a": {
+        "prompt": "What type of car is parked outside?\n\nA. Sedan\nB. SUV\nC. Coupe\nD. Convertible\nE. None of the above",
+        "response": "- it's a truck.\n\nThe car parked outside is a truck.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Potato@5-21-P142-1-a": {
+        "prompt": "What type of sculpture is featured nearby?\n\nA. Marble bust\nB. Wooden abstract\nC. Metal figure\nD. Stone relief\nE. None of the above",
+        "response": "The 3D object model is a marble bust of a man. The bust is intricately carved, showcasing the artist's skill and attention to detail. The marble, known for its durability",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Potato@5-19-P279-1-a": {
+        "prompt": "What type of sculpture is displayed in the scene?\n\nA. Abstract Metal\nB. Marble Bust\nC. Ceramic Figure\nD. Stone Relief\nE. None of the above",
+        "response": ". It's a 3D model of a rock.\n\nThe 3D object displayed in the scene is a 3D model of a rock. It's not a sculpture, but rather a digital representation of a natural",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Potato@5-14-P113-3-a": {
+        "prompt": "What shape is the table in the scene?\n\nA. Round\nB. Rectangle\nC. Square\nD. Oval\nE. None of the above",
+        "response": "The table in the scene is rectangular in shape.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Potato@5-11-P281-2-a": {
+        "prompt": "What shape is the table in the room?\n\nA. Round\nB. Rectangular\nC. Oval\nD. Square\nE. None of the above",
+        "response": ".\n\nThe table in the room is rectangular in shape.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Potato@5-11-P285-2-a": {
+        "prompt": "What type of sculpture is displayed nearby?\n\nA. Abstract figure\nB. Classical bust\nC. Modern animal\nD. Geometric shape\nE. None of the above",
+        "response": ".\n\nThe 3D model displayed nearby is an abstract figure.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Potato@5-20-P045-3-a": {
+        "prompt": "What type of furniture piece complements the narrow plant in the scene?\n\nA. Coffee table\nB. Recliner\nC. Bookshelf\nD. Side table\nE. None of the above",
+        "response": ".\n\nThe correct answer is D. Side table. The side table complements the narrow plant in the scene.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Potato@5-23-P998-7-a": {
+        "prompt": "What type of fruit is being harvested?\n\nA. Mango\nB. Apple\nC. Banana\nD. Cherry\nE. None of the above",
+        "response": ".\n\nThe 3D model represents a ripe mango being harvested.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Potato@5-13-P002-2-a": {
+        "prompt": "What type of chair is included in the scene?\n\nA. Recliner\nB. Dining chair\nC. Bean bag\nD. Office chair\nE. None of the above",
+        "response": "- it's a 3D model of a chair.\n\nThe correct answer is E. None of the above - it's a 3D model of a chair.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Potato@5-20-P015-2-a": {
+        "prompt": "What type of painting hangs above the fireplace?\n\nA. Abstract\nB. Landscape\nC. Portrait\nD. Still life\nE. None of the above",
+        "response": "The painting hanging above the fireplace is a landscape.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Potato@5-11-P294-3-a": {
+        "prompt": "What is the shape of the window in the scene?\n\nA. Circular\nB. Triangular\nC. Square\nD. Hexagonal\nE. None of the above",
+        "response": "The window in the scene is square-shaped.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Potato@5-13-P068-3-a": {
+        "prompt": "What type of fruit is located on the table?\n\nA. Apple\nB. Banana\nC. Orange\nD. Grape\nE. None of the above",
+        "response": ".\n\n3D model of an apple on a table.\n3D model of a banana on a table. 3D model of an orange on a table. 3D model of a grape on a table. 3",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Potato@5-19-P281-1-a": {
+        "prompt": "What is the height of the building?\n\nA. Five stories\nB. Three stories\nC. Ten stories\nD. Two stories\nE. None of the above",
+        "response": "The building is three stories high.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Potato@5-20-P149-3-a": {
+        "prompt": "What type of window treatment is featured in the scene?\n\nA. Roller blinds\nB. Sheer curtains\nC. Venetian blinds\nD. Plantation shutters\nE. None of the above",
+        "response": ".\n\nThe correct answer is E. None of the above. The specific type of window treatment isn't mentioned in the description.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Potato@5-13-P043-2-a": {
+        "prompt": "What type of furniture is located in the scene?\n\nA. Sofa\nB. Coffee table\nC. Bookshelf\nD. Dining chair\nE. None of the above",
+        "response": ". It's a 3D model of a rock.\n\nThe correct answer is E. It's a 3D model of a rock.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Rapeseed@29": {
+        "prompt": "What type of chair is featured in the scene?\n\nA. Recliner\nB. Armchair\nC. Dining chair\nD. Rocking chair\nE. None of the above",
+        "response": "- it's a 3D model of a rock.\n\nThe correct answer is E. It's a 3D model of a rock.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Rapeseed@115": {
+        "prompt": "What type of ceiling fan is in the room?\n\nA. Modern chrome fan\nB. Rustic wooden fan\nC. Vintage brass fan\nD. Industrial metal fan\nE. None of the above",
+        "response": ".\n\nThe 3D model doesn't provide specific details about the type of ceiling fan in the room. Therefore, the answer could be any of the options A, B, C, or D depending on the specifics of the",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Rapeseed@70": {
+        "prompt": "What type of ceiling fan is installed in the room?\n\nA. Industrial style\nB. Classic wooden\nC. Modern minimalist\nD. Vintage brass\nE. None of the above",
+        "response": ". It's a 3D model.\n\nThe 3D model doesn't provide specific details about the type of ceiling fan installed in the room.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Rapeseed@33": {
+        "prompt": "What type of lighting is used in the scene?\n\nA. Fluorescent\nB. Soft ambient\nC. Spotlight\nD. Natural daylight\nE. None of the above",
+        "response": "The correct answer is B. Soft ambient lighting is used in the scene.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Rapeseed@31": {
+        "prompt": "What type of carpet is used in the room?\n\nA. Persian\nB. Berber\nC. Shag\nD. Sisal\nE. None of the above",
+        "response": ". It's a 3D model.\n\nThe 3D model doesn't specify the type of carpet used in the room. It only mentions that there is a carpet in the room. The type of carpet could",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Rapeseed@129": {
+        "prompt": "What is the color of the chandelier?\n\nA. Gold\nB. Silver\nC. Crystal\nD. Bronze\nE. None of the above",
+        "response": ".\n\nThe color of the chandelier is not specified in the description.\n\n3D model of a chandelier hanging from the ceiling.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Rapeseed@20": {
+        "prompt": "What type of window treatment is used in the scene?\n\nA. Sheer curtains\nB. Wooden blinds\nC. Roman shades\nD. Roller shades\nE. None of the above",
+        "response": ".\n\nAnswer:A. Sheer curtains are used in the scene.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Rapeseed@91": {
+        "prompt": "What type of lighting is used in the scene?\n\nA. Track lighting\nB. Floor lamp\nC. Chandelier\nD. Recessed lights\nE. None of the above",
+        "response": "\"None of the above\" is the correct answer as the lighting in the scene is provided by a chandelier.\n3D model of a chandelier hanging from the ceiling.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Rapeseed@24": {
+        "prompt": "What type of window treatment is used in the room?\n\nA. Roller shades\nB. Horizontal blinds\nC. Sheer curtains\nD. Drapes\nE. None of the above",
+        "response": ".\n\nThe correct answer is B. Horizontal blinds.\n\nThe 3D model depicts a room with horizontal blinds on the windows. These blinds can be adjusted to control the amount of light entering the room",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Rapeseed@37": {
+        "prompt": "What style is the chair in the scene?\n\nA. Victorian\nB. Modernist\nC. Mid-century\nD. Rustic\nE. None of the above",
+        "response": ". It's a cartoon-style chair.\n\nThe chair in the scene is a cartoon-style chair. This means it's designed in a playful, exaggerated, and non-realistic manner, which is",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Rapeseed@63": {
+        "prompt": "What type of lighting fixture is used in the room?\n\nA. Chandelier\nB. Pendant light\nC. Floor lamp\nD. Wall sconces\nE. None of the above",
+        "response": ".\n\n3D model of a chandelier hanging from the ceiling.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Rapeseed@11": {
+        "prompt": "What type of vase is located on the table?\n\nA. Glass vase\nB. Ceramic vase\nC. Metal vase\nD. Wooden vase\nE. None of the above",
+        "response": ".\n\n3D model of a glass vase on a table.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Rapeseed@135": {
+        "prompt": "What type of light fixture is hanging above the scene?\n\nA. Chandelier\nB. Pendant light\nC. Ceiling fan\nD. Wall sconce\nE. None of the above",
+        "response": "\"None of the above\" is the correct answer as the light fixture is not specified in the description.\n3D model of a 3D model of a 3D model of a chandelier.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Rapeseed@107": {
+        "prompt": "What shape is the bookshelf in the room?\n\nA. Circular\nB. Triangular\nC. Hexagonal\nD. Rectangular\nE. None of the above",
+        "response": "The bookshelf in the room is rectangular in shape.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Rapeseed@116": {
+        "prompt": "What type of furniture is in the room?\n\nA. Sofa\nB. Dining table\nC. Recliner\nD. Bookshelf\nE. None of the above",
+        "response": ". It's a 3D model of a room.\n\nThe correct answer is E. It's a 3D model of a room.\n\n3D model of a room featuring a sofa, dining table,",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Rapeseed@169": {
+        "prompt": "What type of window treatment is installed in the room?\n\nA. Sheer curtains\nB. Roman shades\nC. Drapery panels\nD. Blinds\nE. None of the above",
+        "response": ".\n\nThe correct answer is C. Drapery panels. The description mentions 'drapery panels' as the window treatment in the room.\n\n3D model of a room featuring a window with drapery panels",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Rapeseed@58": {
+        "prompt": "What shape is the table in the room?\n\nA. Rectangular\nB. Circular\nC. Oval\nD. Square\nE. None of the above",
+        "response": ".\n\nThe table in the room is rectangular.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Rapeseed@25": {
+        "prompt": "What is the height of the ceiling in the room?\n\nA. 10 feet\nB. 12 feet\nC. 8 feet\nD. 15 feet\nE. None of the above",
+        "response": ".\n\nThe correct answer is B. The ceiling in the room is 12 feet high.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Rapeseed@168": {
+        "prompt": "What type of chair is included in the scene?\n\nA. Lounge chair\nB. Recliner\nC. Office chair\nD. Dining chair\nE. None of the above",
+        "response": ", it's a 3D model of a chair.\n\nThe correct answer is E. None of the above, it's a 3D model of a chair.\n\n3D model of a chair.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Rapeseed@83": {
+        "prompt": "What type of animal can be found in the scene?\n\nA. Cat\nB. Dog\nC. Rabbit\nD. Parrot\nE. None of the above",
+        "response": ", it's a 3D model of a tree.\n\nThe correct answer is E. None of the above, it's a 3D model of a tree.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Rapeseed@127": {
+        "prompt": "What type of bookshelf is featured in the scene?\n\nA. Floating bookshelf\nB. Corner bookshelf\nC. Adjustable bookshelf\nD. Hexagonal bookshelf\nE. None of the above",
+        "response": "\"A 3D model of a floating bookshelf.\"\n\"A 3D model of a corner bookshelf.\"\n\"A 3D model of an adjustable bookshelf.\"\n\"A 3D model",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Rapeseed@79": {
+        "prompt": "What type of chair is featured in the scene?\n\nA. Recliner\nB. Dining chair\nC. Office chair\nD. Lounge chair\nE. None of the above",
+        "response": ".\n\nAnswer:D. Lounge chair\n\nA lounge chair is featured in the scene. This type of chair is typically used for relaxation and leisure activities.\n\n3D model of a lounge",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Rapeseed@122": {
+        "prompt": "What type of lighting fixture is used in the room?\n\nA. Pendant light\nB. Floor lamp\nC. Chandeliers\nD. Wall sconce\nE. None of the above",
+        "response": "\"None of the above\" is the correct answer because the type of lighting fixture is not specified in the description.\n3D model of a room featuring a pendant light, floor lamp, chandeliers, and wall scon",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Rapeseed@8": {
+        "prompt": "What type of chair is in the scene?\n\nA. Recliner\nB. Bar stool\nC. bean bag\nD. Armchair\nE. None of the above",
+        "response": "- it's a 3D model of an empty chair.\n\nThe correct answer is E. It's a 3D model of an empty chair.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Rapeseed@82": {
+        "prompt": "What type of furniture is in this scene?\n\nA. Sofa\nB. Coffee table\nC. Bookshelf\nD. Recliner\nE. None of the above",
+        "response": "; it's a 3D model of a tree stump.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Rapeseed@95": {
+        "prompt": "What type of furniture is in the corner of the room?\n\nA. Armchair\nB. Coffee table\nC. Bookshelf\nD. Dining table\nE. None of the above",
+        "response": ". It's an empty corner.\n\n3D model of an armchair in a corner of a room.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Rapeseed@61": {
+        "prompt": "What type of fruit is hanging from the ceiling?\n\nA. Apple\nB. Banana\nC. Orange\nD. Grapes\nE. None of the above",
+        "response": "3D model of a fruit hanging from the ceiling is not specified.\n\n3D model of a fruit hanging from the ceiling is not specified.\n\n3D model of a fruit hanging from the ceiling",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Rapeseed@93": {
+        "prompt": "What color is the chair?\n\nA. Blue\nB. Yellow\nC. Green\nD. Red\nE. None of the above",
+        "response": "\"None of the above\" is the correct answer because the color of the chair isn't specified in the description.\n3D model of a chair",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Rapeseed@147": {
+        "prompt": "What shape is the table in the scene?\n\nA. Rectangular\nB. Oval\nC. Square\nD. Triangular\nE. None of the above",
+        "response": "The table in the scene is rectangular in shape.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Rapeseed@128": {
+        "prompt": "What type of gemstone is found in the scene?\n\nA. Sapphire\nB. Emerald\nC. Ruby\nD. Diamond\nE. None of the above",
+        "response": ".\n\nAnswer: A. Sapphire\n\n3D model of a sapphire gemstone.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Rapeseed@119": {
+        "prompt": "What type of painting is displayed on the wall?\n\nA. Abstract\nB. Landscape\nC. Portrait\nD. Still life\nE. None of the above",
+        "response": ". It's a 3D model.\n\nThe painting displayed on the wall is a 3D model. It's not specified what type of painting it is.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Rapeseed@112": {
+        "prompt": "What type of artwork hangs above the furniture?\n\nA. Abstract painting\nB. Landscape portrait\nC. Still life composition\nD. Portrait of a family\nE. None of the above",
+        "response": ".\n\nThe 3D model depicts an abstract painting hanging above the furniture.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Rapeseed@21": {
+        "prompt": "What type of ceiling fan is being used in the scene?\n\nA. Industrial style\nB. Rustic wood\nC. Modern sleek\nD. Vintage brass\nE. None of the above",
+        "response": ".\n\n3D model of a ceiling fan.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Rapeseed@109": {
+        "prompt": "What type of mural is painted on the wall?\n\nA. Landscape\nB. Abstract\nC. Portrait\nD. Geometric\nE. None of the above",
+        "response": ". It's a 3D model.\n\nThe 3D model on the wall is a landscape.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Rapeseed@142": {
+        "prompt": "What type of rug is under the potted plant?\n\nA. Persian\nB. Shag\nC. Jute\nD. Wool\nE. None of the above",
+        "response": ".\n\nThe rug under the potted plant is a Persian rug.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Rapeseed@96": {
+        "prompt": "What type of ceiling fan is installed in the room?\n\nA. Modern flush mount\nB. Vintage chandelier\nC. Industrial style\nD. Rustic wooden\nE. None of the above",
+        "response": ". It's a 3D model of a ceiling fan.\n\n3D model of a modern flush-mounted ceiling fan.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Rapeseed@161": {
+        "prompt": "What is the height of the bookshelf in the scene?\n\nA. Five feet\nB. Three feet\nC. Seven feet\nD. Two feet\nE. None of the above",
+        "response": "The bookshelf in the scene is three feet high.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Rapeseed@123": {
+        "prompt": "What type of lamp is placed on the table?\n\nA. Table lamp\nB. Floor lamp\nC. Pendant lamp\nD. Wall lamp\nE. None of the above",
+        "response": ".\n\n3D model of a table lamp.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Rapeseed@102": {
+        "prompt": "What shape is the table in the scene?\n\nA. Rectangle\nB. Oval\nC. Triangle\nD. Square\nE. None of the above",
+        "response": "The table in the scene is rectangular in shape.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Rapeseed@13": {
+        "prompt": "What is the height of the bookshelf?\n\nA. Five feet\nB. Six feet\nC. Seven feet\nD. Eight feet\nE. None of the above",
+        "response": "The bookshelf is six feet high.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Rapeseed@92": {
+        "prompt": "What is the size of the coffee table in the scene?\n\nA. Small\nB. Medium\nC. Large\nD. Extra Large\nE. None of the above",
+        "response": "The coffee table is described as 'large', so the correct answer is C. Large.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Rapeseed@40": {
+        "prompt": "What style of chair is placed next to the plant?\n\nA. Armchair\nB. Recliner\nC. Dining chair\nD. Bar stool\nE. None of the above",
+        "response": "3D model of a chair next to a plant.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Rapeseed@41": {
+        "prompt": "What type of chair is included in the scene?\n\nA. Recliner\nB. Dining chair\nC. Bar stool\nD. Rocking chair\nE. None of the above",
+        "response": "- it's a 3D model of a rock.\n\nThe correct answer is E. It's a 3D model of a rock.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Rapeseed@113": {
+        "prompt": "What type of light fixture is in the scene?\n\nA. Chandelier\nB. Pendant light\nC. Floor lamp\nD. Wall sconce\nE. None of the above",
+        "response": "\"None of the above\" is the correct answer as the light fixture in the scene is not specified.\n3D model of a 3D model of a 3D model of a chandelier.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Rapeseed@108": {
+        "prompt": "What shape is the dining table?\n\nA. Round\nB. Square\nC. Rectangular\nD. Oval\nE. None of the above",
+        "response": "\"None of the above\" is the correct answer. The dining table is rectangular in shape.\n3D model of a rectangular dining table.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Rice@77": {
+        "prompt": "What type of vehicle is parked outside?\n\nA. Sedan\nB. Convertible\nC. SUV\nD. Hatchback\nE. None of the above",
+        "response": "- it's a truck.\n\nThe 3D model is of a truck parked outside.\n\n3D model of a truck parked outside.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Rice@1": {
+        "prompt": "What shape is the table in the scene?\n\nA. Round\nB. Square\nC. Oval\nD. Rectangular\nE. None of the above",
+        "response": "The table in the scene is square-shaped.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Rice@62": {
+        "prompt": "What type of mirror is hanging in the room?\n\nA. Convex mirror\nB. Infinity mirror\nC. Antique mirror\nD. Smart mirror\nE. None of the above",
+        "response": ". It's a 3D model of a mirror.\n\nThe correct answer is E. It's a 3D model of a mirror.\n\nA 3D model of a mirror is hanging in the room.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Rice@3": {
+        "prompt": "What type of painting is hanging on the wall?\n\nA. Landscape\nB. Abstract\nC. Portrait\nD. Still Life\nE. None of the above",
+        "response": ".\n\nThe painting hanging on the wall is a landscape.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Rice@20": {
+        "prompt": "What type of vehicle is parked nearby?\n\nA. Sedan\nB. Bicycle\nC. Convertible\nD. Minivan\nE. None of the above",
+        "response": ". It's a 3D model of a car parked nearby.\n\nA 3D model of a car is parked nearby. It's not specified what type of car it is.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Rice@74": {
+        "prompt": "What is the height of the bookshelf in the scene?\n\nA. Six feet\nB. Four feet\nC. Eight feet\nD. Ten feet\nE. None of the above",
+        "response": "The bookshelf in the scene is six feet high.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Rice@19": {
+        "prompt": "What color is the sofa in the scene?\n\nA. Red\nB. Gray\nC. Green\nD. Yellow\nE. None of the above",
+        "response": "The sofa in the scene is gray.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Rice@26": {
+        "prompt": "What type of furniture is in the scene?\n\nA. Dining table\nB. Sofa\nC. Armchair\nD. Coffee table\nE. None of the above",
+        "response": "The correct answer is A. Dining table.\n\n3D model of a dining table.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Rice@13": {
+        "prompt": "What type of furniture is located in the room?\n\nA. Sofa\nB. Coffee table\nC. Bookshelf\nD. Dining chair\nE. None of the above",
+        "response": ", it's an empty room.\n\nThe correct answer is E. None of the above, it's an empty room.\n\n3D model of an empty room.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Rice@7": {
+        "prompt": "What type of furniture is located in the scene?\n\nA. Armchair\nB. Coffee table\nC. Bookshelf\nD. Dining set\nE. None of the above",
+        "response": "1uilpodpodpodpodpodpodpodpodpodpodpodpodpodpodpodpodpodpodpodpodpodpodpodpodpodpodpodpodpodpodpodpodpodpodpodpodpodpodpodpodpodpodpodpodpodpodpod",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Rice@46": {
+        "prompt": "What is the size of the television in the room?\n\nA. 32 inches\nB. 50 inches\nC. 65 inches\nD. 75 inches\nE. None of the above",
+        "response": ".\n\nThe television in the room is 50 inches in size.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Rice@52": {
+        "prompt": "What is the shape of the table in the scene?\n\nA. Round\nB. Square\nC. Rectangular\nD. Oval\nE. None of the above",
+        "response": "The table in the scene is square-shaped.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Rice@41": {
+        "prompt": "What type of chair is positioned next to the potted plant?\n\nA. Armchair\nB. Dining chair\nC. Bean bag chair\nD. Recliner\nE. None of the above",
+        "response": ".\n\n3D model of a potted plant on a wooden table\n3D model of a potted plant on a brick wall\n3D model of a potted plant on a stone wall\n3D model of a potted plant",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Rice@84": {
+        "prompt": "What type of vehicle is parked outside?\n\nA. Sedan\nB. Motorcycle\nC. SUV\nD. Coupe\nE. None of the above",
+        "response": "- it's a 3D model of a car parked outside.\n\n3D model of a car parked outside.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Rice@6": {
+        "prompt": "What is the texture of the ceiling in the room?\n\nA. Smooth\nB. Textured\nC. Rough\nD. Grainy\nE. None of the above",
+        "response": ".\n\nThe ceiling in the room is textured.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Rice@59": {
+        "prompt": "What animal is hiding behind the plant?\n\nA. Cat\nB. Dog\nC. Rabbit\nD. Bird\nE. None of the above",
+        "response": ".\n\nAnswer: A. Cat\n\n3D model of a cat hiding behind a plant.\n3D model of a cat hiding behind a tree.\n3D model of a cat hiding behind a rock.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Rice@4": {
+        "prompt": "What material is the table made of?\n\nA. Glass\nB. Wood\nC. Metal\nD. Plastic\nE. None of the above",
+        "response": "The table is made of wood.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Rice@8": {
+        "prompt": "What type of animal is seen next to the plant?\n\nA. Elephant\nB. Giraffe\nC. Parrot\nD. Lion\nE. None of the above",
+        "response": ".\n\nThe correct answer is E. None of the above. The type of animal is not specified in the description.\n\n3D model of a plant in a pot.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Rice@48": {
+        "prompt": "What is the primary color of the bicycle?\n\nA. Red\nB. Blue\nC. Green\nD. Yellow\nE. None of the above",
+        "response": ".\n\nThe primary color of the bicycle is blue.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Rice@54": {
+        "prompt": "What kind of carpet is under the plant?\n\nA. Shaggy\nB. Wool\nC. Polyester\nD. Sisal\nE. None of the above",
+        "response": ".\n\nThe carpet under the plant is shaggy.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Rice@2": {
+        "prompt": "What type of sculpture is featured in the scene?\n\nA. Abstract\nB. Figurative\nC. Kinetic\nD. Relief\nE. None of the above",
+        "response": "The 3D model features an abstract sculpture.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Rice@37": {
+        "prompt": "What material is the chair made of?\n\nA. Wood\nB. Plastic\nC. Metal\nD. Fabric\nE. None of the above",
+        "response": ".\n\nThe chair is made of wood.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Rice@45": {
+        "prompt": "What shape is the table in the scene?\n\nA. Square\nB. Rectangular\nC. Circular\nD. Triangular\nE. None of the above",
+        "response": "The table in the scene is rectangular in shape.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Rice@35": {
+        "prompt": "What is the age of the sculpture in the room?\n\nA. 15 years\nB. 30 years\nC. 50 years\nD. 100 years\nE. None of the above",
+        "response": "The sculpture in the room is 50 years old.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Rice@18": {
+        "prompt": "What is the weight of the dining table?\n\nA. 150 pounds\nB. 200 pounds\nC. 250 pounds\nD. 300 pounds\nE. None of the above",
+        "response": "3D model of a dining table with a glass top.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Rice@72": {
+        "prompt": "What type of ceiling design is featured in the room?\n\nA. Coffered\nB. Vaulted\nC. Suspended\nD. Flat\nE. None of the above",
+        "response": "\"None of the above\" is the correct answer as the type of ceiling design is not specified in the description.\n3D model of a room featuring a coffered, vaulted, and suspended ceiling.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Tomato@8-22_20-28": {
+        "prompt": "What is the height of the building?\n\nA. Two stories\nB. Three stories\nC. Ten stories\nD. Fifteen stories\nE. None of the above",
+        "response": "The building is three stories high.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Tomato@10-5_1-1": {
+        "prompt": "What type of artwork is displayed in the scene?\n\nA. Landscape painting\nB. Abstract sculpture\nC. Portrait photograph\nD. Vintage poster\nE. None of the above",
+        "response": ".\n\nThe 3D model depicts a landscape painting.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Tomato@8-13_20-28": {
+        "prompt": "What size is the table in the scene?\n\nA. Small\nB. Large\nC. Medium\nD. Extra large\nE. None of the above",
+        "response": "The table in the scene is described as 'large', so the correct answer is B. Large.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Tomato@8-22_30-4": {
+        "prompt": "What is the shape of the table?\n\nA. Round\nB. Rectangular\nC. Square\nD. Oval\nE. None of the above",
+        "response": ".\n\nThe table is rectangular in shape.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Tomato@8-13_1-55": {
+        "prompt": "What type of vehicle is parked nearby?\n\nA. Sedan\nB. Motorcycle\nC. Pickup truck\nD. Bicycle\nE. None of the above",
+        "response": ". It's a 3D model.\n\nThe correct answer is E. It's a 3D model. The type of vehicle is not specified.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Tomato@8-22_10-3": {
+        "prompt": "What type of sculpture is displayed in the scene?\n\nA. Abstract marble\nB. Bronze figure\nC. Wooden totem\nD. Glass vase\nE. None of the above",
+        "response": ".\n\nThe 3D model displayed in the scene is an abstract marble sculpture.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Tomato@11-2_35-22": {
+        "prompt": "What is the height of the building in the scene?\n\nA. Four stories\nB. Eight stories\nC. Two stories\nD. Ten stories\nE. None of the above",
+        "response": "The building in the scene is eight stories high.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Tomato@8-31_10-3": {
+        "prompt": "What type of vehicle is parked next to the tree?\n\nA. Sedan\nB. Motorcycle\nC. Pickup truck\nD. Bicycle\nE. None of the above",
+        "response": "3D model of a tree with a car parked next to it. Option B: Sedan. Option A: Motorcycle. Option C: Pickup Truck. Option D: Bicycle. Option E: None of the",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Tomato@10-5_30-52": {
+        "prompt": "What type of furniture is included in the scene?\n\nA. Coffee table\nB. Bookshelf\nC. Sofa\nD. Dining chair\nE. None of the above",
+        "response": ". It's a 3D model of a rock.\n\nThe correct answer is E. It's a 3D model of a rock.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Tomato@8-10_10-53": {
+        "prompt": "What type of furniture is featured in the scene?\n\nA. Coffee table\nB. Bookshelf\nC. Lounge chair\nD. Dining table\nE. None of the above",
+        "response": ". It's a 3D model of a chair.\n\nYes, it's a 3D model of a chair.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Tomato@8-28_30-52": {
+        "prompt": "What is the height of the chandelier in the room?\n\nA. 10 feet\nB. 15 feet\nC. 20 feet\nD. 25 feet\nE. None of the above",
+        "response": "3D model of a chandelier hanging from the ceiling.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Tomato@8-22_35-22": {
+        "prompt": "What type of building material is used for the roof?\n\nA. Slate\nB. Thatch\nC. Metal\nD. Concrete\nE. None of the above",
+        "response": ".\n\nAnswer:B. Thatch. The roof of the house is made of thatch.\n\n3D model of a house with a thatched roof.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Tomato@9-3_2-1": {
+        "prompt": "What type of furniture is used in the kitchen?\n\nA. Dining table\nB. Bar stools\nC. Kitchen island\nD. Cupboard\nE. None of the above",
+        "response": ".\n\nThe correct answer is D. Cupboard.\n\nA cupboard is a piece of furniture used in the kitchen for storage purposes. It can be used to store a variety of items such as dishes, utensils,",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Tomato@8-25_1-55": {
+        "prompt": "What shape is the table in the scene?\n\nA. Circular\nB. Rectangular\nC. Oval\nD. Square\nE. None of the above",
+        "response": "The table in the scene is rectangular in shape.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Tomato@9-3_20-28": {
+        "prompt": "What type of floor tiles are used in the room?\nA. Ceramic\nB. Vinyl\nC. Marble\nD. Porcelain\nE. None of the above",
+        "response": ". It's a 3D model.\n\nYes, it's a 3D model. The type of floor tiles used in the room is not specified in the description.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Tomato@8-28_10-53": {
+        "prompt": "What type of fruit is typically found hanging from the branches?\n\nA. Apples\nB. Oranges\nC. Bananas\nD. Cherries\nE. None of the above",
+        "response": ".\n\nThe correct answer is D. Bananas. Bananas are typically found hanging from the branches of banana trees.\n\n3D model of a banana tree with bananas hanging from its branches.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Tomato@9-6_1-55": {
+        "prompt": "What type of chair is located beside the tree?\n\nA. Rocking chair\nB. Recliner\nC. Bar stool\nD. Bean bag chair\nE. None of the above",
+        "response": "\"None of the above\" is the correct answer as the chair is described as 'a chair', but no specific type is mentioned.\n3D model of a chair beside a tree.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Tomato@9-3_10-3": {
+        "prompt": "What shade of paint is used on the walls?\n\nA. Bright Yellow\nB. Sky Blue\nC. Soft Lavender\nD. Classic Gray\nE. None of the above",
+        "response": "3D model of a brick wall with a hole in it. It's a 3D model of a wall made of bricks. The wall appears to be old and weathered. There's a noticeable hole in the",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Tomato@8-31_20-28": {
+        "prompt": "What is the height of the bookshelf in the scene?\n\nA. Six feet\nB. Four feet\nC. Eight feet\nD. Ten feet\nE. None of the above",
+        "response": "The bookshelf in the scene is six feet tall.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Tomato@8-25_30-52": {
+        "prompt": "What style of chair complements the branch in the scene?\n\nA. Modernist\nB. Victorian\nC. Rustic\nD. Art Deco\nE. None of the above",
+        "response": "The style of the chair is not explicitly mentioned in the description, so the answer could be E. None of the above.\n\n3D model of a chair on a branch.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Tomato@11-2_30-4": {
+        "prompt": "What type of sculpture can be found in the room?\n\nA. Marble bust\nB. Bronze statue\nC. Wooden totem\nD. Glass figurine\nE. None of the above",
+        "response": ".\n\nThe correct answer is A. Marble bust.\n\n3D model of a marble bust in a room.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Tomato@9-14_10-3": {
+        "prompt": "What type of lamp is in the scene?\n\nA. Table lamp\nB. Floor lamp\nC. Desk lamp\nD. Wall lamp\nE. None of the above",
+        "response": "Answer: B. Floor lamp\n\nA 3D model of a floor lamp is depicted in the scene. This type of lamp is typically used to provide general lighting in a room. It stands upright on a",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Tomato@11-2_1-1": {
+        "prompt": "What type of furniture is used for seating in the room?\n\nA. Armchair\nB. Sofa\nC. Bar Stool\nD. Recliner\nE. None of the above",
+        "response": "The correct answer is A. Armchair.\n\n3D model of an armchair\nA 3D model of an armchair.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Tomato@8-28_20-28": {
+        "prompt": "What type of fruit is found in the scene?\n\nA. Apple\nB. Banana\nC. Cherry\nD. Grape\nE. None of the above",
+        "response": ".\n\nAnswer: A. Apple\n\nA 3D model of a ripe, red apple is depicted in the scene. The apple has a shiny, glossy surface, suggesting it's fresh and ripe.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Tomato@8-25_1-1": {
+        "prompt": "What is the size of the coffee table?\n\nA. Small\nB. Medium\nC. Large\nD. Extra-large\nE. None of the above",
+        "response": "The coffee table is described as 'large', so the correct answer is C. Large.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Wheat@79": {
+        "prompt": "What type of vehicle is parked beside the shrub?\n\nA. Sedan\nB. Motorcycle\nC. Pickup truck\nD. Convertible\nE. None of the above",
+        "response": "- it's a shrub.\n\nThe correct answer is E. It's a shrub. There's no vehicle parked beside it.\n|ttajljljljljljljljljljljljljljl",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Wheat@145": {
+        "prompt": "What type of fruit can be found near the bamboo plant?\n\nA. Apple\nB. Banana\nC. Orange\nD. Grape\nE. None of the above",
+        "response": ".\n\n3D model of a bamboo plant.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Wheat@91": {
+        "prompt": "What type of animal is lounging in the scene?\n\nA. Cat\nB. Dog\nC. Rabbit\nD. Hamster\nE. None of the above",
+        "response": ".\n\n3D model of a cat lounging on a couch.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Wheat@116": {
+        "prompt": "What type of furniture is in the corner of the room?\n\nA. Coffee table\nB. Recliner\nC. Bookshelf\nD. Dining table\nE. None of the above",
+        "response": "\"None of the above\" is the correct answer. The furniture in the corner of the room is not specified in the description.\n3D model of a corner in a room with furniture.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Wheat@6": {
+        "prompt": "What shape is the table in the room?\n\nA. Round\nB. Square\nC. Rectangular\nD. Oval\nE. None of the above",
+        "response": "\"None of the above\" is the correct answer because the shape of the table isn't specified in the description.\n3D Rendering featuring a table and chairs in a room.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Wheat@11": {
+        "prompt": "What type of sculpture is displayed next to the plant?\n\nA. Abstract figure\nB. Classical bust\nC. Modern geometric shape\nD. Ornamental animal\nE. None of the above",
+        "response": "The 3D model displayed next to the plant is a B. Classical bust.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Wheat@34": {
+        "prompt": "What type of seating arrangement is used for the conference area?\n\nA. Circular tables\nB. Lounge chairs\nC. Conference benches\nD. Stacking chairs\nE. None of the above",
+        "response": ".\n\n3D model of a conference table with chairs.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Wheat@127": {
+        "prompt": "What type of animal is often found living in the trees?\n\nA. Squirrel\nB. Parrot\nC. Chameleon\nD. Hedgehog\nE. None of the above",
+        "response": ".\n\nThe correct answer is A. Squirrel. Squirrels are often found living in trees. They are known for their bushy tails and their ability to climb trees.\n\n3D model of a",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Wheat@39": {
+        "prompt": "What type of furniture is located next to the plant?\n\nA. Coffee Table\nB. Dining Chair\nC. Bookshelf\nD. Bed\nE. None of the above",
+        "response": "The correct answer is E. None of the above. The furniture next to the plant is not specified in the description.\n\n3D model of a plant in a pot.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Wheat@107": {
+        "prompt": "What type of structure is the building made of?\n\nA. Steel\nB. Brick\nC. Timber\nD. Glass\nE. None of the above",
+        "response": ".\n\nThe building is made of brick.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Wheat@122": {
+        "prompt": "What features does the chair have?\n\nA. Armrests\nB. Cushions\nC. Wheels\nD. Reclining mechanism\nE. None of the above",
+        "response": "3D model of a chair\n3D model of a chair with wheels\n3D model of a chair with cushions\n3D model of a chair with armrests\n3D model of a chair with a recl",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Wheat@52": {
+        "prompt": "What type of chair is located near the potted plant?\n\nA. Recliner\nB. Dining chair\nC. Bean bag\nD. Office chair\nE. None of the above",
+        "response": "3D model of a potted plant on a wooden chair.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Wheat@96": {
+        "prompt": "What type of furniture is in the scene?\n\nA. Sofa\nB. Coffee table\nC. Dining chair\nD. Bookshelf\nE. None of the above",
+        "response": "The correct answer is B. Coffee table.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Wheat@26": {
+        "prompt": "What shape is the window in the scene?\n\nA. Round\nB. Square\nC. Triangular\nD. Rectangular\nE. None of the above",
+        "response": "The window in the scene is square-shaped.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Wheat@88": {
+        "prompt": "What type of vase is used in the scene?\n\nA. Glass vase\nB. Ceramic vase\nC. Plastic vase\nD. Metal vase\nE. None of the above",
+        "response": ". It's a 3D model.\n\nThe 3D model doesn't specify the material of the vase. It could be made of any material, including glass, ceramic, plastic, or metal.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Wheat@25": {
+        "prompt": "What shape is the table in the scene?\n\nA. Round\nB. Square\nC. Oval\nD. Rectangular\nE. None of the above",
+        "response": "The table in the scene is square-shaped.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Wheat@115": {
+        "prompt": "What shape is the dining table?\n\nA. Round\nB. Square\nC. Rectangle\nD. Oval\nE. None of the above",
+        "response": "\"None of the above\" is the correct answer. The dining table is rectangular in shape.\n3D model of a rectangular dining table.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Wheat@28": {
+        "prompt": "What type of painting is hanging on the wall?\n\nA. Abstract art\nB. Landscape\nC. Portrait\nD. Still life\nE. None of the above",
+        "response": ".\n\nThe exact type of painting isn't specified, but it's described as a 'landscape' painting.\n\n3D model of a 3D model of a painting hanging on the wall.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Wheat@78": {
+        "prompt": "What type of sculpture is displayed in the scene?\n\nA. Abstract figure\nB. Life-sized statue\nC. Ceramic piece\nD. Stone relief\nE. None of the above",
+        "response": "The 3D model displayed in the scene is a life-sized statue of an abstract figure.\n\n3D model of a life-sized statue of an abstract figure.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Wheat@126": {
+        "prompt": "What type of furniture is located near the potted bamboo plant?\n\nA. Recliner\nB. Dining table\nC. Coffee table\nD. Bookshelf\nE. None of the above",
+        "response": ".\n\n3D model of a potted bamboo plant.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Wheat@125": {
+        "prompt": "What color is the couch in the room?\n\nA. Red\nB. Gray\nC. Blue\nD. Yellow\nE. None of the above",
+        "response": "The couch in the room is gray.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Wheat@60": {
+        "prompt": "What is the height of the ceiling in the room?\n\nA. 10 feet\nB. 12 feet\nC. 8 feet\nD. 15 feet\nE. None of the above",
+        "response": ".\n\nThe ceiling in the room is 12 feet high.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Wheat@131": {
+        "prompt": "What type of vehicle is parked outside?\n\nA. Sedan\nB. Bicycle\nC. Truck\nD. Motorcycle\nE. None of the above",
+        "response": "3D model of a parked sedan car.\n3D model of a parked bicycle.\n3D model of a parked truck.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Wheat@72": {
+        "prompt": "What color is the ceiling in the room?\n\nA. Yellow\nB. Blue\nC. Green\nD. White\nE. None of the above",
+        "response": ".\n\nThe ceiling in the room is blue.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Wheat@149": {
+        "prompt": "What type of vehicle is parked in front of the plant?\n\nA. Sedan\nB. Motorcycle\nC. Van\nD. Pickup truck\nE. None of the above",
+        "response": "3D model of a car parked in front of a plant. Option A: Sedan. Option B: Motorcycle. Option C: Van. Option D: Pickup Truck. Option E: None of the above.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Wheat@119": {
+        "prompt": "What type of vehicle is parked outside?\n\nA. Sedan\nB. SUV\nC. Convertible\nD. Pickup truck\nE. None of the above",
+        "response": "- it's a motorcycle.\n\nThe 3D model is of a motorcycle parked outside.\n\n3D model of a motorcycle parked outside.\n3D model of a motorcycle parked outside.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Wheat@21": {
+        "prompt": "What type of window treatment is used in the room?\n\nA. Sheer curtains\nB. Bamboo blinds\nC. Roman shades\nD. Roller shades\nE. None of the above",
+        "response": ".\n\nThe correct answer is B. Bamboo blinds.\n\n3D model of a room with bamboo blinds.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Wheat@84": {
+        "prompt": "What model of spaceship is hovering nearby?\n\nA. Starfighter\nB. Cruiser\nC. Space Shuttle\nD. Drone\nE. None of the above",
+        "response": ". It's a 3D model of a spaceship.\n\nThe 3D model of a Starfighter is hovering nearby. A Starfighter is a fictional fighter spacecraft from the Star Wars universe",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Wheat@4": {
+        "prompt": "What type of furniture is located directly next to the potted plant?\n\nA. Sofa\nB. Coffee table\nC. Armchair\nD. Bookshelf\nE. None of the above",
+        "response": ".\n\nThe correct answer is B. Coffee table.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Wheat@109": {
+        "prompt": "What flavor is the cake being served?\n\nA. Chocolate\nB. Vanilla\nC. Red velvet\nD. Carrot\nE. None of the above",
+        "response": ", the flavor isn't specified.\n\n3D model of a chocolate cake with a cherry on top.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Wheat@89": {
+        "prompt": "What type of chandelier is hanging in the scene?\n\nA. Crystal chandelier\nB. Rustic pendant light\nC. Modern flush mount\nD. Vintage candelabra\nE. None of the above",
+        "response": ".\n\nThe correct answer is A. Crystal chandelier.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Wheat@14": {
+        "prompt": "What type of vehicle is parked outside?\n\nA. Sedan\nB. SUV\nC. Bicycle\nD. Motorcycle\nE. None of the above",
+        "response": "- it's a car parked outside.\n\nThe correct answer is E. It's a car parked outside.\n\nA 3D model of a car parked outside.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Wheat@73": {
+        "prompt": "What kind of wildlife can be found near the grass?\n\nA. Rabbits\nB. Squirrels\nC. Deer\nD. Foxes\nE. None of the above",
+        "response": ", it's just grass.\n\n3D model of a grassy area with a tree and a rock.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Wheat@123": {
+        "prompt": "What style of chair is found in the scene?\n\nA. Armchair\nB. Recliner\nC. Dining chair\nD. Folding chair\nE. None of the above",
+        "response": ". It's a 3D model of a chair.\n\nThe correct answer is E. It's a 3D model of a chair. The type of chair is not specified.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Wheat@102": {
+        "prompt": "What is the shape of the mirror?\n\nA. Oval\nB. Square\nC. Rectangular\nD. Round\nE. None of the above",
+        "response": ".\n\nThe mirror is rectangular in shape.\n\n3D model of a mirror\nA 3D model of a rectangular mirror.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Wheat@80": {
+        "prompt": "What is the height of the sculpture?\n\nA. Three feet\nB. Five feet\nC. Eight feet\nD. Ten feet\nE. None of the above",
+        "response": "The sculpture stands at a height of five feet.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Wheat@87": {
+        "prompt": "What type of ceiling light is featured in the scene?\n\nA. Chandelier\nB. Pendant light\nC. Recessed light\nD. Track lighting\nE. None of the above",
+        "response": ". It's a ceiling hole.\n\nThe 3D model features a chandelier hanging from the ceiling. The chandelier is a decorative lighting fixture, often used in dining or living",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Wheat@98": {
+        "prompt": "What is the height of the chandelier?\n\nA. 5 feet\nB. 8 feet\nC. 10 feet\nD. 12 feet\nE. None of the above",
+        "response": "3D model of a chandelier hanging from the ceiling.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Wheat@137": {
+        "prompt": "What type of fabric is on the couch?\n\nA. Velvet\nB. Linen\nC. Cotton\nD. Silk\nE. None of the above",
+        "response": ".\n\nAnswer: A. Velvet\n\nA 3D model of a plush velvet couch.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Wheat@113": {
+        "prompt": "What type of paint is used on the walls?\n\nA. Blue\nB. Yellow\nC. Green\nD. White\nE. None of the above",
+        "response": "The walls are painted in a vibrant shade of blue.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Wheat@108": {
+        "prompt": "What type of chair is located near the plant?\n\nA. Recliner\nB. Barstool\nC. Office chair\nD. Dining chair\nE. None of the above",
+        "response": ".\n\n3D model of a plant in a pot\n3D model of a plant in a bowl\n3D model of a plant in a vase\n3D model of a plant in a planter box\n3D model",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Wheat@7": {
+        "prompt": "What type of sculpture is featured in the room?\n\nA. Abstract metal sculpture\nB. Classical marble bust\nC. Wooden animal figurine\nD. Stone relief carving\nE. None of the above",
+        "response": ".\n\nThe 3D model features an abstract metal sculpture as the centerpiece of the room.\n\n3D model of a room featuring an abstract metal sculpture.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Wheat@42": {
+        "prompt": "What is the shape of the bookshelf?\n\nA. Rectangular\nB. Circular\nC. Hexagonal\nD. Triangular\nE. None of the above",
+        "response": "The bookshelf is rectangular in shape.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Wheat@92": {
+        "prompt": "What style of architecture is featured in the scene?\n\nA. Gothic\nB. Art Deco\nC. Colonial\nD. Minimalist\nE. None of the above",
+        "response": ". It's a cartoon-style.\n\nThe scene features a cartoon-style of architecture.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Wheat@15": {
+        "prompt": "What is the capacity of the aquarium in the scene?\n\nA. 50 gallons\nB. 30 liters\nC. 100 quarts\nD. 25 cubic feet\nE. None of the above",
+        "response": ".\n\nThe aquarium in the scene has a capacity of 30 liters.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    }
+}
