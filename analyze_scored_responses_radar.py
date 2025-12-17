@@ -33,6 +33,10 @@ def main():
     parser.add_argument("--figsize_height", type=int, default=10, help="Height of the figure in inches.")
     parser.add_argument("--legend_bbox_to_anchor", type=str, default="1.3,1.1", help="Legend position as 'x,y'.")
     parser.add_argument("--fig_pad", type=float, default=1.5, help="Padding for the figure to prevent cutoff.")
+    parser.add_argument("--plot_upd", action="store_true", default=True, help="Plot UPD accuracy series.")
+    parser.add_argument("--plot_dual", action="store_true", default=True, help="Plot Dual accuracy series.")
+    parser.add_argument("--no_plot_upd", action="store_false", dest="plot_upd", help="Do not plot UPD accuracy series.")
+    parser.add_argument("--no_plot_dual", action="store_false", dest="plot_dual", help="Do not plot Dual accuracy series.")
     args = parser.parse_args()
 
     # Apply font scaling
@@ -158,16 +162,19 @@ def main():
         std_values += [std_values[0]]
         dual_values += [dual_values[0]]
         
-        # Plot standard accuracies
         color_idx = folder_idx % len(colors)
-        ax.plot(angles, std_values, 'o-', linewidth=2, 
-                label=f"{data['legend_name']} - UPD", color=colors[color_idx])
-        ax.fill(angles, std_values, alpha=0.1, color=colors[color_idx])
         
-        # Plot dual accuracies
-        ax.plot(angles, dual_values, 'o--', linewidth=2, 
-                label=f"{data['legend_name']} - Dual", color=colors[color_idx], alpha=0.7)
-        ax.fill(angles, dual_values, alpha=0.05, color=colors[color_idx])
+        # Plot standard accuracies if requested
+        if args.plot_upd:
+            ax.plot(angles, std_values, 'o-', linewidth=2, 
+                    label=f"{data['legend_name']} - UPD", color=colors[color_idx])
+            ax.fill(angles, std_values, alpha=0.1, color=colors[color_idx])
+        
+        # Plot dual accuracies if requested
+        if args.plot_dual:
+            ax.plot(angles, dual_values, 'o--', linewidth=2, 
+                    label=f"{data['legend_name']} - Dual", color=colors[color_idx], alpha=0.7)
+            ax.fill(angles, dual_values, alpha=0.05, color=colors[color_idx])
         
         max_y_value = max(max_y_value, data['max_samples'])
     
