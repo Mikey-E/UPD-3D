@@ -59,13 +59,24 @@ def main():
         standard_upd_accuracies = {}
         standard_file = None
         for json_file in json_files:
-            with open(json_file, 'r') as f:
-                data = json.load(f)
-            if "standard" in json_file:
-                standard_file = json_file
-            # Extract scores from the data
-            results[json_file] = [item["score"] for item in data.values()]
-            standard_upd_accuracies[json_file] = len([score for score in results[json_file] if score == 'T'])
+            try:
+                with open(json_file, 'r') as f:
+                    data = json.load(f)
+                if "standard" in json_file:
+                    standard_file = json_file
+                # Extract scores from the data
+                results[json_file] = [item["score"] for item in data.values()]
+                standard_upd_accuracies[json_file] = len([score for score in results[json_file] if score == 'T'])
+            except KeyError as e:
+                print(f"ERROR: Missing key {e} in file: {json_file}")
+                print(f"  File path: {os.path.abspath(json_file)}")
+                print(f"  Sample data keys: {list(next(iter(data.values())).keys()) if data else 'No data'}")
+                raise
+            except Exception as e:
+                print(f"ERROR: Failed to process file: {json_file}")
+                print(f"  Error type: {type(e).__name__}")
+                print(f"  Error message: {str(e)}")
+                raise
         
         # Check if sample counts are consistent across categories
         sample_counts = [len(results[k]) for k in standard_upd_accuracies.keys()]
