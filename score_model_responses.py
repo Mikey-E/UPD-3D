@@ -32,6 +32,9 @@ def main():
     
     # Define the model to use
     scoring_model = "gpt-4.1-mini"
+    
+    # Track if scoring failed
+    scoring_failed = False
  
     for item in data.items():
         point_cloud = item[0]
@@ -85,15 +88,21 @@ def main():
         print(f"Raw Message Content: {response.choices[0].message.content}")
         print(f"Message Role: {response.choices[0].message.role}")
         print(f"=========================================\n")
+        
         data[point_cloud]["correct_answer"] = correct_answer.replace("\nCORRECT_ANSWER: ", "")
         data[point_cloud]["score"] = generated_text
+
+        # Check if the score is valid (T or F)
+        if generated_text not in ['T', 'F']:
+            print(f"ERROR: Invalid score '{generated_text}' for {point_cloud}")
+            print(f"Expected 'T' or 'F', got: '{generated_text}'")
+            print(f"Stopping scoring and saving with FAILED_ prefix")
+            scoring_failed = True
+            break
 
     # Create the output directory if it doesn't exist
     output_dir = "./scored_model_responses"
     os.makedirs(output_dir, exist_ok=True)
-
-    #JSON file name with no path
-    json_file_no_path = os.path.basename(os.path.normpath(json_file))
 
     # Get the folder name preceding the json file
     folder_name = os.path.basename(os.path.dirname(json_file))
@@ -103,7 +112,10 @@ def main():
     os.makedirs(output_dir, exist_ok=True)
     # Use the same json filename for the final file, but add model name before _scored
     base_filename = os.path.basename(json_file).replace('.json', '')
-    output_filename = f"{base_filename}_{scoring_model}_scored.json"
+    if scoring_failed:
+        output_filename = f"FAILED_{base_filename}_{scoring_model}_scored.json"
+    else:
+        output_filename = f"{base_filename}_{scoring_model}_scored.json"
     output_file = os.path.join(output_dir, output_filename)
 
     with open(output_file, 'w') as f:
