@@ -71,7 +71,7 @@ format_title() {
 }
 
 # Array of datasets to process
-datasets=("3D-FRONT" "Crops3D_gpt-5-nano")
+datasets=("3D-FRONT" "Crops3D_gpt-5-nano" "GIW529_gpt-5-nano")
 
 # Loop through each dataset
 for dataset in "${datasets[@]}"; do
@@ -95,39 +95,63 @@ for dataset in "${datasets[@]}"; do
         fi
         
         # Build file lists for current category based on dataset
+        # YOU WILL PROBABLY NEED TO SET THESE MANUALLY
         if [[ "$dataset" == "3D-FRONT" ]]; then
             # 3D-FRONT file patterns
             base_model_files=(
-                "./scored_model_responses/3D-FRONT_test_mgpt3d/inf_rslts_mgpt3d_3D-FRONT_test_${category}_scored.json"
-                "scored_model_responses/3D-FRONT_test_gplm/inf_rslts_gplm_3D-FRONT_test_${category}_scored.json"
-                "scored_model_responses/3D-FRONT_test_pllm/inf_rslts_pllm_base_3D-FRONT_test_${category}_scored.json"
-                "scored_model_responses/3D-FRONT_test_shpllm_ft-cap3d/inf_rslts_shapellm-13b-general-v1.0-finetune_ft-cap3d_3D-FRONT_test_${category}_scored.json"
-                "scored_model_responses/3D-FRONT_test_llava3d_base/inf_rslts_llava3d_base_3D-FRONT_test_${category}_scored.json"
+                "./scored_model_responses/3D-FRONT_test_mgpt3d_gpt-4.1-mini/inf_rslts_mgpt3d_3D-FRONT_test_${category}_gpt-4.1-mini_scored.json"
+                "scored_model_responses/3D-FRONT_test_gplm_gpt-4.1-mini/inf_rslts_gplm_3D-FRONT_test_${category}_gpt-4.1-mini_scored.json"
+                "scored_model_responses/3D-FRONT_test_pllm_gpt-4.1-mini/inf_rslts_pllm_base_3D-FRONT_test_${category}_gpt-4.1-mini_scored.json"
+                "scored_model_responses/3D-FRONT_test_shpllm_ft-cap3d_gpt-4.1-mini/inf_rslts_shapellm-13b-general-v1.0-finetune_ft-cap3d_3D-FRONT_test_${category}_gpt-4.1-mini_scored.json"
+                "scored_model_responses/3D-FRONT_test_llava3d_base_gpt-4.1-mini/inf_rslts_llava3d_base_3D-FRONT_test_${category}_gpt-4.1-mini_scored.json"
+                "scored_model_responses/3D-FRONT_test_3dllm_base_gpt-4.1-mini/inf_rslts_3dllm_3D-FRONT_test_${category}_gpt-4.1-mini_scored.json"
             )
             
             trained_model_files=(
-                "./scored_model_responses/3D-FRONT_test_mgpt3d_ft-comb/inf_rslts_mgpt3d_ft-comb_3D-FRONT_test_${category}_scored.json"
-                "scored_model_responses/3D-FRONT_test_gplm_ft-comb/inf_rslts_gplm_ft-comb_3D-FRONT_test_${category}_scored.json"
-                "scored_model_responses/3D-FRONT_test_pllm_ft-comb/inf_rslts_pllm_ft-comb_3D-FRONT_test_${category}_scored.json"
-                "scored_model_responses/3D-FRONT_test_shpllm_ft-upd/inf_rslts_shapellm-13b-general-v1.0-finetune-upd_ft-upd_3D-FRONT_test_${category}_scored.json"
-                "scored_model_responses/3D-FRONT_test_llava3d_ft-upd_3D-FRONT/inf_rslts_llava3d_ft-upd_3D-FRONT_3D-FRONT_test_${category}_scored.json"
+                "./scored_model_responses/3D-FRONT_test_mgpt3d_ft-comb_attempt2_gpt-4.1-mini/inf_rslts_mgpt3d_ft-comb_3D-FRONT_test_${category}_gpt-4.1-mini_scored.json"
+                "scored_model_responses/3D-FRONT_test_gplm_ft-comb_gpt-4.1-mini/inf_rslts_gplm_ft-comb_3D-FRONT_test_${category}_gpt-4.1-mini_scored.json"
+                "scored_model_responses/3D-FRONT_test_pllm_ft-comb_attempt2_gpt-4.1-mini/inf_rslts_pllm_ft-comb_3D-FRONT_test_${category}_gpt-4.1-mini_scored.json"
+                "scored_model_responses/3D-FRONT_test_shpllm_ft-upd_gpt-4.1-mini/inf_rslts_shapellm-13b-general-v1.0-finetune-upd_ft-upd_3D-FRONT_test_${category}_gpt-4.1-mini_scored.json"
+                "scored_model_responses/3D-FRONT_test_llava3d_ft-upd_3D-FRONT_gpt-4.1-mini/inf_rslts_llava3d_ft-upd_3D-FRONT_3D-FRONT_test_${category}_gpt-4.1-mini_scored.json"
+                "scored_model_responses/3D-FRONT_test_3dllm_ckpt7_gpt-4.1-mini/inf_rslts_3dllm_ft-3D-FRONT-ckpt7_3D-FRONT_test_${category}_gpt-4.1-mini_scored.json"
             )
-        else
+        elif [[ "$dataset" == "Crops3D_gpt-5-nano" ]]; then
             # Crops3D_gpt-5-nano file patterns
             base_model_files=(
-                "./scored_model_responses/Crops3D_gpt-5-nano_test_mgpt3d_base/inf_rslts_mgpt3d_base_Crops3D_test_${category}_scored.json"
-                "scored_model_responses/Crops3D_gpt-5-nano_test_gplm_base/inf_rslts_gplm_base_Crops3D_test_${category}_scored.json"
-                "scored_model_responses/Crops3D_gpt-5-nano_test_pllm_base/inf_rslts_pllm_base_Crops3D_test_${category}_scored.json"
-                "scored_model_responses/Crops3D_gpt-5-nano_test_shpllm_ft-cap3d/inf_rslts_shapellm-13b-general-v1.0-finetune_ft-cap3d_Crops3D_test_${category}_scored.json"
-                "scored_model_responses/Crops3D_gpt-5-nano_test_llava3d_base/inf_rslts_llava3d_base_Crops3D_test_${category}_scored.json"
+                "./scored_model_responses/Crops3D_gpt-5-nano_test_mgpt3d_base_gpt-4.1-mini/inf_rslts_mgpt3d_base_Crops3D_test_${category}_gpt-4.1-mini_scored.json"
+                "scored_model_responses/Crops3D_gpt-5-nano_test_gplm_base_gpt-4.1-mini/inf_rslts_gplm_base_Crops3D_test_${category}_gpt-4.1-mini_scored.json"
+                "scored_model_responses/Crops3D_gpt-5-nano_test_pllm_base_gpt-4.1-mini/inf_rslts_pllm_base_Crops3D_test_${category}_gpt-4.1-mini_scored.json"
+                "scored_model_responses/Crops3D_gpt-5-nano_test_shpllm_ft-cap3d_gpt-4.1-mini/inf_rslts_shapellm-13b-general-v1.0-finetune_ft-cap3d_Crops3D_test_${category}_gpt-4.1-mini_scored.json"
+                "scored_model_responses/Crops3D_gpt-5-nano_test_llava3d_base_gpt-4.1-mini/inf_rslts_llava3d_base_Crops3D_test_${category}_gpt-4.1-mini_scored.json"
+                "scored_model_responses/Crops3D_gpt-5-nano_test_3dllm_base_gpt-4.1-mini/inf_rslts_3dllm_Crops3D_test_${category}_gpt-4.1-mini_scored.json"
             )
             
             trained_model_files=(
-                "./scored_model_responses/Crops3D_gpt-5-nano_test_mgpt3d_ft-comb/inf_rslts_mgpt3d_ft-comb_Crops3D_test_${category}_scored.json"
-                "scored_model_responses/Crops3D_gpt-5-nano_test_gplm_ft-comb/inf_rslts_gplm_ft-comb_Crops3D_test_${category}_scored.json"
-                "scored_model_responses/Crops3D_gpt-5-nano_test_pllm_ft-comb/inf_rslts_pllm_ft-comb_Crops3D_test_${category}_scored.json"
-                "scored_model_responses/Crops3D_gpt-5-nano_test_shpllm_ft-upd/inf_rslts_shapellm-13b-general-v1.0-finetune-upd_Crops3D_gpt-5-nano_ft-upd_Crops3D_test_${category}_scored.json"
-                "scored_model_responses/Crops3D_gpt-5-nano_test_llava3d_ft-upd_Crops3D_gpt-5-nano/inf_rslts_llava3d_ft-upd_Crops3D_gpt-5-nano_Crops3D_test_${category}_scored.json"
+                "./scored_model_responses/Crops3D_gpt-5-nano_test_mgpt3d_ft-comb_gpt-4.1-mini/inf_rslts_mgpt3d_ft-comb_Crops3D_test_${category}_gpt-4.1-mini_scored.json"
+                "scored_model_responses/Crops3D_gpt-5-nano_test_gplm_ft-comb_gpt-4.1-mini/inf_rslts_gplm_ft-comb_Crops3D_test_${category}_gpt-4.1-mini_scored.json"
+                "scored_model_responses/Crops3D_gpt-5-nano_test_pllm_ft-comb_gpt-4.1-mini/inf_rslts_pllm_ft-comb_Crops3D_test_${category}_gpt-4.1-mini_scored.json"
+                "scored_model_responses/Crops3D_gpt-5-nano_test_shpllm_ft-upd_gpt-4.1-mini/inf_rslts_shapellm-13b-general-v1.0-finetune-upd_Crops3D_gpt-5-nano_ft-upd_Crops3D_test_${category}_gpt-4.1-mini_scored.json"
+                "scored_model_responses/Crops3D_gpt-5-nano_test_llava3d_ft-upd_Crops3D_gpt-5-nano_gpt-4.1-mini/inf_rslts_llava3d_ft-upd_Crops3D_gpt-5-nano_Crops3D_test_${category}_gpt-4.1-mini_scored.json"
+                "scored_model_responses/Crops3D_gpt-5-nano_test_3dllm_ckpt7_gpt-4.1-mini/inf_rslts_3dllm_ft-Crops3D_gpt-5-nano-ckpt7_Crops3D_test_${category}_gpt-4.1-mini_scored.json"
+            )
+        else
+            # GIW529_gpt-5-nano file patterns
+            base_model_files=(
+                "./scored_model_responses/GIW529_gpt-5-nano_test_mgpt3d_base_gpt-4.1-mini/inf_rslts_mgpt3d_base_GIW529_test_${category}_gpt-4.1-mini_scored.json"
+                "scored_model_responses/GIW529_gpt-5-nano_test_gplm_base_gpt-4.1-mini/inf_rslts_gplm_base_GIW529_test_${category}_gpt-4.1-mini_scored.json"
+                "scored_model_responses/GIW529_gpt-5-nano_test_pllm_base_gpt-4.1-mini/inf_rslts_pllm_base_GIW529_test_${category}_gpt-4.1-mini_scored.json"
+                "scored_model_responses/GIW529_gpt-5-nano_test_shpllm_ft-cap3d_gpt-4.1-mini/inf_rslts_shapellm-13b-general-v1.0-finetune_ft-cap3d_GIW529_test_${category}_gpt-4.1-mini_scored.json"
+                "scored_model_responses/GIW529_gpt-5-nano_test_llava3d_base_gpt-4.1-mini/inf_rslts_llava3d_base_GIW529_test_${category}_gpt-4.1-mini_scored.json"
+                "scored_model_responses/GIW529_gpt-5-nano_test_3dllm_base_gpt-4.1-mini/inf_rslts_3dllm_base_GIW529_test_${category}_gpt-4.1-mini_scored.json"
+            )
+            
+            trained_model_files=(
+                "./scored_model_responses/GIW529_gpt-5-nano_test_mgpt3d_ft-comb_gpt-4.1-mini/inf_rslts_mgpt3d_ft-comb_GIW529_test_${category}_gpt-4.1-mini_scored.json"
+                "scored_model_responses/GIW529_gpt-5-nano_test_gplm_ft-comb_gpt-4.1-mini/inf_rslts_gplm_ft-comb_GIW529_test_${category}_gpt-4.1-mini_scored.json"
+                "scored_model_responses/GIW529_gpt-5-nano_test_pllm_ft-comb_gpt-4.1-mini/inf_rslts_pllm_ft-comb_GIW529_test_${category}_gpt-4.1-mini_scored.json"
+                "scored_model_responses/GIW529_gpt-5-nano_test_shpllm_ft-upd_gpt-4.1-mini/inf_rslts_shapellm-13b-general-v1.0-finetune-upd_GIW529_gpt-5-nano_ft-upd_GIW529_test_${category}_gpt-4.1-mini_scored.json"
+                "scored_model_responses/GIW529_gpt-5-nano_test_llava3d_ft-upd_GIW529_gpt-5-nano_gpt-4.1-mini/inf_rslts_llava3d_ft-upd_GIW529_gpt-5-nano_GIW529_test_${category}_gpt-4.1-mini_scored.json"
+                "scored_model_responses/GIW529_gpt-5-nano_test_3dllm_ckpt7_gpt-4.1-mini/inf_rslts_3dllm_ft-GIW529_gpt-5-nano-ckpt7_GIW529_test_${category}_gpt-4.1-mini_scored.json"
             )
         fi
         
@@ -136,35 +160,57 @@ for dataset in "${datasets[@]}"; do
             # Add corresponding standard files to each series
             if [[ "$dataset" == "3D-FRONT" ]]; then
                 base_model_files+=(
-                    "./scored_model_responses/3D-FRONT_test_mgpt3d/inf_rslts_mgpt3d_3D-FRONT_test_standard_scored.json"
-                    "scored_model_responses/3D-FRONT_test_gplm/inf_rslts_gplm_3D-FRONT_test_standard_scored.json"
-                    "scored_model_responses/3D-FRONT_test_pllm/inf_rslts_pllm_base_3D-FRONT_test_standard_scored.json"
-                    "scored_model_responses/3D-FRONT_test_shpllm_ft-cap3d/inf_rslts_shapellm-13b-general-v1.0-finetune_ft-cap3d_3D-FRONT_test_standard_scored.json"
-                    "scored_model_responses/3D-FRONT_test_llava3d_base/inf_rslts_llava3d_base_3D-FRONT_test_standard_scored.json"
+                    "./scored_model_responses/3D-FRONT_test_mgpt3d_gpt-4.1-mini/inf_rslts_mgpt3d_3D-FRONT_test_standard_gpt-4.1-mini_scored.json"
+                    "scored_model_responses/3D-FRONT_test_gplm_gpt-4.1-mini/inf_rslts_gplm_3D-FRONT_test_standard_gpt-4.1-mini_scored.json"
+                    "scored_model_responses/3D-FRONT_test_pllm_gpt-4.1-mini/inf_rslts_pllm_base_3D-FRONT_test_standard_gpt-4.1-mini_scored.json"
+                    "scored_model_responses/3D-FRONT_test_shpllm_ft-cap3d_gpt-4.1-mini/inf_rslts_shapellm-13b-general-v1.0-finetune_ft-cap3d_3D-FRONT_test_standard_gpt-4.1-mini_scored.json"
+                    "scored_model_responses/3D-FRONT_test_llava3d_base_gpt-4.1-mini/inf_rslts_llava3d_base_3D-FRONT_test_standard_gpt-4.1-mini_scored.json"
+                    "scored_model_responses/3D-FRONT_test_3dllm_base_gpt-4.1-mini/inf_rslts_3dllm_3D-FRONT_test_standard_gpt-4.1-mini_scored.json"
                 )
                 
                 trained_model_files+=(
-                    "./scored_model_responses/3D-FRONT_test_mgpt3d_ft-comb/inf_rslts_mgpt3d_ft-comb_3D-FRONT_test_standard_scored.json"
-                    "scored_model_responses/3D-FRONT_test_gplm_ft-comb/inf_rslts_gplm_ft-comb_3D-FRONT_test_standard_scored.json"
-                    "scored_model_responses/3D-FRONT_test_pllm_ft-comb/inf_rslts_pllm_ft-comb_3D-FRONT_test_standard_scored.json"
-                    "scored_model_responses/3D-FRONT_test_shpllm_ft-upd/inf_rslts_shapellm-13b-general-v1.0-finetune-upd_ft-upd_3D-FRONT_test_standard_scored.json"
-                    "scored_model_responses/3D-FRONT_test_llava3d_ft-upd_3D-FRONT/inf_rslts_llava3d_ft-upd_3D-FRONT_3D-FRONT_test_standard_scored.json"
+                    "./scored_model_responses/3D-FRONT_test_mgpt3d_ft-comb_attempt2_gpt-4.1-mini/inf_rslts_mgpt3d_ft-comb_3D-FRONT_test_standard_gpt-4.1-mini_scored.json"
+                    "scored_model_responses/3D-FRONT_test_gplm_ft-comb_gpt-4.1-mini/inf_rslts_gplm_ft-comb_3D-FRONT_test_standard_gpt-4.1-mini_scored.json"
+                    "scored_model_responses/3D-FRONT_test_pllm_ft-comb_attempt2_gpt-4.1-mini/inf_rslts_pllm_ft-comb_3D-FRONT_test_standard_gpt-4.1-mini_scored.json"
+                    "scored_model_responses/3D-FRONT_test_shpllm_ft-upd_gpt-4.1-mini/inf_rslts_shapellm-13b-general-v1.0-finetune-upd_ft-upd_3D-FRONT_test_standard_gpt-4.1-mini_scored.json"
+                    "scored_model_responses/3D-FRONT_test_llava3d_ft-upd_3D-FRONT_gpt-4.1-mini/inf_rslts_llava3d_ft-upd_3D-FRONT_3D-FRONT_test_standard_gpt-4.1-mini_scored.json"
+                    "scored_model_responses/3D-FRONT_test_3dllm_ckpt7_gpt-4.1-mini/inf_rslts_3dllm_ft-3D-FRONT-ckpt7_3D-FRONT_test_standard_gpt-4.1-mini_scored.json"
+                )
+            elif [[ "$dataset" == "Crops3D_gpt-5-nano" ]]; then
+                base_model_files+=(
+                    "./scored_model_responses/Crops3D_gpt-5-nano_test_mgpt3d_base_gpt-4.1-mini/inf_rslts_mgpt3d_base_Crops3D_test_standard_gpt-4.1-mini_scored.json"
+                    "scored_model_responses/Crops3D_gpt-5-nano_test_gplm_base_gpt-4.1-mini/inf_rslts_gplm_base_Crops3D_test_standard_gpt-4.1-mini_scored.json"
+                    "scored_model_responses/Crops3D_gpt-5-nano_test_pllm_base_gpt-4.1-mini/inf_rslts_pllm_base_Crops3D_test_standard_gpt-4.1-mini_scored.json"
+                    "scored_model_responses/Crops3D_gpt-5-nano_test_shpllm_ft-cap3d_gpt-4.1-mini/inf_rslts_shapellm-13b-general-v1.0-finetune_ft-cap3d_Crops3D_test_standard_gpt-4.1-mini_scored.json"
+                    "scored_model_responses/Crops3D_gpt-5-nano_test_llava3d_base_gpt-4.1-mini/inf_rslts_llava3d_base_Crops3D_test_standard_gpt-4.1-mini_scored.json"
+                    "scored_model_responses/Crops3D_gpt-5-nano_test_3dllm_base_gpt-4.1-mini/inf_rslts_3dllm_Crops3D_test_standard_gpt-4.1-mini_scored.json"
+                )
+                
+                trained_model_files+=(
+                    "./scored_model_responses/Crops3D_gpt-5-nano_test_mgpt3d_ft-comb_gpt-4.1-mini/inf_rslts_mgpt3d_ft-comb_Crops3D_test_standard_gpt-4.1-mini_scored.json"
+                    "scored_model_responses/Crops3D_gpt-5-nano_test_gplm_ft-comb_gpt-4.1-mini/inf_rslts_gplm_ft-comb_Crops3D_test_standard_gpt-4.1-mini_scored.json"
+                    "scored_model_responses/Crops3D_gpt-5-nano_test_pllm_ft-comb_gpt-4.1-mini/inf_rslts_pllm_ft-comb_Crops3D_test_standard_gpt-4.1-mini_scored.json"
+                    "scored_model_responses/Crops3D_gpt-5-nano_test_shpllm_ft-upd_gpt-4.1-mini/inf_rslts_shapellm-13b-general-v1.0-finetune-upd_Crops3D_gpt-5-nano_ft-upd_Crops3D_test_standard_gpt-4.1-mini_scored.json"
+                    "scored_model_responses/Crops3D_gpt-5-nano_test_llava3d_ft-upd_Crops3D_gpt-5-nano_gpt-4.1-mini/inf_rslts_llava3d_ft-upd_Crops3D_gpt-5-nano_Crops3D_test_standard_gpt-4.1-mini_scored.json"
+                    "scored_model_responses/Crops3D_gpt-5-nano_test_3dllm_ckpt7_gpt-4.1-mini/inf_rslts_3dllm_ft-Crops3D_gpt-5-nano-ckpt7_Crops3D_test_standard_gpt-4.1-mini_scored.json"
                 )
             else
                 base_model_files+=(
-                    "./scored_model_responses/Crops3D_gpt-5-nano_test_mgpt3d_base/inf_rslts_mgpt3d_base_Crops3D_test_standard_scored.json"
-                    "scored_model_responses/Crops3D_gpt-5-nano_test_gplm_base/inf_rslts_gplm_base_Crops3D_test_standard_scored.json"
-                    "scored_model_responses/Crops3D_gpt-5-nano_test_pllm_base/inf_rslts_pllm_base_Crops3D_test_standard_scored.json"
-                    "scored_model_responses/Crops3D_gpt-5-nano_test_shpllm_ft-cap3d/inf_rslts_shapellm-13b-general-v1.0-finetune_ft-cap3d_Crops3D_test_standard_scored.json"
-                    "scored_model_responses/Crops3D_gpt-5-nano_test_llava3d_base/inf_rslts_llava3d_base_Crops3D_test_standard_scored.json"
+                    "./scored_model_responses/GIW529_gpt-5-nano_test_mgpt3d_base_gpt-4.1-mini/inf_rslts_mgpt3d_base_GIW529_test_standard_gpt-4.1-mini_scored.json"
+                    "scored_model_responses/GIW529_gpt-5-nano_test_gplm_base_gpt-4.1-mini/inf_rslts_gplm_base_GIW529_test_standard_gpt-4.1-mini_scored.json"
+                    "scored_model_responses/GIW529_gpt-5-nano_test_pllm_base_gpt-4.1-mini/inf_rslts_pllm_base_GIW529_test_standard_gpt-4.1-mini_scored.json"
+                    "scored_model_responses/GIW529_gpt-5-nano_test_shpllm_ft-cap3d_gpt-4.1-mini/inf_rslts_shapellm-13b-general-v1.0-finetune_ft-cap3d_GIW529_test_standard_gpt-4.1-mini_scored.json"
+                    "scored_model_responses/GIW529_gpt-5-nano_test_llava3d_base_gpt-4.1-mini/inf_rslts_llava3d_base_GIW529_test_standard_gpt-4.1-mini_scored.json"
+                    "scored_model_responses/GIW529_gpt-5-nano_test_3dllm_base_gpt-4.1-mini/inf_rslts_3dllm_base_GIW529_test_standard_gpt-4.1-mini_scored.json"
                 )
                 
                 trained_model_files+=(
-                    "./scored_model_responses/Crops3D_gpt-5-nano_test_mgpt3d_ft-comb/inf_rslts_mgpt3d_ft-comb_Crops3D_test_standard_scored.json"
-                    "scored_model_responses/Crops3D_gpt-5-nano_test_gplm_ft-comb/inf_rslts_gplm_ft-comb_Crops3D_test_standard_scored.json"
-                    "scored_model_responses/Crops3D_gpt-5-nano_test_pllm_ft-comb/inf_rslts_pllm_ft-comb_Crops3D_test_standard_scored.json"
-                    "scored_model_responses/Crops3D_gpt-5-nano_test_shpllm_ft-upd/inf_rslts_shapellm-13b-general-v1.0-finetune-upd_Crops3D_gpt-5-nano_ft-upd_Crops3D_test_standard_scored.json"
-                    "scored_model_responses/Crops3D_gpt-5-nano_test_llava3d_ft-upd_Crops3D_gpt-5-nano/inf_rslts_llava3d_ft-upd_Crops3D_gpt-5-nano_Crops3D_test_standard_scored.json"
+                    "./scored_model_responses/GIW529_gpt-5-nano_test_mgpt3d_ft-comb_gpt-4.1-mini/inf_rslts_mgpt3d_ft-comb_GIW529_test_standard_gpt-4.1-mini_scored.json"
+                    "scored_model_responses/GIW529_gpt-5-nano_test_gplm_ft-comb_gpt-4.1-mini/inf_rslts_gplm_ft-comb_GIW529_test_standard_gpt-4.1-mini_scored.json"
+                    "scored_model_responses/GIW529_gpt-5-nano_test_pllm_ft-comb_gpt-4.1-mini/inf_rslts_pllm_ft-comb_GIW529_test_standard_gpt-4.1-mini_scored.json"
+                    "scored_model_responses/GIW529_gpt-5-nano_test_shpllm_ft-upd_gpt-4.1-mini/inf_rslts_shapellm-13b-general-v1.0-finetune-upd_GIW529_gpt-5-nano_ft-upd_GIW529_test_standard_gpt-4.1-mini_scored.json"
+                    "scored_model_responses/GIW529_gpt-5-nano_test_llava3d_ft-upd_GIW529_gpt-5-nano_gpt-4.1-mini/inf_rslts_llava3d_ft-upd_GIW529_gpt-5-nano_GIW529_test_standard_gpt-4.1-mini_scored.json"
+                    "scored_model_responses/GIW529_gpt-5-nano_test_3dllm_ckpt7_gpt-4.1-mini/inf_rslts_3dllm_ft-GIW529_gpt-5-nano-ckpt7_GIW529_test_standard_gpt-4.1-mini_scored.json"
                 )
             fi
         fi
