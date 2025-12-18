@@ -20,6 +20,7 @@ def main():
     parser.add_argument("--title_fontsize", type=int, default=19, help="Font size for title text.")
     parser.add_argument("--fontscale", type=float, default=1.0, help="Scale factor to multiply all font sizes.")
     parser.add_argument("--fig_pad", type=float, default=1.5, help="Padding for the figure to prevent cutoff.")
+    parser.add_argument("--max_xticks", type=int, default=10, help="Maximum number of intervals on x-axis (controls spacing between ticks).")
     args = parser.parse_args()
 
     # Apply font scaling
@@ -100,10 +101,25 @@ def main():
     plt.title(args.title, fontsize=title_fontsize)
     
     # Use category names on the y-axis
-    names_list = list(standard_upd_accuracies.keys())
-    # Remove scoring model name pattern (e.g., _gpt-4.1-mini_scored.json or _gpt-5-nano_scored.json)
-    names_list = [re.sub(r'_[^_/]+_scored\.json$', '', name) for name in names_list]
-    names_list = [name.split(args.naming_delim)[1] for name in names_list]
+    names_list = []
+    for filepath in standard_upd_accuracies.keys():
+        # Get just the filename
+        basename = os.path.basename(filepath)
+        
+        # Extract category using regex pattern: _test_[category]_[scoring_model]_scored.json
+        # Pattern matches: _test_ followed by category, then _[scoring_model]_scored.json
+        match = re.search(r'_test_(.+?)_[^_/]+_scored\.json$', basename)
+        if match:
+            category = match.group(1)
+        else:
+            # Fallback: try to extract anything after _test_
+            if '_test_' in basename:
+                category = basename.split('_test_')[-1].replace('_scored.json', '').split('_')[0]
+            else:
+                category = basename
+        names_list.append(category)
+    
+    # Format the category names
     names_list = [name.replace("_", " ") for name in names_list]
     names_list = [name.title() for name in names_list]
 
@@ -125,7 +141,7 @@ def main():
     plt.xlim(0, max_samples)
     # Hide the final tick at the upper bound but keep the axis ending at max_samples
     ax = plt.gca()
-    ax.xaxis.set_major_locator(MaxNLocator(integer=True, prune='upper'))
+    ax.xaxis.set_major_locator(MaxNLocator(nbins=args.max_xticks, integer=True, prune='upper'))
     plt.xlabel(f"Test Samples Graded Correct (of {max_samples})", fontsize=tick_fontsize)
     plt.tick_params(axis='x', labelsize=args.tick_fontsize)
 
