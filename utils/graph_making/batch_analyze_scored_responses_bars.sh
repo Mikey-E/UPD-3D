@@ -17,11 +17,11 @@ get_model_name() {
         *gplm*)
             echo "GreenPLM"
             ;;
-        *pllm*)
-            echo "PointLLM"
-            ;;
         *shpllm*)
             echo "ShapeLLM"
+            ;;
+        *pllm*)
+            echo "PointLLM"
             ;;
         *llava3d*)
             echo "LLaVA-3D"
@@ -51,9 +51,11 @@ get_model_variant() {
     if [[ "$model_str" == *"_base"* ]]; then
         echo "Base"
     elif [[ "$model_str" == *"ft-comb"* ]]; then
-        echo "Finetuned (Combined)"
+        echo "Trained on Combined Data (Orig + UPD)"
+    elif [[ "$model_str" == *"ft-upd-only"* ]]; then
+        echo "Trained on UPD Data Only"
     elif [[ "$model_str" == *"ft-upd"* ]]; then
-        echo "Finetuned (UPD Only)"
+        echo "Finetuned"
     elif [[ "$model_str" == *"ckpt"* ]]; then
         # Extract checkpoint number if present
         local ckpt=$(echo "$model_str" | grep -oP 'ckpt\d+')
@@ -128,8 +130,8 @@ for folder in "$SCORED_DIR"/*/ ; do
     model_name=$(get_model_name "$model_part")
     model_variant=$(get_model_variant "$model_part")
     
-    # Construct title
-    if [ -n "$model_variant" ]; then
+    # Construct title (omit parentheses if variant is empty or "Base")
+    if [ -n "$model_variant" ] && [ "$model_variant" != "Base" ]; then
         title="$model_name ($model_variant) - $dataset_clean Test Set"
     else
         title="$model_name - $dataset_clean Test Set"
@@ -154,7 +156,10 @@ for folder in "$SCORED_DIR"/*/ ; do
     python analyze_scored_responses_bars.py \
         "$folder" \
         --naming_delim "$naming_delim" \
-        --title "$title"
+        --title "$title" \
+        --fig_pad 3.0 \
+        --max_xticks 8 \
+        --title_fontsize 14
     
     echo "  ✓ Completed"
     echo ""
