@@ -129,7 +129,7 @@ def main():
     plt.xlabel(f"Test Samples Graded Correct (of {max_samples})", fontsize=tick_fontsize)
     plt.tick_params(axis='x', labelsize=args.tick_fontsize)
 
-    output_dir = "./results"
+    output_dir = "./results/bar_graphs"
     os.makedirs(output_dir, exist_ok=True)
     
     # Extract scoring model name from folder name (last underscore-separated part)

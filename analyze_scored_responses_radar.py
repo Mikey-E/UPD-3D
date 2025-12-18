@@ -196,7 +196,7 @@ def main():
     plt.tight_layout(pad=args.fig_pad)
     
     # Save the figure
-    output_dir = "./results"
+    output_dir = "./results/radar_graphs"
     os.makedirs(output_dir, exist_ok=True)
     
     # Extract scoring model name from first folder name (last underscore-separated part)
