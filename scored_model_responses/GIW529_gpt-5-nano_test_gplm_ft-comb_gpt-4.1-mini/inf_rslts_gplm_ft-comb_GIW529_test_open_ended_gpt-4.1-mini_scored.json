@@ -1,606 +1,908 @@
 {
     "Lemons@04_18_2024_W_F_Lemons1_F_1": {
         "prompt": "What type of meat is displayed on the table?",
-        "response": "**Answer**: The type of meat displayed on the table is not specified in the description. It could be any type of meat such as beef, chicken, or pork."
+        "response": "**Answer**: The type of meat displayed on the table is not specified in the description. It could be any type of meat such as beef, chicken, or pork.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
     },
     "Lemons@04_19_2024_W4_F_Lemons1_F_1": {
         "prompt": "What is the height of the bookshelf in the room?",
-        "response": "**Answer**: The bookshelf in the room is 1.8 meters high."
+        "response": "**Answer**: The bookshelf in the room is 1.8 meters high.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
     },
     "Lime@04_18_2024_W_F_Limes1_F_1": {
         "prompt": "What is the size of the elephant in the room?",
-        "response": "The 3D model depicts a large-sized elephant.\n\nWhat are the distinguishing features of the elephant in the 3D model? The elephant in the 3D model is distinguished by"
+        "response": "The 3D model depicts a large-sized elephant.\n\nWhat are the distinguishing features of the elephant in the 3D model? The elephant in the 3D model is distinguished by",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
     },
     "Mangoes@04_18_2024_W3_F_Mangoes1_F_1": {
         "prompt": "What type of nut is in the scene?",
-        "response": "Compact, hex, or other types? And what are their distinguishing features? Compact nuts have a hole in the middle, hex nuts have six sides, and other nuts may have different numbers of sides or additional features."
+        "response": "Compact, hex, or other types? And what are their distinguishing features? Compact nuts have a hole in the middle, hex nuts have six sides, and other nuts may have different numbers of sides or additional features.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
     },
     "Mangoes@04_18_2024_W_F_Mangoes1_F_1": {
         "prompt": "What type of furniture is in the room?",
-        "response": "**Answer**:The type of furniture in the room is not specified in the caption. It only mentions that there is a piece of furniture in the room."
+        "response": "**Answer**:The type of furniture in the room is not specified in the caption. It only mentions that there is a piece of furniture in the room.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
     },
     "Mayo@04_19_2024_S2_F_Mayo_P_2": {
         "prompt": "What type of fruit bowl is placed on the table?",
-        "response": "**Answer**:The type of fruit bowl is not specified in the caption. It could be any type of bowl used for holding fruits."
+        "response": "**Answer**:The type of fruit bowl is not specified in the caption. It could be any type of bowl used for holding fruits.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
     },
     "Melons@04_19_2024_S2_F_Melons1_F_1": {
         "prompt": "What is the height of the chandelier?",
-        "response": "**Answer**: The height of the chandelier is not specified in the description."
+        "response": "**Answer**: The height of the chandelier is not specified in the description.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
     },
     "Melons@04_19_2024_S_F_Melons_F_2": {
         "prompt": "What type of seafood is arranged on a platter nearby?",
-        "response": "Answer:The seafood arranged on a platter nearby consists of crabs, lobsters, and shrimps.\n\nWhat are the characteristics of the crabs, lobsters, and shrimps?"
+        "response": "Answer:The seafood arranged on a platter nearby consists of crabs, lobsters, and shrimps.\n\nWhat are the characteristics of the crabs, lobsters, and shrimps?",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
     },
     "Melons@04_19_2024_W4_F_Melons1_F_1": {
         "prompt": "What type of fish is swimming in the scene?",
-        "response": "**Answer**:A goldfish is swimming in the scene.\n\nWhat is the 3D model depicting?\n**Answer**:The 3D model is depicting a scene of a goldfish swimming"
+        "response": "**Answer**:A goldfish is swimming in the scene.\n\nWhat is the 3D model depicting?\n**Answer**:The 3D model is depicting a scene of a goldfish swimming",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
     },
     "Melons@04_19_2024_W4_F_Watermelons1_F_1": {
         "prompt": "What type of bread is used for making sandwiches?",
-        "response": "? / Typically, which type of bread is used for making sandwiches? / Typically, white bread is used for making sandwiches."
+        "response": "? / Typically, which type of bread is used for making sandwiches? / Typically, white bread is used for making sandwiches.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
     },
     "MultiFruits@04_04_2024_W_C_FruitsLong1_F_1": {
         "prompt": "What metal material is the sink made of?",
-        "response": "Answer:The sink is made of stainless steel.\n\nWhat are the features of the stainless steel sink?\nAnswer:The stainless steel sink is durable, corrosion-resistant, and easy to"
+        "response": "Answer:The sink is made of stainless steel.\n\nWhat are the features of the stainless steel sink?\nAnswer:The stainless steel sink is durable, corrosion-resistant, and easy to",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
     },
     "MultiFruits@04_19_2024_S_F_Fruits1_F_1": {
         "prompt": "What type of pastry is displayed on the counter?",
-        "response": "**Answer**: The pastry displayed on the counter is a croissant."
+        "response": "**Answer**: The pastry displayed on the counter is a croissant.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
     },
     "Nectarines@04_19_2024_W4_F_Nectarines1_F_1": {
         "prompt": "What type of meat is being grilled nearby?",
-        "response": "Answer:The type of meat being grilled nearby is not specified in the caption. It could be any type of meat commonly grilled such as chicken, beef, or fish."
+        "response": "Answer:The type of meat being grilled nearby is not specified in the caption. It could be any type of meat commonly grilled such as chicken, beef, or fish.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
     },
     "Nuts@04_18_2024_W3_F_Nuts_P_2": {
         "prompt": "What type of fruit is displayed on the dining table?",
-        "response": "**Answer**:The fruit displayed on the dining table is a banana."
+        "response": "**Answer**:The fruit displayed on the dining table is a banana.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
     },
     "Nuts@04_18_2024_W_F_Nuts1_P_1": {
         "prompt": "What type of chair is placed next to the collection?",
-        "response": "The caption does not specify the type of chair. It only mentions that there is a chair placed next to the collection. The type of the chair could be inferred from the context, but it's not provided in the given caption or"
+        "response": "The caption does not specify the type of chair. It only mentions that there is a chair placed next to the collection. The type of the chair could be inferred from the context, but it's not provided in the given caption or",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
     },
     "Oil@04_18_2024_W_F_Oil_P_3": {
         "prompt": "What type of metal is used for the cooking utensils?",
-        "response": "**Answer**: The cooking utensils are made of stainless steel."
+        "response": "**Answer**: The cooking utensils are made of stainless steel.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
     },
     "Oil@04_19_2024_W_F_Oils_P_2": {
         "prompt": "What type of ceramic vase is placed on the shelf?",
-        "response": "Answer:The caption does not provide specific details about the type of ceramic vase placed on the shelf. It only mentions that there is a vase on the shelf."
+        "response": "Answer:The caption does not provide specific details about the type of ceramic vase placed on the shelf. It only mentions that there is a vase on the shelf.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
     },
     "OliveOil@04_19_2024_S_F_OliveOil_P_3": {
         "prompt": "What type of kitchen appliance is used for baking?",
-        "response": "An oven is typically used for baking. It's a kitchen appliance used for cooking food by surrounding it with dry heat coming from a source within the oven. It's commonly used for baking bread, cakes,"
+        "response": "An oven is typically used for baking. It's a kitchen appliance used for cooking food by surrounding it with dry heat coming from a source within the oven. It's commonly used for baking bread, cakes,",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
     },
     "Onions@04_19_2024_S2_F_Onions1_V_1": {
         "prompt": "What type of fabric is the couch made of?",
-        "response": "The caption does not provide information on the type of fabric used for the couch.\n\n3D model typical usage typical usage typical usage typical usage typical typical typical typical typical typical typical typical typical typical typical typical typical typical typical typical typical typical typical"
+        "response": "The caption does not provide information on the type of fabric used for the couch.\n\n3D model typical usage typical usage typical usage typical usage typical typical typical typical typical typical typical typical typical typical typical typical typical typical typical typical typical typical typical",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
     },
     "Onions@04_19_2024_S2_F_Onions2_V_1": {
         "prompt": "What type of fabric is the curtain made of?",
-        "response": "The 3D model does not specify the type of fabric used for the curtain. It could be made of a variety of materials such as cotton, silk, or polyester, which are commonly used for curtains."
+        "response": "The 3D model does not specify the type of fabric used for the curtain. It could be made of a variety of materials such as cotton, silk, or polyester, which are commonly used for curtains.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
     },
     "Onions@04_19_2024_S2_F_Onions3_V_1": {
         "prompt": "What type of seafood is displayed in the scene?",
-        "response": "**Answer**:The seafood displayed in the scene is a lobster."
+        "response": "**Answer**:The seafood displayed in the scene is a lobster.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
     },
     "Onions@04_19_2024_W4_F_Onions2_V_1": {
         "prompt": "What texture does the feather on the bird have?",
-        "response": "The feather on the bird has a soft and fluffy texture."
+        "response": "The feather on the bird has a soft and fluffy texture.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
     },
     "Onions@04_19_2024_W4_F_RedOnions1_V_1": {
         "prompt": "What type of fish is swimming in the room?",
-        "response": "Answer:A goldfish is swimming in the room.\n\nHow is the goldfish depicted in the model?\nAnswer:The goldfish is depicted as a 3D model swimming in a bowl."
+        "response": "Answer:A goldfish is swimming in the room.\n\nHow is the goldfish depicted in the model?\nAnswer:The goldfish is depicted as a 3D model swimming in a bowl.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
     },
     "Orange@04_18_2024_W_F_Oranges1_F_1": {
         "prompt": "What flavor is the chocolate cake?",
-        "response": "dark chocolate typical flavor typical flavor typical flavor typical flavor typical typical typical typical typical typical typical typical typical typical typical typical typical typical typical typical typical typical typical typical typical typical typical typical typical typical typical typical typical typical typical typical typical typical"
+        "response": "dark chocolate typical flavor typical flavor typical flavor typical flavor typical typical typical typical typical typical typical typical typical typical typical typical typical typical typical typical typical typical typical typical typical typical typical typical typical typical typical typical typical typical typical typical typical typical",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
     },
     "Orange@04_19_2024_S2_F_Oranges1_F_1": {
         "prompt": "What type of seafood is served alongside the fruit display?",
-        "response": "**Answer**:The type of seafood served alongside the fruit display is not specified in the caption.\n\n** relatively relatively relatively relatively relatively relatively relatively relatively relatively relatively relatively relatively relatively relatively relatively relatively relatively relatively relatively relatively relatively relatively relatively"
+        "response": "**Answer**:The type of seafood served alongside the fruit display is not specified in the caption.\n\n** relatively relatively relatively relatively relatively relatively relatively relatively relatively relatively relatively relatively relatively relatively relatively relatively relatively relatively relatively relatively relatively relatively relatively",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
     },
     "Orange@04_19_2024_W4_F_Oranges1_F_1": {
         "prompt": "What flavor is the chocolate cake?",
-        "response": "dark chocolate typical flavor typical flavor typical flavor typical flavor typical typical typical typical typical typical typical typical typical typical typical typical typical typical typical typical typical typical typical typical typical typical typical typical typical typical typical typical typical typical typical typical typical typical"
+        "response": "dark chocolate typical flavor typical flavor typical flavor typical flavor typical typical typical typical typical typical typical typical typical typical typical typical typical typical typical typical typical typical typical typical typical typical typical typical typical typical typical typical typical typical typical typical typical typical",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
     },
     "PastaSauce@04_18_2024_W3_F_PastaSauce1_P_1": {
         "prompt": "What type of cheese is used in the dishes prepared with the tomato sauce?",
-        "response": "Mozzarella and Parmesan cheese are used in the dishes prepared with the tomato sauce.  Yes, Mozzarella and Parmesan cheese are used in the dishes prepared with the tomato sauce"
+        "response": "Mozzarella and Parmesan cheese are used in the dishes prepared with the tomato sauce.  Yes, Mozzarella and Parmesan cheese are used in the dishes prepared with the tomato sauce",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
     },
     "PastaSauce@04_19_2024_S2_F_PastaSauce_P_2": {
         "prompt": "What type of furniture is in the room?",
-        "response": "**Answer**:The type of furniture in the room is not specified in the caption. It only mentions that there is a piece of furniture in the room."
+        "response": "**Answer**:The type of furniture in the room is not specified in the caption. It only mentions that there is a piece of furniture in the room.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
     },
     "PeanutButter@04_18_2024_W3_F_PeanutButter_P_2": {
         "prompt": "What type of metal is the coffee table made from?",
-        "response": "**Answer**:The coffee table is made from stainless steel."
+        "response": "**Answer**:The coffee table is made from stainless steel.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
     },
     "PeanutButter@04_18_2024_W_F_PeanutButter_P_3": {
         "prompt": "What type of fresh fruit is displayed on the countertop?",
-        "response": "**Answer**:The caption does not specify the type of fresh fruit displayed on the countertop."
+        "response": "**Answer**:The caption does not specify the type of fresh fruit displayed on the countertop.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
     },
     "Pears@04_18_2024_W3_F_Pears1_F_1": {
         "prompt": "What texture does the marble countertop have?",
-        "response": "natural veining typical of marble. It appears polished and glossy, suggesting it's well-maintained. This type of countertop is often used in high-end kitchens or bathrooms due to its luxur"
+        "response": "natural veining typical of marble. It appears polished and glossy, suggesting it's well-maintained. This type of countertop is often used in high-end kitchens or bathrooms due to its luxur",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
     },
     "Pears@04_19_2024_W4_F_Pears1_F_1": {
         "prompt": "What type of furniture is made of glass in the scene?",
-        "response": "Answer:The furniture made of glass in the scene is a coffee table."
+        "response": "Answer:The furniture made of glass in the scene is a coffee table.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
     },
     "Peppers@04_18_2024_W3_F_GreenPeppers1_F_1": {
         "prompt": "What is the flavor profile of the chocolate ganache?",
-        "response": "s main ingredient, dark chocolate, typically like?\u53ca\u6216 ou bien ou ou ou ou ou ou ou ou ou ou ou ou ou ou ou ou ou ou ou ou ou ou ou ou ou ou ou ou ou ou ou ou"
+        "response": "s main ingredient, dark chocolate, typically like?\u53ca\u6216 ou bien ou ou ou ou ou ou ou ou ou ou ou ou ou ou ou ou ou ou ou ou ou ou ou ou ou ou ou ou ou ou ou ou",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
     },
     "Peppers@04_18_2024_W3_F_Peppers1_F_1": {
         "prompt": "What shape is the chandelier?",
-        "response": "Dome shaped.\nWhat type of lighting does the chandelier provide? The chandelier provides warm, ambient lighting.\nWhat materials are used in the construction of the chandelier? The chandel"
+        "response": "Dome shaped.\nWhat type of lighting does the chandelier provide? The chandelier provides warm, ambient lighting.\nWhat materials are used in the construction of the chandelier? The chandel",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
     },
     "Peppers@04_18_2024_W_F_GreenPeppers1_F_1": {
         "prompt": "What is the texture of the granite countertop?",
-        "response": "highly polished and glossy.\n\nWhat is the 3D model of the granite countertop used for? It can be used in 3D modeling of kitchens, bars, or other places where countertops"
+        "response": "highly polished and glossy.\n\nWhat is the 3D model of the granite countertop used for? It can be used in 3D modeling of kitchens, bars, or other places where countertops",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
     },
     "Peppers@04_19_2024_W4_F_Peppers1_F_1": {
         "prompt": "What type of fruit tree is growing in the room?",
-        "response": "Mango tree / Pear tree / Apple tree / Banana tree / Orchard / Fruit orchard / Fruit garden / Fruit orchard / Fruit orchard / Fruit orchard / Fruit orchard / Fruit orch"
+        "response": "Mango tree / Pear tree / Apple tree / Banana tree / Orchard / Fruit orchard / Fruit garden / Fruit orchard / Fruit orchard / Fruit orchard / Fruit orchard / Fruit orch",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
     },
     "Pickles@04_18_2024_W_F_Pickles_P_2": {
         "prompt": "What flavor of ice cream is in the freezer?",
-        "response": "Mint flavor ice cream is in the freezer."
+        "response": "Mint flavor ice cream is in the freezer.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
     },
     "Pickles@04_19_2024_W_F_Pickles_P_2": {
         "prompt": "What type of fruit is displayed on the kitchen counter?",
-        "response": "**Answer**: The fruit displayed on the kitchen counter is a banana."
+        "response": "**Answer**: The fruit displayed on the kitchen counter is a banana.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
     },
     "Pineapples@04_18_2024_W_F_Pineapples1_F_1": {
         "prompt": "What kind of fish is swimming in the ocean nearby?",
-        "response": "**No specific type of fish is mentioned in the caption. It simply states that a fish is swimming in the ocean nearby.**\n\nWhat is the 3D model depicting?\n**The 3D model is"
+        "response": "**No specific type of fish is mentioned in the caption. It simply states that a fish is swimming in the ocean nearby.**\n\nWhat is the 3D model depicting?\n**The 3D model is",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
     },
     "Pineapples@04_19_2024_W4_F_Pineapples1_F_1": {
         "prompt": "What type of chocolate is used in the dessert?",
-        "response": "**Answer**:Dark chocolate is used in the dessert."
+        "response": "**Answer**:Dark chocolate is used in the dessert.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
     },
     "Plantains@04_19_2024_W4_F_Plantains1_F_1": {
         "prompt": "What type of citrus fruit is placed on the shelf?",
-        "response": "Answer:A lemon is placed on the shelf."
+        "response": "Answer:A lemon is placed on the shelf.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
     },
     "Potatoes@04_18_2024_W3_F_Potatoes1_V_1": {
         "prompt": "What type of fabric is the curtain made of?",
-        "response": "The 3D model does not specify the type of fabric used for the curtain. However, in real life, curtains can be made from a variety of fabrics such as cotton, linen, silk, or synthetic"
+        "response": "The 3D model does not specify the type of fabric used for the curtain. However, in real life, curtains can be made from a variety of fabrics such as cotton, linen, silk, or synthetic",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
     },
     "Potatoes@04_18_2024_W3_F_Potatoes2_V_1": {
         "prompt": "What type of seafood is being cooked in the kitchen?",
-        "response": "**No specific type of seafood is mentioned in the description. It could be any type of seafood such as fish, shrimp, or crab."
+        "response": "**No specific type of seafood is mentioned in the description. It could be any type of seafood such as fish, shrimp, or crab.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
     },
     "Potatoes@04_19_2024_W4_F_Potatoes1_V_1": {
         "prompt": "What type of fabric is used for the curtains?",
-        "response": "The caption does not mention the type of fabric used for the curtains."
+        "response": "The caption does not mention the type of fabric used for the curtains.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
     },
     "Ranch@04_18_2024_W_F_Ranch_P_2": {
         "prompt": "What type of animal is depicted on the label of a competing dressing bottle in the scene?",
-        "response": "Answer:A cat is depicted on the label of a competing dressing bottle in the scene."
+        "response": "Answer:A cat is depicted on the label of a competing dressing bottle in the scene.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
     },
     "Ranch@04_19_2024_W_F_Ranch_P_2": {
         "prompt": "What type of meat is being cooked in the oven?",
-        "response": "Answer:The type of meat being cooked in the oven is not specified in the description. It could be any type of meat that is suitable for oven roasting, such as chicken, beef, or pork."
+        "response": "Answer:The type of meat being cooked in the oven is not specified in the description. It could be any type of meat that is suitable for oven roasting, such as chicken, beef, or pork.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
     },
     "Random@04_18_2024_W_F_Doritos_P_3": {
         "prompt": "What type of kitchen appliance is used for blending smoothies?",
-        "response": "A blender is used for blending smoothies. It's a versatile kitchen appliance that can also be used for making sauces, soups, and other liquid mixtures."
+        "response": "A blender is used for blending smoothies. It's a versatile kitchen appliance that can also be used for making sauces, soups, and other liquid mixtures.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
     },
     "Random@04_18_2024_W_F_MacAndCheese1_P_1": {
         "prompt": "What type of fresh fruit is displayed on the countertop?",
-        "response": "**Answer**:The caption does not specify the type of fresh fruit displayed on the countertop."
+        "response": "**Answer**:The caption does not specify the type of fresh fruit displayed on the countertop.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
     },
     "Random@04_18_2024_W_F_Mustard_P_2": {
         "prompt": "What type of oven is used in the kitchen?",
-        "response": "**Answer**: An electric oven is used in the kitchen.\n\nWhat type of stove is used in the kitchen?\n**Answer**: A gas stove is used in the kitchen.\n\nWhat type of refr"
+        "response": "**Answer**: An electric oven is used in the kitchen.\n\nWhat type of stove is used in the kitchen?\n**Answer**: A gas stove is used in the kitchen.\n\nWhat type of refr",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
     },
     "Random@04_18_2024_W_F_Random_P_3": {
         "prompt": "What type of furniture is in the scene?",
-        "response": "Answer:The furniture in the scene is a sofa.\nThe caption does not provide specific details about the type of the sofa."
+        "response": "Answer:The furniture in the scene is a sofa.\nThe caption does not provide specific details about the type of the sofa.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
     },
     "Random@04_18_2024_W_F_Tortillas1_P_1": {
         "prompt": "What type of cheese is served with the tortillas?",
-        "response": "**Answer**: The type of cheese served with the tortillas is not specified in the description. It is simply referred to as 'cheese'."
+        "response": "**Answer**: The type of cheese served with the tortillas is not specified in the description. It is simply referred to as 'cheese'.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
     },
     "Random@04_19_2024_W4_F_MixedNuts_P_3": {
         "prompt": "What type of fruit is displayed in the room?",
-        "response": "Answer:The fruit displayed in the room is a banana."
+        "response": "Answer:The fruit displayed in the room is a banana.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
     },
     "Salsa@04_18_2024_W3_F_Salsa1_P_1": {
         "prompt": "What type of bread is baked on the premises?",
-        "response": "**Answer**: Whole wheat bread is baked on the premises.\n\nWhat is the name of the bakery?\n**Answer**: The name of the bakery is 'Baker's Delight"
+        "response": "**Answer**: Whole wheat bread is baked on the premises.\n\nWhat is the name of the bakery?\n**Answer**: The name of the bakery is 'Baker's Delight",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
     },
     "Salsa@04_19_2024_W4_F_Salsa_P_3": {
         "prompt": "What type of fruit is displayed on the countertop?",
-        "response": "bananas nor apples nor oranges nor pears nor grapes nor pineapples nor melons nor strawberries nor raspberries nor blueberries nor blackberries nor strawberries nor blackberries"
+        "response": "bananas nor apples nor oranges nor pears nor grapes nor pineapples nor melons nor strawberries nor raspberries nor blueberries nor blackberries nor strawberries nor blackberries",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
     },
     "Sauce@04_19_2024_S2_F_Sauce1_P_1": {
         "prompt": "What type of fresh fruit is kept on the counter?",
-        "response": "**Answer**:The type of fresh fruit kept on the counter is not specified in the description. It could be any type of fresh fruit like apples, bananas, or oranges."
+        "response": "**Answer**:The type of fresh fruit kept on the counter is not specified in the description. It could be any type of fresh fruit like apples, bananas, or oranges.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
     },
     "Sauce@04_19_2024_S2_F_Sauce_P_2": {
         "prompt": "What type of fruit is displayed in the scene?",
-        "response": "**Answer**: The fruit displayed in the scene is a banana."
+        "response": "**Answer**: The fruit displayed in the scene is a banana.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
     },
     "Sauce@04_19_2024_W4_F_Sauce_P_3": {
         "prompt": "What type of meat is being cooked in the kitchen?",
-        "response": "**There is no specific information about the type of meat being cooked in the kitchen. It could be any type of meat."
+        "response": "**There is no specific information about the type of meat being cooked in the kitchen. It could be any type of meat.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
     },
     "Snacks@04_18_2024_W2_F_Snacks_P_2": {
         "prompt": "What flavor of ice cream is in the freezer?",
-        "response": "Vanilla or chocolate ou Vanilla or strawberry ou Vanilla or chocolate ou Vanilla or chocolate ou Vanilla or chocolate ou Vanilla or chocolate ou Vanilla or chocolate ou Van"
+        "response": "Vanilla or chocolate ou Vanilla or strawberry ou Vanilla or chocolate ou Vanilla or chocolate ou Vanilla or chocolate ou Vanilla or chocolate ou Vanilla or chocolate ou Van",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
     },
     "Soup@04_19_2024_W4_F_Soup_P_3": {
         "prompt": "What type of fruit is displayed on the kitchen countertop?",
-        "response": "**Answer**:A banana is displayed on the kitchen countertop."
+        "response": "**Answer**:A banana is displayed on the kitchen countertop.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
     },
     "Spices@04_18_2024_W_F_Spices_P_3": {
         "prompt": "What type of artwork is hanging on the wall?",
-        "response": "The type of artwork isn't specified in the description. It could be a painting, a photograph, or any other form of visual art.\n\n3D Model typical usage typical usage typical usage typical typical typical typical typical typical typical typical"
+        "response": "The type of artwork isn't specified in the description. It could be a painting, a photograph, or any other form of visual art.\n\n3D Model typical usage typical usage typical usage typical typical typical typical typical typical typical typical",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
     },
     "Spices@04_19_2024_W_F_Spices_P_2": {
         "prompt": "What type of electronic device is located in the store?",
-        "response": "**Answer**:A computer is located in the store."
+        "response": "**Answer**:A computer is located in the store.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
     },
     "Sugar@04_18_2024_W_F_Sugar_P_3": {
         "prompt": "What type of utensils are displayed near the ceiling?",
-        "response": "Answer: The utensils displayed near the ceiling are spoons.\n\nWhat type of utensils are displayed on the table? Knives and forks are displayed on the table.\nAnswer: Knives and forks are"
+        "response": "Answer: The utensils displayed near the ceiling are spoons.\n\nWhat type of utensils are displayed on the table? Knives and forks are displayed on the table.\nAnswer: Knives and forks are",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
     },
     "Sugar@04_19_2024_W_F_Sugar_P_2": {
         "prompt": "What type of furniture is present in the scene?",
-        "response": "** Yes, there are two types of furniture present in the scene: a chair and a table."
+        "response": "** Yes, there are two types of furniture present in the scene: a chair and a table.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
     },
     "Tomato@04_19_2024_W4_F_CanTomato_P_3": {
         "prompt": "What shape is the bowl containing oranges?",
-        "response": "Both the orange and the bowl are spherical in shape. The orange is spherical in nature while the bowl is spherical in its design.\n\nWhat is the color of the bowl and the orange? Both the bowl"
+        "response": "Both the orange and the bowl are spherical in shape. The orange is spherical in nature while the bowl is spherical in its design.\n\nWhat is the color of the bowl and the orange? Both the bowl",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
     },
     "Tomatoes@04_18_2024_W_F_Tomatoes2_F_1": {
         "prompt": "What type of flower is arranged in a vase on the table?",
-        "response": "Answer:A red rose is arranged in a vase on the table."
+        "response": "Answer:A red rose is arranged in a vase on the table.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
     },
     "Tomatoes@04_19_2024_S2_F_Tomatoes1_F_1": {
         "prompt": "What type of dessert is displayed on the countertop?",
-        "response": "A cupcake is displayed on the countertop. The cupcake appears to be freshly baked, with a smooth, glossy white frosting on top. It's decorated with an assortment of colorful"
+        "response": "A cupcake is displayed on the countertop. The cupcake appears to be freshly baked, with a smooth, glossy white frosting on top. It's decorated with an assortment of colorful",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
     },
     "Tomatoes@04_19_2024_W4_F_Tomatoes1_F_1": {
         "prompt": "What type of cheese is displayed on the table?",
-        "response": "Gouda cheese is displayed on the table. It is a semi-hard yellow cheese known for its rich, buttery flavor and smooth, creamy texture. Gouda is a versatile cheese that can be used in"
+        "response": "Gouda cheese is displayed on the table. It is a semi-hard yellow cheese known for its rich, buttery flavor and smooth, creamy texture. Gouda is a versatile cheese that can be used in",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
     },
     "Tomatoes@04_19_2024_W4_F_Tomatoes2_F_1": {
         "prompt": "What type of fabric is the sofa made of?",
-        "response": "The 3D model does not provide information about the type of fabric used in the sofa's construction. However, in real life, sofas are typically made from a variety of fabrics such as leather, suede, velvet"
+        "response": "The 3D model does not provide information about the type of fabric used in the sofa's construction. However, in real life, sofas are typically made from a variety of fabrics such as leather, suede, velvet",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
     },
     "VariousVeggies@04_04_2024_W_C_Various_P_2": {
         "prompt": "What type of decorative vase is present on the shelf?",
-        "response": "Answer:The caption does not provide specific details about the type of decorative vase present on the shelf. It only mentions that there is a decorative vase on the shelf."
+        "response": "Answer:The caption does not provide specific details about the type of decorative vase present on the shelf. It only mentions that there is a decorative vase on the shelf.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
     },
     "VariousVeggies@04_18_2024_W_F_Various_P_2": {
         "prompt": "What shape is the grandfather clock in the corner?",
-        "response": "**Answer**:The grandfather clock in the corner is tall and rectangular in shape."
+        "response": "**Answer**:The grandfather clock in the corner is tall and rectangular in shape.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
     },
     "Vinegar@04_19_2024_S2_F_Vinegar_P_3": {
         "prompt": "What type of fruit is placed on the counter?",
-        "response": "Answer:A banana is placed on the counter."
+        "response": "Answer:A banana is placed on the counter.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
     },
     "AppleJuice@04_18_2024_W2_F_AppleJuice2_P_3": {
         "prompt": "What type of fabric is used for the curtains?",
-        "response": "The caption does not mention the type of fabric used for the curtains."
+        "response": "The caption does not mention the type of fabric used for the curtains.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
     },
     "Apples@03_04_2024_S_L_Apples_F_2": {
         "prompt": "What type of fabric is used for the curtains in the room?",
-        "response": "**Answer**:The type of fabric used for the curtains in the room is not specified in the description."
+        "response": "**Answer**:The type of fabric used for the curtains in the room is not specified in the description.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
     },
     "Apples@03_04_2024_S_L_ApplesLong_F_1": {
         "prompt": "What type of fruit is hanging from a tree nearby?",
-        "response": "Answer:A banana is hanging from a tree nearby.\n / relatively close proximity / near / near / / / / / / / / / / / / / / / / / / / / / / / / / /"
+        "response": "Answer:A banana is hanging from a tree nearby.\n / relatively close proximity / near / near / / / / / / / / / / / / / / / / / / / / / / / / / /",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
     },
     "Apples@03_07_2024_S_L_Apples1_F_1": {
         "prompt": "What type of meat is hung from the ceiling?",
-        "response": "The type of meat is not specified in the description. It could be any type of meat like pork, beef, or chicken.\n\nWhat is the purpose of hanging meat from the ceiling?\nHanging meat from"
+        "response": "The type of meat is not specified in the description. It could be any type of meat like pork, beef, or chicken.\n\nWhat is the purpose of hanging meat from the ceiling?\nHanging meat from",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
     },
     "Apples@03_07_2024_S_L_Apples2_F_2": {
         "prompt": "What type of fabric is used for the curtains?",
-        "response": "The caption does not mention the type of fabric used for the curtains."
+        "response": "The caption does not mention the type of fabric used for the curtains.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
     },
     "Apples@03_07_2024_S_L_Apples3_F_2": {
         "prompt": "What type of metal shelf is used to store books?",
-        "response": "Answer: A sturdy metal bookshelf is used to store books.\n\nWhat type of metal shelf is used to store kitchen utensils?\nAnswer: A durable metal kitchen utensil holder is used to store"
+        "response": "Answer: A sturdy metal bookshelf is used to store books.\n\nWhat type of metal shelf is used to store kitchen utensils?\nAnswer: A durable metal kitchen utensil holder is used to store",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
     },
     "Apples@03_07_2024_S_L_Apples_F_2": {
         "prompt": "What type of fabric is the couch made from?",
-        "response": "The couch is made from brown leather.\n\nWhat is the color of the cushions on the couch? The cushions on the couch are white.\n\nWhat is the design of the couch? The c"
+        "response": "The couch is made from brown leather.\n\nWhat is the color of the cushions on the couch? The cushions on the couch are white.\n\nWhat is the design of the couch? The c",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
     },
     "Apples@03_13_2024_S_Co_Apples_F_2": {
         "prompt": "What shape is the table located near the apples?",
-        "response": "Answer: The table near the apples is square-shaped."
+        "response": "Answer: The table near the apples is square-shaped.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
     },
     "Apples@03_21_2024_W_L_Apples1_F_1": {
         "prompt": "What flavor does the chocolate cake have?",
-        "response": "The chocolate cake has a rich, dark chocolate flavor.\n\nHow is the chocolate cake decorated? The chocolate cake is decorated with whipped cream and fresh strawberries"
+        "response": "The chocolate cake has a rich, dark chocolate flavor.\n\nHow is the chocolate cake decorated? The chocolate cake is decorated with whipped cream and fresh strawberries",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
     },
     "Apples@03_21_2024_W_L_Apples2_F_2": {
         "prompt": "What type of cereal is placed on the shelf?",
-        "response": "The type of cereal is not specified in the caption. It could be any type of cereal like cornflakes, oats, or muesli."
+        "response": "The type of cereal is not specified in the caption. It could be any type of cereal like cornflakes, oats, or muesli.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
     },
     "Apples@03_21_2024_W_L_Apples3_F_2": {
         "prompt": "What type of fish is swimming in the scene?",
-        "response": "**Answer**:A goldfish is swimming in the scene.\n\nWhat is the 3D model depicting?\n**Answer**:The 3D model is depicting a scene of a goldfish swimming"
+        "response": "**Answer**:A goldfish is swimming in the scene.\n\nWhat is the 3D model depicting?\n**Answer**:The 3D model is depicting a scene of a goldfish swimming",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
     },
     "Avacados@04_04_2024_W2_C_AvacadosLong1_F_1": {
         "prompt": "What pattern is on the rug?",
-        "response": "brown dots on a white background or white dots on a brown background relatively relatively relatively relatively relatively relatively relatively relatively relatively relatively relatively relatively relatively relatively relatively relatively relatively relatively relatively relatively relatively relatively relatively relatively relatively relatively relatively relatively relatively relatively relatively relatively relatively relatively relatively"
+        "response": "brown dots on a white background or white dots on a brown background relatively relatively relatively relatively relatively relatively relatively relatively relatively relatively relatively relatively relatively relatively relatively relatively relatively relatively relatively relatively relatively relatively relatively relatively relatively relatively relatively relatively relatively relatively relatively relatively relatively relatively relatively",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
     },
     "Avacados@04_04_2024_W_C_Avocados1_F_1": {
         "prompt": "What type of fish is swimming in the room?",
-        "response": "The type of fish isn't specified in the description. It's a generic representation of a fish.\n\nWhat is the purpose of the 3D model?\nThe purpose of the 3D model is to depict a"
+        "response": "The type of fish isn't specified in the description. It's a generic representation of a fish.\n\nWhat is the purpose of the 3D model?\nThe purpose of the 3D model is to depict a",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
     },
     "BBQSauce@03_21_2024_W_L_BBQ1_P_1": {
         "prompt": "What type of fruit is displayed in the room?",
-        "response": "Answer:The fruit displayed in the room is a banana."
+        "response": "Answer:The fruit displayed in the room is a banana.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
     },
     "Bagels@03_21_2024_W_L_Bagels1_P_1": {
         "prompt": "What flavor of ice cream is included in the packaging?",
-        "response": "** Yes, the packaging indicates that the ice cream is vanilla flavored."
+        "response": "** Yes, the packaging indicates that the ice cream is vanilla flavored.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
     },
     "Bananas@03_04_2024_S_L_Bananas2_F_2": {
         "prompt": "What type of fish is swimming in the background?",
-        "response": "The type of fish is not specified in the description. It's a generic representation of a fish swimming in the background."
+        "response": "The type of fish is not specified in the description. It's a generic representation of a fish swimming in the background.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
     },
     "Bananas@03_04_2024_S_L_Bananas_F_2": {
         "prompt": "What type of bread is placed on the table?",
-        "response": "**Answer**: There is a loaf of white bread placed on the table."
+        "response": "**Answer**: There is a loaf of white bread placed on the table.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
     },
     "Bananas@04_04_2024_NG_C_Bananas1_F_1": {
         "prompt": "What type of metal is used for the frame of the picture hanging on the wall?",
-        "response": "? / What material is the frame of the picture hanging on the wall made of / What is the material of the frame of the picture hanging on the wall? / What is the frame of the picture hanging on the wall made of /"
+        "response": "? / What material is the frame of the picture hanging on the wall made of / What is the material of the frame of the picture hanging on the wall? / What is the frame of the picture hanging on the wall made of /",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
     },
     "Bananas@04_04_2024_S_C_Bananas_F_2": {
         "prompt": "What type of cheese is on the table?",
-        "response": "Cheddar cheese.\nWhat type of bread is on the table? Whole wheat bread.\nWhat type of meat is on the table? Grilled chicken.\nWhat type of sauce is on the table? Barbec"
+        "response": "Cheddar cheese.\nWhat type of bread is on the table? Whole wheat bread.\nWhat type of meat is on the table? Grilled chicken.\nWhat type of sauce is on the table? Barbec",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
     },
     "Beans@04_04_2024_W2_C_Beans_P_3": {
         "prompt": "What type of fabric is used to make the curtains?",
-        "response": "The caption does not mention the type of fabric used to make the curtains."
+        "response": "The caption does not mention the type of fabric used to make the curtains.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
     },
     "Bread@04_04_2024_W2_C_Bread2_P_2": {
         "prompt": "What shape is the table where the bread is displayed?",
-        "response": "**Answer**:The bread is displayed on a rectangular table."
+        "response": "**Answer**:The bread is displayed on a rectangular table.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
     },
     "Bread@04_04_2024_W2_C_Bread3_P_2": {
         "prompt": "What type of fresh fruit is displayed on the counter?",
-        "response": "** Oranges are displayed on the counter.**\nYes, oranges are displayed on the counter.\nYes, oranges are displayed on the counter. Yes, oranges are displayed on the counter. Yes, oranges are displayed on"
+        "response": "** Oranges are displayed on the counter.**\nYes, oranges are displayed on the counter.\nYes, oranges are displayed on the counter. Yes, oranges are displayed on the counter. Yes, oranges are displayed on",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
     },
     "Bread@04_04_2024_W2_C_Bread_P_2": {
         "prompt": "What type of fruit is displayed in a bowl on the counter?",
-        "response": "Answer:A banana is displayed in a bowl on the counter."
+        "response": "Answer:A banana is displayed in a bowl on the counter.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
     },
     "Can@03_21_2024_W_L_Cans_P_2": {
         "prompt": "What type of fruit is displayed on the counter?",
-        "response": "**Answer**: The fruit displayed on the counter is a banana.\n\nWhat are the distinguishing features of a banana?\n**Answer**: Bananas are elongated, curved fruits with a yellow peel"
+        "response": "**Answer**: The fruit displayed on the counter is a banana.\n\nWhat are the distinguishing features of a banana?\n**Answer**: Bananas are elongated, curved fruits with a yellow peel",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
     },
     "Can@03_21_2024_W_L_Peas1_P_1": {
         "prompt": "What type of fabric is used for the curtains?",
-        "response": "The caption does not mention the type of fabric used for the curtains."
+        "response": "The caption does not mention the type of fabric used for the curtains.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
     },
     "Can@04_04_2024_W_C_Cans_P_3": {
         "prompt": "What shape are the ice cream tubs located in the room?",
-        "response": "? / or\u6216 /\u6216\u53ca\u6216 ou / ou ou ou ou ou ou ou ou ou ou ou ou ou ou ou ou ou ou ou ou ou ou ou ou ou ou ou ou ou ou ou ou ou ou ou ou ou ou ou ou"
+        "response": "? / or\u6216 /\u6216\u53ca\u6216 ou / ou ou ou ou ou ou ou ou ou ou ou ou ou ou ou ou ou ou ou ou ou ou ou ou ou ou ou ou ou ou ou ou ou ou ou ou ou ou ou ou",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
     },
     "Can@04_18_2024_W2_F_Cans2_P_2": {
         "prompt": "What type of fabric is used for the curtains in the store?",
-        "response": "s interior?\u53ca\u6216\u53ca\u6216\u53ca ou ou ou ou ou ou ou ou ou ou ou ou ou ou ou ou ou ou ou ou ou ou ou ou ou ou ou ou ou ou ou ou ou ou ou ou ou ou ou ou ou ou"
+        "response": "s interior?\u53ca\u6216\u53ca\u6216\u53ca ou ou ou ou ou ou ou ou ou ou ou ou ou ou ou ou ou ou ou ou ou ou ou ou ou ou ou ou ou ou ou ou ou ou ou ou ou ou ou ou ou ou",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
     },
     "Candy@03_21_2024_W_L_Candy1_P_1": {
         "prompt": "What type of acoustic guitar is in the scene?",
-        "response": "The scene features a classical acoustic guitar.\n\nWhat type of guitar is it? It's a classical acoustic guitar, known for its rich, warm sound.\n\nWhat type of strings does it have? The guitar has"
+        "response": "The scene features a classical acoustic guitar.\n\nWhat type of guitar is it? It's a classical acoustic guitar, known for its rich, warm sound.\n\nWhat type of strings does it have? The guitar has",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
     },
     "Candy@03_21_2024_W_L_Candy2_P_1": {
         "prompt": "What flavor of ice cream is featured in the packaging?",
-        "response": "Answer: Vanilla flavor is featured in the packaging.\n\nWhat type of packaging is used for the ice cream?\nAnswer: The ice cream is packaged in a cylindrical carton.\n\nWhat"
+        "response": "Answer: Vanilla flavor is featured in the packaging.\n\nWhat type of packaging is used for the ice cream?\nAnswer: The ice cream is packaged in a cylindrical carton.\n\nWhat",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
     },
     "Candy@03_21_2024_W_L_Candy2_P_2": {
         "prompt": "What kitchen appliance is used for baking bread?",
-        "response": "**Answer**: An oven is used for baking bread."
+        "response": "**Answer**: An oven is used for baking bread.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
     },
     "Candy@03_21_2024_W_L_Candy_P_2": {
         "prompt": "What shape are the chocolate bars in the room?",
-        "response": "or what is the shape of the room? or what is the shape of the chocolate bars? / / / / / / / / / / / / / / / / / / / / / / / / / / / / /"
+        "response": "or what is the shape of the room? or what is the shape of the chocolate bars? / / / / / / / / / / / / / / / / / / / / / / / / / / / / /",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
     },
     "Chips@03_21_2024_W_L_Chips1_P_1": {
         "prompt": "What type of ceramic vase is placed in the room?",
-        "response": "Answer:The caption does not provide specific details about the type of ceramic vase. It only mentions that there is a ceramic vase in the room."
+        "response": "Answer:The caption does not provide specific details about the type of ceramic vase. It only mentions that there is a ceramic vase in the room.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
     },
     "Chips@03_21_2024_W_L_Chips_P_2": {
         "prompt": "What type of fruit is placed on the floor?",
-        "response": "Answer:A banana is placed on the floor."
+        "response": "Answer:A banana is placed on the floor.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
     },
     "Chips@04_04_2024_NG_C_Chips_P_2": {
         "prompt": "What type of furniture is used for storing books in the room?",
-        "response": "**Answer**:A bookshelf is used for storing books in the room."
+        "response": "**Answer**:A bookshelf is used for storing books in the room.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
     },
     "Chips@04_04_2024_S_C_Chips1_P_1": {
         "prompt": "What type of frozen dessert is stored in the pantry?",
-        "response": "Answer:Ice cream is stored in the pantry."
+        "response": "Answer:Ice cream is stored in the pantry.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
     },
     "Chips@04_04_2024_S_C_Chips2_P_1": {
         "prompt": "What type of fruit is displayed on the table?",
-        "response": "**Answer**: The fruit displayed on the table is a banana."
+        "response": "**Answer**: The fruit displayed on the table is a banana.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
     },
     "Chips@04_04_2024_S_C_Chips2_P_2": {
         "prompt": "What type of salad dressing is stored in the refrigerator?",
-        "response": "Answer:The salad dressing stored in the refrigerator is a vinaigrette.\n\nWhat is a vinaigrette?\nAnswer:A vinaigrette is a type of salad dress"
+        "response": "Answer:The salad dressing stored in the refrigerator is a vinaigrette.\n\nWhat is a vinaigrette?\nAnswer:A vinaigrette is a type of salad dress",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
     },
     "Chips@04_04_2024_S_C_Chips3_P_1": {
         "prompt": "What style of artwork is displayed on the walls?",
-        "response": "Graffiti / Street art / Urban art / Abstract art / Modern art / Contemporary art / Pop art / Street art / Urban art / Abstract art / Modern art / Contemporary art / Pop art / Street art / Urban art / Abstract art"
+        "response": "Graffiti / Street art / Urban art / Abstract art / Modern art / Contemporary art / Pop art / Street art / Urban art / Abstract art / Modern art / Contemporary art / Pop art / Street art / Urban art / Abstract art",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
     },
     "Chips@04_04_2024_S_C_Chips3_P_2": {
         "prompt": "What type of furniture is in the room?",
-        "response": "Answer:The type of furniture in the room is not specified in the caption. It only mentions that there is a piece of furniture in the room."
+        "response": "Answer:The type of furniture in the room is not specified in the caption. It only mentions that there is a piece of furniture in the room.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
     },
     "Coffee@03_21_2024_W_L_Coffee1_P_1": {
         "prompt": "What type of furniture is used for sitting in the scene?",
-        "response": "Answer:A chair is used for sitting in the scene.\n\nWhat type of furniture is used for sleeping in the scene?\nAnswer:A bed is used for sleeping in the scene.\n\nWhat type of furniture"
+        "response": "Answer:A chair is used for sitting in the scene.\n\nWhat type of furniture is used for sleeping in the scene?\nAnswer:A bed is used for sleeping in the scene.\n\nWhat type of furniture",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
     },
     "Coffee@03_21_2024_W_L_Coffee2_P_2": {
         "prompt": "What type of fruit is displayed on the table?",
-        "response": "**Answer**: The fruit displayed on the table is a banana."
+        "response": "**Answer**: The fruit displayed on the table is a banana.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
     },
     "Coffee@03_21_2024_W_L_Coffee_P_2": {
         "prompt": "What type of cutting board is used in the kitchen?",
-        "response": "**Answer**: A rectangular wooden cutting board is used in the kitchen."
+        "response": "**Answer**: A rectangular wooden cutting board is used in the kitchen.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
     },
     "Coffee@04_04_2024_S_C_Coffee2_P_3": {
         "prompt": "What shape is the sculpture?",
-        "response": "A  or / ou / / ou / / ou / / ou / / ou / / ou / / ou / / ou / / ou / / ou / / ou / / ou / / ou / / ou / / ou / / ou"
+        "response": "A  or / ou / / ou / / ou / / ou / / ou / / ou / / ou / / ou / / ou / / ou / / ou / / ou / / ou / / ou / / ou / / ou",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
     },
     "Corn@04_04_2024_W_C_Corn1_F_1": {
         "prompt": "What type of metal is used in the chandelier?",
-        "response": "**Answer**: The caption doesn't specify the type of metal used in the chandelier. It only mentions that the chandelier is made of metal."
+        "response": "**Answer**: The caption doesn't specify the type of metal used in the chandelier. It only mentions that the chandelier is made of metal.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
     },
     "Cucumbers@03_21_2024_W_L_Cucumbers_F_2": {
         "prompt": "What type of fabric is used for the curtains in the room?",
-        "response": "**Answer**:The type of fabric used for the curtains in the room is not specified in the description."
+        "response": "**Answer**:The type of fabric used for the curtains in the room is not specified in the description.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
     },
     "Cucumbers@04_04_2024_W2_C_Cucumbers1_V_1": {
         "prompt": "What type of meat is being grilled nearby?",
-        "response": "Answer:The type of meat being grilled nearby is not specified in the caption. It could be any type of meat commonly grilled such as chicken, beef, or fish."
+        "response": "Answer:The type of meat being grilled nearby is not specified in the caption. It could be any type of meat commonly grilled such as chicken, beef, or fish.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
     },
     "EnergyDrinks@03_04_2024_S_L_EnergyDrinks_P_1": {
         "prompt": "What type of metal utensils are located on the countertop?",
-        "response": "**Answer**:The countertop is equipped with a variety of metal utensils. However, the exact type of utensils is not specified in the description."
+        "response": "**Answer**:The countertop is equipped with a variety of metal utensils. However, the exact type of utensils is not specified in the description.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
     },
     "Flour@04_04_2024_W2_C_Flour_P_3": {
         "prompt": "What type of fruit is displayed in the scene?",
-        "response": "**Answer**: The fruit displayed in the scene is a banana."
+        "response": "**Answer**: The fruit displayed in the scene is a banana.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
     },
     "Flour@04_04_2024_W_C_Flour_P_2": {
         "prompt": "What type of fruit is displayed on the shelf?",
-        "response": "Answer:The fruit displayed on the shelf is a banana."
+        "response": "Answer:The fruit displayed on the shelf is a banana.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
     },
     "Gourds@03_21_2024_W_L_Gourds1_F_1": {
         "prompt": "What shape are the chairs in the room?",
-        "response": "The chairs in the room are rectangular in shape.\n\nWhat is the color of the chairs in the room? The chairs in the room are brown.\n\nWhat is the color of the table in the room? The table"
+        "response": "The chairs in the room are rectangular in shape.\n\nWhat is the color of the chairs in the room? The chairs in the room are brown.\n\nWhat is the color of the table in the room? The table",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
     },
     "GrapeFruits@03_07_2024_S_L_GrapeFruits1_F_1": {
         "prompt": "What type of bread is on the table?",
-        "response": "**Answer**:There is a loaf of white bread on the table.\n\nWhat type of cheese is on the table?\n**Answer**:There is a block of cheddar cheese on the table."
+        "response": "**Answer**:There is a loaf of white bread on the table.\n\nWhat type of cheese is on the table?\n**Answer**:There is a block of cheddar cheese on the table.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
     },
     "GrapeFruits@04_04_2024_W2_C_Grapefruits1_F_1": {
         "prompt": "What is the flavor profile of the chocolate cake?",
-        "response": "**Answer**:The chocolate cake has a rich, deep chocolate flavor."
+        "response": "**Answer**:The chocolate cake has a rich, deep chocolate flavor.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
     },
     "Greens@03_04_2024_S_L_Greens1_V_1": {
         "prompt": "What type of dessert is being served alongside the vegetables?",
-        "response": "Answer:A bowl of ice cream is being served alongside the vegetables."
+        "response": "Answer:A bowl of ice cream is being served alongside the vegetables.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
     },
     "Greens@03_04_2024_S_L_Greens2_V_1": {
         "prompt": "What type of meat is being cooked in the kitchen?",
-        "response": "**There is no specific information about the type of meat being cooked in the kitchen. It could be any type of meat."
+        "response": "**There is no specific information about the type of meat being cooked in the kitchen. It could be any type of meat.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
     },
     "Greens@03_04_2024_S_L_Greens_V_2": {
         "prompt": "What type of meat is being prepared in the kitchen?",
-        "response": "**Answer**: The type of meat being prepared in the kitchen is not specified in the description. It could be any type of meat such as chicken, beef, or pork."
+        "response": "**Answer**: The type of meat being prepared in the kitchen is not specified in the description. It could be any type of meat such as chicken, beef, or pork.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
     },
     "Greens@04_04_2024_S_C_Greens_V_2": {
         "prompt": "What type of fruit is hanging from the ceiling?",
-        "response": "Answer:A banana is hanging from the ceiling."
+        "response": "Answer:A banana is hanging from the ceiling.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
     },
     "Jam@03_21_2024_W_L_Jam1_P_1": {
         "prompt": "What type of cookware is used in the kitchen?",
-        "response": "**Answer**:The type of cookware used in the kitchen is not specified in the description."
+        "response": "**Answer**:The type of cookware used in the kitchen is not specified in the description.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
     },
     "Juices@03_04_2024_S_L_Juices_P_2": {
         "prompt": "What type of dessert is in the freezer?",
-        "response": "( typical answer or typical conclusion / ou conclusion / ou conclusion / ou conclusion / ou conclusion / ou conclusion / ou conclusion / ou conclusion / ou conclusion / ou conclusion / ou conclusion / ou conclusion / ou conclusion / ou conclusion / ou conclusion / ou"
+        "response": "( typical answer or typical conclusion / ou conclusion / ou conclusion / ou conclusion / ou conclusion / ou conclusion / ou conclusion / ou conclusion / ou conclusion / ou conclusion / ou conclusion / ou conclusion / ou conclusion / ou conclusion / ou conclusion / ou",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
     },
     "Juices@04_04_2024_W2_C_Juice_P_2": {
         "prompt": "What type of furniture is in the room?",
-        "response": "**Answer**:The type of furniture in the room is not specified in the caption. It only mentions that there is a piece of furniture in the room."
+        "response": "**Answer**:The type of furniture in the room is not specified in the caption. It only mentions that there is a piece of furniture in the room.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
     },
     "Ketchup@04_04_2024_S_C_Ketchup_P_2": {
         "prompt": "What type of ceramic bowl is used for serving soup?",
-        "response": "The 3D model depicts a ceramic bowl that is typically used for serving soup. The bowl is designed with a wide opening and a sturdy base to hold the liquid without spilling.\n\nWhat type of"
+        "response": "The 3D model depicts a ceramic bowl that is typically used for serving soup. The bowl is designed with a wide opening and a sturdy base to hold the liquid without spilling.\n\nWhat type of",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
     },
     "Alfredo@04_04_2024_W2_C_Alfredo_P_3": {
         "prompt": "What type of fruit is hanging from the ceiling?",
-        "response": "Answer:A banana is hanging from the ceiling."
+        "response": "Answer:A banana is hanging from the ceiling.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
     },
     "Broccoli@04_04_2024_S_C_Broccoli1_V_1": {
         "prompt": "What is the size of the chandelier hanging from the ceiling?",
-        "response": "**Answer**: The chandelier hanging from the ceiling is large.\n\nWhat type of lighting does the chandelier provide?\n**Answer**: The chandelier provides warm, ambient lighting"
+        "response": "**Answer**: The chandelier hanging from the ceiling is large.\n\nWhat type of lighting does the chandelier provide?\n**Answer**: The chandelier provides warm, ambient lighting",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
     },
     "Buns@04_18_2024_W2_F_Buns1_P_1": {
         "prompt": "What type of cheese is placed on top of the buns?",
-        "response": "Answer:Cheddar cheese is placed on top of the buns.\n\nWhat type of sauce is used in this sandwich?\nAnswer:Mayonnaise is used as the sauce in this sandwich."
+        "response": "Answer:Cheddar cheese is placed on top of the buns.\n\nWhat type of sauce is used in this sandwich?\nAnswer:Mayonnaise is used as the sauce in this sandwich.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
     },
     "Cabbages@03_13_2024_S_Co_Cabbages_V_2": {
         "prompt": "What is the weight of the gold brick?",
-        "response": "conclusion\u6216 conclusion\u6216 conclusion ou conclusion ou ou ou ou ou ou ou ou ou ou ou ou ou ou ou ou ou ou ou ou ou ou ou ou ou ou ou ou ou ou ou ou ou ou ou ou ou ou ou ou ou ou"
+        "response": "conclusion\u6216 conclusion\u6216 conclusion ou conclusion ou ou ou ou ou ou ou ou ou ou ou ou ou ou ou ou ou ou ou ou ou ou ou ou ou ou ou ou ou ou ou ou ou ou ou ou ou ou ou ou ou ou",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
     },
     "Cereal@03_21_2024_W_L_Cereal1_P_1": {
         "prompt": "What type of fruit is displayed on the kitchen counter?",
-        "response": "**Answer**: The fruit displayed on the kitchen counter is a banana."
+        "response": "**Answer**: The fruit displayed on the kitchen counter is a banana.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
     },
     "Chilli@04_18_2024_W3_F_Chilli_P_3": {
         "prompt": "What type of fabric is the sofa made of?",
-        "response": "The 3D model does not provide information about the type of fabric used in the sofa's construction. However, in real life, sofas are typically made from a variety of fabrics such as leather, suede, velvet"
+        "response": "The 3D model does not provide information about the type of fabric used in the sofa's construction. However, in real life, sofas are typically made from a variety of fabrics such as leather, suede, velvet",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
     },
     "ChipsSalsa@04_18_2024_W_F_Salsa_P_3": {
         "prompt": "What type of fruit is displayed prominently on the kitchen counter?",
-        "response": "**Answer**: A banana is displayed prominently on the kitchen counter."
+        "response": "**Answer**: A banana is displayed prominently on the kitchen counter.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
     },
     "Coconuts@03_21_2024_W_L_Coconuts1_F_1": {
         "prompt": "What is the height of the tropical tree from which these coconuts were harvested?",
-        "response": "And how does it compare to the size of the coconuts?\nAnswer: The tropical tree from which these coconuts were harvested stands at a towering height of 20 meters. The size of the coconuts is"
+        "response": "And how does it compare to the size of the coconuts?\nAnswer: The tropical tree from which these coconuts were harvested stands at a towering height of 20 meters. The size of the coconuts is",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
     },
     "Dressings@04_18_2024_W2_F_Dressing_P_2": {
         "prompt": "What type of furniture is in the room?",
-        "response": "**Answer**:The type of furniture in the room is not specified in the caption. It only mentions that there is a piece of furniture in the room."
+        "response": "**Answer**:The type of furniture in the room is not specified in the caption. It only mentions that there is a piece of furniture in the room.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
     },
     "Drinks@03_21_2024_W_L_Drinks_P_2": {
         "prompt": "What type of metal frame is used in the chairs?",
-        "response": "**Answer**: The 3D model does not specify the type of metal frame used in the chairs. It only mentions that the chairs have a sturdy metal frame."
+        "response": "**Answer**: The 3D model does not specify the type of metal frame used in the chairs. It only mentions that the chairs have a sturdy metal frame.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
     },
     "FruitCans@04_18_2024_W3_F_CanFruits_P_3": {
         "prompt": "What type of rug is placed on the floor?",
-        "response": "Persian style rug is placed on the floor. It is characterized by its intricate design and high-quality woolen fibers. It adds a touch of luxury and warmth to the room.\n\nWhat type of table is"
+        "response": "Persian style rug is placed on the floor. It is characterized by its intricate design and high-quality woolen fibers. It adds a touch of luxury and warmth to the room.\n\nWhat type of table is",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
     },
     "Garlic@04_04_2024_W_C_Garlic1_V_1": {
         "prompt": "What type of fruit is displayed prominently in the room?",
-        "response": "Answer: A banana is displayed prominently in the room."
+        "response": "Answer: A banana is displayed prominently in the room.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
     },
     "Gatorade@03_04_2024_S_L_Gatorade_P_2": {
         "prompt": "What type of ceramic vase is displayed on the table?",
-        "response": "**Answer**:The caption does not provide specific details about the type of ceramic vase displayed on the table."
+        "response": "**Answer**:The caption does not provide specific details about the type of ceramic vase displayed on the table.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
     },
     "GranolaBars@04_04_2024_W_C_GranolaBars2_P_2": {
         "prompt": "What flavor of ice cream is placed in the freezer?",
-        "response": "Answer:Chocolate ice cream is placed in the freezer."
+        "response": "Answer:Chocolate ice cream is placed in the freezer.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
     },
     "Honey@03_21_2024_W_L_Honey1_P_1": {
         "prompt": "What type of cheese is displayed on the counter?",
-        "response": "Gouda cheese is displayed on the counter. Gouda is a type of yellow cheese known for its smooth, creamy texture and rich, buttery flavor. It is often used in sandwiches, salads, and"
+        "response": "Gouda cheese is displayed on the counter. Gouda is a type of yellow cheese known for its smooth, creamy texture and rich, buttery flavor. It is often used in sandwiches, salads, and",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
     },
     "Plums@04_19_2024_W4_F_Plums1_F_1": {
         "prompt": "What type of cereal is used for breakfast?",
-        "response": "Answer:The type of cereal used for breakfast is not specified in the description. It could be any type of cereal such as cornflakes, oats, or rice puffs."
+        "response": "Answer:The type of cereal used for breakfast is not specified in the description. It could be any type of cereal such as cornflakes, oats, or rice puffs.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
     },
     "Pringles@04_18_2024_W3_F_Pringles_P_2": {
         "prompt": "What type of musical instrument is located near the snack containers?",
-        "response": "**Answer**:A guitar is located near the snack containers."
+        "response": "**Answer**:A guitar is located near the snack containers.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
     },
     "Radish@03_21_2024_W_L_Radish_V_2": {
         "prompt": "What shape is the chandelier?",
-        "response": "Cylindrical, spherical, or another shape? Both cylindrical and spherical shapes can be inferred from the description. The chandelier has a cylindrical base and a spherical top."
+        "response": "Cylindrical, spherical, or another shape? Both cylindrical and spherical shapes can be inferred from the description. The chandelier has a cylindrical base and a spherical top.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
     },
     "Syrup@03_21_2024_W_L_Syrup1_P_1": {
         "prompt": "What is the make and model of the blender in the room?",
-        "response": "**Answer**: The make and model of the blender is not specified in the description."
+        "response": "**Answer**: The make and model of the blender is not specified in the description.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
     },
     "Tostitos@04_18_2024_W_F_Tostitos2_P_3": {
         "prompt": "What type of fruit bowl is prominently displayed on the table?",
-        "response": "watermelon model / \u53ca watermelon 3D model / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / /"
+        "response": "watermelon model / \u53ca watermelon 3D model / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / /",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
     }
 }
