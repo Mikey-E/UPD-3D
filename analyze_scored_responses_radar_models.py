@@ -18,7 +18,11 @@ def extract_model_name_from_path(file_path):
     # New format: _<scoring_model>_scored.json (e.g., _gpt-4.1-mini_scored.json)
     # Old format: _scored.json
     basename = re.sub(r'_[^_/]+_scored\.json$', '', basename)
+    
+    # Remove dataset-specific test patterns
     basename = basename.replace("_3D-FRONT_test_standard", "")
+    basename = basename.replace("_GIW529_test_standard", "")
+    basename = basename.replace("_Crops3D_test_standard", "")
     
     # Naming conversion dictionary (case insensitive)
     name_conversions = {
@@ -26,7 +30,8 @@ def extract_model_name_from_path(file_path):
         'gplm': 'GreenPLM', 
         'pllm': 'PointLLM',
         'shpllm': 'ShapeLLM',
-        'llava3d': 'LLaVA-3D'
+        'llava3d': 'LLaVA-3D',
+        '3dllm': '3D-LLM'
     }
     
     # Check for specific patterns in the basename (case insensitive)
