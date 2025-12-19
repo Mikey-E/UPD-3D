@@ -50,6 +50,13 @@ def main():
         current_prompt += correct_answer
         current_prompt += f"\nMODEL_RESPONSE: {item[1]["response"]}"
 
+        # If response is empty string, directly assign F and skip API call
+        if item[1]["response"] == "":
+            print(f"Empty response detected for {point_cloud}, assigning score='F' without API call")
+            data[point_cloud]["correct_answer"] = correct_answer.replace("\nCORRECT_ANSWER: ", "")
+            data[point_cloud]["score"] = "F"
+            continue
+
         client = openai.OpenAI()
 
         try:
