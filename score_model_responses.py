@@ -59,17 +59,24 @@ def main():
 
         client = openai.OpenAI()
 
-        try:
-            response = client.chat.completions.create(
-                model=scoring_model,
-                messages=[{"role": "user", "content": current_prompt}],
-                max_completion_tokens=1
-            )
-            generated_text = response.choices[0].message.content.strip() if response.choices[0].message.content else ""
-        except Exception as e:
-            print(f"Error processing openai completion: {str(e)}")
-            scoring_failed = True
-            break
+        max_attempts = 5
+        for _ in range(max_attempts):
+            try:
+                response = client.chat.completions.create(
+                    model=scoring_model,
+                    messages=[{"role": "user", "content": current_prompt}],
+                    max_completion_tokens=1
+                )
+                generated_text = response.choices[0].message.content.strip() if response.choices[0].message.content else ""
+            except Exception as e:
+                print(f"Error processing openai completion: {str(e)}")
+                scoring_failed = True
+                continue
+            if generated_text not in ['T', 'F']:
+                scoring_failed = True
+            else:
+                scoring_failed = False
+                break
 
         print(current_prompt)
         print(f"Generated Text:<BEGIN>{generated_text}<END>")
@@ -100,12 +107,10 @@ def main():
         data[point_cloud]["correct_answer"] = correct_answer.replace("\nCORRECT_ANSWER: ", "")
         data[point_cloud]["score"] = generated_text
 
-        # Check if the score is valid (T or F)
-        if generated_text not in ['T', 'F']:
+        if scoring_failed:
             print(f"ERROR: Invalid score '{generated_text}' for {point_cloud}")
             print(f"Expected 'T' or 'F', got: '{generated_text}'")
             print(f"Stopping scoring and saving with FAILED_ prefix")
-            scoring_failed = True
             break
 
     # Create the output directory if it doesn't exist
