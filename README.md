@@ -5,11 +5,6 @@ Code for generating samples to test 3D-LLM unsolvable problem detection capabili
 
 We showcase unpublished supplementary material in UPD_3D_Supplementary_Material.pdf
 
-## Models tested in the paper
-
-For MiniGPT-3D, GreenPLM, PointLLM, and ShapeLLM, the utils folder here contains scripts to run our data, replacing some of theirs.
-
-For LLaVA-3D and 3D-LLM, nontrivial changes are made to perform our experiments. There is a fork for 3D-LLM [here](https://github.com/Mikey-E/3D-LLM_for_UPD-3D) and a fork for LLaVA-3D [here](https://github.com/Mikey-E/LLaVA-3D_for_UPD-3D)
 
 ## Set Env Vars
 ### CONDA_INSTALL_PATH
@@ -150,6 +145,7 @@ python make_variants.py folder_of_clouds
 
 If all you want is the dataset, you are now finished! The UPD-3D dataset is now in upd_text/
 
+<!--
 ## Obtaining model repsonses from MiniGPT-3D
 
 This requires a separate working installation of
@@ -162,8 +158,17 @@ MiniGPT-3D will then make responses to that entire batch. The output of that wil
 be placed in the top-level of MiniGPT-3D. It should then be copied to the folder
 unscored_model_responses/ (here in UPD-3D) or perhaps a subfolder within it - 
 however you want to stay organized.
+-->
 
-*Any* LLM, so long as it produces a json file of a dictionary where the key is
+## Models tested in the paper
+
+For MiniGPT-3D, GreenPLM, PointLLM, and ShapeLLM, the utils folder here contains scripts to train models and infer our data, replacing some of theirs scripts.
+
+For LLaVA-3D and 3D-LLM, nontrivial changes are made to perform our experiments. There is a fork for 3D-LLM [here](https://github.com/Mikey-E/3D-LLM_for_UPD-3D) and a fork for LLaVA-3D [here](https://github.com/Mikey-E/LLaVA-3D_for_UPD-3D)
+
+Hopefully all scripts and forks are largely self-documenting. If not, feel free to raise issues.
+
+*Any* model, so long as it produces a json file of a dictionary where the key is
 the scene and the value is a dictionary of prompt and response (as seen there), 
 can have its
 output placed in unscored_model_responses/ for further evaluation.
@@ -186,7 +191,7 @@ analyze_scored_responses.py will take a path to the directory of scored response
 json files, and create a graph in results/
 
 ```
-python analyze_scored_responses.py path/to/scored/json/files --naming_delim _v1_
+python analyze_scored_responses_bars.py path/to/scored/json/files --naming_delim _v1_ [other options]
 ```
 
 where --naming_delim specifices a delimiter in the file names between the subset 
