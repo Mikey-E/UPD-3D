@@ -185,6 +185,8 @@ This will place a scored version in scored_model_responses/. You'll want to do
 this for every unscored subset file before proceeding. For the standard subset, be
 sure to pass the path to the answer key with --answer_key.
 
+There is a multi-slurm shell script to do this in bulk.
+
 ## Analyze the results
 
 analyze_scored_responses.py will take a path to the directory of scored response 
