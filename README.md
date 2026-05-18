@@ -162,16 +162,16 @@ however you want to stay organized.
 
 ## Models tested in the paper
 
-For MiniGPT-3D, GreenPLM, PointLLM, and ShapeLLM, the utils folder here contains scripts to train models and infer our data, replacing some of theirs scripts.
+For MiniGPT-3D, GreenPLM, PointLLM, and ShapeLLM, the utils folder here contains scripts to train models and infer our data, replacing some of their scripts.
 
 For LLaVA-3D and 3D-LLM, nontrivial changes are made to perform our experiments. There is a fork for 3D-LLM [here](https://github.com/Mikey-E/3D-LLM_for_UPD-3D) and a fork for LLaVA-3D [here](https://github.com/Mikey-E/LLaVA-3D_for_UPD-3D)
 
 Hopefully all scripts and forks are largely self-documenting. If not, feel free to raise issues.
 
 *Any* model, so long as it produces a json file of a dictionary where the key is
-the scene and the value is a dictionary of prompt and response (as seen there), 
+the scene and the value is a dictionary of prompt and response
 can have its
-output placed in unscored_model_responses/ for further evaluation.
+output placed in unscored_model_responses/ (gitignored for space) for further evaluation.
 
 ## Scoring the model responses
 
