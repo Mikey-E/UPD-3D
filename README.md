@@ -5,6 +5,12 @@ Code for generating samples to test 3D-LLM unsolvable problem detection capabili
 
 We showcase unpublished supplementary material in UPD_3D_Supplementary_Material.pdf
 
+## Models tested in the paper
+
+For MiniGPT-3D, GreenPLM, PointLLM, and ShapeLLM, the utils folder here contains scripts to run our data, replacing some of theirs.
+
+For LLaVA-3D and 3D-LLM, nontrivial changes are made to perform our experiments. There is a fork for 3D-LLM [here](https://github.com/Mikey-E/3D-LLM_for_UPD-3D) and a fork for LLaVA-3D [here](https://github.com/Mikey-E/LLaVA-3D_for_UPD-3D)
+
 ## Set Env Vars
 ### CONDA_INSTALL_PATH
 
