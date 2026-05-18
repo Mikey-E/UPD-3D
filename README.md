@@ -1,6 +1,10 @@
 # 🔥 UPD-3D — accepted to ICPR 2026 main call! 🔥
 Code for generating samples to test 3D-LLM unsolvable problem detection capability, and to do that testing.
 
+## Supplementary Material
+
+We showcase unpublished supplementary material in UPD_3D_Supplementary_Material.pdf
+
 ## Set Env Vars
 ### CONDA_INSTALL_PATH
 
