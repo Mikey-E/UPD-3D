@@ -219,3 +219,7 @@ afterward balance the point count averages with room_type_point_stats.py (otherw
 you would have to redo balancing the point count averages after rebalancing room type
 counts). Rebalancing gets the averages as close to 1:1 while preserving room type scene
 counts between each file.
+
+## Human Baseline
+
+This folder contains code to run a web application that allows humans to enter their answers to a dataset.
