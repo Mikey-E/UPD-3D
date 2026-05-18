@@ -1,4 +1,4 @@
-# 🔥 UPD-3D — accepted to ICPR 2026 🔥
+# 🔥 UPD-3D — accepted to ICPR 2026 main call! 🔥
 Code for generating samples to test 3D-LLM unsolvable problem detection capability, and to do that testing.
 
 ## Set Env Vars
