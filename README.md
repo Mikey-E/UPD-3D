@@ -197,6 +197,8 @@ python analyze_scored_responses_bars.py path/to/scored/json/files --naming_delim
 where --naming_delim specifices a delimiter in the file names between the subset 
 name and the rest of the file name. This helps to make clean labels on the graph.
 
+There are variants for making radar charts, as well as one for gathering the results in a latex format suitable for a paper.
+
 ## Utilities
 
 The utils folder contains some scripts to do helpful things. This contains files to
