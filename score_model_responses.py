@@ -10,6 +10,15 @@ import os
 if not os.environ.get("OPENAI_API_KEY"):
     raise RuntimeError("Error: OPENAI_API_KEY environment variable is not set.")
 
+def filename_uses_answer_key(path):
+    """Return True if this response JSON should be graded against an answer key."""
+    name = os.path.basename(path)
+    return (
+        name.endswith("standard.json")
+        or "_aad_" in name
+        or "_iasd_" in name
+    )
+
 def main():
     parser = argparse.ArgumentParser(description="Score model responses using an existing-llm API.")
     parser.add_argument("json_file", type=str, help="Path to the JSON file containing unscored model responses.")
@@ -18,9 +27,9 @@ def main():
 
     json_file = args.json_file
 
-    # Require answer_key if "standard" is in the json filename
-    if json_file.endswith("standard.json") and not args.answer_key:
-        parser.error("--answer_key is required when 'standard' is in the JSON filename.")
+    # Require answer_key for standard, AAD, and IASD subsets (including variants)
+    if filename_uses_answer_key(json_file) and not args.answer_key:
+        parser.error("--answer_key is required for standard, AAD, and IASD subset JSON files.")
 
     # Load the JSON file into a Python dictionary
     with open(json_file, 'r') as f:
@@ -35,16 +44,18 @@ def main():
     
     # Track if scoring failed
     scoring_failed = False
+
+    answer_key = None
+    if args.answer_key and filename_uses_answer_key(json_file):
+        with open(args.answer_key, 'r') as f:
+            answer_key = json.load(f)
  
     for item in data.items():
         point_cloud = item[0]
         current_prompt = scoring_prompt
         current_prompt += f"\nQUESTION:{item[1]["prompt"]}"
-        if args.answer_key and json_file.endswith("standard.json"):
-            with open(args.answer_key, 'r') as f:
-                answer_key = json.load(f)
-            if point_cloud in answer_key:
-                correct_answer = f"\nCORRECT_ANSWER: {answer_key[point_cloud]}"
+        if answer_key is not None and point_cloud in answer_key:
+            correct_answer = f"\nCORRECT_ANSWER: {answer_key[point_cloud]}"
         else:
             correct_answer = f"\nCORRECT_ANSWER: The question is unanswerable, or none of the above."
         current_prompt += correct_answer

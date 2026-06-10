@@ -4,8 +4,9 @@
 # Notes:
 #   - For each *.json file directly inside <directory>, this script submits
 #     slurm_score_model_responses.sh via sbatch.
-#   - An answer key must always be provided via --answer_key, but it will only be
-#     passed to jobs whose filename ends with "standard.json". Other files run without it.
+#   - An answer key must always be provided via --answer_key. It is passed to jobs
+#     whose filename ends with "standard.json" or contains "_aad_" or "_iasd_".
+#     Other files run without it.
 #   - Non-JSON files are ignored. Subdirectories are not traversed.
 #   - Additional arguments after the required ones are not currently supported; if
 #     needed you can extend this script.
@@ -101,8 +102,8 @@ for file in "$TARGET_DIR"/*.json; do
 
     base="$(basename "$file")"
 
-    # Pass answer key only if filename ends with "standard.json"; otherwise omit
-    if [[ "$base" == *standard.json ]]; then
+    # Pass answer key for standard, AAD, and IASD subsets (including variants)
+    if [[ "$base" == *standard.json || "$base" == *_aad_* || "$base" == *_iasd_* ]]; then
         if [ "$cumulative_sleep" -gt 0 ]; then
             echo "Submitting: $base (with answer key, sleep=${cumulative_sleep}s)" >&2
         else
