@@ -17,6 +17,7 @@ def filename_uses_answer_key(path):
         name.endswith("standard.json")
         or "_aad_" in name
         or "_iasd_" in name
+        or "_oe_solvable" in name
     )
 
 def main():
@@ -27,9 +28,11 @@ def main():
 
     json_file = args.json_file
 
-    # Require answer_key for standard, AAD, and IASD subsets (including variants)
+    # Require answer_key for standard, AAD, IASD, and oe_solvable subsets (including variants)
     if filename_uses_answer_key(json_file) and not args.answer_key:
-        parser.error("--answer_key is required for standard, AAD, and IASD subset JSON files.")
+        parser.error(
+            "--answer_key is required for standard, AAD, IASD, and oe_solvable subset JSON files."
+        )
 
     # Load the JSON file into a Python dictionary
     with open(json_file, 'r') as f:
