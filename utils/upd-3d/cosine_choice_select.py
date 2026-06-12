@@ -217,7 +217,7 @@ def build_output_entry(
         "threshold_used": threshold,
         "selected_from_choices": selected_from_choices,
     }
-    if not selected_from_choices:
+    if selected_from_choices:
         entry["original_response"] = original_response
     return entry
 

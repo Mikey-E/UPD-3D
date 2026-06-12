@@ -159,7 +159,7 @@ def build_output_entry(
     }
     if judge_raw is not None:
         entry["judge_raw"] = judge_raw
-    if not selected_from_choices:
+    if selected_from_choices:
         entry["original_response"] = original_response
     return entry
 
