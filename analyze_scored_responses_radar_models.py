@@ -441,7 +441,7 @@ Each file becomes a point on the radar chart (representing a model).
     mode_prefix = "dual" if args.dual else "stdupd"
     name_for_saving = f"rdr_{mode_prefix}_{series_part}_{scoring_model}"
     
-    output_path = os.path.join(output_dir, f"{name_for_saving}.png")
+    output_path = os.path.join(output_dir, f"{name_for_saving}.pdf")
     plt.savefig(output_path, dpi=300, bbox_inches='tight')
     accuracy_type = "dual accuracy" if args.dual else "regular accuracy"
     print(f"Radar chart ({accuracy_type}) saved to: {os.path.abspath(output_path)}")

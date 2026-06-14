@@ -157,7 +157,7 @@ def main():
     name_for_saving = '_'.join(parts[:-1]) if len(parts) > 1 else folder_basename
     
     # Add scoring model to filename
-    output_path = os.path.join(output_dir, f"{name_for_saving}_{scoring_model}_bars.png")
+    output_path = os.path.join(output_dir, f"{name_for_saving}_{scoring_model}_bars.pdf")
     plt.savefig(output_path, dpi=300)
     print(f"Bar chart saved to: {os.path.abspath(output_path)}")
 

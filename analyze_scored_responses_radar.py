@@ -212,7 +212,7 @@ def main():
         name_for_saving = "combined_analysis"
     
     # Add scoring model to filename
-    output_path = os.path.join(output_dir, f"{name_for_saving}_{scoring_model}_radar.png")
+    output_path = os.path.join(output_dir, f"{name_for_saving}_{scoring_model}_radar.pdf")
     plt.savefig(output_path, dpi=300, bbox_inches='tight')
     print(f"Radar chart saved to: {os.path.abspath(output_path)}")
 
