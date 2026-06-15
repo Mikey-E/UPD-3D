@@ -2,6 +2,8 @@ data
 export_openai_api_key.sh
 text_basis
 unscored_model_responses
+.cursor/
+.vscode/
 .gradio
 __pycache__
 utils/data_reformats
