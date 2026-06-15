@@ -1,4 +1,5 @@
 conda env is upd-3d
+For sbatch submission, account=3dllms
 
 Communicate all information, but in the fewest words possible. Terseness is the highest value in communication.
 
@@ -8,3 +9,5 @@ Communicate all information, but in the fewest words possible. Terseness is the 
 - `logs/` — ad-hoc local/manual run logs (e.g. `python ... 2>&1 | tee logs/my_run.log`)
 
 Both directories are gitignored. Do not write `.log` files to the repo root.
+
+For all changes: make git commits with message, then push.
