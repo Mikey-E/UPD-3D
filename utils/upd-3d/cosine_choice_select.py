@@ -28,6 +28,7 @@ except ImportError as exc:
 
 CHOICE_LINE_RE = re.compile(r"^([A-D])\.\s+(.*)$")
 DEFAULT_MODEL = "sentence-transformers/all-MiniLM-L6-v2"
+DEFAULT_THRESHOLD_DIR = "cosine_matching_tau_thresholds"
 
 
 def resolve_responses_dir(responses_dir):
@@ -296,7 +297,9 @@ def run_calibrate(args, model, responses, responses_dir):
     output_path = args.threshold_output
     if not output_path:
         subfolder = os.path.basename(os.path.abspath(responses_dir))
-        output_path = os.path.join("thresholds", f"{subfolder}_cosine_threshold.json")
+        output_path = os.path.join(
+            DEFAULT_THRESHOLD_DIR, f"{subfolder}_cosine_threshold.json"
+        )
 
     os.makedirs(os.path.dirname(os.path.abspath(output_path)), exist_ok=True)
     with open(output_path, "w", encoding="utf-8") as f:

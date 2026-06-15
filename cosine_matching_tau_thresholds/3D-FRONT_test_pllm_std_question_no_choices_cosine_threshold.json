@@ -1,0 +1,19 @@
+{
+  "threshold": 0.5947509005013853,
+  "method": "histogram_intersection",
+  "model": "sentence-transformers/all-MiniLM-L6-v2",
+  "std_top1_stats": {
+    "count": 2993,
+    "mean": 0.37732072638436737,
+    "median": 0.3788827061653137,
+    "min": 0.036593999713659286,
+    "max": 0.861646294593811
+  },
+  "aad_top1_stats": {
+    "count": 2993,
+    "mean": 0.3561151465497515,
+    "median": 0.3459751307964325,
+    "min": -0.02065252885222435,
+    "max": 0.861646294593811
+  }
+}
