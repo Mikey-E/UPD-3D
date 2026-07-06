@@ -109,14 +109,14 @@ for file in "$TARGET_DIR"/*.json; do
         else
             echo "Submitting: $base (with answer key)" >&2
         fi
-        sbatch --export=SLEEP_SECONDS=$cumulative_sleep slurm_score_model_responses.sh "$file" --answer_key "$ANSWER_KEY"
+        sbatch slurm_score_model_responses.sh --sleep "$cumulative_sleep" "$file" --answer_key "$ANSWER_KEY"
     else
         if [ "$cumulative_sleep" -gt 0 ]; then
             echo "Submitting: $base (sleep=${cumulative_sleep}s)" >&2
         else
             echo "Submitting: $base" >&2
         fi
-        sbatch --export=SLEEP_SECONDS=$cumulative_sleep slurm_score_model_responses.sh "$file"
+        sbatch slurm_score_model_responses.sh --sleep "$cumulative_sleep" "$file"
     fi
     submitted=$((submitted+1))
     cumulative_sleep=$((cumulative_sleep + SLEEP_INCREMENT))

@@ -9,9 +9,21 @@
 #SBATCH --error=./slurm_logs/score_model_responses_%j.out
 #SBATCH --mem=16G
 #SBATCH --time=7-00:00:00
+#SBATCH --export=NIL
 
-# Optional sleep duration in seconds (default: 0)
-SLEEP_SECONDS=${SLEEP_SECONDS:-0}
+# Optional sleep duration in seconds (default: 0). Pass via --sleep to avoid env export.
+SLEEP_SECONDS=0
+while [[ $# -gt 0 ]]; do
+    case "$1" in
+        --sleep)
+            SLEEP_SECONDS="$2"
+            shift 2
+            ;;
+        *)
+            break
+            ;;
+    esac
+done
 
 # Ensure OPENAI_API_KEY is set; if missing, try sourcing export script
 if [ -z "$OPENAI_API_KEY" ]; then
