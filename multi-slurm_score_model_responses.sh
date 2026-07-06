@@ -1,6 +1,6 @@
 #!/bin/bash
 # Submit a scoring SLURM job for every JSON file in a directory.
-# Usage:  ./multi-slurm_score_model_responses.sh <directory> --answer_key <answer_key.json>
+# Usage:  ./multi-slurm_score_model_responses.sh <directory> --answer_key <answer_key.json> --openai_api_key_script <export_openai_api_key.sh> [--sleep <seconds>]
 # Notes:
 #   - For each *.json file directly inside <directory>, this script submits
 #     slurm_score_model_responses.sh via sbatch.
@@ -36,8 +36,9 @@ die() {
     safe_exit 1
 }
 
-if [ $# -lt 3 ]; then
-    echo "Usage: $0 <directory> --answer_key <answer_key.json> [--sleep <seconds>]" >&2
+if [ $# -lt 5 ]; then
+    echo "Usage: $0 <directory> --answer_key <answer_key.json> --openai_api_key_script <export_openai_api_key.sh> [--sleep <seconds>]" >&2
+    echo "Pass --openai_api_key_script with a shell script that exports OPENAI_API_KEY." >&2
     safe_exit 1
 fi
 
@@ -49,6 +50,15 @@ if [ "${1:-}" != "--answer_key" ] || [ -z "${2:-}" ]; then
     die "--answer_key <answer_key.json> is required"
 fi
 ANSWER_KEY="$2"
+shift 2
+
+# Require explicit --openai_api_key_script
+if [ "${1:-}" != "--openai_api_key_script" ] || [ -z "${2:-}" ]; then
+    echo "Error: --openai_api_key_script <path> is required." >&2
+    echo "Pass a shell script that exports OPENAI_API_KEY (e.g. ./export_openai_api_key.sh)." >&2
+    safe_exit 1
+fi
+OPENAI_API_KEY_SCRIPT="$2"
 shift 2
 
 # Optional --sleep parameter (default: 600 seconds = 10 minutes)
@@ -79,8 +89,13 @@ if [ ! -f "$ANSWER_KEY" ]; then
     die "Answer key path does not exist: $ANSWER_KEY"
 fi
 
+if [ ! -f "$OPENAI_API_KEY_SCRIPT" ]; then
+    die "OpenAI API key script does not exist: $OPENAI_API_KEY_SCRIPT"
+fi
+
 echo "Submitting scoring jobs for JSON files in: $TARGET_DIR" >&2
 echo "Answer key provided: $ANSWER_KEY" >&2
+echo "OpenAI API key script: $OPENAI_API_KEY_SCRIPT" >&2
 if [ "$SLEEP_INCREMENT" -gt 0 ]; then
     echo "Sleep increment: $SLEEP_INCREMENT seconds (cumulative per job)" >&2
 fi
@@ -109,14 +124,14 @@ for file in "$TARGET_DIR"/*.json; do
         else
             echo "Submitting: $base (with answer key)" >&2
         fi
-        sbatch slurm_score_model_responses.sh --sleep "$cumulative_sleep" "$file" --answer_key "$ANSWER_KEY"
+        sbatch slurm_score_model_responses.sh --openai_api_key_script "$OPENAI_API_KEY_SCRIPT" --sleep "$cumulative_sleep" "$file" --answer_key "$ANSWER_KEY"
     else
         if [ "$cumulative_sleep" -gt 0 ]; then
             echo "Submitting: $base (sleep=${cumulative_sleep}s)" >&2
         else
             echo "Submitting: $base" >&2
         fi
-        sbatch slurm_score_model_responses.sh --sleep "$cumulative_sleep" "$file"
+        sbatch slurm_score_model_responses.sh --openai_api_key_script "$OPENAI_API_KEY_SCRIPT" --sleep "$cumulative_sleep" "$file"
     fi
     submitted=$((submitted+1))
     cumulative_sleep=$((cumulative_sleep + SLEEP_INCREMENT))
