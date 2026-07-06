@@ -13,10 +13,15 @@
 
 # Optional sleep duration in seconds (default: 0). Pass via --sleep to avoid env export.
 SLEEP_SECONDS=0
+OPENAI_API_KEY_SCRIPT=""
 while [[ $# -gt 0 ]]; do
     case "$1" in
         --sleep)
             SLEEP_SECONDS="$2"
+            shift 2
+            ;;
+        --openai_api_key_script)
+            OPENAI_API_KEY_SCRIPT="$2"
             shift 2
             ;;
         *)
@@ -27,7 +32,11 @@ done
 
 # Ensure OPENAI_API_KEY is set; if missing, try sourcing export script
 if [ -z "$OPENAI_API_KEY" ]; then
-    if [ -f ./export_openai_api_key.sh ]; then
+    if [ -n "$OPENAI_API_KEY_SCRIPT" ] && [ -f "$OPENAI_API_KEY_SCRIPT" ]; then
+        echo "OPENAI_API_KEY not set; sourcing $OPENAI_API_KEY_SCRIPT"
+        # shellcheck source=/dev/null
+        . "$OPENAI_API_KEY_SCRIPT"
+    elif [ -f ./export_openai_api_key.sh ]; then
         echo "OPENAI_API_KEY not set; sourcing ./export_openai_api_key.sh"
         # shellcheck source=export_openai_api_key.sh
         . ./export_openai_api_key.sh
