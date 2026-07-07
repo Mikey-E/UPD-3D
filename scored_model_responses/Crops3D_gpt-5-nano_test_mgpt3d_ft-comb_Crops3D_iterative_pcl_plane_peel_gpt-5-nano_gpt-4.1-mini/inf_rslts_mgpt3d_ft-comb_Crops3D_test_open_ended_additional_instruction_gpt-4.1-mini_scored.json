@@ -1,0 +1,2144 @@
+{
+    "Cabbage@sl_1109_14": {
+        "prompt": "What type of rug covers the floor?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "The type of rug that covers the floor is not specified.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Cabbage@sl_1019_03": {
+        "prompt": "What type of outdoor fountain features intricate carvings?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "The fountain features intricate carvings.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Cabbage@mvs_1019_05": {
+        "prompt": "What type of metal is the lamp made of?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "The lamp is made of metal.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Cabbage@mvs_907_11": {
+        "prompt": "What is the height of the chandelier hanging from the ceiling?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "The height of the chandelier is not specified in the given description.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Cabbage@sl_1205_01": {
+        "prompt": "What type of sculpture is displayed on the shelf?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "The sculpture displayed on the shelf is a 3D model of a plant.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Cabbage@sl_921_07": {
+        "prompt": "What type of metal is the chandelier made of?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "The chandelier is made of metal.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Cabbage@mvs_901_14": {
+        "prompt": "What type of fabric is the armchair covered in?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "The armchair is covered in a blue fabric.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Cabbage@mvs_1123_14": {
+        "prompt": "What type of fruit is inside the vase?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "The type of fruit inside the vase is not specified in the description.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Cabbage@mvs_1019_09": {
+        "prompt": "What type of animal is lounging on the couch?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "The type of animal lounging on the couch is not specified.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Cabbage@sl_907_03": {
+        "prompt": "What type of chandelier is hanging from the ceiling?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "The chandelier hanging from the ceiling is a modern, sleek design.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Cabbage@sl_1205_05": {
+        "prompt": "What kind of water fountain is located nearby?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "There is a small water fountain located nearby.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Cabbage@mvs_1019_03": {
+        "prompt": "What type of animal is resting in the corner of the room?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "The type of animal resting in the corner of the room is not specified.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Cabbage@sl_901_02": {
+        "prompt": "What type of animal is resting on the table?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "The type of animal resting on the table is not specified.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Cabbage@mvs_1205_09": {
+        "prompt": "What type of fabric is on the curtains?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "The type of fabric on the curtains is not specified.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Cabbage@sl_1019_07": {
+        "prompt": "What type of chandelier is hanging from the ceiling?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "The type of chandelier hanging from the ceiling is a green one.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Cabbage@sl_1019_05": {
+        "prompt": "What type of furniture is positioned next to the fireplace?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "The type of furniture positioned next to the fireplace is not specified.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Cabbage@sl_1116_11": {
+        "prompt": "What type of metal is used in the chair?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "The chair is made of metal.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Cabbage@mvs_1012_06": {
+        "prompt": "What type of fabric is the couch made of?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "The couch is made of a blue fabric.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Cabbage@mvs_907_07": {
+        "prompt": "What type of fruit is displayed on the table?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "The type of fruit displayed on the table is not specified.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Cabbage@sl_921_11": {
+        "prompt": "What type of insect is resting on the ceiling?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "The type of insect resting on the ceiling is not specified in the description.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Cabbage@sl_1019_01": {
+        "prompt": "What type of flooring is used in the room?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "The type of flooring used in the room is not specified.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Cabbage@mvs_929_06": {
+        "prompt": "What is the height of the chandelier?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "The height of the chandelier is not specified in the description.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Cabbage@sl_1109_12": {
+        "prompt": "What texture does the rug have?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "The rug has a soft, plush texture.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Cabbage@mvs_1116_07": {
+        "prompt": "What type of rug is beneath the pot?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "The type of rug beneath the pot is not specified in the description.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Cabbage@mvs_921_03": {
+        "prompt": "What type of light fixture is hanging from the ceiling?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "The light fixture hanging from the ceiling is a pendant light.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Cabbage@mvs_901_10": {
+        "prompt": "What type of chandelier is hanging from the ceiling?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "The type of chandelier hanging from the ceiling is not specified in the given description.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Cabbage@sl_1103_05": {
+        "prompt": "What type of chandelier is hanging from the ceiling?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "The type of chandelier hanging from the ceiling is a green-colored one.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Cabbage@sl_907_11": {
+        "prompt": "What type of painting is hanging on the wall?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "The painting hanging on the wall is a cartoonish representation of a flower.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Cabbage@mvs_1103_05": {
+        "prompt": "What type of light fixture hangs from the ceiling?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "The type of light fixture hanging from the ceiling is a chandelier.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Cabbage@mvs_901_12": {
+        "prompt": "What type of fabric is used in the curtains?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "The type of fabric used in the curtains is not specified.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Cabbage@mvs_914_12": {
+        "prompt": "What type of sculpture is displayed next to the houseplant?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "The type of sculpture displayed next to the houseplant is not specified in the description.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Cabbage@sl_1026_02": {
+        "prompt": "What type of animal is sleeping in the room?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "The type of animal sleeping in the room is not specified.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Cabbage@sl_921_03": {
+        "prompt": "What type of fish is swimming in an aquarium nearby?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "The type of fish swimming in the aquarium nearby is not specified.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Cabbage@mvs_1026_08": {
+        "prompt": "What type of fabric is the curtain made of?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "The type of fabric used for the curtain is not specified in the description.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Cabbage@sl_1109_10": {
+        "prompt": "What type of metal sculpture is displayed on the table?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "The type of metal sculpture displayed on the table is not specified.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Cabbage@mvs_929_10": {
+        "prompt": "What type of fish is swimming in the room?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "The type of fish swimming in the room is not specified.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Cabbage@mvs_1205_01": {
+        "prompt": "What kind of fruit is hanging from the ceiling?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "The fruit hanging from the ceiling is an apple.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Cabbage@mvs_1019_11": {
+        "prompt": "What is the height of the tree next to the succulent plant?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "The height of the tree next to the succulent plant is not specified in the description.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Cabbage@sl_1026_08": {
+        "prompt": "What type of fish is swimming in the scene?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "The type of fish swimming in the scene is not specified.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Cabbage@mvs_907_13": {
+        "prompt": "What type of fish is swimming in the room?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "The type of fish swimming in the room is not specified.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Cabbage@mvs_1005_11": {
+        "prompt": "What shape is the mirror hanging on the wall?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "The mirror is hanging on a square-shaped wall.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Cabbage@mvs_901_06": {
+        "prompt": "What type of animal is sleeping on the windowsill?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "The type of animal sleeping on the windowsill is not specified in the description.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Cabbage@sl_1109_08": {
+        "prompt": "What type of crystal chandelier is hanging from the ceiling?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "The type of crystal chandelier hanging from the ceiling is not specified.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Cabbage@mvs_929_14": {
+        "prompt": "What type of large tree is in the corner of the room?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "The type of large tree in the corner of the room is not specified.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Cabbage@sl_907_01": {
+        "prompt": "What type of fruit is growing on the walls?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "The type of fruit growing on the walls is not specified.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Cabbage@sl_1026_10": {
+        "prompt": "What type of fabric is used to cover the sofa?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "The type of fabric used to cover the sofa is not specified.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Cabbage@sl_901_10": {
+        "prompt": "What type of fruit is hanging from a tree in the scene?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "The type of fruit hanging from the tree is not specified.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Cabbage@mvs_1012_12": {
+        "prompt": "What type of fabric is the curtain made of?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "The type of fabric is not specified in the description.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Cabbage@mvs_1109_02": {
+        "prompt": "What type of metal is used in the light fixture?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "The type of metal used in the light fixture is not specified.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Cabbage@sl_901_04": {
+        "prompt": "What type of metal is used in the unpainted staircase nearby?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "The type of metal used in the unpainted staircase is not specified.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Cabbage@mvs_1116_01": {
+        "prompt": "What is the size of the chandelier hanging from the ceiling?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "The size of the chandelier is not specified in the given description.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Cabbage@mvs_901_08": {
+        "prompt": "What type of animal is resting on the windowsill?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "The type of animal resting on the windowsill is not specified.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Cabbage@sl_1109_06": {
+        "prompt": "What type of fish is swimming in the room?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "The type of fish swimming in the room is not specified.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Cabbage@mvs_914_04": {
+        "prompt": "What type of fruit is hanging from the ceiling?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "The type of fruit hanging from the ceiling is not specified in the given description.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Cabbage@sl_1019_13": {
+        "prompt": "What type of chandelier is hanging from the ceiling?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "The type of chandelier hanging from the ceiling is a green one.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Cabbage@sl_1026_12": {
+        "prompt": "What type of fabric is used for the curtains?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "The type of fabric used for the curtains is not specified in the description.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Cabbage@mvs_1103_03": {
+        "prompt": "What type of glass sculpture is displayed on the shelf?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "The type of glass sculpture displayed on the shelf is a vase.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Cabbage@sl_1103_13": {
+        "prompt": "What type of fabric is used for the curtains?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "The type of fabric used for the curtains is not specified in the description.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Cabbage@sl_907_05": {
+        "prompt": "What type of animal is resting under the table?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "The type of animal resting under the table is not specified.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Cotton@116": {
+        "prompt": "What type of metal is used in the construction of the nearby chair?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "The type of metal used in the construction of the nearby chair is not specified.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Cotton@14": {
+        "prompt": "What is the material of the large metal sculpture positioned against the wall?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "The material of the large metal sculpture positioned against the wall is not specified.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Cotton@62": {
+        "prompt": "What kind of tropical fish is swimming nearby?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "The description does not provide enough information about the type of tropical fish swimming nearby.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Cotton@126": {
+        "prompt": "What kind of mineral is embedded in the soil beneath the sapling?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "The type of mineral embedded in the soil beneath the sapling is not specified.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Cotton@16": {
+        "prompt": "What type of fruit is growing on the tree?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "The type of fruit growing on the tree is not specified in the description.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Cotton@113": {
+        "prompt": "What type of fruit is hanging from the branch?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "The type of fruit hanging from the branch is not specified.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Cotton@27": {
+        "prompt": "What shape is the chandelier hanging from the ceiling?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "The chandelier is hanging from a circular base.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Cotton@92": {
+        "prompt": "What is the shape of the large rock adjacent to the branch?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "The shape of the large rock is not specified in the description.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Cotton@198": {
+        "prompt": "What type of furniture is used for seating in the scene?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "The type of furniture used for seating in the scene is a chair.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Cotton@63": {
+        "prompt": "What type of rock is used to create the sculpture in the scene?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "The type of rock used to create the sculpture in the scene is not specified.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Cotton@120": {
+        "prompt": "What type of stone is used in the doorway?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "The type of stone used in the doorway is not specified.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Cotton@81": {
+        "prompt": "What type of fruit does the branch produce?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "The type of fruit produced by the branch is not specified in the description.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Cotton@136": {
+        "prompt": "What type of metal is used in the construction of the nearby sculpture?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "The type of metal used in the construction of the nearby sculpture is not specified.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Cotton@26": {
+        "prompt": "What texture does the carpet have?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "The carpet has a soft, plush texture.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Cotton@112": {
+        "prompt": "What type of metal is used in the chair?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "The type of metal used in the chair is not specified.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Cotton@2": {
+        "prompt": "What is the size of the dining table?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "The size of the dining table is not specified in the description.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Cotton@21": {
+        "prompt": "What flavor is the ice cream served in the scene?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "The flavor of the ice cream served in the scene is not specified.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Cotton@173": {
+        "prompt": "What color is the chair next to the table?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "The chair next to the table is brown.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Cotton@107": {
+        "prompt": "What type of fruit does the tree produce?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "The type of fruit the tree produces is not specified in the description.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Cotton@22": {
+        "prompt": "What type of fruit is being displayed on the table?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "The fruit being displayed on the table is an apple.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Cotton@115": {
+        "prompt": "What type of fruit is hanging from the branches?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "The type of fruit hanging from the branches is not specified in the given description.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Cotton@159": {
+        "prompt": "What type of metal is the sculpture made of?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "The sculpture is made of metal.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Cotton@153": {
+        "prompt": "What type of fruit is hanging from the ceiling?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "The type of fruit hanging from the ceiling is not specified.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Cotton@88": {
+        "prompt": "What size is the crystal chandelier hanging from the ceiling?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "The size of the crystal chandelier hanging from the ceiling is not specified in the description.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Cotton@9": {
+        "prompt": "What is the pattern on the vase?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "The pattern on the vase is a series of concentric circles.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Cotton@72": {
+        "prompt": "Is there a large concrete sculpture nearby?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "Yes, there is a large concrete sculpture nearby.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Cotton@25": {
+        "prompt": "What type of fruit does the branch produce?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "The type of fruit produced by the branch is not specified in the description.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Cotton@158": {
+        "prompt": "What type of stone is the floor made of?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "The type of stone used for the floor is not specified in the description.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Cotton@180": {
+        "prompt": "What type of fruit is growing on the tree?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "The type of fruit growing on the tree is not specified in the description.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Cotton@149": {
+        "prompt": "What color are the blossoms on the flowering plant next to it?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "The color of the blossoms on the flowering plant next to it is not specified.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Cotton@125": {
+        "prompt": "What type of fruit does the tree produce?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "The type of fruit produced by the tree is not specified in the description.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Cotton@51": {
+        "prompt": "What type of fruit does the tree produce?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "The type of fruit produced by the tree is not specified in the description.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Cotton@67": {
+        "prompt": "What type of fish is swimming in the scene?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "The type of fish swimming in the scene is not specified.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Cotton@127": {
+        "prompt": "What type of animal is perched on the branch?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "The type of animal perched on the branch is not specified in the description.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Cotton@11": {
+        "prompt": "What shape is the pendant hanging from the ceiling?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "The pendant hanging from the ceiling is in the shape of a leaf.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Cotton@137": {
+        "prompt": "What type of kitchen appliance is placed next to the plant?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "The type of kitchen appliance next to the plant is not specified.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Cotton@78": {
+        "prompt": "What type of furniture is placed near the sapling?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "A wooden bench is placed near the sapling.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Cotton@6": {
+        "prompt": "What pattern is on the tablecloth?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "The tablecloth has a pattern of white and brown flowers.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Cotton@188": {
+        "prompt": "What kind of stone sculpture is placed beside the tree sapling?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "The type of stone sculpture is not specified.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Cotton@79": {
+        "prompt": "What type of fruit is growing on the shrub?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "The type of fruit growing on the shrub is not specified in the description.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Cotton@133": {
+        "prompt": "What type of rock formation is visible behind the sapling?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "The type of rock formation behind the sapling is not specified in the description.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Cotton@197": {
+        "prompt": "What type of furniture is positioned nearby?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "There is no specific furniture positioned nearby.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Cotton@176": {
+        "prompt": "What type of rock formation is visible nearby?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "The type of rock formation visible nearby is not specified.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Cotton@160": {
+        "prompt": "What type of fruit is on the tree?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "The type of fruit on the tree is not specified in the description.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Cotton@65": {
+        "prompt": "What type of fruit does the tree produce?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "The type of fruit produced by the tree is not specified in the description.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Cotton@100": {
+        "prompt": "What type of fruit does the large tree in the corner produce?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "The type of fruit the large tree in the corner produces is not specified.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Cotton@19": {
+        "prompt": "What type of metal is used in the furniture of the room?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "The type of metal used in the furniture is not specified.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Cotton@3": {
+        "prompt": "What kind of fruit is hanging from the branches?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "The type of fruit hanging from the branches is not specified in the description.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Cotton@75": {
+        "prompt": "What shape is the coffee table in the room?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "The coffee table in the room is rectangular.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Cotton@145": {
+        "prompt": "What type of furniture is in the room?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "There is no specific furniture in the room.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Cotton@168": {
+        "prompt": "What type of fruit is hanging from the branches of a tree nearby?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "The type of fruit hanging from the branches of the tree is not specified in the description.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Cotton@15": {
+        "prompt": "What type of fruit hangs from the branch?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "The type of fruit hanging from the branch is not specified.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Cotton@122": {
+        "prompt": "What type of fruit is hanging from the ceiling?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "The type of fruit hanging from the ceiling is not specified.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Maize@1-111": {
+        "prompt": "What is the weight of the marble sculpture located nearby?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "The weight of the marble sculpture cannot be determined from the given information.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Maize@3-28": {
+        "prompt": "What type of furniture is placed above the plant?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "The type of furniture placed above the plant is not specified in the description.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Maize@2-34": {
+        "prompt": "What type of artwork is hung on the wall?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "The artwork is a 3D model of a plant.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Maize@3-49": {
+        "prompt": "What type of furniture is located next to the plant?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "The type of furniture next to the plant is a brown wooden table.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Maize@2-70": {
+        "prompt": "What type of fruit is displayed on the table?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "The fruit displayed on the table is a banana.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Maize@3-55": {
+        "prompt": "What type of artwork is hanging on the wall?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "The artwork hanging on the wall is a 3D model of a plant.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Maize@3-26": {
+        "prompt": "What pattern is featured on the rug?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "The rug features a pattern of green and white stripes.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Maize@2-13": {
+        "prompt": "What type of heavy machinery is used for construction?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "The type of heavy machinery used for construction is not specified in the description.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Maize@3-21": {
+        "prompt": "What is the brand of the vacuum cleaner?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "The brand of the vacuum cleaner is F.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Maize@3-18": {
+        "prompt": "What type of artwork is hanging on the walls?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "The artwork hanging on the walls is a 3D model of a plant.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Maize@2-109": {
+        "prompt": "What type of painting is hanging on the wall?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "The painting hanging on the wall is a 3D model of a plant.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Maize@1-118": {
+        "prompt": "Where is the large wooden chair?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "The large wooden chair is placed on a brown floor.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Maize@3-42": {
+        "prompt": "What type of artwork is hanging on the ceiling?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "The artwork hanging on the ceiling is a plant.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Maize@1-24": {
+        "prompt": "What type of furniture is made of metal and has wheels?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "The furniture is made of metal and has wheels.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Maize@1-51": {
+        "prompt": "What type of fruit is displayed on the table?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "The type of fruit displayed on the table is not specified.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Maize@1-68": {
+        "prompt": "What type of furniture is positioned next to the sapling?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "The type of furniture positioned next to the sapling is not specified in the given description.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Maize@2-101": {
+        "prompt": "What type of fabric is the couch made from?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "The couch is made from a fabric that is not specified in the description.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Maize@3-19": {
+        "prompt": "What is the size of the large sculpture in the corner?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "The size of the large sculpture in the corner is not specified.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Maize@2-148": {
+        "prompt": "What type of fruit is hanging from the ceiling?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "The fruit hanging from the ceiling is a banana.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Maize@2-9": {
+        "prompt": "What is the size and shape of the chandelier hanging from the ceiling?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "The size and shape of the chandelier cannot be determined from the given description.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Maize@2-122": {
+        "prompt": "What type of fruit is on the kitchen counter?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "The fruit on the kitchen counter is a green apple.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Maize@1-122": {
+        "prompt": "What type of fruit is hanging from the ceiling?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "The type of fruit hanging from the ceiling is not specified.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Maize@3-10": {
+        "prompt": "What type of lighting fixture is hanging from the ceiling?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "The type of lighting fixture hanging from the ceiling is a green plant.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Maize@2-77": {
+        "prompt": "What type of furniture is located near the potted plant?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "The type of furniture located near the potted plant is not specified in the description.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Maize@2-140": {
+        "prompt": "What is the shape of the rocks located at the base of the plant?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "The rocks are cylindrical in shape.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Maize@2-126": {
+        "prompt": "What kind of artwork is hanging on the wall?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "The artwork hanging on the wall is a 3D model of a plant.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Maize@3-36": {
+        "prompt": "What type of rock is used for the flooring?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "The type of rock used for the flooring is not specified in the description.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Maize@3-15": {
+        "prompt": "What type of animal is resting on the windowsill?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "The type of animal resting on the windowsill is not specified.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Maize@3-60": {
+        "prompt": "What type of heavy furniture is located near the houseplant?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "The heavy furniture near the houseplant is a brown wooden table.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Maize@2-17": {
+        "prompt": "What kind of rug is placed on the floor?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "A green rug is placed on the floor.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Maize@2-32": {
+        "prompt": "What type of cooking appliance is located nearby?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "The question doesn't provide enough information to determine the type of cooking appliance.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Maize@2-116": {
+        "prompt": "What type of fruit is displayed on the table?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "The fruit displayed on the table is a banana.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Maize@1-120": {
+        "prompt": "What type of fruit is hanging from the ceiling?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "The type of fruit hanging from the ceiling is not specified in the description.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Maize@3-40": {
+        "prompt": "What type of animal is resting on the furniture?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "The type of animal resting on the furniture is not specified in the given description.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Maize@3-43": {
+        "prompt": "What type of fruit is on the floor?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "The type of fruit on the floor is not specified in the description.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Maize@2-31": {
+        "prompt": "What type of metal sculpture is displayed nearby?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "The type of metal sculpture displayed nearby is not specified in the given information.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Maize@3-38": {
+        "prompt": "What type of painting is hanging on the wall?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "The painting hanging on the wall is a 3D model.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Maize@2-28": {
+        "prompt": "What type of fruit is displayed on the table?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "The type of fruit displayed on the table is not specified in the description.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Maize@2-24": {
+        "prompt": "What type of animal is sleeping on the floor?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "The type of animal sleeping on the floor is not specified.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Maize@2-67": {
+        "prompt": "What type of animal is sleeping in the corner?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "The type of animal sleeping in the corner is not specified.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Maize@2-64": {
+        "prompt": "What is the flavor of the cake on the table?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "The flavor of the cake on the table is not specified.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Maize@3-54": {
+        "prompt": "What type of animal is resting on the floor?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "The type of animal resting on the floor is not specified.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Maize@2-66": {
+        "prompt": "What type of fish is swimming in the scene?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "The type of fish swimming in the scene is not specified.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Maize@3-7": {
+        "prompt": "What food item is stored in the refrigerator?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "The refrigerator is not specified to store any specific food item.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Maize@2-65": {
+        "prompt": "What type of sculpture is next to the plant?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "The next sculpture is a white one.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Maize@2-88": {
+        "prompt": "What type of fabric is the couch made of?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "The couch is made of a fabric that is not specified in the description.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Maize@2-108": {
+        "prompt": "What type of animal is resting on the floor?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "The type of animal resting on the floor is not specified in the description.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Maize@1-78": {
+        "prompt": "What type of large, colorful painting hangs on the wall?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "The large, colorful painting hanging on the wall is a vibrant abstract piece.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Maize@2-39": {
+        "prompt": "What type of musical instrument is hidden in the room?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "The type of musical instrument hidden in the room is not specified.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Maize@2-50": {
+        "prompt": "What type of animal is lounging in the room?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "The type of animal lounging in the room is not specified.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Maize@3-50": {
+        "prompt": "What type of fruit is displayed on the table?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "The type of fruit displayed on the table is not specified in the given description.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Maize@2-128": {
+        "prompt": "What type of metal sculpture is displayed in the room?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "The type of metal sculpture displayed in the room is not specified.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Maize@2-137": {
+        "prompt": "What type of fruit does the tree produce?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "The type of fruit the tree produces is not specified in the description.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Maize@2-141": {
+        "prompt": "What type of artwork is hanging on the wall?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "The artwork hanging on the wall is a 3D model of a plant.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Maize@2-29": {
+        "prompt": "What type of artwork is hanging on the ceiling?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "The artwork hanging on the ceiling is a plant.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Maize@1-60": {
+        "prompt": "What type of rock formation is displayed in the scene?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "The scene displays a rock formation.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Maize@1-22": {
+        "prompt": "What is the weight of the metal sculpture located on the opposite side of the room?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "The weight of the metal sculpture cannot be determined without additional information.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Maize@2-33": {
+        "prompt": "What type of crystal chandelier is hanging in the room?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "The type of crystal chandelier hanging in the room is not specified.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Maize@3-27": {
+        "prompt": "What type of flower is growing in the garden outside the window?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "The type of flower growing in the garden outside the window is not specified.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Maize@3-37": {
+        "prompt": "What shape is the ceiling fan?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "The ceiling fan is in the shape of a circle.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Maize@1-113": {
+        "prompt": "What type of fruit is hanging from the ceiling?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "The type of fruit hanging from the ceiling is not specified.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Maize@2-11": {
+        "prompt": "What type of birdcage is in the room?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "The type of birdcage in the room is not specified.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Maize@1-50": {
+        "prompt": "What type of flower is blooming next to the maize plant?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "The type of flower blooming next to the maize plant is not specified in the given description.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Maize@1-123": {
+        "prompt": "What kind of fruit is growing on the corn plant?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "The type of fruit growing on the corn plant is not specified in the description.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Maize@2-21": {
+        "prompt": "What type of painting is hanging on the wall?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "The painting hanging on the wall is a green plant.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Maize@2-107": {
+        "prompt": "What kind of fabric is the sofa made of?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "The sofa is made of a fabric that is not specified in the description.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Maize@2-114": {
+        "prompt": "What type of fruit does the dining table hold?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "The dining table holds a ripe, yellow banana.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Maize@1-106": {
+        "prompt": "What material is the table made of?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "The material of the table is not specified in the description.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Potato@5-19-P281-2-a": {
+        "prompt": "What shape is the rug in the room?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "The rug in the room is rectangular.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Potato@5-21-P104-3-a": {
+        "prompt": "What type of flower pot is used to display the plant?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "A ceramic flower pot is used to display the plant.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Potato@5-11-P255-3-a": {
+        "prompt": "What is the weight of the metal sculpture located in the corner of the room?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "The weight of the metal sculpture cannot be determined without additional information.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Potato@5-14-P117-3-a": {
+        "prompt": "What shape is the table in the room?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "The table in the room is rectangular.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Potato@5-13-P015-2-a": {
+        "prompt": "What type of flower arrangement is displayed in the room?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "The room displays a single flower arrangement.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Potato@5-23-P999-7-a": {
+        "prompt": "What type of fruit is hanging near the ceiling?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "The type of fruit hanging near the ceiling is not specified.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Potato@5-20-P043-1-a": {
+        "prompt": "What type of fruit is hanging from the ceiling?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "The type of fruit hanging from the ceiling is not specified.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Potato@5-11-P279-3-a": {
+        "prompt": "What type of flower is blooming nearby?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "The type of flower blooming nearby is not specified.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Potato@5-21-P104-4-a": {
+        "prompt": "What is the texture of the marble used in the countertops?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "The marble used in the countertops is smooth and glossy.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Potato@5-20-P060-3-a": {
+        "prompt": "What type of metal is used in the window frames?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "The type of metal used in the window frames is not specified.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Potato@5-11-P290-3-a": {
+        "prompt": "What texture does the rock in the scene have?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "The rock in the scene has a rough texture.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Potato@5-23-P999-2-a": {
+        "prompt": "What shape is the chandelier hanging from the ceiling?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "The chandelier is hanging from a circular ceiling.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Potato@5-11-P281-1-a": {
+        "prompt": "What type of flower is blooming next to the sapling?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "The type of flower blooming next to the sapling is not specified in the description.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Potato@5-23-P997-1-a": {
+        "prompt": "What type of fruit is laying on the floor?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "The type of fruit is not specified in the description.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Potato@5-14-P112-1-a": {
+        "prompt": "What texture does the large rug on the floor have?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "The large rug on the floor has a soft, plush texture.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Potato@5-13-P046-3-a": {
+        "prompt": "What type of rug is placed on the floor?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "A green rug is placed on the floor.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Potato@5-21-P104-2-a": {
+        "prompt": "What type of flower pot is used to display a large cactus?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "A large, green-colored ceramic pot is used to display the cactus.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Potato@5-11-P104-2-a": {
+        "prompt": "What type of flower is displayed in a vase on the table?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "The flower displayed in the vase on the table is a green plant.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Potato@5-23-P997-2-a": {
+        "prompt": "What is the shape and size of the garden bench?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "The shape and size of the garden bench is not specified in the description.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Potato@5-23-P998-9-a": {
+        "prompt": "What type of furniture is made of glass and placed in the scene?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "The type of furniture made of glass and placed in the scene is not specified.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Potato@5-20-P002-2-a": {
+        "prompt": "What type of mineral is embedded in the floor?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "The type of mineral embedded in the floor is not specified.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Potato@5-13-P098-1-a": {
+        "prompt": "What type of fruit is hanging from the ceiling?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "The type of fruit hanging from the ceiling is not specified in the description.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Potato@5-21-P142-1-a": {
+        "prompt": "What type of fruit does the tree produce?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "The type of fruit the tree produces is not specified in the description.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Potato@5-19-P279-1-a": {
+        "prompt": "What is the shape of the roof above the plant?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "The shape of the roof above the plant is not specified.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Potato@5-14-P113-3-a": {
+        "prompt": "What type of fruit is resting on the main surface?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "The type of fruit resting on the main surface is not specified in the description.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Potato@5-11-P281-2-a": {
+        "prompt": "What is the shape of the chandelier hanging from the ceiling?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "The chandelier is hanging from a circular frame.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Potato@5-11-P285-2-a": {
+        "prompt": "What shape is the coffee table?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "The coffee table is rectangular in shape.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Potato@5-20-P045-3-a": {
+        "prompt": "What color is the coffee table?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "The coffee table is green.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Potato@5-23-P998-7-a": {
+        "prompt": "What type of fruit is growing on the plant?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "The type of fruit growing on the plant is not specified in the description.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Potato@5-13-P002-2-a": {
+        "prompt": "What type of furniture is made of metal and glass in the room?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "The room contains a metal and glass table.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Potato@5-20-P015-2-a": {
+        "prompt": "What kind of stone is used in the construction of the fireplace?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "The type of stone used in the construction of the fireplace is not specified.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Potato@5-11-P294-3-a": {
+        "prompt": "Is there a purple flower nearby?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "No, there is no purple flower nearby.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Potato@5-13-P068-3-a": {
+        "prompt": "What type of fruit is hanging from the ceiling?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "The type of fruit hanging from the ceiling is not specified in the description.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Potato@5-19-P281-1-a": {
+        "prompt": "What is the height of the oak tree nearby?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "The height of the oak tree is not specified in the given description.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Potato@5-20-P149-3-a": {
+        "prompt": "What shape is the rug in the room?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "The rug in the room is square-shaped.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Potato@5-13-P043-2-a": {
+        "prompt": "What type of fruit is present on the plant?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "The fruit on the plant is not specified.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Rapeseed@29": {
+        "prompt": "What type of metal is the table made from?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "The type of metal the table is made from is not specified in the description.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Rapeseed@115": {
+        "prompt": "What type of fish is swimming in a tank nearby?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "The type of fish swimming in the tank is not specified.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Rapeseed@70": {
+        "prompt": "What type of lighting fixture hangs from the ceiling?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "The type of lighting fixture hanging from the ceiling is a pendant light.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Rapeseed@33": {
+        "prompt": "What type of furniture is in the room?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "The type of furniture in the room is a chair.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Rapeseed@31": {
+        "prompt": "What type of artwork is hanging on the wall?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "The artwork hanging on the wall is a 3D model of a plant.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Rapeseed@129": {
+        "prompt": "What type of metal sculpture is displayed on the shelf?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "The type of metal sculpture displayed on the shelf is not specified.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Rapeseed@20": {
+        "prompt": "What type of chandelier is hanging from the ceiling?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "The type of chandelier hanging from the ceiling is a glass one.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Rapeseed@91": {
+        "prompt": "What type of fruit is in the scene?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "The type of fruit in the scene is not specified.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Rapeseed@24": {
+        "prompt": "What type of metallic sculpture is placed next to the plant?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "The type of metallic sculpture placed next to the plant is not specified.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Rapeseed@37": {
+        "prompt": "What type of furniture is placed directly above the potted plant?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "The type of furniture placed directly above the potted plant is not specified.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Rapeseed@63": {
+        "prompt": "What type of light fixture hangs from the ceiling?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "The type of light fixture hanging from the ceiling is not specified in the description.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Rapeseed@11": {
+        "prompt": "What material is the hammock made of?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "The material of the hammock is not specified in the given description.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Rapeseed@135": {
+        "prompt": "What type of animal is hiding behind the plant?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "The type of animal is not specified in the description.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Rapeseed@107": {
+        "prompt": "What type of woven basket is used for storing blankets?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "The type of woven basket used for storing blankets is not specified in the description.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Rapeseed@116": {
+        "prompt": "What type of mineral is used in the construction of the ceiling?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "The type of mineral used in the construction of the ceiling is not specified.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Rapeseed@169": {
+        "prompt": "What type of flower is blooming in the scene?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "The type of flower blooming in the scene is not specified.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Rapeseed@58": {
+        "prompt": "What type of metal is used for the furniture?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "The type of metal used for the furniture is not specified.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Rapeseed@25": {
+        "prompt": "What type of hanging chandelier is installed in the room?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "A hanging chandelier is installed in the room.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Rapeseed@168": {
+        "prompt": "What type of wallpaper is used on the walls?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "The wallpaper used on the walls is a vibrant green color.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Rapeseed@83": {
+        "prompt": "What material is the chandelier made of?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "The chandelier is made of glass.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Rapeseed@127": {
+        "prompt": "What shape is the bookcase in the room?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "The bookcase in the room is square.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Rapeseed@79": {
+        "prompt": "What type of crystal chandelier is hanging from the ceiling?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "The type of crystal chandelier hanging from the ceiling is not specified.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Rapeseed@122": {
+        "prompt": "What type of crystal chandelier is hanging from the ceiling?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "The type of crystal chandelier hanging from the ceiling is not specified.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Rapeseed@8": {
+        "prompt": "What type of fish is swimming in the room?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "The type of fish swimming in the room is not specified.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Rapeseed@82": {
+        "prompt": "What type of crystal chandelier is hanging from the ceiling?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "The type of crystal chandelier hanging from the ceiling is not specified.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Rapeseed@95": {
+        "prompt": "What type of fruit bowl is on the table?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "The fruit bowl is a large, round, and blue ceramic bowl.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Rapeseed@61": {
+        "prompt": "What type of fish is swimming in a tank nearby?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "The type of fish swimming in the tank is not specified.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Rapeseed@93": {
+        "prompt": "What type of fabric is used for the curtains?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "The type of fabric used for the curtains is not specified in the description.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Rapeseed@147": {
+        "prompt": "What is the height of the chandelier hanging in the room?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "The height of the chandelier is not specified in the given description.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Rapeseed@128": {
+        "prompt": "What type of wooden furniture is located next to the plant?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "The type of wooden furniture next to the plant is not specified in the description.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Rapeseed@119": {
+        "prompt": "What kind of artwork is hanging on the walls?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "The artwork hanging on the walls is a 3D model of a plant.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Rapeseed@112": {
+        "prompt": "What type of painting is displayed on the wall?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "The painting displayed on the wall is a landscape painting.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Rapeseed@21": {
+        "prompt": "What flavor is the ice cream on the table?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "The flavor of the ice cream on the table is not specified in the given description.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Rapeseed@109": {
+        "prompt": "What kind of artwork is hanging on the wall?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "The artwork hanging on the wall is a 3D model of a plant.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Rapeseed@142": {
+        "prompt": "What type of fruit is growing on the plant?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "The type of fruit growing on the plant is not specified in the description.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Rapeseed@96": {
+        "prompt": "What type of metal is the coffee table made of?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "The coffee table is made of metal.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Rapeseed@161": {
+        "prompt": "What type of light fixture hangs from the ceiling?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "The type of light fixture hanging from the ceiling is not specified.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Rapeseed@123": {
+        "prompt": "What type of gemstone is used in the chandelier?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "The chandelier is adorned with a blue gemstone.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Rapeseed@102": {
+        "prompt": "What kind of fish is swimming in the room?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "The type of fish swimming in the room is not specified.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Rapeseed@13": {
+        "prompt": "What type of metal is used for the ceiling light fixture?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "The ceiling light fixture is made of metal.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Rapeseed@92": {
+        "prompt": "What type of mineral is the plant grown in?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "The type of mineral the plant is grown in is not specified.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Rapeseed@40": {
+        "prompt": "What type of chandelier is hanging from the ceiling?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "The type of chandelier hanging from the ceiling is not specified.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Rapeseed@41": {
+        "prompt": "What type of animal sculpture is in the room?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "The type of animal sculpture in the room is not specified.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Rapeseed@113": {
+        "prompt": "What type of fabric is the sofa made of?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "The type of fabric used to make the sofa is not specified in the description.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Rapeseed@108": {
+        "prompt": "What is the height of the chandelier hanging in the room?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "The height of the chandelier is not specified in the description.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Rice@77": {
+        "prompt": "What shape is the rug in the room?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "The rug in the room is square.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Rice@1": {
+        "prompt": "What is the weight of the chandelier hanging from the ceiling?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "The weight of the chandelier cannot be determined without additional information.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Rice@62": {
+        "prompt": "What type of aquatic creature is swimming nearby?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "The caption doesn't provide enough information to identify the aquatic creature.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Rice@3": {
+        "prompt": "What type of chair is in the room?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "The type of chair in the room is not specified.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Rice@20": {
+        "prompt": "What type of furniture is in the room?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "The type of furniture in the room is not specified.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Rice@74": {
+        "prompt": "What type of artwork is hanging on the wall?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "The artwork hanging on the wall is a 3D model of a plant.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Rice@19": {
+        "prompt": "What type of fruit is displayed on the kitchen counter?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "The type of fruit displayed on the kitchen counter is not specified.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Rice@26": {
+        "prompt": "What type of animal is sleeping on the floor?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "The type of animal sleeping on the floor is not specified in the given description.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Rice@13": {
+        "prompt": "What is the height of the ceiling in the room?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "The height of the ceiling in the room is not specified.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Rice@7": {
+        "prompt": "What type of artwork is hanging on the wall?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "The artwork hanging on the wall is a 3D model of a plant.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Rice@46": {
+        "prompt": "What shape is the chandelier hanging from the ceiling?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "The chandelier is hanging from a circular shape.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Rice@52": {
+        "prompt": "What type of sculpture is displayed next to the plant?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "The type of sculpture displayed next to the plant is a white, abstract sculpture.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Rice@41": {
+        "prompt": "What is the height of the chandelier hanging from the ceiling?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "The height of the chandelier is not specified in the given description.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Rice@84": {
+        "prompt": "What type of fruit is hanging from the ceiling?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "The type of fruit hanging from the ceiling is not specified.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Rice@6": {
+        "prompt": "What type of sculpture is displayed beside the plant?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "The type of sculpture displayed beside the plant is not specified.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Rice@59": {
+        "prompt": "What type of fruit is arranged on the kitchen counter?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "The type of fruit is not specified in the description.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Rice@4": {
+        "prompt": "What type of furniture is used for seating in the room?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "The type of furniture used for seating in the room is not specified.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Rice@8": {
+        "prompt": "What type of crystal chandelier is hanging in the ceiling?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "The type of crystal chandelier hanging in the ceiling is not specified.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Rice@48": {
+        "prompt": "What type of animal is sleeping in the corner?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "The type of animal sleeping in the corner is not specified.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Rice@54": {
+        "prompt": "What is the size of the chandelier hanging from the ceiling?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "The size of the chandelier is not specified in the given description.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Rice@2": {
+        "prompt": "What type of rock is used in the construction of the walls?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "The type of rock used in the construction of the walls is not specified.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Rice@37": {
+        "prompt": "What type of fruit is hanging from the ceiling?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "The type of fruit hanging from the ceiling is not specified in the description.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Rice@45": {
+        "prompt": "What type of artwork is hanging on the wall?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "The artwork hanging on the wall is a 3D model of a plant.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Rice@35": {
+        "prompt": "What type of fruit is hanging from the tree outside the building?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "The type of fruit hanging from the tree outside the building is not specified.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Rice@18": {
+        "prompt": "What type of service bell is on the table?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "The type of service bell on the table is not specified.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Rice@72": {
+        "prompt": "What shape is the chandelier hanging from the ceiling?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "The chandelier is hanging from a circular base.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Tomato@8-22_20-28": {
+        "prompt": "What is the size of the rock located at the base of the branch?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "The size of the rock is not specified in the description.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Tomato@10-5_1-1": {
+        "prompt": "What type of fish is swimming in the room?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "The type of fish swimming in the room is not specified.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Tomato@8-13_20-28": {
+        "prompt": "What shape is the rug in the room?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "The rug in the room is square-shaped.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Tomato@8-22_30-4": {
+        "prompt": "What texture does the rug have?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "The rug has a soft, plush texture.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Tomato@8-13_1-55": {
+        "prompt": "What is the size of the marble coffee table?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "The size of the marble coffee table is not specified in the description.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Tomato@8-22_10-3": {
+        "prompt": "What type of flower is blooming at the base of the tree?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "The type of flower blooming at the base of the tree is not specified.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Tomato@11-2_35-22": {
+        "prompt": "What type of vase is placed next to the plant?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "The type of vase is not specified in the description.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Tomato@8-31_10-3": {
+        "prompt": "What type of furniture is situated under the tree?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "The type of furniture situated under the tree is not specified.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Tomato@10-5_30-52": {
+        "prompt": "What type of wildflower is growing in the corner?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "The type of wildflower growing in the corner is not specified.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Tomato@8-10_10-53": {
+        "prompt": "What type of flower is displayed in a vase on the table?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "The type of flower displayed in the vase on the table is not specified.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Tomato@8-28_30-52": {
+        "prompt": "What type of fabric is used for the curtains?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "The type of fabric used for the curtains is not specified in the description.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Tomato@8-22_35-22": {
+        "prompt": "What type of rock is embedded in the ground near the tree?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "The type of rock embedded in the ground near the tree is not specified.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Tomato@9-3_2-1": {
+        "prompt": "What type of stone is used in the sculptures in the room?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "The type of stone used in the sculptures is not specified.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Tomato@8-25_1-55": {
+        "prompt": "What type of flower is planted nearby?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "The type of flower planted nearby is not specified in the description.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Tomato@9-3_20-28": {
+        "prompt": "What type of fruit is hanging from the ceiling?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "The type of fruit hanging from the ceiling is not specified.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Tomato@8-28_10-53": {
+        "prompt": "What type of flower arrangement is placed on the ground?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "The type of flower arrangement placed on the ground is not specified.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Tomato@9-6_1-55": {
+        "prompt": "What type of flower pot is located next to the tree?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "The type of flower pot next to the tree is not specified.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Tomato@9-3_10-3": {
+        "prompt": "What type of flower is blooming in the scene?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "The type of flower blooming in the scene is not specified.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Tomato@8-31_20-28": {
+        "prompt": "What color is the stone fountain situated near the tree?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "The stone fountain is white.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Tomato@8-25_30-52": {
+        "prompt": "What type of fruit does the tree bear?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "The type of fruit the tree bears is not specified in the description.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Tomato@11-2_30-4": {
+        "prompt": "What shape is the bowl that holds oranges?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "The shape of the bowl is not specified in the description.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Tomato@9-14_10-3": {
+        "prompt": "What type of fruit does the tree produce?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "The type of fruit the tree produces is not specified in the description.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Tomato@11-2_1-1": {
+        "prompt": "What shape is the coffee table?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "The coffee table is rectangular in shape.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Tomato@8-28_20-28": {
+        "prompt": "What type of fruit does the table hold?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "The type of fruit is not specified in the description.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Tomato@8-25_1-1": {
+        "prompt": "What type of metal is used in the chandelier?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "The chandelier is made of metal.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Wheat@79": {
+        "prompt": "What type of fruit does the shrub produce?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "The type of fruit the shrub produces is not specified in the description.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Wheat@145": {
+        "prompt": "What material is the rug made of?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "The material of the rug is not specified in the description.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Wheat@91": {
+        "prompt": "What type of flower is situated on top of the potted plant?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "The type of flower situated on top of the potted plant is not specified.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Wheat@116": {
+        "prompt": "What type of metal is the lamp made of?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "The lamp is made of metal.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Wheat@6": {
+        "prompt": "What type of sculpture is placed next to the plant?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "The type of sculpture is not specified in the description.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Wheat@11": {
+        "prompt": "What type of fruit is hanging from the ceiling?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "The type of fruit hanging from the ceiling is not specified in the description.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Wheat@34": {
+        "prompt": "What is the height of the ceiling in the room?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "The height of the ceiling in the room is not specified.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Wheat@127": {
+        "prompt": "What material is the coffee table made of?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "The coffee table is made of wood.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Wheat@39": {
+        "prompt": "What type of sculpture is located beside the plant?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "The type of sculpture is not specified in the given information.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Wheat@107": {
+        "prompt": "What type of sculpture is located on the ceiling?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "The type of sculpture located on the ceiling is not specified in the description.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Wheat@122": {
+        "prompt": "What type of furniture is in the scene?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "The type of furniture in the scene is not specified.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Wheat@52": {
+        "prompt": "What type of sculpture is displayed on the ceiling?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "The type of sculpture displayed on the ceiling is a plant.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Wheat@96": {
+        "prompt": "What type of fruit is hanging from the ceiling?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "The fruit hanging from the ceiling is a green apple.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Wheat@26": {
+        "prompt": "What type of crystal chandelier hangs from the ceiling?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "The type of crystal chandelier hanging from the ceiling is not specified.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Wheat@88": {
+        "prompt": "What type of fabric is used for the curtains?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "The type of fabric used for the curtains is not specified in the description.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Wheat@25": {
+        "prompt": "What type of large furniture piece is located against the wall?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "The large piece of furniture against the wall is a sofa.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Wheat@115": {
+        "prompt": "What type of stone is the fountain made of?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "The type of stone used to make the fountain is not specified.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Wheat@28": {
+        "prompt": "What type of flower is located on the windowsill?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "The type of flower located on the windowsill is not specified.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Wheat@78": {
+        "prompt": "What type of fish is swimming in the room?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "The type of fish swimming in the room is not specified.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Wheat@126": {
+        "prompt": "What type of flower is blooming in the scene?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "The type of flower blooming in the scene is not specified.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Wheat@125": {
+        "prompt": "What type of painting is hanging on the wall?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "The painting hanging on the wall is a landscape painting.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Wheat@60": {
+        "prompt": "What type of animal is sleeping on the floor?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "The type of animal sleeping on the floor is not specified.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Wheat@131": {
+        "prompt": "What type of furniture is located beside the green plant?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "The type of furniture located beside the green plant is a brown wooden bench.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Wheat@72": {
+        "prompt": "What type of rock is in the scene?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "The type of rock in the scene is not specified.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Wheat@149": {
+        "prompt": "What type of flower is located on the opposite side of the room?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "The type of flower located on the opposite side of the room is not specified.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Wheat@119": {
+        "prompt": "What type of sculpture is displayed on the shelf?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "The sculpture displayed on the shelf is a plant.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Wheat@21": {
+        "prompt": "What type of animal is resting on the floor?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "The type of animal resting on the floor is not specified in the description.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Wheat@84": {
+        "prompt": "What shape is the coffee table?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "The coffee table is square-shaped.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Wheat@4": {
+        "prompt": "What type of fountain is located nearby?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "The type of fountain located nearby is not specified in the given information.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Wheat@109": {
+        "prompt": "What type of flower is displayed in a vase?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "The type of flower displayed in the vase is a tulip.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Wheat@89": {
+        "prompt": "What is the texture of the carpet on the floor?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "The texture of the carpet on the floor is not specified.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Wheat@14": {
+        "prompt": "What type of fruit is placed on the table?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "The type of fruit is not specified in the description.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Wheat@73": {
+        "prompt": "What type of furniture is in the scene?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "The scene does not specify the type of furniture.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Wheat@123": {
+        "prompt": "What type of sculpture is placed on the floor?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "The type of sculpture placed on the floor is a plant.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Wheat@102": {
+        "prompt": "What type of furniture is used for seating in the room?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "The type of furniture used for seating in the room is a wooden chair.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Wheat@80": {
+        "prompt": "What type of metal is used in the construction of the garden bench?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "The type of metal used in the construction of the garden bench is not specified.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Wheat@87": {
+        "prompt": "What shape is the coffee table?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "The coffee table is square-shaped.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Wheat@98": {
+        "prompt": "What type of animal is resting on the floor?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "The type of animal resting on the floor is not specified in the given information.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Wheat@137": {
+        "prompt": "What type of animal is resting on the floor?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "The type of animal resting on the floor is not specified.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Wheat@113": {
+        "prompt": "What type of fruit hangs from the nearby tree?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "The type of fruit hanging from the nearby tree is not specified in the description.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Wheat@108": {
+        "prompt": "What materials were used to create the sculpture?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "The sculpture is made from a combination of wood and stone.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Wheat@7": {
+        "prompt": "What type of fish is swimming in the water nearby?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "The type of fish swimming in the water nearby is not specified.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Wheat@42": {
+        "prompt": "What type of fabric is the couch made of?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "The couch is made of a green fabric.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Wheat@92": {
+        "prompt": "What type of fruit is hanging from the ceiling?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "The type of fruit hanging from the ceiling is not specified in the description.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Wheat@15": {
+        "prompt": "What type of fabric is the sofa made of?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "The sofa is made of a fabric that is not specified.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    }
+}
