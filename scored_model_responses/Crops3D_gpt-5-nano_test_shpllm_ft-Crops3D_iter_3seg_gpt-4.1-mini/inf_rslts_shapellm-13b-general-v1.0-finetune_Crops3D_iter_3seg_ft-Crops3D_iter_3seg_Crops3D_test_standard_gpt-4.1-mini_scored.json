@@ -1,0 +1,2144 @@
+{
+    "Cabbage@sl_1109_14": {
+        "prompt": "What type of pot is the succulent plant sitting in?\n\nA. Dark-colored pot\nB. White-colored pot\nC. Transparent pot\nD. Clay pot",
+        "response": "A potted plant with a dense cluster of broad, dark-green leaves arranged in a rosette, featuring a purple flower and a pink stem, in a cylindrical pot.",
+        "correct_answer": "Dark-colored pot",
+        "score": "F"
+    },
+    "Cabbage@sl_1019_03": {
+        "prompt": "What shape are the leaves of the potted houseplant described?\n\nA. Round with serrated edges\nB. Broad, oval to lanceolate with smooth edges\nC. Needle-like and thin\nD. Heart-shaped with ribbed edges",
+        "response": "A potted plant with a slender brown stem and a cluster of broad, oval to lanceolate green leaves with serrated edges.",
+        "correct_answer": "Broad, oval to lanceolate with smooth edges",
+        "score": "F"
+    },
+    "Cabbage@mvs_1019_05": {
+        "prompt": "What color are the leaves of the potted succulent?\n\nA. Dark Green\nB. Light Pink\nC. Bright Yellow\nD. Blue-Green",
+        "response": "A potted plant with a dense rosette of broad, dark-green leaves arranged in a circular cluster.",
+        "correct_answer": "Blue-Green",
+        "score": "F"
+    },
+    "Cabbage@mvs_907_11": {
+        "prompt": "What color is the pot that the plant is in?\n\nA. Green\nB. Yellow\nC. Red\nD. Blue",
+        "response": "A small green plant with a slender stem and broad, lobed leaves sits in a round blue pot with a blue rim.",
+        "correct_answer": "Blue",
+        "score": "T"
+    },
+    "Cabbage@sl_1205_01": {
+        "prompt": "What color is the pot that holds the houseplant?\n\nA. Green\nB. Dark blue\nC. Red\nD. Yellow",
+        "response": "A dark blue cylindrical pot with a wide rim holds a green leafy plant with broad, lobed leaves.",
+        "correct_answer": "Dark blue",
+        "score": "T"
+    },
+    "Cabbage@sl_921_07": {
+        "prompt": "What shape is the planter for the potted plant?\n\nA. Round\nB. Square\nC. Oval\nD. Triangular",
+        "response": "A small potted plant with a slender stem and broad, rounded green leaves sits in a round pot with a blue rim.",
+        "correct_answer": "Round",
+        "score": "T"
+    },
+    "Cabbage@mvs_901_14": {
+        "prompt": "What is the color of the rim of the ceramic pot?\n\nA. Beige\nB. Green\nC. Blue\nD. Pale",
+        "response": "A small round ceramic pot with a blue rim and a blue-green rim, featuring a blue-green rim and a blue-green top.",
+        "correct_answer": "Beige",
+        "score": "F"
+    },
+    "Cabbage@mvs_1123_14": {
+        "prompt": "What color is the flower supported by the blue-gray ceramic vase?\n\nA. Yellow\nB. White\nC. Red\nD. Blue-green",
+        "response": "A small potted plant with a slender stem and broad, oval green leaves arranged in a rosette, featuring a blue-green hue.",
+        "correct_answer": "Blue-green",
+        "score": "F"
+    },
+    "Cabbage@mvs_1019_09": {
+        "prompt": "What color is the pot that holds the succulent?\n\nA. Light gray-blue\nB. Dark green\nC. Bright red\nD. Matte black",
+        "response": "A small potted plant with a slender stem and a cluster of broad, oval green leaves, featuring a blue-gray pot.",
+        "correct_answer": "Light gray-blue",
+        "score": "T"
+    },
+    "Cabbage@sl_907_03": {
+        "prompt": "What shape is the pot that the plant is in?\n\nA. Square\nB. Rectangular\nC. Oval\nD. Round",
+        "response": "A round, shallow pot with a blue rim and a circular rim holds a small plant with a pink flower and a pink stem, featuring a pink flower on a circular ring.",
+        "correct_answer": "Round",
+        "score": "T"
+    },
+    "Cabbage@sl_1205_05": {
+        "prompt": "What color is the pot that the succulent is in?\n\nA. Red\nB. Green\nC. Blue\nD. Yellow",
+        "response": "A potted plant with a slender stem and broad, oval green leaves arranged in a rosette, featuring a pink flower.",
+        "correct_answer": "Blue",
+        "score": "F"
+    },
+    "Cabbage@mvs_1019_03": {
+        "prompt": "What color is the pot that houses the indoor potted plant?\n\nA. Light green\nB. Yellow\nC. Bright red\nD. Dark blue",
+        "response": "A tall, slender green plant with a central stem and long, lance-shaped leaves arranged along the stem, forming a dense cluster. The leaves are green with brown edges and a small brown base, and a small brown pot is visible.",
+        "correct_answer": "Dark blue",
+        "score": "F"
+    },
+    "Cabbage@sl_901_02": {
+        "prompt": "What shape is the pot that holds the bonsai-style plant?\n\nA. Square\nB. Rectangular\nC. Round\nD. Triangular",
+        "response": "A small round pot with a blue rim contains a green leafy plant with broad leaves, featuring a blue-gray rim and a circular rim.",
+        "correct_answer": "Round",
+        "score": "T"
+    },
+    "Cabbage@mvs_1205_09": {
+        "prompt": "What color is the pot in which the succulent is planted?\n\nA. Blue\nB. Green\nC. Red\nD. Yellow",
+        "response": "A blue cylindrical pot with a blue rim contains a small green plant with a rosette of broad, oval leaves.",
+        "correct_answer": "Blue",
+        "score": "T"
+    },
+    "Cabbage@sl_1019_07": {
+        "prompt": "What color are the leaves of the potted succulent?\n\nA. Red\nB. Yellow\nC. Green\nD. Blue",
+        "response": "A potted plant with a dense rosette of broad, fleshy, dark-green leaves arranged in a circular, flower-like cluster.",
+        "correct_answer": "Green",
+        "score": "T"
+    },
+    "Cabbage@sl_1019_05": {
+        "prompt": "What shape is the pot that houses the potted plant?\n\nA. Square\nB. Triangular\nC. Oval\nD. Round",
+        "response": "A small potted plant with a slender brown stem and a cluster of broad, oval green leaves, featuring a large leaf with a curved stem.",
+        "correct_answer": "Round",
+        "score": "F"
+    },
+    "Cabbage@sl_1116_11": {
+        "prompt": "What shape does the succulent form with its leaves?\n\nA. Triangular shape\nB. Oval shape\nC. Square shape\nD. Circular shape",
+        "response": "A potted succulent with a dense rosette of broad, fleshy leaves arranged in a circular, flower-like cluster.",
+        "correct_answer": "Circular shape",
+        "score": "T"
+    },
+    "Cabbage@mvs_1012_06": {
+        "prompt": "What is the shape of the leaves on the succulent?\n\nA. Linear\nB. Circular\nC. Obovate\nD. Triangular",
+        "response": "A slender, curved brown twig with a small cluster of dried leaves at the tip, featuring a curved leaf-like shape and a small brown flower.",
+        "correct_answer": "Obovate",
+        "score": "F"
+    },
+    "Cabbage@mvs_907_07": {
+        "prompt": "What color is the ceramic pot containing the plant? \n\nA. Blue\nB. Green\nC. Red\nD. Yellow",
+        "response": "A blue ceramic pot with a blue rim contains a small plant with a blue flower.",
+        "correct_answer": "Blue",
+        "score": "T"
+    },
+    "Cabbage@sl_921_11": {
+        "prompt": "What color is the pot that the plant is growing in?\n\nA. Red\nB. Dark blue\nC. Green\nD. Yellow",
+        "response": "A small green plant with broad, oval leaves sits in a round, dark-blue pot.",
+        "correct_answer": "Dark blue",
+        "score": "T"
+    },
+    "Cabbage@sl_1019_01": {
+        "prompt": "What type of leaf shape is described for the plant in the room?\n\nA. Heart-shaped\nB. Triangular\nC. Circular\nD. Elongated oval",
+        "response": "A slender brown twig with a curved stem and tiny green leaves along its length, accompanied by a small green leaf fragment and a green leaf with a curved stem.",
+        "correct_answer": "Elongated oval",
+        "score": "F"
+    },
+    "Cabbage@mvs_929_06": {
+        "prompt": "What color is the pot that the succulent is in? \n\nA. Dark green\nB. Bright red\nC. Blue-gray\nD. Yellow",
+        "response": "A small potted plant with a slender stem and broad, oval green leaves arranged around it, featuring a blue-gray cylindrical pot.",
+        "correct_answer": "Blue-gray",
+        "score": "T"
+    },
+    "Cabbage@sl_1109_12": {
+        "prompt": "What is the color of the leaves of the potted succulent?\n\nA. Light green\nB. Yellow\nC. Dark green to blue-green\nD. Brown",
+        "response": "A potted plant with a rosette of broad, glossy green leaves arranged in a circular cluster, featuring a blue-green hue.",
+        "correct_answer": "Dark green to blue-green",
+        "score": "T"
+    },
+    "Cabbage@mvs_1116_07": {
+        "prompt": "What color are the horizontal bands on the ceramic pot containing the succulent?\n\nA. Blue and white\nB. Green and yellow\nC. Red and white\nD. Black and gold",
+        "response": "Blue and white.",
+        "correct_answer": "Blue and white",
+        "score": "T"
+    },
+    "Cabbage@mvs_921_03": {
+        "prompt": "What color is the pot containing the small potted plant?\n\nA. Dark blue\nB. Light blue\nC. Green\nD. Yellow",
+        "response": "A small potted plant with a slender stem and broad, oval green leaves sits in a dark blue pot.",
+        "correct_answer": "Dark blue",
+        "score": "T"
+    },
+    "Cabbage@mvs_901_10": {
+        "prompt": "What color is the rim of the ceramic pot?\n\nA. Light tan\nB. Dark brown\nC. Bright red\nD. Deep blue",
+        "response": "A small brown pot with a wide rim and a dark blue rim, filled with soil and a green leafy plant.",
+        "correct_answer": "Light tan",
+        "score": "F"
+    },
+    "Cabbage@sl_1103_05": {
+        "prompt": "What shape is the pot that holds the succulent?\n\nA. Square\nB. Short cylindrical\nC. Tall rectangular\nD. Flat dish",
+        "response": "A tall, slender green plant with a single vertical stem and a cluster of broad, oval leaves at the top, featuring a small brown pot.",
+        "correct_answer": "Short cylindrical",
+        "score": "F"
+    },
+    "Cabbage@sl_907_11": {
+        "prompt": "What shape is the pot that the plant is in?\n\nA. Square\nB. Rectangular\nC. Oval\nD. Round",
+        "response": "A small green plant with a slender stem and a cluster of broad, oval leaves sits in a round pot. The pot is a dark blue ceramic pot with a light rim, and the leaves are green with brownish edges.",
+        "correct_answer": "Round",
+        "score": "T"
+    },
+    "Cabbage@mvs_1103_05": {
+        "prompt": "What type of leaves does the potted plant have?\n\nA. Long and narrow leaves\nB. Heart-shaped yellow leaves\nC. Broad bluish-green leaves\nD. Spiky red leaves",
+        "response": "A potted plant with a slender brown stem and a cluster of broad, bluish-green leaves, featuring a blue-green flower.",
+        "correct_answer": "Broad bluish-green leaves",
+        "score": "T"
+    },
+    "Cabbage@mvs_901_12": {
+        "prompt": "What color is the rim of the pot holding the succulent?\n\nA. Green\nB. Red\nC. Blue\nD. Yellow",
+        "response": "A small potted plant with a slender stem and broad, oval green leaves sits in a round blue-gray pot with a thick blue rim.",
+        "correct_answer": "Blue",
+        "score": "T"
+    },
+    "Cabbage@mvs_914_12": {
+        "prompt": "What color is the rim of the pot that the houseplant is in?\n\nA. Green\nB. Blue\nC. White\nD. Red",
+        "response": "A small green plant with a slender stem and a cluster of broad, oval leaves sits in a round pot with a blue rim.",
+        "correct_answer": "Blue",
+        "score": "T"
+    },
+    "Cabbage@sl_1026_02": {
+        "prompt": "What is the shape of the leaves on the potted plant described? \n\nA. Oval and smooth\nB. Long and narrow\nC. Triangular and sharp\nD. Rounded and fan-like",
+        "response": "A slender brown twig with a few small green leaves along its length, forming a curved, branched stem.",
+        "correct_answer": "Rounded and fan-like",
+        "score": "F"
+    },
+    "Cabbage@sl_921_03": {
+        "prompt": "What color is the pot that the bonsai-style plant is planted in?\n\nA. Red\nB. Dark blue\nC. Green\nD. Yellow",
+        "response": "A small potted plant with a slender brown stem and a cluster of broad, oval green leaves, featuring a blue ring around the pot.",
+        "correct_answer": "Dark blue",
+        "score": "F"
+    },
+    "Cabbage@mvs_1026_08": {
+        "prompt": "What color is the ceramic pot in which the succulent is planted?\n\nA. Red\nB. Green\nC. Blue\nD. Yellow",
+        "response": "A small green plant with a slender stem and broad, oval leaves sits in a dark blue cylindrical pot.",
+        "correct_answer": "Blue",
+        "score": "T"
+    },
+    "Cabbage@sl_1109_10": {
+        "prompt": "What is the shape of the leaves on the succulent described?\n\nA. Thick and fleshy\nB. Round and flat\nC. Long and thin\nD. Pointed and sharp",
+        "response": "A slender, curved green leaf with a pointed tip and a central stem, featuring a small leafy cluster at the base.",
+        "correct_answer": "Thick and fleshy",
+        "score": "F"
+    },
+    "Cabbage@mvs_929_10": {
+        "prompt": "What shape is the pot that the succulent is planted in?\n\nA. Cylindrical\nB. Oval\nC. Square\nD. Triangular",
+        "response": "A tall, slender green plant with a single upright stem and a crown of broad, oval leaves, potted in a round pot with a blue rim.",
+        "correct_answer": "Cylindrical",
+        "score": "T"
+    },
+    "Cabbage@mvs_1205_01": {
+        "prompt": "What color are the petals of the bloom on the potted plant?\n\nA. Green\nB. Blue-gray\nC. Yellow\nD. Red",
+        "response": "A potted plant with a tall, slender green stem and a cluster of broad, oval leaves at the top, featuring a small pink flower.",
+        "correct_answer": "Blue-gray",
+        "score": "F"
+    },
+    "Cabbage@mvs_1019_11": {
+        "prompt": "What color is the ceramic pot holding the succulent plant?\n\nA. Blue\nB. Green\nC. Red\nD. Yellow",
+        "response": "A small blue ceramic pot with a blue rim holds a green leafy plant with broad, rounded leaves.",
+        "correct_answer": "Blue",
+        "score": "T"
+    },
+    "Cabbage@sl_1026_08": {
+        "prompt": "What type of plant is described in the room?\n\nA. A flowering cactus\nB. A fern\nC. A potted succulent\nD. A palm tree",
+        "response": "A potted plant with a slender brown stem and a crown of broad, oval green leaves, featuring a pink flower at the top.",
+        "correct_answer": "A potted succulent",
+        "score": "T"
+    },
+    "Cabbage@mvs_907_13": {
+        "prompt": "What color is the ceramic pot containing the succulent?\n\nA. Blue\nB. Green\nC. Red\nD. Yellow",
+        "response": "A blue ceramic pot with a blue rim contains a succulent plant with a rosette of broad, fleshy leaves.",
+        "correct_answer": "Blue",
+        "score": "T"
+    },
+    "Cabbage@mvs_1005_11": {
+        "prompt": "What type of plant is described in the room?\n\nA. A flowering cactus\nB. A large fern\nC. A small succulent\nD. A tall palm tree",
+        "response": "A potted plant with a slender brown stem and a crown of long, arching green leaves, featuring a small brown pot.",
+        "correct_answer": "A small succulent",
+        "score": "F"
+    },
+    "Cabbage@mvs_901_06": {
+        "prompt": "What color is the pot containing the succulent?\n\nA. Red\nB. Green\nC. Yellow\nD. Blue",
+        "response": "Blue.",
+        "correct_answer": "Blue",
+        "score": "T"
+    },
+    "Cabbage@sl_1109_08": {
+        "prompt": "What color is the pot that holds the succulent plant?\n\nA. Green\nB. Brown\nC. Dark Blue\nD. Red",
+        "response": "A small, round pot with a blue rim holds a green leafy plant with broad, oval leaves arranged in a rosette.",
+        "correct_answer": "Dark Blue",
+        "score": "F"
+    },
+    "Cabbage@mvs_929_14": {
+        "prompt": "What color is the rim of the ceramic pot holding the plant?\n\nA. Dark blue\nB. Brown\nC. Green\nD. Light blue",
+        "response": "A small potted plant with a slender stem and broad, oval green leaves sits in a dark blue ceramic pot with a light rim.",
+        "correct_answer": "Light blue",
+        "score": "T"
+    },
+    "Cabbage@sl_907_01": {
+        "prompt": "What shape do the leaves of the succulent have?\n\nA. Dense rosette and pointed\nB. Long and thin\nC. Flat and wide\nD. Rounded and smooth",
+        "response": "A potted plant with a dense rosette of broad, pointed leaves arranged in a circular cluster, forming a flower-like, flower-like bloom.",
+        "correct_answer": "Dense rosette and pointed",
+        "score": "T"
+    },
+    "Cabbage@sl_1026_10": {
+        "prompt": "What shape does the green succulent's leaves create as they are arranged?\n\nA. A compact, flower-like cluster\nB. A straight line\nC. A spiral formation\nD. A triangular shape",
+        "response": "A slender, curved green plant stem with a small leaf at the tip, featuring a curved leaf and a curved line.",
+        "correct_answer": "A compact, flower-like cluster",
+        "score": "F"
+    },
+    "Cabbage@sl_901_10": {
+        "prompt": "What color is the glaze of the pot that holds the bonsai tree?\n\nA. Light Brown\nB. Matte White\nC. Bright Red\nD. Dark Blue-Black",
+        "response": "A potted plant with a small green leafy plant in a round pot, featuring a blue rim and a blue-gray rim.",
+        "correct_answer": "Dark Blue-Black",
+        "score": "T"
+    },
+    "Cabbage@mvs_1012_12": {
+        "prompt": "What is the shape of the pot that the succulent is in?\n\nA. Triangular\nB. Cylindrical or square\nC. Oval\nD. Hexagonal",
+        "response": "A small potted plant with a slender stem and a cluster of broad, oval green leaves, featuring a blue-gray cylindrical pot.",
+        "correct_answer": "Cylindrical or square",
+        "score": "T"
+    },
+    "Cabbage@mvs_1109_02": {
+        "prompt": "What type of container is the succulent displayed in?\n\nA. A rectangular planter\nB. A square box\nC. A cylindrical container\nD. A hanging basket",
+        "response": "A tall, dark blue cylindrical pot with a textured surface and a small label, containing a green leafy plant with broad, rounded leaves.",
+        "correct_answer": "A cylindrical container",
+        "score": "T"
+    },
+    "Cabbage@sl_901_04": {
+        "prompt": "What color is the pot that holds the plant?\n\nA. Light blue\nB. White\nC. Green\nD. Dark blue",
+        "response": "A small green plant with broad, rounded leaves sits in a round, shallow pot. The pot is light blue with a white rim, and the plant features a pink flower.",
+        "correct_answer": "Dark blue",
+        "score": "F"
+    },
+    "Cabbage@mvs_1116_01": {
+        "prompt": "What color is the cylindrical pot in which the potted plant is kept?\n\nA. Light green\nB. White\nC. Dark blue\nD. Purple",
+        "response": "A tall, slender green plant with a single vertical stem and a crown of broad, oval leaves, potted in a dark blue pot.",
+        "correct_answer": "Dark blue",
+        "score": "T"
+    },
+    "Cabbage@mvs_901_08": {
+        "prompt": "What color is the ceramic pot that the succulent is planted in?\n\nA. Blue\nB. Green\nC. Tan\nD. Red",
+        "response": "A blue ceramic pot with a blue rim holds a succulent plant with a dense rosette of broad, fleshy leaves.",
+        "correct_answer": "Blue",
+        "score": "T"
+    },
+    "Cabbage@sl_1109_06": {
+        "prompt": "What type of plant is described in the room?\n\nA. A flowering plant\nB. A cactus\nC. A fern\nD. A potted succulent",
+        "response": "A potted plant with a dense rosette of broad, dark-green leaves arranged in a circular cluster. The leaves are broad, oval to lanceolate with pointed tips and a speckled, dotted texture, and the plant sits in a dark pot.",
+        "correct_answer": "A potted succulent",
+        "score": "T"
+    },
+    "Cabbage@mvs_914_04": {
+        "prompt": "What color is the rim of the pot that holds the money plant?\n\nA. Green\nB. Yellow\nC. Red\nD. Blue",
+        "response": "A tall, slender green plant with a single upright stem and long, lance-shaped leaves, potted in a small round pot.",
+        "correct_answer": "Blue",
+        "score": "F"
+    },
+    "Cabbage@sl_1019_13": {
+        "prompt": "What type of plant is described in the room?\n\nA. Cactus with spiky leaves\nB. Fern with feathery fronds\nC. Rubber plant with broad, glossy dark-green leaves\nD. Bonsai tree with small leaves",
+        "response": "A potted plant with a slender brown trunk and a dense crown of broad, glossy green leaves.",
+        "correct_answer": "Rubber plant with broad, glossy dark-green leaves",
+        "score": "T"
+    },
+    "Cabbage@sl_1026_12": {
+        "prompt": "What shape does the arrangement of the succulent leaves form?\n\nA. A layered crown shape\nB. A flat disk shape\nC. A spiral shape\nD. A vertical column shape",
+        "response": "A slender brown twig with a curved stem and small leaves along its length, forming a curved, twig-like silhouette.",
+        "correct_answer": "A layered crown shape",
+        "score": "F"
+    },
+    "Cabbage@mvs_1103_03": {
+        "prompt": "What color is the pot that holds the succulent?\n\nA. Light blue\nB. Dark blue\nC. Green\nD. Brown",
+        "response": "A tall, slender green plant with a single upright stem and a cluster of broad, oval leaves at the top, potted in a dark blue cylindrical pot.",
+        "correct_answer": "Dark blue",
+        "score": "T"
+    },
+    "Cabbage@sl_1103_13": {
+        "prompt": "What shape are the leaves of the succulent?\n\nA. Circular\nB. Needle-like\nC. Broad and fleshy\nD. Pointy and thin",
+        "response": "A potted plant with a rosette of broad, fleshy, dark-green leaves arranged in a circular cluster.",
+        "correct_answer": "Broad and fleshy",
+        "score": "T"
+    },
+    "Cabbage@sl_907_05": {
+        "prompt": "What color is the pot that the plant is in?\n\nA. Blue\nB. Green\nC. Brown\nD. Yellow",
+        "response": "A blue pot contains a green leafy plant with broad leaves.",
+        "correct_answer": "Blue",
+        "score": "T"
+    },
+    "Cotton@116": {
+        "prompt": "What is the color of the branch described in the room?\n\nA. Green\nB. Yellow\nC. Brown\nD. White",
+        "response": "A slender brown branch with numerous tiny green leaves along its length.",
+        "correct_answer": "Brown",
+        "score": "T"
+    },
+    "Cotton@14": {
+        "prompt": "What color are the centers of the blossoms on the bonsai-style tree?\n\nA. White\nB. Brown\nC. Green\nD. Pink",
+        "response": "A slender brown woody branch with multiple offshoots bearing small white blossoms and a few green leaves.",
+        "correct_answer": "Pink",
+        "score": "F"
+    },
+    "Cotton@62": {
+        "prompt": "What color are the tiny fluffy buds on the shrub?\n\nA. Red\nB. Blue\nC. Yellow\nD. White",
+        "response": "A potted plant with a slender brown stem and multiple small white blossoms along its length, forming a branched, twiggy silhouette.",
+        "correct_answer": "White",
+        "score": "T"
+    },
+    "Cotton@126": {
+        "prompt": "What type of plant is described in the room?  \n\nA. Deciduous sapling\nB. Aconite\nC. Evergreen tree\nD. Cactus",
+        "response": "A slender brown woody stem with multiple offshoots bearing small green leaves and white blossoms, sometimes with a few dried brown leaves.",
+        "correct_answer": "Deciduous sapling",
+        "score": "T"
+    },
+    "Cotton@16": {
+        "prompt": "What color are the blossoms of the small flowering tree?\n\nA. Pink\nB. Yellow\nC. White\nD. Red",
+        "response": "A pink flower with a slender stem and broad, layered petals, featuring a small cluster of white flowers.",
+        "correct_answer": "White",
+        "score": "F"
+    },
+    "Cotton@113": {
+        "prompt": "What type of blossoms are found on the slender brown flowering branch?\n\nA. Yellow blossoms\nB. Red blossoms\nC. White blossoms\nD. Pink blossoms",
+        "response": "A potted plant with a slender brown stem and multiple small white blossoms along its length, featuring a few green leaves.",
+        "correct_answer": "White blossoms",
+        "score": "T"
+    },
+    "Cotton@27": {
+        "prompt": "What characteristic feature is present at the base of the cotton plant?\n\nA. Soft flowers\nB. Clusters of cotton bolls\nC. Small leaves\nD. Green stems",
+        "response": "A slender brown branch with multiple offshoots bearing small green leaves and clusters of white fluffy cotton bolls.",
+        "correct_answer": "Small leaves",
+        "score": "F"
+    },
+    "Cotton@92": {
+        "prompt": "What color are the blossoms on the flowering branch?\n\nA. Pink\nB. Yellow\nC. Blue\nD. White",
+        "response": "A small potted plant with a slender brown stem and a cluster of white blossoms at the top, featuring a few green leaves.",
+        "correct_answer": "White",
+        "score": "T"
+    },
+    "Cotton@198": {
+        "prompt": "What color are the blossoms on the sapling?\n\nA. White\nB. Yellow\nC. Red\nD. Blue",
+        "response": "A slender brown sapling with a central trunk and multiple thin branches bearing small white blossoms, rooted in a patch of soil.",
+        "correct_answer": "White",
+        "score": "T"
+    },
+    "Cotton@63": {
+        "prompt": "What type of plant is described in the room?\n\nA. A flower with large petals\nB. A tall tree\nC. A small sapling\nD. A bush with thick leaves",
+        "response": "A small sapling with a slender brown trunk and a few sparse branches bearing clusters of white blossoms.",
+        "correct_answer": "A small sapling",
+        "score": "T"
+    },
+    "Cotton@120": {
+        "prompt": "What type of plant is described in the room?\n\nA. Corn plant\nB. Wheat plant\nC. Soybean plant\nD. Cotton plant",
+        "response": "A small potted plant with a slender brown stem and a cluster of white, fluffy cotton bolls, featuring a few green leaves.",
+        "correct_answer": "Cotton plant",
+        "score": "T"
+    },
+    "Cotton@81": {
+        "prompt": "What color are the flowers on the branch?\n\nA. Blue\nB. White\nC. Yellow\nD. Red",
+        "response": "Blue-green flowers on a branch.",
+        "correct_answer": "White",
+        "score": "F"
+    },
+    "Cotton@136": {
+        "prompt": "What characteristic is most prominent at the upper portion of the cotton plant described?\n\nA. Vibrant yellow flowers\nB. Large dark green leaves\nC. A thick woody stem\nD. Clusters of fluffy white cotton bolls",
+        "response": "A slender brown woody stem with numerous small green leaves and white blossoms along its length.",
+        "correct_answer": "Clusters of fluffy white cotton bolls",
+        "score": "F"
+    },
+    "Cotton@26": {
+        "prompt": "What color are the blossoms on the branch?\n\nA. White\nB. Yellow\nC. Red\nD. Pink",
+        "response": "A potted plant with a slender brown stem and multiple white blossoms along its length, featuring a small green leaf.",
+        "correct_answer": "White",
+        "score": "T"
+    },
+    "Cotton@112": {
+        "prompt": "What type of blossoms are found along the slender brown branch?\n\nA. Bluebells\nB. Fluffy catkins\nC. Red roses\nD. Sunflowers",
+        "response": "A slender brown branch with numerous small white blossoms along its length, featuring a few green leaves.",
+        "correct_answer": "Fluffy catkins",
+        "score": "F"
+    },
+    "Cotton@2": {
+        "prompt": "What is the color of the bolls on the cotton plant described?\n\nA. Green\nB. Brown\nC. Yellow\nD. White",
+        "response": "A slender brown cotton plant with multiple branches bearing clusters of white fluffy cotton bolls.",
+        "correct_answer": "White",
+        "score": "T"
+    },
+    "Cotton@21": {
+        "prompt": "What type of plant is described as having multi-stemmed structure and white fluffy blossoms?\n\nA. A flowering tree\nB. A palm plant\nC. A cotton shrub\nD. A fern",
+        "response": "A potted plant with multiple slender brown stems and white, fluffy blossoms, featuring a small green leaf.",
+        "correct_answer": "A cotton shrub",
+        "score": "T"
+    },
+    "Cotton@173": {
+        "prompt": "What color are the cotton bolls on the cotton plant?\n\nA. White\nB. Brown\nC. Blue\nD. Green",
+        "response": "A slender brown cotton plant with multiple branches bearing clusters of white fluffy cotton bolls.",
+        "correct_answer": "White",
+        "score": "T"
+    },
+    "Cotton@107": {
+        "prompt": "What color are the blossoms on the flowering tree described?\n\nA. Red\nB. White\nC. Yellow\nD. Blue",
+        "response": "A potted plant with a slender brown trunk and a dense canopy of green leaves, featuring a small cluster of white blossoms.",
+        "correct_answer": "White",
+        "score": "T"
+    },
+    "Cotton@22": {
+        "prompt": "What shape does the dried cotton plant branch with two stems form?\n\nA. A curved, spray-like arrangement\nB. A circular shape\nC. A straight line\nD. A zigzag pattern",
+        "response": "A slender brown twig with small green leaves and white blossoms along its length, forming a curved, branching stem.",
+        "correct_answer": "A curved, spray-like arrangement",
+        "score": "T"
+    },
+    "Cotton@115": {
+        "prompt": "What color are the blossoms on the stem described?\n\nA. Red\nB. White\nC. Blue\nD. Yellow",
+        "response": "A slender brown stem with small white blossoms along its length, featuring a few green leaves and a small cluster of dried leaves at the base.",
+        "correct_answer": "White",
+        "score": "T"
+    },
+    "Cotton@159": {
+        "prompt": "What kind of base is the bonsai-like flowering tree rooted in?\n\nA. A mossy base\nB. A sandy base\nC. A rocky base\nD. A clay base",
+        "response": "A slender brown branch with a central stem and multiple offshoots, bearing small green leaves and clusters of white blossoms along its length.",
+        "correct_answer": "A mossy base",
+        "score": "F"
+    },
+    "Cotton@153": {
+        "prompt": "What type of blossoms are found on the tall, slender brown plant stem?\n\nA. White fluffy blossoms\nB. Yellow fluffy blossoms\nC. Red fluffy blossoms\nD. Blue fluffy blossoms",
+        "response": "A potted plant with a slender brown stem and clusters of white, fluffy blossoms along its length.",
+        "correct_answer": "White fluffy blossoms",
+        "score": "T"
+    },
+    "Cotton@88": {
+        "prompt": "What type of plant feature is present on the slender brown stems?\n\nA. Dense root ball in soil\nB. Large colorful flowers\nC. Thick trunk\nD. Sparse green leaves",
+        "response": "A small potted plant with a slender brown stem and sparse green leaves, featuring a few dried brown leaves.",
+        "correct_answer": "Sparse green leaves",
+        "score": "T"
+    },
+    "Cotton@9": {
+        "prompt": "What type of plant is described as having a tall, slender trunk, green leaves, and clusters of white fluffy bolls along its branches?\n\nA. A Cotton Tree\nB. A Flowering Shrub\nC. An Oak Tree\nD. A Pine Tree",
+        "response": "A potted plant with a slender brown trunk and a dense cluster of small green leaves, featuring white fluffy blossoms along the branches.",
+        "correct_answer": "A Cotton Tree",
+        "score": "T"
+    },
+    "Cotton@72": {
+        "prompt": "What color are the blossoms on the sapling?\n\nA. Red\nB. White\nC. Yellow\nD. Blue",
+        "response": "A potted plant with a slender brown stem and multiple broad, oval leaves arranged along the stem, featuring a small cluster of flowers at the top. The leaves are rendered in a blue-green to green color palette.",
+        "correct_answer": "White",
+        "score": "F"
+    },
+    "Cotton@25": {
+        "prompt": "What feature do the blossoms on the branch predominantly have?\n\nA. They grow in clusters of three\nB. They are all yellow in color\nC. They have a five-petal structure\nD. They produce a fruity scent",
+        "response": "A slender brown branch with numerous small white blossoms along its length, featuring a few green leaves.",
+        "correct_answer": "They have a five-petal structure",
+        "score": "F"
+    },
+    "Cotton@158": {
+        "prompt": "What color are the petals of the flowers on the branch?\n\nA. Red\nB. Blue\nC. White\nD. Yellow",
+        "response": "A slender brown branch with numerous small white blossoms and a few green leaves, featuring a few dried brown leaves.",
+        "correct_answer": "White",
+        "score": "T"
+    },
+    "Cotton@180": {
+        "prompt": "What color are the leaves of the sapling?\n\nA. Green\nB. Brown\nC. Yellow\nD. Red",
+        "response": "A small green sapling with a slender brown trunk and multiple thin branches bearing numerous small green leaves.",
+        "correct_answer": "Green",
+        "score": "T"
+    },
+    "Cotton@149": {
+        "prompt": "What type of plant is described?\n\nA. A small leafless shrub or young tree\nB. A large flowering tree\nC. A climbing vine\nD. A tall grass",
+        "response": "A small leafless shrub or young tree with a slender brown trunk and numerous thin branches bearing tiny green leaves and white blossoms.",
+        "correct_answer": "A small leafless shrub or young tree",
+        "score": "T"
+    },
+    "Cotton@125": {
+        "prompt": "What color are the centers of some of the blossoms on the flowering branch?\n\nA. Yellow\nB. Blue\nC. Pink\nD. Red",
+        "response": "A potted plant with a slender brown stem and numerous small white blossoms along its length, featuring a few green leaves.",
+        "correct_answer": "Pink",
+        "score": "F"
+    },
+    "Cotton@51": {
+        "prompt": "What type of plant is described in the room?\n\nA. A small tree\nB. A large succulent\nC. A flowering vine\nD. A multi-branched shrub",
+        "response": "A small tree with slender brown branches and numerous tiny green leaves, featuring a few white blossoms.",
+        "correct_answer": "A multi-branched shrub",
+        "score": "F"
+    },
+    "Cotton@67": {
+        "prompt": "What type of plant structure is primarily described in the room?\n\nA. A bush with thick foliage\nB. A slender stem with delicate branches\nC. A flowering vine\nD. A tree with a trunk",
+        "response": "A slender brown branch with multiple offshoots bearing clusters of small white blossoms along its length.",
+        "correct_answer": "A slender stem with delicate branches",
+        "score": "T"
+    },
+    "Cotton@127": {
+        "prompt": "What type of flowers are found on the branch?\n\nA. Red roses\nB. Blue daisies\nC. White blossoms\nD. Yellow tulips",
+        "response": "A slender brown branch with a central stem bearing numerous small white blossoms along its length, with a few green leaves.",
+        "correct_answer": "White blossoms",
+        "score": "T"
+    },
+    "Cotton@11": {
+        "prompt": "What is the color of the petals on the blossoms?\n\nA. Blue\nB. Red\nC. White\nD. Yellow",
+        "response": "A slender brown branch with small white blossoms and a few green leaves, featuring a few dried brown leaves.",
+        "correct_answer": "White",
+        "score": "T"
+    },
+    "Cotton@137": {
+        "prompt": "What color are the flowers or seed pods at the top of the plant?\n\nA. Blue\nB. Red\nC. White\nD. Yellow",
+        "response": "A slender brown twig with tiny green leaves and small white blossoms along its length.",
+        "correct_answer": "White",
+        "score": "T"
+    },
+    "Cotton@78": {
+        "prompt": "What type of plant is described in the room?\n\nA. A bush with red flowers\nB. A slender sapling with white blossoms\nC. A tall tree with thick branches\nD. A ground cover plant",
+        "response": "A small green plant with a slender stem and a cluster of broad, oval leaves sits in a round pot.",
+        "correct_answer": "A slender sapling with white blossoms",
+        "score": "F"
+    },
+    "Cotton@6": {
+        "prompt": "What type of plant is described in the room?\n\nA. A cactus with spiky needles\nB. A flowering shrub in a round pot\nC. A tall palm tree with green leaves\nD. A small potted tree with white blossoms",
+        "response": "A potted plant with a slender brown trunk and a crown of white, fluffy blossoms, featuring a few green leaves.",
+        "correct_answer": "A small potted tree with white blossoms",
+        "score": "T"
+    },
+    "Cotton@188": {
+        "prompt": "What type of plant is described in the room?\n\nA. A tree sapling\nB. A flower bush\nC. A grassy plant\nD. A palm tree",
+        "response": "A small potted plant with a slender brown trunk and a crown of long, arching green leaves, featuring a few brown dried leaves.",
+        "correct_answer": "A tree sapling",
+        "score": "F"
+    },
+    "Cotton@79": {
+        "prompt": "What type of plant is described in the room?\n\nA. A bonsai-like deciduous shrub\nB. A small fern\nC. A flowering cactus\nD. A tall palm tree",
+        "response": "A small potted plant with a slender brown trunk and a dense cluster of green, feathery leaves, featuring a few brown dried leaves.",
+        "correct_answer": "A bonsai-like deciduous shrub",
+        "score": "F"
+    },
+    "Cotton@133": {
+        "prompt": "What color are the blossoms on the sapling?\n\nA. Red\nB. White\nC. Yellow\nD. Blue",
+        "response": "A small green plant with a slender stem and a cluster of broad, oval leaves at the top, featuring a pink flower.",
+        "correct_answer": "White",
+        "score": "F"
+    },
+    "Cotton@197": {
+        "prompt": "What is the main feature of the plant described?\n\nA. It has a light brown trunk that splits into two main branches\nB. It has a thick, dark bark with no branches\nC. It is a large tree with broad canopy\nD. It only has green leaves without any flowers",
+        "response": "A slender brown-trunked tree with a dense, rounded canopy of green leaves.",
+        "correct_answer": "It has a light brown trunk that splits into two main branches",
+        "score": "F"
+    },
+    "Cotton@176": {
+        "prompt": "What shape is the planter in which the slender tree or shrub is planted?\n\nA. Circle\nB. Triangle\nC. Rectangle\nD. Square",
+        "response": "A slender brown twig with numerous small white blossoms along its length, featuring a few tiny green leaves.",
+        "correct_answer": "Square",
+        "score": "F"
+    },
+    "Cotton@160": {
+        "prompt": "What type of plant is described in the room?\n\nA. A small sapling with white blossoms\nB. A shrub with thick branches\nC. A large oak tree\nD. A flowering vine",
+        "response": "A small sapling with white blossoms.",
+        "correct_answer": "A small sapling with white blossoms",
+        "score": "T"
+    },
+    "Cotton@65": {
+        "prompt": "What type of tree is described in the room?\n\nA. A coniferous tree with needle-like leaves\nB. A large oak tree with broad leaves\nC. A small, slender tree with fluffy white blossoms\nD. A palm tree with long fronds",
+        "response": "A small potted plant with a slender brown trunk and a crown of long, arching green leaves, featuring a few brown dried leaves.",
+        "correct_answer": "A small, slender tree with fluffy white blossoms",
+        "score": "F"
+    },
+    "Cotton@100": {
+        "prompt": "What color are the blossoms on the sapling?\n\nA. Pink\nB. White\nC. Yellow\nD. Blue",
+        "response": "A potted plant with a slender brown stem and multiple white, fluffy blossoms along its length, featuring a small green leaf at the base.",
+        "correct_answer": "White",
+        "score": "T"
+    },
+    "Cotton@19": {
+        "prompt": "What is located at the bottom of the cotton plant stem?\n\nA. A smooth rock\nB. A single large flower\nC. A pointed spike\nD. A tangled root cluster",
+        "response": "A slender brown twig with a few tiny green leaves and small white blossoms along its length, featuring a small cluster of dried brown leaves at the base.",
+        "correct_answer": "A tangled root cluster",
+        "score": "F"
+    },
+    "Cotton@3": {
+        "prompt": "What color is the snow coating the tree's branches?\n\nA. Blue\nB. White\nC. Green\nD. Brown",
+        "response": "A potted plant with a slender brown trunk and multiple thin, twiggy branches bearing small green leaves and white blossoms.",
+        "correct_answer": "White",
+        "score": "T"
+    },
+    "Cotton@75": {
+        "prompt": "What color are the clusters of flowers on the cotton plant?\n\nA. White\nB. Brown\nC. Green\nD. Yellow",
+        "response": "A small potted plant with a slender brown stem and multiple green leaves, featuring a cluster of white blossoms at the top.",
+        "correct_answer": "White",
+        "score": "T"
+    },
+    "Cotton@145": {
+        "prompt": "What type of plant is described in the room?\n\nA. A large tree with wide branches\nB. A bush with thick foliage\nC. A flowering plant with vibrant petals\nD. An upright sapling with a thin trunk",
+        "response": "A slender brown sapling with a thin trunk and sparse branches, bearing small green leaves and white blossoms, rooted in a patch of soil.",
+        "correct_answer": "An upright sapling with a thin trunk",
+        "score": "T"
+    },
+    "Cotton@168": {
+        "prompt": "What color are the blossoms on the flowering stem?\n\nA. White\nB. Red\nC. Yellow\nD. Blue",
+        "response": "A slender brown flowering branch with multiple offshoots bearing small white blossoms and a few green leaves.",
+        "correct_answer": "White",
+        "score": "T"
+    },
+    "Cotton@15": {
+        "prompt": "What type of blossoms are found on the tall, slender brown branch?\n\nA. Red fluffy blossoms\nB. Blue flat blossoms\nC. Large yellow blossoms\nD. Small white fluffy blossoms",
+        "response": "A slender brown branch with clusters of small white blossoms along its length.",
+        "correct_answer": "Small white fluffy blossoms",
+        "score": "T"
+    },
+    "Cotton@122": {
+        "prompt": "What color are the cotton bolls on the plant?\n\nA. White\nB. Yellow\nC. Green\nD. Brown",
+        "response": "A small green plant with a slender stem and several leaves, featuring a brown, dried leaf fragment.",
+        "correct_answer": "White",
+        "score": "F"
+    },
+    "Maize@1-111": {
+        "prompt": "What is the color of the tassel at the top of the maize plant?\n\nA. Green\nB. Pale Brown\nC. Dark Brown\nD. Yellow",
+        "response": "A green plant with a tall, slender stem and long, narrow leaves arranged along the stem, featuring a small brown seed head at the top.",
+        "correct_answer": "Pale Brown",
+        "score": "F"
+    },
+    "Maize@3-28": {
+        "prompt": "What type of plant is described in the room?\n\nA. A potted plant with lance-shaped leaves\nB. A succulent\nC. A flowering shrub\nD. A cactus",
+        "response": "A potted plant with a slender brown stem and long, lance-shaped green leaves, featuring a small white flower.",
+        "correct_answer": "A potted plant with lance-shaped leaves",
+        "score": "T"
+    },
+    "Maize@2-34": {
+        "prompt": "What type of plant is described in the room?\n\nA. A flowering shrub\nB. A tall cactus\nC. A houseplant with palm-like leaves\nD. A small herb",
+        "response": "A small green plant with a slender stem and long, arching leaves, featuring a pink flower and a pink stem, growing from a round, dark-blue pot.",
+        "correct_answer": "A houseplant with palm-like leaves",
+        "score": "F"
+    },
+    "Maize@3-49": {
+        "prompt": "What shape do the leaves of the potted plant resemble?\n\nA. Circular\nB. Lance-shaped\nC. Square\nD. Triangular",
+        "response": "A potted plant with a slender brown stem and a cluster of broad, oval green leaves at the top, featuring a small pink flower.",
+        "correct_answer": "Lance-shaped",
+        "score": "F"
+    },
+    "Maize@2-70": {
+        "prompt": "What is the shape of the leaves on the potted plant described?\n\nA. Long and narrow\nB. Round and broad\nC. Heart-shaped\nD. Oval",
+        "response": "A potted plant with a slender stem and broad, oval green leaves arranged around it, featuring a small brown flower.",
+        "correct_answer": "Long and narrow",
+        "score": "F"
+    },
+    "Maize@3-55": {
+        "prompt": "What type of pot is the plant potted in?\n\nA. Square pot\nB. Dark round pot\nC. Tall cylindrical pot\nD. Shallow rectangular pot",
+        "response": "A tall, slender green plant with a central stem and long, arching leaves, potted in a dark round pot.",
+        "correct_answer": "Dark round pot",
+        "score": "T"
+    },
+    "Maize@3-26": {
+        "prompt": "What is the shape of the leaves on the tall green plant?\n\nA. Round and fluffy\nB. Short and needle-like\nC. Broad and flat\nD. Long and strap-like",
+        "response": "A slender green plant with a central stem and multiple long, narrow, lance-shaped leaves arranged along the stem, forming a small cluster of leaves.",
+        "correct_answer": "Long and strap-like",
+        "score": "T"
+    },
+    "Maize@2-13": {
+        "prompt": "What is the shape of the pot in which the seedling is planted?\n\nA. Triangular\nB. Square\nC. Rectangular\nD. Round",
+        "response": "A small, slender brown twig with a curved stem and sparse leaves, featuring a few dried leaf fragments.",
+        "correct_answer": "Round",
+        "score": "F"
+    },
+    "Maize@3-21": {
+        "prompt": "What type of plant is described in the room?\n\nA. Flowering plant with colorful blooms\nB. Succulent plant with thick fleshy leaves\nC. Potted plant with a single slender stem and long narrow leaves\nD. Climbing vine with broad leaves",
+        "response": "A potted plant with a slender central stem and long, narrow, blade-like green leaves arranged along the stem, forming a small cluster.",
+        "correct_answer": "Potted plant with a single slender stem and long narrow leaves",
+        "score": "T"
+    },
+    "Maize@3-18": {
+        "prompt": "What is the shape of the leaves of the plant described?\n\nA. Long and narrow\nB. Round and broad\nC. Flat and wide\nD. Short and oval",
+        "response": "A slender brown twig with a small cluster of dried leaves at the top.",
+        "correct_answer": "Long and narrow",
+        "score": "F"
+    },
+    "Maize@2-109": {
+        "prompt": "What type of pot is the plant in?\n\nA. Dark plastic pot\nB. Wooden pot\nC. Ceramic pot\nD. Metallic pot",
+        "response": "A small green plant with a slender stem and broad, lobed leaves sits in a dark blue ceramic pot with a light rim.",
+        "correct_answer": "Dark plastic pot",
+        "score": "F"
+    },
+    "Maize@1-118": {
+        "prompt": "What is the color of the seed panicle at the top of the plant?\n\nA. Green\nB. Brownish\nC. Yellow\nD. Red",
+        "response": "A slender brown branch with multiple offshoots bearing small green leaves and clusters of white blossoms, with a few dried brown leaves.",
+        "correct_answer": "Brownish",
+        "score": "F"
+    },
+    "Maize@3-42": {
+        "prompt": "What color is the pot that the plant is potted in?\n\nA. Dark-blue\nB. Green\nC. Red\nD. Yellow",
+        "response": "A tall, slender green plant with a single upright stem and long, lance-shaped leaves, potted in a dark blue pot.",
+        "correct_answer": "Dark-blue",
+        "score": "T"
+    },
+    "Maize@1-24": {
+        "prompt": "What color are the leaves of the potted plant?\n\nA. Yellow\nB. Red\nC. Green\nD. Blue",
+        "response": "A potted plant with a slender brown stem and multiple green, broad, lobed leaves arranged along the stem.",
+        "correct_answer": "Green",
+        "score": "T"
+    },
+    "Maize@1-51": {
+        "prompt": "What is the color of the leaves of the maize plant described?\n\nA. Yellow\nB. Mid-to-dark green\nC. Light green\nD. Brown",
+        "response": "A slender brown branch with a central stem and numerous small green leaves along its length, featuring a few dried brown leaves.",
+        "correct_answer": "Mid-to-dark green",
+        "score": "F"
+    },
+    "Maize@1-68": {
+        "prompt": "What color are the leaves of the sapling?\n\nA. Brown\nB. Green\nC. Yellow\nD. Red",
+        "response": "A small green sapling with a slender brown stem and multiple long, arching leaves, featuring a brown twig and a small brown root ball.",
+        "correct_answer": "Green",
+        "score": "T"
+    },
+    "Maize@2-101": {
+        "prompt": "What color are the leaves of the tall, slender plant described?\n\nA. Yellow\nB. Green\nC. Blue\nD. Red",
+        "response": "A potted plant with a tall, slender green stem and long, narrow, arching leaves, some with brown tips, in a dark pot.",
+        "correct_answer": "Green",
+        "score": "T"
+    },
+    "Maize@3-19": {
+        "prompt": "What is the shape of the leaves on the potted plant?\n\nA. Lance-shaped\nB. Round and broad\nC. Heart-shaped\nD. Oval",
+        "response": "A slender brown twig with small green leaves along its length and a few dried leaves, featuring a small cluster of dried flowers at the base.",
+        "correct_answer": "Lance-shaped",
+        "score": "F"
+    },
+    "Maize@2-148": {
+        "prompt": "What is the texture of the leaves mentioned in the description?\n\nA. Smooth\nB. Velvety\nC. Rough\nD. Brushy",
+        "response": "A slender brown twig with a rough, textured surface and small buds along its length.",
+        "correct_answer": "Brushy",
+        "score": "F"
+    },
+    "Maize@2-9": {
+        "prompt": "What shape are the leaves of the potted plant described?\n\nA. Round\nB. Oval\nC. Lance-shaped\nD. Heart-shaped",
+        "response": "A potted plant with a slender brown stem and long, lance-shaped green leaves, featuring a small brown seed pod.",
+        "correct_answer": "Lance-shaped",
+        "score": "T"
+    },
+    "Maize@2-122": {
+        "prompt": "What shape do the leaves of the plant take as they extend from the central stem?\n\nA. Arching, V-like cluster\nB. Circular cluster\nC. Straight line\nD. Spiral formation",
+        "response": "A slender brown branch with multiple offshoots bearing small green leaves, forming a sparse, twiggy silhouette.",
+        "correct_answer": "Arching, V-like cluster",
+        "score": "F"
+    },
+    "Maize@1-122": {
+        "prompt": "What shape are the leaves of the plant described?\n\nA. Round\nB. Oval\nC. Lance-shaped\nD. Heart-shaped",
+        "response": "A slender brown twig with a curved stem and numerous small green leaves along its length. The leaves are oval to lanceolate with serrated edges, varying in size and arranged in a sparse, branching cluster.",
+        "correct_answer": "Lance-shaped",
+        "score": "T"
+    },
+    "Maize@3-10": {
+        "prompt": "What type of plant is described in the room?\n\nA. A bushy shrub with thick leaves\nB. A small cactus in a pot\nC. A flowering plant with bright petals\nD. A tall potted plant with arching leaves",
+        "response": "A potted plant with a slender brown stem and numerous broad, glossy green leaves arranged along the stem, forming a dense, bushy cluster.",
+        "correct_answer": "A tall potted plant with arching leaves",
+        "score": "F"
+    },
+    "Maize@2-77": {
+        "prompt": "What color is the pot that holds the potted plant?\n\nA. Dark Blue\nB. Red\nC. Green\nD. Yellow",
+        "response": "A potted plant with a slender brown stem and a cluster of broad, oval green leaves, featuring a small pink flower.",
+        "correct_answer": "Dark Blue",
+        "score": "F"
+    },
+    "Maize@2-140": {
+        "prompt": "What shape do the leaves of the plant resemble?\n\nA. Round\nB. Heart-shaped\nC. Circular\nD. Lanceolate",
+        "response": "A slender brown branch with multiple offshoots bearing small green leaves and tiny white blossoms, with a few dried brown leaves.",
+        "correct_answer": "Lanceolate",
+        "score": "F"
+    },
+    "Maize@2-126": {
+        "prompt": "What type of container is the plant in?\n\nA. Square pot\nB. Round pot\nC. Rectangular pot\nD. Hanging basket",
+        "response": "A tall, slender green plant with a central stem and long, narrow leaves arranged along the stem, featuring a small brown pot.",
+        "correct_answer": "Round pot",
+        "score": "F"
+    },
+    "Maize@3-36": {
+        "prompt": "What type of plant is described in the room?\n\nA. A tall tree with thick branches\nB. A flowering shrub with wide leaves\nC. A small potted plant with a slender stem\nD. A succulent with rounded leaves",
+        "response": "A potted plant with a slender brown stem and a cluster of broad, oval green leaves, featuring a small brown flower.",
+        "correct_answer": "A small potted plant with a slender stem",
+        "score": "T"
+    },
+    "Maize@3-15": {
+        "prompt": "What type of container is the plant potted in?\n\nA. A square blue pot\nB. A tall cylindrical vase\nC. A large rectangular pot\nD. A small round brown pot",
+        "response": "A small round brown pot with a wide rim contains a green leafy plant with broad, lobed leaves.",
+        "correct_answer": "A small round brown pot",
+        "score": "T"
+    },
+    "Maize@3-60": {
+        "prompt": "What shape does the pot of the houseplant have?\n\nA. Round\nB. Square\nC. Rectangular\nD. Oval",
+        "response": "A small potted plant with a slender brown stem and a few green leaves, featuring a round pot with a blue rim and a blue-green flower.",
+        "correct_answer": "Round",
+        "score": "T"
+    },
+    "Maize@2-17": {
+        "prompt": "What shape are the leaves of the houseplant described?\n\nA. Round and wide\nB. Oval and flat\nC. Lance-shaped\nD. Star-shaped",
+        "response": "A slender brown twig with a curved stem and small green leaves, featuring a few dried brown leaves.",
+        "correct_answer": "Lance-shaped",
+        "score": "F"
+    },
+    "Maize@2-32": {
+        "prompt": "What color is the pot that holds the houseplant?\n\nA. Red\nB. Yellow\nC. Blue\nD. Green",
+        "response": "A small green plant with a slender stem and broad, oval leaves sits in a blue pot.",
+        "correct_answer": "Blue",
+        "score": "T"
+    },
+    "Maize@2-116": {
+        "prompt": "What type of plant is described in the room?\n\nA. A cactus with spines\nB. A houseplant with arching leaves\nC. A flowering shrub\nD. A tall tree with thick trunk",
+        "response": "A potted plant with a slender brown trunk and a dense cluster of green, fern-like leaves, featuring a small pink flower and a pinkish stem.",
+        "correct_answer": "A houseplant with arching leaves",
+        "score": "T"
+    },
+    "Maize@1-120": {
+        "prompt": "What type of plant is described in the room?\n\nA. A cannabis plant\nB. A fruit-bearing tree\nC. A flowering shrub\nD. A grass-like plant",
+        "response": "A potted plant with a slender brown stem and numerous green, feathery leaves, featuring a small cluster of flowers at the top.",
+        "correct_answer": "A grass-like plant",
+        "score": "F"
+    },
+    "Maize@3-40": {
+        "prompt": "What is the shape of the leaves on the houseplant?\n\nA. Round and fluffy\nB. Short and wide\nC. Oval and smooth\nD. Long and lance-shaped",
+        "response": "A slender, curved brown twig with a small cluster of dried leaves at the top.",
+        "correct_answer": "Long and lance-shaped",
+        "score": "F"
+    },
+    "Maize@3-43": {
+        "prompt": "What type of leaves does the described plant have?\n\nA. Long and arching\nB. Round and thick\nC. Short and pointy\nD. Flat and wide",
+        "response": "A slender brown twig with a curved stem and tiny green leaves along its length, accompanied by a small green leaf fragment.",
+        "correct_answer": "Long and arching",
+        "score": "F"
+    },
+    "Maize@2-31": {
+        "prompt": "What is the shape of the leaves on the plant described?\n\nA. Oval-shaped\nB. Heart-shaped\nC. Circular-shaped\nD. Lance-shaped",
+        "response": "A slender brown branch with numerous tiny green leaves along its length. The leaves are small, oval to lanceolate with pointed tips, and the stem is thin and curved.",
+        "correct_answer": "Lance-shaped",
+        "score": "T"
+    },
+    "Maize@3-38": {
+        "prompt": "What type of plant is described in the room?\n\nA. A tall, slender green plant with arching leaves\nB. A bushy shrub with wide leaves\nC. A flowering cactus with spines\nD. A small succulent in a square pot",
+        "response": "A tall, slender green plant with arching leaves, featuring a central stem and multiple branches.",
+        "correct_answer": "A tall, slender green plant with arching leaves",
+        "score": "T"
+    },
+    "Maize@2-28": {
+        "prompt": "What shape is formed by the leaves at the top of the potted plant?\n\nA. A circle\nB. A rectangle\nC. A square\nD. A triangle",
+        "response": "A slender brown stem with a small green leaf at the top, featuring a curved twig and a circular ring around it.",
+        "correct_answer": "A triangle",
+        "score": "F"
+    },
+    "Maize@2-24": {
+        "prompt": "What type of plant is described in the room?\n\nA. A tall, slender green plant with long, narrow leaves\nB. A short bushy plant with wide leaves\nC. A flowering plant with thick stems\nD. A succulent with rounded leaves",
+        "response": "A tall, slender green plant with long, narrow leaves.",
+        "correct_answer": "A tall, slender green plant with long, narrow leaves",
+        "score": "T"
+    },
+    "Maize@2-67": {
+        "prompt": "What type of leaves does the houseplant have?\n\nA. Lance-shaped leaves\nB. Round leaves\nC. Heart-shaped leaves\nD. Oval leaves",
+        "response": "A potted plant with a slender brown stem and a cluster of broad, oval green leaves at the top, featuring a small brown flower.",
+        "correct_answer": "Lance-shaped leaves",
+        "score": "F"
+    },
+    "Maize@2-64": {
+        "prompt": "What is the shape of the pot that houses the plant?\n\nA. Square-shaped ceramic pot\nB. Light-colored round ceramic pot\nC. Tall, rectangular pot\nD. Deep, oval pot",
+        "response": "A tall, dark blue ceramic pot with a wide rim and a circular rim, filled with soil and a small green plant.",
+        "correct_answer": "Light-colored round ceramic pot",
+        "score": "F"
+    },
+    "Maize@3-54": {
+        "prompt": "What type of growth is visible at the top of the plant?\n\nA. A tuft of new growth\nB. A cluster of flowers\nC. A wide, flat leaf\nD. A long vine",
+        "response": "A slender brown twig with a small cluster of green leaves at the top, featuring a few tiny white blossoms.",
+        "correct_answer": "A tuft of new growth",
+        "score": "F"
+    },
+    "Maize@2-66": {
+        "prompt": "What type of pot is the plant in?\n\nA. Square light pot\nB. Oval white pot\nC. Rectangular black pot\nD. Round dark pot",
+        "response": "A tall, slender green plant with a single upright stem and long, narrow leaves, potted in a dark blue cylindrical pot.",
+        "correct_answer": "Round dark pot",
+        "score": "F"
+    },
+    "Maize@3-7": {
+        "prompt": "What color is the pot that holds the houseplant?\n\nA. Blue\nB. Red\nC. Green\nD. Yellow",
+        "response": "A tall green plant with a slender stem and long, arching leaves, featuring a small brown pot with a blue rim.",
+        "correct_answer": "Blue",
+        "score": "T"
+    },
+    "Maize@2-65": {
+        "prompt": "What type of pot is the plant in?\n\nA. Square terracotta pot\nB. Dark round pot\nC. Clear plastic pot\nD. White ceramic pot",
+        "response": "A tall, slender green plant with a single vertical stem and long, arching leaves, potted in a dark round pot.",
+        "correct_answer": "Dark round pot",
+        "score": "T"
+    },
+    "Maize@2-88": {
+        "prompt": "What color is the pot that contains the tall green plant?\n\nA. Red\nB. Blue\nC. Green\nD. Brown",
+        "response": "A blue cylindrical pot contains a tall green plant with a slender stem and broad, lobed leaves, featuring a blue-green color palette.",
+        "correct_answer": "Blue",
+        "score": "T"
+    },
+    "Maize@2-108": {
+        "prompt": "What color are the leaves of the plant described?\n\nA. Blue\nB. Purple\nC. Green\nD. Red",
+        "response": "A potted plant with a slender brown stem and a cluster of broad, oval green leaves at the top, featuring a small blue flower.",
+        "correct_answer": "Green",
+        "score": "T"
+    },
+    "Maize@1-78": {
+        "prompt": "What type of leaves does the plant sapling described have?\n\nA. Round leaves\nB. Triangular leaves\nC. Lance-shaped leaves\nD. Broad leaves",
+        "response": "A small green plant sapling with a slender brown stem and a cluster of broad, lobed leaves at the top, featuring a small brown seed.",
+        "correct_answer": "Lance-shaped leaves",
+        "score": "F"
+    },
+    "Maize@2-39": {
+        "prompt": "What color is the rim of the pot holding the small potted plant?\n\nA. Brown\nB. Red\nC. Green\nD. Blue",
+        "response": "A small potted plant with a slender brown stem and a cluster of green leaves, featuring a green leafy crown.",
+        "correct_answer": "Blue",
+        "score": "F"
+    },
+    "Maize@2-50": {
+        "prompt": "What type of pot is the plant sitting in?\n\nA. Round blue ceramic pot\nB. Square red ceramic pot\nC. Oval white ceramic pot\nD. Rectangular brown wooden pot",
+        "response": "A small potted plant with a slender brown stem and broad green leaves sits in a round blue ceramic pot.",
+        "correct_answer": "Round blue ceramic pot",
+        "score": "T"
+    },
+    "Maize@3-50": {
+        "prompt": "What shape is the pot of the plant?\n\nA. Cube\nB. Pyramid\nC. Rectangular\nD. Cylindrical",
+        "response": "A tall, slender green plant with a single vertical stem and long, narrow leaves arranged along the stem, potted in a dark blue cylindrical pot.",
+        "correct_answer": "Cylindrical",
+        "score": "T"
+    },
+    "Maize@2-128": {
+        "prompt": "What type of plant is described in the room?\n\nA. A flowering shrub\nB. A small potted tree\nC. A grass plant\nD. A potted indoor plant",
+        "response": "A potted plant with a slender brown trunk and multiple branching stems, bearing green leaves and white blossoms.",
+        "correct_answer": "A potted indoor plant",
+        "score": "T"
+    },
+    "Maize@2-137": {
+        "prompt": "What shape are the leaves of the potted plant described?\n\nA. Round\nB. Lance-shaped\nC. Heart-shaped\nD. Oval",
+        "response": "A potted plant with a slender brown stem and broad, oval green leaves arranged around the stem, featuring a small brown bud at the top.",
+        "correct_answer": "Lance-shaped",
+        "score": "F"
+    },
+    "Maize@2-141": {
+        "prompt": "What type of design does the pot of the houseplant feature?\n\nA. A blue pattern\nB. Stripes\nC. Floral patterns\nD. Geometric shapes",
+        "response": "A blue ceramic pot with a blue rim and a blue-gray rim holds a small green plant with a slender stem and a few leaves.",
+        "correct_answer": "A blue pattern",
+        "score": "T"
+    },
+    "Maize@2-29": {
+        "prompt": "What shape are the leaves of the houseplant described?\n\nA. Round\nB. Oval\nC. Lance-shaped\nD. Triangular",
+        "response": "A slender brown twig with a small cluster of dried leaves at the top, featuring a curved line of dried leaves and a small brown leaf.",
+        "correct_answer": "Lance-shaped",
+        "score": "F"
+    },
+    "Maize@1-60": {
+        "prompt": "What color are the veins of the maize leaves?\n\nA. Dark green\nB. Yellow\nC. White\nD. Light green",
+        "response": "A slender, branched green plant with a central stem and numerous small, elongated leaves along the branches. The leaves vary in green shades, with some brownish tips, and a few dried brown leaves.",
+        "correct_answer": "Light green",
+        "score": "F"
+    },
+    "Maize@1-22": {
+        "prompt": "What is the shape of the top extension of the plant sculpture?\n\nA. Curved\nB. Flat\nC. Straight\nD. Pointed",
+        "response": "A slender, curved brown twig with a small leaf-like cluster at the top, featuring a few tiny green leaves along its length.",
+        "correct_answer": "Curved",
+        "score": "T"
+    },
+    "Maize@2-33": {
+        "prompt": "What color is the rim of the pot that the plant is in?\n\nA. Blue\nB. Red\nC. Green\nD. Yellow",
+        "response": "A slender green plant stem with a small leafy cluster at the top, featuring a blue-green flower and a blue-green leaf, with a small brown base.",
+        "correct_answer": "Blue",
+        "score": "F"
+    },
+    "Maize@3-27": {
+        "prompt": "What shape do the leaves of the potted plant have?\n\nA. Round and broad\nB. Sword-shaped\nC. Heart-shaped\nD. Oval-shaped",
+        "response": "A potted plant with a slender brown stem and broad, oval green leaves, featuring a small brown flower at the top.",
+        "correct_answer": "Sword-shaped",
+        "score": "F"
+    },
+    "Maize@3-37": {
+        "prompt": "What is the shape of the leaves of the indoor potted plant described?\n\nA. Long and glossy\nB. Round and flat\nC. Short and spiky\nD. Wide and droopy",
+        "response": "A slender brown plant stem with numerous small green leaves along its length, featuring a curved leaf near the top.",
+        "correct_answer": "Long and glossy",
+        "score": "F"
+    },
+    "Maize@1-113": {
+        "prompt": "What is the characteristic feature of the grass plant described?\n\nA. It has numerous flowers blooming at the base\nB. It has a branched panicle of tiny seed heads at the top\nC. It is growing in a pot filled with water\nD. It has broad oval leaves instead of lanceolate leaves",
+        "response": "A slender brown branch with numerous tiny green leaves along its length, forming a small tree-like silhouette.",
+        "correct_answer": "It has a branched panicle of tiny seed heads at the top",
+        "score": "F"
+    },
+    "Maize@2-11": {
+        "prompt": "What type of fronds does the potted plant have?\n\nA. Wide, flat leaves\nB. Thick, succulent leaves\nC. Short, round leaves\nD. Long, arching palm-like fronds",
+        "response": "A potted plant with a slender brown stem and long, arching green leaves, featuring a small brown flower at the top.",
+        "correct_answer": "Long, arching palm-like fronds",
+        "score": "T"
+    },
+    "Maize@1-50": {
+        "prompt": "What characteristic describes the new growth at the top of the maize plant?\n\nA. It forms a cluster of narrow upright leaves\nB. It consists of wide, flat leaves pointing outward\nC. It is fully developed with thick, sturdy stalks\nD. It produces flowers in a blooming structure",
+        "response": "A slender brown stem with multiple long, narrow leaves arranged along its length, forming a small cluster at the top.",
+        "correct_answer": "It forms a cluster of narrow upright leaves",
+        "score": "T"
+    },
+    "Maize@1-123": {
+        "prompt": "What is the color of the inflorescence at the top of the corn plant?  \n\nA. Dark green\nB. Pale brown\nC. Bright yellow\nD. Reddish orange",
+        "response": "A potted plant with a tall, slender green stem and long, narrow, blade-like leaves arranged along the stem, in a dark pot.",
+        "correct_answer": "Pale brown",
+        "score": "F"
+    },
+    "Maize@2-21": {
+        "prompt": "What shape is the pot that the plant is in?\n\nA. Round\nB. Rectangular\nC. Square\nD. Oval",
+        "response": "A small potted plant with a slender green stem and long, arching leaves, featuring a brown pot.",
+        "correct_answer": "Round",
+        "score": "F"
+    },
+    "Maize@2-107": {
+        "prompt": "What color is the pot in which the plant is potted?\n\nA. Dark brown\nB. Green\nC. Yellow\nD. Black",
+        "response": "A small potted plant with a slender brown stem and a tuft of green leaves at the top, planted in a dark blue pot.",
+        "correct_answer": "Dark brown",
+        "score": "F"
+    },
+    "Maize@2-114": {
+        "prompt": "What color is the stem of the sapling?\n\nA. Dark Green\nB. Pale Yellow-Green\nC. Bright Red\nD. Deep Brown",
+        "response": "A slender brown stem with a small green leaf at the top and a few tiny leaves along its length, sometimes featuring a small brown flower or bud.",
+        "correct_answer": "Pale Yellow-Green",
+        "score": "F"
+    },
+    "Maize@1-106": {
+        "prompt": "What is the color of the tassel-like inflorescence at the top of the maize plant?\n\nA. Green\nB. Yellow\nC. Brownish\nD. Red",
+        "response": "A slender brown-green stem with a cluster of tiny green leaves at the top, featuring a small brown seed head at the base.",
+        "correct_answer": "Brownish",
+        "score": "T"
+    },
+    "Potato@5-19-P281-2-a": {
+        "prompt": "What type of leaves does the plant exhibit?\n\nA. Needle-like leaves\nB. Rounded leaves\nC. Linear leaves\nD. Ovate leaves",
+        "response": "A slender, twig-like plant with a central stem and numerous small, irregular green leaves along its length. The leaves are green with brownish hints and a speckled texture, forming a dense, curved cluster.",
+        "correct_answer": "Ovate leaves",
+        "score": "F"
+    },
+    "Potato@5-21-P104-3-a": {
+        "prompt": "What is the color variation of the leaves on the plant described?\n\nA. Only dark green\nB. A mix of light to dark green\nC. Only light green\nD. All leaves are yellow",
+        "response": "A slender green plant with a central stem and multiple long, narrow, lance-shaped leaves arranged along the stem. The leaves vary from light to dark green, with some brownish tips and a small cluster of brownish fragments at the base.",
+        "correct_answer": "A mix of light to dark green",
+        "score": "T"
+    },
+    "Potato@5-11-P255-3-a": {
+        "prompt": "What type of plant is described in the room?\n\nA. A flowering shrub\nB. A palm-like plant\nC. A cactus\nD. A fern",
+        "response": "A small green plant with a slender stem and multiple long, arching, feathery leaves, featuring a curved leaf and a brown flower.",
+        "correct_answer": "A palm-like plant",
+        "score": "T"
+    },
+    "Potato@5-14-P117-3-a": {
+        "prompt": "What type of leaves are described on the plant stem?\n\nA. Heart-shaped leaves with wavy edges\nB. Circular leaves with smooth edges\nC. Narrow leaves with a glossy texture\nD. Oval-to-lanceolate leaves with serrated margins",
+        "response": "A slender brown plant stem with numerous small, oval to lanceolate leaves arranged along its length, featuring a glossy texture and a few dried leaves.",
+        "correct_answer": "Oval-to-lanceolate leaves with serrated margins",
+        "score": "F"
+    },
+    "Potato@5-13-P015-2-a": {
+        "prompt": "What characteristic describes the leaves of the green plant?\n\nA. They have pointed tips and serrated margins\nB. They are round and smooth to the touch\nC. They are tall and bushy\nD. They are thin and sticky",
+        "response": "A slender green plant with a central stem and numerous small, serrated leaves along its length, forming a branched, bushy silhouette.",
+        "correct_answer": "They have pointed tips and serrated margins",
+        "score": "T"
+    },
+    "Potato@5-23-P999-7-a": {
+        "prompt": "What is the characteristic feature of the leaves on the herb plant described?\n\nA. They are broad and heart-shaped\nB. They have a dull texture and are light green\nC. They are elongated to oval with serrated edges\nD. They are round and sparsely arranged",
+        "response": "A slender brown twig with scattered green leaves along its length, featuring a small cluster of leaves at the base.",
+        "correct_answer": "They are elongated to oval with serrated edges",
+        "score": "F"
+    },
+    "Potato@5-20-P043-1-a": {
+        "prompt": "What characteristic is notable about the leaves of the plant described?\n\nA. The leaves are all the same size and shade of green\nB. The leaves are exclusively light green without any brown edges\nC. The leaves have broad, serrated edges and vary in size and shade\nD. The leaves are round and smooth without any veins",
+        "response": "A slender brown twig with small green leaves along its length and a few tiny white blossoms, featuring a small cluster of leaves at the base.",
+        "correct_answer": "The leaves have broad, serrated edges and vary in size and shade",
+        "score": "F"
+    },
+    "Potato@5-11-P279-3-a": {
+        "prompt": "What shape are the leaves of the plant described?\n\nA. Circular\nB. Triangular\nC. Lanceolate to oval-elliptic\nD. Rectangular",
+        "response": "A slender green plant with a central stem and broad, oval leaves arranged along its length, forming a small cluster.",
+        "correct_answer": "Lanceolate to oval-elliptic",
+        "score": "F"
+    },
+    "Potato@5-21-P104-4-a": {
+        "prompt": "What color are the leaflets at the tip of the stem?\n\nA. Yellow\nB. Dark green\nC. Brown\nD. Light lime",
+        "response": "A slender brown stem with numerous small green leaves along its length, featuring a few brown dried leaf fragments.",
+        "correct_answer": "Light lime",
+        "score": "F"
+    },
+    "Potato@5-20-P060-3-a": {
+        "prompt": "What type of leaf arrangement is described in the foliage?\n\nA. Pinnate arrangement of small leaflets\nB. Opposite arrangement of leaves\nC. Whorled arrangement of leaves\nD. Rosette arrangement of leaves",
+        "response": "A pinnate arrangement of small leaflets.",
+        "correct_answer": "Pinnate arrangement of small leaflets",
+        "score": "T"
+    },
+    "Potato@5-11-P290-3-a": {
+        "prompt": "What is the color range of the leaves on the plant described?\n\nA. From purple to blue\nB. From yellow to dark brown\nC. From light lime to dark green\nD. From red to orange",
+        "response": "A potted plant with a slender stem and broad, glossy green leaves arranged along the stem, featuring a small cluster of leaves at the top.",
+        "correct_answer": "From light lime to dark green",
+        "score": "F"
+    },
+    "Potato@5-23-P999-2-a": {
+        "prompt": "What is the arrangement of the leaves on the plant stem described?\n\nA. The leaves are arranged in a clustered formation at the bottom of the stem\nB. The leaves are arranged in a spiral pattern around the stem\nC. The leaves are arranged alternately along the length of the stem\nD. The leaves are arranged symmetrically on opposite sides of the stem",
+        "response": "A slender brown stem with numerous small green leaves arranged alternately along its length.",
+        "correct_answer": "The leaves are arranged alternately along the length of the stem",
+        "score": "T"
+    },
+    "Potato@5-11-P281-1-a": {
+        "prompt": "What type of leaves does the young plant sapling have?\n\nA. Round fleshy leaves with no veins\nB. Needle-like leaves with smooth edges\nC. Long thin leaves with a waxy texture\nD. Broad oval leaves with visible veins",
+        "response": "A small green plant sapling with a slender stem and a cluster of broad, oval leaves with visible veins.",
+        "correct_answer": "Broad oval leaves with visible veins",
+        "score": "T"
+    },
+    "Potato@5-23-P997-1-a": {
+        "prompt": "What type of leaves does the slender green plant bear?\n\nA. Elongated, oval to lanceolate leaves\nB. Round, broad leaves\nC. Needle-like leaves\nD. Heart-shaped leaves",
+        "response": "A slender green plant with a central stem and numerous elongated, oval to lanceolate leaves arranged along its length. The leaves vary in size and shade from light to dark green, with some curling or torn edges.",
+        "correct_answer": "Elongated, oval to lanceolate leaves",
+        "score": "T"
+    },
+    "Potato@5-14-P112-1-a": {
+        "prompt": "What shape are the leaves on the plant stem described?\n\nA. Circular\nB. Triangular\nC. Rectangular\nD. Elongated oval to lanceolate",
+        "response": "A slender brown stem with multiple long, narrow, lanceolate leaves arranged along its length, forming a small cluster at the top.",
+        "correct_answer": "Elongated oval to lanceolate",
+        "score": "T"
+    },
+    "Potato@5-13-P046-3-a": {
+        "prompt": "What type of leaves does the plant have?\n\nA. Broad, heart-shaped leaves\nB. Needle-like leaves\nC. Alternately arranged oval-to-lanceolate leaves\nD. Ruffled, frilly leaves",
+        "response": "A potted plant with broad, heart-shaped green leaves arranged in a dense cluster.",
+        "correct_answer": "Alternately arranged oval-to-lanceolate leaves",
+        "score": "F"
+    },
+    "Potato@5-21-P104-2-a": {
+        "prompt": "What type of plant is described as having a tall slender trunk and a crown of feathery fronds?\n\nA. Palm\nB. Fern\nC. Cactus\nD. Oak",
+        "response": "A potted plant with a tall, slender trunk and a crown of feathery fronds, featuring a small brown base and a brown stem.",
+        "correct_answer": "Palm",
+        "score": "T"
+    },
+    "Potato@5-11-P104-2-a": {
+        "prompt": "What color variation is present in the leaves of the plant described?\n\nA. Only light green leaves\nB. Only dark green leaves\nC. Color variations from light lime to dark green\nD. Only brownish leaves",
+        "response": "A small green plant with a slender stem and a cluster of broad, lobed leaves, featuring a curved leaf and a brownish leaf.",
+        "correct_answer": "Color variations from light lime to dark green",
+        "score": "F"
+    },
+    "Potato@5-23-P997-2-a": {
+        "prompt": "What type of plant is described in the room?\n\nA. Cactus\nB. Small palm\nC. Fern\nD. Succulent",
+        "response": "A small palm-like plant with a slender brown trunk and long, arching green fronds.",
+        "correct_answer": "Small palm",
+        "score": "T"
+    },
+    "Potato@5-23-P998-9-a": {
+        "prompt": "What is the characteristic of the plant's leaves?\n\nA. They are all the same shade of green\nB. They vary in color and texture\nC. They have a vertical growth pattern\nD. They are exclusively round in shape",
+        "response": "A potted plant with a slender green stem and broad, lobed leaves arranged in a dense cluster. The leaves vary in green shades and have a textured surface.",
+        "correct_answer": "They vary in color and texture",
+        "score": "T"
+    },
+    "Potato@5-20-P002-2-a": {
+        "prompt": "What is the shape of the leaves on the plant described?\n\nA. Round with serrated edges\nB. Heart-shaped with wavy edges\nC. Elongated oval with smooth margins\nD. Square with jagged tips",
+        "response": "A potted plant with broad, oval green leaves arranged in a clustered, leafy form. The leaves have serrated edges and a speckled, dotted texture, with a small brown base.",
+        "correct_answer": "Elongated oval with smooth margins",
+        "score": "F"
+    },
+    "Potato@5-13-P098-1-a": {
+        "prompt": "What color variations can be observed in the leaves of the described plant?\n\nA. Only dark green leaves\nB. Red and purple leaves\nC. Light to dark green leaves with yellowish tinges\nD. Only light green leaves",
+        "response": "A potted plant with multiple tall, slender green stems and long, narrow, blade-like leaves, forming a dense, grass-like cluster.",
+        "correct_answer": "Light to dark green leaves with yellowish tinges",
+        "score": "F"
+    },
+    "Potato@5-21-P142-1-a": {
+        "prompt": "What type of foliage is primarily present on the slender sapling described?\n\nA. Large fan-shaped leaves\nB. Round and smooth leaves\nC. Needle-like leaves\nD. Oval to lanceolate leaves",
+        "response": "A potted plant with a slender brown stem and numerous green, oval to lanceolate leaves arranged along the stem.",
+        "correct_answer": "Oval to lanceolate leaves",
+        "score": "T"
+    },
+    "Potato@5-19-P279-1-a": {
+        "prompt": "What is the arrangement of the leaves on the green plant stem described?\n\nA. Leaves are clustered at the base only\nB. Leaves are arranged in a circular pattern around the stem\nC. Leaves grow only at the top of the stem\nD. Leaves are arranged along the length of the stem",
+        "response": "A potted plant with a slender green stem and numerous long, narrow, arching leaves, some with brown tips.",
+        "correct_answer": "Leaves are arranged along the length of the stem",
+        "score": "F"
+    },
+    "Potato@5-14-P113-3-a": {
+        "prompt": "What is the color of the new growth at the tip of the plant?\n\nA. Dark green\nB. Medium green\nC. Brown-green\nD. Light lime",
+        "response": "A small green plant with a slender stem bearing numerous leaves along its length, featuring a cluster of leaves at the top.",
+        "correct_answer": "Light lime",
+        "score": "F"
+    },
+    "Potato@5-11-P281-2-a": {
+        "prompt": "What is the characteristic shape of the leaves on the described plant?  \n\nA. Circular\nB. Oval to elliptic\nC. Heart-shaped\nD. Triangular",
+        "response": "A slender brown branch with numerous small green leaves along its length, featuring a curved twig and a few dried leaves.",
+        "correct_answer": "Oval to elliptic",
+        "score": "F"
+    },
+    "Potato@5-11-P285-2-a": {
+        "prompt": "What type of leaf arrangement is primarily observed in the plant described?\n\nA. Simple leaves without serration\nB. Alternating whorled leaves\nC. Pinnate leaves with small leaflets\nD. Needle-like leaves",
+        "response": "A potted plant with a slender brown stem and numerous small, elongated green leaves arranged along the stem, forming a dense cluster.",
+        "correct_answer": "Pinnate leaves with small leaflets",
+        "score": "F"
+    },
+    "Potato@5-20-P045-3-a": {
+        "prompt": "What is the shape of the leaves on the plant stem?\n\nA. Circular\nB. Heart-shaped\nC. Triangular\nD. Lanceolate to ovate",
+        "response": "A slender brown stem with numerous small green leaves along its length, featuring a cluster of leaves at the top.",
+        "correct_answer": "Lanceolate to ovate",
+        "score": "F"
+    },
+    "Potato@5-23-P998-7-a": {
+        "prompt": "What color are the leaves of the plant mentioned in the description?\n\nA. Dark green\nB. Bright yellow\nC. Pale lime-green\nD. Deep blue",
+        "response": "A small green plant with a slender stem and a cluster of broad, oval leaves arranged around it, featuring a blue-green hue.",
+        "correct_answer": "Pale lime-green",
+        "score": "F"
+    },
+    "Potato@5-13-P002-2-a": {
+        "prompt": "What shape are the leaves of the plant described?\n\nA. Circular\nB. Round and broad\nC. Heart-shaped\nD. Elongated and lanceolate",
+        "response": "A slender brown twig with numerous small green leaves along its length, featuring a few dried brown leaves and a small cluster of dried plant material.",
+        "correct_answer": "Elongated and lanceolate",
+        "score": "F"
+    },
+    "Potato@5-20-P015-2-a": {
+        "prompt": "What is the shape of the leaves on the plant described?\n\nA. Oval to lanceolate with serrated margins\nB. Round with smooth edges\nC. Square with jagged edges\nD. Triangular with no visible veins",
+        "response": "A slender brown twig with small green leaves along its length, featuring a few dried brown leaf fragments.",
+        "correct_answer": "Oval to lanceolate with serrated margins",
+        "score": "F"
+    },
+    "Potato@5-11-P294-3-a": {
+        "prompt": "What type of leaves can be found on the green plant stem?\n\nA. Long, linear, red-tipped leaves\nB. Large, round, smooth leaves\nC. Small, oval, serrated leaves\nD. Thick, waxy, purple leaves",
+        "response": "A slender brown twig with small green leaves along its length, featuring a few dried brown leaves and a small cluster of dried flowers.",
+        "correct_answer": "Small, oval, serrated leaves",
+        "score": "F"
+    },
+    "Potato@5-13-P068-3-a": {
+        "prompt": "What type of plant structure is described with a slender central stem and multiple lobed, serrated leaves?\n\nA. A flower bouquet\nB. A herbaceous plant branch\nC. A shrub branch\nD. A fern frond",
+        "response": "A potted plant with a slender central stem and multiple lobed, serrated leaves, featuring a small cluster of brown leaves at the base.",
+        "correct_answer": "A herbaceous plant branch",
+        "score": "F"
+    },
+    "Potato@5-19-P281-1-a": {
+        "prompt": "What color is the new growth at the tip of the sapling?\n\nA. Dark green\nB. Lighter green\nC. Yellow\nD. Brown",
+        "response": "A small green plant with a slender stem and broad, lobed leaves, featuring a pink flower and a pink flower bud.",
+        "correct_answer": "Lighter green",
+        "score": "F"
+    },
+    "Potato@5-20-P149-3-a": {
+        "prompt": "What type of plant structure is described in the room?\n\nA. A flower with bright petals\nB. A fern-like plant with elongated leaves\nC. A bush with dense foliage\nD. A cactus with spines",
+        "response": "A potted plant with a slender stem and a cluster of broad, glossy green leaves, featuring a small pink flower.",
+        "correct_answer": "A fern-like plant with elongated leaves",
+        "score": "F"
+    },
+    "Potato@5-13-P043-2-a": {
+        "prompt": "What is the shape of the leaves described in the room?\n\nA. Broad oval-to-lanceolate\nB. Circular\nC. Needle-like\nD. Triangular",
+        "response": "A slender, curved brown twig with small green leaves along its length.",
+        "correct_answer": "Broad oval-to-lanceolate",
+        "score": "F"
+    },
+    "Rapeseed@29": {
+        "prompt": "What type of leaves does the plant in the pot have?\n\nA. Broad and serrated\nB. Thin and smooth\nC. Long and needle-like\nD. Round and waxy",
+        "response": "A potted plant with a slender brown stem and a cluster of broad, serrated green leaves, featuring a small white flower.",
+        "correct_answer": "Broad and serrated",
+        "score": "T"
+    },
+    "Rapeseed@115": {
+        "prompt": "What color is the pot that contains the plant?\n\nA. Green\nB. Yellow\nC. Red\nD. Blue",
+        "response": "A small green plant with a slender stem and several leaves, potted in a round blue pot with a blue rim.",
+        "correct_answer": "Blue",
+        "score": "T"
+    },
+    "Rapeseed@70": {
+        "prompt": "What type of container is the houseplant growing in?\n\nA. A dark, textured pot\nB. A ceramic vase\nC. A plastic cup\nD. A metal bucket",
+        "response": "A dark, textured pot with a wide rim and a small green plant growing from soil.",
+        "correct_answer": "A dark, textured pot",
+        "score": "T"
+    },
+    "Rapeseed@33": {
+        "prompt": "What type of container is used for the plant in the description?\n\nA. Round, dark pot\nB. Square pot\nC. Wooden planter\nD. Ceramic vase",
+        "response": "A round, dark pot.",
+        "correct_answer": "Round, dark pot",
+        "score": "T"
+    },
+    "Rapeseed@31": {
+        "prompt": "What shape is the pot that contains the potted green plant?\n\nA. Hexagonal\nB. Oval\nC. Square\nD. Rectangular",
+        "response": "A tall, slender green plant with a central stem and multiple long, narrow leaves arranged along the stem, forming a small tree-like silhouette.",
+        "correct_answer": "Square",
+        "score": "F"
+    },
+    "Rapeseed@129": {
+        "prompt": "What shape does the stem of the plant create as it forks?\n\nA. Circle\nB. Square\nC. X\nD. Y",
+        "response": "A slender brown stem with a curved, branching form and a small cluster of leaves at the top, featuring a circular ring around it.",
+        "correct_answer": "Y",
+        "score": "F"
+    },
+    "Rapeseed@20": {
+        "prompt": "What type of container is described in the text?\n\nA. A dark cylindrical metal container\nB. A rectangular container\nC. A glass bowl\nD. A woven basket",
+        "response": "A tall, dark cylindrical metal container with a textured surface and a lid, featuring a small green leaf and a green leaf-like mark.",
+        "correct_answer": "A dark cylindrical metal container",
+        "score": "T"
+    },
+    "Rapeseed@91": {
+        "prompt": "What color is the pot that the houseplant is in?\n\nA. Light green\nB. Dark blue\nC. White\nD. Red",
+        "response": "A tall, slender green plant with a single upright stem and long, lance-shaped leaves, potted in a small round pot with a blue rim.",
+        "correct_answer": "Dark blue",
+        "score": "F"
+    },
+    "Rapeseed@24": {
+        "prompt": "What color is the cylindrical ceramic pot that holds the houseplant?\n\nA. Red\nB. Dark blue\nC. Light green\nD. Black",
+        "response": "A small green plant with a slender stem and a cluster of broad, oval leaves sits in a dark blue cylindrical pot.",
+        "correct_answer": "Dark blue",
+        "score": "T"
+    },
+    "Rapeseed@37": {
+        "prompt": "What distinctive feature does the potted plant showcase that contrasts with the pot it is in?\n\nA. A wooden stand underneath the pot\nB. Dark-colored flowers blooming\nC. A square-shaped pot\nD. Arching leaves over the rim of the pot",
+        "response": "A potted plant with a tall, slender green stem and a crown of long, arching, sword-shaped leaves, some with brown tips, in a dark pot.",
+        "correct_answer": "Arching leaves over the rim of the pot",
+        "score": "T"
+    },
+    "Rapeseed@63": {
+        "prompt": "What color is the pot that the houseplant is in?\n\nA. Dark blue\nB. Brown\nC. Green\nD. White",
+        "response": "A small green plant with broad, rounded leaves sits in a dark blue cylindrical pot.",
+        "correct_answer": "Dark blue",
+        "score": "T"
+    },
+    "Rapeseed@11": {
+        "prompt": "What type of plant is described in the room?\n\nA. A large flowering shrub\nB. A small bonsai-like plant\nC. A fruit tree\nD. A tall cactus",
+        "response": "A small bonsai-like plant with a slender brown trunk and a dense canopy of green leaves.",
+        "correct_answer": "A small bonsai-like plant",
+        "score": "T"
+    },
+    "Rapeseed@135": {
+        "prompt": "What color is the pot holding the plant?\n\nA. Green\nB. Pink\nC. Dark Blue\nD. White",
+        "response": "A small potted plant with a slender stem and a cluster of broad, oval green leaves, featuring a pink flower at the top.",
+        "correct_answer": "Dark Blue",
+        "score": "F"
+    },
+    "Rapeseed@107": {
+        "prompt": "What type of plant is described in the room?\n\nA. A flowering shrub\nB. A small tree with a thick trunk\nC. A succulent with spiky leaves\nD. A potted green houseplant",
+        "response": "A potted green houseplant with a slender trunk and a dense, rounded canopy of broad, lobed leaves.",
+        "correct_answer": "A potted green houseplant",
+        "score": "T"
+    },
+    "Rapeseed@116": {
+        "prompt": "What color is the pot of the plant described?\n\nA. Red\nB. Blue\nC. Green\nD. Yellow",
+        "response": "A small potted plant with a slender green stem and broad, lobed leaves, featuring a blue-green hue.",
+        "correct_answer": "Blue",
+        "score": "F"
+    },
+    "Rapeseed@169": {
+        "prompt": "What type of plant is described in the room?\n\nA. A tall cactus with spines\nB. A potted green leafy plant with a bushy canopy\nC. A flowering vine with colorful blossoms\nD. A small shrub with needle-like leaves",
+        "response": "A potted plant with a dense cluster of tall, slender green stems and long, narrow leaves, forming a bushy, grass-like silhouette.",
+        "correct_answer": "A potted green leafy plant with a bushy canopy",
+        "score": "T"
+    },
+    "Rapeseed@58": {
+        "prompt": "What color is the ceramic pot holding the plant?\n\nA. Green\nB. Red\nC. Yellow\nD. Dark Blue",
+        "response": "A small green plant with a slender stem and a cluster of broad, oval leaves sits in a dark blue cylindrical pot.",
+        "correct_answer": "Dark Blue",
+        "score": "T"
+    },
+    "Rapeseed@25": {
+        "prompt": "What type of leaves does the houseplant have?\n\nA. Small, round leaves\nB. Needle-like leaves\nC. Broad, lobed leaves and fern-like, pinnate fronds\nD. Long, thin leaves",
+        "response": "A small potted plant with a slender brown stem and a cluster of broad, oval green leaves, featuring a pink flower.",
+        "correct_answer": "Broad, lobed leaves and fern-like, pinnate fronds",
+        "score": "T"
+    },
+    "Rapeseed@168": {
+        "prompt": "What color is the pot that holds the houseplant?\n\nA. Green\nB. Light brown\nC. Dark blue\nD. Yellow",
+        "response": "A tall, slender green plant with a single upright stem and long, narrow leaves along its length, forming a small crown at the top. The leaves vary from light to dark green, with a brown base and a small brown pot.",
+        "correct_answer": "Dark blue",
+        "score": "F"
+    },
+    "Rapeseed@83": {
+        "prompt": "What does the dark blue cylindrical plastic vessel resemble when viewed from a specific angle?\n\nA. A drinking cup with a lid and straw\nB. A cardboard box\nC. A wooden chair\nD. A metal toolbox",
+        "response": "A dark blue cylindrical plastic container with a lid and straw, featuring a blue-gray rim and a small label on the side.",
+        "correct_answer": "A drinking cup with a lid and straw",
+        "score": "T"
+    },
+    "Rapeseed@127": {
+        "prompt": "What color is the pot that the potted plant is in?\n\nA. Dark blue\nB. Light blue\nC. Bright green\nD. Pale pink",
+        "response": "A tall, cylindrical blue-gray pot filled with soil and a small green leafy plant.",
+        "correct_answer": "Dark blue",
+        "score": "F"
+    },
+    "Rapeseed@79": {
+        "prompt": "What color is the cylindrical plant pot?\n\nA. Dark blue\nB. Light green\nC. Bright red\nD. Yellow",
+        "response": "A small green plant with a slender stem and a cluster of leaves sits in a round, shallow pot filled with soil.",
+        "correct_answer": "Dark blue",
+        "score": "F"
+    },
+    "Rapeseed@122": {
+        "prompt": "What is the shape of the plant pot described?\n\nA. Square\nB. Rectangular\nC. Triangular\nD. Cylindrical",
+        "response": "A tall, slender green plant with a central stem and multiple long, lance-shaped leaves arranged along the stem, forming a dense, leafy cluster.",
+        "correct_answer": "Cylindrical",
+        "score": "F"
+    },
+    "Rapeseed@8": {
+        "prompt": "What is the shape of the pot that contains the potted plant?\n\nA. Square and flat\nB. Wide and round\nC. Tall and cylindrical\nD. Short and rectangular",
+        "response": "A tall, slender green plant with a single central stem and long, lance-shaped leaves, potted in a small round pot with a blue rim.",
+        "correct_answer": "Tall and cylindrical",
+        "score": "F"
+    },
+    "Rapeseed@82": {
+        "prompt": "What color is the rim of the plant pot?\n\nA. Red\nB. Dark\nC. Light\nD. Yellow",
+        "response": "A small potted plant with a slender stem and a cluster of broad, oval green leaves, featuring a blue-gray rim.",
+        "correct_answer": "Light",
+        "score": "F"
+    },
+    "Rapeseed@95": {
+        "prompt": "What shape is the pot that contains the small green plant?\n\nA. Square\nB. Rectangular\nC. Triangular\nD. Cylindrical",
+        "response": "A small green plant with broad, rounded leaves sits in a tall, dark blue cylindrical pot with a textured surface and a light rim, featuring a blue-gray rim and a blue-gray circular ring around it.",
+        "correct_answer": "Cylindrical",
+        "score": "T"
+    },
+    "Rapeseed@61": {
+        "prompt": "What color is the pot that the plant is growing in?\n\nA. Dark Blue\nB. Red\nC. Green\nD. White",
+        "response": "A blue cylindrical pot with a wide rim and a dark blue rim holds a small green plant with a leafy stem and a few leaves.",
+        "correct_answer": "Dark Blue",
+        "score": "T"
+    },
+    "Rapeseed@93": {
+        "prompt": "What color are the leaves of the potted plant?\n\nA. Bright green\nB. Dark green\nC. Yellow\nD. Brown",
+        "response": "A potted plant with a slender brown stem and a crown of broad, oval green leaves arranged in a rosette, featuring a small brown flower.",
+        "correct_answer": "Bright green",
+        "score": "T"
+    },
+    "Rapeseed@147": {
+        "prompt": "What color is the plant pot described?\n\nA. Dark blue\nB. Light blue\nC. Green\nD. Brown",
+        "response": "A blue-green plant pot with a wide rim, filled with soil and a small green leafy plant, featuring a blue-gray rim and a blue-green body.",
+        "correct_answer": "Dark blue",
+        "score": "F"
+    },
+    "Rapeseed@128": {
+        "prompt": "What is the overall appearance of the plant described?\n\nA. It features large flowers and thick stems\nB. It has a tall trunk with broad leaves\nC. It has a compact canopy and slender stems\nD. It has a wide base with no visible leaves",
+        "response": "A potted plant with a tall, slender brown stem and broad, lobed green leaves, featuring a small brown pot.",
+        "correct_answer": "It has a compact canopy and slender stems",
+        "score": "F"
+    },
+    "Rapeseed@119": {
+        "prompt": "What color is the pot containing the small green plant?\n\nA. Blue\nB. Green\nC. Pink\nD. Yellow",
+        "response": "A small potted plant with a slender stem and a cluster of broad, oval green leaves, planted in a blue-gray cylindrical pot.",
+        "correct_answer": "Blue",
+        "score": "T"
+    },
+    "Rapeseed@112": {
+        "prompt": "What color are the leaves of the potted plant?\n\nA. Dark green\nB. Yellow\nC. Bright green\nD. Dark brown",
+        "response": "A potted plant with a tall, slender green stem and a crown of broad, glossy leaves, featuring a small brown pot.",
+        "correct_answer": "Bright green",
+        "score": "F"
+    },
+    "Rapeseed@21": {
+        "prompt": "What is the shape of the pot that the plant is in?\n\nA. Square and flat\nB. Short and rectangular\nC. Wide and oval\nD. Tall and cylindrical",
+        "response": "A tall, cylindrical pot with a wide rim and a small circular top, filled with soil and a green leafy plant.",
+        "correct_answer": "Tall and cylindrical",
+        "score": "T"
+    },
+    "Rapeseed@109": {
+        "prompt": "What color is the pot that the potted plant is in?\n\nA. Brown\nB. Gray-blue\nC. White\nD. Black",
+        "response": "A tall, slender brown-gray cylindrical pot with a textured surface and a small green leaf on top, featuring a blue-gray rim and a brown base.",
+        "correct_answer": "Gray-blue",
+        "score": "T"
+    },
+    "Rapeseed@142": {
+        "prompt": "What shape is the pot that the indoor potted plant is in?\n\nA. Square\nB. Shallow and round\nC. Tall and cylindrical\nD. Flat and rectangular",
+        "response": "A tall, slender brown-trunked tree with a dense canopy of green leaves and a small cluster of dried brown leaves at the base.",
+        "correct_answer": "Tall and cylindrical",
+        "score": "F"
+    },
+    "Rapeseed@96": {
+        "prompt": "What color is the pot holding the houseplant?\n\nA. Red\nB. Dark Blue\nC. Green\nD. Yellow",
+        "response": "A tall, slender green plant with a central stem and long, narrow leaves, potted in a dark blue pot.",
+        "correct_answer": "Dark Blue",
+        "score": "T"
+    },
+    "Rapeseed@161": {
+        "prompt": "What color is the pot that the plant is in?\n\nA. Dark blue with a light rim\nB. Bright red with a dark rim\nC. Light green with a heavy rim\nD. Black with a glossy finish",
+        "response": "A tall, cylindrical pot with a textured surface and a light rim, filled with soil and a small green plant.",
+        "correct_answer": "Dark blue with a light rim",
+        "score": "T"
+    },
+    "Rapeseed@123": {
+        "prompt": "What color is the plant pot described in the room?\n\nA. Dark navy blue\nB. Light blue\nC. Green\nD. Brown",
+        "response": "A small potted plant with a slender stem and a cluster of broad, oval green leaves, featuring a dark blue pot.",
+        "correct_answer": "Dark navy blue",
+        "score": "T"
+    },
+    "Rapeseed@102": {
+        "prompt": "What is the color of the pot that the potted fern is in?\n\nA. Light blue\nB. Green\nC. Dark blue-gray\nD. Brown",
+        "response": "A small potted plant with a slender brown stem and a cluster of green, feathery leaves, featuring a blue-gray cylindrical pot.",
+        "correct_answer": "Dark blue-gray",
+        "score": "T"
+    },
+    "Rapeseed@13": {
+        "prompt": "What type of container is the potted plant sitting in? \n\nA. A plastic planter\nB. A glass vase\nC. A metal bucket\nD. A tall dark-blue ceramic pot",
+        "response": "A tall, dark blue ceramic pot with a wide rim and a circular rim, filled with soil and a small plant.",
+        "correct_answer": "A tall dark-blue ceramic pot",
+        "score": "T"
+    },
+    "Rapeseed@92": {
+        "prompt": "What color is the finish of the pot that holds the potted plant?\n\nA. Red and white stripes\nB. Clear glass\nC. Solid black\nD. Blue-gray with a speckled finish",
+        "response": "A blue-gray cylindrical pot with a speckled finish and a small plant with a blue-gray flower, featuring a blue-gray rim.",
+        "correct_answer": "Blue-gray with a speckled finish",
+        "score": "T"
+    },
+    "Rapeseed@40": {
+        "prompt": "What color is the pot of the plant described?\n\nA. Gray\nB. Brown\nC. Black\nD. White",
+        "response": "A small potted plant with a slender brown stem and a cluster of green leaves at the top, featuring a white label on the pot.",
+        "correct_answer": "Gray",
+        "score": "F"
+    },
+    "Rapeseed@41": {
+        "prompt": "What type of container is used to hold the leafy green plant in the still-life?\n\nA. Tall light-gray cylindrical pot\nB. Mason jar\nC. Short tumbler\nD. Stone bust",
+        "response": "A tall, cylindrical pot with a textured surface and a small green plant on top, featuring a blue-gray rim and a darker body.",
+        "correct_answer": "Tall light-gray cylindrical pot",
+        "score": "T"
+    },
+    "Rapeseed@113": {
+        "prompt": "What color is the plant pot described?\n\nA. Dark gray\nB. White\nC. Bright green\nD. Light gray",
+        "response": "A small green plant with broad, rounded leaves sits in a dark blue cylindrical pot.",
+        "correct_answer": "Light gray",
+        "score": "F"
+    },
+    "Rapeseed@108": {
+        "prompt": "What color is the pot that holds the houseplant?\n\nA. Light Green\nB. Dark Blue\nC. Bright Red\nD. Yellow",
+        "response": "A tall, slender green plant with a single vertical stem and long, narrow, arching leaves, potted in a dark blue cylindrical pot.",
+        "correct_answer": "Dark Blue",
+        "score": "T"
+    },
+    "Rice@77": {
+        "prompt": "What shape do the leaves of the potted plant resemble? \n\nA. Chairs\nB. Vases\nC. Swords\nD. Cubes",
+        "response": "A slender brown twig with a small cluster of dried leaves at the top, featuring a few tiny green leaves and a small brown seed.",
+        "correct_answer": "Swords",
+        "score": "F"
+    },
+    "Rice@1": {
+        "prompt": "What color is the rim of the pot holding the ornamental plant?\n\nA. Dark blue\nB. Light-colored\nC. Green\nD. Brown",
+        "response": "A small potted plant with a slender green stem and long, arching, sword-shaped leaves, planted in a dark blue pot.",
+        "correct_answer": "Light-colored",
+        "score": "F"
+    },
+    "Rice@62": {
+        "prompt": "What is the shape of the leaves of the potted plant?\n\nA. Round and broad\nB. Long and narrow\nC. Small and oval\nD. Flat and square",
+        "response": "A slender brown twig with tiny green leaves and a small cluster of dried leaves at the base.",
+        "correct_answer": "Long and narrow",
+        "score": "F"
+    },
+    "Rice@3": {
+        "prompt": "What color are the tips of the leaves on the potted plant?\n\nA. Green\nB. Yellow\nC. Red\nD. Brown",
+        "response": "A slender green plant with a central stem and numerous long, narrow, blade-like leaves arranged along the stem, forming a dense, feathery cluster.",
+        "correct_answer": "Brown",
+        "score": "F"
+    },
+    "Rice@20": {
+        "prompt": "What color is the pot that the potted plant sits in?\n\nA. Red\nB. Yellow\nC. Green\nD. Blue",
+        "response": "A tall, slender green plant with a single upright stem and long, narrow leaves, potted in a dark blue cylindrical pot.",
+        "correct_answer": "Blue",
+        "score": "T"
+    },
+    "Rice@74": {
+        "prompt": "What color is the pot that holds the potted plant?\n\nA. Green\nB. Black\nC. Tan\nD. Dark blue",
+        "response": "A tall, slender green plant with a central stem and long, arching leaves, potted in a dark blue pot.",
+        "correct_answer": "Dark blue",
+        "score": "T"
+    },
+    "Rice@19": {
+        "prompt": "What color is the pot that the houseplant is sitting in?\n\nA. Dark green ceramic\nB. Bright red ceramic\nC. Light ceramic\nD. Dark blue ceramic",
+        "response": "A tall, slender green plant with a central stem and numerous long, narrow, grass-like leaves, potted in a dark blue ceramic pot.",
+        "correct_answer": "Dark blue ceramic",
+        "score": "T"
+    },
+    "Rice@26": {
+        "prompt": "What color is the pot that holds the potted plant?\n\nA. Blue\nB. Green\nC. Red\nD. Yellow",
+        "response": "A tall, slender green plant with a single upright stem and long, narrow leaves, potted in a blue-gray cylindrical pot.",
+        "correct_answer": "Blue",
+        "score": "T"
+    },
+    "Rice@13": {
+        "prompt": "What type of leaves does the potted plant have?\n\nA. Round and broad leaves\nB. Heart-shaped leaves\nC. Short and oval leaves\nD. Long, slender, arching leaves",
+        "response": "A potted plant with a slender brown stem and broad green leaves, featuring a small cluster of brown dried leaves at the base.",
+        "correct_answer": "Long, slender, arching leaves",
+        "score": "F"
+    },
+    "Rice@7": {
+        "prompt": "What type of pot does the ornamental potted plant sit in?\n\nA. A square pot\nB. A dark cylindrical pot\nC. A shallow tray\nD. A textured pot",
+        "response": "A tall, slender green plant with a central stem and numerous long, narrow, blade-like leaves arranged along the stem, potted in a dark blue cylindrical pot.",
+        "correct_answer": "A dark cylindrical pot",
+        "score": "T"
+    },
+    "Rice@46": {
+        "prompt": "What color is the pot in which the potted plant is planted?\n\nA. Black\nB. Green\nC. Brown\nD. Dark blue with a light rim",
+        "response": "A tall, slender green plant with a central stem and long, arching leaves, potted in a dark blue pot with a light rim.",
+        "correct_answer": "Dark blue with a light rim",
+        "score": "T"
+    },
+    "Rice@52": {
+        "prompt": "What color is the pot containing the indoor potted plant?\n\nA. Light green\nB. White\nC. Brown\nD. Dark blue",
+        "response": "A tall, slender green plant with a single vertical stem and long, narrow, blade-like leaves, potted in a small brown pot.",
+        "correct_answer": "Dark blue",
+        "score": "F"
+    },
+    "Rice@41": {
+        "prompt": "What color is the pot of the potted plant described?\n\nA. Red\nB. Green\nC. Dark-blue\nD. Yellow",
+        "response": "A potted plant with a tall, slender green stem and long, arching, feathery leaves, featuring a small brown pot.",
+        "correct_answer": "Dark-blue",
+        "score": "F"
+    },
+    "Rice@84": {
+        "prompt": "What is the shape of the pot in which the plant is planted?\n\nA. Square\nB. Rectangular\nC. Triangular\nD. Cylindrical",
+        "response": "A tall, slender green plant with a single upright stem and long, narrow, arching leaves, potted in a dark blue cylindrical pot.",
+        "correct_answer": "Cylindrical",
+        "score": "T"
+    },
+    "Rice@6": {
+        "prompt": "What is the shape of the leaves on the houseplant described?\n\nA. Round\nB. Heart-shaped\nC. Lance-shaped\nD. Oval",
+        "response": "A potted plant with a slender brown stem and broad, oval green leaves arranged along the stem, featuring a small cluster of leaves at the top.",
+        "correct_answer": "Lance-shaped",
+        "score": "F"
+    },
+    "Rice@59": {
+        "prompt": "What shape is the pot that holds the green plant?\n\nA. Round\nB. Rectangular\nC. Square\nD. Oval",
+        "response": "A tall, slender green plant with a single upright stem and long, narrow leaves, potted in a round pot.",
+        "correct_answer": "Round",
+        "score": "T"
+    },
+    "Rice@4": {
+        "prompt": "What type of leaves does the potted plant have?\n\nA. Long and slender, sword-like leaves\nB. Round and broad leaves\nC. Oval-shaped leaves\nD. Sticky, hairy leaves",
+        "response": "A potted plant with a slender central stem and long, narrow, sword-shaped green leaves radiating from the top.",
+        "correct_answer": "Long and slender, sword-like leaves",
+        "score": "T"
+    },
+    "Rice@8": {
+        "prompt": "What color is the pot that the grass-like plant is in?\n\nA. Dark blue\nB. Bright red\nC. Dark green\nD. Light yellow",
+        "response": "A tall, slender green plant with a central stem and long, arching leaves, potted in a dark blue pot.",
+        "correct_answer": "Dark blue",
+        "score": "T"
+    },
+    "Rice@48": {
+        "prompt": "What shape is the pot that holds the potted plant?\n\nA. Rectangular\nB. Square\nC. Cylindrical\nD. Oval",
+        "response": "A tall, slender green plant with a central stem and long, arching leaves, potted in a dark blue cylindrical pot.",
+        "correct_answer": "Cylindrical",
+        "score": "T"
+    },
+    "Rice@54": {
+        "prompt": "What type of pot is the plant sitting in?\n\nA. Red ceramic pot\nB. Yellow metal pot\nC. Green plastic pot\nD. Blue ceramic pot",
+        "response": "A small green plant with a slender stem and a cluster of long, narrow, grass-like leaves, potted in a blue ceramic pot.",
+        "correct_answer": "Blue ceramic pot",
+        "score": "T"
+    },
+    "Rice@2": {
+        "prompt": "What type of leaves does the houseplant display?\n\nA. Round and broad leaves\nB. Tall and slender sword-shaped leaves\nC. Small and oval leaves\nD. Heart-shaped leaves",
+        "response": "A potted plant with tall, slender, sword-shaped green leaves rising from a dark blue pot.",
+        "correct_answer": "Tall and slender sword-shaped leaves",
+        "score": "T"
+    },
+    "Rice@37": {
+        "prompt": "What color is the rim of the pot where the plant is situated?\n\nA. Dark blue\nB. Green\nC. Black\nD. Light",
+        "response": "A tall, slender green plant with a single upright stem and long, narrow, blade-like leaves along its length, forming a crown at the top. It sits in a dark blue pot.",
+        "correct_answer": "Light",
+        "score": "F"
+    },
+    "Rice@45": {
+        "prompt": "What color is the pot that the plant is in?\n\nA. Green\nB. Brown\nC. Light blue\nD. Dark blue",
+        "response": "A tall, slender green plant with a central stem and long, arching leaves, potted in a dark blue pot.",
+        "correct_answer": "Dark blue",
+        "score": "T"
+    },
+    "Rice@35": {
+        "prompt": "What shape does the potted plant's foliage create?\n\nA. A spear-like silhouette\nB. A flat surface\nC. A rounded canopy\nD. A bushy form",
+        "response": "A slender, curved brown twig with numerous tiny green leaves along its length.",
+        "correct_answer": "A spear-like silhouette",
+        "score": "F"
+    },
+    "Rice@18": {
+        "prompt": "What is the shape of the leaves on the houseplant mentioned in the description?\n\nA. Round and broad\nB. Short and spiky\nC. Long and arching\nD. Flat and wide",
+        "response": "A slender brown woody stem with numerous small green leaves along its length, featuring a few dried brown leaves.",
+        "correct_answer": "Long and arching",
+        "score": "F"
+    },
+    "Rice@72": {
+        "prompt": "What color is the ceramic pot that the potted plant is in?\n\nA. Dark blue\nB. Light beige\nC. Green\nD. Brown",
+        "response": "A dark blue ceramic pot with a wide rim and a tall, slender stem, filled with soil and a small green leafy plant.",
+        "correct_answer": "Dark blue",
+        "score": "T"
+    },
+    "Tomato@8-22_20-28": {
+        "prompt": "What type of leaf arrangement is described?\n\nA. Simple leaves arranged in a spiral pattern\nB. Opposite leaves growing in pairs on the stem\nC. Whorled leaves encircling the stem\nD. Pinnate, compound leaves with numerous small leaflets",
+        "response": "A potted plant with a slender brown stem and numerous small green leaves arranged along its length, forming a dense, feathery cluster.",
+        "correct_answer": "Pinnate, compound leaves with numerous small leaflets",
+        "score": "F"
+    },
+    "Tomato@10-5_1-1": {
+        "prompt": "What is the appearance of the leaves on the plant described?\n\nA. Finely divided into numerous small leaflets\nB. Solid and broad leaves\nC. Thick and waxy leaves\nD. Entirely round leaves",
+        "response": "A slender brown twig with small green leaves along its length, featuring a few tiny white blossoms and a small cluster of dried leaves at the base.",
+        "correct_answer": "Finely divided into numerous small leaflets",
+        "score": "F"
+    },
+    "Tomato@8-13_20-28": {
+        "prompt": "What is the overall appearance of the plant described? \n\nA. It displays a feathery, lace-like frond\nB. It features a dense, bushy appearance\nC. It has thick, solid stems with broad leaves\nD. It is characterized by large, flat leaves",
+        "response": "A potted plant with a slender brown stem and a dense cluster of broad, oval green leaves arranged along the stem, forming a feathery, leafy silhouette.",
+        "correct_answer": "It displays a feathery, lace-like frond",
+        "score": "T"
+    },
+    "Tomato@8-22_30-4": {
+        "prompt": "What feature of the plant's leaves makes them appear pinnate from some angles?\n\nA. Deeply lobed structure\nB. Numerous leaflets\nC. Serrated edges\nD. Woody brown stem",
+        "response": "A potted plant with a slender brown stem and numerous small, lobed green leaves arranged along the stem, forming a dense, feathery cluster.",
+        "correct_answer": "Numerous leaflets",
+        "score": "F"
+    },
+    "Tomato@8-13_1-55": {
+        "prompt": "What type of plant described has slender woody stems?\n\nA. Cactus\nB. Orchid\nC. Palm\nD. Fern",
+        "response": "A potted plant with a slender brown stem and numerous long, narrow green leaves arranged along the stem, forming a dense, feathery cluster.",
+        "correct_answer": "Fern",
+        "score": "F"
+    },
+    "Tomato@8-22_10-3": {
+        "prompt": "What is the shape of the leaves on the tree branch described?\n\nA. Circular\nB. Broad and flat\nC. Feathery\nD. Needle-like",
+        "response": "A slender brown branch with numerous small green leaves along its length, featuring a few dried brown leaves and a few white blossoms.",
+        "correct_answer": "Feathery",
+        "score": "F"
+    },
+    "Tomato@11-2_35-22": {
+        "prompt": "What is the shape of the plant as described?\n\nA. Upright and cylindrical\nB. Tall and thin\nC. Wide and flat\nD. Slightly drooping and bushy",
+        "response": "A slender, upright green plant with a central stem and numerous small, elongated leaves arranged along its length. The leaves vary in green shades, with a few brownish tips.",
+        "correct_answer": "Slightly drooping and bushy",
+        "score": "F"
+    },
+    "Tomato@8-31_10-3": {
+        "prompt": "What type of trunk does the small tree have?\n\nA. Green and flexible\nB. Thin and smooth\nC. Brown and woody\nD. Short and spiny",
+        "response": "A small green plant with a slender brown trunk and a dense cluster of broad, lobed leaves, forming a small tree-like silhouette.",
+        "correct_answer": "Brown and woody",
+        "score": "F"
+    },
+    "Tomato@10-5_30-52": {
+        "prompt": "What is the shape of the leaves on the plant described?\n\nA. Round and flat\nB. Pinnate and palmately lobed\nC. Triangular and sharp\nD. Narrow and straight",
+        "response": "A small potted plant with a slender brown stem and a cluster of green, broad, lobed leaves. The leaves are oval to heart-shaped with serrated edges and a speckled texture, forming a dense, leafy cluster.",
+        "correct_answer": "Pinnate and palmately lobed",
+        "score": "F"
+    },
+    "Tomato@8-10_10-53": {
+        "prompt": "What type of leaves does the shrub have?\n\nA. Broad, palmately lobed leaves\nB. Needle-like leaves\nC. Thin, elongated leaves\nD. Small, oval leaves",
+        "response": "A potted plant with a slender brown stem and numerous broad, palmately lobed green leaves, featuring a small brown flower.",
+        "correct_answer": "Broad, palmately lobed leaves",
+        "score": "T"
+    },
+    "Tomato@8-28_30-52": {
+        "prompt": "What type of plant features slender woody stems with deeply lobed, serrated leaves?\n\nA. A cactus\nB. A green leafy plant\nC. A succulent\nD. A flowering shrub",
+        "response": "A green leafy plant with slender woody stems and deeply lobed, serrated leaves.",
+        "correct_answer": "A green leafy plant",
+        "score": "T"
+    },
+    "Tomato@8-22_35-22": {
+        "prompt": "What is the characteristic shape of the canopy of the described tree or shrub?\n\nA. Short and bushy\nB. Dense and round\nC. Tall and narrow\nD. Spreading and lacy",
+        "response": "A tall, slender brown tree with a central trunk and many thin branches bearing small white blossoms and a few green leaves. The branches are sparse and twig-like, with a few dried leaves.",
+        "correct_answer": "Spreading and lacy",
+        "score": "F"
+    },
+    "Tomato@9-3_2-1": {
+        "prompt": "What is the appearance of the leaves on the described branch?\n\nA. They are large and broad, giving a wide shape to the branch\nB. They are small and have a fern-like appearance\nC. They are needle-like and arranged in clusters\nD. They are thick and waxy, covering the branch completely",
+        "response": "A small green plant with a slender stem and numerous broad, oval leaves arranged along the stem, forming a dense cluster. The leaves are green with brownish edges and a speckled texture.",
+        "correct_answer": "They are small and have a fern-like appearance",
+        "score": "F"
+    },
+    "Tomato@8-25_1-55": {
+        "prompt": "What characteristic of the tree allows it to appear feathery and multi-branching?\n\nA. The dense, bright green foliage\nB. The slender brown trunk\nC. The small evergreen nature\nD. The spreading branches",
+        "response": "A small evergreen tree with a slender brown trunk and numerous thin, branching limbs bearing green leaves.",
+        "correct_answer": "The dense, bright green foliage",
+        "score": "F"
+    },
+    "Tomato@9-3_20-28": {
+        "prompt": "What is the arrangement of the branches of the plant described?\n\nA. The branches are straight and upright\nB. The branches are curled\nC. The branches are arching\nD. The branches are completely horizontal",
+        "response": "A potted plant with a slender brown stem and numerous small green leaves along its length, forming a dense, branching cluster.",
+        "correct_answer": "The branches are arching",
+        "score": "F"
+    },
+    "Tomato@8-28_10-53": {
+        "prompt": "What type of plant is described as having a thin brown trunk with multiple slender, branching stems and dense clusters of green leaves with serrated margins?\n\nA. A large oak tree\nB. A cacti\nC. A small tree or shrub\nD. A flowering vine",
+        "response": "A potted plant with a brown trunk and multiple slender, branching stems bearing green leaves with serrated margins.",
+        "correct_answer": "A small tree or shrub",
+        "score": "T"
+    },
+    "Tomato@9-6_1-55": {
+        "prompt": "What is the shape and color of the trunk of the tree described?\n\nA. Gnarled and yellow\nB. Thick and green\nC. Short and black\nD. Slender and brown",
+        "response": "A slender brown tree with a gnarled trunk and sparse branches, bearing small green leaves and clusters of white blossoms.",
+        "correct_answer": "Slender and brown",
+        "score": "F"
+    },
+    "Tomato@9-3_10-3": {
+        "prompt": "What type of plant is described in the text?\n\nA. A tree with a broad canopy and twisting branches\nB. A vine with a creeping growth pattern\nC. A densely foliated shrub with a single stem\nD. A small flowering plant with delicate leaves",
+        "response": "A small flowering plant with delicate, slender green leaves on a brown stem, featuring a few brown dried leaves.",
+        "correct_answer": "A tree with a broad canopy and twisting branches",
+        "score": "F"
+    },
+    "Tomato@8-31_20-28": {
+        "prompt": "What type of tree is described in the information?\n\nA. Coniferous tree\nB. Deciduous tree\nC. Evergreen tree\nD. Palm tree",
+        "response": "A slender brown tree with a central trunk and a dense crown of green, feathery, pinnate leaves.",
+        "correct_answer": "Deciduous tree",
+        "score": "F"
+    },
+    "Tomato@8-25_30-52": {
+        "prompt": "What type of appearance do the leaflets of the green woody branch have?\n\nA. Grass-like appearance\nB. Flower-like appearance\nC. Cactus-like appearance\nD. Fern-like appearance",
+        "response": "A slender brown woody branch with numerous small green leaves along its length, featuring a dense cluster of tiny leaflets at the tip.",
+        "correct_answer": "Fern-like appearance",
+        "score": "F"
+    },
+    "Tomato@11-2_30-4": {
+        "prompt": "What color are the new growth tips of the climbing plant described?\n\nA. Dark green\nB. Lime green\nC. Yellow\nD. Red",
+        "response": "A potted plant with a slender stem and numerous long, lance-shaped green leaves, some with brown tips, forming a small cluster.",
+        "correct_answer": "Lime green",
+        "score": "F"
+    },
+    "Tomato@9-14_10-3": {
+        "prompt": "What type of leaves does the tree have?\n\nA. Broad, flat leaves\nB. Thick, waxy leaves\nC. Needle-like leaves\nD. Finely divided, pinnate leaves",
+        "response": "A potted plant with a slender brown trunk and a dense cluster of broad, oval green leaves, featuring a small pink flower.",
+        "correct_answer": "Finely divided, pinnate leaves",
+        "score": "F"
+    },
+    "Tomato@11-2_1-1": {
+        "prompt": "What is the characteristic shape of the plant described?\n\nA. It has a wide, flat canopy like an umbrella\nB. It resembles a cactus with spines\nC. It has a central stem with arching fronds\nD. It is low and bushy without a defined shape",
+        "response": "A slender brown twig with small green leaves and tiny white blossoms along its length, sometimes featuring a few dried brown leaves.",
+        "correct_answer": "It has a central stem with arching fronds",
+        "score": "F"
+    },
+    "Tomato@8-28_20-28": {
+        "prompt": "What is the primary characteristic of the foliage of the described shrub or tree?\n\nA. It is made up of large, broad leaves\nB. It features only a few thick, waxy leaves\nC. It has needle-like leaves\nD. It consists of multiple small pinnate leaflets",
+        "response": "A potted plant with a slender brown stem and numerous small, feathery green leaves along its length, forming a dense, bushy cluster.",
+        "correct_answer": "It consists of multiple small pinnate leaflets",
+        "score": "T"
+    },
+    "Tomato@8-25_1-1": {
+        "prompt": "What type of leaves are described as being on the plant branch?\n\nA. Small, smooth leaves with pointed tips\nB. Broad, deeply lobed leaves with jagged edges\nC. Needle-like leaves with a waxy surface\nD. Heart-shaped leaves with a glossy finish",
+        "response": "A slender brown twig with small green leaves and a few white blossoms along its length, featuring a few dried brown leaf fragments.",
+        "correct_answer": "Broad, deeply lobed leaves with jagged edges",
+        "score": "F"
+    },
+    "Wheat@79": {
+        "prompt": "What is the texture of the leaves on the potted shrub described?\n\nA. Smooth texture\nB. Glossy texture\nC. Rough texture\nD. Pointillistic texture",
+        "response": "A slender brown branch with numerous small green leaves and a few white blossoms, featuring a rough, textured surface.",
+        "correct_answer": "Pointillistic texture",
+        "score": "F"
+    },
+    "Wheat@145": {
+        "prompt": "What type of plant is described in the room?\n\nA. Cactus\nB. Fern\nC. Palm tree\nD. Bamboo",
+        "response": "A potted plant with a tall, slender green stem and long, arching leaves, featuring a small brown base.",
+        "correct_answer": "Bamboo",
+        "score": "F"
+    },
+    "Wheat@91": {
+        "prompt": "What color are the leaves of the potted plant?\n\nA. Blue\nB. Yellow\nC. Red\nD. Dark to light green",
+        "response": "A potted plant with a slender brown stem and broad, glossy green leaves, featuring a small cluster of brownish-green leaves at the base.",
+        "correct_answer": "Dark to light green",
+        "score": "T"
+    },
+    "Wheat@116": {
+        "prompt": "What type of plant is described in the room?\n\nA. Cactus\nB. Bamboo\nC. Fern\nD. Orchid",
+        "response": "A potted plant with a slender central stem and numerous long, arching green leaves, featuring a small brown seed head at the base.",
+        "correct_answer": "Bamboo",
+        "score": "F"
+    },
+    "Wheat@6": {
+        "prompt": "What type of plant is described in the room?\n\nA. A cactus with thick, spiny arms\nB. A bamboo-like plant with slender green stalks\nC. A flowering shrub with large blossoms\nD. A tree with broad, flat leaves",
+        "response": "A potted plant with a slender brown trunk and a dense cluster of green, fern-like leaves, featuring a small brown flower.",
+        "correct_answer": "A bamboo-like plant with slender green stalks",
+        "score": "F"
+    },
+    "Wheat@11": {
+        "prompt": "What type of plant is described in the room?\n\nA. A tall, bamboo-like plant\nB. A flowering shrub\nC. A small succulent\nD. An ornamental grass",
+        "response": "A small green plant with a slender stem and long, narrow, grass-like leaves, featuring a brown base.",
+        "correct_answer": "A tall, bamboo-like plant",
+        "score": "F"
+    },
+    "Wheat@34": {
+        "prompt": "What type of container is the houseplant situated in?\n\nA. Round pot\nB. High cylindrical vase\nC. Square box\nD. Low rectangular planter",
+        "response": "A tall, slender green plant with a central stem and numerous long, narrow, grass-like leaves along its length, forming a dense, bushy silhouette.",
+        "correct_answer": "Low rectangular planter",
+        "score": "F"
+    },
+    "Wheat@127": {
+        "prompt": "What is the arrangement of the bamboo stalks described in the room?\n\nA. They are scattered on the floor\nB. They are placed in a large vase\nC. They are hanging from the ceiling\nD. They are clustered in a simple container",
+        "response": "A slender brown twig with a small cluster of dried leaves and a few tiny green leaves, featuring a few tiny brown buds.",
+        "correct_answer": "They are clustered in a simple container",
+        "score": "F"
+    },
+    "Wheat@39": {
+        "prompt": "What is the structure of the trunk of the plant described?\n\nA. It is thin and fragile\nB. It is sturdy and brown\nC. It is short and bushy\nD. It is straight and green",
+        "response": "A slender brown branch with a rough, textured surface and small buds along its length, featuring a few green leaves.",
+        "correct_answer": "It is sturdy and brown",
+        "score": "F"
+    },
+    "Wheat@107": {
+        "prompt": "What type of plant is described?\n\nA. A bushy houseplant\nB. A flowering shrub\nC. A tree with thick bark\nD. A cacti species",
+        "response": "A small potted plant with a slender brown stem and numerous green, fern-like leaves along its length, forming a dense, bushy cluster.",
+        "correct_answer": "A bushy houseplant",
+        "score": "T"
+    },
+    "Wheat@122": {
+        "prompt": "What is the shape of the leaves of the potted plant described?\n\nA. Round and broad\nB. Oval and flat\nC. Short and wide\nD. Tall and slender",
+        "response": "A potted plant with a slender stem and broad, oval green leaves arranged around it, featuring a small brown base.",
+        "correct_answer": "Tall and slender",
+        "score": "F"
+    },
+    "Wheat@52": {
+        "prompt": "What characteristic does the green potted plant display along its tall, slender stems?  \n\nA. Thick, round leaves\nB. Wide, flat leaves\nC. Narrow, elongated leaves\nD. Short, spiky leaves",
+        "response": "A potted plant with tall, slender green stems and narrow, elongated leaves, featuring a small brown pot.",
+        "correct_answer": "Narrow, elongated leaves",
+        "score": "T"
+    },
+    "Wheat@96": {
+        "prompt": "What is the primary color of the trunk of the potted plant?\n\nA. Brown\nB. Green\nC. Yellow\nD. Red",
+        "response": "A slender brown-green plant stem with a small cluster of leaves at the top, featuring a few green leaves and a brown base.",
+        "correct_answer": "Brown",
+        "score": "T"
+    },
+    "Wheat@26": {
+        "prompt": "What is the position of the log in the described setting?\n\nA. It is lying horizontally\nB. It is leaning against a wall\nC. It is standing upright\nD. It is hanging from a branch",
+        "response": "A small potted plant with a slender brown stem and a few green leaves, featuring a small cluster of dried leaves and a brown leaf.",
+        "correct_answer": "It is lying horizontally",
+        "score": "F"
+    },
+    "Wheat@88": {
+        "prompt": "What type of plant is described in the room?\n\nA. A flowering plant with large petals\nB. A potted fern with slender leaves\nC. A tree with a thick trunk\nD. A cactus with spines",
+        "response": "A potted plant with a slender brown trunk and numerous long, arching green leaves, featuring a small cluster of brown dried leaves at the base.",
+        "correct_answer": "A potted fern with slender leaves",
+        "score": "T"
+    },
+    "Wheat@25": {
+        "prompt": "What color are the tiny leaves of the plant described?\n\nA. Red\nB. Brown\nC. Yellow\nD. Green",
+        "response": "A small green plant with a slender stem and a few leaves, featuring a brown-green leaf and a small brown seed.",
+        "correct_answer": "Green",
+        "score": "T"
+    },
+    "Wheat@115": {
+        "prompt": "What color is the pot that holds the bamboo plant? \n\nA. Dark-colored\nB. Blue\nC. Red\nD. Light-colored",
+        "response": "A tall, slender green plant with a brown stem and long, narrow leaves, featuring a small brown pot.",
+        "correct_answer": "Light-colored",
+        "score": "F"
+    },
+    "Wheat@28": {
+        "prompt": "What shape is the planter that holds the bamboo-like plant?\n\nA. Square\nB. Rectangular\nC. Circular\nD. Oval",
+        "response": "A slender brown twig with a few small green leaves and a small cluster of dried brown leaves, featuring a brown-green stem and a small brown flower.",
+        "correct_answer": "Rectangular",
+        "score": "F"
+    },
+    "Wheat@78": {
+        "prompt": "What shape does the small potted plant resemble?\n\nA. A wide, flat ground cover\nB. A tall, straight tree\nC. A round, compact ball\nD. A bushy, palm-like silhouette",
+        "response": "A slender brown twig with a small cluster of leaves at the top, featuring a few tiny green leaves.",
+        "correct_answer": "A bushy, palm-like silhouette",
+        "score": "F"
+    },
+    "Wheat@126": {
+        "prompt": "What type of plant is described in the room?\n\nA. Cactus\nB. Fern\nC. Bamboo\nD. Orchid",
+        "response": "A potted plant with a tall, slender green stem and long, arching, feathery leaves, featuring a small brown base.",
+        "correct_answer": "Bamboo",
+        "score": "F"
+    },
+    "Wheat@125": {
+        "prompt": "What type of plant is described in the room?\n\nA. Cactus with wide, flat leaves\nB. Green plant with bamboo-like stems\nC. Potted flower with colorful blooms\nD. Succulent with thick, fleshy leaves",
+        "response": "A potted plant with a dense cluster of broad, fleshy green leaves rising from a dark blue cylindrical pot.",
+        "correct_answer": "Green plant with bamboo-like stems",
+        "score": "F"
+    },
+    "Wheat@60": {
+        "prompt": "What color are the stripes on the decorative pot of the plant?\n\nA. Green and yellow\nB. Brown and beige\nC. Blue and white\nD. Black and red",
+        "response": "A small potted plant with a slender stem and a cluster of broad, oval green leaves, featuring a blue-green, speckled texture.",
+        "correct_answer": "Brown and beige",
+        "score": "F"
+    },
+    "Wheat@131": {
+        "prompt": "What color is the pot that holds the plant?\n\nA. Blue\nB. Green\nC. Brown\nD. Yellow",
+        "response": "A blue-green plant with a slender stem and broad, lobed leaves, featuring a small brown pot.",
+        "correct_answer": "Brown",
+        "score": "T"
+    },
+    "Wheat@72": {
+        "prompt": "What is the primary color of the bamboo plant described?\n\nA. Blue\nB. Green\nC. Yellow\nD. Red",
+        "response": "A slender green plant with a tall, upright stem and long, narrow leaves arranged along the stem, featuring a small brown seed at the base.",
+        "correct_answer": "Green",
+        "score": "T"
+    },
+    "Wheat@149": {
+        "prompt": "What color are the leaves of the plant described?\n\nA. Blue\nB. Yellow\nC. Green\nD. Red",
+        "response": "A slender green plant with a central stem and numerous small, elongated leaves along its length, featuring a curved leaf and a small cluster of brown dried leaves.",
+        "correct_answer": "Green",
+        "score": "T"
+    },
+    "Wheat@119": {
+        "prompt": "What type of plant is described in the room?\n\nA. A cactus\nB. A succulent\nC. A small potted fern\nD. A small potted tree",
+        "response": "A small potted plant with a slender brown trunk and numerous thin, twiggy branches bearing tiny green leaves and white blossoms, with a few dried brown leaves.",
+        "correct_answer": "A small potted fern",
+        "score": "T"
+    },
+    "Wheat@21": {
+        "prompt": "What color are the leaves of the plant described?\n\nA. Light green\nB. Red\nC. Yellow\nD. Dark olive-green",
+        "response": "A small green plant with a slender stem and a few leaves, featuring a brownish base.",
+        "correct_answer": "Dark olive-green",
+        "score": "F"
+    },
+    "Wheat@84": {
+        "prompt": "What type of silhouette does the potted plant create?\n\nA. A flat, two-dimensional shape\nB. A triangular formation\nC. A cylindrical shape\nD. A bushy, tree-like silhouette",
+        "response": "A slender brown twig with a small cluster of dried leaves at the top, featuring a few tiny green leaves.",
+        "correct_answer": "A bushy, tree-like silhouette",
+        "score": "F"
+    },
+    "Wheat@4": {
+        "prompt": "What is the shape of the leaves on the potted plant?\n\nA. Dense and feathery, narrow\nB. Round and broad\nC. Flat and wide\nD. Sharp and needle-like",
+        "response": "A potted plant with a dense cluster of slender, blade-like green leaves that are narrow and pointed, rising from a small brown pot.",
+        "correct_answer": "Dense and feathery, narrow",
+        "score": "T"
+    },
+    "Wheat@109": {
+        "prompt": "What is the color of the leaves of the potted bamboo-like plant described?\n\nA. Light green\nB. Brown\nC. Yellow\nD. Dark green",
+        "response": "A slender brown stem with numerous small green leaves along its length, forming a dense, branching cluster.",
+        "correct_answer": "Dark green",
+        "score": "F"
+    },
+    "Wheat@89": {
+        "prompt": "What feature distinguishes the leaves of the indoor potted plant described?\n\nA. The leaves are wide and flat\nB. The leaves arch along the nodes\nC. The leaves are round and thick\nD. The leaves are short and stubby",
+        "response": "A potted plant with a slender brown stem and broad, oval green leaves arranged along the stem, featuring a small cluster of brown dried leaves at the base.",
+        "correct_answer": "The leaves arch along the nodes",
+        "score": "F"
+    },
+    "Wheat@14": {
+        "prompt": "What type of plant is described as having slender, upright stalks with long, narrow leaves? \n\nA. Cactus\nB. Fern\nC. Palm tree\nD. Bamboo-like plant",
+        "response": "A potted plant with tall, slender green stems and long, narrow leaves, featuring a few brown dried leaves, in a dark blue pot.",
+        "correct_answer": "Bamboo-like plant",
+        "score": "F"
+    },
+    "Wheat@73": {
+        "prompt": "What is the primary color of the grass blades described?\n\nA. Light purple\nB. Bright yellow\nC. Deep blue\nD. Dark green",
+        "response": "A slender, curved brown twig with a few small green leaves along its length.",
+        "correct_answer": "Dark green",
+        "score": "F"
+    },
+    "Wheat@123": {
+        "prompt": "What type of plant is described in the room?\n\nA. A flowering plant\nB. A succulent\nC. A fern\nD. A cactus",
+        "response": "A potted plant with a slender green stem and long, arching, sword-shaped leaves in a small pot.",
+        "correct_answer": "A cactus",
+        "score": "F"
+    },
+    "Wheat@102": {
+        "prompt": "What type of containers is the green bamboo-like plant potted in?\n\nA. A blue ceramic pot\nB. A plastic container\nC. A transparent glass vase\nD. A metal bucket",
+        "response": "A tall, slender green plant with a central stem and long, narrow leaves, potted in a blue ceramic pot.",
+        "correct_answer": "A transparent glass vase",
+        "score": "F"
+    },
+    "Wheat@80": {
+        "prompt": "What type of container is the bushy green shrub rooted in?\n\nA. A ceramic vase\nB. A wooden box\nC. A brown pot\nD. A glass jar",
+        "response": "A green plant with a slender stem and broad, lobed leaves, featuring a small brown pot.",
+        "correct_answer": "A brown pot",
+        "score": "T"
+    },
+    "Wheat@87": {
+        "prompt": "What type of container is the plant in?\n\nA. Plastic pot\nB. Ceramic pot\nC. Metal pot\nD. Brown pot",
+        "response": "A small green plant with a slender stem and a few leaves sits in a dark brown pot.",
+        "correct_answer": "Brown pot",
+        "score": "T"
+    },
+    "Wheat@98": {
+        "prompt": "What shape does the green potted plant resemble due to its fronds?\n\nA. A pyramid shape with a wide base and narrow top\nB. A flat, spread-out shape similar to a pancake\nC. A cylindrical shape with no branching\nD. A bushy, tropical look typical of a palm tree",
+        "response": "A slender green plant with a central stem and numerous long, narrow, arching leaves, forming a palm-like silhouette.",
+        "correct_answer": "A bushy, tropical look typical of a palm tree",
+        "score": "T"
+    },
+    "Wheat@137": {
+        "prompt": "What is the color of the trunk of the potted plant described?\n\nA. Brown\nB. Green\nC. Yellow\nD. Black",
+        "response": "A potted plant with a slender brown trunk and multiple green stems, featuring a small cluster of leaves at the top.",
+        "correct_answer": "Brown",
+        "score": "T"
+    },
+    "Wheat@113": {
+        "prompt": "What shape are the leaves of the bamboo plant described?\n\nA. Round and broad\nB. Short and pointed\nC. Oval and flat\nD. Long and narrow",
+        "response": "A slender, curved brown twig with numerous tiny green leaves along its length, forming a small cluster at the base.",
+        "correct_answer": "Long and narrow",
+        "score": "F"
+    },
+    "Wheat@108": {
+        "prompt": "What feature describes the plant's structure?\n\nA. A long, single stem with wide, flat leaves\nB. A tall, thin base with round leaves\nC. Numerous long, narrow leaves radiating upward\nD. A compact root system with no visible leaves",
+        "response": "A slender brown stem with numerous small green leaves along its length, forming a sparse, twig-like silhouette.",
+        "correct_answer": "Numerous long, narrow leaves radiating upward",
+        "score": "F"
+    },
+    "Wheat@7": {
+        "prompt": "What shape is the planter that the green plant is growing from?\n\nA. Round\nB. Square\nC. Rectangular\nD. Oval",
+        "response": "A tall, slender green plant with a central stem and numerous long, narrow, blade-like leaves arranged along the stem, forming a dense cluster.",
+        "correct_answer": "Rectangular",
+        "score": "F"
+    },
+    "Wheat@42": {
+        "prompt": "What type of pot is the green potted plant housed in?\n\nA. Brown pot\nB. Blue pot\nC. Black pot\nD. White pot",
+        "response": "A green plant with a slender stem and broad, veined leaves sits in a blue pot.",
+        "correct_answer": "Brown pot",
+        "score": "F"
+    },
+    "Wheat@92": {
+        "prompt": "What type of plant is described in the room? \n\nA. Fern\nB. Bamboo\nC. Cactus\nD. Palm",
+        "response": "A potted plant with a slender brown stem and long, arching green leaves, featuring a small cluster of brown dried leaves at the base.",
+        "correct_answer": "Bamboo",
+        "score": "F"
+    },
+    "Wheat@15": {
+        "prompt": "What type of container is the plant situated in?\n\nA. A ceramic pot\nB. A wooden barrel\nC. A weathered metal trough\nD. A glass vase",
+        "response": "A tall, slender green plant with a central stem and numerous long, narrow leaves arranged along the stem, featuring a small cluster of brown dried leaves at the base.",
+        "correct_answer": "A weathered metal trough",
+        "score": "F"
+    }
+}

@@ -1,0 +1,2144 @@
+{
+    "Cabbage@sl_1109_14": {
+        "prompt": "What type of pot is the succulent plant sitting in?\n\nA. Dark-colored pot\nB. White-colored pot\nC. Transparent pot\nD. Clay pot",
+        "response": "The type of pot is not specified in the description.",
+        "correct_answer": "Dark-colored pot",
+        "score": "F"
+    },
+    "Cabbage@sl_1019_03": {
+        "prompt": "What shape are the leaves of the potted houseplant described?\n\nA. Round with serrated edges\nB. Broad, oval to lanceolate with smooth edges\nC. Needle-like and thin\nD. Heart-shaped with ribbed edges",
+        "response": "",
+        "correct_answer": "Broad, oval to lanceolate with smooth edges",
+        "score": "F"
+    },
+    "Cabbage@mvs_1019_05": {
+        "prompt": "What color are the leaves of the potted succulent?\n\nA. Dark Green\nB. Light Pink\nC. Bright Yellow\nD. Blue-Green",
+        "response": "The leaves of the potted succulent are dark green.",
+        "correct_answer": "Blue-Green",
+        "score": "F"
+    },
+    "Cabbage@mvs_907_11": {
+        "prompt": "What color is the pot that the plant is in?\n\nA. Green\nB. Yellow\nC. Red\nD. Blue",
+        "response": "The pot that the plant is in is blue.",
+        "correct_answer": "Blue",
+        "score": "T"
+    },
+    "Cabbage@sl_1205_01": {
+        "prompt": "What color is the pot that holds the houseplant?\n\nA. Green\nB. Dark blue\nC. Red\nD. Yellow",
+        "response": "The color of the pot is not specified in the description.",
+        "correct_answer": "Dark blue",
+        "score": "F"
+    },
+    "Cabbage@sl_921_07": {
+        "prompt": "What shape is the planter for the potted plant?\n\nA. Round\nB. Square\nC. Oval\nD. Triangular",
+        "response": "The planter is round.",
+        "correct_answer": "Round",
+        "score": "T"
+    },
+    "Cabbage@mvs_901_14": {
+        "prompt": "What is the color of the rim of the ceramic pot?\n\nA. Beige\nB. Green\nC. Blue\nD. Pale",
+        "response": "The color of the rim of the ceramic pot is beige.",
+        "correct_answer": "Beige",
+        "score": "T"
+    },
+    "Cabbage@mvs_1123_14": {
+        "prompt": "What color is the flower supported by the blue-gray ceramic vase?\n\nA. Yellow\nB. White\nC. Red\nD. Blue-green",
+        "response": "It's not specified in the description.",
+        "correct_answer": "Blue-green",
+        "score": "F"
+    },
+    "Cabbage@mvs_1019_09": {
+        "prompt": "What color is the pot that holds the succulent?\n\nA. Light gray-blue\nB. Dark green\nC. Bright red\nD. Matte black",
+        "response": "",
+        "correct_answer": "Light gray-blue",
+        "score": "F"
+    },
+    "Cabbage@sl_907_03": {
+        "prompt": "What shape is the pot that the plant is in?\n\nA. Square\nB. Rectangular\nC. Oval\nD. Round",
+        "response": "The pot is round.",
+        "correct_answer": "Round",
+        "score": "T"
+    },
+    "Cabbage@sl_1205_05": {
+        "prompt": "What color is the pot that the succulent is in?\n\nA. Red\nB. Green\nC. Blue\nD. Yellow",
+        "response": "The pot is green.",
+        "correct_answer": "Blue",
+        "score": "F"
+    },
+    "Cabbage@mvs_1019_03": {
+        "prompt": "What color is the pot that houses the indoor potted plant?\n\nA. Light green\nB. Yellow\nC. Bright red\nD. Dark blue",
+        "response": "The pot is light green.",
+        "correct_answer": "Dark blue",
+        "score": "F"
+    },
+    "Cabbage@sl_901_02": {
+        "prompt": "What shape is the pot that holds the bonsai-style plant?\n\nA. Square\nB. Rectangular\nC. Round\nD. Triangular",
+        "response": "The pot is square.",
+        "correct_answer": "Round",
+        "score": "F"
+    },
+    "Cabbage@mvs_1205_09": {
+        "prompt": "What color is the pot in which the succulent is planted?\n\nA. Blue\nB. Green\nC. Red\nD. Yellow",
+        "response": "The pot is blue.",
+        "correct_answer": "Blue",
+        "score": "T"
+    },
+    "Cabbage@sl_1019_07": {
+        "prompt": "What color are the leaves of the potted succulent?\n\nA. Red\nB. Yellow\nC. Green\nD. Blue",
+        "response": "The leaves of the potted succulent are green.",
+        "correct_answer": "Green",
+        "score": "T"
+    },
+    "Cabbage@sl_1019_05": {
+        "prompt": "What shape is the pot that houses the potted plant?\n\nA. Square\nB. Triangular\nC. Oval\nD. Round",
+        "response": "The pot is square.",
+        "correct_answer": "Round",
+        "score": "F"
+    },
+    "Cabbage@sl_1116_11": {
+        "prompt": "What shape does the succulent form with its leaves?\n\nA. Triangular shape\nB. Oval shape\nC. Square shape\nD. Circular shape",
+        "response": "None of the given shapes.",
+        "correct_answer": "Circular shape",
+        "score": "F"
+    },
+    "Cabbage@mvs_1012_06": {
+        "prompt": "What is the shape of the leaves on the succulent?\n\nA. Linear\nB. Circular\nC. Obovate\nD. Triangular",
+        "response": "The leaves on the succulent are obovate.",
+        "correct_answer": "Obovate",
+        "score": "T"
+    },
+    "Cabbage@mvs_907_07": {
+        "prompt": "What color is the ceramic pot containing the plant? \n\nA. Blue\nB. Green\nC. Red\nD. Yellow",
+        "response": "The color of the ceramic pot containing the plant is blue.",
+        "correct_answer": "Blue",
+        "score": "T"
+    },
+    "Cabbage@sl_921_11": {
+        "prompt": "What color is the pot that the plant is growing in?\n\nA. Red\nB. Dark blue\nC. Green\nD. Yellow",
+        "response": "The color of the pot is not specified in the description.",
+        "correct_answer": "Dark blue",
+        "score": "F"
+    },
+    "Cabbage@sl_1019_01": {
+        "prompt": "What type of leaf shape is described for the plant in the room?\n\nA. Heart-shaped\nB. Triangular\nC. Circular\nD. Elongated oval",
+        "response": "The description does not specify a specific leaf shape.",
+        "correct_answer": "Elongated oval",
+        "score": "F"
+    },
+    "Cabbage@mvs_929_06": {
+        "prompt": "What color is the pot that the succulent is in? \n\nA. Dark green\nB. Bright red\nC. Blue-gray\nD. Yellow",
+        "response": "The color of the pot is not specified in the description.",
+        "correct_answer": "Blue-gray",
+        "score": "F"
+    },
+    "Cabbage@sl_1109_12": {
+        "prompt": "What is the color of the leaves of the potted succulent?\n\nA. Light green\nB. Yellow\nC. Dark green to blue-green\nD. Brown",
+        "response": "The color of the leaves is not specified in the description.",
+        "correct_answer": "Dark green to blue-green",
+        "score": "F"
+    },
+    "Cabbage@mvs_1116_07": {
+        "prompt": "What color are the horizontal bands on the ceramic pot containing the succulent?\n\nA. Blue and white\nB. Green and yellow\nC. Red and white\nD. Black and gold",
+        "response": "The color of the horizontal bands on the ceramic pot containing the succulent is not specified.",
+        "correct_answer": "Blue and white",
+        "score": "F"
+    },
+    "Cabbage@mvs_921_03": {
+        "prompt": "What color is the pot containing the small potted plant?\n\nA. Dark blue\nB. Light blue\nC. Green\nD. Yellow",
+        "response": "The color of the pot is not specified in the description.",
+        "correct_answer": "Dark blue",
+        "score": "F"
+    },
+    "Cabbage@mvs_901_10": {
+        "prompt": "What color is the rim of the ceramic pot?\n\nA. Light tan\nB. Dark brown\nC. Bright red\nD. Deep blue",
+        "response": "The color of the pot's rim is light tan.",
+        "correct_answer": "Light tan",
+        "score": "T"
+    },
+    "Cabbage@sl_1103_05": {
+        "prompt": "What shape is the pot that holds the succulent?\n\nA. Square\nB. Short cylindrical\nC. Tall rectangular\nD. Flat dish",
+        "response": "The pot that holds the succulent is square.",
+        "correct_answer": "Short cylindrical",
+        "score": "F"
+    },
+    "Cabbage@sl_907_11": {
+        "prompt": "What shape is the pot that the plant is in?\n\nA. Square\nB. Rectangular\nC. Oval\nD. Round",
+        "response": "The pot is circular.",
+        "correct_answer": "Round",
+        "score": "T"
+    },
+    "Cabbage@mvs_1103_05": {
+        "prompt": "What type of leaves does the potted plant have?\n\nA. Long and narrow leaves\nB. Heart-shaped yellow leaves\nC. Broad bluish-green leaves\nD. Spiky red leaves",
+        "response": "The description doesn't specify the exact type of leaves.",
+        "correct_answer": "Broad bluish-green leaves",
+        "score": "F"
+    },
+    "Cabbage@mvs_901_12": {
+        "prompt": "What color is the rim of the pot holding the succulent?\n\nA. Green\nB. Red\nC. Blue\nD. Yellow",
+        "response": "The color of the rim of the pot holding the succulent is not specified in the description.",
+        "correct_answer": "Blue",
+        "score": "F"
+    },
+    "Cabbage@mvs_914_12": {
+        "prompt": "What color is the rim of the pot that the houseplant is in?\n\nA. Green\nB. Blue\nC. White\nD. Red",
+        "response": "The rim of the pot is white.",
+        "correct_answer": "Blue",
+        "score": "F"
+    },
+    "Cabbage@sl_1026_02": {
+        "prompt": "What is the shape of the leaves on the potted plant described? \n\nA. Oval and smooth\nB. Long and narrow\nC. Triangular and sharp\nD. Rounded and fan-like",
+        "response": "None of the given shapes are mentioned.",
+        "correct_answer": "Rounded and fan-like",
+        "score": "F"
+    },
+    "Cabbage@sl_921_03": {
+        "prompt": "What color is the pot that the bonsai-style plant is planted in?\n\nA. Red\nB. Dark blue\nC. Green\nD. Yellow",
+        "response": "The color of the pot is not specified in the description.",
+        "correct_answer": "Dark blue",
+        "score": "F"
+    },
+    "Cabbage@mvs_1026_08": {
+        "prompt": "What color is the ceramic pot in which the succulent is planted?\n\nA. Red\nB. Green\nC. Blue\nD. Yellow",
+        "response": "The color of the ceramic pot is not specified in the description.",
+        "correct_answer": "Blue",
+        "score": "F"
+    },
+    "Cabbage@sl_1109_10": {
+        "prompt": "What is the shape of the leaves on the succulent described?\n\nA. Thick and fleshy\nB. Round and flat\nC. Long and thin\nD. Pointed and sharp",
+        "response": "None of the given options.",
+        "correct_answer": "Thick and fleshy",
+        "score": "F"
+    },
+    "Cabbage@mvs_929_10": {
+        "prompt": "What shape is the pot that the succulent is planted in?\n\nA. Cylindrical\nB. Oval\nC. Square\nD. Triangular",
+        "response": "The pot is cylindrical.",
+        "correct_answer": "Cylindrical",
+        "score": "T"
+    },
+    "Cabbage@mvs_1205_01": {
+        "prompt": "What color are the petals of the bloom on the potted plant?\n\nA. Green\nB. Blue-gray\nC. Yellow\nD. Red",
+        "response": "The color of the petals is not specified in the description.",
+        "correct_answer": "Blue-gray",
+        "score": "F"
+    },
+    "Cabbage@mvs_1019_11": {
+        "prompt": "What color is the ceramic pot holding the succulent plant?\n\nA. Blue\nB. Green\nC. Red\nD. Yellow",
+        "response": "The color of the ceramic pot holding the succulent plant is blue.",
+        "correct_answer": "Blue",
+        "score": "T"
+    },
+    "Cabbage@sl_1026_08": {
+        "prompt": "What type of plant is described in the room?\n\nA. A flowering cactus\nB. A fern\nC. A potted succulent\nD. A palm tree",
+        "response": "None of the given options are correct.",
+        "correct_answer": "A potted succulent",
+        "score": "F"
+    },
+    "Cabbage@mvs_907_13": {
+        "prompt": "What color is the ceramic pot containing the succulent?\n\nA. Blue\nB. Green\nC. Red\nD. Yellow",
+        "response": "The color of the ceramic pot containing the succulent is blue.",
+        "correct_answer": "Blue",
+        "score": "T"
+    },
+    "Cabbage@mvs_1005_11": {
+        "prompt": "What type of plant is described in the room?\n\nA. A flowering cactus\nB. A large fern\nC. A small succulent\nD. A tall palm tree",
+        "response": "None of the given options are described as a plant in the room.",
+        "correct_answer": "A small succulent",
+        "score": "F"
+    },
+    "Cabbage@mvs_901_06": {
+        "prompt": "What color is the pot containing the succulent?\n\nA. Red\nB. Green\nC. Yellow\nD. Blue",
+        "response": "The pot containing the succulent is blue.",
+        "correct_answer": "Blue",
+        "score": "T"
+    },
+    "Cabbage@sl_1109_08": {
+        "prompt": "What color is the pot that holds the succulent plant?\n\nA. Green\nB. Brown\nC. Dark Blue\nD. Red",
+        "response": "The pot is dark brown.",
+        "correct_answer": "Dark Blue",
+        "score": "F"
+    },
+    "Cabbage@mvs_929_14": {
+        "prompt": "What color is the rim of the ceramic pot holding the plant?\n\nA. Dark blue\nB. Brown\nC. Green\nD. Light blue",
+        "response": "The rim of the ceramic pot holding the plant is dark blue.",
+        "correct_answer": "Light blue",
+        "score": "F"
+    },
+    "Cabbage@sl_907_01": {
+        "prompt": "What shape do the leaves of the succulent have?\n\nA. Dense rosette and pointed\nB. Long and thin\nC. Flat and wide\nD. Rounded and smooth",
+        "response": "None of the given options are correct.",
+        "correct_answer": "Dense rosette and pointed",
+        "score": "F"
+    },
+    "Cabbage@sl_1026_10": {
+        "prompt": "What shape does the green succulent's leaves create as they are arranged?\n\nA. A compact, flower-like cluster\nB. A straight line\nC. A spiral formation\nD. A triangular shape",
+        "response": "A spiral formation.",
+        "correct_answer": "A compact, flower-like cluster",
+        "score": "F"
+    },
+    "Cabbage@sl_901_10": {
+        "prompt": "What color is the glaze of the pot that holds the bonsai tree?\n\nA. Light Brown\nB. Matte White\nC. Bright Red\nD. Dark Blue-Black",
+        "response": "The color of the glaze is not specified in the description.",
+        "correct_answer": "Dark Blue-Black",
+        "score": "F"
+    },
+    "Cabbage@mvs_1012_12": {
+        "prompt": "What is the shape of the pot that the succulent is in?\n\nA. Triangular\nB. Cylindrical or square\nC. Oval\nD. Hexagonal",
+        "response": "The shape of the pot is triangular.",
+        "correct_answer": "Cylindrical or square",
+        "score": "F"
+    },
+    "Cabbage@mvs_1109_02": {
+        "prompt": "What type of container is the succulent displayed in?\n\nA. A rectangular planter\nB. A square box\nC. A cylindrical container\nD. A hanging basket",
+        "response": "A hanging basket.",
+        "correct_answer": "A cylindrical container",
+        "score": "F"
+    },
+    "Cabbage@sl_901_04": {
+        "prompt": "What color is the pot that holds the plant?\n\nA. Light blue\nB. White\nC. Green\nD. Dark blue",
+        "response": "The pot that holds the plant is light blue.",
+        "correct_answer": "Dark blue",
+        "score": "F"
+    },
+    "Cabbage@mvs_1116_01": {
+        "prompt": "What color is the cylindrical pot in which the potted plant is kept?\n\nA. Light green\nB. White\nC. Dark blue\nD. Purple",
+        "response": "The color of the cylindrical pot is not specified in the description.",
+        "correct_answer": "Dark blue",
+        "score": "F"
+    },
+    "Cabbage@mvs_901_08": {
+        "prompt": "What color is the ceramic pot that the succulent is planted in?\n\nA. Blue\nB. Green\nC. Tan\nD. Red",
+        "response": "The color of the ceramic pot is not specified in the description.",
+        "correct_answer": "Blue",
+        "score": "F"
+    },
+    "Cabbage@sl_1109_06": {
+        "prompt": "What type of plant is described in the room?\n\nA. A flowering plant\nB. A cactus\nC. A fern\nD. A potted succulent",
+        "response": "A cactus is not mentioned in the description.",
+        "correct_answer": "A potted succulent",
+        "score": "F"
+    },
+    "Cabbage@mvs_914_04": {
+        "prompt": "What color is the rim of the pot that holds the money plant?\n\nA. Green\nB. Yellow\nC. Red\nD. Blue",
+        "response": "The rim of the pot that holds the money plant is green.",
+        "correct_answer": "Blue",
+        "score": "F"
+    },
+    "Cabbage@sl_1019_13": {
+        "prompt": "What type of plant is described in the room?\n\nA. Cactus with spiky leaves\nB. Fern with feathery fronds\nC. Rubber plant with broad, glossy dark-green leaves\nD. Bonsai tree with small leaves",
+        "response": "",
+        "correct_answer": "Rubber plant with broad, glossy dark-green leaves",
+        "score": "F"
+    },
+    "Cabbage@sl_1026_12": {
+        "prompt": "What shape does the arrangement of the succulent leaves form?\n\nA. A layered crown shape\nB. A flat disk shape\nC. A spiral shape\nD. A vertical column shape",
+        "response": "None of the given shapes.",
+        "correct_answer": "A layered crown shape",
+        "score": "F"
+    },
+    "Cabbage@mvs_1103_03": {
+        "prompt": "What color is the pot that holds the succulent?\n\nA. Light blue\nB. Dark blue\nC. Green\nD. Brown",
+        "response": "The color of the pot is not specified in the description.",
+        "correct_answer": "Dark blue",
+        "score": "F"
+    },
+    "Cabbage@sl_1103_13": {
+        "prompt": "What shape are the leaves of the succulent?\n\nA. Circular\nB. Needle-like\nC. Broad and fleshy\nD. Pointy and thin",
+        "response": "",
+        "correct_answer": "Broad and fleshy",
+        "score": "F"
+    },
+    "Cabbage@sl_907_05": {
+        "prompt": "What color is the pot that the plant is in?\n\nA. Blue\nB. Green\nC. Brown\nD. Yellow",
+        "response": "The color of the pot is not specified in the description.",
+        "correct_answer": "Blue",
+        "score": "F"
+    },
+    "Cotton@116": {
+        "prompt": "What is the color of the branch described in the room?\n\nA. Green\nB. Yellow\nC. Brown\nD. White",
+        "response": "The color of the branch is not specified in the description.",
+        "correct_answer": "Brown",
+        "score": "F"
+    },
+    "Cotton@14": {
+        "prompt": "What color are the centers of the blossoms on the bonsai-style tree?\n\nA. White\nB. Brown\nC. Green\nD. Pink",
+        "response": "The color of the blossoms on a bonsai tree can vary depending on the species and cultivar.",
+        "correct_answer": "Pink",
+        "score": "F"
+    },
+    "Cotton@62": {
+        "prompt": "What color are the tiny fluffy buds on the shrub?\n\nA. Red\nB. Blue\nC. Yellow\nD. White",
+        "response": "The color of the tiny fluffy buds on the shrub is not specified in the description.",
+        "correct_answer": "White",
+        "score": "F"
+    },
+    "Cotton@126": {
+        "prompt": "What type of plant is described in the room?  \n\nA. Deciduous sapling\nB. Aconite\nC. Evergreen tree\nD. Cactus",
+        "response": "",
+        "correct_answer": "Deciduous sapling",
+        "score": "F"
+    },
+    "Cotton@16": {
+        "prompt": "What color are the blossoms of the small flowering tree?\n\nA. Pink\nB. Yellow\nC. White\nD. Red",
+        "response": "The color of the blossoms is not specified in the description.",
+        "correct_answer": "White",
+        "score": "F"
+    },
+    "Cotton@113": {
+        "prompt": "What type of blossoms are found on the slender brown flowering branch?\n\nA. Yellow blossoms\nB. Red blossoms\nC. White blossoms\nD. Pink blossoms",
+        "response": "The description does not specify the color of the blossoms.",
+        "correct_answer": "White blossoms",
+        "score": "F"
+    },
+    "Cotton@27": {
+        "prompt": "What characteristic feature is present at the base of the cotton plant?\n\nA. Soft flowers\nB. Clusters of cotton bolls\nC. Small leaves\nD. Green stems",
+        "response": "The characteristic feature present at the base of the cotton plant is clusters of cotton bolls.",
+        "correct_answer": "Small leaves",
+        "score": "F"
+    },
+    "Cotton@92": {
+        "prompt": "What color are the blossoms on the flowering branch?\n\nA. Pink\nB. Yellow\nC. Blue\nD. White",
+        "response": "The color of the blossoms is not specified in the description.",
+        "correct_answer": "White",
+        "score": "F"
+    },
+    "Cotton@198": {
+        "prompt": "What color are the blossoms on the sapling?\n\nA. White\nB. Yellow\nC. Red\nD. Blue",
+        "response": "The color of the blossoms on the sapling is not specified in the description.",
+        "correct_answer": "White",
+        "score": "F"
+    },
+    "Cotton@63": {
+        "prompt": "What type of plant is described in the room?\n\nA. A flower with large petals\nB. A tall tree\nC. A small sapling\nD. A bush with thick leaves",
+        "response": "",
+        "correct_answer": "A small sapling",
+        "score": "F"
+    },
+    "Cotton@120": {
+        "prompt": "What type of plant is described in the room?\n\nA. Corn plant\nB. Wheat plant\nC. Soybean plant\nD. Cotton plant",
+        "response": "None of the above. The plant is a corn plant.",
+        "correct_answer": "Cotton plant",
+        "score": "F"
+    },
+    "Cotton@81": {
+        "prompt": "What color are the flowers on the branch?\n\nA. Blue\nB. White\nC. Yellow\nD. Red",
+        "response": "The color of the flowers on the branch is not specified in the description.",
+        "correct_answer": "White",
+        "score": "F"
+    },
+    "Cotton@136": {
+        "prompt": "What characteristic is most prominent at the upper portion of the cotton plant described?\n\nA. Vibrant yellow flowers\nB. Large dark green leaves\nC. A thick woody stem\nD. Clusters of fluffy white cotton bolls",
+        "response": "The most prominent characteristic at the upper portion of the cotton plant is a thick, woody stem.",
+        "correct_answer": "Clusters of fluffy white cotton bolls",
+        "score": "F"
+    },
+    "Cotton@26": {
+        "prompt": "What color are the blossoms on the branch?\n\nA. White\nB. Yellow\nC. Red\nD. Pink",
+        "response": "The color of the blossoms is not specified in the description.",
+        "correct_answer": "White",
+        "score": "F"
+    },
+    "Cotton@112": {
+        "prompt": "What type of blossoms are found along the slender brown branch?\n\nA. Bluebells\nB. Fluffy catkins\nC. Red roses\nD. Sunflowers",
+        "response": "The description does not specify the type of blossoms.",
+        "correct_answer": "Fluffy catkins",
+        "score": "F"
+    },
+    "Cotton@2": {
+        "prompt": "What is the color of the bolls on the cotton plant described?\n\nA. Green\nB. Brown\nC. Yellow\nD. White",
+        "response": "The color of the bolls on the cotton plant is not specified in the description.",
+        "correct_answer": "White",
+        "score": "F"
+    },
+    "Cotton@21": {
+        "prompt": "What type of plant is described as having multi-stemmed structure and white fluffy blossoms?\n\nA. A flowering tree\nB. A palm plant\nC. A cotton shrub\nD. A fern",
+        "response": "A fern is a type of plant that typically has long, narrow leaves and clusters of small, white flowers.",
+        "correct_answer": "A cotton shrub",
+        "score": "F"
+    },
+    "Cotton@173": {
+        "prompt": "What color are the cotton bolls on the cotton plant?\n\nA. White\nB. Brown\nC. Blue\nD. Green",
+        "response": "The color of the cotton bolls on the cotton plant is white.",
+        "correct_answer": "White",
+        "score": "T"
+    },
+    "Cotton@107": {
+        "prompt": "What color are the blossoms on the flowering tree described?\n\nA. Red\nB. White\nC. Yellow\nD. Blue",
+        "response": "The description does not specify the color of the blossoms.",
+        "correct_answer": "White",
+        "score": "F"
+    },
+    "Cotton@22": {
+        "prompt": "What shape does the dried cotton plant branch with two stems form?\n\nA. A curved, spray-like arrangement\nB. A circular shape\nC. A straight line\nD. A zigzag pattern",
+        "response": "",
+        "correct_answer": "A curved, spray-like arrangement",
+        "score": "F"
+    },
+    "Cotton@115": {
+        "prompt": "What color are the blossoms on the stem described?\n\nA. Red\nB. White\nC. Blue\nD. Yellow",
+        "response": "The color of the blossoms is not specified in the description.",
+        "correct_answer": "White",
+        "score": "F"
+    },
+    "Cotton@159": {
+        "prompt": "What kind of base is the bonsai-like flowering tree rooted in?\n\nA. A mossy base\nB. A sandy base\nC. A rocky base\nD. A clay base",
+        "response": "",
+        "correct_answer": "A mossy base",
+        "score": "F"
+    },
+    "Cotton@153": {
+        "prompt": "What type of blossoms are found on the tall, slender brown plant stem?\n\nA. White fluffy blossoms\nB. Yellow fluffy blossoms\nC. Red fluffy blossoms\nD. Blue fluffy blossoms",
+        "response": "The description does not specify the color of the blossoms.",
+        "correct_answer": "White fluffy blossoms",
+        "score": "F"
+    },
+    "Cotton@88": {
+        "prompt": "What type of plant feature is present on the slender brown stems?\n\nA. Dense root ball in soil\nB. Large colorful flowers\nC. Thick trunk\nD. Sparse green leaves",
+        "response": "The description doesn't specify a specific type of plant, but the presence of a dense root ball and large colorful flowers suggests it could be a flowering shrub or tree.",
+        "correct_answer": "Sparse green leaves",
+        "score": "F"
+    },
+    "Cotton@9": {
+        "prompt": "What type of plant is described as having a tall, slender trunk, green leaves, and clusters of white fluffy bolls along its branches?\n\nA. A Cotton Tree\nB. A Flowering Shrub\nC. An Oak Tree\nD. A Pine Tree",
+        "response": "",
+        "correct_answer": "A Cotton Tree",
+        "score": "F"
+    },
+    "Cotton@72": {
+        "prompt": "What color are the blossoms on the sapling?\n\nA. Red\nB. White\nC. Yellow\nD. Blue",
+        "response": "The color of the blossoms on the sapling is not specified in the description.",
+        "correct_answer": "White",
+        "score": "F"
+    },
+    "Cotton@25": {
+        "prompt": "What feature do the blossoms on the branch predominantly have?\n\nA. They grow in clusters of three\nB. They are all yellow in color\nC. They have a five-petal structure\nD. They produce a fruity scent",
+        "response": "None of the given options are correct.",
+        "correct_answer": "They have a five-petal structure",
+        "score": "F"
+    },
+    "Cotton@158": {
+        "prompt": "What color are the petals of the flowers on the branch?\n\nA. Red\nB. Blue\nC. White\nD. Yellow",
+        "response": "The color of the petals is not specified in the description.",
+        "correct_answer": "White",
+        "score": "F"
+    },
+    "Cotton@180": {
+        "prompt": "What color are the leaves of the sapling?\n\nA. Green\nB. Brown\nC. Yellow\nD. Red",
+        "response": "The color of the leaves is not specified in the description.",
+        "correct_answer": "Green",
+        "score": "F"
+    },
+    "Cotton@149": {
+        "prompt": "What type of plant is described?\n\nA. A small leafless shrub or young tree\nB. A large flowering tree\nC. A climbing vine\nD. A tall grass",
+        "response": "A tall grass.",
+        "correct_answer": "A small leafless shrub or young tree",
+        "score": "F"
+    },
+    "Cotton@125": {
+        "prompt": "What color are the centers of some of the blossoms on the flowering branch?\n\nA. Yellow\nB. Blue\nC. Pink\nD. Red",
+        "response": "The color of the centers of some blossoms on the flowering branch is not specified.",
+        "correct_answer": "Pink",
+        "score": "F"
+    },
+    "Cotton@51": {
+        "prompt": "What type of plant is described in the room?\n\nA. A small tree\nB. A large succulent\nC. A flowering vine\nD. A multi-branched shrub",
+        "response": "",
+        "correct_answer": "A multi-branched shrub",
+        "score": "F"
+    },
+    "Cotton@67": {
+        "prompt": "What type of plant structure is primarily described in the room?\n\nA. A bush with thick foliage\nB. A slender stem with delicate branches\nC. A flowering vine\nD. A tree with a trunk",
+        "response": "A tree with a trunk is not described in the room.",
+        "correct_answer": "A slender stem with delicate branches",
+        "score": "F"
+    },
+    "Cotton@127": {
+        "prompt": "What type of flowers are found on the branch?\n\nA. Red roses\nB. Blue daisies\nC. White blossoms\nD. Yellow tulips",
+        "response": "",
+        "correct_answer": "White blossoms",
+        "score": "F"
+    },
+    "Cotton@11": {
+        "prompt": "What is the color of the petals on the blossoms?\n\nA. Blue\nB. Red\nC. White\nD. Yellow",
+        "response": "The color of the petals on the blossoms is not specified in the description.",
+        "correct_answer": "White",
+        "score": "F"
+    },
+    "Cotton@137": {
+        "prompt": "What color are the flowers or seed pods at the top of the plant?\n\nA. Blue\nB. Red\nC. White\nD. Yellow",
+        "response": "The color of the flowers or seed pods at the top of the plant is not specified in the description.",
+        "correct_answer": "White",
+        "score": "F"
+    },
+    "Cotton@78": {
+        "prompt": "What type of plant is described in the room?\n\nA. A bush with red flowers\nB. A slender sapling with white blossoms\nC. A tall tree with thick branches\nD. A ground cover plant",
+        "response": "",
+        "correct_answer": "A slender sapling with white blossoms",
+        "score": "F"
+    },
+    "Cotton@6": {
+        "prompt": "What type of plant is described in the room?\n\nA. A cactus with spiky needles\nB. A flowering shrub in a round pot\nC. A tall palm tree with green leaves\nD. A small potted tree with white blossoms",
+        "response": "",
+        "correct_answer": "A small potted tree with white blossoms",
+        "score": "F"
+    },
+    "Cotton@188": {
+        "prompt": "What type of plant is described in the room?\n\nA. A tree sapling\nB. A flower bush\nC. A grassy plant\nD. A palm tree",
+        "response": "",
+        "correct_answer": "A tree sapling",
+        "score": "F"
+    },
+    "Cotton@79": {
+        "prompt": "What type of plant is described in the room?\n\nA. A bonsai-like deciduous shrub\nB. A small fern\nC. A flowering cactus\nD. A tall palm tree",
+        "response": "None of the given descriptions match the description.",
+        "correct_answer": "A bonsai-like deciduous shrub",
+        "score": "F"
+    },
+    "Cotton@133": {
+        "prompt": "What color are the blossoms on the sapling?\n\nA. Red\nB. White\nC. Yellow\nD. Blue",
+        "response": "The color of the blossoms on the sapling is not specified in the description.",
+        "correct_answer": "White",
+        "score": "F"
+    },
+    "Cotton@197": {
+        "prompt": "What is the main feature of the plant described?\n\nA. It has a light brown trunk that splits into two main branches\nB. It has a thick, dark bark with no branches\nC. It is a large tree with broad canopy\nD. It only has green leaves without any flowers",
+        "response": "",
+        "correct_answer": "It has a light brown trunk that splits into two main branches",
+        "score": "F"
+    },
+    "Cotton@176": {
+        "prompt": "What shape is the planter in which the slender tree or shrub is planted?\n\nA. Circle\nB. Triangle\nC. Rectangle\nD. Square",
+        "response": "The shape of the planter is a circle.",
+        "correct_answer": "Square",
+        "score": "F"
+    },
+    "Cotton@160": {
+        "prompt": "What type of plant is described in the room?\n\nA. A small sapling with white blossoms\nB. A shrub with thick branches\nC. A large oak tree\nD. A flowering vine",
+        "response": "A flowering vine is not typically found in a room setting.",
+        "correct_answer": "A small sapling with white blossoms",
+        "score": "F"
+    },
+    "Cotton@65": {
+        "prompt": "What type of tree is described in the room?\n\nA. A coniferous tree with needle-like leaves\nB. A large oak tree with broad leaves\nC. A small, slender tree with fluffy white blossoms\nD. A palm tree with long fronds",
+        "response": "",
+        "correct_answer": "A small, slender tree with fluffy white blossoms",
+        "score": "F"
+    },
+    "Cotton@100": {
+        "prompt": "What color are the blossoms on the sapling?\n\nA. Pink\nB. White\nC. Yellow\nD. Blue",
+        "response": "The color of the blossoms cannot be determined from the given description.",
+        "correct_answer": "White",
+        "score": "F"
+    },
+    "Cotton@19": {
+        "prompt": "What is located at the bottom of the cotton plant stem?\n\nA. A smooth rock\nB. A single large flower\nC. A pointed spike\nD. A tangled root cluster",
+        "response": "The caption does not provide enough information to determine what is located at the bottom of the cotton plant stem.",
+        "correct_answer": "A tangled root cluster",
+        "score": "F"
+    },
+    "Cotton@3": {
+        "prompt": "What color is the snow coating the tree's branches?\n\nA. Blue\nB. White\nC. Green\nD. Brown",
+        "response": "The snow coating the tree's branches is white.",
+        "correct_answer": "White",
+        "score": "T"
+    },
+    "Cotton@75": {
+        "prompt": "What color are the clusters of flowers on the cotton plant?\n\nA. White\nB. Brown\nC. Green\nD. Yellow",
+        "response": "The color of the clusters of flowers on the cotton plant is white.",
+        "correct_answer": "White",
+        "score": "T"
+    },
+    "Cotton@145": {
+        "prompt": "What type of plant is described in the room?\n\nA. A large tree with wide branches\nB. A bush with thick foliage\nC. A flowering plant with vibrant petals\nD. An upright sapling with a thin trunk",
+        "response": "",
+        "correct_answer": "An upright sapling with a thin trunk",
+        "score": "F"
+    },
+    "Cotton@168": {
+        "prompt": "What color are the blossoms on the flowering stem?\n\nA. White\nB. Red\nC. Yellow\nD. Blue",
+        "response": "The color of the blossoms on the flowering stem is not specified in the description.",
+        "correct_answer": "White",
+        "score": "F"
+    },
+    "Cotton@15": {
+        "prompt": "What type of blossoms are found on the tall, slender brown branch?\n\nA. Red fluffy blossoms\nB. Blue flat blossoms\nC. Large yellow blossoms\nD. Small white fluffy blossoms",
+        "response": "",
+        "correct_answer": "Small white fluffy blossoms",
+        "score": "F"
+    },
+    "Cotton@122": {
+        "prompt": "What color are the cotton bolls on the plant?\n\nA. White\nB. Yellow\nC. Green\nD. Brown",
+        "response": "The color of the cotton bolls on the plant is not specified in the description.",
+        "correct_answer": "White",
+        "score": "F"
+    },
+    "Maize@1-111": {
+        "prompt": "What is the color of the tassel at the top of the maize plant?\n\nA. Green\nB. Pale Brown\nC. Dark Brown\nD. Yellow",
+        "response": "The tassel at the top of the maize plant is dark brown.",
+        "correct_answer": "Pale Brown",
+        "score": "F"
+    },
+    "Maize@3-28": {
+        "prompt": "What type of plant is described in the room?\n\nA. A potted plant with lance-shaped leaves\nB. A succulent\nC. A flowering shrub\nD. A cactus",
+        "response": "A cactus is a type of succulent.",
+        "correct_answer": "A potted plant with lance-shaped leaves",
+        "score": "F"
+    },
+    "Maize@2-34": {
+        "prompt": "What type of plant is described in the room?\n\nA. A flowering shrub\nB. A tall cactus\nC. A houseplant with palm-like leaves\nD. A small herb",
+        "response": "A small herb with palm-like leaves.",
+        "correct_answer": "A houseplant with palm-like leaves",
+        "score": "F"
+    },
+    "Maize@3-49": {
+        "prompt": "What shape do the leaves of the potted plant resemble?\n\nA. Circular\nB. Lance-shaped\nC. Square\nD. Triangular",
+        "response": "The leaves of the potted plant are circular.",
+        "correct_answer": "Lance-shaped",
+        "score": "F"
+    },
+    "Maize@2-70": {
+        "prompt": "What is the shape of the leaves on the potted plant described?\n\nA. Long and narrow\nB. Round and broad\nC. Heart-shaped\nD. Oval",
+        "response": "The shape of the leaves is not mentioned in the description.",
+        "correct_answer": "Long and narrow",
+        "score": "F"
+    },
+    "Maize@3-55": {
+        "prompt": "What type of pot is the plant potted in?\n\nA. Square pot\nB. Dark round pot\nC. Tall cylindrical pot\nD. Shallow rectangular pot",
+        "response": "",
+        "correct_answer": "Dark round pot",
+        "score": "F"
+    },
+    "Maize@3-26": {
+        "prompt": "What is the shape of the leaves on the tall green plant?\n\nA. Round and fluffy\nB. Short and needle-like\nC. Broad and flat\nD. Long and strap-like",
+        "response": "None of the given options match the description.",
+        "correct_answer": "Long and strap-like",
+        "score": "F"
+    },
+    "Maize@2-13": {
+        "prompt": "What is the shape of the pot in which the seedling is planted?\n\nA. Triangular\nB. Square\nC. Rectangular\nD. Round",
+        "response": "The shape of the pot is not specified in the description.",
+        "correct_answer": "Round",
+        "score": "F"
+    },
+    "Maize@3-21": {
+        "prompt": "What type of plant is described in the room?\n\nA. Flowering plant with colorful blooms\nB. Succulent plant with thick fleshy leaves\nC. Potted plant with a single slender stem and long narrow leaves\nD. Climbing vine with broad leaves",
+        "response": "",
+        "correct_answer": "Potted plant with a single slender stem and long narrow leaves",
+        "score": "F"
+    },
+    "Maize@3-18": {
+        "prompt": "What is the shape of the leaves of the plant described?\n\nA. Long and narrow\nB. Round and broad\nC. Flat and wide\nD. Short and oval",
+        "response": "The shape of the leaves is not mentioned in the description.",
+        "correct_answer": "Long and narrow",
+        "score": "F"
+    },
+    "Maize@2-109": {
+        "prompt": "What type of pot is the plant in?\n\nA. Dark plastic pot\nB. Wooden pot\nC. Ceramic pot\nD. Metallic pot",
+        "response": "The plant is in a dark plastic pot.",
+        "correct_answer": "Dark plastic pot",
+        "score": "T"
+    },
+    "Maize@1-118": {
+        "prompt": "What is the color of the seed panicle at the top of the plant?\n\nA. Green\nB. Brownish\nC. Yellow\nD. Red",
+        "response": "The color of the seed panicle at the top of the plant is green.",
+        "correct_answer": "Brownish",
+        "score": "F"
+    },
+    "Maize@3-42": {
+        "prompt": "What color is the pot that the plant is potted in?\n\nA. Dark-blue\nB. Green\nC. Red\nD. Yellow",
+        "response": "The color of the pot is not specified in the description.",
+        "correct_answer": "Dark-blue",
+        "score": "F"
+    },
+    "Maize@1-24": {
+        "prompt": "What color are the leaves of the potted plant?\n\nA. Yellow\nB. Red\nC. Green\nD. Blue",
+        "response": "The leaves of the potted plant are green.",
+        "correct_answer": "Green",
+        "score": "T"
+    },
+    "Maize@1-51": {
+        "prompt": "What is the color of the leaves of the maize plant described?\n\nA. Yellow\nB. Mid-to-dark green\nC. Light green\nD. Brown",
+        "response": "The color of the leaves is mid-to-dark green.",
+        "correct_answer": "Mid-to-dark green",
+        "score": "T"
+    },
+    "Maize@1-68": {
+        "prompt": "What color are the leaves of the sapling?\n\nA. Brown\nB. Green\nC. Yellow\nD. Red",
+        "response": "The color of the leaves is not specified in the description.",
+        "correct_answer": "Green",
+        "score": "F"
+    },
+    "Maize@2-101": {
+        "prompt": "What color are the leaves of the tall, slender plant described?\n\nA. Yellow\nB. Green\nC. Blue\nD. Red",
+        "response": "The color of the leaves is not specified in the description.",
+        "correct_answer": "Green",
+        "score": "F"
+    },
+    "Maize@3-19": {
+        "prompt": "What is the shape of the leaves on the potted plant?\n\nA. Lance-shaped\nB. Round and broad\nC. Heart-shaped\nD. Oval",
+        "response": "The shape of the leaves on the potted plant is not specified in the description.",
+        "correct_answer": "Lance-shaped",
+        "score": "F"
+    },
+    "Maize@2-148": {
+        "prompt": "What is the texture of the leaves mentioned in the description?\n\nA. Smooth\nB. Velvety\nC. Rough\nD. Brushy",
+        "response": "The description does not specify the texture of the leaves.",
+        "correct_answer": "Brushy",
+        "score": "F"
+    },
+    "Maize@2-9": {
+        "prompt": "What shape are the leaves of the potted plant described?\n\nA. Round\nB. Oval\nC. Lance-shaped\nD. Heart-shaped",
+        "response": "The leaves of the potted plant are oval.",
+        "correct_answer": "Lance-shaped",
+        "score": "F"
+    },
+    "Maize@2-122": {
+        "prompt": "What shape do the leaves of the plant take as they extend from the central stem?\n\nA. Arching, V-like cluster\nB. Circular cluster\nC. Straight line\nD. Spiral formation",
+        "response": "The leaves of the plant extend in a V-like arching cluster.",
+        "correct_answer": "Arching, V-like cluster",
+        "score": "T"
+    },
+    "Maize@1-122": {
+        "prompt": "What shape are the leaves of the plant described?\n\nA. Round\nB. Oval\nC. Lance-shaped\nD. Heart-shaped",
+        "response": "The leaves of the plant are oval.",
+        "correct_answer": "Lance-shaped",
+        "score": "F"
+    },
+    "Maize@3-10": {
+        "prompt": "What type of plant is described in the room?\n\nA. A bushy shrub with thick leaves\nB. A small cactus in a pot\nC. A flowering plant with bright petals\nD. A tall potted plant with arching leaves",
+        "response": "",
+        "correct_answer": "A tall potted plant with arching leaves",
+        "score": "F"
+    },
+    "Maize@2-77": {
+        "prompt": "What color is the pot that holds the potted plant?\n\nA. Dark Blue\nB. Red\nC. Green\nD. Yellow",
+        "response": "The pot is dark blue.",
+        "correct_answer": "Dark Blue",
+        "score": "T"
+    },
+    "Maize@2-140": {
+        "prompt": "What shape do the leaves of the plant resemble?\n\nA. Round\nB. Heart-shaped\nC. Circular\nD. Lanceolate",
+        "response": "The leaves of the plant resemble a heart shape.",
+        "correct_answer": "Lanceolate",
+        "score": "F"
+    },
+    "Maize@2-126": {
+        "prompt": "What type of container is the plant in?\n\nA. Square pot\nB. Round pot\nC. Rectangular pot\nD. Hanging basket",
+        "response": "The plant is in a hanging basket.",
+        "correct_answer": "Round pot",
+        "score": "F"
+    },
+    "Maize@3-36": {
+        "prompt": "What type of plant is described in the room?\n\nA. A tall tree with thick branches\nB. A flowering shrub with wide leaves\nC. A small potted plant with a slender stem\nD. A succulent with rounded leaves",
+        "response": "",
+        "correct_answer": "A small potted plant with a slender stem",
+        "score": "F"
+    },
+    "Maize@3-15": {
+        "prompt": "What type of container is the plant potted in?\n\nA. A square blue pot\nB. A tall cylindrical vase\nC. A large rectangular pot\nD. A small round brown pot",
+        "response": "None of the given options are correct.",
+        "correct_answer": "A small round brown pot",
+        "score": "F"
+    },
+    "Maize@3-60": {
+        "prompt": "What shape does the pot of the houseplant have?\n\nA. Round\nB. Square\nC. Rectangular\nD. Oval",
+        "response": "The pot of the houseplant is round.",
+        "correct_answer": "Round",
+        "score": "T"
+    },
+    "Maize@2-17": {
+        "prompt": "What shape are the leaves of the houseplant described?\n\nA. Round and wide\nB. Oval and flat\nC. Lance-shaped\nD. Star-shaped",
+        "response": "",
+        "correct_answer": "Lance-shaped",
+        "score": "F"
+    },
+    "Maize@2-32": {
+        "prompt": "What color is the pot that holds the houseplant?\n\nA. Red\nB. Yellow\nC. Blue\nD. Green",
+        "response": "The pot that holds the houseplant is red.",
+        "correct_answer": "Blue",
+        "score": "F"
+    },
+    "Maize@2-116": {
+        "prompt": "What type of plant is described in the room?\n\nA. A cactus with spines\nB. A houseplant with arching leaves\nC. A flowering shrub\nD. A tall tree with thick trunk",
+        "response": "",
+        "correct_answer": "A houseplant with arching leaves",
+        "score": "F"
+    },
+    "Maize@1-120": {
+        "prompt": "What type of plant is described in the room?\n\nA. A cannabis plant\nB. A fruit-bearing tree\nC. A flowering shrub\nD. A grass-like plant",
+        "response": "A grass-like plant is not typically found in a room setting.",
+        "correct_answer": "A grass-like plant",
+        "score": "F"
+    },
+    "Maize@3-40": {
+        "prompt": "What is the shape of the leaves on the houseplant?\n\nA. Round and fluffy\nB. Short and wide\nC. Oval and smooth\nD. Long and lance-shaped",
+        "response": "",
+        "correct_answer": "Long and lance-shaped",
+        "score": "F"
+    },
+    "Maize@3-43": {
+        "prompt": "What type of leaves does the described plant have?\n\nA. Long and arching\nB. Round and thick\nC. Short and pointy\nD. Flat and wide",
+        "response": "None of the given options.",
+        "correct_answer": "Long and arching",
+        "score": "F"
+    },
+    "Maize@2-31": {
+        "prompt": "What is the shape of the leaves on the plant described?\n\nA. Oval-shaped\nB. Heart-shaped\nC. Circular-shaped\nD. Lance-shaped",
+        "response": "",
+        "correct_answer": "Lance-shaped",
+        "score": "F"
+    },
+    "Maize@3-38": {
+        "prompt": "What type of plant is described in the room?\n\nA. A tall, slender green plant with arching leaves\nB. A bushy shrub with wide leaves\nC. A flowering cactus with spines\nD. A small succulent in a square pot",
+        "response": "",
+        "correct_answer": "A tall, slender green plant with arching leaves",
+        "score": "F"
+    },
+    "Maize@2-28": {
+        "prompt": "What shape is formed by the leaves at the top of the potted plant?\n\nA. A circle\nB. A rectangle\nC. A square\nD. A triangle",
+        "response": "None of the given options.",
+        "correct_answer": "A triangle",
+        "score": "F"
+    },
+    "Maize@2-24": {
+        "prompt": "What type of plant is described in the room?\n\nA. A tall, slender green plant with long, narrow leaves\nB. A short bushy plant with wide leaves\nC. A flowering plant with thick stems\nD. A succulent with rounded leaves",
+        "response": "",
+        "correct_answer": "A tall, slender green plant with long, narrow leaves",
+        "score": "F"
+    },
+    "Maize@2-67": {
+        "prompt": "What type of leaves does the houseplant have?\n\nA. Lance-shaped leaves\nB. Round leaves\nC. Heart-shaped leaves\nD. Oval leaves",
+        "response": "The houseplant has heart-shaped leaves.",
+        "correct_answer": "Lance-shaped leaves",
+        "score": "F"
+    },
+    "Maize@2-64": {
+        "prompt": "What is the shape of the pot that houses the plant?\n\nA. Square-shaped ceramic pot\nB. Light-colored round ceramic pot\nC. Tall, rectangular pot\nD. Deep, oval pot",
+        "response": "The pot is square-shaped.",
+        "correct_answer": "Light-colored round ceramic pot",
+        "score": "F"
+    },
+    "Maize@3-54": {
+        "prompt": "What type of growth is visible at the top of the plant?\n\nA. A tuft of new growth\nB. A cluster of flowers\nC. A wide, flat leaf\nD. A long vine",
+        "response": "A long vine is not visible in the given description.",
+        "correct_answer": "A tuft of new growth",
+        "score": "F"
+    },
+    "Maize@2-66": {
+        "prompt": "What type of pot is the plant in?\n\nA. Square light pot\nB. Oval white pot\nC. Rectangular black pot\nD. Round dark pot",
+        "response": "",
+        "correct_answer": "Round dark pot",
+        "score": "F"
+    },
+    "Maize@3-7": {
+        "prompt": "What color is the pot that holds the houseplant?\n\nA. Blue\nB. Red\nC. Green\nD. Yellow",
+        "response": "The pot that holds the houseplant is blue.",
+        "correct_answer": "Blue",
+        "score": "T"
+    },
+    "Maize@2-65": {
+        "prompt": "What type of pot is the plant in?\n\nA. Square terracotta pot\nB. Dark round pot\nC. Clear plastic pot\nD. White ceramic pot",
+        "response": "",
+        "correct_answer": "Dark round pot",
+        "score": "F"
+    },
+    "Maize@2-88": {
+        "prompt": "What color is the pot that contains the tall green plant?\n\nA. Red\nB. Blue\nC. Green\nD. Brown",
+        "response": "The pot is brown.",
+        "correct_answer": "Blue",
+        "score": "F"
+    },
+    "Maize@2-108": {
+        "prompt": "What color are the leaves of the plant described?\n\nA. Blue\nB. Purple\nC. Green\nD. Red",
+        "response": "The color of the leaves is not specified in the description.",
+        "correct_answer": "Green",
+        "score": "F"
+    },
+    "Maize@1-78": {
+        "prompt": "What type of leaves does the plant sapling described have?\n\nA. Round leaves\nB. Triangular leaves\nC. Lance-shaped leaves\nD. Broad leaves",
+        "response": "The plant sapling has triangular leaves.",
+        "correct_answer": "Lance-shaped leaves",
+        "score": "F"
+    },
+    "Maize@2-39": {
+        "prompt": "What color is the rim of the pot holding the small potted plant?\n\nA. Brown\nB. Red\nC. Green\nD. Blue",
+        "response": "The color of the pot rim is not specified in the description.",
+        "correct_answer": "Blue",
+        "score": "F"
+    },
+    "Maize@2-50": {
+        "prompt": "What type of pot is the plant sitting in?\n\nA. Round blue ceramic pot\nB. Square red ceramic pot\nC. Oval white ceramic pot\nD. Rectangular brown wooden pot",
+        "response": "",
+        "correct_answer": "Round blue ceramic pot",
+        "score": "F"
+    },
+    "Maize@3-50": {
+        "prompt": "What shape is the pot of the plant?\n\nA. Cube\nB. Pyramid\nC. Rectangular\nD. Cylindrical",
+        "response": "The pot of the plant is cylindrical.",
+        "correct_answer": "Cylindrical",
+        "score": "T"
+    },
+    "Maize@2-128": {
+        "prompt": "What type of plant is described in the room?\n\nA. A flowering shrub\nB. A small potted tree\nC. A grass plant\nD. A potted indoor plant",
+        "response": "A flowering shrub.",
+        "correct_answer": "A potted indoor plant",
+        "score": "F"
+    },
+    "Maize@2-137": {
+        "prompt": "What shape are the leaves of the potted plant described?\n\nA. Round\nB. Lance-shaped\nC. Heart-shaped\nD. Oval",
+        "response": "The leaves of the potted plant are oval.",
+        "correct_answer": "Lance-shaped",
+        "score": "F"
+    },
+    "Maize@2-141": {
+        "prompt": "What type of design does the pot of the houseplant feature?\n\nA. A blue pattern\nB. Stripes\nC. Floral patterns\nD. Geometric shapes",
+        "response": "The pot of the houseplant features a geometric design.",
+        "correct_answer": "A blue pattern",
+        "score": "F"
+    },
+    "Maize@2-29": {
+        "prompt": "What shape are the leaves of the houseplant described?\n\nA. Round\nB. Oval\nC. Lance-shaped\nD. Triangular",
+        "response": "The leaves of the houseplant are oval.",
+        "correct_answer": "Lance-shaped",
+        "score": "F"
+    },
+    "Maize@1-60": {
+        "prompt": "What color are the veins of the maize leaves?\n\nA. Dark green\nB. Yellow\nC. White\nD. Light green",
+        "response": "The color of the veins can vary depending on the plant species and environmental conditions.",
+        "correct_answer": "Light green",
+        "score": "F"
+    },
+    "Maize@1-22": {
+        "prompt": "What is the shape of the top extension of the plant sculpture?\n\nA. Curved\nB. Flat\nC. Straight\nD. Pointed",
+        "response": "The top extension of the plant sculpture is curved.",
+        "correct_answer": "Curved",
+        "score": "T"
+    },
+    "Maize@2-33": {
+        "prompt": "What color is the rim of the pot that the plant is in?\n\nA. Blue\nB. Red\nC. Green\nD. Yellow",
+        "response": "The rim of the pot is blue.",
+        "correct_answer": "Blue",
+        "score": "T"
+    },
+    "Maize@3-27": {
+        "prompt": "What shape do the leaves of the potted plant have?\n\nA. Round and broad\nB. Sword-shaped\nC. Heart-shaped\nD. Oval-shaped",
+        "response": "The leaves of the potted plant are round and broad.",
+        "correct_answer": "Sword-shaped",
+        "score": "F"
+    },
+    "Maize@3-37": {
+        "prompt": "What is the shape of the leaves of the indoor potted plant described?\n\nA. Long and glossy\nB. Round and flat\nC. Short and spiky\nD. Wide and droopy",
+        "response": "The description doesn't specify the shape of the leaves.",
+        "correct_answer": "Long and glossy",
+        "score": "F"
+    },
+    "Maize@1-113": {
+        "prompt": "What is the characteristic feature of the grass plant described?\n\nA. It has numerous flowers blooming at the base\nB. It has a branched panicle of tiny seed heads at the top\nC. It is growing in a pot filled with water\nD. It has broad oval leaves instead of lanceolate leaves",
+        "response": "",
+        "correct_answer": "It has a branched panicle of tiny seed heads at the top",
+        "score": "F"
+    },
+    "Maize@2-11": {
+        "prompt": "What type of fronds does the potted plant have?\n\nA. Wide, flat leaves\nB. Thick, succulent leaves\nC. Short, round leaves\nD. Long, arching palm-like fronds",
+        "response": "The potted plant has long, arching palm-like fronds.",
+        "correct_answer": "Long, arching palm-like fronds",
+        "score": "T"
+    },
+    "Maize@1-50": {
+        "prompt": "What characteristic describes the new growth at the top of the maize plant?\n\nA. It forms a cluster of narrow upright leaves\nB. It consists of wide, flat leaves pointing outward\nC. It is fully developed with thick, sturdy stalks\nD. It produces flowers in a blooming structure",
+        "response": "",
+        "correct_answer": "It forms a cluster of narrow upright leaves",
+        "score": "F"
+    },
+    "Maize@1-123": {
+        "prompt": "What is the color of the inflorescence at the top of the corn plant?  \n\nA. Dark green\nB. Pale brown\nC. Bright yellow\nD. Reddish orange",
+        "response": "The color of the inflorescence at the top of the corn plant is dark green.",
+        "correct_answer": "Pale brown",
+        "score": "F"
+    },
+    "Maize@2-21": {
+        "prompt": "What shape is the pot that the plant is in?\n\nA. Round\nB. Rectangular\nC. Square\nD. Oval",
+        "response": "The pot is round.",
+        "correct_answer": "Round",
+        "score": "T"
+    },
+    "Maize@2-107": {
+        "prompt": "What color is the pot in which the plant is potted?\n\nA. Dark brown\nB. Green\nC. Yellow\nD. Black",
+        "response": "The pot is dark brown.",
+        "correct_answer": "Dark brown",
+        "score": "T"
+    },
+    "Maize@2-114": {
+        "prompt": "What color is the stem of the sapling?\n\nA. Dark Green\nB. Pale Yellow-Green\nC. Bright Red\nD. Deep Brown",
+        "response": "The stem of the sapling is dark green.",
+        "correct_answer": "Pale Yellow-Green",
+        "score": "F"
+    },
+    "Maize@1-106": {
+        "prompt": "What is the color of the tassel-like inflorescence at the top of the maize plant?\n\nA. Green\nB. Yellow\nC. Brownish\nD. Red",
+        "response": "The color of the inflorescence at the top of the maize plant is green.",
+        "correct_answer": "Brownish",
+        "score": "F"
+    },
+    "Potato@5-19-P281-2-a": {
+        "prompt": "What type of leaves does the plant exhibit?\n\nA. Needle-like leaves\nB. Rounded leaves\nC. Linear leaves\nD. Ovate leaves",
+        "response": "None of the above. The plant exhibits needle-like leaves.",
+        "correct_answer": "Ovate leaves",
+        "score": "F"
+    },
+    "Potato@5-21-P104-3-a": {
+        "prompt": "What is the color variation of the leaves on the plant described?\n\nA. Only dark green\nB. A mix of light to dark green\nC. Only light green\nD. All leaves are yellow",
+        "response": "The description does not specify the color variation of the leaves.",
+        "correct_answer": "A mix of light to dark green",
+        "score": "F"
+    },
+    "Potato@5-11-P255-3-a": {
+        "prompt": "What type of plant is described in the room?\n\nA. A flowering shrub\nB. A palm-like plant\nC. A cactus\nD. A fern",
+        "response": "A fern is not a flowering shrub. It's a type of plant with broad, feathery leaves and small, delicate flowers.",
+        "correct_answer": "A palm-like plant",
+        "score": "F"
+    },
+    "Potato@5-14-P117-3-a": {
+        "prompt": "What type of leaves are described on the plant stem?\n\nA. Heart-shaped leaves with wavy edges\nB. Circular leaves with smooth edges\nC. Narrow leaves with a glossy texture\nD. Oval-to-lanceolate leaves with serrated margins",
+        "response": "The description does not specify the exact type of leaves.",
+        "correct_answer": "Oval-to-lanceolate leaves with serrated margins",
+        "score": "F"
+    },
+    "Potato@5-13-P015-2-a": {
+        "prompt": "What characteristic describes the leaves of the green plant?\n\nA. They have pointed tips and serrated margins\nB. They are round and smooth to the touch\nC. They are tall and bushy\nD. They are thin and sticky",
+        "response": "",
+        "correct_answer": "They have pointed tips and serrated margins",
+        "score": "F"
+    },
+    "Potato@5-23-P999-7-a": {
+        "prompt": "What is the characteristic feature of the leaves on the herb plant described?\n\nA. They are broad and heart-shaped\nB. They have a dull texture and are light green\nC. They are elongated to oval with serrated edges\nD. They are round and sparsely arranged",
+        "response": "",
+        "correct_answer": "They are elongated to oval with serrated edges",
+        "score": "F"
+    },
+    "Potato@5-20-P043-1-a": {
+        "prompt": "What characteristic is notable about the leaves of the plant described?\n\nA. The leaves are all the same size and shade of green\nB. The leaves are exclusively light green without any brown edges\nC. The leaves have broad, serrated edges and vary in size and shade\nD. The leaves are round and smooth without any veins",
+        "response": "",
+        "correct_answer": "The leaves have broad, serrated edges and vary in size and shade",
+        "score": "F"
+    },
+    "Potato@5-11-P279-3-a": {
+        "prompt": "What shape are the leaves of the plant described?\n\nA. Circular\nB. Triangular\nC. Lanceolate to oval-elliptic\nD. Rectangular",
+        "response": "The leaves of the plant are oval-elliptic.",
+        "correct_answer": "Lanceolate to oval-elliptic",
+        "score": "T"
+    },
+    "Potato@5-21-P104-4-a": {
+        "prompt": "What color are the leaflets at the tip of the stem?\n\nA. Yellow\nB. Dark green\nC. Brown\nD. Light lime",
+        "response": "The color of the leaflets at the tip of the stem is light lime.",
+        "correct_answer": "Light lime",
+        "score": "T"
+    },
+    "Potato@5-20-P060-3-a": {
+        "prompt": "What type of leaf arrangement is described in the foliage?\n\nA. Pinnate arrangement of small leaflets\nB. Opposite arrangement of leaves\nC. Whorled arrangement of leaves\nD. Rosette arrangement of leaves",
+        "response": "",
+        "correct_answer": "Pinnate arrangement of small leaflets",
+        "score": "F"
+    },
+    "Potato@5-11-P290-3-a": {
+        "prompt": "What is the color range of the leaves on the plant described?\n\nA. From purple to blue\nB. From yellow to dark brown\nC. From light lime to dark green\nD. From red to orange",
+        "response": "The color of the leaves on the plant described is not specified.",
+        "correct_answer": "From light lime to dark green",
+        "score": "F"
+    },
+    "Potato@5-23-P999-2-a": {
+        "prompt": "What is the arrangement of the leaves on the plant stem described?\n\nA. The leaves are arranged in a clustered formation at the bottom of the stem\nB. The leaves are arranged in a spiral pattern around the stem\nC. The leaves are arranged alternately along the length of the stem\nD. The leaves are arranged symmetrically on opposite sides of the stem",
+        "response": "",
+        "correct_answer": "The leaves are arranged alternately along the length of the stem",
+        "score": "F"
+    },
+    "Potato@5-11-P281-1-a": {
+        "prompt": "What type of leaves does the young plant sapling have?\n\nA. Round fleshy leaves with no veins\nB. Needle-like leaves with smooth edges\nC. Long thin leaves with a waxy texture\nD. Broad oval leaves with visible veins",
+        "response": "The plant has a mix of round fleshy leaves with no veins, needle-like leaves with smooth edges, and long thin leaves with a waxy texture.",
+        "correct_answer": "Broad oval leaves with visible veins",
+        "score": "F"
+    },
+    "Potato@5-23-P997-1-a": {
+        "prompt": "What type of leaves does the slender green plant bear?\n\nA. Elongated, oval to lanceolate leaves\nB. Round, broad leaves\nC. Needle-like leaves\nD. Heart-shaped leaves",
+        "response": "The plant has elongated, oval to lanceolate leaves.",
+        "correct_answer": "Elongated, oval to lanceolate leaves",
+        "score": "T"
+    },
+    "Potato@5-14-P112-1-a": {
+        "prompt": "What shape are the leaves on the plant stem described?\n\nA. Circular\nB. Triangular\nC. Rectangular\nD. Elongated oval to lanceolate",
+        "response": "The leaves on the plant stem are elongated and lanceolate.",
+        "correct_answer": "Elongated oval to lanceolate",
+        "score": "T"
+    },
+    "Potato@5-13-P046-3-a": {
+        "prompt": "What type of leaves does the plant have?\n\nA. Broad, heart-shaped leaves\nB. Needle-like leaves\nC. Alternately arranged oval-to-lanceolate leaves\nD. Ruffled, frilly leaves",
+        "response": "None of the given options.",
+        "correct_answer": "Alternately arranged oval-to-lanceolate leaves",
+        "score": "F"
+    },
+    "Potato@5-21-P104-2-a": {
+        "prompt": "What type of plant is described as having a tall slender trunk and a crown of feathery fronds?\n\nA. Palm\nB. Fern\nC. Cactus\nD. Oak",
+        "response": "C. Oak",
+        "correct_answer": "Palm",
+        "score": "F"
+    },
+    "Potato@5-11-P104-2-a": {
+        "prompt": "What color variation is present in the leaves of the plant described?\n\nA. Only light green leaves\nB. Only dark green leaves\nC. Color variations from light lime to dark green\nD. Only brownish leaves",
+        "response": "None of the given options.",
+        "correct_answer": "Color variations from light lime to dark green",
+        "score": "F"
+    },
+    "Potato@5-23-P997-2-a": {
+        "prompt": "What type of plant is described in the room?\n\nA. Cactus\nB. Small palm\nC. Fern\nD. Succulent",
+        "response": "C. Succulent",
+        "correct_answer": "Small palm",
+        "score": "F"
+    },
+    "Potato@5-23-P998-9-a": {
+        "prompt": "What is the characteristic of the plant's leaves?\n\nA. They are all the same shade of green\nB. They vary in color and texture\nC. They have a vertical growth pattern\nD. They are exclusively round in shape",
+        "response": "C. They are all the same shade of green.",
+        "correct_answer": "They vary in color and texture",
+        "score": "F"
+    },
+    "Potato@5-20-P002-2-a": {
+        "prompt": "What is the shape of the leaves on the plant described?\n\nA. Round with serrated edges\nB. Heart-shaped with wavy edges\nC. Elongated oval with smooth margins\nD. Square with jagged tips",
+        "response": "None of the given shapes are mentioned.",
+        "correct_answer": "Elongated oval with smooth margins",
+        "score": "F"
+    },
+    "Potato@5-13-P098-1-a": {
+        "prompt": "What color variations can be observed in the leaves of the described plant?\n\nA. Only dark green leaves\nB. Red and purple leaves\nC. Light to dark green leaves with yellowish tinges\nD. Only light green leaves",
+        "response": "None of the given color variations are observed in the leaves.",
+        "correct_answer": "Light to dark green leaves with yellowish tinges",
+        "score": "F"
+    },
+    "Potato@5-21-P142-1-a": {
+        "prompt": "What type of foliage is primarily present on the slender sapling described?\n\nA. Large fan-shaped leaves\nB. Round and smooth leaves\nC. Needle-like leaves\nD. Oval to lanceolate leaves",
+        "response": "A. Large fan-shaped leaves are primarily present on the slender sapling.",
+        "correct_answer": "Oval to lanceolate leaves",
+        "score": "F"
+    },
+    "Potato@5-19-P279-1-a": {
+        "prompt": "What is the arrangement of the leaves on the green plant stem described?\n\nA. Leaves are clustered at the base only\nB. Leaves are arranged in a circular pattern around the stem\nC. Leaves grow only at the top of the stem\nD. Leaves are arranged along the length of the stem",
+        "response": "C. Leaves are arranged in a circular pattern around the stem.",
+        "correct_answer": "Leaves are arranged along the length of the stem",
+        "score": "F"
+    },
+    "Potato@5-14-P113-3-a": {
+        "prompt": "What is the color of the new growth at the tip of the plant?\n\nA. Dark green\nB. Medium green\nC. Brown-green\nD. Light lime",
+        "response": "The color of the new growth at the tip of the plant is light lime.",
+        "correct_answer": "Light lime",
+        "score": "T"
+    },
+    "Potato@5-11-P281-2-a": {
+        "prompt": "What is the characteristic shape of the leaves on the described plant?  \n\nA. Circular\nB. Oval to elliptic\nC. Heart-shaped\nD. Triangular",
+        "response": "None of the above. The leaves are oval to elliptic in shape.",
+        "correct_answer": "Oval to elliptic",
+        "score": "T"
+    },
+    "Potato@5-11-P285-2-a": {
+        "prompt": "What type of leaf arrangement is primarily observed in the plant described?\n\nA. Simple leaves without serration\nB. Alternating whorled leaves\nC. Pinnate leaves with small leaflets\nD. Needle-like leaves",
+        "response": "None of the given leaf arrangements are described in the plant description.",
+        "correct_answer": "Pinnate leaves with small leaflets",
+        "score": "F"
+    },
+    "Potato@5-20-P045-3-a": {
+        "prompt": "What is the shape of the leaves on the plant stem?\n\nA. Circular\nB. Heart-shaped\nC. Triangular\nD. Lanceolate to ovate",
+        "response": "The shape of the leaves on the plant stem is triangular.",
+        "correct_answer": "Lanceolate to ovate",
+        "score": "F"
+    },
+    "Potato@5-23-P998-7-a": {
+        "prompt": "What color are the leaves of the plant mentioned in the description?\n\nA. Dark green\nB. Bright yellow\nC. Pale lime-green\nD. Deep blue",
+        "response": "The color of the leaves is not specified in the description.",
+        "correct_answer": "Pale lime-green",
+        "score": "F"
+    },
+    "Potato@5-13-P002-2-a": {
+        "prompt": "What shape are the leaves of the plant described?\n\nA. Circular\nB. Round and broad\nC. Heart-shaped\nD. Elongated and lanceolate",
+        "response": "",
+        "correct_answer": "Elongated and lanceolate",
+        "score": "F"
+    },
+    "Potato@5-20-P015-2-a": {
+        "prompt": "What is the shape of the leaves on the plant described?\n\nA. Oval to lanceolate with serrated margins\nB. Round with smooth edges\nC. Square with jagged edges\nD. Triangular with no visible veins",
+        "response": "None of the given shapes are described for the leaves.",
+        "correct_answer": "Oval to lanceolate with serrated margins",
+        "score": "F"
+    },
+    "Potato@5-11-P294-3-a": {
+        "prompt": "What type of leaves can be found on the green plant stem?\n\nA. Long, linear, red-tipped leaves\nB. Large, round, smooth leaves\nC. Small, oval, serrated leaves\nD. Thick, waxy, purple leaves",
+        "response": "",
+        "correct_answer": "Small, oval, serrated leaves",
+        "score": "F"
+    },
+    "Potato@5-13-P068-3-a": {
+        "prompt": "What type of plant structure is described with a slender central stem and multiple lobed, serrated leaves?\n\nA. A flower bouquet\nB. A herbaceous plant branch\nC. A shrub branch\nD. A fern frond",
+        "response": "",
+        "correct_answer": "A herbaceous plant branch",
+        "score": "F"
+    },
+    "Potato@5-19-P281-1-a": {
+        "prompt": "What color is the new growth at the tip of the sapling?\n\nA. Dark green\nB. Lighter green\nC. Yellow\nD. Brown",
+        "response": "None of the given colors.",
+        "correct_answer": "Lighter green",
+        "score": "F"
+    },
+    "Potato@5-20-P149-3-a": {
+        "prompt": "What type of plant structure is described in the room?\n\nA. A flower with bright petals\nB. A fern-like plant with elongated leaves\nC. A bush with dense foliage\nD. A cactus with spines",
+        "response": "",
+        "correct_answer": "A fern-like plant with elongated leaves",
+        "score": "F"
+    },
+    "Potato@5-13-P043-2-a": {
+        "prompt": "What is the shape of the leaves described in the room?\n\nA. Broad oval-to-lanceolate\nB. Circular\nC. Needle-like\nD. Triangular",
+        "response": "The shape of the leaves is not described in the given information.",
+        "correct_answer": "Broad oval-to-lanceolate",
+        "score": "F"
+    },
+    "Rapeseed@29": {
+        "prompt": "What type of leaves does the plant in the pot have?\n\nA. Broad and serrated\nB. Thin and smooth\nC. Long and needle-like\nD. Round and waxy",
+        "response": "",
+        "correct_answer": "Broad and serrated",
+        "score": "F"
+    },
+    "Rapeseed@115": {
+        "prompt": "What color is the pot that contains the plant?\n\nA. Green\nB. Yellow\nC. Red\nD. Blue",
+        "response": "The pot is green.",
+        "correct_answer": "Blue",
+        "score": "F"
+    },
+    "Rapeseed@70": {
+        "prompt": "What type of container is the houseplant growing in?\n\nA. A dark, textured pot\nB. A ceramic vase\nC. A plastic cup\nD. A metal bucket",
+        "response": "The houseplant is growing in a dark, textured pot.",
+        "correct_answer": "A dark, textured pot",
+        "score": "T"
+    },
+    "Rapeseed@33": {
+        "prompt": "What type of container is used for the plant in the description?\n\nA. Round, dark pot\nB. Square pot\nC. Wooden planter\nD. Ceramic vase",
+        "response": "The description does not specify a specific type of container.",
+        "correct_answer": "Round, dark pot",
+        "score": "F"
+    },
+    "Rapeseed@31": {
+        "prompt": "What shape is the pot that contains the potted green plant?\n\nA. Hexagonal\nB. Oval\nC. Square\nD. Rectangular",
+        "response": "The pot is hexagonal.",
+        "correct_answer": "Square",
+        "score": "F"
+    },
+    "Rapeseed@129": {
+        "prompt": "What shape does the stem of the plant create as it forks?\n\nA. Circle\nB. Square\nC. X\nD. Y",
+        "response": "The stem of the plant forks into a circle.",
+        "correct_answer": "Y",
+        "score": "F"
+    },
+    "Rapeseed@20": {
+        "prompt": "What type of container is described in the text?\n\nA. A dark cylindrical metal container\nB. A rectangular container\nC. A glass bowl\nD. A woven basket",
+        "response": "None of the given descriptions match the description.",
+        "correct_answer": "A dark cylindrical metal container",
+        "score": "F"
+    },
+    "Rapeseed@91": {
+        "prompt": "What color is the pot that the houseplant is in?\n\nA. Light green\nB. Dark blue\nC. White\nD. Red",
+        "response": "The color of the pot is not specified in the description.",
+        "correct_answer": "Dark blue",
+        "score": "F"
+    },
+    "Rapeseed@24": {
+        "prompt": "What color is the cylindrical ceramic pot that holds the houseplant?\n\nA. Red\nB. Dark blue\nC. Light green\nD. Black",
+        "response": "The cylindrical ceramic pot that holds the houseplant is light green.",
+        "correct_answer": "Dark blue",
+        "score": "F"
+    },
+    "Rapeseed@37": {
+        "prompt": "What distinctive feature does the potted plant showcase that contrasts with the pot it is in?\n\nA. A wooden stand underneath the pot\nB. Dark-colored flowers blooming\nC. A square-shaped pot\nD. Arching leaves over the rim of the pot",
+        "response": "",
+        "correct_answer": "Arching leaves over the rim of the pot",
+        "score": "F"
+    },
+    "Rapeseed@63": {
+        "prompt": "What color is the pot that the houseplant is in?\n\nA. Dark blue\nB. Brown\nC. Green\nD. White",
+        "response": "The pot is dark blue.",
+        "correct_answer": "Dark blue",
+        "score": "T"
+    },
+    "Rapeseed@11": {
+        "prompt": "What type of plant is described in the room?\n\nA. A large flowering shrub\nB. A small bonsai-like plant\nC. A fruit tree\nD. A tall cactus",
+        "response": "A tall cactus.",
+        "correct_answer": "A small bonsai-like plant",
+        "score": "F"
+    },
+    "Rapeseed@135": {
+        "prompt": "What color is the pot holding the plant?\n\nA. Green\nB. Pink\nC. Dark Blue\nD. White",
+        "response": "The pot holding the plant is dark blue.",
+        "correct_answer": "Dark Blue",
+        "score": "T"
+    },
+    "Rapeseed@107": {
+        "prompt": "What type of plant is described in the room?\n\nA. A flowering shrub\nB. A small tree with a thick trunk\nC. A succulent with spiky leaves\nD. A potted green houseplant",
+        "response": "",
+        "correct_answer": "A potted green houseplant",
+        "score": "F"
+    },
+    "Rapeseed@116": {
+        "prompt": "What color is the pot of the plant described?\n\nA. Red\nB. Blue\nC. Green\nD. Yellow",
+        "response": "The pot of the plant is blue.",
+        "correct_answer": "Blue",
+        "score": "T"
+    },
+    "Rapeseed@169": {
+        "prompt": "What type of plant is described in the room?\n\nA. A tall cactus with spines\nB. A potted green leafy plant with a bushy canopy\nC. A flowering vine with colorful blossoms\nD. A small shrub with needle-like leaves",
+        "response": "",
+        "correct_answer": "A potted green leafy plant with a bushy canopy",
+        "score": "F"
+    },
+    "Rapeseed@58": {
+        "prompt": "What color is the ceramic pot holding the plant?\n\nA. Green\nB. Red\nC. Yellow\nD. Dark Blue",
+        "response": "The color of the ceramic pot holding the plant is green.",
+        "correct_answer": "Dark Blue",
+        "score": "F"
+    },
+    "Rapeseed@25": {
+        "prompt": "What type of leaves does the houseplant have?\n\nA. Small, round leaves\nB. Needle-like leaves\nC. Broad, lobed leaves and fern-like, pinnate fronds\nD. Long, thin leaves",
+        "response": "None of the given options.",
+        "correct_answer": "Broad, lobed leaves and fern-like, pinnate fronds",
+        "score": "F"
+    },
+    "Rapeseed@168": {
+        "prompt": "What color is the pot that holds the houseplant?\n\nA. Green\nB. Light brown\nC. Dark blue\nD. Yellow",
+        "response": "The pot that holds the houseplant is light brown.",
+        "correct_answer": "Dark blue",
+        "score": "F"
+    },
+    "Rapeseed@83": {
+        "prompt": "What does the dark blue cylindrical plastic vessel resemble when viewed from a specific angle?\n\nA. A drinking cup with a lid and straw\nB. A cardboard box\nC. A wooden chair\nD. A metal toolbox",
+        "response": "",
+        "correct_answer": "A drinking cup with a lid and straw",
+        "score": "F"
+    },
+    "Rapeseed@127": {
+        "prompt": "What color is the pot that the potted plant is in?\n\nA. Dark blue\nB. Light blue\nC. Bright green\nD. Pale pink",
+        "response": "The pot is dark blue.",
+        "correct_answer": "Dark blue",
+        "score": "T"
+    },
+    "Rapeseed@79": {
+        "prompt": "What color is the cylindrical plant pot?\n\nA. Dark blue\nB. Light green\nC. Bright red\nD. Yellow",
+        "response": "The cylindrical plant pot is dark blue.",
+        "correct_answer": "Dark blue",
+        "score": "T"
+    },
+    "Rapeseed@122": {
+        "prompt": "What is the shape of the plant pot described?\n\nA. Square\nB. Rectangular\nC. Triangular\nD. Cylindrical",
+        "response": "The shape of the plant pot is cylindrical.",
+        "correct_answer": "Cylindrical",
+        "score": "T"
+    },
+    "Rapeseed@8": {
+        "prompt": "What is the shape of the pot that contains the potted plant?\n\nA. Square and flat\nB. Wide and round\nC. Tall and cylindrical\nD. Short and rectangular",
+        "response": "None of the given shapes are correct.",
+        "correct_answer": "Tall and cylindrical",
+        "score": "F"
+    },
+    "Rapeseed@82": {
+        "prompt": "What color is the rim of the plant pot?\n\nA. Red\nB. Dark\nC. Light\nD. Yellow",
+        "response": "The rim of the plant pot is dark.",
+        "correct_answer": "Light",
+        "score": "F"
+    },
+    "Rapeseed@95": {
+        "prompt": "What shape is the pot that contains the small green plant?\n\nA. Square\nB. Rectangular\nC. Triangular\nD. Cylindrical",
+        "response": "The pot that contains the small green plant is cylindrical.",
+        "correct_answer": "Cylindrical",
+        "score": "T"
+    },
+    "Rapeseed@61": {
+        "prompt": "What color is the pot that the plant is growing in?\n\nA. Dark Blue\nB. Red\nC. Green\nD. White",
+        "response": "The color of the pot is not specified in the description.",
+        "correct_answer": "Dark Blue",
+        "score": "F"
+    },
+    "Rapeseed@93": {
+        "prompt": "What color are the leaves of the potted plant?\n\nA. Bright green\nB. Dark green\nC. Yellow\nD. Brown",
+        "response": "The leaves of the potted plant are bright green.",
+        "correct_answer": "Bright green",
+        "score": "T"
+    },
+    "Rapeseed@147": {
+        "prompt": "What color is the plant pot described?\n\nA. Dark blue\nB. Light blue\nC. Green\nD. Brown",
+        "response": "The plant pot is dark blue.",
+        "correct_answer": "Dark blue",
+        "score": "T"
+    },
+    "Rapeseed@128": {
+        "prompt": "What is the overall appearance of the plant described?\n\nA. It features large flowers and thick stems\nB. It has a tall trunk with broad leaves\nC. It has a compact canopy and slender stems\nD. It has a wide base with no visible leaves",
+        "response": "No, the plant has a wide base and no visible leaves.",
+        "correct_answer": "It has a compact canopy and slender stems",
+        "score": "F"
+    },
+    "Rapeseed@119": {
+        "prompt": "What color is the pot containing the small green plant?\n\nA. Blue\nB. Green\nC. Pink\nD. Yellow",
+        "response": "The pot is blue.",
+        "correct_answer": "Blue",
+        "score": "T"
+    },
+    "Rapeseed@112": {
+        "prompt": "What color are the leaves of the potted plant?\n\nA. Dark green\nB. Yellow\nC. Bright green\nD. Dark brown",
+        "response": "The leaves of the potted plant are dark green.",
+        "correct_answer": "Bright green",
+        "score": "F"
+    },
+    "Rapeseed@21": {
+        "prompt": "What is the shape of the pot that the plant is in?\n\nA. Square and flat\nB. Short and rectangular\nC. Wide and oval\nD. Tall and cylindrical",
+        "response": "The shape of the pot is not specified.",
+        "correct_answer": "Tall and cylindrical",
+        "score": "F"
+    },
+    "Rapeseed@109": {
+        "prompt": "What color is the pot that the potted plant is in?\n\nA. Brown\nB. Gray-blue\nC. White\nD. Black",
+        "response": "The pot is gray-blue.",
+        "correct_answer": "Gray-blue",
+        "score": "T"
+    },
+    "Rapeseed@142": {
+        "prompt": "What shape is the pot that the indoor potted plant is in?\n\nA. Square\nB. Shallow and round\nC. Tall and cylindrical\nD. Flat and rectangular",
+        "response": "",
+        "correct_answer": "Tall and cylindrical",
+        "score": "F"
+    },
+    "Rapeseed@96": {
+        "prompt": "What color is the pot holding the houseplant?\n\nA. Red\nB. Dark Blue\nC. Green\nD. Yellow",
+        "response": "The pot holding the houseplant is dark blue.",
+        "correct_answer": "Dark Blue",
+        "score": "T"
+    },
+    "Rapeseed@161": {
+        "prompt": "What color is the pot that the plant is in?\n\nA. Dark blue with a light rim\nB. Bright red with a dark rim\nC. Light green with a heavy rim\nD. Black with a glossy finish",
+        "response": "",
+        "correct_answer": "Dark blue with a light rim",
+        "score": "F"
+    },
+    "Rapeseed@123": {
+        "prompt": "What color is the plant pot described in the room?\n\nA. Dark navy blue\nB. Light blue\nC. Green\nD. Brown",
+        "response": "The color of the plant pot is dark navy blue.",
+        "correct_answer": "Dark navy blue",
+        "score": "T"
+    },
+    "Rapeseed@102": {
+        "prompt": "What is the color of the pot that the potted fern is in?\n\nA. Light blue\nB. Green\nC. Dark blue-gray\nD. Brown",
+        "response": "The color of the pot is light blue.",
+        "correct_answer": "Dark blue-gray",
+        "score": "F"
+    },
+    "Rapeseed@13": {
+        "prompt": "What type of container is the potted plant sitting in? \n\nA. A plastic planter\nB. A glass vase\nC. A metal bucket\nD. A tall dark-blue ceramic pot",
+        "response": "",
+        "correct_answer": "A tall dark-blue ceramic pot",
+        "score": "F"
+    },
+    "Rapeseed@92": {
+        "prompt": "What color is the finish of the pot that holds the potted plant?\n\nA. Red and white stripes\nB. Clear glass\nC. Solid black\nD. Blue-gray with a speckled finish",
+        "response": "",
+        "correct_answer": "Blue-gray with a speckled finish",
+        "score": "F"
+    },
+    "Rapeseed@40": {
+        "prompt": "What color is the pot of the plant described?\n\nA. Gray\nB. Brown\nC. Black\nD. White",
+        "response": "The pot of the plant is gray.",
+        "correct_answer": "Gray",
+        "score": "T"
+    },
+    "Rapeseed@41": {
+        "prompt": "What type of container is used to hold the leafy green plant in the still-life?\n\nA. Tall light-gray cylindrical pot\nB. Mason jar\nC. Short tumbler\nD. Stone bust",
+        "response": "None of the given containers are suitable for holding a leafy green plant.",
+        "correct_answer": "Tall light-gray cylindrical pot",
+        "score": "F"
+    },
+    "Rapeseed@113": {
+        "prompt": "What color is the plant pot described?\n\nA. Dark gray\nB. White\nC. Bright green\nD. Light gray",
+        "response": "",
+        "correct_answer": "Light gray",
+        "score": "F"
+    },
+    "Rapeseed@108": {
+        "prompt": "What color is the pot that holds the houseplant?\n\nA. Light Green\nB. Dark Blue\nC. Bright Red\nD. Yellow",
+        "response": "The pot that holds the houseplant is light green.",
+        "correct_answer": "Dark Blue",
+        "score": "F"
+    },
+    "Rice@77": {
+        "prompt": "What shape do the leaves of the potted plant resemble? \n\nA. Chairs\nB. Vases\nC. Swords\nD. Cubes",
+        "response": "The leaves of the potted plant resemble chairs.",
+        "correct_answer": "Swords",
+        "score": "F"
+    },
+    "Rice@1": {
+        "prompt": "What color is the rim of the pot holding the ornamental plant?\n\nA. Dark blue\nB. Light-colored\nC. Green\nD. Brown",
+        "response": "The rim of the pot holding the ornamental plant is dark blue.",
+        "correct_answer": "Light-colored",
+        "score": "F"
+    },
+    "Rice@62": {
+        "prompt": "What is the shape of the leaves of the potted plant?\n\nA. Round and broad\nB. Long and narrow\nC. Small and oval\nD. Flat and square",
+        "response": "The shape of the leaves is not mentioned in the description.",
+        "correct_answer": "Long and narrow",
+        "score": "F"
+    },
+    "Rice@3": {
+        "prompt": "What color are the tips of the leaves on the potted plant?\n\nA. Green\nB. Yellow\nC. Red\nD. Brown",
+        "response": "The color of the tips of the leaves on the potted plant is green.",
+        "correct_answer": "Brown",
+        "score": "F"
+    },
+    "Rice@20": {
+        "prompt": "What color is the pot that the potted plant sits in?\n\nA. Red\nB. Yellow\nC. Green\nD. Blue",
+        "response": "The pot is green.",
+        "correct_answer": "Blue",
+        "score": "F"
+    },
+    "Rice@74": {
+        "prompt": "What color is the pot that holds the potted plant?\n\nA. Green\nB. Black\nC. Tan\nD. Dark blue",
+        "response": "The pot that holds the potted plant is dark brown.",
+        "correct_answer": "Dark blue",
+        "score": "F"
+    },
+    "Rice@19": {
+        "prompt": "What color is the pot that the houseplant is sitting in?\n\nA. Dark green ceramic\nB. Bright red ceramic\nC. Light ceramic\nD. Dark blue ceramic",
+        "response": "",
+        "correct_answer": "Dark blue ceramic",
+        "score": "F"
+    },
+    "Rice@26": {
+        "prompt": "What color is the pot that holds the potted plant?\n\nA. Blue\nB. Green\nC. Red\nD. Yellow",
+        "response": "The pot is blue.",
+        "correct_answer": "Blue",
+        "score": "T"
+    },
+    "Rice@13": {
+        "prompt": "What type of leaves does the potted plant have?\n\nA. Round and broad leaves\nB. Heart-shaped leaves\nC. Short and oval leaves\nD. Long, slender, arching leaves",
+        "response": "None of the given options.",
+        "correct_answer": "Long, slender, arching leaves",
+        "score": "F"
+    },
+    "Rice@7": {
+        "prompt": "What type of pot does the ornamental potted plant sit in?\n\nA. A square pot\nB. A dark cylindrical pot\nC. A shallow tray\nD. A textured pot",
+        "response": "The ornamental potted plant sits in a square pot.",
+        "correct_answer": "A dark cylindrical pot",
+        "score": "F"
+    },
+    "Rice@46": {
+        "prompt": "What color is the pot in which the potted plant is planted?\n\nA. Black\nB. Green\nC. Brown\nD. Dark blue with a light rim",
+        "response": "The pot is black with a light rim.",
+        "correct_answer": "Dark blue with a light rim",
+        "score": "F"
+    },
+    "Rice@52": {
+        "prompt": "What color is the pot containing the indoor potted plant?\n\nA. Light green\nB. White\nC. Brown\nD. Dark blue",
+        "response": "The color of the pot is not specified in the description.",
+        "correct_answer": "Dark blue",
+        "score": "F"
+    },
+    "Rice@41": {
+        "prompt": "What color is the pot of the potted plant described?\n\nA. Red\nB. Green\nC. Dark-blue\nD. Yellow",
+        "response": "The pot of the potted plant is dark-blue.",
+        "correct_answer": "Dark-blue",
+        "score": "T"
+    },
+    "Rice@84": {
+        "prompt": "What is the shape of the pot in which the plant is planted?\n\nA. Square\nB. Rectangular\nC. Triangular\nD. Cylindrical",
+        "response": "The pot is cylindrical.",
+        "correct_answer": "Cylindrical",
+        "score": "T"
+    },
+    "Rice@6": {
+        "prompt": "What is the shape of the leaves on the houseplant described?\n\nA. Round\nB. Heart-shaped\nC. Lance-shaped\nD. Oval",
+        "response": "The leaves on the houseplant are round.",
+        "correct_answer": "Lance-shaped",
+        "score": "F"
+    },
+    "Rice@59": {
+        "prompt": "What shape is the pot that holds the green plant?\n\nA. Round\nB. Rectangular\nC. Square\nD. Oval",
+        "response": "The pot is round.",
+        "correct_answer": "Round",
+        "score": "T"
+    },
+    "Rice@4": {
+        "prompt": "What type of leaves does the potted plant have?\n\nA. Long and slender, sword-like leaves\nB. Round and broad leaves\nC. Oval-shaped leaves\nD. Sticky, hairy leaves",
+        "response": "None of the given options.",
+        "correct_answer": "Long and slender, sword-like leaves",
+        "score": "F"
+    },
+    "Rice@8": {
+        "prompt": "What color is the pot that the grass-like plant is in?\n\nA. Dark blue\nB. Bright red\nC. Dark green\nD. Light yellow",
+        "response": "The color of the pot is not specified in the description.",
+        "correct_answer": "Dark blue",
+        "score": "F"
+    },
+    "Rice@48": {
+        "prompt": "What shape is the pot that holds the potted plant?\n\nA. Rectangular\nB. Square\nC. Cylindrical\nD. Oval",
+        "response": "The pot that holds the potted plant is rectangular.",
+        "correct_answer": "Cylindrical",
+        "score": "F"
+    },
+    "Rice@54": {
+        "prompt": "What type of pot is the plant sitting in?\n\nA. Red ceramic pot\nB. Yellow metal pot\nC. Green plastic pot\nD. Blue ceramic pot",
+        "response": "",
+        "correct_answer": "Blue ceramic pot",
+        "score": "F"
+    },
+    "Rice@2": {
+        "prompt": "What type of leaves does the houseplant display?\n\nA. Round and broad leaves\nB. Tall and slender sword-shaped leaves\nC. Small and oval leaves\nD. Heart-shaped leaves",
+        "response": "The houseplant displays a mix of round and tall sword-shaped leaves.",
+        "correct_answer": "Tall and slender sword-shaped leaves",
+        "score": "F"
+    },
+    "Rice@37": {
+        "prompt": "What color is the rim of the pot where the plant is situated?\n\nA. Dark blue\nB. Green\nC. Black\nD. Light",
+        "response": "The color of the pot rim is not specified in the description.",
+        "correct_answer": "Light",
+        "score": "F"
+    },
+    "Rice@45": {
+        "prompt": "What color is the pot that the plant is in?\n\nA. Green\nB. Brown\nC. Light blue\nD. Dark blue",
+        "response": "The color of the pot is not specified in the description.",
+        "correct_answer": "Dark blue",
+        "score": "F"
+    },
+    "Rice@35": {
+        "prompt": "What shape does the potted plant's foliage create?\n\nA. A spear-like silhouette\nB. A flat surface\nC. A rounded canopy\nD. A bushy form",
+        "response": "",
+        "correct_answer": "A spear-like silhouette",
+        "score": "F"
+    },
+    "Rice@18": {
+        "prompt": "What is the shape of the leaves on the houseplant mentioned in the description?\n\nA. Round and broad\nB. Short and spiky\nC. Long and arching\nD. Flat and wide",
+        "response": "None of the given descriptions match the shape of the leaves.",
+        "correct_answer": "Long and arching",
+        "score": "F"
+    },
+    "Rice@72": {
+        "prompt": "What color is the ceramic pot that the potted plant is in?\n\nA. Dark blue\nB. Light beige\nC. Green\nD. Brown",
+        "response": "The color of the ceramic pot is not specified in the description.",
+        "correct_answer": "Dark blue",
+        "score": "F"
+    },
+    "Tomato@8-22_20-28": {
+        "prompt": "What type of leaf arrangement is described?\n\nA. Simple leaves arranged in a spiral pattern\nB. Opposite leaves growing in pairs on the stem\nC. Whorled leaves encircling the stem\nD. Pinnate, compound leaves with numerous small leaflets",
+        "response": "",
+        "correct_answer": "Pinnate, compound leaves with numerous small leaflets",
+        "score": "F"
+    },
+    "Tomato@10-5_1-1": {
+        "prompt": "What is the appearance of the leaves on the plant described?\n\nA. Finely divided into numerous small leaflets\nB. Solid and broad leaves\nC. Thick and waxy leaves\nD. Entirely round leaves",
+        "response": "None of the given descriptions match the description.",
+        "correct_answer": "Finely divided into numerous small leaflets",
+        "score": "F"
+    },
+    "Tomato@8-13_20-28": {
+        "prompt": "What is the overall appearance of the plant described? \n\nA. It displays a feathery, lace-like frond\nB. It features a dense, bushy appearance\nC. It has thick, solid stems with broad leaves\nD. It is characterized by large, flat leaves",
+        "response": "",
+        "correct_answer": "It displays a feathery, lace-like frond",
+        "score": "F"
+    },
+    "Tomato@8-22_30-4": {
+        "prompt": "What feature of the plant's leaves makes them appear pinnate from some angles?\n\nA. Deeply lobed structure\nB. Numerous leaflets\nC. Serrated edges\nD. Woody brown stem",
+        "response": "The plant's leaves are deeply lobed, giving them a pinnate appearance.",
+        "correct_answer": "Numerous leaflets",
+        "score": "F"
+    },
+    "Tomato@8-13_1-55": {
+        "prompt": "What type of plant described has slender woody stems?\n\nA. Cactus\nB. Orchid\nC. Palm\nD. Fern",
+        "response": "Cactus.",
+        "correct_answer": "Fern",
+        "score": "F"
+    },
+    "Tomato@8-22_10-3": {
+        "prompt": "What is the shape of the leaves on the tree branch described?\n\nA. Circular\nB. Broad and flat\nC. Feathery\nD. Needle-like",
+        "response": "",
+        "correct_answer": "Feathery",
+        "score": "F"
+    },
+    "Tomato@11-2_35-22": {
+        "prompt": "What is the shape of the plant as described?\n\nA. Upright and cylindrical\nB. Tall and thin\nC. Wide and flat\nD. Slightly drooping and bushy",
+        "response": "",
+        "correct_answer": "Slightly drooping and bushy",
+        "score": "F"
+    },
+    "Tomato@8-31_10-3": {
+        "prompt": "What type of trunk does the small tree have?\n\nA. Green and flexible\nB. Thin and smooth\nC. Brown and woody\nD. Short and spiny",
+        "response": "",
+        "correct_answer": "Brown and woody",
+        "score": "F"
+    },
+    "Tomato@10-5_30-52": {
+        "prompt": "What is the shape of the leaves on the plant described?\n\nA. Round and flat\nB. Pinnate and palmately lobed\nC. Triangular and sharp\nD. Narrow and straight",
+        "response": "None of the given shapes are correct.",
+        "correct_answer": "Pinnate and palmately lobed",
+        "score": "F"
+    },
+    "Tomato@8-10_10-53": {
+        "prompt": "What type of leaves does the shrub have?\n\nA. Broad, palmately lobed leaves\nB. Needle-like leaves\nC. Thin, elongated leaves\nD. Small, oval leaves",
+        "response": "None of the given options.",
+        "correct_answer": "Broad, palmately lobed leaves",
+        "score": "F"
+    },
+    "Tomato@8-28_30-52": {
+        "prompt": "What type of plant features slender woody stems with deeply lobed, serrated leaves?\n\nA. A cactus\nB. A green leafy plant\nC. A succulent\nD. A flowering shrub",
+        "response": "",
+        "correct_answer": "A green leafy plant",
+        "score": "F"
+    },
+    "Tomato@8-22_35-22": {
+        "prompt": "What is the characteristic shape of the canopy of the described tree or shrub?\n\nA. Short and bushy\nB. Dense and round\nC. Tall and narrow\nD. Spreading and lacy",
+        "response": "None of the given descriptions match the characteristics of a tree or shrub.",
+        "correct_answer": "Spreading and lacy",
+        "score": "F"
+    },
+    "Tomato@9-3_2-1": {
+        "prompt": "What is the appearance of the leaves on the described branch?\n\nA. They are large and broad, giving a wide shape to the branch\nB. They are small and have a fern-like appearance\nC. They are needle-like and arranged in clusters\nD. They are thick and waxy, covering the branch completely",
+        "response": "",
+        "correct_answer": "They are small and have a fern-like appearance",
+        "score": "F"
+    },
+    "Tomato@8-25_1-55": {
+        "prompt": "What characteristic of the tree allows it to appear feathery and multi-branching?\n\nA. The dense, bright green foliage\nB. The slender brown trunk\nC. The small evergreen nature\nD. The spreading branches",
+        "response": "",
+        "correct_answer": "The dense, bright green foliage",
+        "score": "F"
+    },
+    "Tomato@9-3_20-28": {
+        "prompt": "What is the arrangement of the branches of the plant described?\n\nA. The branches are straight and upright\nB. The branches are curled\nC. The branches are arching\nD. The branches are completely horizontal",
+        "response": "The description does not provide a clear answer.",
+        "correct_answer": "The branches are arching",
+        "score": "F"
+    },
+    "Tomato@8-28_10-53": {
+        "prompt": "What type of plant is described as having a thin brown trunk with multiple slender, branching stems and dense clusters of green leaves with serrated margins?\n\nA. A large oak tree\nB. A cacti\nC. A small tree or shrub\nD. A flowering vine",
+        "response": "",
+        "correct_answer": "A small tree or shrub",
+        "score": "F"
+    },
+    "Tomato@9-6_1-55": {
+        "prompt": "What is the shape and color of the trunk of the tree described?\n\nA. Gnarled and yellow\nB. Thick and green\nC. Short and black\nD. Slender and brown",
+        "response": "",
+        "correct_answer": "Slender and brown",
+        "score": "F"
+    },
+    "Tomato@9-3_10-3": {
+        "prompt": "What type of plant is described in the text?\n\nA. A tree with a broad canopy and twisting branches\nB. A vine with a creeping growth pattern\nC. A densely foliated shrub with a single stem\nD. A small flowering plant with delicate leaves",
+        "response": "",
+        "correct_answer": "A tree with a broad canopy and twisting branches",
+        "score": "F"
+    },
+    "Tomato@8-31_20-28": {
+        "prompt": "What type of tree is described in the information?\n\nA. Coniferous tree\nB. Deciduous tree\nC. Evergreen tree\nD. Palm tree",
+        "response": "",
+        "correct_answer": "Deciduous tree",
+        "score": "F"
+    },
+    "Tomato@8-25_30-52": {
+        "prompt": "What type of appearance do the leaflets of the green woody branch have?\n\nA. Grass-like appearance\nB. Flower-like appearance\nC. Cactus-like appearance\nD. Fern-like appearance",
+        "response": "A. Grass-like appearance",
+        "correct_answer": "Fern-like appearance",
+        "score": "F"
+    },
+    "Tomato@11-2_30-4": {
+        "prompt": "What color are the new growth tips of the climbing plant described?\n\nA. Dark green\nB. Lime green\nC. Yellow\nD. Red",
+        "response": "The color of the new growth tips is not specified in the description.",
+        "correct_answer": "Lime green",
+        "score": "F"
+    },
+    "Tomato@9-14_10-3": {
+        "prompt": "What type of leaves does the tree have?\n\nA. Broad, flat leaves\nB. Thick, waxy leaves\nC. Needle-like leaves\nD. Finely divided, pinnate leaves",
+        "response": "None of the given options.",
+        "correct_answer": "Finely divided, pinnate leaves",
+        "score": "F"
+    },
+    "Tomato@11-2_1-1": {
+        "prompt": "What is the characteristic shape of the plant described?\n\nA. It has a wide, flat canopy like an umbrella\nB. It resembles a cactus with spines\nC. It has a central stem with arching fronds\nD. It is low and bushy without a defined shape",
+        "response": "None of the given descriptions match the characteristics of a cactus.",
+        "correct_answer": "It has a central stem with arching fronds",
+        "score": "F"
+    },
+    "Tomato@8-28_20-28": {
+        "prompt": "What is the primary characteristic of the foliage of the described shrub or tree?\n\nA. It is made up of large, broad leaves\nB. It features only a few thick, waxy leaves\nC. It has needle-like leaves\nD. It consists of multiple small pinnate leaflets",
+        "response": "",
+        "correct_answer": "It consists of multiple small pinnate leaflets",
+        "score": "F"
+    },
+    "Tomato@8-25_1-1": {
+        "prompt": "What type of leaves are described as being on the plant branch?\n\nA. Small, smooth leaves with pointed tips\nB. Broad, deeply lobed leaves with jagged edges\nC. Needle-like leaves with a waxy surface\nD. Heart-shaped leaves with a glossy finish",
+        "response": "",
+        "correct_answer": "Broad, deeply lobed leaves with jagged edges",
+        "score": "F"
+    },
+    "Wheat@79": {
+        "prompt": "What is the texture of the leaves on the potted shrub described?\n\nA. Smooth texture\nB. Glossy texture\nC. Rough texture\nD. Pointillistic texture",
+        "response": "The leaves on the potted shrub are described as having a pointillistic texture.",
+        "correct_answer": "Pointillistic texture",
+        "score": "T"
+    },
+    "Wheat@145": {
+        "prompt": "What type of plant is described in the room?\n\nA. Cactus\nB. Fern\nC. Palm tree\nD. Bamboo",
+        "response": "Cactus.",
+        "correct_answer": "Bamboo",
+        "score": "F"
+    },
+    "Wheat@91": {
+        "prompt": "What color are the leaves of the potted plant?\n\nA. Blue\nB. Yellow\nC. Red\nD. Dark to light green",
+        "response": "The leaves of the potted plant are dark green.",
+        "correct_answer": "Dark to light green",
+        "score": "T"
+    },
+    "Wheat@116": {
+        "prompt": "What type of plant is described in the room?\n\nA. Cactus\nB. Bamboo\nC. Fern\nD. Orchid",
+        "response": "C. Fern",
+        "correct_answer": "Bamboo",
+        "score": "F"
+    },
+    "Wheat@6": {
+        "prompt": "What type of plant is described in the room?\n\nA. A cactus with thick, spiny arms\nB. A bamboo-like plant with slender green stalks\nC. A flowering shrub with large blossoms\nD. A tree with broad, flat leaves",
+        "response": "",
+        "correct_answer": "A bamboo-like plant with slender green stalks",
+        "score": "F"
+    },
+    "Wheat@11": {
+        "prompt": "What type of plant is described in the room?\n\nA. A tall, bamboo-like plant\nB. A flowering shrub\nC. A small succulent\nD. An ornamental grass",
+        "response": "",
+        "correct_answer": "A tall, bamboo-like plant",
+        "score": "F"
+    },
+    "Wheat@34": {
+        "prompt": "What type of container is the houseplant situated in?\n\nA. Round pot\nB. High cylindrical vase\nC. Square box\nD. Low rectangular planter",
+        "response": "",
+        "correct_answer": "Low rectangular planter",
+        "score": "F"
+    },
+    "Wheat@127": {
+        "prompt": "What is the arrangement of the bamboo stalks described in the room?\n\nA. They are scattered on the floor\nB. They are placed in a large vase\nC. They are hanging from the ceiling\nD. They are clustered in a simple container",
+        "response": "",
+        "correct_answer": "They are clustered in a simple container",
+        "score": "F"
+    },
+    "Wheat@39": {
+        "prompt": "What is the structure of the trunk of the plant described?\n\nA. It is thin and fragile\nB. It is sturdy and brown\nC. It is short and bushy\nD. It is straight and green",
+        "response": "",
+        "correct_answer": "It is sturdy and brown",
+        "score": "F"
+    },
+    "Wheat@107": {
+        "prompt": "What type of plant is described?\n\nA. A bushy houseplant\nB. A flowering shrub\nC. A tree with thick bark\nD. A cacti species",
+        "response": "",
+        "correct_answer": "A bushy houseplant",
+        "score": "F"
+    },
+    "Wheat@122": {
+        "prompt": "What is the shape of the leaves of the potted plant described?\n\nA. Round and broad\nB. Oval and flat\nC. Short and wide\nD. Tall and slender",
+        "response": "None of the given options.",
+        "correct_answer": "Tall and slender",
+        "score": "F"
+    },
+    "Wheat@52": {
+        "prompt": "What characteristic does the green potted plant display along its tall, slender stems?  \n\nA. Thick, round leaves\nB. Wide, flat leaves\nC. Narrow, elongated leaves\nD. Short, spiky leaves",
+        "response": "",
+        "correct_answer": "Narrow, elongated leaves",
+        "score": "F"
+    },
+    "Wheat@96": {
+        "prompt": "What is the primary color of the trunk of the potted plant?\n\nA. Brown\nB. Green\nC. Yellow\nD. Red",
+        "response": "The primary color of the trunk is brown.",
+        "correct_answer": "Brown",
+        "score": "T"
+    },
+    "Wheat@26": {
+        "prompt": "What is the position of the log in the described setting?\n\nA. It is lying horizontally\nB. It is leaning against a wall\nC. It is standing upright\nD. It is hanging from a branch",
+        "response": "",
+        "correct_answer": "It is lying horizontally",
+        "score": "F"
+    },
+    "Wheat@88": {
+        "prompt": "What type of plant is described in the room?\n\nA. A flowering plant with large petals\nB. A potted fern with slender leaves\nC. A tree with a thick trunk\nD. A cactus with spines",
+        "response": "",
+        "correct_answer": "A potted fern with slender leaves",
+        "score": "F"
+    },
+    "Wheat@25": {
+        "prompt": "What color are the tiny leaves of the plant described?\n\nA. Red\nB. Brown\nC. Yellow\nD. Green",
+        "response": "The description doesn't specify the color of the leaves.",
+        "correct_answer": "Green",
+        "score": "F"
+    },
+    "Wheat@115": {
+        "prompt": "What color is the pot that holds the bamboo plant? \n\nA. Dark-colored\nB. Blue\nC. Red\nD. Light-colored",
+        "response": "The color of the pot is not specified in the description.",
+        "correct_answer": "Light-colored",
+        "score": "F"
+    },
+    "Wheat@28": {
+        "prompt": "What shape is the planter that holds the bamboo-like plant?\n\nA. Square\nB. Rectangular\nC. Circular\nD. Oval",
+        "response": "The shape of the planter is square.",
+        "correct_answer": "Rectangular",
+        "score": "F"
+    },
+    "Wheat@78": {
+        "prompt": "What shape does the small potted plant resemble?\n\nA. A wide, flat ground cover\nB. A tall, straight tree\nC. A round, compact ball\nD. A bushy, palm-like silhouette",
+        "response": "None of the given shapes.",
+        "correct_answer": "A bushy, palm-like silhouette",
+        "score": "F"
+    },
+    "Wheat@126": {
+        "prompt": "What type of plant is described in the room?\n\nA. Cactus\nB. Fern\nC. Bamboo\nD. Orchid",
+        "response": "None of the above. The description mentions a cactus, but it's not specified if it's a real or a 3D model.",
+        "correct_answer": "Bamboo",
+        "score": "F"
+    },
+    "Wheat@125": {
+        "prompt": "What type of plant is described in the room?\n\nA. Cactus with wide, flat leaves\nB. Green plant with bamboo-like stems\nC. Potted flower with colorful blooms\nD. Succulent with thick, fleshy leaves",
+        "response": "",
+        "correct_answer": "Green plant with bamboo-like stems",
+        "score": "F"
+    },
+    "Wheat@60": {
+        "prompt": "What color are the stripes on the decorative pot of the plant?\n\nA. Green and yellow\nB. Brown and beige\nC. Blue and white\nD. Black and red",
+        "response": "The colors are not specified in the description.",
+        "correct_answer": "Brown and beige",
+        "score": "F"
+    },
+    "Wheat@131": {
+        "prompt": "What color is the pot that holds the plant?\n\nA. Blue\nB. Green\nC. Brown\nD. Yellow",
+        "response": "The pot is brown.",
+        "correct_answer": "Brown",
+        "score": "T"
+    },
+    "Wheat@72": {
+        "prompt": "What is the primary color of the bamboo plant described?\n\nA. Blue\nB. Green\nC. Yellow\nD. Red",
+        "response": "The primary color of the bamboo plant is green.",
+        "correct_answer": "Green",
+        "score": "T"
+    },
+    "Wheat@149": {
+        "prompt": "What color are the leaves of the plant described?\n\nA. Blue\nB. Yellow\nC. Green\nD. Red",
+        "response": "The leaves of the plant are green.",
+        "correct_answer": "Green",
+        "score": "T"
+    },
+    "Wheat@119": {
+        "prompt": "What type of plant is described in the room?\n\nA. A cactus\nB. A succulent\nC. A small potted fern\nD. A small potted tree",
+        "response": "",
+        "correct_answer": "A small potted fern",
+        "score": "F"
+    },
+    "Wheat@21": {
+        "prompt": "What color are the leaves of the plant described?\n\nA. Light green\nB. Red\nC. Yellow\nD. Dark olive-green",
+        "response": "The color of the leaves is light green.",
+        "correct_answer": "Dark olive-green",
+        "score": "F"
+    },
+    "Wheat@84": {
+        "prompt": "What type of silhouette does the potted plant create?\n\nA. A flat, two-dimensional shape\nB. A triangular formation\nC. A cylindrical shape\nD. A bushy, tree-like silhouette",
+        "response": "",
+        "correct_answer": "A bushy, tree-like silhouette",
+        "score": "F"
+    },
+    "Wheat@4": {
+        "prompt": "What is the shape of the leaves on the potted plant?\n\nA. Dense and feathery, narrow\nB. Round and broad\nC. Flat and wide\nD. Sharp and needle-like",
+        "response": "None of the given options match the description.",
+        "correct_answer": "Dense and feathery, narrow",
+        "score": "F"
+    },
+    "Wheat@109": {
+        "prompt": "What is the color of the leaves of the potted bamboo-like plant described?\n\nA. Light green\nB. Brown\nC. Yellow\nD. Dark green",
+        "response": "The color of the leaves is light green.",
+        "correct_answer": "Dark green",
+        "score": "F"
+    },
+    "Wheat@89": {
+        "prompt": "What feature distinguishes the leaves of the indoor potted plant described?\n\nA. The leaves are wide and flat\nB. The leaves arch along the nodes\nC. The leaves are round and thick\nD. The leaves are short and stubby",
+        "response": "",
+        "correct_answer": "The leaves arch along the nodes",
+        "score": "F"
+    },
+    "Wheat@14": {
+        "prompt": "What type of plant is described as having slender, upright stalks with long, narrow leaves? \n\nA. Cactus\nB. Fern\nC. Palm tree\nD. Bamboo-like plant",
+        "response": "C. Palm tree",
+        "correct_answer": "Bamboo-like plant",
+        "score": "F"
+    },
+    "Wheat@73": {
+        "prompt": "What is the primary color of the grass blades described?\n\nA. Light purple\nB. Bright yellow\nC. Deep blue\nD. Dark green",
+        "response": "The primary color of the grass blades is light purple.",
+        "correct_answer": "Dark green",
+        "score": "F"
+    },
+    "Wheat@123": {
+        "prompt": "What type of plant is described in the room?\n\nA. A flowering plant\nB. A succulent\nC. A fern\nD. A cactus",
+        "response": "A cactus.",
+        "correct_answer": "A cactus",
+        "score": "T"
+    },
+    "Wheat@102": {
+        "prompt": "What type of containers is the green bamboo-like plant potted in?\n\nA. A blue ceramic pot\nB. A plastic container\nC. A transparent glass vase\nD. A metal bucket",
+        "response": "",
+        "correct_answer": "A transparent glass vase",
+        "score": "F"
+    },
+    "Wheat@80": {
+        "prompt": "What type of container is the bushy green shrub rooted in?\n\nA. A ceramic vase\nB. A wooden box\nC. A brown pot\nD. A glass jar",
+        "response": "",
+        "correct_answer": "A brown pot",
+        "score": "F"
+    },
+    "Wheat@87": {
+        "prompt": "What type of container is the plant in?\n\nA. Plastic pot\nB. Ceramic pot\nC. Metal pot\nD. Brown pot",
+        "response": "The plant is in a brown pot.",
+        "correct_answer": "Brown pot",
+        "score": "T"
+    },
+    "Wheat@98": {
+        "prompt": "What shape does the green potted plant resemble due to its fronds?\n\nA. A pyramid shape with a wide base and narrow top\nB. A flat, spread-out shape similar to a pancake\nC. A cylindrical shape with no branching\nD. A bushy, tropical look typical of a palm tree",
+        "response": "",
+        "correct_answer": "A bushy, tropical look typical of a palm tree",
+        "score": "F"
+    },
+    "Wheat@137": {
+        "prompt": "What is the color of the trunk of the potted plant described?\n\nA. Brown\nB. Green\nC. Yellow\nD. Black",
+        "response": "The color of the trunk is brown.",
+        "correct_answer": "Brown",
+        "score": "T"
+    },
+    "Wheat@113": {
+        "prompt": "What shape are the leaves of the bamboo plant described?\n\nA. Round and broad\nB. Short and pointed\nC. Oval and flat\nD. Long and narrow",
+        "response": "None of the given shapes are correct.",
+        "correct_answer": "Long and narrow",
+        "score": "F"
+    },
+    "Wheat@108": {
+        "prompt": "What feature describes the plant's structure?\n\nA. A long, single stem with wide, flat leaves\nB. A tall, thin base with round leaves\nC. Numerous long, narrow leaves radiating upward\nD. A compact root system with no visible leaves",
+        "response": "",
+        "correct_answer": "Numerous long, narrow leaves radiating upward",
+        "score": "F"
+    },
+    "Wheat@7": {
+        "prompt": "What shape is the planter that the green plant is growing from?\n\nA. Round\nB. Square\nC. Rectangular\nD. Oval",
+        "response": "The shape of the planter is not specified.",
+        "correct_answer": "Rectangular",
+        "score": "F"
+    },
+    "Wheat@42": {
+        "prompt": "What type of pot is the green potted plant housed in?\n\nA. Brown pot\nB. Blue pot\nC. Black pot\nD. White pot",
+        "response": "The color of the pot is not specified in the description.",
+        "correct_answer": "Brown pot",
+        "score": "F"
+    },
+    "Wheat@92": {
+        "prompt": "What type of plant is described in the room? \n\nA. Fern\nB. Bamboo\nC. Cactus\nD. Palm",
+        "response": "C. Palm",
+        "correct_answer": "Bamboo",
+        "score": "F"
+    },
+    "Wheat@15": {
+        "prompt": "What type of container is the plant situated in?\n\nA. A ceramic pot\nB. A wooden barrel\nC. A weathered metal trough\nD. A glass vase",
+        "response": "",
+        "correct_answer": "A weathered metal trough",
+        "score": "F"
+    }
+}
