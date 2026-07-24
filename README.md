@@ -187,6 +187,9 @@ sure to pass the path to the answer key with --answer_key.
 
 There is a multi-slurm shell script to do this in bulk.
 
+Scoring can also be done with local **gpt-oss-120b** via vLLM on Slurm using
+[gpt-oss_scoring](https://github.com/Mikey-E/gpt-oss_scoring).
+
 ## Analyze the results
 
 analyze_scored_responses.py will take a path to the directory of scored response 
