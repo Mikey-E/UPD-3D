@@ -1,0 +1,2144 @@
+{
+    "Cabbage@sl_1109_14": {
+        "prompt": "What type of chandelier is hanging in the room?\n\nA. Crystal Chandelier\nB. Modern LED Chandelier\nC. Vintage Pendant Chandelier\nD. Rustic Wooden Chandelier",
+        "response": "<think>\n1. The object is described as a potted plant with leaves and a stem.\n2. No chandelier is present or characterized in the supplied information.\n3. Therefore, none of the listed chandelier types is supported.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Cabbage@sl_1019_03": {
+        "prompt": "What shape is the table in the scene?\n\nA. Round\nB. Square\nC. Oval\nD. Rectangular",
+        "response": "<think>\n1. The available descriptions concern a leafy plant and do not mention a table.\n2. Therefore, the table's shape is not established by the available evidence.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Cabbage@mvs_1019_05": {
+        "prompt": "What is the height of the statue in the room?\n\nA. Four feet\nB. Seven feet\nC. Ten feet\nD. Twelve feet",
+        "response": "<think>\n1. The object is a potted plant in a dark pot.\n2. No statue or room measurement is provided, so the listed heights cannot be selected.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Cabbage@mvs_907_11": {
+        "prompt": "What is the size of the television in the room?\n\nA. 32 inches\nB. 55 inches\nC. 75 inches\nD. 45 inches",
+        "response": "<think>\n1. The available descriptions concern a potted plant and do not mention a television.\n2. No television size is established, so the listed sizes cannot be selected.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Cabbage@sl_1205_01": {
+        "prompt": "What type of artwork is displayed in the scene?\n\nA. Abstract painting\nB. Landscape mural\nC. Portrait photograph\nD. Sculpture",
+        "response": "<think>\n1. The scene is described as a potted plant with a brown pot.\n2. No abstract painting, landscape mural, portrait photograph, or sculpture is identified.\n3. Therefore, none of the listed choices is correct.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Cabbage@sl_921_07": {
+        "prompt": "What type of chair is included in the scene?\n\nA. Recliner\nB. Office chair\nC. Dining chair\nD. Lounge chair",
+        "response": "<think>\n1. The scene descriptions contain a potted plant and a circular ring, not a chair.\n2. No chair type is identified in the available evidence.\n3. Therefore, none of the listed choices is correct.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Cabbage@mvs_901_14": {
+        "prompt": "What is the texture of the tablecloth?\n\nA. Smooth\nB. Rough\nC. Silky\nD. Velvety",
+        "response": "<think>\n1. The available descriptions do not establish a tablecloth texture.\n2. The listed texture choices therefore cannot be selected from the available evidence.\n3. Therefore, there is no correct answer.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Cabbage@mvs_1123_14": {
+        "prompt": "What animal is perched on the windowsill?\n\nA. Sparrow\nB. Cat\nC. Owl\nD. Goldfish",
+        "response": "<think>\n1. The available descriptions contain no windowsill or animal.\n2. The listed animal choices therefore cannot be selected from the available evidence.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Cabbage@mvs_1019_09": {
+        "prompt": "What is the height of the statue nearby?\n\nA. Five feet\nB. Ten feet\nC. Three feet\nD. Seven feet",
+        "response": "<think>\n1. The available descriptions concern a potted plant and do not establish a statue or its height.\n2. The height cannot be matched to five, ten, three, or seven feet.\n3. Therefore, there is no correct answer.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Cabbage@sl_907_03": {
+        "prompt": "What is the shape of the window in the room?\n\nA. Square\nB. Circular\nC. Triangular\nD. Rectangular",
+        "response": "<think>\n1. The available descriptions do not establish a room or window.\n2. They also do not establish a circular, triangular, or rectangular shape.\n3. Therefore, no listed answer is supported.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Cabbage@sl_1205_05": {
+        "prompt": "What shape is the window in the scene?\n\nA. Circular\nB. Triangular\nC. Hexagonal\nD. Oval",
+        "response": "<think>\n1. The scene descriptions contain no window or window shape.\n2. The listed shapes therefore cannot be determined from the available evidence.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Cabbage@mvs_1019_03": {
+        "prompt": "What type of chair is featured in the scene?\n\nA. Recliner\nB. Office chair\nC. Dining chair\nD. Bean bag",
+        "response": "<think>\n1. The scene descriptions contain no chair or chair type.\n2. Therefore, none of the listed chair options is supported.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Cabbage@sl_901_02": {
+        "prompt": "What kind of painting is hanging on the wall?\n\nA. Abstract Landscape\nB. Portrait of a Lady\nC. Still Life with Flowers\nD. Cityscape at Dusk",
+        "response": "<think>\n1. The available descriptions concern a potted plant and a circular ring.\n2. They do not establish that a painting is hanging on a wall or identify its subject.\n3. Therefore, no listed answer is supported.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Cabbage@mvs_1205_09": {
+        "prompt": "What type of window treatment is used in the scene?\n\nA. Blinds\nB. Drapes\nC. Curtains\nD. Shutters",
+        "response": "<think>\n1. The scene descriptions contain no information about a window treatment.\n2. Therefore, none of the listed options is supported.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Cabbage@sl_1019_07": {
+        "prompt": "What type of light fixture is hanging above the scene?\n\nA. Chandelier\nB. Pendant light\nC. Ceiling fan\nD. Track lighting",
+        "response": "<think>\n1. The scene descriptions contain no hanging light fixture.\n2. Therefore, none of the listed fixture types is supported.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Cabbage@sl_1019_05": {
+        "prompt": "What type of window treatments are used in the room?\n\nA. Venetian blinds\nB. Sheer curtains\nC. Roller shades\nD. Drapes",
+        "response": "<think>\n1. The available descriptions concern a potted plant and do not mention any window treatment.\n2. Therefore, none of the listed window-treatment choices is supported.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Cabbage@sl_1116_11": {
+        "prompt": "What type of art piece is prominently displayed in the scene?\n\nA. A large abstract painting\nB. A bronze sculpture\nC. A colorful mural\nD. A wooden totem",
+        "response": "<think>\n1. The scene contains a potted plant with a brown stem and green leaves.\n2. The descriptions do not establish a large abstract painting, bronze sculpture, colorful mural, or wooden totem.\n3. Therefore, no listed answer is correct.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Cabbage@mvs_1012_06": {
+        "prompt": "What is the shape of the window in the room?\n\nA. Round\nB. Square\nC. Arched\nD. Oval",
+        "response": "<think>\n1. The available descriptions concern a plant in a pot, not a room or window.\n2. No window shape is established, so round, square, arched, and oval cannot be selected.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Cabbage@mvs_907_07": {
+        "prompt": "What kind of furniture is included in the scene?\n\nA. Armchair\nB. Coffee table\nC. Bookshelf\nD. Dining table",
+        "response": "<think>\n1. The object is a potted plant in a dark cylindrical pot.\n2. No armchair, coffee table, bookshelf, or dining table is described.\n3. Therefore, none of the listed furniture choices is correct.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Cabbage@sl_921_11": {
+        "prompt": "What fabric is used for the curtains?\n\nA. Silk\nB. Cotton\nC. Velvet\nD. Linen",
+        "response": "<think>\n1. The object is described as a potted plant in a dark pot.\n2. No curtains or curtain fabric are identified, so the fabric choices cannot be selected.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Cabbage@sl_1019_01": {
+        "prompt": "What type of flooring is used in the living room?\n\nA. Hardwood\nB. Tile\nC. Carpet\nD. Laminate",
+        "response": "<think>\n1. The object is a potted plant with a stem and leaves.\n2. There is no evidence of a living room or flooring type.\n3. Therefore, none of the listed flooring choices is correct.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Cabbage@mvs_929_06": {
+        "prompt": "What is the shape of the table in the scene?\n\nA. Oval\nB. Rectangular\nC. Circular\nD. Triangular",
+        "response": "<think>\n1. The scene descriptions contain no table or pot.\n2. Therefore, the shape cannot be identified as oval, rectangular, circular, or triangular.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Cabbage@sl_1109_12": {
+        "prompt": "What type of light fixture is hanging from the ceiling?\n\nA. Chandelier\nB. Pendant light\nC. Floor lamp\nD. Wall sconce",
+        "response": "<think>\n1. The available descriptions do not establish a ceiling-hanging light fixture.\n2. The listed fixture types are not supported by the available evidence.\n3. Therefore, no listed answer is correct.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Cabbage@mvs_1116_07": {
+        "prompt": "What type of chair is featured in the scene?\n\nA. Armchair\nB. Folding chair\nC. Recliner\nD. Bean bag chair",
+        "response": "<think>\n1. The scene descriptions contain no chair or chair type.\n2. The available chair categories cannot be matched to an observed object.\n3. Therefore, no listed answer is correct.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Cabbage@mvs_921_03": {
+        "prompt": "What type of sculpture is located in the center of the scene?\n\nA. Marble bust\nB. Bronze statue\nC. Wooden figure\nD. Glass orb",
+        "response": "<think>\n1. The object is described as a potted plant with a dark cylindrical pot and a small leafy plant.\n2. It is not a marble bust, bronze statue, wooden figure, or glass orb.\n3. Therefore, none of the listed sculpture types is correct.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Cabbage@mvs_901_10": {
+        "prompt": "What type of chair is featured in the scene?\n\nA. Armchair\nB. Dining chair\nC. Recliner\nD. Lounge chair",
+        "response": "<think>\n1. The scene description identifies a potted plant in a dark cylindrical pot.\n2. It does not establish the presence or type of a chair.\n3. Therefore, none of the listed chair choices is supported.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Cabbage@sl_1103_05": {
+        "prompt": "What style of chair complements the scene?\n\nA. Recliner\nB. Armchair\nC. Dining chair\nD. Rocking chair",
+        "response": "<think>\n1. The scene descriptions contain no chair.\n2. Therefore, none of the listed chair styles is supported.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Cabbage@sl_907_11": {
+        "prompt": "What type of painting is hanging on the wall?\n\nA. Abstract\nB. Landscape\nC. Portrait\nD. Still life",
+        "response": "<think>\n1. The available descriptions do not establish the presence or type of a painting.\n2. Therefore, none of the listed painting categories can be selected.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Cabbage@mvs_1103_05": {
+        "prompt": "What type of ceiling fan is installed in the room?\n\nA. Bladeless fan\nB. Traditional wooden fan\nC. Industrial metal fan\nD. Vintage chandelier fan",
+        "response": "<think>\n1. The object is described as a potted plant with a brown pot and soil.\n2. No ceiling fan or room fixture is present in the supplied information.\n3. Therefore, none of the listed fan types is supported.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Cabbage@mvs_901_12": {
+        "prompt": "What type of light fixture is hanging above the table?\n\nA. Chandelier\nB. Pendant light\nC. Wall sconce\nD. Ceiling fan",
+        "response": "<think>\n1. The object is described as a potted plant with a brown pot.\n2. No chandelier, pendant light, wall sconce, or ceiling fan is present.\n3. Therefore, none of the listed choices is correct.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Cabbage@mvs_914_12": {
+        "prompt": "What is the height of the bookshelf in the room?\n\nA. Six feet\nB. Seven feet\nC. Eight feet\nD. Nine feet",
+        "response": "<think>\n1. The available descriptions concern a potted plant and its pot.\n2. They provide no bookshelf or height measurement.\n3. Therefore, none of the listed heights is supported.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Cabbage@sl_1026_02": {
+        "prompt": "What style of chair is featured in the scene?\n\nA. Armchair\nB. Rocking chair\nC. Recliner\nD. Dining chair",
+        "response": "<think>\n1. The scene description identifies a potted plant with leaves and a pot.\n2. It does not establish the presence or style of a chair.\n3. Therefore, none of the listed chair styles is supported.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Cabbage@sl_921_03": {
+        "prompt": "What type of building is depicted in the scene?\n\nA. Skyscraper\nB. Cottage\nC. Factory\nD. Barn",
+        "response": "<think>\n1. The scene is described as a potted plant with a circular ring.\n2. The descriptions do not identify a building or any of the four building types.\n3. Therefore, no listed answer is correct.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Cabbage@mvs_1026_08": {
+        "prompt": "What type of ceiling fan is installed in the room?\n\nA. Modern chandelier fan\nB. Industrial style fan\nC. Vintage brass fan\nD. Decorative tropical fan",
+        "response": "<think>\n1. The object is described as a potted plant with a stem and leaves.\n2. There is no evidence of a ceiling fan or its style.\n3. Therefore, none of the listed fan options is correct.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Cabbage@sl_1109_10": {
+        "prompt": "What is the height of the bookshelf?\n\nA. Six feet\nB. Three feet\nC. Eight feet\nD. Ten feet",
+        "response": "<think>\n1. The available descriptions do not establish a bookshelf or its height.\n2. The listed measurements therefore cannot be selected from the available evidence.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Cabbage@mvs_929_10": {
+        "prompt": "What type of chair is located next to the plant?\n\nA. Recliner\nB. Dining chair\nC. Bar stool\nD. Bean bag",
+        "response": "<think>\n1. The available descriptions contain no chair or plant information.\n2. Therefore, none of the listed chair types is supported.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Cabbage@mvs_1205_01": {
+        "prompt": "What type of furniture is featured in the scene?\n\nA. Sofa\nB. Coffee table\nC. Bookshelf\nD. Armchair",
+        "response": "<think>\n1. The scene description identifies a potted plant with a stem and leaves.\n2. It does not establish a sofa, coffee table, bookshelf, or armchair.\n3. Therefore, no listed furniture type is supported.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Cabbage@mvs_1019_11": {
+        "prompt": "What is the size of the sculpture displayed in the room?\n\nA. Small\nB. Medium\nC. Large\nD. Extra Large",
+        "response": "<think>\n1. The available descriptions concern a potted plant and do not establish a sculpture's size.\n2. Therefore, none of the listed size choices is supported.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Cabbage@sl_1026_08": {
+        "prompt": "What type of lamp is used in the scene?\n\nA. Floor lamp\nB. Table lamp\nC. Pendant lamp\nD. Wall lamp",
+        "response": "<think>\n1. The scene descriptions contain no lamp.\n2. Therefore, none of the listed lamp types is supported.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Cabbage@mvs_907_13": {
+        "prompt": "What type of lamp is used in the scene?\n\nA. Floor lamp\nB. Table lamp\nC. Wall sconce\nD. Pendant lamp",
+        "response": "<think>\n1. The available descriptions contain no lamp or lighting fixture.\n2. They also do not establish a floor, table, wall, or pendant lamp.\n3. Therefore, none of the listed lamp types is supported.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Cabbage@mvs_1005_11": {
+        "prompt": "What type of ceiling fan is featured in the scene?\n\nA. Industrial fan\nB. Decorative chandelier fan\nC. Modern minimalist fan\nD. Vintage-style fan",
+        "response": "<think>\n1. The scene descriptions contain no ceiling fan or chandelier.\n2. The available fan types therefore do not match the observed object.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Cabbage@mvs_901_06": {
+        "prompt": "What type of fish is swimming in the scene?\n\nA. Goldfish\nB. Betta\nC. Guppy\nD. Clownfish",
+        "response": "<think>\n1. The scene contains a potted plant in a cylindrical pot.\n2. No fish is described or visible in the supplied information.\n3. Therefore, none of the listed fish types is supported.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Cabbage@sl_1109_08": {
+        "prompt": "What shape is the coffee table in the room?\n\nA. Round\nB. Square\nC. Oval\nD. Rectangular",
+        "response": "<think>\n1. The available descriptions do not mention a coffee table.\n2. They also do not establish its shape as round, square, oval, or rectangular.\n3. Therefore, no listed answer is supported.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Cabbage@mvs_929_14": {
+        "prompt": "What type of chair is present in the scene?\n\nA. Recliner\nB. Barstool\nC. Armchair\nD. Folding chair",
+        "response": "<think>\n1. The scene descriptions contain a potted plant and a cylindrical pot, not a chair.\n2. No chair type is established, so none of the listed options is supported.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Cabbage@sl_907_01": {
+        "prompt": "What type of lighting is installed in the scene?\n\nA. Chandeliers\nB. Wall sconces\nC. Pendant lights\nD. Floor lamps",
+        "response": "<think>\n1. The scene descriptions contain no information about a chandelier, wall sconce, pendant light, or floor lamp.\n2. Therefore, none of the listed lighting types is supported.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Cabbage@sl_1026_10": {
+        "prompt": "What is the shape of the table in the scene?\n\nA. Round\nB. Square\nC. Oval\nD. Rectangular",
+        "response": "<think>\n1. The scene descriptions contain no table or table shape.\n2. Therefore, none of the listed shapes is supported.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Cabbage@sl_901_10": {
+        "prompt": "What type of chair is situated next to the bonsai tree?\n\nA. Recliner\nB. Armchair\nC. Dining Chair\nD. Rocking Chair",
+        "response": "<think>\n1. The object is a potted plant with a circular base and a small circular ring.\n2. No chair is described or visible in the supplied information.\n3. Therefore, none of the listed chair types is supported.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Cabbage@mvs_1012_12": {
+        "prompt": "What type of window treatment is used in the scene?\n\nA. Sheer curtains\nB. Wooden blinds\nC. Roller shades\nD. Roman shades",
+        "response": "<think>\n1. The available descriptions contain no information about a window treatment.\n2. Therefore, none of the listed options is supported.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Cabbage@mvs_1109_02": {
+        "prompt": "What shape is the table in the scene?\n\nA. Rectangular\nB. Octagonal\nC. Round\nD. Hexagonal",
+        "response": "<think>\n1. The available descriptions do not establish the presence or shape of a table.\n2. The listed shapes cannot be selected from the available evidence.\n3. Therefore, none of the listed choices is correct.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Cabbage@sl_901_04": {
+        "prompt": "What shape are the windows in the scene?\n\nA. Square\nB. Oval\nC. Triangular\nD. Rectangular",
+        "response": "<think>\n1. The available descriptions do not establish the presence or shape of windows.\n2. Therefore, none of the listed window shapes is supported.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Cabbage@mvs_1116_01": {
+        "prompt": "What type of lamp is used for illuminating the space?\n\nA. Floor lamp\nB. Table lamp\nC. Pendant lamp\nD. Wall-mounted lamp",
+        "response": "<think>\n1. The available descriptions contain no lamp or lighting fixture.\n2. They only describe a potted plant with a stem and leaves.\n3. Therefore, none of the listed lamp types is supported.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Cabbage@mvs_901_08": {
+        "prompt": "What type of sofa is situated in the room?\n\nA. Leather sofa\nB. Fabric sofa\nC. Recliner sofa\nD. Sectional sofa",
+        "response": "<think>\n1. The object is a potted plant in a dark cylindrical pot.\n2. No sofa is present or described.\n3. Therefore, none of the listed sofa types is correct.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Cabbage@sl_1109_06": {
+        "prompt": "What is the height of the bookshelf?\n\nA. Six feet\nB. Four feet\nC. Eight feet\nD. Ten feet",
+        "response": "<think>\n1. The available descriptions concern a potted plant and do not establish a bookshelf height.\n2. Therefore, none of the listed heights can be selected.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Cabbage@mvs_914_04": {
+        "prompt": "What is the shape of the chandelier in the room?\n\nA. Round\nB. Square\nC. Oval\nD. Rectangular",
+        "response": "<think>\n1. The object is described as a potted plant with leaves and a stem.\n2. No chandelier or chandelier shape is identified.\n3. Therefore, none of the listed shapes is supported.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Cabbage@sl_1019_13": {
+        "prompt": "What type of sofa is present in the scene?\n\nA. Leather sectional\nB. Fabric loveseat\nC. Recliner chair\nD. Sleeper sofa",
+        "response": "<think>\n1. The available descriptions concern a potted plant and do not establish a sofa.\n2. No listed sofa type is present in the scene.\n3. Therefore, no choice is correct.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Cabbage@sl_1026_12": {
+        "prompt": "What type of lighting fixture adorns the room?\n\nA. Chandelier\nB. Pendant light\nC. Ceiling fan\nD. Wall sconce",
+        "response": "<think>\n1. The available descriptions concern a potted plant and its leaves.\n2. They do not establish the presence or type of a room lighting fixture.\n3. Therefore, none of the listed fixture choices is supported.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Cabbage@mvs_1103_03": {
+        "prompt": "What type of window treatments are in the scene?\nA. Sheer curtains\nB. Blinds\nC. Drapes\nD. Tinted glass",
+        "response": "<think>\n1. The scene descriptions contain no information about a window or its treatment.\n2. Therefore, none of the listed window-treatment options is supported.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Cabbage@sl_1103_13": {
+        "prompt": "What type of painting is hanging on the wall?\n\nA. Landscape\nB. Abstract\nC. Portrait\nD. Still Life",
+        "response": "<think>\n1. The available descriptions concern a potted plant and do not establish a wall painting.\n2. No listed painting type is supported by the available evidence.\n3. Therefore, there is no correct answer.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Cabbage@sl_907_05": {
+        "prompt": "What shape is the table in the room?\n\nA. Rectangular\nB. Round\nC. Oval\nD. Square",
+        "response": "<think>\n1. The available descriptions do not establish that a table is present.\n2. They also do not establish its shape.\n3. Therefore, none of the listed choices is supported.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Cotton@116": {
+        "prompt": "What is the height of the bridge in the scene?\n\nA. 50 meters\nB. 80 meters\nC. 120 meters\nD. 200 meters",
+        "response": "<think>\n1. The scene descriptions contain no bridge or bridge measurement.\n2. Therefore, none of the proposed heights is supported.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Cotton@14": {
+        "prompt": "What type of furniture is featured in the scene?\n\nA. Coffee Table\nB. Armchair\nC. Bookshelf\nD. Console Table",
+        "response": "<think>\n1. The scene descriptions contain no coffee table, armchair, bookshelf, or console table.\n2. Therefore, none of the listed furniture types is supported.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Cotton@62": {
+        "prompt": "What is the height of the building?\n\nA. Two stories\nB. Five stories\nC. Ten stories\nD. Twenty stories",
+        "response": "<think>\n1. The available descriptions concern a flowering branch, not a building.\n2. No building height or story count is provided.\n3. Therefore, none of the listed choices is supported.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Cotton@126": {
+        "prompt": "What type of bench is located near the sapling?\n\nA. Wooden bench\nB. Metal bench\nC. Stone bench\nD. Plastic bench",
+        "response": "<think>\n1. The descriptions identify a sapling with branches and leaves.\n2. They do not establish the presence or type of a nearby bench.\n3. Therefore, none of the listed bench choices is supported.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Cotton@16": {
+        "prompt": "What is the height of the sculpture in the courtyard?\n\nA. 5 feet\nB. 7 feet\nC. 10 feet\nD. 12 feet",
+        "response": "<think>\n1. The available descriptions concern a small tree or shrub with branches and leaves.\n2. They provide no height measurement or comparison to the sculpture.\n3. Therefore, none of the listed heights is supported.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Cotton@113": {
+        "prompt": "What type of furniture is located near the branch?\n\nA. Sofa\nB. Coffee Table\nC. Bookshelf\nD. Dining Chair",
+        "response": "<think>\n1. The object is a flowering branch with white blossoms and a small brown base.\n2. There is no evidence of a sofa, coffee table, bookshelf, or dining chair near it.\n3. Therefore, none of the listed furniture choices is correct.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Cotton@27": {
+        "prompt": "What type of vehicle is parked nearby?\n\nA. Sedan\nB. Motorcycle\nC. Truck\nD. Bicycle",
+        "response": "<think>\n1. The object is described as a tree with branches and leaves.\n2. No nearby vehicle is identified, so none of the listed vehicle types is supported.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Cotton@92": {
+        "prompt": "What is the width of the window in the scene?\n\nA. Two feet\nB. Four feet\nC. Six feet\nD. Eight feet",
+        "response": "<think>\n1. The scene descriptions contain no window or measurement of a window.\n2. The listed widths cannot be determined from the available evidence.\n3. Therefore, no listed answer is correct.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Cotton@198": {
+        "prompt": "What type of vehicle is parked near the sapling?\n\nA. Sports car\nB. Bicycle\nC. Bus\nD. Motorcycle",
+        "response": "<think>\n1. The descriptions identify a sapling with branches and blossoms.\n2. No vehicle is described near it.\n3. Therefore, none of the listed vehicle types is supported.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Cotton@63": {
+        "prompt": "What type of furniture is in the scene?\n\nA. Coffee table\nB. Dining chair\nC. Bookshelf\nD. Sofa",
+        "response": "<think>\n1. The scene description identifies a potted plant with a stem and leaves.\n2. It does not establish a coffee table, dining chair, bookshelf, or sofa.\n3. Therefore, none of the listed furniture choices is correct.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Cotton@120": {
+        "prompt": "What type of roof is featured in the scene?\n\nA. Gabled\nB. Flat\nC. Hipped\nD. Mansard",
+        "response": "<think>\n1. The object is described as a flowering branch with white blossoms and snow-dusted leaves.\n2. No roof is visible or identified in the supplied descriptions.\n3. Therefore, none of the roof choices is supported.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Cotton@81": {
+        "prompt": "What type of sofa is featured in the scene?\n\nA. Leather sectional\nB. Fabric loveseat\nC. Reclining chair\nD. Futon",
+        "response": "<think>\n1. The scene descriptions contain no sofa or sofa-related object.\n2. Therefore, none of the listed sofa types is supported.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Cotton@136": {
+        "prompt": "What type of paint is used on the wooden fence?\n\nA. White\nB. Red\nC. Blue\nD. Green",
+        "response": "<think>\n1. The object is described as a flowering branch with white blossoms.\n2. The available colors are white, red, blue, and green, so no listed color matches the observed branch.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Cotton@26": {
+        "prompt": "What type of furniture is featured in the room?\n\nA. Sofa\nB. Table\nC. Chair\nD. Cabinet",
+        "response": "<think>\n1. The object is a potted plant with a slender stem and leaves.\n2. It is not a sofa, table, chair, or cabinet.\n3. Therefore, none of the listed furniture choices is correct.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Cotton@112": {
+        "prompt": "What shape is the fountain in the scene?\n\nA. Round\nB. Square\nC. Oval\nD. Triangular",
+        "response": "<think>\n1. The object is described as a branching plant with white blossoms.\n2. The descriptions do not establish a fountain or its shape.\n3. Therefore, none of the listed shapes is supported.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Cotton@2": {
+        "prompt": "What shape is the table in the room?\n\nA. Round\nB. Square\nC. Rectangular\nD. Oval",
+        "response": "<think>\n1. The available descriptions concern a potted plant and do not mention a table.\n2. The table's shape is therefore not established.\n3. Therefore, no listed answer is correct.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Cotton@21": {
+        "prompt": "What type of vehicle is parked nearby?\n\nA. Sedan\nB. Bicycle\nC. Convertible\nD. Motorcycle",
+        "response": "<think>\n1. The object is described as a flowering branch with white blossoms.\n2. No nearby vehicle is identified, so none of the vehicle choices is supported.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Cotton@173": {
+        "prompt": "What type of fruit is represented in the scene?\n\nA. Apple\nB. Banana\nC. Grape\nD. Mango",
+        "response": "<think>\n1. The scene contains a flowering branch with white blossoms.\n2. The descriptions do not identify an apple, banana, grape, or mango.\n3. Therefore, no listed fruit type is supported.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Cotton@107": {
+        "prompt": "What is the height of the bookshelf?\n\nA. Six feet\nB. Four feet\nC. Eight feet\nD. Ten feet",
+        "response": "<think>\n1. The object is described as a potted plant with a slender stem and leaves.\n2. No bookshelf or measurement is provided, so the listed heights cannot be selected.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Cotton@22": {
+        "prompt": "What type of lamp is located in the scene?\n\nA. Floor lamp\nB. Desk lamp\nC. Table lamp\nD. Pendant lamp",
+        "response": "<think>\n1. The object is a potted plant with a slender stem and leaves.\n2. No lamp is described, so the lamp type cannot be identified from the available evidence.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Cotton@115": {
+        "prompt": "What type of window treatment is used in the scene?\n\nA. Sheer curtains\nB. Venetian blinds\nC. Roman shades\nD. Bamboo shades",
+        "response": "<think>\n1. The available descriptions do not mention a window or any window treatment.\n2. Therefore, the listed window-treatment choices cannot be selected.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Cotton@159": {
+        "prompt": "What type of sculpture is featured in the scene?\n\nA. Abstract sculpture\nB. Marble statue\nC. Bronze bust\nD. Wooden carving",
+        "response": "<think>\n1. The object is described as a potted plant with green leaves.\n2. It is not an abstract sculpture, marble statue, bronze bust, or wooden carving.\n3. Therefore, none of the listed choices is correct.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Cotton@153": {
+        "prompt": "What type of animal is standing in front of the plant?\n\nA. Cat\nB. Dog\nC. Rabbit\nD. Parrot",
+        "response": "<think>\n1. The plant is described as a small tree with branches and leaves.\n2. No cat, dog, rabbit, or parrot is present in the descriptions.\n3. Therefore, none of the listed animal choices is correct.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Cotton@88": {
+        "prompt": "What color is the sofa?\n\nA. Red\nB. Green\nC. Blue\nD. Yellow",
+        "response": "<think>\n1. The object is described as a green plant with a slender stem and leaves.\n2. The sofa is not present in the supplied descriptions, so its color cannot be determined.\n3. Therefore, no listed color is correct.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Cotton@9": {
+        "prompt": "What feature does the lake have in this scene?\n\nA. A fountain\nB. A dock\nC. A boating area\nD. A beach",
+        "response": "<think>\n1. The scene description identifies a tree with a slender trunk and branches.\n2. It does not establish a fountain, dock, or beach, so no listed option fits.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Cotton@72": {
+        "prompt": "What type of sculpture is displayed near the plant?\n\nA. Abstract figure\nB. Bust of a historical figure\nC. Marble column\nD. Wooden totem",
+        "response": "<think>\n1. The object is described as a small tree with branches and leaves.\n2. No sculpture is identified near the plant, so none of the listed sculpture types is supported.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Cotton@25": {
+        "prompt": "What type of statue is situated in the garden?\n\nA. Marble angel\nB. Bronze unicorn\nC. Stone lion\nD. Wooden totem",
+        "response": "<think>\n1. The object is described as a small tree with white blossoms and snow-covered branches.\n2. No statue is present in the described scene.\n3. Therefore, none of the listed statue types is correct.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Cotton@158": {
+        "prompt": "What type of sculpture is located next to the branch?\n\nA. Marble bust\nB. Wooden totem\nC. Stone relief\nD. Bronze statue",
+        "response": "<think>\n1. The object is described as a branch with white blossoms and snow-dusted leaves.\n2. No sculpture or statue is identified next to it.\n3. Therefore, none of the listed sculpture types is supported.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Cotton@180": {
+        "prompt": "What type of animal is seen climbing the sapling?\n\nA. Rabbit\nB. Squirrel\nC. Bird\nD. Fox",
+        "response": "<think>\n1. The object is a flowering sapling with white blossoms and leaves.\n2. No animal is described as climbing it.\n3. Therefore, none of the listed animal choices is correct.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Cotton@149": {
+        "prompt": "What type of window treatment is used in the scene?\n\nA. Sheer curtains\nB. Roman shades\nC. Blinds\nD. Drapes",
+        "response": "<think>\n1. The available descriptions contain no information about a window or its treatment.\n2. Thus, none of the listed window-treatment choices can be supported.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Cotton@125": {
+        "prompt": "What type of crown is worn at the festival?\n\nA. Floral crown\nB. Golden crown\nC. Leather crown\nD. Beaded crown",
+        "response": "<think>\n1. The descriptions identify a floral crown, not a leather or beaded crown.\n2. The other crown choices do not match the observed object.\n3. Therefore, no listed crown type is correct.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Cotton@51": {
+        "prompt": "What type of ceiling design is incorporated in the scene?\n\nA. Coffered\nB. Vaulted\nC. Tray\nD. Drop",
+        "response": "<think>\n1. The object is described as a potted plant with a brown pot and soil.\n2. No ceiling design is identified, so the listed options do not fit.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Cotton@67": {
+        "prompt": "What type of vehicle is parked next to the tree?\n\nA. Sedan\nB. Pickup truck\nC. Bicycle\nD. Motorcycle",
+        "response": "<think>\n1. The available descriptions do not establish the presence of a parked vehicle.\n2. No listed vehicle type is supported by the available evidence.\n3. Therefore, no listed answer is correct.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Cotton@127": {
+        "prompt": "What type of fruit is hanging from the branch?\n\nA. Apples\nB. Oranges\nC. Bananas\nD. Grapes",
+        "response": "<think>\n1. The branch is described as bearing white blossoms, not fruit.\n2. The available fruit choices are apples, oranges, bananas, and grapes, none of which is present.\n3. Therefore, there is no correct answer.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Cotton@11": {
+        "prompt": "What type of window treatment is used in the scene?\n\nA. Roman shades\nB. Vertical blinds\nC. Curtains\nD. Roller shades",
+        "response": "<think>\n1. The available descriptions concern a potted plant and do not establish any window treatment.\n2. Therefore, none of the listed window-treatment choices is supported.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Cotton@137": {
+        "prompt": "What shape is the coffee table?\n\nA. Round\nB. Square\nC. Oval\nD. Rectangular",
+        "response": "<think>\n1. The object is described as a small potted plant with a slender stem and leaves.\n2. The descriptions do not establish a coffee table or its shape.\n3. Therefore, none of the listed shapes is supported.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Cotton@78": {
+        "prompt": "What type of chair is positioned next to the sapling?\n\nA. Recliner\nB. Armchair\nC. Dining chair\nD. Rocking chair",
+        "response": "<think>\n1. The descriptions only identify a sapling with a slender trunk and branches.\n2. They do not establish the presence or type of a chair beside it.\n3. Therefore, no listed chair option is supported.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Cotton@6": {
+        "prompt": "What type of transportation is used in the scene?\n\nA. Bicycle\nB. Car\nC. Skateboard\nD. Helicopter",
+        "response": "<think>\n1. The object is a small tree with branches and white blossoms.\n2. No bicycle, car, skateboard, or helicopter is described.\n3. Therefore, none of the listed choices is correct.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Cotton@188": {
+        "prompt": "What is the height of the bookshelf in the scene?\n\nA. Six feet\nB. Three feet\nC. Eight feet\nD. Five feet",
+        "response": "<think>\n1. The object is a small potted plant with a slender stem and leaves.\n2. No bookshelf or height measurement is described.\n3. Therefore, none of the listed heights is supported.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Cotton@79": {
+        "prompt": "What type of chair is placed beside the shrub?\n\nA. Recliner\nB. Armchair\nC. Bean bag\nD. Dining chair",
+        "response": "<think>\n1. The descriptions identify a small tree or shrub with branches and leaves.\n2. No chair is described beside it, so the listed chair types do not fit.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Cotton@133": {
+        "prompt": "What is the size of the fountain in the park?\n\nA. Large\nB. Medium\nC. Small\nD. Extra large",
+        "response": "<think>\n1. The object is described as a small tree with a slender trunk and branches.\n2. The fountain is not described, so its size cannot be determined.\n3. Therefore, none of the listed size choices is supported.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Cotton@197": {
+        "prompt": "What type of furniture is located near the shrub?\n\nA. Coffee table\nB. Bookshelf\nC. Armchair\nD. Dining table",
+        "response": "<think>\n1. The descriptions contain no coffee table, bookshelf, armchair, or dining table.\n2. The object is a flowering branch with leaves and blossoms.\n3. Therefore, none of the listed furniture choices is correct.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Cotton@176": {
+        "prompt": "What type of vehicle is parked in the scene?\n\nA. Sedan\nB. Motorcycle\nC. Van\nD. Coupe",
+        "response": "<think>\n1. The scene descriptions contain no vehicle or parked object.\n2. Therefore, none of the listed vehicle types can be identified.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Cotton@160": {
+        "prompt": "What type of furniture is in the garden?\n\nA. Lounge Chair\nB. Dining Table\nC. Hammock\nD. Bench",
+        "response": "<think>\n1. The object is described as a small tree with a slender trunk and branches.\n2. No garden furniture is identified, so the listed furniture choices do not fit.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Cotton@65": {
+        "prompt": "What type of sofa is featured in the scene?\n\nA. Leather Sofa\nB. Recliner Sofa\nC. Sectional Sofa\nD. Futon Sofa",
+        "response": "<think>\n1. The scene descriptions contain no sofa.\n2. The available sofa types therefore cannot be matched to the observed object.\n3. Therefore, no listed answer is correct.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Cotton@100": {
+        "prompt": "What is the size of the fountain in the scene?\n\nA. Large enough for swimming\nB. Small enough to fit on a table\nC. Medium sized with a tiered structure\nD. Gigantic with multiple spouts",
+        "response": "<think>\n1. The object is described as a small potted plant with a slender stem and leaves.\n2. It is not a fountain or a large plant with multiple spouts.\n3. Thus, none of the listed size choices is correct.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Cotton@19": {
+        "prompt": "What type of vehicle is parked nearby?\n\nA. Sports car\nB. Pickup truck\nC. Motorcycle\nD. Electric bicycle",
+        "response": "<think>\n1. The descriptions contain no vehicle or parked object.\n2. The available vehicle choices therefore cannot be selected from the evidence.\n3. Therefore, no listed answer is correct.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Cotton@3": {
+        "prompt": "What is the height of the building in the scene?\n\nA. 20 feet\nB. 50 feet\nC. 100 feet\nD. 150 feet",
+        "response": "<think>\n1. The object is a small tree with a slender stem and leaves.\n2. No building or building height is described, so the listed measurements cannot be selected.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Cotton@75": {
+        "prompt": "What is the color of the birdhouse in the scene?\n\nA. Red\nB. Green\nC. Yellow\nD. Blue",
+        "response": "<think>\n1. The object is described as a potted plant with a brown pot, not a birdhouse.\n2. No birdhouse or color is identified.\n3. Therefore, none of the listed color choices is supported.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Cotton@145": {
+        "prompt": "What type of chair is included in the scene?\n\nA. Recliner\nB. Barstool\nC. Lounge chair\nD. Rocking chair",
+        "response": "<think>\n1. The scene descriptions contain no chair or chair type.\n2. Therefore, none of the listed chair choices is supported.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Cotton@168": {
+        "prompt": "What type of chair is featured in the scene?\n\nA. Recliner\nB. Barstool\nC. Armchair\nD. Dining chair",
+        "response": "<think>\n1. The scene descriptions contain no chair.\n2. Therefore, none of the listed chair types is supported.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Cotton@15": {
+        "prompt": "What type of fruit is hanging from the branch?\n\nA. Apples\nB. Oranges\nC. Bananas\nD. Grapes",
+        "response": "<think>\n1. The object is a flowering branch with white blossoms and snow-covered leaves.\n2. The descriptions do not identify any fruit type.\n3. Therefore, none of the listed fruit choices is supported.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Cotton@122": {
+        "prompt": "What type of fruit grows on the tree?\n\nA. Apple\nB. Mango\nC. Banana\nD. Cherry",
+        "response": "<think>\n1. The object is a small tree with a slender trunk and branches.\n2. No fruit is described or visibly established.\n3. Therefore, none of the listed fruit types is supported.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Maize@1-111": {
+        "prompt": "What type of vehicle is parked nearby?\n\nA. Sedan\nB. Motorcycle\nC. SUV\nD. Van",
+        "response": "<think>\n1. The object is described as a tree with a slender trunk and branches.\n2. No nearby vehicle is identified, so none of the listed vehicle types is supported.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Maize@3-28": {
+        "prompt": "What is the shape of the table in the scene?\n\nA. Round\nB. Square\nC. Oval\nD. Rectangular",
+        "response": "<think>\n1. The scene descriptions contain no table or table shape.\n2. The listed shapes cannot be determined from the available evidence.\n3. Therefore, no listed answer is correct.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Maize@2-34": {
+        "prompt": "What type of sculpture is displayed in the room?\n\nA. Abstract bronze sculpture\nB. Marble bust\nC. Wooden animal carving\nD. Glass crystal figure",
+        "response": "<think>\n1. The object is described as a potted plant with a brown pot and soil.\n2. It is not an abstract bronze sculpture, marble bust, or wooden animal carving.\n3. The glass crystal figure is not present in the object description.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Maize@3-49": {
+        "prompt": "What type of fish is swimming in the aquarium?\n\nA. Goldfish\nB. Betta\nC. Guppy\nD. Catfish",
+        "response": "<think>\n1. The object is a potted plant with green leaves and a brown pot.\n2. No fish or aquatic animal is described.\n3. Therefore, none of the listed fish types is supported.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Maize@2-70": {
+        "prompt": "What type of chair is placed beside the potted plant?\n\nA. Recliner\nB. Dining chair\nC. Rocking chair\nD. Office chair",
+        "response": "<think>\n1. The descriptions identify a potted plant and its pot, but do not mention a chair beside it.\n2. There is no evidence for a recliner, dining chair, rocking chair, or office chair.\n3. Therefore, no listed answer is correct.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Maize@3-55": {
+        "prompt": "What type of furniture is located in the scene?\n\nA. Recliner\nB. Dining table\nC. Bookshelf\nD. Coffee table",
+        "response": "<think>\n1. The scene description identifies a potted plant with a stem and leaves.\n2. It does not establish the presence or type of furniture.\n3. Therefore, none of the listed furniture choices is supported.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Maize@3-26": {
+        "prompt": "What type of artwork is displayed prominently in the scene?\n\nA. Landscape painting\nB. Abstract sculpture\nC. Oil portrait\nD. Ceramic vase",
+        "response": "<think>\n1. The object is described as a potted plant with a slender stem and green leaves.\n2. It is not a landscape painting, abstract sculpture, oil portrait, or ceramic vase.\n3. Therefore, none of the listed choices is correct.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Maize@2-13": {
+        "prompt": "What type of book is laying on the table?\n\nA. Novel\nB. Cookbook\nC. Encyclopedia\nD. Magazine",
+        "response": "<think>\n1. The object is a potted plant with a slender stem and leaves.\n2. No book is described or visible in the supplied information.\n3. Therefore, none of the listed book types is supported.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Maize@3-21": {
+        "prompt": "What type of ceiling fan is installed in the room?\n\nA. Modern industrial fan\nB. Antique wood fan\nC. Wireless remote fan\nD. Outdoor ceiling fan",
+        "response": "<think>\n1. The object is described as a potted plant with a slender stem and leaves.\n2. No ceiling fan is present or identified.\n3. Therefore, none of the listed fan types is supported.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Maize@3-18": {
+        "prompt": "What type of furniture is used for seating in the scene?\n\nA. Armchair\nB. Recliner\nC. Bean bag\nD. Dining chair",
+        "response": "<think>\n1. The descriptions contain no seating furniture or chair.\n2. The available evidence does not support any of the four listed furniture types.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Maize@2-109": {
+        "prompt": "What is the shape of the table in the scene?\n\nA. Round\nB. Square\nC. Rectangular\nD. Oval",
+        "response": "<think>\n1. The available descriptions do not establish the presence or shape of a table.\n2. Therefore, none of the listed shapes is supported.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Maize@1-118": {
+        "prompt": "What type of furniture is included in the scene?\n\nA. Coffee table\nB. Bookshelf\nC. Armchair\nD. Sofa",
+        "response": "<think>\n1. The object is a branching plant with green leaves and a brown base.\n2. It is not a coffee table, bookshelf, armchair, or sofa.\n3. Therefore, no listed furniture type is present.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Maize@3-42": {
+        "prompt": "What type of chair is situated next to the plant?\n\nA. Recliner\nB. Folding chair\nC. Rocking chair\nD. Armchair",
+        "response": "<think>\n1. The object is described as a potted plant with a slender stem and leaves.\n2. No chair is mentioned or visible in the supplied descriptions.\n3. Therefore, none of the listed chair types is supported.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Maize@1-24": {
+        "prompt": "What type of vehicle is parked in the scene?\n\nA. Sedan\nB. Bicycle\nC. Motorcycle\nD. Truck",
+        "response": "<think>\n1. The scene description identifies a potted plant with a slender stem and leaves.\n2. It does not establish the presence or type of a vehicle.\n3. Therefore, none of the vehicle choices is supported.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Maize@1-51": {
+        "prompt": "What type of fruit is visible in the scene?\n\nA. Apple\nB. Banana\nC. Orange\nD. Grape",
+        "response": "<think>\n1. The scene contains a leafy plant with a slender stem and branching leaves.\n2. No apple, banana, orange, or grape is visible.\n3. Therefore, no listed fruit type is correct.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Maize@1-68": {
+        "prompt": "What type of chair is in the scene?\n\nA. Recliner\nB. Dining chair\nC. Office chair\nD. Armchair",
+        "response": "<think>\n1. The scene descriptions contain no chair.\n2. The available chair types cannot be identified from the evidence.\n3. Therefore, no listed answer is correct.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Maize@2-101": {
+        "prompt": "What type of light fixture is hanging in the room?\n\nA. Chandelier\nB. Pendant light\nC. Ceiling fan\nD. Floor lamp",
+        "response": "<think>\n1. The object is described as a potted plant with a stem and leaves.\n2. No hanging light fixture is identified, so none of the listed fixture types is supported.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Maize@3-19": {
+        "prompt": "What type of artwork is displayed on the wall?\n\nA. Oil painting\nB. Watercolor\nC. Sculpture\nD. Mural",
+        "response": "<think>\n1. The object is a potted plant with a slender stem and leaves.\n2. It is not an oil painting, watercolor, sculpture, or mural.\n3. Therefore, none of the listed choices is correct.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Maize@2-148": {
+        "prompt": "What is the height of the building in the scene?\n\nA. Ten stories\nB. Twenty feet\nC. Five meters\nD. A single floor",
+        "response": "<think>\n1. The available descriptions concern a tall plant and do not establish a building or its height.\n2. Therefore, none of the proposed building-height measurements is supported.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Maize@2-9": {
+        "prompt": "What style of chair is in the scene?\n\nA. Wingback Chair\nB. Dining Chair\nC. Recliner\nD. Bar Stool",
+        "response": "<think>\n1. The scene descriptions contain no chair or chair style.\n2. Therefore, none of the listed chair styles is supported.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Maize@2-122": {
+        "prompt": "What is the shape of the table in the scene?\n\nA. Round\nB. Square\nC. Oval\nD. Rectangular",
+        "response": "<think>\n1. The available descriptions concern a potted plant and do not establish the presence or shape of a table.\n2. The table shape is therefore not established by the evidence.\n3. Therefore, no listed answer is correct.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Maize@1-122": {
+        "prompt": "What type of chair is located next to the plant?\n\nA. Armchair\nB. Recliner\nC. Dining chair\nD. Office chair",
+        "response": "<think>\n1. The descriptions identify a slender plant with leaves and a stem.\n2. They do not mention a chair or any chair type.\n3. Therefore, none of the listed chair choices is supported.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Maize@3-10": {
+        "prompt": "What type of sculpture is located next to the plant?\n\nA. Abstract statue\nB. Figurative bust\nC. Geometric form\nD. Animal figure",
+        "response": "<think>\n1. The plant is described as a slender green stem with leaves.\n2. No sculpture next to it is identified, so none of the listed sculpture types is supported.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Maize@2-77": {
+        "prompt": "What is the size of the television in the room?\n\nA. 50 inches\nB. 32 inches\nC. 75 inches\nD. 40 inches",
+        "response": "<think>\n1. The available descriptions do not establish a television or its dimensions.\n2. The listed size choices therefore cannot be supported.\n3. No listed answer is correct.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Maize@2-140": {
+        "prompt": "What type of sculpture is displayed in the scene?\n\nA. Abstract metal sculpture\nB. Marble bust\nC. Wooden totem\nD. Glass figurine",
+        "response": "<think>\n1. The object is described as a green leafy plant with a slender stem.\n2. It is not an abstract metal sculpture, marble bust, wooden totem, or glass figurine.\n3. Therefore, none of the listed sculpture types is correct.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Maize@2-126": {
+        "prompt": "What shape is the table in the scene?\n\nA. Oval\nB. Square\nC. Rectangular\nD. Circular",
+        "response": "<think>\n1. The available descriptions do not establish a table or its shape.\n2. Therefore, none of the listed shapes can be selected.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Maize@3-36": {
+        "prompt": "What is the size of the television in the living room?\n\nA. 32 inches\nB. 55 inches\nC. 75 inches\nD. 40 inches",
+        "response": "<think>\n1. The available descriptions do not establish a television size.\n2. The listed sizes are unsupported, so no choice can be selected.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Maize@3-15": {
+        "prompt": "What type of sculpture is located in the scene?\n\nA. Marble bust\nB. Wooden figure\nC. Glass abstract\nD. Metal relief",
+        "response": "<think>\n1. The object is described as a small leafy plant in a pot.\n2. It is not a marble bust, wooden figure, glass abstract, or metal relief.\n3. Therefore, none of the listed sculpture types is correct.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Maize@3-60": {
+        "prompt": "What style is the painting on the wall?\n\nA. Abstract Expressionism\nB. Impressionism\nC. Cubism\nD. Surrealism",
+        "response": "<think>\n1. The available descriptions do not establish the presence or style of a painting on a wall.\n2. Therefore, none of the listed styles can be selected.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Maize@2-17": {
+        "prompt": "What shape is the table in the scene?\n\nA. Square\nB. Rectangular\nC. Circular\nD. Oval",
+        "response": "<think>\n1. The available descriptions do not establish a table or its shape.\n2. The shape cannot be determined from the supplied evidence.\n3. Therefore, none of the listed choices is correct.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Maize@2-32": {
+        "prompt": "What is the height of the ceiling in the room?\n\nA. 10 feet\nB. 12 feet\nC. 8 feet\nD. 15 feet",
+        "response": "<think>\n1. The object is described as a potted plant with a brown stem and leaves.\n2. No ceiling or room height is provided, so the listed heights cannot be selected.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Maize@2-116": {
+        "prompt": "What type of artwork is displayed on the wall?\n\nA. Abstract painting\nB. Landscape photograph\nC. Portrait sketch\nD. Still life composition",
+        "response": "<think>\n1. The available descriptions concern a potted plant and do not mention a wall or any artwork.\n2. Therefore, none of the listed artwork types is supported.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Maize@1-120": {
+        "prompt": "What type of chair is found in the scene?\n\nA. Recliner\nB. Armchair\nC. Dining chair\nD. Folding chair",
+        "response": "<think>\n1. The scene descriptions contain a potted plant and a small branch.\n2. They do not establish the presence or type of a chair.\n3. Therefore, none of the listed chair options is supported.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Maize@3-40": {
+        "prompt": "What shape is the dining table in the scene?\n\nA. Round\nB. Rectangle\nC. Oval\nD. Square",
+        "response": "<think>\n1. The scene descriptions identify a potted plant in a round pot.\n2. The table is not described, so its shape cannot be determined.\n3. Therefore, none of the listed shapes is supported.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Maize@3-43": {
+        "prompt": "What is the height of the bookshelf in the room?\n\nA. Six feet\nB. Four feet\nC. Eight feet\nD. Five feet",
+        "response": "<think>\n1. The object is a potted plant with a slender stem and leaves.\n2. No bookshelf or room measurement is provided.\n3. Therefore, none of the proposed heights is supported.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Maize@2-31": {
+        "prompt": "What type of fish is swimming in the scene?\n\nA. Goldfish\nB. Betta\nC. Neon Tetra\nD. Clownfish",
+        "response": "<think>\n1. The scene contains a potted plant with a stem and leaves.\n2. No fish is described or visible in the supplied information.\n3. Therefore, none of the listed fish types is supported.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Maize@3-38": {
+        "prompt": "What type of sculpture is located next to the plant?\n\nA. Abstract figure\nB. Bust of a poet\nC. Animal statue\nD. Geometric shape",
+        "response": "<think>\n1. The available descriptions concern a potted plant and its pot.\n2. They do not establish the presence or type of a sculpture next to the plant.\n3. Therefore, none of the listed sculpture choices is supported.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Maize@2-28": {
+        "prompt": "What type of animal is in the scene?\n\nA. Dog\nB. Cat\nC. Rabbit\nD. Parrot",
+        "response": "<think>\n1. The scene contains a small potted plant with a stem and leaves.\n2. The descriptions do not establish that a dog, cat, rabbit, or bird is present.\n3. Therefore, there is no correct answer.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Maize@2-24": {
+        "prompt": "What type of sculpture is located next to the plant?\n\nA. Abstract\nB. Classical\nC. Modern\nD. Kinetic",
+        "response": "<think>\n1. The object is a tall, slender plant with a brown branch and leaves.\n2. It is not described as an abstract, classical, or modern sculpture.\n3. Therefore, none of the listed sculpture types is correct.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Maize@2-67": {
+        "prompt": "What is the shape of the window in the room?\n\nA. Circular\nB. Square\nC. Triangular\nD. Rectangular",
+        "response": "<think>\n1. The available descriptions do not establish the presence or shape of a window.\n2. Therefore, none of the listed shapes can be selected.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Maize@2-64": {
+        "prompt": "What is the shape of the window in the scene?\n\nA. Rectangular\nB. Triangular\nC. Oval\nD. Hexagonal",
+        "response": "<think>\n1. The scene descriptions contain no window or window shape.\n2. Therefore, none of the listed shapes is supported.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Maize@3-54": {
+        "prompt": "What shape is the sofa in the room?\n\nA. L-Shaped\nB. Circular\nC. Rectangular\nD. Triangular",
+        "response": "<think>\n1. The available descriptions contain no sofa or room information.\n2. The shape cannot be determined from the available evidence.\n3. Therefore, none of the listed choices is correct.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Maize@2-66": {
+        "prompt": "What type of artwork is displayed in the scene?\n\nA. Abstract painting\nB. Landscape photograph\nC. Sculpture\nD. Portraiture",
+        "response": "<think>\n1. The scene is described as a potted plant with a slender stem and leaves.\n2. The descriptions do not establish any of the listed artwork types.\n3. Therefore, no listed answer is correct.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Maize@3-7": {
+        "prompt": "What type of artwork is displayed in the scene?\n\nA. Abstract painting\nB. Landscape photograph\nC. Ceramic sculpture\nD. Wall tapestry",
+        "response": "<think>\n1. The scene is described as a potted plant with a brown trunk and green leaves.\n2. No abstract painting, landscape photograph, ceramic sculpture, or wall tapestry is identified.\n3. Therefore, none of the listed choices fits.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Maize@2-65": {
+        "prompt": "What type of furniture is featured in the scene?\n\nA. Coffee table\nB. Bookshelf\nC. Armchair\nD. Dining table",
+        "response": "<think>\n1. The object is a potted plant in a dark pot.\n2. It is not a coffee table, bookshelf, armchair, or dining table.\n3. Therefore, none of the listed furniture choices is correct.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Maize@2-88": {
+        "prompt": "What type of window treatment is in the scene?\n\nA. Sheer curtains\nB. Venetian blinds\nC. Roller shades\nD. Drapes",
+        "response": "<think>\n1. The scene descriptions contain no information about a window or its treatment.\n2. Therefore, none of the listed window-treatment choices can be supported.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Maize@2-108": {
+        "prompt": "What type of fruit is commonly found on the table?\n\nA. Apples\nB. Bananas\nC. Grapes\nD. Oranges",
+        "response": "<think>\n1. The object is a potted plant with a slender stem and leaves.\n2. No fruit is described, so the listed fruit types do not fit.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Maize@1-78": {
+        "prompt": "What material is the ceiling made of?\n\nA. Wood\nB. Metal\nC. Glass\nD. Fabric",
+        "response": "<think>\n1. The object is described as a plant with a slender stem and leaves.\n2. No ceiling or material is identified.\n3. Therefore, none of the listed materials is supported.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Maize@2-39": {
+        "prompt": "What type of window treatment is used in the scene?\n\nA. Sheer curtains\nB. Blinds\nC. Drapes\nD. Shades",
+        "response": "<think>\n1. The scene descriptions contain no information about a window treatment.\n2. The listed types cannot be selected from the available evidence.\n3. Therefore, no listed answer is correct.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Maize@2-50": {
+        "prompt": "What type of bird is perched on the plant?\n\nA. Sparrow\nB. Parrot\nC. Canarie\nD. Finch",
+        "response": "<think>\n1. The plant is described as a potted plant with green leaves, not a bird.\n2. No bird is identified in the supplied descriptions.\n3. Therefore, none of the listed bird types is supported.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Maize@3-50": {
+        "prompt": "What type of artwork is displayed in the scene?\n\nA. Abstract painting\nB. Landscape photograph\nC. Sculpture\nD. Portrait painting",
+        "response": "<think>\n1. The scene contains a potted plant with a slender stem and leaves.\n2. The descriptions do not identify it as an abstract painting, landscape photograph, sculpture, or portrait painting.\n3. Therefore, none of the listed choices is correct.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Maize@2-128": {
+        "prompt": "What animal can be seen sitting on the windowsill?\n\nA. Cat\nB. Dog\nC. Rabbit\nD. Parrot",
+        "response": "<think>\n1. The available descriptions do not establish that any animal is present on a windowsill.\n2. Therefore, none of the listed animal choices is supported.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Maize@2-137": {
+        "prompt": "What type of artwork is displayed on the wall?\n\nA. Painting\nB. Sculpture\nC. Mural\nD. Tapestry",
+        "response": "<think>\n1. The available descriptions concern a potted plant and do not identify any wall artwork.\n2. Therefore, none of the listed artwork types is supported.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Maize@2-141": {
+        "prompt": "What type of window treatment is used in the room?\n\nA. Blinds\nB. Drapes\nC. Roman shades\nD. Shutters",
+        "response": "<think>\n1. The available descriptions concern a potted plant and do not mention a room or window treatment.\n2. No listed window-treatment option is supported by the available evidence.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Maize@2-29": {
+        "prompt": "What type of sculpture is located next to the window?\n\nA. Abstract marble\nB. Bronze figure\nC. Wooden totem\nD. Glass art",
+        "response": "<think>\n1. The available descriptions concern a potted plant and its leaves.\n2. They do not establish the presence or type of a sculpture next to a window.\n3. Therefore, none of the listed sculpture options is supported.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Maize@1-60": {
+        "prompt": "What shape is the table in the scene?\n\nA. Round\nB. Square\nC. Oval\nD. Rectangular",
+        "response": "<think>\n1. The available descriptions do not establish the presence or shape of a table.\n2. Therefore, none of the listed shapes can be selected.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Maize@1-22": {
+        "prompt": "What is the height of the bookshelf in the room?\n\nA. Five feet\nB. Six and a half feet\nC. Four feet\nD. Eight feet",
+        "response": "<think>\n1. The available descriptions do not establish a bookshelf or its height.\n2. The listed measurements therefore cannot be selected from the evidence.\n3. Therefore, there is no correct answer.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Maize@2-33": {
+        "prompt": "What type of fruit is displayed on the table?\n\nA. Apples\nB. Oranges\nC. Bananas\nD. Grapes",
+        "response": "<think>\n1. The object is a potted plant with a slender stem and leaves.\n2. It is not an apple, orange, banana, or grapes.\n3. Therefore, none of the listed choices is correct.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Maize@3-27": {
+        "prompt": "What type of fabric is used for the curtains?\n\nA. Silk\nB. Cotton\nC. Velvet\nD. Linen",
+        "response": "<think>\n1. The descriptions contain no curtains or fabric details.\n2. Therefore, none of the listed fabric types can be identified from the available evidence.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Maize@3-37": {
+        "prompt": "What type of decoration is placed on the wall?\n\nA. A Painting\nB. A Clock\nC. A Mirror\nD. A Tapestry",
+        "response": "<think>\n1. The descriptions identify a potted plant, not a wall decoration.\n2. No listed decoration type is supported by the available evidence.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Maize@1-113": {
+        "prompt": "What color are the stairs in the scene?\n\nA. Blue\nB. Yellow\nC. Gray\nD. Red",
+        "response": "<think>\n1. The stairs are described as gray.\n2. Gray is one of the listed choices.\n3. Therefore, the matching answer is Gray.\n</think>\n<answer>Gray</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Maize@2-11": {
+        "prompt": "What type of fruit is hanging from the ceiling?\n\nA. Apples\nB. Bananas\nC. Oranges\nD. Grapes",
+        "response": "<think>\n1. The object is a potted plant with a brown trunk and green leaves.\n2. No hanging fruit or fruit type is described.\n3. Therefore, none of the listed fruit choices is correct.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Maize@1-50": {
+        "prompt": "What type of furniture is placed next to the maize plant?\n\nA. Sofa\nB. Coffee table\nC. Bookshelf\nD. Chair",
+        "response": "<think>\n1. The descriptions identify a maize plant with a brown base and a branch.\n2. No sofa, coffee table, bookshelf, or chair is described.\n3. Therefore, no listed furniture answer is correct.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Maize@1-123": {
+        "prompt": "What type of fruit can be found in the scene?\n\nA. Banana\nB. Apple\nC. Orange\nD. Grape",
+        "response": "<think>\n1. The scene contains a potted plant with a slender stem and leaves.\n2. The descriptions do not identify any fruit.\n3. Therefore, none of the listed fruit types is supported.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Maize@2-21": {
+        "prompt": "What type of chair is located next to the plant?\n\nA. Armchair\nB. Folding chair\nC. Recliner\nD. Stool",
+        "response": "<think>\n1. The descriptions do not establish that a chair is present.\n2. Therefore, none of the listed chair types can be selected.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Maize@2-107": {
+        "prompt": "What type of painting is hanging on the wall?\n\nA. Abstract\nB. Landscape\nC. Portrait\nD. Still Life",
+        "response": "<think>\n1. The object is described as a potted plant with green leaves.\n2. It is not identified as an abstract, landscape, portrait, or still life painting.\n3. Therefore, none of the listed choices is correct.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Maize@2-114": {
+        "prompt": "What type of building is situated adjacent to the sapling?\n\nA. A Library\nB. A Barn\nC. A Supermarket\nD. A Theater",
+        "response": "<think>\n1. The descriptions identify a sapling with a trunk and branches, not a building.\n2. The building type is therefore not established by the available evidence.\n3. Therefore, no listed building option is correct.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Maize@1-106": {
+        "prompt": "What type of car is parked nearby?\n\nA. Sedan\nB. Coupe\nC. SUV\nD. Convertible",
+        "response": "<think>\n1. The available descriptions contain no car or vehicle.\n2. They only describe a branching plant with white blossoms.\n3. Therefore, none of the listed car types is supported.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Potato@5-19-P281-2-a": {
+        "prompt": "What shape is the ceiling in the room?\n\nA. Curve\nB. Square\nC. Triangle\nD. Dome",
+        "response": "<think>\n1. The available descriptions concern a plant and do not establish the presence or shape of a ceiling.\n2. Therefore, none of the listed shapes is supported.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Potato@5-21-P104-3-a": {
+        "prompt": "What is the size of the bookshelf in the scene?\n\nA. Tall and narrow\nB. Short and wide\nC. Medium height with three shelves\nD. An elongated design with curved edges",
+        "response": "<think>\n1. The object is described as a small potted plant with leaves.\n2. It is not a bookshelf or a tall and narrow object.\n3. Therefore, none of the listed choices is correct.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Potato@5-11-P255-3-a": {
+        "prompt": "What is the height of the ceiling in the room?\n\nA. 10 feet\nB. 12 feet\nC. 8 feet\nD. 14 feet",
+        "response": "<think>\n1. The available descriptions contain no ceiling or room information.\n2. Therefore, the height cannot be determined from the listed measurements.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Potato@5-14-P117-3-a": {
+        "prompt": "What is the primary color of the painting?\n\nA. Blue\nB. Yellow\nC. Red\nD. Green",
+        "response": "<think>\n1. The object is described as a green plant with leaves.\n2. The available choices are blue, yellow, red, and green, so no choice fits.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Potato@5-13-P015-2-a": {
+        "prompt": "What shape is the table in the scene?\n\nA. Round\nB. Square\nC. Triangular\nD. Oval",
+        "response": "<think>\n1. The object is a green leafy plant with a slender stem.\n2. No table is described or visible in the supplied information.\n3. Therefore, the table shape cannot be identified from the available evidence.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Potato@5-23-P999-7-a": {
+        "prompt": "What type of chair is located beside the plant?\n\nA. Office chair\nB. Recliner\nC. Dining chair\nD. Rocking chair",
+        "response": "<think>\n1. The descriptions contain no chair beside the plant.\n2. The chair type is therefore not established by the available evidence.\n3. Therefore, none of the listed chair choices is correct.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Potato@5-20-P043-1-a": {
+        "prompt": "What kind of chair is located next to the plant?\n\nA. Recliner\nB. Bean bag\nC. Dining chair\nD. Office chair",
+        "response": "<think>\n1. The plant is described with a brown trunk and green leaves.\n2. No chair is mentioned or visible in the supplied descriptions.\n3. Therefore, none of the listed chair types is supported.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Potato@5-11-P279-3-a": {
+        "prompt": "What is the purpose of the staircase?\n\nA. To provide access to the rooftop\nB. To connect the basement to the main floor\nC. To enhance the architectural design\nD. To serve as an emergency exit",
+        "response": "<think>\n1. The object is a plant with leaves and a stem.\n2. No staircase is described, so its purpose cannot be determined.\n3. Therefore, none of the listed choices is correct.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Potato@5-21-P104-4-a": {
+        "prompt": "What material is the table made of?\n\nA. Mahogany\nB. Glass\nC. Steel\nD. Plastic",
+        "response": "<think>\n1. The object is described as a potted plant with green leaves.\n2. There is no evidence of a table or its material, so the listed materials cannot be selected.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Potato@5-20-P060-3-a": {
+        "prompt": "What type of furniture is positioned beside the window?\n\nA. Armchair\nB. Coffee table\nC. Bookshelf\nD. Sofa",
+        "response": "<think>\n1. The object is a branching plant with green leaves.\n2. It is not an armchair, coffee table, bookshelf, or sofa.\n3. Therefore, no listed furniture type is correct.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Potato@5-11-P290-3-a": {
+        "prompt": "What style is the painting hanging above the sofa?\n\nA. Abstract Expressionism\nB. Impressionism\nC. Cubism\nD. Surrealism",
+        "response": "<think>\n1. The object is described as a potted plant with green leaves.\n2. The descriptions do not establish any of the listed painting styles.\n3. Therefore, no listed answer is correct.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Potato@5-23-P999-2-a": {
+        "prompt": "What type of sculpture is prominently featured in the room?\n\nA. Abstract Figure\nB. Classical Bust\nC. Modernist Wall Piece\nD. Geometric Tangle",
+        "response": "<think>\n1. The object is described as a green leafy plant with a slender stem.\n2. It is not an abstract figure, classical bust, modernist wall piece, or geometric tangle.\n3. Therefore, no listed answer is correct.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Potato@5-11-P281-1-a": {
+        "prompt": "What is the height of the statue in the garden?\n\nA. Three feet\nB. Six feet\nC. Ten feet\nD. Twelve feet",
+        "response": "<think>\n1. The object is described as a flowering branch with white blossoms, not a statue.\n2. No height measurement is provided, so the listed statue-height choices cannot be selected.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Potato@5-23-P997-1-a": {
+        "prompt": "What type of furniture piece is featured in the scene?\n\nA. The Coffee Table\nB. The Bookshelf\nC. The Recliner\nD. The Dining Chair",
+        "response": "<think>\n1. The scene descriptions contain a potted plant and a small plant in a pot, not a listed furniture piece.\n2. Therefore, none of the listed furniture choices is supported.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Potato@5-14-P112-1-a": {
+        "prompt": "What style of furniture is featured in the room?\n\nA. Vintage\nB. Modern\nC. Industrial\nD. Rustic",
+        "response": "<think>\n1. The available descriptions concern a potted plant and its leaves.\n2. They do not establish any of the listed furniture styles.\n3. Therefore, no listed answer is correct.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Potato@5-13-P046-3-a": {
+        "prompt": "What shape is the table in the scene?\n\nA. Round\nB. Square\nC. Rectangular\nD. Oval",
+        "response": "<think>\n1. The available descriptions concern a potted plant and do not mention a table.\n2. The table's shape is therefore not established.\n3. Therefore, no listed answer is correct.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Potato@5-21-P104-2-a": {
+        "prompt": "What type of bridge is found in the scene?\n\nA. Suspension bridge\nB. Arch bridge\nC. Beam bridge\nD. Cable-stayed bridge",
+        "response": "<think>\n1. The available descriptions concern a plant, not a bridge.\n2. No bridge type is established, so none of the listed bridge choices can be selected.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Potato@5-11-P104-2-a": {
+        "prompt": "What type of lighting fixture is used in the scene?\n\nA. Chandelier\nB. Floor lamp\nC. Ceiling fan light\nD. Wall sconce",
+        "response": "<think>\n1. The scene descriptions contain no lighting fixture.\n2. Therefore, none of the listed fixture types can be identified.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Potato@5-23-P997-2-a": {
+        "prompt": "What shape is the fountain in the garden?\n\nA. Circular\nB. Square\nC. Triangular\nD. Oval",
+        "response": "<think>\n1. The object is described as a leafy plant stem with a branch.\n2. The descriptions do not establish a circular, square, triangular, or oval fountain.\n3. Therefore, no listed answer is correct.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Potato@5-23-P998-9-a": {
+        "prompt": "What type of vehicle can be seen parked in the scene?\n\nA. Sports car\nB. Pickup truck\nC. Electric scooter\nD. Bicycle",
+        "response": "<think>\n1. The scene descriptions contain a potted plant and no vehicle.\n2. Therefore, none of the vehicle choices is supported.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Potato@5-20-P002-2-a": {
+        "prompt": "What type of furniture is used for relaxation in the scene?\n\nA. Recliner\nB. Coffee table\nC. Bookshelf\nD. Armchair",
+        "response": "<think>\n1. The available descriptions contain no information about furniture.\n2. The listed furniture types cannot be matched to an observed object.\n3. Therefore, none of the choices is correct.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Potato@5-13-P098-1-a": {
+        "prompt": "What type of car is parked outside?\n\nA. Sedan\nB. SUV\nC. Coupe\nD. Convertible",
+        "response": "<think>\n1. The available descriptions concern a potted plant and do not mention a parked car.\n2. No car type is established.\n3. Therefore, none of the listed car options is supported.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Potato@5-21-P142-1-a": {
+        "prompt": "What type of sculpture is featured nearby?\n\nA. Marble bust\nB. Wooden abstract\nC. Metal figure\nD. Stone relief",
+        "response": "<think>\n1. The available descriptions concern a green plant with leaves and a branch.\n2. They do not establish a nearby sculpture or its material and form.\n3. Therefore, none of the sculpture choices is supported.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Potato@5-19-P279-1-a": {
+        "prompt": "What type of sculpture is displayed in the scene?\n\nA. Abstract Metal\nB. Marble Bust\nC. Ceramic Figure\nD. Stone Relief",
+        "response": "<think>\n1. The object is described as a potted plant with green leaves.\n2. The choices are abstract metal, marble bust, ceramic figure, and stone relief, none of which matches the observed plant.\n3. Therefore, no listed answer is correct.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Potato@5-14-P113-3-a": {
+        "prompt": "What shape is the table in the scene?\n\nA. Round\nB. Rectangle\nC. Square\nD. Oval",
+        "response": "<think>\n1. The object is described as a potted plant with leaves and a stem.\n2. No table is identified, so its shape cannot be determined from the available evidence.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Potato@5-11-P281-2-a": {
+        "prompt": "What shape is the table in the room?\n\nA. Round\nB. Rectangular\nC. Oval\nD. Square",
+        "response": "<think>\n1. The available descriptions concern a potted plant and do not mention a table.\n2. Therefore, the table's shape is not established.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Potato@5-11-P285-2-a": {
+        "prompt": "What type of sculpture is displayed nearby?\n\nA. Abstract figure\nB. Classical bust\nC. Modern animal\nD. Geometric shape",
+        "response": "<think>\n1. The descriptions identify a potted plant with green leaves and a brown pot.\n2. They do not establish an abstract figure, classical bust, modern animal, or geometric sculpture.\n3. Therefore, no listed answer is correct.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Potato@5-20-P045-3-a": {
+        "prompt": "What type of furniture piece complements the narrow plant in the scene?\n\nA. Coffee table\nB. Recliner\nC. Bookshelf\nD. Side table",
+        "response": "<think>\n1. The plant is described as a small leafy tree with a slender trunk and branches.\n2. No furniture piece is identified in the scene.\n3. Therefore, none of the listed furniture choices is correct.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Potato@5-23-P998-7-a": {
+        "prompt": "What type of fruit is being harvested?\n\nA. Mango\nB. Apple\nC. Banana\nD. Cherry",
+        "response": "<think>\n1. The object is a green plant with a slender stem and leaves.\n2. No fruit is identified, so none of the listed fruit types can be selected.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Potato@5-13-P002-2-a": {
+        "prompt": "What type of chair is included in the scene?\n\nA. Recliner\nB. Dining chair\nC. Bean bag\nD. Office chair",
+        "response": "<think>\n1. The scene descriptions contain a plant, not a chair.\n2. No chair type is established.\n3. Therefore, none of the listed chair choices is correct.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Potato@5-20-P015-2-a": {
+        "prompt": "What type of painting hangs above the fireplace?\n\nA. Abstract\nB. Landscape\nC. Portrait\nD. Still life",
+        "response": "<think>\n1. The available descriptions concern a potted plant and do not establish a fireplace or painting.\n2. Therefore, none of the listed painting categories is supported.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Potato@5-11-P294-3-a": {
+        "prompt": "What is the shape of the window in the scene?\n\nA. Circular\nB. Triangular\nC. Square\nD. Hexagonal",
+        "response": "<think>\n1. The available descriptions do not establish a window or its shape.\n2. The listed shapes therefore cannot be selected from the available evidence.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Potato@5-13-P068-3-a": {
+        "prompt": "What type of fruit is located on the table?\n\nA. Apple\nB. Banana\nC. Orange\nD. Grape",
+        "response": "<think>\n1. The object is described as a potted plant with green leaves.\n2. No apple, banana, orange, or grape is present.\n3. Therefore, none of the listed choices is correct.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Potato@5-19-P281-1-a": {
+        "prompt": "What is the height of the building?\n\nA. Five stories\nB. Three stories\nC. Ten stories\nD. Two stories",
+        "response": "<think>\n1. The available descriptions concern a green plant with leaves and a branch.\n2. They provide no building or story-count information.\n3. Therefore, none of the listed heights is supported.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Potato@5-20-P149-3-a": {
+        "prompt": "What type of window treatment is featured in the scene?\n\nA. Roller blinds\nB. Sheer curtains\nC. Venetian blinds\nD. Plantation shutters",
+        "response": "<think>\n1. The available descriptions concern a potted plant and do not establish any window treatment.\n2. Therefore, none of the listed window-treatment choices is supported.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Potato@5-13-P043-2-a": {
+        "prompt": "What type of furniture is located in the scene?\n\nA. Sofa\nB. Coffee table\nC. Bookshelf\nD. Dining chair",
+        "response": "<think>\n1. The object is a potted plant with leaves and a stem.\n2. It is not a sofa, coffee table, bookshelf, or dining chair.\n3. Therefore, none of the listed furniture choices is correct.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Rapeseed@29": {
+        "prompt": "What type of chair is featured in the scene?\n\nA. Recliner\nB. Armchair\nC. Dining chair\nD. Rocking chair",
+        "response": "<think>\n1. The scene description identifies a potted plant with a cylindrical pot.\n2. It does not establish the presence or type of a chair.\n3. Therefore, none of the listed chair choices is supported.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Rapeseed@115": {
+        "prompt": "What type of ceiling fan is in the room?\n\nA. Modern chrome fan\nB. Rustic wooden fan\nC. Vintage brass fan\nD. Industrial metal fan",
+        "response": "<think>\n1. The object is a potted plant with a brown pot and green leaves.\n2. No ceiling fan is described, so the fan type cannot be identified from the available evidence.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Rapeseed@70": {
+        "prompt": "What type of ceiling fan is installed in the room?\n\nA. Industrial style\nB. Classic wooden\nC. Modern minimalist\nD. Vintage brass",
+        "response": "<think>\n1. The available descriptions concern a potted plant and do not mention a ceiling fan.\n2. No fan style is established.\n3. Therefore, none of the listed fan types can be selected.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Rapeseed@33": {
+        "prompt": "What type of lighting is used in the scene?\n\nA. Fluorescent\nB. Soft ambient\nC. Spotlight\nD. Natural daylight",
+        "response": "<think>\n1. The available descriptions do not identify any lighting type.\n2. Therefore, none of the listed lighting choices can be selected.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Rapeseed@31": {
+        "prompt": "What type of carpet is used in the room?\n\nA. Persian\nB. Berber\nC. Shag\nD. Sisal",
+        "response": "<think>\n1. The available descriptions concern a potted plant and do not mention a room or carpet.\n2. The carpet type is therefore not established by the available evidence.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Rapeseed@129": {
+        "prompt": "What is the color of the chandelier?\n\nA. Gold\nB. Silver\nC. Crystal\nD. Bronze",
+        "response": "<think>\n1. The chandelier is described as white.\n2. None of the listed colors\u2014gold, silver, crystal, or bronze\u2014matches white.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Rapeseed@20": {
+        "prompt": "What type of window treatment is used in the scene?\n\nA. Sheer curtains\nB. Wooden blinds\nC. Roman shades\nD. Roller shades",
+        "response": "<think>\n1. The scene descriptions contain no information about a window treatment.\n2. Therefore, none of the listed window-treatment choices can be supported.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Rapeseed@91": {
+        "prompt": "What type of lighting is used in the scene?\n\nA. Track lighting\nB. Floor lamp\nC. Chandelier\nD. Recessed lights",
+        "response": "<think>\n1. The available visual information describes a potted plant and does not establish any lighting type.\n2. Therefore, none of the listed lighting options is supported.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Rapeseed@24": {
+        "prompt": "What type of window treatment is used in the room?\n\nA. Roller shades\nB. Horizontal blinds\nC. Sheer curtains\nD. Drapes",
+        "response": "<think>\n1. The available descriptions concern a plant, not a room or window treatment.\n2. No listed window-treatment option is established.\n3. Therefore, there is no correct answer.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Rapeseed@37": {
+        "prompt": "What style is the chair in the scene?\n\nA. Victorian\nB. Modernist\nC. Mid-century\nD. Rustic",
+        "response": "<think>\n1. The scene descriptions contain no chair or chair style.\n2. Therefore, none of the listed styles can be selected.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Rapeseed@63": {
+        "prompt": "What type of lighting fixture is used in the room?\n\nA. Chandelier\nB. Pendant light\nC. Floor lamp\nD. Wall sconces",
+        "response": "<think>\n1. The available descriptions contain no information about a room or a lighting fixture.\n2. Therefore, none of the listed fixture types can be selected.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Rapeseed@11": {
+        "prompt": "What type of vase is located on the table?\n\nA. Glass vase\nB. Ceramic vase\nC. Metal vase\nD. Wooden vase",
+        "response": "<think>\n1. The available descriptions do not establish that a glass, ceramic, metal, or wooden vase is present.\n2. Therefore, no listed option is supported.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Rapeseed@135": {
+        "prompt": "What type of light fixture is hanging above the scene?\n\nA. Chandelier\nB. Pendant light\nC. Ceiling fan\nD. Wall sconce",
+        "response": "<think>\n1. The scene description contains a potted plant and a cylindrical pot.\n2. No chandelier, pendant light, ceiling fan, or wall sconce is described.\n3. Therefore, none of the listed choices is correct.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Rapeseed@107": {
+        "prompt": "What shape is the bookshelf in the room?\n\nA. Circular\nB. Triangular\nC. Hexagonal\nD. Rectangular",
+        "response": "<think>\n1. The available descriptions concern a potted plant and do not mention a bookshelf.\n2. The shape of a bookshelf is therefore not established.\n3. Therefore, no listed shape is correct.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Rapeseed@116": {
+        "prompt": "What type of furniture is in the room?\n\nA. Sofa\nB. Dining table\nC. Recliner\nD. Bookshelf",
+        "response": "<think>\n1. The available descriptions contain no room or furniture information.\n2. The type of furniture cannot be determined from the available evidence.\n3. Therefore, none of the listed choices is supported.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Rapeseed@169": {
+        "prompt": "What type of window treatment is installed in the room?\n\nA. Sheer curtains\nB. Roman shades\nC. Drapery panels\nD. Blinds",
+        "response": "<think>\n1. The available descriptions contain no information about a room or window treatment.\n2. Therefore, none of the listed options can be selected.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Rapeseed@58": {
+        "prompt": "What shape is the table in the room?\n\nA. Rectangular\nB. Circular\nC. Oval\nD. Square",
+        "response": "<think>\n1. The available descriptions concern a potted plant and do not establish the presence or shape of a table.\n2. The table shape is therefore not established.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Rapeseed@25": {
+        "prompt": "What is the height of the ceiling in the room?\n\nA. 10 feet\nB. 12 feet\nC. 8 feet\nD. 15 feet",
+        "response": "<think>\n1. The available descriptions contain no ceiling or room measurement.\n2. Therefore, none of the proposed heights is supported.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Rapeseed@168": {
+        "prompt": "What type of chair is included in the scene?\n\nA. Lounge chair\nB. Recliner\nC. Office chair\nD. Dining chair",
+        "response": "<think>\n1. The scene descriptions contain a potted plant and a brown pot.\n2. No chair is identified, so the chair type cannot be matched to any listed option.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Rapeseed@83": {
+        "prompt": "What type of animal can be found in the scene?\n\nA. Cat\nB. Dog\nC. Rabbit\nD. Parrot",
+        "response": "<think>\n1. The scene contains a potted plant with a brown base and soil.\n2. No cat, dog, rabbit, or parrot is described.\n3. Therefore, none of the listed animal choices is correct.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Rapeseed@127": {
+        "prompt": "What type of bookshelf is featured in the scene?\n\nA. Floating bookshelf\nB. Corner bookshelf\nC. Adjustable bookshelf\nD. Hexagonal bookshelf",
+        "response": "<think>\n1. The scene descriptions contain no bookshelf.\n2. Therefore, none of the listed bookshelf types can be supported.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Rapeseed@79": {
+        "prompt": "What type of chair is featured in the scene?\n\nA. Recliner\nB. Dining chair\nC. Office chair\nD. Lounge chair",
+        "response": "<think>\n1. The scene descriptions contain a potted plant and a cylindrical pot.\n2. No chair is identified, so the chair type cannot be matched to the listed options.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Rapeseed@122": {
+        "prompt": "What type of lighting fixture is used in the room?\n\nA. Pendant light\nB. Floor lamp\nC. Chandeliers\nD. Wall sconce",
+        "response": "<think>\n1. The available descriptions concern a potted plant and do not mention a room or lighting fixture.\n2. No listed lighting type is supported by the available evidence.\n3. Therefore, there is no correct answer.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Rapeseed@8": {
+        "prompt": "What type of chair is in the scene?\n\nA. Recliner\nB. Bar stool\nC. bean bag\nD. Armchair",
+        "response": "<think>\n1. The scene descriptions contain no chair.\n2. Therefore, none of the listed chair types is supported.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Rapeseed@82": {
+        "prompt": "What type of furniture is in this scene?\n\nA. Sofa\nB. Coffee table\nC. Bookshelf\nD. Recliner",
+        "response": "<think>\n1. The scene contains a potted plant in a dark cylindrical pot.\n2. No sofa, coffee table, bookshelf, or recliner is described.\n3. Therefore, none of the listed furniture types is correct.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Rapeseed@95": {
+        "prompt": "What type of furniture is in the corner of the room?\n\nA. Armchair\nB. Coffee table\nC. Bookshelf\nD. Dining table",
+        "response": "<think>\n1. The object is described as a potted plant in a dark cylindrical pot.\n2. It is not an armchair, coffee table, bookshelf, or dining table.\n3. Therefore, none of the listed choices is correct.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Rapeseed@61": {
+        "prompt": "What type of fruit is hanging from the ceiling?\n\nA. Apple\nB. Banana\nC. Orange\nD. Grapes",
+        "response": "<think>\n1. The object is a potted plant with a brown trunk, leaves, and a pot.\n2. No hanging fruit is described, so the fruit type cannot be identified from the available evidence.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Rapeseed@93": {
+        "prompt": "What color is the chair?\n\nA. Blue\nB. Yellow\nC. Green\nD. Red",
+        "response": "<think>\n1. The descriptions identify the chair as blue.\n2. Blue is the matching choice among the listed colors.\n</think>\n<answer>Blue</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Rapeseed@147": {
+        "prompt": "What shape is the table in the scene?\n\nA. Rectangular\nB. Oval\nC. Square\nD. Triangular",
+        "response": "<think>\n1. The available descriptions concern a potted plant and do not establish a table.\n2. The table's shape is therefore not established by the available evidence.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Rapeseed@128": {
+        "prompt": "What type of gemstone is found in the scene?\n\nA. Sapphire\nB. Emerald\nC. Ruby\nD. Diamond",
+        "response": "<think>\n1. The scene descriptions contain no gemstone or object information.\n2. The listed gemstone types therefore cannot be identified from the available evidence.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Rapeseed@119": {
+        "prompt": "What type of painting is displayed on the wall?\n\nA. Abstract\nB. Landscape\nC. Portrait\nD. Still life",
+        "response": "<think>\n1. The available descriptions concern a potted plant and a cylindrical pot.\n2. They do not establish whether a wall painting is abstract, landscape, portrait, or still life.\n3. Therefore, no listed answer is correct.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Rapeseed@112": {
+        "prompt": "What type of artwork hangs above the furniture?\n\nA. Abstract painting\nB. Landscape portrait\nC. Still life composition\nD. Portrait of a family",
+        "response": "<think>\n1. The available descriptions concern a potted plant and do not mention a painting or family portrait.\n2. No listed artwork type is supported by the available evidence.\n3. Therefore, no listed answer is correct.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Rapeseed@21": {
+        "prompt": "What type of ceiling fan is being used in the scene?\n\nA. Industrial style\nB. Rustic wood\nC. Modern sleek\nD. Vintage brass",
+        "response": "<think>\n1. The available descriptions do not establish the presence or type of a ceiling fan.\n2. Therefore, none of the listed fan styles can be selected.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Rapeseed@109": {
+        "prompt": "What type of mural is painted on the wall?\n\nA. Landscape\nB. Abstract\nC. Portrait\nD. Geometric",
+        "response": "<think>\n1. The available descriptions concern a potted plant and do not mention a wall mural.\n2. The type of mural cannot be determined from the available evidence.\n3. Therefore, none of the listed choices is correct.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Rapeseed@142": {
+        "prompt": "What type of rug is under the potted plant?\n\nA. Persian\nB. Shag\nC. Jute\nD. Wool",
+        "response": "<think>\n1. The plant is shown in a dark cylindrical pot.\n2. No rug is described or visible in the supplied information.\n3. Therefore, none of the listed rug types is supported.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Rapeseed@96": {
+        "prompt": "What type of ceiling fan is installed in the room?\n\nA. Modern flush mount\nB. Vintage chandelier\nC. Industrial style\nD. Rustic wooden",
+        "response": "<think>\n1. The available descriptions concern a potted plant and do not mention a ceiling fan.\n2. The fan type is therefore not established by the available evidence.\n3. Therefore, there is no correct answer.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Rapeseed@161": {
+        "prompt": "What is the height of the bookshelf in the scene?\n\nA. Five feet\nB. Three feet\nC. Seven feet\nD. Two feet",
+        "response": "<think>\n1. The scene descriptions contain no bookshelf or measurement.\n2. The listed heights cannot be determined from the available evidence.\n3. Therefore, none of the choices is supported.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Rapeseed@123": {
+        "prompt": "What type of lamp is placed on the table?\n\nA. Table lamp\nB. Floor lamp\nC. Pendant lamp\nD. Wall lamp",
+        "response": "<think>\n1. The available descriptions do not establish a table lamp or any lamp type.\n2. The object is a potted plant in a dark cylindrical pot.\n3. Therefore, none of the listed lamp types is supported.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Rapeseed@102": {
+        "prompt": "What shape is the table in the scene?\n\nA. Rectangle\nB. Oval\nC. Triangle\nD. Square",
+        "response": "<think>\n1. The scene descriptions contain no table or table shape.\n2. Therefore, none of the listed shapes can be selected.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Rapeseed@13": {
+        "prompt": "What is the height of the bookshelf?\n\nA. Five feet\nB. Six feet\nC. Seven feet\nD. Eight feet",
+        "response": "<think>\n1. The available descriptions concern a potted plant and do not establish a bookshelf height.\n2. Therefore, none of the listed heights can be selected.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Rapeseed@92": {
+        "prompt": "What is the size of the coffee table in the scene?\n\nA. Small\nB. Medium\nC. Large\nD. Extra Large",
+        "response": "<think>\n1. The available descriptions concern a potted plant and do not establish a coffee table.\n2. No table size is provided, so the listed size choices cannot be selected.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Rapeseed@40": {
+        "prompt": "What style of chair is placed next to the plant?\n\nA. Armchair\nB. Recliner\nC. Dining chair\nD. Bar stool",
+        "response": "<think>\n1. The plant is described as a small tree with a trunk, branches, and leaves.\n2. No chair is mentioned or visibly established, so the chair style cannot be matched to the object.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Rapeseed@41": {
+        "prompt": "What type of chair is included in the scene?\n\nA. Recliner\nB. Dining chair\nC. Bar stool\nD. Rocking chair",
+        "response": "<think>\n1. The scene descriptions contain no chair.\n2. Therefore, none of the listed chair types is supported.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Rapeseed@113": {
+        "prompt": "What type of light fixture is in the scene?\n\nA. Chandelier\nB. Pendant light\nC. Floor lamp\nD. Wall sconce",
+        "response": "<think>\n1. The scene descriptions contain no light fixture.\n2. Therefore, none of the listed fixture types is supported.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Rapeseed@108": {
+        "prompt": "What shape is the dining table?\n\nA. Round\nB. Square\nC. Rectangular\nD. Oval",
+        "response": "<think>\n1. The available descriptions concern a potted plant and do not mention a dining table.\n2. The table's shape is therefore not established.\n3. Therefore, no listed shape is correct.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Rice@77": {
+        "prompt": "What type of vehicle is parked outside?\n\nA. Sedan\nB. Convertible\nC. SUV\nD. Hatchback",
+        "response": "<think>\n1. The available visual information describes only a potted plant.\n2. It does not establish that a sedan, convertible, SUV, or hatchback is parked outside.\n3. Therefore, no listed vehicle type is supported.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Rice@1": {
+        "prompt": "What shape is the table in the scene?\n\nA. Round\nB. Square\nC. Oval\nD. Rectangular",
+        "response": "<think>\n1. The available descriptions do not establish that the table is round, square, oval, or rectangular.\n2. Therefore, no listed shape is supported.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Rice@62": {
+        "prompt": "What type of mirror is hanging in the room?\n\nA. Convex mirror\nB. Infinity mirror\nC. Antique mirror\nD. Smart mirror",
+        "response": "<think>\n1. The descriptions do not establish that a mirror is present or hanging in a room.\n2. Consequently, none of the listed mirror types can be selected.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Rice@3": {
+        "prompt": "What type of painting is hanging on the wall?\n\nA. Landscape\nB. Abstract\nC. Portrait\nD. Still Life",
+        "response": "<think>\n1. The available descriptions concern a potted plant and do not mention a wall or painting.\n2. Therefore, none of the listed painting categories is supported.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Rice@20": {
+        "prompt": "What type of vehicle is parked nearby?\n\nA. Sedan\nB. Bicycle\nC. Convertible\nD. Minivan",
+        "response": "<think>\n1. The object is described as a potted plant with a slender stem and green leaves.\n2. No nearby vehicle is identified, so none of the vehicle choices is supported.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Rice@74": {
+        "prompt": "What is the height of the bookshelf in the scene?\n\nA. Six feet\nB. Four feet\nC. Eight feet\nD. Ten feet",
+        "response": "<think>\n1. The scene descriptions contain no bookshelf or measurement.\n2. Therefore, none of the proposed heights can be supported.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Rice@19": {
+        "prompt": "What color is the sofa in the scene?\n\nA. Red\nB. Gray\nC. Green\nD. Yellow",
+        "response": "<think>\n1. The object is described as a potted plant with green stems and leaves.\n2. No sofa is present or described, so its color is not established.\n3. Therefore, none of the listed color choices is correct.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Rice@26": {
+        "prompt": "What type of furniture is in the scene?\n\nA. Dining table\nB. Sofa\nC. Armchair\nD. Coffee table",
+        "response": "<think>\n1. The scene descriptions contain a potted plant and a small pot, not a piece of furniture.\n2. No dining table, sofa, armchair, or coffee table is identified.\n3. Therefore, no listed furniture type is correct.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Rice@13": {
+        "prompt": "What type of furniture is located in the room?\n\nA. Sofa\nB. Coffee table\nC. Bookshelf\nD. Dining chair",
+        "response": "<think>\n1. The available descriptions concern a potted plant and do not establish a room or furniture.\n2. Therefore, none of the listed furniture types is supported.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Rice@7": {
+        "prompt": "What type of furniture is located in the scene?\n\nA. Armchair\nB. Coffee table\nC. Bookshelf\nD. Dining set",
+        "response": "<think>\n1. The scene descriptions contain a potted plant and a small tree, not a furniture item.\n2. Therefore, none of the listed furniture types is supported.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Rice@46": {
+        "prompt": "What is the size of the television in the room?\n\nA. 32 inches\nB. 50 inches\nC. 65 inches\nD. 75 inches",
+        "response": "<think>\n1. The available descriptions do not establish a television or its size.\n2. Therefore, none of the listed sizes can be selected.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Rice@52": {
+        "prompt": "What is the shape of the table in the scene?\n\nA. Round\nB. Square\nC. Rectangular\nD. Oval",
+        "response": "<think>\n1. The available descriptions concern a potted plant and do not establish the presence or shape of a table.\n2. No listed table shape is supported.\n3. Therefore, there is no correct answer.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Rice@41": {
+        "prompt": "What type of chair is positioned next to the potted plant?\n\nA. Armchair\nB. Dining chair\nC. Bean bag chair\nD. Recliner",
+        "response": "<think>\n1. The descriptions identify a potted plant with a brown pot and a small plant.\n2. No chair is described or visible in the supplied information.\n3. Therefore, none of the listed chair types is supported.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Rice@84": {
+        "prompt": "What type of vehicle is parked outside?\n\nA. Sedan\nB. Motorcycle\nC. SUV\nD. Coupe",
+        "response": "<think>\n1. The available descriptions concern a potted plant and do not mention a vehicle.\n2. Therefore, none of the listed vehicle types is supported.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Rice@6": {
+        "prompt": "What is the texture of the ceiling in the room?\n\nA. Smooth\nB. Textured\nC. Rough\nD. Grainy",
+        "response": "<think>\n1. The available descriptions concern a potted plant, not a ceiling.\n2. No ceiling texture is established.\n3. Therefore, none of the listed answers is supported.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Rice@59": {
+        "prompt": "What animal is hiding behind the plant?\n\nA. Cat\nB. Dog\nC. Rabbit\nD. Bird",
+        "response": "<think>\n1. The plant is described with a brown pot and green leaves.\n2. No cat, dog, rabbit, or bird is mentioned.\n3. Therefore, none of the listed choices is correct.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Rice@4": {
+        "prompt": "What material is the table made of?\n\nA. Glass\nB. Wood\nC. Metal\nD. Plastic",
+        "response": "<think>\n1. The object is described as a plant in a pot, not a table.\n2. No table material is provided, so glass, wood, metal, and plastic cannot be selected.\n3. Therefore, no listed answer is correct.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Rice@8": {
+        "prompt": "What type of animal is seen next to the plant?\n\nA. Elephant\nB. Giraffe\nC. Parrot\nD. Lion",
+        "response": "<think>\n1. The plant is described with a stem and leaves, but no animal is present.\n2. The listed animal choices therefore do not match the observed object.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Rice@48": {
+        "prompt": "What is the primary color of the bicycle?\n\nA. Red\nB. Blue\nC. Green\nD. Yellow",
+        "response": "<think>\n1. The object is described as a potted plant with a brown pot and green leaves.\n2. No bicycle is present or identified as red, blue, green, or yellow.\n3. Therefore, none of the listed answers is correct.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Rice@54": {
+        "prompt": "What kind of carpet is under the plant?\n\nA. Shaggy\nB. Wool\nC. Polyester\nD. Sisal",
+        "response": "<think>\n1. The plant is described as a small potted plant with a brown base.\n2. The descriptions do not identify a shaggy, wool, polyester, or sisal carpet.\n3. Therefore, none of the listed carpet choices is supported.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Rice@2": {
+        "prompt": "What type of sculpture is featured in the scene?\n\nA. Abstract\nB. Figurative\nC. Kinetic\nD. Relief",
+        "response": "<think>\n1. The object is described as a potted plant with a slender stem and leaves.\n2. The descriptions do not establish an abstract, figurative, kinetic, or relief sculpture.\n3. Therefore, no listed sculpture type is supported.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Rice@37": {
+        "prompt": "What material is the chair made of?\n\nA. Wood\nB. Plastic\nC. Metal\nD. Fabric",
+        "response": "<think>\n1. The object is described as a potted plant with a brown pot.\n2. No chair is present or described, so its material cannot be determined from the available evidence.\n3. Therefore, no listed material choice is supported.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Rice@45": {
+        "prompt": "What shape is the table in the scene?\n\nA. Square\nB. Rectangular\nC. Circular\nD. Triangular",
+        "response": "<think>\n1. The scene descriptions contain no table or table shape.\n2. Therefore, none of the listed shapes can be selected.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Rice@35": {
+        "prompt": "What is the age of the sculpture in the room?\n\nA. 15 years\nB. 30 years\nC. 50 years\nD. 100 years",
+        "response": "<think>\n1. The object is described as a potted plant with green leaves, not a sculpture in a room.\n2. No sculpture or room is identified, so its age is not established.\n3. Therefore, none of the listed choices is correct.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Rice@18": {
+        "prompt": "What is the weight of the dining table?\n\nA. 150 pounds\nB. 200 pounds\nC. 250 pounds\nD. 300 pounds",
+        "response": "<think>\n1. The object is a potted plant with a slender stem and leaves.\n2. No dining table or weight measurement is provided, so the listed weights cannot be selected.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Rice@72": {
+        "prompt": "What type of ceiling design is featured in the room?\n\nA. Coffered\nB. Vaulted\nC. Suspended\nD. Flat",
+        "response": "<think>\n1. The object is a potted plant with a slender stem and leaves.\n2. It is not described as a room or ceiling design.\n3. Therefore, none of the listed choices is correct.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Tomato@8-22_20-28": {
+        "prompt": "What is the height of the building?\n\nA. Two stories\nB. Three stories\nC. Ten stories\nD. Fifteen stories",
+        "response": "<think>\n1. The object is a small green plant with leaves.\n2. No building or story-count is described, so the listed heights do not apply.\n3. Therefore, no listed answer is correct.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Tomato@10-5_1-1": {
+        "prompt": "What type of artwork is displayed in the scene?\n\nA. Landscape painting\nB. Abstract sculpture\nC. Portrait photograph\nD. Vintage poster",
+        "response": "<think>\n1. The scene descriptions contain no artwork or painting.\n2. They only identify a potted plant with a brown pot and green leaves.\n3. Therefore, none of the listed artwork types is supported.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Tomato@8-13_20-28": {
+        "prompt": "What size is the table in the scene?\n\nA. Small\nB. Large\nC. Medium\nD. Extra large",
+        "response": "<think>\n1. The available descriptions do not establish the presence or size of a table.\n2. Therefore, none of the listed size choices can be supported.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Tomato@8-22_30-4": {
+        "prompt": "What is the shape of the table?\n\nA. Round\nB. Rectangular\nC. Square\nD. Oval",
+        "response": "<think>\n1. The available descriptions do not establish the shape of a table.\n2. Therefore, none of the listed shapes can be selected.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Tomato@8-13_1-55": {
+        "prompt": "What type of vehicle is parked nearby?\n\nA. Sedan\nB. Motorcycle\nC. Pickup truck\nD. Bicycle",
+        "response": "<think>\n1. The available descriptions contain no vehicle or parked object.\n2. Therefore, none of the vehicle choices is supported.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Tomato@8-22_10-3": {
+        "prompt": "What type of sculpture is displayed in the scene?\n\nA. Abstract marble\nB. Bronze figure\nC. Wooden totem\nD. Glass vase",
+        "response": "<think>\n1. The object is described as a green plant with a slender stem and leaves.\n2. None of the four sculpture options matches this plant.\n3. Therefore, no listed answer is correct.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Tomato@11-2_35-22": {
+        "prompt": "What is the height of the building in the scene?\n\nA. Four stories\nB. Eight stories\nC. Two stories\nD. Ten stories",
+        "response": "<think>\n1. The scene descriptions contain no building or building height.\n2. The listed story-count choices therefore cannot be selected from the available evidence.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Tomato@8-31_10-3": {
+        "prompt": "What type of vehicle is parked next to the tree?\n\nA. Sedan\nB. Motorcycle\nC. Pickup truck\nD. Bicycle",
+        "response": "<think>\n1. The available descriptions contain no vehicle or parked object.\n2. The tree is described as a flowering shrub or small tree with white blossoms.\n3. Therefore, none of the vehicle choices is supported.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Tomato@10-5_30-52": {
+        "prompt": "What type of furniture is included in the scene?\n\nA. Coffee table\nB. Bookshelf\nC. Sofa\nD. Dining chair",
+        "response": "<think>\n1. The object is a green plant with a slender stem and leaves.\n2. It is not a coffee table, bookshelf, sofa, or dining chair.\n3. Therefore, none of the listed furniture choices is correct.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Tomato@8-10_10-53": {
+        "prompt": "What type of furniture is featured in the scene?\n\nA. Coffee table\nB. Bookshelf\nC. Lounge chair\nD. Dining table",
+        "response": "<think>\n1. The scene descriptions contain a potted plant and a small leafy plant.\n2. They do not establish a coffee table, bookshelf, lounge chair, or dining table.\n3. Therefore, no listed furniture type is supported.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Tomato@8-28_30-52": {
+        "prompt": "What is the height of the chandelier in the room?\n\nA. 10 feet\nB. 15 feet\nC. 20 feet\nD. 25 feet",
+        "response": "<think>\n1. The object is described as a potted plant with a slender stem and leaves.\n2. No chandelier or room measurement is provided, so the listed heights cannot be selected.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Tomato@8-22_35-22": {
+        "prompt": "What type of building material is used for the roof?\n\nA. Slate\nB. Thatch\nC. Metal\nD. Concrete",
+        "response": "<think>\n1. The object is described as a leafy plant with a slender stem and branches.\n2. No roof or building material is identified, so none of the listed choices is supported.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Tomato@9-3_2-1": {
+        "prompt": "What type of furniture is used in the kitchen?\n\nA. Dining table\nB. Bar stools\nC. Kitchen island\nD. Cupboard",
+        "response": "<think>\n1. The object is a potted plant with green leaves.\n2. It is not a dining table, bar stools, kitchen island, or cupboard.\n3. Therefore, none of the listed choices is correct.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Tomato@8-25_1-55": {
+        "prompt": "What shape is the table in the scene?\n\nA. Circular\nB. Rectangular\nC. Oval\nD. Square",
+        "response": "<think>\n1. The available descriptions contain no table or table shape.\n2. Therefore, none of the listed shapes can be selected.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Tomato@9-3_20-28": {
+        "prompt": "What type of floor tiles are used in the room?\nA. Ceramic\nB. Vinyl\nC. Marble\nD. Porcelain",
+        "response": "<think>\n1. The available descriptions do not establish the presence or type of a floor.\n2. The listed tile choices cannot be selected from the available evidence.\n3. Therefore, no listed answer is correct.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Tomato@8-28_10-53": {
+        "prompt": "What type of fruit is typically found hanging from the branches?\n\nA. Apples\nB. Oranges\nC. Bananas\nD. Cherries",
+        "response": "<think>\n1. The object is a leafy plant with a slender stem and green leaves.\n2. No fruit is identified, so none of the listed fruit types is supported.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Tomato@9-6_1-55": {
+        "prompt": "What type of chair is located beside the tree?\n\nA. Rocking chair\nB. Recliner\nC. Bar stool\nD. Bean bag chair",
+        "response": "<think>\n1. The available descriptions do not establish the presence or type of a chair beside the tree.\n2. The chair cannot be identified as a rocking chair, recliner, bar stool, or bean bag chair.\n3. Therefore, there is no correct answer.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Tomato@9-3_10-3": {
+        "prompt": "What shade of paint is used on the walls?\n\nA. Bright Yellow\nB. Sky Blue\nC. Soft Lavender\nD. Classic Gray",
+        "response": "<think>\n1. The available descriptions contain no information about a wall or its paint color.\n2. Therefore, none of the listed shades can be selected.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Tomato@8-31_20-28": {
+        "prompt": "What is the height of the bookshelf in the scene?\n\nA. Six feet\nB. Four feet\nC. Eight feet\nD. Ten feet",
+        "response": "<think>\n1. The object is described as a potted plant, not a bookshelf.\n2. No bookshelf height is provided or visually established.\n3. Therefore, none of the listed heights is supported.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Tomato@8-25_30-52": {
+        "prompt": "What style of chair complements the branch in the scene?\n\nA. Modernist\nB. Victorian\nC. Rustic\nD. Art Deco",
+        "response": "<think>\n1. The scene descriptions contain no chair or chair style.\n2. Therefore, none of the listed chair styles is supported.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Tomato@11-2_30-4": {
+        "prompt": "What type of sculpture can be found in the room?\n\nA. Marble bust\nB. Bronze statue\nC. Wooden totem\nD. Glass figurine",
+        "response": "<think>\n1. The object is described as a small potted plant with green leaves.\n2. The choices are a marble bust, bronze statue, wooden totem, and glass figurine, none of which matches.\n3. Therefore, no listed answer is correct.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Tomato@9-14_10-3": {
+        "prompt": "What type of lamp is in the scene?\n\nA. Table lamp\nB. Floor lamp\nC. Desk lamp\nD. Wall lamp",
+        "response": "<think>\n1. The scene descriptions contain no lamp or lamp-related object.\n2. The listed lamp types therefore cannot be identified from the available evidence.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Tomato@11-2_1-1": {
+        "prompt": "What type of furniture is used for seating in the room?\n\nA. Armchair\nB. Sofa\nC. Bar Stool\nD. Recliner",
+        "response": "<think>\n1. The available evidence describes a plant with a slender stem and leaves.\n2. It does not establish an armchair, sofa, bar stool, or recliner.\n3. Therefore, none of the listed choices is correct.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Tomato@8-28_20-28": {
+        "prompt": "What type of fruit is found in the scene?\n\nA. Apple\nB. Banana\nC. Cherry\nD. Grape",
+        "response": "<think>\n1. The scene contains a small potted plant with green leaves.\n2. No apple, banana, cherry, or grape is described.\n3. Therefore, no listed fruit type is correct.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Tomato@8-25_1-1": {
+        "prompt": "What is the size of the coffee table?\n\nA. Small\nB. Medium\nC. Large\nD. Extra-large",
+        "response": "<think>\n1. The available descriptions concern a small plant in a pot.\n2. They do not establish the size of a coffee table, so no listed size can be selected.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Wheat@79": {
+        "prompt": "What type of vehicle is parked beside the shrub?\n\nA. Sedan\nB. Motorcycle\nC. Pickup truck\nD. Convertible",
+        "response": "<think>\n1. The object is a small tree with branches and leaves.\n2. No vehicle is described or visible in the supplied information.\n3. Therefore, none of the listed vehicle types is supported.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Wheat@145": {
+        "prompt": "What type of fruit can be found near the bamboo plant?\n\nA. Apple\nB. Banana\nC. Orange\nD. Grape",
+        "response": "<think>\n1. The plant is described as a tall green plant with slender stems and narrow leaves.\n2. No apple, banana, orange, or other fruit is identified near it.\n3. Therefore, no listed answer is correct.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Wheat@91": {
+        "prompt": "What type of animal is lounging in the scene?\n\nA. Cat\nB. Dog\nC. Rabbit\nD. Hamster",
+        "response": "<think>\n1. The object is described as a potted plant with green leaves.\n2. No cat, dog, rabbit, or hamster is observed.\n3. Therefore, none of the listed animal choices is correct.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Wheat@116": {
+        "prompt": "What type of furniture is in the corner of the room?\n\nA. Coffee table\nB. Recliner\nC. Bookshelf\nD. Dining table",
+        "response": "<think>\n1. The descriptions show a potted plant with a slender stem and leaves.\n2. They do not establish a coffee table, recliner, bookshelf, or dining table.\n3. Therefore, no listed furniture type is supported.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Wheat@6": {
+        "prompt": "What shape is the table in the room?\n\nA. Round\nB. Square\nC. Rectangular\nD. Oval",
+        "response": "<think>\n1. The available descriptions concern a potted plant and do not establish the presence or shape of a table.\n2. Therefore, none of the listed table shapes is supported.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Wheat@11": {
+        "prompt": "What type of sculpture is displayed next to the plant?\n\nA. Abstract figure\nB. Classical bust\nC. Modern geometric shape\nD. Ornamental animal",
+        "response": "<think>\n1. The available description concerns a potted plant with green leaves.\n2. It does not establish an abstract figure, classical bust, or modern geometric sculpture.\n3. Therefore, none of the listed choices is correct.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Wheat@34": {
+        "prompt": "What type of seating arrangement is used for the conference area?\n\nA. Circular tables\nB. Lounge chairs\nC. Conference benches\nD. Stacking chairs",
+        "response": "<think>\n1. The object is described as a potted plant with a brown trunk and branches.\n2. No seating arrangement is present or identified.\n3. Therefore, none of the listed choices is correct.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Wheat@127": {
+        "prompt": "What type of animal is often found living in the trees?\n\nA. Squirrel\nB. Parrot\nC. Chameleon\nD. Hedgehog",
+        "response": "<think>\n1. The object is a slender green plant with a stem and leaves.\n2. It is not described as a squirrel, parrot, chameleon, or hedgehog.\n3. Therefore, no listed animal answer is correct.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Wheat@39": {
+        "prompt": "What type of furniture is located next to the plant?\n\nA. Coffee Table\nB. Dining Chair\nC. Bookshelf\nD. Bed",
+        "response": "<think>\n1. The object is a green leafy plant with a slender stem and branching leaves.\n2. No furniture is described or visible in the supplied information.\n3. Therefore, none of the listed furniture choices is correct.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Wheat@107": {
+        "prompt": "What type of structure is the building made of?\n\nA. Steel\nB. Brick\nC. Timber\nD. Glass",
+        "response": "<think>\n1. The object is described as a green plant with a slender stem and leaves.\n2. It is not a building, brick, or glass structure.\n3. Therefore, none of the listed choices is correct.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Wheat@122": {
+        "prompt": "What features does the chair have?\n\nA. Armrests\nB. Cushions\nC. Wheels\nD. Reclining mechanism",
+        "response": "<think>\n1. The object is described as a potted plant with green leaves.\n2. No chair is present or characterized in the supplied descriptions.\n3. Therefore, the chair features cannot be identified from the available evidence.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Wheat@52": {
+        "prompt": "What type of chair is located near the potted plant?\n\nA. Recliner\nB. Dining chair\nC. Bean bag\nD. Office chair",
+        "response": "<think>\n1. The object is described as a potted plant with a dark pot and soil.\n2. No chair is mentioned or visibly established.\n3. Therefore, the chair type cannot be matched to any listed option.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Wheat@96": {
+        "prompt": "What type of furniture is in the scene?\n\nA. Sofa\nB. Coffee table\nC. Dining chair\nD. Bookshelf",
+        "response": "<think>\n1. The scene descriptions contain no furniture.\n2. The listed furniture types therefore cannot be identified from the available evidence.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Wheat@26": {
+        "prompt": "What shape is the window in the scene?\n\nA. Round\nB. Square\nC. Triangular\nD. Rectangular",
+        "response": "<think>\n1. The scene descriptions contain no window or window-shape information.\n2. Therefore, none of the listed shapes can be selected.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Wheat@88": {
+        "prompt": "What type of vase is used in the scene?\n\nA. Glass vase\nB. Ceramic vase\nC. Plastic vase\nD. Metal vase",
+        "response": "<think>\n1. The object is described as a potted plant with a dark cylindrical pot.\n2. No vase is present or identified in the supplied descriptions.\n3. Therefore, none of the listed vase types is supported.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Wheat@25": {
+        "prompt": "What shape is the table in the scene?\n\nA. Round\nB. Square\nC. Oval\nD. Rectangular",
+        "response": "<think>\n1. The available descriptions do not establish the presence or shape of a table.\n2. Therefore, none of the listed shapes can be selected.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Wheat@115": {
+        "prompt": "What shape is the dining table?\n\nA. Round\nB. Square\nC. Rectangle\nD. Oval",
+        "response": "<think>\n1. The object is described as a tall green plant with a slender stem and leaves.\n2. It is not a dining table or a table shape, so no listed option is correct.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Wheat@28": {
+        "prompt": "What type of painting is hanging on the wall?\n\nA. Abstract art\nB. Landscape\nC. Portrait\nD. Still life",
+        "response": "<think>\n1. The available descriptions concern a potted plant and its leaves.\n2. They do not establish whether the object is an abstract painting, landscape, portrait, or still life.\n3. Therefore, no listed answer is supported.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Wheat@78": {
+        "prompt": "What type of sculpture is displayed in the scene?\n\nA. Abstract figure\nB. Life-sized statue\nC. Ceramic piece\nD. Stone relief",
+        "response": "<think>\n1. The object is described as a green plant with a slender stem and leaves.\n2. It is not an abstract figure, statue, ceramic piece, or stone relief.\n3. Therefore, none of the listed choices is correct.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Wheat@126": {
+        "prompt": "What type of furniture is located near the potted bamboo plant?\n\nA. Recliner\nB. Dining table\nC. Coffee table\nD. Bookshelf",
+        "response": "<think>\n1. The plant is described as a tall, slender green plant with a brown base.\n2. No nearby furniture is mentioned or visually established.\n3. Therefore, none of the listed furniture types is supported.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Wheat@125": {
+        "prompt": "What color is the couch in the room?\n\nA. Red\nB. Gray\nC. Blue\nD. Yellow",
+        "response": "<think>\n1. The available descriptions do not establish a couch or its color.\n2. The listed colors therefore cannot be selected from the evidence.\n3. Therefore, no listed answer is correct.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Wheat@60": {
+        "prompt": "What is the height of the ceiling in the room?\n\nA. 10 feet\nB. 12 feet\nC. 8 feet\nD. 15 feet",
+        "response": "<think>\n1. The available descriptions contain no ceiling or room information.\n2. The height cannot be determined from the supplied evidence.\n3. Therefore, no listed answer is correct.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Wheat@131": {
+        "prompt": "What type of vehicle is parked outside?\n\nA. Sedan\nB. Bicycle\nC. Truck\nD. Motorcycle",
+        "response": "<think>\n1. The available descriptions contain no vehicle or parked object.\n2. The vehicle type cannot be determined from the supplied evidence.\n3. Therefore, no listed answer is correct.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Wheat@72": {
+        "prompt": "What color is the ceiling in the room?\n\nA. Yellow\nB. Blue\nC. Green\nD. White",
+        "response": "<think>\n1. The available descriptions do not establish a ceiling color.\n2. Therefore, none of the listed colors can be selected.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Wheat@149": {
+        "prompt": "What type of vehicle is parked in front of the plant?\n\nA. Sedan\nB. Motorcycle\nC. Van\nD. Pickup truck",
+        "response": "<think>\n1. The plant is described with a slender stem and green leaves.\n2. No vehicle is mentioned or visible in the supplied descriptions.\n3. Therefore, none of the listed vehicle types is supported.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Wheat@119": {
+        "prompt": "What type of vehicle is parked outside?\n\nA. Sedan\nB. SUV\nC. Convertible\nD. Pickup truck",
+        "response": "<think>\n1. The available descriptions contain no vehicle or parked object.\n2. Therefore, none of the listed vehicle types can be selected.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Wheat@21": {
+        "prompt": "What type of window treatment is used in the room?\n\nA. Sheer curtains\nB. Bamboo blinds\nC. Roman shades\nD. Roller shades",
+        "response": "<think>\n1. The available descriptions concern a potted plant and do not describe a room or window treatment.\n2. Therefore, none of the listed window-treatment choices is supported.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Wheat@84": {
+        "prompt": "What model of spaceship is hovering nearby?\n\nA. Starfighter\nB. Cruiser\nC. Space Shuttle\nD. Drone",
+        "response": "<think>\n1. The object is described as a green plant with a slender stem and leaves.\n2. It is not a starfighter, cruiser, space shuttle, or flying object.\n3. Therefore, none of the listed choices is correct.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Wheat@4": {
+        "prompt": "What type of furniture is located directly next to the potted plant?\n\nA. Sofa\nB. Coffee table\nC. Armchair\nD. Bookshelf",
+        "response": "<think>\n1. The descriptions identify a potted plant with a stem and leaves.\n2. They do not establish the presence or type of a nearby furniture item.\n3. Therefore, none of the listed furniture choices is supported.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Wheat@109": {
+        "prompt": "What flavor is the cake being served?\n\nA. Chocolate\nB. Vanilla\nC. Red velvet\nD. Carrot",
+        "response": "<think>\n1. The available descriptions do not establish a cake flavor.\n2. The listed flavors cannot be matched to the object.\n3. Therefore, no choice is correct.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Wheat@89": {
+        "prompt": "What type of chandelier is hanging in the scene?\n\nA. Crystal chandelier\nB. Rustic pendant light\nC. Modern flush mount\nD. Vintage candelabra",
+        "response": "<think>\n1. The object is described as a potted plant with green leaves.\n2. There is no evidence of a chandelier or any of the listed chandelier types.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Wheat@14": {
+        "prompt": "What type of vehicle is parked outside?\n\nA. Sedan\nB. SUV\nC. Bicycle\nD. Motorcycle",
+        "response": "<think>\n1. The available descriptions contain no vehicle or parked object.\n2. Therefore, none of the listed vehicle types can be identified.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Wheat@73": {
+        "prompt": "What kind of wildlife can be found near the grass?\n\nA. Rabbits\nB. Squirrels\nC. Deer\nD. Foxes",
+        "response": "<think>\n1. The object is described as a green plant with a slender stem and leaves.\n2. No rabbits, squirrels, deer, or foxes are mentioned.\n3. Therefore, no listed answer is correct.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Wheat@123": {
+        "prompt": "What style of chair is found in the scene?\n\nA. Armchair\nB. Recliner\nC. Dining chair\nD. Folding chair",
+        "response": "<think>\n1. The scene descriptions contain no chair.\n2. The chair style cannot be determined from the available evidence.\n3. Therefore, none of the listed chair choices is supported.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Wheat@102": {
+        "prompt": "What is the shape of the mirror?\n\nA. Oval\nB. Square\nC. Rectangular\nD. Round",
+        "response": "<think>\n1. The object is described as a branching plant with leaves and a brown base.\n2. It is not a mirror or a circular object, so none of the listed shapes is correct.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Wheat@80": {
+        "prompt": "What is the height of the sculpture?\n\nA. Three feet\nB. Five feet\nC. Eight feet\nD. Ten feet",
+        "response": "<think>\n1. The object is described as a tall green plant with a slender stem.\n2. No height measurement is provided, so the listed heights cannot be selected.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Wheat@87": {
+        "prompt": "What type of ceiling light is featured in the scene?\n\nA. Chandelier\nB. Pendant light\nC. Recessed light\nD. Track lighting",
+        "response": "<think>\n1. The available visual information describes a potted plant rather than a ceiling light.\n2. No chandelier, pendant light, recessed light, or track lighting is identified.\n3. Therefore, none of the listed choices is correct.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Wheat@98": {
+        "prompt": "What is the height of the chandelier?\n\nA. 5 feet\nB. 8 feet\nC. 10 feet\nD. 12 feet",
+        "response": "<think>\n1. The available descriptions do not establish a chandelier or its height.\n2. Therefore, none of the listed heights is supported.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Wheat@137": {
+        "prompt": "What type of fabric is on the couch?\n\nA. Velvet\nB. Linen\nC. Cotton\nD. Silk",
+        "response": "<think>\n1. The available descriptions concern a potted plant and do not mention a couch.\n2. No fabric type is established, so none of the listed options is supported.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Wheat@113": {
+        "prompt": "What type of paint is used on the walls?\n\nA. Blue\nB. Yellow\nC. Green\nD. White",
+        "response": "<think>\n1. The object is described as a potted plant with green leaves.\n2. No wall or paint color is identified, so the listed colors cannot be selected.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Wheat@108": {
+        "prompt": "What type of chair is located near the plant?\n\nA. Recliner\nB. Barstool\nC. Office chair\nD. Dining chair",
+        "response": "<think>\n1. The available descriptions do not establish the presence or type of a chair near the plant.\n2. The chair cannot be identified as a recliner, barstool, office chair, or dining chair.\n3. Therefore, no listed answer is correct.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Wheat@7": {
+        "prompt": "What type of sculpture is featured in the room?\n\nA. Abstract metal sculpture\nB. Classical marble bust\nC. Wooden animal figurine\nD. Stone relief carving",
+        "response": "<think>\n1. The object is described as a potted plant with green branches and leaves.\n2. It is not an abstract metal sculpture, classical marble bust, wooden animal figurine, or stone relief carving.\n3. Therefore, none of the listed choices is correct.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Wheat@42": {
+        "prompt": "What is the shape of the bookshelf?\n\nA. Rectangular\nB. Circular\nC. Hexagonal\nD. Triangular",
+        "response": "<think>\n1. The descriptions identify a circular bookshelf.\n2. The available choices are rectangular, circular, hexagonal, and triangular, so no choice fits.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Wheat@92": {
+        "prompt": "What style of architecture is featured in the scene?\n\nA. Gothic\nB. Art Deco\nC. Colonial\nD. Minimalist",
+        "response": "<think>\n1. The scene descriptions contain no information about a building or its style.\n2. Therefore, none of the listed architectural styles is supported.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Wheat@15": {
+        "prompt": "What is the capacity of the aquarium in the scene?\n\nA. 50 gallons\nB. 30 liters\nC. 100 quarts\nD. 25 cubic feet",
+        "response": "<think>\n1. The available descriptions concern a potted plant and do not mention an aquarium.\n2. The aquarium's capacity is therefore not established.\n3. Therefore, none of the listed choices is correct.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    }
+}

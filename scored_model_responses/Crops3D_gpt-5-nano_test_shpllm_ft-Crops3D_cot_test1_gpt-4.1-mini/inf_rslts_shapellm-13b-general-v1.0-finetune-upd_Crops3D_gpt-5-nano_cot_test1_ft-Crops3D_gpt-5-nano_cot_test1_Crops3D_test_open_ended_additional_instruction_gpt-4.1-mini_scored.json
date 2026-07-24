@@ -1,0 +1,2144 @@
+{
+    "Cabbage@sl_1109_14": {
+        "prompt": "What type of rug covers the floor?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "<think>\n1. The available visual information describes a potted plant with a stem and leaves.\n2. It does not establish the presence or type of a rug.\n3. Therefore, the question is unanswerable from the available evidence.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Cabbage@sl_1019_03": {
+        "prompt": "What type of outdoor fountain features intricate carvings?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "<think>\n1. The available information describes a potted plant with leaves.\n2. It does not establish the presence or type of an outdoor fountain.\n3. Therefore, the question is unanswerable from the available evidence.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Cabbage@mvs_1019_05": {
+        "prompt": "What type of metal is the lamp made of?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "<think>\n1. The available information describes a plant and does not establish the material or type of a lamp.\n2. The requested metal information is therefore unanswerable from the available evidence.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Cabbage@mvs_907_11": {
+        "prompt": "What is the height of the chandelier hanging from the ceiling?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "<think>\n1. The available descriptions contain no chandelier or ceiling-related information.\n2. The height cannot be determined from the supplied evidence.\n3. Therefore, there is no correct answer.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Cabbage@sl_1205_01": {
+        "prompt": "What type of sculpture is displayed on the shelf?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "<think>\n1. The available descriptions concern a potted plant and do not mention a sculpture.\n2. No shelf or sculpture is identified.\n3. Therefore, the question is unanswerable from the available evidence.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Cabbage@sl_921_07": {
+        "prompt": "What type of metal is the chandelier made of?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "<think>\n1. The available information describes a potted plant and does not identify a chandelier.\n2. No chandelier material or metal type is provided.\n3. Therefore, the question is unanswerable from the available evidence.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Cabbage@mvs_901_14": {
+        "prompt": "What type of fabric is the armchair covered in?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "<think>\n1. The available information describes a plant in a pot, not an armchair.\n2. No fabric type is provided for an armchair.\n3. Therefore, the question is unanswerable from the available evidence.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Cabbage@mvs_1123_14": {
+        "prompt": "What type of fruit is inside the vase?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "<think>\n1. The available descriptions contain no vase or fruit.\n2. They also do not identify any fruit type.\n3. Therefore, the question is unanswerable from the available evidence.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Cabbage@mvs_1019_09": {
+        "prompt": "What type of animal is lounging on the couch?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "<think>\n1. The available descriptions contain no couch or animal.\n2. The type of animal is therefore not established.\n3. Therefore, there is no correct answer.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Cabbage@sl_907_03": {
+        "prompt": "What type of chandelier is hanging from the ceiling?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "<think>\n1. The available visual information describes a plant in a pot, not a chandelier.\n2. No chandelier or ceiling fixture is identified.\n3. Therefore, the question is unanswerable from the available evidence.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Cabbage@sl_1205_05": {
+        "prompt": "What kind of water fountain is located nearby?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "<think>\n1. The available information describes only a potted plant with a brown pot.\n2. It does not establish the presence or type of a nearby water fountain.\n3. Therefore, the question is unanswerable from the available evidence.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Cabbage@mvs_1019_03": {
+        "prompt": "What type of animal is resting in the corner of the room?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "<think>\n1. The available information describes a plant in a pot, not an animal in a room.\n2. No animal or animal type is identified.\n3. Therefore, the question is unanswerable from the available evidence.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Cabbage@sl_901_02": {
+        "prompt": "What type of animal is resting on the table?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "<think>\n1. The available visual information describes a potted plant and does not establish an animal presence.\n2. The type of animal resting on a table is therefore unanswerable from the evidence.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Cabbage@mvs_1205_09": {
+        "prompt": "What type of fabric is on the curtains?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "<think>\n1. The available information describes a plant in a pot, not curtains.\n2. No fabric type is provided, so the question cannot be answered from the evidence.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Cabbage@sl_1019_07": {
+        "prompt": "What type of chandelier is hanging from the ceiling?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "<think>\n1. The available information concerns a potted plant with a stem and leaves.\n2. It does not establish the presence or type of a chandelier.\n3. Therefore, the question is unanswerable from the available evidence.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Cabbage@sl_1019_05": {
+        "prompt": "What type of furniture is positioned next to the fireplace?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "<think>\n1. The available information describes a plant and does not establish any furniture next to a fireplace.\n2. The requested furniture type is therefore unanswerable from the available evidence.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Cabbage@sl_1116_11": {
+        "prompt": "What type of metal is used in the chair?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "<think>\n1. The available information describes a flower, not a chair.\n2. No metal type or chair is identified.\n3. Therefore, the question is unanswerable from the supplied evidence.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Cabbage@mvs_1012_06": {
+        "prompt": "What type of fabric is the couch made of?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "<think>\n1. The available descriptions contain no couch or fabric information.\n2. The requested fabric type is therefore unanswerable from the supplied evidence.\n3. No listed answer can be selected.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Cabbage@mvs_907_07": {
+        "prompt": "What type of fruit is displayed on the table?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "<think>\n1. The available descriptions contain no table or fruit.\n2. The type of fruit is therefore unanswerable from the supplied evidence.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Cabbage@sl_921_11": {
+        "prompt": "What type of insect is resting on the ceiling?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "<think>\n1. The available visual information describes a potted plant and does not mention an insect on a ceiling.\n2. The type of insect is therefore not established.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Cabbage@sl_1019_01": {
+        "prompt": "What type of flooring is used in the room?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "<think>\n1. The available information describes a plant, not a room or flooring.\n2. No flooring type is established.\n3. Therefore, the question is unanswerable from the available evidence.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Cabbage@mvs_929_06": {
+        "prompt": "What is the height of the chandelier?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "<think>\n1. The available information describes a plant in a pot, not a chandelier.\n2. No height measurement or chandelier-related question is provided.\n3. Therefore, the question is unanswerable from the available evidence.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Cabbage@sl_1109_12": {
+        "prompt": "What texture does the rug have?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "<think>\n1. The available description concerns a potted plant and does not mention a rug.\n2. The rug's texture is therefore not established.\n3. Therefore, there is no correct answer.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Cabbage@mvs_1116_07": {
+        "prompt": "What type of rug is beneath the pot?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "<think>\n1. The available information describes a potted plant with a stem and leaves.\n2. It does not establish that any rug is beneath the pot or identify a rug type.\n3. Therefore, the question is unanswerable from the available evidence.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Cabbage@mvs_921_03": {
+        "prompt": "What type of light fixture is hanging from the ceiling?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "<think>\n1. The available descriptions contain no ceiling or hanging light fixture.\n2. They also do not establish the type of light fixture.\n3. Therefore, the question is unanswerable from the available evidence.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Cabbage@mvs_901_10": {
+        "prompt": "What type of chandelier is hanging from the ceiling?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "<think>\n1. The available information describes a plant in a pot, not a chandelier.\n2. No chandelier type is identified, so the question cannot be answered from the evidence.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Cabbage@sl_1103_05": {
+        "prompt": "What type of chandelier is hanging from the ceiling?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "<think>\n1. The available information describes a plant with a stem and leaves.\n2. It does not establish the presence or type of a chandelier.\n3. Therefore, the chandelier question is unanswerable from the available evidence.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Cabbage@sl_907_11": {
+        "prompt": "What type of painting is hanging on the wall?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "<think>\n1. The available visual information describes only a potted plant.\n2. It does not establish that a painting is hanging on a wall or identify its type.\n3. Therefore, the question is unanswerable from the available evidence.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Cabbage@mvs_1103_05": {
+        "prompt": "What type of light fixture hangs from the ceiling?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "<think>\n1. The available visual information describes a plant with a stem and leaves.\n2. It does not establish the presence or type of a ceiling-hanging light fixture.\n3. Therefore, the question is unanswerable from the available evidence.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Cabbage@mvs_901_12": {
+        "prompt": "What type of fabric is used in the curtains?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "<think>\n1. The available information describes a potted plant and does not mention curtains.\n2. No curtain fabric is identified, so the question is unanswerable from the evidence.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Cabbage@mvs_914_12": {
+        "prompt": "What type of sculpture is displayed next to the houseplant?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "<think>\n1. The available descriptions contain no sculpture or houseplant.\n2. They also do not establish the presence or type of a sculpture.\n3. Therefore, the question is unanswerable from the supplied evidence.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Cabbage@sl_1026_02": {
+        "prompt": "What type of animal is sleeping in the room?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "<think>\n1. The available visual information describes a potted plant with leaves.\n2. It does not establish that an animal is sleeping in a room.\n3. Therefore, the question is unanswerable from the available evidence.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Cabbage@sl_921_03": {
+        "prompt": "What type of fish is swimming in an aquarium nearby?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "<think>\n1. The available information describes only a potted plant with leaves.\n2. It does not establish that a fish is swimming in an aquarium or identify a fish type.\n3. Therefore, the question is unanswerable from the available evidence.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Cabbage@mvs_1026_08": {
+        "prompt": "What type of fabric is the curtain made of?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "<think>\n1. The available information describes a plant and does not establish the presence or fabric of a curtain.\n2. The requested fabric type is therefore unanswerable from the available evidence.\n3. Therefore, there is no correct answer.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Cabbage@sl_1109_10": {
+        "prompt": "What type of metal sculpture is displayed on the table?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "<think>\n1. The available information describes a potted plant with a stem and leaves.\n2. It does not establish the presence or type of a metal sculpture on a table.\n3. Therefore, the question is unanswerable from the available evidence.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Cabbage@mvs_929_10": {
+        "prompt": "What type of fish is swimming in the room?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "<think>\n1. The available evidence describes a potted plant and does not mention a fish.\n2. The type of fish swimming in a room is therefore unanswerable.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Cabbage@mvs_1205_01": {
+        "prompt": "What kind of fruit is hanging from the ceiling?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "<think>\n1. The available descriptions contain no ceiling or hanging fruit.\n2. The fruit type is therefore not established by the available evidence.\n3. Therefore, there is no correct answer.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Cabbage@mvs_1019_11": {
+        "prompt": "What is the height of the tree next to the succulent plant?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "<think>\n1. The supplied descriptions contain no tree or plant next to the succulent.\n2. The height of a tree is therefore not established.\n3. Therefore, there is no correct answer.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Cabbage@sl_1026_08": {
+        "prompt": "What type of fish is swimming in the scene?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "<think>\n1. The available descriptions contain no fish or swimming scene.\n2. The type of fish is therefore not established by the evidence.\n3. Therefore, there is no correct answer.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Cabbage@mvs_907_13": {
+        "prompt": "What type of fish is swimming in the room?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "<think>\n1. The available information describes a potted plant, not a fish.\n2. No fish or room scene is identified.\n3. Therefore, the question is unanswerable from the available evidence.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Cabbage@mvs_1005_11": {
+        "prompt": "What shape is the mirror hanging on the wall?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "<think>\n1. The available descriptions contain no mirror or wall-mounted object.\n2. They also provide no information about a mirror's shape.\n3. Therefore, the question cannot be answered from the available evidence.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Cabbage@mvs_901_06": {
+        "prompt": "What type of animal is sleeping on the windowsill?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "<think>\n1. The available descriptions contain no information about an animal sleeping on a windowsill.\n2. The requested animal type is therefore unanswerable from the available evidence.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Cabbage@sl_1109_08": {
+        "prompt": "What type of crystal chandelier is hanging from the ceiling?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "<think>\n1. The available descriptions contain no chandelier or crystal information.\n2. The type of chandelier is therefore not established.\n3. Therefore, there is no correct answer.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Cabbage@mvs_929_14": {
+        "prompt": "What type of large tree is in the corner of the room?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "<think>\n1. The available information describes a potted plant in a dark cylindrical pot.\n2. It does not establish the presence or type of a large tree in a room corner.\n3. Therefore, the question is unanswerable from the available evidence.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Cabbage@sl_907_01": {
+        "prompt": "What type of fruit is growing on the walls?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "<think>\n1. The available information describes only a potted plant with leaves.\n2. It does not establish the presence or type of fruit growing on walls.\n3. Therefore, the question is unanswerable from the available evidence.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Cabbage@sl_1026_10": {
+        "prompt": "What type of fabric is used to cover the sofa?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "<think>\n1. The available information describes a potted plant with a brown stem and leaves.\n2. It does not establish the presence or type of a sofa or any fabric covering it.\n3. Therefore, the question is unanswerable from the available evidence.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Cabbage@sl_901_10": {
+        "prompt": "What type of fruit is hanging from a tree in the scene?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "<think>\n1. The available information describes a plant in a pot, not a hanging fruit.\n2. The type of fruit is therefore not established.\n3. Therefore, there is no correct answer.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Cabbage@mvs_1012_12": {
+        "prompt": "What type of fabric is the curtain made of?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "<think>\n1. The available descriptions contain no curtain or fabric details.\n2. The requested fabric type is therefore unanswerable from the supplied evidence.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Cabbage@mvs_1109_02": {
+        "prompt": "What type of metal is used in the light fixture?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "<think>\n1. The supplied descriptions contain no information about a light fixture or its metal type.\n2. Therefore, the question is unanswerable from the available evidence.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Cabbage@sl_901_04": {
+        "prompt": "What type of metal is used in the unpainted staircase nearby?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "<think>\n1. The available information describes only a potted plant.\n2. It does not establish what type of metal is used in a nearby staircase.\n3. Therefore, the question is unanswerable from the available evidence.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Cabbage@mvs_1116_01": {
+        "prompt": "What is the size of the chandelier hanging from the ceiling?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "<think>\n1. The available information describes a plant and does not mention a chandelier.\n2. No chandelier or chandelier size is provided.\n3. Therefore, the question is unanswerable from the available evidence.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Cabbage@mvs_901_08": {
+        "prompt": "What type of animal is resting on the windowsill?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "<think>\n1. The available descriptions contain no animal or windowsill scene.\n2. The type of animal is therefore not established.\n3. Therefore, there is no correct answer.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Cabbage@sl_1109_06": {
+        "prompt": "What type of fish is swimming in the room?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "<think>\n1. The available information describes a potted plant rather than a fish.\n2. No fish or fish type is identified.\n3. Therefore, the question is unanswerable from the available evidence.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Cabbage@mvs_914_04": {
+        "prompt": "What type of fruit is hanging from the ceiling?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "<think>\n1. The available information describes a plant in a pot, not fruit hanging from a ceiling.\n2. The type of fruit is therefore unanswerable from the supplied evidence.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Cabbage@sl_1019_13": {
+        "prompt": "What type of chandelier is hanging from the ceiling?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "<think>\n1. The available description concerns a potted plant with leaves and a stem.\n2. It does not establish that a chandelier is present or identify its type.\n3. Therefore, the question is unanswerable from the available evidence.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Cabbage@sl_1026_12": {
+        "prompt": "What type of fabric is used for the curtains?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "<think>\n1. The available information describes a plant with a brown stem and leaves.\n2. It does not identify curtains or any fabric type.\n3. Therefore, the question is unanswerable from the available evidence.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Cabbage@mvs_1103_03": {
+        "prompt": "What type of glass sculpture is displayed on the shelf?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "<think>\n1. The available descriptions contain no glass sculpture or shelf.\n2. The type of glass sculpture is therefore unanswerable from the available evidence.\n3. Therefore, there is no correct answer.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Cabbage@sl_1103_13": {
+        "prompt": "What type of fabric is used for the curtains?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "<think>\n1. The available descriptions contain no curtains or curtain fabric.\n2. The type of curtain fabric is therefore not established.\n3. Therefore, there is no correct answer.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Cabbage@sl_907_05": {
+        "prompt": "What type of animal is resting under the table?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "<think>\n1. The available descriptions contain no animal under a table.\n2. They also do not identify any animal type.\n3. Therefore, the question is unanswerable from the available evidence.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Cotton@116": {
+        "prompt": "What type of metal is used in the construction of the nearby chair?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "<think>\n1. The available descriptions contain no chair or construction details.\n2. The type of metal used is therefore not established.\n3. Therefore, there is no correct answer.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Cotton@14": {
+        "prompt": "What is the material of the large metal sculpture positioned against the wall?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "<think>\n1. The available descriptions contain no large metal sculpture or wall.\n2. They also do not identify any material or material property.\n3. Therefore, the question is unanswerable from the supplied evidence.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Cotton@62": {
+        "prompt": "What kind of tropical fish is swimming nearby?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "<think>\n1. The available information describes a plant with a slender stem and leaves.\n2. It does not establish that any tropical fish is swimming nearby.\n3. Therefore, the question is unanswerable from the available evidence.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Cotton@126": {
+        "prompt": "What kind of mineral is embedded in the soil beneath the sapling?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "<think>\n1. The descriptions contain no soil or embedded mineral information.\n2. Thus, the type of mineral is not established.\n3. Therefore, there is no correct answer.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Cotton@16": {
+        "prompt": "What type of fruit is growing on the tree?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "<think>\n1. The available description concerns a flowering branch with white blossoms.\n2. It does not identify any fruit growing on the tree.\n3. Therefore, the question is unanswerable from the available evidence.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Cotton@113": {
+        "prompt": "What type of fruit is hanging from the branch?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "<think>\n1. The available descriptions do not identify any fruit hanging from the branch.\n2. Therefore, the question is unanswerable from the supplied evidence.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Cotton@27": {
+        "prompt": "What shape is the chandelier hanging from the ceiling?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "<think>\n1. The available visual information describes a potted plant rather than a chandelier.\n2. No chandelier or chandelier shape is identified.\n3. Therefore, the question is unanswerable from the supplied evidence.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Cotton@92": {
+        "prompt": "What is the shape of the large rock adjacent to the branch?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "<think>\n1. The available description concerns a branch with white blossoms.\n2. It does not establish the shape of a large rock adjacent to the branch.\n3. Therefore, the question is unanswerable from the available evidence.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Cotton@198": {
+        "prompt": "What type of furniture is used for seating in the scene?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "<think>\n1. The available visual information describes a plant and does not establish any seating furniture.\n2. Therefore, the requested furniture type is unanswerable from the available evidence.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Cotton@63": {
+        "prompt": "What type of rock is used to create the sculpture in the scene?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "<think>\n1. The available descriptions contain no sculpture or rock information.\n2. The type of rock is therefore not established.\n3. Therefore, there is no correct answer.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Cotton@120": {
+        "prompt": "What type of stone is used in the doorway?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "<think>\n1. The available descriptions contain no doorway or stone information.\n2. The type of stone is therefore unanswerable from the supplied evidence.\n3. Therefore, there is no correct answer.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Cotton@81": {
+        "prompt": "What type of fruit does the branch produce?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "<think>\n1. The object is described as a branch with white blossoms, not a fruit-producing plant.\n2. No fruit type is provided, so the question cannot be answered from the available evidence.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Cotton@136": {
+        "prompt": "What type of metal is used in the construction of the nearby sculpture?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "<think>\n1. The available information describes a plant in a pot, not a nearby sculpture.\n2. No metal type is identified, so the question cannot be answered from the evidence.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Cotton@26": {
+        "prompt": "What texture does the carpet have?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "<think>\n1. The available information describes a plant and does not establish a carpet texture.\n2. The question is therefore unanswerable from the supplied evidence.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Cotton@112": {
+        "prompt": "What type of metal is used in the chair?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "<think>\n1. The available information describes a plant, not a chair.\n2. No chair or metal type is identified.\n3. Therefore, the question is unanswerable from the supplied evidence.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Cotton@2": {
+        "prompt": "What is the size of the dining table?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "<think>\n1. The available information describes a plant in a pot, not a dining table.\n2. No table size is provided.\n3. Therefore, the question is unanswerable from the available evidence.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Cotton@21": {
+        "prompt": "What flavor is the ice cream served in the scene?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "<think>\n1. The available information describes a potted plant and does not mention ice cream.\n2. The flavor is therefore not established.\n3. No answer can be selected from the available evidence.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Cotton@173": {
+        "prompt": "What color is the chair next to the table?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "<think>\n1. The available descriptions contain no chair or table.\n2. Therefore, the chair's color is not established, so no answer can be selected.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Cotton@107": {
+        "prompt": "What type of fruit does the tree produce?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "<think>\n1. The available descriptions do not identify any fruit produced by the tree.\n2. Therefore, the question is unanswerable from the supplied evidence.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Cotton@22": {
+        "prompt": "What type of fruit is being displayed on the table?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "<think>\n1. The available descriptions contain no fruit or table scene.\n2. They only describe a green plant with a slender stem and leaves.\n3. Therefore, the fruit type cannot be determined.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Cotton@115": {
+        "prompt": "What type of fruit is hanging from the branches?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "<think>\n1. The descriptions contain no hanging fruit or fruit type.\n2. The requested fruit is therefore unanswerable from the available evidence.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Cotton@159": {
+        "prompt": "What type of metal is the sculpture made of?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "<think>\n1. The object is described as a leafy plant with a stem and branches.\n2. No metal sculpture or material is identified.\n3. Therefore, the question is unanswerable from the available evidence.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Cotton@153": {
+        "prompt": "What type of fruit is hanging from the ceiling?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "<think>\n1. The available information describes a plant and does not mention a ceiling or hanging fruit.\n2. The requested fruit type is therefore not established.\n3. Therefore, there is no correct answer.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Cotton@88": {
+        "prompt": "What size is the crystal chandelier hanging from the ceiling?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "<think>\n1. The available information describes a plant rather than a chandelier.\n2. No chandelier or chandelier dimensions are provided.\n3. Therefore, the question is unanswerable from the available evidence.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Cotton@9": {
+        "prompt": "What is the pattern on the vase?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "<think>\n1. The available information describes a plant in a pot, not a vase.\n2. No vase or pattern is identified, so the question is unanswerable.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Cotton@72": {
+        "prompt": "Is there a large concrete sculpture nearby?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "<think>\n1. The available descriptions contain no large concrete sculpture or nearby object.\n2. The requested object is therefore unanswerable from the available evidence.\n3. Therefore, there is no correct answer.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Cotton@25": {
+        "prompt": "What type of fruit does the branch produce?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "<think>\n1. The branch is described as bearing white blossoms, but no fruit is identified.\n2. The requested fruit type is therefore unanswerable from the available evidence.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Cotton@158": {
+        "prompt": "What type of stone is the floor made of?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "<think>\n1. The object is described as a potted plant with a brown pot.\n2. No floor or stone material is identified, so the question is unanswerable from the available evidence.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Cotton@180": {
+        "prompt": "What type of fruit is growing on the tree?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "<think>\n1. The available description concerns a tree with leaves and a branch.\n2. No fruit is identified, so the question is unanswerable from the evidence.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Cotton@149": {
+        "prompt": "What color are the blossoms on the flowering plant next to it?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "<think>\n1. The plant is described as having white blossoms.\n2. The blossom color is not established, so the question cannot be answered from the available evidence.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Cotton@125": {
+        "prompt": "What type of fruit does the tree produce?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "<think>\n1. The available descriptions do not identify any fruit or flower type.\n2. The tree is described as a small deciduous sapling with leaves, not as a fruit-producing plant.\n3. Thus, the question is unanswerable from the available evidence.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Cotton@51": {
+        "prompt": "What type of fruit does the tree produce?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "<think>\n1. The object is described as a small tree with branches and leaves.\n2. No fruit is mentioned or visually established.\n3. Therefore, the fruit type cannot be determined from the available evidence.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Cotton@67": {
+        "prompt": "What type of fish is swimming in the scene?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "<think>\n1. The available evidence describes only a potted plant and its leaves.\n2. No fish or swimming animal is identified.\n3. Therefore, the fish type is unanswerable from the available description.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Cotton@127": {
+        "prompt": "What type of animal is perched on the branch?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "<think>\n1. The object is a branch with green leaves and a small flower.\n2. No animal is described as perched on it.\n3. Therefore, the question is unanswerable from the available evidence.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Cotton@11": {
+        "prompt": "What shape is the pendant hanging from the ceiling?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "<think>\n1. The supplied descriptions contain no pendant or ceiling information.\n2. The shape of a hanging object is therefore not established.\n3. Therefore, there is no correct answer.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Cotton@137": {
+        "prompt": "What type of kitchen appliance is placed next to the plant?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "<think>\n1. The available information describes only a plant and its leaves.\n2. No kitchen appliance is identified next to it.\n3. Therefore, the question is unanswerable from the available evidence.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Cotton@78": {
+        "prompt": "What type of furniture is placed near the sapling?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "<think>\n1. The available descriptions contain no information about furniture near the sapling.\n2. Therefore, the question is unanswerable from the supplied evidence.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Cotton@6": {
+        "prompt": "What pattern is on the tablecloth?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "<think>\n1. The available visual information describes a potted plant with leaves.\n2. It does not establish a tablecloth or its pattern.\n3. Therefore, the question is unanswerable from the available evidence.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Cotton@188": {
+        "prompt": "What kind of stone sculpture is placed beside the tree sapling?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "<think>\n1. The supplied descriptions contain no information about a stone sculpture beside the sapling.\n2. Thus, the question is unanswerable from the available evidence.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Cotton@79": {
+        "prompt": "What type of fruit is growing on the shrub?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "<think>\n1. The descriptions identify a flowering shrub with white blossoms and snow-dusted branches.\n2. They do not establish what type of fruit is growing on it.\n3. Therefore, the question is unanswerable from the available evidence.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Cotton@133": {
+        "prompt": "What type of rock formation is visible behind the sapling?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "<think>\n1. The available descriptions do not identify any rock formation behind the sapling.\n2. Therefore, the question is unanswerable from the supplied evidence.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Cotton@197": {
+        "prompt": "What type of furniture is positioned nearby?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "<think>\n1. The available information describes a plant with leaves and a stem.\n2. It does not establish the presence or type of nearby furniture.\n3. Therefore, the question is unanswerable from the available evidence.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Cotton@176": {
+        "prompt": "What type of rock formation is visible nearby?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "<think>\n1. The available descriptions contain no nearby rock formation.\n2. Thus, the type of rock formation cannot be determined from the evidence.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Cotton@160": {
+        "prompt": "What type of fruit is on the tree?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "<think>\n1. The available descriptions contain no tree or fruit.\n2. No fruit type is identified in the supplied information.\n3. Therefore, the question is unanswerable from the supplied evidence.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Cotton@65": {
+        "prompt": "What type of fruit does the tree produce?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "<think>\n1. The object is described as a flowering tree with a slender trunk and branches.\n2. No fruit is mentioned or visually established.\n3. The question is therefore unanswerable from the available evidence.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Cotton@100": {
+        "prompt": "What type of fruit does the large tree in the corner produce?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "<think>\n1. The available information describes a small tree with white blossoms and a few leaves.\n2. It does not establish what type of fruit it produces.\n3. Therefore, the question is unanswerable from the available evidence.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Cotton@19": {
+        "prompt": "What type of metal is used in the furniture of the room?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "<think>\n1. The available information describes only a potted plant with a slender stem and leaves.\n2. It does not establish what type of metal is used in furniture.\n3. Therefore, the question is unanswerable from the available evidence.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Cotton@3": {
+        "prompt": "What kind of fruit is hanging from the branches?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "<think>\n1. The object is described as a green leafy plant with branches and leaves.\n2. No hanging fruit is identified, so the question is unanswerable from the available evidence.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Cotton@75": {
+        "prompt": "What shape is the coffee table in the room?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "<think>\n1. The available information describes a plant rather than a coffee table.\n2. No coffee table or table shape is identified.\n3. Therefore, the question is unanswerable from the available evidence.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Cotton@145": {
+        "prompt": "What type of furniture is in the room?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "<think>\n1. The available visual information describes a plant in a pot, not furniture in a room.\n2. The type of furniture is therefore unanswerable from the supplied evidence.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Cotton@168": {
+        "prompt": "What type of fruit is hanging from the branches of a tree nearby?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "<think>\n1. The available descriptions contain no tree or hanging fruit.\n2. The type of fruit is therefore unanswerable from the supplied evidence.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Cotton@15": {
+        "prompt": "What type of fruit hangs from the branch?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "<think>\n1. The available descriptions contain no branch or hanging fruit.\n2. They only describe a small tree with leaves.\n3. Therefore, the question is unanswerable from the available evidence.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Cotton@122": {
+        "prompt": "What type of fruit is hanging from the ceiling?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "<think>\n1. The available information describes a plant, not a ceiling or hanging fruit.\n2. No fruit type can be determined from the supplied evidence.\n3. Therefore, the question is unanswerable from the available description.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Maize@1-111": {
+        "prompt": "What is the weight of the marble sculpture located nearby?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "<think>\n1. The available information describes only the plant and its leaves.\n2. No marble sculpture or weight measurement is provided.\n3. Therefore, the question is unanswerable from the available evidence.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Maize@3-28": {
+        "prompt": "What type of furniture is placed above the plant?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "<think>\n1. The plant is described with a slender stem and leaves.\n2. No furniture above it is identified, so the question is unanswerable from the available evidence.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Maize@2-34": {
+        "prompt": "What type of artwork is hung on the wall?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "<think>\n1. The available information describes a plant with a stem and leaves.\n2. It does not establish that any artwork is hung on a wall or identify a wall-mounted object.\n3. Therefore, the question is unanswerable from the available evidence.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Maize@3-49": {
+        "prompt": "What type of furniture is located next to the plant?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "<think>\n1. The available descriptions contain no information about furniture next to the plant.\n2. The requested furniture type is therefore unanswerable from the available evidence.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Maize@2-70": {
+        "prompt": "What type of fruit is displayed on the table?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "<think>\n1. The available information describes a potted plant with a slender stem and leaves.\n2. It does not establish what type of fruit is displayed on a table.\n3. Therefore, the question is unanswerable from the available evidence.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Maize@3-55": {
+        "prompt": "What type of artwork is hanging on the wall?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "<think>\n1. The available information describes a potted plant and does not mention a wall or hanging artwork.\n2. The type of artwork is therefore unanswerable from the supplied evidence.\n3. Therefore, there is no correct answer.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Maize@3-26": {
+        "prompt": "What pattern is featured on the rug?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "<think>\n1. The available descriptions contain no rug or rug pattern.\n2. The requested pattern is therefore unanswerable from the supplied evidence.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Maize@2-13": {
+        "prompt": "What type of heavy machinery is used for construction?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "<think>\n1. The available information describes only a plant with a stem and leaves.\n2. It does not establish the presence or type of construction machinery.\n3. Therefore, the question is unanswerable from the available evidence.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Maize@3-21": {
+        "prompt": "What is the brand of the vacuum cleaner?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "<think>\n1. The available information describes a potted plant and does not mention a vacuum cleaner.\n2. No evidence establishes a vacuum-cleaner brand.\n3. Therefore, the question is unanswerable from the available information.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Maize@3-18": {
+        "prompt": "What type of artwork is hanging on the walls?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "<think>\n1. The available descriptions contain no information about artwork on walls.\n2. The type of artwork is therefore unanswerable from the supplied evidence.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Maize@2-109": {
+        "prompt": "What type of painting is hanging on the wall?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "<think>\n1. The available information describes only a potted plant in a pot.\n2. No wall painting or painting type is identified.\n3. Therefore, the question is unanswerable from the available evidence.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Maize@1-118": {
+        "prompt": "Where is the large wooden chair?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "<think>\n1. The available information describes only a potted plant.\n2. No chair or chair location is identified.\n3. Therefore, the question is unanswerable from the available evidence.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Maize@3-42": {
+        "prompt": "What type of artwork is hanging on the ceiling?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "<think>\n1. The available information describes only a potted plant with a stem and leaves.\n2. It does not establish what type of artwork is hanging on a ceiling.\n3. Therefore, the question is unanswerable from the available evidence.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Maize@1-24": {
+        "prompt": "What type of furniture is made of metal and has wheels?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "<think>\n1. The available information describes a plant with a slender stem and leaves.\n2. It does not establish the presence or type of metal furniture with wheels.\n3. Therefore, the question is unanswerable from the available evidence.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Maize@1-51": {
+        "prompt": "What type of fruit is displayed on the table?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "<think>\n1. The available evidence describes a plant with leaves and a stem.\n2. It does not establish what type of fruit is displayed on a table.\n3. Therefore, the question is unanswerable from the available information.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Maize@1-68": {
+        "prompt": "What type of furniture is positioned next to the sapling?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "<think>\n1. The available information describes only the sapling and its branches.\n2. No furniture positioned next to it is identified.\n3. Therefore, the question is unanswerable from the available evidence.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Maize@2-101": {
+        "prompt": "What type of fabric is the couch made from?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "<think>\n1. The available information describes a potted plant with leaves and a pot.\n2. It does not establish what type of fabric the couch is made from.\n3. Therefore, the question is unanswerable from the available evidence.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Maize@3-19": {
+        "prompt": "What is the size of the large sculpture in the corner?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "<think>\n1. The available information describes a plant, not a sculpture in a corner.\n2. No measurement or size is provided, so the question is unanswerable.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Maize@2-148": {
+        "prompt": "What type of fruit is hanging from the ceiling?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "<think>\n1. The available information describes a plant with a stem and leaves.\n2. It does not establish that any fruit is hanging from a ceiling or identify a fruit type.\n3. Therefore, the question is unanswerable from the available evidence.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Maize@2-9": {
+        "prompt": "What is the size and shape of the chandelier hanging from the ceiling?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "<think>\n1. The available information describes only a potted plant.\n2. It does not establish the size or shape of a chandelier.\n3. Therefore, the question is unanswerable from the available evidence.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Maize@2-122": {
+        "prompt": "What type of fruit is on the kitchen counter?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "<think>\n1. The available information describes only a potted plant with a stem and leaves.\n2. It does not establish what type of fruit is on a kitchen counter.\n3. Therefore, the question is unanswerable from the available evidence.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Maize@1-122": {
+        "prompt": "What type of fruit is hanging from the ceiling?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "<think>\n1. The available evidence describes a potted plant with a stem and leaves.\n2. It does not establish what type of fruit is hanging from the ceiling.\n3. Therefore, the question is unanswerable from the available information.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Maize@3-10": {
+        "prompt": "What type of lighting fixture is hanging from the ceiling?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "<think>\n1. The available information describes a potted plant and does not mention a ceiling fixture.\n2. No hanging lighting fixture is identified.\n3. Therefore, the question is unanswerable from the available evidence.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Maize@2-77": {
+        "prompt": "What type of furniture is located near the potted plant?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "<think>\n1. The available information describes only the plant and its pot.\n2. No nearby furniture is identified, so the question is unanswerable from the evidence.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Maize@2-140": {
+        "prompt": "What is the shape of the rocks located at the base of the plant?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "<think>\n1. The plant is described as having a brown base, but no rocks are mentioned.\n2. The shape of the rocks is therefore not established.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Maize@2-126": {
+        "prompt": "What kind of artwork is hanging on the wall?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "<think>\n1. The available information describes a plant with a stem and leaves.\n2. It does not establish that any artwork is hanging on a wall or identify an artwork type.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Maize@3-36": {
+        "prompt": "What type of rock is used for the flooring?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "<think>\n1. The available information describes only a potted plant with a brown pot.\n2. It does not establish what type of rock is used for flooring.\n3. Therefore, the question is unanswerable from the available evidence.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Maize@3-15": {
+        "prompt": "What type of animal is resting on the windowsill?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "<think>\n1. The available description concerns a potted plant with leaves and a pot.\n2. It does not identify any animal resting on a windowsill.\n3. Therefore, the question is unanswerable from the available evidence.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Maize@3-60": {
+        "prompt": "What type of heavy furniture is located near the houseplant?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "<think>\n1. The available information describes only the plant and its pot.\n2. It does not establish any nearby heavy furniture or its type.\n3. Therefore, the question is unanswerable from the supplied evidence.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Maize@2-17": {
+        "prompt": "What kind of rug is placed on the floor?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "<think>\n1. The available descriptions contain no information about a rug on the floor.\n2. Therefore, the question is unanswerable from the supplied evidence.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Maize@2-32": {
+        "prompt": "What type of cooking appliance is located nearby?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "<think>\n1. The available evidence describes only a potted plant with a stem and leaves.\n2. It does not establish the presence or type of a nearby cooking appliance.\n3. Therefore, the question is unanswerable from the available evidence.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Maize@2-116": {
+        "prompt": "What type of fruit is displayed on the table?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "<think>\n1. The available descriptions contain no table or fruit.\n2. The type of fruit is therefore unanswerable from the supplied evidence.\n3. Therefore, there is no correct answer.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Maize@1-120": {
+        "prompt": "What type of fruit is hanging from the ceiling?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "<think>\n1. The available information describes only a potted plant.\n2. No fruit hanging from a ceiling is identified, so the question is unanswerable.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Maize@3-40": {
+        "prompt": "What type of animal is resting on the furniture?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "<think>\n1. The available information describes a potted plant and does not identify an animal on furniture.\n2. The requested animal type is therefore unanswerable from the available evidence.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Maize@3-43": {
+        "prompt": "What type of fruit is on the floor?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "<think>\n1. The available information describes only a potted plant with a stem and leaves.\n2. It does not establish what type of fruit is on the floor.\n3. Therefore, there is no correct answer.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Maize@2-31": {
+        "prompt": "What type of metal sculpture is displayed nearby?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "<think>\n1. The available information describes a potted plant with a stem and leaves.\n2. It does not establish the presence or type of a nearby metal sculpture.\n3. Therefore, the question is unanswerable from the available evidence.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Maize@3-38": {
+        "prompt": "What type of painting is hanging on the wall?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "<think>\n1. The available information describes only a potted plant and does not establish that a painting is hanging on a wall.\n2. The type of painting is therefore unanswerable from the supplied evidence.\n3. Therefore, there is no correct answer.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Maize@2-28": {
+        "prompt": "What type of fruit is displayed on the table?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "<think>\n1. The available descriptions contain no table or fruit.\n2. They only describe a potted plant with a stem and leaves.\n3. Thus, the question is unanswerable from the available evidence.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Maize@2-24": {
+        "prompt": "What type of animal is sleeping on the floor?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "<think>\n1. The available information describes only a potted plant with a brown pot.\n2. It does not establish that any animal is sleeping on the floor.\n3. Therefore, the question is unanswerable from the available evidence.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Maize@2-67": {
+        "prompt": "What type of animal is sleeping in the corner?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "<think>\n1. The available information describes a plant in a pot, not an animal in a corner.\n2. No animal type is established, so the question is unanswerable from the available evidence.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Maize@2-64": {
+        "prompt": "What is the flavor of the cake on the table?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "<think>\n1. The available information describes a plant in a pot, not a cake on a table.\n2. No flavor is provided, so the question is unanswerable from the available evidence.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Maize@3-54": {
+        "prompt": "What type of animal is resting on the floor?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "<think>\n1. The available information describes a potted plant with a stem and leaves.\n2. It does not establish that any animal is resting on the floor.\n3. The question is therefore unanswerable from the available evidence.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Maize@2-66": {
+        "prompt": "What type of fish is swimming in the scene?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "<think>\n1. The available visual information describes a plant in a pot, not a fish.\n2. No fish type is identified, so the question is unanswerable from the evidence.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Maize@3-7": {
+        "prompt": "What food item is stored in the refrigerator?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "<think>\n1. The available information describes only a plant in a pot.\n2. It does not establish what food is stored in a refrigerator.\n3. Therefore, the question is unanswerable from the available evidence.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Maize@2-65": {
+        "prompt": "What type of sculpture is next to the plant?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "<think>\n1. The available descriptions contain no sculpture or object next to the plant.\n2. The type of sculpture is therefore unanswerable from the supplied evidence.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Maize@2-88": {
+        "prompt": "What type of fabric is the couch made of?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "<think>\n1. The available information describes only a potted plant and its pot.\n2. No couch or couch fabric is identified.\n3. Therefore, the question is unanswerable from the available evidence.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Maize@2-108": {
+        "prompt": "What type of animal is resting on the floor?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "<think>\n1. The available visual information describes a potted plant with leaves.\n2. No animal resting on the floor is identified.\n3. Thus, the question is unanswerable from the available evidence.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Maize@1-78": {
+        "prompt": "What type of large, colorful painting hangs on the wall?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "<think>\n1. The available information describes a plant with a slender stem and leaves.\n2. It does not establish what type of large, colorful painting is hanging on a wall.\n3. Therefore, the question is unanswerable from the available evidence.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Maize@2-39": {
+        "prompt": "What type of musical instrument is hidden in the room?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "<think>\n1. The available evidence describes only a potted plant with a slender stem and leaves.\n2. No musical instrument is identified, so the question is unanswerable from the supplied information.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Maize@2-50": {
+        "prompt": "What type of animal is lounging in the room?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "<think>\n1. The available visual information describes a potted plant with green leaves.\n2. It does not establish that any animal is lounging in a room.\n3. Therefore, the question is unanswerable from the available evidence.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Maize@3-50": {
+        "prompt": "What type of fruit is displayed on the table?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "<think>\n1. The available information describes a plant in a pot, not a fruit on a table.\n2. The type of fruit is therefore not established.\n3. Therefore, there is no correct answer.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Maize@2-128": {
+        "prompt": "What type of metal sculpture is displayed in the room?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "<think>\n1. The available description concerns a potted plant with a slender stem and leaves.\n2. It does not establish the presence or type of a metal sculpture.\n3. Therefore, the question is unanswerable from the available evidence.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Maize@2-137": {
+        "prompt": "What type of fruit does the tree produce?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "<think>\n1. The available description concerns a leafy plant with a slender stem and leaves.\n2. It does not state what type of fruit the tree produces.\n3. Therefore, the question is unanswerable from the available evidence.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Maize@2-141": {
+        "prompt": "What type of artwork is hanging on the wall?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "<think>\n1. The available visual information describes a plant in a pot, not a wall-mounted artwork.\n2. No artwork type is identified.\n3. Therefore, the question is unanswerable from the available evidence.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Maize@2-29": {
+        "prompt": "What type of artwork is hanging on the ceiling?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "<think>\n1. The available information describes a potted plant, not a ceiling-hanging object.\n2. No hanging artwork or ceiling-related artwork is identified.\n3. Therefore, the question is unanswerable from the available evidence.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Maize@1-60": {
+        "prompt": "What type of rock formation is displayed in the scene?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "<think>\n1. The available visual information describes a plant with a slender stem and leaves.\n2. It does not establish the presence or type of a rock formation.\n3. Thus, the question is unanswerable from the available evidence.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Maize@1-22": {
+        "prompt": "What is the weight of the metal sculpture located on the opposite side of the room?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "<think>\n1. The available information concerns a plant and does not establish the weight of a metal sculpture.\n2. The question is therefore unanswerable from the described object.\n3. No correct answer is available.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Maize@2-33": {
+        "prompt": "What type of crystal chandelier is hanging in the room?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "<think>\n1. The available information describes only a potted plant with a slender stem and leaves.\n2. It does not establish the presence or type of a chandelier.\n3. Therefore, the question is unanswerable from the available evidence.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Maize@3-27": {
+        "prompt": "What type of flower is growing in the garden outside the window?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "<think>\n1. The available information describes a potted plant with a stem and leaves.\n2. It does not identify any flower type or a flower growing in a garden.\n3. Therefore, the question is unanswerable from the available evidence.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Maize@3-37": {
+        "prompt": "What shape is the ceiling fan?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "<think>\n1. The available information describes a plant, not a ceiling fan.\n2. No ceiling fan shape is provided.\n3. Therefore, the question is unanswerable from the available evidence.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Maize@1-113": {
+        "prompt": "What type of fruit is hanging from the ceiling?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "<think>\n1. The available information describes a plant with a slender stem and leaves.\n2. It does not establish that any fruit is hanging from a ceiling.\n3. Therefore, the question is unanswerable from the available evidence.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Maize@2-11": {
+        "prompt": "What type of birdcage is in the room?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "<think>\n1. The available description concerns a potted plant with a slender stem and leaves.\n2. It does not establish the presence or type of a birdcage.\n3. Therefore, the question is unanswerable from the available evidence.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Maize@1-50": {
+        "prompt": "What type of flower is blooming next to the maize plant?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "<think>\n1. The available information describes a maize plant with a brown stalk and leaves.\n2. It does not identify any flower blooming next to the plant.\n3. Therefore, the question is unanswerable from the available evidence.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Maize@1-123": {
+        "prompt": "What kind of fruit is growing on the corn plant?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "<think>\n1. The plant is described as a branching corn plant with leaves and a brown base.\n2. No fruit is identified as growing on it.\n3. Therefore, the question is unanswerable from the available evidence.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Maize@2-21": {
+        "prompt": "What type of painting is hanging on the wall?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "<think>\n1. The available information describes a plant with leaves and a stem.\n2. It does not establish that a painting is hanging on a wall or identify a painting type.\n3. Therefore, the question is unanswerable from the available evidence.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Maize@2-107": {
+        "prompt": "What kind of fabric is the sofa made of?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "<think>\n1. The available information describes a plant in a pot, not a sofa.\n2. No fabric type is provided for a sofa.\n3. Therefore, the question is unanswerable from the available evidence.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Maize@2-114": {
+        "prompt": "What type of fruit does the dining table hold?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "<think>\n1. The available descriptions contain no dining table or fruit.\n2. The type of fruit is therefore unanswerable from the supplied evidence.\n3. Therefore, there is no correct answer.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Maize@1-106": {
+        "prompt": "What material is the table made of?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "<think>\n1. The available information describes a plant, not a table.\n2. No table material is provided, so the question is unanswerable.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Potato@5-19-P281-2-a": {
+        "prompt": "What shape is the rug in the room?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "<think>\n1. The available information describes only a potted plant with green leaves.\n2. It does not establish the presence or shape of a rug.\n3. Therefore, the question is unanswerable from the available evidence.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Potato@5-21-P104-3-a": {
+        "prompt": "What type of flower pot is used to display the plant?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "<think>\n1. The plant is described as a small tree with green leaves.\n2. The pot is not identified, so the question is unanswerable from the available evidence.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Potato@5-11-P255-3-a": {
+        "prompt": "What is the weight of the metal sculpture located in the corner of the room?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "<think>\n1. The available information describes a plant and does not establish the weight of a metal sculpture.\n2. Therefore, the question is unanswerable from the supplied evidence.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Potato@5-14-P117-3-a": {
+        "prompt": "What shape is the table in the room?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "<think>\n1. The available visual information describes a potted plant, not a table.\n2. The table's shape is therefore not established.\n3. Therefore, there is no correct answer.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Potato@5-13-P015-2-a": {
+        "prompt": "What type of flower arrangement is displayed in the room?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "<think>\n1. The available information describes a leafy plant, not a flower arrangement.\n2. No flower arrangement type is established.\n3. Therefore, the question is unanswerable from the available evidence.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Potato@5-23-P999-7-a": {
+        "prompt": "What type of fruit is hanging near the ceiling?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "<think>\n1. The available information describes a plant with a stem and leaves.\n2. It does not establish what type of fruit is hanging near the ceiling.\n3. Therefore, the question is unanswerable from the available evidence.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Potato@5-20-P043-1-a": {
+        "prompt": "What type of fruit is hanging from the ceiling?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "<think>\n1. The available descriptions contain no ceiling or hanging fruit.\n2. The type of fruit is therefore not established.\n3. Therefore, no answer can be selected.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Potato@5-11-P279-3-a": {
+        "prompt": "What type of flower is blooming nearby?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "<think>\n1. The available information describes a plant with green leaves and a stem.\n2. It does not identify any flower or flower type.\n3. Therefore, the question is unanswerable from the available evidence.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Potato@5-21-P104-4-a": {
+        "prompt": "What is the texture of the marble used in the countertops?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "<think>\n1. The available descriptions contain no marble countertop or texture information.\n2. Therefore, the question is unanswerable from the supplied evidence.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Potato@5-20-P060-3-a": {
+        "prompt": "What type of metal is used in the window frames?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "<think>\n1. The available information describes only a potted plant and its leaves.\n2. No window frames or metal type are identified.\n3. Therefore, the question is unanswerable from the available evidence.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Potato@5-11-P290-3-a": {
+        "prompt": "What texture does the rock in the scene have?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "<think>\n1. The available information describes a plant, not a rock.\n2. No rock texture is provided or established.\n3. Therefore, the question is unanswerable from the available evidence.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Potato@5-23-P999-2-a": {
+        "prompt": "What shape is the chandelier hanging from the ceiling?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "<think>\n1. The available information describes only a potted plant.\n2. It does not establish the presence or shape of a chandelier.\n3. Therefore, the question is unanswerable from the available evidence.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Potato@5-11-P281-1-a": {
+        "prompt": "What type of flower is blooming next to the sapling?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "<think>\n1. The available information describes a leafy plant with a stem and branches.\n2. It does not establish what type of flower is blooming next to the sapling.\n3. Therefore, the question is unanswerable from the available evidence.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Potato@5-23-P997-1-a": {
+        "prompt": "What type of fruit is laying on the floor?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "<think>\n1. The object is described as a potted plant with leaves and a stem.\n2. No fruit is identified as lying on the floor, so the question is unanswerable from the available evidence.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Potato@5-14-P112-1-a": {
+        "prompt": "What texture does the large rug on the floor have?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "<think>\n1. The available descriptions do not establish the rug's texture.\n2. Therefore, the question cannot be answered from the supplied evidence.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Potato@5-13-P046-3-a": {
+        "prompt": "What type of rug is placed on the floor?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "<think>\n1. The available information describes a plant, not a rug.\n2. No rug type is established, so the question cannot be answered from the evidence.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Potato@5-21-P104-2-a": {
+        "prompt": "What type of flower pot is used to display a large cactus?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "<think>\n1. The available information describes a potted plant with a stem and leaves.\n2. It does not establish a flower pot or cactus type.\n3. Therefore, the question is unanswerable from the available evidence.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Potato@5-11-P104-2-a": {
+        "prompt": "What type of flower is displayed in a vase on the table?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "<think>\n1. The available descriptions contain no flower or vase.\n2. The type of flower is therefore not established by the available evidence.\n3. Therefore, there is no correct answer.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Potato@5-23-P997-2-a": {
+        "prompt": "What is the shape and size of the garden bench?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "<think>\n1. The available information describes a plant rather than a garden bench.\n2. No bench shape or size is provided.\n3. Therefore, the question is unanswerable from the available evidence.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Potato@5-23-P998-9-a": {
+        "prompt": "What type of furniture is made of glass and placed in the scene?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "<think>\n1. The object is a potted plant with green leaves.\n2. The descriptions do not identify any glass furniture.\n3. Therefore, the question is unanswerable from the available evidence.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Potato@5-20-P002-2-a": {
+        "prompt": "What type of mineral is embedded in the floor?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "<think>\n1. The object is described as a potted plant with a stem and leaves.\n2. No mineral embedded in a floor is identified, so the question is unanswerable from the available evidence.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Potato@5-13-P098-1-a": {
+        "prompt": "What type of fruit is hanging from the ceiling?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "<think>\n1. The available descriptions contain no ceiling or hanging fruit.\n2. Therefore, the type of fruit cannot be determined from the evidence.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Potato@5-21-P142-1-a": {
+        "prompt": "What type of fruit does the tree produce?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "<think>\n1. The available information describes a leafy plant with a brown trunk and branches.\n2. It does not identify any fruit produced by the tree.\n3. The question is therefore unanswerable from the supplied evidence.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Potato@5-19-P279-1-a": {
+        "prompt": "What is the shape of the roof above the plant?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "<think>\n1. The plant is described as having a brown stem and green leaves.\n2. No roof or roof shape is mentioned.\n3. Therefore, the question is unanswerable from the available evidence.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Potato@5-14-P113-3-a": {
+        "prompt": "What type of fruit is resting on the main surface?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "<think>\n1. The available visual information describes a plant with leaves and a stem.\n2. It does not establish what type of fruit is resting on the surface.\n3. Therefore, the question is unanswerable from the available evidence.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Potato@5-11-P281-2-a": {
+        "prompt": "What is the shape of the chandelier hanging from the ceiling?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "<think>\n1. The supplied descriptions contain no chandelier or ceiling information.\n2. The chandelier's shape is therefore not established.\n3. Therefore, there is no correct answer.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Potato@5-11-P285-2-a": {
+        "prompt": "What shape is the coffee table?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "<think>\n1. The available information describes a plant, not a coffee table.\n2. No coffee table shape is provided, so the question is unanswerable.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Potato@5-20-P045-3-a": {
+        "prompt": "What color is the coffee table?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "<think>\n1. The object is described as a green plant with leaves, not a coffee table.\n2. No coffee table color is provided, so the question cannot be answered from the available evidence.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Potato@5-23-P998-7-a": {
+        "prompt": "What type of fruit is growing on the plant?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "<think>\n1. The plant is described as a leafy green plant with a stem and leaves.\n2. No fruit is identified, so the question is unanswerable from the available evidence.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Potato@5-13-P002-2-a": {
+        "prompt": "What type of furniture is made of metal and glass in the room?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "<think>\n1. The available descriptions contain no information about a room or furniture.\n2. They also do not establish what type of furniture is made of metal and glass.\n3. Therefore, the question is unanswerable from the available evidence.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Potato@5-20-P015-2-a": {
+        "prompt": "What kind of stone is used in the construction of the fireplace?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "<think>\n1. The available descriptions contain no fireplace or construction details.\n2. The type of stone is therefore not established.\n3. Therefore, there is no correct answer.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Potato@5-11-P294-3-a": {
+        "prompt": "Is there a purple flower nearby?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "<think>\n1. The available information describes a plant with green leaves and a stem.\n2. It does not establish that a purple flower is nearby.\n3. Therefore, the question is unanswerable from the available evidence.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Potato@5-13-P068-3-a": {
+        "prompt": "What type of fruit is hanging from the ceiling?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "<think>\n1. The available descriptions contain no ceiling or hanging fruit.\n2. They also do not identify any fruit type.\n3. Therefore, the question is unanswerable from the available evidence.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Potato@5-19-P281-1-a": {
+        "prompt": "What is the height of the oak tree nearby?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "<think>\n1. The available information describes a leafy plant rather than a nearby oak tree.\n2. No height measurement or tree-related fact is provided.\n3. Thus, the question is unanswerable from the available evidence.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Potato@5-20-P149-3-a": {
+        "prompt": "What shape is the rug in the room?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "<think>\n1. The available visual information describes a potted plant, not a rug.\n2. No rug shape is provided.\n3. Therefore, the question is unanswerable from the available evidence.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Potato@5-13-P043-2-a": {
+        "prompt": "What type of fruit is present on the plant?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "<think>\n1. The plant is described as having leaves and a stem, but no fruit is identified.\n2. The requested fruit type is therefore unanswerable from the available evidence.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Rapeseed@29": {
+        "prompt": "What type of metal is the table made from?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "<think>\n1. The available information describes a plant in a pot, not a table.\n2. No metal type or table material is provided.\n3. Therefore, the question is unanswerable from the available evidence.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Rapeseed@115": {
+        "prompt": "What type of fish is swimming in a tank nearby?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "<think>\n1. The available information describes only a potted plant with a brown trunk and green leaves.\n2. No fish or tank is described, so the fish type cannot be determined.\n3. Thus, the question is unanswerable from the available evidence.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Rapeseed@70": {
+        "prompt": "What type of lighting fixture hangs from the ceiling?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "<think>\n1. The available information describes a plant, not a ceiling lighting fixture.\n2. No hanging lighting fixture is identified.\n3. Therefore, the question is unanswerable from the available evidence.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Rapeseed@33": {
+        "prompt": "What type of furniture is in the room?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "<think>\n1. The available information describes a plant in a pot, not furniture in a room.\n2. No furniture type is established.\n3. Therefore, the question is unanswerable from the available evidence.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Rapeseed@31": {
+        "prompt": "What type of artwork is hanging on the wall?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "<think>\n1. The available visual information describes a plant in a pot, not a wall or hanging artwork.\n2. No artwork type is established.\n3. Therefore, the question is unanswerable from the available evidence.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Rapeseed@129": {
+        "prompt": "What type of metal sculpture is displayed on the shelf?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "<think>\n1. The available descriptions concern a potted plant and do not mention a shelf or metal sculpture.\n2. The type of metal sculpture is therefore not established.\n3. Therefore, there is no correct answer.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Rapeseed@20": {
+        "prompt": "What type of chandelier is hanging from the ceiling?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "<think>\n1. The available descriptions contain no chandelier or ceiling-hanging object.\n2. The requested chandelier type is therefore unanswerable from the available evidence.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Rapeseed@91": {
+        "prompt": "What type of fruit is in the scene?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "<think>\n1. The scene descriptions contain no fruit or fruit type.\n2. Therefore, the question is unanswerable from the available evidence.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Rapeseed@24": {
+        "prompt": "What type of metallic sculpture is placed next to the plant?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "<think>\n1. The available descriptions concern a plant and its pot.\n2. They do not establish that any metallic sculpture is next to the plant.\n3. Therefore, the question is unanswerable from the available evidence.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Rapeseed@37": {
+        "prompt": "What type of furniture is placed directly above the potted plant?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "<think>\n1. The available information describes only the plant and its pot.\n2. No furniture above the plant is identified, so the question is unanswerable.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Rapeseed@63": {
+        "prompt": "What type of light fixture hangs from the ceiling?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "<think>\n1. The available information describes only a potted plant and its pot.\n2. It does not establish what type of ceiling light fixture is present.\n3. Therefore, the question cannot be answered from the available evidence.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Rapeseed@11": {
+        "prompt": "What material is the hammock made of?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "<think>\n1. The available information describes a plant in a pot, not a hammock.\n2. No hammock material is provided.\n3. Therefore, the question is unanswerable from the available evidence.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Rapeseed@135": {
+        "prompt": "What type of animal is hiding behind the plant?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "<think>\n1. The available descriptions contain no animal or object behind the plant.\n2. The requested animal type is therefore unanswerable from the supplied evidence.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Rapeseed@107": {
+        "prompt": "What type of woven basket is used for storing blankets?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "<think>\n1. The available information describes a plant in a pot, not a woven basket.\n2. No evidence establishes a blanket-storing basket.\n3. Therefore, the question is unanswerable from the available evidence.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Rapeseed@116": {
+        "prompt": "What type of mineral is used in the construction of the ceiling?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "<think>\n1. The available information describes a plant in a pot, not a ceiling or mineral.\n2. No mineral type is identified.\n3. Therefore, the question is unanswerable from the available evidence.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Rapeseed@169": {
+        "prompt": "What type of flower is blooming in the scene?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "<think>\n1. The available descriptions contain no flower or blooming object.\n2. They only describe a potted plant with a stem and leaves.\n3. Therefore, the flower type is unanswerable from the available evidence.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Rapeseed@58": {
+        "prompt": "What type of metal is used for the furniture?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "<think>\n1. The available descriptions contain no information about furniture or metal.\n2. The type of metal cannot be determined from the supplied evidence.\n3. Therefore, there is no correct answer.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Rapeseed@25": {
+        "prompt": "What type of hanging chandelier is installed in the room?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "<think>\n1. The available information describes a potted plant, not a chandelier.\n2. No chandelier type is established.\n3. Therefore, the question cannot be answered from the available evidence.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Rapeseed@168": {
+        "prompt": "What type of wallpaper is used on the walls?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "<think>\n1. The available descriptions contain no wallpaper or wall details.\n2. Therefore, the type of wallpaper cannot be determined.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Rapeseed@83": {
+        "prompt": "What material is the chandelier made of?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "<think>\n1. The available information describes a plant in a pot, not a chandelier.\n2. No chandelier material is provided, so the question is unanswerable.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Rapeseed@127": {
+        "prompt": "What shape is the bookcase in the room?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "<think>\n1. The available visual information describes a potted plant in a dark cylindrical pot.\n2. It does not establish the presence or shape of a bookcase.\n3. Therefore, the question is unanswerable from the available evidence.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Rapeseed@79": {
+        "prompt": "What type of crystal chandelier is hanging from the ceiling?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "<think>\n1. The available information describes only a potted plant in a pot.\n2. No chandelier or crystal object is identified.\n3. Therefore, the question is unanswerable from the available evidence.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Rapeseed@122": {
+        "prompt": "What type of crystal chandelier is hanging from the ceiling?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "<think>\n1. The available descriptions contain no chandelier or ceiling-mounted object.\n2. They also do not establish any type of crystal chandelier.\n3. Therefore, the question is unanswerable from the available evidence.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Rapeseed@8": {
+        "prompt": "What type of fish is swimming in the room?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "<think>\n1. The available evidence describes a plant in a pot, not a fish.\n2. No fish or room scene is identified.\n3. Therefore, the question is unanswerable from the available information.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Rapeseed@82": {
+        "prompt": "What type of crystal chandelier is hanging from the ceiling?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "<think>\n1. The available information describes a plant in a pot, not a chandelier.\n2. No chandelier type is identified.\n3. Therefore, the question is unanswerable from the available evidence.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Rapeseed@95": {
+        "prompt": "What type of fruit bowl is on the table?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "<think>\n1. The available descriptions contain no fruit bowl or table.\n2. The type of fruit is therefore unanswerable from the supplied evidence.\n3. Therefore, there is no correct answer.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Rapeseed@61": {
+        "prompt": "What type of fish is swimming in a tank nearby?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "<think>\n1. The available information describes only a potted plant.\n2. It does not establish that a fish is swimming in a nearby tank.\n3. Therefore, the question is unanswerable from the available evidence.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Rapeseed@93": {
+        "prompt": "What type of fabric is used for the curtains?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "<think>\n1. The available information describes only a potted plant.\n2. It does not establish what type of curtain fabric is used.\n3. Therefore, the question is unanswerable from the available evidence.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Rapeseed@147": {
+        "prompt": "What is the height of the chandelier hanging in the room?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "<think>\n1. The available descriptions contain no chandelier or room information.\n2. The height of a chandelier is therefore not established.\n3. Therefore, there is no correct answer.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Rapeseed@128": {
+        "prompt": "What type of wooden furniture is located next to the plant?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "<think>\n1. The available descriptions contain no information about a wooden furniture next to the plant.\n2. Therefore, the question cannot be answered from the available evidence.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Rapeseed@119": {
+        "prompt": "What kind of artwork is hanging on the walls?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "<think>\n1. The available visual information describes a potted plant and a cylindrical pot.\n2. It does not establish what artwork is hanging on walls.\n3. Therefore, the question is unanswerable from the available evidence.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Rapeseed@112": {
+        "prompt": "What type of painting is displayed on the wall?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "<think>\n1. The available visual information describes a plant in a pot, not a wall painting.\n2. No painting type is established.\n3. Therefore, the question is unanswerable from the available evidence.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Rapeseed@21": {
+        "prompt": "What flavor is the ice cream on the table?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "<think>\n1. The available descriptions contain no ice cream or table scene.\n2. No flavor is identified, so the question is unanswerable from the evidence.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Rapeseed@109": {
+        "prompt": "What kind of artwork is hanging on the wall?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "<think>\n1. The available information describes a potted plant with a brown pot.\n2. It does not establish that any artwork is hanging on a wall or identify an artwork type.\n3. Therefore, the question is unanswerable from the available evidence.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Rapeseed@142": {
+        "prompt": "What type of fruit is growing on the plant?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "<think>\n1. The available descriptions contain no plant or fruit details.\n2. The type of fruit cannot be determined from the available evidence.\n3. Therefore, there is no correct answer.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Rapeseed@96": {
+        "prompt": "What type of metal is the coffee table made of?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "<think>\n1. The available information describes a potted plant and does not identify a coffee table.\n2. No metal type is provided for a coffee table.\n3. Therefore, the question is unanswerable from the available evidence.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Rapeseed@161": {
+        "prompt": "What type of light fixture hangs from the ceiling?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "<think>\n1. The available information describes a plant in a pot, not a ceiling-hanging light fixture.\n2. No evidence establishes a ceiling-mounted light or its type.\n3. Therefore, the question is unanswerable from the available descriptions.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Rapeseed@123": {
+        "prompt": "What type of gemstone is used in the chandelier?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "<think>\n1. The available information describes a plant in a pot, not a chandelier or gemstone.\n2. No chandelier or gemstone type is identified.\n3. Therefore, the question is unanswerable from the available evidence.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Rapeseed@102": {
+        "prompt": "What kind of fish is swimming in the room?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "<think>\n1. The available information describes a plant in a pot, not a fish.\n2. No fish or swimming animal is identified.\n3. Therefore, the question is unanswerable from the available evidence.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Rapeseed@13": {
+        "prompt": "What type of metal is used for the ceiling light fixture?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "<think>\n1. The available information describes a plant and does not identify any metal type.\n2. The question is therefore unanswerable from the available evidence.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Rapeseed@92": {
+        "prompt": "What type of mineral is the plant grown in?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "<think>\n1. The plant is described as a small tree with a brown trunk and green leaves.\n2. No mineral or soil type is identified, so the question is unanswerable from the available evidence.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Rapeseed@40": {
+        "prompt": "What type of chandelier is hanging from the ceiling?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "<think>\n1. The available descriptions contain no chandelier or ceiling-hanging object.\n2. Thus, the type of chandelier is unanswerable from the supplied evidence.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Rapeseed@41": {
+        "prompt": "What type of animal sculpture is in the room?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "<think>\n1. The available information describes a potted plant and does not identify an animal sculpture.\n2. The type of animal sculpture is therefore unanswerable from the available evidence.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Rapeseed@113": {
+        "prompt": "What type of fabric is the sofa made of?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "<think>\n1. The available information describes a potted plant and does not identify any sofa fabric.\n2. Thus, the question is unanswerable from the supplied evidence.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Rapeseed@108": {
+        "prompt": "What is the height of the chandelier hanging in the room?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "<think>\n1. The available information describes a plant in a pot, not a chandelier.\n2. No height measurement or chandelier height is provided.\n3. Therefore, the question is unanswerable from the available evidence.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Rice@77": {
+        "prompt": "What shape is the rug in the room?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "<think>\n1. The available descriptions contain no room or rug.\n2. The shape of a rug is therefore unanswerable from the supplied evidence.\n3. Therefore, there is no correct answer.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Rice@1": {
+        "prompt": "What is the weight of the chandelier hanging from the ceiling?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "<think>\n1. The object is described as a potted plant with a slender stem and leaves.\n2. No chandelier or weight measurement is provided.\n3. Therefore, the question is unanswerable from the available evidence.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Rice@62": {
+        "prompt": "What type of aquatic creature is swimming nearby?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "<think>\n1. The available information describes only a potted plant with green leaves.\n2. No aquatic creature or nearby swimming animal is identified.\n3. Therefore, the question is unanswerable from the available evidence.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Rice@3": {
+        "prompt": "What type of chair is in the room?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "<think>\n1. The available information describes only a potted plant in a dark pot.\n2. It does not establish the presence or type of a chair.\n3. Therefore, the chair question is unanswerable from the available evidence.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Rice@20": {
+        "prompt": "What type of furniture is in the room?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "<think>\n1. The available information describes a plant in a pot, not a room or furniture.\n2. No furniture type is established.\n3. Therefore, the question is unanswerable from the available evidence.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Rice@74": {
+        "prompt": "What type of artwork is hanging on the wall?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "<think>\n1. The available descriptions contain no wall-mounted artwork.\n2. They only describe a potted plant with a stem and leaves.\n3. Thus, the artwork type is unanswerable from the available evidence.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Rice@19": {
+        "prompt": "What type of fruit is displayed on the kitchen counter?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "<think>\n1. The available visual information describes a potted plant with a slender stem and leaves.\n2. No fruit or kitchen counter is described, so the question is unanswerable from the evidence.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Rice@26": {
+        "prompt": "What type of animal is sleeping on the floor?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "<think>\n1. The available visual information describes a potted plant with a slender stem and leaves.\n2. It does not establish that any animal is sleeping on the floor.\n3. Therefore, the question is unanswerable from the available evidence.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Rice@13": {
+        "prompt": "What is the height of the ceiling in the room?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "<think>\n1. The available information describes only a potted plant in a pot.\n2. It does not establish a room or ceiling height.\n3. Therefore, the question is unanswerable from the available evidence.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Rice@7": {
+        "prompt": "What type of artwork is hanging on the wall?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "<think>\n1. The available visual information describes a plant in a pot, not a wall-mounted artwork.\n2. No hanging artwork or wall art is identified.\n3. Therefore, the question is unanswerable from the supplied evidence.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Rice@46": {
+        "prompt": "What shape is the chandelier hanging from the ceiling?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "<think>\n1. The available descriptions contain no chandelier or ceiling details.\n2. The shape of a chandelier is therefore not established.\n3. Therefore, there is no correct answer.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Rice@52": {
+        "prompt": "What type of sculpture is displayed next to the plant?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "<think>\n1. The available descriptions contain no sculpture or plant.\n2. The type of sculpture is therefore unanswerable from the supplied evidence.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Rice@41": {
+        "prompt": "What is the height of the chandelier hanging from the ceiling?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "<think>\n1. The available information describes a potted plant, not a chandelier.\n2. No height or measurement is provided for a chandelier.\n3. The question is therefore unanswerable from the available evidence.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Rice@84": {
+        "prompt": "What type of fruit is hanging from the ceiling?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "<think>\n1. The available descriptions contain no ceiling or hanging fruit.\n2. The type of fruit is therefore not established by the evidence.\n3. Therefore, no answer can be selected.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Rice@6": {
+        "prompt": "What type of sculpture is displayed beside the plant?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "<think>\n1. The available visual information describes a plant with a slender stem and leaves.\n2. It does not establish the presence or type of a sculpture beside it.\n3. Therefore, the question is unanswerable from the available evidence.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Rice@59": {
+        "prompt": "What type of fruit is arranged on the kitchen counter?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "<think>\n1. The supplied descriptions contain no kitchen counter or fruit.\n2. Thus, the type of fruit is not established by the available evidence.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Rice@4": {
+        "prompt": "What type of furniture is used for seating in the room?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "<think>\n1. The available visual information describes a potted plant in a dark pot.\n2. It does not establish the presence or type of a room seating furniture.\n3. Therefore, the question is unanswerable from the available evidence.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Rice@8": {
+        "prompt": "What type of crystal chandelier is hanging in the ceiling?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "<think>\n1. The available information describes a plant in a pot, not a chandelier.\n2. No chandelier type is established, so the question cannot be answered from the evidence.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Rice@48": {
+        "prompt": "What type of animal is sleeping in the corner?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "<think>\n1. The available information describes a plant in a pot, not an animal sleeping in a corner.\n2. The requested animal type is therefore not established.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Rice@54": {
+        "prompt": "What is the size of the chandelier hanging from the ceiling?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "<think>\n1. The available visual information describes only a potted plant with a brown pot.\n2. No chandelier or ceiling-hanging object is described.\n3. Therefore, the chandelier's size cannot be determined.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Rice@2": {
+        "prompt": "What type of rock is used in the construction of the walls?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "<think>\n1. The available information describes a plant in a pot, not a wall or construction material.\n2. No rock type is identified, so the question is unanswerable from the evidence.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Rice@37": {
+        "prompt": "What type of fruit is hanging from the ceiling?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "<think>\n1. The available descriptions contain no ceiling or hanging fruit.\n2. Therefore, the type of fruit is not established by the available evidence.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Rice@45": {
+        "prompt": "What type of artwork is hanging on the wall?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "<think>\n1. The available visual information describes only a potted plant with a stem and leaves.\n2. It does not establish what type of artwork is hanging on a wall.\n3. Therefore, the question is unanswerable from the available evidence.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Rice@35": {
+        "prompt": "What type of fruit is hanging from the tree outside the building?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "<think>\n1. The available information describes only a potted plant with a brown trunk and green leaves.\n2. It does not establish what type of fruit is hanging from a tree or identify any fruit.\n3. Therefore, the question is unanswerable from the available evidence.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Rice@18": {
+        "prompt": "What type of service bell is on the table?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "<think>\n1. The supplied descriptions contain no information about a table or a plant.\n2. The type of a service bell is therefore unanswerable from the available evidence.\n3. No listed answer can be selected.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Rice@72": {
+        "prompt": "What shape is the chandelier hanging from the ceiling?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "<think>\n1. The available descriptions contain no chandelier or ceiling-hanging object.\n2. The shape of a chandelier is therefore unanswerable from the supplied evidence.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Tomato@8-22_20-28": {
+        "prompt": "What is the size of the rock located at the base of the branch?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "<think>\n1. The available descriptions do not establish the size of a rock at the branch base.\n2. Therefore, the question is unanswerable from the supplied evidence.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Tomato@10-5_1-1": {
+        "prompt": "What type of fish is swimming in the room?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "<think>\n1. The available evidence describes a plant, not a fish.\n2. No fish or swimming animal is identified in the supplied information.\n3. Therefore, the fish question is unanswerable from the available evidence.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Tomato@8-13_20-28": {
+        "prompt": "What shape is the rug in the room?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "<think>\n1. The available descriptions contain no rug or room scene.\n2. They also provide no evidence about a rug's shape.\n3. Therefore, the question is unanswerable from the available information.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Tomato@8-22_30-4": {
+        "prompt": "What texture does the rug have?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "<think>\n1. The available information describes a plant with leaves and a stem, not a rug.\n2. No rug texture is provided, so the question is unanswerable from the evidence.\n3. Therefore, there is no correct answer.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Tomato@8-13_1-55": {
+        "prompt": "What is the size of the marble coffee table?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "<think>\n1. The available information describes a plant, not a marble coffee table.\n2. No table or table dimensions are provided.\n3. Therefore, the question is unanswerable from the available evidence.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Tomato@8-22_10-3": {
+        "prompt": "What type of flower is blooming at the base of the tree?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "<think>\n1. The available descriptions contain no flower at the base of a tree.\n2. The type of flower is therefore not established.\n3. Therefore, there is no correct answer.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Tomato@11-2_35-22": {
+        "prompt": "What type of vase is placed next to the plant?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "<think>\n1. The available information describes a plant and its leaves, not a vase.\n2. No vase is identified or characterized.\n3. Therefore, the question is unanswerable from the available evidence.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Tomato@8-31_10-3": {
+        "prompt": "What type of furniture is situated under the tree?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "<think>\n1. The available information describes a tree with a slender trunk and branches.\n2. No furniture underneath the tree is identified.\n3. Therefore, the question is unanswerable from the available evidence.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Tomato@10-5_30-52": {
+        "prompt": "What type of wildflower is growing in the corner?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "<think>\n1. The plant is described as a green leafy plant with a slender stem.\n2. The type of wildflower is not established by the available evidence.\n3. Therefore, the question is unanswerable from the supplied information.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Tomato@8-10_10-53": {
+        "prompt": "What type of flower is displayed in a vase on the table?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "<think>\n1. The available information describes a potted plant with green leaves and a stem.\n2. It does not establish what type of flower is in a vase or identify a flower type.\n3. Therefore, the question is unanswerable from the available evidence.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Tomato@8-28_30-52": {
+        "prompt": "What type of fabric is used for the curtains?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "<think>\n1. The available information describes a plant and does not mention curtains.\n2. No fabric type is provided, so the question is unanswerable from the available evidence.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Tomato@8-22_35-22": {
+        "prompt": "What type of rock is embedded in the ground near the tree?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "<think>\n1. The available descriptions contain no embedded rock or ground-related information.\n2. Thus, the type of rock is not established.\n3. Therefore, there is no correct answer.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Tomato@9-3_2-1": {
+        "prompt": "What type of stone is used in the sculptures in the room?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "<think>\n1. The available descriptions contain no sculpture or room details.\n2. They also do not identify any stone type.\n3. Therefore, the question is unanswerable from the available evidence.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Tomato@8-25_1-55": {
+        "prompt": "What type of flower is planted nearby?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "<think>\n1. The available information describes a leafy plant with a slender stem.\n2. It does not establish the presence or type of a nearby flower.\n3. Therefore, the question is unanswerable from the available evidence.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Tomato@9-3_20-28": {
+        "prompt": "What type of fruit is hanging from the ceiling?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "<think>\n1. The available information describes a plant with leaves and a stem.\n2. It does not establish that any fruit is hanging from a ceiling.\n3. Thus, the question is unanswerable from the available evidence.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Tomato@8-28_10-53": {
+        "prompt": "What type of flower arrangement is placed on the ground?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "<think>\n1. The available information describes a plant with a stem and leaves, not a flower arrangement.\n2. No flower arrangement is identified or characterized.\n3. Therefore, the question is unanswerable from the available evidence.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Tomato@9-6_1-55": {
+        "prompt": "What type of flower pot is located next to the tree?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "<think>\n1. The available descriptions do not identify a flower pot next to the tree.\n2. The type of pot is therefore unanswerable from the supplied evidence.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Tomato@9-3_10-3": {
+        "prompt": "What type of flower is blooming in the scene?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "<think>\n1. The available descriptions contain no flower or plant.\n2. The type of flower is therefore not established by the evidence.\n3. Therefore, there is no correct answer.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Tomato@8-31_20-28": {
+        "prompt": "What color is the stone fountain situated near the tree?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "<think>\n1. The object is described as a green leafy plant with a brown trunk.\n2. No stone fountain or color is identified, so the question is unanswerable from the available evidence.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Tomato@8-25_30-52": {
+        "prompt": "What type of fruit does the tree bear?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "<think>\n1. The available description concerns a leafy plant with a slender stem and branches.\n2. It does not establish what type of fruit the tree bears.\n3. Therefore, the question is unanswerable from the available evidence.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Tomato@11-2_30-4": {
+        "prompt": "What shape is the bowl that holds oranges?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "<think>\n1. The available description concerns a potted plant with green leaves.\n2. It does not establish the shape of a bowl holding oranges.\n3. Therefore, the question is unanswerable from the available evidence.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Tomato@9-14_10-3": {
+        "prompt": "What type of fruit does the tree produce?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "<think>\n1. The available information describes a plant with leaves and a stem, not a fruit type.\n2. The question is unanswerable from the supplied descriptions.\n3. Therefore, there is no correct answer.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Tomato@11-2_1-1": {
+        "prompt": "What shape is the coffee table?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "<think>\n1. The available information describes a plant with a slender stem and leaves.\n2. It does not establish the presence or shape of a coffee table.\n3. Therefore, the question is unanswerable from the available evidence.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Tomato@8-28_20-28": {
+        "prompt": "What type of fruit does the table hold?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "<think>\n1. The available descriptions contain no table or fruit.\n2. The type of fruit is therefore unanswerable from the available evidence.\n3. Therefore, there is no correct answer.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Tomato@8-25_1-1": {
+        "prompt": "What type of metal is used in the chandelier?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "<think>\n1. The available information describes a plant with leaves and a stem, not a chandelier.\n2. No chandelier or metal type is identified.\n3. Therefore, the question is unanswerable from the available evidence.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Wheat@79": {
+        "prompt": "What type of fruit does the shrub produce?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "<think>\n1. The shrub is described as a flowering plant with white blossoms.\n2. No fruit type is identified, so the question is unanswerable from the available evidence.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Wheat@145": {
+        "prompt": "What material is the rug made of?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "<think>\n1. The available descriptions contain no rug or rug material.\n2. Therefore, the material cannot be determined from the supplied evidence.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Wheat@91": {
+        "prompt": "What type of flower is situated on top of the potted plant?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "<think>\n1. The plant is described with a stem and leaves, but no flower is mentioned.\n2. The flower type is therefore not established by the available evidence.\n3. Therefore, there is no correct answer.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Wheat@116": {
+        "prompt": "What type of metal is the lamp made of?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "<think>\n1. The supplied descriptions contain no lamp or metal information.\n2. Therefore, the type of metal cannot be determined from the available evidence.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Wheat@6": {
+        "prompt": "What type of sculpture is placed next to the plant?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "<think>\n1. The available descriptions contain no sculpture next to the plant.\n2. The type of sculpture is therefore unanswerable from the supplied evidence.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Wheat@11": {
+        "prompt": "What type of fruit is hanging from the ceiling?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "<think>\n1. The available information describes a plant with a slender stem and green leaves.\n2. It does not establish what type of fruit is hanging from a ceiling.\n3. Therefore, the question is unanswerable from the available evidence.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Wheat@34": {
+        "prompt": "What is the height of the ceiling in the room?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "<think>\n1. The available information describes a plant, not a room or ceiling.\n2. No height measurement or ceiling height is provided.\n3. Therefore, the question is unanswerable from the available evidence.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Wheat@127": {
+        "prompt": "What material is the coffee table made of?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "<think>\n1. The available information describes a plant rather than a coffee table.\n2. No coffee table material is provided, so the question is unanswerable.\n3. Therefore, there is no correct answer.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Wheat@39": {
+        "prompt": "What type of sculpture is located beside the plant?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "<think>\n1. The available information describes a plant with a brown stem and leaves.\n2. It does not establish the presence or type of a sculpture beside the plant.\n3. Therefore, the question is unanswerable from the available evidence.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Wheat@107": {
+        "prompt": "What type of sculpture is located on the ceiling?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "<think>\n1. The available information describes a plant with green leaves and a stem.\n2. It does not establish the presence or type of a sculpture on a ceiling.\n3. Therefore, the question is unanswerable from the available evidence.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Wheat@122": {
+        "prompt": "What type of furniture is in the scene?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "<think>\n1. The object is a green plant with a slender stem and leaves.\n2. No furniture is described, so the question is unanswerable from the available evidence.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Wheat@52": {
+        "prompt": "What type of sculpture is displayed on the ceiling?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "<think>\n1. The available information describes a plant, not a sculpture on a ceiling.\n2. No sculpture type is established.\n3. Thus, the question is unanswerable from the available evidence.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Wheat@96": {
+        "prompt": "What type of fruit is hanging from the ceiling?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "<think>\n1. The supplied descriptions contain no ceiling or hanging fruit.\n2. Thus, the type of fruit is not established by the available evidence.\n3. Therefore, there is no correct answer.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Wheat@26": {
+        "prompt": "What type of crystal chandelier hangs from the ceiling?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "<think>\n1. The available information describes only a potted plant and its pot.\n2. It does not establish the presence or type of a chandelier.\n3. Therefore, the question is unanswerable from the available evidence.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Wheat@88": {
+        "prompt": "What type of fabric is used for the curtains?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "<think>\n1. The available descriptions contain no curtains or curtain fabric.\n2. The question is therefore unanswerable from the supplied evidence.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Wheat@25": {
+        "prompt": "What type of large furniture piece is located against the wall?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "<think>\n1. The available descriptions contain no information about a large furniture piece.\n2. The type of furniture is therefore unanswerable from the supplied evidence.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Wheat@115": {
+        "prompt": "What type of stone is the fountain made of?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "<think>\n1. The object is described as a green plant with a slender stem and leaves.\n2. No fountain or stone is mentioned, so the question is unanswerable from the available evidence.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Wheat@28": {
+        "prompt": "What type of flower is located on the windowsill?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "<think>\n1. The available descriptions contain no flower or plant on a windowsill.\n2. The type of flower is therefore not established by the evidence.\n3. Therefore, there is no correct answer.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Wheat@78": {
+        "prompt": "What type of fish is swimming in the room?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "<think>\n1. The available information describes a plant with green leaves and a branch.\n2. It does not establish that a fish is swimming in a room.\n3. Therefore, the question is unanswerable from the available evidence.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Wheat@126": {
+        "prompt": "What type of flower is blooming in the scene?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "<think>\n1. The available descriptions contain no flower or plant.\n2. They only describe a leafy tree with a slender trunk and branches.\n3. Thus, the flower type is unanswerable from the available evidence.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Wheat@125": {
+        "prompt": "What type of painting is hanging on the wall?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "<think>\n1. The available information describes only a green plant with a slender stem and leaves.\n2. It does not establish that a painting is hanging on a wall.\n3. Therefore, the question is unanswerable from the available evidence.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Wheat@60": {
+        "prompt": "What type of animal is sleeping on the floor?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "<think>\n1. The available descriptions contain no animal or floor scene.\n2. They also do not identify any animal sleeping on the floor.\n3. Therefore, the question is unanswerable from the available evidence.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Wheat@131": {
+        "prompt": "What type of furniture is located beside the green plant?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "<think>\n1. The available information describes a green plant with leaves and a stem.\n2. It does not identify any furniture beside the plant.\n3. Therefore, the furniture question is unanswerable from the available evidence.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Wheat@72": {
+        "prompt": "What type of rock is in the scene?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "<think>\n1. The scene descriptions contain no rock or geological information.\n2. The type of rock is therefore unanswerable from the available evidence.\n3. Therefore, there is no correct answer.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Wheat@149": {
+        "prompt": "What type of flower is located on the opposite side of the room?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "<think>\n1. The available information describes only a potted plant with green leaves.\n2. It does not establish the presence or type of a flower on the opposite side of a room.\n3. Therefore, the question is unanswerable from the available evidence.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Wheat@119": {
+        "prompt": "What type of sculpture is displayed on the shelf?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "<think>\n1. The available descriptions contain no shelf or sculpture.\n2. They only describe a potted plant with green leaves.\n3. Thus, the question is unanswerable from the available evidence.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Wheat@21": {
+        "prompt": "What type of animal is resting on the floor?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "<think>\n1. The available visual information describes a plant with a slender stem and leaves.\n2. No animal or floor-resting object is identified.\n3. Therefore, the question is unanswerable from the available evidence.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Wheat@84": {
+        "prompt": "What shape is the coffee table?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "<think>\n1. The available information describes a plant rather than a coffee table.\n2. No coffee table shape is established, so the question is unanswerable.\n</think>\n<answer>There is no correct answer</answer>\n<think>\n1. The available information describes a plant rather than a coffee table.\n2. No coffee table shape is established, so the question is unanswerable.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Wheat@4": {
+        "prompt": "What type of fountain is located nearby?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "<think>\n1. The available information describes only a potted plant with green leaves.\n2. It does not establish that a fountain is nearby or identify its type.\n3. Therefore, the question is unanswerable from the available evidence.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Wheat@109": {
+        "prompt": "What type of flower is displayed in a vase?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "<think>\n1. The available information describes a plant with a stem and leaves.\n2. It does not establish what type of flower is in a vase.\n3. Thus, the question is unanswerable from the available evidence.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Wheat@89": {
+        "prompt": "What is the texture of the carpet on the floor?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "<think>\n1. The available descriptions contain no carpet or floor information.\n2. Thus, the texture cannot be determined from the available evidence.\n3. No correct answer is available.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Wheat@14": {
+        "prompt": "What type of fruit is placed on the table?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "<think>\n1. The available descriptions contain no table or fruit.\n2. The type of fruit is therefore not established.\n3. Therefore, there is no correct answer.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Wheat@73": {
+        "prompt": "What type of furniture is in the scene?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "<think>\n1. The available visual information describes a plant with a slender stem and leaves.\n2. It does not establish the presence or type of furniture.\n3. Therefore, the question is unanswerable from the available evidence.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Wheat@123": {
+        "prompt": "What type of sculpture is placed on the floor?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "<think>\n1. The available visual information describes a plant with green leaves.\n2. It does not establish what type of sculpture is placed on the floor.\n3. Therefore, the question is unanswerable from the available evidence.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Wheat@102": {
+        "prompt": "What type of furniture is used for seating in the room?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "<think>\n1. The available visual information describes only a potted plant.\n2. No seating furniture or room furnishings are identified.\n3. Therefore, the question is unanswerable from the available evidence.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Wheat@80": {
+        "prompt": "What type of metal is used in the construction of the garden bench?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "<think>\n1. The available information describes a plant in a pot, not a garden bench.\n2. No metal type is identified in the supplied descriptions.\n3. Therefore, the question is unanswerable from the available evidence.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Wheat@87": {
+        "prompt": "What shape is the coffee table?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "<think>\n1. The available information describes a plant and does not establish the shape of a coffee table.\n2. Therefore, the question is unanswerable from the available evidence.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Wheat@98": {
+        "prompt": "What type of animal is resting on the floor?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "<think>\n1. The available information describes a plant, not an animal.\n2. No animal resting on the floor is identified.\n3. Therefore, the question is unanswerable from the available evidence.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Wheat@137": {
+        "prompt": "What type of animal is resting on the floor?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "<think>\n1. The available visual information describes a plant with a slender stem and leaves.\n2. It does not establish that any animal is resting on the floor.\n3. Therefore, the question is unanswerable from the supplied evidence.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Wheat@113": {
+        "prompt": "What type of fruit hangs from the nearby tree?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "<think>\n1. The available visual information describes a leafy plant with a slender stem.\n2. It does not establish that any fruit is hanging from a nearby tree or identify a fruit type.\n3. Therefore, the question is unanswerable from the available evidence.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Wheat@108": {
+        "prompt": "What materials were used to create the sculpture?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "<think>\n1. The available information describes a plant with a slender stem and leaves.\n2. It does not establish the sculpture's material or any specific material.\n3. Therefore, the question is unanswerable from the available evidence.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Wheat@7": {
+        "prompt": "What type of fish is swimming in the water nearby?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "<think>\n1. The available visual information describes only a flowering branch with white blossoms.\n2. It does not establish that a fish is swimming nearby or identify a fish type.\n3. Therefore, the question is unanswerable from the available evidence.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Wheat@42": {
+        "prompt": "What type of fabric is the couch made of?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "<think>\n1. The available evidence describes a plant, not a couch.\n2. No fabric type is provided, so the question is unanswerable from the supplied information.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Wheat@92": {
+        "prompt": "What type of fruit is hanging from the ceiling?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "<think>\n1. The available visual information describes a plant with green leaves and a brown stem.\n2. It does not establish the presence or type of fruit hanging from a ceiling.\n3. Therefore, the question is unanswerable from the available evidence.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Wheat@15": {
+        "prompt": "What type of fabric is the sofa made of?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "<think>\n1. The available evidence describes a plant in a pot, not a sofa.\n2. No sofa fabric is identified, so the question is unanswerable from the supplied information.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    }
+}
