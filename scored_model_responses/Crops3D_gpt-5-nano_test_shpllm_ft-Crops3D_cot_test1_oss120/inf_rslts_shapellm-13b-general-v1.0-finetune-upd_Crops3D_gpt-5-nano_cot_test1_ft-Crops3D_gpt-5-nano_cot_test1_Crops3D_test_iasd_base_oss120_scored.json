@@ -1,0 +1,2144 @@
+{
+    "Cabbage@sl_1109_14": {
+        "prompt": "What type of pot is the succulent plant sitting in?\n\nA. Tiger\nB. Elephant\nC. Giraffe\nD. Zebra",
+        "response": "<think>\n1. The plant is shown in a dark cylindrical pot.\n2. The choices are tiger, elephant, giraffe, and zebra, none of which is a pot.\n3. Therefore, no listed answer is correct.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "There is no correct answer / none of the above, or Dark-colored pot",
+        "score": "T"
+    },
+    "Cabbage@sl_1019_03": {
+        "prompt": "What shape are the leaves of the potted houseplant described?\n\nA. Hexagonal prism\nB. Parabolic curve\nC. Spherical object\nD. Linear function",
+        "response": "<think>\n1. The leaves are described as long, narrow, and lance-shaped.\n2. None of the listed geometric shapes corresponds to that leaf shape.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "There is no correct answer / none of the above, or Broad, oval to lanceolate with smooth edges",
+        "score": "T"
+    },
+    "Cabbage@mvs_1019_05": {
+        "prompt": "What color are the leaves of the potted succulent?\n\nA. Violin\nB. Cornbread\nC. Moonlight\nD. Cinnamon",
+        "response": "<think>\n1. The leaves are described as green.\n2. None of the choices\u2014violin, cornbread, moonlight, or cinnamon\u2014matches that color.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "There is no correct answer / none of the above, or Blue-Green",
+        "score": "T"
+    },
+    "Cabbage@mvs_907_11": {
+        "prompt": "What color is the pot that the plant is in?\n\nA. Arithmetic\nB. Geography\nC. Chemistry\nD. History",
+        "response": "<think>\n1. The pot is described as dark blue.\n2. None of the listed subjects is a color matching the pot.\n3. Therefore, no listed answer is correct.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "There is no correct answer / none of the above, or Blue",
+        "score": "T"
+    },
+    "Cabbage@sl_1205_01": {
+        "prompt": "What color is the pot that holds the houseplant?\n\nA. Velocity\nB. Frequency\nC. Pressure\nD. Mass",
+        "response": "<think>\n1. The pot is described as dark blue.\n2. Velocity, frequency, pressure, and mass are not the pot's color.\n3. Therefore, no listed answer is correct.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "There is no correct answer / none of the above, or Dark blue",
+        "score": "T"
+    },
+    "Cabbage@sl_921_07": {
+        "prompt": "What shape is the planter for the potted plant?\n\nA. Circle of friends\nB. Stacked books\nC. Musical notes\nD. Vintage postcards",
+        "response": "<think>\n1. The planter is described as a circular ring-shaped pot.\n2. None of the four choices corresponds to that shape.\n3. Therefore, no listed answer is correct.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "There is no correct answer / none of the above, or Round",
+        "score": "T"
+    },
+    "Cabbage@mvs_901_14": {
+        "prompt": "What is the color of the rim of the ceramic pot?\n\nA. Quantum entanglement\nB. Geometric progression\nC. Classical mechanics\nD. Cognitive dissonance",
+        "response": "<think>\n1. The rim is described as blue.\n2. The listed options are unrelated concepts rather than the observed color.\n3. Therefore, no listed answer is correct.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "There is no correct answer / none of the above, or Beige",
+        "score": "T"
+    },
+    "Cabbage@mvs_1123_14": {
+        "prompt": "What color is the flower supported by the blue-gray ceramic vase?\n\nA. Refrigerator\nB. Galaxy\nC. Submarine\nD. Volcano",
+        "response": "<think>\n1. The flower is described as white and fluffy.\n2. The blue-gray ceramic vase is not a color, so no listed option fits.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "There is no correct answer / none of the above, or Blue-green",
+        "score": "T"
+    },
+    "Cabbage@mvs_1019_09": {
+        "prompt": "What color is the pot that holds the succulent?\n\nA. Melody\nB. Harmony\nC. Rhythm\nD. Tempo",
+        "response": "<think>\n1. The pot is described as dark blue.\n2. None of the listed musical terms is a color, so no choice fits.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "There is no correct answer / none of the above, or Light gray-blue",
+        "score": "T"
+    },
+    "Cabbage@sl_907_03": {
+        "prompt": "What shape is the pot that the plant is in?\n\nA. Triangle\nB. Rectangle\nC. Circle\nD. Square",
+        "response": "<think>\n1. The pot is described as round and shallow.\n2. The choices are triangle, rectangle, circle, and square, none of which matches the observed round shape.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "There is no correct answer / none of the above, or Round",
+        "score": "T"
+    },
+    "Cabbage@sl_1205_05": {
+        "prompt": "What color is the pot that the succulent is in?\n\nA. Elephant\nB. Refrigerator\nC. Bicycle\nD. Telescope",
+        "response": "<think>\n1. The pot is described as dark blue.\n2. None of the listed objects is the pot's color.\n3. Therefore, no listed answer is correct.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "There is no correct answer / none of the above, or Blue",
+        "score": "T"
+    },
+    "Cabbage@mvs_1019_03": {
+        "prompt": "What color is the pot that houses the indoor potted plant?\n\nA. Mercury\nB. Neutron\nC. Quantum\nD. Electromagnetism",
+        "response": "<think>\n1. The pot is described as dark blue.\n2. None of the listed scientific terms is a color matching the pot.\n3. Therefore, no listed answer is correct.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "There is no correct answer / none of the above, or Dark blue",
+        "score": "T"
+    },
+    "Cabbage@sl_901_02": {
+        "prompt": "What shape is the pot that holds the bonsai-style plant?\n\nA. Triangle\nB. Rectangle\nC. Circle\nD. Oval",
+        "response": "<think>\n1. The pot is described as round, with a circular rim.\n2. The choices only include triangle, rectangle, circle, and oval.\n3. Thus, no listed option matches the observed pot shape.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "There is no correct answer / none of the above, or Round",
+        "score": "T"
+    },
+    "Cabbage@mvs_1205_09": {
+        "prompt": "What color is the pot in which the succulent is planted?\n\nA. Jupiter\nB. Neutron\nC. Galaxy\nD. Quasar",
+        "response": "<think>\n1. The pot is described as dark blue.\n2. None of the listed options corresponds to the pot's color.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "There is no correct answer / none of the above, or Blue",
+        "score": "T"
+    },
+    "Cabbage@sl_1019_07": {
+        "prompt": "What color are the leaves of the potted succulent?\n\nA. Guitar strings\nB. Mountain climbing\nC. Fast food options\nD. Space exploration",
+        "response": "<think>\n1. The leaves are described as green.\n2. The choices are guitar strings, mountain climbing, fast food options, and space exploration.\n3. None of those choices identifies the leaf color.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "There is no correct answer / none of the above, or Green",
+        "score": "T"
+    },
+    "Cabbage@sl_1019_05": {
+        "prompt": "What shape is the pot that houses the potted plant?\n\nA. Triangle\nB. Rectangle\nC. Sphere\nD. Cylinder",
+        "response": "<think>\n1. The pot is described as round.\n2. The choices list triangle, rectangle, sphere, and cylinder, none of which matches a round pot.\n3. Therefore, no listed answer is correct.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "There is no correct answer / none of the above, or Round",
+        "score": "T"
+    },
+    "Cabbage@sl_1116_11": {
+        "prompt": "What shape does the succulent form with its leaves?\n\nA. Thunderstorm\nB. Hailstorm\nC. Blizzard\nD. Tsunami",
+        "response": "<think>\n1. The object is a potted plant with a brown stem and leaves.\n2. It is not a thunderstorm, hailstorm, blizzard, or tsunami.\n3. Therefore, none of the listed choices is correct.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "There is no correct answer / none of the above, or Circular shape",
+        "score": "T"
+    },
+    "Cabbage@mvs_1012_06": {
+        "prompt": "What is the shape of the leaves on the succulent?\n\nA. Saturn V Rocket\nB. Blue Whale\nC. Emerald City\nD. Grand Canyon",
+        "response": "<think>\n1. The leaves are described as broad, oval, and fleshy.\n2. None of the listed options corresponds to that leaf shape.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "There is no correct answer / none of the above, or Obovate",
+        "score": "T"
+    },
+    "Cabbage@mvs_907_07": {
+        "prompt": "What color is the ceramic pot containing the plant? \n\nA. Dolphin\nB. Mountain\nC. Galaxy\nD. Honeycomb",
+        "response": "<think>\n1. The pot is described as dark blue.\n2. None of the choices\u2014dolphin, mountain, galaxy, or honeycomb\u2014matches that color.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "There is no correct answer / none of the above, or Blue",
+        "score": "T"
+    },
+    "Cabbage@sl_921_11": {
+        "prompt": "What color is the pot that the plant is growing in?\n\nA. Chocolate\nB. Vanilla\nC. Strawberry\nD. Blueberry",
+        "response": "<think>\n1. The pot is described as dark blue.\n2. None of the listed colors\u2014chocolate, vanilla, strawberry, or blueberry\u2014matches the pot.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "There is no correct answer / none of the above, or Dark blue",
+        "score": "T"
+    },
+    "Cabbage@sl_1019_01": {
+        "prompt": "What type of leaf shape is described for the plant in the room?\n\nA. Geological formation\nB. Solar eclipse\nC. Ancient civilization\nD. Quantum mechanics",
+        "response": "<think>\n1. The descriptions identify a potted plant with a leafy stem and green leaves.\n2. None of the listed options describes this plant.\n3. Therefore, no listed answer is correct.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "There is no correct answer / none of the above, or Elongated oval",
+        "score": "T"
+    },
+    "Cabbage@mvs_929_06": {
+        "prompt": "What color is the pot that the succulent is in? \n\nA. Tropical fish\nB. Electric guitar\nC. Mountain range\nD. Classic novel",
+        "response": "<think>\n1. The pot is described as dark blue.\n2. The choices are a tropical fish, electric guitar, mountain range, and classic novel.\n3. No option matches the pot's color.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "There is no correct answer / none of the above, or Blue-gray",
+        "score": "T"
+    },
+    "Cabbage@sl_1109_12": {
+        "prompt": "What is the color of the leaves of the potted succulent?\n\nA. Cactus Green\nB. Desert Beige\nC. Mountain Blue\nD. Ocean Teal",
+        "response": "<think>\n1. The leaves are described as green, including dark green and bluish-green.\n2. The choices do not include a matching green color, so no listed answer is correct.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "There is no correct answer / none of the above, or Dark green to blue-green",
+        "score": "T"
+    },
+    "Cabbage@mvs_1116_07": {
+        "prompt": "What color are the horizontal bands on the ceramic pot containing the succulent?\n\nA. Mountain range\nB. Ocean wave\nC. Desert landscape\nD. Forest trail",
+        "response": "<think>\n1. The pot's horizontal bands are described as blue.\n2. The choices do not include blue, so no listed option fits.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "There is no correct answer / none of the above, or Blue and white",
+        "score": "T"
+    },
+    "Cabbage@mvs_921_03": {
+        "prompt": "What color is the pot containing the small potted plant?\n\nA. Cactus Green\nB. Ocean Blue\nC. Sunset Orange\nD. Mountain Gray",
+        "response": "<think>\n1. The pot is described as dark blue.\n2. The choices do not include dark blue, so no listed color is correct.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "There is no correct answer / none of the above, or Dark blue",
+        "score": "T"
+    },
+    "Cabbage@mvs_901_10": {
+        "prompt": "What color is the rim of the ceramic pot?\n\nA. Elephant\nB. Laptop\nC. Pineapple\nD. Zebra",
+        "response": "<think>\n1. The pot rim is described as blue.\n2. None of the listed objects is a blue rim.\n3. Therefore, no listed answer is correct.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "There is no correct answer / none of the above, or Light tan",
+        "score": "T"
+    },
+    "Cabbage@sl_1103_05": {
+        "prompt": "What shape is the pot that holds the succulent?\n\nA. Tropical rainforest\nB. Desert landscape\nC. Ocean currents\nD. Mountain range",
+        "response": "<think>\n1. The pot is described as round.\n2. The choices are tropical rainforest, desert landscape, ocean currents, and mountain range, none of which is a pot shape.\n3. Therefore, no listed answer is correct.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "There is no correct answer / none of the above, or Short cylindrical",
+        "score": "T"
+    },
+    "Cabbage@sl_907_11": {
+        "prompt": "What shape is the pot that the plant is in?\n\nA. Triangle\nB. Rectangle\nC. Cylinder\nD. Sphere",
+        "response": "<think>\n1. The pot is described as round and shallow.\n2. The choices do not include a round pot, so none is correct.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "There is no correct answer / none of the above, or Round",
+        "score": "T"
+    },
+    "Cabbage@mvs_1103_05": {
+        "prompt": "What type of leaves does the potted plant have?\n\nA. Jupiter\nB. Mercury\nC. Mars\nD. Neptune",
+        "response": "<think>\n1. The plant has numerous green leaves and a brown base.\n2. The choices are planets rather than leaf types, so none is correct.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "There is no correct answer / none of the above, or Broad bluish-green leaves",
+        "score": "T"
+    },
+    "Cabbage@mvs_901_12": {
+        "prompt": "What color is the rim of the pot holding the succulent?\n\nA. Penguin\nB. Volcano\nC. Galaxy\nD. Forest",
+        "response": "<think>\n1. The rim is described as blue.\n2. None of the choices\u2014Penguin, Volcano, Galaxy, or Forest\u2014matches that color.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "There is no correct answer / none of the above, or Blue",
+        "score": "T"
+    },
+    "Cabbage@mvs_914_12": {
+        "prompt": "What color is the rim of the pot that the houseplant is in?\n\nA. Jupiter\nB. Saturn\nC. Mars\nD. Venus",
+        "response": "<think>\n1. The pot rim is described as blue.\n2. None of the planet names is a color matching the rim.\n3. Therefore, no listed answer is correct.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "There is no correct answer / none of the above, or Blue",
+        "score": "T"
+    },
+    "Cabbage@sl_1026_02": {
+        "prompt": "What is the shape of the leaves on the potted plant described? \n\nA. Jupiter's orbit\nB. Water cycle\nC. Plate tectonics\nD. Solar eclipse",
+        "response": "<think>\n1. The leaves are long and lance-shaped.\n2. None of the listed choices describes that leaf shape.\n3. Therefore, no listed answer is correct.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "There is no correct answer / none of the above, or Rounded and fan-like",
+        "score": "T"
+    },
+    "Cabbage@sl_921_03": {
+        "prompt": "What color is the pot that the bonsai-style plant is planted in?\n\nA. Trampoline\nB. Avalanche\nC. Roller coaster\nD. Telescope",
+        "response": "<think>\n1. The pot is described as blue.\n2. The choices are trampoline, avalanche, roller coaster, and telescope, none of which is blue.\n3. Therefore, no listed answer is correct.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "There is no correct answer / none of the above, or Dark blue",
+        "score": "T"
+    },
+    "Cabbage@mvs_1026_08": {
+        "prompt": "What color is the ceramic pot in which the succulent is planted?\n\nA. Jupiter's rings\nB. Quantum entanglement\nC. Digital footprint\nD. Ancient hieroglyphics",
+        "response": "<think>\n1. The pot is described as blue-gray.\n2. None of the listed options identifies that color.\n3. Therefore, there is no correct answer.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "There is no correct answer / none of the above, or Blue",
+        "score": "T"
+    },
+    "Cabbage@sl_1109_10": {
+        "prompt": "What is the shape of the leaves on the succulent described?\n\nA. Telephone\nB. Refrigerator\nC. Goldfish\nD. Stapler",
+        "response": "<think>\n1. The leaves are described as broad and oval.\n2. None of the four choices corresponds to that shape.\n3. Therefore, no listed answer is correct.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "There is no correct answer / none of the above, or Thick and fleshy",
+        "score": "T"
+    },
+    "Cabbage@mvs_929_10": {
+        "prompt": "What shape is the pot that the succulent is planted in?\n\nA. Hexagonal prism\nB. Cylindrical coordinate\nC. Fractal dimension\nD. Quantum leap",
+        "response": "<think>\n1. The pot is described as cylindrical.\n2. The other choices are a hexagonal prism, coordinate, fractal dimension, and quantum leap, none of which is a cylindrical pot.\n3. Therefore, there is no correct answer.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "There is no correct answer / none of the above, or Cylindrical",
+        "score": "T"
+    },
+    "Cabbage@mvs_1205_01": {
+        "prompt": "What color are the petals of the bloom on the potted plant?\n\nA. Magnitude\nB. Volume\nC. Frequency\nD. Spectrum",
+        "response": "<think>\n1. The petals are described as white and fluffy.\n2. None of the choices\u2014magnitude, volume, frequency, or spectrum\u2014describes that color.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "There is no correct answer / none of the above, or Blue-gray",
+        "score": "T"
+    },
+    "Cabbage@mvs_1019_11": {
+        "prompt": "What color is the ceramic pot holding the succulent plant?\n\nA. Ocean Wave\nB. Desert Sand\nC. Mountain Peak\nD. Urban Jungle",
+        "response": "<think>\n1. The pot is described as blue, with a blue rim in one view.\n2. None of the four choices corresponds to the observed blue color.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "There is no correct answer / none of the above, or Blue",
+        "score": "T"
+    },
+    "Cabbage@sl_1026_08": {
+        "prompt": "What type of plant is described in the room?\n\nA. Thermodynamics\nB. Quantum physics\nC. Astrobiology\nD. Geometric shapes",
+        "response": "<think>\n1. The object is a potted plant with a brown stem and green leaves.\n2. None of the listed scientific or geometric categories describes it.\n3. Therefore, no listed answer is correct.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "There is no correct answer / none of the above, or A potted succulent",
+        "score": "T"
+    },
+    "Cabbage@mvs_907_13": {
+        "prompt": "What color is the ceramic pot containing the succulent?\n\nA. Elephant\nB. Guitar\nC. Mountain\nD. Ocean",
+        "response": "<think>\n1. The pot is described as blue.\n2. None of the listed options is blue.\n3. Therefore, no choice is correct.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "There is no correct answer / none of the above, or Blue",
+        "score": "T"
+    },
+    "Cabbage@mvs_1005_11": {
+        "prompt": "What type of plant is described in the room?\n\nA. Car Engine\nB. Smartphone Model\nC. Basketball Team\nD. Computer Program",
+        "response": "<think>\n1. The object is a potted plant with a brown pot and green leaves.\n2. None of the listed options describes a plant.\n3. Therefore, no listed answer fits the observed object.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "There is no correct answer / none of the above, or A small succulent",
+        "score": "T"
+    },
+    "Cabbage@mvs_901_06": {
+        "prompt": "What color is the pot containing the succulent?\n\nA. Spiral\nB. Quantum\nC. Density\nD. Matter",
+        "response": "<think>\n1. The pot is described as blue.\n2. None of the listed choices corresponds to blue.\n3. Therefore, no listed answer is correct.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "There is no correct answer / none of the above, or Blue",
+        "score": "T"
+    },
+    "Cabbage@sl_1109_08": {
+        "prompt": "What color is the pot that holds the succulent plant?\n\nA. Jagged\nB. Spherical\nC. Polygonal\nD. Abstract",
+        "response": "<think>\n1. The pot is described as dark blue.\n2. The choices do not include dark blue; they are jagged, spherical, polygonal, and abstract.\n3. Therefore, no listed answer is correct.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "There is no correct answer / none of the above, or Dark Blue",
+        "score": "T"
+    },
+    "Cabbage@mvs_929_14": {
+        "prompt": "What color is the rim of the ceramic pot holding the plant?\n\nA. Maple syrup\nB. Chocolate cake\nC. Vanilla ice cream\nD. Blueberry muffin",
+        "response": "<think>\n1. The rim is described as blue.\n2. None of the four choices corresponds to blue.\n3. Therefore, no listed answer is correct.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "There is no correct answer / none of the above, or Light blue",
+        "score": "T"
+    },
+    "Cabbage@sl_907_01": {
+        "prompt": "What shape do the leaves of the succulent have?\n\nA. Trapezoid\nB. Sphere\nC. Cylinder\nD. Cube",
+        "response": "<think>\n1. The leaves are described as broad and oval.\n2. None of the choices\u2014trapezoid, sphere, cylinder, or cube\u2014matches that shape.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "There is no correct answer / none of the above, or Dense rosette and pointed",
+        "score": "T"
+    },
+    "Cabbage@sl_1026_10": {
+        "prompt": "What shape does the green succulent's leaves create as they are arranged?\n\nA. Horizontal lines\nB. Musical notes\nC. Weather patterns\nD. Chemical compounds",
+        "response": "<think>\n1. The leaves are arranged in a circular rosette.\n2. The choices do not include a circular rosette, so no listed option fits.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "There is no correct answer / none of the above, or A compact, flower-like cluster",
+        "score": "T"
+    },
+    "Cabbage@sl_901_10": {
+        "prompt": "What color is the glaze of the pot that holds the bonsai tree?\n\nA. Dolphin\nB. Mountain\nC. Galaxy\nD. Sunset",
+        "response": "<think>\n1. The pot is described as having a blue-gray glaze.\n2. The choices are a dolphin, mountain, galaxy, and sunset, none of which matches the observed color.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "There is no correct answer / none of the above, or Dark Blue-Black",
+        "score": "T"
+    },
+    "Cabbage@mvs_1012_12": {
+        "prompt": "What is the shape of the pot that the succulent is in?\n\nA. Triangular prism\nB. Quadratic equation\nC. Molecular structure\nD. Geometric sequence",
+        "response": "<think>\n1. The pot is described as cylindrical.\n2. The listed choices are a triangular prism, quadratic equation, molecular structure, and geometric sequence, none of which matches the pot.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "There is no correct answer / none of the above, or Cylindrical or square",
+        "score": "T"
+    },
+    "Cabbage@mvs_1109_02": {
+        "prompt": "What type of container is the succulent displayed in?\n\nA. Encyclopedia\nB. Symphony\nC. Mathematics\nD. Astronomy",
+        "response": "<think>\n1. The container is a cylindrical pot.\n2. None of the listed subjects is a cylindrical pot.\n3. Therefore, no listed answer is correct.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "There is no correct answer / none of the above, or A cylindrical container",
+        "score": "T"
+    },
+    "Cabbage@sl_901_04": {
+        "prompt": "What color is the pot that holds the plant?\n\nA. Refrigerator\nB. Toaster\nC. Microwave\nD. Oven",
+        "response": "<think>\n1. The pot is described as dark blue.\n2. The choices are a refrigerator, toaster, microwave, and oven, none of which is the observed color.\n3. Therefore, no listed answer is correct.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "There is no correct answer / none of the above, or Dark blue",
+        "score": "T"
+    },
+    "Cabbage@mvs_1116_01": {
+        "prompt": "What color is the cylindrical pot in which the potted plant is kept?\n\nA. Jupiter\nB. Mercury\nC. Venus\nD. Saturn",
+        "response": "<think>\n1. The pot is described as dark blue.\n2. None of the planet names corresponds to the pot's color.\n3. Therefore, no listed answer is correct.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "There is no correct answer / none of the above, or Dark blue",
+        "score": "T"
+    },
+    "Cabbage@mvs_901_08": {
+        "prompt": "What color is the ceramic pot that the succulent is planted in?\n\nA. Jazz\nB. Ballet\nC. Rock\nD. Salsa",
+        "response": "<think>\n1. The pot is described as blue.\n2. None of the listed options is blue.\n3. Therefore, there is no correct answer.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "There is no correct answer / none of the above, or Blue",
+        "score": "T"
+    },
+    "Cabbage@sl_1109_06": {
+        "prompt": "What type of plant is described in the room?\n\nA. Symphony\nB. Landscape\nC. Architecture\nD. Sculpture",
+        "response": "<think>\n1. The object is a potted plant with a brown stem and green leaves.\n2. It is not a symphony, landscape, architecture, or sculpture.\n3. Therefore, none of the listed choices is correct.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "There is no correct answer / none of the above, or A potted succulent",
+        "score": "T"
+    },
+    "Cabbage@mvs_914_04": {
+        "prompt": "What color is the rim of the pot that holds the money plant?\n\nA. Elephant\nB. Jupiter\nC. Whisper\nD. Marvel",
+        "response": "<think>\n1. The pot rim is described as light gray.\n2. None of the listed choices corresponds to light gray.\n3. Therefore, no listed answer is correct.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "There is no correct answer / none of the above, or Blue",
+        "score": "T"
+    },
+    "Cabbage@sl_1019_13": {
+        "prompt": "What type of plant is described in the room?\n\nA. Polygon\nB. Polynomial\nC. Integer\nD. Fraction",
+        "response": "<think>\n1. The object is a potted plant with a brown stem and green leaves.\n2. It is not a polygon, polynomial, integer, or fraction.\n3. Therefore, none of the listed choices is correct.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "There is no correct answer / none of the above, or Rubber plant with broad, glossy dark-green leaves",
+        "score": "T"
+    },
+    "Cabbage@sl_1026_12": {
+        "prompt": "What shape does the arrangement of the succulent leaves form?\n\nA. Avalanche\nB. Tornado\nC. Earthquake\nD. Blizzard",
+        "response": "<think>\n1. The plant is described as a potted rosette with leaves arranged in a circular pattern.\n2. None of the four choices corresponds to that arrangement.\n3. Therefore, no listed answer is correct.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "There is no correct answer / none of the above, or A layered crown shape",
+        "score": "T"
+    },
+    "Cabbage@mvs_1103_03": {
+        "prompt": "What color is the pot that holds the succulent?\n\nA. Jazz\nB. Ballet\nC. Heavy metal\nD. Classical",
+        "response": "<think>\n1. The pot is described as dark blue.\n2. None of the listed music genres corresponds to the pot's color.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "There is no correct answer / none of the above, or Dark blue",
+        "score": "T"
+    },
+    "Cabbage@sl_1103_13": {
+        "prompt": "What shape are the leaves of the succulent?\n\nA. Blueberry\nB. Raspberry\nC. Strawberry\nD. Blackberry",
+        "response": "<think>\n1. The leaves are described as broad, oval, and fleshy.\n2. None of the listed fruit-shaped choices matches that observed shape.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "There is no correct answer / none of the above, or Broad and fleshy",
+        "score": "T"
+    },
+    "Cabbage@sl_907_05": {
+        "prompt": "What color is the pot that the plant is in?\n\nA. Chocolate\nB. Banana\nC. Watermelon\nD. Pineapple",
+        "response": "<think>\n1. The pot is described as white.\n2. None of the listed colors\u2014chocolate, banana, watermelon, or pineapple\u2014matches white.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "There is no correct answer / none of the above, or Blue",
+        "score": "T"
+    },
+    "Cotton@116": {
+        "prompt": "What is the color of the branch described in the room?\n\nA. Ecosystem\nB. Photosynthesis\nC. Habitat\nD. Biodiversity",
+        "response": "<think>\n1. The branch is described as brown.\n2. The choices are ecosystem, photosynthesis, habitat, and biodiversity, none of which is a color.\n3. Therefore, no listed answer is correct.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "There is no correct answer / none of the above, or Brown",
+        "score": "T"
+    },
+    "Cotton@14": {
+        "prompt": "What color are the centers of the blossoms on the bonsai-style tree?\n\nA. Balloon\nB. Bicycle\nC. Mountain\nD. Computer",
+        "response": "<think>\n1. The descriptions identify the blossom centers as white.\n2. None of the four choices corresponds to white.\n3. Therefore, no listed answer is correct.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "There is no correct answer / none of the above, or Pink",
+        "score": "T"
+    },
+    "Cotton@62": {
+        "prompt": "What color are the tiny fluffy buds on the shrub?\n\nA. Cactus Green\nB. Ocean Blue\nC. Sunset Orange\nD. Cotton Candy Pink",
+        "response": "<think>\n1. The shrub has tiny white fluffy buds on its branches.\n2. The available colors are cactus green, ocean blue, sunset orange, and cotton candy pink.\n3. None of those colors matches the observed white buds.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "There is no correct answer / none of the above, or White",
+        "score": "T"
+    },
+    "Cotton@126": {
+        "prompt": "What type of plant is described in the room?  \n\nA. Laptop model\nB. Smartphone brand\nC. Television size\nD. Refrigerator temperature",
+        "response": "<think>\n1. The object is a potted plant with a slender stem and leaves.\n2. The choices are laptop, smartphone, television, and refrigerator-related, so none describes the plant.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "There is no correct answer / none of the above, or Deciduous sapling",
+        "score": "T"
+    },
+    "Cotton@16": {
+        "prompt": "What color are the blossoms of the small flowering tree?\n\nA. Mercury\nB. Helium\nC. Oxygen\nD. Carbon",
+        "response": "<think>\n1. The blossoms are white according to the descriptions.\n2. None of the listed options is white.\n3. Therefore, no listed answer is correct.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "There is no correct answer / none of the above, or White",
+        "score": "T"
+    },
+    "Cotton@113": {
+        "prompt": "What type of blossoms are found on the slender brown flowering branch?\n\nA. Cathedral architecture\nB. Ancient civilizations\nC. Molecular bonding\nD. Digital marketing strategies",
+        "response": "<think>\n1. The branch is described as bearing white blossoms.\n2. The choices concern architecture, civilizations, molecular bonding, and digital marketing, none of which describes the observed object.\n3. Therefore, no listed answer is correct.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "There is no correct answer / none of the above, or White blossoms",
+        "score": "T"
+    },
+    "Cotton@27": {
+        "prompt": "What characteristic feature is present at the base of the cotton plant?\n\nA. Triangular sailboats\nB. Tropical rainforest layers\nC. Magnetic fields around a magnet\nD. Quantum particle entanglement",
+        "response": "<think>\n1. The plant has a brown base with soil and roots.\n2. None of the listed choices describes this base feature.\n3. Therefore, no listed answer is correct.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "There is no correct answer / none of the above, or Small leaves",
+        "score": "T"
+    },
+    "Cotton@92": {
+        "prompt": "What color are the blossoms on the flowering branch?\n\nA. Mercury\nB. Gravity\nC. Neutron\nD. Plasma",
+        "response": "<think>\n1. The branch has white blossoms according to the descriptions.\n2. None of the listed scientific terms describes the blossom color.\n3. Therefore, no listed answer is correct.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "There is no correct answer / none of the above, or White",
+        "score": "T"
+    },
+    "Cotton@198": {
+        "prompt": "What color are the blossoms on the sapling?\n\nA. Geometry\nB. Biology\nC. Physics\nD. Chemistry",
+        "response": "<think>\n1. The blossoms are described as white and fluffy.\n2. The choices are geometry, biology, physics, and chemistry, none of which is a color.\n3. Therefore, no listed answer is correct.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "There is no correct answer / none of the above, or White",
+        "score": "T"
+    },
+    "Cotton@63": {
+        "prompt": "What type of plant is described in the room?\n\nA. Jupiter's Moons\nB. The Great Wall\nC. The Eiffel Tower\nD. The Amazon River",
+        "response": "<think>\n1. The object is a small tree with a slender trunk and branches.\n2. None of the listed options describes a tree or a plant.\n3. Therefore, no listed answer is correct.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "There is no correct answer / none of the above, or A small sapling",
+        "score": "T"
+    },
+    "Cotton@120": {
+        "prompt": "What type of plant is described in the room?\n\nA. Quantum mechanics\nB. Gothic architecture\nC. Classical music\nD. Renaissance art",
+        "response": "<think>\n1. The object is a green plant with a slender stem and leaves.\n2. The choices are academic or artistic subjects rather than plant types.\n3. Therefore, no listed answer is correct.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "There is no correct answer / none of the above, or Cotton plant",
+        "score": "T"
+    },
+    "Cotton@81": {
+        "prompt": "What color are the flowers on the branch?\n\nA. Redwood\nB. Cactus\nC. Oak\nD. Maple",
+        "response": "<think>\n1. The branch is described as bearing white blossoms.\n2. The choices do not include white flowers; redwood, cactus, and oak are not the observed color.\n3. Therefore, no listed answer is correct.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "There is no correct answer / none of the above, or White",
+        "score": "T"
+    },
+    "Cotton@136": {
+        "prompt": "What characteristic is most prominent at the upper portion of the cotton plant described?\n\nA. Quantum entanglement\nB. Dark matter\nC. Thermal expansion\nD. Magnetic field",
+        "response": "<think>\n1. The upper portion is described as a small tuft of cotton bolls.\n2. Quantum entanglement, dark matter, and thermal expansion are not observed, so no listed answer fits.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "There is no correct answer / none of the above, or Clusters of fluffy white cotton bolls",
+        "score": "T"
+    },
+    "Cotton@26": {
+        "prompt": "What color are the blossoms on the branch?\n\nA. Elephant\nB. Galaxy\nC. Tornado\nD. Pyramid",
+        "response": "<think>\n1. The branch is described as bearing white blossoms.\n2. None of the listed choices is a color or matches the blossoms.\n3. Therefore, no listed answer is correct.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "There is no correct answer / none of the above, or White",
+        "score": "T"
+    },
+    "Cotton@112": {
+        "prompt": "What type of blossoms are found along the slender brown branch?\n\nA. Cosmic radiation\nB. Tidal waves\nC. Quantum entanglement\nD. Plate tectonics",
+        "response": "<think>\n1. The branch is described as bearing white blossoms.\n2. The choices concern cosmic radiation, tidal waves, quantum entanglement, and plate tectonics, none of which describes the blossoms.\n3. Therefore, no listed answer is correct.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "There is no correct answer / none of the above, or Fluffy catkins",
+        "score": "T"
+    },
+    "Cotton@2": {
+        "prompt": "What is the color of the bolls on the cotton plant described?\n\nA. Jupiter's atmosphere\nB. Ancient Roman cuisine\nC. Quantum entanglement\nD. The Great Wall of China",
+        "response": "<think>\n1. The plant has white fluffy cotton bolls.\n2. None of the listed choices describes white bolls.\n3. Therefore, no listed answer is correct.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "There is no correct answer / none of the above, or White",
+        "score": "T"
+    },
+    "Cotton@21": {
+        "prompt": "What type of plant is described as having multi-stemmed structure and white fluffy blossoms?\n\nA. Quantum mechanics\nB. Renaissance art\nC. Gothic architecture\nD. Baroque music",
+        "response": "<think>\n1. The object is a flowering tree with a brown trunk and white blossoms.\n2. None of the listed subjects describes this plant.\n3. Therefore, there is no correct answer.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "There is no correct answer / none of the above, or A cotton shrub",
+        "score": "T"
+    },
+    "Cotton@173": {
+        "prompt": "What color are the cotton bolls on the cotton plant?\n\nA. Mountain range\nB. Ocean wave\nC. Desert cactus\nD. Forest creek",
+        "response": "<think>\n1. The plant is described as having white cotton bolls.\n2. The choices are mountain range, ocean wave, desert cactus, and forest creek, none of which matches the observed white color.\n3. Therefore, no listed answer is correct.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "There is no correct answer / none of the above, or White",
+        "score": "T"
+    },
+    "Cotton@107": {
+        "prompt": "What color are the blossoms on the flowering tree described?\n\nA. Dolphin\nB. Galaxy\nC. Mountain\nD. Ocean",
+        "response": "<think>\n1. The blossoms are described as white.\n2. The choices are a dolphin, galaxy, mountain, and ocean, none of which is white.\n3. Therefore, no listed answer is correct.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "There is no correct answer / none of the above, or White",
+        "score": "T"
+    },
+    "Cotton@22": {
+        "prompt": "What shape does the dried cotton plant branch with two stems form?\n\nA. Octagon\nB. Triangle\nC. Sphere\nD. Rectangle",
+        "response": "<think>\n1. The branch is described as a small tree with a slender stem and leaves.\n2. It does not form an octagon, triangle, sphere, or rectangle.\n3. Therefore, no listed answer is correct.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "There is no correct answer / none of the above, or A curved, spray-like arrangement",
+        "score": "T"
+    },
+    "Cotton@115": {
+        "prompt": "What color are the blossoms on the stem described?\n\nA. Quantum mechanics\nB. Artificial intelligence\nC. Shakespearean sonnets\nD. Renaissance art",
+        "response": "<think>\n1. The blossoms are described as white.\n2. The listed choices are unrelated subjects rather than the observed color.\n3. Therefore, none of the choices is correct.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "There is no correct answer / none of the above, or White",
+        "score": "T"
+    },
+    "Cotton@159": {
+        "prompt": "What kind of base is the bonsai-like flowering tree rooted in?\n\nA. Quantum mechanics\nB. Social networking\nC. Culinary arts\nD. Ancient mythology",
+        "response": "<think>\n1. The descriptions identify the base as a small brown soil clump.\n2. None of the choices describes a soil clump, so no listed answer fits.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "There is no correct answer / none of the above, or A mossy base",
+        "score": "T"
+    },
+    "Cotton@153": {
+        "prompt": "What type of blossoms are found on the tall, slender brown plant stem?\n\nA. Mercury\nB. Neptune\nC. Jupiter\nD. Saturn",
+        "response": "<think>\n1. The object is a slender brown plant stem with white blossoms.\n2. The choices are Mercury, Neptune, Jupiter, and Saturn, none of which is a blossom type.\n3. Therefore, no listed answer is correct.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "There is no correct answer / none of the above, or White fluffy blossoms",
+        "score": "T"
+    },
+    "Cotton@88": {
+        "prompt": "What type of plant feature is present on the slender brown stems?\n\nA. Subatomic particle theory\nB. Carbon footprints\nC. Cellular respiration\nD. Quantum entanglement",
+        "response": "<think>\n1. The plant feature is a small leafy cluster.\n2. The listed scientific concepts do not describe this plant feature.\n3. Therefore, no choice is correct.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "There is no correct answer / none of the above, or Sparse green leaves",
+        "score": "T"
+    },
+    "Cotton@9": {
+        "prompt": "What type of plant is described as having a tall, slender trunk, green leaves, and clusters of white fluffy bolls along its branches?\n\nA. Jazz music genre\nB. Italian cuisine\nC. Ancient Greek mythology\nD. Space exploration technology",
+        "response": "<think>\n1. The object is a green leafy plant with a slender trunk and white fluffy bolls.\n2. None of the listed categories describes this plant.\n3. Therefore, no listed answer is correct.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "There is no correct answer / none of the above, or A Cotton Tree",
+        "score": "T"
+    },
+    "Cotton@72": {
+        "prompt": "What color are the blossoms on the sapling?\n\nA. Music genre\nB. Historical period\nC. Cooking technique\nD. Dance style",
+        "response": "<think>\n1. The blossoms are described as white.\n2. The choices are music genre, historical period, cooking technique, and dance style, none of which is a color.\n3. Therefore, no choice is correct.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "There is no correct answer / none of the above, or White",
+        "score": "T"
+    },
+    "Cotton@25": {
+        "prompt": "What feature do the blossoms on the branch predominantly have?\n\nA. Aluminum\nB. Hologram\nC. Microscope\nD. Cabbage",
+        "response": "<think>\n1. The blossoms are described as white and fluffy.\n2. None of the listed options describes white blossoms.\n3. Therefore, no listed answer is correct.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "There is no correct answer / none of the above, or They have a five-petal structure",
+        "score": "T"
+    },
+    "Cotton@158": {
+        "prompt": "What color are the petals of the flowers on the branch?\n\nA. Mercury\nB. Jupiter\nC. Saturn\nD. Neptune",
+        "response": "<think>\n1. The branch has white fluffy blossoms and white petals.\n2. The choices are Mercury, Jupiter, Saturn, and Neptune, none of which matches the observed color.\n3. Therefore, no listed answer is correct.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "There is no correct answer / none of the above, or White",
+        "score": "T"
+    },
+    "Cotton@180": {
+        "prompt": "What color are the leaves of the sapling?\n\nA. Dolphin\nB. Guitar\nC. Castle\nD. Marshmallow",
+        "response": "<think>\n1. The plant has green leaves.\n2. The choices are a dolphin, guitar, castle, and marshmallow, so none matches the observed leaf color.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "There is no correct answer / none of the above, or Green",
+        "score": "T"
+    },
+    "Cotton@149": {
+        "prompt": "What type of plant is described?\n\nA. Microprocessor design\nB. Quantum entanglement\nC. Solar eclipse mechanics\nD. Ocean current patterns",
+        "response": "<think>\n1. The object is a potted plant with a slender stem and green leaves.\n2. The choices concern a microprocessor, quantum entanglement, solar eclipse, and ocean currents, none of which describes the plant.\n3. Therefore, no listed answer is correct.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "There is no correct answer / none of the above, or A small leafless shrub or young tree",
+        "score": "T"
+    },
+    "Cotton@125": {
+        "prompt": "What color are the centers of some of the blossoms on the flowering branch?\n\nA. Trampoline\nB. Skateboard\nC. Basketball\nD. Snowman",
+        "response": "<think>\n1. The descriptions identify a flowering branch with white blossoms.\n2. The blossom centers are white, matching the white flower option.\n</think>\n<answer>White</answer>",
+        "correct_answer": "There is no correct answer / none of the above, or Pink",
+        "score": "F"
+    },
+    "Cotton@51": {
+        "prompt": "What type of plant is described in the room?\n\nA. Eclipse\nB. Supernova\nC. Quantum\nD. Black Hole",
+        "response": "<think>\n1. The object is a small potted plant with a slender stem and leaves.\n2. None of the listed astronomical or scientific terms describes this plant.\n3. Therefore, no listed answer is correct.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "There is no correct answer / none of the above, or A multi-branched shrub",
+        "score": "T"
+    },
+    "Cotton@67": {
+        "prompt": "What type of plant structure is primarily described in the room?\n\nA. Collision\nB. Friction\nC. Gravity\nD. Acceleration",
+        "response": "<think>\n1. The object is a small tree with a slender trunk and branches.\n2. The listed concepts are collision, friction, gravity, and acceleration, none of which describes the plant.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "There is no correct answer / none of the above, or A slender stem with delicate branches",
+        "score": "T"
+    },
+    "Cotton@127": {
+        "prompt": "What type of flowers are found on the branch?\n\nA. Mercury\nB. Jupiter\nC. Saturn\nD. Neptune",
+        "response": "<think>\n1. The branch is described as bearing white blossoms, not as a planet.\n2. The choices are Mercury, Jupiter, Saturn, and Neptune, none of which is a flower type.\n3. Therefore, no listed answer is correct.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "There is no correct answer / none of the above, or White blossoms",
+        "score": "T"
+    },
+    "Cotton@11": {
+        "prompt": "What is the color of the petals on the blossoms?\n\nA. Refrigerator\nB. Television\nC. Microwave\nD. Dishwasher",
+        "response": "<think>\n1. The object is a tree with white blossoms, not a listed appliance.\n2. The petals are white, so the color is white.\n3. Therefore, none of the listed choices is correct.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "There is no correct answer / none of the above, or White",
+        "score": "T"
+    },
+    "Cotton@137": {
+        "prompt": "What color are the flowers or seed pods at the top of the plant?\n\nA. Mercury\nB. Hydrogen\nC. Oxygen\nD. Nitrogen",
+        "response": "<think>\n1. The plant has numerous white fluffy blossoms or seed pods at its top.\n2. None of the listed element names corresponds to the observed white color.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "There is no correct answer / none of the above, or White",
+        "score": "T"
+    },
+    "Cotton@78": {
+        "prompt": "What type of plant is described in the room?\n\nA. Blue Whale\nB. Mount Everest\nC. Great Wall of China\nD. Amazon River",
+        "response": "<think>\n1. The object is a potted plant with a brown trunk, branches, and green leaves.\n2. None of the listed options is a plant or matches this object.\n3. Therefore, no listed answer is correct.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "There is no correct answer / none of the above, or A slender sapling with white blossoms",
+        "score": "T"
+    },
+    "Cotton@6": {
+        "prompt": "What type of plant is described in the room?\n\nA. Mercury\nB. Neutron\nC. Quasar\nD. Turbine",
+        "response": "<think>\n1. The object is a green plant with numerous slender stems and tiny leaves.\n2. None of the listed options describes this plant.\n3. Therefore, no listed answer is correct.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "There is no correct answer / none of the above, or A small potted tree with white blossoms",
+        "score": "T"
+    },
+    "Cotton@188": {
+        "prompt": "What type of plant is described in the room?\n\nA. Mercury\nB. Jupiter\nC. Saturn\nD. Neptune",
+        "response": "<think>\n1. The object is a green leafy plant with a slender stem and leaves.\n2. The choices are planets rather than plant types.\n3. Therefore, no listed answer is correct.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "There is no correct answer / none of the above, or A tree sapling",
+        "score": "T"
+    },
+    "Cotton@79": {
+        "prompt": "What type of plant is described in the room?\n\nA. Tofu\nB. Jazz\nC. Marathon\nD. Solar System",
+        "response": "<think>\n1. The object is a potted plant with green leaves and a brown trunk.\n2. None of the choices describes this plant.\n3. Therefore, no listed answer is correct.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "There is no correct answer / none of the above, or A bonsai-like deciduous shrub",
+        "score": "T"
+    },
+    "Cotton@133": {
+        "prompt": "What color are the blossoms on the sapling?\n\nA. Mercury\nB. Oxygen\nC. Nitrogen\nD. Carbon",
+        "response": "<think>\n1. The blossoms are white according to the descriptions.\n2. None of the listed elements is white.\n3. Therefore, no choice is correct.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "There is no correct answer / none of the above, or White",
+        "score": "T"
+    },
+    "Cotton@197": {
+        "prompt": "What is the main feature of the plant described?\n\nA. Keyboard layout\nB. Solar system\nC. Historical figure\nD. Musical genre",
+        "response": "<think>\n1. The plant is described as a small tree with a slender trunk and green branches.\n2. The choices are unrelated categories rather than the observed plant feature.\n3. Therefore, no listed choice is correct.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "There is no correct answer / none of the above, or It has a light brown trunk that splits into two main branches",
+        "score": "T"
+    },
+    "Cotton@176": {
+        "prompt": "What shape is the planter in which the slender tree or shrub is planted?\n\nA. Hydrogen\nB. Oxygen\nC. Carbon\nD. Nitrogen",
+        "response": "<think>\n1. The planter is described as a small round pot.\n2. The choices list hydrogen, oxygen, carbon, and nitrogen, none of which is the observed pot shape.\n3. Therefore, no listed answer is correct.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "There is no correct answer / none of the above, or Square",
+        "score": "T"
+    },
+    "Cotton@160": {
+        "prompt": "What type of plant is described in the room?\n\nA. Subatomic particle\nB. Erosion\nC. Continental drift\nD. Quantum entanglement",
+        "response": "<think>\n1. The descriptions identify a small tree with slender branches and white blossoms.\n2. None of the listed scientific concepts describes this plant.\n3. Therefore, no listed answer is correct.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "There is no correct answer / none of the above, or A small sapling with white blossoms",
+        "score": "T"
+    },
+    "Cotton@65": {
+        "prompt": "What type of tree is described in the room?\n\nA. Internet protocol\nB. Data encryption\nC. Software development\nD. Network architecture",
+        "response": "<think>\n1. The descriptions identify a potted plant with green leaves and a brown trunk.\n2. None of the listed categories describes this tree.\n3. Therefore, no listed answer is correct.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "There is no correct answer / none of the above, or A small, slender tree with fluffy white blossoms",
+        "score": "T"
+    },
+    "Cotton@100": {
+        "prompt": "What color are the blossoms on the sapling?\n\nA. Marble\nB. Granite\nC. Quartz\nD. Sandstone",
+        "response": "<think>\n1. The blossoms are described as white.\n2. None of the listed materials is white.\n3. Therefore, no listed answer is correct.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "There is no correct answer / none of the above, or White",
+        "score": "T"
+    },
+    "Cotton@19": {
+        "prompt": "What is located at the bottom of the cotton plant stem?\n\nA. Copper coin\nB. Last summer's concert schedule\nC. A rare gemstone\nD. Ancient Chinese poetry collection",
+        "response": "<think>\n1. The plant has a brown stem and small leaves.\n2. The descriptions do not identify a bottom location or any of the listed objects.\n3. Therefore, there is no correct answer.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "There is no correct answer / none of the above, or A tangled root cluster",
+        "score": "T"
+    },
+    "Cotton@3": {
+        "prompt": "What color is the snow coating the tree's branches?\n\nA. Rectangle\nB. Triangle\nC. Hexagon\nD. Sphere",
+        "response": "<think>\n1. The object is a snow-dusted tree with a brown trunk and branches.\n2. The descriptions do not identify any of the listed shapes.\n3. Therefore, no listed answer is correct.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "There is no correct answer / none of the above, or White",
+        "score": "T"
+    },
+    "Cotton@75": {
+        "prompt": "What color are the clusters of flowers on the cotton plant?\n\nA. Pineapple\nB. Mango\nC. Blueberry\nD. Strawberry",
+        "response": "<think>\n1. The plant has white fluffy blossoms and white clusters.\n2. The choices do not include white, so no listed color is correct.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "There is no correct answer / none of the above, or White",
+        "score": "T"
+    },
+    "Cotton@145": {
+        "prompt": "What type of plant is described in the room?\n\nA. Quartz crystal\nB. Igneous rock\nC. Liquid nitrogen\nD. Carbon dioxide",
+        "response": "<think>\n1. The descriptions identify a potted plant with a brown trunk and green leaves.\n2. None of the choices is a plant type or matches this object.\n3. Therefore, no listed option is correct.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "There is no correct answer / none of the above, or An upright sapling with a thin trunk",
+        "score": "T"
+    },
+    "Cotton@168": {
+        "prompt": "What color are the blossoms on the flowering stem?\n\nA. Crescendo\nB. Allegro\nC. Fortissimo\nD. Moderato",
+        "response": "<think>\n1. The blossoms are described as white and fluffy.\n2. The listed musical terms do not correspond to the observed color.\n3. Therefore, no listed answer is correct.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "There is no correct answer / none of the above, or White",
+        "score": "T"
+    },
+    "Cotton@15": {
+        "prompt": "What type of blossoms are found on the tall, slender brown branch?\n\nA. Bermuda Triangle\nB. Great Wall of China\nC. Black Hole\nD. Solar Eclipse",
+        "response": "<think>\n1. The object is a slender brown branch with white blossoms.\n2. The choices are geographic locations or astronomical phenomena rather than the observed plant.\n3. Therefore, no listed option is correct.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "There is no correct answer / none of the above, or Small white fluffy blossoms",
+        "score": "T"
+    },
+    "Cotton@122": {
+        "prompt": "What color are the cotton bolls on the plant?\n\nA. Dolphin\nB. Igloo\nC. Microwave\nD. Trolley",
+        "response": "<think>\n1. The plant has white cotton bolls.\n2. The choices are a dolphin, igloo, microwave, and trolley, none of which is a color.\n3. Therefore, no listed answer is correct.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "There is no correct answer / none of the above, or White",
+        "score": "T"
+    },
+    "Maize@1-111": {
+        "prompt": "What is the color of the tassel at the top of the maize plant?\n\nA. Subatomic particles\nB. Geological formations\nC. Historical revolutions\nD. Ocean currents",
+        "response": "<think>\n1. The plant has a brown tassel at its top.\n2. The choices concern subatomic particles, geological formations, historical revolutions, and ocean currents, none of which describes the tassel.\n3. Therefore, no listed answer is correct.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "There is no correct answer / none of the above, or Pale Brown",
+        "score": "T"
+    },
+    "Maize@3-28": {
+        "prompt": "What type of plant is described in the room?\n\nA. Velocity\nB. Bacteria\nC. Carbon dioxide\nD. Protein",
+        "response": "<think>\n1. The object is a green plant with a slender stem and leaves.\n2. The choices are velocity, bacteria, carbon dioxide, and protein, none of which describes the plant.\n3. Therefore, no listed answer is correct.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "There is no correct answer / none of the above, or A potted plant with lance-shaped leaves",
+        "score": "T"
+    },
+    "Maize@2-34": {
+        "prompt": "What type of plant is described in the room?\n\nA. Goldfish\nB. Panda\nC. Dolphin\nD. Iceberg",
+        "response": "<think>\n1. The object is a potted plant with a slender stem and green leaves.\n2. It is not a goldfish, panda, or dolphin, so no listed answer fits.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "There is no correct answer / none of the above, or A houseplant with palm-like leaves",
+        "score": "T"
+    },
+    "Maize@3-49": {
+        "prompt": "What shape do the leaves of the potted plant resemble?\n\nA. Horsepower\nB. Kilogram\nC. Thermodynamics\nD. Magnetism",
+        "response": "<think>\n1. The leaves are described as long, narrow, and sword-like.\n2. None of the options describes that leaf shape.\n3. Therefore, no listed answer is correct.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "There is no correct answer / none of the above, or Lance-shaped",
+        "score": "T"
+    },
+    "Maize@2-70": {
+        "prompt": "What is the shape of the leaves on the potted plant described?\n\nA. Quantum mechanics\nB. Vertical integration\nC. Market equilibrium\nD. Supply chain logistics",
+        "response": "<think>\n1. The plant has long, narrow, sword-like leaves.\n2. The choices are unrelated concepts rather than the observed leaf shape.\n3. Therefore, no listed answer is correct.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "There is no correct answer / none of the above, or Long and narrow",
+        "score": "T"
+    },
+    "Maize@3-55": {
+        "prompt": "What type of pot is the plant potted in?\n\nA. Magma\nB. Atmosphere\nC. Galaxy\nD. Quantum",
+        "response": "<think>\n1. The plant is shown in a dark blue pot.\n2. The choices are Magma, Atmosphere, Galaxy, and Quantum, none of which is a type of pot.\n3. Therefore, no listed answer is correct.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "There is no correct answer / none of the above, or Dark round pot",
+        "score": "T"
+    },
+    "Maize@3-26": {
+        "prompt": "What is the shape of the leaves on the tall green plant?\n\nA. Ocean wave\nB. Solar eclipse\nC. Mountain peak\nD. Spiral galaxy",
+        "response": "<think>\n1. The plant has long, narrow, lance-shaped leaves.\n2. The choices are an ocean wave, solar eclipse, mountain peak, and spiral galaxy, none of which matches the observed leaf shape.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "There is no correct answer / none of the above, or Long and strap-like",
+        "score": "T"
+    },
+    "Maize@2-13": {
+        "prompt": "What is the shape of the pot in which the seedling is planted?\n\nA. Quantum mechanics\nB. Thermodynamics\nC. Cellular respiration\nD. Plate tectonics",
+        "response": "<think>\n1. The pot is described as round and shallow.\n2. The listed scientific terms do not identify that shape.\n3. Therefore, no choice is correct.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "There is no correct answer / none of the above, or Round",
+        "score": "T"
+    },
+    "Maize@3-21": {
+        "prompt": "What type of plant is described in the room?\n\nA. Mountain Range\nB. Ocean Current\nC. Desert Storm\nD. Tidal Wave",
+        "response": "<think>\n1. The object is a potted plant with a slender stem and green leaves.\n2. It is not a mountain range, ocean current, desert storm, or tidal wave.\n3. Therefore, none of the listed choices is correct.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "There is no correct answer / none of the above, or Potted plant with a single slender stem and long narrow leaves",
+        "score": "T"
+    },
+    "Maize@3-18": {
+        "prompt": "What is the shape of the leaves of the plant described?\n\nA. Hydrogen\nB. Carbon\nC. Nitrogen\nD. Oxygen",
+        "response": "<think>\n1. The plant has a slender stem and long, lance-shaped leaves.\n2. The choices list hydrogen, carbon, nitrogen, and oxygen, none of which describes the leaf shape.\n3. Therefore, no listed answer is correct.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "There is no correct answer / none of the above, or Long and narrow",
+        "score": "T"
+    },
+    "Maize@2-109": {
+        "prompt": "What type of pot is the plant in?\n\nA. Terrestrial mammals\nB. Solar eclipses\nC. Deep-sea creatures\nD. Quantum physics",
+        "response": "<think>\n1. The plant is in a small round pot.\n2. None of the choices describes a small round pot.\n3. Therefore, no listed answer is correct.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "There is no correct answer / none of the above, or Dark plastic pot",
+        "score": "T"
+    },
+    "Maize@1-118": {
+        "prompt": "What is the color of the seed panicle at the top of the plant?\n\nA. Mercury\nB. Hydrogen\nC. Neptune\nD. Quartz",
+        "response": "<think>\n1. The plant has a brown branch with white blossoms.\n2. The descriptions do not identify the branch as a brown or white object.\n3. Therefore, none of the listed color choices is supported.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "There is no correct answer / none of the above, or Brownish",
+        "score": "T"
+    },
+    "Maize@3-42": {
+        "prompt": "What color is the pot that the plant is potted in?\n\nA. Jupiter\nB. Oxygen\nC. Quantum\nD. Telescope",
+        "response": "<think>\n1. The pot is described as dark blue.\n2. None of the listed options is the observed color.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "There is no correct answer / none of the above, or Dark-blue",
+        "score": "T"
+    },
+    "Maize@1-24": {
+        "prompt": "What color are the leaves of the potted plant?\n\nA. Refrigerator\nB. Microwave\nC. Oven\nD. Toaster",
+        "response": "<think>\n1. The plant has green leaves.\n2. The listed appliance choices do not include a green leaf color.\n3. Therefore, no listed answer is correct.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "There is no correct answer / none of the above, or Green",
+        "score": "T"
+    },
+    "Maize@1-51": {
+        "prompt": "What is the color of the leaves of the maize plant described?\n\nA. Antarctica\nB. Sahara\nC. Himalayas\nD. Amazon Rainforest",
+        "response": "<think>\n1. The plant has green leaves.\n2. The choices are Antarctica, Sahara, Himalayas, and Amazon Rainforest, none of which is a color.\n3. Therefore, no listed answer is correct.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "There is no correct answer / none of the above, or Mid-to-dark green",
+        "score": "T"
+    },
+    "Maize@1-68": {
+        "prompt": "What color are the leaves of the sapling?\n\nA. Spherical\nB. Quadratic\nC. Triangular\nD. Cylindrical",
+        "response": "<think>\n1. The leaves are described as elongated and lanceolate.\n2. None of the listed geometric choices matches that shape.\n3. Therefore, no listed answer is correct.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "There is no correct answer / none of the above, or Green",
+        "score": "T"
+    },
+    "Maize@2-101": {
+        "prompt": "What color are the leaves of the tall, slender plant described?\n\nA. Classical music notes\nB. Ancient Greek philosophers\nC. Solar system planets\nD. Renaissance paintings",
+        "response": "<think>\n1. The plant is described as having green leaves.\n2. The choices are unrelated subjects rather than the observed leaf color.\n3. Therefore, no listed answer is correct.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "There is no correct answer / none of the above, or Green",
+        "score": "T"
+    },
+    "Maize@3-19": {
+        "prompt": "What is the shape of the leaves on the potted plant?\n\nA. Electron configuration\nB. Quantum entanglement\nC. Gravitational waves\nD. Climate zones",
+        "response": "<think>\n1. The plant has long, narrow, sword-like leaves.\n2. The choices concern electron configuration, quantum entanglement, gravitational waves, and climate zones, none of which describes the leaf shape.\n3. Therefore, no listed answer is correct.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "There is no correct answer / none of the above, or Lance-shaped",
+        "score": "T"
+    },
+    "Maize@2-148": {
+        "prompt": "What is the texture of the leaves mentioned in the description?\n\nA. Harmonic convergence\nB. Quantum entanglement\nC. Cosmic microwave background\nD. Gravitational lensing",
+        "response": "<think>\n1. The descriptions identify a leafy plant with green leaves and a slender stem.\n2. They do not establish any of the four listed scientific concepts as a leaf texture.\n3. Therefore, no listed option is correct.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "There is no correct answer / none of the above, or Brushy",
+        "score": "T"
+    },
+    "Maize@2-9": {
+        "prompt": "What shape are the leaves of the potted plant described?\n\nA. Sapphire\nB. Tarantula\nC. Cabbage\nD. Cinnamon",
+        "response": "<think>\n1. The plant has long, narrow, lance-shaped leaves.\n2. None of the listed choices describes that leaf shape.\n3. Therefore, no listed answer is correct.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "There is no correct answer / none of the above, or Lance-shaped",
+        "score": "T"
+    },
+    "Maize@2-122": {
+        "prompt": "What shape do the leaves of the plant take as they extend from the central stem?\n\nA. Ballroom\nB. Symphony\nC. Sculpture\nD. Novel",
+        "response": "<think>\n1. The leaves are described as long, narrow, and lance-shaped.\n2. None of the listed options describes this leaf shape.\n3. Therefore, there is no correct answer.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "There is no correct answer / none of the above, or Arching, V-like cluster",
+        "score": "T"
+    },
+    "Maize@1-122": {
+        "prompt": "What shape are the leaves of the plant described?\n\nA. Trapezoid\nB. Hexagon\nC. Elliptical\nD. Sphere",
+        "response": "<think>\n1. The leaves are described as elongated and lanceolate.\n2. None of the listed shapes\u2014trapezoid, hexagon, elliptical, or sphere\u2014matches that description.\n3. Therefore, no listed answer is correct.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "There is no correct answer / none of the above, or Lance-shaped",
+        "score": "T"
+    },
+    "Maize@3-10": {
+        "prompt": "What type of plant is described in the room?\n\nA. Velocity\nB. Gravity\nC. Friction\nD. Acceleration",
+        "response": "<think>\n1. The object is a green plant with a slender stem and leaves.\n2. The listed physics terms do not describe this plant.\n3. Therefore, no listed answer is correct.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "There is no correct answer / none of the above, or A tall potted plant with arching leaves",
+        "score": "T"
+    },
+    "Maize@2-77": {
+        "prompt": "What color is the pot that holds the potted plant?\n\nA. Mercury\nB. Silicon\nC. Hydrogen\nD. Sodium",
+        "response": "<think>\n1. The pot is described as dark blue.\n2. None of the listed options corresponds to dark blue.\n3. Therefore, no listed answer is correct.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "There is no correct answer / none of the above, or Dark Blue",
+        "score": "T"
+    },
+    "Maize@2-140": {
+        "prompt": "What shape do the leaves of the plant resemble?\n\nA. Sapphire\nB. Dragon\nC. Symphony\nD. Eclipse",
+        "response": "<think>\n1. The leaves are described as long, narrow, and lance-shaped.\n2. None of the listed choices corresponds to that shape.\n3. Therefore, no listed answer is correct.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "There is no correct answer / none of the above, or Lanceolate",
+        "score": "T"
+    },
+    "Maize@2-126": {
+        "prompt": "What type of container is the plant in?\n\nA. Quartz crystal\nB. Polystyrene foam\nC. Carbonated beverage\nD. Stainless steel",
+        "response": "<think>\n1. The plant is described as a small brown branch with a slender stem and leaves.\n2. It is not a quartz crystal, polystyrene foam, carbonated beverage, or stainless steel container.\n3. Therefore, none of the listed choices is correct.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "There is no correct answer / none of the above, or Round pot",
+        "score": "T"
+    },
+    "Maize@3-36": {
+        "prompt": "What type of plant is described in the room?\n\nA. Keyboard layout\nB. Video resolution\nC. File extension\nD. Internet browser",
+        "response": "<think>\n1. The object is a tall green plant with a slender stem and leaves.\n2. It is not a keyboard layout, video resolution, file extension, or internet browser.\n3. Therefore, no listed option is correct.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "There is no correct answer / none of the above, or A small potted plant with a slender stem",
+        "score": "T"
+    },
+    "Maize@3-15": {
+        "prompt": "What type of container is the plant potted in?\n\nA. Refrigerator\nB. Microwave\nC. Washing machine\nD. Laptop",
+        "response": "<think>\n1. The plant is shown in a dark cylindrical pot.\n2. The choices are a refrigerator, microwave, washing machine, and laptop, none of which matches the observed container.\n3. Therefore, no listed answer is correct.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "There is no correct answer / none of the above, or A small round brown pot",
+        "score": "T"
+    },
+    "Maize@3-60": {
+        "prompt": "What shape does the pot of the houseplant have?\n\nA. Triangle\nB. Hexagon\nC. Rectangle\nD. Oval",
+        "response": "<think>\n1. The pot is described as round.\n2. The available choices are triangle, hexagon, rectangle, and oval.\n3. None of those choices matches the observed round shape.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "There is no correct answer / none of the above, or Round",
+        "score": "T"
+    },
+    "Maize@2-17": {
+        "prompt": "What shape are the leaves of the houseplant described?\n\nA. Maple syrup\nB. Rocket fuel\nC. Acoustic guitar\nD. Blueberry jam",
+        "response": "<think>\n1. The plant has long, lance-shaped leaves.\n2. None of the listed options describes this leaf shape.\n3. Therefore, no listed answer is correct.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "There is no correct answer / none of the above, or Lance-shaped",
+        "score": "T"
+    },
+    "Maize@2-32": {
+        "prompt": "What color is the pot that holds the houseplant?\n\nA. Tropical rainforest\nB. Rocky mountain\nC. Open ocean\nD. Frozen tundra",
+        "response": "<think>\n1. The pot is described as dark blue.\n2. The choices are tropical rainforest, rocky mountain, open ocean, and frozen tundra, none of which matches the observed pot color.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "There is no correct answer / none of the above, or Blue",
+        "score": "T"
+    },
+    "Maize@2-116": {
+        "prompt": "What type of plant is described in the room?\n\nA. JavaScript Framework\nB. Quantum Mechanics\nC. Historical Fiction\nD. Weather Patterns",
+        "response": "<think>\n1. The object is a potted plant with a slender stem and leaves.\n2. The choices are unrelated to the plant and do not describe it.\n3. Therefore, no listed answer is correct.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "There is no correct answer / none of the above, or A houseplant with arching leaves",
+        "score": "T"
+    },
+    "Maize@1-120": {
+        "prompt": "What type of plant is described in the room?\n\nA. Midsummer\nB. Winter Wonderland\nC. Autumn Leaves\nD. Spring Fling",
+        "response": "<think>\n1. The object is a potted plant with a slender stem and green leaves.\n2. The descriptions do not identify it as a midsummer, winter wonderland, autumn leaves, or spring fling plant.\n3. Therefore, none of the listed choices is correct.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "There is no correct answer / none of the above, or A grass-like plant",
+        "score": "T"
+    },
+    "Maize@3-40": {
+        "prompt": "What is the shape of the leaves on the houseplant?\n\nA. Cumulus\nB. Nimbus\nC. Stratus\nD. Cirrus",
+        "response": "<think>\n1. The leaves are described as long, narrow, and lance-shaped.\n2. None of the four cloud-shaped choices matches that observed shape.\n3. Therefore, no listed answer is correct.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "There is no correct answer / none of the above, or Long and lance-shaped",
+        "score": "T"
+    },
+    "Maize@3-43": {
+        "prompt": "What type of leaves does the described plant have?\n\nA. Chocolate chip cookies\nB. Basketball shoes\nC. Electric guitar strings\nD. Vintage comic books",
+        "response": "<think>\n1. The plant has long, narrow, lance-shaped leaves.\n2. None of the choices describes this leaf type.\n3. Therefore, no listed answer is correct.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "There is no correct answer / none of the above, or Long and arching",
+        "score": "T"
+    },
+    "Maize@2-31": {
+        "prompt": "What is the shape of the leaves on the plant described?\n\nA. Tectonic plates\nB. Magma chamber\nC. Solar system\nD. Bioluminescent algae",
+        "response": "<think>\n1. The plant has numerous long, narrow, lance-shaped leaves.\n2. The choices describe geographic, astronomical, or bioluminescent concepts rather than this leaf shape.\n3. Therefore, no listed answer is correct.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "There is no correct answer / none of the above, or Lance-shaped",
+        "score": "T"
+    },
+    "Maize@3-38": {
+        "prompt": "What type of plant is described in the room?\n\nA. Mercury\nB. Jupiter\nC. Saturn\nD. Neptune",
+        "response": "<think>\n1. The object is a potted plant with a slender stem and leaves.\n2. None of the planet names describes this plant.\n3. Therefore, no listed answer is correct.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "There is no correct answer / none of the above, or A tall, slender green plant with arching leaves",
+        "score": "T"
+    },
+    "Maize@2-28": {
+        "prompt": "What shape is formed by the leaves at the top of the potted plant?\n\nA. Circle\nB. Square\nC. Triangle\nD. Hexagon",
+        "response": "<think>\n1. The plant has a crown of long, arching leaves.\n2. The leaves form a circular, branching shape rather than a circle, square, triangle, or hexagon.\n3. Therefore, no listed answer is correct.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "There is no correct answer / none of the above, or A triangle",
+        "score": "T"
+    },
+    "Maize@2-24": {
+        "prompt": "What type of plant is described in the room?\n\nA. Jupiter's atmosphere\nB. The Great Wall of China\nC. Beethoven's Fifth Symphony\nD. The Sahara Desert",
+        "response": "<think>\n1. The object is a potted plant with a slender stem and leaves.\n2. None of the listed choices describes this plant.\n3. Therefore, no listed answer is correct.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "There is no correct answer / none of the above, or A tall, slender green plant with long, narrow leaves",
+        "score": "T"
+    },
+    "Maize@2-67": {
+        "prompt": "What type of leaves does the houseplant have?\n\nA. Freedom\nB. Courage\nC. Wisdom\nD. Joy",
+        "response": "<think>\n1. The plant has broad, glossy green leaves.\n2. The listed choices are Freedom, Courage, Wisdom, and Joy, none of which describes the observed leaf type.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "There is no correct answer / none of the above, or Lance-shaped leaves",
+        "score": "T"
+    },
+    "Maize@2-64": {
+        "prompt": "What is the shape of the pot that houses the plant?\n\nA. Circuit\nB. Semiconductor\nC. Transistor\nD. Frequency",
+        "response": "<think>\n1. The pot is described as round and cylindrical.\n2. The listed options are circuit, semiconductor, transistor, and frequency, none of which is a pot shape.\n3. Therefore, no listed option is correct.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "There is no correct answer / none of the above, or Light-colored round ceramic pot",
+        "score": "T"
+    },
+    "Maize@3-54": {
+        "prompt": "What type of growth is visible at the top of the plant?\n\nA. Glacier formation\nB. Solar eclipse\nC. Ocean current\nD. Weathering process",
+        "response": "<think>\n1. The plant has a brown branch with white blossoms and snow-covered leaves.\n2. The descriptions do not identify a glacier, solar eclipse, or ocean current.\n3. The weathering process is not a type of growth.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "There is no correct answer / none of the above, or A tuft of new growth",
+        "score": "T"
+    },
+    "Maize@2-66": {
+        "prompt": "What type of pot is the plant in?\n\nA. Chocolate chip\nB. Blueberry muffin\nC. Apple pie\nD. Banana bread",
+        "response": "<think>\n1. The plant is described as a tall green plant in a dark pot.\n2. None of the four food-related choices corresponds to that pot.\n3. Therefore, no listed answer is correct.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "There is no correct answer / none of the above, or Round dark pot",
+        "score": "T"
+    },
+    "Maize@3-7": {
+        "prompt": "What color is the pot that holds the houseplant?\n\nA. Optimistic\nB. Indifferent\nC. Baffled\nD. Melancholic",
+        "response": "<think>\n1. The pot is described as dark blue.\n2. The listed options do not include dark blue, so no choice fits.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "There is no correct answer / none of the above, or Blue",
+        "score": "T"
+    },
+    "Maize@2-65": {
+        "prompt": "What type of pot is the plant in?\n\nA. Mercury\nB. Oxygen\nC. Nitrogen\nD. Helium",
+        "response": "<think>\n1. The plant is described as a potted plant with a brown pot.\n2. None of the listed substances is a type of pot.\n3. Therefore, no listed answer is correct.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "There is no correct answer / none of the above, or Dark round pot",
+        "score": "T"
+    },
+    "Maize@2-88": {
+        "prompt": "What color is the pot that contains the tall green plant?\n\nA. Lion\nB. Ocean\nC. Mountain\nD. Desert",
+        "response": "<think>\n1. The pot is described as dark blue.\n2. None of the choices\u2014lion, ocean, mountain, or desert\u2014matches that color.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "There is no correct answer / none of the above, or Blue",
+        "score": "T"
+    },
+    "Maize@2-108": {
+        "prompt": "What color are the leaves of the plant described?\n\nA. Trampoline\nB. Helicopter\nC. Microwave\nD. Satellite",
+        "response": "<think>\n1. The plant has green leaves.\n2. The choices are a trampoline, helicopter, microwave, and satellite, none of which is a leaf color.\n3. Therefore, no listed answer is correct.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "There is no correct answer / none of the above, or Green",
+        "score": "T"
+    },
+    "Maize@1-78": {
+        "prompt": "What type of leaves does the plant sapling described have?\n\nA. Baseball\nB. Tennis\nC. Basketball\nD. Football",
+        "response": "<think>\n1. The plant is described as having green leaves with a slender stem.\n2. None of the listed sports or the listed object is a leaf type.\n3. Therefore, no listed answer is correct.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "There is no correct answer / none of the above, or Lance-shaped leaves",
+        "score": "T"
+    },
+    "Maize@2-39": {
+        "prompt": "What color is the rim of the pot holding the small potted plant?\n\nA. Tropical fish\nB. Snowboarding tricks\nC. Quantum physics\nD. Classic literature",
+        "response": "<think>\n1. The pot rim is described as blue.\n2. The choices do not include blue, so no listed answer fits.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "There is no correct answer / none of the above, or Blue",
+        "score": "T"
+    },
+    "Maize@2-50": {
+        "prompt": "What type of pot is the plant sitting in?\n\nA. Astronomy\nB. Biology\nC. Geography\nD. Chemistry",
+        "response": "<think>\n1. The plant is described as sitting in a dark brown pot.\n2. None of the listed subjects describes that pot.\n3. Therefore, no listed answer is correct.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "There is no correct answer / none of the above, or Round blue ceramic pot",
+        "score": "T"
+    },
+    "Maize@3-50": {
+        "prompt": "What shape is the pot of the plant?\n\nA. Tropical rainforest\nB. Arctic tundra\nC. Mountain range\nD. Desert landscape",
+        "response": "<think>\n1. The pot is described as a small brown pot with a plant in it.\n2. The choices are tropical rainforest, Arctic tundra, mountain range, and desert landscape, none of which matches the pot.\n3. Therefore, no listed answer is correct.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "There is no correct answer / none of the above, or Cylindrical",
+        "score": "T"
+    },
+    "Maize@2-128": {
+        "prompt": "What type of plant is described in the room?\n\nA. Quantum mechanics\nB. Renaissance art\nC. Celestial navigation\nD. Astrophysics",
+        "response": "<think>\n1. The object is a potted plant with a slender stem and green leaves.\n2. None of the listed academic or artistic subjects describes this plant.\n3. Therefore, no listed answer is correct.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "There is no correct answer / none of the above, or A potted indoor plant",
+        "score": "T"
+    },
+    "Maize@2-137": {
+        "prompt": "What shape are the leaves of the potted plant described?\n\nA. Mountain range\nB. Ocean wave\nC. City skyline\nD. Desert landscape",
+        "response": "<think>\n1. The plant has long, narrow, sword-shaped leaves.\n2. None of the choices describes a sword-shaped leaf.\n3. Therefore, no listed option is correct.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "There is no correct answer / none of the above, or Lance-shaped",
+        "score": "T"
+    },
+    "Maize@2-141": {
+        "prompt": "What type of design does the pot of the houseplant feature?\n\nA. Subatomic particles\nB. Greenhouse gas emissions\nC. Photosynthesis process\nD. Newton's laws of motion",
+        "response": "<think>\n1. The pot is described as having a blue-gray ceramic surface.\n2. None of the listed scientific or design concepts corresponds to that observed property.\n3. Therefore, no listed answer is correct.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "There is no correct answer / none of the above, or A blue pattern",
+        "score": "T"
+    },
+    "Maize@2-29": {
+        "prompt": "What shape are the leaves of the houseplant described?\n\nA. Elevated platform\nB. Swimming pool\nC. Mountain range\nD. Solar system",
+        "response": "<think>\n1. The plant has long, narrow, sword-like leaves.\n2. The choices are an elevated platform, swimming pool, mountain range, and solar system, none of which describes the leaves.\n3. Therefore, no listed answer is correct.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "There is no correct answer / none of the above, or Lance-shaped",
+        "score": "T"
+    },
+    "Maize@1-60": {
+        "prompt": "What color are the veins of the maize leaves?\n\nA. Fractal patterns\nB. Quantum mechanics\nC. Solar eclipse\nD. Space exploration",
+        "response": "<think>\n1. The plant's leaves are described as green.\n2. The choices do not include green, so no listed answer fits the observed color.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "There is no correct answer / none of the above, or Light green",
+        "score": "T"
+    },
+    "Maize@1-22": {
+        "prompt": "What is the shape of the top extension of the plant sculpture?\n\nA. Mercury\nB. Jupiter\nC. Neptune\nD. Saturn",
+        "response": "<think>\n1. The plant's top extension is described as a branching leafy plant.\n2. None of the planet names is a shape matching that description.\n3. Therefore, no listed answer is correct.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "There is no correct answer / none of the above, or Curved",
+        "score": "T"
+    },
+    "Maize@2-33": {
+        "prompt": "What color is the rim of the pot that the plant is in?\n\nA. Jazz\nB. Tango\nC. Salsa\nD. Waltz",
+        "response": "<think>\n1. The pot rim is described as blue.\n2. None of the listed dance or music terms is a color matching the rim.\n3. Therefore, no listed answer is correct.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "There is no correct answer / none of the above, or Blue",
+        "score": "T"
+    },
+    "Maize@3-27": {
+        "prompt": "What shape do the leaves of the potted plant have?\n\nA. Elephantiasis\nB. Giraffe\nC. Amethyst\nD. Galaxy",
+        "response": "<think>\n1. The plant has long, narrow, lance-shaped leaves.\n2. None of the choices describes that leaf shape.\n3. Therefore, no listed answer is correct.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "There is no correct answer / none of the above, or Sword-shaped",
+        "score": "T"
+    },
+    "Maize@3-37": {
+        "prompt": "What is the shape of the leaves of the indoor potted plant described?\n\nA. Jupiter's atmosphere\nB. The Great Wall of China\nC. A Renaissance painting\nD. The circulation of ocean currents",
+        "response": "<think>\n1. The plant has numerous long, narrow, lance-shaped leaves.\n2. None of the listed options describes this leaf shape.\n3. Therefore, no listed answer is correct.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "There is no correct answer / none of the above, or Long and glossy",
+        "score": "T"
+    },
+    "Maize@1-113": {
+        "prompt": "What is the characteristic feature of the grass plant described?\n\nA. Renaissance art techniques\nB. Classical literature themes\nC. Quantum physics principles\nD. Digital marketing strategies",
+        "response": "<think>\n1. The plant is described as a slender green stem with leaves and a branched seed head.\n2. The choices concern art, literature, physics, and digital marketing rather than this plant.\n3. Therefore, no listed choice is correct.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "There is no correct answer / none of the above, or It has a branched panicle of tiny seed heads at the top",
+        "score": "T"
+    },
+    "Maize@2-11": {
+        "prompt": "What type of fronds does the potted plant have?\n\nA. Mercury\nB. Oxygen\nC. Carbon dioxide\nD. Helium",
+        "response": "<think>\n1. The plant has long, feathery fronds.\n2. None of the listed substances describes this plant feature.\n3. Therefore, no choice fits the observed object.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "There is no correct answer / none of the above, or Long, arching palm-like fronds",
+        "score": "T"
+    },
+    "Maize@1-50": {
+        "prompt": "What characteristic describes the new growth at the top of the maize plant?\n\nA. Subatomic particle\nB. Solar eclipse\nC. Quantum mechanics\nD. Tectonic plates",
+        "response": "<think>\n1. The plant has new growth at its top.\n2. The choices concern subatomic particles, a solar eclipse, quantum mechanics, and tectonic plates, none of which describes the observed plant.\n3. Therefore, no listed answer is correct.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "There is no correct answer / none of the above, or It forms a cluster of narrow upright leaves",
+        "score": "T"
+    },
+    "Maize@1-123": {
+        "prompt": "What is the color of the inflorescence at the top of the corn plant?  \n\nA. Mercury\nB. Silver\nC. Hydrogen\nD. Titanium",
+        "response": "<think>\n1. The plant has a brown branch with white blossoms and a small leafy cluster.\n2. The descriptions do not establish any of the listed colors.\n3. Therefore, no listed answer is correct.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "There is no correct answer / none of the above, or Pale brown",
+        "score": "T"
+    },
+    "Maize@2-21": {
+        "prompt": "What shape is the pot that the plant is in?\n\nA. Quadratic formula\nB. Euclidean space\nC. Organic chemistry\nD. Supply chain management",
+        "response": "<think>\n1. The pot is described as round and shallow.\n2. The choices are unrelated mathematical or chemical concepts rather than the pot's shape.\n3. Therefore, no listed option is correct.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "There is no correct answer / none of the above, or Round",
+        "score": "T"
+    },
+    "Maize@2-107": {
+        "prompt": "What color is the pot in which the plant is potted?\n\nA. Polygon\nB. Triangle\nC. Rectangle\nD. Circle",
+        "response": "<think>\n1. The pot is described as dark blue.\n2. None of the listed shapes is dark blue.\n3. Therefore, no listed answer is correct.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "There is no correct answer / none of the above, or Dark brown",
+        "score": "T"
+    },
+    "Maize@2-114": {
+        "prompt": "What color is the stem of the sapling?\n\nA. Stronghold\nB. Fortress\nC. Castle\nD. Citadel",
+        "response": "<think>\n1. The object is a branching sapling with a brown trunk and green leaves.\n2. The descriptions do not establish a color for the stem.\n3. Therefore, none of the listed color choices is supported.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "There is no correct answer / none of the above, or Pale Yellow-Green",
+        "score": "T"
+    },
+    "Maize@1-106": {
+        "prompt": "What is the color of the tassel-like inflorescence at the top of the maize plant?\n\nA. Jupiter's atmosphere\nB. The Great Wall of China\nC. Pyramids of Giza\nD. The Eiffel Tower",
+        "response": "<think>\n1. The plant has a brownish tassel-like inflorescence.\n2. The choices are unrelated to the observed brown color.\n3. Therefore, no listed answer is correct.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "There is no correct answer / none of the above, or Brownish",
+        "score": "T"
+    },
+    "Potato@5-19-P281-2-a": {
+        "prompt": "What type of leaves does the plant exhibit?\n\nA. Harmony\nB. Melody\nC. Rhythm\nD. Scale",
+        "response": "<think>\n1. The plant has green leaves with a feathery appearance.\n2. The listed options are harmony, melody, rhythm, and scale, none of which describes the leaves.\n3. Therefore, no listed answer is correct.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "There is no correct answer / none of the above, or Ovate leaves",
+        "score": "T"
+    },
+    "Potato@5-21-P104-3-a": {
+        "prompt": "What is the color variation of the leaves on the plant described?\n\nA. Unicycle\nB. Marathon\nC. Parachute\nD. Sledgehammer",
+        "response": "<think>\n1. The plant has green leaves with varying shades.\n2. The choices are unicycle, marathon, parachute, and sledgehammer, none of which is a leaf color.\n3. Therefore, no listed answer is correct.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "There is no correct answer / none of the above, or A mix of light to dark green",
+        "score": "T"
+    },
+    "Potato@5-11-P255-3-a": {
+        "prompt": "What type of plant is described in the room?\n\nA. Masterpiece\nB. Symphony\nC. Horizon\nD. Adventure",
+        "response": "<think>\n1. The object is a potted plant with green leaves and a brown stem.\n2. None of the listed options describes this plant.\n3. Therefore, no listed answer is correct.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "There is no correct answer / none of the above, or A palm-like plant",
+        "score": "T"
+    },
+    "Potato@5-14-P117-3-a": {
+        "prompt": "What type of leaves are described on the plant stem?\n\nA. Jupiter is the fourth planet from the Sun\nB. A rainbow is formed by the refraction of light\nC. The Eiffel Tower is located in Paris\nD. A block of ice floats on water because it is less dense",
+        "response": "<think>\n1. The plant is described as having green leaves.\n2. The choices concern a planet, rainbow, tower, and ice, none of which is a leaf type.\n3. Therefore, no listed answer is correct.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "There is no correct answer / none of the above, or Oval-to-lanceolate leaves with serrated margins",
+        "score": "T"
+    },
+    "Potato@5-13-P015-2-a": {
+        "prompt": "What characteristic describes the leaves of the green plant?\n\nA. Bicycle\nB. Refrigerator\nC. Computer\nD. Telescope",
+        "response": "<think>\n1. The plant has numerous long, narrow, arching leaves.\n2. The choices are a bicycle, refrigerator, computer, and telescope, none of which describes the leaves.\n3. Therefore, no listed answer is correct.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "There is no correct answer / none of the above, or They have pointed tips and serrated margins",
+        "score": "T"
+    },
+    "Potato@5-23-P999-7-a": {
+        "prompt": "What is the characteristic feature of the leaves on the herb plant described?\n\nA. Subatomic particles\nB. Lunar phases\nC. Ocean currents\nD. Mountain ranges",
+        "response": "<think>\n1. The plant has numerous small green leaves arranged along its stem.\n2. The choices concern subatomic particles, lunar phases, ocean currents, and mountain ranges, none of which describes the observed leaf feature.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "There is no correct answer / none of the above, or They are elongated to oval with serrated edges",
+        "score": "T"
+    },
+    "Potato@5-20-P043-1-a": {
+        "prompt": "What characteristic is notable about the leaves of the plant described?\n\nA. Carbohydrates\nB. Photosynthesis\nC. Respiration\nD. Fermentation",
+        "response": "<think>\n1. The plant has numerous small green leaves and a slender stem.\n2. The descriptions do not establish any of the four listed characteristics.\n3. Therefore, no listed answer is correct.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "There is no correct answer / none of the above, or The leaves have broad, serrated edges and vary in size and shade",
+        "score": "T"
+    },
+    "Potato@5-11-P279-3-a": {
+        "prompt": "What shape are the leaves of the plant described?\n\nA. Octagon\nB. Sphere\nC. Cylinder\nD. Pyramid",
+        "response": "<think>\n1. The plant has numerous long, narrow, arching leaves.\n2. The leaves are not octagons, spheres, cylinders, or pyramids.\n3. Therefore, none of the listed choices is correct.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "There is no correct answer / none of the above, or Lanceolate to oval-elliptic",
+        "score": "T"
+    },
+    "Potato@5-21-P104-4-a": {
+        "prompt": "What color are the leaflets at the tip of the stem?\n\nA. Ocean wave\nB. Mountain range\nC. Desert landscape\nD. City skyline",
+        "response": "<think>\n1. The descriptions identify a leafy plant with green leaves.\n2. The leaflets at the stem are also green.\n3. Therefore, the matching choice is the green leaflets.\n</think>\n<answer>Green leaflets</answer>",
+        "correct_answer": "There is no correct answer / none of the above, or Light lime",
+        "score": "F"
+    },
+    "Potato@5-20-P060-3-a": {
+        "prompt": "What type of leaf arrangement is described in the foliage?\n\nA. Emotional intelligence\nB. Quantum physics\nC. Vintage clothing\nD. Culinary techniques",
+        "response": "<think>\n1. The object is a plant with green leaves arranged in a small branch.\n2. None of the listed topics describes this plant arrangement.\n3. Therefore, no listed answer is correct.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "There is no correct answer / none of the above, or Pinnate arrangement of small leaflets",
+        "score": "T"
+    },
+    "Potato@5-11-P290-3-a": {
+        "prompt": "What is the color range of the leaves on the plant described?\n\nA. Desert landscapes\nB. Ocean depths\nC. Mountain peaks\nD. Urban architecture",
+        "response": "<think>\n1. The plant has green leaves with varying shades and a brown stem.\n2. The descriptions do not establish a color range, so no listed option is correct.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "There is no correct answer / none of the above, or From light lime to dark green",
+        "score": "T"
+    },
+    "Potato@5-23-P999-2-a": {
+        "prompt": "What is the arrangement of the leaves on the plant stem described?\n\nA. Football positions\nB. Olympic sports\nC. Musical notes\nD. Types of fabric",
+        "response": "<think>\n1. The plant has a central stem and multiple leaves arranged along it.\n2. The choices are unrelated to the plant's arrangement, so no listed option fits.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "There is no correct answer / none of the above, or The leaves are arranged alternately along the length of the stem",
+        "score": "T"
+    },
+    "Potato@5-11-P281-1-a": {
+        "prompt": "What type of leaves does the young plant sapling have?\n\nA. Tropical cyclone\nB. Earthquake magnitude\nC. Solar eclipse phase\nD. Oceanic trench depth",
+        "response": "<think>\n1. The descriptions identify a young plant sapling with green leaves.\n2. The choices concern a tropical cyclone, earthquake, solar eclipse, and oceanic trench, none of which is a leaf type.\n3. Therefore, no listed answer is correct.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "There is no correct answer / none of the above, or Broad oval leaves with visible veins",
+        "score": "T"
+    },
+    "Potato@5-23-P997-1-a": {
+        "prompt": "What type of leaves does the slender green plant bear?\n\nA. Algebraic expressions\nB. Geometric shapes\nC. Chemical reactions\nD. Historical events",
+        "response": "<think>\n1. The plant is described as having green leaves.\n2. The choices concern algebraic expressions, geometric shapes, chemical reactions, and historical events rather than leaf types.\n3. Thus, no listed option is correct.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "There is no correct answer / none of the above, or Elongated, oval to lanceolate leaves",
+        "score": "T"
+    },
+    "Potato@5-14-P112-1-a": {
+        "prompt": "What shape are the leaves on the plant stem described?\n\nA. Rhombus\nB. Sphere\nC. Cylinder\nD. Cone",
+        "response": "<think>\n1. The leaves are described as long, narrow, and lance-shaped.\n2. None of the choices\u2014rhombus, sphere, cylinder, or cone\u2014matches that shape.\n3. Therefore, no listed answer is correct.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "There is no correct answer / none of the above, or Elongated oval to lanceolate",
+        "score": "T"
+    },
+    "Potato@5-13-P046-3-a": {
+        "prompt": "What type of leaves does the plant have?\n\nA. Mountain range\nB. Ocean current\nC. Celestial body\nD. Musical scale",
+        "response": "<think>\n1. The plant has numerous green leaves and a branching structure.\n2. None of the choices describes this plant or leaf structure.\n3. Therefore, no listed answer is correct.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "There is no correct answer / none of the above, or Alternately arranged oval-to-lanceolate leaves",
+        "score": "T"
+    },
+    "Potato@5-21-P104-2-a": {
+        "prompt": "What type of plant is described as having a tall slender trunk and a crown of feathery fronds?\n\nA. Giraffe\nB. Ocean\nC. Mountain\nD. Desert",
+        "response": "<think>\n1. The object is a palm-like plant with a slender trunk and feathery fronds.\n2. None of the choices describes this plant.\n3. Therefore, no listed answer is correct.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "There is no correct answer / none of the above, or Palm",
+        "score": "T"
+    },
+    "Potato@5-11-P104-2-a": {
+        "prompt": "What color variation is present in the leaves of the plant described?\n\nA. Dessert\nB. Ocean\nC. Mountain\nD. Forest",
+        "response": "<think>\n1. The plant has green leaves with varying shades and a brown branch.\n2. None of the choices describes this leaf color variation.\n3. Therefore, no listed answer is correct.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "There is no correct answer / none of the above, or Color variations from light lime to dark green",
+        "score": "T"
+    },
+    "Potato@5-23-P997-2-a": {
+        "prompt": "What type of plant is described in the room?\n\nA. Comet\nB. Galaxy\nC. Nebula\nD. Quasar",
+        "response": "<think>\n1. The object is a potted plant with green leaves and a brown base.\n2. None of the listed astronomical terms describes this plant.\n3. Therefore, no listed answer is correct.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "There is no correct answer / none of the above, or Small palm",
+        "score": "T"
+    },
+    "Potato@5-23-P998-9-a": {
+        "prompt": "What is the characteristic of the plant's leaves?\n\nA. Olympic medals\nB. Musical notes\nC. Quantum mechanics\nD. Computer programming",
+        "response": "<think>\n1. The plant has numerous green leaves and a slender stem.\n2. None of the listed subjects describes this plant's leafy appearance.\n3. Therefore, no listed answer is correct.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "There is no correct answer / none of the above, or They vary in color and texture",
+        "score": "T"
+    },
+    "Potato@5-20-P002-2-a": {
+        "prompt": "What is the shape of the leaves on the plant described?\n\nA. Octopus\nB. Trolley\nC. Pyramid\nD. Sandwich",
+        "response": "<think>\n1. The plant has long, narrow, lance-shaped leaves.\n2. None of the choices describes a lance-shaped leaf.\n3. Therefore, no listed answer is correct.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "There is no correct answer / none of the above, or Elongated oval with smooth margins",
+        "score": "T"
+    },
+    "Potato@5-13-P098-1-a": {
+        "prompt": "What color variations can be observed in the leaves of the described plant?\n\nA. Melody\nB. Harmony\nC. Rhythm\nD. Tempo",
+        "response": "<think>\n1. The plant has green leaves with varying shades of green.\n2. The listed options are musical terms rather than the observed leaf colors.\n3. Therefore, no listed option is correct.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "There is no correct answer / none of the above, or Light to dark green leaves with yellowish tinges",
+        "score": "T"
+    },
+    "Potato@5-21-P142-1-a": {
+        "prompt": "What type of foliage is primarily present on the slender sapling described?\n\nA. Six-string banjo\nB. Igneous rock\nC. Quantum mechanics\nD. Leatherworking tools",
+        "response": "<think>\n1. The descriptions identify a leafy plant with green leaves and a slender stem.\n2. None of the listed options describes this plant or leafy object.\n3. Therefore, no listed answer is correct.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "There is no correct answer / none of the above, or Oval to lanceolate leaves",
+        "score": "T"
+    },
+    "Potato@5-19-P279-1-a": {
+        "prompt": "What is the arrangement of the leaves on the green plant stem described?\n\nA. Raindrop formation\nB. Mountain range\nC. Ocean wave pattern\nD. Spiral galaxy",
+        "response": "<think>\n1. The plant has numerous green leaves arranged along a slender stem.\n2. The choices describe rain, a mountain range, an ocean wave, or a spiral galaxy, none of which is present.\n3. Therefore, no listed answer is correct.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "There is no correct answer / none of the above, or Leaves are arranged along the length of the stem",
+        "score": "T"
+    },
+    "Potato@5-14-P113-3-a": {
+        "prompt": "What is the color of the new growth at the tip of the plant?\n\nA. Classical Era\nB. Renaissance\nC. Impressionism\nD. Baroque",
+        "response": "<think>\n1. The plant has new growth at its tip.\n2. The descriptions do not identify the color of the new growth.\n3. Therefore, none of the listed color categories is supported.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "There is no correct answer / none of the above, or Light lime",
+        "score": "T"
+    },
+    "Potato@5-11-P281-2-a": {
+        "prompt": "What is the characteristic shape of the leaves on the described plant?  \n\nA. Rhythmic pattern\nB. Crescendo\nC. Allegretto\nD. Fortissimo",
+        "response": "<think>\n1. The leaves are described as long, narrow, and lance-shaped.\n2. None of the listed musical terms corresponds to that shape.\n3. Therefore, no listed answer is correct.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "There is no correct answer / none of the above, or Oval to elliptic",
+        "score": "T"
+    },
+    "Potato@5-11-P285-2-a": {
+        "prompt": "What type of leaf arrangement is primarily observed in the plant described?\n\nA. Basketball\nB. Violin\nC. Refrigerator\nD. Airplane",
+        "response": "<think>\n1. The plant is described as a leafy, branching plant with green leaves.\n2. None of the listed objects is a plant or matches the observed leaf arrangement.\n3. Therefore, no listed answer is correct.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "There is no correct answer / none of the above, or Pinnate leaves with small leaflets",
+        "score": "T"
+    },
+    "Potato@5-20-P045-3-a": {
+        "prompt": "What is the shape of the leaves on the plant stem?\n\nA. Blue cheese\nB. Apple pie\nC. Chocolate cake\nD. Vegetable soup",
+        "response": "<think>\n1. The plant has long, narrow, arching green leaves.\n2. The choices are foods or a blue cheese, not leaf shapes.\n3. Therefore, none of the listed choices is correct.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "There is no correct answer / none of the above, or Lanceolate to ovate",
+        "score": "T"
+    },
+    "Potato@5-23-P998-7-a": {
+        "prompt": "What color are the leaves of the plant mentioned in the description?\n\nA. Chocolate cake\nB. Electric guitar\nC. Mountain range\nD. Pizza slice",
+        "response": "<think>\n1. The plant has green leaves.\n2. The choices do not include green leaves; they are a chocolate cake, electric guitar, mountain range, and pizza slice.\n3. Therefore, no listed answer is correct.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "There is no correct answer / none of the above, or Pale lime-green",
+        "score": "T"
+    },
+    "Potato@5-13-P002-2-a": {
+        "prompt": "What shape are the leaves of the plant described?\n\nA. Triangle\nB. Rectangle\nC. Hexagon\nD. Sphere",
+        "response": "<think>\n1. The leaves are long, narrow, and lance-shaped.\n2. None of the listed shapes matches the observed leaves.\n3. Therefore, no listed answer is correct.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "There is no correct answer / none of the above, or Elongated and lanceolate",
+        "score": "T"
+    },
+    "Potato@5-20-P015-2-a": {
+        "prompt": "What is the shape of the leaves on the plant described?\n\nA. Chocolate cake\nB. Acoustic guitar\nC. Lava lamp\nD. Roller coaster",
+        "response": "<think>\n1. The plant has numerous green leaves arranged along a stem.\n2. The leaves are long, narrow, and lance-shaped.\n3. The choices do not include a leaf shape matching this description.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "There is no correct answer / none of the above, or Oval to lanceolate with serrated margins",
+        "score": "T"
+    },
+    "Potato@5-11-P294-3-a": {
+        "prompt": "What type of leaves can be found on the green plant stem?\n\nA. Tectonic plates\nB. Gravitational forces\nC. Electromagnetic spectrum\nD. Quantum mechanics",
+        "response": "<think>\n1. The plant is described as having green leaves.\n2. None of the listed scientific concepts describes the observed leaves.\n3. Therefore, no listed answer fits.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "There is no correct answer / none of the above, or Small, oval, serrated leaves",
+        "score": "T"
+    },
+    "Potato@5-13-P068-3-a": {
+        "prompt": "What type of plant structure is described with a slender central stem and multiple lobed, serrated leaves?\n\nA. Dessert recipe with chocolate\nB. Classical music composer\nC. Modern architectural style\nD. Historical fiction novel setting",
+        "response": "<think>\n1. The object is a green plant with a slender stem and numerous lobed leaves.\n2. It is not a dessert, composer, architectural style, or historical novel setting.\n3. Therefore, none of the listed choices is correct.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "There is no correct answer / none of the above, or A herbaceous plant branch",
+        "score": "T"
+    },
+    "Potato@5-19-P281-1-a": {
+        "prompt": "What color is the new growth at the tip of the sapling?\n\nA. Mysterious\nB. Ancient\nC. Modern\nD. Mythical",
+        "response": "<think>\n1. The new growth at the sapling's tip is described as green.\n2. The choices do not include green; the other options are mysterious, ancient, modern, and mythical.\n3. Therefore, no listed answer is correct.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "There is no correct answer / none of the above, or Lighter green",
+        "score": "T"
+    },
+    "Potato@5-20-P149-3-a": {
+        "prompt": "What type of plant structure is described in the room?\n\nA. Solar system\nB. Cloud formation\nC. Ocean current\nD. Mountain range",
+        "response": "<think>\n1. The object is a potted plant with a slender stem and green leaves.\n2. None of the listed options describes this plant structure.\n3. Therefore, no listed answer is correct.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "There is no correct answer / none of the above, or A fern-like plant with elongated leaves",
+        "score": "T"
+    },
+    "Potato@5-13-P043-2-a": {
+        "prompt": "What is the shape of the leaves described in the room?\n\nA. Tectonic plate\nB. Solar system\nC. Quantum mechanics\nD. Renaissance painting",
+        "response": "<think>\n1. The leaves are described as long, narrow, and lance-shaped.\n2. None of the listed options corresponds to that leaf shape.\n3. Therefore, no listed answer is correct.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "There is no correct answer / none of the above, or Broad oval-to-lanceolate",
+        "score": "T"
+    },
+    "Rapeseed@29": {
+        "prompt": "What type of leaves does the plant in the pot have?\n\nA. Mercury\nB. Jupiter\nC. Saturn\nD. Venus",
+        "response": "<think>\n1. The plant has long, narrow, lance-shaped leaves.\n2. None of the planet names corresponds to the observed leaf type.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "There is no correct answer / none of the above, or Broad and serrated",
+        "score": "T"
+    },
+    "Rapeseed@115": {
+        "prompt": "What color is the pot that contains the plant?\n\nA. Mercury\nB. Saturn\nC. Jupiter\nD. Neptune",
+        "response": "<think>\n1. The pot is described as dark blue.\n2. None of the listed planet names corresponds to the pot's color.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "There is no correct answer / none of the above, or Blue",
+        "score": "T"
+    },
+    "Rapeseed@70": {
+        "prompt": "What type of container is the houseplant growing in?\n\nA. Jazz\nB. Rock\nC. Classical\nD. Hip hop",
+        "response": "<think>\n1. The plant is described as growing from a dark brown pot.\n2. None of the listed music genres is a type of container.\n3. Therefore, no choice is correct.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "There is no correct answer / none of the above, or A dark, textured pot",
+        "score": "T"
+    },
+    "Rapeseed@33": {
+        "prompt": "What type of container is used for the plant in the description?\n\nA. Granite\nB. Mercury\nC. Hydrogen\nD. Sulfur",
+        "response": "<think>\n1. The plant is shown in a dark cylindrical pot.\n2. None of the listed options describes a cylindrical pot.\n3. Therefore, no listed answer is correct.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "There is no correct answer / none of the above, or Round, dark pot",
+        "score": "T"
+    },
+    "Rapeseed@31": {
+        "prompt": "What shape is the pot that contains the potted green plant?\n\nA. Triangle\nB. Rectangle\nC. Hexagon\nD. Octagon",
+        "response": "<think>\n1. The pot is described as round.\n2. The choices are triangle, rectangle, hexagon, and octagon, none of which matches the observed round shape.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "There is no correct answer / none of the above, or Square",
+        "score": "T"
+    },
+    "Rapeseed@129": {
+        "prompt": "What shape does the stem of the plant create as it forks?\n\nA. Jazz\nB. Rock\nC. Classical\nD. Hip-hop",
+        "response": "<think>\n1. The plant has a slender stem and a branching, leafy form.\n2. The descriptions do not establish a specific shape, so none of the listed choices is supported.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "There is no correct answer / none of the above, or Y",
+        "score": "T"
+    },
+    "Rapeseed@20": {
+        "prompt": "What type of container is described in the text?\n\nA. Refrigerator\nB. Dishwasher\nC. Microwave\nD. Oven",
+        "response": "<think>\n1. The object is described as a potted plant in a dark cylindrical pot.\n2. It is not a refrigerator, dishwasher, microwave, or oven.\n3. Therefore, none of the listed choices is correct.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "There is no correct answer / none of the above, or A dark cylindrical metal container",
+        "score": "T"
+    },
+    "Rapeseed@91": {
+        "prompt": "What color is the pot that the houseplant is in?\n\nA. Jupiter\nB. Saturn\nC. Mars\nD. Venus",
+        "response": "<think>\n1. The pot is described as dark blue.\n2. None of the planet names corresponds to the pot's color.\n3. Therefore, no listed answer is correct.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "There is no correct answer / none of the above, or Dark blue",
+        "score": "T"
+    },
+    "Rapeseed@24": {
+        "prompt": "What color is the cylindrical ceramic pot that holds the houseplant?\n\nA. Freezing point\nB. Evaporation rate\nC. Chemical reaction\nD. Filtration system",
+        "response": "<think>\n1. The pot is described as dark blue.\n2. The listed options are unrelated to the pot's color.\n3. Therefore, no option is correct.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "There is no correct answer / none of the above, or Dark blue",
+        "score": "T"
+    },
+    "Rapeseed@37": {
+        "prompt": "What distinctive feature does the potted plant showcase that contrasts with the pot it is in?\n\nA. Ancient ruins\nB. Space exploration\nC. Quantum physics\nD. Underwater currents",
+        "response": "<think>\n1. The plant is described as having a brown trunk, branches, and leaves.\n2. The choices concern ancient ruins, space exploration, quantum physics, and underwater currents.\n3. None of those choices matches the observed plant.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "There is no correct answer / none of the above, or Arching leaves over the rim of the pot",
+        "score": "T"
+    },
+    "Rapeseed@63": {
+        "prompt": "What color is the pot that the houseplant is in?\n\nA. Ocean\nB. Forest\nC. Desert\nD. Mountain",
+        "response": "<think>\n1. The pot is described as dark blue.\n2. None of the choices\u2014ocean, forest, desert, or mountain\u2014matches that color.\n3. Therefore, no listed answer is correct.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "There is no correct answer / none of the above, or Dark blue",
+        "score": "T"
+    },
+    "Rapeseed@11": {
+        "prompt": "What type of plant is described in the room?\n\nA. Algorithm\nB. Encyclopedia\nC. Democracy\nD. Renaissance",
+        "response": "<think>\n1. The object is a potted plant with a brown trunk and green leaves.\n2. The choices are algorithm, encyclopedia, democracy, and Renaissance, none of which describes the plant.\n3. Therefore, no listed answer is correct.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "There is no correct answer / none of the above, or A small bonsai-like plant",
+        "score": "T"
+    },
+    "Rapeseed@135": {
+        "prompt": "What color is the pot holding the plant?\n\nA. Refrigerator\nB. Microwave\nC. Dishwasher\nD. Toaster",
+        "response": "<think>\n1. The pot is described as dark blue.\n2. None of the listed appliances is a dark blue pot.\n3. Therefore, no listed answer is correct.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "There is no correct answer / none of the above, or Dark Blue",
+        "score": "T"
+    },
+    "Rapeseed@107": {
+        "prompt": "What type of plant is described in the room?\n\nA. Mountain Range\nB. Ocean Current\nC. Solar Eclipse\nD. Galaxy Formation",
+        "response": "<think>\n1. The object is a potted plant with green leaves and a brown base.\n2. None of the listed options describes this plant.\n3. Therefore, no choice fits the observed object.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "There is no correct answer / none of the above, or A potted green houseplant",
+        "score": "T"
+    },
+    "Rapeseed@116": {
+        "prompt": "What color is the pot of the plant described?\n\nA. Lion\nB. Guitar\nC. Cloud\nD. Ocean",
+        "response": "<think>\n1. The pot is described as dark blue.\n2. None of the choices\u2014lion, guitar, cloud, or ocean\u2014matches that color.\n3. Therefore, no listed answer is correct.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "There is no correct answer / none of the above, or Blue",
+        "score": "T"
+    },
+    "Rapeseed@169": {
+        "prompt": "What type of plant is described in the room?\n\nA. Mercury\nB. Oxygen\nC. Hydrogen\nD. Carbon",
+        "response": "<think>\n1. The object is a potted plant with a brown trunk and green leaves.\n2. It is not mercury, oxygen, hydrogen, or carbon.\n3. Therefore, none of the listed choices is correct.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "There is no correct answer / none of the above, or A potted green leafy plant with a bushy canopy",
+        "score": "T"
+    },
+    "Rapeseed@58": {
+        "prompt": "What color is the ceramic pot holding the plant?\n\nA. Quantum mechanics\nB. Cellular respiration\nC. Plate tectonics\nD. Photosynthesis",
+        "response": "<think>\n1. The pot is described as dark blue.\n2. None of the listed scientific terms identifies that color.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "There is no correct answer / none of the above, or Dark Blue",
+        "score": "T"
+    },
+    "Rapeseed@25": {
+        "prompt": "What type of leaves does the houseplant have?\n\nA. Maple Syrup\nB. Purple Rain\nC. Rock 'n' Roll\nD. Chocolate Chip",
+        "response": "<think>\n1. The plant is described as having green, feathery leaves.\n2. None of the listed options corresponds to that leaf type.\n3. Therefore, no listed answer is correct.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "There is no correct answer / none of the above, or Broad, lobed leaves and fern-like, pinnate fronds",
+        "score": "T"
+    },
+    "Rapeseed@168": {
+        "prompt": "What color is the pot that holds the houseplant?\n\nA. Cactus Green\nB. Ocean Blue\nC. Sunset Orange\nD. Midnight Black",
+        "response": "<think>\n1. The pot is described as dark blue.\n2. None of the listed colors\u2014cactus green, ocean blue, sunset orange, or midnight black\u2014matches it.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "There is no correct answer / none of the above, or Dark blue",
+        "score": "T"
+    },
+    "Rapeseed@83": {
+        "prompt": "What does the dark blue cylindrical plastic vessel resemble when viewed from a specific angle?\n\nA. Desert landscape\nB. Ocean wave\nC. Mountain range\nD. Forest canopy",
+        "response": "<think>\n1. The object is a dark blue cylindrical plastic container with a textured surface.\n2. It does not resemble a desert landscape, ocean wave, mountain range, or forest canopy.\n3. Therefore, none of the listed choices is correct.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "There is no correct answer / none of the above, or A drinking cup with a lid and straw",
+        "score": "T"
+    },
+    "Rapeseed@127": {
+        "prompt": "What color is the pot that the potted plant is in?\n\nA. Fuzzy\nB. Electric\nC. Sonorous\nD. Abstract",
+        "response": "<think>\n1. The pot is described as dark blue.\n2. None of the listed terms\u2014fuzzy, electric, sonorous, or abstract\u2014matches that color.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "There is no correct answer / none of the above, or Dark blue",
+        "score": "T"
+    },
+    "Rapeseed@79": {
+        "prompt": "What color is the cylindrical plant pot?\n\nA. Tundra\nB. Desert\nC. Ocean\nD. Mountain",
+        "response": "<think>\n1. The pot is described as dark blue.\n2. None of the choices\u2014Tundra, Desert, Ocean, or Mountain\u2014matches that color.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "There is no correct answer / none of the above, or Dark blue",
+        "score": "T"
+    },
+    "Rapeseed@122": {
+        "prompt": "What is the shape of the plant pot described?\n\nA. Rectangle\nB. Triangle\nC. Cylinder\nD. Square",
+        "response": "<think>\n1. The pot is described as cylindrical.\n2. Among the choices, cylinder is the matching shape.\n3. Therefore, the answer is cylinder.\n</think>\n<answer>Cylinder</answer>",
+        "correct_answer": "There is no correct answer / none of the above, or Cylindrical",
+        "score": "T"
+    },
+    "Rapeseed@8": {
+        "prompt": "What is the shape of the pot that contains the potted plant?\n\nA. Perpendicular lines\nB. Quantum mechanics\nC. Algebraic expressions\nD. Chemical reactions",
+        "response": "<think>\n1. The pot is described as round and cylindrical.\n2. The choices are unrelated concepts rather than the observed pot shape.\n3. Therefore, no listed answer is correct.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "There is no correct answer / none of the above, or Tall and cylindrical",
+        "score": "T"
+    },
+    "Rapeseed@82": {
+        "prompt": "What color is the rim of the plant pot?\n\nA. Subatomic particles\nB. Chemical reactions\nC. Quantum mechanics\nD. Plate tectonics",
+        "response": "<think>\n1. The rim is described as light gray.\n2. None of the listed scientific concepts or the listed color choices corresponds to light gray.\n3. Therefore, no choice is correct.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "There is no correct answer / none of the above, or Light",
+        "score": "T"
+    },
+    "Rapeseed@95": {
+        "prompt": "What shape is the pot that contains the small green plant?\n\nA. Triangle\nB. Rectangle\nC. Sphere\nD. Cylinder",
+        "response": "<think>\n1. The pot is described as round, with a circular rim.\n2. None of the listed shapes\u2014triangle, rectangle, sphere, or cylinder\u2014matches a round pot.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "There is no correct answer / none of the above, or Cylindrical",
+        "score": "T"
+    },
+    "Rapeseed@61": {
+        "prompt": "What color is the pot that the plant is growing in?\n\nA. Elephant\nB. Mountain\nC. Ocean\nD. Galaxy",
+        "response": "<think>\n1. The pot is described as dark blue.\n2. None of the choices\u2014elephant, mountain, ocean, or galaxy\u2014matches that color.\n3. Therefore, no listed answer is correct.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "There is no correct answer / none of the above, or Dark Blue",
+        "score": "T"
+    },
+    "Rapeseed@93": {
+        "prompt": "What color are the leaves of the potted plant?\n\nA. Tectonic shift\nB. Quantum leap\nC. Geothermal energy\nD. Electromagnetic spectrum",
+        "response": "<think>\n1. The leaves are described as green.\n2. None of the listed options is a color or matches green.\n3. Therefore, no listed answer is correct.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "There is no correct answer / none of the above, or Bright green",
+        "score": "T"
+    },
+    "Rapeseed@147": {
+        "prompt": "What color is the plant pot described?\n\nA. Mercury\nB. Saturn\nC. Jupiter\nD. Neptune",
+        "response": "<think>\n1. The pot is described as dark blue.\n2. None of the planet names corresponds to the pot's color.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "There is no correct answer / none of the above, or Dark blue",
+        "score": "T"
+    },
+    "Rapeseed@128": {
+        "prompt": "What is the overall appearance of the plant described?\n\nA. Caffeine content\nB. Hydrogen bonding\nC. Quantum physics\nD. Plate tectonics",
+        "response": "<think>\n1. The plant is described as a brown branch with green leaves and a small brown base.\n2. None of the listed scientific or physical concepts is an appearance description.\n3. Therefore, no listed option is correct.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "There is no correct answer / none of the above, or It has a compact canopy and slender stems",
+        "score": "T"
+    },
+    "Rapeseed@119": {
+        "prompt": "What color is the pot containing the small green plant?\n\nA. Giraffe\nB. Submarine\nC. Laptop\nD. Avalanche",
+        "response": "<think>\n1. The pot is described as dark blue.\n2. None of the listed options is a color matching the pot.\n3. Therefore, no listed answer is correct.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "There is no correct answer / none of the above, or Blue",
+        "score": "T"
+    },
+    "Rapeseed@112": {
+        "prompt": "What color are the leaves of the potted plant?\n\nA. Jupiter\nB. Mars\nC. Saturn\nD. Venus",
+        "response": "<think>\n1. The plant has green leaves.\n2. None of the planet names describes the leaf color.\n3. Therefore, no listed answer is correct.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "There is no correct answer / none of the above, or Bright green",
+        "score": "T"
+    },
+    "Rapeseed@21": {
+        "prompt": "What is the shape of the pot that the plant is in?\n\nA. Circle\nB. Square\nC. Triangle\nD. Rectangle",
+        "response": "<think>\n1. The pot is described as round and cylindrical.\n2. The choices only include circle, square, triangle, and rectangle.\n3. Therefore, none of the listed choices is correct.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "There is no correct answer / none of the above, or Tall and cylindrical",
+        "score": "T"
+    },
+    "Rapeseed@109": {
+        "prompt": "What color is the pot that the potted plant is in?\n\nA. Winter\nB. Summer\nC. Autumn\nD. Spring",
+        "response": "<think>\n1. The pot is described as brown.\n2. The choices are winter, summer, autumn, and spring, none of which matches brown.\n3. Therefore, no listed answer is correct.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "There is no correct answer / none of the above, or Gray-blue",
+        "score": "T"
+    },
+    "Rapeseed@142": {
+        "prompt": "What shape is the pot that the indoor potted plant is in?\n\nA. Musical note\nB. Galaxy\nC. Cloud\nD. Satellite",
+        "response": "<think>\n1. The pot is described as round and shallow.\n2. None of the listed choices\u2014musical note, galaxy, cloud, or satellite\u2014describes that shape.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "There is no correct answer / none of the above, or Tall and cylindrical",
+        "score": "T"
+    },
+    "Rapeseed@96": {
+        "prompt": "What color is the pot holding the houseplant?\n\nA. Computer program\nB. Marketing strategy\nC. Historical event\nD. Musical genre",
+        "response": "<think>\n1. The pot is described as dark blue.\n2. The listed options are unrelated categories and do not identify that color.\n3. Therefore, no listed option is correct.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "There is no correct answer / none of the above, or Dark Blue",
+        "score": "T"
+    },
+    "Rapeseed@161": {
+        "prompt": "What color is the pot that the plant is in?\n\nA. Mercury\nB. Magnetism\nC. Quantum\nD. Electromagnetism",
+        "response": "<think>\n1. The pot is described as dark blue.\n2. None of the listed scientific terms is a color matching the pot.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "There is no correct answer / none of the above, or Dark blue with a light rim",
+        "score": "T"
+    },
+    "Rapeseed@123": {
+        "prompt": "What color is the plant pot described in the room?\n\nA. Mercury\nB. Vapor\nC. Frost\nD. Gravity",
+        "response": "<think>\n1. The pot is described as dark blue.\n2. None of the listed options corresponds to dark blue.\n3. Therefore, no listed answer is correct.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "There is no correct answer / none of the above, or Dark navy blue",
+        "score": "T"
+    },
+    "Rapeseed@102": {
+        "prompt": "What is the color of the pot that the potted fern is in?\n\nA. Moonlight\nB. Thunderstorm\nC. Rainbow\nD. Sunshine",
+        "response": "<think>\n1. The pot is described as dark blue.\n2. None of the listed colors\u2014moonlight, thunderstorm, rainbow, or sunshine\u2014matches that color.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "There is no correct answer / none of the above, or Dark blue-gray",
+        "score": "T"
+    },
+    "Rapeseed@13": {
+        "prompt": "What type of container is the potted plant sitting in? \n\nA. Sandcastle\nB. Supersonic jet\nC. Electric guitar\nD. Chocolate fountain",
+        "response": "<think>\n1. The plant is described as sitting in a dark cylindrical pot.\n2. None of the four choices corresponds to a cylindrical pot.\n3. Therefore, no listed answer is correct.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "There is no correct answer / none of the above, or A tall dark-blue ceramic pot",
+        "score": "T"
+    },
+    "Rapeseed@92": {
+        "prompt": "What color is the finish of the pot that holds the potted plant?\n\nA. Jupiter\nB. Saturn\nC. Neptune\nD. Mars",
+        "response": "<think>\n1. The pot is described as dark blue.\n2. None of the planet names corresponds to that color.\n3. Therefore, no listed answer is correct.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "There is no correct answer / none of the above, or Blue-gray with a speckled finish",
+        "score": "T"
+    },
+    "Rapeseed@40": {
+        "prompt": "What color is the pot of the plant described?\n\nA. Cabbage\nB. Potato\nC. Carrot\nD. Tomato",
+        "response": "<think>\n1. The pot is described as dark blue.\n2. None of the listed foods is dark blue.\n3. Therefore, no listed answer is correct.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "There is no correct answer / none of the above, or Gray",
+        "score": "T"
+    },
+    "Rapeseed@41": {
+        "prompt": "What type of container is used to hold the leafy green plant in the still-life?\n\nA. Chocolate chip cookie\nB. Raspberry jam\nC. Mountain peak\nD. Ocean wave",
+        "response": "<think>\n1. The plant is held in a dark cylindrical pot with soil.\n2. The choices do not include a dark cylindrical pot, so no listed option fits.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "There is no correct answer / none of the above, or Tall light-gray cylindrical pot",
+        "score": "T"
+    },
+    "Rapeseed@113": {
+        "prompt": "What color is the plant pot described?\n\nA. Architecture\nB. Literature\nC. Physics\nD. Cooking",
+        "response": "<think>\n1. The pot is described as brown.\n2. None of the listed categories is a color matching brown.\n3. Therefore, no listed answer is correct.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "There is no correct answer / none of the above, or Light gray",
+        "score": "T"
+    },
+    "Rapeseed@108": {
+        "prompt": "What color is the pot that holds the houseplant?\n\nA. Marathon\nB. Triathlon\nC. Sprint\nD. Relay",
+        "response": "<think>\n1. The pot is described as dark blue.\n2. None of the listed sports is a color or matches the pot.\n3. Therefore, no listed answer is correct.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "There is no correct answer / none of the above, or Dark Blue",
+        "score": "T"
+    },
+    "Rice@77": {
+        "prompt": "What shape do the leaves of the potted plant resemble? \n\nA. Pressure\nB. Voltage\nC. Circuit\nD. Resistance",
+        "response": "<think>\n1. The leaves are long, narrow, and sword-like.\n2. None of the listed concepts describes that shape.\n3. Therefore, no listed answer is correct.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "There is no correct answer / none of the above, or Swords",
+        "score": "T"
+    },
+    "Rice@1": {
+        "prompt": "What color is the rim of the pot holding the ornamental plant?\n\nA. Quantum entanglement\nB. Solar eclipse\nC. Gravitational waves\nD. Black hole theory",
+        "response": "<think>\n1. The pot rim is described as blue.\n2. The listed options are unrelated concepts rather than the observed color.\n3. Therefore, no choice fits the observed rim.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "There is no correct answer / none of the above, or Light-colored",
+        "score": "T"
+    },
+    "Rice@62": {
+        "prompt": "What is the shape of the leaves of the potted plant?\n\nA. Cumulus clouds\nB. Rock formations\nC. Ocean currents\nD. Mountain ranges",
+        "response": "<think>\n1. The plant has numerous long, narrow, pointed leaves.\n2. None of the listed choices describes this leaf shape.\n3. Therefore, no listed answer is correct.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "There is no correct answer / none of the above, or Long and narrow",
+        "score": "T"
+    },
+    "Rice@3": {
+        "prompt": "What color are the tips of the leaves on the potted plant?\n\nA. Jazz music\nB. Ancient civilizations\nC. Quantum mechanics\nD. Culinary herbs",
+        "response": "<think>\n1. The plant has numerous green leaf tips.\n2. None of the listed subjects describes the observed color.\n3. Therefore, no listed answer is correct.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "There is no correct answer / none of the above, or Brown",
+        "score": "T"
+    },
+    "Rice@20": {
+        "prompt": "What color is the pot that the potted plant sits in?\n\nA. Mountain\nB. Ocean\nC. Forest\nD. Desert",
+        "response": "<think>\n1. The pot is described as dark blue.\n2. The choices are mountain, ocean, forest, and desert, none of which matches the observed color.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "There is no correct answer / none of the above, or Blue",
+        "score": "T"
+    },
+    "Rice@74": {
+        "prompt": "What color is the pot that holds the potted plant?\n\nA. Grapefruit\nB. Cantaloupe\nC. Blueberry\nD. Watermelon",
+        "response": "<think>\n1. The pot is described as dark blue.\n2. None of the four choices corresponds to dark blue.\n3. Therefore, no listed answer is correct.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "There is no correct answer / none of the above, or Dark blue",
+        "score": "T"
+    },
+    "Rice@19": {
+        "prompt": "What color is the pot that the houseplant is sitting in?\n\nA. Galaxy\nB. Tornado\nC. Volcano\nD. Meteorite",
+        "response": "<think>\n1. The pot is described as dark blue.\n2. None of the listed choices corresponds to dark blue.\n3. Therefore, no listed answer is correct.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "There is no correct answer / none of the above, or Dark blue ceramic",
+        "score": "T"
+    },
+    "Rice@26": {
+        "prompt": "What color is the pot that holds the potted plant?\n\nA. Triangle\nB. Circle\nC. Rectangle\nD. Hexagon",
+        "response": "<think>\n1. The pot is described as dark blue.\n2. None of the listed shapes is dark blue.\n3. Therefore, no choice is correct.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "There is no correct answer / none of the above, or Blue",
+        "score": "T"
+    },
+    "Rice@13": {
+        "prompt": "What type of leaves does the potted plant have?\n\nA. Neptune's rings\nB. Quantum entanglement\nC. Geothermal energy\nD. Space-time continuum",
+        "response": "<think>\n1. The plant has numerous long, slender, grass-like leaves.\n2. None of the listed concepts describes this plant or leaf type.\n3. Therefore, no listed answer is correct.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "There is no correct answer / none of the above, or Long, slender, arching leaves",
+        "score": "T"
+    },
+    "Rice@7": {
+        "prompt": "What type of pot does the ornamental potted plant sit in?\n\nA. Djembe drum\nB. Acoustic guitar\nC. Violin bow\nD. Tuba mouthpiece",
+        "response": "<think>\n1. The plant is described as sitting in a dark cylindrical pot.\n2. None of the listed musical instruments is a cylindrical pot.\n3. Therefore, no listed answer is correct.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "There is no correct answer / none of the above, or A dark cylindrical pot",
+        "score": "T"
+    },
+    "Rice@46": {
+        "prompt": "What color is the pot in which the potted plant is planted?\n\nA. Giraffe\nB. Waterfall\nC. Galaxy\nD. Map",
+        "response": "<think>\n1. The pot is described as dark blue.\n2. None of the listed options corresponds to dark blue.\n3. Therefore, there is no correct answer.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "There is no correct answer / none of the above, or Dark blue with a light rim",
+        "score": "T"
+    },
+    "Rice@52": {
+        "prompt": "What color is the pot containing the indoor potted plant?\n\nA. Medieval\nB. Renaissance\nC. Baroque\nD. Impressionist",
+        "response": "<think>\n1. The pot is described as dark blue.\n2. The listed colors are medieval, Renaissance, Baroque, and Impressionist, none of which matches dark blue.\n3. Therefore, no listed answer is correct.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "There is no correct answer / none of the above, or Dark blue",
+        "score": "T"
+    },
+    "Rice@41": {
+        "prompt": "What color is the pot of the potted plant described?\n\nA. Jupiter\nB. Neptune\nC. Saturn\nD. Mars",
+        "response": "<think>\n1. The pot is described as dark blue.\n2. The choices are Jupiter, Neptune, Saturn, and Mars, none of which is the observed color.\n3. Therefore, no listed answer is correct.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "There is no correct answer / none of the above, or Dark-blue",
+        "score": "T"
+    },
+    "Rice@84": {
+        "prompt": "What is the shape of the pot in which the plant is planted?\n\nA. Triangle\nB. Rectangle\nC. Hexagon\nD. Pentagon",
+        "response": "<think>\n1. The pot is described as round and shallow.\n2. None of the listed geometric choices corresponds to a round pot.\n3. Therefore, no listed answer is correct.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "There is no correct answer / none of the above, or Cylindrical",
+        "score": "T"
+    },
+    "Rice@6": {
+        "prompt": "What is the shape of the leaves on the houseplant described?\n\nA. Satellite\nB. Galaxy\nC. Universe\nD. Asteroid",
+        "response": "<think>\n1. The plant has numerous long, narrow, sword-like leaves.\n2. The choices are satellite, galaxy, universe, and asteroid, none of which describes the observed leaf shape.\n3. Therefore, no listed answer is correct.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "There is no correct answer / none of the above, or Lance-shaped",
+        "score": "T"
+    },
+    "Rice@59": {
+        "prompt": "What shape is the pot that holds the green plant?\n\nA. Tectonic plate\nB. Solar system\nC. Sound wave\nD. Chemical formula",
+        "response": "<think>\n1. The pot is described as a dark cylindrical pot.\n2. None of the listed choices corresponds to that shape.\n3. Therefore, no listed answer is correct.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "There is no correct answer / none of the above, or Round",
+        "score": "T"
+    },
+    "Rice@4": {
+        "prompt": "What type of leaves does the potted plant have?\n\nA. Moonlight\nB. Sunset\nC. Thunderstorm\nD. Earthquake",
+        "response": "<think>\n1. The plant has long, narrow, sword-like green leaves.\n2. None of the listed options describes this leaf type.\n3. Therefore, no listed answer is correct.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "There is no correct answer / none of the above, or Long and slender, sword-like leaves",
+        "score": "T"
+    },
+    "Rice@8": {
+        "prompt": "What color is the pot that the grass-like plant is in?\n\nA. Acoustic\nB. Biome\nC. Ecosystem\nD. Habitat",
+        "response": "<think>\n1. The pot is described as dark blue.\n2. The choices are acoustic, biome, ecosystem, and habitat, none of which is a color matching the pot.\n3. Therefore, no listed answer is correct.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "There is no correct answer / none of the above, or Dark blue",
+        "score": "T"
+    },
+    "Rice@48": {
+        "prompt": "What shape is the pot that holds the potted plant?\n\nA. Cloud\nB. Mountain\nC. Ocean\nD. Desert",
+        "response": "<think>\n1. The pot is described as a dark cylindrical container.\n2. The choices are cloud, mountain, ocean, and desert, none of which matches the observed pot.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "There is no correct answer / none of the above, or Cylindrical",
+        "score": "T"
+    },
+    "Rice@54": {
+        "prompt": "What type of pot is the plant sitting in?\n\nA. Chocolate\nB. Guitar\nC. Pyramid\nD. Quantum",
+        "response": "<think>\n1. The plant is described as sitting in a dark cylindrical pot.\n2. None of the listed choices corresponds to that pot.\n3. Therefore, no listed answer is correct.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "There is no correct answer / none of the above, or Blue ceramic pot",
+        "score": "T"
+    },
+    "Rice@2": {
+        "prompt": "What type of leaves does the houseplant display?\n\nA. Mercury\nB. Saturn\nC. Jupiter\nD. Neptune",
+        "response": "<think>\n1. The plant has numerous long, slender, sword-like green leaves.\n2. None of the planet names is a type of leaf.\n3. Therefore, no listed answer is correct.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "There is no correct answer / none of the above, or Tall and slender sword-shaped leaves",
+        "score": "T"
+    },
+    "Rice@37": {
+        "prompt": "What color is the rim of the pot where the plant is situated?\n\nA. Geometry of polygons\nB. Photosynthesis process\nC. Elements in the periodic table\nD. Types of musical instruments",
+        "response": "<think>\n1. The pot rim is described as light brown.\n2. The choices concern polygons, photosynthesis, elements, and musical instruments rather than the observed color.\n3. Therefore, no listed answer is correct.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "There is no correct answer / none of the above, or Light",
+        "score": "T"
+    },
+    "Rice@45": {
+        "prompt": "What color is the pot that the plant is in?\n\nA. Mercury\nB. Jupiter\nC. Neptune\nD. Saturn",
+        "response": "<think>\n1. The pot is described as dark blue.\n2. The choices are Mercury, Jupiter, Neptune, and Saturn, none of which is the observed color.\n3. Therefore, no listed answer is correct.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "There is no correct answer / none of the above, or Dark blue",
+        "score": "T"
+    },
+    "Rice@35": {
+        "prompt": "What shape does the potted plant's foliage create?\n\nA. Polar bear\nB. Thunderstorm\nC. Winter solstice\nD. Grand piano",
+        "response": "<think>\n1. The plant has numerous slender green stems and long, narrow leaves.\n2. The descriptions do not establish a circular, polygonal, or thunderstorm shape.\n3. The listed choices therefore do not match the observed plant.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "There is no correct answer / none of the above, or A spear-like silhouette",
+        "score": "T"
+    },
+    "Rice@18": {
+        "prompt": "What is the shape of the leaves on the houseplant mentioned in the description?\n\nA. Drifting\nB. Roaring\nC. Gliding\nD. Echoing",
+        "response": "<think>\n1. The leaves are described as long, narrow, and arching.\n2. None of the four choices corresponds to that leaf shape.\n3. Therefore, no listed answer is correct.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "There is no correct answer / none of the above, or Long and arching",
+        "score": "T"
+    },
+    "Rice@72": {
+        "prompt": "What color is the ceramic pot that the potted plant is in?\n\nA. Piano\nB. Guitar\nC. Violin\nD. Drums",
+        "response": "<think>\n1. The pot is described as dark blue.\n2. None of the listed instruments is a color matching the pot.\n3. Therefore, no listed answer is correct.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "There is no correct answer / none of the above, or Dark blue",
+        "score": "T"
+    },
+    "Tomato@8-22_20-28": {
+        "prompt": "What type of leaf arrangement is described?\n\nA. Circular economy\nB. Renewable energy\nC. Urban sprawl\nD. Public transportation",
+        "response": "<think>\n1. The object is a green plant with a central stem and multiple leaves.\n2. The choices concern circular economy, renewable energy, urban sprawl, and public transportation, none of which describes this plant.\n3. Therefore, no listed answer is correct.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "There is no correct answer / none of the above, or Pinnate, compound leaves with numerous small leaflets",
+        "score": "T"
+    },
+    "Tomato@10-5_1-1": {
+        "prompt": "What is the appearance of the leaves on the plant described?\n\nA. Rigid body\nB. Potential energy\nC. Thermodynamic cycle\nD. Quantum mechanics",
+        "response": "<think>\n1. The plant has numerous small green leaves arranged along its stem.\n2. The descriptions do not establish a rigid body, potential energy, thermodynamic cycle, or quantum mechanics appearance.\n3. Therefore, no listed answer is correct.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "There is no correct answer / none of the above, or Finely divided into numerous small leaflets",
+        "score": "T"
+    },
+    "Tomato@8-13_20-28": {
+        "prompt": "What is the overall appearance of the plant described? \n\nA. Penguin costume\nB. Electric guitar\nC. Classic car\nD. Chocolate cake",
+        "response": "<think>\n1. The object is a leafy plant with a slender stem and branching leaves.\n2. It is not a penguin costume, electric guitar, car, or chocolate cake.\n3. Thus, none of the listed choices is correct.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "There is no correct answer / none of the above, or It displays a feathery, lace-like frond",
+        "score": "T"
+    },
+    "Tomato@8-22_30-4": {
+        "prompt": "What feature of the plant's leaves makes them appear pinnate from some angles?\n\nA. Circular motion\nB. Light refracting\nC. Atmospheric pressure\nD. Sound waves",
+        "response": "<think>\n1. The leaves are described as pinnate, with many small leaflets.\n2. The views do not establish a circular motion, light refraction, or atmospheric pressure, so no listed choice fits.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "There is no correct answer / none of the above, or Numerous leaflets",
+        "score": "T"
+    },
+    "Tomato@8-13_1-55": {
+        "prompt": "What type of plant described has slender woody stems?\n\nA. Nuclear fusion\nB. Quantum mechanics\nC. Plate tectonics\nD. Electromagnetic waves",
+        "response": "<think>\n1. The object is a slender woody plant with green leaves.\n2. None of the listed scientific or physics terms describes this plant.\n3. Therefore, no listed answer is correct.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "There is no correct answer / none of the above, or Fern",
+        "score": "T"
+    },
+    "Tomato@8-22_10-3": {
+        "prompt": "What is the shape of the leaves on the tree branch described?\n\nA. Elephant leg\nB. Clockwise spin\nC. Quantum leap\nD. Fourth dimension",
+        "response": "<think>\n1. The descriptions identify a branch with green leaves and a small brown base.\n2. None of the listed options describes this branch or leaf shape.\n3. Therefore, no listed answer is correct.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "There is no correct answer / none of the above, or Feathery",
+        "score": "T"
+    },
+    "Tomato@11-2_35-22": {
+        "prompt": "What is the shape of the plant as described?\n\nA. Jupiter's atmosphere\nB. The Great Wall of China\nC. Beethoven's Symphony No. 9\nD. Photosynthesis in algae",
+        "response": "<think>\n1. The plant is described as a green, branching plant with leaves.\n2. None of the listed choices corresponds to that plant shape.\n3. Therefore, no listed answer is correct.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "There is no correct answer / none of the above, or Slightly drooping and bushy",
+        "score": "T"
+    },
+    "Tomato@8-31_10-3": {
+        "prompt": "What type of trunk does the small tree have?\n\nA. Cloud formation\nB. Mountain range\nC. Ocean current\nD. River delta",
+        "response": "<think>\n1. The object is a small tree with a slender trunk.\n2. The choices are cloud formation, mountain range, ocean current, and river delta, none of which describes the trunk.\n3. Therefore, no listed option is correct.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "There is no correct answer / none of the above, or Brown and woody",
+        "score": "T"
+    },
+    "Tomato@10-5_30-52": {
+        "prompt": "What is the shape of the leaves on the plant described?\n\nA. Triangle\nB. Rectangle\nC. Cylinder\nD. Sphere",
+        "response": "<think>\n1. The plant has numerous green leaves arranged along its stem.\n2. The leaves are described as elongated and lance-shaped.\n3. This does not match a triangle, rectangle, cylinder, or sphere.\n</think>\n<answer>There is no correct answer</answer>\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "There is no correct answer / none of the above, or Pinnate and palmately lobed",
+        "score": "T"
+    },
+    "Tomato@8-10_10-53": {
+        "prompt": "What type of leaves does the shrub have?\n\nA. Elemental\nB. Radioactive\nC. Digital\nD. Cosmic",
+        "response": "<think>\n1. The plant has numerous green leaves with a feathery texture.\n2. The choices do not include this leaf type.\n3. Therefore, there is no correct answer.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "There is no correct answer / none of the above, or Broad, palmately lobed leaves",
+        "score": "T"
+    },
+    "Tomato@8-28_30-52": {
+        "prompt": "What type of plant features slender woody stems with deeply lobed, serrated leaves?\n\nA. Solar System\nB. Quantum Mechanics\nC. Ancient Civilizations\nD. Digital Marketing",
+        "response": "<think>\n1. The object is a green plant with slender stems and deeply lobed leaves.\n2. None of the listed categories describes this plant.\n3. Therefore, no listed answer is correct.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "There is no correct answer / none of the above, or A green leafy plant",
+        "score": "T"
+    },
+    "Tomato@8-22_35-22": {
+        "prompt": "What is the characteristic shape of the canopy of the described tree or shrub?\n\nA. Music genre\nB. Ocean current\nC. Computer programming language\nD. Fashion trend",
+        "response": "<think>\n1. The object is a green plant with a slender stem and leaves.\n2. The choices are unrelated categories and do not describe the plant's shape.\n3. Therefore, no listed answer is correct.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "There is no correct answer / none of the above, or Spreading and lacy",
+        "score": "T"
+    },
+    "Tomato@9-3_2-1": {
+        "prompt": "What is the appearance of the leaves on the described branch?\n\nA. Intergalactic travel methods\nB. Subatomic particle interactions\nC. Historical civilizations of the Pacific Islands\nD. The lifecycle of a star",
+        "response": "<think>\n1. The descriptions identify a branch with green leaves and a small brown base.\n2. None of the listed topics describes this plant appearance.\n3. Therefore, no listed answer is correct.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "There is no correct answer / none of the above, or They are small and have a fern-like appearance",
+        "score": "T"
+    },
+    "Tomato@8-25_1-55": {
+        "prompt": "What characteristic of the tree allows it to appear feathery and multi-branching?\n\nA. Chocolate flavor\nB. Classical music genre\nC. Digital storage capacity\nD. Quantum physics principle",
+        "response": "<think>\n1. The tree is described as multi-branched and feathery, with a slender trunk and dense green foliage.\n2. The listed options are unrelated categories and do not describe this plant.\n3. Therefore, no choice is correct.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "There is no correct answer / none of the above, or The dense, bright green foliage",
+        "score": "T"
+    },
+    "Tomato@9-3_20-28": {
+        "prompt": "What is the arrangement of the branches of the plant described?\n\nA. Historical landmarks in Europe\nB. Popular musical genres of the 21st century\nC. Fundamental principles of economics\nD. Common dishes in Italian cuisine",
+        "response": "<think>\n1. The plant has a central stem and numerous branching stems.\n2. The choices concern music, economics, and landmarks rather than the plant's arrangement.\n3. Therefore, none of the choices is correct.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "There is no correct answer / none of the above, or The branches are arching",
+        "score": "T"
+    },
+    "Tomato@8-28_10-53": {
+        "prompt": "What type of plant is described as having a thin brown trunk with multiple slender, branching stems and dense clusters of green leaves with serrated margins?\n\nA. Microprocessor\nB. Antibiotic\nC. Solar eclipse\nD. Quantum mechanics",
+        "response": "<think>\n1. The object is a green plant with a brown trunk and branching stems.\n2. The choices are unrelated concepts and do not describe this plant.\n3. Therefore, no listed answer is correct.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "There is no correct answer / none of the above, or A small tree or shrub",
+        "score": "T"
+    },
+    "Tomato@9-6_1-55": {
+        "prompt": "What is the shape and color of the trunk of the tree described?\n\nA. Circular and purple\nB. Triangular and gold\nC. Hexagonal and teal\nD. Oval and orange",
+        "response": "<think>\n1. The trunk is described as brown and slender.\n2. None of the listed shapes or colors matches the observed trunk.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "There is no correct answer / none of the above, or Slender and brown",
+        "score": "T"
+    },
+    "Tomato@9-3_10-3": {
+        "prompt": "What type of plant is described in the text?\n\nA. Quantum physics\nB. Classical music\nC. High fashion\nD. Astrophotography",
+        "response": "<think>\n1. The plant is described as a green leafy plant with a slender stem.\n2. None of the listed subjects corresponds to the plant.\n3. Therefore, no listed answer is correct.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "There is no correct answer / none of the above, or A tree with a broad canopy and twisting branches",
+        "score": "T"
+    },
+    "Tomato@8-31_20-28": {
+        "prompt": "What type of tree is described in the information?\n\nA. Mercury\nB. Jupiter\nC. Mars\nD. Saturn",
+        "response": "<think>\n1. The object is a green leafy plant with a slender stem and branching leaves.\n2. None of the planet names corresponds to the observed object.\n3. Therefore, no listed answer is correct.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "There is no correct answer / none of the above, or Deciduous tree",
+        "score": "T"
+    },
+    "Tomato@8-25_30-52": {
+        "prompt": "What type of appearance do the leaflets of the green woody branch have?\n\nA. An Octopus\nB. A Satellite\nC. A Meteor Shower\nD. A Volcano Eruption",
+        "response": "<think>\n1. The branch has numerous small leaflets arranged along its stems.\n2. None of the four choices describes this botanical appearance.\n3. Therefore, no listed answer is correct.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "There is no correct answer / none of the above, or Fern-like appearance",
+        "score": "T"
+    },
+    "Tomato@11-2_30-4": {
+        "prompt": "What color are the new growth tips of the climbing plant described?\n\nA. Volcano\nB. Galaxy\nC. Dinosaur\nD. Supernova",
+        "response": "<think>\n1. The descriptions identify a green plant with new growth tips.\n2. None of the choices corresponds to the observed plant.\n3. Therefore, no listed answer is correct.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "There is no correct answer / none of the above, or Lime green",
+        "score": "T"
+    },
+    "Tomato@9-14_10-3": {
+        "prompt": "What type of leaves does the tree have?\n\nA. Chocolate chip\nB. Blueberry muffin\nC. Spaghetti carbonara\nD. Vanilla ice cream",
+        "response": "<think>\n1. The object is a green leafy plant with a slender stem and branching stems.\n2. The descriptions do not identify any of the four listed foods.\n3. Therefore, no listed answer is correct.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "There is no correct answer / none of the above, or Finely divided, pinnate leaves",
+        "score": "T"
+    },
+    "Tomato@11-2_1-1": {
+        "prompt": "What is the characteristic shape of the plant described?\n\nA. Triangle\nB. Square\nC. Rectangle\nD. Pentagon",
+        "response": "<think>\n1. The plant is described as a slender stem with leaves and a branch.\n2. Its shape is not established as a triangle, square, rectangle, or pentagon.\n3. Therefore, no listed answer is correct.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "There is no correct answer / none of the above, or It has a central stem with arching fronds",
+        "score": "T"
+    },
+    "Tomato@8-28_20-28": {
+        "prompt": "What is the primary characteristic of the foliage of the described shrub or tree?\n\nA. Quantum mechanics\nB. Renaissance art\nC. Classical music composition\nD. Ancient architectural styles",
+        "response": "<think>\n1. The foliage is described as dense, feathery, and pinnate.\n2. None of the listed subjects corresponds to the observed plant.\n3. Therefore, no listed answer is correct.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "There is no correct answer / none of the above, or It consists of multiple small pinnate leaflets",
+        "score": "T"
+    },
+    "Tomato@8-25_1-1": {
+        "prompt": "What type of leaves are described as being on the plant branch?\n\nA. Stratosphere\nB. Atmosphere\nC. Ecosystem\nD. Biography",
+        "response": "<think>\n1. The plant has numerous green leaves and a branch.\n2. The choices concern the atmosphere, ecosystem, and biography rather than the plant's leaves.\n3. Therefore, no listed answer is correct.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "There is no correct answer / none of the above, or Broad, deeply lobed leaves with jagged edges",
+        "score": "T"
+    },
+    "Wheat@79": {
+        "prompt": "What is the texture of the leaves on the potted shrub described?\n\nA. Chocolate chip cookie\nB. Vanilla ice cream\nC. Strawberry jam\nD. Blueberry muffin",
+        "response": "<think>\n1. The leaves are described as green, feathery, and fern-like.\n2. None of the four food or beverage choices corresponds to that leaf texture.\n3. Therefore, there is no correct answer.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "There is no correct answer / none of the above, or Pointillistic texture",
+        "score": "T"
+    },
+    "Wheat@145": {
+        "prompt": "What type of plant is described in the room?\n\nA. Hydrogen\nB. Magnetism\nC. Algebra\nD. Renaissance",
+        "response": "<think>\n1. The object is a green plant with a slender stem and leaves.\n2. None of the listed scientific or artistic categories describes this plant.\n3. Therefore, no listed answer is correct.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "There is no correct answer / none of the above, or Bamboo",
+        "score": "T"
+    },
+    "Wheat@91": {
+        "prompt": "What color are the leaves of the potted plant?\n\nA. Mathematical theorem\nB. Historical event\nC. Culinary technique\nD. Musical genre",
+        "response": "<think>\n1. The plant's leaves are green.\n2. The listed options are mathematical, historical, culinary, and musical categories, not leaf colors.\n3. Therefore, no listed option is correct.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "There is no correct answer / none of the above, or Dark to light green",
+        "score": "T"
+    },
+    "Wheat@116": {
+        "prompt": "What type of plant is described in the room?\n\nA. Velocity of sound\nB. Internal combustion engine\nC. Photosynthesis reaction\nD. Quantum entanglement",
+        "response": "<think>\n1. The object is a green plant with a slender stem and leaves.\n2. The descriptions do not identify a sound velocity, internal combustion engine, photosynthesis reaction, or quantum entanglement.\n3. Therefore, no listed answer is correct.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "There is no correct answer / none of the above, or Bamboo",
+        "score": "T"
+    },
+    "Wheat@6": {
+        "prompt": "What type of plant is described in the room?\n\nA. Computer programming language\nB. Ancient architectural style\nC. Famous painting technique\nD. Popular musical genre",
+        "response": "<think>\n1. The object is a green plant with a slender stem and branching leaves.\n2. It is not a programming language, architectural style, painting technique, or musical genre.\n3. Therefore, none of the listed choices is correct.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "There is no correct answer / none of the above, or A bamboo-like plant with slender green stalks",
+        "score": "T"
+    },
+    "Wheat@11": {
+        "prompt": "What type of plant is described in the room?\n\nA. Mercury\nB. Oxygen\nC. Gold\nD. Hydrogen",
+        "response": "<think>\n1. The object is a green plant with a slender stem and leaves.\n2. None of the listed substances describes this plant.\n3. Therefore, no listed answer is correct.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "There is no correct answer / none of the above, or A tall, bamboo-like plant",
+        "score": "T"
+    },
+    "Wheat@34": {
+        "prompt": "What type of container is the houseplant situated in?\n\nA. Geography\nB. Mathematics\nC. Astronomy\nD. Music",
+        "response": "<think>\n1. The plant is shown in a dark blue pot.\n2. The choices are geography, mathematics, astronomy, and music, none of which describes the pot.\n3. Therefore, no listed answer is correct.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "There is no correct answer / none of the above, or Low rectangular planter",
+        "score": "T"
+    },
+    "Wheat@127": {
+        "prompt": "What is the arrangement of the bamboo stalks described in the room?\n\nA. Tropical rainforest climate\nB. Desert biome characteristics\nC. Arctic tundra vegetation\nD. Oceanic wave patterns",
+        "response": "<think>\n1. The object is described as a small potted plant with green stalks and leaves.\n2. The choices concern rainforest, desert, tundra, and oceanic environments rather than the plant's arrangement.\n3. Therefore, no listed choice is correct.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "There is no correct answer / none of the above, or They are clustered in a simple container",
+        "score": "T"
+    },
+    "Wheat@39": {
+        "prompt": "What is the structure of the trunk of the plant described?\n\nA. Ocean depth\nB. Mountain range\nC. Desert landscape\nD. Riverbank ecosystem",
+        "response": "<think>\n1. The plant has a slender brown trunk.\n2. None of the four choices describes this trunk structure.\n3. Therefore, no listed answer is correct.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "There is no correct answer / none of the above, or It is sturdy and brown",
+        "score": "T"
+    },
+    "Wheat@107": {
+        "prompt": "What type of plant is described?\n\nA. Hammerhead Shark\nB. Red Panda\nC. Snowy Owl\nD. Golden Retriever",
+        "response": "<think>\n1. The object is a green plant with a slender stem and multiple leaves.\n2. It is not a hammerhead shark, red panda, snowy owl, or golden retriever.\n3. Therefore, none of the listed choices is correct.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "There is no correct answer / none of the above, or A bushy houseplant",
+        "score": "T"
+    },
+    "Wheat@122": {
+        "prompt": "What is the shape of the leaves of the potted plant described?\n\nA. Sphere\nB. Cube\nC. Cylinder\nD. Pyramid",
+        "response": "<think>\n1. The plant has long, narrow, sword-like leaves.\n2. None of the listed geometric choices matches that shape.\n3. Therefore, no listed answer is correct.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "There is no correct answer / none of the above, or Tall and slender",
+        "score": "T"
+    },
+    "Wheat@52": {
+        "prompt": "What characteristic does the green potted plant display along its tall, slender stems?  \n\nA. Tropical rainforest climate\nB. Arctic tundra ecosystem\nC. Mediterranean cuisine\nD. Ancient Greek architecture",
+        "response": "<think>\n1. The plant is described as having numerous slender stems and green leaves.\n2. The choices concern climate, cuisine, and architecture rather than this plant's observed features.\n3. Therefore, no listed answer is correct.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "There is no correct answer / none of the above, or Narrow, elongated leaves",
+        "score": "T"
+    },
+    "Wheat@96": {
+        "prompt": "What is the primary color of the trunk of the potted plant?\n\nA. Mercury\nB. Calcium\nC. Silicon\nD. Sodium",
+        "response": "<think>\n1. The plant has a brown trunk.\n2. None of the listed element names describes that color.\n3. Therefore, no listed answer is correct.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "There is no correct answer / none of the above, or Brown",
+        "score": "T"
+    },
+    "Wheat@26": {
+        "prompt": "What is the position of the log in the described setting?\n\nA. Sapphire\nB. Emerald\nC. Ruby\nD. Topaz",
+        "response": "<think>\n1. The object is described as a small plant in a pot, not a gemstone.\n2. None of the listed gemstone names is supported by the available evidence.\n3. Therefore, no listed answer is correct.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "There is no correct answer / none of the above, or It is lying horizontally",
+        "score": "T"
+    },
+    "Wheat@88": {
+        "prompt": "What type of plant is described in the room?\n\nA. Chocolate chip cookie\nB. Cinnamon roll\nC. Marshmallow treat\nD. Peanut butter sandwich",
+        "response": "<think>\n1. The object is a green leafy plant with a slender stem and branching leaves.\n2. None of the four food choices describes this plant.\n3. Therefore, no listed answer is correct.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "There is no correct answer / none of the above, or A potted fern with slender leaves",
+        "score": "T"
+    },
+    "Wheat@25": {
+        "prompt": "What color are the tiny leaves of the plant described?\n\nA. Ocean\nB. Mountain\nC. Desert\nD. Forest",
+        "response": "<think>\n1. The plant has numerous tiny green leaves.\n2. The descriptions do not identify any of the four listed colors.\n3. Therefore, no listed answer is correct.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "There is no correct answer / none of the above, or Green",
+        "score": "T"
+    },
+    "Wheat@115": {
+        "prompt": "What color is the pot that holds the bamboo plant? \n\nA. Quantum\nB. Eclipse\nC. Galaxy\nD. Supernova",
+        "response": "<think>\n1. The pot is described as dark blue.\n2. None of the listed options corresponds to the pot's color.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "There is no correct answer / none of the above, or Light-colored",
+        "score": "T"
+    },
+    "Wheat@28": {
+        "prompt": "What shape is the planter that holds the bamboo-like plant?\n\nA. Feline\nB. Avocado\nC. Symphony\nD. Galaxy",
+        "response": "<think>\n1. The planter is described as a small round pot.\n2. None of the choices\u2014feline, avocado, symphony, or galaxy\u2014describes that shape.\n3. Therefore, no listed answer is correct.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "There is no correct answer / none of the above, or Rectangular",
+        "score": "T"
+    },
+    "Wheat@78": {
+        "prompt": "What shape does the small potted plant resemble?\n\nA. Quasar\nB. Algorithm\nC. Fusion\nD. Satellite",
+        "response": "<think>\n1. The plant is described as a small green plant with a slender stem and leaves.\n2. The choices are unrelated terms rather than the observed plant shape.\n3. Therefore, no listed option is correct.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "There is no correct answer / none of the above, or A bushy, palm-like silhouette",
+        "score": "T"
+    },
+    "Wheat@126": {
+        "prompt": "What type of plant is described in the room?\n\nA. Quantum mechanics\nB. Celestial navigation\nC. Impressionist painting\nD. Medieval architecture",
+        "response": "<think>\n1. The object is a green plant with a slender stem and long leaves.\n2. None of the listed academic or artistic categories describes this plant.\n3. Therefore, no listed answer is correct.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "There is no correct answer / none of the above, or Bamboo",
+        "score": "T"
+    },
+    "Wheat@125": {
+        "prompt": "What type of plant is described in the room?\n\nA. Jupiter's moons\nB. Ancient Egyptian hieroglyphs\nC. Renaissance art techniques\nD. The periodic table of elements",
+        "response": "<think>\n1. The object is a green plant with a slender stem and long, narrow leaves.\n2. None of the listed subjects describes this plant.\n3. Therefore, no listed answer is correct.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "There is no correct answer / none of the above, or Green plant with bamboo-like stems",
+        "score": "T"
+    },
+    "Wheat@60": {
+        "prompt": "What color are the stripes on the decorative pot of the plant?\n\nA. Mercury\nB. Jupiter\nC. Saturn\nD. Neptune",
+        "response": "<think>\n1. The pot is described as having blue-gray and purple-gray stripes.\n2. None of the planet names corresponds to the observed color.\n3. Therefore, no listed answer is correct.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "There is no correct answer / none of the above, or Brown and beige",
+        "score": "T"
+    },
+    "Wheat@131": {
+        "prompt": "What color is the pot that holds the plant?\n\nA. Giraffe\nB. Computer\nC. Universe\nD. Harmony",
+        "response": "<think>\n1. The pot is described as blue.\n2. The choices are a giraffe, computer, universe, and harmony, none of which is a color matching the pot.\n3. Therefore, no listed answer is correct.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "There is no correct answer / none of the above, or Brown",
+        "score": "T"
+    },
+    "Wheat@72": {
+        "prompt": "What is the primary color of the bamboo plant described?\n\nA. Carrot\nB. Lemon\nC. Eggshell\nD. Cocoa",
+        "response": "<think>\n1. The plant is described as green, with a brown base.\n2. None of the listed colors\u2014carrot, lemon, eggshell, or cocoa\u2014matches the observed green color.\n3. Therefore, no listed answer is correct.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "There is no correct answer / none of the above, or Green",
+        "score": "T"
+    },
+    "Wheat@149": {
+        "prompt": "What color are the leaves of the plant described?\n\nA. Cereal\nB. Pasta\nC. Ice cream\nD. Pizza",
+        "response": "<think>\n1. The plant has green leaves.\n2. None of the food choices corresponds to the observed leaf color.\n3. Therefore, no listed answer is correct.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "There is no correct answer / none of the above, or Green",
+        "score": "T"
+    },
+    "Wheat@119": {
+        "prompt": "What type of plant is described in the room?\n\nA. Bronze\nB. Symphony\nC. Enigma\nD. Harmony",
+        "response": "<think>\n1. The object is a branching plant with green leaves and a brown trunk.\n2. None of the listed choices describes this plant.\n3. Therefore, no listed answer is correct.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "There is no correct answer / none of the above, or A small potted fern",
+        "score": "T"
+    },
+    "Wheat@21": {
+        "prompt": "What color are the leaves of the plant described?\n\nA. Ocean\nB. Mountain\nC. Desert\nD. Forest",
+        "response": "<think>\n1. The plant has green leaves.\n2. The choices are ocean, mountain, desert, and forest, none of which is the observed leaf color.\n3. Therefore, no listed answer is correct.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "There is no correct answer / none of the above, or Dark olive-green",
+        "score": "T"
+    },
+    "Wheat@84": {
+        "prompt": "What type of silhouette does the potted plant create?\n\nA. Satellite\nB. Galaxy\nC. Comet\nD. Nebula",
+        "response": "<think>\n1. The plant is described as a green leafy silhouette.\n2. None of the listed options corresponds to that silhouette.\n3. Therefore, no listed answer is correct.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "There is no correct answer / none of the above, or A bushy, tree-like silhouette",
+        "score": "T"
+    },
+    "Wheat@4": {
+        "prompt": "What is the shape of the leaves on the potted plant?\n\nA. Quadratic equation\nB. Thermodynamic process\nC. Quantum entanglement\nD. Nutrient cycle",
+        "response": "<think>\n1. The leaves are described as long, narrow, and lance-shaped.\n2. None of the listed options is a leaf shape matching that description.\n3. Therefore, no listed answer is correct.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "There is no correct answer / none of the above, or Dense and feathery, narrow",
+        "score": "T"
+    },
+    "Wheat@109": {
+        "prompt": "What is the color of the leaves of the potted bamboo-like plant described?\n\nA. Classical music\nB. Quantum physics\nC. Digital marketing\nD. Ancient civilizations",
+        "response": "<think>\n1. The plant has numerous green leaves.\n2. The descriptions do not establish a leaf color, so no listed option fits.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "There is no correct answer / none of the above, or Dark green",
+        "score": "T"
+    },
+    "Wheat@89": {
+        "prompt": "What feature distinguishes the leaves of the indoor potted plant described?\n\nA. Quantum mechanics\nB. Digital photography\nC. Ancient civilizations\nD. Marine biology",
+        "response": "<think>\n1. The plant is described as having green leaves and a brown base.\n2. The listed choices are unrelated subjects rather than leaf features.\n3. Therefore, no choice is correct.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "There is no correct answer / none of the above, or The leaves arch along the nodes",
+        "score": "T"
+    },
+    "Wheat@14": {
+        "prompt": "What type of plant is described as having slender, upright stalks with long, narrow leaves? \n\nA. Classical Music\nB. City Landmarks\nC. Historical Fiction\nD. Ice Cream Flavors",
+        "response": "<think>\n1. The object is a tall green plant with slender stems and long, narrow leaves.\n2. It is not classical music, a city landmark, or an ice cream flavor.\n3. Therefore, none of the listed choices is correct.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "There is no correct answer / none of the above, or Bamboo-like plant",
+        "score": "T"
+    },
+    "Wheat@73": {
+        "prompt": "What is the primary color of the grass blades described?\n\nA. Jupiter\nB. Galaxy\nC. Dinosaur\nD. Computer",
+        "response": "<think>\n1. The grass blades are described as green.\n2. None of the listed options is green.\n3. Therefore, no listed answer is correct.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "There is no correct answer / none of the above, or Dark green",
+        "score": "T"
+    },
+    "Wheat@123": {
+        "prompt": "What type of plant is described in the room?\n\nA. Bicycle tire\nB. Electric guitar\nC. Vintage camera\nD. Summer vacation",
+        "response": "<think>\n1. The object is a potted plant with a slender stem and green leaves.\n2. It is not a bicycle tire, electric guitar, or vintage camera.\n3. The listed alternatives do not match the observed object.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "There is no correct answer / none of the above, or A cactus",
+        "score": "T"
+    },
+    "Wheat@102": {
+        "prompt": "What type of containers is the green bamboo-like plant potted in?\n\nA. Jazz music\nB. Solar energy\nC. Quantum physics\nD. Underwater basket weaving",
+        "response": "<think>\n1. The plant is described as a green bamboo-like plant in a pot.\n2. None of the listed subjects is a type of container.\n3. Therefore, no listed answer is correct.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "There is no correct answer / none of the above, or A transparent glass vase",
+        "score": "T"
+    },
+    "Wheat@80": {
+        "prompt": "What type of container is the bushy green shrub rooted in?\n\nA. Falconry glove\nB. Stealth technology\nC. Quantum computers\nD. Underwater basket weaving",
+        "response": "<think>\n1. The object is a green plant with a slender stem and leaves.\n2. It is not a falconry glove, stealth technology, or quantum computer.\n3. The available choices do not describe the object.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "There is no correct answer / none of the above, or A brown pot",
+        "score": "T"
+    },
+    "Wheat@87": {
+        "prompt": "What type of container is the plant in?\n\nA. Notebook\nB. Refrigerator\nC. Microwave\nD. Television",
+        "response": "<think>\n1. The plant is described as a small brown branch with green leaves.\n2. The available choices are a notebook, refrigerator, microwave, and television, none of which is a container.\n3. Therefore, no listed answer is correct.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "There is no correct answer / none of the above, or Brown pot",
+        "score": "T"
+    },
+    "Wheat@98": {
+        "prompt": "What shape does the green potted plant resemble due to its fronds?\n\nA. Elephant\nB. Guitar\nC. Computer\nD. Sandwich",
+        "response": "<think>\n1. The plant is described as a green, branching, fern-like plant.\n2. None of the four choices corresponds to that shape.\n3. Therefore, no listed answer is correct.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "There is no correct answer / none of the above, or A bushy, tropical look typical of a palm tree",
+        "score": "T"
+    },
+    "Wheat@137": {
+        "prompt": "What is the color of the trunk of the potted plant described?\n\nA. Symphony\nB. Harmony\nC. Melody\nD. Rhythm",
+        "response": "<think>\n1. The plant has a brown trunk.\n2. None of the listed musical terms describes the trunk's brown color.\n3. Therefore, no choice is correct.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "There is no correct answer / none of the above, or Brown",
+        "score": "T"
+    },
+    "Wheat@113": {
+        "prompt": "What shape are the leaves of the bamboo plant described?\n\nA. Quadratic equation\nB. Solar eclipse\nC. Algorithm efficiency\nD. Literature genre",
+        "response": "<think>\n1. The plant has long, narrow, pointed leaves.\n2. The choices are unrelated to the observed leaf shape.\n3. Therefore, no listed option is correct.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "There is no correct answer / none of the above, or Long and narrow",
+        "score": "T"
+    },
+    "Wheat@108": {
+        "prompt": "What feature describes the plant's structure?\n\nA. Quantum mechanics\nB. Ancient civilizations\nC. Marine biology\nD. Solar system formation",
+        "response": "<think>\n1. The plant is described as having a slender stem and green leaves.\n2. None of the listed scientific or historical categories describes this plant structure.\n3. Therefore, no listed answer is correct.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "There is no correct answer / none of the above, or Numerous long, narrow leaves radiating upward",
+        "score": "T"
+    },
+    "Wheat@7": {
+        "prompt": "What shape is the planter that the green plant is growing from?\n\nA. Harp\nB. Violin\nC. Tuba\nD. Flute",
+        "response": "<think>\n1. The plant is growing from a small brown planter.\n2. The descriptions do not establish a violin, tuba, or flute shape.\n3. Therefore, no listed answer is correct.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "There is no correct answer / none of the above, or Rectangular",
+        "score": "T"
+    },
+    "Wheat@42": {
+        "prompt": "What type of pot is the green potted plant housed in?\n\nA. Copper\nB. Diamond\nC. Silk\nD. Paper",
+        "response": "<think>\n1. The plant is housed in a dark brown pot.\n2. None of the listed materials is a dark brown pot.\n3. Therefore, no listed option is correct.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "There is no correct answer / none of the above, or Brown pot",
+        "score": "T"
+    },
+    "Wheat@92": {
+        "prompt": "What type of plant is described in the room? \n\nA. Mercury\nB. Jupiter\nC. Saturn\nD. Neptune",
+        "response": "<think>\n1. The object is a green plant with a slender stem and leaves.\n2. None of the planet names is a plant type.\n3. Therefore, no listed answer is correct.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "There is no correct answer / none of the above, or Bamboo",
+        "score": "T"
+    },
+    "Wheat@15": {
+        "prompt": "What type of container is the plant situated in?\n\nA. Microphone\nB. Refrigerator\nC. Telescope\nD. Sunglasses",
+        "response": "<think>\n1. The plant is described as a slender brown branch with green leaves.\n2. None of the listed objects is a plant container.\n3. Therefore, no listed option is correct.\n</think>\n<answer>There is no correct answer</answer>",
+        "correct_answer": "There is no correct answer / none of the above, or A weathered metal trough",
+        "score": "T"
+    }
+}
