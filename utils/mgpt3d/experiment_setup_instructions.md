@@ -4,15 +4,15 @@ Do heavy CPU work on slurm partition `mb`, not login nodes. Inspect large files 
 High-level steps (one or more):
 1. Create a custom dataset
 2. Custom architectural changes (only if the experiment needs them; often none)
-3. Set up the repo and launch train → infer → score
+3. Set up (or modify) the repo and launch train → infer → score
 
 ## Creating a custom dataset
-Reference (do not modify): `/project/3dllms/melgin/datasets/MiniGPT-3D_base`  
+Reference (do not modify/edit): `/project/3dllms/melgin/datasets/MiniGPT-3D_base`
 New folder under `/project/3dllms/melgin/datasets`, named `MiniGPT-3D_ft-comb_<dataset>_<experiment shorthand>` (e.g. shorthand `cot_test1`).
 
 "Laundered" = MiniGPT-3D base training artefacts + the extra point-cloud dataset, combined in those artefacts.
 
-Required layout:
+Required minimum layout:
 - `anno_data/`
 - `modelnet40_data/`
 - root symlink `modelnet40_test_8192pts_fps.dat` → `../MiniGPT-3D_base/modelnet40_test_8192pts_fps.dat`
