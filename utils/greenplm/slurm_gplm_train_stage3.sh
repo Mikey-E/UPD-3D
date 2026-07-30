@@ -31,4 +31,14 @@ fi
 conda activate greenplm
 
 export WANDB_MODE=disabled
+
+# Experiment name → checkpoint dir suffix (stage_N_<EXP_NAME>).
+# Usage: sbatch slurm_gplm_train_stage3.sh <experiment_name>
+#    or: EXP_NAME=<experiment_name> sbatch ...
+if [[ -n "${1:-}" ]]; then
+    export EXP_NAME="$1"
+fi
+: "${EXP_NAME:?Pass experiment name as arg1 or set EXP_NAME}"
+echo "EXP_NAME=${EXP_NAME}  (checkpoints → ./checkpoints/stage_3_${EXP_NAME})"
+
 bash ./release/paper/scripts/train/3.sh
