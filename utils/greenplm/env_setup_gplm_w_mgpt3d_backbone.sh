@@ -40,7 +40,7 @@ python -m pip install open3d
 
 # import open3d as o3d
 
-# def read_pc_2tesnor(object_id):
+# def read_pc_2tensor(object_id):
 #     data_path = './dataset/Objaverse/8192_npy'
 
 #     filename = f"{object_id}_8192.npy"
