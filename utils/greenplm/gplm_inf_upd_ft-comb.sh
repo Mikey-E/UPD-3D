@@ -4,7 +4,7 @@ SUBFOLDER_ARG="$1"
 
 CUDA_VISIBLE_DEVICES=0 python gplm_inf_upd.py \
     --batch_size 10 \
-    --max_new_tokens 50 \
+    --max_new_tokens 512 \
     --num_beams 5 \
     --temperature 0.1 \
     --top_p 0.1 \
