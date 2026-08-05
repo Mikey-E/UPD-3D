@@ -1,0 +1,908 @@
+{
+    "Lemons@04_18_2024_W_F_Lemons1_F_1": {
+        "prompt": "What color are the lemons in the dense pile of fruit?\n\nA. Green\nB. Orange\nC. Red\nD. Yellow",
+        "response": "The lemons in the dense pile of fruit are yellow.",
+        "correct_answer": "Yellow",
+        "score": "T"
+    },
+    "Lemons@04_19_2024_W4_F_Lemons1_F_1": {
+        "prompt": "What is the primary color of the lemons described?\n\nA. Red\nB. Yellow\nC. Green\nD. Orange",
+        "response": "The primary color of the lemons described is yellow.",
+        "correct_answer": "Yellow",
+        "score": "T"
+    },
+    "Lime@04_18_2024_W_F_Limes1_F_1": {
+        "prompt": "What is the shape of the limes described?\n\nA. Triangular\nB. Round to oval\nC. Oblong\nD. Square",
+        "response": "The limes are described as being round to oval in shape.",
+        "correct_answer": "Round to oval",
+        "score": "T"
+    },
+    "Mangoes@04_18_2024_W3_F_Mangoes1_F_1": {
+        "prompt": "What shape are the mangoes described in the container?\n\nA. Oval to oblong\nB. Cylindrical\nC. Round\nD. Cubic",
+        "response": "The mangoes described in the container are oval to oblong in shape.",
+        "correct_answer": "Oval to oblong",
+        "score": "T"
+    },
+    "Mangoes@04_18_2024_W_F_Mangoes1_F_1": {
+        "prompt": "What shape do mangoes have?\n\nA. Oval\nB. Circular\nC. Square\nD. Triangular",
+        "response": "The mangoes have an oval shape.\n\n3D model of a mango\nA 3D model of a ripe mango.",
+        "correct_answer": "Oval",
+        "score": "T"
+    },
+    "Mayo@04_19_2024_S2_F_Mayo_P_2": {
+        "prompt": "What colors are the lids of the mayonnaise jars on the shelf?\n\nA. Red\nB. Blue\nC. Yellow\nD. Green",
+        "response": "The lids of the mayonnaise jars on the shelf are yellow.",
+        "correct_answer": "Blue",
+        "score": "F"
+    },
+    "Melons@04_19_2024_S2_F_Melons1_F_1": {
+        "prompt": "What is the surface texture of a watermelon rind?\n\nA. Rough and bumpy\nB. Smooth and firm\nC. Soft and fuzzy\nD. Sticky and wet",
+        "response": "The surface texture of a watermelon rind is smooth and firm.",
+        "correct_answer": "Smooth and firm",
+        "score": "T"
+    },
+    "Melons@04_19_2024_S_F_Melons_F_2": {
+        "prompt": "What type of fruit is described as having rough diamond-pattern skin and spiky green leaves?\n\nA. Mango\nB. Pineapple\nC. Kiwi\nD. Cantaloupe",
+        "response": "Correct answer: B. Pineapple\n\nA 3D model of a pineapple is described as having rough diamond-pattern skin and spiky green leaves. The pineapple is a tropical fruit known for",
+        "correct_answer": "Pineapple",
+        "score": "T"
+    },
+    "Melons@04_19_2024_W4_F_Melons1_F_1": {
+        "prompt": "What type of fruit is described as having tan, netted rinds and is typically round to slightly oval in shape?\n\nA. Watermelon\nB. Pineapple\nC. Cantaloupe\nD. Kiwi",
+        "response": "The correct answer is A. Watermelon. It is described as having tan, netted rinds and is typically round to slightly oval in shape.",
+        "correct_answer": "Cantaloupe",
+        "score": "F"
+    },
+    "Melons@04_19_2024_W4_F_Watermelons1_F_1": {
+        "prompt": "What is the primary color of the rind of a watermelon?\n\nA. Dark green\nB. Pale green\nC. Bright red\nD. Light blue",
+        "response": "The primary color of the rind of a watermelon is B. Pale green.",
+        "correct_answer": "Pale green",
+        "score": "T"
+    },
+    "MultiFruits@04_04_2024_W_C_FruitsLong1_F_1": {
+        "prompt": "What type of fruit is described as having a rough, diamond-patterned rind and spiky leafy crowns?\n\nA. Avocado\nB. Onion\nC. Tomato\nD. Pineapple",
+        "response": "Correct answer is D. Pineapple.\n\nA 3D model of a pineapple is described as having a rough, diamond-patterned rind and spiky leafy crowns. The pine",
+        "correct_answer": "Pineapple",
+        "score": "T"
+    },
+    "MultiFruits@04_19_2024_S_F_Fruits1_F_1": {
+        "prompt": "What colors of fruit are included in the assortment described?\n\nA. Black, gray, tan, and indigo\nB. Blue, purple, pink, and white\nC. Orange, yellow, green, and red\nD. Brown, cream, gold, and silver",
+        "response": "3D model of a fruit assortment featuring black, gray, tan, and indigo fruits.",
+        "correct_answer": "Orange, yellow, green, and red",
+        "score": "F"
+    },
+    "Nectarines@04_19_2024_W4_F_Nectarines1_F_1": {
+        "prompt": "What type of fruit is described in the pile?\n\nA. Apples\nB. Peaches\nC. Plums\nD. Cherries",
+        "response": "Answer: A. Apples\n\nA 3D model of a cartoon-style apple.",
+        "correct_answer": "Peaches",
+        "score": "F"
+    },
+    "Nuts@04_18_2024_W3_F_Nuts_P_2": {
+        "prompt": "What color are the lids of the Planters jars and tins?\n\nA. Red\nB. Green\nC. Blue\nD. Yellow",
+        "response": "The lids of the Planters jars and tins are green.",
+        "correct_answer": "Blue",
+        "score": "F"
+    },
+    "Nuts@04_18_2024_W_F_Nuts1_P_1": {
+        "prompt": "What color are the cylindrical cans in the collection?\n\nA. Red\nB. Yellow\nC. Green\nD. Blue",
+        "response": "The cylindrical cans in the collection are yellow.",
+        "correct_answer": "Blue",
+        "score": "F"
+    },
+    "Oil@04_18_2024_W_F_Oil_P_3": {
+        "prompt": "What color are the screw-on caps of the bottles filled with cooking oil?\n\nA. Red\nB. Blue\nC. Yellow\nD. Green",
+        "response": "The screw-on caps of the bottles filled with cooking oil are blue.",
+        "correct_answer": "Blue",
+        "score": "T"
+    },
+    "Oil@04_19_2024_W_F_Oils_P_2": {
+        "prompt": "What is the color of the liquid contained in the translucent plastic bottles?\n\nA. Red\nB. Dark green\nC. Clear\nD. Pale yellow",
+        "response": "The liquid contained in the translucent plastic bottles is dark green.",
+        "correct_answer": "Pale yellow",
+        "score": "F"
+    },
+    "OliveOil@04_19_2024_S_F_OliveOil_P_3": {
+        "prompt": "What is the predominant material of the cooking-oil bottles described?\n\nA. Ceramic\nB. Metal\nC. Dark glass or plastic\nD. Paper",
+        "response": "The predominant material of the cooking-oil bottles described is dark glass or plastic.",
+        "correct_answer": "Dark glass or plastic",
+        "score": "T"
+    },
+    "Onions@04_19_2024_S2_F_Onions1_V_1": {
+        "prompt": "What color are the skins of the onions in the pile?\n\nA. Red only\nB. Green only\nC. Blue only\nD. White to yellow-brown",
+        "response": "The skins of the onions in the pile are white to yellow-brown.",
+        "correct_answer": "White to yellow-brown",
+        "score": "T"
+    },
+    "Onions@04_19_2024_S2_F_Onions2_V_1": {
+        "prompt": "Which of the following best describes the appearance of the white onions?\n\nA. They are flat and wide with a dark green skin\nB. They are small, elongated bulbs with rough brown skins\nC. They have a bright yellow color and a rugged surface\nD. They have a smooth, white exterior with a pale green tint at the bottom",
+        "response": "Answer:D. They have a smooth, white exterior with a pale green tint at the bottom.",
+        "correct_answer": "They have a smooth, white exterior with a pale green tint at the bottom",
+        "score": "T"
+    },
+    "Onions@04_19_2024_S2_F_Onions3_V_1": {
+        "prompt": "What types of squash are present in the assortment described?\n\nA. Dark green ribbed pumpkins and butternut squash\nB. Kabocha and smooth zucchini\nC. Ribbed pumpkins and yellow squash\nD. Elongated pumpkins and white squash",
+        "response": "Answer:A. Dark green ribbed pumpkins and butternut squash, B. Kabocha and smooth zucchini, C. Ribbed pumpkins and yellow squash, and D. Elongated",
+        "correct_answer": "Dark green ribbed pumpkins and butternut squash",
+        "score": "F"
+    },
+    "Onions@04_19_2024_W4_F_Onions2_V_1": {
+        "prompt": "What color are the skins of white onions described in the room?\n\nA. White\nB. Blue\nC. Green\nD. Yellow",
+        "response": "The skins of the white onions in the room are white.",
+        "correct_answer": "White",
+        "score": "T"
+    },
+    "Onions@04_19_2024_W4_F_RedOnions1_V_1": {
+        "prompt": "What is the primary color of the skins of the onions described?\n\nA. Yellow\nB. Purple-red\nC. Green\nD. White",
+        "response": "The primary color of the skins of the onions described is purple-red.",
+        "correct_answer": "Purple-red",
+        "score": "T"
+    },
+    "Orange@04_18_2024_W_F_Oranges1_F_1": {
+        "prompt": "What is the color of the oranges described in the pile?  \n\nA. Yellow\nB. Red\nC. Green\nD. Bright Orange",
+        "response": "The oranges described in the pile are bright orange.",
+        "correct_answer": "Bright Orange",
+        "score": "T"
+    },
+    "Orange@04_19_2024_S2_F_Oranges1_F_1": {
+        "prompt": "What type of fruit is most prominent in the assortment described?\n\nA. Lemons\nB. Apples\nC. Oranges\nD. Limes",
+        "response": "Answer:A. Lemons are most prominent in the assortment.",
+        "correct_answer": "Oranges",
+        "score": "F"
+    },
+    "Orange@04_19_2024_W4_F_Oranges1_F_1": {
+        "prompt": "What color are the oranges described in the pile?\n\nA. Yellow\nB. Green\nC. Red\nD. Orange",
+        "response": "The oranges in the pile are described as being orange. This is inferred from the term 'oranges' in the name of the pile.\n\n3D model of a pile of oranges.",
+        "correct_answer": "Orange",
+        "score": "T"
+    },
+    "PastaSauce@04_18_2024_W3_F_PastaSauce1_P_1": {
+        "prompt": "What type of packaging is associated with some of the jars of tomato sauce in the room?\n\nA. Plastic containers\nB. Cardboard packaging\nC. Wooden crates\nD. Metal tins",
+        "response": "The jars of tomato sauce in the room are packaged in plastic containers.",
+        "correct_answer": "Cardboard packaging",
+        "score": "F"
+    },
+    "PastaSauce@04_19_2024_S2_F_PastaSauce_P_2": {
+        "prompt": "What color are the jars' labels?\n\nA. Green\nB. Blue\nC. Red\nD. Yellow",
+        "response": "The labels on the jars are blue.",
+        "correct_answer": "Red",
+        "score": "F"
+    },
+    "PeanutButter@04_18_2024_W3_F_PeanutButter_P_2": {
+        "prompt": "What colors are the lids of the Jif peanut butter jars?\n\nA. Orange and Purple\nB. Blue and Yellow\nC. Red and Green\nD. Black and White",
+        "response": "The lids of the Jif peanut butter jars are orange and purple.",
+        "correct_answer": "Red and Green",
+        "score": "F"
+    },
+    "PeanutButter@04_18_2024_W_F_PeanutButter_P_3": {
+        "prompt": "What colors are the lids of the jars in the collection?\n\nA. White, yellow, red, and blue\nB. Green and orange\nC. Black and purple\nD. Pink and grey",
+        "response": "The lids of the jars in the collection are white, yellow, red, and blue.",
+        "correct_answer": "White, yellow, red, and blue",
+        "score": "T"
+    },
+    "Pears@04_18_2024_W3_F_Pears1_F_1": {
+        "prompt": "What is the predominant color range of the pears described?\n\nA. Red to deep purple\nB. Orange to light orange\nC. Green to dark green\nD. Yellow to yellow-green and golden-brown",
+        "response": "Answer:D. Yellow to yellow-green and golden-brown.",
+        "correct_answer": "Yellow to yellow-green and golden-brown",
+        "score": "T"
+    },
+    "Pears@04_19_2024_W4_F_Pears1_F_1": {
+        "prompt": "What is a characteristic feature of the red apples described?\n\nA. They have glossy and smooth skin\nB. They have several large brown spots\nC. They are elongated in shape\nD. They are covered in thick fuzz",
+        "response": "The correct answer is A. They have glossy and smooth skin.\n\n3D model of red apples with glossy and smooth skin.",
+        "correct_answer": "They have glossy and smooth skin",
+        "score": "T"
+    },
+    "Peppers@04_18_2024_W3_F_GreenPeppers1_F_1": {
+        "prompt": "What is the shape of green bell peppers as described?\n\nA. Round and smooth\nB. Flat and oval\nC. Long and slender\nD. Chunky and blocky",
+        "response": "The correct answer is B. Flat and oval. Green bell peppers are typically flat and oval in shape.",
+        "correct_answer": "Chunky and blocky",
+        "score": "F"
+    },
+    "Peppers@04_18_2024_W3_F_Peppers1_F_1": {
+        "prompt": "What colors are the bell peppers mentioned in the description?\n\nA. Red, Orange, Yellow\nB. Blue, Green, Purple\nC. White, Brown, Black\nD. Pink, Gray, Teal",
+        "response": "The bell peppers mentioned in the description are red, orange, and yellow.",
+        "correct_answer": "Red, Orange, Yellow",
+        "score": "T"
+    },
+    "Peppers@04_18_2024_W_F_GreenPeppers1_F_1": {
+        "prompt": "What is the shape of the green bell peppers described?\n\nA. Long and slender with pointed ends\nB. Firm, plump, and blocky with rounded lobes\nC. Thin and curvy with long stems\nD. Round and hollow with uneven surfaces",
+        "response": "Answer:B. Firm, plump, and blocky with rounded lobes.",
+        "correct_answer": "Firm, plump, and blocky with rounded lobes",
+        "score": "T"
+    },
+    "Peppers@04_19_2024_W4_F_Peppers1_F_1": {
+        "prompt": "What colors are the bell peppers described in the room?  \n\nA. Blue and purple\nB. White and black\nC. Yellow, green, red, and orange\nD. Pink and brown",
+        "response": "The bell peppers in the room are described as yellow, green, red, and orange.",
+        "correct_answer": "Yellow, green, red, and orange",
+        "score": "T"
+    },
+    "Pickles@04_18_2024_W_F_Pickles_P_2": {
+        "prompt": "What color are the lids of the cylindrical jars filled with pickles?\n\nA. Green\nB. Blue\nC. Purple\nD. Orange",
+        "response": "The lids of the cylindrical jars filled with pickles are green.",
+        "correct_answer": "Blue",
+        "score": "F"
+    },
+    "Pickles@04_19_2024_W_F_Pickles_P_2": {
+        "prompt": "What color are the lids of the jars holding the dill pickles?\n\nA. Red\nB. Green\nC. White\nD. Bright blue or yellow",
+        "response": "The lids of the jars holding the dill pickles are bright blue or yellow.",
+        "correct_answer": "Bright blue or yellow",
+        "score": "T"
+    },
+    "Pineapples@04_18_2024_W_F_Pineapples1_F_1": {
+        "prompt": "What color hues can predominantly be found on the rind of pineapples?\n\nA. Blue and purple\nB. White and black\nC. Red and orange\nD. Yellow-brown to yellow-green",
+        "response": ".\n\nAnswer:D. Yellow-brown to yellow-green.\n\n3D model of a pineapple.",
+        "correct_answer": "Yellow-brown to yellow-green",
+        "score": "T"
+    },
+    "Pineapples@04_19_2024_W4_F_Pineapples1_F_1": {
+        "prompt": "What is the shape of pineapples?\n\nA. Oval to cylindrical\nB. Square\nC. Triangular\nD. Flat",
+        "response": "The correct answer is A. Oval to cylindrical.\n\n3D model of a pineapple\nA 3D model of a pineapple.",
+        "correct_answer": "Oval to cylindrical",
+        "score": "T"
+    },
+    "Plantains@04_19_2024_W4_F_Plantains1_F_1": {
+        "prompt": "What is the typical appearance of bananas as described?\n\nA. They are round and red\nB. They are large and purple\nC. They are curved and yellow\nD. They are flat and green",
+        "response": "Correct answer is C. They are curved and yellow.\n\n3D model of a banana: A 3D model of a banana is a representation of a banana in a three-dimensional space. It is",
+        "correct_answer": "They are curved and yellow",
+        "score": "T"
+    },
+    "Potatoes@04_18_2024_W3_F_Potatoes1_V_1": {
+        "prompt": "What is the shape of the tubers described in the room?\n\nA. Round and smooth\nB. Flat and square\nC. Elongated to oval with tapered ends\nD. Short and bulbous",
+        "response": "The tubers described in the room are elongated to oval with tapered ends.",
+        "correct_answer": "Elongated to oval with tapered ends",
+        "score": "T"
+    },
+    "Potatoes@04_18_2024_W3_F_Potatoes2_V_1": {
+        "prompt": "What is the shape of the potatoes described?\n\nA. Elongated oval\nB. Round\nC. Perfectly spherical\nD. Flat",
+        "response": "and disc-shaped\n\nAnswer: A. Elongated oval\n\n3D model of a potato\nA 3D model of a potato is a digital representation of a real-world object, in this case,",
+        "correct_answer": "Elongated oval",
+        "score": "T"
+    },
+    "Potatoes@04_19_2024_W4_F_Potatoes1_V_1": {
+        "prompt": "What color variation is present in the assortment of tubers described?\n\nA. Dark green and yellow\nB. Purple and white\nC. Brown and orange-brown\nD. Red and pink",
+        "response": "Correct answer is C. Brown and orange-brown.\n\n3D model of an assortment of brown and orange-brown tubers.",
+        "correct_answer": "Brown and orange-brown",
+        "score": "T"
+    },
+    "Ranch@04_18_2024_W_F_Ranch_P_2": {
+        "prompt": "What color are the caps of the plastic ranch-dressing bottles?\n\nA. Red\nB. Green\nC. Blue\nD. Black",
+        "response": "The caps of the plastic ranch-dressing bottles are red.",
+        "correct_answer": "Blue",
+        "score": "F"
+    },
+    "Ranch@04_19_2024_W_F_Ranch_P_2": {
+        "prompt": "What colors are present on the bags of croutons?\n\nA. Blue, Red, Yellow, Green\nB. Black, White, Yellow, Blue\nC. Red, Brown, White, Cream\nD. Yellow, Orange, Burgundy, Green",
+        "response": "3D model of a bag of croutons.",
+        "correct_answer": "Yellow, Orange, Burgundy, Green",
+        "score": "F"
+    },
+    "Random@04_18_2024_W_F_Doritos_P_3": {
+        "prompt": "What colors are prominently featured in the snack chip packaging?\n\nA. Pink and brown\nB. Green and yellow\nC. Orange and blue\nD. Black and white",
+        "response": "Answer:A. Pink and brown\n\n3D model of a pink and brown snack chip packaging.",
+        "correct_answer": "Orange and blue",
+        "score": "F"
+    },
+    "Random@04_18_2024_W_F_MacAndCheese1_P_1": {
+        "prompt": "What colors are primarily used in the packaging of the macaroni-and-cheese products described?\n\nA. Red and green\nB. Green and purple\nC. Blue and orange\nD. Yellow and blue",
+        "response": "The packaging of the macaroni-and-cheese products described are primarily red and green.",
+        "correct_answer": "Yellow and blue",
+        "score": "F"
+    },
+    "Random@04_18_2024_W_F_Mustard_P_2": {
+        "prompt": "What color are the jars that contain mayonnaise?\n\nA. White\nB. Beige\nC. Yellow\nD. Dark",
+        "response": "brown\n\nThe jars that contain mayonnaise are dark brown.",
+        "correct_answer": "White",
+        "score": "F"
+    },
+    "Random@04_18_2024_W_F_Random_P_3": {
+        "prompt": "What color are the caps on the white bottles with blue labels?\n\nA. Red\nB. Blue\nC. Yellow\nD. Green",
+        "response": "The caps on the white bottles with blue labels are yellow.",
+        "correct_answer": "Blue",
+        "score": "F"
+    },
+    "Random@04_18_2024_W_F_Tortillas1_P_1": {
+        "prompt": "What colors are present in the branding of the Mission tortillas?\n\nA. Black and orange\nB. Green and yellow\nC. Purple and white\nD. Red and blue",
+        "response": "The branding of the Mission tortillas is green and yellow.",
+        "correct_answer": "Red and blue",
+        "score": "F"
+    },
+    "Random@04_19_2024_W4_F_MixedNuts_P_3": {
+        "prompt": "What color are the lids of the jars and cans containing the peanut products?\n\nA. Red\nB. Green\nC. Blue\nD. Yellow",
+        "response": "The lids of the jars and cans containing the peanut products are red.",
+        "correct_answer": "Blue",
+        "score": "F"
+    },
+    "Salsa@04_18_2024_W3_F_Salsa1_P_1": {
+        "prompt": "What color are the lids of the glass jars of red Pace-brand salsa?\n\nA. Green\nB. Bright red\nC. Bright yellow\nD. Blue",
+        "response": "The lids of the glass jars of red Pace-brand salsa are bright red.",
+        "correct_answer": "Bright yellow",
+        "score": "F"
+    },
+    "Salsa@04_19_2024_W4_F_Salsa_P_3": {
+        "prompt": "What type of lid is featured on the Herdez salsa jars?\n\nA. Squeezable tops\nB. Plastic caps\nC. Metal lids\nD. Screw caps",
+        "response": "The Herdez salsa jars feature a squeezable top.",
+        "correct_answer": "Screw caps",
+        "score": "F"
+    },
+    "Sauce@04_19_2024_S2_F_Sauce1_P_1": {
+        "prompt": "What type of packaging can be found among the assorted foods and condiments?\n\nA. Plastic bottles with labels\nB. Cardboard boxes\nC. Wooden containers\nD. Metal cans and glass bottles",
+        "response": "The correct answer is D. Metal cans and glass bottles. However, it's important to note that all types of packaging can be found among the assorted foods and condiments in the 3D model.",
+        "correct_answer": "Metal cans and glass bottles",
+        "score": "T"
+    },
+    "Sauce@04_19_2024_S2_F_Sauce_P_2": {
+        "prompt": "What colors are the caps of the condiment bottles in the room?\n\nA. Yellow, orange, purple\nB. Red, black, white, blue, green\nC. Pink, gray, silver\nD. Brown, cream, teal",
+        "response": "The caps of the condiment bottles in the room are red, black, white, blue, and green.",
+        "correct_answer": "Red, black, white, blue, green",
+        "score": "T"
+    },
+    "Sauce@04_19_2024_W4_F_Sauce_P_3": {
+        "prompt": "What type of food product is contained in the clear, cylindrical glass jars?\n\nA. Salad dressing\nB. Tomato sauce\nC. Pickles\nD. Jelly",
+        "response": "or jam\n\n3D model of a clear, cylindrical glass jar containing a food product.",
+        "correct_answer": "Tomato sauce",
+        "score": "F"
+    },
+    "Snacks@04_18_2024_W2_F_Snacks_P_2": {
+        "prompt": "What types of bags are used for the display of pretzel varieties?\n\nA. Red and black bags\nB. Brown and white bags\nC. Yellow and purple bags\nD. Green and navy bags",
+        "response": "Answer:A. Red and black bags\n\n3D model of pretzels in red and black bags.",
+        "correct_answer": "Green and navy bags",
+        "score": "F"
+    },
+    "Soup@04_19_2024_W4_F_Soup_P_3": {
+        "prompt": "What colors are prominently featured on the labels of the stacked soup cans?\n\nA. Blue and yellow\nB. Green and white\nC. Red and white\nD. Black and orange",
+        "response": "Answer:A. Blue and yellow\n\n3D model of a stack of blue and yellow soup cans.",
+        "correct_answer": "Red and white",
+        "score": "F"
+    },
+    "Spices@04_18_2024_W_F_Spices_P_3": {
+        "prompt": "What type of goods are prominently displayed on the gray metal display rack?\n\nA. Fresh fruits and vegetables\nB. Raw meats\nC. Sealed goods\nD. Frozen desserts",
+        "response": "Answer:A. Fresh fruits and vegetables are prominently displayed on the gray metal display rack.\n\n3D model of a gray metal display rack featuring fresh fruits and vegetables.",
+        "correct_answer": "Sealed goods",
+        "score": "F"
+    },
+    "Spices@04_19_2024_W_F_Spices_P_2": {
+        "prompt": "What types of containers are included on the store shelf according to the description?\n\nA. Only rectangular beverage cartons and glass bottles\nB. An assortment including beverage cartons, glass bottles, spice jars, aerosol cans, and paint cans\nC. Only glass spice jars and aerosol spray cans\nD. Only cylindrical paint cans and aerosol spray cans",
+        "response": "B. An assortment including beverage cartons, glass bottles, spice jars, aerosol cans, and paint cans.",
+        "correct_answer": "An assortment including beverage cartons, glass bottles, spice jars, aerosol cans, and paint cans",
+        "score": "T"
+    },
+    "Sugar@04_18_2024_W_F_Sugar_P_3": {
+        "prompt": "Which color bags of granulated sugar are present on the store shelf?\n\nA. Red granulated sugar bags\nB. Black granulated sugar bags\nC. Yellow granulated sugar bags\nD. Blue granulated sugar bags",
+        "response": "Answer:A. Red granulated sugar bags and B. Black granulated sugar bags are present on the store shelf.",
+        "correct_answer": "Blue granulated sugar bags",
+        "score": "F"
+    },
+    "Sugar@04_19_2024_W_F_Sugar_P_2": {
+        "prompt": "What is the color of the dominant sweetener box in the display?\n\nA. Yellow\nB. Red\nC. Dark-green\nD. Blue",
+        "response": "The dominant sweetener box in the display is dark-green.",
+        "correct_answer": "Dark-green",
+        "score": "T"
+    },
+    "Tomato@04_19_2024_W4_F_CanTomato_P_3": {
+        "prompt": "What colors are prominently featured on the labels of the cylindrical metal cans containing tomato products?\n\nA. Green, purple, and orange\nB. Red, white, yellow, and blue\nC. Black, grey, and silver\nD. Pink, brown, and teal",
+        "response": "Correct answer is B. Red, white, yellow, and blue.\n\nThe labels on the cylindrical metal cans containing tomato products prominently feature the colors red, white, yellow, and blue. These colors",
+        "correct_answer": "Red, white, yellow, and blue",
+        "score": "T"
+    },
+    "Tomatoes@04_18_2024_W_F_Tomatoes2_F_1": {
+        "prompt": "What shape variations can be observed among the tomatoes in the heap?\n\nA. All tomatoes are perfectly round\nB. No tomatoes have stickers\nC. All tomatoes have green stems\nD. Some tomatoes are slightly flattened",
+        "response": "or misshapen\n\nAnswer:D. Some tomatoes are slightly flattened or misshapen.\n\n3D model of a heap of tomatoes.",
+        "correct_answer": "Some tomatoes are slightly flattened",
+        "score": "T"
+    },
+    "Tomatoes@04_19_2024_S2_F_Tomatoes1_F_1": {
+        "prompt": "What type of tomatoes are packaged in purple clamshell packaging?\n\nA. Green bell peppers\nB. Plum tomatoes\nC. Cherry tomatoes\nD. Yellow bell peppers",
+        "response": "Correct answer: C. Cherry tomatoes\n\n3D model of cherry tomatoes in purple clamshell packaging.",
+        "correct_answer": "Cherry tomatoes",
+        "score": "T"
+    },
+    "Tomatoes@04_19_2024_W4_F_Tomatoes1_F_1": {
+        "prompt": "What shapes are the tomatoes described in the room?\n\nA. Oval shapes\nB. Square shapes\nC. Triangular shapes\nD. Round to slightly flattened spheres",
+        "response": "The tomatoes in the room are described as D. Round to slightly flattened spheres.",
+        "correct_answer": "Round to slightly flattened spheres",
+        "score": "T"
+    },
+    "Tomatoes@04_19_2024_W4_F_Tomatoes2_F_1": {
+        "prompt": "What is the predominant color of the tomatoes described?\n\nA. Red\nB. Yellow\nC. Green\nD. Blue",
+        "response": "The predominant color of the tomatoes described is red.",
+        "correct_answer": "Red",
+        "score": "T"
+    },
+    "VariousVeggies@04_04_2024_W_C_Various_P_2": {
+        "prompt": "What colors are the beverage-mix boxes described in the room? \n\nA. Teal, blue, white and other bright colors\nB. Red, green, yellow and orange\nC. Black, grey and beige\nD. Purple, pink and gold",
+        "response": "Correct answer is A. Teal, blue, white and other bright colors.",
+        "correct_answer": "Teal, blue, white and other bright colors",
+        "score": "T"
+    },
+    "VariousVeggies@04_18_2024_W_F_Various_P_2": {
+        "prompt": "What color are the labels on the Real Mayo jars?\n\nA. Blue\nB. Red\nC. Yellow\nD. Green",
+        "response": "The labels on the Real Mayo jars are red.",
+        "correct_answer": "Blue",
+        "score": "F"
+    },
+    "Vinegar@04_19_2024_S2_F_Vinegar_P_3": {
+        "prompt": "What characteristic is common among the glass bottles described?\n\nA. They have colorful labels.\nB. They are all the same height.\nC. They only contain water.\nD. They are made of plastic.",
+        "response": "Correct answer is A. They have colorful labels.\n\n3D model of a glass bottle with a label.\n3D model of a glass bottle containing water.\n3D model of a glass bottle",
+        "correct_answer": "They have colorful labels.",
+        "score": "T"
+    },
+    "AppleJuice@04_18_2024_W2_F_AppleJuice2_P_3": {
+        "prompt": "What are the beverage jugs in the room primarily filled with?\n\nA. Dark cranberry juice\nB. Water\nC. Lemonade\nD. Soda",
+        "response": "The beverage jugs in the room are primarily filled with dark cranberry juice.",
+        "correct_answer": "Dark cranberry juice",
+        "score": "T"
+    },
+    "Apples@03_04_2024_S_L_Apples_F_2": {
+        "prompt": "What colors are the apples in the pile?\n\nA. Green and yellow\nB. Blue and red\nC. Orange and purple\nD. Red, yellow, and green",
+        "response": "The apples in the pile are red, yellow, and green.",
+        "correct_answer": "Red, yellow, and green",
+        "score": "T"
+    },
+    "Apples@03_04_2024_S_L_ApplesLong_F_1": {
+        "prompt": "What colors are the apples described in the room?\n\nA. Green, red with yellow blush, and bright yellow\nB. Green, purple, and blue\nC. Red, orange, and black\nD. Yellow, brown, and white",
+        "response": "Answer:A. Green, red with yellow blush, and bright yellow.",
+        "correct_answer": "Green, red with yellow blush, and bright yellow",
+        "score": "T"
+    },
+    "Apples@03_07_2024_S_L_Apples1_F_1": {
+        "prompt": "What colors are the apples displayed in the black trays?\n\nA. Black and white\nB. Purple and blue\nC. Orange-red and yellow\nD. Red with yellow blush and green",
+        "response": "spots.\n\nAnswer:D. Red with yellow blush and green spots.\n\n3D model of a black tray with apples.",
+        "correct_answer": "Red with yellow blush and green",
+        "score": "T"
+    },
+    "Apples@03_07_2024_S_L_Apples2_F_2": {
+        "prompt": "What colors are represented on the apples in the pile?\n\nA. Only red and green\nB. Red, blue, and green\nC. Only yellow and pink\nD. Red, yellow, and green",
+        "response": "The apples in the pile are red, yellow, and green.",
+        "correct_answer": "Red, yellow, and green",
+        "score": "T"
+    },
+    "Apples@03_07_2024_S_L_Apples3_F_2": {
+        "prompt": "What colors are the apples described in the room?\n\nA. Red, yellow, and lime-green\nB. Blue, purple, and orange\nC. White, black, and brown\nD. Pink, gray, and teal",
+        "response": "Answer:A. Red, yellow, and lime-green.",
+        "correct_answer": "Red, yellow, and lime-green",
+        "score": "T"
+    },
+    "Apples@03_07_2024_S_L_Apples_F_2": {
+        "prompt": "What colors are the apples in the pile?\n\nA. Green and purple\nB. Red and yellow\nC. Blue and orange\nD. Black and white",
+        "response": "The apples in the pile are red and yellow.",
+        "correct_answer": "Red and yellow",
+        "score": "T"
+    },
+    "Apples@03_13_2024_S_Co_Apples_F_2": {
+        "prompt": "What color are the blushes on the red apples?\n\nA. Blue\nB. Yellow-orange\nC. Green\nD. Pink",
+        "response": "The blushes on the red apples are yellow-orange.",
+        "correct_answer": "Yellow-orange",
+        "score": "T"
+    },
+    "Apples@03_21_2024_W_L_Apples1_F_1": {
+        "prompt": "What color are the stems of some of the apples in the pile?\n\nA. Red\nB. Yellow\nC. Brown\nD. Green",
+        "response": "E. White\n\nAnswer: Some of the apples in the pile have green stems.\n\n3D model of a pile of apples.",
+        "correct_answer": "Green",
+        "score": "F"
+    },
+    "Apples@03_21_2024_W_L_Apples2_F_2": {
+        "prompt": "What color are the majority of the apples described in the room?\n\nA. Green\nB. Yellow\nC. Red\nD. Blue",
+        "response": "The majority of the apples described in the room are red.",
+        "correct_answer": "Red",
+        "score": "T"
+    },
+    "Apples@03_21_2024_W_L_Apples3_F_2": {
+        "prompt": "What distinctive feature do the apples have besides their color?\n\nA. Large brown seeds\nB. Green leaves\nC. Small brown stems\nD. Wrinkled skin",
+        "response": "Answer: A. Large brown seeds\n\nA 3D model of a cartoon-style apple.",
+        "correct_answer": "Small brown stems",
+        "score": "F"
+    },
+    "Avacados@04_04_2024_W2_C_AvacadosLong1_F_1": {
+        "prompt": "What color are the cucumbers in the scene?\n\nA. Light green\nB. Yellow\nC. Dark green\nD. Red",
+        "response": "The cucumbers in the scene are light green.",
+        "correct_answer": "Dark green",
+        "score": "F"
+    },
+    "Avacados@04_04_2024_W_C_Avocados1_F_1": {
+        "prompt": "What color is the skin of the avocados in the pile?\n\nA. Red\nB. Yellow\nC. Light green\nD. Dark green to nearly black",
+        "response": "The skin of the avocados in the pile is light green to nearly black.",
+        "correct_answer": "Dark green to nearly black",
+        "score": "F"
+    },
+    "BBQSauce@03_21_2024_W_L_BBQ1_P_1": {
+        "prompt": "What is the shape of the bottles for Sweet Baby Ray's barbecue sauce?\n\nA. Tall and narrow\nB. Cylindrical\nC. Rounded-square\nD. Flat and rectangular",
+        "response": "The bottles for Sweet Baby Ray's barbecue sauce are cylindrical.",
+        "correct_answer": "Rounded-square",
+        "score": "F"
+    },
+    "Bagels@03_21_2024_W_L_Bagels1_P_1": {
+        "prompt": "What distinct features of Thomas' bagels can be identified from their packaging?\n\nA. They have a light golden-brown crust and clear plastic packaging\nB. They are packaged in brown paper bags\nC. They are square-shaped bread with no holes\nD. They are packaged with pink branding and black accents",
+        "response": "The distinct features of Thomas' bagels that can be identified from their packaging are A. They have a light golden-brown crust and clear plastic packaging and D. They are packaged with pink branding and",
+        "correct_answer": "They have a light golden-brown crust and clear plastic packaging",
+        "score": "F"
+    },
+    "Bananas@03_04_2024_S_L_Bananas2_F_2": {
+        "prompt": "What types of fruits are included in the display along with the weighing scale?\n\nA. Apples and grapes\nB. Bunches of bananas and oranges\nC. Blueberries and cherries\nD. Kiwis and peaches",
+        "response": "Answer:A. Apples and grapes are included in the display along with the weighing scale.",
+        "correct_answer": "Bunches of bananas and oranges",
+        "score": "F"
+    },
+    "Bananas@03_04_2024_S_L_Bananas_F_2": {
+        "prompt": "What color are the bananas described in the assortment of fresh produce?\n\nA. Red\nB. Orange-tan\nC. Yellow-green\nD. White",
+        "response": "The bananas described in the assortment of fresh produce are yellow-green.",
+        "correct_answer": "Yellow-green",
+        "score": "T"
+    },
+    "Bananas@04_04_2024_NG_C_Bananas1_F_1": {
+        "prompt": "What color are the bands that bind the bunches of bananas?\n\nA. Green\nB. Brown\nC. Yellow\nD. Purple",
+        "response": "The bands that bind the bunches of bananas are green.",
+        "correct_answer": "Purple",
+        "score": "F"
+    },
+    "Bananas@04_04_2024_S_C_Bananas_F_2": {
+        "prompt": "What color are the bananas described in the room?\n\nA. Green\nB. Bright yellow\nC. Red\nD. Brown",
+        "response": "The bananas described in the room are bright yellow.",
+        "correct_answer": "Bright yellow",
+        "score": "T"
+    },
+    "Beans@04_04_2024_W2_C_Beans_P_3": {
+        "prompt": "What is the color of the labels on the Bush's Original Baked Beans cans?\n\nA. Blue\nB. Red-orange\nC. Yellow\nD. Green",
+        "response": "The labels on the Bush's Original Baked Beans cans are red-orange.",
+        "correct_answer": "Red-orange",
+        "score": "T"
+    },
+    "Bread@04_04_2024_W2_C_Bread2_P_2": {
+        "prompt": "What types of bread are packaged in the color-coded bags?\n\nA. Sourdough and Rye\nB. Pumpernickel and Focaccia\nC. Multigrain and Gluten-Free\nD. White, Texas Toast, and Wheat",
+        "response": "Bread\n\nAnswer:D. White, Texas Toast, and Wheat Bread\n\n3D model of a loaf of bread.",
+        "correct_answer": "White, Texas Toast, and Wheat",
+        "score": "T"
+    },
+    "Bread@04_04_2024_W2_C_Bread3_P_2": {
+        "prompt": "What color are the crusts of the Sara Lee sliced bread loaves?\n\nA. Dark brown\nB. Light brown\nC. White\nD. Yellow",
+        "response": "The crusts of the Sara Lee sliced bread loaves are light brown.",
+        "correct_answer": "Light brown",
+        "score": "T"
+    },
+    "Bread@04_04_2024_W2_C_Bread_P_2": {
+        "prompt": "What types of bread are described in the clear plastic bags?\n\nA. Round hamburger buns and elongated hot dog buns\nB. Breadsticks and baguettes\nC. Sourdough loaves and rye bread\nD. Tortillas and pita bread",
+        "response": "Answer:A. Round hamburger buns and elongated hot dog buns.",
+        "correct_answer": "Round hamburger buns and elongated hot dog buns",
+        "score": "T"
+    },
+    "Can@03_21_2024_W_L_Cans_P_2": {
+        "prompt": "What types of products are contained in the cylindrical metal cans?\n\nA. Tomato products\nB. Fruit preserves\nC. Dairy products\nD. Grain products",
+        "response": "Answer:Tomato products are contained in the cylindrical metal cans.\n\n3D model of a cylindrical metal can containing tomato products.",
+        "correct_answer": "Tomato products",
+        "score": "T"
+    },
+    "Can@03_21_2024_W_L_Peas1_P_1": {
+        "prompt": "What color is the label on the can that contains Great Value potatoes?\n\nA. Blue\nB. Green\nC. White\nD. Purple",
+        "response": "The label on the can that contains Great Value potatoes is blue.",
+        "correct_answer": "Blue",
+        "score": "T"
+    },
+    "Can@04_04_2024_W_C_Cans_P_3": {
+        "prompt": "What types of flavors are labeled on the cylindrical metal cans?\n\nA. Beef Stew and Vegetable Soup\nB. Tomato and Split Pea\nC. Chicken Noodle and Cream of Mushroom\nD. Clam Chowder and Chicken Tortilla",
+        "response": "Soup\n\nAnswer:A. Beef Stew and Vegetable Soup, B. Tomato and Split Pea, C. Chicken Noodle and Cream of Mushroom, D. Clam Chowder",
+        "correct_answer": "Chicken Noodle and Cream of Mushroom",
+        "score": "F"
+    },
+    "Can@04_18_2024_W2_F_Cans2_P_2": {
+        "prompt": "What color are the lids on the blue and white paint cans?\n\nA. Red\nB. Silver\nC. Gray\nD. Blue",
+        "response": "The lids on the blue and white paint cans are silver.",
+        "correct_answer": "Gray",
+        "score": "F"
+    },
+    "Candy@03_21_2024_W_L_Candy1_P_1": {
+        "prompt": "What type of sunglasses are present in the room?\n\nA. Blue rectangular sunglasses\nB. Green round sunglasses\nC. Black rectangular sunglasses\nD. Clear square sunglasses",
+        "response": "Answer:A. Blue rectangular sunglasses.",
+        "correct_answer": "Black rectangular sunglasses",
+        "score": "F"
+    },
+    "Candy@03_21_2024_W_L_Candy2_P_1": {
+        "prompt": "What color are the dominant rectangular gift boxes in the display?\n\nA. Light blue\nB. Dark brown\nC. Bright yellow\nD. Deep red",
+        "response": "The dominant rectangular gift boxes in the display are bright yellow.",
+        "correct_answer": "Dark brown",
+        "score": "F"
+    },
+    "Candy@03_21_2024_W_L_Candy2_P_2": {
+        "prompt": "Which color bag corresponds to the Milk Chocolate variety of M&M's candy?\n\nA. Purple\nB. Red\nC. Blue\nD. Beige",
+        "response": "The correct answer is B. Red. The Milk Chocolate variety of M&M's candy is represented by a red bag.",
+        "correct_answer": "Beige",
+        "score": "F"
+    },
+    "Candy@03_21_2024_W_L_Candy_P_2": {
+        "prompt": "What colors are prominently featured on the Starburst candy bags?\n\nA. Green and blue\nB. Bright yellow and red\nC. Orange and pink\nD. Black and white",
+        "response": "The Starburst candy bags prominently feature bright yellow and red colors.",
+        "correct_answer": "Bright yellow and red",
+        "score": "T"
+    },
+    "Chips@03_21_2024_W_L_Chips1_P_1": {
+        "prompt": "What designs are featured on the fronts of the colorful plastic snack bags?\n\nA. Cartoon characters with various snacks\nB. Nature scenes with fruits and vegetables\nC. Animal shapes with bright colors\nD. Pretzel twists, sticks, or mixed pieces",
+        "response": "of food\n\nAnswer:D. Pretzel twists, sticks, or mixed pieces of food.\n\n3D model of a colorful plastic snack bag.\n3D model of a colorful plastic snack",
+        "correct_answer": "Pretzel twists, sticks, or mixed pieces",
+        "score": "T"
+    },
+    "Chips@03_21_2024_W_L_Chips_P_2": {
+        "prompt": "What colors are the Tostitos tortilla chip bags in the scene?\n\nA. Yellow, Orange, Purple, Blue, Green\nB. Red, Blue, Green, Black\nC. White, Orange, Yellow, Pink\nD. Green, Red, Yellow, Orange",
+        "response": ", Purple\n\n3D model of a Tostitos tortilla chip bag.",
+        "correct_answer": "Yellow, Orange, Purple, Blue, Green",
+        "score": "F"
+    },
+    "Chips@04_04_2024_NG_C_Chips_P_2": {
+        "prompt": "What colors are primarily featured on some of the popcorn snack bags?\n\nA. Green and Black\nB. Orange and Purple\nC. Red and Yellow\nD. Pastel Teal and Lavender",
+        "response": "Answer:D. Pastel Teal and Lavender\n\n3D model of popcorn snack bags in pastel teal and lavender colors.",
+        "correct_answer": "Pastel Teal and Lavender",
+        "score": "T"
+    },
+    "Chips@04_04_2024_S_C_Chips1_P_1": {
+        "prompt": "What colors are represented in the snack bags described in the room?\n\nA. Green, Black, Pink\nB. Dark Blue, Light Green, Cream\nC. Brown, Grey, Silver\nD. Beige, White, Red, Blue, Purple, Orange, Yellow",
+        "response": "3D model of a room featuring snack bags in various colors.",
+        "correct_answer": "Beige, White, Red, Blue, Purple, Orange, Yellow",
+        "score": "F"
+    },
+    "Chips@04_04_2024_S_C_Chips2_P_1": {
+        "prompt": "What types of snacks are prominently featured in the colorful tall bags?\n\nA. Tortilla chips and popcorn\nB. Candy bars and chocolates\nC. Fresh fruits and vegetables\nD. Breakfast cereals and granola",
+        "response": "bars\n\nAnswer:A. Tortilla chips and popcorn are prominently featured in the colorful tall bags.",
+        "correct_answer": "Tortilla chips and popcorn",
+        "score": "T"
+    },
+    "Chips@04_04_2024_S_C_Chips2_P_2": {
+        "prompt": "What colors are represented in the collection of potato chip bags?\n\nA. Yellow, Brown, Purple\nB. Gold, Silver, Copper\nC. Black, Gray, White\nD. Red, Green, Blue, Teal, Pink, Orange",
+        "response": "Answer:D. Red, Green, Blue, Teal, Pink, Orange\n\n3D model of a bag of potato chips.",
+        "correct_answer": "Red, Green, Blue, Teal, Pink, Orange",
+        "score": "T"
+    },
+    "Chips@04_04_2024_S_C_Chips3_P_1": {
+        "prompt": "What color are the bags of Tostitos tortilla chips?\n\nA. Blue and purple\nB. Green\nC. Red\nD. Yellow",
+        "response": "and white\n\n3D model of a bag of Tostitos tortilla chips.",
+        "correct_answer": "Blue and purple",
+        "score": "F"
+    },
+    "Chips@04_04_2024_S_C_Chips3_P_2": {
+        "prompt": "What color can be found on the packaging of the Barbecue flavor Lay's potato chips?\n\nA. Dark\nB. Yellow\nC. Blue\nD. Black",
+        "response": "B. Yellow\n\nThe packaging of the Barbecue flavor Lay's potato chips is yellow.",
+        "correct_answer": "Dark",
+        "score": "F"
+    },
+    "Coffee@03_21_2024_W_L_Coffee1_P_1": {
+        "prompt": "What colors are the packaging of the coffee boxes displayed in the room?\n\nA. Turquoise, Teal, Mauve, Coral\nB. Black, White, Grey, Pink\nC. Purple, Gold, Silver, Bronze\nD. Green, Brown, Blue, Orange, Yellow, Red",
+        "response": "3D model of coffee boxes in a room.",
+        "correct_answer": "Green, Brown, Blue, Orange, Yellow, Red",
+        "score": "F"
+    },
+    "Coffee@03_21_2024_W_L_Coffee2_P_2": {
+        "prompt": "What colors are the coffee canisters and jars described in the room?\n\nA. Red, Green, Blue, Orange, and Yellow\nB. Blue, Green, Brown, Orange, and Yellow\nC. Red, Green, Brown, Orange, and Yellow\nD. Red, Green, Brown, Purple, and Yellow",
+        "response": "The coffee canisters and jars in the room are described in red, green, blue, orange, and yellow colors.",
+        "correct_answer": "Red, Green, Brown, Orange, and Yellow",
+        "score": "F"
+    },
+    "Coffee@03_21_2024_W_L_Coffee_P_2": {
+        "prompt": "What color are the travel mugs mentioned in the description?\n\nA. Blue\nB. Red\nC. Green\nD. Yellow",
+        "response": "The travel mugs mentioned in the description are blue.",
+        "correct_answer": "Red",
+        "score": "F"
+    },
+    "Coffee@04_04_2024_S_C_Coffee2_P_3": {
+        "prompt": "What type of products are typically packaged in the described bags?\n\nA. Electronics\nB. Beverages\nC. Clothing\nD. Grains and pet food",
+        "response": "Answer:D. Grains and pet food\n\nA 3D model of a bag filled with grains or pet food.",
+        "correct_answer": "Grains and pet food",
+        "score": "T"
+    },
+    "Corn@04_04_2024_W_C_Corn1_F_1": {
+        "prompt": "What color are the tips of the husks on the corn ears?\n\nA. Bright yellow\nB. Pale yellow-green\nC. Dark green\nD. Brown",
+        "response": "The tips of the husks on the corn ears are pale yellow-green.",
+        "correct_answer": "Pale yellow-green",
+        "score": "T"
+    },
+    "Cucumbers@03_21_2024_W_L_Cucumbers_F_2": {
+        "prompt": "What is the shape of the cucumbers described?\n\nA. Triangular\nB. Square\nC. Cylindrical\nD. Oval",
+        "response": "-shaped\n\nThe cucumbers described are oval-shaped.",
+        "correct_answer": "Cylindrical",
+        "score": "F"
+    },
+    "Cucumbers@04_04_2024_W2_C_Cucumbers1_V_1": {
+        "prompt": "What is the typical appearance of green cucumbers as described?\n\nA. They are round and bumpy with a dull skin\nB. They are short and have a rough texture\nC. They are long, slender, and have smooth, glossy dark green skin\nD. They are flat and wide with a light-colored skin",
+        "response": "Answer:C. They are long, slender, and have smooth, glossy dark green skin.",
+        "correct_answer": "They are long, slender, and have smooth, glossy dark green skin",
+        "score": "T"
+    },
+    "EnergyDrinks@03_04_2024_S_L_EnergyDrinks_P_1": {
+        "prompt": "What is the size of the jugs described?\n\nA. Pint-sized\nB. Quart-sized\nC. Half-gallon sized\nD. Gallon-sized",
+        "response": "The jugs described are half-gallon sized.",
+        "correct_answer": "Gallon-sized",
+        "score": "F"
+    },
+    "Flour@04_04_2024_W2_C_Flour_P_3": {
+        "prompt": "What color are the standout bags that feature the \"Gold Medal\" logo for All-Purpose Flour?\n\nA. Pink\nB. Blue\nC. Green\nD. White",
+        "response": "The standout bags that feature the \"Gold Medal\" logo for All-Purpose Flour are blue.",
+        "correct_answer": "White",
+        "score": "F"
+    },
+    "Flour@04_04_2024_W_C_Flour_P_2": {
+        "prompt": "What colors are the flour bags displayed in the room?\n\nA. Red and green\nB. Blue and purple\nC. Pink and yellow\nD. Black and orange",
+        "response": "The flour bags displayed in the room are red and green.",
+        "correct_answer": "Blue and purple",
+        "score": "F"
+    },
+    "Gourds@03_21_2024_W_L_Gourds1_F_1": {
+        "prompt": "What shape are the melons described in the room?\n\nA. Round\nB. Square\nC. Triangular\nD. Oval",
+        "response": "-shaped\n\nThe melons described in the room are oval-shaped.",
+        "correct_answer": "Oval",
+        "score": "T"
+    },
+    "GrapeFruits@03_07_2024_S_L_GrapeFruits1_F_1": {
+        "prompt": "What type of fruit is arranged in a pyramid on a tray?\n\nA. Lemons\nB. Mandarins\nC. Grapefruits\nD. Oranges",
+        "response": "3D model of lemons arranged in a pyramid on a tray. (Option A)\n3D model of mandarins arranged in a pyramid on a tray. (Option B)\n3D model",
+        "correct_answer": "Oranges",
+        "score": "F"
+    },
+    "GrapeFruits@04_04_2024_W2_C_Grapefruits1_F_1": {
+        "prompt": "What color are the stickers that may be found on the skin of grapefruits?\n\nA. Red\nB. Green\nC. Blue\nD. Yellow",
+        "response": "The stickers on the skin of grapefruits can be red, green, or yellow.\n\n3D model of a grapefruit\nA 3D model of a grapefruit.",
+        "correct_answer": "Blue",
+        "score": "F"
+    },
+    "Greens@03_04_2024_S_L_Greens1_V_1": {
+        "prompt": "What type of vegetable is arranged with leafy tops among the fresh organic vegetables?\n\nA. Broccoli crowns\nB. Red radishes\nC. Zucchinis\nD. Green onions",
+        "response": "Answer: A. Broccoli crowns\n\nA 3D model of a broccoli crown is arranged with leafy tops among the fresh organic vegetables. The broccoli has a vibrant green color",
+        "correct_answer": "Red radishes",
+        "score": "F"
+    },
+    "Greens@03_04_2024_S_L_Greens2_V_1": {
+        "prompt": "What type of produce is the brightest in the display?\n\nA. Cabbage heads\nB. Corn on the cob\nC. Celery stalks\nD. Lemons",
+        "response": "The brightest produce in the display is B. Corn on the cob.",
+        "correct_answer": "Lemons",
+        "score": "F"
+    },
+    "Greens@03_04_2024_S_L_Greens_V_2": {
+        "prompt": "What type of vegetable is described as having glossy smooth skin and lobed shoulders?\n\nA. Zucchini\nB. Carrot\nC. Celery\nD. Pepper",
+        "response": "Correct answer: A. Zucchini\n\nA 3D model of a zucchini with glossy smooth skin and lobed shoulders.",
+        "correct_answer": "Pepper",
+        "score": "F"
+    },
+    "Greens@04_04_2024_S_C_Greens_V_2": {
+        "prompt": "What type of vegetable in the collection has thick pale stalks and broad glossy leaves?\n\nA. Bok choy\nB. Napa cabbage\nC. Curly kale\nD. Kohlrabi",
+        "response": "The correct answer is B. Napa cabbage. It is known for its thick pale stalks and broad glossy leaves.",
+        "correct_answer": "Bok choy",
+        "score": "F"
+    },
+    "Jam@03_21_2024_W_L_Jam1_P_1": {
+        "prompt": "What colors are represented by the glass jars of jam and jelly in the room?\n\nA. Blue, Green, Yellow, Black\nB. Amber, Red, Orange, Purple\nC. Pink, White, Gray, Brown\nD. Teal, Maroon, Gold, Silver",
+        "response": "The glass jars of jam and jelly in the room are represented by the colors blue, green, yellow, and black.",
+        "correct_answer": "Amber, Red, Orange, Purple",
+        "score": "F"
+    },
+    "Juices@03_04_2024_S_L_Juices_P_2": {
+        "prompt": "What type of containers are primarily found in the described room?\n\nA. Glass jars\nB. Plastic juice bottles\nC. Metal cans\nD. Ceramic bowls",
+        "response": "Answer:B. Plastic juice bottles and D. Ceramic bowls are primarily found in the described room.",
+        "correct_answer": "Plastic juice bottles",
+        "score": "F"
+    },
+    "Juices@04_04_2024_W2_C_Juice_P_2": {
+        "prompt": "What can be observed about the beverage containers in terms of their appearance?\n\nA. They feature bright, fruit-themed labels and colorful caps\nB. They all have clear containers with no labels\nC. They are all made of metal\nD. They are exclusively plastic containers",
+        "response": "The correct answer is A. They feature bright, fruit-themed labels and colorful caps.",
+        "correct_answer": "They feature bright, fruit-themed labels and colorful caps",
+        "score": "T"
+    },
+    "Ketchup@04_04_2024_S_C_Ketchup_P_2": {
+        "prompt": "What is the color of the cap on the large pale-yellow Dijon mustard bottle?\n\nA. White\nB. Blue\nC. Black\nD. Brown",
+        "response": "Answer: The color of the cap on the large pale-yellow Dijon mustard bottle is blue.",
+        "correct_answer": "Black",
+        "score": "F"
+    },
+    "Alfredo@04_04_2024_W2_C_Alfredo_P_3": {
+        "prompt": "What kind of containers are present in the room?\n\nA. Rectangular boxes\nB. Cylindrical jars and bottles\nC. Square containers\nD. Flat trays",
+        "response": "Answer: B. Cylindrical jars and bottles are present in the room.",
+        "correct_answer": "Cylindrical jars and bottles",
+        "score": "T"
+    },
+    "Broccoli@04_04_2024_S_C_Broccoli1_V_1": {
+        "prompt": "What color are the florets of the broccoli heads described?\n\nA. Dark green\nB. Light green\nC. Yellow\nD. Red",
+        "response": "The florets of the broccoli heads are described as light green.",
+        "correct_answer": "Dark green",
+        "score": "F"
+    },
+    "Buns@04_18_2024_W2_F_Buns1_P_1": {
+        "prompt": "What color are the crusts of the hamburger buns described?\n\nA. White\nB. Dark brown\nC. Pale tan to light brown\nD. Golden yellow",
+        "response": "The crusts of the hamburger buns are described as pale tan to light brown.",
+        "correct_answer": "Pale tan to light brown",
+        "score": "T"
+    },
+    "Cabbages@03_13_2024_S_Co_Cabbages_V_2": {
+        "prompt": "What shape do green cabbage heads predominantly exhibit?\n\nA. Oblong\nB. Round\nC. Pyramid\nD. Square",
+        "response": "The green cabbage heads predominantly exhibit a round shape.",
+        "correct_answer": "Round",
+        "score": "T"
+    },
+    "Cereal@03_21_2024_W_L_Cereal1_P_1": {
+        "prompt": "What color is one of the cereal boxes described?\n\nA. Blue\nB. Green\nC. Purple\nD. Orange",
+        "response": "The correct answer is B. Green. The cereal box is described as green.\n\n3D model of a green cereal box.",
+        "correct_answer": "Blue",
+        "score": "F"
+    },
+    "Chilli@04_18_2024_W3_F_Chilli_P_3": {
+        "prompt": "What types of containers are prominently displayed in the described arrangement?\n\nA. Cylindrical metal cans\nB. Flat cardboard boxes\nC. Wooden crates\nD. Glass bowls",
+        "response": "E. Plastic containers\nF. All of the above.\n\n3D model of various types of containers.",
+        "correct_answer": "Cylindrical metal cans",
+        "score": "F"
+    },
+    "ChipsSalsa@04_18_2024_W_F_Salsa_P_3": {
+        "prompt": "What colors are the labels on the glass jars?\n\nA. Red, blue, and yellow\nB. Green, blue, and red\nC. Orange, purple, and yellow\nD. Black, white, and green",
+        "response": "3D model of a glass jar with a red, blue, and yellow label.",
+        "correct_answer": "Green, blue, and red",
+        "score": "F"
+    },
+    "Coconuts@03_21_2024_W_L_Coconuts1_F_1": {
+        "prompt": "What is the shape of the brown coconuts described?\n\nA. Square to rectangular\nB. Round to oval\nC. Flat to linear\nD. Cubic to triangular",
+        "response": "The brown coconuts described are round to oval in shape.",
+        "correct_answer": "Round to oval",
+        "score": "T"
+    },
+    "Dressings@04_18_2024_W2_F_Dressing_P_2": {
+        "prompt": "What is the color of the caps on the condiment bottles described?\n\nA. Green\nB. Red\nC. Black\nD. Orange",
+        "response": "The caps on the condiment bottles are red.",
+        "correct_answer": "Green",
+        "score": "F"
+    },
+    "Drinks@03_21_2024_W_L_Drinks_P_2": {
+        "prompt": "What feature is common among the hydration bottles described?\n\nA. They are made of glass\nB. They have ribbed cylindrical bodies\nC. They have adjustable nozzles\nD. They are all transparent",
+        "response": "The common feature among the hydration bottles described is that they have ribbed cylindrical bodies.",
+        "correct_answer": "They have ribbed cylindrical bodies",
+        "score": "T"
+    },
+    "FruitCans@04_18_2024_W3_F_CanFruits_P_3": {
+        "prompt": "What color are the lids of the cans and jars on the supermarket shelf?\n\nA. Red\nB. Green\nC. Blue\nD. Yellow",
+        "response": "The lids of the cans and jars on the supermarket shelf are red.",
+        "correct_answer": "Yellow",
+        "score": "F"
+    },
+    "Garlic@04_04_2024_W_C_Garlic1_V_1": {
+        "prompt": "What shape are the garlic bulbs described?\n\nA. Oblong\nB. Bulbous to oval\nC. Spherical\nD. Cubic",
+        "response": "The garlic bulbs described are bulbous to oval in shape.",
+        "correct_answer": "Bulbous to oval",
+        "score": "T"
+    },
+    "Gatorade@03_04_2024_S_L_Gatorade_P_2": {
+        "prompt": "What type of lids do some plastic sport-drink bottles feature?\n\nA. Twist-off caps or snap-on lids\nB. Screw caps or neon flip-top lids\nC. Pull-tab lids or sliding lids\nD. Regular caps or corks",
+        "response": "Answer: A. Twist-off caps or snap-on lids. Some plastic sport-drink bottles feature twist-off caps or snap-on lids.",
+        "correct_answer": "Screw caps or neon flip-top lids",
+        "score": "F"
+    },
+    "GranolaBars@04_04_2024_W_C_GranolaBars2_P_2": {
+        "prompt": "What color is the packaging of the Made Good Chocolate Drizzled Granola Bars?\n\nA. Pink\nB. Blue\nC. Green\nD. Yellow",
+        "response": "The packaging of the Made Good Chocolate Drizzled Granola Bars is green.",
+        "correct_answer": "Pink",
+        "score": "F"
+    },
+    "Honey@03_21_2024_W_L_Honey1_P_1": {
+        "prompt": "What types of containers are included in the assortment of honey?\n\nA. Only glass jars\nB. Plastic bottles and glass jars\nC. Only bear-shaped bottles\nD. Only honeycomb containers",
+        "response": "Answer:B. Plastic bottles and glass jars are included in the assortment of honey.",
+        "correct_answer": "Plastic bottles and glass jars",
+        "score": "T"
+    },
+    "Plums@04_19_2024_W4_F_Plums1_F_1": {
+        "prompt": "What feature is commonly found on some plums described in the information?\n\nA. Spiky exterior\nB. Large seeds\nC. Light dusty bloom\nD. Bright orange color",
+        "response": "The correct answer is C. Light dusty bloom. Some plums have a light dusty bloom on their exterior.",
+        "correct_answer": "Light dusty bloom",
+        "score": "T"
+    },
+    "Pringles@04_18_2024_W3_F_Pringles_P_2": {
+        "prompt": "What color are the caps on the tall blue plastic bottles?\n\nA. Red\nB. Yellow\nC. Green\nD. Orange",
+        "response": "The caps on the tall blue plastic bottles are yellow.",
+        "correct_answer": "Yellow",
+        "score": "T"
+    },
+    "Radish@03_21_2024_W_L_Radish_V_2": {
+        "prompt": "What color are the stems of the beetroots described?\n\nA. Green\nB. Yellow\nC. Dark purple\nD. Bright magenta-red",
+        "response": "The stems of the beetroots are described as bright magenta-red.",
+        "correct_answer": "Bright magenta-red",
+        "score": "T"
+    },
+    "Syrup@03_21_2024_W_L_Syrup1_P_1": {
+        "prompt": "What color are the caps of the dark brown glass syrup bottles?\n\nA. Red\nB. Green\nC. Blue\nD. Yellow",
+        "response": "The caps of the dark brown glass syrup bottles are red.",
+        "correct_answer": "Red",
+        "score": "T"
+    },
+    "Tostitos@04_18_2024_W_F_Tostitos2_P_3": {
+        "prompt": "What colors are represented in the snack bags?\n\nA. Beige, Olive, Teal, Maroon\nB. Black, White, Gray, Brown\nC. Pink, Purple, Indigo, Violet\nD. Blue, Green, Yellow, Orange, Red",
+        "response": "The correct answer is A. Beige, Olive, Teal, Maroon.",
+        "correct_answer": "Blue, Green, Yellow, Orange, Red",
+        "score": "F"
+    }
+}

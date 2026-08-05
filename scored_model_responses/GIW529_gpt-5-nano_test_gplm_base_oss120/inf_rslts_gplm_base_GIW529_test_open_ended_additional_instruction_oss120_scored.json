@@ -1,0 +1,908 @@
+{
+    "Lemons@04_18_2024_W_F_Lemons1_F_1": {
+        "prompt": "What type of meat is displayed on the table?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "served on a white plate. Apparently, it's a piece of fried chicken. The chicken appears to be golden-brown, suggesting it's well-cooked and crispy on the outside. The white plate",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Lemons@04_19_2024_W4_F_Lemons1_F_1": {
+        "prompt": "What is the height of the bookshelf in the room?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "illustrated 3D model of a bookshelf in a room. Possibly a 3D model of a bookshelf in a room. Possibly a 3D model of a bookshelf in a room. Possibly a",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Lime@04_18_2024_W_F_Limes1_F_1": {
+        "prompt": "What is the size of the elephant in the room?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "illustrated 3D model of an elephant. Possibly a 3D model of an elephant. Possibly a 3D model of an elephant. Possibly a 3D model of an elephant.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Mangoes@04_18_2024_W3_F_Mangoes1_F_1": {
+        "prompt": "What type of nut is in the scene?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "nut in a 3D model. Possibly made of metal or plastic.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Mangoes@04_18_2024_W_F_Mangoes1_F_1": {
+        "prompt": "What type of furniture is in the room?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "silhouette 3D model of a chair. Default 3D model of a chair. Default 3D model of a chair. Default 3D model of a chair. Default 3D model of a chair. Default 3",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Mayo@04_19_2024_S2_F_Mayo_P_2": {
+        "prompt": "What type of fruit bowl is placed on the table?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "featuring a 3D model of a fruit bowl on a table. Apparently, the fruit bowl is filled with a variety of fruits. The bowl appears to be made of ceramic or porcelain, and the f",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Melons@04_19_2024_S2_F_Melons1_F_1": {
+        "prompt": "What is the height of the chandelier?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "illustrated 3D model of a chandelier hanging from a ceiling. Possibly made of glass or crystal.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Melons@04_19_2024_S_F_Melons_F_2": {
+        "prompt": "What type of seafood is arranged on a platter nearby?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "featuring a 3D model of a fish on a plate. Possibly a piece of sushi or ceviche.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Melons@04_19_2024_W4_F_Melons1_F_1": {
+        "prompt": "What type of fish is swimming in the scene?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "featuring a 3D model of a fish. Apparently, it's a cartoon-style representation of a fish. The model is vibrant and colorful, with exaggerated features typical of cartoon aesthetics.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Melons@04_19_2024_W4_F_Watermelons1_F_1": {
+        "prompt": "What type of bread is used for making sandwiches?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "s Footwear' 3D model featuring a pair of shoes.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "MultiFruits@04_04_2024_W_C_FruitsLong1_F_1": {
+        "prompt": "What metal material is the sink made of?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "illustrated 3D model of a bathroom sink. Possibly made of ceramic or porcelain.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "MultiFruits@04_19_2024_S_F_Fruits1_F_1": {
+        "prompt": "What type of pastry is displayed on the counter?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "cookie cutter-shaped pastry displayed on a counter.\u200b\u200b\u200b\u200b\u200b\u200b\u200b\u200b\u200b\u200b\u200b\u200b\u200b\u200b\u200b\u200b\u200b\u200b\u200b\u200b\u200b\u200b\u200b\u200b\u200b\u200b\u200b\u200b\u200b\u200b\u200b\u200b\u200b\u200b\u200b\u200b\u200b",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Nectarines@04_19_2024_W4_F_Nectarines1_F_1": {
+        "prompt": "What type of meat is being grilled nearby?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "featuring a 3D model of a grilled steak. Apparently, the steak is being grilled on a grill. The steak appears to be well-cooked with grill marks, suggesting it's ready to be",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Nuts@04_18_2024_W3_F_Nuts_P_2": {
+        "prompt": "What type of fruit is displayed on the dining table?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "emoji featuring a piece of fruit on a dining table. Possibly a 3D model of a dining table with a piece of fruit on it.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Nuts@04_18_2024_W_F_Nuts1_P_1": {
+        "prompt": "What type of chair is placed next to the collection?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "3D model of a chair. Possibly made of plastic or metal.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Oil@04_18_2024_W_F_Oil_P_3": {
+        "prompt": "What type of metal is used for the cooking utensils?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "cookie cutter 3D model. Apparently, the 'F' cookie cutter is a 3D model of a cookie cutter shaped like the letter 'F'. It is typically used in baking to cut cookies into the shape",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Oil@04_19_2024_W_F_Oils_P_2": {
+        "prompt": "What type of ceramic vase is placed on the shelf?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "traditional ceramic vase on a wooden shelf.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "OliveOil@04_19_2024_S_F_OliveOil_P_3": {
+        "prompt": "What type of kitchen appliance is used for baking?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "cookie cutter 3D model. Apparently, the 'F' cookie cutter is a 3D model of a cookie cutter shaped like the letter 'F'. It is typically used in baking to cut cookies into the shape",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Onions@04_19_2024_S2_F_Onions1_V_1": {
+        "prompt": "What type of fabric is the couch made of?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "illustrated 3D model of a leather couch. Apparently, the 3D model is a representation of a leather couch. The couch appears to be made of high-quality leather, with a rich brown color.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Onions@04_19_2024_S2_F_Onions2_V_1": {
+        "prompt": "What type of fabric is the curtain made of?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "Curtain made of white fabric. Possibly made of cotton or synthetic material.\n3D model of a white curtain.\nA 3D model of a white curtain hanging from a pole.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Onions@04_19_2024_S2_F_Onions3_V_1": {
+        "prompt": "What type of seafood is displayed in the scene?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "featuring a 3D model of a fish. Apparently, it's a cartoon-style representation of a fish. The model is vibrant and playful, with exaggerated features typical of cartoon aesthetics.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Onions@04_19_2024_W4_F_Onions2_V_1": {
+        "prompt": "What texture does the feather on the bird have?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "illustrated 3D model of a bird on a rock. Apparently, the 3D model depicts a bird perched on a rock. The bird appears to be in mid-flight, with its wings spread wide. The rock",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Onions@04_19_2024_W4_F_RedOnions1_V_1": {
+        "prompt": "What type of fish is swimming in the room?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "illustrated 3D model of a fish swimming in a room. Apparently, it's a whimsical, cartoon-style 3D model of a fish. The fish is depicted as if it's swimming in",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Orange@04_18_2024_W_F_Oranges1_F_1": {
+        "prompt": "What flavor is the chocolate cake?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "cookie cutter chocolate cake 3D model. Apparently, the 'F' cookie cutter chocolate cake is a 3D model of a chocolate cake shaped like the letter 'F'. It",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Orange@04_19_2024_S2_F_Oranges1_F_1": {
+        "prompt": "What type of seafood is served alongside the fruit display?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "served alongside the fruit display in the 3D model. The 'F' could represent a variety of seafood items, but without additional context, it's impossible to determine exactly what it is.\n3D model of a fruit display",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Orange@04_19_2024_W4_F_Oranges1_F_1": {
+        "prompt": "What flavor is the chocolate cake?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "cookie cutter chocolate cake 3D model. Apparently, the 3D model is of a chocolate cake shaped like the letter 'F'. The cake appears to be freshly baked, with a",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "PastaSauce@04_18_2024_W3_F_PastaSauce1_P_1": {
+        "prompt": "What type of cheese is used in the dishes prepared with the tomato sauce?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "tomato sauce cheese pizza slice 3D model'. Apparently, the 3D model represents a slice of pizza with tomato sauce and cheese. The cheese appears to be melted, suggesting it'",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "PastaSauce@04_19_2024_S2_F_PastaSauce_P_2": {
+        "prompt": "What type of furniture is in the room?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "silhouette 3D model of a chair. Naturally animated 3D model of a chair. Naturally animated 3D model of a chair. 3D model of a chair. 3D model of a chair.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "PeanutButter@04_18_2024_W3_F_PeanutButter_P_2": {
+        "prompt": "What type of metal is the coffee table made from?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "illustrated 3D model of a coffee table. Apparently, the caption doesn't provide specific information about the type of metal used in the coffee table's construction.\n3D model of a coffee table. The caption doesn'",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "PeanutButter@04_18_2024_W_F_PeanutButter_P_3": {
+        "prompt": "What type of fresh fruit is displayed on the countertop?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "s Fresh Fruit' 3D model on a countertop. Apparently, it's a cartoon-like representation of a fresh fruit, possibly an apple or a pear. It's placed on a countertop, suggesting",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Pears@04_18_2024_W3_F_Pears1_F_1": {
+        "prompt": "What texture does the marble countertop have?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "Marble Countertop 3D Model - Royalty-Free 3D Model for Sale - Preview No. 1'. Externally, the countertop appears to be made of marble, a material known for its durability",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Pears@04_19_2024_W4_F_Pears1_F_1": {
+        "prompt": "What type of furniture is made of glass in the scene?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "piece of furniture made of glass in the scene.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Peppers@04_18_2024_W3_F_GreenPeppers1_F_1": {
+        "prompt": "What is the flavor profile of the chocolate ganache?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "cookie cutter chocolate ganache 3D model. Apparently, the 'F' cookie cutter chocolate ganache 3D model is a piece of chocolate that has been cut into the shape of the letter '",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Peppers@04_18_2024_W3_F_Peppers1_F_1": {
+        "prompt": "What shape is the chandelier?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "illustrated 3D model of a chandelier hanging from the ceiling.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Peppers@04_18_2024_W_F_GreenPeppers1_F_1": {
+        "prompt": "What is the texture of the granite countertop?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "featuring a 3D model of a granite countertop with a hole in it.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Peppers@04_19_2024_W4_F_Peppers1_F_1": {
+        "prompt": "What type of fruit tree is growing in the room?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "featuring a 3D model of a fruit tree growing indoors.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Pickles@04_18_2024_W_F_Pickles_P_2": {
+        "prompt": "What flavor of ice cream is in the freezer?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "flavor of ice cream is in the freezer.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Pickles@04_19_2024_W_F_Pickles_P_2": {
+        "prompt": "What type of fruit is displayed on the kitchen counter?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "emoji featuring a fruit on a kitchen counter. Possibly a 3D model of a fruit, such as an apple or a banana, on a kitchen counter.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Pineapples@04_18_2024_W_F_Pineapples1_F_1": {
+        "prompt": "What kind of fish is swimming in the ocean nearby?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "3D model of a fish swimming in the ocean. Possibly a cartoon-style 3D model of a fish.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Pineapples@04_19_2024_W4_F_Pineapples1_F_1": {
+        "prompt": "What type of chocolate is used in the dessert?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "cookie cutter chocolate dessert 3D model. Apparently, the 3D model represents a chocolate dessert that is shaped like a 'F'. The dessert appears to be made from a cookie cutter,",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Plantains@04_19_2024_W4_F_Plantains1_F_1": {
+        "prompt": "What type of citrus fruit is placed on the shelf?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "3D model of a citrus fruit on a shelf. Possibly a lemon or orange. ('') Possibly a lemon or orange. ('') Possibly a lemon or orange. ('') Possibly a lemon or",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Potatoes@04_18_2024_W3_F_Potatoes1_V_1": {
+        "prompt": "What type of fabric is the curtain made of?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "Curtains 3D model suitable for sale and royalty-free use. Available in 3ds Max, OBJ, FBX, and C4D formats.\nAvailable for sale and royalty-free use.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Potatoes@04_18_2024_W3_F_Potatoes2_V_1": {
+        "prompt": "What type of seafood is being cooked in the kitchen?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "ish in a frying pan' featuring a 3D model of a fish being cooked in a frying pan.\u200b\u200b\u200b\u200b\u200b\u200b\u200b\u200b\u200b\u200b\u200b\u200b\u200b\u200b\u200b\u200b\u200b\u200b\u200b\u200b\u200b\u200b\u200b",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Potatoes@04_19_2024_W4_F_Potatoes1_V_1": {
+        "prompt": "What type of fabric is used for the curtains?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "Curtains 3D model suitable for 3D printing. Downloadable royalty-free. \u200b\u200b\u200b\u200b\u200b\u200b\u200b\u200b\u200b\u200b\u200b\u200b\u200b\u200b\u200b\u200b\u200b\u200b\u200b\u200b\u200b\u200b\u200b\u200b\u200b\u200b\u200b\u200b",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Ranch@04_18_2024_W_F_Ranch_P_2": {
+        "prompt": "What type of animal is depicted on the label of a competing dressing bottle in the scene?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "dressing bottle 3D model with a label featuring a lion.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Ranch@04_19_2024_W_F_Ranch_P_2": {
+        "prompt": "What type of meat is being cooked in the oven?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "cookie cutter 3D model. Apparently, the 'F' cookie cutter 3D model is a digital representation of a cookie cutter that is shaped like the letter 'F'. This 3D model could be used in",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Random@04_18_2024_W_F_Doritos_P_3": {
+        "prompt": "What type of kitchen appliance is used for blending smoothies?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "s Smoothie Blender 3D Model' suitable for 3D modeling and animation.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Random@04_18_2024_W_F_MacAndCheese1_P_1": {
+        "prompt": "What type of fresh fruit is displayed on the countertop?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "s Fresh Fruit' 3D model on a countertop. Apparently, it's a cartoon-like representation of a fresh fruit, possibly an apple or a pear. It's placed on a countertop, suggesting",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Random@04_18_2024_W_F_Mustard_P_2": {
+        "prompt": "What type of oven is used in the kitchen?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "traditional wood-burning oven 3D model. Traditional wood-burning ovens are commonly used in kitchens for baking bread, roasting meats, and preparing various dishes. They are known for their",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Random@04_18_2024_W_F_Random_P_3": {
+        "prompt": "What type of furniture is in the scene?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "silhouette 3D model of a chair. Default 3D model of a chair. Default 3D model of a chair. Default 3D model of a chair. Default 3D model of a chair. Default 3",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Random@04_18_2024_W_F_Tortillas1_P_1": {
+        "prompt": "What type of cheese is served with the tortillas?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "ish taco with tortilla and cheese' served in a white bowl. Apparently, it's a 3D model of a seafood dish, possibly a fish taco, with a tortilla and cheese.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Random@04_19_2024_W4_F_MixedNuts_P_3": {
+        "prompt": "What type of fruit is displayed in the room?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "featuring a 3D model of a fruit. Apparently, it's a cartoon-style representation of a fruit, possibly an apple or a pear, given its round shape and vibrant red color. The model seems to be",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Salsa@04_18_2024_W3_F_Salsa1_P_1": {
+        "prompt": "What type of bread is baked on the premises?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "cookie cutter biscuit 3D model. Externally, it resembles a 'C' cookie cutter biscuit 3D model. Inside, it looks like a 'B' cookie cutter biscuit 3",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Salsa@04_19_2024_W4_F_Salsa_P_3": {
+        "prompt": "What type of fruit is displayed on the countertop?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "emoji featuring a piece of fruit on a countertop. Possibly a 3D model of a fruit, such as an apple or a banana, on a kitchen or dining room countertop.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Sauce@04_19_2024_S2_F_Sauce1_P_1": {
+        "prompt": "What type of fresh fruit is kept on the counter?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "featuring a 3D model of a fruit bowl with various fruits. Apparently, the bowl is filled with a variety of fresh fruits such as apples, bananas, oranges, and grapes. The bowl",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Sauce@04_19_2024_S2_F_Sauce_P_2": {
+        "prompt": "What type of fruit is displayed in the scene?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "featuring a 3D model of a fruit. Apparently, it's a cartoon-style representation of a fruit, possibly an apple or a pear, given its round shape and vibrant red color. The model seems to be",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Sauce@04_19_2024_W4_F_Sauce_P_3": {
+        "prompt": "What type of meat is being cooked in the kitchen?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "featuring a 3D model of a kitchen with a stove, sink, and oven. Apparently, the kitchen is equipped with a stove, sink, and oven. The stove is likely used for cooking food,",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Snacks@04_18_2024_W2_F_Snacks_P_2": {
+        "prompt": "What flavor of ice cream is in the freezer?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "flavor of ice cream is in the freezer.\n3D model of a cartoon-style ice cream freezer.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Soup@04_19_2024_W4_F_Soup_P_3": {
+        "prompt": "What type of fruit is displayed on the kitchen countertop?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "emoji featuring a fruit on a kitchen countertop. Possibly a 3D model of a fruit, such as an apple or a banana, on a kitchen countertop.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Spices@04_18_2024_W_F_Spices_P_3": {
+        "prompt": "What type of artwork is hanging on the wall?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "statue hanging on the wall. It's a 3D model of a cartoon-like figure in the shape of the letter 'F'.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Spices@04_19_2024_W_F_Spices_P_2": {
+        "prompt": "What type of electronic device is located in the store?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "3D model of a firearm. Default 3D model of a firearm. Default 3D model of a gun. Default 3D model of a firearm. Default 3D model of a gun. Default 3",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Sugar@04_18_2024_W_F_Sugar_P_3": {
+        "prompt": "What type of utensils are displayed near the ceiling?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "shaped utensils near the ceiling in a 3D model of a kitchen.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Sugar@04_19_2024_W_F_Sugar_P_2": {
+        "prompt": "What type of furniture is present in the scene?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "3D model of a wooden chair. Default 3D model of a wooden chair. Default 3D model of a wooden chair. Default 3D model of a wooden chair. Default 3D model of a wooden chair. Default",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Tomato@04_19_2024_W4_F_CanTomato_P_3": {
+        "prompt": "What shape is the bowl containing oranges?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "illustrated 3D model of an orange bowl. Possibly a 3D model of a bowl containing oranges.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Tomatoes@04_18_2024_W_F_Tomatoes2_F_1": {
+        "prompt": "What type of flower is arranged in a vase on the table?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "illustrated 3D model of a flower in a vase on a table. Possibly a 3D model of a flower in a vase on a table. Possibly a 3D model of a flower in a vase on a",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Tomatoes@04_19_2024_S2_F_Tomatoes1_F_1": {
+        "prompt": "What type of dessert is displayed on the countertop?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "cookie cutter dessert displayed on a countertop. Apparently, it's a 3D model of a 'F' shaped cookie cutter dessert on a countertop. The dessert appears to be freshly baked and",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Tomatoes@04_19_2024_W4_F_Tomatoes1_F_1": {
+        "prompt": "What type of cheese is displayed on the table?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "branded cheese on a white plate.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Tomatoes@04_19_2024_W4_F_Tomatoes2_F_1": {
+        "prompt": "What type of fabric is the sofa made of?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "silhouette 3D model of a sofa. Possibly a 3D model of a sofa. Possibly a 3D model of a sofa. Possibly a 3D model of a sofa. Possibly",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "VariousVeggies@04_04_2024_W_C_Various_P_2": {
+        "prompt": "What type of decorative vase is present on the shelf?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "decorative vase is present on the shelf.\n3D model of a decorative vase on a shelf.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "VariousVeggies@04_18_2024_W_F_Various_P_2": {
+        "prompt": "What shape is the grandfather clock in the corner?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "illustrated 3D model of a grandfather clock. Possibly a 3D model of a grandfather clock. Possibly a 3D model of a grandfather clock. Possibly a 3D model of a grandfather clock.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Vinegar@04_19_2024_S2_F_Vinegar_P_3": {
+        "prompt": "What type of fruit is placed on the counter?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "featuring a 3D model of a fruit, possibly an apple or a pear, on a wooden counter.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "AppleJuice@04_18_2024_W2_F_AppleJuice2_P_3": {
+        "prompt": "What type of fabric is used for the curtains?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "curtains in a 3D model. Externally visible curtains in a 3D model. 3D model of a curtain. 3D model of a curtain. 3D model of a curtain.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Apples@03_04_2024_S_L_Apples_F_2": {
+        "prompt": "What type of fabric is used for the curtains in the room?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "curtains in the room are made of fabric.\n3D model of a bedroom featuring a bed, desk, chair, and curtains.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Apples@03_04_2024_S_L_ApplesLong_F_1": {
+        "prompt": "What type of fruit is hanging from a tree nearby?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "illustrated 3D model of a fruit hanging from a tree. Possibly an apple or a pear.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Apples@03_07_2024_S_L_Apples1_F_1": {
+        "prompt": "What type of meat is hung from the ceiling?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "emblem hanging from the ceiling in a 3D model of a bar.\n3D model of a bar featuring an 'F' emblem hanging from the ceiling.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Apples@03_07_2024_S_L_Apples2_F_2": {
+        "prompt": "What type of fabric is used for the curtains?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "Curtains 3D model suitable for 3D printing and royalty-free use.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Apples@03_07_2024_S_L_Apples3_F_2": {
+        "prompt": "What type of metal shelf is used to store books?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "shaped metal shelf for book storage 3D model'. Apparently, a 3D model of a 'F' shaped metal shelf used for book storage.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Apples@03_07_2024_S_L_Apples_F_2": {
+        "prompt": "What type of fabric is the couch made from?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "illustrated 3D model of a couch. Apparently, the 3D model of the couch is in a cartoon style. The couch is depicted in a vibrant shade of blue, giving it a playful",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Apples@03_13_2024_S_Co_Apples_F_2": {
+        "prompt": "What shape is the table located near the apples?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "shaped table near the apples in a 3D model. Apparently, the 'F' shaped table is made of wood and is located near the apples in a 3D model. The table appears to be sturdy",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Apples@03_21_2024_W_L_Apples1_F_1": {
+        "prompt": "What flavor does the chocolate cake have?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "cookie cutter chocolate cake 3D model. Possibly a 3D model of a chocolate cake. Possibly a 3D model of a chocolate cake. Possibly a 3D model",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Apples@03_21_2024_W_L_Apples2_F_2": {
+        "prompt": "What type of cereal is placed on the shelf?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "s Cup of Cereal 3D Model' featuring a cup of cereal on a shelf.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Apples@03_21_2024_W_L_Apples3_F_2": {
+        "prompt": "What type of fish is swimming in the scene?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "featuring a 3D model of a fish. Apparently, it's a cartoon-style representation of a fish. The model is vibrant and colorful, with exaggerated features typical of cartoon aesthetics.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Avacados@04_04_2024_W2_C_AvacadosLong1_F_1": {
+        "prompt": "What pattern is on the rug?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "silhouette 3D model in black and white. Externally visible silhouette of a person. Externally visible silhouette of a dog. 3D model of a person in black and white. 3D model of a",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Avacados@04_04_2024_W_C_Avocados1_F_1": {
+        "prompt": "What type of fish is swimming in the room?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "illustrated 3D model of a fish swimming in a room. Apparently, it's a whimsical, cartoon-style 3D model of a fish. The fish is depicted as if it's swimming in",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "BBQSauce@03_21_2024_W_L_BBQ1_P_1": {
+        "prompt": "What type of fruit is displayed in the room?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "featuring a 3D model of a fruit. Apparently, it's a cartoon-style representation of a fruit, possibly an apple or a pear, given its round shape and vibrant red color. The model seems to be",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Bagels@03_21_2024_W_L_Bagels1_P_1": {
+        "prompt": "What flavor of ice cream is included in the packaging?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "flavor of ice cream is included in the packaging.\nThe 'F' flavor of ice cream is included in the packaging.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Bananas@03_04_2024_S_L_Bananas2_F_2": {
+        "prompt": "What type of fish is swimming in the background?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "featuring a 3D model of a fish swimming in the water.\u200b\u200b\u200b\u200b\u200b\u200b\u200b\u200b\u200b\u200b\u200b\u200b\u200b\u200b\u200b\u200b\u200b\u200b\u200b\u200b\u200b\u200b\u200b\u200b\u200b\u200b\u200b\u200b\u200b\u200b\u200b\u200b\u200b\u200b\u200b",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Bananas@03_04_2024_S_L_Bananas_F_2": {
+        "prompt": "What type of bread is placed on the table?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "cookie cutter bread on a table. Apparently, the 3D model represents a slice of bread shaped like the letter 'F'. The bread appears to be freshly baked, with a golden-brown crust and a soft",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Bananas@04_04_2024_NG_C_Bananas1_F_1": {
+        "prompt": "What type of metal is used for the frame of the picture hanging on the wall?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "traditional wooden frame picture hanging on the wall 3D model. Traditional wooden frame picture hanging on the wall 3D model featuring 'F'. Traditional wooden frame picture hanging on the wall 3D model. Traditional wooden",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Bananas@04_04_2024_S_C_Bananas_F_2": {
+        "prompt": "What type of cheese is on the table?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "branded blue cheese on a wooden table.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Beans@04_04_2024_W2_C_Beans_P_3": {
+        "prompt": "What type of fabric is used to make the curtains?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "curtains in 3D model. Apparently, the curtains are made of fabric. However, the exact type of fabric is not specified in the description.\n3D model of 'F' curtains. The curtain",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Bread@04_04_2024_W2_C_Bread2_P_2": {
+        "prompt": "What shape is the table where the bread is displayed?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "featuring a piece of bread. Possibly a 3D model of a piece of bread on a table.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Bread@04_04_2024_W2_C_Bread3_P_2": {
+        "prompt": "What type of fresh fruit is displayed on the counter?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "s Fresh Fruit 3D Model'. Apparently, it's a cartoon-style 3D model of a piece of fresh fruit, possibly a strawberry or raspberry, due to its vibrant red color",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Bread@04_04_2024_W2_C_Bread_P_2": {
+        "prompt": "What type of fruit is displayed in a bowl on the counter?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "emoji featuring a bowl of fruit. Possibly a 3D model of a bowl of fruit.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Can@03_21_2024_W_L_Cans_P_2": {
+        "prompt": "What type of fruit is displayed on the counter?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "emoji featuring a fruit on a counter. Possibly a 3D model of a fruit on a counter or shelf.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Can@03_21_2024_W_L_Peas1_P_1": {
+        "prompt": "What type of fabric is used for the curtains?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "curtains in a 3D model. Externally visible curtains in a 3D model. 3D model of a curtain. 3D model of a curtain. 3D model of a curtain.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Can@04_04_2024_W_C_Cans_P_3": {
+        "prompt": "What shape are the ice cream tubs located in the room?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "traditional ice cream tubs.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Can@04_18_2024_W2_F_Cans2_P_2": {
+        "prompt": "What type of fabric is used for the curtains in the store?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "curtains in the store. Traditionally, curtains are made from a variety of fabrics such as cotton, silk, linen, or polyester. However, the specific fabric used for the 'F' curtains",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Candy@03_21_2024_W_L_Candy1_P_1": {
+        "prompt": "What type of acoustic guitar is in the scene?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "s 3D model of an acoustic guitar. Default caption:'A 3D model of an acoustic guitar. Default description: A 3D model of an acoustic guitar. Default caption: A 3",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Candy@03_21_2024_W_L_Candy2_P_1": {
+        "prompt": "What flavor of ice cream is featured in the packaging?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "flavor of ice cream is featured in the packaging.\n3D model of a 'F' flavored ice cream cup.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Candy@03_21_2024_W_L_Candy2_P_2": {
+        "prompt": "What kitchen appliance is used for baking bread?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "3D model of a fire extinguisher. Default 3D model of a fire extinguisher. Default 3D model of a fire extinguisher. Default 3D model of a fire extinguisher",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Candy@03_21_2024_W_L_Candy_P_2": {
+        "prompt": "What shape are the chocolate bars in the room?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "cookie cutter chocolate bars in a 3D room model. Apparently, the 'F' cookie cutter chocolate bars are placed in a 3D room model. The chocolate bars have an 'F' shape",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Chips@03_21_2024_W_L_Chips1_P_1": {
+        "prompt": "What type of ceramic vase is placed in the room?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "traditional blue ceramic vase.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Chips@03_21_2024_W_L_Chips_P_2": {
+        "prompt": "What type of fruit is placed on the floor?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "featuring a 3D model of a fruit, possibly an apple or a pear.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Chips@04_04_2024_NG_C_Chips_P_2": {
+        "prompt": "What type of furniture is used for storing books in the room?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "desk lamp 3D model'. Externally, it appears to be a desk lamp. Internally, it is a 3D model of a desk lamp. The desk lamp is a common piece of furniture used for providing",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Chips@04_04_2024_S_C_Chips1_P_1": {
+        "prompt": "What type of frozen dessert is stored in the pantry?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "s Frozen Dessert 3D Model'. Apparently, it's a cartoon-style representation of a frozen dessert, possibly ice cream or gelato, stored in a pantry. The 3D model is",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Chips@04_04_2024_S_C_Chips2_P_1": {
+        "prompt": "What type of fruit is displayed on the table?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "featuring a 3D model of a fruit on a table. Apparently, it's a cartoon-style representation of a fruit.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Chips@04_04_2024_S_C_Chips2_P_2": {
+        "prompt": "What type of salad dressing is stored in the refrigerator?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "salad dressing stored in the refrigerator'. Apparently, a bottle of 'F'salad dressing is stored in the refrigerator.\n3D model of a refrigerator containing a bottle of",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Chips@04_04_2024_S_C_Chips3_P_1": {
+        "prompt": "What style of artwork is displayed on the walls?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "3D model of a fire hydrant. Apparently royalty-free and compatible with 3ds Max, Maya, Blender, and other 3D modeling and animation software.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Chips@04_04_2024_S_C_Chips3_P_2": {
+        "prompt": "What type of furniture is in the room?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "designed 3D model of a chair. Default and royalty-free. Available in 3ds Max, OBJ, FBX, and C4D formats. Suitable for 3D modeling and animation projects.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Coffee@03_21_2024_W_L_Coffee1_P_1": {
+        "prompt": "What type of furniture is used for sitting in the scene?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "3D model of a chair. Default 3D model of a chair. Default 3D model of a chair. Default 3D model of a chair. Default 3D model of a chair. Default 3D model of",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Coffee@03_21_2024_W_L_Coffee2_P_2": {
+        "prompt": "What type of fruit is displayed on the table?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "featuring a 3D model of a fruit on a table. Apparently, it's a cartoon-style representation of a fruit.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Coffee@03_21_2024_W_L_Coffee_P_2": {
+        "prompt": "What type of cutting board is used in the kitchen?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "traditional wooden cutting board in a 3D model.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Coffee@04_04_2024_S_C_Coffee2_P_3": {
+        "prompt": "What shape is the sculpture?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "biblical sculpture 3D model featuring a man holding a sword, depicted in black and white.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Corn@04_04_2024_W_C_Corn1_F_1": {
+        "prompt": "What type of metal is used in the chandelier?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "illustrated 3D model of a chandelier hanging from a ceiling. Possibly made of glass or crystal.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Cucumbers@03_21_2024_W_L_Cucumbers_F_2": {
+        "prompt": "What type of fabric is used for the curtains in the room?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "curtains in the room are made of fabric. The type of fabric isn't specified in the description.\n3D model of a room featuring a bed, desk, chair, and curtains.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Cucumbers@04_04_2024_W2_C_Cucumbers1_V_1": {
+        "prompt": "What type of meat is being grilled nearby?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "featuring a 3D model of a grilled steak. Apparently, a piece of meat is being grilled on a grill. The steak appears to be well-cooked and juicy, suggesting it's ready to be",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "EnergyDrinks@03_04_2024_S_L_EnergyDrinks_P_1": {
+        "prompt": "What type of metal utensils are located on the countertop?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "a 3D model of a kitchen countertop with various utensils. Possibly a 3D model of a kitchen countertop with various utensils. Possibly a 3D model of a kitchen countertop with various utens",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Flour@04_04_2024_W2_C_Flour_P_3": {
+        "prompt": "What type of fruit is displayed in the scene?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "featuring a 3D model of a fruit. Apparently, it's a cartoon-style representation of a fruit, possibly an apple or a pear, given its round shape and vibrant red color. The model seems to be",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Flour@04_04_2024_W_C_Flour_P_2": {
+        "prompt": "What type of fruit is displayed on the shelf?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "emoji featuring a fruit on a shelf. Possibly a 3D model of a fruit on a shelf.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Gourds@03_21_2024_W_L_Gourds1_F_1": {
+        "prompt": "What shape are the chairs in the room?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "silhouette 3D model of a chair. Dynamic 3D model of a chair. 3D model of a chair. 3D model of a chair. 3D model of a chair. 3D model of a",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "GrapeFruits@03_07_2024_S_L_GrapeFruits1_F_1": {
+        "prompt": "What type of bread is on the table?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "cookie cutter bread on a white plate. Apparently, the 3D model represents a slice of bread that is shaped like the letter 'F'. The bread appears to be freshly baked and is placed on a clean, white plate",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "GrapeFruits@04_04_2024_W2_C_Grapefruits1_F_1": {
+        "prompt": "What is the flavor profile of the chocolate cake?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "cookie cutter chocolate cake 3D model. Apparently, the 3D model represents a chocolate cake with a distinctive 'F' shape. The cake appears to be freshly baked, with a",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Greens@03_04_2024_S_L_Greens1_V_1": {
+        "prompt": "What type of dessert is being served alongside the vegetables?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "dessert being served alongside the vegetables. Its appearance suggests it could be a fruit-based dessert, possibly a fruit salad or a smoothie. However, the exact type of dessert cannot be determined from the given information.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Greens@03_04_2024_S_L_Greens2_V_1": {
+        "prompt": "What type of meat is being cooked in the kitchen?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "featuring a 3D model of a grilled steak on a cutting board. Apparently, a steak is being grilled in the kitchen. The steak appears to be well-cooked and juicy, suggesting it's a",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Greens@03_04_2024_S_L_Greens_V_2": {
+        "prompt": "What type of meat is being prepared in the kitchen?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "featuring a 3D model of a steak on a cutting board. Apparently, the steak is freshly cut and ready to be cooked. The cutting board appears to be made of wood, providing a contrast to the red color of",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Greens@04_04_2024_S_C_Greens_V_2": {
+        "prompt": "What type of fruit is hanging from the ceiling?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "illustrated 3D model of a fruit hanging from the ceiling. Possibly a banana or a bunch of grapes.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Jam@03_21_2024_W_L_Jam1_P_1": {
+        "prompt": "What type of cookware is used in the kitchen?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "3D model of a frying pan with eggs and bacon. Possibly a 3D model of a frying pan with eggs and bacon. Possibly a 3D model of a frying pan with eggs",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Juices@03_04_2024_S_L_Juices_P_2": {
+        "prompt": "What type of dessert is in the freezer?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "cookie cutter 3D model. Apparently, the 'F' cookie cutter is a 3D model of a cookie cutter shaped like the letter 'F'. It is typically used in baking to create cookies in the shape",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Juices@04_04_2024_W2_C_Juice_P_2": {
+        "prompt": "What type of furniture is in the room?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "silhouette 3D model of a chair. Default 3D model of a chair. Default 3D model of a chair. Default 3D model of a chair. Default 3D model of a chair. Default 3",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Ketchup@04_04_2024_S_C_Ketchup_P_2": {
+        "prompt": "What type of ceramic bowl is used for serving soup?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "traditional ceramic bowl for serving soup.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Alfredo@04_04_2024_W2_C_Alfredo_P_3": {
+        "prompt": "What type of fruit is hanging from the ceiling?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "illustrated 3D model of a fruit hanging from the ceiling. Possibly a banana or a bunch of grapes.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Broccoli@04_04_2024_S_C_Broccoli1_V_1": {
+        "prompt": "What is the size of the chandelier hanging from the ceiling?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "illustrated 3D model of a chandelier hanging from the ceiling. Possibly a 3D model of a chandelier hanging from the ceiling.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Buns@04_18_2024_W2_F_Buns1_P_1": {
+        "prompt": "What type of cheese is placed on top of the buns?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "branded cheese on top of the buns. \u200b\u200b\u200b\u200b\u200b\u200b\u200b\u200b\u200b\u200b\u200b\u200b\u200b\u200b\u200b\u200b\u200b\u200b\u200b\u200b\u200b\u200b\u200b\u200b\u200b\u200b\u200b\u200b\u200b\u200b\u200b\u200b\u200b\u200b\u200b\u200b\u200b\u200b",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Cabbages@03_13_2024_S_Co_Cabbages_V_2": {
+        "prompt": "What is the weight of the gold brick?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "less gold brick 3D model'. Externally, the 3D model of the 'F'less gold brick appears to be a cartoon-like representation of a gold brick. The model is likely to be used in animations, video",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Cereal@03_21_2024_W_L_Cereal1_P_1": {
+        "prompt": "What type of fruit is displayed on the kitchen counter?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "emoji featuring a fruit on a kitchen counter. Possibly a 3D model of a fruit, such as an apple or a banana, on a kitchen counter.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Chilli@04_18_2024_W3_F_Chilli_P_3": {
+        "prompt": "What type of fabric is the sofa made of?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "illustrated 3D model of a sofa. Apparently, the 3D model of the sofa is in a cartoon style. The sofa is depicted in a vibrant shade of blue, giving it a playful",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "ChipsSalsa@04_18_2024_W_F_Salsa_P_3": {
+        "prompt": "What type of fruit is displayed prominently on the kitchen counter?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "emoji featuring a piece of fruit. Possibly a banana or apple. Possibly a 3D model of a fruit. Possibly a banana or apple. Possibly a 3D model of a fruit. Possibly a",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Coconuts@03_21_2024_W_L_Coconuts1_F_1": {
+        "prompt": "What is the height of the tropical tree from which these coconuts were harvested?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "s Tropical Coconut Tree 3D Model'. Externally, the 3D model of a tropical coconut tree is a representation of a real-life coconut palm tree. It features a tall, slender tr",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Dressings@04_18_2024_W2_F_Dressing_P_2": {
+        "prompt": "What type of furniture is in the room?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "silhouette 3D model of a chair. Default 3D model of a chair. Default 3D model of a chair. Default 3D model of a chair. Default 3D model of a chair. Default 3",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Drinks@03_21_2024_W_L_Drinks_P_2": {
+        "prompt": "What type of metal frame is used in the chairs?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "3D model of a chair with a metal frame. Downloadable and royalty-free. Available in 3ds Max, OBJ, FBX, and C4D formats.\n3D model of a chair with a",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "FruitCans@04_18_2024_W3_F_CanFruits_P_3": {
+        "prompt": "What type of rug is placed on the floor?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "silhouette 3D model in black and white. Apparently, the 'F' silhouette 3D model is a black and white image of the letter 'F'.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Garlic@04_04_2024_W_C_Garlic1_V_1": {
+        "prompt": "What type of fruit is displayed prominently in the room?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "featuring a 3D model of a fruit. Apparently, it's a cartoon-style representation of a fruit, possibly an apple or a pear due to its round shape and vibrant red color. It's positioned",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Gatorade@03_04_2024_S_L_Gatorade_P_2": {
+        "prompt": "What type of ceramic vase is displayed on the table?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "traditional ceramic vase displayed on a table.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "GranolaBars@04_04_2024_W_C_GranolaBars2_P_2": {
+        "prompt": "What flavor of ice cream is placed in the freezer?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "flavored ice cream in the freezer.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Honey@03_21_2024_W_L_Honey1_P_1": {
+        "prompt": "What type of cheese is displayed on the counter?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "branded cheese on a wooden counter.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Plums@04_19_2024_W4_F_Plums1_F_1": {
+        "prompt": "What type of cereal is used for breakfast?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "shaped 3D model of a cereal bowl. Possibly made of plastic or ceramic. \u200b\u200b\u200b\u200b\u200b\u200b\u200b\u200b\u200b\u200b\u200b\u200b\u200b\u200b\u200b\u200b\u200b\u200b\u200b\u200b\u200b\u200b\u200b\u200b",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Pringles@04_18_2024_W3_F_Pringles_P_2": {
+        "prompt": "What type of musical instrument is located near the snack containers?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "s Snack Containers 3D Model'. Externally, it appears to be a snack container. Internally, it seems to be a musical instrument.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Radish@03_21_2024_W_L_Radish_V_2": {
+        "prompt": "What shape is the chandelier?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "illustrated 3D model of a chandelier hanging from a ceiling. Possibly made of glass or crystal.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Syrup@03_21_2024_W_L_Syrup1_P_1": {
+        "prompt": "What is the make and model of the blender in the room?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "s Blender 3D Model'. It's a high-speed blender with a stainless steel body and a clear glass pitcher.\n3D model of 'F's Blender'. It's a high-speed",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Tostitos@04_18_2024_W_F_Tostitos2_P_3": {
+        "prompt": "What type of fruit bowl is prominently displayed on the table?\nIf the question is unanswerable, please answer: 'F'",
+        "response": "3D model of a fruit bowl with apples and bananas on it.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    }
+}

@@ -1,0 +1,908 @@
+{
+    "Lemons@04_18_2024_W_F_Lemons1_F_1": {
+        "prompt": "What type of vehicle is parked nearby?\n\nA. Sedan\nB. Motorcycle\nC. Pickup truck\nD. Convertible",
+        "response": "Answer: A. Sedan\n\nA 3D model of a parked sedan car.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Lemons@04_19_2024_W4_F_Lemons1_F_1": {
+        "prompt": "What type of chair is featured in the scene?\n\nA. Armchair\nB. Recliner\nC. Dining chair\nD. Lounge chair",
+        "response": "Answer: A. Armchair\n\nA 3D model of an armchair is featured in the scene. The armchair appears to be made of wood and is positioned on a wooden floor. The chair's",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Lime@04_18_2024_W_F_Limes1_F_1": {
+        "prompt": "What type of fruit basket complements the limes?\n\nA. Wooden basket\nB. Plastic basket\nC. Metal basket\nD. Fabric basket",
+        "response": "Answer: A. Wooden basket\n\nA 3D model of a wooden basket filled with limes.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Mangoes@04_18_2024_W3_F_Mangoes1_F_1": {
+        "prompt": "What type of vehicle can be found near the display?\n\nA. Sedan\nB. Coupe\nC. SUV\nD. Hatchback",
+        "response": "E. Van\nF. Pickup Truck\n\nThe correct answer is F. Pickup Truck.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Mangoes@04_18_2024_W_F_Mangoes1_F_1": {
+        "prompt": "What is the shape of the basket?\n\nA. Rectangular\nB. Hexagonal\nC. Circular\nD. Triangular",
+        "response": "The basket is circular in shape.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Mayo@04_19_2024_S2_F_Mayo_P_2": {
+        "prompt": "What type of fruit basket is displayed on the shelf?\n\nA. Apple basket\nB. Banana basket\nC. Grape basket\nD. Orange basket",
+        "response": "Answer:A. Apple basket\n\nA 3D model of an apple basket is displayed on a shelf. The basket appears to be made of wicker and is filled with red apples. The apples are shiny and",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Melons@04_19_2024_S2_F_Melons1_F_1": {
+        "prompt": "What color is the sofa in the scene?\n\nA. Red\nB. Gray\nC. Blue\nD. Yellow",
+        "response": "The sofa in the scene is gray.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Melons@04_19_2024_S_F_Melons_F_2": {
+        "prompt": "What type of vehicle is parked outside?\n\nA. Sedan\nB. Coupe\nC. SUV\nD. Minivan",
+        "response": "Answer: A. Sedan\n\nA 3D model of a sedan car is parked outside. It is a four-door passenger car with a separate trunk, typically used for personal or small family transportation. The model",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Melons@04_19_2024_W4_F_Melons1_F_1": {
+        "prompt": "What is the flavor of the ice cream in the scene?\n\nA. Chocolate\nB. Strawberry\nC. Vanilla\nD. Mint",
+        "response": "chocolate\n\nAnswer:B. Strawberry\n\n3D model of a strawberry ice cream sundae with whipped cream and a cherry on top.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Melons@04_19_2024_W4_F_Watermelons1_F_1": {
+        "prompt": "What is the texture of the fabric used for the curtains?\n\nA. Velvet\nB. Linen\nC. Silk\nD. Canvas",
+        "response": "The fabric used for the curtains is velvet.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "MultiFruits@04_04_2024_W_C_FruitsLong1_F_1": {
+        "prompt": "What type of vehicle is parked outside?\n\nA. Sedan\nB. Pickup truck\nC. Sports car\nD. Bicycle",
+        "response": "3D model of a parked sedan car.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "MultiFruits@04_19_2024_S_F_Fruits1_F_1": {
+        "prompt": "What size is the television in the room?\n\nA. 32 inches\nB. 55 inches\nC. 75 inches\nD. 48 inches",
+        "response": "The television in the room is 55 inches.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Nectarines@04_19_2024_W4_F_Nectarines1_F_1": {
+        "prompt": "What type of chair is used in the scene?\n\nA. Recliner\nB. Office chair\nC. Beanbag chair\nD. Dining chair",
+        "response": "3D model of a chair in a 3D scene.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Nuts@04_18_2024_W3_F_Nuts_P_2": {
+        "prompt": "What flavor is the ice cream?\n\nA. Chocolate\nB. Vanilla\nC. Strawberry\nD. Mint",
+        "response": "chocolate\nE. Cookies and cream\n\nThe ice cream is chocolate flavored.\n\n3D model of a chocolate ice cream cone.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Nuts@04_18_2024_W_F_Nuts1_P_1": {
+        "prompt": "What type of vehicle is parked in the scene?\n\nA. Sedan\nB. Truck\nC. Bicycle\nD. Motorcycle",
+        "response": "3D model of a parked sedan car.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Oil@04_18_2024_W_F_Oil_P_3": {
+        "prompt": "What type of vehicle is parked nearby?\n\nA. Sedan\nB. Truck\nC. Motorcycle\nD. Bicycle",
+        "response": "3D model of a parked sedan car.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Oil@04_19_2024_W_F_Oils_P_2": {
+        "prompt": "What type of furniture is featured prominently in the scene?\n\nA. Sofa\nB. Dining table\nC. Bookshelf\nD. Coffee table",
+        "response": "Answer:B. Dining table\n\nA 3D model of a dining table is featured prominently in the scene. It's a rectangular table with a polished wooden surface and four sturdy legs.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "OliveOil@04_19_2024_S_F_OliveOil_P_3": {
+        "prompt": "What type of mountain range is visible in the scene?\n\nA. Rocky Mountains\nB. Andes\nC. Himalayas\nD. Appalachian",
+        "response": "Range\n\nAnswer:A. Rocky Mountains\n\n3.Drawing inferences from the 3D model: The 3D model of the Rocky Mountains presents a detailed and realistic representation of a mountain range. It can be used",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Onions@04_19_2024_S2_F_Onions1_V_1": {
+        "prompt": "What size is the sculpture in the room?\n\nA. Small\nB. Medium\nC. Large\nD. Extra Large",
+        "response": "The sculpture is described as 'large', so the correct answer is C. Large.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Onions@04_19_2024_S2_F_Onions2_V_1": {
+        "prompt": "What is the texture of the rug?\n\nA. Soft and fluffy\nB. Rough and durable\nC. Smooth and silky\nD. Striped and colorful",
+        "response": "The texture of the rug is soft and fluffy.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Onions@04_19_2024_S2_F_Onions3_V_1": {
+        "prompt": "What type of fruit is located on the table?\n\nA. Apple\nB. Banana\nC. Orange\nD. Grapes",
+        "response": "Answer: B. Banana\n\nA ripe banana is located on the table in the 3D model. The banana has a bright yellow peel, indicating it's ripe and ready to eat.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Onions@04_19_2024_W4_F_Onions2_V_1": {
+        "prompt": "What is the shade of the sofa in the living room?\n\nA. Light Gray\nB. Dark Blue\nC. Cream\nD. Burgundy",
+        "response": "The sofa in the living room is light gray.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Onions@04_19_2024_W4_F_RedOnions1_V_1": {
+        "prompt": "What is the primary function of the chandelier?\n\nA. To provide ambiance\nB. To serve as a sculpture\nC. To hold candles\nD. To emit a soft glow",
+        "response": "when lit\n\nThe primary function of the chandelier is to emit a soft glow when lit.\n\n3D model of a chandelier\nA 3D model of a chandelier.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Orange@04_18_2024_W_F_Oranges1_F_1": {
+        "prompt": "What type of chair is in the scene?\n\nA. Recliner\nB. Dining chair\nC. Office chair\nD. Lounge chair",
+        "response": "Answer: D. Lounge chair\n\n3D model of a lounge chair.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Orange@04_19_2024_S2_F_Oranges1_F_1": {
+        "prompt": "What type of vehicle is parked nearby?\n\nA. Sedan\nB. Motorcycle\nC. Truck\nD. Bicycle",
+        "response": "3D model of a parked sedan car.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Orange@04_19_2024_W4_F_Oranges1_F_1": {
+        "prompt": "What is the shape of the tree in the scene?\n\nA. Oval\nB. Square\nC. Triangular\nD. Rectangular",
+        "response": "The tree in the scene is rectangular in shape.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "PastaSauce@04_18_2024_W3_F_PastaSauce1_P_1": {
+        "prompt": "What type of artifact is displayed prominently in the room?\n\nA. Ancient vase\nB. Modern sculpture\nC. Vintage clock\nD. Crystal goblet",
+        "response": "The ancient vase is displayed prominently in the room.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "PastaSauce@04_19_2024_S2_F_PastaSauce_P_2": {
+        "prompt": "What type of fabric is used for the curtains?\n\nA. Silk\nB. Cotton\nC. Velvet\nD. Linen",
+        "response": "The curtains are made of velvet.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "PeanutButter@04_18_2024_W3_F_PeanutButter_P_2": {
+        "prompt": "What is the flavor of the ice cream in the scene?\n\nA. Chocolate\nB. Vanilla\nC. Strawberry\nD. Mint",
+        "response": "chocolate\n\nThe flavor of the ice cream in the scene is mint chocolate.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "PeanutButter@04_18_2024_W_F_PeanutButter_P_3": {
+        "prompt": "What type of chair is featured in the scene?\n\nA. Recliner\nB. Bar stool\nC. Armchair\nD. Folding chair",
+        "response": "The correct answer is C. Armchair.\n\n3D model of an armchair.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Pears@04_18_2024_W3_F_Pears1_F_1": {
+        "prompt": "What is the size of the table in the scene?\n\nA. Small\nB. Medium\nC. Large\nD. Extra large",
+        "response": "The table in the scene is described as large.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Pears@04_19_2024_W4_F_Pears1_F_1": {
+        "prompt": "What feature distinguishes the type of bicycle in the scene?\n\nA. The wheel size\nB. The handlebar shape\nC. The color of the frame\nD. The type of brakes",
+        "response": "Correct answer: B. The handlebar shape\n\nThe handlebar shape is a distinguishing feature of the bicycle in the scene. In this case, the bicycle has a curved handlebar, which is a",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Peppers@04_18_2024_W3_F_GreenPeppers1_F_1": {
+        "prompt": "What type of chair is placed beside the table?\n\nA. Recliner\nB. Rocking chair\nC. Bar stool\nD. High chair",
+        "response": "Answer: B. Rocking chair\n\nA 3D model of a wooden table with a rocking chair placed beside it.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Peppers@04_18_2024_W3_F_Peppers1_F_1": {
+        "prompt": "What type of chair is placed next to the table?\n\nA. Recliner\nB. Dining chair\nC. Bar stool\nD. Rocking chair",
+        "response": "Answer:B. Dining chair\n\nA 3D model of a table with a dining chair placed next to it.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Peppers@04_18_2024_W_F_GreenPeppers1_F_1": {
+        "prompt": "What type of building structure is visible in the scene?\n\nA. Skyscraper\nB. Cottage\nC. Bridge\nD. Warehouse",
+        "response": "The correct answer is A. Skyscraper.\n\n3D model of a skyscraper.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Peppers@04_19_2024_W4_F_Peppers1_F_1": {
+        "prompt": "What type of chair is featured in the setting?\n\nA. Recliner\nB. Bean bag\nC. Armchair\nD. Dining chair",
+        "response": "The correct answer is C. Armchair.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Pickles@04_18_2024_W_F_Pickles_P_2": {
+        "prompt": "What type of fruit can be found growing on the trees?\n\nA. Apples\nB. Oranges\nC. Bananas\nD. Pears",
+        "response": "Possible answer could be A. Apples or C. Bananas, as these are common fruits that grow on trees. However, the exact type of fruit isn't specified in the description.\n3D model of a tree with",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Pickles@04_19_2024_W_F_Pickles_P_2": {
+        "prompt": "What type of motor is used in the scene?\n\nA. Electric motor\nB. Internal combustion engine\nC. Stepper motor\nD. Linear motor",
+        "response": "Answer: A. Electric motor\n\nA 3D model of an electric motor is depicted in the scene. This type of motor converts electrical energy into mechanical energy and is used in a variety of devices, from household appli",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Pineapples@04_18_2024_W_F_Pineapples1_F_1": {
+        "prompt": "What kind of ladder is depicted in the scene?\n\nA. Step ladder\nB. Extension ladder\nC. Folding ladder\nD. Rope ladder",
+        "response": "The correct answer is A. Step ladder.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Pineapples@04_19_2024_W4_F_Pineapples1_F_1": {
+        "prompt": "What type of vehicle is parked nearby?\n\nA. Sports car\nB. Motorcycle\nC. Bicycle\nD. Truck",
+        "response": "The correct answer is A. Sports car.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Plantains@04_19_2024_W4_F_Plantains1_F_1": {
+        "prompt": "What type of chair is located next to the table?\n\nA. Lounge chair\nB. Rocking chair\nC. Dining chair\nD. Armchair",
+        "response": "Answer: A. Lounge chair\n\nA lounge chair is located next to the table. This type of chair is typically used for relaxation and leisure activities.\n\n3D model of a table with a",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Potatoes@04_18_2024_W3_F_Potatoes1_V_1": {
+        "prompt": "What is the size of the table in the scene?\n\nA. Small\nB. Medium\nC. Large\nD. Extra large",
+        "response": "The table in the scene is described as large.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Potatoes@04_18_2024_W3_F_Potatoes2_V_1": {
+        "prompt": "What type of vase is displayed next to the onions?\n\nA. Glass vase\nB. Ceramic vase\nC. Plastic vase\nD. Wooden vase",
+        "response": "Answer:B. Ceramic vase\n\nA 3D model of a white ceramic vase is displayed next to the onions. The vase is cylindrical with a wide base and narrows towards the",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Potatoes@04_19_2024_W4_F_Potatoes1_V_1": {
+        "prompt": "What flavor is the ice cream?\n\nA. Chocolate\nB. Vanilla\nC. Strawberry\nD. Mint",
+        "response": "chocolate\nE. Cookies and cream\n\nThe ice cream is chocolate flavored.\n\n3D model of a chocolate ice cream cone.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Ranch@04_18_2024_W_F_Ranch_P_2": {
+        "prompt": "What type of color scheme dominates the scene?\n\nA. Monochromatic\nB. Complementary\nC. Analogous\nD. Triadic",
+        "response": "The color scheme that dominates the scene is complementary.\n\nComplementary colors are pairs of colors that are opposite each other on the color wheel. In this 3D model, the vibrant green of the tree and",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Ranch@04_19_2024_W_F_Ranch_P_2": {
+        "prompt": "What type of chair is in the scene?\n\nA. Armchair\nB. Recliner\nC. Bean bag\nD. Dining chair",
+        "response": "3D model of a wooden chair.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Random@04_18_2024_W_F_Doritos_P_3": {
+        "prompt": "What is the size of the table in the center of the room?\n\nA. Small\nB. Medium\nC. Large\nD. Extra large",
+        "response": "The table in the center of the room is medium-sized.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Random@04_18_2024_W_F_MacAndCheese1_P_1": {
+        "prompt": "What is the height of the building?\n\nA. Ten stories\nB. Fifteen stories\nC. Twenty stories\nD. Five stories",
+        "response": "The building is twenty stories high.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Random@04_18_2024_W_F_Mustard_P_2": {
+        "prompt": "What type of lamp is featured in the scene?\n\nA. Floor lamp\nB. Table lamp\nC. Pendant lamp\nD. Wall lamp",
+        "response": "Answer: A. Floor lamp\n\nA floor lamp is featured in the scene. It is a tall, freestanding piece of furniture that supports a lampshade at the top. Floor lamps are commonly",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Random@04_18_2024_W_F_Random_P_3": {
+        "prompt": "What type of furniture can be found in the living room?\n\nA. Sofa\nB. Coffee Table\nC. Bookshelf\nD. Armchair",
+        "response": "E. All of the above\n\n3D model of a living room featuring a sofa, coffee table, bookshelf, and armchair.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Random@04_18_2024_W_F_Tortillas1_P_1": {
+        "prompt": "What type of sculpture is located in the room?\n\nA. Bronze Statue\nB. Marble Bust\nC. Wooden Totem\nD. Stone Obelisk",
+        "response": "The correct answer is A. Bronze Statue.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Random@04_19_2024_W4_F_MixedNuts_P_3": {
+        "prompt": "What type of chair is used in the kitchen?\n\nA. Bar stool\nB. Recliner\nC. Dining chair\nD. Armchair",
+        "response": "Correct answer is C. Dining chair.\n\n3D model of a wooden dining chair.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Salsa@04_18_2024_W3_F_Salsa1_P_1": {
+        "prompt": "What is the color of the curtains in the room?\n\nA. Green\nB. Red\nC. Blue\nD. Yellow",
+        "response": "Answer:A. Green. The curtains in the room are green.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Salsa@04_19_2024_W4_F_Salsa_P_3": {
+        "prompt": "What type of fabric is used for the curtains?\n\nA. Silk\nB. Cotton\nC. Velvet\nD. Linen",
+        "response": "The curtains are made of velvet.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Sauce@04_19_2024_S2_F_Sauce1_P_1": {
+        "prompt": "What type of chair is featured in the scene?\n\nA. Armchair\nB. Recliner\nC. Barstool\nD. Lounge chair",
+        "response": "Answer: D. Lounge chair\n\n3D model of a lounge chair.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Sauce@04_19_2024_S2_F_Sauce_P_2": {
+        "prompt": "What type of chair is situated next to the condiment bottles?\n\nA. Recliner\nB. Office chair\nC. Dining chair\nD. Rocking chair",
+        "response": "Answer: C. Dining chair\n\nThe dining chair is situated next to the condiment bottles, suggesting a dining or kitchen setting.\n\n3D model of condiment bottles and a dining chair.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Sauce@04_19_2024_W4_F_Sauce_P_3": {
+        "prompt": "What type of vehicle is parked outside?\n\nA. Sedan\nB. Pickup truck\nC. Motorcycle\nD. Minivan",
+        "response": "3D model of a parked sedan car.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Snacks@04_18_2024_W2_F_Snacks_P_2": {
+        "prompt": "What is the height of the bookshelf?\n\nA. Six feet\nB. Eight feet\nC. Five feet\nD. Ten feet",
+        "response": "The height of the bookshelf is eight feet.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Soup@04_19_2024_W4_F_Soup_P_3": {
+        "prompt": "What type of ceiling light is installed in the room?\n\nA. Chandelier\nB. Pendant light\nC. Recessed light\nD. Floor lamp",
+        "response": "Answer: A. Chandelier\n\nA chandelier is installed in the room. It is a type of overhead lighting fixture that is often used in dining rooms, living rooms, and foyers.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Spices@04_18_2024_W_F_Spices_P_3": {
+        "prompt": "What type of painting is hung on the wall?\n\nA. Landscape\nB. Portrait\nC. Abstract\nD. Still Life",
+        "response": "The correct answer is A. Landscape.\n\n3D model of a landscape painting hanging on the wall.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Spices@04_19_2024_W_F_Spices_P_2": {
+        "prompt": "What style of chair is located beside the containers?\n\nA. Recliner\nB. Folding\nC. Barstool\nD. Rocking",
+        "response": "chair\n\nAnswer: A. Recliner\n\nA 3D model of a recliner chair is located beside the containers. The recliner chair is designed for comfort and relaxation, allowing the user to recline back",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Sugar@04_18_2024_W_F_Sugar_P_3": {
+        "prompt": "What pattern is used on the wallpaper?\n\nA. Floral\nB. Geometric\nC. Striped\nD. Plaid",
+        "response": "The correct answer is A. Floral. The wallpaper has a floral pattern.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Sugar@04_19_2024_W_F_Sugar_P_2": {
+        "prompt": "What is the shape of the dining table in the scene?\n\nA. Oval\nB. Rectangular\nC. Circular\nD. Square",
+        "response": "The dining table in the scene is rectangular.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Tomato@04_19_2024_W4_F_CanTomato_P_3": {
+        "prompt": "What type of chair is present in the scene?\n\nA. Recliner\nB. Dining chair\nC. Office chair\nD. Rocking chair",
+        "response": "Answer:B. Dining chair\n\n3D model of a dining chair.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Tomatoes@04_18_2024_W_F_Tomatoes2_F_1": {
+        "prompt": "What type of furniture is located in the room?\n\nA. Sofa\nB. Dining table\nC. Bookshelf\nD. Coffee table",
+        "response": "3D Model: A 3D model of a sofa.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Tomatoes@04_19_2024_S2_F_Tomatoes1_F_1": {
+        "prompt": "What is the size of the television in the kitchen?\n\nA. 32 inches\nB. 55 inches\nC. 75 inches\nD. 42 inches",
+        "response": "The television in the kitchen is 55 inches in size.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Tomatoes@04_19_2024_W4_F_Tomatoes1_F_1": {
+        "prompt": "What is the size of the television in the room?\n\nA. 32 inches\nB. 55 inches\nC. 75 inches\nD. 20 inches",
+        "response": "The size of the television in the room is 55 inches.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Tomatoes@04_19_2024_W4_F_Tomatoes2_F_1": {
+        "prompt": "What type of chair is situated next to the mound?\n\nA. Recliner\nB. Dining chair\nC. Bean bag\nD. Rocking chair",
+        "response": "3D model of a chair next to a mound of dirt.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "VariousVeggies@04_04_2024_W_C_Various_P_2": {
+        "prompt": "What shape are the tables in the scene?\n\nA. Circular\nB. Square\nC. Triangular\nD. Oval",
+        "response": "-shaped\n\nThe tables in the scene are oval-shaped.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "VariousVeggies@04_18_2024_W_F_Various_P_2": {
+        "prompt": "What shape is the table in the scene?\n\nA. Round\nB. Oval\nC. Square\nD. Rectangular",
+        "response": "The table in the scene is rectangular.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Vinegar@04_19_2024_S2_F_Vinegar_P_3": {
+        "prompt": "What shape is the table in the scene?\n\nA. Round\nB. Square\nC. Rectangular\nD. Oval",
+        "response": "The table in the scene is rectangular.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "AppleJuice@04_18_2024_W2_F_AppleJuice2_P_3": {
+        "prompt": "What is the size of the dining table?\n\nA. Small\nB. Round\nC. Rectangular\nD. Large",
+        "response": "The dining table is described as large.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Apples@03_04_2024_S_L_Apples_F_2": {
+        "prompt": "How many windows are in the room?\n\nA. Two\nB. Four\nC. One\nD. Three",
+        "response": "The correct answer is B. Four. There are four windows in the room.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Apples@03_04_2024_S_L_ApplesLong_F_1": {
+        "prompt": "What type of chair is featured in the scene?\n\nA. Recliner\nB. Bar stool\nC. Rocking chair\nD. Office chair",
+        "response": "Answer: C. Rocking chair\n\nA 3D model of a rocking chair is featured in the scene. The rocking chair has a classic design with a curved backrest, armrests, and a stur",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Apples@03_07_2024_S_L_Apples1_F_1": {
+        "prompt": "What is the texture of the tables in the room?\n\nA. Smooth glass\nB. Rough wood\nC. Polished metal\nD. Soft fabric",
+        "response": "The tables in the room are made of polished wood.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Apples@03_07_2024_S_L_Apples2_F_2": {
+        "prompt": "What type of window is featured in the scene?\n\nA. Bay window\nB. Stained glass window\nC. Picture window\nD. Casement window",
+        "response": "The correct answer is A. Bay window.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Apples@03_07_2024_S_L_Apples3_F_2": {
+        "prompt": "What type of chair is prominently featured in the scene?\n\nA. Recliner\nB. Bean bag\nC. Armchair\nD. Dining chair",
+        "response": "The correct answer is C. Armchair.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Apples@03_07_2024_S_L_Apples_F_2": {
+        "prompt": "What type of chair is located next to the pile of apples?\n\nA. Recliner\nB. Dining chair\nC. Office chair\nD. Bean bag chair",
+        "response": "3D model of a chair next to a pile of apples.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Apples@03_13_2024_S_Co_Apples_F_2": {
+        "prompt": "What type of fruit is the chair made from?\n\nA. Cherry\nB. Maple\nC. Walnut\nD. Oak",
+        "response": "The chair is made from a cherry fruit.\n\n3D model of a chair made from a cherry fruit.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Apples@03_21_2024_W_L_Apples1_F_1": {
+        "prompt": "What type of paint is used for the walls?\n\nA. Matte Finish\nB. Glossy White\nC. Pastel Blue\nD. Eggshell Beige",
+        "response": "The walls are painted in a glossy white finish.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Apples@03_21_2024_W_L_Apples2_F_2": {
+        "prompt": "What type of flower is blooming in the scene?\n\nA. Rose\nB. Tulip\nC. Daisy\nD. Sunflower",
+        "response": "Answer: A. Rose\n\n3.Drawing inferences from the 3D model: The 3D model depicts a rose flower blooming in a pot. The rose, with its vibrant red petals,",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Apples@03_21_2024_W_L_Apples3_F_2": {
+        "prompt": "What shape is the coffee table in the scene?\n\nA. Square\nB. Round\nC. Oval\nD. Rectangular",
+        "response": "The coffee table in the scene is round.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Avacados@04_04_2024_W2_C_AvacadosLong1_F_1": {
+        "prompt": "What type of chair is featured in the scene?\n\nA. Recliner\nB. Dining chair\nC. Office chair\nD. Rocking chair",
+        "response": "Answer:B. Dining chair\n\nA dining chair is featured in the scene. This type of chair is typically used in a dining room or a dining area.\n\n3D model of a dining chair.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Avacados@04_04_2024_W_C_Avocados1_F_1": {
+        "prompt": "What type of chair is located next to the pile?\n\nA. Armchair\nB. Recliner\nC. Dining chair\nD. Folding chair",
+        "response": "The correct answer is C. Dining chair.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "BBQSauce@03_21_2024_W_L_BBQ1_P_1": {
+        "prompt": "What type of chair is prominently featured in the scene?\n\nA. Recliner\nB. Armchair\nC. Dining chair\nD. Rocking chair",
+        "response": "The correct answer is B. Armchair.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Bagels@03_21_2024_W_L_Bagels1_P_1": {
+        "prompt": "What shape are the plates in the scene?\nA. Square\nB. Oval\nC. Rectangular\nD. Round",
+        "response": "The plates in the scene are round.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Bananas@03_04_2024_S_L_Bananas2_F_2": {
+        "prompt": "What type of chair is featured in the scene?\n\nA. Recliner\nB. Dining chair\nC. Armchair\nD. Stool",
+        "response": "The correct answer is C. Armchair.\n\n3D model of an armchair.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Bananas@03_04_2024_S_L_Bananas_F_2": {
+        "prompt": "What type of vehicle is parked nearby?\n\nA. Sedan\nB. Pickup truck\nC. Motorcycle\nD. Minivan",
+        "response": "Answer:B. Pickup truck\n\nA 3D model of a parked pickup truck.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Bananas@04_04_2024_NG_C_Bananas1_F_1": {
+        "prompt": "What type of chair is placed next to the bananas?\n\nA. Armchair\nB. Recliner\nC. Barstool\nD. Dining chair",
+        "response": "Answer: A. Armchair\n\n3D model of a chair next to bananas.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Bananas@04_04_2024_S_C_Bananas_F_2": {
+        "prompt": "What is the texture of the couch in the scene?\n\nA. Leather\nB. Velvet\nC. Suede\nD. Linen",
+        "response": "The couch in the scene has a leather texture.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Beans@04_04_2024_W2_C_Beans_P_3": {
+        "prompt": "What shape are the tables in the scene?\n\nA. Rectangular\nB. Circular\nC. Oval\nD. Square",
+        "response": "The tables in the scene are rectangular.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Bread@04_04_2024_W2_C_Bread2_P_2": {
+        "prompt": "What type of artwork is displayed on the walls?\n\nA. Abstract paintings\nB. Landscape photography\nC. Portraits of famous figures\nD. Vintage posters",
+        "response": "Answer:A. Abstract paintings\n\n3.Drawing inferences from the 3D model: The 3D model depicts an interior space with walls adorned with abstract paintings, suggesting a modern and artistic",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Bread@04_04_2024_W2_C_Bread3_P_2": {
+        "prompt": "What type of vehicle is parked outside?\n\nA. Sedan\nB. Convertible\nC. SUV\nD. Truck",
+        "response": "The correct answer is A. Sedan.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Bread@04_04_2024_W2_C_Bread_P_2": {
+        "prompt": "What type of chair is featured in the scene?\n\nA. Recliner\nB. Barstool\nC. Adirondack\nD. Office chair",
+        "response": "Answer:C. Adirondack chair\n\nThe 3D model depicts an Adirondack chair, a type of lounge chair. The chair has a distinctive design with a curved backrest and",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Can@03_21_2024_W_L_Cans_P_2": {
+        "prompt": "What type of vehicle is parked outside?\n\nA. Sedan\nB. Motorcycle\nC. Pickup truck\nD. Coupe",
+        "response": "3D model of a parked sedan car.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Can@03_21_2024_W_L_Peas1_P_1": {
+        "prompt": "What type of lamp is used in the kitchen?\n\nA. Floor lamp\nB. Table lamp\nC. Pendant lamp\nD. Wall lamp",
+        "response": "Answer: C. Pendant lamp\n\nA pendant lamp is used in the kitchen. It hangs from the ceiling and is designed to provide adequate lighting for tasks such as food preparation and cooking.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Can@04_04_2024_W_C_Cans_P_3": {
+        "prompt": "What shape are the windows in the scene?\n\nA. Square\nB. Circular\nC. Triangular\nD. Octagonal",
+        "response": "The windows in the scene are circular.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Can@04_18_2024_W2_F_Cans2_P_2": {
+        "prompt": "What flavor is the cake?\n\nA. Chocolate\nB. Vanilla\nC. Strawberry\nD. Lemon",
+        "response": "**Answer: A. Chocolate**\n\nWhat is the 3D model of the cake?\n\nA 3D model of a chocolate cake.\n**Answer: A 3D model of a",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Candy@03_21_2024_W_L_Candy1_P_1": {
+        "prompt": "What is the shape of the dining table in the scene?\n\nA. Round\nB. Oval\nC. Square\nD. Rectangular",
+        "response": "The dining table in the scene is rectangular.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Candy@03_21_2024_W_L_Candy2_P_1": {
+        "prompt": "What type of vehicle is described in the scene?\n\nA. Sports car\nB. Bicycle\nC. Helicopter\nD. Bus",
+        "response": "3D model of a sports car.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Candy@03_21_2024_W_L_Candy2_P_2": {
+        "prompt": "What type of furniture is used for seating in the scene?\n\nA. Sofa\nB. Armchair\nC. Dining chair\nD. Recliner",
+        "response": "Answer:B. Armchair\n\n3D model of an armchair.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Candy@03_21_2024_W_L_Candy_P_2": {
+        "prompt": "What type of plant can be found next to the candy bags?\n\nA. Cactus\nB. Fern\nC. Bonsai\nD. Orchid",
+        "response": "Correct answer: A. Cactus\n\nA cactus is present next to the candy bags, adding a touch of greenery to the scene. The cactus, known for its ability to survive in",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Chips@03_21_2024_W_L_Chips1_P_1": {
+        "prompt": "What type of chair is used at the dining table?\n\nA. Armchair\nB. Barstool\nC. Recliner\nD. Rocking chair",
+        "response": "The correct answer is A. Armchair.\n\n3D model of a dining table with an armchair.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Chips@03_21_2024_W_L_Chips_P_2": {
+        "prompt": "What type of lamp is featured in the scene?\n\nA. Floor lamp\nB. Table lamp\nC. Pendant lamp\nD. Wall lamp",
+        "response": "Answer: A. Floor lamp\n\nA floor lamp is featured in the scene. It is a tall, freestanding piece of furniture that is used to provide general or ambient light in a room.\n\n3D",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Chips@04_04_2024_NG_C_Chips_P_2": {
+        "prompt": "What shape are the windows in the scene?\n\nA. Round\nB. Triangular\nC. Square\nD. Hexagonal",
+        "response": "The windows in the scene are square-shaped.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Chips@04_04_2024_S_C_Chips1_P_1": {
+        "prompt": "What is the height of the bookshelf in the room?\n\nA. Five feet\nB. Seven feet\nC. Ten feet\nD. Twelve feet",
+        "response": "The bookshelf in the room is seven feet high.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Chips@04_04_2024_S_C_Chips2_P_1": {
+        "prompt": "What type of furniture is featured in the scene?\n\nA. Sofa\nB. Coffee table\nC. Bookshelf\nD. Dining chair",
+        "response": "The correct answer is B. Coffee table.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Chips@04_04_2024_S_C_Chips2_P_2": {
+        "prompt": "What type of chair is included in the scene?\n\nA. Recliner\nB. Office chair\nC. Bean bag\nD. Dining chair",
+        "response": "Answer:B. Office chair\n\nA 3D model of an office chair is included in the scene. The chair appears to be ergonomically designed with a high backrest, adjustable armrests, and casters",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Chips@04_04_2024_S_C_Chips3_P_1": {
+        "prompt": "What type of plant is used for the centerpiece on the table?\n\nA. Orchid\nB. Fern\nC. Bonsai\nD. Cactus",
+        "response": "The correct answer is C. Bonsai.\n\nThe 3D model depicts a bonsai tree as the centerpiece on a table. The bonsai, a type of tree that has been cultivated",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Chips@04_04_2024_S_C_Chips3_P_2": {
+        "prompt": "What type of fruit can be found in the scene?\n\nA. Apple\nB. Banana\nC. Orange\nD. Grape",
+        "response": "fruit\n\nAnswer:B. Banana\n\nA 3D model of a banana is depicted in the scene. It's a typical representation of a banana with its elongated shape and bright yellow color. The",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Coffee@03_21_2024_W_L_Coffee1_P_1": {
+        "prompt": "What shape is the dining table in the scene?\n\nA. Round\nB. Oval\nC. Triangular\nD. Square",
+        "response": "The dining table in the scene is oval-shaped.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Coffee@03_21_2024_W_L_Coffee2_P_2": {
+        "prompt": "What is the shape of the table?\n\nA. Round\nB. Square\nC. Rectangular\nD. Oval",
+        "response": "The table is rectangular in shape.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Coffee@03_21_2024_W_L_Coffee_P_2": {
+        "prompt": "What flavor is the ice cream in the scene?\n\nA. Chocolate\nB. Vanilla\nC. Strawberry\nD. Mint",
+        "response": "chocolate\n\nThe ice cream in the scene is vanilla flavored.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Coffee@04_04_2024_S_C_Coffee2_P_3": {
+        "prompt": "What type of animal is commonly seen in the scene?\n\nA. Cat\nB. Dog\nC. Rabbit\nD. Parrot",
+        "response": "3D Piece featuring a cat, dog, rabbit, and parrot in a 3D model. Among the options, the cat and dog are commonly seen in the scene.\n3D Piece featuring a cat, dog,",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Corn@04_04_2024_W_C_Corn1_F_1": {
+        "prompt": "What type of vehicle is parked nearby?\n\nA. Sedan\nB. Motorcycle\nC. Pickup truck\nD. Minivan",
+        "response": "The correct answer is A. Sedan.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Cucumbers@03_21_2024_W_L_Cucumbers_F_2": {
+        "prompt": "What type of vehicle is parked outside?\n\nA. Sedan\nB. Motorcycle\nC. Minivan\nD. SUV",
+        "response": "The correct answer is A. Sedan.\n\n3D model of a parked sedan car.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Cucumbers@04_04_2024_W2_C_Cucumbers1_V_1": {
+        "prompt": "What type of chair is featured in the scene?\n\nA. Recliner\nB. Barstool\nC. Armchair\nD. Dining chair",
+        "response": "The correct answer is C. Armchair.\n\n3D model of an armchair.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "EnergyDrinks@03_04_2024_S_L_EnergyDrinks_P_1": {
+        "prompt": "What shape is the table in the scene?\n\nA. Oval\nB. Rectangular\nC. Square\nD. Circular",
+        "response": "The table in the scene is rectangular.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Flour@04_04_2024_W2_C_Flour_P_3": {
+        "prompt": "What type of vehicle is parked in front of the building?\n\nA. Sedan\nB. Truck\nC. Motorcycle\nD. Van",
+        "response": "Answer: A. Sedan\n\nA 3D model of a building with a car parked in front of it. The building appears to be a residential or commercial structure, and the car is a standard sedan model. The model",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Flour@04_04_2024_W_C_Flour_P_2": {
+        "prompt": "What type of furniture is in the kitchen?\n\nA. Dining table\nB. Bookshelf\nC. Coffee table\nD. Recliner",
+        "response": "Answer:A. Dining table\n\nWhat is the dining table made of? and what is its primary function?\n\nA. The dining table is made of wood and its primary function is to provide a surface for d",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Gourds@03_21_2024_W_L_Gourds1_F_1": {
+        "prompt": "What type of vehicle is parked nearby?\n\nA. Sedan\nB. Bicycle\nC. Pickup truck\nD. Motorcycle",
+        "response": "3D model of a parked sedan car.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "GrapeFruits@03_07_2024_S_L_GrapeFruits1_F_1": {
+        "prompt": "What is the size of the dining table in the scene?\n\nA. Small\nB. Medium\nC. Large\nD. Extra large",
+        "response": "The dining table in the scene is described as large.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "GrapeFruits@04_04_2024_W2_C_Grapefruits1_F_1": {
+        "prompt": "What type of building is located near the grapefruit grove?\n\nA. A brick warehouse\nB. A wooden lodge\nC. A glass skyscraper\nD. A stone cottage",
+        "response": "The correct answer is C. A glass skyscraper.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Greens@03_04_2024_S_L_Greens1_V_1": {
+        "prompt": "What type of sculpture is in the setting?\n\nA. Abstract\nB. Classical\nC. Modernist\nD. Figurative",
+        "response": "The 3D model represents a classical sculpture.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Greens@03_04_2024_S_L_Greens2_V_1": {
+        "prompt": "What type of sculpture is featured in the setting?\n\nA. Bronze statue\nB. Stone relief\nC. Wooden totem\nD. Glass figurine",
+        "response": "The correct answer is B. Stone relief.\n\nThe 3D model depicts a stone relief sculpture situated on a rock. The sculpture appears to be intricately carved, suggesting a high level of craftsm",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Greens@03_04_2024_S_L_Greens_V_2": {
+        "prompt": "What type of vehicle is parked in the scene?\n\nA. Sedan\nB. Motorcycle\nC. Pickup truck\nD. Convertible",
+        "response": "Answer: A. Sedan\n\nA sleek, black sedan car is parked in the scene. It's a four-door passenger car, typically used for personal or small family transportation. The car's black color",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Greens@04_04_2024_S_C_Greens_V_2": {
+        "prompt": "What type of painting is hanging on the wall?\n\nA. Abstract\nB. Landscape\nC. Portrait\nD. Still Life",
+        "response": "The correct answer is B. Landscape.\n\n3D model of a landscape painting hanging on the wall.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Jam@03_21_2024_W_L_Jam1_P_1": {
+        "prompt": "What type of dessert is served at the gathering?\n\nA. Chocolate cake\nB. Cheesecake\nC. Ice cream\nD. Fruit tart",
+        "response": "The dessert served at the gathering is a chocolate cake.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Juices@03_04_2024_S_L_Juices_P_2": {
+        "prompt": "What type of furniture is located in the scene?\n\nA. Coffee Table\nB. Sofa\nC. Bookshelf\nD. Armchair",
+        "response": "The correct answer is A. Coffee Table.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Juices@04_04_2024_W2_C_Juice_P_2": {
+        "prompt": "What shape are the chairs in the scene?\n\nA. Square\nB. Circular\nC. Triangular\nD. Oval",
+        "response": "-shaped\n\nThe chairs in the scene are oval-shaped.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Ketchup@04_04_2024_S_C_Ketchup_P_2": {
+        "prompt": "What flavor of ice cream is included in the scene?\n\nA. Vanilla\nB. Chocolate\nC. Strawberry\nD. Mint Chocolate Chip",
+        "response": "Answer:D. Mint Chocolate Chip\n\n3D model of a mint chocolate chip ice cream cone.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Alfredo@04_04_2024_W2_C_Alfredo_P_3": {
+        "prompt": "What type of flooring is used in the building?\n\nA. Hardwood\nB. Carpet\nC. Tile\nD. Concrete",
+        "response": "Answer:A. Hardwood\n\nA 3D model of a wooden floor in a building. The floor appears to be made of high-quality hardwood, giving it a polished and elegant look. This type of flooring",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Broccoli@04_04_2024_S_C_Broccoli1_V_1": {
+        "prompt": "What type of vehicle is parked nearby?\n\nA. Sedan\nB. Motorcycle\nC. Pickup truck\nD. Bicycle",
+        "response": "The correct answer is C. Pickup truck.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Buns@04_18_2024_W2_F_Buns1_P_1": {
+        "prompt": "What type of fruit is displayed on the shelf?\n\nA. Apples\nB. Bananas\nC. Oranges\nD. Grapes",
+        "response": "Answer:B. Bananas\n\nA 3D model of a banana is displayed on a wooden shelf. The banana appears to be ripe and ready to eat, with a vibrant yellow color. The wooden",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Cabbages@03_13_2024_S_Co_Cabbages_V_2": {
+        "prompt": "What type of fruit tree is located nearby?\n\nA. Cherry\nB. Apple\nC. Mango\nD. Orange",
+        "response": ". It's not specified in the caption.\n\n3D model of a fruit tree with ripe fruits hanging from its branches.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Cereal@03_21_2024_W_L_Cereal1_P_1": {
+        "prompt": "What is the height of the tree in the garden?\n\nA. 10 feet\nB. 15 feet\nC. 20 feet\nD. 25 feet",
+        "response": "3D Model: A 3D model of a tree in a garden.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Chilli@04_18_2024_W3_F_Chilli_P_3": {
+        "prompt": "What type of bicycle is featured in the scene?\n\nA. Mountain bike\nB. Road bike\nC. Electric bike\nD. Hybrid bike",
+        "response": "Answer: A. Mountain bike\n\n3D model of a mountain bike on a rock.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "ChipsSalsa@04_18_2024_W_F_Salsa_P_3": {
+        "prompt": "What type of chair is featured in the scene?\n\nA. Recliner\nB. Office chair\nC. Dining chair\nD. Lounge chair",
+        "response": "Answer: B. Office chair\n\nA 3D model of an office chair is featured in the scene. This type of chair is commonly used in workplaces for tasks such as reading, writing, or using a computer. It",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Coconuts@03_21_2024_W_L_Coconuts1_F_1": {
+        "prompt": "What type of mountain range is depicted in the scene?\n\nA. Himalayas\nB. Rockies\nC. Andes\nD. Alps",
+        "response": "Answer: A. Himalayas\n\nA 3D model of a Himalayan mountain range.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Dressings@04_18_2024_W2_F_Dressing_P_2": {
+        "prompt": "What type of vehicle is parked outside?\n\nA. Sedan\nB. Bicycle\nC. SUV\nD. Motorcycle",
+        "response": "3D model of a parked sedan car.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Drinks@03_21_2024_W_L_Drinks_P_2": {
+        "prompt": "What shape is the table in the scene?\n\nA. Round\nB. Square\nC. Oval\nD. Rectangular",
+        "response": "The table in the scene is rectangular in shape.\n\n2RYCEpodpodpodpodpodpodpodpodpodpodpodpodpodpodpodpodpodpodpodpodpodpodpodpodpodpodpodpodpodpodpodpod",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "FruitCans@04_18_2024_W3_F_CanFruits_P_3": {
+        "prompt": "What type of animal is featured on the shelf?\n\nA. Tiger\nB. Giraffe\nC. Penguin\nD. Elephant",
+        "response": "3D model of a tiger on a shelf.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Garlic@04_04_2024_W_C_Garlic1_V_1": {
+        "prompt": "What type of musical instrument is located in the scene?\n\nA. Violin\nB. Piano\nC. Flute\nD. Guitar",
+        "response": "Answer: A. Violin\n\nA violin is located in the scene. It is a stringed musical instrument, typically played by drawing a bow across its strings to produce sound. The violin is known for its versatility",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Gatorade@03_04_2024_S_L_Gatorade_P_2": {
+        "prompt": "What is the shape of the table in the scene?\n\nA. Rectangle\nB. Circle\nC. Triangle\nD. Oval",
+        "response": "The table in the scene is oval-shaped.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "GranolaBars@04_04_2024_W_C_GranolaBars2_P_2": {
+        "prompt": "What shape are the chairs in the room?\n\nA. Round\nB. Square\nC. Oval\nD. Triangular",
+        "response": "The chairs in the room are square-shaped.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Honey@03_21_2024_W_L_Honey1_P_1": {
+        "prompt": "What type of music is playing in the background?\n\nA. Classical\nB. Jazz\nC. Rock\nD. Hip Hop",
+        "response": "3D Grafico featuring a 3D model of a guitar. Downloadable for royalty-free use. Royalty-free 3D model of a guitar. Royalty-free 3D model of a guitar. Royalty",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Plums@04_19_2024_W4_F_Plums1_F_1": {
+        "prompt": "What is the color of the sofa?\n\nA. Green\nB. Black\nC. Beige\nD. Red",
+        "response": "The sofa is black.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Pringles@04_18_2024_W3_F_Pringles_P_2": {
+        "prompt": "What type of lighting is used in the scene?\n\nA. Fluorescent lights\nB. Pendant lights\nC. Chandeliers\nD. LED strips",
+        "response": "Answer:A. Fluorescent lights are used in the scene.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Radish@03_21_2024_W_L_Radish_V_2": {
+        "prompt": "What flavor is typically associated with the clouds in the sky?\n\nA. Vanilla\nB. Chocolate\nC. Strawberry\nD. Mint",
+        "response": "The clouds in the sky are typically associated with a vanilla flavor.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Syrup@03_21_2024_W_L_Syrup1_P_1": {
+        "prompt": "What style of artwork is displayed on the walls?\n\nA. Abstract Expressionism\nB. Impressionism\nC. Cubism\nD. Surrealism",
+        "response": "The style of artwork displayed on the walls is Cubism.",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    },
+    "Tostitos@04_18_2024_W_F_Tostitos2_P_3": {
+        "prompt": "What type of vehicle is parked outside?\n\nA. Sedan\nB. SUV\nC. Coupe\nD. Hatchback",
+        "response": "Answer: A. Sedan\n\nA 3D model of a sedan car is parked outside. It's a four-door vehicle with a separate trunk, typically used for personal or family transportation. The car's",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "F"
+    }
+}
