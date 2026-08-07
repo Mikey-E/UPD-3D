@@ -110,7 +110,7 @@ Reference copies of the EXP_NAME-aware train scripts: `UPD-3D/utils/greenplm/tra
 Stage wiring (same `EXP_NAME` for the whole chain):
 - stage1 → `./checkpoints/stage_1_${EXP_NAME}` (`mm_projector.bin`); data `./dataset/T3D/stage_1/brief_1M_caption.json`
 - stage2 reads `./checkpoints/stage_1_${EXP_NAME}/mm_projector.bin` → `./checkpoints/stage_2_${EXP_NAME}`; data `./dataset/T3D/stage_2/stage_2_data_210k.json`
-- stage3 reads stage2 (`non_lora_trainables.bin` + `--lora_path ./checkpoints/stage_2_${EXP_NAME}`) → `./checkpoints/stage_3_${EXP_NAME}` (includes `checkpoint-9000/...`); data `./dataset/Objaverse/PointLLM_complex_50k_brief_40k_all_90k.json`
+- stage3 reads stage2 (`non_lora_trainables.bin` + `--lora_path ./checkpoints/stage_2_${EXP_NAME}`) → `./checkpoints/stage_3_${EXP_NAME}` (final LoRA + `non_lora_trainables.bin`; mid-train `checkpoint-*` dirs are ephemeral under `save_total_limit`); data `./dataset/Objaverse/PointLLM_complex_50k_brief_40k_all_90k.json`
 
 ### `dataset` symlink
 Retarget via symlink only (never copy the dataset into `REPO`):
@@ -130,8 +130,9 @@ Before launching: confirm `checkpoints/stage_{1,2,3}_<experiment_name>` do **not
 Edit for the new experiment (overwrite in place; comment out prior active lines):
 - `--lora_path ./checkpoints/stage_3_<experiment_name>`
 - `--pretrain_mm_mlp_adapter ./checkpoints/stage_3_<experiment_name>/non_lora_trainables.bin`
-- `--pc_ckpt_path` absolute  
-  `REPO/checkpoints/stage_3_<experiment_name>/checkpoint-9000/global_step9000/mp_rank_00_model_states.pt`
+- `--pc_ckpt_path` = **Uni3D PC encoder** only, e.g.  
+  `./pretrained_weight/Uni3D_PC_encoder/modelzoo/uni3d-small/model.pt`  
+  **Never** point this at `checkpoints/stage_3_*/checkpoint-*/global_step*/mp_rank_00_model_states.pt` (DeepSpeed train shards). Those are the wrong artifact (LoRA/finetune state, not Uni3D), and mid-train dirs are often deleted by `save_total_limit` after a later save — a common cause of empty `inf_rslts` + `DependencyNeverSatisfied` on move/score.
 - `--upd_version_name`, `--unzipped_point_cloud_path`, `--pcl_list_txt_file_path` (UPD prompt/cloud triple; independent of `<experiment_name>`)
 - `--json_tag ft-comb`
 - `$1` → `--upd_version_name_subfolder`
@@ -157,6 +158,7 @@ Outputs: `REPO/inf_rslts/evaluation/inf_rslts_gplm_<json_tag>_<pcl_list_stem>_<s
 - `checkpoints/stage_{1,2,3}_<experiment_name>` absent before train
 - `train.py` has the active Open3D `read_pc_2tensor` (not the commented stock-only version)
 - `slurm_gplm_inf_upd.sh` calls `gplm_inf_upd_ft-comb.sh`
+- Before infer: `test -f` on `--lora_path`’s `adapter_model.safetensors` (or dir), `non_lora_trainables.bin`, and the **Uni3D** `--pc_ckpt_path` file; confirm `pc_ckpt_path` does **not** contain `checkpoint-` / `mp_rank_`
 - Clear or move old `REPO/inf_rslts/evaluation/*` before a new inf run so later scoring only sees this experiment
 
 ### Launch: train → infer → score
