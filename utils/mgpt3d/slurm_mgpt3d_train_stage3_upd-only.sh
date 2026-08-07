@@ -5,7 +5,7 @@
 #SBATCH --output=./slurm_logs/mgpt3d_train_stage3_upd-only_%j.out
 #SBATCH --error=./slurm_logs/mgpt3d_train_stage3_upd-only_%j.out
 #SBATCH --gres=gpu:1
-#SBATCH --mem=16G
+#SBATCH --mem=32G
 #SBATCH --time=7-00:00:00
 #SBATCH --mail-user=melgin@uwyo.edu
 #SBATCH --mail-type=BEGIN,END,FAIL

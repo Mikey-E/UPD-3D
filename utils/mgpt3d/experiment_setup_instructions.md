@@ -117,9 +117,11 @@ Matched triple only (exhaustive until new datasets exist):
 ### Repo sanity checks
 - `readlink -f` on `REPO/data` → new dataset
 - `REPO/inf_rslts` empty (script refuses otherwise)
+- Train SLURM scripts use `#SBATCH --mem=32G` (not 16G). 16G OOMs on ft-comb once domain `single_round` rows are kept (DataLoader workers). Reference copies under `UPD-3D/utils/mgpt3d/slurm_mgpt3d_train_*.sh` match.
 
 ### Launch: train → infer → score
 From `REPO` (or absolute script paths + that cwd). Ignore stage `4-1`, `4-2`, … scripts.
+Train jobs default to **32G** host RAM via the scripts below — do not override back down to 16G.
 
 ```bash
 sbatch /project/3dllms/melgin/MiniGPT-3D_ft-comb/slurm_mgpt3d_train_stage1_combined.sh            # note ID → J1
