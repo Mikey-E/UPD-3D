@@ -20,17 +20,16 @@ bash env_install.sh
 Follow the data preparation and weight preparation steps.
 
 ------------
-Code modifications (now in MiniGPT-3D_ft-comb upstream of these notes)
-    object_point_dataset.py
-        - Loads {object_id}.ply / .npy for laundered '@' ids; {id}_8192.npy for Objaverse.
-        - Always loads PC from object_id (UPD prompts often omit <point>).
-        - conversation_types normalized to a tuple (avoids string substring filter bugs).
-    brief_description.yaml
-        conversation_types: ["simple_description", "single_round"]
-        so appended/prepended UPD domain QA is not dropped in stage 1/2.
-    single_round.yaml
-        ann_path lists complex + brief filtered JSONs so stage 3/4 also see
-        domain single_round rows that live only in brief.
+vs paper (base) data loading — as of Aug 6, 2026 (MiniGPT-3D_ft-comb)
+    Paper: S1/S2 brief = simple_description only; S3/S4 single_round = complex JSON only;
+    PC via {id}_8192.npy and <point> in the prompt.
+    Ours: S1/S2 also keep single_round; S3/S4 single_round = complex + brief;
+    laundered '@' ids load .ply/.npy; PC always from object_id (no <point> required).
+
+Code modifications (now in MiniGPT-3D_ft-comb)
+    object_point_dataset.py — ply/@ ids, always load PC, normalize conversation_types.
+    brief_description.yaml — ["simple_description", "single_round"].
+    single_round.yaml — ann_path: complex + brief filtered.
 
 ---------
 Dataset modifications:
