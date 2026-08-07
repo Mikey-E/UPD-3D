@@ -44,7 +44,8 @@ Copy from base; append train samples per the experiment. Both files get the **sa
 
 Rules:
 - Min fields: `object_id`, `conversations` (extra fields OK). `conversations`: list of `{from: human|gpt, value: ...}`. Wording is per-experiment.
-- No required `<point>` (or other boilerplate) unless the experiment says so.
+- Set `conversation_type: "single_round"` on appended UPD QA (MCQ / instruction). Stage 1/2 brief loader keeps `["simple_description", "single_round"]`; stage 3/4 `Objaverse_single_round` also reads brief so these rows are not dropped.
+- No required `<point>` (loader always uses `object_id`). `<point>` still fine if present.
 - Train list only for these JSONs / `object_ids_660K.txt` / laundered symlinks. Test list → inference `--pcl_list_txt_file_path` only.
 - Ready-made PointLLM-style samples: append as-is (still train-filtered). Do not drop train texts to unique-ify.
 - One-to-many is common: many texts → one cloud. Symlink/unique-id count ≪ JSON sample count is OK.

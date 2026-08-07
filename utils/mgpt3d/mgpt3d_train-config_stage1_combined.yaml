@@ -22,6 +22,10 @@ datasets:
     text_processor:
       train:
         name: "blip_caption"
+    # Keep appended UPD domain QA (typed single_round) in stage 1/2.
+    # Also the default in minigpt4/configs/datasets/Objaverse/brief_description.yaml.
+    build_info:
+      conversation_types: ["simple_description", "single_round"]
 
 run:
   task: image_text_pretrain

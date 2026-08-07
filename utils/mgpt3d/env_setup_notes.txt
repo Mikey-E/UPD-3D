@@ -20,46 +20,17 @@ bash env_install.sh
 Follow the data preparation and weight preparation steps.
 
 ------------
-Code modifications
-    ft-upd-only
-        May need the minigpt4/datasets/datasets/object_point_dataset.py to have this modified function:
-
-        import open3d as o3d
-
-            def _load_objaverse_point_cloud(self, object_id):
-                #@@@orig
-                # filename = f"{object_id}_{self.pointnum}.npy"
-                #@@@new
-                if '@' in object_id:
-                    filename = f"{object_id}.ply"
-                else:
-                    filename = f"{object_id}_{self.pointnum}.npy"
-
-                # point_cloud = np.load(os.path.join(self.data_path, filename)) #@@@orig
-                #@@@new
-                pcd = o3d.io.read_point_cloud(os.path.join(self.data_path, filename))
-                xyz = np.asarray(pcd.points)
-                if pcd.has_colors():
-                    colors = np.asarray(pcd.colors)
-                else:
-                    colors = np.zeros_like(xyz)
-                # Stack to get (N, 6): x, y, z, r, g, b
-                pc6 = np.hstack([xyz, colors])
-                target_n = 8192
-                if pc6.shape[0] >= target_n:
-                    idx = np.random.choice(pc6.shape[0], target_n, replace=False)
-                    pc6 = pc6[idx]
-                else: #Just add points of zeros to the end
-                    pad = np.zeros((target_n - pc6.shape[0], 6), dtype=pc6.dtype)
-                    pc6 = np.vstack([pc6, pad])
-                point_cloud = pc6
-
-                if not self.use_color:
-                    point_cloud = point_cloud[:, :3]
-                    #@@@new
-                    raise Exception("@@@Color is being omitted; that should not happen!")
-
-                return point_cloud
+Code modifications (now in MiniGPT-3D_ft-comb upstream of these notes)
+    object_point_dataset.py
+        - Loads {object_id}.ply / .npy for laundered '@' ids; {id}_8192.npy for Objaverse.
+        - Always loads PC from object_id (UPD prompts often omit <point>).
+        - conversation_types normalized to a tuple (avoids string substring filter bugs).
+    brief_description.yaml
+        conversation_types: ["simple_description", "single_round"]
+        so appended/prepended UPD domain QA is not dropped in stage 1/2.
+    single_round.yaml
+        ann_path lists complex + brief filtered JSONs so stage 3/4 also see
+        domain single_round rows that live only in brief.
 
 ---------
 Dataset modifications:
@@ -86,16 +57,12 @@ ft-upd-only_3D-FRONT
         ...
     for stage 3, had to add conversation_type fields to each object in the 70K dataset
 
-ft-upd-only_Crops3D_gpt-5-nano
-    in the stage 1 train config
-        datasets:
-            Objaverse_brief:
-                batch_size: 9   # 9
-                text_processor:
-                    train:
-                        name: "blip_caption"
-                build_info:
-                    conversation_types: ["simple_description", "single_round"]
+ft-upd-only_Crops3D_gpt-5-nano / ft-comb with appended domain QA
+    Stage 1/2 must keep single_round (now the brief_description.yaml default):
+        build_info:
+            conversation_types: ["simple_description", "single_round"]
+    Without this, domain rows typed single_round filter to size 0 (upd-only) or
+    are dropped from ft-comb brief (Objaverse-only ~658k remains).
 
 -------
 
