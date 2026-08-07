@@ -78,6 +78,7 @@ Example: `Wheat@49` → `objaverse_data/Wheat@49.ply` → `/project/3dllms/melgi
 ### Dataset sanity checks
 1. New unique `@` ids in `object_ids_660K.txt` == new laundered symlinks (exclude `*_8192.npy`). JSON append count may be larger (~12× etc.) if many texts/cloud; both brief JSONs share the same appends.
 2. Spot-check a few laundered symlinks (`readlink` / `test -e` target).
+3. Every appended QA has `conversation_type: "single_round"`. On train start, S1 log `After filtering` should be ~658k **+** your append count (not ~658k alone).
 
 ## Custom architectural changes
 Only if the experiment requires them; otherwise train stock MiniGPT-3D on the custom dataset.
