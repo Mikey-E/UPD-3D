@@ -118,6 +118,7 @@ Matched triple only (exhaustive until new datasets exist):
 - `readlink -f` on `REPO/data` → new dataset
 - `REPO/inf_rslts` empty (script refuses otherwise)
 - Train SLURM scripts use `#SBATCH --mem=32G` (not 16G). 16G OOMs on ft-comb once domain `single_round` rows are kept (DataLoader workers). Reference copies under `UPD-3D/utils/mgpt3d/slurm_mgpt3d_train_*.sh` match.
+- With domain `single_round` kept, A30 (24GB) often **CUDA-OOMs** at paper batch sizes. Use lower batches in the active train YAMLs (and utils examples): stage2 brief `batch_size: 4` (not 9); stage3/4 `Objaverse_single_round` `batch_size: 4` (not 10). Stage1 `batch_size: 9` is usually OK (`only_train_pc_linear`).
 
 ### Launch: train → infer → score
 From `REPO` (or absolute script paths + that cwd). Ignore stage `4-1`, `4-2`, … scripts.

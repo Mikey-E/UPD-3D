@@ -25,7 +25,8 @@ model:
 
 datasets:
   Objaverse_brief:
-    batch_size: 9   # 9
+    # 9 OOMs on A30 once domain single_round (longer QA) is kept in the brief mix.
+    batch_size: 4
     text_processor:
       train:
         name: "blip_caption"
