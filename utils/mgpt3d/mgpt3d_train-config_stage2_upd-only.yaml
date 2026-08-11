@@ -27,8 +27,7 @@ datasets:
     text_processor:
       train:
         name: "blip_caption"
-    build_info:
-      conversation_types: ["simple_description", "single_round"]
+    # Stock brief = simple_description only (domain single_round dropped).
 
 run:
   task: image_text_pretrain

@@ -25,13 +25,10 @@ model:
 
 datasets:
   Objaverse_brief:
-    # 9 OOMs on A30 once domain single_round (longer QA) is kept in the brief mix.
-    batch_size: 4
+    batch_size: 9   # 9
     text_processor:
       train:
         name: "blip_caption"
-    build_info:
-      conversation_types: ["simple_description", "single_round"]
 
 run:
   task: image_text_pretrain

@@ -20,9 +20,7 @@ datasets:
     text_processor:
       train:
         name: "blip_caption"
-    # UPD-only Crops/3D-FRONT/GIW rows are conversation_type: single_round.
-    build_info:
-      conversation_types: ["simple_description", "single_round"]
+    # Stock brief = simple_description only (domain single_round dropped).
 
 run:
   task: image_text_pretrain

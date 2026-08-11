@@ -32,8 +32,7 @@ datasets:
     sample_ratio: 2   # 3
 
   Objaverse_single_round:
-    # Prefer 4 on A30 when domain single_round (longer UPD QA) is included (10 often OOMs).
-    batch_size: 4
+    batch_size: 10      # 4
     text_processor:
       train:
         name: "blip_caption"

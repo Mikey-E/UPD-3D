@@ -44,8 +44,8 @@ Copy from base; append train samples per the experiment. Both files get the **sa
 
 Rules:
 - Min fields: `object_id`, `conversations` (extra fields OK). `conversations`: list of `{from: human|gpt, value: ...}`. Wording is per-experiment.
-- Set `conversation_type: "single_round"` on appended UPD QA (MCQ / instruction). Stage 1/2 brief loader keeps `["simple_description", "single_round"]`; stage 3/4 `Objaverse_single_round` also reads brief so these rows are not dropped.
-- No required `<point>` (loader always uses `object_id`). `<point>` still fine if present.
+- Set `conversation_type: "single_round"` on appended UPD QA (MCQ / instruction). Stock loaders **drop** these in S1/S2 (brief = `simple_description` only) and S3/S4 (`Objaverse_single_round` = complex JSON only). Keeping them previously collapsed the model toward always-unsolvable — do not re-enable without a new plan.
+- Stock loader loads `{object_id}_8192.npy` only when `<point>` is in the human turn. Domain appends are unused under paper filters.
 - Train list only for these JSONs / `object_ids_660K.txt` / laundered symlinks. Test list → inference `--pcl_list_txt_file_path` only.
 - Ready-made PointLLM-style samples: append as-is (still train-filtered). Do not drop train texts to unique-ify.
 - One-to-many is common: many texts → one cloud. Symlink/unique-id count ≪ JSON sample count is OK.
@@ -73,13 +73,12 @@ For each unique train `object_id` with extension `{ext}` (usually `.ply`):
 
 Example: `Wheat@49` → `objaverse_data/Wheat@49.ply` → `/project/3dllms/melgin/datasets/CEA/Crops3D/Wheat/49.ply`
 
-`.ply` / `.npy` both fine; MiniGPT-3D_ft-comb handles either — no conversion.
+Laundered clouds are typically `.ply`; stock MiniGPT-3D expects `{id}_8192.npy` + `<point>`. Under paper filters domain rows never load, so missing `.npy` for `@` ids is OK for train.
 
 ### Dataset sanity checks
 1. New unique `@` ids in `object_ids_660K.txt` == new laundered symlinks (exclude `*_8192.npy`). JSON append count may be larger (~12× etc.) if many texts/cloud; both brief JSONs share the same appends.
 2. Spot-check a few laundered symlinks (`readlink` / `test -e` target).
-3. Every appended QA has `conversation_type: "single_round"`. On train start, S1 log `After filtering` should be ~658k **+** your append count (not ~658k alone). S3 `Objaverse_single_round` `After filtering` should be ~40122 **+** that same append count.
-4. Every unique `@` `object_id` in the brief JSON has `objaverse_data/{object_id}.ply` (or `.npy`) present — missing files crash mid-epoch once domain rows load.
+3. S1 `After filtering` ≈ ~658k (domain `single_round` dropped). S3 `Objaverse_single_round` ≈ ~40122 (complex only).
 
 ## Custom architectural changes
 Only if the experiment requires them; otherwise train stock MiniGPT-3D on the custom dataset.
@@ -117,12 +116,12 @@ Matched triple only (exhaustive until new datasets exist):
 ### Repo sanity checks
 - `readlink -f` on `REPO/data` → new dataset
 - `REPO/inf_rslts` empty (script refuses otherwise)
-- Train SLURM scripts use `#SBATCH --mem=32G` (not 16G). 16G OOMs on ft-comb once domain `single_round` rows are kept (DataLoader workers). Reference copies under `UPD-3D/utils/mgpt3d/slurm_mgpt3d_train_*.sh` match.
-- With domain `single_round` kept, A30 (24GB) often **CUDA-OOMs** at paper batch sizes. Use lower batches in the active train YAMLs (and utils examples): stage2 brief `batch_size: 4` (not 9); stage3/4 `Objaverse_single_round` `batch_size: 4` (not 10). Stage1 `batch_size: 9` is usually OK (`only_train_pc_linear`).
+- Train SLURM scripts use `#SBATCH --mem=32G` (not 16G). Reference copies under `UPD-3D/utils/mgpt3d/slurm_mgpt3d_train_*.sh` match.
+- Paper batch sizes: stage1/2 brief `9`; stage3/4 `Objaverse_single_round` `10`.
 
 ### Launch: train → infer → score
 From `REPO` (or absolute script paths + that cwd). Ignore stage `4-1`, `4-2`, … scripts.
-Train jobs default to **32G** host RAM via the scripts below — do not override back down to 16G.
+Train jobs default to **32G** host RAM via the scripts below.
 
 ```bash
 sbatch /project/3dllms/melgin/MiniGPT-3D_ft-comb/slurm_mgpt3d_train_stage1_combined.sh            # note ID → J1

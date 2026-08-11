@@ -20,16 +20,11 @@ bash env_install.sh
 Follow the data preparation and weight preparation steps.
 
 ------------
-vs paper (base) data loading — as of Aug 6, 2026 (MiniGPT-3D_ft-comb)
-    Paper: S1/S2 brief = simple_description only; S3/S4 single_round = complex JSON only;
-    PC via {id}_8192.npy and <point> in the prompt.
-    Ours: S1/S2 also keep single_round; S3/S4 single_round = complex + brief;
-    laundered '@' ids load .ply/.npy; PC always from object_id (no <point> required).
-
-Code modifications (now in MiniGPT-3D_ft-comb)
-    object_point_dataset.py — ply/@ ids, always load PC, normalize conversation_types.
-    brief_description.yaml — ["simple_description", "single_round"].
-    single_round.yaml — ann_path: complex + brief filtered.
+Data loading (MiniGPT-3D_ft-comb, reverted Aug 2026 to paper-like)
+    S1/S2 brief = simple_description only; S3/S4 single_round = complex JSON only.
+    PC via {id}_8192.npy when <point> is in the human turn.
+    Keeping appended domain single_round in the mix collapsed toward always-unsolvable;
+    do not re-enable that filter without a new plan.
 
 ---------
 Dataset modifications:
@@ -56,12 +51,9 @@ ft-upd-only_3D-FRONT
         ...
     for stage 3, had to add conversation_type fields to each object in the 70K dataset
 
-ft-upd-only_Crops3D_gpt-5-nano / ft-comb with appended domain QA
-    Stage 1/2 must keep single_round (now the brief_description.yaml default):
-        build_info:
-            conversation_types: ["simple_description", "single_round"]
-    Without this, domain rows typed single_round filter to size 0 (upd-only) or
-    are dropped from ft-comb brief (Objaverse-only ~658k remains).
+ft-comb with appended domain QA (conversation_type: single_round)
+    Under paper filters those rows are dropped (S1 ~658k Objaverse-only).
+    That is intentional after the unsolvability collapse.
 
 -------
 
