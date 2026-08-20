@@ -9,6 +9,43 @@ from matplotlib.ticker import MaxNLocator
 import os
 import re
 
+# Top-to-bottom bar order for every graph (after invert_yaxis).
+CANONICAL_BAR_ORDER = [
+    "standard",
+    "open_ended",
+    "open_ended_additional_instruction",
+    "ivqd_base",
+    "ivqd_additional_option",
+    "ivqd_additional_instruction",
+    "iasd_base",
+    "iasd_additional_option",
+    "iasd_additional_instruction",
+    "aad_base",
+    "aad_additional_option",
+    "aad_additional_instruction",
+]
+_BAR_ORDER_INDEX = {name: i for i, name in enumerate(CANONICAL_BAR_ORDER)}
+
+
+def extract_category(filepath):
+    """Extract UPD subtype slug from a scored JSON filename."""
+    basename = os.path.basename(filepath)
+    match = re.search(r'_test_(.+?)_[^_/]+_scored\.json$', basename)
+    if match:
+        return match.group(1)
+    if '_test_' in basename:
+        return basename.split('_test_')[-1].replace('_scored.json', '').split('_')[0]
+    return basename
+
+
+def category_sort_key(filepath):
+    """Sort key so known subtypes follow CANONICAL_BAR_ORDER; unknowns last, A–Z."""
+    slug = extract_category(filepath).strip().lower().replace(" ", "_")
+    if slug in _BAR_ORDER_INDEX:
+        return (0, _BAR_ORDER_INDEX[slug])
+    return (1, slug)
+
+
 def main():
     parser = argparse.ArgumentParser(description="Analyze scored responses and create a bar graph.")
     parser.add_argument("folder_path", type=str, help="Path to the folder containing JSON files with scored responses.")
@@ -44,6 +81,12 @@ def main():
         results[json_file] = [item["score"] for item in data.values()]
         standard_upd_accuracies[json_file] = len([score for score in results[json_file] if score == 'T'])
     
+    # Always plot subtypes in CANONICAL_BAR_ORDER (unknown names after those).
+    standard_upd_accuracies = dict(
+        sorted(standard_upd_accuracies.items(), key=lambda kv: category_sort_key(kv[0]))
+    )
+    json_files = list(standard_upd_accuracies.keys())
+
     # Check if sample counts are consistent across categories
     sample_counts = [len(results[k]) for k in standard_upd_accuracies.keys()]
     if len(set(sample_counts)) != 1:
@@ -101,23 +144,7 @@ def main():
     plt.title(args.title, fontsize=title_fontsize)
     
     # Use category names on the y-axis
-    names_list = []
-    for filepath in standard_upd_accuracies.keys():
-        # Get just the filename
-        basename = os.path.basename(filepath)
-        
-        # Extract category using regex pattern: _test_[category]_[scoring_model]_scored.json
-        # Pattern matches: _test_ followed by category, then _[scoring_model]_scored.json
-        match = re.search(r'_test_(.+?)_[^_/]+_scored\.json$', basename)
-        if match:
-            category = match.group(1)
-        else:
-            # Fallback: try to extract anything after _test_
-            if '_test_' in basename:
-                category = basename.split('_test_')[-1].replace('_scored.json', '').split('_')[0]
-            else:
-                category = basename
-        names_list.append(category)
+    names_list = [extract_category(filepath) for filepath in standard_upd_accuracies.keys()]
     
     # Format the category names
     names_list = [name.replace("_", " ") for name in names_list]
@@ -134,6 +161,8 @@ def main():
     names_list = [fix_acronyms(name) for name in names_list]
 
     plt.yticks([yi + bar_height/2 for yi in y], names_list, fontsize=tick_fontsize)
+    # barh puts y=0 at the bottom; invert so the first canonical subtype is at the top.
+    plt.gca().invert_yaxis()
     plt.legend(fontsize=legend_fontsize)
     plt.tight_layout(pad=args.fig_pad)
     # Set x-axis limit to the maximum number of samples in any category
