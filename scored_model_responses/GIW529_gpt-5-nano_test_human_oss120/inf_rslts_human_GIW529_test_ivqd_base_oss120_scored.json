@@ -1,0 +1,1512 @@
+{
+    "Alfredo@04_04_2024_W2_C_Alfredo_P_3": {
+        "prompt": "What type of flooring is used in the building?\n\nA. Hardwood\nB. Carpet\nC. Tile\nD. Concrete",
+        "response": "NONE",
+        "timestamp": "2025-11-17T12:18:28.790656",
+        "annotated_by": "User 4",
+        "original_file_path": "/project/3dllms/melgin/datasets/GIW/giw529subcat/Alfredo/04_04_2024_W2_C_Alfredo_P_3.ply",
+        "dataset": "GIW529_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "AppleJuice@04_18_2024_W2_F_AppleJuice2_P_3": {
+        "prompt": "What is the size of the dining table?\n\nA. Small\nB. Round\nC. Rectangular\nD. Large",
+        "response": "None",
+        "timestamp": "2025-11-17T11:58:44.803042",
+        "annotated_by": "User 3",
+        "original_file_path": "/project/3dllms/melgin/datasets/GIW/giw529subcat/AppleJuice/04_18_2024_W2_F_AppleJuice2_P_3.ply",
+        "dataset": "GIW529_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Apples@03_04_2024_S_L_ApplesLong_F_1": {
+        "prompt": "What type of chair is featured in the scene?\n\nA. Recliner\nB. Bar stool\nC. Rocking chair\nD. Office chair",
+        "response": "NONE",
+        "timestamp": "2025-11-17T11:58:57.416339",
+        "annotated_by": "User 4",
+        "original_file_path": "/project/3dllms/melgin/datasets/GIW/giw529subcat/Apples/03_04_2024_S_L_ApplesLong_F_1.ply",
+        "dataset": "GIW529_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Apples@03_04_2024_S_L_Apples_F_2": {
+        "prompt": "How many windows are in the room?\n\nA. Two\nB. Four\nC. One\nD. Three",
+        "response": "NONE",
+        "timestamp": "2025-11-17T11:58:22.083724",
+        "annotated_by": "User 4",
+        "original_file_path": "/project/3dllms/melgin/datasets/GIW/giw529subcat/Apples/03_04_2024_S_L_Apples_F_2.ply",
+        "dataset": "GIW529_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Apples@03_07_2024_S_L_Apples1_F_1": {
+        "prompt": "What is the texture of the tables in the room?\n\nA. Smooth glass\nB. Rough wood\nC. Polished metal\nD. Soft fabric",
+        "response": "None",
+        "timestamp": "2025-11-17T11:59:33.788432",
+        "annotated_by": "User 3",
+        "original_file_path": "/project/3dllms/melgin/datasets/GIW/giw529subcat/Apples/03_07_2024_S_L_Apples1_F_1.ply",
+        "dataset": "GIW529_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Apples@03_07_2024_S_L_Apples2_F_2": {
+        "prompt": "What type of window is featured in the scene?\n\nA. Bay window\nB. Stained glass window\nC. Picture window\nD. Casement window",
+        "response": "NONE",
+        "timestamp": "2025-11-17T11:59:45.035715",
+        "annotated_by": "User 4",
+        "original_file_path": "/project/3dllms/melgin/datasets/GIW/giw529subcat/Apples/03_07_2024_S_L_Apples2_F_2.ply",
+        "dataset": "GIW529_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Apples@03_07_2024_S_L_Apples3_F_2": {
+        "prompt": "What type of chair is prominently featured in the scene?\n\nA. Recliner\nB. Bean bag\nC. Armchair\nD. Dining chair",
+        "response": "None",
+        "timestamp": "2025-11-17T12:00:22.819701",
+        "annotated_by": "User 3",
+        "original_file_path": "/project/3dllms/melgin/datasets/GIW/giw529subcat/Apples/03_07_2024_S_L_Apples3_F_2.ply",
+        "dataset": "GIW529_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Apples@03_07_2024_S_L_Apples_F_2": {
+        "prompt": "What type of chair is located next to the pile of apples?\n\nA. Recliner\nB. Dining chair\nC. Office chair\nD. Bean bag chair",
+        "response": "NONE",
+        "timestamp": "2025-11-17T12:00:19.841869",
+        "annotated_by": "User 4",
+        "original_file_path": "/project/3dllms/melgin/datasets/GIW/giw529subcat/Apples/03_07_2024_S_L_Apples_F_2.ply",
+        "dataset": "GIW529_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Apples@03_13_2024_S_Co_Apples_F_2": {
+        "prompt": "What type of fruit is the chair made from?\n\nA. Cherry\nB. Maple\nC. Walnut\nD. Oak",
+        "response": "NONE",
+        "timestamp": "2025-11-17T12:00:52.608193",
+        "annotated_by": "User 4",
+        "original_file_path": "/project/3dllms/melgin/datasets/GIW/giw529subcat/Apples/03_13_2024_S_Co_Apples_F_2.ply",
+        "dataset": "GIW529_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Apples@03_21_2024_W_L_Apples1_F_1": {
+        "prompt": "What type of paint is used for the walls?\n\nA. Matte Finish\nB. Glossy White\nC. Pastel Blue\nD. Eggshell Beige",
+        "response": "None",
+        "timestamp": "2025-11-17T12:02:16.642093",
+        "annotated_by": "User 3",
+        "original_file_path": "/project/3dllms/melgin/datasets/GIW/giw529subcat/Apples/03_21_2024_W_L_Apples1_F_1.ply",
+        "dataset": "GIW529_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Apples@03_21_2024_W_L_Apples2_F_2": {
+        "prompt": "What type of flower is blooming in the scene?\n\nA. Rose\nB. Tulip\nC. Daisy\nD. Sunflower",
+        "response": "NONE",
+        "timestamp": "2025-11-17T12:01:14.672425",
+        "annotated_by": "User 4",
+        "original_file_path": "/project/3dllms/melgin/datasets/GIW/giw529subcat/Apples/03_21_2024_W_L_Apples2_F_2.ply",
+        "dataset": "GIW529_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Apples@03_21_2024_W_L_Apples3_F_2": {
+        "prompt": "What shape is the coffee table in the scene?\n\nA. Square\nB. Round\nC. Oval\nD. Rectangular",
+        "response": "NONE",
+        "timestamp": "2025-11-17T12:01:49.152398",
+        "annotated_by": "User 4",
+        "original_file_path": "/project/3dllms/melgin/datasets/GIW/giw529subcat/Apples/03_21_2024_W_L_Apples3_F_2.ply",
+        "dataset": "GIW529_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Avacados@04_04_2024_W2_C_AvacadosLong1_F_1": {
+        "prompt": "What type of chair is featured in the scene?\n\nA. Recliner\nB. Dining chair\nC. Office chair\nD. Rocking chair",
+        "response": "NONE",
+        "timestamp": "2025-11-17T12:02:19.919746",
+        "annotated_by": "User 4",
+        "original_file_path": "/project/3dllms/melgin/datasets/GIW/giw529subcat/Avacados/04_04_2024_W2_C_AvacadosLong1_F_1.ply",
+        "dataset": "GIW529_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Avacados@04_04_2024_W_C_Avocados1_F_1": {
+        "prompt": "What type of chair is located next to the pile?\n\nA. Armchair\nB. Recliner\nC. Dining chair\nD. Folding chair",
+        "response": "None",
+        "timestamp": "2025-11-17T12:02:58.449882",
+        "annotated_by": "User 3",
+        "original_file_path": "/project/3dllms/melgin/datasets/GIW/giw529subcat/Avacados/04_04_2024_W_C_Avocados1_F_1.ply",
+        "dataset": "GIW529_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "BBQSauce@03_21_2024_W_L_BBQ1_P_1": {
+        "prompt": "What type of chair is prominently featured in the scene?\n\nA. Recliner\nB. Armchair\nC. Dining chair\nD. Rocking chair",
+        "response": "NONE",
+        "timestamp": "2025-11-17T12:02:50.989398",
+        "annotated_by": "User 4",
+        "original_file_path": "/project/3dllms/melgin/datasets/GIW/giw529subcat/BBQSauce/03_21_2024_W_L_BBQ1_P_1.ply",
+        "dataset": "GIW529_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Bagels@03_21_2024_W_L_Bagels1_P_1": {
+        "prompt": "What shape are the plates in the scene?\nA. Square\nB. Oval\nC. Rectangular\nD. Round",
+        "response": "NONE",
+        "timestamp": "2025-11-17T12:03:36.666398",
+        "annotated_by": "User 4",
+        "original_file_path": "/project/3dllms/melgin/datasets/GIW/giw529subcat/Bagels/03_21_2024_W_L_Bagels1_P_1.ply",
+        "dataset": "GIW529_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Bananas@03_04_2024_S_L_Bananas2_F_2": {
+        "prompt": "What type of chair is featured in the scene?\n\nA. Recliner\nB. Dining chair\nC. Armchair\nD. Stool",
+        "response": "None",
+        "timestamp": "2025-11-17T12:03:34.837646",
+        "annotated_by": "User 3",
+        "original_file_path": "/project/3dllms/melgin/datasets/GIW/giw529subcat/Bananas/03_04_2024_S_L_Bananas2_F_2.ply",
+        "dataset": "GIW529_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Bananas@03_04_2024_S_L_Bananas_F_2": {
+        "prompt": "What type of vehicle is parked nearby?\n\nA. Sedan\nB. Pickup truck\nC. Motorcycle\nD. Minivan",
+        "response": "None",
+        "timestamp": "2025-11-17T12:04:11.584702",
+        "annotated_by": "User 3",
+        "original_file_path": "/project/3dllms/melgin/datasets/GIW/giw529subcat/Bananas/03_04_2024_S_L_Bananas_F_2.ply",
+        "dataset": "GIW529_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Bananas@04_04_2024_NG_C_Bananas1_F_1": {
+        "prompt": "What type of chair is placed next to the bananas?\n\nA. Armchair\nB. Recliner\nC. Barstool\nD. Dining chair",
+        "response": "NONE",
+        "timestamp": "2025-11-17T12:03:59.124456",
+        "annotated_by": "User 4",
+        "original_file_path": "/project/3dllms/melgin/datasets/GIW/giw529subcat/Bananas/04_04_2024_NG_C_Bananas1_F_1.ply",
+        "dataset": "GIW529_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Bananas@04_04_2024_S_C_Bananas_F_2": {
+        "prompt": "What is the texture of the couch in the scene?\n\nA. Leather\nB. Velvet\nC. Suede\nD. Linen",
+        "response": "NONE",
+        "timestamp": "2025-11-17T12:04:23.028262",
+        "annotated_by": "User 4",
+        "original_file_path": "/project/3dllms/melgin/datasets/GIW/giw529subcat/Bananas/04_04_2024_S_C_Bananas_F_2.ply",
+        "dataset": "GIW529_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Beans@04_04_2024_W2_C_Beans_P_3": {
+        "prompt": "What shape are the tables in the scene?\n\nA. Rectangular\nB. Circular\nC. Oval\nD. Square",
+        "response": "None",
+        "timestamp": "2025-11-17T12:04:59.652010",
+        "annotated_by": "User 3",
+        "original_file_path": "/project/3dllms/melgin/datasets/GIW/giw529subcat/Beans/04_04_2024_W2_C_Beans_P_3.ply",
+        "dataset": "GIW529_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Bread@04_04_2024_W2_C_Bread2_P_2": {
+        "prompt": "What type of artwork is displayed on the walls?\n\nA. Abstract paintings\nB. Landscape photography\nC. Portraits of famous figures\nD. Vintage posters",
+        "response": "NONE",
+        "timestamp": "2025-11-17T12:05:03.152115",
+        "annotated_by": "User 4",
+        "original_file_path": "/project/3dllms/melgin/datasets/GIW/giw529subcat/Bread/04_04_2024_W2_C_Bread2_P_2.ply",
+        "dataset": "GIW529_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Bread@04_04_2024_W2_C_Bread3_P_2": {
+        "prompt": "What type of vehicle is parked outside?\n\nA. Sedan\nB. Convertible\nC. SUV\nD. Truck",
+        "response": "None",
+        "timestamp": "2025-11-17T12:05:33.350363",
+        "annotated_by": "User 3",
+        "original_file_path": "/project/3dllms/melgin/datasets/GIW/giw529subcat/Bread/04_04_2024_W2_C_Bread3_P_2.ply",
+        "dataset": "GIW529_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Bread@04_04_2024_W2_C_Bread_P_2": {
+        "prompt": "What type of chair is featured in the scene?\n\nA. Recliner\nB. Barstool\nC. Adirondack\nD. Office chair",
+        "response": "NONE",
+        "timestamp": "2025-11-17T12:05:45.770764",
+        "annotated_by": "User 4",
+        "original_file_path": "/project/3dllms/melgin/datasets/GIW/giw529subcat/Bread/04_04_2024_W2_C_Bread_P_2.ply",
+        "dataset": "GIW529_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Broccoli@04_04_2024_S_C_Broccoli1_V_1": {
+        "prompt": "What type of vehicle is parked nearby?\n\nA. Sedan\nB. Motorcycle\nC. Pickup truck\nD. Bicycle",
+        "response": "None",
+        "timestamp": "2025-11-17T12:18:58.237459",
+        "annotated_by": "User 3",
+        "original_file_path": "/project/3dllms/melgin/datasets/GIW/giw529subcat/Broccoli/04_04_2024_S_C_Broccoli1_V_1.ply",
+        "dataset": "GIW529_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Buns@04_18_2024_W2_F_Buns1_P_1": {
+        "prompt": "What type of fruit is displayed on the shelf?\n\nA. Apples\nB. Bananas\nC. Oranges\nD. Grapes",
+        "response": "NONE",
+        "timestamp": "2025-11-17T12:19:01.313606",
+        "annotated_by": "User 4",
+        "original_file_path": "/project/3dllms/melgin/datasets/GIW/giw529subcat/Buns/04_18_2024_W2_F_Buns1_P_1.ply",
+        "dataset": "GIW529_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Cabbages@03_13_2024_S_Co_Cabbages_V_2": {
+        "prompt": "What type of fruit tree is located nearby?\n\nA. Cherry\nB. Apple\nC. Mango\nD. Orange",
+        "response": "None",
+        "timestamp": "2025-11-17T12:19:28.369039",
+        "annotated_by": "User 3",
+        "original_file_path": "/project/3dllms/melgin/datasets/GIW/giw529subcat/Cabbages/03_13_2024_S_Co_Cabbages_V_2.ply",
+        "dataset": "GIW529_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Can@03_21_2024_W_L_Cans_P_2": {
+        "prompt": "What type of vehicle is parked outside?\n\nA. Sedan\nB. Motorcycle\nC. Pickup truck\nD. Coupe",
+        "response": "None",
+        "timestamp": "2025-11-17T12:06:19.300459",
+        "annotated_by": "User 3",
+        "original_file_path": "/project/3dllms/melgin/datasets/GIW/giw529subcat/Can/03_21_2024_W_L_Cans_P_2.ply",
+        "dataset": "GIW529_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Can@03_21_2024_W_L_Peas1_P_1": {
+        "prompt": "What type of lamp is used in the kitchen?\n\nA. Floor lamp\nB. Table lamp\nC. Pendant lamp\nD. Wall lamp",
+        "response": "NONE",
+        "timestamp": "2025-11-17T12:06:25.445359",
+        "annotated_by": "User 4",
+        "original_file_path": "/project/3dllms/melgin/datasets/GIW/giw529subcat/Can/03_21_2024_W_L_Peas1_P_1.ply",
+        "dataset": "GIW529_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Can@04_04_2024_W_C_Cans_P_3": {
+        "prompt": "What shape are the windows in the scene?\n\nA. Square\nB. Circular\nC. Triangular\nD. Octagonal",
+        "response": "None",
+        "timestamp": "2025-11-17T12:06:57.508923",
+        "annotated_by": "User 3",
+        "original_file_path": "/project/3dllms/melgin/datasets/GIW/giw529subcat/Can/04_04_2024_W_C_Cans_P_3.ply",
+        "dataset": "GIW529_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Can@04_18_2024_W2_F_Cans2_P_2": {
+        "prompt": "What flavor is the cake?\n\nA. Chocolate\nB. Vanilla\nC. Strawberry\nD. Lemon",
+        "response": "NONE",
+        "timestamp": "2025-11-17T12:07:09.692773",
+        "annotated_by": "User 4",
+        "original_file_path": "/project/3dllms/melgin/datasets/GIW/giw529subcat/Can/04_18_2024_W2_F_Cans2_P_2.ply",
+        "dataset": "GIW529_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Candy@03_21_2024_W_L_Candy1_P_1": {
+        "prompt": "What is the shape of the dining table in the scene?\n\nA. Round\nB. Oval\nC. Square\nD. Rectangular",
+        "response": "None",
+        "timestamp": "2025-11-17T12:07:42.765928",
+        "annotated_by": "User 3",
+        "original_file_path": "/project/3dllms/melgin/datasets/GIW/giw529subcat/Candy/03_21_2024_W_L_Candy1_P_1.ply",
+        "dataset": "GIW529_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Candy@03_21_2024_W_L_Candy2_P_1": {
+        "prompt": "What type of vehicle is described in the scene?\n\nA. Sports car\nB. Bicycle\nC. Helicopter\nD. Bus",
+        "response": "NONE",
+        "timestamp": "2025-11-17T12:07:59.971308",
+        "annotated_by": "User 4",
+        "original_file_path": "/project/3dllms/melgin/datasets/GIW/giw529subcat/Candy/03_21_2024_W_L_Candy2_P_1.ply",
+        "dataset": "GIW529_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Candy@03_21_2024_W_L_Candy2_P_2": {
+        "prompt": "What type of furniture is used for seating in the scene?\n\nA. Sofa\nB. Armchair\nC. Dining chair\nD. Recliner",
+        "response": "None",
+        "timestamp": "2025-11-17T12:08:40.881227",
+        "annotated_by": "User 3",
+        "original_file_path": "/project/3dllms/melgin/datasets/GIW/giw529subcat/Candy/03_21_2024_W_L_Candy2_P_2.ply",
+        "dataset": "GIW529_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Candy@03_21_2024_W_L_Candy_P_2": {
+        "prompt": "What type of plant can be found next to the candy bags?\n\nA. Cactus\nB. Fern\nC. Bonsai\nD. Orchid",
+        "response": "NONE",
+        "timestamp": "2025-11-17T12:08:42.791339",
+        "annotated_by": "User 4",
+        "original_file_path": "/project/3dllms/melgin/datasets/GIW/giw529subcat/Candy/03_21_2024_W_L_Candy_P_2.ply",
+        "dataset": "GIW529_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Cereal@03_21_2024_W_L_Cereal1_P_1": {
+        "prompt": "What is the height of the tree in the garden?\n\nA. 10 feet\nB. 15 feet\nC. 20 feet\nD. 25 feet",
+        "response": "NONE",
+        "timestamp": "2025-11-17T12:19:35.163694",
+        "annotated_by": "User 4",
+        "original_file_path": "/project/3dllms/melgin/datasets/GIW/giw529subcat/Cereal/03_21_2024_W_L_Cereal1_P_1.ply",
+        "dataset": "GIW529_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Chilli@04_18_2024_W3_F_Chilli_P_3": {
+        "prompt": "What type of bicycle is featured in the scene?\n\nA. Mountain bike\nB. Road bike\nC. Electric bike\nD. Hybrid bike",
+        "response": "None",
+        "timestamp": "2025-11-17T12:20:07.915824",
+        "annotated_by": "User 3",
+        "original_file_path": "/project/3dllms/melgin/datasets/GIW/giw529subcat/Chilli/04_18_2024_W3_F_Chilli_P_3.ply",
+        "dataset": "GIW529_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Chips@03_21_2024_W_L_Chips1_P_1": {
+        "prompt": "What type of chair is used at the dining table?\n\nA. Armchair\nB. Barstool\nC. Recliner\nD. Rocking chair",
+        "response": "None",
+        "timestamp": "2025-11-17T12:09:16.480427",
+        "annotated_by": "User 3",
+        "original_file_path": "/project/3dllms/melgin/datasets/GIW/giw529subcat/Chips/03_21_2024_W_L_Chips1_P_1.ply",
+        "dataset": "GIW529_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Chips@03_21_2024_W_L_Chips_P_2": {
+        "prompt": "What type of lamp is featured in the scene?\n\nA. Floor lamp\nB. Table lamp\nC. Pendant lamp\nD. Wall lamp",
+        "response": "NONE",
+        "timestamp": "2025-11-17T12:09:27.451184",
+        "annotated_by": "User 4",
+        "original_file_path": "/project/3dllms/melgin/datasets/GIW/giw529subcat/Chips/03_21_2024_W_L_Chips_P_2.ply",
+        "dataset": "GIW529_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Chips@04_04_2024_NG_C_Chips_P_2": {
+        "prompt": "What shape are the windows in the scene?\n\nA. Round\nB. Triangular\nC. Square\nD. Hexagonal",
+        "response": "None",
+        "timestamp": "2025-11-17T12:09:54.973775",
+        "annotated_by": "User 3",
+        "original_file_path": "/project/3dllms/melgin/datasets/GIW/giw529subcat/Chips/04_04_2024_NG_C_Chips_P_2.ply",
+        "dataset": "GIW529_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Chips@04_04_2024_S_C_Chips1_P_1": {
+        "prompt": "What is the height of the bookshelf in the room?\n\nA. Five feet\nB. Seven feet\nC. Ten feet\nD. Twelve feet",
+        "response": "NONE",
+        "timestamp": "2025-11-17T12:09:59.040381",
+        "annotated_by": "User 4",
+        "original_file_path": "/project/3dllms/melgin/datasets/GIW/giw529subcat/Chips/04_04_2024_S_C_Chips1_P_1.ply",
+        "dataset": "GIW529_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Chips@04_04_2024_S_C_Chips2_P_1": {
+        "prompt": "What type of furniture is featured in the scene?\n\nA. Sofa\nB. Coffee table\nC. Bookshelf\nD. Dining chair",
+        "response": "None",
+        "timestamp": "2025-11-17T12:10:38.220401",
+        "annotated_by": "User 3",
+        "original_file_path": "/project/3dllms/melgin/datasets/GIW/giw529subcat/Chips/04_04_2024_S_C_Chips2_P_1.ply",
+        "dataset": "GIW529_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Chips@04_04_2024_S_C_Chips2_P_2": {
+        "prompt": "What type of chair is included in the scene?\n\nA. Recliner\nB. Office chair\nC. Bean bag\nD. Dining chair",
+        "response": "NONE",
+        "timestamp": "2025-11-17T12:10:46.570675",
+        "annotated_by": "User 4",
+        "original_file_path": "/project/3dllms/melgin/datasets/GIW/giw529subcat/Chips/04_04_2024_S_C_Chips2_P_2.ply",
+        "dataset": "GIW529_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Chips@04_04_2024_S_C_Chips3_P_1": {
+        "prompt": "What type of plant is used for the centerpiece on the table?\n\nA. Orchid\nB. Fern\nC. Bonsai\nD. Cactus",
+        "response": "None",
+        "timestamp": "2025-11-17T12:11:07.707281",
+        "annotated_by": "User 3",
+        "original_file_path": "/project/3dllms/melgin/datasets/GIW/giw529subcat/Chips/04_04_2024_S_C_Chips3_P_1.ply",
+        "dataset": "GIW529_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Chips@04_04_2024_S_C_Chips3_P_2": {
+        "prompt": "What type of fruit can be found in the scene?\n\nA. Apple\nB. Banana\nC. Orange\nD. Grape",
+        "response": "NONE",
+        "timestamp": "2025-11-17T12:11:43.040518",
+        "annotated_by": "User 4",
+        "original_file_path": "/project/3dllms/melgin/datasets/GIW/giw529subcat/Chips/04_04_2024_S_C_Chips3_P_2.ply",
+        "dataset": "GIW529_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "ChipsSalsa@04_18_2024_W_F_Salsa_P_3": {
+        "prompt": "What type of chair is featured in the scene?\n\nA. Recliner\nB. Office chair\nC. Dining chair\nD. Lounge chair",
+        "response": "NONE",
+        "timestamp": "2025-11-17T12:20:12.700012",
+        "annotated_by": "User 4",
+        "original_file_path": "/project/3dllms/melgin/datasets/GIW/giw529subcat/ChipsSalsa/04_18_2024_W_F_Salsa_P_3.ply",
+        "dataset": "GIW529_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Coconuts@03_21_2024_W_L_Coconuts1_F_1": {
+        "prompt": "What type of mountain range is depicted in the scene?\n\nA. Himalayas\nB. Rockies\nC. Andes\nD. Alps",
+        "response": "None",
+        "timestamp": "2025-11-17T12:20:37.877629",
+        "annotated_by": "User 3",
+        "original_file_path": "/project/3dllms/melgin/datasets/GIW/giw529subcat/Coconuts/03_21_2024_W_L_Coconuts1_F_1.ply",
+        "dataset": "GIW529_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Coffee@03_21_2024_W_L_Coffee1_P_1": {
+        "prompt": "What shape is the dining table in the scene?\n\nA. Round\nB. Oval\nC. Triangular\nD. Square",
+        "response": "None",
+        "timestamp": "2025-11-17T12:11:35.734090",
+        "annotated_by": "User 3",
+        "original_file_path": "/project/3dllms/melgin/datasets/GIW/giw529subcat/Coffee/03_21_2024_W_L_Coffee1_P_1.ply",
+        "dataset": "GIW529_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Coffee@03_21_2024_W_L_Coffee2_P_2": {
+        "prompt": "What is the shape of the table?\n\nA. Round\nB. Square\nC. Rectangular\nD. Oval",
+        "response": "None",
+        "timestamp": "2025-11-17T12:12:28.489933",
+        "annotated_by": "User 3",
+        "original_file_path": "/project/3dllms/melgin/datasets/GIW/giw529subcat/Coffee/03_21_2024_W_L_Coffee2_P_2.ply",
+        "dataset": "GIW529_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Coffee@03_21_2024_W_L_Coffee_P_2": {
+        "prompt": "What flavor is the ice cream in the scene?\n\nA. Chocolate\nB. Vanilla\nC. Strawberry\nD. Mint",
+        "response": "NONE",
+        "timestamp": "2025-11-17T12:12:14.374962",
+        "annotated_by": "User 4",
+        "original_file_path": "/project/3dllms/melgin/datasets/GIW/giw529subcat/Coffee/03_21_2024_W_L_Coffee_P_2.ply",
+        "dataset": "GIW529_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Coffee@04_04_2024_S_C_Coffee2_P_3": {
+        "prompt": "What type of animal is commonly seen in the scene?\n\nA. Cat\nB. Dog\nC. Rabbit\nD. Parrot",
+        "response": "NONE",
+        "timestamp": "2025-11-17T12:13:11.054717",
+        "annotated_by": "User 4",
+        "original_file_path": "/project/3dllms/melgin/datasets/GIW/giw529subcat/Coffee/04_04_2024_S_C_Coffee2_P_3.ply",
+        "dataset": "GIW529_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Corn@04_04_2024_W_C_Corn1_F_1": {
+        "prompt": "What type of vehicle is parked nearby?\n\nA. Sedan\nB. Motorcycle\nC. Pickup truck\nD. Minivan",
+        "response": "None",
+        "timestamp": "2025-11-17T12:13:07.321754",
+        "annotated_by": "User 3",
+        "original_file_path": "/project/3dllms/melgin/datasets/GIW/giw529subcat/Corn/04_04_2024_W_C_Corn1_F_1.ply",
+        "dataset": "GIW529_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Cucumbers@03_21_2024_W_L_Cucumbers_F_2": {
+        "prompt": "What type of vehicle is parked outside?\n\nA. Sedan\nB. Motorcycle\nC. Minivan\nD. SUV",
+        "response": "None",
+        "timestamp": "2025-11-17T12:13:40.473909",
+        "annotated_by": "User 3",
+        "original_file_path": "/project/3dllms/melgin/datasets/GIW/giw529subcat/Cucumbers/03_21_2024_W_L_Cucumbers_F_2.ply",
+        "dataset": "GIW529_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Cucumbers@04_04_2024_W2_C_Cucumbers1_V_1": {
+        "prompt": "What type of chair is featured in the scene?\n\nA. Recliner\nB. Barstool\nC. Armchair\nD. Dining chair",
+        "response": "NONE",
+        "timestamp": "2025-11-17T12:13:45.365706",
+        "annotated_by": "User 4",
+        "original_file_path": "/project/3dllms/melgin/datasets/GIW/giw529subcat/Cucumbers/04_04_2024_W2_C_Cucumbers1_V_1.ply",
+        "dataset": "GIW529_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Dressings@04_18_2024_W2_F_Dressing_P_2": {
+        "prompt": "What type of vehicle is parked outside?\n\nA. Sedan\nB. Bicycle\nC. SUV\nD. Motorcycle",
+        "response": "NONE",
+        "timestamp": "2025-11-17T12:20:44.373953",
+        "annotated_by": "User 4",
+        "original_file_path": "/project/3dllms/melgin/datasets/GIW/giw529subcat/Dressings/04_18_2024_W2_F_Dressing_P_2.ply",
+        "dataset": "GIW529_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Drinks@03_21_2024_W_L_Drinks_P_2": {
+        "prompt": "What shape is the table in the scene?\n\nA. Round\nB. Square\nC. Oval\nD. Rectangular",
+        "response": "None",
+        "timestamp": "2025-11-17T12:21:12.627728",
+        "annotated_by": "User 3",
+        "original_file_path": "/project/3dllms/melgin/datasets/GIW/giw529subcat/Drinks/03_21_2024_W_L_Drinks_P_2.ply",
+        "dataset": "GIW529_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "EnergyDrinks@03_04_2024_S_L_EnergyDrinks_P_1": {
+        "prompt": "What shape is the table in the scene?\n\nA. Oval\nB. Rectangular\nC. Square\nD. Circular",
+        "response": "None",
+        "timestamp": "2025-11-17T12:14:07.932506",
+        "annotated_by": "User 3",
+        "original_file_path": "/project/3dllms/melgin/datasets/GIW/giw529subcat/EnergyDrinks/03_04_2024_S_L_EnergyDrinks_P_1.ply",
+        "dataset": "GIW529_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Flour@04_04_2024_W2_C_Flour_P_3": {
+        "prompt": "What type of vehicle is parked in front of the building?\n\nA. Sedan\nB. Truck\nC. Motorcycle\nD. Van",
+        "response": "NONE",
+        "timestamp": "2025-11-17T12:14:28.244118",
+        "annotated_by": "User 4",
+        "original_file_path": "/project/3dllms/melgin/datasets/GIW/giw529subcat/Flour/04_04_2024_W2_C_Flour_P_3.ply",
+        "dataset": "GIW529_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Flour@04_04_2024_W_C_Flour_P_2": {
+        "prompt": "What type of furniture is in the kitchen?\n\nA. Dining table\nB. Bookshelf\nC. Coffee table\nD. Recliner",
+        "response": "None",
+        "timestamp": "2025-11-17T12:14:51.352530",
+        "annotated_by": "User 3",
+        "original_file_path": "/project/3dllms/melgin/datasets/GIW/giw529subcat/Flour/04_04_2024_W_C_Flour_P_2.ply",
+        "dataset": "GIW529_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "FruitCans@04_18_2024_W3_F_CanFruits_P_3": {
+        "prompt": "What type of animal is featured on the shelf?\n\nA. Tiger\nB. Giraffe\nC. Penguin\nD. Elephant",
+        "response": "None of these",
+        "timestamp": "2025-11-26T06:51:52.512258",
+        "annotated_by": "User 1",
+        "original_file_path": "/project/3dllms/melgin/datasets/GIW/giw529subcat/FruitCans/04_18_2024_W3_F_CanFruits_P_3.ply",
+        "dataset": "GIW529_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Garlic@04_04_2024_W_C_Garlic1_V_1": {
+        "prompt": "What type of musical instrument is located in the scene?\n\nA. Violin\nB. Piano\nC. Flute\nD. Guitar",
+        "response": "None",
+        "timestamp": "2025-11-17T12:21:43.780458",
+        "annotated_by": "User 3",
+        "original_file_path": "/project/3dllms/melgin/datasets/GIW/giw529subcat/Garlic/04_04_2024_W_C_Garlic1_V_1.ply",
+        "dataset": "GIW529_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Gatorade@03_04_2024_S_L_Gatorade_P_2": {
+        "prompt": "What is the shape of the table in the scene?\n\nA. Rectangle\nB. Circle\nC. Triangle\nD. Oval",
+        "response": "None",
+        "timestamp": "2025-11-17T12:22:20.045243",
+        "annotated_by": "User 3",
+        "original_file_path": "/project/3dllms/melgin/datasets/GIW/giw529subcat/Gatorade/03_04_2024_S_L_Gatorade_P_2.ply",
+        "dataset": "GIW529_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Gourds@03_21_2024_W_L_Gourds1_F_1": {
+        "prompt": "What type of vehicle is parked nearby?\n\nA. Sedan\nB. Bicycle\nC. Pickup truck\nD. Motorcycle",
+        "response": "NONE",
+        "timestamp": "2025-11-17T12:14:56.064880",
+        "annotated_by": "User 4",
+        "original_file_path": "/project/3dllms/melgin/datasets/GIW/giw529subcat/Gourds/03_21_2024_W_L_Gourds1_F_1.ply",
+        "dataset": "GIW529_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "GranolaBars@04_04_2024_W_C_GranolaBars2_P_2": {
+        "prompt": "What shape are the chairs in the room?\n\nA. Round\nB. Square\nC. Oval\nD. Triangular",
+        "response": "None",
+        "timestamp": "2025-11-17T12:22:53.614357",
+        "annotated_by": "User 3",
+        "original_file_path": "/project/3dllms/melgin/datasets/GIW/giw529subcat/GranolaBars/04_04_2024_W_C_GranolaBars2_P_2.ply",
+        "dataset": "GIW529_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "GrapeFruits@03_07_2024_S_L_GrapeFruits1_F_1": {
+        "prompt": "What is the size of the dining table in the scene?\n\nA. Small\nB. Medium\nC. Large\nD. Extra large",
+        "response": "None",
+        "timestamp": "2025-11-17T12:15:23.204613",
+        "annotated_by": "User 3",
+        "original_file_path": "/project/3dllms/melgin/datasets/GIW/giw529subcat/GrapeFruits/03_07_2024_S_L_GrapeFruits1_F_1.ply",
+        "dataset": "GIW529_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "GrapeFruits@04_04_2024_W2_C_Grapefruits1_F_1": {
+        "prompt": "What type of building is located near the grapefruit grove?\n\nA. A brick warehouse\nB. A wooden lodge\nC. A glass skyscraper\nD. A stone cottage",
+        "response": "NONE",
+        "timestamp": "2025-11-17T12:15:25.040120",
+        "annotated_by": "User 4",
+        "original_file_path": "/project/3dllms/melgin/datasets/GIW/giw529subcat/GrapeFruits/04_04_2024_W2_C_Grapefruits1_F_1.ply",
+        "dataset": "GIW529_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Greens@03_04_2024_S_L_Greens1_V_1": {
+        "prompt": "What type of sculpture is in the setting?\n\nA. Abstract\nB. Classical\nC. Modernist\nD. Figurative",
+        "response": "None",
+        "timestamp": "2025-11-17T12:16:14.823253",
+        "annotated_by": "User 3",
+        "original_file_path": "/project/3dllms/melgin/datasets/GIW/giw529subcat/Greens/03_04_2024_S_L_Greens1_V_1.ply",
+        "dataset": "GIW529_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Greens@03_04_2024_S_L_Greens2_V_1": {
+        "prompt": "What type of sculpture is featured in the setting?\n\nA. Bronze statue\nB. Stone relief\nC. Wooden totem\nD. Glass figurine",
+        "response": "NONE",
+        "timestamp": "2025-11-17T12:16:06.816254",
+        "annotated_by": "User 4",
+        "original_file_path": "/project/3dllms/melgin/datasets/GIW/giw529subcat/Greens/03_04_2024_S_L_Greens2_V_1.ply",
+        "dataset": "GIW529_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Greens@03_04_2024_S_L_Greens_V_2": {
+        "prompt": "What type of vehicle is parked in the scene?\n\nA. Sedan\nB. Motorcycle\nC. Pickup truck\nD. Convertible",
+        "response": "NONE",
+        "timestamp": "2025-11-17T12:16:48.729206",
+        "annotated_by": "User 4",
+        "original_file_path": "/project/3dllms/melgin/datasets/GIW/giw529subcat/Greens/03_04_2024_S_L_Greens_V_2.ply",
+        "dataset": "GIW529_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Greens@04_04_2024_S_C_Greens_V_2": {
+        "prompt": "What type of painting is hanging on the wall?\n\nA. Abstract\nB. Landscape\nC. Portrait\nD. Still Life",
+        "response": "None",
+        "timestamp": "2025-11-17T12:17:00.557583",
+        "annotated_by": "User 3",
+        "original_file_path": "/project/3dllms/melgin/datasets/GIW/giw529subcat/Greens/04_04_2024_S_C_Greens_V_2.ply",
+        "dataset": "GIW529_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Honey@03_21_2024_W_L_Honey1_P_1": {
+        "prompt": "What type of music is playing in the background?\n\nA. Classical\nB. Jazz\nC. Rock\nD. Hip Hop",
+        "response": "None",
+        "timestamp": "2025-11-17T12:23:22.453460",
+        "annotated_by": "User 3",
+        "original_file_path": "/project/3dllms/melgin/datasets/GIW/giw529subcat/Honey/03_21_2024_W_L_Honey1_P_1.ply",
+        "dataset": "GIW529_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Jam@03_21_2024_W_L_Jam1_P_1": {
+        "prompt": "What type of dessert is served at the gathering?\n\nA. Chocolate cake\nB. Cheesecake\nC. Ice cream\nD. Fruit tart",
+        "response": "NONE",
+        "timestamp": "2025-11-17T12:17:21.162198",
+        "annotated_by": "User 4",
+        "original_file_path": "/project/3dllms/melgin/datasets/GIW/giw529subcat/Jam/03_21_2024_W_L_Jam1_P_1.ply",
+        "dataset": "GIW529_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Juices@03_04_2024_S_L_Juices_P_2": {
+        "prompt": "What type of furniture is located in the scene?\n\nA. Coffee Table\nB. Sofa\nC. Bookshelf\nD. Armchair",
+        "response": "None",
+        "timestamp": "2025-11-17T12:17:35.500941",
+        "annotated_by": "User 3",
+        "original_file_path": "/project/3dllms/melgin/datasets/GIW/giw529subcat/Juices/03_04_2024_S_L_Juices_P_2.ply",
+        "dataset": "GIW529_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Juices@04_04_2024_W2_C_Juice_P_2": {
+        "prompt": "What shape are the chairs in the scene?\n\nA. Square\nB. Circular\nC. Triangular\nD. Oval",
+        "response": "NONE",
+        "timestamp": "2025-11-17T12:17:54.546231",
+        "annotated_by": "User 4",
+        "original_file_path": "/project/3dllms/melgin/datasets/GIW/giw529subcat/Juices/04_04_2024_W2_C_Juice_P_2.ply",
+        "dataset": "GIW529_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Ketchup@04_04_2024_S_C_Ketchup_P_2": {
+        "prompt": "What flavor of ice cream is included in the scene?\n\nA. Vanilla\nB. Chocolate\nC. Strawberry\nD. Mint Chocolate Chip",
+        "response": "None",
+        "timestamp": "2025-11-17T12:18:15.805285",
+        "annotated_by": "User 3",
+        "original_file_path": "/project/3dllms/melgin/datasets/GIW/giw529subcat/Ketchup/04_04_2024_S_C_Ketchup_P_2.ply",
+        "dataset": "GIW529_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Lemons@04_18_2024_W_F_Lemons1_F_1": {
+        "prompt": "What type of vehicle is parked nearby?\n\nA. Sedan\nB. Motorcycle\nC. Pickup truck\nD. Convertible",
+        "response": "none",
+        "timestamp": "2025-11-17T09:08:44.689882",
+        "annotated_by": "User 5",
+        "original_file_path": "/project/3dllms/melgin/datasets/GIW/giw529subcat/Lemons/04_18_2024_W_F_Lemons1_F_1.ply",
+        "dataset": "GIW529_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Lemons@04_19_2024_W4_F_Lemons1_F_1": {
+        "prompt": "What type of chair is featured in the scene?\n\nA. Armchair\nB. Recliner\nC. Dining chair\nD. Lounge chair",
+        "response": "none",
+        "timestamp": "2025-11-17T09:09:08.663532",
+        "annotated_by": "User 5",
+        "original_file_path": "/project/3dllms/melgin/datasets/GIW/giw529subcat/Lemons/04_19_2024_W4_F_Lemons1_F_1.ply",
+        "dataset": "GIW529_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Lime@04_18_2024_W_F_Limes1_F_1": {
+        "prompt": "What type of fruit basket complements the limes?\n\nA. Wooden basket\nB. Plastic basket\nC. Metal basket\nD. Fabric basket",
+        "response": "There is no basket",
+        "timestamp": "2025-11-14T16:55:37.823529",
+        "annotated_by": "User 1",
+        "original_file_path": "/project/3dllms/melgin/datasets/GIW/giw529subcat/Lime/04_18_2024_W_F_Limes1_F_1.ply",
+        "dataset": "GIW529_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Mangoes@04_18_2024_W3_F_Mangoes1_F_1": {
+        "prompt": "What type of vehicle can be found near the display?\n\nA. Sedan\nB. Coupe\nC. SUV\nD. Hatchback",
+        "response": "none",
+        "timestamp": "2025-11-17T09:09:35.409338",
+        "annotated_by": "User 5",
+        "original_file_path": "/project/3dllms/melgin/datasets/GIW/giw529subcat/Mangoes/04_18_2024_W3_F_Mangoes1_F_1.ply",
+        "dataset": "GIW529_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Mangoes@04_18_2024_W_F_Mangoes1_F_1": {
+        "prompt": "What is the shape of the basket?\n\nA. Rectangular\nB. Hexagonal\nC. Circular\nD. Triangular",
+        "response": "NONE",
+        "timestamp": "2025-11-17T11:42:43.282896",
+        "annotated_by": "User 4",
+        "original_file_path": "/project/3dllms/melgin/datasets/GIW/giw529subcat/Mangoes/04_18_2024_W_F_Mangoes1_F_1.ply",
+        "dataset": "GIW529_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Mayo@04_19_2024_S2_F_Mayo_P_2": {
+        "prompt": "What type of fruit basket is displayed on the shelf?\n\nA. Apple basket\nB. Banana basket\nC. Grape basket\nD. Orange basket",
+        "response": "none",
+        "timestamp": "2025-11-17T09:21:27.283699",
+        "annotated_by": "User 5",
+        "original_file_path": "/project/3dllms/melgin/datasets/GIW/giw529subcat/Mayo/04_19_2024_S2_F_Mayo_P_2.ply",
+        "dataset": "GIW529_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Melons@04_19_2024_S2_F_Melons1_F_1": {
+        "prompt": "What color is the sofa in the scene?\n\nA. Red\nB. Gray\nC. Blue\nD. Yellow",
+        "response": "none",
+        "timestamp": "2025-11-14T17:06:41.885188",
+        "annotated_by": "User 5",
+        "original_file_path": "/project/3dllms/melgin/datasets/GIW/giw529subcat/Melons/04_19_2024_S2_F_Melons1_F_1.ply",
+        "dataset": "GIW529_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Melons@04_19_2024_S_F_Melons_F_2": {
+        "prompt": "What type of vehicle is parked outside?\n\nA. Sedan\nB. Coupe\nC. SUV\nD. Minivan",
+        "response": "none",
+        "timestamp": "2025-11-17T09:22:21.835702",
+        "annotated_by": "User 5",
+        "original_file_path": "/project/3dllms/melgin/datasets/GIW/giw529subcat/Melons/04_19_2024_S_F_Melons_F_2.ply",
+        "dataset": "GIW529_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Melons@04_19_2024_W4_F_Melons1_F_1": {
+        "prompt": "What is the flavor of the ice cream in the scene?\n\nA. Chocolate\nB. Strawberry\nC. Vanilla\nD. Mint",
+        "response": "none",
+        "timestamp": "2025-11-17T09:23:35.084075",
+        "annotated_by": "User 5",
+        "original_file_path": "/project/3dllms/melgin/datasets/GIW/giw529subcat/Melons/04_19_2024_W4_F_Melons1_F_1.ply",
+        "dataset": "GIW529_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Melons@04_19_2024_W4_F_Watermelons1_F_1": {
+        "prompt": "What is the texture of the fabric used for the curtains?\n\nA. Velvet\nB. Linen\nC. Silk\nD. Canvas",
+        "response": "none",
+        "timestamp": "2025-11-17T09:24:03.320916",
+        "annotated_by": "User 5",
+        "original_file_path": "/project/3dllms/melgin/datasets/GIW/giw529subcat/Melons/04_19_2024_W4_F_Watermelons1_F_1.ply",
+        "dataset": "GIW529_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "MultiFruits@04_04_2024_W_C_FruitsLong1_F_1": {
+        "prompt": "What type of vehicle is parked outside?\n\nA. Sedan\nB. Pickup truck\nC. Sports car\nD. Bicycle",
+        "response": "none",
+        "timestamp": "2025-11-17T09:24:23.396299",
+        "annotated_by": "User 5",
+        "original_file_path": "/project/3dllms/melgin/datasets/GIW/giw529subcat/MultiFruits/04_04_2024_W_C_FruitsLong1_F_1.ply",
+        "dataset": "GIW529_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "MultiFruits@04_19_2024_S_F_Fruits1_F_1": {
+        "prompt": "What size is the television in the room?\n\nA. 32 inches\nB. 55 inches\nC. 75 inches\nD. 48 inches",
+        "response": "none",
+        "timestamp": "2025-11-17T09:24:52.768959",
+        "annotated_by": "User 5",
+        "original_file_path": "/project/3dllms/melgin/datasets/GIW/giw529subcat/MultiFruits/04_19_2024_S_F_Fruits1_F_1.ply",
+        "dataset": "GIW529_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Nectarines@04_19_2024_W4_F_Nectarines1_F_1": {
+        "prompt": "What type of chair is used in the scene?\n\nA. Recliner\nB. Office chair\nC. Beanbag chair\nD. Dining chair",
+        "response": "none",
+        "timestamp": "2025-11-17T09:25:24.014373",
+        "annotated_by": "User 5",
+        "original_file_path": "/project/3dllms/melgin/datasets/GIW/giw529subcat/Nectarines/04_19_2024_W4_F_Nectarines1_F_1.ply",
+        "dataset": "GIW529_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Nuts@04_18_2024_W3_F_Nuts_P_2": {
+        "prompt": "What flavor is the ice cream?\n\nA. Chocolate\nB. Vanilla\nC. Strawberry\nD. Mint",
+        "response": "none",
+        "timestamp": "2025-11-17T09:25:42.585631",
+        "annotated_by": "User 5",
+        "original_file_path": "/project/3dllms/melgin/datasets/GIW/giw529subcat/Nuts/04_18_2024_W3_F_Nuts_P_2.ply",
+        "dataset": "GIW529_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Nuts@04_18_2024_W_F_Nuts1_P_1": {
+        "prompt": "What type of vehicle is parked in the scene?\n\nA. Sedan\nB. Truck\nC. Bicycle\nD. Motorcycle",
+        "response": "none",
+        "timestamp": "2025-11-17T09:26:01.949728",
+        "annotated_by": "User 5",
+        "original_file_path": "/project/3dllms/melgin/datasets/GIW/giw529subcat/Nuts/04_18_2024_W_F_Nuts1_P_1.ply",
+        "dataset": "GIW529_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Oil@04_18_2024_W_F_Oil_P_3": {
+        "prompt": "What type of vehicle is parked nearby?\n\nA. Sedan\nB. Truck\nC. Motorcycle\nD. Bicycle",
+        "response": "none",
+        "timestamp": "2025-11-17T09:26:32.088484",
+        "annotated_by": "User 5",
+        "original_file_path": "/project/3dllms/melgin/datasets/GIW/giw529subcat/Oil/04_18_2024_W_F_Oil_P_3.ply",
+        "dataset": "GIW529_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Oil@04_19_2024_W_F_Oils_P_2": {
+        "prompt": "What type of furniture is featured prominently in the scene?\n\nA. Sofa\nB. Dining table\nC. Bookshelf\nD. Coffee table",
+        "response": "none",
+        "timestamp": "2025-11-17T09:27:07.837002",
+        "annotated_by": "User 5",
+        "original_file_path": "/project/3dllms/melgin/datasets/GIW/giw529subcat/Oil/04_19_2024_W_F_Oils_P_2.ply",
+        "dataset": "GIW529_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "OliveOil@04_19_2024_S_F_OliveOil_P_3": {
+        "prompt": "What type of mountain range is visible in the scene?\n\nA. Rocky Mountains\nB. Andes\nC. Himalayas\nD. Appalachian",
+        "response": "none",
+        "timestamp": "2025-11-17T09:27:32.551849",
+        "annotated_by": "User 5",
+        "original_file_path": "/project/3dllms/melgin/datasets/GIW/giw529subcat/OliveOil/04_19_2024_S_F_OliveOil_P_3.ply",
+        "dataset": "GIW529_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Onions@04_19_2024_S2_F_Onions1_V_1": {
+        "prompt": "What size is the sculpture in the room?\n\nA. Small\nB. Medium\nC. Large\nD. Extra Large",
+        "response": "none",
+        "timestamp": "2025-11-17T09:28:06.188915",
+        "annotated_by": "User 5",
+        "original_file_path": "/project/3dllms/melgin/datasets/GIW/giw529subcat/Onions/04_19_2024_S2_F_Onions1_V_1.ply",
+        "dataset": "GIW529_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Onions@04_19_2024_S2_F_Onions2_V_1": {
+        "prompt": "What is the texture of the rug?\n\nA. Soft and fluffy\nB. Rough and durable\nC. Smooth and silky\nD. Striped and colorful",
+        "response": "none",
+        "timestamp": "2025-11-17T09:28:33.510302",
+        "annotated_by": "User 5",
+        "original_file_path": "/project/3dllms/melgin/datasets/GIW/giw529subcat/Onions/04_19_2024_S2_F_Onions2_V_1.ply",
+        "dataset": "GIW529_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Onions@04_19_2024_S2_F_Onions3_V_1": {
+        "prompt": "What type of fruit is located on the table?\n\nA. Apple\nB. Banana\nC. Orange\nD. Grapes",
+        "response": "none",
+        "timestamp": "2025-11-17T09:29:22.291192",
+        "annotated_by": "User 5",
+        "original_file_path": "/project/3dllms/melgin/datasets/GIW/giw529subcat/Onions/04_19_2024_S2_F_Onions3_V_1.ply",
+        "dataset": "GIW529_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Onions@04_19_2024_W4_F_Onions2_V_1": {
+        "prompt": "What is the shade of the sofa in the living room?\n\nA. Light Gray\nB. Dark Blue\nC. Cream\nD. Burgundy",
+        "response": "none",
+        "timestamp": "2025-11-17T09:29:41.802121",
+        "annotated_by": "User 5",
+        "original_file_path": "/project/3dllms/melgin/datasets/GIW/giw529subcat/Onions/04_19_2024_W4_F_Onions2_V_1.ply",
+        "dataset": "GIW529_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Onions@04_19_2024_W4_F_RedOnions1_V_1": {
+        "prompt": "What is the primary function of the chandelier?\n\nA. To provide ambiance\nB. To serve as a sculpture\nC. To hold candles\nD. To emit a soft glow",
+        "response": "none",
+        "timestamp": "2025-11-17T09:30:27.403281",
+        "annotated_by": "User 5",
+        "original_file_path": "/project/3dllms/melgin/datasets/GIW/giw529subcat/Onions/04_19_2024_W4_F_RedOnions1_V_1.ply",
+        "dataset": "GIW529_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Orange@04_18_2024_W_F_Oranges1_F_1": {
+        "prompt": "What type of chair is in the scene?\n\nA. Recliner\nB. Dining chair\nC. Office chair\nD. Lounge chair",
+        "response": "none",
+        "timestamp": "2025-11-17T09:30:45.929171",
+        "annotated_by": "User 5",
+        "original_file_path": "/project/3dllms/melgin/datasets/GIW/giw529subcat/Orange/04_18_2024_W_F_Oranges1_F_1.ply",
+        "dataset": "GIW529_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Orange@04_19_2024_S2_F_Oranges1_F_1": {
+        "prompt": "What type of vehicle is parked nearby?\n\nA. Sedan\nB. Motorcycle\nC. Truck\nD. Bicycle",
+        "response": "none",
+        "timestamp": "2025-11-17T09:31:05.727658",
+        "annotated_by": "User 5",
+        "original_file_path": "/project/3dllms/melgin/datasets/GIW/giw529subcat/Orange/04_19_2024_S2_F_Oranges1_F_1.ply",
+        "dataset": "GIW529_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Orange@04_19_2024_W4_F_Oranges1_F_1": {
+        "prompt": "What is the shape of the tree in the scene?\n\nA. Oval\nB. Square\nC. Triangular\nD. Rectangular",
+        "response": "none",
+        "timestamp": "2025-11-17T09:31:21.993090",
+        "annotated_by": "User 5",
+        "original_file_path": "/project/3dllms/melgin/datasets/GIW/giw529subcat/Orange/04_19_2024_W4_F_Oranges1_F_1.ply",
+        "dataset": "GIW529_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "PastaSauce@04_18_2024_W3_F_PastaSauce1_P_1": {
+        "prompt": "What type of artifact is displayed prominently in the room?\n\nA. Ancient vase\nB. Modern sculpture\nC. Vintage clock\nD. Crystal goblet",
+        "response": "none",
+        "timestamp": "2025-11-17T09:31:43.859028",
+        "annotated_by": "User 5",
+        "original_file_path": "/project/3dllms/melgin/datasets/GIW/giw529subcat/PastaSauce/04_18_2024_W3_F_PastaSauce1_P_1.ply",
+        "dataset": "GIW529_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "PastaSauce@04_19_2024_S2_F_PastaSauce_P_2": {
+        "prompt": "What type of fabric is used for the curtains?\n\nA. Silk\nB. Cotton\nC. Velvet\nD. Linen",
+        "response": "none",
+        "timestamp": "2025-11-17T09:32:07.076100",
+        "annotated_by": "User 5",
+        "original_file_path": "/project/3dllms/melgin/datasets/GIW/giw529subcat/PastaSauce/04_19_2024_S2_F_PastaSauce_P_2.ply",
+        "dataset": "GIW529_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "PeanutButter@04_18_2024_W3_F_PeanutButter_P_2": {
+        "prompt": "What is the flavor of the ice cream in the scene?\n\nA. Chocolate\nB. Vanilla\nC. Strawberry\nD. Mint",
+        "response": "none",
+        "timestamp": "2025-11-17T09:32:39.005014",
+        "annotated_by": "User 5",
+        "original_file_path": "/project/3dllms/melgin/datasets/GIW/giw529subcat/PeanutButter/04_18_2024_W3_F_PeanutButter_P_2.ply",
+        "dataset": "GIW529_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "PeanutButter@04_18_2024_W_F_PeanutButter_P_3": {
+        "prompt": "What type of chair is featured in the scene?\n\nA. Recliner\nB. Bar stool\nC. Armchair\nD. Folding chair",
+        "response": "none",
+        "timestamp": "2025-11-17T09:33:07.829624",
+        "annotated_by": "User 5",
+        "original_file_path": "/project/3dllms/melgin/datasets/GIW/giw529subcat/PeanutButter/04_18_2024_W_F_PeanutButter_P_3.ply",
+        "dataset": "GIW529_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Pears@04_18_2024_W3_F_Pears1_F_1": {
+        "prompt": "What is the size of the table in the scene?\n\nA. Small\nB. Medium\nC. Large\nD. Extra large",
+        "response": "none",
+        "timestamp": "2025-11-17T09:33:33.455527",
+        "annotated_by": "User 5",
+        "original_file_path": "/project/3dllms/melgin/datasets/GIW/giw529subcat/Pears/04_18_2024_W3_F_Pears1_F_1.ply",
+        "dataset": "GIW529_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Pears@04_19_2024_W4_F_Pears1_F_1": {
+        "prompt": "What feature distinguishes the type of bicycle in the scene?\n\nA. The wheel size\nB. The handlebar shape\nC. The color of the frame\nD. The type of brakes",
+        "response": "none",
+        "timestamp": "2025-11-17T09:34:20.633945",
+        "annotated_by": "User 5",
+        "original_file_path": "/project/3dllms/melgin/datasets/GIW/giw529subcat/Pears/04_19_2024_W4_F_Pears1_F_1.ply",
+        "dataset": "GIW529_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Peppers@04_18_2024_W3_F_GreenPeppers1_F_1": {
+        "prompt": "What type of chair is placed beside the table?\n\nA. Recliner\nB. Rocking chair\nC. Bar stool\nD. High chair",
+        "response": "none",
+        "timestamp": "2025-11-17T09:35:02.983073",
+        "annotated_by": "User 5",
+        "original_file_path": "/project/3dllms/melgin/datasets/GIW/giw529subcat/Peppers/04_18_2024_W3_F_GreenPeppers1_F_1.ply",
+        "dataset": "GIW529_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Peppers@04_18_2024_W3_F_Peppers1_F_1": {
+        "prompt": "What type of chair is placed next to the table?\n\nA. Recliner\nB. Dining chair\nC. Bar stool\nD. Rocking chair",
+        "response": "none",
+        "timestamp": "2025-11-17T09:35:28.158637",
+        "annotated_by": "User 5",
+        "original_file_path": "/project/3dllms/melgin/datasets/GIW/giw529subcat/Peppers/04_18_2024_W3_F_Peppers1_F_1.ply",
+        "dataset": "GIW529_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Peppers@04_18_2024_W_F_GreenPeppers1_F_1": {
+        "prompt": "What type of building structure is visible in the scene?\n\nA. Skyscraper\nB. Cottage\nC. Bridge\nD. Warehouse",
+        "response": "none",
+        "timestamp": "2025-11-17T09:35:55.978207",
+        "annotated_by": "User 5",
+        "original_file_path": "/project/3dllms/melgin/datasets/GIW/giw529subcat/Peppers/04_18_2024_W_F_GreenPeppers1_F_1.ply",
+        "dataset": "GIW529_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Peppers@04_19_2024_W4_F_Peppers1_F_1": {
+        "prompt": "What type of chair is featured in the setting?\n\nA. Recliner\nB. Bean bag\nC. Armchair\nD. Dining chair",
+        "response": "none",
+        "timestamp": "2025-11-17T09:36:14.216725",
+        "annotated_by": "User 5",
+        "original_file_path": "/project/3dllms/melgin/datasets/GIW/giw529subcat/Peppers/04_19_2024_W4_F_Peppers1_F_1.ply",
+        "dataset": "GIW529_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Pickles@04_18_2024_W_F_Pickles_P_2": {
+        "prompt": "What type of fruit can be found growing on the trees?\n\nA. Apples\nB. Oranges\nC. Bananas\nD. Pears",
+        "response": "none",
+        "timestamp": "2025-11-17T09:36:41.647110",
+        "annotated_by": "User 5",
+        "original_file_path": "/project/3dllms/melgin/datasets/GIW/giw529subcat/Pickles/04_18_2024_W_F_Pickles_P_2.ply",
+        "dataset": "GIW529_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Pickles@04_19_2024_W_F_Pickles_P_2": {
+        "prompt": "What type of motor is used in the scene?\n\nA. Electric motor\nB. Internal combustion engine\nC. Stepper motor\nD. Linear motor",
+        "response": "none",
+        "timestamp": "2025-11-17T09:37:05.306546",
+        "annotated_by": "User 5",
+        "original_file_path": "/project/3dllms/melgin/datasets/GIW/giw529subcat/Pickles/04_19_2024_W_F_Pickles_P_2.ply",
+        "dataset": "GIW529_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Pineapples@04_18_2024_W_F_Pineapples1_F_1": {
+        "prompt": "What kind of ladder is depicted in the scene?\n\nA. Step ladder\nB. Extension ladder\nC. Folding ladder\nD. Rope ladder",
+        "response": "none",
+        "timestamp": "2025-11-17T09:37:32.724895",
+        "annotated_by": "User 5",
+        "original_file_path": "/project/3dllms/melgin/datasets/GIW/giw529subcat/Pineapples/04_18_2024_W_F_Pineapples1_F_1.ply",
+        "dataset": "GIW529_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Pineapples@04_19_2024_W4_F_Pineapples1_F_1": {
+        "prompt": "What type of vehicle is parked nearby?\n\nA. Sports car\nB. Motorcycle\nC. Bicycle\nD. Truck",
+        "response": "none",
+        "timestamp": "2025-11-17T09:37:51.701918",
+        "annotated_by": "User 5",
+        "original_file_path": "/project/3dllms/melgin/datasets/GIW/giw529subcat/Pineapples/04_19_2024_W4_F_Pineapples1_F_1.ply",
+        "dataset": "GIW529_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Plantains@04_19_2024_W4_F_Plantains1_F_1": {
+        "prompt": "What type of chair is located next to the table?\n\nA. Lounge chair\nB. Rocking chair\nC. Dining chair\nD. Armchair",
+        "response": "none",
+        "timestamp": "2025-11-17T09:38:10.865278",
+        "annotated_by": "User 5",
+        "original_file_path": "/project/3dllms/melgin/datasets/GIW/giw529subcat/Plantains/04_19_2024_W4_F_Plantains1_F_1.ply",
+        "dataset": "GIW529_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Plums@04_19_2024_W4_F_Plums1_F_1": {
+        "prompt": "What is the color of the sofa?\n\nA. Green\nB. Black\nC. Beige\nD. Red",
+        "response": "None",
+        "timestamp": "2025-11-17T12:23:53.386602",
+        "annotated_by": "User 3",
+        "original_file_path": "/project/3dllms/melgin/datasets/GIW/giw529subcat/Plums/04_19_2024_W4_F_Plums1_F_1.ply",
+        "dataset": "GIW529_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Potatoes@04_18_2024_W3_F_Potatoes1_V_1": {
+        "prompt": "What is the size of the table in the scene?\n\nA. Small\nB. Medium\nC. Large\nD. Extra large",
+        "response": "none",
+        "timestamp": "2025-11-17T09:38:44.673549",
+        "annotated_by": "User 5",
+        "original_file_path": "/project/3dllms/melgin/datasets/GIW/giw529subcat/Potatoes/04_18_2024_W3_F_Potatoes1_V_1.ply",
+        "dataset": "GIW529_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Potatoes@04_18_2024_W3_F_Potatoes2_V_1": {
+        "prompt": "What type of vase is displayed next to the onions?\n\nA. Glass vase\nB. Ceramic vase\nC. Plastic vase\nD. Wooden vase",
+        "response": "none",
+        "timestamp": "2025-11-17T09:39:09.213349",
+        "annotated_by": "User 5",
+        "original_file_path": "/project/3dllms/melgin/datasets/GIW/giw529subcat/Potatoes/04_18_2024_W3_F_Potatoes2_V_1.ply",
+        "dataset": "GIW529_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Potatoes@04_19_2024_W4_F_Potatoes1_V_1": {
+        "prompt": "What flavor is the ice cream?\n\nA. Chocolate\nB. Vanilla\nC. Strawberry\nD. Mint",
+        "response": "none",
+        "timestamp": "2025-11-17T09:39:34.229006",
+        "annotated_by": "User 5",
+        "original_file_path": "/project/3dllms/melgin/datasets/GIW/giw529subcat/Potatoes/04_19_2024_W4_F_Potatoes1_V_1.ply",
+        "dataset": "GIW529_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Pringles@04_18_2024_W3_F_Pringles_P_2": {
+        "prompt": "What type of lighting is used in the scene?\n\nA. Fluorescent lights\nB. Pendant lights\nC. Chandeliers\nD. LED strips",
+        "response": "None",
+        "timestamp": "2025-11-17T12:24:31.810181",
+        "annotated_by": "User 3",
+        "original_file_path": "/project/3dllms/melgin/datasets/GIW/giw529subcat/Pringles/04_18_2024_W3_F_Pringles_P_2.ply",
+        "dataset": "GIW529_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Radish@03_21_2024_W_L_Radish_V_2": {
+        "prompt": "What flavor is typically associated with the clouds in the sky?\n\nA. Vanilla\nB. Chocolate\nC. Strawberry\nD. Mint",
+        "response": "None",
+        "timestamp": "2025-11-17T12:25:06.042688",
+        "annotated_by": "User 3",
+        "original_file_path": "/project/3dllms/melgin/datasets/GIW/giw529subcat/Radish/03_21_2024_W_L_Radish_V_2.ply",
+        "dataset": "GIW529_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Ranch@04_18_2024_W_F_Ranch_P_2": {
+        "prompt": "What type of color scheme dominates the scene?\n\nA. Monochromatic\nB. Complementary\nC. Analogous\nD. Triadic",
+        "response": "none",
+        "timestamp": "2025-11-17T09:39:56.834820",
+        "annotated_by": "User 5",
+        "original_file_path": "/project/3dllms/melgin/datasets/GIW/giw529subcat/Ranch/04_18_2024_W_F_Ranch_P_2.ply",
+        "dataset": "GIW529_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Ranch@04_19_2024_W_F_Ranch_P_2": {
+        "prompt": "What type of chair is in the scene?\n\nA. Armchair\nB. Recliner\nC. Bean bag\nD. Dining chair",
+        "response": "none",
+        "timestamp": "2025-11-17T09:40:23.798182",
+        "annotated_by": "User 5",
+        "original_file_path": "/project/3dllms/melgin/datasets/GIW/giw529subcat/Ranch/04_19_2024_W_F_Ranch_P_2.ply",
+        "dataset": "GIW529_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Random@04_18_2024_W_F_Doritos_P_3": {
+        "prompt": "What is the size of the table in the center of the room?\n\nA. Small\nB. Medium\nC. Large\nD. Extra large",
+        "response": "none",
+        "timestamp": "2025-11-17T09:40:49.117105",
+        "annotated_by": "User 5",
+        "original_file_path": "/project/3dllms/melgin/datasets/GIW/giw529subcat/Random/04_18_2024_W_F_Doritos_P_3.ply",
+        "dataset": "GIW529_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Random@04_18_2024_W_F_MacAndCheese1_P_1": {
+        "prompt": "What is the height of the building?\n\nA. Ten stories\nB. Fifteen stories\nC. Twenty stories\nD. Five stories",
+        "response": "none",
+        "timestamp": "2025-11-17T09:41:07.566975",
+        "annotated_by": "User 5",
+        "original_file_path": "/project/3dllms/melgin/datasets/GIW/giw529subcat/Random/04_18_2024_W_F_MacAndCheese1_P_1.ply",
+        "dataset": "GIW529_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Random@04_18_2024_W_F_Mustard_P_2": {
+        "prompt": "What type of lamp is featured in the scene?\n\nA. Floor lamp\nB. Table lamp\nC. Pendant lamp\nD. Wall lamp",
+        "response": "none",
+        "timestamp": "2025-11-17T09:41:31.171014",
+        "annotated_by": "User 5",
+        "original_file_path": "/project/3dllms/melgin/datasets/GIW/giw529subcat/Random/04_18_2024_W_F_Mustard_P_2.ply",
+        "dataset": "GIW529_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Random@04_18_2024_W_F_Random_P_3": {
+        "prompt": "What type of furniture can be found in the living room?\n\nA. Sofa\nB. Coffee Table\nC. Bookshelf\nD. Armchair",
+        "response": "none",
+        "timestamp": "2025-11-17T09:42:08.403619",
+        "annotated_by": "User 5",
+        "original_file_path": "/project/3dllms/melgin/datasets/GIW/giw529subcat/Random/04_18_2024_W_F_Random_P_3.ply",
+        "dataset": "GIW529_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Random@04_18_2024_W_F_Tortillas1_P_1": {
+        "prompt": "What type of sculpture is located in the room?\n\nA. Bronze Statue\nB. Marble Bust\nC. Wooden Totem\nD. Stone Obelisk",
+        "response": "none",
+        "timestamp": "2025-11-17T09:42:42.330876",
+        "annotated_by": "User 5",
+        "original_file_path": "/project/3dllms/melgin/datasets/GIW/giw529subcat/Random/04_18_2024_W_F_Tortillas1_P_1.ply",
+        "dataset": "GIW529_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Random@04_19_2024_W4_F_MixedNuts_P_3": {
+        "prompt": "What type of chair is used in the kitchen?\n\nA. Bar stool\nB. Recliner\nC. Dining chair\nD. Armchair",
+        "response": "none",
+        "timestamp": "2025-11-17T09:43:02.784350",
+        "annotated_by": "User 5",
+        "original_file_path": "/project/3dllms/melgin/datasets/GIW/giw529subcat/Random/04_19_2024_W4_F_MixedNuts_P_3.ply",
+        "dataset": "GIW529_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Salsa@04_18_2024_W3_F_Salsa1_P_1": {
+        "prompt": "What is the color of the curtains in the room?\n\nA. Green\nB. Red\nC. Blue\nD. Yellow",
+        "response": "none",
+        "timestamp": "2025-11-17T09:43:28.863888",
+        "annotated_by": "User 5",
+        "original_file_path": "/project/3dllms/melgin/datasets/GIW/giw529subcat/Salsa/04_18_2024_W3_F_Salsa1_P_1.ply",
+        "dataset": "GIW529_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Salsa@04_19_2024_W4_F_Salsa_P_3": {
+        "prompt": "What type of fabric is used for the curtains?\n\nA. Silk\nB. Cotton\nC. Velvet\nD. Linen",
+        "response": "none",
+        "timestamp": "2025-11-17T09:43:43.092762",
+        "annotated_by": "User 5",
+        "original_file_path": "/project/3dllms/melgin/datasets/GIW/giw529subcat/Salsa/04_19_2024_W4_F_Salsa_P_3.ply",
+        "dataset": "GIW529_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Sauce@04_19_2024_S2_F_Sauce1_P_1": {
+        "prompt": "What type of chair is featured in the scene?\n\nA. Armchair\nB. Recliner\nC. Barstool\nD. Lounge chair",
+        "response": "none",
+        "timestamp": "2025-11-17T09:44:22.874724",
+        "annotated_by": "User 5",
+        "original_file_path": "/project/3dllms/melgin/datasets/GIW/giw529subcat/Sauce/04_19_2024_S2_F_Sauce1_P_1.ply",
+        "dataset": "GIW529_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Sauce@04_19_2024_S2_F_Sauce_P_2": {
+        "prompt": "What type of chair is situated next to the condiment bottles?\n\nA. Recliner\nB. Office chair\nC. Dining chair\nD. Rocking chair",
+        "response": "NONE",
+        "timestamp": "2025-11-17T11:48:09.637974",
+        "annotated_by": "User 4",
+        "original_file_path": "/project/3dllms/melgin/datasets/GIW/giw529subcat/Sauce/04_19_2024_S2_F_Sauce_P_2.ply",
+        "dataset": "GIW529_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Sauce@04_19_2024_W4_F_Sauce_P_3": {
+        "prompt": "What type of vehicle is parked outside?\n\nA. Sedan\nB. Pickup truck\nC. Motorcycle\nD. Minivan",
+        "response": "NONE",
+        "timestamp": "2025-11-17T11:43:51.012935",
+        "annotated_by": "User 4",
+        "original_file_path": "/project/3dllms/melgin/datasets/GIW/giw529subcat/Sauce/04_19_2024_W4_F_Sauce_P_3.ply",
+        "dataset": "GIW529_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Snacks@04_18_2024_W2_F_Snacks_P_2": {
+        "prompt": "What is the height of the bookshelf?\n\nA. Six feet\nB. Eight feet\nC. Five feet\nD. Ten feet",
+        "response": "NONE",
+        "timestamp": "2025-11-17T11:45:02.583970",
+        "annotated_by": "User 4",
+        "original_file_path": "/project/3dllms/melgin/datasets/GIW/giw529subcat/Snacks/04_18_2024_W2_F_Snacks_P_2.ply",
+        "dataset": "GIW529_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Soup@04_19_2024_W4_F_Soup_P_3": {
+        "prompt": "What type of ceiling light is installed in the room?\n\nA. Chandelier\nB. Pendant light\nC. Recessed light\nD. Floor lamp",
+        "response": "NONE",
+        "timestamp": "2025-11-17T11:48:53.066215",
+        "annotated_by": "User 4",
+        "original_file_path": "/project/3dllms/melgin/datasets/GIW/giw529subcat/Soup/04_19_2024_W4_F_Soup_P_3.ply",
+        "dataset": "GIW529_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Spices@04_18_2024_W_F_Spices_P_3": {
+        "prompt": "What type of painting is hung on the wall?\n\nA. Landscape\nB. Portrait\nC. Abstract\nD. Still Life",
+        "response": "NONE",
+        "timestamp": "2025-11-17T11:49:58.443471",
+        "annotated_by": "User 4",
+        "original_file_path": "/project/3dllms/melgin/datasets/GIW/giw529subcat/Spices/04_18_2024_W_F_Spices_P_3.ply",
+        "dataset": "GIW529_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Spices@04_19_2024_W_F_Spices_P_2": {
+        "prompt": "What style of chair is located beside the containers?\n\nA. Recliner\nB. Folding\nC. Barstool\nD. Rocking",
+        "response": "NONE",
+        "timestamp": "2025-11-17T11:51:26.573620",
+        "annotated_by": "User 4",
+        "original_file_path": "/project/3dllms/melgin/datasets/GIW/giw529subcat/Spices/04_19_2024_W_F_Spices_P_2.ply",
+        "dataset": "GIW529_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Sugar@04_18_2024_W_F_Sugar_P_3": {
+        "prompt": "What pattern is used on the wallpaper?\n\nA. Floral\nB. Geometric\nC. Striped\nD. Plaid",
+        "response": "NONE",
+        "timestamp": "2025-11-17T11:52:11.818899",
+        "annotated_by": "User 4",
+        "original_file_path": "/project/3dllms/melgin/datasets/GIW/giw529subcat/Sugar/04_18_2024_W_F_Sugar_P_3.ply",
+        "dataset": "GIW529_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Sugar@04_19_2024_W_F_Sugar_P_2": {
+        "prompt": "What is the shape of the dining table in the scene?\n\nA. Oval\nB. Rectangular\nC. Circular\nD. Square",
+        "response": "NONE",
+        "timestamp": "2025-11-17T11:52:58.925958",
+        "annotated_by": "User 4",
+        "original_file_path": "/project/3dllms/melgin/datasets/GIW/giw529subcat/Sugar/04_19_2024_W_F_Sugar_P_2.ply",
+        "dataset": "GIW529_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Syrup@03_21_2024_W_L_Syrup1_P_1": {
+        "prompt": "What style of artwork is displayed on the walls?\n\nA. Abstract Expressionism\nB. Impressionism\nC. Cubism\nD. Surrealism",
+        "response": "None of these",
+        "timestamp": "2025-11-26T06:54:29.385289",
+        "annotated_by": "User 1",
+        "original_file_path": "/project/3dllms/melgin/datasets/GIW/giw529subcat/Syrup/03_21_2024_W_L_Syrup1_P_1.ply",
+        "dataset": "GIW529_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Tomato@04_19_2024_W4_F_CanTomato_P_3": {
+        "prompt": "What type of chair is present in the scene?\n\nA. Recliner\nB. Dining chair\nC. Office chair\nD. Rocking chair",
+        "response": "NONE",
+        "timestamp": "2025-11-17T11:53:39.563653",
+        "annotated_by": "User 4",
+        "original_file_path": "/project/3dllms/melgin/datasets/GIW/giw529subcat/Tomato/04_19_2024_W4_F_CanTomato_P_3.ply",
+        "dataset": "GIW529_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Tomatoes@04_18_2024_W_F_Tomatoes2_F_1": {
+        "prompt": "What type of furniture is located in the room?\n\nA. Sofa\nB. Dining table\nC. Bookshelf\nD. Coffee table",
+        "response": "NONE",
+        "timestamp": "2025-11-17T11:55:07.667141",
+        "annotated_by": "User 4",
+        "original_file_path": "/project/3dllms/melgin/datasets/GIW/giw529subcat/Tomatoes/04_18_2024_W_F_Tomatoes2_F_1.ply",
+        "dataset": "GIW529_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Tomatoes@04_19_2024_S2_F_Tomatoes1_F_1": {
+        "prompt": "What is the size of the television in the kitchen?\n\nA. 32 inches\nB. 55 inches\nC. 75 inches\nD. 42 inches",
+        "response": "NONE",
+        "timestamp": "2025-11-17T11:55:51.949008",
+        "annotated_by": "User 4",
+        "original_file_path": "/project/3dllms/melgin/datasets/GIW/giw529subcat/Tomatoes/04_19_2024_S2_F_Tomatoes1_F_1.ply",
+        "dataset": "GIW529_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Tomatoes@04_19_2024_W4_F_Tomatoes1_F_1": {
+        "prompt": "What is the size of the television in the room?\n\nA. 32 inches\nB. 55 inches\nC. 75 inches\nD. 20 inches",
+        "response": "None",
+        "timestamp": "2025-11-17T11:56:12.909386",
+        "annotated_by": "User 3",
+        "original_file_path": "/project/3dllms/melgin/datasets/GIW/giw529subcat/Tomatoes/04_19_2024_W4_F_Tomatoes1_F_1.ply",
+        "dataset": "GIW529_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Tomatoes@04_19_2024_W4_F_Tomatoes2_F_1": {
+        "prompt": "What type of chair is situated next to the mound?\n\nA. Recliner\nB. Dining chair\nC. Bean bag\nD. Rocking chair",
+        "response": "NONE",
+        "timestamp": "2025-11-17T11:56:28.902093",
+        "annotated_by": "User 4",
+        "original_file_path": "/project/3dllms/melgin/datasets/GIW/giw529subcat/Tomatoes/04_19_2024_W4_F_Tomatoes2_F_1.ply",
+        "dataset": "GIW529_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Tostitos@04_18_2024_W_F_Tostitos2_P_3": {
+        "prompt": "What type of vehicle is parked outside?\n\nA. Sedan\nB. SUV\nC. Coupe\nD. Hatchback",
+        "response": "None",
+        "timestamp": "2025-11-17T12:25:39.597621",
+        "annotated_by": "User 3",
+        "original_file_path": "/project/3dllms/melgin/datasets/GIW/giw529subcat/Tostitos/04_18_2024_W_F_Tostitos2_P_3.ply",
+        "dataset": "GIW529_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "VariousVeggies@04_04_2024_W_C_Various_P_2": {
+        "prompt": "What shape are the tables in the scene?\n\nA. Circular\nB. Square\nC. Triangular\nD. Oval",
+        "response": "None",
+        "timestamp": "2025-11-17T11:57:13.126159",
+        "annotated_by": "User 3",
+        "original_file_path": "/project/3dllms/melgin/datasets/GIW/giw529subcat/VariousVeggies/04_04_2024_W_C_Various_P_2.ply",
+        "dataset": "GIW529_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "VariousVeggies@04_18_2024_W_F_Various_P_2": {
+        "prompt": "What shape is the table in the scene?\n\nA. Round\nB. Oval\nC. Square\nD. Rectangular",
+        "response": "NONE",
+        "timestamp": "2025-11-17T11:57:11.289554",
+        "annotated_by": "User 4",
+        "original_file_path": "/project/3dllms/melgin/datasets/GIW/giw529subcat/VariousVeggies/04_18_2024_W_F_Various_P_2.ply",
+        "dataset": "GIW529_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    },
+    "Vinegar@04_19_2024_S2_F_Vinegar_P_3": {
+        "prompt": "What shape is the table in the scene?\n\nA. Round\nB. Square\nC. Rectangular\nD. Oval",
+        "response": "NONE",
+        "timestamp": "2025-11-17T11:57:46.606177",
+        "annotated_by": "User 4",
+        "original_file_path": "/project/3dllms/melgin/datasets/GIW/giw529subcat/Vinegar/04_19_2024_S2_F_Vinegar_P_3.ply",
+        "dataset": "GIW529_test",
+        "correct_answer": "The question is unanswerable, or none of the above.",
+        "score": "T"
+    }
+}
