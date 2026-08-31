@@ -62,22 +62,22 @@ Compared to base: val unchanged (symlink); the four train JSONs grow by the same
      - Crops3D / GIW: `{id}/{scene}.ply` → `{id}@{scene}.ply`
      - 3D-FRONT: `{uuid}/{Room}/{Room}.ply` → `{uuid}@{Room}.ply`
 
-3. **Append UPD train samples** into **all four** train JSONs (same new samples in each):
-   - `Objaverse/PointLLM_complex_50k_brief_40k_all_90k.json`
-   - `T3D/stage_1/brief_1M_caption.json`
-   - `T3D/stage_2/stage_2_data_210k.json`
-   - `T3D/stage_2/stage_2_data_5M.json`
+3. **Append UPD/CoT train samples**
 
-   Prefer **append at end** (preserves base prefix; modern GIW style). Do **not** touch val JSON.
+   S1/S2 (`brief_1M_caption.json`, `stage_2_data_210k.json`, `stage_2_data_5M.json`) are **caption + `text_encoder`**. Rows need a `caption` field; CoT/`conversations`-only QA **must not** go here (S1 crashes with `UnboundLocalError` on `image`; S1 `model_max_length` is 150). Leave those three as **base copies** unless the extras are true captions.
+
+   S3 (`Objaverse/PointLLM_complex_50k_brief_40k_all_90k.json`) is **`pc_encoder`**. Append CoT/UPD QA at end. Prepend `<point>\n` on human turns that lack `<point>`/`<image>` so PC tokens fuse.
+
+   Do **not** touch val JSON.
 
    Rules:
    - **Required field:** `object_id` (loader looks up `./dataset/Objaverse/8192_npy` via this). Extra fields (`id`, `point`, `caption`, `conversation_type`, …) OK.
-   - `conversations`: list of `{from: human|gpt, value: ...}`. Wording is per-experiment. No required `<point>` unless the experiment says so.
+   - `conversations`: list of `{from: human|gpt, value: ...}`. Wording is per-experiment.
    - Train list only. Append ready-made samples as-is (still train-filtered). Do not drop texts to unique-ify.
    - One-to-many common: many texts → one cloud. Unique `.ply` count ≪ JSON append count is OK.
 
 ### Dataset sanity checks
-1. Unique `@` ids among new JSON samples == new `8192_npy/*.ply` symlinks (JSON count may be larger if many texts/cloud). All four train JSONs share the same append count.
+1. Unique `@` ids among new **S3** JSON samples == new `8192_npy/*.ply` symlinks (JSON count may be larger if many texts/cloud). S1/S2 stay at base size when extras are CoT QA.
 2. Val JSON resolves to base (symlink OK) and is unmodified.
 3. Spot-check laundered / `cp -as` links (`readlink` / `test -e`), especially 3D-FRONT triple-path targets. Confirm base `*_8192.npy` entries are symlinks, not duplicated files.
 
