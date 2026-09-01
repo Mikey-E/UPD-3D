@@ -66,7 +66,7 @@ Compared to base: val unchanged (symlink); the four train JSONs grow by the same
 
    S1/S2 (`brief_1M_caption.json`, `stage_2_data_210k.json`, `stage_2_data_5M.json`) are **caption + `text_encoder`**. Rows need a `caption` field; CoT/`conversations`-only QA **must not** go here (S1 crashes with `UnboundLocalError` on `image`; S1 `model_max_length` is 150). Leave those three as **base copies** unless the extras are true captions.
 
-   S3 (`Objaverse/PointLLM_complex_50k_brief_40k_all_90k.json`) is **`pc_encoder`**. Append CoT/UPD QA at end. Prepend `<point>\n` on human turns that lack `<point>`/`<image>` so PC tokens fuse.
+   S3 (`Objaverse/PointLLM_complex_50k_brief_40k_all_90k.json`) is **`pc_encoder`**. Append CoT/UPD QA at end. Prepend `<point>\n` on the **first** human of each **appended** row if it lacks `<point>`/`<image>`. Do **not** rewrite the base 90k — stock multi-turn QA has `<point>` on the first human only; adding it to follow-ups yields `IndexError` (more `<point>` tokens than PCs in the batch).
 
    Do **not** touch val JSON.
 
