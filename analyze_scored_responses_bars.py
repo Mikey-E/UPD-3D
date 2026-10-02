@@ -107,38 +107,41 @@ def main():
                         dual_accuracies[json_file] = dual_accuracies.get(json_file, 0) + 1
     plt.figure(figsize=(10, 6))
     bar_height = 0.35
-    y = list(range(len(standard_upd_accuracies)))  # y positions for bars
-    
+    y = list(range(len(standard_upd_accuracies)))  # y positions for category pairs
+    # invert_yaxis() puts the smaller y at the top of the figure. Dual uses that
+    # smaller y so the red bar (or "Dual Acc N/A") is above the blue bar in
+    # every category, including after the axis flip.
+    dual_y = y
+    standard_y = [yi + bar_height for yi in y]
+
     # Plot standard accuracies as horizontal bars
     standard_values = list(standard_upd_accuracies.values())
-    plt.barh(y, standard_values, height=bar_height, label='UPD (or Standard) Accuracy', color='blue')
+    plt.barh(standard_y, standard_values, height=bar_height, label='UPD (or Standard) Accuracy', color='blue')
 
     # Add raw and percent labels for standard accuracies with larger font size
     for i, (key, value) in enumerate(standard_upd_accuracies.items()):
         if value == 0:
-            plt.text(value, y[i], "0", va='center', ha='left', rotation=0, fontsize=bar_fontsize)
+            plt.text(value, standard_y[i], "0", va='center', ha='left', rotation=0, fontsize=bar_fontsize)
         else:
             total = len(results[key])
             perc = (value / total) * 100
-            plt.text(value, y[i], f"{value} ({perc:.1f}%)", va='center', ha='left', rotation=0, fontsize=bar_fontsize)
-    
-    # Plot dual accuracies as horizontal bars (increased thickness)
-    if dual_accuracies:
-        dual_values = [dual_accuracies.get(k, 0) for k in standard_upd_accuracies.keys()]
-        plt.barh([yi + bar_height for yi in y], dual_values, height=bar_height, label='Dual Accuracy',
-                 color='red')
-    
-        # Add raw and percent labels above dual accuracy bars with larger font size
-        for i, (key, value) in enumerate(zip(standard_upd_accuracies.keys(), dual_values)):
-            if "standard" in key or "open_ended" in key:
-                plt.text(value, y[i] + bar_height, "Dual Acc N/A", va='center', ha='left', rotation=0, fontsize=bar_fontsize)
-            else:
-                if value == 0:
-                    plt.text(value, y[i] + bar_height, "0", va='center', ha='left', rotation=0, fontsize=bar_fontsize)
-                else:
-                    total = len(results[key])
-                    perc = (value / total) * 100
-                    plt.text(value, y[i] + bar_height, f"{value} ({perc:.1f}%)", va='center', ha='left', rotation=0, fontsize=bar_fontsize)
+            plt.text(value, standard_y[i], f"{value} ({perc:.1f}%)", va='center', ha='left', rotation=0, fontsize=bar_fontsize)
+
+    # Plot dual accuracies above the blue bars. Categories with no dual score
+    # still get the red slot, labeled "Dual Acc N/A".
+    dual_values = [dual_accuracies.get(k, 0) for k in standard_upd_accuracies.keys()]
+    plt.barh(dual_y, dual_values, height=bar_height, label='Dual Accuracy', color='red')
+
+    for i, (key, value) in enumerate(zip(standard_upd_accuracies.keys(), dual_values)):
+        na_dual = (not standard_file) or ("standard" in key) or ("open_ended" in key)
+        if na_dual:
+            plt.text(0, dual_y[i], "Dual Acc N/A", va='center', ha='left', rotation=0, fontsize=bar_fontsize)
+        elif value == 0:
+            plt.text(value, dual_y[i], "0", va='center', ha='left', rotation=0, fontsize=bar_fontsize)
+        else:
+            total = len(results[key])
+            perc = (value / total) * 100
+            plt.text(value, dual_y[i], f"{value} ({perc:.1f}%)", va='center', ha='left', rotation=0, fontsize=bar_fontsize)
     
     plt.xlabel("Test Samples Graded Correct", fontsize=tick_fontsize)
     plt.title(args.title, fontsize=title_fontsize)
